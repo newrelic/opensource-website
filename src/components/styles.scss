@@ -44,3 +44,72 @@ body {
 a {
   text-decoration: none;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: var(--color-neutrals-900);
+}
+
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 8px;
+}
+
+
+/*-- Base styles --*/
+
+.primary-content {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  margin: 0 auto;
+
+  p {
+    color: var(--color-neutrals-700);
+    font-size: 14px;
+    line-height: 23px;
+
+  }
+  
+  a {
+    color: var(--color-brand-800);
+    border-bottom: 1px dotted var(--color-brand-800);
+  }
+  
+  blockquote {
+    padding: 14px 30px;
+    background-color: var(--color-neutrals-100);
+    font-style: italic;
+    font-size: 14px;
+    color: var(--color-neutrals-700);
+    opacity: .8;
+    line-height: 23px;
+
+    cite {
+      display: block;
+      margin-top: 4px;
+      text-transform: uppercase;
+      letter-spacing: .03em;
+      font-weight: 600;
+      font-size: 11px;
+      font-style: normal;
+
+      &:before {
+        content: "— "
+      }
+    }
+  }
+}
+
+.primary-content-main {
+  width: 69.38775510204081%;
+}
+
+.primary-content-aside {
+  width: 28.57142857142857%;
+}
