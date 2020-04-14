@@ -1,0 +1,113 @@
+.primary-header-container {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.primary-header-logo {
+  display: block;
+  width: 247px;
+  height: 53px;
+  background-image: url('../images/logo.svg');
+  border: grey;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.primary-header-nav-links {
+  display: flex;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.primary-header-nav-link-item {
+  margin-right: 24px;
+  font-weight: 600;
+  color: var(--color-neutrals-900);
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.primary-header-nav-link {
+  color: var(--color-neutrals-900);
+}
+
+.mobile-menu-button {
+  width: 26px;
+  height: 19px;
+  text-indent: 200%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+  background-image: url('../images/icon-menu.svg');
+}
+
+.primary-header-mobile-nav {
+  display: none;
+}
+
+.primary-header-mobile-nav-links {
+  display: none;
+}
+
+@media screen and (max-width: 1240px) {
+  .primary-header-container {
+    padding: 20px 28px;
+  }
+}
+
+@media screen and (max-width: 728px) {
+  .primary-header-logo {
+    width: 160px;
+    height: 34px;
+    background-size: 160px 34px;
+    z-index: 100;
+  }
+
+  .primary-header-nav-links {
+    display: none;
+  }
+
+  .primary-header-mobile-nav {
+    display: block;
+  }
+
+  .mobile-menu-active {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+
+    .mobile-menu-button {
+      width: 20.5px;
+      height: 20.5px;
+      background-size: 20.51px 20.51px;
+      position: absolute;
+      top: 28px;
+      right: 32px;
+      background-image: url('../images/icon-menu-close.svg');
+    }
+
+    .primary-header-mobile-nav-links {
+      display: block;
+      list-style-type: none;
+      margin-top: 40px;
+      padding: 28px;
+      line-height: 50px;
+    }
+
+    .primary-header-mobile-nav-links .primary-header-nav-link-item {
+      font-size: 24px;
+      font-weight: 400;
+    }
+  }
+}

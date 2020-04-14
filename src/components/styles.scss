@@ -1,0 +1,43 @@
+@import '../components/Header.scss';
+@import '../components/PageHeading.scss';
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url("https://use.typekit.net/pnb6qnj.css");
+@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
+
+
+/*-- CSS Variables --*/
+:root {
+  --color-neutrals-050: #fafbfb;
+  --color-neutrals-100: #f4f5f5;
+  --color-neutrals-200: #edeeee;
+  --color-neutrals-300: #e3e4e4;
+  --color-neutrals-400: #d5d7d7;
+  --color-neutrals-500: #b9bdbd;
+  --color-neutrals-600: #8e9494;
+  --color-neutrals-700: #464e4e;
+  --color-neutrals-800: #2a3434;
+  --color-neutrals-900: #000d0d;
+
+  --color-brand-050: #f7ffff;
+  --color-brand-100: #edffff;
+  --color-brand-400: #70ccd2;
+  --color-brand-800: #007e8a;
+  --color-brand-900: #005054;
+
+  --primary-font-family: 'open sans', sans-serif;
+  --secondary-font-family: 'effra', sans-serif;
+  --tertiary-font-family: 'Ovo', serif;
+}
+
+/*-------------------------*/
+/*-- CSS Reset stuff --*/
+/*-------------------------*/
+body {
+  margin: 0;
+  font-family: var(--primary-font-family);
+  color: #464e4e;
+}
+
+a {
+  text-decoration: none;
+}
