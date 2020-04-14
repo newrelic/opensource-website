@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className="layout-container">
       <Header />
       <div
         style={{
@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
       </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

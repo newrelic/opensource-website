@@ -22,14 +22,15 @@ const Footer = () => {
 
   return (
     <footer className="footer-container">
-      <div className="footer-logo-container">
-        <a href="/" className="footer-logo">
-          New Relic Open Source
-        </a>
-        <small className="footer-legal">Copyright &copy; {new Date().getFullYear()} New Relic Inc.</small>
+      <div className="footer-contents">
+        <div className="footer-logo-container">
+          <a href="/" className="footer-logo">
+            New Relic Open Source
+          </a>
+          <small className="footer-legal">Copyright &copy; {new Date().getFullYear()} New Relic Inc.</small>
+        </div>
+        <ul className="footer-nav-links">{renderNavLinks()}</ul>
       </div>
-
-      <ul className="footer-nav-links">{renderNavLinks()}</ul>
     </footer>
   );
 };

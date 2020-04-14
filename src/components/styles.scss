@@ -1,4 +1,5 @@
 @import '../components/Header.scss';
+@import '../components/Footer.scss';
 @import '../components/PageHeading.scss';
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 @import url("https://use.typekit.net/pnb6qnj.css");
@@ -23,6 +24,8 @@
   --color-brand-400: #70ccd2;
   --color-brand-800: #007e8a;
   --color-brand-900: #005054;
+
+  --footer-text-color: #7DA5A8;
 
   --primary-font-family: 'open sans', sans-serif;
   --secondary-font-family: 'effra', sans-serif;
