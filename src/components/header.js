@@ -1,34 +1,12 @@
 import { Link } from "gatsby"
 import React, { useState } from "react";
+import navLinks from '../data/navigation.json'
 
 const Header = () => {
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
 
-  const navLinks = [
-    {
-      label: "Home",
-      link: "/",
-      order: 0
-    },
-    {
-      label: "Our Contributions",
-      link: "/contributions",
-      order: 1
-    },
-    {
-      label: "Explore Projects",
-      link: "/explore-projects",
-      order: 2
-    },
-    {
-      label: "Blog",
-      link: "/blog",
-      order: 3
-    }
-  ];
-
   const renderNavLinks = () => {
-    const sortedNavLinks = navLinks.sort((a, b) =>
+    const sortedNavLinks = navLinks.navigation.sort((a, b) =>
       a.order > b.order ? 1 : -1
     );
 
