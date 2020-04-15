@@ -5,7 +5,16 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageHeading from "../components/PageHeading"
 import ContributorListing from '../components/ContributorListing'
+
 import pageHeadingIconPlaceholder from '../images/page-heading-icon-placeholder.jpg'
+import openIssueIcon from '../images/icon-open-issue.svg'
+import chatIcon from '../images/icon-chat.svg'
+import tagIcon from '../images/icon-tag.svg'
+import commitIcon from '../images/icon-commit.svg'
+import prIcon from '../images/icon-pr.svg'
+import contributorIcon from '../images/icon-contributor.svg'
+import openIssueGreyIcon from '../images/icon-open-issue-grey.svg'
+
 import project from '../data/projects/nr1-workload-geoops/project.json'
 
 const projectPage = () => {
@@ -104,7 +113,74 @@ const projectPage = () => {
           <ContributorListing data={contributors} />
         </main>
         <aside className="primary-content-aside">
-          Sidebar content
+          <div className="call-to-action-container">
+            <div className="call-to-action-buttons">
+              <div className="call-to-action-buttons-container">
+                <button className="button-primary">Star</button>
+                <button className="button-secondary">View GitHub Repo</button>
+              </div>
+              <p>Need help with the project? <a href="#">Try the support thread</a></p>
+            </div>
+            <div className="call-to-action-category-specification">
+              <h5 className="call-to-action-category">New Relic One Category</h5>
+              <p className="call-to-action-description">
+                This code is a part of the New Relic One Catalog. It is available for installation and 
+                configuration via the New Relic One Homepage. You can install it via the Catalog 
+                launcher in New Relic One.
+              </p>
+            </div>
+          </div>
+
+          <h4>Screenshots</h4>
+          <img src="https://via.placeholder.com/280x168.png" alt="placeholder image"/>
+
+          <h4>Repo stats</h4>
+          <ul className="repo-stats">
+            <li className="repo-stat repo-stat-contributors">
+              <img src={contributorIcon} alt="contributor icon" className="repo-stat-icon" />
+              <span className="repo-stat-count">12</span>
+              <span className="repo-stat-label">Contributors</span>
+            </li>
+            <li className="repo-stat repo-stat-releases">
+              <img src={tagIcon} alt="release icon" className="repo-stat-icon" />
+              <span className="repo-stat-count">2</span>
+              <span className="repo-stat-label">Releases</span>
+            </li>
+            <li className="repo-stat repo-stat-commits">
+              <img src={commitIcon} alt="commit icon" className="repo-stat-icon" />
+              <span className="repo-stat-count">298</span>
+              <span className="repo-stat-label">Commits</span>
+            </li>
+            <li className="repo-stat repo-stat-pull-requests">
+              <img src={prIcon} alt="pull request icon" className="repo-stat-icon" />
+              <span className="repo-stat-count">2</span>
+              <span className="repo-stat-label">Open Pull Requests</span>
+            </li>
+            <li className="repo-stat repo-stat-issues">
+              <img src={openIssueGreyIcon} alt="open issue icon" className="repo-stat-icon" />
+              <span className="repo-stat-count">19</span>
+              <span className="repo-stat-label">Open Issues</span>
+            </li>
+          </ul>
+
+          <div className="aside-header-item">
+            <h4>Good first issues</h4>
+            <a href="#" className="aside-header-item-button">View all</a>
+          </div>
+
+          <div className="project-page-issue">
+            <div className="project-page-issue-header">
+              <img src={openIssueIcon} alt="Open Issue Icon" className="project-page-issue-header-icon"/>
+              <h5 className="project-page-issue-header-title">Issue title</h5>
+            </div>
+            <footer className="project-page-issue-footer">
+              <small className="project-page-issue-footer-meta">#126 opened on 2 Mar by breedx-nr</small>
+              <div className="project-page-issue-footer-discussion">
+                <img src={chatIcon} alt="Chat Icon" className="project-page-issue-footer-discussion-icon"/>
+                <span className="project-page-issue-footer-discussion-count">2</span>
+              </div>
+            </footer>
+          </div>
         </aside>
       </div>
     </Layout>

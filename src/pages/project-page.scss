@@ -1,0 +1,40 @@
+.repo-stats {
+  padding: 0;
+  list-style-type: none;
+}
+
+.repo-stat {
+  display: flex;
+  border-bottom: 1px solid var(--color-neutrals-100);
+  padding: 10px 0;
+  font-size: 14px;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+    border: none;
+  }
+}
+
+.repo-stat-icon {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.repo-stat-count {
+  margin-right: 8px;
+  background-color: var(--color-neutrals-100);
+  padding: 0px 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: var(--color-neutrals-700);
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.repo-stat-label {
+  color: var(--color-neutrals-700);
+}
