@@ -1,6 +1,7 @@
 @import '../components/Header.scss';
 @import '../components/Footer.scss';
 @import '../components/PageHeading.scss';
+@import '../components/ContributorListing.scss';
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 @import url("https://use.typekit.net/pnb6qnj.css");
 @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
@@ -82,13 +83,37 @@ h6 + p {
   }
   
   blockquote {
+    margin: 15px 0;
     padding: 14px 30px;
+    position: relative;
     background-color: var(--color-neutrals-100);
     font-style: italic;
     font-size: 14px;
     color: var(--color-neutrals-700);
     opacity: .8;
     line-height: 23px;
+
+    &:before,
+    &:after {
+      content: '"';
+      display: block;
+      width: 17.79px;
+      height: 14.59px;
+      position: absolute;
+      left: -9px;
+      top: 50%;
+      margin-top: - 7px;
+      background-image: url('../images/quote-left.svg');
+      text-indent: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+
+    &:after {
+      left: auto;
+      right: -9px;
+      transform: rotate(180deg);
+    }
 
     cite {
       display: block;
