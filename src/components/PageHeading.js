@@ -11,7 +11,7 @@ const PageHeading = props => {
   };
 
   return (
-    <div className="page-heading-container">
+    <div className={`page-heading-container ${props.hasSeparator ? "has-separator" : ''}`}>
       {props.icon ? (
         <div className="page-heading-icon-container">
           <img
@@ -38,7 +38,8 @@ PageHeading.propTypes = {
   title: PropTypes.string,
   subheader: PropTypes.string,
   icon: PropTypes.string,
-  tags: PropTypes.array
+  tags: PropTypes.array,
+  hasSeparator: PropTypes.bool
 };
 
 export default PageHeading;

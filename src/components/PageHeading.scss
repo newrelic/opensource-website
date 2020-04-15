@@ -1,10 +1,15 @@
 .page-heading-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+
+  &.has-separator {
+    border-bottom: 2px dotted var(--color-neutrals-200);
   }
+}
   
   .page-heading-icon {
     width: 88px;

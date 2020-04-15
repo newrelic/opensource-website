@@ -58,6 +58,7 @@ const projectPage = () => {
           subheader={project.description}
           icon={pageHeadingIconPlaceholder}
           tags={project.tags}
+          hasSeparator
         />
       <div className="primary-content">
         <main className="primary-content-main">
