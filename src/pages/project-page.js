@@ -66,13 +66,13 @@ const projectPage = () => (
 
         <h3>Top Contributors</h3>
         <p>
-        Thanks goes to these wonderful people <a href="https://allcontributors.org/docs/en/emoji-key">(emoji key)</a>:
+        Thanks goes to these wonderful people <Link to="https://allcontributors.org/docs/en/emoji-key">(emoji key)</Link>:
         </p>
         <ul className="contributors-container">
           <li>
             <img src="https://i.pravatar.cc/{size}" alt="avatar of" className="contributor-avatar"/>
-            <h4 className="contributor-name"></h4>
-            <h6 className="contributor-username"></h6>
+            <h4 className="contributor-name">Contributor Name</h4>
+            <h6 className="contributor-username">contributor33x0x0</h6>
             <ul className="contributor-roles-container">
               <li className="contributor-role"></li>
             </ul>

@@ -12,9 +12,9 @@ const Footer = () => {
     return sortedNavLinks.map(navItem => {
       return (
         <li className="footer-nav-link-item" key={navItem.order}>
-          <a href={navItem.link} className="footer-nav-link">
+          <Link to={navItem.link} className="footer-nav-link">
             {navItem.label}
-          </a>
+          </Link>
         </li>
       );
     });
@@ -24,9 +24,7 @@ const Footer = () => {
     <footer className="footer-container">
       <div className="footer-contents">
         <div className="footer-logo-container">
-          <a href="/" className="footer-logo">
-            New Relic Open Source
-          </a>
+          <Link to="/" className="footer-logo">New Relic Open Source</Link>
           <small className="footer-legal">Copyright &copy; {new Date().getFullYear()} New Relic Inc.</small>
         </div>
         <ul className="footer-nav-links">{renderNavLinks()}</ul>

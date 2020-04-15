@@ -13,9 +13,9 @@ const Header = () => {
     return sortedNavLinks.map(navItem => {
       return (
         <li className="primary-header-nav-link-item" key={navItem.order}>
-          <a href={navItem.link} className="primary-header-nav-link">
+          <Link to={navItem.link} className="primary-header-nav-link">
             {navItem.label}
-          </a>
+          </Link>
         </li>
       );
     });
