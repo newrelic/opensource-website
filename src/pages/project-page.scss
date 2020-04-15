@@ -38,3 +38,114 @@
 .repo-stat-label {
   color: var(--color-neutrals-700);
 }
+
+.call-to-action-buttons {
+  padding: 16px 16px 10px;
+  background-color: var(--color-neutrals-100);
+  border-radius: 5px 5px 0 0;
+}
+
+.call-to-action-buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+
+  button:first-child {
+    margin-right: 11px;
+  }
+}
+
+.call-to-action-support {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  color: var(--color-neutrals-600);
+}
+
+.call-to-action-category-specification {
+  padding: 16px 18px;
+  box-shadow: inset 0 0 0 3px var(--color-neutrals-100);
+  border-radius: 0 0 5px 5px;
+}
+
+.call-to-action-category {
+  margin: 0 0 4px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: .5px;
+
+  a {
+    border: none;
+  }
+}
+
+p.call-to-action-description {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 18px;
+  color: var(--color-neutrals-600);
+}
+
+.project-page-issue {
+  display: block;
+  margin-bottom: 12px;
+  box-shadow: inset 0 0 0 2px var(--color-neutrals-200);
+  border-radius: 4px;
+  border-bottom: none;
+}
+
+.project-page-issue-header {
+  display: flex;
+
+  padding: 8px 12px;
+}
+
+.project-page-issue-header-icon {
+  margin-right: 8px;
+}
+
+.project-page-issue-header-title {
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: var(--color-neutrals-800);
+}
+
+.project-page-issue-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 0 0 5px 5px;
+  background-color: var(--color-neutrals-200);
+}
+
+.project-page-issue-footer-meta {
+  font-size: 11px;
+  color: var(--color-neutrals-700);
+  opacity: .7;
+}
+
+.project-page-issue-footer-discussion {
+  display: flex;
+  align-items: center;
+}
+
+.project-page-issue-footer-discussion-icon {
+  margin-right: 4px;
+  position: relative;
+  top: 1px;
+  width: 12px;
+}
+
+.project-page-issue-footer-discussion-count {
+  font-size: 11px;
+  color: var(--color-neutrals-00);
+  font-weight: 600;
+  position: relative;
+  bottom: 1px;
+}
+

@@ -14,6 +14,7 @@ import commitIcon from '../images/icon-commit.svg'
 import prIcon from '../images/icon-pr.svg'
 import contributorIcon from '../images/icon-contributor.svg'
 import openIssueGreyIcon from '../images/icon-open-issue-grey.svg'
+import iconGitHubWhite from '../images/icon-github-white.svg'
 
 import project from '../data/projects/nr1-workload-geoops/project.json'
 
@@ -116,13 +117,13 @@ const projectPage = () => {
           <div className="call-to-action-container">
             <div className="call-to-action-buttons">
               <div className="call-to-action-buttons-container">
-                <button className="button-primary">Star</button>
+                <button className="button-primary"><img src={iconGitHubWhite} alt="GitHub logo"/>Star</button>
                 <button className="button-secondary">View GitHub Repo</button>
               </div>
-              <p>Need help with the project? <a href="#">Try the support thread</a></p>
+              <small className="call-to-action-support">Need help with the project? <a href="#">Try the support thread</a></small>
             </div>
             <div className="call-to-action-category-specification">
-              <h5 className="call-to-action-category">New Relic One Category</h5>
+              <h5 className="call-to-action-category"><Link to="/categories">New Relic One Category</Link></h5>
               <p className="call-to-action-description">
                 This code is a part of the New Relic One Catalog. It is available for installation and 
                 configuration via the New Relic One Homepage. You can install it via the Catalog 
@@ -168,7 +169,20 @@ const projectPage = () => {
             <a href="#" className="aside-header-item-button">View all</a>
           </div>
 
-          <div className="project-page-issue">
+          <a href="#" className="project-page-issue">
+            <div className="project-page-issue-header">
+              <img src={openIssueIcon} alt="Open Issue Icon" className="project-page-issue-header-icon"/>
+              <h5 className="project-page-issue-header-title">Allow backoff times to be user configured quis tortor orci. Etiam at risus et justo dignissim.</h5>
+            </div>
+            <footer className="project-page-issue-footer">
+              <small className="project-page-issue-footer-meta">#126 opened on 2 Mar by breedx-nr</small>
+              <div className="project-page-issue-footer-discussion">
+                <img src={chatIcon} alt="Chat Icon" className="project-page-issue-footer-discussion-icon"/>
+                <span className="project-page-issue-footer-discussion-count">2</span>
+              </div>
+            </footer>
+          </a>
+          <a href="#" className="project-page-issue">
             <div className="project-page-issue-header">
               <img src={openIssueIcon} alt="Open Issue Icon" className="project-page-issue-header-icon"/>
               <h5 className="project-page-issue-header-title">Issue title</h5>
@@ -180,7 +194,20 @@ const projectPage = () => {
                 <span className="project-page-issue-footer-discussion-count">2</span>
               </div>
             </footer>
-          </div>
+          </a>
+          <a href="#" className="project-page-issue">
+            <div className="project-page-issue-header">
+              <img src={openIssueIcon} alt="Open Issue Icon" className="project-page-issue-header-icon"/>
+              <h5 className="project-page-issue-header-title">Issue title</h5>
+            </div>
+            <footer className="project-page-issue-footer">
+              <small className="project-page-issue-footer-meta">#126 opened on 2 Mar by breedx-nr</small>
+              <div className="project-page-issue-footer-discussion">
+                <img src={chatIcon} alt="Chat Icon" className="project-page-issue-footer-discussion-icon"/>
+                <span className="project-page-issue-footer-discussion-count">2</span>
+              </div>
+            </footer>
+          </a>
         </aside>
       </div>
     </Layout>
