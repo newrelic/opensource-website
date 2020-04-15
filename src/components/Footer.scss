@@ -28,6 +28,7 @@
   overflow: hidden;
   background-repeat: no-repeat;
   padding-right: 15px;
+  border: none;
   
   &:after {
     content: "";
@@ -66,6 +67,7 @@
 
 .footer-nav-link {
   color: var(--footer-text-color);
+  border: none;
 }
 
 @media screen and (max-width: 1240px) {
