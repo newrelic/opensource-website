@@ -16,7 +16,7 @@ import contributorIcon from '../images/icon-contributor.svg'
 import openIssueGreyIcon from '../images/icon-open-issue-grey.svg'
 import iconGitHubWhite from '../images/icon-github-white.svg'
 
-import project from '../data/projects/nr1-workload-geoops/project.json'
+import project from '../data/projects/nr1-workload-geoops.json'
 
 const projectPage = () => {
   const contributors = [
