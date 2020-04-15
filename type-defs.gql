@@ -1,0 +1,7 @@
+type ProjectStatsJson implements Node {
+  project: ProjectsJson @link
+}
+
+type ProjectsJson implements Node {
+  stats: ProjectStatsJson @link(by: "ProjectStatsJson.name", from: "name")
+}
