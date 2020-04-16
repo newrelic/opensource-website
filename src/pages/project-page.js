@@ -18,8 +18,8 @@ import contributorIcon from '../images/icon-contributor.svg'
 import openIssueGreyIcon from '../images/icon-open-issue-grey.svg'
 import iconGitHubWhite from '../images/icon-github-white.svg'
 
-import project from '../data/projects/nr1-workload-geoops.json'
-import projectStats from '../data/project-stats/nr1-workload-geoops.json'
+import project from '../data/projects/newrelic-nr1-workload-geoops.json'
+import projectStats from '../data/project-stats/newrelic-nr1-workload-geoops.json'
 
 const projectPage = () => {
   const contributors = [
