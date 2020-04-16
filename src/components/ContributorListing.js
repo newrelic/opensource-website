@@ -70,21 +70,23 @@ const ContributorListing = (data) => {
 
   const renderContributorItems = data => {
     const contributorItem = data.data.map(contributor => {
-
-      const renderRolesEmojis = contributor.roles.map(role => (
-        <li className="contributor-role">{emojiKey(role)}</li>
-      ))
+      
+      // const renderRolesEmojis = contributor.roles.map(role => (
+      //   <li className="contributor-role">{emojiKey(role)}</li>
+      // ))
 
       return (
-        <li className="contributor-item">
+        <li className="contributor-item" key={contributor.id}>
           <div className="contributor-item-primary-content">
-            <img src={contributor.avatar} alt={`avatar of ${contributor.name}`} className="contributor-avatar"/>
-            <h4 className="contributor-name"><a href={contributor.profileUrl} className="contributor-name-link">{contributor.name}</a></h4>
-            <h6 className="contributor-username">{contributor.username}</h6>
+            <img src={contributor.avatarUrl} alt={`avatar of ${contributor.name}`} className="contributor-avatar"/>
+            <h4 className="contributor-name"><a href={contributor.htmlUrl} className="contributor-name-link">{contributor.name}</a></h4>
+            <h6 className="contributor-username">{contributor.login}</h6>
           </div>
-          <ul className="contributor-roles-container">
-            {renderRolesEmojis}
-          </ul>
+          {/* {contributor.roles && (
+            <ul className="contributor-roles-container">
+              {renderRolesEmojis}
+            </ul>
+          )} */}
         </li>
       )
     })

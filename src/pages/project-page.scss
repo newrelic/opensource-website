@@ -87,6 +87,67 @@ p.call-to-action-description {
   color: var(--color-neutrals-600);
 }
 
+.project-screenshots-container {
+  position: relative;
+
+  &:after {
+    content: "";
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to left, white, transparent);
+  }
+}
+
+.project-screenshot-list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  position: relative;
+  padding: 1px 5px 15px 1px;
+  margin-bottom: -5px;
+
+  list-style-type: none;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior: none;
+}
+
+.project-screenshot-list-item {
+  width: 75%;
+  flex: 0 0 auto;
+  line-height: 3px;
+  margin-right: 15px;
+  padding: 4px;
+  border-radius: 3px;
+  display: block;
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0, .1);
+  scroll-snap-align: start;
+
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:last-child {
+    position: relative;
+    z-index:10;
+  }
+}
+
+.project-screenshot-link {
+  border: none;
+}
+
+.project-screenshot {
+  max-width: 100%;
+  position: relative;
+  z-index: -1;
+  object-fit: fill;
+}
+
 .project-page-issue {
   display: block;
   margin-bottom: 12px;
@@ -149,3 +210,39 @@ p.call-to-action-description {
   bottom: 1px;
 }
 
+
+.__react_modal_image__modal_content img {
+  max-width: 85%;
+  max-height: 85%;
+  position: relative;
+  image-rendering:-moz-crisp-edges;          /* Firefox        */
+  image-rendering:-o-crisp-edges;            /* Opera          */
+  image-rendering:-webkit-optimize-contrast; /* Safari         */
+  image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+  box-shadow: 
+    0px 5.72822px 6.30934px rgba(0, 0, 0, 0.0477948), 
+    0px 13.7657px 15.1622px rgba(0, 0, 0, 0.0686618), 
+    0px 25.9196px 28.5491px rgba(0, 0, 0, 0.085), 
+    0px 46.2362px 50.9268px rgba(0, 0, 0, 0.101338), 
+    0px 86.4797px 95.253px rgba(0, 0, 0, 0.122205), 
+    0px 207px 228px rgba(0, 0, 0, 0.17);
+}
+
+div.__react_modal_image__header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 4px 16px;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+span.__react_modal_image__caption {
+  order: 1;
+  display: none;
+}
+
+div.__react_modal_image__caption {
+  order: 1;
+  display: none;
+}

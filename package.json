@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "date-fns": "^2.12.0",
     "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.2",
     "gatsby-plugin-manifest": "^2.3.3",
@@ -19,7 +20,8 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-modal-image": "^2.5.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

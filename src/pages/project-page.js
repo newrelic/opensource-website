@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import { format } from 'date-fns';
+import ModalImage from "react-modal-image";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -17,6 +19,7 @@ import openIssueGreyIcon from '../images/icon-open-issue-grey.svg'
 import iconGitHubWhite from '../images/icon-github-white.svg'
 
 import project from '../data/projects/nr1-workload-geoops.json'
+import projectStats from '../data/project-stats/nr1-workload-geoops.json'
 
 const projectPage = () => {
   const contributors = [
@@ -49,6 +52,48 @@ const projectPage = () => {
       profileUrl: 'https://github.com/danielgolden'
     }  
   ]
+
+  const renderIssues = () => {
+    return projectStats.cachedIssues.map(issue => {
+      return (
+        <a href={issue.url} className="project-page-issue">
+          <div className="project-page-issue-header">
+            <img src={openIssueIcon} alt="Open Issue Icon" className="project-page-issue-header-icon"/>
+            <h5 className="project-page-issue-header-title">{issue.title}</h5>
+          </div>
+          <footer className="project-page-issue-footer">
+            <small className="project-page-issue-footer-meta">{issue.id} opened on {format(issue.createdAt, 'MMM d')} by {issue.createdBy}</small>
+            <div className="project-page-issue-footer-discussion">
+              <img src={chatIcon} alt="Chat Icon" className="project-page-issue-footer-discussion-icon"/>
+      <span className="project-page-issue-footer-discussion-count">{issue.comments.count}</span>
+            </div>
+          </footer>
+        </a>
+      )
+    })
+  }
+
+  const renderScreenshots = () => {
+    const screenshots = project.screenshots.map(screenshot => {
+      return (
+        <li className="project-screenshot-list-item">
+          <ModalImage
+            small={screenshot}
+            large={screenshot}
+            alt={`Screenshot of ${project.title}`}
+            hideZoom
+            hideDownload
+          />
+        </li>
+      )
+    })
+
+    return (
+      <ul className="project-screenshot-list">
+        {screenshots}
+      </ul>
+    )
+  }
 
   return(
     <Layout>
@@ -112,7 +157,7 @@ const projectPage = () => {
           <p>
           Thanks goes to these wonderful people <Link to="https://allcontributors.org/docs/en/emoji-key">(emoji key)</Link>:
           </p>
-          <ContributorListing data={contributors} />
+          <ContributorListing data={projectStats.cachedContributors} />
         </main>
         <aside className="primary-content-aside">
           <div className="call-to-action-container">
@@ -134,33 +179,35 @@ const projectPage = () => {
           </div>
 
           <h4>Screenshots</h4>
-          <img src="https://via.placeholder.com/280x168.png" alt="placeholder image"/>
+          <div className="project-screenshots-container">
+            {renderScreenshots()}
+          </div>
 
           <h4>Repo stats</h4>
           <ul className="repo-stats">
             <li className="repo-stat repo-stat-contributors">
               <img src={contributorIcon} alt="contributor icon" className="repo-stat-icon" />
-              <span className="repo-stat-count">12</span>
+              <span className="repo-stat-count">{projectStats.contributors}</span>
               <span className="repo-stat-label">Contributors</span>
             </li>
             <li className="repo-stat repo-stat-releases">
               <img src={tagIcon} alt="release icon" className="repo-stat-icon" />
-              <span className="repo-stat-count">2</span>
+              <span className="repo-stat-count">{projectStats.releases}</span>
               <span className="repo-stat-label">Releases</span>
             </li>
             <li className="repo-stat repo-stat-commits">
               <img src={commitIcon} alt="commit icon" className="repo-stat-icon" />
-              <span className="repo-stat-count">298</span>
+              <span className="repo-stat-count">{projectStats.commits}</span>
               <span className="repo-stat-label">Commits</span>
             </li>
             <li className="repo-stat repo-stat-pull-requests">
               <img src={prIcon} alt="pull request icon" className="repo-stat-icon" />
-              <span className="repo-stat-count">2</span>
+              <span className="repo-stat-count">{projectStats.pullRequests.open}</span>
               <span className="repo-stat-label">Open Pull Requests</span>
             </li>
             <li className="repo-stat repo-stat-issues">
               <img src={openIssueGreyIcon} alt="open issue icon" className="repo-stat-icon" />
-              <span className="repo-stat-count">19</span>
+              <span className="repo-stat-count">{projectStats.issues.open}</span>
               <span className="repo-stat-label">Open Issues</span>
             </li>
           </ul>
@@ -170,45 +217,7 @@ const projectPage = () => {
             <a href="#" className="aside-header-item-button">View all</a>
           </div>
 
-          <a href="#" className="project-page-issue">
-            <div className="project-page-issue-header">
-              <img src={openIssueIcon} alt="Open Issue Icon" className="project-page-issue-header-icon"/>
-              <h5 className="project-page-issue-header-title">Allow backoff times to be user configured quis tortor orci. Etiam at risus et justo dignissim.</h5>
-            </div>
-            <footer className="project-page-issue-footer">
-              <small className="project-page-issue-footer-meta">#126 opened on 2 Mar by breedx-nr</small>
-              <div className="project-page-issue-footer-discussion">
-                <img src={chatIcon} alt="Chat Icon" className="project-page-issue-footer-discussion-icon"/>
-                <span className="project-page-issue-footer-discussion-count">2</span>
-              </div>
-            </footer>
-          </a>
-          <a href="#" className="project-page-issue">
-            <div className="project-page-issue-header">
-              <img src={openIssueIcon} alt="Open Issue Icon" className="project-page-issue-header-icon"/>
-              <h5 className="project-page-issue-header-title">Issue title</h5>
-            </div>
-            <footer className="project-page-issue-footer">
-              <small className="project-page-issue-footer-meta">#126 opened on 2 Mar by breedx-nr</small>
-              <div className="project-page-issue-footer-discussion">
-                <img src={chatIcon} alt="Chat Icon" className="project-page-issue-footer-discussion-icon"/>
-                <span className="project-page-issue-footer-discussion-count">2</span>
-              </div>
-            </footer>
-          </a>
-          <a href="#" className="project-page-issue">
-            <div className="project-page-issue-header">
-              <img src={openIssueIcon} alt="Open Issue Icon" className="project-page-issue-header-icon"/>
-              <h5 className="project-page-issue-header-title">Issue title</h5>
-            </div>
-            <footer className="project-page-issue-footer">
-              <small className="project-page-issue-footer-meta">#126 opened on 2 Mar by breedx-nr</small>
-              <div className="project-page-issue-footer-discussion">
-                <img src={chatIcon} alt="Chat Icon" className="project-page-issue-footer-discussion-icon"/>
-                <span className="project-page-issue-footer-discussion-count">2</span>
-              </div>
-            </footer>
-          </a>
+          {renderIssues()}
         </aside>
       </div>
     </Layout>

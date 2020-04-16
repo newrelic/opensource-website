@@ -32,6 +32,9 @@
     border-radius: 50%;
     width: 60px;
     height: 60px;
+    background-color: var(--color-neutrals-300);
+    overflow: hidden;
+    font-size: 13px;
 }
 
 .contributor-name {

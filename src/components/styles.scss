@@ -60,10 +60,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
   font-weight: 600;
   color: var(--color-neutrals-900);
-  
-  &:first-child {
-    margin-top: 0;
-  }
 }
 
 h1 + p,
@@ -83,6 +79,14 @@ h6 + p {
   justify-content: space-between;
   width: 980px;
   margin: 0 auto;
+  
+  main {
+    h1, h2, h3, h4, h5, h6 {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
   
   blockquote {
     box-sizing: border-box;
