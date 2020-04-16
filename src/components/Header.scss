@@ -34,9 +34,14 @@
   }
 }
 
-.primary-header-nav-link {
+a.primary-header-nav-link {
   color: var(--color-neutrals-900);
   border: none;
+  transition: color .05s ease-out;
+
+  &:hover {
+    color: var(--color-brand-900);
+  }
 }
 
 .mobile-menu-button {
@@ -113,5 +118,21 @@
       font-size: 24px;
       font-weight: 400;
     }
+  }
+}
+
+.has-header-bg{
+  padding-bottom: 3px;
+  
+  &:after {
+    content: '';
+    position: absolute;
+    height: 200px;
+    top: -70px;
+    right: 0;
+    left: 0;
+    transform: skewY(-4.5deg);
+    z-index: -1;
+    background: linear-gradient(280.65deg, rgba(255, 255, 255, 0.52) 1.64%, rgba(255, 255, 255, 0) 99.19%), #F4F5F5;
   }
 }

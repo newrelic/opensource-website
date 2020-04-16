@@ -96,7 +96,7 @@ const projectPage = () => {
   }
 
   return(
-    <Layout>
+    <Layout hasHeaderBg>
       <SEO title="A single project page" />
       <PageHeading
           title={project.title}

@@ -1,8 +1,9 @@
 import { Link } from "gatsby"
 import React, { useState } from "react";
 import navLinks from '../data/navigation.json'
+import PropTypes from "prop-types"
 
-const Header = () => {
+const Header = ({hasHeaderBg}) => {
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
 
   const renderNavLinks = () => {
@@ -22,7 +23,7 @@ const Header = () => {
   };
 
   return (
-    <header className="primary-header-container">
+    <header className={`primary-header-container ${hasHeaderBg ? 'has-header-bg' : ''}`}>
       <a href="/" className="primary-header-logo">
         New Relic Open Source
       </a>
@@ -45,5 +46,11 @@ const Header = () => {
     </header>
   );
 };
+
+Header.propTypes = {
+  hasHeaderBg: PropTypes.bool
+}
+
+
 
 export default Header;

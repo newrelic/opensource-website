@@ -12,10 +12,10 @@ import Header from "./header"
 import Footer from "./Footer"
 import "./styles.scss"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, hasHeaderBg }) => {
   return (
     <div className="layout-container">
-      <Header />
+      <Header hasHeaderBg={hasHeaderBg} />
       <div
         style={{
           margin: `0 auto`,
@@ -31,6 +31,7 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  hasHeaderBg: PropTypes.bool
 }
 
 export default Layout
