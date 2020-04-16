@@ -8,7 +8,6 @@ import SEO from "../components/seo"
 import PageHeading from "../components/PageHeading"
 import ContributorListing from '../components/ContributorListing'
 
-import pageHeadingIconPlaceholder from '../images/page-heading-icon-placeholder.jpg'
 import openIssueIcon from '../images/icon-open-issue.svg'
 import chatIcon from '../images/icon-chat.svg'
 import tagIcon from '../images/icon-tag.svg'
@@ -18,41 +17,7 @@ import contributorIcon from '../images/icon-contributor.svg'
 import openIssueGreyIcon from '../images/icon-open-issue-grey.svg'
 import iconGitHubWhite from '../images/icon-github-white.svg'
 
-import project from '../data/projects/newrelic-nr1-workload-geoops.json'
-import projectStats from '../data/project-stats/newrelic-nr1-workload-geoops.json'
-
 const projectPage = () => {
-  const contributors = [
-    {
-      name: 'Alex Webb',
-      username: 'tinyleopard720',
-      avatar: 'https://i.pravatar.cc/120?img=25',
-      roles: ['code', 'ideas'],
-      profileUrl: 'https://github.com/danielgolden'
-    },
-    {
-      name: 'Savannah Black',
-      username: 'sadwolf227',
-      avatar: 'https://i.pravatar.cc/120?img=45',
-      roles: ['code', 'ideas', 'design'],
-      profileUrl: 'https://github.com/danielgolden'
-    },
-    // {
-    //   name: 'Eleanor Edwards',
-    //   username: 'redkoala130',
-    //   avatar: 'https://i.pravatar.cc/120?img=30',
-    //   roles: ['code', 'doc'],
-    //   profileUrl: 'https://github.com/danielgolden'
-    // },
-    {
-      name: 'Mitchell Richards',
-      username: 'yellowbear776',
-      avatar: 'https://i.pravatar.cc/120?img=59',
-      roles: ['tool', 'code'],
-      profileUrl: 'https://github.com/danielgolden'
-    }  
-  ]
-
   const renderIssues = (project, projectStats) => {
     return projectStats.cachedIssues.map(issue => {
       return (
@@ -109,14 +74,13 @@ const projectPage = () => {
       render={data => {
         const project = data.allProjectsJson.nodes[0];
         const projectStats = project.stats;
-
         return (
           <Layout hasHeaderBg>
           <SEO title="A single project page" />
           <PageHeading
               title={project.title}
               subheader={project.description}
-              icon={pageHeadingIconPlaceholder}
+              icon={project.iconUrl}
               tags={project.tags}
               hasSeparator
             />
@@ -229,7 +193,7 @@ const projectPage = () => {
 
               <div className="aside-header-item">
                 <h4>Good first issues</h4>
-                <a href="#" className="aside-header-item-button">View all</a>
+                <a href={`${project.githubUrl}/issues`} className="aside-header-item-button">View all issues</a>
               </div>
 
               {renderIssues(project, projectStats)}

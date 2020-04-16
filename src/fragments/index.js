@@ -4,8 +4,10 @@ export const projectFields = graphql`
   fragment projectFields on ProjectsJson {
     id
     name
+    title
     fullName
     stats {
+      contributors
       releases
       id
       pullRequests {
