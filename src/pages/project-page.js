@@ -163,8 +163,8 @@ const projectPage = () => {
           <div className="call-to-action-container">
             <div className="call-to-action-buttons">
               <div className="call-to-action-buttons-container">
-                <button className="button-primary"><img src={iconGitHubWhite} alt="GitHub logo"/>Star</button>
-                <button className="button-secondary">View GitHub Repo</button>
+                <a href={project.githubUrl} className="button button-primary"><img src={iconGitHubWhite} alt="GitHub logo"/>Star</a>
+                <a href={project.githubUrl}className="button button-secondary">View GitHub Repo</a>
               </div>
               <small className="call-to-action-support">Need help with the project? <a href="#">Try the support thread</a></small>
             </div>

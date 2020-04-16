@@ -68,6 +68,11 @@
 .footer-nav-link {
   color: var(--footer-text-color);
   border: none;
+  transition: color .075s ease-out;
+
+  &:hover {
+    color: #fff;
+  }
 }
 
 @media screen and (max-width: 1240px) {

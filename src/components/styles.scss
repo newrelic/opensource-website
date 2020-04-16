@@ -32,6 +32,14 @@
   --primary-font-family: 'open sans', sans-serif;
   --secondary-font-family: 'effra', sans-serif;
   --tertiary-font-family: 'Ovo', serif;
+
+  /*-- Easing --*/
+  --ease-out-quad: cubic-bezier(.25, .46, .45, .94);
+  --ease-out-cubic: cubic-bezier(.215, .61, .355, 1);
+  --ease-out-quart: cubic-bezier(.165, .84, .44, 1);
+  --ease-out-quint: cubic-bezier(.23, 1, .32, 1);
+  --ease-out-expo: cubic-bezier(.19, 1, .22, 1);
+  --ease-out-circ: cubic-bezier(.075, .82, .165, 1);
 }
 
 /*-------------------------*/
@@ -147,7 +155,7 @@ h6 + p {
   width: 28.57142857142857%;
 }
 
-button {
+.button {
   display: inline-flex;
   align-items: center;
   border: none;
@@ -158,6 +166,17 @@ button {
   font-weight: 600;
   border-radius: 4px;
   font-family: var(--primary-font-family);
+  transition: transform .1s var(--ease-out-quad);
+  
+  
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
 
   img {
     margin-right: 8px;
