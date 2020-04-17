@@ -1,0 +1,34 @@
+{
+  "name": "sidecar",
+  "fullName": "newrelic/sidecar",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "sidecar",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/sidecar",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/sidecar",
+  "iconUrl": "https://github.com/newrelic/sidecar/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Gossip-based service discovery. Docker native, but supports static discovery, too.",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Go",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "sidecar",
+    "url": "https://github.com/newrelic/sidecar"
+  },
+  "version": "0.1.0"
+}

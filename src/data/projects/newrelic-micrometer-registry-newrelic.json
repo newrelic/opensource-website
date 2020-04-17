@@ -1,0 +1,34 @@
+{
+  "name": "micrometer-registry-newrelic",
+  "fullName": "newrelic/micrometer-registry-newrelic",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "micrometer registry-newrelic",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/micrometer-registry-newrelic",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/micrometer-registry-newrelic",
+  "iconUrl": "https://github.com/newrelic/micrometer-registry-newrelic/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Micrometer registry implementation that sends data to New Relic as dimensional metrics.",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Java",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "micrometer registry-newrelic",
+    "url": "https://github.com/newrelic/micrometer-registry-newrelic"
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "cloudformation-partner-integration",
+  "fullName": "newrelic/cloudformation-partner-integration",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "cloudformation partner-integration",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/cloudformation-partner-integration",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/cloudformation-partner-integration",
+  "iconUrl": "https://github.com/newrelic/cloudformation-partner-integration/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Integration with AWS Cloudformation",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Java",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "cloudformation partner-integration",
+    "url": "https://github.com/newrelic/cloudformation-partner-integration"
+  },
+  "version": "0.1.0"
+}

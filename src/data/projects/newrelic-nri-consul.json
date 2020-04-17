@@ -1,0 +1,34 @@
+{
+  "name": "nri-consul",
+  "fullName": "newrelic/nri-consul",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nri consul",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/nri-consul",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-consul",
+  "iconUrl": "https://github.com/newrelic/nri-consul/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "New Relic Infrastructure Consul Integration",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Go",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "nri consul",
+    "url": "https://github.com/newrelic/nri-consul"
+  },
+  "version": "0.1.0"
+}

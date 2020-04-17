@@ -1,0 +1,34 @@
+{
+  "name": "newrelic-lambda-cli",
+  "fullName": "newrelic/newrelic-lambda-cli",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "newrelic lambda-cli",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/newrelic-lambda-cli",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-lambda-cli",
+  "iconUrl": "https://github.com/newrelic/newrelic-lambda-cli/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "A CLI to install the New Relic AWS Lambda integration and layers.",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Python",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "newrelic lambda-cli",
+    "url": "https://github.com/newrelic/newrelic-lambda-cli"
+  },
+  "version": "0.1.0"
+}

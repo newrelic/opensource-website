@@ -1,0 +1,34 @@
+{
+  "name": "dropwizard-metrics-newrelic",
+  "fullName": "newrelic/dropwizard-metrics-newrelic",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "dropwizard metrics-newrelic",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/dropwizard-metrics-newrelic",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/dropwizard-metrics-newrelic",
+  "iconUrl": "https://github.com/newrelic/dropwizard-metrics-newrelic/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Implementation of a DropWizard metrics Reporter that sends data as dimensional metrics to New Relic",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Java",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "dropwizard metrics-newrelic",
+    "url": "https://github.com/newrelic/dropwizard-metrics-newrelic"
+  },
+  "version": "0.1.0"
+}

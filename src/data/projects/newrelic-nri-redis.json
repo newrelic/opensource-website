@@ -1,0 +1,34 @@
+{
+  "name": "nri-redis",
+  "fullName": "newrelic/nri-redis",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nri redis",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/nri-redis",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-redis",
+  "iconUrl": "https://github.com/newrelic/nri-redis/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "New Relic Infrastructure Redis Integration",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Go",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "nri redis",
+    "url": "https://github.com/newrelic/nri-redis"
+  },
+  "version": "0.1.0"
+}

@@ -1,0 +1,123 @@
+{
+  "projectFullName": "newrelic/nr1-community",
+  "issues": {
+    "open": 4
+  },
+  "releases": 4,
+  "commits": 192,
+  "contributors": 5,
+  "pullRequests": {
+    "open": 0
+  },
+  "searchCategory": "good first issue",
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU1NDY0NjgyOTc=",
+      "title": "feat(Demo): Support live-code updates in the component library Nerdlet",
+      "url": "https://github.com/newrelic/nr1-community/issues/15",
+      "createdAt": "2020-01-07T19:36:48Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "joel@joelworrall.com",
+        "name": "Joel Worrall"
+      },
+      "number": 15,
+      "createdBy": "Joel Worrall"
+    },
+    {
+      "id": "MDU6SXNzdWU1NjQ4MDAxMTY=",
+      "title": "I think the height on the EmptyState component is always too long",
+      "url": "https://github.com/newrelic/nr1-community/issues/41",
+      "createdAt": "2020-02-13T16:24:19Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "danielgolden",
+        "id": "MDQ6VXNlcjgxMjk4OQ==",
+        "email": "danielgolden90@gmail.com",
+        "name": "Daniel Golden"
+      },
+      "number": 41,
+      "createdBy": "Daniel Golden"
+    },
+    {
+      "id": "MDU6SXNzdWU1NzkzMTkyNTY=",
+      "title": "Timeline: Allow for default expanded item",
+      "url": "https://github.com/newrelic/nr1-community/issues/55",
+      "createdAt": "2020-03-11T14:47:04Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "danielgolden",
+        "id": "MDQ6VXNlcjgxMjk4OQ==",
+        "email": "danielgolden90@gmail.com",
+        "name": "Daniel Golden"
+      },
+      "number": 55,
+      "createdBy": "Daniel Golden"
+    }
+  ],
+  "cachedContributors": [
+    {
+      "id": 21367523,
+      "login": "victorNewRelic",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/21367523?v=4",
+      "htmlUrl": "https://github.com/victorNewRelic",
+      "contributions": 5
+    },
+    {
+      "id": 39764444,
+      "login": "MattIGolden",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/39764444?v=4",
+      "htmlUrl": "https://github.com/MattIGolden",
+      "contributions": 12
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 17
+    },
+    {
+      "id": 812989,
+      "login": "danielgolden",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/812989?v=4",
+      "htmlUrl": "https://github.com/danielgolden",
+      "contributions": 64
+    },
+    {
+      "id": 197140,
+      "login": "devfreddy",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
+      "htmlUrl": "https://github.com/devfreddy",
+      "contributions": 71
+    }
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzMDg=",
+      "name": "CSS",
+      "color": "#563d7c"
+    }
+  ],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-community/master/screenshots/.gitkeep",
+    "https://raw.githubusercontent.com/newrelic/nr1-community/master/screenshots/screenshot_DetailPanel.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-community/master/screenshots/screenshot_EmptyState.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-community/master/screenshots/screenshot_NerdGraphError.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-community/master/screenshots/screenshot_Timeline.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-community/master/screenshots/screenshot_timeRangeToNrql.png"
+  ]
+}

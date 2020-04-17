@@ -1,0 +1,34 @@
+{
+  "name": "kamon-newrelic-reporter",
+  "fullName": "newrelic/kamon-newrelic-reporter",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "kamon newrelic-reporter",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/kamon-newrelic-reporter",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/kamon-newrelic-reporter",
+  "iconUrl": "https://github.com/newrelic/kamon-newrelic-reporter/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "A kamon reporter that can send telemetry to New Relic.",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Scala",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "kamon newrelic-reporter",
+    "url": "https://github.com/newrelic/kamon-newrelic-reporter"
+  },
+  "version": "0.1.0"
+}

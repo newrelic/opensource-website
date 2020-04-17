@@ -1,0 +1,34 @@
+{
+  "name": "nri-prometheus",
+  "fullName": "newrelic/nri-prometheus",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nri prometheus",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/nri-prometheus",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-prometheus",
+  "iconUrl": "https://github.com/newrelic/nri-prometheus/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Fetch metrics in the Prometheus metrics inside or outside Kubernetes and send them to the New Relic Metrics platform.",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Go",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "nri prometheus",
+    "url": "https://github.com/newrelic/nri-prometheus"
+  },
+  "version": "0.1.0"
+}

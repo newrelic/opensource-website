@@ -1,0 +1,34 @@
+{
+  "name": "k8s-webhook-cert-manager",
+  "fullName": "newrelic/k8s-webhook-cert-manager",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "k8s webhook-cert-manager",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/k8s-webhook-cert-manager",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/k8s-webhook-cert-manager",
+  "iconUrl": "https://github.com/newrelic/k8s-webhook-cert-manager/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Generate certificate suitable for use with any Kubernetes Mutating Webhook.",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Shell",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "k8s webhook-cert-manager",
+    "url": "https://github.com/newrelic/k8s-webhook-cert-manager"
+  },
+  "version": "0.1.0"
+}

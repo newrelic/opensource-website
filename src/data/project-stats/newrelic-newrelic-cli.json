@@ -1,0 +1,97 @@
+{
+  "projectFullName": "newrelic/newrelic-cli",
+  "issues": {
+    "open": 1
+  },
+  "releases": 11,
+  "commits": 363,
+  "contributors": 5,
+  "pullRequests": {
+    "open": 5
+  },
+  "searchCategory": "good first issue",
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2MDE3MjUwOTE=",
+      "title": "newrelic cli commands need to be updated in the newrelic-cli/blob/master/docs/GETTING_STARTED.md.",
+      "url": "https://github.com/newrelic/newrelic-cli/issues/202",
+      "createdAt": "2020-04-17T06:04:34Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "sri-shetty",
+        "id": "MDQ6VXNlcjUyOTc4MzA5",
+        "email": "",
+        "name": null
+      },
+      "number": 202,
+      "createdBy": "sri-shetty"
+    }
+  ],
+  "cachedContributors": [
+    {
+      "id": 25180681,
+      "login": "renovate-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
+      "htmlUrl": "https://github.com/renovate-bot",
+      "contributions": 14
+    },
+    {
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 19
+    },
+    {
+      "id": 29264964,
+      "login": "zlesnr",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/29264964?v=4",
+      "htmlUrl": "https://github.com/zlesnr",
+      "contributions": 39
+    },
+    {
+      "id": 413389,
+      "login": "ctrombley",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
+      "htmlUrl": "https://github.com/ctrombley",
+      "contributions": 46
+    },
+    {
+      "id": 455419,
+      "login": "jthurman42",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
+      "htmlUrl": "https://github.com/jthurman42",
+      "contributions": 131
+    }
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0NjM=",
+      "name": "Batchfile",
+      "color": "#C1F12E"
+    }
+  ],
+  "screenshots": []
+}

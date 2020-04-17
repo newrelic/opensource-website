@@ -1,0 +1,34 @@
+{
+  "name": "nri-collectd",
+  "fullName": "newrelic/nri-collectd",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nri collectd",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/nri-collectd",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-collectd",
+  "iconUrl": "https://github.com/newrelic/nri-collectd/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "New Relic On Host Integration Plugin for collectd",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Go",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "nri collectd",
+    "url": "https://github.com/newrelic/nri-collectd"
+  },
+  "version": "0.1.0"
+}

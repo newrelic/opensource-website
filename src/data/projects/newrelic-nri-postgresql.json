@@ -1,0 +1,34 @@
+{
+  "name": "nri-postgresql",
+  "fullName": "newrelic/nri-postgresql",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nri postgresql",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/nri-postgresql",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-postgresql",
+  "iconUrl": "https://github.com/newrelic/nri-postgresql/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "New Relic Infrastructure Postgresql Integration",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Go",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "nri postgresql",
+    "url": "https://github.com/newrelic/nri-postgresql"
+  },
+  "version": "0.1.0"
+}

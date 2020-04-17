@@ -1,0 +1,34 @@
+{
+  "name": "nri-perfmon",
+  "fullName": "newrelic/nri-perfmon",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nri perfmon",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/nri-perfmon",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-perfmon",
+  "iconUrl": "https://github.com/newrelic/nri-perfmon/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Windows Perfmon / WMI On-Host Integration for New Relic Infrastructure",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "C#",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "nri perfmon",
+    "url": "https://github.com/newrelic/nri-perfmon"
+  },
+  "version": "0.1.0"
+}
