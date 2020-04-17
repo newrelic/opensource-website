@@ -7,6 +7,9 @@ import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg'
 import freeCodeCampIcon from '../images/free-code-camp-icon.jpg'
 import tensorFlowIcon from '../images/tensor-flow-icon.jpg'
 import genericProjectIcon from '../images/page-heading-icon-placeholder.jpg'
+import articlePlaceholderImage1 from '../images/article-placeholder-image-1.jpg'
+import articlePlaceholderImage2 from '../images/article-placeholder-image-2.jpg'
+import articlePlaceholderImage3 from '../images/article-placeholder-image-3.jpg'
 
 const IndexPage = () => {
   const externalProjects = [
@@ -107,6 +110,24 @@ const IndexPage = () => {
       "shortDescription": "Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur."
     },
   ]
+
+  const recentArticles = [ 
+    {
+      featuredImage: articlePlaceholderImage1,
+      title: 'Why we invest in open source',
+      snippet: 'Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.'
+    },
+    {
+      featuredImage: articlePlaceholderImage2,
+      title: 'Open source in a pandemic',
+      snippet: 'Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.'
+    },
+    {
+      featuredImage: articlePlaceholderImage3,
+      title: 'Shipping around the globe',
+      snippet: 'Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.'
+    },
+  ]
   
   return(
     <Layout fullWidth>
@@ -164,6 +185,24 @@ const IndexPage = () => {
                   <p className="featured-internal-project-description">{project.shortDescription}</p>
                 </div>
               </Link> 
+            )
+          })}
+        </div>
+      </div>
+          
+      <div className="recent-articles-container">
+        <h3 className="recent-articles-section-title">Recent articles</h3>
+        <p className="recent-articles-section-description">Aenean eu leo quam. Pellentesque ornare sem lacinia quam or <Link to="/blog">view more articles</Link></p>
+        <div className="recent-articles">
+          {recentArticles.map(article => {
+            return (
+              <Link className="recent-article">
+                <img className="recent-article-featured-image" src={article.featuredImage} alt={`featured image for this articles`}/>
+                <div className="recent-article-primary-content">
+                  <h4 className="recent-article-title">{article.title}</h4>
+                  <p className="recent-article-snippet">{article.snippet}</p>
+                </div>
+              </Link>
             )
           })}
         </div>
