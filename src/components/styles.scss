@@ -3,6 +3,7 @@
 @import '../components/PageHeading.scss';
 @import '../components/ContributorListing.scss';
 @import '../pages/project-page.scss';
+@import '../pages/home-page.scss';
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 @import url("https://use.typekit.net/pnb6qnj.css");
 @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
@@ -81,6 +82,15 @@ h6 + p {
 
 
 /*-- Base styles --*/
+
+.layout-container-main {
+  max-width: 980px;
+  margin: 0 auto;
+
+  &.full-width {
+    max-width: 1180px;
+  }
+}
 
 .primary-content {
   display: flex;

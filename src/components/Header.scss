@@ -1,10 +1,16 @@
 .primary-header-container {
+  box-sizing: border-box;
+  height: 100%;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
   max-width: 1180px;
   margin: 0 auto;
   align-items: center;
+
+  &:not(.has-header-bg) {
+    border-bottom: 1px solid var(--color-neutrals-100);
+  }
 }
 
 .primary-header-logo {
