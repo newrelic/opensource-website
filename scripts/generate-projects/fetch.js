@@ -151,7 +151,86 @@ const sampleGraphqlRequest = async function () {
   }
 }
 */
-const fetchRepositories = async function ({ org = DEFAULT_ORG, type = 'public', per_page = REPOS_PER_PAGE, page = 1}) {
+/*
+ * pages - number of pages to loop through
+ * org - Github 'login', either a user or an organization
+ * type - Repository type
+ * per_page - Repositories to ask for
+ * start_page - Beginning page
+ * exclude_archived - Whether or not to filter out archived repositories (repos.listForOrg does not offer a way to exclude these from the response)
+ */
+const repositoryIterator = function ({ pages = 1, org = DEFAULT_ORG, type = 'public', per_page = REPOS_PER_PAGE, start_page = 1, excludeArchived = true}) {
+  return function () {
+    const MAX_PAGES_ALLOWED = 100;
+
+    let isFirstPage = true;
+    let startPage = start_page;
+    let currentPage = startPage;
+    let pagesNeeded;
+    let pagesAvailable;
+
+    // How best do we initialize this for the first page?
+    let pagesToGet = pages === 0 ? MAX_PAGES_ALLOWED : pages;
+
+    const hasMore = function () {
+      return pagesToGet > 0;
+    }
+
+    const getCurrentPage = function () {
+      return currentPage;
+    }
+
+    const firstPage = async function () {
+      const firstPage = await fetchOrganizationRepositoryPage({ org, type, per_page, page: startPage });
+      // prettyPrintJson(Object.keys(firstPage.data));
+      
+      if (firstPage instanceof Error) {
+        prettyPrintJson(firstPage);
+      }
+      
+      // const { status, url, headers, data } = firstPage;
+      const linkHeaders = parseLinkHeader(firstPage.headers.link);
+      const lastPage = linkHeaders.last.page;
+      console.log('lastPage: ' + lastPage);
+    
+      pagesNeeded = pages === 0 ? lastPage : pages; // 0 === all pages available
+      pagesAvailable = (lastPage - start_page);
+      pagesToGet = pagesAvailable <= pagesNeeded ? pagesAvailable : pagesNeeded;
+      console.log('PagesToGet: ' + pagesToGet);
+
+      return firstPage;
+    }
+
+    const next = function () {
+      let nextPage = false;
+
+      if (hasMore()) {
+        if (isFirstPage) {
+          nextPage = firstPage();
+        }
+
+        if (!isFirstPage) {
+          nextPage = fetchOrganizationRepositoryPage({ org, type, per_page, page: currentPage });
+        }
+
+        isFirstPage = false;
+        pagesToGet = pagesToGet - 1;
+        currentPage = currentPage + 1;
+      }
+
+      // prettyPrintJson({ value: nextPage, done: !hasMore() });
+      return { value: nextPage, done: !hasMore() };
+    }
+
+    return {
+      hasMore,
+      next,
+      getCurrentPage
+    }
+  }
+}
+
+const fetchOrganizationRepositoryPage = async function ({ org, type, per_page, page }) {
   try {
     const response = await octokit.repos.listForOrg({
       org,
@@ -160,25 +239,16 @@ const fetchRepositories = async function ({ org = DEFAULT_ORG, type = 'public', 
       page
     });
 
-    // console.log(JSON.stringify(response, null, 2));
     const { status, url, headers, data } = response;
-    // console.log(JSON.stringify(data[0], null, 2));
     console.log('Page: ' + page + ' found ' + data.length + ' total results');
 
-    // console.log(url);
-    // console.log(headers.link);
-    const linkHeaders = parseLinkHeader(headers.link);
-    const lastPage = linkHeaders.last.page;
-
-    filteredRepos = data.filter(r => !r.archived);
-
-    console.log('After removing Archived repositories found ' + filteredRepos.length + ' results:');
-    console.log(filteredRepos.map(d => 'id: ' + d.id + " " + d.full_name).join('\n'));
-
-    return filteredRepos;
+    // prettyPrintJson(response.data.length);
+    // prettyPrintJson(response.status);
+    return response;
   } catch (e) {
     console.error(e);
-  }  
+    return e;
+  }
 }
 
 const fetchRepositoryStats = async function (owner, repo) {
@@ -200,19 +270,24 @@ const fetchContributorStats = async function (owner, repo) {
 const getRepoStatsByContributor = async function (owner, repo) {
   const response = await fetchContributorStats(owner, repo);  
   const { status, url, headers, data } = response;
+
+  // newrelic/newrelic_plugins_puppet
+  // newrelic/newrelic-monolog-logenricher-php
+  if (Array.isArray(data)) {
+    const formattedContributorStats = data.map(({ total, author }) =>({
+      "total": total,
+      "author": author
+    }));
   
-  if (!data) {
-    prettyPrintJson(status)
-    return {};
+    // prettyPrint(formattedContributorStats);
+    return formattedContributorStats;  
   }
 
-  const formattedContributorStats = data.map(({ total, author }) =>({
-    "total": total,
-    "author": author
-  }));
+  prettyPrint("Warning, no repoStatsByContributor found for Owner: " + owner + " Repo: " + repo);
+  prettyPrint("Instead found: ")
+  prettyPrintJson(data);
 
-  // prettyPrint(formattedContributorStats);
-  return formattedContributorStats;
+  return {};
 }
 
 const fetchStats = async function fetchStats (owner, repo) {
@@ -248,7 +323,7 @@ const fetchStats = async function fetchStats (owner, repo) {
 }
 
 module.exports = {
-  fetchRepositories,
+  repositoryIterator,
   fetchRepositoryStats,
   fetchContributorStats,
   getRepoStatsByContributor,
