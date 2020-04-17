@@ -1,14 +1,15 @@
 import React from "react"
-import { Link, StaticQuery, navigate } from "gatsby"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg'
 import freeCodeCampIcon from '../images/free-code-camp-icon.jpg'
 import tensorFlowIcon from '../images/tensor-flow-icon.jpg'
+import genericProjectIcon from '../images/page-heading-icon-placeholder.jpg'
 
 const IndexPage = () => {
-  const projects = [
+  const externalProjects = [
     {
       title: 'Open Telemetry',
       description: 'New Relic has invested 30 billion hours into the development of Open Telemetry to help provide robust portable telemetry to all.',
@@ -31,6 +32,81 @@ const IndexPage = () => {
       website: 'https://www.tensorflow.org/'
     },
   ];
+
+  const internalProjects = [
+    {
+      "name": "nr1-kafka-agent",
+      "fullName": "newrelic/nr1-kafka-agent",
+      "title": "Kafka agent",
+      "githubUrl": "https://github.com/newrelic/nr1-workload-geoops",
+      "permalink": "https://opensource.newrelic.com/projects/nr1-workload-geoops",
+      "iconUrl": genericProjectIcon,
+      "shortDescription": "Nulla quis tortor orci. Etiam at risus et justo dignissim."
+    },
+    {
+      "name": "nr1-workload-geoops",
+      "fullName": "newrelic/nr1-workload-geoops",
+      "title": "Go OpenCensus exporter",
+      "githubUrl": "https://github.com/newrelic/nr1-workload-geoops",
+      "permalink": "https://opensource.newrelic.com/projects/nr1-workload-geoops",
+      "iconUrl": genericProjectIcon,
+      "shortDescription": "Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui."
+    },
+    {
+      "name": "nr1-workload-geoops",
+      "fullName": "newrelic/nr1-workload-geoops",
+      "title": "Java Telemetry SDK",
+      "githubUrl": "https://github.com/newrelic/nr1-workload-geoops",
+      "permalink": "https://opensource.newrelic.com/projects/nr1-workload-geoops",
+      "iconUrl": genericProjectIcon,
+      "shortDescription": "Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+    },
+    {
+      "name": "nr1-workload-geoops",
+      "fullName": "newrelic/nr1-workload-geoops",
+      "title": "New Relic CLI",
+      "githubUrl": "https://github.com/newrelic/nr1-workload-geoops",
+      "permalink": "https://opensource.newrelic.com/projects/nr1-workload-geoops",
+      "iconUrl": genericProjectIcon,
+      "shortDescription": "Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo."
+    },
+    {
+      "name": "nr1-workload-geoops",
+      "fullName": "newrelic/nr1-workload-geoops",
+      "title": "Roku Agent",
+      "githubUrl": "https://github.com/newrelic/nr1-workload-geoops",
+      "permalink": "https://opensource.newrelic.com/projects/nr1-workload-geoops",
+      "iconUrl": genericProjectIcon,
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum."
+    },
+    {
+      "name": "nr1-workload-geoops",
+      "fullName": "newrelic/nr1-workload-geoops",
+      "title": "Browser Analyzer",
+      "githubUrl": "https://github.com/newrelic/nr1-browser-analyzer",
+      "permalink": "https://opensource.newrelic.com/projects/nr1-workload-geoops",
+      "iconUrl": "https://github.com/newrelic/nr1-browser-analyzer/blob/master/icon.png?raw=true",
+      "shortDescription": "Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo."
+    },
+    {
+      "name": "nr1-community",
+      "fullName": "newrelic/nr1-community",
+      "title": "Community",
+      "githubUrl": "https://github.com/newrelic/nr1-community",
+      "permalink": "https://opensource.newrelic.com/projects/nr1-community",
+      "iconUrl": "https://github.com/newrelic/nr1-community/blob/master/demo/launchers/nr1-community-demo-launcher/icon.png?raw=true",
+      "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod."
+    },
+    {
+      "name": "nr1-workload-geoops",
+      "fullName": "newrelic/nr1-workload-geoops",
+      "title": "Workload GeoOps",
+      "githubUrl": "https://github.com/newrelic/nr1-community",
+      "permalink": "https://opensource.newrelic.com/projects/nr1-community",
+      "iconUrl": "https://github.com/newrelic/nr1-workload-geoops/blob/master/icon.png?raw=true",
+      "shortDescription": "Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur."
+    },
+  ]
   
   return(
     <Layout fullWidth>
@@ -53,7 +129,7 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="featured-external-projects">
-        {projects.map(project => {
+        {externalProjects.map(project => {
           return(
             <div className="featured-external-project" key={project.title}>
               <img className="featured-external-project-icon" src={project.icon} alt={`icon for ${project.title}`} />
@@ -69,6 +145,28 @@ const IndexPage = () => {
             </div>
           )
         })}
+      </div>
+
+      <div className="featured-internal-projects-container">
+        <h3 className="featured-internal-projects-section-title">Explore projects</h3>
+        <p className="featured-internal-projects-section-description">
+          Check out some of the products that we’re developing in open source or{' '}
+          <Link to="/explore-projects">view all projects</Link>
+        </p>
+
+        <div className="featured-internal-projects">
+          {internalProjects.map(project => {
+            return (
+              <Link to={project.permalink} className="featured-internal-project" key={project.title}>
+                <img src={project.iconUrl} className="featured-internal-project-icon" alt={`Icon for ${project.title}`}/>
+                <div className="featured-internal-project-meta">
+                  <h4 className="featured-internal-project-title">{project.title}</h4>
+                  <p className="featured-internal-project-description">{project.shortDescription}</p>
+                </div>
+              </Link> 
+            )
+          })}
+        </div>
       </div>
     </Layout>
   )
