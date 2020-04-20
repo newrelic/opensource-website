@@ -5,7 +5,6 @@ import PropTypes from 'prop-types'
 const HomePageHighlights = (data) => {
   const projects = data.data
 
-
   return (
     <div className="featured-external-projects">
       {projects.map(project => {
@@ -29,7 +28,7 @@ const HomePageHighlights = (data) => {
 }
 
 HomePageHighlights.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.array
 }
 
 export default HomePageHighlights

@@ -181,7 +181,7 @@ const IndexPage = () => {
         <div className="recent-articles">
           {recentArticles.map(article => {
             return (
-              <Link className="recent-article">
+              <Link className="recent-article" to="/" key={article.title}>
                 <img className="recent-article-featured-image" src={article.featuredImage} alt={`featured image for this articles`}/>
                 <div className="recent-article-primary-content">
                   <h4 className="recent-article-title">{article.title}</h4>
