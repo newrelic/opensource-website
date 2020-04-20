@@ -1,0 +1,34 @@
+{
+  "name": "nr1-top",
+  "fullName": "newrelic/nr1-top",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nr1 top",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/nr1-top",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-top",
+  "iconUrl": "https://github.com/newrelic/nr1-top/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Display and inspect the top processes of your hosts, including CPU, I/O and memory.",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "JavaScript",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "nr1 top",
+    "url": "https://github.com/newrelic/nr1-top"
+  },
+  "version": "0.1.0"
+}

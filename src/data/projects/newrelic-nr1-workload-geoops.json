@@ -1,30 +1,34 @@
 {
   "name": "nr1-workload-geoops",
   "fullName": "newrelic/nr1-workload-geoops",
-  "title": "Workload GeoOps",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nr1 workload-geoops",
+  "supportUrl": "https://discuss.newrelic.com/",
   "githubUrl": "https://github.com/newrelic/nr1-workload-geoops",
-  "permalink": "https://opensource.newrelic.com/projects/nr1-workload-geoops",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-workload-geoops",
   "iconUrl": "https://github.com/newrelic/nr1-workload-geoops/blob/master/icon.png?raw=true",
-  "shortDescription": "Align Workloads & Entities to geographic data",
-  "description": "Workloads GeoOps provides a geographic exploration of Workload and Entity data in New Relic One tied to a point of sale solution.",
-  "screenshots": [ "https://github.com/newrelic/nr1-workload-geoops/blob/master/assets/documentation-images/detail-panel-legend.png?raw=true", "https://github.com/newrelic/nr1-workload-geoops/blob/master/assets/documentation-images/file-upload.png?raw=true" ],
+  "shortDescription": "",
+  "description": "NR1 Nerdpack for aligning Workload data (or other Entities) in a Geographic management console. Think Point-of-Sale alignment of platform features.",
   "ossCategory": {
-    "title": "New Relic One Catalog Project",
-    "slug": "new-relic-one-catalog-project"
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
   },
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
-  "primaryLanguage": "js",
+  "primaryLanguage": "JavaScript",
   "tags": [
     "point-of-sale",
     "maps",
     "infrastructure"
   ],
   "website": {
-    "title": "Workload GeoOps",
-    "url": "https://newrelic.github.com/nr1-workload-geoops"
+    "title": "nr1 workload-geoops",
+    "url": "https://github.com/newrelic/nr1-workload-geoops"
   },
   "version": "0.1.0"
 }

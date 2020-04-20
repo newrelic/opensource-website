@@ -1,50 +1,142 @@
 {
   "projectFullName": "newrelic/nr1-workload-geoops",
   "issues": {
-    "open": 14
+    "open": 3
   },
-  "releases": 6,
-  "commits": 245,
+  "releases": 9,
+  "commits": 358,
   "contributors": 6,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
-  "searchCategory": "good-first-issue",
-  "cachedIssues": [{
-    "title": "Allow backoff times to be user content",
-    "id":"26",
-    "url": "https://github.com/newrelic/nr1-workload-geoops/issues/26",
-    "createdBy": "breed-nr",
-    "createdAt": 1586797934554,
-    "comments": {
-      "count": 2
+  "searchCategory": "good first issue",
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU1ODM3OTk1MDY=",
+      "title": "refactor(MapItem): render single map tile instead of whole map",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/40",
+      "createdAt": "2020-03-18T15:11:56Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "devfreddy",
+        "id": "MDQ6VXNlcjE5NzE0MA==",
+        "email": "",
+        "name": "Michael Frederick"
+      },
+      "number": 40,
+      "createdBy": "Michael Frederick"
+    },
+    {
+      "id": "MDU6SXNzdWU1ODM4MTAzNDE=",
+      "title": "feat(recent incidents): expand the incident user clicks on",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/41",
+      "createdAt": "2020-03-18T15:27:19Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "devfreddy",
+        "id": "MDQ6VXNlcjE5NzE0MA==",
+        "email": "",
+        "name": "Michael Frederick"
+      },
+      "number": 41,
+      "createdBy": "Michael Frederick"
+    },
+    {
+      "id": "MDU6SXNzdWU2MDAzMjU0MDA=",
+      "title": "JS Error when adding a Workload that contains Entities outside of the application scope",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/59",
+      "createdAt": "2020-04-15T14:07:18Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "joel@joelworrall.com",
+        "name": "Joel Worrall"
+      },
+      "number": 59,
+      "createdBy": "Joel Worrall"
     }
-  },{
-    "title": "Stuff here",
-    "id":"45",
-    "url": "https://github.com/newrelic/nr1-workload-geoops/issues/45",
-    "createdBy": "tangollama",
-    "createdAt": 1586797934559,
-    "comments": {
-      "count": 0
+  ],
+  "cachedContributors": [
+    {
+      "id": 58010132,
+      "login": "mmfred",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/58010132?v=4",
+      "htmlUrl": "https://github.com/mmfred",
+      "contributions": 1
+    },
+    {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 1
+    },
+    {
+      "id": 138513,
+      "login": "bthemad",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/138513?v=4",
+      "htmlUrl": "https://github.com/bthemad",
+      "contributions": 1
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 58
+    },
+    {
+      "id": 197140,
+      "login": "devfreddy",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
+      "htmlUrl": "https://github.com/devfreddy",
+      "contributions": 125
+    },
+    {
+      "id": 812989,
+      "login": "danielgolden",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/812989?v=4",
+      "htmlUrl": "https://github.com/danielgolden",
+      "contributions": 131
     }
-  }],
-  "cachedContributors": [{
-    "name": "Octavius Cat",
-    "login": "octocat",
-    "id": 1,
-    "avatarUrl": "https://github.com/images/error/octocat_happy.gif",
-    "url": "https://api.github.com/users/octocat",
-    "htmlUrl": "https://github.com/octocat",
-    "contributions": 32
-  },
-  {
-    "name": "Joel Worrall",
-    "login": "tangollama",
-    "id": 154545,
-    "avatarUrl": "https://github.com/images/error/octocat_happy.gif",
-    "url": "https://api.github.com/users/tangollama",
-    "htmlUrl": "https://github.com/tangollama",
-    "contributions": 323
-  }]
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzMDg=",
+      "name": "CSS",
+      "color": "#563d7c"
+    }
+  ],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/screenshots/screenshot_01.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/screenshots/screenshot_02.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/screenshots/screenshot_03.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/screenshots/screenshot_04.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/all-maps.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/create-a-map.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/define-locations.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/detail-panel-legend.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/docs-header.svg",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/file-upload.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/fresh-map-legend.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/launcher.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/locations-mapped.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/map-empty-state.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/marker-popover.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/no-locations-mapped.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/review-data.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/settings-popover.png"
+  ]
 }

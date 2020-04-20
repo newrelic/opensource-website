@@ -1,0 +1,34 @@
+{
+  "name": "nri-flex",
+  "fullName": "newrelic/nri-flex",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nri flex",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/nri-flex",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-flex",
+  "iconUrl": "https://github.com/newrelic/nri-flex/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "An application-agnostic, all-in-one New Relic integration integration",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Go",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "nri flex",
+    "url": "https://github.com/newrelic/nri-flex"
+  },
+  "version": "0.1.0"
+}

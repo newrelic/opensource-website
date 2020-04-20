@@ -1,4 +1,23 @@
+const { SCREENSHOT_FOLDERS } = require('./constants');
+
 const repositoryStats = (owner, repo) => {
+
+  // TO DO - Ascertain Github's GraphQL query limits
+  const screenshots = Object.entries(SCREENSHOT_FOLDERS).reduce((p, [ key, value ]) => {
+    const screenShotFragment = `
+      ` + key + `: object(expression: "` + value + `") {
+        ... on Tree {
+          entries {
+            name
+          }
+        }
+      }
+    `
+    return p + `
+    
+    ` + screenShotFragment;
+  }, '');
+
   return `
   {
     repository(name: "` + repo + `", owner: "` + owner + `") {
@@ -19,6 +38,15 @@ const repositoryStats = (owner, repo) => {
           comments {
             totalCount
           }
+          author {
+            login
+            ... on User {
+              id
+              email
+              name
+            }
+          }
+          number
         }
       }
       forks {
@@ -57,6 +85,7 @@ const repositoryStats = (owner, repo) => {
       commitComments {
         totalCount
       }
+      ` + screenshots + `
     }
   }
 `;

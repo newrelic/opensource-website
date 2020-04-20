@@ -1,0 +1,34 @@
+{
+  "name": "openshift-newrelic-operator",
+  "fullName": "newrelic/openshift-newrelic-operator",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "openshift newrelic-operator",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/openshift-newrelic-operator",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/openshift-newrelic-operator",
+  "iconUrl": "https://github.com/newrelic/openshift-newrelic-operator/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "repo to publish a certified openshift operator",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "HCL",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "openshift newrelic-operator",
+    "url": "https://github.com/newrelic/openshift-newrelic-operator"
+  },
+  "version": "0.1.0"
+}

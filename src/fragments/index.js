@@ -17,13 +17,14 @@ export const projectFields = graphql`
       commits
       cachedIssues {
         createdAt
-        createdBy
+        # createdBy
         id
         title
         url
         comments {
-          count
+          totalCount
         }
+        number
       }
       cachedContributors {
         avatarUrl
@@ -31,12 +32,13 @@ export const projectFields = graphql`
         htmlUrl
         id
         login
-        name
-        url
+        # name
+        # url
       }
       issues {
         open
       }
+      screenshots
     }
     githubUrl
     iconUrl
@@ -55,7 +57,6 @@ export const projectFields = graphql`
       slug
       title
     }
-    screenshots
     shortDescription
   }
 `;

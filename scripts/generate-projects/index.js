@@ -15,12 +15,18 @@
 const path = require('path');
 const fs = require('fs');
 const {
-  fetchRepositories,
+  repositoryIterator,
   fetchStats
 } = require('./fetch');
+const { SCREENSHOT_FOLDERS } = require('./constants');
 
 const prettyPrintJson = (json) => console.log(JSON.stringify(json, null, 2));
 const prettyPrint = (message) => console.log(message);
+const sleep = (delay) => {
+  return new Promise(resolve => {
+    setTimeout(resolve, delay)
+  });
+}
 
 /*
  * 1. Create a personal access token with the following scopes:
@@ -39,8 +45,9 @@ const prettyPrint = (message) => console.log(message);
 const OVERWRITE_EXISTING = true;
 
 function formatRepositories(repositories) {
+  // prettyPrintJson(Object.keys(response.data));
+  // const { status, url, headers, data: repositories } = response;
   const humanize = (slug) => slug.replace('-', ' ');
-
   return repositories.map(r => {
     return {
       "name": r.name,
@@ -53,12 +60,10 @@ function formatRepositories(repositories) {
       "supportUrl": "https://discuss.newrelic.com/", // TO DO
       "githubUrl": r.html_url,
       "permalink": "https://opensource.newrelic.com/projects/" + r.full_name,
-      "iconUrl": r.html_url + "blob/master/icon.png?raw=true", // TO DO - Can we rely on this?
+      "iconUrl": r.html_url + "/blob/master/icon.png?raw=true", // TO DO - Can we rely on this?
       "shortDescription": "", // TO DO
       "description": r.description,
-      "screenshots": [
-        // TO DO
-      ],
+      // "screenshots": [ "https://github.com/newrelic/nr1-workload-geoops/blob/master/assets/documentation-images/detail-panel-legend.png?raw=true", "https://github.com/newrelic/nr1-workload-geoops/blob/master/assets/documentation-images/file-upload.png?raw=true" ],
       "ossCategory": {
         "title": "Lorem Ipsum",
         "slug": "lorem-ipsum"
@@ -86,6 +91,31 @@ function formatStats (project, stats) {
   const { repoStats, contributorStats } = stats;
   const contributorCount = contributorStats.length;
 
+
+  const screenshots = Object.entries(SCREENSHOT_FOLDERS).reduce((p, [ key, path ]) => {
+    const fileNames = repoStats[key];
+
+    if (!fileNames || fileNames === null) {
+      return p;
+    }
+
+    // prettyPrintJson(fileNames);
+    // TO DO filter out .gitkeep
+
+    if(Array.isArray(fileNames.entries)) {
+
+      const fullPaths = fileNames.entries.map((file) => {
+        const dir = path.replace(':', '/'); // Replace "master:" with "master/"
+        const suffix = "?raw=true";
+        // const url = `https://github.com/` + project.fullName + `/blob/` + dir + file.name + suffix;
+        const url = `https://raw.githubusercontent.com/` + project.fullName + `/` + dir + file.name;
+        return url;
+      });
+      return p.concat(fullPaths);
+    }
+    return p;
+  }, []);
+
   return {
     "projectFullName": project.fullName,
     "issues": {
@@ -98,45 +128,46 @@ function formatStats (project, stats) {
       "open": repoStats.pullRequests.totalCount // Filtering by a status of OPEN
     },
     "searchCategory": "good first issue", // TO DO - Use this to go get cachedIssues? We should move this onto the project object
-    "cachedIssues": repoStats.issues.nodes || [], // Note: createdBy is author.login
+    "cachedIssues": repoStats.issues.nodes.map(node => ({
+      ...node,
+      createdBy: node.author.name || node.author.login || 'Unknown'
+    })), // Note: createdBy is author.login
     "cachedContributors": contributorStats.map(i => ({
       id: i.author.id,
       login: i.author.login,
-      avatar_url: i.author.avatar_url,
-      html_url: i.author.html_url,
-      total_contributions: i.total
+      avatarUrl: i.author.avatar_url,
+      htmlUrl: i.author.html_url,
+      contributions: i.total
     })),
-    "languages": repoStats.languages.nodes
+    "languages": repoStats.languages.nodes,
+    "screenshots": screenshots
   }
 }
 
-function writeProjectToGatsby(project) {
-  const fileName = project.fullName.replace('/', '-') + '.json';
-  const outputDir = path.resolve(__dirname, '../../src/data/projects');
-  const outputPath = outputDir + '/' + fileName; 
-  const exists = fs.existsSync(outputPath);
-  const jsonContent = JSON.stringify(project, null, 2);
-  
-  prettyPrint('Writing ' + fileName);
+function writeProjectsToGatsby(projects) {
+  projects.forEach((project) => {
+    const fileName = project.fullName.replace('/', '-') + '.json';
+    const outputDir = path.resolve(__dirname, '../../src/data/projects');
+    const outputPath = outputDir + '/' + fileName; 
+    const exists = fs.existsSync(outputPath);
+    const jsonContent = JSON.stringify(project, null, 2);
+    
+    // prettyPrint('Writing ' + fileName);
 
-  if (OVERWRITE_EXISTING || !exists) {
-    fs.writeFileSync(outputPath, jsonContent);
-  }
+    if (OVERWRITE_EXISTING || !exists) {
+      fs.writeFileSync(outputPath, jsonContent);
+    }
+  })
 }
 
 async function calculateAndWriteProjectStats(project) {
   const owner = project.owner.login;
   const repo = project.name;
 
-  prettyPrint('Fetching stats for ' + project.fullName);
+  // prettyPrint('Fetching stats for ' + project.fullName);
 
   const stats = await fetchStats(owner, repo);
-  // prettyPrintJson(stats);
-
-  const projectStats = formatStats(project, stats);
-  // prettyPrintJson(projectStats);
-
-  writeProjectStatsToGatsby(project, projectStats);
+  writeProjectStatsToGatsby(project, formatStats(project, stats));
 }
 
 function writeProjectStatsToGatsby(project, projectStats) {
@@ -151,16 +182,84 @@ function writeProjectStatsToGatsby(project, projectStats) {
   }
 }
 
-async function start () {
-  prettyPrint('Fetching repositories...');
-  // projects/<organization>-<repository-name>.json
-  const repos = await fetchRepositories({ page: 4, per_page: 25 });
-  const formattedRepos = formatRepositories(repos);
-  formattedRepos.forEach(writeProjectToGatsby);
+/*
+ * Generates files with a filename like:
+ * projects/<organization>-<repository-name>.json
+ */
+async function generateProjects ({ iteratorOptions }) {
+  const iterator = repositoryIterator(iteratorOptions)();  
+  const delay = 1500;
 
-  prettyPrint('Calculating statistics for each project...');
-  // project-stats/<organization>-<repository-name>.json
-  formattedRepos.forEach(calculateAndWriteProjectStats);
+  let result = iterator.next();
+  const response = await result.value;
+  processProjects(response);
+
+  while(!result.done) {
+    result = await iterator.next();
+    const response = await result.value;
+    processProjects(response);
+    await sleep(delay);
+  }
+}
+
+function processProjects (response) {
+  const { status, url, headers, data } = response;
+  const filteredRepos = data.filter(r => !r.archived);
+
+  prettyPrint('After removing Archived repositories found ' + filteredRepos.length + ' results:');
+  prettyPrint(filteredRepos.map(d => 'id: ' + d.id + " " + d.full_name).join('\n'));
+
+  writeProjectsToGatsby(formatRepositories(filteredRepos));
+}
+
+/*
+ * Generates files with a filename like:
+ * project-stats/<organization>-<repository-name>.json
+ */
+async function generateProjectStats ({ iteratorOptions }) {
+  const iterator = repositoryIterator(iteratorOptions)();  
+  const delay = 1500;
+
+  let result = iterator.next();
+  const response = await result.value;
+  processProjectStats(response);
+
+  while(!result.done) {
+    result = await iterator.next();
+
+    const response = await result.value;
+    processProjectStats(response);
+    await sleep(delay);
+  }
+}
+
+async function processProjectStats (response) {
+  const { status, url, headers, data } = response;
+  const filteredRepos = data.filter(r => !r.archived);
+
+  prettyPrint('After removing Archived repositories found ' + filteredRepos.length + ' results:');
+  prettyPrint(filteredRepos.map(d => 'id: ' + d.id + " " + d.full_name).join('\n'));
+
+  const repositories = formatRepositories(filteredRepos);
+  for (const repository of repositories) {
+    calculateAndWriteProjectStats(repository);
+    await sleep(3000);
+  }
+}
+
+/*
+ RequestError [HttpError]: You have triggered an abuse detection mechanism. Please wait a few minutes before you try again.
+*/
+async function start () {
+  const options = { pages: 0, start_page: 1, per_page: 100 }; // Gets workload-geoops
+
+  await generateProjects({
+    iteratorOptions: options
+  });
+
+  await generateProjectStats({
+    iteratorOptions: options
+  });
 }
 
 

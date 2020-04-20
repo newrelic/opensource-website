@@ -1,0 +1,34 @@
+{
+  "name": "openshift-python-with-newrelic",
+  "fullName": "newrelic/openshift-python-with-newrelic",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "openshift python-with-newrelic",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/openshift-python-with-newrelic",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/openshift-python-with-newrelic",
+  "iconUrl": "https://github.com/newrelic/openshift-python-with-newrelic/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "OpenShift image with Newrelic's Python agent",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Dockerfile",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "openshift python-with-newrelic",
+    "url": "https://github.com/newrelic/openshift-python-with-newrelic"
+  },
+  "version": "0.1.0"
+}

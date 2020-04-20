@@ -1,0 +1,66 @@
+{
+  "projectFullName": "newrelic/newrelic-airflow-plugin",
+  "issues": {
+    "open": 2
+  },
+  "releases": 1,
+  "commits": 2,
+  "contributors": 1,
+  "pullRequests": {
+    "open": 0
+  },
+  "searchCategory": "good first issue",
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU1MTk1MDM4NTA=",
+      "title": "Verify correctness of generated metrics.",
+      "url": "https://github.com/newrelic/newrelic-airflow-plugin/issues/1",
+      "createdAt": "2019-11-07T20:48:26Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "BrandonTheBuilder",
+        "id": "MDQ6VXNlcjEzODgxNDg3",
+        "email": "larthur@newrelic.com",
+        "name": "Loren Arthur"
+      },
+      "number": 1,
+      "createdBy": "Loren Arthur"
+    },
+    {
+      "id": "MDU6SXNzdWU1MTk1NTM5NzY=",
+      "title": "Read plugin configuration from airflow.cfg",
+      "url": "https://github.com/newrelic/newrelic-airflow-plugin/issues/2",
+      "createdAt": "2019-11-07T22:39:31Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "BrandonTheBuilder",
+        "id": "MDQ6VXNlcjEzODgxNDg3",
+        "email": "larthur@newrelic.com",
+        "name": "Loren Arthur"
+      },
+      "number": 2,
+      "createdBy": "Loren Arthur"
+    }
+  ],
+  "cachedContributors": [
+    {
+      "id": 13881487,
+      "login": "BrandonTheBuilder",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/13881487?v=4",
+      "htmlUrl": "https://github.com/BrandonTheBuilder",
+      "contributions": 2
+    }
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
+    }
+  ],
+  "screenshots": []
+}

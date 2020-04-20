@@ -1,0 +1,34 @@
+{
+  "name": "nr1-workshop",
+  "fullName": "newrelic/nr1-workshop",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "nr1 workshop",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/nr1-workshop",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-workshop",
+  "iconUrl": "https://github.com/newrelic/nr1-workshop/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Self-paced training workshop for the NR1 CLI/SDK",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "JavaScript",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "nr1 workshop",
+    "url": "https://github.com/newrelic/nr1-workshop"
+  },
+  "version": "0.1.0"
+}

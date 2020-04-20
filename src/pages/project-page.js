@@ -27,7 +27,7 @@ const projectPage = () => {
             <h5 className="project-page-issue-header-title">{issue.title}</h5>
           </div>
           <footer className="project-page-issue-footer">
-            <small className="project-page-issue-footer-meta">{issue.id} opened on {format(issue.createdAt, 'MMM d')} by {issue.createdBy}</small>
+            <small className="project-page-issue-footer-meta">{issue.number} opened on {format(new Date(issue.createdAt), 'MMM d')} by {issue.createdBy}</small>
             <div className="project-page-issue-footer-discussion">
               <img src={chatIcon} alt="Chat Icon" className="project-page-issue-footer-discussion-icon"/>
       <span className="project-page-issue-footer-discussion-count">{issue.comments.count}</span>
@@ -39,9 +39,9 @@ const projectPage = () => {
   }
 
   const renderScreenshots = (project, projectStats) => {
-    const screenshots = project.screenshots.map(screenshot => {
+    const screenshots = projectStats.screenshots.map((screenshot, index) => {
       return (
-        <li className="project-screenshot-list-item">
+        <li key={index} className="project-screenshot-list-item">
           <ModalImage
             small={screenshot}
             large={screenshot}

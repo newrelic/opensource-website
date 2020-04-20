@@ -1,0 +1,34 @@
+{
+  "name": "puppet-logstash-reporter",
+  "fullName": "newrelic/puppet-logstash-reporter",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "puppet logstash-reporter",
+  "supportUrl": "https://discuss.newrelic.com/",
+  "githubUrl": "https://github.com/newrelic/puppet-logstash-reporter",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/puppet-logstash-reporter",
+  "iconUrl": "https://github.com/newrelic/puppet-logstash-reporter/blob/master/icon.png?raw=true",
+  "shortDescription": "",
+  "description": "Reports logs and metrics from Puppet to Logstash",
+  "ossCategory": {
+    "title": "Lorem Ipsum",
+    "slug": "lorem-ipsum"
+  },
+  "projectType": {
+    "title": "New Relic One App",
+    "slug": "nr1-app"
+  },
+  "primaryLanguage": "Ruby",
+  "tags": [
+    "point-of-sale",
+    "maps",
+    "infrastructure"
+  ],
+  "website": {
+    "title": "puppet logstash-reporter",
+    "url": "https://github.com/newrelic/puppet-logstash-reporter"
+  },
+  "version": "0.1.0"
+}
