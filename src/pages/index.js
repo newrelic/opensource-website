@@ -6,6 +6,8 @@ import SEO from "../components/seo"
 import HomePageHighlights from "../components/HomePageHighlights"
 import HomePageInternalProjects from "../components/HomePageInternalProjects"
 import HomePageRecentArticles from "../components/HomePageRecentArticles"
+import styles from './home-page.module.scss'
+
 import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg'
 import freeCodeCampIcon from '../images/free-code-camp-icon.jpg'
 import tensorFlowIcon from '../images/tensor-flow-icon.jpg'
@@ -135,18 +137,18 @@ const IndexPage = () => {
   return(
     <Layout fullWidth>
       <SEO title="Home" />
-      <div className="hero-container">
-        <h2 className="homepage-hero-heading">
+      <div className={styles.heroContainer}>
+        <h2 className={styles.homepageHeroHeading}>
         We believe in an open web toward the development of better tools 
         in software for creating a more perfect web.
         </h2>
-        <div className="homepage-hero-body">
-          <p className="homepage-hero-body-copy">
+        <div className={styles.homepageHeroBody}>
+          <p className={styles.homepageHeroBodyCopy}>
             This is the place where you track with <a href="#">New Relic</a>’s open source presence. 
             Praesent commodo cursus magna, vel scelerisque nisl <a href="#">consectetur</a> et. 
             Fusce dapibus curus.
           </p>
-          <p className="homepage-hero-body-copy">
+          <p className={styles.homepageHeroBodyCopy}>
             Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, 
             <a href="#">vestibulum</a> at eros. Fusce dapibus, tellus ac cursus commodo, tortor.
           </p>
@@ -155,9 +157,9 @@ const IndexPage = () => {
       
       <HomePageHighlights data={externalProjects} />
 
-      <div className="featured-internal-projects-container">
-        <h3 className="featured-internal-projects-section-title">Explore projects</h3>
-        <p className="featured-internal-projects-section-description">
+      <div className={styles.featuredInternalProjectsContainer}>
+        <h3 className={styles.featuredInternalProjectsSectionTitle}>Explore projects</h3>
+        <p className={styles.featuredInternalProjectsSectionDescription}>
           Check out some of the products that we’re developing in open source or{' '}
           <Link to="/explore-projects">view all projects</Link>
         </p>
@@ -165,9 +167,9 @@ const IndexPage = () => {
         <HomePageInternalProjects data={internalProjects} />
       </div>
           
-      <div className="recent-articles-container">
-        <h3 className="recent-articles-section-title">Recent articles</h3>
-        <p className="recent-articles-section-description">Aenean eu leo quam. Pellentesque ornare sem lacinia quam or <Link to="/blog">view more articles</Link></p>
+      <div className={styles.recentArticlesContainer}>
+        <h3 className={styles.recentArticlesSectionTitle}>Recent articles</h3>
+        <p className={styles.recentArticlesSectionDescription}>Aenean eu leo quam. Pellentesque ornare sem lacinia quam or <Link to="/blog">view more articles</Link></p>
         <HomePageRecentArticles articles={recentArticles} />
       </div>
     </Layout>

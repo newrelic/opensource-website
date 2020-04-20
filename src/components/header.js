@@ -3,7 +3,10 @@ import React, { useState } from "react";
 import navLinks from '../data/navigation.json'
 import PropTypes from "prop-types"
 
+import styles from "../components/Header.module.scss"
+
 const Header = ({hasHeaderBg}) => {
+  console.log(styles);
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
 
   const renderNavLinks = () => {
@@ -13,8 +16,8 @@ const Header = ({hasHeaderBg}) => {
 
     return sortedNavLinks.map(navItem => {
       return (
-        <li className="primary-header-nav-link-item" key={navItem.order}>
-          <Link to={navItem.link} className="primary-header-nav-link">
+        <li className={styles.primaryHeaderNavLinkItem} key={navItem.order}>
+          <Link to={navItem.link} className={styles.primaryHeaderNavLink}>
             {navItem.label}
           </Link>
         </li>
@@ -23,25 +26,25 @@ const Header = ({hasHeaderBg}) => {
   };
 
   return (
-    <header className={`primary-header-container ${hasHeaderBg ? 'has-header-bg' : ''}`}>
-      <a href="/" className="primary-header-logo">
+    <header className={`${styles.primaryHeaderContainer} ${hasHeaderBg ? styles.hasHeaderBg : ''}`}>
+      <a href="/" className={styles.primaryHeaderLogo}>
         New Relic Open Source
       </a>
 
-      <ul className="primary-header-nav-links">{renderNavLinks()}</ul>
+      <ul className={styles.primaryHeaderNavLinks}>{renderNavLinks()}</ul>
 
       <div
-        className={`primary-header-mobile-nav ${
-          mobileMenuActive ? "mobile-menu-active" : ""
+        className={`${styles.primaryHeaderMobileNav} ${
+          mobileMenuActive ? styles.mobileMenuActive : ""
         }`}
       >
         <button
-          className="mobile-menu-button"
+          className={styles.mobileMenuButton}
           onClick={() => setMobileMenuActive(!mobileMenuActive)}
         >
           Menu
         </button>
-        <ul className="primary-header-mobile-nav-links">{renderNavLinks()}</ul>
+        <ul className={styles.primaryHeaderMobileNavLinks}>{renderNavLinks()}</ul>
       </div>
     </header>
   );

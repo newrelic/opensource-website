@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import React from "react";
 import navLinks from '../data/navigation.json'
 
+import styles from './Footer.module.scss'
+
 const Footer = () => {
 
   const renderNavLinks = () => {
@@ -11,8 +13,8 @@ const Footer = () => {
 
     return sortedNavLinks.map(navItem => {
       return (
-        <li className="footer-nav-link-item" key={navItem.order}>
-          <Link to={navItem.link} className="footer-nav-link">
+        <li className={styles.footerNavLinkItem} key={navItem.order}>
+          <Link to={navItem.link} className={styles.footerNavLink}>
             {navItem.label}
           </Link>
         </li>
@@ -21,13 +23,13 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer-container">
-      <div className="footer-contents">
-        <div className="footer-logo-container">
-          <Link to="/" className="footer-logo">New Relic Open Source</Link>
-          <small className="footer-legal">Copyright &copy; {new Date().getFullYear()} New Relic Inc.</small>
+    <footer className={styles.footerContainer}>
+      <div className={styles.footerContents}>
+        <div className={styles.footerLogoContainer}>
+          <Link to="/" className={styles.footerLogo}>New Relic Open Source</Link>
+          <small className={styles.footerLegal}>Copyright &copy; {new Date().getFullYear()} New Relic Inc.</small>
         </div>
-        <ul className="footer-nav-links">{renderNavLinks()}</ul>
+        <ul className={styles.footerNavLinks}>{renderNavLinks()}</ul>
       </div>
     </footer>
   );

@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import PageHeading from "../components/PageHeading"
 import ContributorListing from '../components/ContributorListing'
+import styles from './project-page.module.scss'
 
 import openIssueIcon from '../images/icon-open-issue.svg'
 import chatIcon from '../images/icon-chat.svg'
@@ -21,16 +22,16 @@ const projectPage = () => {
   const renderIssues = (project, projectStats) => {
     return projectStats.cachedIssues.map(issue => {
       return (
-        <a href={issue.url} className="project-page-issue">
-          <div className="project-page-issue-header">
-            <img src={openIssueIcon} alt="Open Issue Icon" className="project-page-issue-header-icon"/>
-            <h5 className="project-page-issue-header-title">{issue.title}</h5>
+        <a href={issue.url} className={styles.projectPageIssue}>
+          <div className={styles.projectPageIssueHeader}>
+            <img src={openIssueIcon} alt="Open Issue Icon" className={styles.projectPageIssueHeaderIcon}/>
+            <h5 className={styles.projectPageIssueHeaderTitle}>{issue.title}</h5>
           </div>
-          <footer className="project-page-issue-footer">
-            <small className="project-page-issue-footer-meta">{issue.number} opened on {format(new Date(issue.createdAt), 'MMM d')} by {issue.createdBy}</small>
-            <div className="project-page-issue-footer-discussion">
-              <img src={chatIcon} alt="Chat Icon" className="project-page-issue-footer-discussion-icon"/>
-      <span className="project-page-issue-footer-discussion-count">{issue.comments.count}</span>
+          <footer className={styles.projectPageIssueFooter}>
+            <small className={styles.projectPageIssueFooterMeta}>{issue.number} opened on {format(new Date(issue.createdAt), 'MMM d')} by {issue.createdBy}</small>
+            <div className={styles.projectPageIssueFooterDiscussion}>
+              <img src={chatIcon} alt="Chat Icon" className={styles.projectPageIssueFooterDiscussionIcon}/>
+      <span className={styles.projectPageIssueFooterDiscussionCount}>{issue.comments.count}</span>
             </div>
           </footer>
         </a>
@@ -41,7 +42,7 @@ const projectPage = () => {
   const renderScreenshots = (project, projectStats) => {
     const screenshots = projectStats.screenshots.map((screenshot, index) => {
       return (
-        <li key={index} className="project-screenshot-list-item">
+        <li key={index} className={styles.projectScreenshotListItem}>
           <ModalImage
             small={screenshot}
             large={screenshot}
@@ -54,7 +55,7 @@ const projectPage = () => {
     })
 
     return (
-      <ul className="project-screenshot-list">
+      <ul className={styles.projectScreenshotList}>
         {screenshots}
       </ul>
     )
@@ -139,17 +140,17 @@ const projectPage = () => {
               <ContributorListing data={projectStats.cachedContributors} />
             </main>
             <aside className="primary-content-aside">
-              <div className="call-to-action-container">
-                <div className="call-to-action-buttons">
-                  <div className="call-to-action-buttons-container">
+              <div className={styles.callToActionContainer}>
+                <div className={styles.callToActionButtons}>
+                  <div className={styles.callToActionButtonsContainer}>
                     <a href={project.githubUrl} className="button button-primary"><img src={iconGitHubWhite} alt="GitHub logo"/>Star</a>
                     <a href={project.githubUrl}className="button button-secondary">View GitHub Repo</a>
                   </div>
-                  <small className="call-to-action-support">Need help with the project? <a href="#">Try the support thread</a></small>
+                  <small className={styles.callToActionSupport}>Need help with the project? <a href="#">Try the support thread</a></small>
                 </div>
-                <div className="call-to-action-category-specification">
-                  <h5 className="call-to-action-category"><Link to="/categories">New Relic One Category</Link></h5>
-                  <p className="call-to-action-description">
+                <div className={styles.callToActionCategorySpecification}>
+                  <h5 className={styles.callToActionCategory}><Link to="/categories">New Relic One Category</Link></h5>
+                  <p className={styles.callToActionDescription}>
                     This code is a part of the New Relic One Catalog. It is available for installation and 
                     configuration via the New Relic One Homepage. You can install it via the Catalog 
                     launcher in New Relic One.
@@ -158,36 +159,36 @@ const projectPage = () => {
               </div>
 
               <h4>Screenshots</h4>
-              <div className="project-screenshots-container">
+              <div className={styles.projectScreenshotsContainer}>
                 {renderScreenshots(project, projectStats)}
               </div>
 
               <h4>Repo stats</h4>
-              <ul className="repo-stats">
-                <li className="repo-stat repo-stat-contributors">
-                  <img src={contributorIcon} alt="contributor icon" className="repo-stat-icon" />
-                  <span className="repo-stat-count">{projectStats.contributors}</span>
-                  <span className="repo-stat-label">Contributors</span>
+              <ul className={styles.repoStats}>
+                <li className={`${styles.repoStat} + ${styles.repoStatContributors}`}>
+                  <img src={contributorIcon} alt="contributor icon" className={styles.repoStatIcon} />
+                  <span className={styles.repoStatCount}>{projectStats.contributors}</span>
+                  <span className={styles.repoStatLabel}>Contributors</span>
                 </li>
-                <li className="repo-stat repo-stat-releases">
-                  <img src={tagIcon} alt="release icon" className="repo-stat-icon" />
-                  <span className="repo-stat-count">{projectStats.releases}</span>
-                  <span className="repo-stat-label">Releases</span>
+                <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
+                  <img src={tagIcon} alt="release icon" className={styles.repoStatIcon} />
+                  <span className={styles.repoStatCount}>{projectStats.releases}</span>
+                  <span className={styles.repoStatLabel}>Releases</span>
                 </li>
-                <li className="repo-stat repo-stat-commits">
-                  <img src={commitIcon} alt="commit icon" className="repo-stat-icon" />
-                  <span className="repo-stat-count">{projectStats.commits}</span>
-                  <span className="repo-stat-label">Commits</span>
+                <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
+                  <img src={commitIcon} alt="commit icon" className={styles.repoStatIcon} />
+                  <span className={styles.repoStatCount}>{projectStats.commits}</span>
+                  <span className={styles.repoStatLabel}>Commits</span>
                 </li>
-                <li className="repo-stat repo-stat-pull-requests">
-                  <img src={prIcon} alt="pull request icon" className="repo-stat-icon" />
-                  <span className="repo-stat-count">{projectStats.pullRequests.open}</span>
-                  <span className="repo-stat-label">Open Pull Requests</span>
+                <li className={`${styles.repoStat} ${styles.repoStatPullRequests}`}>
+                  <img src={prIcon} alt="pull request icon" className={styles.repoStatIcon} />
+                  <span className={styles.repoStatCount}>{projectStats.pullRequests.open}</span>
+                  <span className={styles.repoStatLabel}>Open Pull Requests</span>
                 </li>
-                <li className="repo-stat repo-stat-issues">
-                  <img src={openIssueGreyIcon} alt="open issue icon" className="repo-stat-icon" />
-                  <span className="repo-stat-count">{projectStats.issues.open}</span>
-                  <span className="repo-stat-label">Open Issues</span>
+                <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
+                  <img src={openIssueGreyIcon} alt="open issue icon" className={styles.repoStatIcon} />
+                  <span className={styles.repoStatCount}>{projectStats.issues.open}</span>
+                  <span className={styles.repoStatLabel}>Open Issues</span>
                 </li>
               </ul>
 

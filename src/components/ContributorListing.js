@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
+
+import styles from './ContributorListing.module.scss'
 
 const ContributorListing = (data) => {
   const emojiKey = role => {
@@ -72,21 +73,20 @@ const ContributorListing = (data) => {
     const contributorItem = data.data.map(contributor => {
       
       // const renderRolesEmojis = contributor.roles.map(role => (
-      //   <li className="contributor-role">{emojiKey(role)}</li>
+      //   <li className={styles.contributor-role">{emojiKey(role)}</li>
       // ))
 
       return (
-        <li className="contributor-item" key={contributor.id}>
-          <div className="contributor-item-primary-content">
-            <img src={contributor.avatarUrl} alt={`avatar of ${contributor.name}`} className="contributor-avatar"/>
-            <h4 className="contributor-name"><a href={contributor.htmlUrl} className="contributor-name-link">{contributor.name}</a></h4>
-            <h6 className="contributor-username">{contributor.login}</h6>
+        <li className={styles.contributorItem} key={contributor.id}>
+          <div className={styles.contributorItemPrimaryContent}>
+            <img src={contributor.avatarUrl} alt={`avatar of ${contributor.name}`} className={styles.contributorAvatar}/>
+            <h4 className={styles.contributorName}>
+              <a href={contributor.htmlUrl} className={styles.contributorNameLink}>
+                {contributor.name}
+              </a>
+            </h4>
+            <h6 className={styles.contributorUsername}>{contributor.login}</h6>
           </div>
-          {/* {contributor.roles && (
-            <ul className="contributor-roles-container">
-              {renderRolesEmojis}
-            </ul>
-          )} */}
         </li>
       )
     })
@@ -95,7 +95,7 @@ const ContributorListing = (data) => {
   }
 
   return (
-    <ul className="contributors-container">
+    <ul className={styles.contributorsContainer}>
       {renderContributorItems(data)}
     </ul>
   )

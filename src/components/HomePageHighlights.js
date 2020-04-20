@@ -2,21 +2,23 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+import styles from './HomePageHighlights.module.scss'
+
 const HomePageHighlights = (data) => {
   const projects = data.data
 
   return (
-    <div className="featured-external-projects">
+    <div className={styles.featuredExternalProjects}>
       {projects.map(project => {
         return (
-          <div className="featured-external-project" key={project.title}>
-            <img className="featured-external-project-icon" src={project.icon} alt={`icon for ${project.title}`} />
-            <h4 className="featured-external-project-title">{project.title}</h4>
-            <p className="featured-external-project-description">{project.description}</p>
-            <a href="#" className="button primary-button featured-external-project-button">Read more</a>
-            <footer className="featured-external-project-footer">
-              <a className="featured-external-project-footer-link" href={project.githubUrl}>View in Github</a>
-              <a className="featured-external-project-footer-link" href={project.website}>
+          <div className={styles.featuredExternalProject} key={project.title}>
+            <img className={styles.featuredExternalProjectIcon} src={project.icon} alt={`icon for ${project.title}`} />
+            <h4 className={styles.featuredExternalProjectTitle}>{project.title}</h4>
+            <p className={styles.featuredExternalProjectDescription}>{project.description}</p>
+            <a href="#" className={`button ${styles.featuredExternalProjectButton}`}>Read more</a>
+            <footer className={styles.featuredExternalProjectFooter}>
+              <a className={styles.featuredExternalProjectFooterLink} href={project.githubUrl}>View in Github</a>
+              <a className={styles.featuredExternalProjectFooterLink} href={project.website}>
                 Go to website
               </a>
             </footer>
