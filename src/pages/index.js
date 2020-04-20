@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import HomePageHighlights from "../components/HomePageHighlights"
 import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg'
 import freeCodeCampIcon from '../images/free-code-camp-icon.jpg'
 import tensorFlowIcon from '../images/tensor-flow-icon.jpg'
@@ -149,24 +150,8 @@ const IndexPage = () => {
           </p>
         </div>
       </div>
-      <div className="featured-external-projects">
-        {externalProjects.map(project => {
-          return(
-            <div className="featured-external-project" key={project.title}>
-              <img className="featured-external-project-icon" src={project.icon} alt={`icon for ${project.title}`} />
-              <h4 className="featured-external-project-title">{project.title}</h4>
-              <p className="featured-external-project-description">{project.description}</p>
-              <a href="#" className="button primary-button featured-external-project-button">Read more</a>
-              <footer className="featured-external-project-footer">
-                <a className="featured-external-project-footer-link" href={project.githubUrl}>View in Github</a>
-                <a className="featured-external-project-footer-link" href={project.website}>
-                  Go to website
-                </a>
-              </footer>
-            </div>
-          )
-        })}
-      </div>
+      
+      <HomePageHighlights data={externalProjects} />
 
       <div className="featured-internal-projects-container">
         <h3 className="featured-internal-projects-section-title">Explore projects</h3>
