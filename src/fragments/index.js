@@ -60,3 +60,49 @@ export const projectFields = graphql`
     shortDescription
   }
 `;
+
+export const exploreProjectsFields = graphql`
+  fragment exploreProjectsFields on ProjectsJson {
+    id
+    fullName
+    githubUrl
+    stats {
+      id
+      contributors
+      commits
+      languages {
+        id
+        name
+        color
+      }
+      releases
+      screenshots
+    }
+    description
+    iconUrl
+    name
+    ossCategory {
+      slug
+      title
+    }
+    owner {
+      login
+      type
+    }
+    permalink
+    primaryLanguage
+    projectType {
+      slug
+      title
+    }
+    shortDescription
+    supportUrl
+    tags
+    title
+    version
+    website {
+      title
+      url
+    }
+  }
+`;
