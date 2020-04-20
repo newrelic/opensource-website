@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HomePageHighlights from "../components/HomePageHighlights"
+import HomePageInternalProjects from "../components/HomePageInternalProjects"
 import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg'
 import freeCodeCampIcon from '../images/free-code-camp-icon.jpg'
 import tensorFlowIcon from '../images/tensor-flow-icon.jpg'
@@ -160,19 +161,7 @@ const IndexPage = () => {
           <Link to="/explore-projects">view all projects</Link>
         </p>
 
-        <div className="featured-internal-projects">
-          {internalProjects.map(project => {
-            return (
-              <Link to={project.permalink} className="featured-internal-project" key={project.title}>
-                <img src={project.iconUrl} className="featured-internal-project-icon" alt={`Icon for ${project.title}`}/>
-                <div className="featured-internal-project-meta">
-                  <h4 className="featured-internal-project-title">{project.title}</h4>
-                  <p className="featured-internal-project-description">{project.shortDescription}</p>
-                </div>
-              </Link> 
-            )
-          })}
-        </div>
+        <HomePageInternalProjects data={internalProjects} />
       </div>
           
       <div className="recent-articles-container">
