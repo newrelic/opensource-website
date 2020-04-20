@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HomePageHighlights from "../components/HomePageHighlights"
 import HomePageInternalProjects from "../components/HomePageInternalProjects"
+import HomePageRecentArticles from "../components/HomePageRecentArticles"
 import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg'
 import freeCodeCampIcon from '../images/free-code-camp-icon.jpg'
 import tensorFlowIcon from '../images/tensor-flow-icon.jpg'
@@ -167,19 +168,7 @@ const IndexPage = () => {
       <div className="recent-articles-container">
         <h3 className="recent-articles-section-title">Recent articles</h3>
         <p className="recent-articles-section-description">Aenean eu leo quam. Pellentesque ornare sem lacinia quam or <Link to="/blog">view more articles</Link></p>
-        <div className="recent-articles">
-          {recentArticles.map(article => {
-            return (
-              <Link className="recent-article" to="/" key={article.title}>
-                <img className="recent-article-featured-image" src={article.featuredImage} alt={`featured image for this articles`}/>
-                <div className="recent-article-primary-content">
-                  <h4 className="recent-article-title">{article.title}</h4>
-                  <p className="recent-article-snippet">{article.snippet}</p>
-                </div>
-              </Link>
-            )
-          })}
-        </div>
+        <HomePageRecentArticles articles={recentArticles} />
       </div>
     </Layout>
   )
