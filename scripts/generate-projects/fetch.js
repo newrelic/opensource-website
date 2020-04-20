@@ -26,23 +26,6 @@ const graphqlWithAuth = graphql.defaults({
   }
 });
 
-const sampleGraphqlRequest = async function () {
-  const { repository } = await graphqlWithAuth(`
-    {
-      repository(owner: "octokit", name: "graphql.js") {
-        issues(last: 3) {
-          edges {
-            node {
-              title
-            }
-          }
-        }
-      }
-    }
-  `);
-  return repository;
-}
-
 /*
 
 {
@@ -159,7 +142,7 @@ const sampleGraphqlRequest = async function () {
  * start_page - Beginning page
  * exclude_archived - Whether or not to filter out archived repositories (repos.listForOrg does not offer a way to exclude these from the response)
  */
-const repositoryIterator = function ({ pages = 1, org = DEFAULT_ORG, type = 'public', per_page = REPOS_PER_PAGE, start_page = 1, excludeArchived = true}) {
+const organizationRepositoryIterator = function ({ pages = 1, org = DEFAULT_ORG, type = 'public', per_page = REPOS_PER_PAGE, start_page = 1, excludeArchived = true}) {
   return function () {
     const MAX_PAGES_ALLOWED = 100;
 
@@ -190,13 +173,11 @@ const repositoryIterator = function ({ pages = 1, org = DEFAULT_ORG, type = 'pub
       
       // const { status, url, headers, data } = firstPage;
       const linkHeaders = parseLinkHeader(firstPage.headers.link);
-      const lastPage = linkHeaders.last.page;
-      console.log('lastPage: ' + lastPage);
+      const lastPage = !linkHeaders ? startPage :linkHeaders.last.page;
     
       pagesNeeded = pages === 0 ? lastPage : pages; // 0 === all pages available
       pagesAvailable = (lastPage - start_page);
       pagesToGet = pagesAvailable <= pagesNeeded ? pagesAvailable : pagesNeeded;
-      console.log('PagesToGet: ' + pagesToGet);
 
       return firstPage;
     }
@@ -290,7 +271,7 @@ const getRepoStatsByContributor = async function (owner, repo) {
   return {};
 }
 
-const fetchStats = async function fetchStats (owner, repo) {
+const fetchStats = async function (owner, repo) {
   // 1. Graphql, includes releases.totalCount, issues.totalCount, forks.totalCount, pullRequests.totalCount
   const repoStats = await fetchRepositoryStats(owner, repo);  
   // prettyPrint(Object.keys(repoStats.repository));
@@ -322,10 +303,20 @@ const fetchStats = async function fetchStats (owner, repo) {
   return { repoStats: repoStats.repository, contributorStats };
 }
 
+const fetchRepo = async function ({ options }) {
+  const { org: owner, repo } = options;
+
+  return octokit.repos.get({
+    owner,
+    repo,
+  });
+}
+
 module.exports = {
-  repositoryIterator,
+  organizationRepositoryIterator,
   fetchRepositoryStats,
   fetchContributorStats,
   getRepoStatsByContributor,
-  fetchStats
+  fetchStats,
+  fetchRepo
 }

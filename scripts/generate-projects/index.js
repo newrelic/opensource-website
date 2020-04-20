@@ -15,10 +15,11 @@
 const path = require('path');
 const fs = require('fs');
 const {
-  repositoryIterator,
-  fetchStats
+  organizationRepositoryIterator,
+  fetchStats,
+  fetchRepo
 } = require('./fetch');
-const { SCREENSHOT_FOLDERS } = require('./constants');
+const { SCREENSHOT_FOLDERS, ORG_REPOS } = require('./constants');
 
 const prettyPrintJson = (json) => console.log(JSON.stringify(json, null, 2));
 const prettyPrint = (message) => console.log(message);
@@ -187,9 +188,19 @@ function writeProjectStatsToGatsby(project, projectStats) {
  * projects/<organization>-<repository-name>.json
  */
 async function generateProjects ({ iteratorOptions }) {
-  const iterator = repositoryIterator(iteratorOptions)();  
-  const delay = 1500;
+  const delay = 2000;
 
+  if (iteratorOptions.repo) {
+    const response = await fetchRepo({
+      options: iteratorOptions
+    });
+
+    processProjects(response)
+    await sleep(delay);
+    return;
+  }
+
+  const iterator = organizationRepositoryIterator(iteratorOptions)();
   let result = iterator.next();
   const response = await result.value;
   processProjects(response);
@@ -204,7 +215,8 @@ async function generateProjects ({ iteratorOptions }) {
 
 function processProjects (response) {
   const { status, url, headers, data } = response;
-  const filteredRepos = data.filter(r => !r.archived);
+  const dataAsArray = Array.isArray(data) ? data : [data];
+  const filteredRepos = dataAsArray.filter(r => r && !r.archived);
 
   prettyPrint('After removing Archived repositories found ' + filteredRepos.length + ' results:');
   prettyPrint(filteredRepos.map(d => 'id: ' + d.id + " " + d.full_name).join('\n'));
@@ -217,8 +229,17 @@ function processProjects (response) {
  * project-stats/<organization>-<repository-name>.json
  */
 async function generateProjectStats ({ iteratorOptions }) {
-  const iterator = repositoryIterator(iteratorOptions)();  
-  const delay = 1500;
+  if (iteratorOptions.repo) {
+    const response = await fetchRepo({
+      options: iteratorOptions
+    });
+    prettyPrintJson(response);
+    processProjectStats(response)
+    return;
+  }
+
+  const iterator = organizationRepositoryIterator(iteratorOptions)();  
+  const delay = 2000;
 
   let result = iterator.next();
   const response = await result.value;
@@ -235,7 +256,8 @@ async function generateProjectStats ({ iteratorOptions }) {
 
 async function processProjectStats (response) {
   const { status, url, headers, data } = response;
-  const filteredRepos = data.filter(r => !r.archived);
+  const dataAsArray = Array.isArray(data) ? data : [data];
+  const filteredRepos = dataAsArray.filter(r => r && !r.archived);
 
   prettyPrint('After removing Archived repositories found ' + filteredRepos.length + ' results:');
   prettyPrint(filteredRepos.map(d => 'id: ' + d.id + " " + d.full_name).join('\n'));
@@ -243,7 +265,7 @@ async function processProjectStats (response) {
   const repositories = formatRepositories(filteredRepos);
   for (const repository of repositories) {
     calculateAndWriteProjectStats(repository);
-    await sleep(3000);
+    await sleep(2000);
   }
 }
 
@@ -251,15 +273,29 @@ async function processProjectStats (response) {
  RequestError [HttpError]: You have triggered an abuse detection mechanism. Please wait a few minutes before you try again.
 */
 async function start () {
-  const options = { pages: 0, start_page: 1, per_page: 100 }; // Gets workload-geoops
+  const defaultOptions = { pages: 0, start_page: 1, per_page: 100 };
 
-  await generateProjects({
-    iteratorOptions: options
-  });
+  for ( const { org, repo = false } of ORG_REPOS ) {
+    await generateProjects({
+      iteratorOptions: {
+        ...defaultOptions,
+        org,
+        repo
+      }
+    });
+    await sleep(2000);
+  }
 
-  await generateProjectStats({
-    iteratorOptions: options
-  });
+  for ( const { org, repo = false } of ORG_REPOS ) {
+    await generateProjectStats({
+      iteratorOptions: {
+        ...defaultOptions,
+        org,
+        repo
+      }
+    });
+    await sleep(2000);
+  }
 }
 
 
