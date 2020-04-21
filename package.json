@@ -24,6 +24,8 @@
     "react-modal-image": "^2.5.0"
   },
   "devDependencies": {
+    "@newrelic/eslint-plugin-newrelic": "^0.3.0",
+    "eslint": "^6.8.0",
     "prettier": "^1.19.1"
   },
   "keywords": [
@@ -37,7 +39,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "eslint-check": "eslint src/",
+    "eslint-fix": "eslint src/ --fix"
   },
   "repository": {
     "type": "git",
