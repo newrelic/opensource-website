@@ -1,11 +1,11 @@
-import { Link } from "gatsby"
-import React, { useState } from "react";
-import navLinks from '../data/navigation.json'
-import PropTypes from "prop-types"
+import { Link } from 'gatsby';
+import React, { useState } from 'react';
+import navLinks from '../data/navigation.json';
+import PropTypes from 'prop-types';
 
-import styles from "../components/Header.module.scss"
+import styles from './Header.module.scss';
 
-const Header = ({hasHeaderBg}) => {
+const Header = ({ hasHeaderBg }) => {
   console.log(styles);
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
 
@@ -26,7 +26,11 @@ const Header = ({hasHeaderBg}) => {
   };
 
   return (
-    <header className={`${styles.primaryHeaderContainer} ${hasHeaderBg ? styles.hasHeaderBg : ''}`}>
+    <header
+      className={`${styles.primaryHeaderContainer} ${
+        hasHeaderBg ? styles.hasHeaderBg : ''
+      }`}
+    >
       <a href="/" className={styles.primaryHeaderLogo}>
         New Relic Open Source
       </a>
@@ -35,7 +39,7 @@ const Header = ({hasHeaderBg}) => {
 
       <div
         className={`${styles.primaryHeaderMobileNav} ${
-          mobileMenuActive ? styles.mobileMenuActive : ""
+          mobileMenuActive ? styles.mobileMenuActive : ''
         }`}
       >
         <button
@@ -44,7 +48,9 @@ const Header = ({hasHeaderBg}) => {
         >
           Menu
         </button>
-        <ul className={styles.primaryHeaderMobileNavLinks}>{renderNavLinks()}</ul>
+        <ul className={styles.primaryHeaderMobileNavLinks}>
+          {renderNavLinks()}
+        </ul>
       </div>
     </header>
   );
@@ -52,8 +58,6 @@ const Header = ({hasHeaderBg}) => {
 
 Header.propTypes = {
   hasHeaderBg: PropTypes.bool
-}
-
-
+};
 
 export default Header;

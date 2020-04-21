@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import styles from './PageHeading.module.scss'
+import styles from './PageHeading.module.scss';
 
 const PageHeading = props => {
   const renderTags = () => {
@@ -13,7 +13,11 @@ const PageHeading = props => {
   };
 
   return (
-    <div className={`${styles.pageHeadingContainer} ${props.hasSeparator ? styles.hasSeparator : ''}`}>
+    <div
+      className={`${styles.pageHeadingContainer} ${
+        props.hasSeparator ? styles.hasSeparator : ''
+      }`}
+    >
       {props.icon ? (
         <div className={styles.pageHeadingIconContainer}>
           <img
@@ -23,15 +27,15 @@ const PageHeading = props => {
           />
         </div>
       ) : (
-        ""
+        ''
       )}
-      {props.title ? <h1 className={styles.pageTitle}>{props.title}</h1> : ""}
+      {props.title ? <h1 className={styles.pageTitle}>{props.title}</h1> : ''}
       {props.subheader ? (
         <p className={styles.pageSubheader}>{props.subheader}</p>
       ) : (
-        ""
+        ''
       )}
-      {props.tags ? renderTags() : ""}
+      {props.tags ? renderTags() : ''}
     </div>
   );
 };
