@@ -40,8 +40,9 @@ const exploreProjectsPage = () => {
 
   const renderProjectListing = projects => {
     return projects.map(p => {
+      const link = p.permalink.replace('https://opensource.newrelic.com', '');
       return (
-        <Link className={styles.projectContainer} key={p.id} to={p.permalink}>
+        <Link className={styles.projectContainer} key={p.id} to={link}>
           <div className={styles.projectPrimaryContent}>
             <header className={styles.projectHeader}>
               <img src={p.icon} alt="icon for" className={styles.projectIcon} />
