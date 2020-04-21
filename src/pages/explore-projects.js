@@ -1,5 +1,5 @@
 import React from 'react';
-import { StaticQuery, Link } from 'gatsby';
+import { graphql, StaticQuery, Link } from 'gatsby';
 import Layout from '../components/layout';
 import PageHeading from '../components/PageHeading';
 
@@ -10,35 +10,31 @@ import styles from './projects.module.scss';
 
 const exploreProjectsPage = () => {
   const renderFeaturedProjects = projects => {
-    return projects.map((p, i) => {
-      if (i < 3) {
-        return (
-          <div className={styles.featuredProject} key={p.id}>
-            <img
-              className={styles.featuredProjectIcon}
-              src={placeholderIcon}
-              alt={`icon for ${p.title}`}
-            />
-            <div className={styles.featuredProjectPrimaryContent}>
-              <h4 className={styles.featuredProjectTitle}>{p.title}</h4>
-              <p className={styles.featuredProjectDescription}>
-                {p.description}
-              </p>
-              <a href="#" className={`button ${styles.featuredProjectButton}`}>
-                Read more
-              </a>
-            </div>
-            <footer className={styles.featuredProjectFooter}>
-              <span className={styles.featuredProjectFooterLink}>
-                {p.ossCategory.title}
-              </span>
-              <span className={styles.featuredProjectFooterLink}>
-                {p.primaryLanguage}
-              </span>
-            </footer>
+    return projects.slice(0, 3).map(p => {
+      return (
+        <div className={styles.featuredProject} key={p.id}>
+          <img
+            className={styles.featuredProjectIcon}
+            src={placeholderIcon}
+            alt={`icon for ${p.title}`}
+          />
+          <div className={styles.featuredProjectPrimaryContent}>
+            <h4 className={styles.featuredProjectTitle}>{p.title}</h4>
+            <p className={styles.featuredProjectDescription}>{p.description}</p>
+            <a href="#" className={`button ${styles.featuredProjectButton}`}>
+              Read more
+            </a>
           </div>
-        );
-      }
+          <footer className={styles.featuredProjectFooter}>
+            <span className={styles.featuredProjectFooterLink}>
+              {p.ossCategory.title}
+            </span>
+            <span className={styles.featuredProjectFooterLink}>
+              {p.primaryLanguage}
+            </span>
+          </footer>
+        </div>
+      );
     });
   };
 
