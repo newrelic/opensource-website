@@ -62,7 +62,7 @@
 
 .featured-projects {
   display: flex;
-  margin: 50px 0 16px;
+  margin: 50px 0 20px;
 }
 
 .featured-project {
@@ -149,7 +149,7 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
   grid-template-rows: 1fr  auto;
-  grid-gap: 16px;
+  grid-gap: 20px;
 }
 
 .project-container {
@@ -179,10 +179,11 @@
 }
 
 .project-header {
-  margin: 14px 16px 12px;
+  margin: 14px 16px 8px;
   display: flex;
   word-break: break-word;
   line-height: 30px;
+  align-items: center;
 }
 
 .project-icon {

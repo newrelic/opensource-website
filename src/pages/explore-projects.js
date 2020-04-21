@@ -78,10 +78,10 @@ const exploreProjectsPage = () => {
 
         return (
           <>
-            <Layout>
-              <PageHeading
-                title="Explore our projects"
-                subheader="Projects and products that we're developing in open source"
+            <Layout fullWidth>
+              <PageHeading 
+                title="Explore our projects" 
+                subheader="Projects and products that we're developing in open source" 
               />
 
               <div className={styles.searchSection}>
