@@ -1,0 +1,13 @@
+name: "sync-data"
+description: "Sync project and project-stats data"
+inputs:
+  github-token:
+    description: "Token for the repo. Can be passed in using ${{ secrets.GITHUB_TOKEN }}"
+    required: true
+  projects:
+    description: "true/false - determines whether to fetch and sync the project data"
+  project-stats:
+    description: "true/false - determines whether to fetch and sync the project-stats data"
+runs:
+  using: "node12"
+  main: "src/index.js"

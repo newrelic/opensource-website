@@ -1,0 +1,41 @@
+{
+  "name": "sync-project-stats",
+  "version": "1.0.0",
+  "description": "JavaScript Action Template",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "package": "ncc build index.js -o dist",
+    "test": "eslint index.js && jest",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actions/javascript-action.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/actions/javascript-action/issues"
+  },
+  "homepage": "https://github.com/actions/javascript-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.1",
+    "@actions/exec": "^1.0.3",
+    "@actions/github": "^2.1.1",
+    "@actions/io": "^1.0.2",
+    "@octokit/graphql": "^4.3.1",
+    "@octokit/rest": "^17.2.1",
+    "parse-link-header": "^1.0.1"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5",
+    "eslint": "^6.8.0",
+    "jest": "^25.2.4"
+  }
+}
