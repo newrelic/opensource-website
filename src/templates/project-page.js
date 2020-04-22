@@ -8,7 +8,6 @@ import Carousel, { Modal, ModalGateway } from 'react-images';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
-import ProjectReadme from '../components/ProjectReadme';
 import ContributorListing from '../components/ContributorListing';
 import styles from './project-page.module.scss';
 
