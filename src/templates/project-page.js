@@ -8,6 +8,7 @@ import Carousel, { Modal, ModalGateway } from 'react-images';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
+import ProjectReadme from '../components/ProjectReadme';
 import ContributorListing from '../components/ContributorListing';
 import styles from './project-page.module.scss';
 
@@ -37,6 +38,9 @@ const ProjectPage = ({ data }) => {
   const tags = [project.ossCategory.title, project.primaryLanguage];
 
   const [screenshotModalActive, setScreenshotModalActive] = useState(false);
+
+  const hasProjectStats = projectStats;
+  const hasReadme = project.mainContent;
 
   // const project = data.projectsJson;
 
@@ -80,7 +84,18 @@ const ProjectPage = ({ data }) => {
     });
   };
 
-  const renderScreenshots = () => {
+  const renderScreenshots = (project, projectStats) => {
+    const hasScreenshots =
+      projectStats &&
+      projectStats.screenshots &&
+      Array.isArray(projectStats.screenshots) &&
+      projectStats.screenshots.length > 0;
+
+    if (!hasScreenshots) {
+      // TO DO - Add an empty state
+      return null;
+    }
+
     const screenshots = projectStats.screenshots.map((screenshot, index) => {
       return (
         <li
@@ -112,6 +127,15 @@ const ProjectPage = ({ data }) => {
         </ModalGateway>
       </>
     );
+  };
+
+  // TO DO - What do we display when we do not have stats?
+  const renderEmptyProjectStats = () => {
+    return null;
+  };
+
+  const renderEmptyIssues = () => {
+    return null;
   };
 
   return (
@@ -182,10 +206,12 @@ const ProjectPage = ({ data }) => {
 
           <h3>Top Contributors</h3>
           <p>Thanks goes to these wonderful people:</p>
-          <ContributorListing
-            contributors={projectStats.cachedContributors}
-            project={project}
-          />
+          {hasProjectStats && (
+            <ContributorListing
+              contributors={projectStats.cachedContributors}
+              project={project}
+            />
+          )}
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
@@ -224,107 +250,116 @@ const ProjectPage = ({ data }) => {
             </>
           )}
 
-          <h4>Repo stats</h4>
-          <ul className={styles.repoStats}>
-            <li
-              className={`${styles.repoStat} + ${styles.repoStatContributors}`}
-            >
-              <img
-                src={contributorIcon}
-                alt="contributor icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.contributors}
-              </span>
-              <a
-                href={`${project.githubUrl}/graphs/contributors`}
-                className={styles.repoStatLabel}
-              >
-                Contributors
-              </a>
-            </li>
-            <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
-              <img
-                src={tagIcon}
-                alt="release icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.releases}
-              </span>
-              <a
-                href={`${project.githubUrl}/releases`}
-                className={styles.repoStatLabel}
-              >
-                Releases
-              </a>
-            </li>
-            <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
-              <img
-                src={commitIcon}
-                alt="commit icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.commits}
-              </span>
-              <a
-                href={`${project.githubUrl}/commits`}
-                className={styles.repoStatLabel}
-              >
-                Commits
-              </a>
-            </li>
-            <li className={`${styles.repoStat} ${styles.repoStatPullRequests}`}>
-              <img
-                src={prIcon}
-                alt="pull request icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.pullRequests.open}
-              </span>
-              <a
-                href={`${project.githubUrl}/pulls`}
-                className={styles.repoStatLabel}
-              >
-                Open Pull Requests
-              </a>
-            </li>
-            <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
-              <img
-                src={openIssueGreyIcon}
-                alt="open issue icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.issues.open}
-              </span>
-              <a
-                href={`${project.githubUrl}/issues`}
-                className={styles.repoStatLabel}
-              >
-                Open Issues
-              </a>
-            </li>
-          </ul>
-
-          {projectStats.cachedIssues.length > 0 && (
+          {hasProjectStats && (
             <>
-              <div className="aside-header-item">
-                <h4>Good first issues</h4>
-                <a
-                  href={`${project.githubUrl}/issues`}
-                  className="aside-header-item-button"
+              <h4>Repo stats</h4>
+              <ul className={styles.repoStats}>
+                <li
+                  className={`${styles.repoStat} + ${styles.repoStatContributors}`}
                 >
-                  View all issues
-                </a>
-              </div>
+                  <img
+                    src={contributorIcon}
+                    alt="contributor icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.contributors}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/graphs/contributors`}
+                    className={styles.repoStatLabel}
+                  >
+                    Contributors
+                  </a>
+                </li>
+                <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
+                  <img
+                    src={tagIcon}
+                    alt="release icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.releases}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/releases`}
+                    className={styles.repoStatLabel}
+                  >
+                    Releases
+                  </a>
+                </li>
+                <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
+                  <img
+                    src={commitIcon}
+                    alt="commit icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.commits}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/commits`}
+                    className={styles.repoStatLabel}
+                  >
+                    Commits
+                  </a>
+                </li>
+                <li
+                  className={`${styles.repoStat} ${styles.repoStatPullRequests}`}
+                >
+                  <img
+                    src={prIcon}
+                    alt="pull request icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.pullRequests.open}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/pulls`}
+                    className={styles.repoStatLabel}
+                  >
+                    Open Pull Requests
+                  </a>
+                </li>
+                <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
+                  <img
+                    src={openIssueGreyIcon}
+                    alt="open issue icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.issues.open}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/issues`}
+                    className={styles.repoStatLabel}
+                  >
+                    Open Issues
+                  </a>
+                </li>
+              </ul>
 
-              {renderIssues(project, projectStats)}
+              {projectStats.cachedIssues.length > 0 && (
+                <>
+                  <div className="aside-header-item">
+                    <h4>Good first issues</h4>
+                    <a
+                      href={`${project.githubUrl}/issues`}
+                      className="aside-header-item-button"
+                    >
+                      View all issues
+                    </a>
+                  </div>
+
+                  {hasProjectStats && renderIssues(project, projectStats)}
+                  {!hasProjectStats && renderEmptyIssues()}
+                </>
+              )}
             </>
           )}
+
+          {!hasProjectStats && renderEmptyProjectStats()}
         </aside>
       </div>
     </Layout>

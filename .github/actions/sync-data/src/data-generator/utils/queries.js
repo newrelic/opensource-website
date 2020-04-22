@@ -1,11 +1,12 @@
 const { SCREENSHOT_FOLDERS } = require('./constants');
 
 const repositoryStats = (owner, repo) => {
-
   // TO DO - Ascertain Github's GraphQL query limits
-  const screenshots = Object.entries(SCREENSHOT_FOLDERS).reduce((p, [ key, value ]) => {
-    const screenShotFragment = `
-      ` + key + `: object(expression: "` + value + `") {
+  const screenshots = Object.entries(SCREENSHOT_FOLDERS).reduce(
+    (p, [key, value]) => {
+      const screenShotFragment =
+        `
+      ${  key  }: object(expression: "${  value  }") {
         ... on Tree {
           entries {
             name
@@ -13,84 +14,93 @@ const repositoryStats = (owner, repo) => {
         }
       }
     `
-    return p + `
+      return (
+        p +
+        `
     
-    ` + screenShotFragment;
-  }, '');
+    ` +
+        screenShotFragment
+      );
+    },
+    ''
+  );
 
-  return `
-  {
-    repository(name: "` + repo + `", owner: "` + owner + `") {
-      id
-      collaborators {
-        totalCount
-      }
-      releases {
-        totalCount
-      }
-      issues(filterBy: {states: OPEN, labels: "good first issue"}, first: 3) {
-        totalCount
-        nodes {
-          id
-          title
-          url
-          createdAt
-          comments {
-            totalCount
-          }
-          author {
-            login
-            ... on User {
-              id
-              email
-              name
-            }
-          }
-          number
+  return (`
+    {
+      repository(name: "${  repo  }", owner: "${  owner  }") {
+        id
+        collaborators {
+          totalCount
         }
-      }
-      forks {
-        totalCount
-      }
-      pullRequests(states: OPEN) {
-        totalCount
-      }
-      pushedAt
-      defaultBranchRef {
-        target {
-          ... on Commit {
-            history {
+        releases {
+          totalCount
+        }
+        openIssues: issues(filterBy: {states: OPEN}) {
+          totalCount
+        }
+        goodFirstIssues: issues(filterBy: {states: OPEN, labels: "good first issue"}, first: 3) {
+          totalCount
+          nodes {
+            id
+            title
+            url
+            createdAt
+            comments {
               totalCount
             }
+            author {
+              login
+              ... on User {
+                id
+                email
+                name
+              }
+            }
+            number
           }
         }
-      }
-      milestones(states: OPEN) {
-        totalCount
-      }
-      mentionableUsers {
-        totalCount
-      }
-      languages(first: 10) {
-        nodes {
-          id
-          name
-          color
+        forks {
+          totalCount
         }
+        pullRequests(states: OPEN) {
+          totalCount
+        }
+        pushedAt
+        defaultBranchRef {
+          target {
+            ... on Commit {
+              history {
+                totalCount
+              }
+            }
+          }
+        }
+        milestones(states: OPEN) {
+          totalCount
+        }
+        mentionableUsers {
+          totalCount
+        }
+        languages(first: 10) {
+          nodes {
+            id
+            name
+            color
+          }
+        }
+        isFork
+        deployments {
+          totalCount
+        }
+        commitComments {
+          totalCount
+        }
+        ${  screenshots  }
       }
-      isFork
-      deployments {
-        totalCount
-      }
-      commitComments {
-        totalCount
-      }
-      ` + screenshots + `
     }
-  }
-`;
-}
+  `)
+};
 
 module.exports = {
-  repositoryStats 
-}
+  repositoryStats,
+};
