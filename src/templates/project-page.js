@@ -62,9 +62,11 @@ const ProjectPage = ({ data }) => {
                 alt="Chat Icon"
                 className={styles.projectPageIssueFooterDiscussionIcon}
               />
-              <span className={styles.projectPageIssueFooterDiscussionCount}>
-                {issue.comments.count}
-              </span>
+              {issue.comments.totalCount > 0 && (
+                <span className={styles.projectPageIssueFooterDiscussionCount}>
+                  {issue.comments.totalCount}
+                </span>
+              )}
             </div>
           </footer>
         </a>
@@ -92,6 +94,12 @@ const ProjectPage = ({ data }) => {
 
   const project = data.allProjectsJson.nodes[0];
   const projectStats = project.stats;
+
+  const tags = [project.ossCategory.title, project.primaryLanguage]
+
+  console.log(project)
+
+
   return (
     <Layout hasHeaderBg>
       <SEO title="A single project page" />
@@ -99,7 +107,7 @@ const ProjectPage = ({ data }) => {
         title={project.title}
         subheader={project.description}
         icon={project.iconUrl}
-        tags={project.tags}
+        tags={tags}
         hasSeparator
       />
       <div className="primary-content">
@@ -160,13 +168,9 @@ const ProjectPage = ({ data }) => {
 
           <h3>Top Contributors</h3>
           <p>
-            Thanks goes to these wonderful people{' '}
-            <Link to="https://allcontributors.org/docs/en/emoji-key">
-              (emoji key)
-            </Link>
-            :
+            Thanks goes to these wonderful people:
           </p>
-          <ContributorListing data={projectStats.cachedContributors} />
+          <ContributorListing contributors={projectStats.cachedContributors} project={project} />
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
@@ -198,10 +202,14 @@ const ProjectPage = ({ data }) => {
             </div>
           </div>
 
-          <h4>Screenshots</h4>
-          <div className={styles.projectScreenshotsContainer}>
-            {renderScreenshots(project, projectStats)}
-          </div>
+          {projectStats.screenshots.length > 0 && (
+            <>
+              <h4>Screenshots</h4>
+              <div className={styles.projectScreenshotsContainer}>
+                {renderScreenshots(project, projectStats)}
+              </div>
+            </>
+          )}
 
           <h4>Repo stats</h4>
           <ul className={styles.repoStats}>
@@ -216,7 +224,7 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.contributors}
               </span>
-              <span className={styles.repoStatLabel}>Contributors</span>
+              <a href={`${project.githubUrl}/graphs/contributors`} className={styles.repoStatLabel}>Contributors</a>
             </li>
             <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
               <img
@@ -227,7 +235,7 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.releases}
               </span>
-              <span className={styles.repoStatLabel}>Releases</span>
+              <a href={`${project.githubUrl}/releases`} className={styles.repoStatLabel}>Releases</a>
             </li>
             <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
               <img
@@ -238,7 +246,7 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.commits}
               </span>
-              <span className={styles.repoStatLabel}>Commits</span>
+              <a href={`${project.githubUrl}/commits`} className={styles.repoStatLabel}>Commits</a>
             </li>
             <li className={`${styles.repoStat} ${styles.repoStatPullRequests}`}>
               <img
@@ -249,7 +257,7 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.pullRequests.open}
               </span>
-              <span className={styles.repoStatLabel}>Open Pull Requests</span>
+              <a href={`${project.githubUrl}/pulls`} className={styles.repoStatLabel}>Open Pull Requests</a>
             </li>
             <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
               <img
@@ -260,21 +268,25 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.issues.open}
               </span>
-              <span className={styles.repoStatLabel}>Open Issues</span>
+              <a href={`${project.githubUrl}/issues`} className={styles.repoStatLabel}>Open Issues</a>
             </li>
           </ul>
+          
+          {projectStats.cachedIssues.length > 0 && (
+            <>
+            <div className="aside-header-item">
+              <h4>Good first issues</h4>
+              <a
+                href={`${project.githubUrl}/issues`}
+                className="aside-header-item-button"
+              >
+                View all issues
+              </a>
+            </div>
 
-          <div className="aside-header-item">
-            <h4>Good first issues</h4>
-            <a
-              href={`${project.githubUrl}/issues`}
-              className="aside-header-item-button"
-            >
-              View all issues
-            </a>
-          </div>
-
-          {renderIssues(project, projectStats)}
+            {renderIssues(project, projectStats)}
+            </>
+          )}
         </aside>
       </div>
     </Layout>

@@ -37,6 +37,11 @@
 
 .repo-stat-label {
   color: var(--color-neutrals-700);
+  border: none;
+
+  &:hover {
+    color: var(--color-brand-800);
+  }
 }
 
 .call-to-action-buttons {
