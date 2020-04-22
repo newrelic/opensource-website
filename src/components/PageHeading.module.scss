@@ -16,11 +16,27 @@
 }
   
   .page-heading-icon {
+    display: block;
     width: 80px;
     height: 80px;
     border: 4px solid #fff;
     border-radius: 50%;
     overflow: hidden;
+    background-color: var(--color-neutrals-400);
+    position: relative;
+    
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: var(--color-neutrals-400);
+      background-image: url(../images/page-heading-icon-placeholder.jpg);
+      background-size: 120% 120%;
+      background-position: center center;
+    }
   }
   
   .page-title {
@@ -33,6 +49,12 @@
   }
 
   .page-subheader {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
     margin: 3px 0;
     max-width: 800px;
     font-family: var(--primary-font-family);
