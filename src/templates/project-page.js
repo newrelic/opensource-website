@@ -83,7 +83,7 @@ const ProjectPage = ({ data }) => {
     });
   };
 
-  const renderScreenshots = (project, projectStats) => {
+  const renderScreenshots = () => {
     const hasScreenshots =
       projectStats &&
       projectStats.screenshots &&
