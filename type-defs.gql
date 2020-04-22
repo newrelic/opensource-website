@@ -6,4 +6,5 @@ type ProjectStatsJson implements Node {
 
 type ProjectsJson implements Node {
   stats: ProjectStatsJson @link(by: "projectFullName", from: "fullName")
+  mainContent: ProjectMainContent @link(by: "slug", from: "slug")
 }

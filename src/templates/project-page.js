@@ -4,10 +4,13 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
+import ModalImage from 'react-modal-image';
+import get from 'lodash.get';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
+import ProjectMainContent from '../components/ProjectMainContent';
 import ContributorListing from '../components/ContributorListing';
 import styles from './project-page.module.scss';
 
@@ -21,8 +24,8 @@ import openIssueGreyIcon from '../images/icon-open-issue-grey.svg';
 import iconGitHubWhite from '../images/icon-github-white.svg';
 
 export const query = graphql`
-  query Project($fullName: String) {
-    allProjectsJson(filter: { fullName: { eq: $fullName } }) {
+  query Project($slug: String) {
+    allProjectsJson(filter: { slug: { eq: $slug } }) {
       nodes {
         ...projectFields
       }
@@ -31,20 +34,24 @@ export const query = graphql`
 `;
 
 const ProjectPage = ({ data }) => {
-  const project = data.allProjectsJson.nodes[0];
-  const projectStats = project.stats;
+  const renderNotFound = () => {
+    return <h1>Project not found</h1>;
+  };
 
-  const tags = [project.ossCategory.title, project.primaryLanguage];
+  const project = get(data, 'allProjectsJson.nodes[0]', false);
+
+  if (!project) {
+    return renderNotFound();
+  }
+
+  const projectStats = get(project, 'stats', false);
+  const tags = [
+    get(project, 'ossCategory.title', ''),
+    get(project, 'primaryLanguage', '')
+  ];
+  const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
 
   const [screenshotModalActive, setScreenshotModalActive] = useState(false);
-
-  const hasProjectStats = projectStats;
-  const hasReadme = project.mainContent;
-
-  // const project = data.projectsJson;
-
-  // This happens "magically"
-  // const { fullName } = pageContext;
 
   const renderIssues = (project, projectStats) => {
     return projectStats.cachedIssues.map(issue => {
@@ -149,63 +156,14 @@ const ProjectPage = ({ data }) => {
       />
       <div className="primary-content">
         <main className="primary-content-main">
-          <h2>Integer posuere erat a ante venenatis</h2>
-          <p>
-            Donec sed odio dui. Donec sed odio dui. Cras justo odio, dapibus ac
-            facilisis in, egestas eget quam. Duis mollis, est non commodo
-            luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-            Vestibulum id ligula porta felis euismod semper. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </p>
-
-          <h3>Integer posuere erat a ante venenatis</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-            Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-          </p>
-
-          <h3>What people are saying</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-            Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-          </p>
-
-          <blockquote>
-            Vitae enim egestas egestas at gravida arcu, amet in. Facilisis at
-            massa amet, aliquet dui semper. Sit placerat sed et ornare faucibus
-            egestas sit nisl, diam.
-            <cite>Leslie Webb</cite>
-          </blockquote>
-
-          <blockquote>
-            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-            vestibulum. Maecenas faucibus mollis interdum. Maecenas sed diam
-            eget risus varius blandit sit amet non magna.
-            <cite>Bildad the Shuhite</cite>
-          </blockquote>
-
-          <h3>Mattis risus ultricies</h3>
-          <p>
-            Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et
-            magnis dis parturient montes, nascetur ridiculus mus. Nullam id
-            dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi
-            porta gravida at eget metus.
-          </p>
-          <p>
-            Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo
-            odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non
-            mi porta gravida at eget metus. Donec ullamcorper nulla non metus
-            auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-            auctor.
-          </p>
+          {mainContent && (
+            <ProjectMainContent mdx={project.mainContent.mdx.compiledMdx} />
+          )}
+          {!mainContent && <h2>No content found.</h2>}
 
           <h3>Top Contributors</h3>
           <p>Thanks goes to these wonderful people:</p>
-          {hasProjectStats && (
+          {projectStats && (
             <ContributorListing
               contributors={projectStats.cachedContributors}
               project={project}
@@ -249,7 +207,7 @@ const ProjectPage = ({ data }) => {
             </>
           )}
 
-          {hasProjectStats && (
+          {projectStats && (
             <>
               <h4>Repo stats</h4>
               <ul className={styles.repoStats}>
@@ -351,14 +309,14 @@ const ProjectPage = ({ data }) => {
                     </a>
                   </div>
 
-                  {hasProjectStats && renderIssues(project, projectStats)}
-                  {!hasProjectStats && renderEmptyIssues()}
+                  {projectStats && renderIssues(project, projectStats)}
+                  {!projectStats && renderEmptyIssues()}
                 </>
               )}
             </>
           )}
 
-          {!hasProjectStats && renderEmptyProjectStats()}
+          {!projectStats && renderEmptyProjectStats()}
         </aside>
       </div>
     </Layout>

@@ -9,19 +9,26 @@
     "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.2",
     "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-mdx": "^1.1.9",
     "gatsby-plugin-offline": "^3.1.2",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-sass": "^2.2.1",
     "gatsby-plugin-sharp": "^2.5.4",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-transformer-json": "^2.3.1",
+    "gatsby-transformer-remark": "^2.7.3",
     "gatsby-transformer-sharp": "^2.4.4",
+    "lodash.get": "^4.4.2",
     "node-sass": "^4.13.1",
+    "prism-react-renderer": "^1.0.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "react-images": "^1.1.3"
+    "react-images": "^1.1.3",
+    "react-live": "^2.2.2",
+    "react-modal-image": "^2.5.0",
+    "uuid": "^7.0.3"
   },
   "devDependencies": {
     "@newrelic/eslint-plugin-newrelic": "^0.3.0",
@@ -40,8 +47,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "eslint-check": "eslint src/",
-    "eslint-fix": "eslint src/ --fix"
+    "eslint-check": "eslint src/ gatsby/",
+    "eslint-fix": "eslint src/ gatsby/ --fix"
   },
   "repository": {
     "type": "git",

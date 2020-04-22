@@ -58,6 +58,13 @@ export const projectFields = graphql`
       title
     }
     shortDescription
+    mainContent {
+      mdx: parent {
+        ... on Mdx {
+          compiledMdx: body
+        }
+      }
+    }
   }
 `;
 
