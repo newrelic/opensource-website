@@ -215,7 +215,7 @@ async function generateProjects({ iteratorOptions }) {
 function processProjects(response) {
   const { status, url, headers, data } = response;
   const dataAsArray = Array.isArray(data) ? data : [data];
-  const filteredRepos = dataAsArray.filter((r) => r && !r.archived);
+  const filteredRepos = dataAsArray.filter(r => r && !r.archived && !r.fork);
 
   prettyPrint(
     `After removing Archived repositories found ${filteredRepos.length} results:`
