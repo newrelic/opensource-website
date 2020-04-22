@@ -1,62 +1,44 @@
 {
   "projectFullName": "newrelic/newrelic-cli",
   "issues": {
-    "open": 1
+    "open": 17
   },
-  "releases": 11,
-  "commits": 363,
+  "releases": 12,
+  "commits": 400,
   "contributors": 5,
   "pullRequests": {
-    "open": 5
+    "open": 3
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MDE3MjUwOTE=",
-      "title": "newrelic cli commands need to be updated in the newrelic-cli/blob/master/docs/GETTING_STARTED.md.",
-      "url": "https://github.com/newrelic/newrelic-cli/issues/202",
-      "createdAt": "2020-04-17T06:04:34Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "sri-shetty",
-        "id": "MDQ6VXNlcjUyOTc4MzA5",
-        "email": "",
-        "name": null
-      },
-      "number": 202,
-      "createdBy": "sri-shetty"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 25180681,
       "login": "renovate-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
       "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 14
+      "contributions": 15
     },
     {
       "id": 2590905,
       "login": "sanderblue",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
       "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 19
+      "contributions": 25
     },
     {
       "id": 29264964,
       "login": "zlesnr",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/29264964?v=4",
       "htmlUrl": "https://github.com/zlesnr",
-      "contributions": 39
+      "contributions": 41
     },
     {
       "id": 413389,
       "login": "ctrombley",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
       "htmlUrl": "https://github.com/ctrombley",
-      "contributions": 46
+      "contributions": 63
     },
     {
       "id": 455419,
@@ -91,6 +73,11 @@
       "id": "MDg6TGFuZ3VhZ2U0NjM=",
       "name": "Batchfile",
       "color": "#C1F12E"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
     }
   ],
   "screenshots": []
