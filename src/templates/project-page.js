@@ -8,6 +8,7 @@ import ModalImage from 'react-modal-image';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
+import ProjectReadme from '../components/ProjectReadme';
 import ContributorListing from '../components/ContributorListing';
 import styles from './project-page.module.scss';
 
@@ -75,6 +76,17 @@ const ProjectPage = ({ data }) => {
   };
 
   const renderScreenshots = (project, projectStats) => {
+    const hasScreenshots =
+      projectStats &&
+      projectStats.screenshots &&
+      Array.isArray(projectStats.screenshots) &&
+      projectStats.screenshots.length > 0;
+
+    if (!hasScreenshots) {
+      // TO DO - Add an empty state
+      return null;
+    }
+
     const screenshots = projectStats.screenshots.map((screenshot, index) => {
       return (
         <li key={index} className={styles.projectScreenshotListItem}>
@@ -92,13 +104,22 @@ const ProjectPage = ({ data }) => {
     return <ul className={styles.projectScreenshotList}>{screenshots}</ul>;
   };
 
+  // TO DO - What do we display when we do not have stats?
+  const renderEmptyProjectStats = () => {
+    return null;
+  };
+
+  const renderEmptyIssues = () => {
+    return null;
+  };
+
   const project = data.allProjectsJson.nodes[0];
   const projectStats = project.stats;
 
-  const tags = [project.ossCategory.title, project.primaryLanguage]
+  const tags = [project.ossCategory.title, project.primaryLanguage];
 
-  console.log(project)
-
+  const hasProjectStats = projectStats;
+  const hasReadme = project.mainContent;
 
   return (
     <Layout hasHeaderBg>
@@ -112,65 +133,17 @@ const ProjectPage = ({ data }) => {
       />
       <div className="primary-content">
         <main className="primary-content-main">
-          <h2>Integer posuere erat a ante venenatis</h2>
-          <p>
-            Donec sed odio dui. Donec sed odio dui. Cras justo odio, dapibus ac
-            facilisis in, egestas eget quam. Duis mollis, est non commodo
-            luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-            Vestibulum id ligula porta felis euismod semper. Cum sociis natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-          </p>
-
-          <h3>Integer posuere erat a ante venenatis</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-            Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-          </p>
-
-          <h3>What people are saying</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-            Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit.
-          </p>
-
-          <blockquote>
-            Vitae enim egestas egestas at gravida arcu, amet in. Facilisis at
-            massa amet, aliquet dui semper. Sit placerat sed et ornare faucibus
-            egestas sit nisl, diam.
-            <cite>Leslie Webb</cite>
-          </blockquote>
-
-          <blockquote>
-            Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-            vestibulum. Maecenas faucibus mollis interdum. Maecenas sed diam
-            eget risus varius blandit sit amet non magna.
-            <cite>Bildad the Shuhite</cite>
-          </blockquote>
-
-          <h3>Mattis risus ultricies</h3>
-          <p>
-            Curabitur blandit tempus porttitor. Cum sociis natoque penatibus et
-            magnis dis parturient montes, nascetur ridiculus mus. Nullam id
-            dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi
-            porta gravida at eget metus.
-          </p>
-          <p>
-            Nullam quis risus eget urna mollis ornare vel eu leo. Cras justo
-            odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non
-            mi porta gravida at eget metus. Donec ullamcorper nulla non metus
-            auctor fringilla. Nulla vitae elit libero, a pharetra augue.
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-            auctor.
-          </p>
+          {hasReadme && <ProjectReadme mdx={project.mainContent.content} />}
+          {!hasReadme && <h2>No content found.</h2>}
 
           <h3>Top Contributors</h3>
-          <p>
-            Thanks goes to these wonderful people:
-          </p>
-          <ContributorListing contributors={projectStats.cachedContributors} project={project} />
+          <p>Thanks goes to these wonderful people:</p>
+          {hasProjectStats && (
+            <ContributorListing
+              contributors={projectStats.cachedContributors}
+              project={project}
+            />
+          )}
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
@@ -211,82 +184,116 @@ const ProjectPage = ({ data }) => {
             </>
           )}
 
-          <h4>Repo stats</h4>
-          <ul className={styles.repoStats}>
-            <li
-              className={`${styles.repoStat} + ${styles.repoStatContributors}`}
-            >
-              <img
-                src={contributorIcon}
-                alt="contributor icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.contributors}
-              </span>
-              <a href={`${project.githubUrl}/graphs/contributors`} className={styles.repoStatLabel}>Contributors</a>
-            </li>
-            <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
-              <img
-                src={tagIcon}
-                alt="release icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.releases}
-              </span>
-              <a href={`${project.githubUrl}/releases`} className={styles.repoStatLabel}>Releases</a>
-            </li>
-            <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
-              <img
-                src={commitIcon}
-                alt="commit icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.commits}
-              </span>
-              <a href={`${project.githubUrl}/commits`} className={styles.repoStatLabel}>Commits</a>
-            </li>
-            <li className={`${styles.repoStat} ${styles.repoStatPullRequests}`}>
-              <img
-                src={prIcon}
-                alt="pull request icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.pullRequests.open}
-              </span>
-              <a href={`${project.githubUrl}/pulls`} className={styles.repoStatLabel}>Open Pull Requests</a>
-            </li>
-            <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
-              <img
-                src={openIssueGreyIcon}
-                alt="open issue icon"
-                className={styles.repoStatIcon}
-              />
-              <span className={styles.repoStatCount}>
-                {projectStats.issues.open}
-              </span>
-              <a href={`${project.githubUrl}/issues`} className={styles.repoStatLabel}>Open Issues</a>
-            </li>
-          </ul>
-          
-          {projectStats.cachedIssues.length > 0 && (
+          {hasProjectStats && (
             <>
-            <div className="aside-header-item">
-              <h4>Good first issues</h4>
-              <a
-                href={`${project.githubUrl}/issues`}
-                className="aside-header-item-button"
-              >
-                View all issues
-              </a>
-            </div>
+              <h4>Repo stats</h4>
+              <ul className={styles.repoStats}>
+                <li
+                  className={`${styles.repoStat} + ${styles.repoStatContributors}`}
+                >
+                  <img
+                    src={contributorIcon}
+                    alt="contributor icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.contributors}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/graphs/contributors`}
+                    className={styles.repoStatLabel}
+                  >
+                    Contributors
+                  </a>
+                </li>
+                <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
+                  <img
+                    src={tagIcon}
+                    alt="release icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.releases}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/releases`}
+                    className={styles.repoStatLabel}
+                  >
+                    Releases
+                  </a>
+                </li>
+                <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
+                  <img
+                    src={commitIcon}
+                    alt="commit icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.commits}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/commits`}
+                    className={styles.repoStatLabel}
+                  >
+                    Commits
+                  </a>
+                </li>
+                <li
+                  className={`${styles.repoStat} ${styles.repoStatPullRequests}`}
+                >
+                  <img
+                    src={prIcon}
+                    alt="pull request icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.pullRequests.open}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/pulls`}
+                    className={styles.repoStatLabel}
+                  >
+                    Open Pull Requests
+                  </a>
+                </li>
+                <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
+                  <img
+                    src={openIssueGreyIcon}
+                    alt="open issue icon"
+                    className={styles.repoStatIcon}
+                  />
+                  <span className={styles.repoStatCount}>
+                    {projectStats.issues.open}
+                  </span>
+                  <a
+                    href={`${project.githubUrl}/issues`}
+                    className={styles.repoStatLabel}
+                  >
+                    Open Issues
+                  </a>
+                </li>
+              </ul>
 
-            {renderIssues(project, projectStats)}
+              {projectStats.cachedIssues.length > 0 && (
+                <>
+                  <div className="aside-header-item">
+                    <h4>Good first issues</h4>
+                    <a
+                      href={`${project.githubUrl}/issues`}
+                      className="aside-header-item-button"
+                    >
+                      View all issues
+                    </a>
+                  </div>
+
+                  {hasProjectStats && renderIssues(project, projectStats)}
+                  {!hasProjectStats && renderEmptyIssues()}
+                </>
+              )}
             </>
           )}
+
+          {!hasProjectStats && renderEmptyProjectStats()}
         </aside>
       </div>
     </Layout>

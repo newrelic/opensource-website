@@ -105,6 +105,16 @@ function formatStats (project, stats) {
     return p;
   }, []);
 
+  const cachedContributors = Array.isArray(contributorStats)
+    ? contributorStats.map(i => ({
+        id: i.author.id,
+        login: i.author.login,
+        avatarUrl: i.author.avatar_url,
+        htmlUrl: i.author.html_url,
+        contributions: i.total
+      }))
+    : [];
+
   return {
     "projectFullName": project.fullName,
     "issues": {
@@ -121,13 +131,7 @@ function formatStats (project, stats) {
       ...node,
       createdBy: node.author.name || node.author.login || 'Unknown'
     })), // Note: createdBy is author.login
-    "cachedContributors": contributorStats.map(i => ({
-      id: i.author.id,
-      login: i.author.login,
-      avatarUrl: i.author.avatar_url,
-      htmlUrl: i.author.html_url,
-      contributions: i.total
-    })),
+    "cachedContributors": cachedContributors,
     "languages": repoStats.languages.nodes,
     "screenshots": screenshots
   }
