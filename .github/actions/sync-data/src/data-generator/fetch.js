@@ -1,19 +1,19 @@
 // const github = require("@actions/github")
-const core = require("@actions/core")
+const core = require('@actions/core');
 
-const { Octokit } = require("@octokit/rest");
-const { graphql } = require("@octokit/graphql");
-const parseLinkHeader = require("parse-link-header")
+const { Octokit } = require('@octokit/rest');
+const { graphql } = require('@octokit/graphql');
+const parseLinkHeader = require('parse-link-header');
 
-const queries = require("./utils/queries")
-const { prettyPrintJson, prettyPrint } = require("./utils/helpers");
+const queries = require('./utils/queries');
+const { prettyPrintJson, prettyPrint } = require('./utils/helpers');
 // const prettyPrintJson = json => console.log(JSON.stringify(json, null, 2))
 // const prettyPrint = message => console.log(message)
 
-const DEFAULT_ORG = "newrelic"
-const GH_TOKEN = core.getInput("github-token") || process.env.GH_TOKEN;
+const DEFAULT_ORG = 'newrelic';
+const GH_TOKEN = core.getInput('github-token') || process.env.GH_TOKEN;
 console.log(`github-token: ${GH_TOKEN}`);
-const REPOS_PER_PAGE = 100
+const REPOS_PER_PAGE = 100;
 
 const octokit = new Octokit({
   auth: GH_TOKEN,
@@ -21,7 +21,7 @@ const octokit = new Octokit({
     debug: () => {},
     info: () => {},
     warn: console.warn,
-    error: console.error
+    error: console.error,
   },
 });
 // const octokit = new github.GitHub(GH_TOKEN, {
@@ -35,9 +35,9 @@ const octokit = new Octokit({
 
 const graphqlWithAuth = graphql.defaults({
   headers: {
-    authorization: `token ` + GH_TOKEN,
+    authorization: `token ${GH_TOKEN}`,
   },
-})
+});
 
 /*
 
@@ -155,65 +155,65 @@ const graphqlWithAuth = graphql.defaults({
  * start_page - Beginning page
  * exclude_archived - Whether or not to filter out archived repositories (repos.listForOrg does not offer a way to exclude these from the response)
  */
-const organizationRepositoryIterator = function({
+const organizationRepositoryIterator = function ({
   pages = 1,
   org = DEFAULT_ORG,
-  type = "public",
+  type = 'public',
   per_page = REPOS_PER_PAGE,
   start_page = 1,
   excludeArchived = true,
 }) {
-  return function() {
-    const MAX_PAGES_ALLOWED = 100
+  return function () {
+    const MAX_PAGES_ALLOWED = 100;
 
-    let isFirstPage = true
-    let startPage = start_page
-    let currentPage = startPage
-    let pagesNeeded
-    let pagesAvailable
+    let isFirstPage = true;
+    const startPage = start_page;
+    let currentPage = startPage;
+    let pagesNeeded;
+    let pagesAvailable;
 
     // How best do we initialize this for the first page?
-    let pagesToGet = pages === 0 ? MAX_PAGES_ALLOWED : pages
+    let pagesToGet = pages === 0 ? MAX_PAGES_ALLOWED : pages;
 
-    const hasMore = function() {
-      return pagesToGet > 0
-    }
+    const hasMore = function () {
+      return pagesToGet > 0;
+    };
 
-    const getCurrentPage = function() {
-      return currentPage
-    }
+    const getCurrentPage = function () {
+      return currentPage;
+    };
 
-    const firstPage = async function() {
+    const firstPage = async function () {
       const firstPage = await fetchOrganizationRepositoryPage({
         org,
         type,
         per_page,
         page: startPage,
-      })
+      });
       // prettyPrintJson(Object.keys(firstPage.data));
 
       if (firstPage instanceof Error) {
-        prettyPrint("Error: organizationRepositoryIterator#firstPage")
-        prettyPrintJson(firstPage)
+        prettyPrint('Error: organizationRepositoryIterator#firstPage');
+        prettyPrintJson(firstPage);
       }
 
       // const { status, url, headers, data } = firstPage;
-      const linkHeaders = parseLinkHeader(firstPage.headers.link)
-      const lastPage = !linkHeaders ? startPage : linkHeaders.last.page
+      const linkHeaders = parseLinkHeader(firstPage.headers.link);
+      const lastPage = !linkHeaders ? startPage : linkHeaders.last.page;
 
-      pagesNeeded = pages === 0 ? lastPage : pages // 0 === all pages available
-      pagesAvailable = lastPage - start_page
-      pagesToGet = pagesAvailable <= pagesNeeded ? pagesAvailable : pagesNeeded
+      pagesNeeded = pages === 0 ? lastPage : pages; // 0 === all pages available
+      pagesAvailable = lastPage - start_page;
+      pagesToGet = pagesAvailable <= pagesNeeded ? pagesAvailable : pagesNeeded;
 
-      return firstPage
-    }
+      return firstPage;
+    };
 
-    const next = function() {
-      let nextPage = false
+    const next = function () {
+      let nextPage = false;
 
       if (hasMore()) {
         if (isFirstPage) {
-          nextPage = firstPage()
+          nextPage = firstPage();
         }
 
         if (!isFirstPage) {
@@ -222,27 +222,27 @@ const organizationRepositoryIterator = function({
             type,
             per_page,
             page: currentPage,
-          })
+          });
         }
 
-        isFirstPage = false
-        pagesToGet = pagesToGet - 1
-        currentPage = currentPage + 1
+        isFirstPage = false;
+        pagesToGet = pagesToGet - 1;
+        currentPage = currentPage + 1;
       }
 
       // prettyPrintJson({ value: nextPage, done: !hasMore() });
-      return { value: nextPage, done: !hasMore() }
-    }
+      return { value: nextPage, done: !hasMore() };
+    };
 
     return {
       hasMore,
       next,
       getCurrentPage,
-    }
-  }
-}
+    };
+  };
+};
 
-const fetchOrganizationRepositoryPage = async function({
+const fetchOrganizationRepositoryPage = async function ({
   org,
   type,
   per_page,
@@ -254,39 +254,39 @@ const fetchOrganizationRepositoryPage = async function({
       type,
       per_page,
       page,
-    })
+    });
 
-    const { status, url, headers, data } = response
-    console.log("\nPage: " + page + " found " + data.length + " total results")
+    const { status, url, headers, data } = response;
+    console.log(`\nPage: ${page} found ${data.length} total results`);
 
     // prettyPrintJson(response.data.length);
     // prettyPrintJson(response.status);
-    return response
+    return response;
   } catch (e) {
-    console.error(e)
-    return e
+    console.error(e);
+    return e;
   }
-}
+};
 
-const fetchRepositoryStats = async function(owner, repo) {
-  return graphqlWithAuth(queries.repositoryStats(owner, repo))
-}
+const fetchRepositoryStats = async function (owner, repo) {
+  return graphqlWithAuth(queries.repositoryStats(owner, repo));
+};
 
-const fetchContributorStats = async function(owner, repo) {
+const fetchContributorStats = async function (owner, repo) {
   try {
     const contributorStats = await octokit.repos.getContributorsStats({
       owner,
       repo,
-    })
-    return contributorStats
+    });
+    return contributorStats;
   } catch (e) {
-    prettyPrint(e)
+    prettyPrint(e);
   }
-}
+};
 
-const getRepoStatsByContributor = async function(owner, repo) {
-  const response = await fetchContributorStats(owner, repo)
-  const { status, url, headers, data } = response
+const getRepoStatsByContributor = async function (owner, repo) {
+  const response = await fetchContributorStats(owner, repo);
+  const { status, url, headers, data } = response;
 
   // newrelic/newrelic_plugins_puppet
   // newrelic/newrelic-monolog-logenricher-php
@@ -294,22 +294,24 @@ const getRepoStatsByContributor = async function(owner, repo) {
     const formattedContributorStats = data.map(({ total, author }) => ({
       total: total,
       author: author,
-    }))
+    }));
 
     // prettyPrint(formattedContributorStats);
-    return formattedContributorStats
+    return formattedContributorStats;
   }
 
-  prettyPrint(`Warning, no repoStatsByContributor found for Owner: ${owner} Repo: ${repo}`)
-  prettyPrint("Instead found: ")
-  prettyPrintJson(data)
+  prettyPrint(
+    `Warning, no repoStatsByContributor found for Owner: ${owner} Repo: ${repo}`
+  );
+  prettyPrint('Instead found: ');
+  prettyPrintJson(data);
 
-  return {}
-}
+  return {};
+};
 
-const fetchStats = async function(owner, repo) {
+const fetchStats = async function (owner, repo) {
   // 1. Graphql, includes releases.totalCount, issues.totalCount, forks.totalCount, pullRequests.totalCount
-  const repoStats = await fetchRepositoryStats(owner, repo)
+  const repoStats = await fetchRepositoryStats(owner, repo);
   // prettyPrint(Object.keys(repoStats.repository));
   /*
    [
@@ -323,7 +325,7 @@ const fetchStats = async function(owner, repo) {
   ]*/
 
   // 2a. Individual Contributor stats
-  const contributorStats = await getRepoStatsByContributor(owner, repo) // strips out the 'weeks' object
+  const contributorStats = await getRepoStatsByContributor(owner, repo); // strips out the 'weeks' object
 
   // prettyPrint(contributorStats);
 
@@ -336,17 +338,17 @@ const fetchStats = async function(owner, repo) {
   // prettyPrint(Object.keys(contributors));
   // const contributorCount = contributors.data || 0;
 
-  return { repoStats: repoStats.repository, contributorStats }
-}
+  return { repoStats: repoStats.repository, contributorStats };
+};
 
-const fetchRepo = async function({ options }) {
-  const { org: owner, repo } = options
+const fetchRepo = async function ({ options }) {
+  const { org: owner, repo } = options;
 
   return octokit.repos.get({
     owner,
     repo,
-  })
-}
+  });
+};
 
 module.exports = {
   organizationRepositoryIterator,
@@ -355,4 +357,4 @@ module.exports = {
   getRepoStatsByContributor,
   fetchStats,
   fetchRepo,
-}
+};

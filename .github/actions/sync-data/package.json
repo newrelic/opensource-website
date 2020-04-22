@@ -7,7 +7,9 @@
     "lint": "eslint index.js",
     "package": "ncc build index.js -o dist",
     "test": "eslint index.js && jest",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "eslint-check": "eslint src/",
+    "eslint-fix": "eslint src/ --fix"
   },
   "repository": {
     "type": "git",
@@ -34,8 +36,10 @@
     "parse-link-header": "^1.0.1"
   },
   "devDependencies": {
+    "@newrelic/eslint-plugin-newrelic": "^0.3.0",
     "@zeit/ncc": "^0.20.5",
     "eslint": "^6.8.0",
-    "jest": "^25.2.4"
+    "jest": "^25.2.4",
+    "prettier": "^2.0.5"
   }
 }
