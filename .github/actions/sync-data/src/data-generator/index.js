@@ -38,13 +38,12 @@ const { prettyPrintJson, prettyPrint, sleep } = require('./utils/helpers');
 const OVERWRITE_EXISTING = true;
 
 function formatRepositories(repositories) {
-  // prettyPrintJson(Object.keys(response.data));
-  // const { status, url, headers, data: repositories } = response;
   const humanize = (slug) => slug.replace('-', ' ');
   return repositories.map((r) => {
     return {
       name: r.name,
-      fullName: r.full_name,
+      fullName: r.full_name.toLowerCase(),
+      slug: r.full_name.replace('/', '-'),
       owner: {
         login: r.owner.login,
         type: r.owner.type,
@@ -94,8 +93,7 @@ function formatStats(project, stats) {
       if (Array.isArray(fileNames.entries)) {
         const fullPaths = fileNames.entries.map((file) => {
           const dir = path.replace(':', '/'); // Replace "master:" with "master/"
-          const suffix = '?raw=true';
-          // const url = `https://github.com/` + project.fullName + `/blob/` + dir + file.name + suffix;
+          // const url = `https://github.com/` + project.fullName + `/blob/` + dir + file.name + '?raw=true';
           const url = `https://raw.githubusercontent.com/${project.fullName}/${dir}${file.name}`;
           return url;
         });
@@ -119,7 +117,7 @@ function formatStats(project, stats) {
   return {
     projectFullName: project.fullName,
     issues: {
-      open: repoStats.openIssues.totalCount, // Filtering by a status of OPEN
+      open: repoStats.openIssues.totalCount
     },
     releases: repoStats.releases.totalCount, // TO DO
     commits: repoStats.defaultBranchRef.target.history.totalCount,
@@ -127,12 +125,12 @@ function formatStats(project, stats) {
     pullRequests: {
       open: repoStats.pullRequests.totalCount, // Filtering by a status of OPEN
     },
-    searchCategory: 'good first issue', // TO DO - Use this to go get cachedIssues? We should move this onto the project object
+    searchCategory: 'good first issue',
     cachedIssues: repoStats.goodFirstIssues.nodes.map((node) => ({
       ...node,
       createdBy: node.author.name || node.author.login || 'Unknown',
     })), // Note: createdBy is author.login
-    cachedContributors: cachedContributors,
+    cachedContributors,
     languages: repoStats.languages.nodes,
     screenshots: screenshots,
   };
@@ -145,11 +143,9 @@ function writeProjectsToGatsby(projects) {
       __dirname,
       '../../../../../src/data/projects'
     );
-    const outputPath = `${outputDir}/${fileName}`;
+    const outputPath = `${outputDir}/${fileName}`.toLowerCase();
     const exists = fs.existsSync(outputPath);
     const jsonContent = JSON.stringify(project, null, 2);
-
-    // prettyPrint('Writing ' + fileName);
 
     if (OVERWRITE_EXISTING || !exists) {
       fs.writeFileSync(outputPath, jsonContent);
@@ -173,10 +169,12 @@ function writeProjectStatsToGatsby(project, projectStats) {
     __dirname,
     '../../../../../src/data/project-stats'
   );
-  const outputPath = `${outputDir}/${fileName}.json`;
+  const outputPath = `${outputDir}/${fileName}.json`.toLowerCase();
   const exists = fs.existsSync(outputPath);
   const jsonContent = JSON.stringify(projectStats, null, 2);
-  console.log(`Writing File: ${outputPath}`);
+  
+  prettyPrint(`Writing File: ${outputPath}`);
+
   if (OVERWRITE_EXISTING || !exists) {
     fs.writeFileSync(outputPath, jsonContent);
   }
