@@ -21,8 +21,8 @@ const exploreProjectsPage = () => {
           <div className={styles.featuredProjectPrimaryContent}>
             <h4 className={styles.featuredProjectTitle}>{p.title}</h4>
             <p className={styles.featuredProjectDescription}>{p.description ? p.description : `There is no description for this project`}</p>
-            <a href="#" className={`button ${styles.featuredProjectButton}`}>
-              Read more
+            <a href={p.permalink} className={`button ${styles.featuredProjectButton}`}>
+              View project
             </a>
           </div>
           <footer className={styles.featuredProjectFooter}>
