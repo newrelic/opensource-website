@@ -28,7 +28,10 @@ const repositoryStats = (owner, repo) => {
       releases {
         totalCount
       }
-      issues(filterBy: {states: OPEN, labels: "good first issue"}, first: 3) {
+      openIssues: issues(filterBy: {states: OPEN }) {
+        totalCount
+      }
+      goodFirstIssues: issues(filterBy: {states: OPEN, labels: "good first issue"}, first: 3) {
         totalCount
         nodes {
           id

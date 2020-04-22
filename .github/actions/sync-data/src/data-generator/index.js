@@ -108,7 +108,7 @@ function formatStats (project, stats) {
   return {
     "projectFullName": project.fullName,
     "issues": {
-      "open": repoStats.issues.totalCount // Filtering by a status of OPEN
+      "open": repoStats.openIssues.totalCount // Filtering by a status of OPEN
     },
     "releases": repoStats.releases.totalCount, // TO DO
     "commits": repoStats.defaultBranchRef.target.history.totalCount,
@@ -117,7 +117,7 @@ function formatStats (project, stats) {
       "open": repoStats.pullRequests.totalCount // Filtering by a status of OPEN
     },
     "searchCategory": "good first issue", // TO DO - Use this to go get cachedIssues? We should move this onto the project object
-    "cachedIssues": repoStats.issues.nodes.map(node => ({
+    "cachedIssues": repoStats.goodFirstIssues.nodes.map(node => ({
       ...node,
       createdBy: node.author.name || node.author.login || 'Unknown'
     })), // Note: createdBy is author.login
