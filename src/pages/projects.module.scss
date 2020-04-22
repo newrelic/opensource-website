@@ -211,6 +211,12 @@
 }
 
 .project-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
   margin: 0;
   font-weight: 600;
   font-size: 16px;
@@ -221,12 +227,12 @@
 
 .project-description {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
 
-  margin: 0 16px;
+  margin: 0 16px 12px;
   font-size: 12px;
   line-height: 17px;
   color: var(--color-neutrals-600);
@@ -237,7 +243,6 @@
   justify-content: stretch;
   align-self: stretch;
   height: 26px;
-  margin-top: 12px;
   align-items: center;
   border-top: 1px dotted var(--color-neutrals-400);
   border-radius: 0 0 4px 4px;

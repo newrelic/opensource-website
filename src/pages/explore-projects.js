@@ -20,7 +20,7 @@ const exploreProjectsPage = () => {
           />
           <div className={styles.featuredProjectPrimaryContent}>
             <h4 className={styles.featuredProjectTitle}>{p.title}</h4>
-            <p className={styles.featuredProjectDescription}>{p.description}</p>
+            <p className={styles.featuredProjectDescription}>{p.description ? p.description : `There is no description for this project`}</p>
             <a href="#" className={`button ${styles.featuredProjectButton}`}>
               Read more
             </a>
@@ -29,9 +29,11 @@ const exploreProjectsPage = () => {
             <span className={styles.featuredProjectFooterLink}>
               {p.ossCategory.title}
             </span>
-            <span className={styles.featuredProjectFooterLink}>
-              {p.primaryLanguage}
-            </span>
+            {p.primaryLanguage !== '' && (
+              <span className={styles.featuredProjectFooterLink}>
+                {p.primaryLanguage}
+              </span>
+            )}
           </footer>
         </div>
       );
@@ -43,20 +45,22 @@ const exploreProjectsPage = () => {
       const link = p.permalink.replace('https://opensource.newrelic.com', '');
       return (
         <Link className={styles.projectContainer} key={p.id} to={link}>
-          <div className={styles.projectPrimaryContent}>
+          <div className={`${styles.projectPrimaryContent}`}>
             <header className={styles.projectHeader}>
               <img src={p.icon} alt="icon for" className={styles.projectIcon} />
               <h5 className={styles.projectTitle}>{p.title}</h5>
             </header>
-            <p className={styles.projectDescription}>{p.description}</p>
+            <p className={`${styles.projectDescription}`}>{p.description ? p.description : `There is no description for this project`}</p>
           </div>
           <footer className={styles.projectFooter}>
             <span className={styles.projectFooterMeta}>
               {p.ossCategory.title}
             </span>
-            <span className={styles.projectFooterMeta}>
-              {p.primaryLanguage}
-            </span>
+            {p.primaryLanguage !== null && (
+              <span className={styles.projectFooterMeta}>
+                {p.primaryLanguage}
+              </span>
+            )}
           </footer>
         </Link>
       );
