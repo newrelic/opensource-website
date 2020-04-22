@@ -6,7 +6,6 @@ import PropTypes from 'prop-types';
 import styles from './Header.module.scss';
 
 const Header = ({ hasHeaderBg }) => {
-  console.log(styles);
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
 
   const renderNavLinks = () => {

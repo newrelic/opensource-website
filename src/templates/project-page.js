@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
-import ModalImage from 'react-modal-image';
+import Carousel, { Modal, ModalGateway } from 'react-images';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -31,7 +31,13 @@ export const query = graphql`
 `;
 
 const ProjectPage = ({ data }) => {
-  console.log(JSON.stringify(Object.keys(data), null, 2));
+  const project = data.allProjectsJson.nodes[0];
+  const projectStats = project.stats;
+
+  const tags = [project.ossCategory.title, project.primaryLanguage];
+
+  const [screenshotModalActive, setScreenshotModalActive] = useState(false);
+
   // const project = data.projectsJson;
 
   // This happens "magically"
@@ -74,31 +80,39 @@ const ProjectPage = ({ data }) => {
     });
   };
 
-  const renderScreenshots = (project, projectStats) => {
+  const renderScreenshots = () => {
     const screenshots = projectStats.screenshots.map((screenshot, index) => {
       return (
-        <li key={index} className={styles.projectScreenshotListItem}>
-          <ModalImage
-            small={screenshot}
-            large={screenshot}
-            alt={`Screenshot of ${project.title}`}
-            hideZoom
-            hideDownload
-          />
+        <li
+          key={index}
+          onClick={() => setScreenshotModalActive(true)}
+          className={styles.projectScreenshotListItem}
+        >
+          <img src={screenshot} alt={`Screenshot of ${project.title}`} />
         </li>
       );
     });
 
-    return <ul className={styles.projectScreenshotList}>{screenshots}</ul>;
+    const screenshotsObject = projectStats.screenshots.map((screenshot, i) => {
+      return {
+        source: screenshot,
+        caption: `Screenshot of ${i + 1} ${project.title}`
+      };
+    });
+
+    return (
+      <>
+        <ul className={styles.projectScreenshotList}>{screenshots}</ul>
+        <ModalGateway>
+          {screenshotModalActive ? (
+            <Modal onClose={() => setScreenshotModalActive(false)}>
+              <Carousel views={screenshotsObject} />
+            </Modal>
+          ) : null}
+        </ModalGateway>
+      </>
+    );
   };
-
-  const project = data.allProjectsJson.nodes[0];
-  const projectStats = project.stats;
-
-  const tags = [project.ossCategory.title, project.primaryLanguage]
-
-  console.log(project)
-
 
   return (
     <Layout hasHeaderBg>
@@ -167,10 +181,11 @@ const ProjectPage = ({ data }) => {
           </p>
 
           <h3>Top Contributors</h3>
-          <p>
-            Thanks goes to these wonderful people:
-          </p>
-          <ContributorListing contributors={projectStats.cachedContributors} project={project} />
+          <p>Thanks goes to these wonderful people:</p>
+          <ContributorListing
+            contributors={projectStats.cachedContributors}
+            project={project}
+          />
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
@@ -191,7 +206,7 @@ const ProjectPage = ({ data }) => {
             </div>
             <div className={styles.callToActionCategorySpecification}>
               <h5 className={styles.callToActionCategory}>
-                <Link to="/categories">New Relic One Category</Link>
+                <Link to="/categories">{project.ossCategory.title}</Link>
               </h5>
               <p className={styles.callToActionDescription}>
                 This code is a part of the New Relic One Catalog. It is
@@ -205,9 +220,7 @@ const ProjectPage = ({ data }) => {
           {projectStats.screenshots.length > 0 && (
             <>
               <h4>Screenshots</h4>
-              <div className={styles.projectScreenshotsContainer}>
-                {renderScreenshots(project, projectStats)}
-              </div>
+              {renderScreenshots()}
             </>
           )}
 
@@ -224,7 +237,12 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.contributors}
               </span>
-              <a href={`${project.githubUrl}/graphs/contributors`} className={styles.repoStatLabel}>Contributors</a>
+              <a
+                href={`${project.githubUrl}/graphs/contributors`}
+                className={styles.repoStatLabel}
+              >
+                Contributors
+              </a>
             </li>
             <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
               <img
@@ -235,7 +253,12 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.releases}
               </span>
-              <a href={`${project.githubUrl}/releases`} className={styles.repoStatLabel}>Releases</a>
+              <a
+                href={`${project.githubUrl}/releases`}
+                className={styles.repoStatLabel}
+              >
+                Releases
+              </a>
             </li>
             <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
               <img
@@ -246,7 +269,12 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.commits}
               </span>
-              <a href={`${project.githubUrl}/commits`} className={styles.repoStatLabel}>Commits</a>
+              <a
+                href={`${project.githubUrl}/commits`}
+                className={styles.repoStatLabel}
+              >
+                Commits
+              </a>
             </li>
             <li className={`${styles.repoStat} ${styles.repoStatPullRequests}`}>
               <img
@@ -257,7 +285,12 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.pullRequests.open}
               </span>
-              <a href={`${project.githubUrl}/pulls`} className={styles.repoStatLabel}>Open Pull Requests</a>
+              <a
+                href={`${project.githubUrl}/pulls`}
+                className={styles.repoStatLabel}
+              >
+                Open Pull Requests
+              </a>
             </li>
             <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
               <img
@@ -268,23 +301,28 @@ const ProjectPage = ({ data }) => {
               <span className={styles.repoStatCount}>
                 {projectStats.issues.open}
               </span>
-              <a href={`${project.githubUrl}/issues`} className={styles.repoStatLabel}>Open Issues</a>
-            </li>
-          </ul>
-          
-          {projectStats.cachedIssues.length > 0 && (
-            <>
-            <div className="aside-header-item">
-              <h4>Good first issues</h4>
               <a
                 href={`${project.githubUrl}/issues`}
-                className="aside-header-item-button"
+                className={styles.repoStatLabel}
               >
-                View all issues
+                Open Issues
               </a>
-            </div>
+            </li>
+          </ul>
 
-            {renderIssues(project, projectStats)}
+          {projectStats.cachedIssues.length > 0 && (
+            <>
+              <div className="aside-header-item">
+                <h4>Good first issues</h4>
+                <a
+                  href={`${project.githubUrl}/issues`}
+                  className="aside-header-item-button"
+                >
+                  View all issues
+                </a>
+              </div>
+
+              {renderIssues(project, projectStats)}
             </>
           )}
         </aside>
