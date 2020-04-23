@@ -1,6 +1,6 @@
 const path = require(`path`);
 
-module.exports = async ({ graphql, actions }) => {
+const createProjectPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const result = await graphql(`
     query allProjects {
@@ -32,4 +32,96 @@ module.exports = async ({ graphql, actions }) => {
       }
     });
   });
+};
+
+/*
+ * Note:
+ *    Although our exploreProjectsFields fragment defined in src/fragments/index.js is available in /pages,
+ *    it is not automagically available when running graphql here. For now, we've copied it.
+ *
+ * TO DO:
+ *    Investigate if Gatsby has this available somewhere when running the API methods, perhaps
+ *    something like graphql.fragments[name of fragment]
+ */
+const createExploreProjects = async ({ graphql, actions }) => {
+  const { createPage } = actions;
+  const result = await graphql(`
+    query allProjects {
+      allProjectsJson {
+        edges {
+          node {
+            ...exploreProjectsFields
+          }
+        }
+      }
+    }
+
+    fragment exploreProjectsFields on ProjectsJson {
+      id
+      fullName
+      githubUrl
+      stats {
+        id
+        contributors
+        commits
+        languages {
+          id
+          name
+          color
+        }
+        releases
+        screenshots
+      }
+      description
+      iconUrl
+      name
+      ossCategory {
+        slug
+        title
+      }
+      owner {
+        login
+        type
+      }
+      permalink
+      primaryLanguage
+      projectType {
+        slug
+        title
+      }
+      shortDescription
+      supportUrl
+      tags
+      title
+      version
+      website {
+        title
+        url
+      }
+    }
+  `);
+
+  const allProjects = result.data.allProjectsJson.edges;
+
+  createPage({
+    path: '/explore-projects',
+    component: path.resolve(`./src/templates/explore-projects.js`),
+    context: {
+      projectData: {
+        allProjects: allProjects.map(p => p.node),
+        options: {
+          indexStrategy: 'Prefix match',
+          searchSanitizer: 'Lower Case',
+          TitleIndex: true,
+          AuthorIndex: true,
+          SearchByTerm: true
+        }
+      }
+    }
+  });
+};
+
+module.exports = async params => {
+  createProjectPages(params);
+  createExploreProjects(params);
 };
