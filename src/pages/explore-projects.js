@@ -20,8 +20,15 @@ const exploreProjectsPage = () => {
           />
           <div className={styles.featuredProjectPrimaryContent}>
             <h4 className={styles.featuredProjectTitle}>{p.title}</h4>
-            <p className={styles.featuredProjectDescription}>{p.description ? p.description : `There is no description for this project`}</p>
-            <a href={p.permalink} className={`button ${styles.featuredProjectButton}`}>
+            <p className={styles.featuredProjectDescription}>
+              {p.description
+                ? p.description
+                : `There is no description for this project`}
+            </p>
+            <a
+              href={p.permalink}
+              className={`button ${styles.featuredProjectButton}`}
+            >
               View project
             </a>
           </div>
@@ -50,7 +57,11 @@ const exploreProjectsPage = () => {
               <img src={p.icon} alt="icon for" className={styles.projectIcon} />
               <h5 className={styles.projectTitle}>{p.title}</h5>
             </header>
-            <p className={`${styles.projectDescription}`}>{p.description ? p.description : `There is no description for this project`}</p>
+            <p className={`${styles.projectDescription}`}>
+              {p.description
+                ? p.description
+                : `There is no description for this project`}
+            </p>
           </div>
           <footer className={styles.projectFooter}>
             <span className={styles.projectFooterMeta}>
@@ -84,9 +95,9 @@ const exploreProjectsPage = () => {
         return (
           <>
             <Layout fullWidth>
-              <PageHeading 
-                title="Explore our projects" 
-                subheader="Projects and products that we're developing in open source" 
+              <PageHeading
+                title="Explore our projects"
+                subheader="Projects and products that we're developing in open source"
               />
 
               <div className={styles.searchSection}>
