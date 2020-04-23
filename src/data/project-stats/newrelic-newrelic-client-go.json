@@ -4,13 +4,31 @@
     "open": 5
   },
   "releases": 27,
-  "commits": 570,
+  "commits": 578,
   "contributors": 6,
   "pullRequests": {
-    "open": 5
+    "open": 4
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2MDUwNDk1MzQ=",
+      "title": "Add \"grid_column_count\" to Dashboard API",
+      "url": "https://github.com/newrelic/newrelic-client-go/issues/262",
+      "createdAt": "2020-04-22T20:26:35Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jthurman42",
+        "id": "MDQ6VXNlcjQ1NTQxOQ==",
+        "email": "jthurman@newrelic.com",
+        "name": "Jonathan Thurman"
+      },
+      "number": 262,
+      "createdBy": "Jonathan Thurman"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 723533,
@@ -24,14 +42,14 @@
       "login": "renovate-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
       "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 13
+      "contributions": 14
     },
     {
       "id": 29264964,
       "login": "zlesnr",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/29264964?v=4",
       "htmlUrl": "https://github.com/zlesnr",
-      "contributions": 21
+      "contributions": 22
     },
     {
       "id": 455419,
@@ -45,7 +63,7 @@
       "login": "sanderblue",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
       "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 138
+      "contributions": 140
     },
     {
       "id": 413389,
