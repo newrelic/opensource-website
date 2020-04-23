@@ -119,7 +119,7 @@ function formatStats(project, stats) {
     issues: {
       open: repoStats.openIssues.totalCount
     },
-    releases: repoStats.releases.totalCount, // TO DO
+    releases: repoStats.tags.totalCount,
     commits: repoStats.defaultBranchRef.target.history.totalCount,
     contributors: contributorCount,
     pullRequests: {
