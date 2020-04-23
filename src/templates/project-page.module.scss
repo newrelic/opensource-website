@@ -97,7 +97,7 @@ p.call-to-action-description {
 
   &:after {
     content: "";
-    width: 50px;
+    width: 30px;
     position: absolute;
     top: 0;
     right: 0;
@@ -120,8 +120,7 @@ p.call-to-action-description {
 }
 
 .project-screenshot-list-item {
-  width: 75%;
-  height: auto;
+  height: 130px;
   flex: 0 0 auto;
   line-height: 3px;
   margin-right: 15px;
@@ -142,7 +141,7 @@ p.call-to-action-description {
   }
 
   img {
-    width: 100%;
+    height: 100%;
   }
 }
 
@@ -157,7 +156,7 @@ p.call-to-action-description {
 }
 
 .project-screenshot {
-  max-width: 100%;
+  max-height: 100%;
   position: relative;
   z-index: -1;
   object-fit: fill;

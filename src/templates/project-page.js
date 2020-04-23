@@ -52,6 +52,7 @@ const ProjectPage = ({ data }) => {
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
 
   const [screenshotModalActive, setScreenshotModalActive] = useState(false);
+  const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(0);
 
   const renderIssues = (project, projectStats) => {
     return projectStats.cachedIssues.map(issue => {
@@ -106,7 +107,10 @@ const ProjectPage = ({ data }) => {
       return (
         <li
           key={index}
-          onClick={() => setScreenshotModalActive(true)}
+          onClick={() => {
+            setScreenshotModalActive(true);
+            setCurrentScreenshotIndex(index);
+          }}
           className={styles.projectScreenshotListItem}
         >
           <img src={screenshot} alt={`Screenshot of ${project.title}`} />
@@ -117,17 +121,22 @@ const ProjectPage = ({ data }) => {
     const screenshotsObject = projectStats.screenshots.map((screenshot, i) => {
       return {
         source: screenshot,
-        caption: `Screenshot of ${i + 1} ${project.title}`
+        caption: ''
       };
     });
 
     return (
       <>
-        <ul className={styles.projectScreenshotList}>{screenshots}</ul>
+        <div className={styles.projectScreenshotsContainer}>
+          <ul className={styles.projectScreenshotList}>{screenshots}</ul>
+        </div>
         <ModalGateway>
           {screenshotModalActive ? (
             <Modal onClose={() => setScreenshotModalActive(false)}>
-              <Carousel views={screenshotsObject} />
+              <Carousel
+                views={screenshotsObject}
+                currentIndex={currentScreenshotIndex}
+              />
             </Modal>
           ) : null}
         </ModalGateway>
