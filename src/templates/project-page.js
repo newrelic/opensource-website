@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
-import ModalImage from 'react-modal-image';
 import get from 'lodash.get';
 
 import Layout from '../components/layout';
@@ -73,18 +72,18 @@ const ProjectPage = ({ data }) => {
               {issue.number} opened on{' '}
               {format(new Date(issue.createdAt), 'MMM d')} by {issue.createdBy}
             </small>
-            <div className={styles.projectPageIssueFooterDiscussion}>
-              <img
-                src={chatIcon}
-                alt="Chat Icon"
-                className={styles.projectPageIssueFooterDiscussionIcon}
-              />
-              {issue.comments.totalCount > 0 && (
+            {issue.comments.totalCount > 0 && (
+              <div className={styles.projectPageIssueFooterDiscussion}>
+                <img
+                  src={chatIcon}
+                  alt="Chat Icon"
+                  className={styles.projectPageIssueFooterDiscussionIcon}
+                />
                 <span className={styles.projectPageIssueFooterDiscussionCount}>
                   {issue.comments.totalCount}
                 </span>
-              )}
-            </div>
+              </div>
+            )}
           </footer>
         </a>
       );
