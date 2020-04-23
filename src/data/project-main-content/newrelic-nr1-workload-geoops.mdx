@@ -14,8 +14,17 @@ import { Link } from 'gatsby';
 ## Example of syntax highlighting via react-prism, see components/CodeBlock
 
 ```js
-const foo = 1;
-console.log(foo);
+import React, { useState } from 'react';
+import PropTypes from 'prop-types';
+
+// I'm a comment;
+const aMadeUpFunction = () => {
+  if (myArray.length !== 100) {
+    myArray.map((item, i) => item * i);
+  } else {
+    return null
+  }
+};
 ```
 
 ## Integer posuere erat a ante venenatis

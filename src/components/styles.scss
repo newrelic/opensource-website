@@ -1,12 +1,6 @@
-// @import '../components/Footer.scss';
-// @import '../components/PageHeading.scss';
-// @import '../components/ContributorListing.scss';
-// @import '../components/HomePageHighlights.scss';
-// @import '../components/HomePageInternalProjects.scss';
-// @import '../components/HomePageRecentArticles.scss';
-// @import '../pages/project-page.scss';
-// @import '../pages/home-page.scss';
+@import './nord-prism-theme.css';
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import url("https://use.typekit.net/pnb6qnj.css");
 @import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
 
@@ -243,4 +237,20 @@ select {
 
 .aside-header-item-button {
   font-size: 12px;
+}
+
+.prism-code {
+  border-radius: 4px;
+}
+
+.prism-code .line-number {
+  display: inline-block;
+  width: 3ch;
+  opacity: .7;
+  margin-left: -14px;
+  margin-right: 15px;
+  position: relative;
+  text-align: right;
+  -webkit-user-select: none;
+  color: #606e87;
 }
