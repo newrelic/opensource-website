@@ -1,0 +1,138 @@
+.global-header-container {
+  background-color: var(--color-neutrals-100);
+  
+  &.has-header-bg {
+    background-color: transparent;
+    border-bottom: 1px dotted rgba(0,0,0, .05);
+  }
+}
+
+.global-header-content {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+  width: 79px;
+  height: 15px;
+  margin-right: 18px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  background-image: url('../images/new-relic-logo.svg');
+  border: none;
+}
+
+.left-side-links-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.left-side-links {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+
+  &:hover .active .left-side-link {
+    background-color: transparent;
+    color: var(--color-neutrals-600);
+  }
+}
+
+.left-side-link {
+  display: flex;
+  line-height: 22px;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  padding: 4px 9px;
+  color: var(--color-neutrals-600);
+  font-size: 11px;
+  border: none;
+
+  &:hover {
+    background-color: var(--color-neutrals-200);
+    color: var(--color-neutrals-700);
+  }
+
+  .active &,
+  .left-side-links:hover .active &:hover {
+    background-color: var(--color-neutrals-200);
+    color: var(--color-neutrals-700);
+  }
+}
+
+.right-side-buttons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.right-side-button {
+  width: 14px;
+  height: 14px;
+  text-indent: 300%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0 8px 0;
+  opacity: .45;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: opacity .1s var(--ease-out-quad);
+
+  &:hover {
+    cursor: pointer;
+    opacity: .75;
+  }
+
+  &:last-child {
+    padding-right: 0;
+    background-position: right;
+  }
+}
+
+.search-button {
+  position: relative;
+  top: 1px;
+  background-image: url('../images/icon-search-small.svg');
+}
+
+.github-button {
+  display: block;
+  width: 15px;
+  height: 15px;
+  text-indent: 0;
+}
+
+.github-button-link {
+  display: block;
+  background-image: url('../images/icon-github.svg');
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.login-button {
+  background-image: url('../images/icon-user.svg');
+}
+
+@media screen and (max-width: 1240px) {
+  .global-header-container {
+    padding: 0 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .global-header-container {
+    display: none;
+  }    
+}

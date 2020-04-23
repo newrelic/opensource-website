@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import navLinks from '../data/navigation.json';
 import PropTypes from 'prop-types';
 
+import GlobalHeader from './GlobalHeader';
+
 import styles from './Header.module.scss';
 
 const Header = ({ hasHeaderBg }) => {
@@ -25,33 +27,36 @@ const Header = ({ hasHeaderBg }) => {
   };
 
   return (
-    <header
-      className={`${styles.primaryHeaderContainer} ${
-        hasHeaderBg ? styles.hasHeaderBg : ''
-      }`}
-    >
-      <a href="/" className={styles.primaryHeaderLogo}>
-        New Relic Open Source
-      </a>
-
-      <ul className={styles.primaryHeaderNavLinks}>{renderNavLinks()}</ul>
-
-      <div
-        className={`${styles.primaryHeaderMobileNav} ${
-          mobileMenuActive ? styles.mobileMenuActive : ''
+    <>
+      <GlobalHeader hasHeaderBg={hasHeaderBg} />
+      <header
+        className={`${styles.primaryHeaderContainer} ${
+          hasHeaderBg ? styles.hasHeaderBg : ''
         }`}
       >
-        <button
-          className={styles.mobileMenuButton}
-          onClick={() => setMobileMenuActive(!mobileMenuActive)}
+        <a href="/" className={styles.primaryHeaderLogo}>
+          New Relic Open Source
+        </a>
+
+        <ul className={styles.primaryHeaderNavLinks}>{renderNavLinks()}</ul>
+
+        <div
+          className={`${styles.primaryHeaderMobileNav} ${
+            mobileMenuActive ? styles.mobileMenuActive : ''
+          }`}
         >
-          Menu
-        </button>
-        <ul className={styles.primaryHeaderMobileNavLinks}>
-          {renderNavLinks()}
-        </ul>
-      </div>
-    </header>
+          <button
+            className={styles.mobileMenuButton}
+            onClick={() => setMobileMenuActive(!mobileMenuActive)}
+          >
+            Menu
+          </button>
+          <ul className={styles.primaryHeaderMobileNavLinks}>
+            {renderNavLinks()}
+          </ul>
+        </div>
+      </header>
+    </>
   );
 };
 
