@@ -23,7 +23,7 @@ const exploreProjectsPage = () => {
             <p className={styles.featuredProjectDescription}>
               {p.description
                 ? p.description
-                : `There is no description for this project`}
+                : `No description available for this project.`}
             </p>
             <a
               href={p.permalink}
@@ -60,7 +60,7 @@ const exploreProjectsPage = () => {
             <p className={`${styles.projectDescription}`}>
               {p.description
                 ? p.description
-                : `There is no description for this project`}
+                : `No description available for this project.`}
             </p>
           </div>
           <footer className={styles.projectFooter}>
