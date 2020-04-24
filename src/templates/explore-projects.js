@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import PageHeading from '../components/PageHeading';
 import ProjectSearch from '../components/ProjectSearch';
@@ -13,7 +14,19 @@ import styles from './projects.module.scss';
 const ExploreProjectsPage = props => {
   const { pageContext } = props;
   const { projectData } = pageContext;
-  const { allProjects, options } = projectData;
+  const {
+    allProjects,
+    allLanguages,
+    allCategories,
+    allProjectTypes,
+    options
+  } = projectData;
+
+  const filterOptions = {
+    allCategories: { title: 'Categories', options: allCategories },
+    allLanguages: { title: 'Language', options: allLanguages },
+    allProjectTypes: { title: 'Type', options: allProjectTypes }
+  };
 
   const renderFeaturedProjects = projects => {
     return projects.slice(0, 3).map(p => {
@@ -72,7 +85,11 @@ const ExploreProjectsPage = props => {
         title="Explore our projects"
         subheader="Projects and products that we're developing in open source"
       />
-      <ProjectSearch data={allProjects} engine={options}>
+      <ProjectSearch
+        data={allProjects}
+        engine={options}
+        filterOptions={filterOptions}
+      >
         {({ projects }) => {
           return (
             <>
