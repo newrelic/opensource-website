@@ -5,8 +5,12 @@ import styles from './PageHeading.module.scss';
 
 const PageHeading = props => {
   const renderTags = () => {
-    const tags = props.tags.map(tag => {
-      return <li className={styles.pageHeadingTagListTag}>{tag}</li>;
+    const tags = props.tags.map((tag, index) => {
+      return (
+        <li key={index} className={styles.pageHeadingTagListTag}>
+          {tag}
+        </li>
+      );
     });
 
     return <ul className={styles.pageHeadingTagList}>{tags}</ul>;
