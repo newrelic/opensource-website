@@ -9,13 +9,14 @@ const ContributorListing = ({ contributors, project }) => {
       b.contributions > a.contributions ? 1 : -1
     );
 
+    const navigate = url => window.open(url, '_blank');
     const contributorItem = sortedContributors.map((contributor, i) => {
       if (i < 4) {
         return (
           <li className={styles.contributorItem} key={contributor.id}>
-            <a
-              href={contributor.htmlUrl}
+            <div
               className={styles.contributorItemPrimaryContent}
+              onClick={() => navigate(contributor.htmlUrl)}
             >
               <img
                 src={contributor.avatarUrl}
@@ -35,7 +36,7 @@ const ContributorListing = ({ contributors, project }) => {
                   {contributor.contributions} commits
                 </a>
               </h6>
-            </a>
+            </div>
           </li>
         );
       } else {
