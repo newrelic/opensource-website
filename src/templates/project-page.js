@@ -5,7 +5,7 @@ import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import ModalImage from 'react-modal-image';
-import get from 'lodash.get';
+import { get } from 'lodash';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
