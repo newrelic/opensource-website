@@ -6,10 +6,8 @@ import ProjectSearchInput from './ProjectSearchInput';
 
 class ProjectSearch extends Component {
   state = {
-    isLoading: true,
     searchResults: [],
     search: null,
-    isError: false,
     indexByTitle: false,
     indexByAuthor: false,
     termFrequency: true,
@@ -116,7 +114,7 @@ class ProjectSearch extends Component {
 
   render() {
     const { searchResults, searchQuery } = this.state;
-    const { data, children } = this.props;
+    const { data, filterOptions, children } = this.props;
     const queryResults = searchQuery === '' ? data : searchResults;
     return (
       <div>
@@ -125,19 +123,8 @@ class ProjectSearch extends Component {
             <ProjectSearchInput
               value={searchQuery}
               onChange={this.searchData}
+              filterOptions={filterOptions}
             />
-            {/* <div style={{ margin: '0 auto' }}>
-              <label htmlFor="Search" style={{ paddingRight: '10px' }}>
-                Enter your search here
-              </label>
-              <input
-                id="Search"
-                value={searchQuery}
-                onChange={this.searchData}
-                placeholder="Enter your search here"
-                style={{ margin: '0 auto', width: '400px' }}
-              />
-            </div> */}
           </form>
           <div>{children({ projects: queryResults })}</div>
         </div>
@@ -149,7 +136,8 @@ class ProjectSearch extends Component {
 ProjectSearch.propTypes = {
   children: PropTypes.func,
   data: PropTypes.array,
-  engine: PropTypes.object
+  engine: PropTypes.object,
+  filterOptions: PropTypes.object
 };
 
 export default ProjectSearch;
