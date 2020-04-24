@@ -1,10 +1,10 @@
 # https://www.gatsbyjs.org/docs/schema-customization/#foreign-key-fields
 
-type ProjectStatsJson implements Node {
-  project: ProjectsJson @link
+type ProjectStats implements Node {
+  project: Projects @link
 }
 
-type ProjectsJson implements Node {
-  stats: ProjectStatsJson @link(by: "projectFullName", from: "fullName")
+type Projects implements Node {
+  stats: ProjectStats @link(by: "projectFullName", from: "fullName")
   mainContent: ProjectMainContent @link(by: "slug", from: "slug")
 }

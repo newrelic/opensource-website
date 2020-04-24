@@ -4,7 +4,7 @@ const createProjectPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const result = await graphql(`
     query allProjects {
-      allProjectsJson {
+      allProjects {
         edges {
           node {
             id
@@ -17,7 +17,7 @@ const createProjectPages = async ({ graphql, actions }) => {
       }
     }
   `);
-  const pages = result.data.allProjectsJson.edges;
+  const pages = result.data.allProjects.edges;
 
   pages.forEach(({ node }) => {
     // https://www.gatsbyjs.org/docs/actions/#createPage
@@ -47,7 +47,7 @@ const createExploreProjects = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const result = await graphql(`
     query allProjects {
-      allProjectsJson {
+      allProjects {
         edges {
           node {
             ...exploreProjectsFields
@@ -56,7 +56,7 @@ const createExploreProjects = async ({ graphql, actions }) => {
       }
     }
 
-    fragment exploreProjectsFields on ProjectsJson {
+    fragment exploreProjectsFields on Projects {
       id
       fullName
       githubUrl
@@ -101,7 +101,7 @@ const createExploreProjects = async ({ graphql, actions }) => {
     }
   `);
 
-  const allProjects = result.data.allProjectsJson.edges;
+  const allProjects = result.data.allProjects.edges;
 
   createPage({
     path: '/explore-projects',

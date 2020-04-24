@@ -24,7 +24,7 @@ import iconGitHubWhite from '../images/icon-github-white.svg';
 
 export const query = graphql`
   query Project($slug: String) {
-    allProjectsJson(filter: { slug: { eq: $slug } }) {
+    allProjects(filter: { slug: { eq: $slug } }) {
       nodes {
         ...projectFields
       }
@@ -37,7 +37,7 @@ const ProjectPage = ({ data }) => {
     return <h1>Project not found</h1>;
   };
 
-  const project = get(data, 'allProjectsJson.nodes[0]', false);
+  const project = get(data, 'allProjects.nodes[0]', false);
 
   if (!project) {
     return renderNotFound();

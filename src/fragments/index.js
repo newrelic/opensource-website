@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby';
 
 export const projectFields = graphql`
-  fragment projectFields on ProjectsJson {
+  fragment projectFields on Projects {
     id
     name
     title
@@ -69,7 +69,7 @@ export const projectFields = graphql`
 `;
 
 export const exploreProjectsFields = graphql`
-  fragment exploreProjectsFields on ProjectsJson {
+  fragment exploreProjectsFields on Projects {
     id
     fullName
     githubUrl
