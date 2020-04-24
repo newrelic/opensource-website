@@ -17,6 +17,8 @@ const ExploreProjectsPage = props => {
 
   const renderFeaturedProjects = projects => {
     return projects.slice(0, 3).map(p => {
+      const link = p.permalink.replace('https://opensource.newrelic.com', '');
+
       return (
         <div className={styles.featuredProject} key={p.id}>
           <img
@@ -31,12 +33,13 @@ const ExploreProjectsPage = props => {
                 ? p.description
                 : `There is no description for this project`}
             </p>
-            <a
-              href={p.permalink}
+            <Link
               className={`button ${styles.featuredProjectButton}`}
+              key={p.id}
+              to={link}
             >
-              View project
-            </a>
+              View Project
+            </Link>
           </div>
           <footer className={styles.featuredProjectFooter}>
             <span className={styles.featuredProjectFooterLink}>
