@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
-import ModalImage from 'react-modal-image';
 import { get } from 'lodash';
 
 import Layout from '../components/layout';
@@ -118,7 +117,7 @@ const ProjectPage = ({ data }) => {
       );
     });
 
-    const screenshotsObject = projectStats.screenshots.map((screenshot, i) => {
+    const screenshotsObject = projectStats.screenshots.map(screenshot => {
       return {
         source: screenshot,
         caption: ''
