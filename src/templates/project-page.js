@@ -4,11 +4,7 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
-<<<<<<< HEAD
-import get from 'lodash.get';
-=======
 import { get } from 'lodash';
->>>>>>> a5dd2455400a9add4c149efa4bef0e02f2e9282b
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
