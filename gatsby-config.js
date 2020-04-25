@@ -1,3 +1,7 @@
+// import { camelCase, upperFirst } from 'lodash';
+const path = require(`path`);
+const _ = require('lodash');
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -21,7 +25,27 @@ module.exports = {
         ignore: [`**/\.*`] // ignore files starting with a dot
       }
     },
-    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-transformer-json`,
+      options: {
+        // Override the default behavior that adds `Json` to the end of data types
+        // Found here - https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-transformer-json/src/gatsby-node.js#L8-L20
+        typeName: ({ node, object, isArray }) => {
+          // eslint-disable-next-line no-unused-vars
+          const getType = function({ node, object, isArray }) {
+            if (node.internal.type !== `File`) {
+              return _.upperFirst(_.camelCase(`${node.internal.type}`));
+            } else if (isArray) {
+              return _.upperFirst(_.camelCase(`${node.name}`));
+            } else {
+              return _.upperFirst(_.camelCase(`${path.basename(node.dir)}`));
+            }
+          };
+          const typeName = getType({ node, object, isArray });
+          return typeName;
+        }
+      }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -40,21 +64,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        // CommonMark mode (default: true)
-        commonmark: true,
-        // Footnotes mode (default: true)
-        footnotes: true,
-        // Pedantic mode (default: true)
-        pedantic: true,
-        // GitHub Flavored Markdown mode (default: true)
-        gfm: true,
-        // Plugins configs
-        plugins: []
-      }
-    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {

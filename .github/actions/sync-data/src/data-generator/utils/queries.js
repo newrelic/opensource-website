@@ -35,6 +35,9 @@ const repositoryStats = (owner, repo) => {
         releases {
           totalCount
         }
+        tags: refs(refPrefix: "refs/tags/") {
+          totalCount
+        }
         openIssues: issues(filterBy: {states: OPEN}) {
           totalCount
         }

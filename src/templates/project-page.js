@@ -4,7 +4,11 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
+<<<<<<< HEAD
 import get from 'lodash.get';
+=======
+import { get } from 'lodash';
+>>>>>>> a5dd2455400a9add4c149efa4bef0e02f2e9282b
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -24,7 +28,7 @@ import iconGitHubWhite from '../images/icon-github-white.svg';
 
 export const query = graphql`
   query Project($slug: String) {
-    allProjectsJson(filter: { slug: { eq: $slug } }) {
+    allProjects(filter: { slug: { eq: $slug } }) {
       nodes {
         ...projectFields
       }
@@ -37,7 +41,7 @@ const ProjectPage = ({ data }) => {
     return <h1>Project not found</h1>;
   };
 
-  const project = get(data, 'allProjectsJson.nodes[0]', false);
+  const project = get(data, 'allProjects.nodes[0]', false);
 
   if (!project) {
     return renderNotFound();
@@ -117,7 +121,7 @@ const ProjectPage = ({ data }) => {
       );
     });
 
-    const screenshotsObject = projectStats.screenshots.map((screenshot, i) => {
+    const screenshotsObject = projectStats.screenshots.map(screenshot => {
       return {
         source: screenshot,
         caption: ''

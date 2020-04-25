@@ -44,7 +44,7 @@ const createProjectMainContent = ({ node, actions }) => {
 module.exports = params => {
   const { node } = params;
 
-  // if (node.internal.type === `projectsJson`) {
+  // if (node.internal.type === `projects`) {
   //   const basePath = `projects`;
   //   const slug = createFilePath({ node, getNode, basePath });
   //   createNodeField({
