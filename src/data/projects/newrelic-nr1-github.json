@@ -6,16 +6,16 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "GitHub Integration",
+  "title": "New Relic One GitHub Integration",
   "supportUrl": "https://discuss.newrelic.com/",
   "githubUrl": "https://github.com/newrelic/nr1-github",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-github",
   "iconUrl": "https://github.com/newrelic/nr1-github/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Align GitHub repositories to Entities.",
   "description": "Create more context to your entities by having access to the GitHub repository, contributors and README.",
   "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
+    "title": "New Relic One Catalog Project",
+    "slug": "new-relic-one-catalog-project"
   },
   "projectType": {
     "title": "New Relic One App",
@@ -23,12 +23,11 @@
   },
   "primaryLanguage": "JavaScript",
   "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
+    "github",
+    "integration"
   ],
   "website": {
-    "title": "nr1 github",
+    "title": "New Relic One GitHub Integration",
     "url": "https://github.com/newrelic/nr1-github"
   },
   "version": "0.1.0"
