@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import { Link } from 'gatsby';
+import { orderBy } from 'lodash';
+
 import Layout from '../components/layout';
 import PageHeading from '../components/PageHeading';
 import ProjectSearch from '../components/ProjectSearch';
@@ -28,8 +30,11 @@ const ExploreProjectsPage = props => {
     allProjectTypes: { title: 'Type', options: allProjectTypes }
   };
 
-  const renderFeaturedProjects = projects => {
-    return projects.slice(0, 3).map(p => {
+  const featuredProjectsToShow = 3;
+  const projectsToShow = 24; // Set to 0 for all
+
+  const renderFeaturedProjects = ({ projects, featuredProjectsToShow }) => {
+    return projects.slice(0, featuredProjectsToShow).map(p => {
       const link = p.permalink.replace('https://opensource.newrelic.com', '');
 
       return (
@@ -70,9 +75,10 @@ const ExploreProjectsPage = props => {
   };
 
   const renderProjectListing = projects => {
-    const projectsToShow = 20; // Set to 0 for all
     const projectsToList =
-      projectsToShow > 0 ? projects.slice(0, projectsToShow) : projects;
+      projectsToShow > 0
+        ? projects.slice(featuredProjectsToShow, projectsToShow)
+        : projects;
 
     return projectsToList.map(p => {
       return <ProjectCard key={p.id} project={p} />;
@@ -90,15 +96,27 @@ const ExploreProjectsPage = props => {
         engine={searchEngineOptions}
         filterOptions={filterOptions}
       >
-        {({ projects }) => {
+        {({ projects, searchQuery }) => {
+          const sortedProjects = orderBy(
+            projects,
+            p => {
+              return p.stats.commits;
+            },
+            'desc'
+          );
+
           return (
             <>
               <div className={styles.featuredProjects}>
-                {renderFeaturedProjects(projects)}
+                {searchQuery === '' &&
+                  renderFeaturedProjects({
+                    projects: sortedProjects,
+                    featuredProjectsToShow
+                  })}
               </div>
 
               <div className={styles.projectListingContainer}>
-                {renderProjectListing(projects)}
+                {renderProjectListing(sortedProjects)}
               </div>
             </>
           );

@@ -213,7 +213,7 @@ class ProjectSearch extends Component {
               onFilterChange={this.onFilterChange}
             />
           </form>
-          <div>{children({ projects: filterResults })}</div>
+          <div>{children({ projects: filterResults, searchQuery })}</div>
         </div>
       </div>
     );
