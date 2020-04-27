@@ -170,7 +170,7 @@ const ProjectPage = ({ data }) => {
           {!mainContent && <h2>No content found.</h2>}
 
           <h3>Top Contributors</h3>
-          <p>Thanks goes to these wonderful people:</p>
+          <p>Thanks to these people and <a target="contributors" href={project.githubUrl + '/graphs/contributors'}>more</a> for their contributions:</p>
           {projectStats && (
             <ContributorListing
               contributors={projectStats.cachedContributors}
