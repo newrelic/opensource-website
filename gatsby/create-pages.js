@@ -10,7 +10,7 @@ const allProjectsQuery = `
       }
     }
     allCategories: allProjects {
-      group(field: projectType___title) {
+      group(field: ossCategory___title) {
         fieldValue
         totalCount
       }
