@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import * as JsSearch from 'js-search';
+import { isEmpty } from 'lodash';
 
 import ProjectSearchInput from './ProjectSearchInput';
 
@@ -8,13 +9,17 @@ class ProjectSearch extends Component {
   state = {
     searchResults: [],
     search: null,
-    indexByTitle: false,
-    indexByAuthor: false,
-    termFrequency: true,
     removeStopWords: false,
     searchQuery: '',
     selectedStrategy: '',
-    selectedSanitizer: ''
+    selectedSanitizer: '',
+    indexFields: [],
+    filterValues: {
+      ossCategory: '',
+      projectType: '',
+      languageType: ''
+    },
+    filterResults: []
   };
 
   /**
@@ -22,12 +27,14 @@ class ProjectSearch extends Component {
    */
   static getDerivedStateFromProps(nextProps, prevState) {
     if (prevState.search === null) {
-      const { engine } = nextProps;
+      const { engine, data } = nextProps;
       return {
         indexFields: engine.indexFields,
         selectedSanitizer: engine.searchSanitizer,
         selectedStrategy: engine.indexStrategy,
         removeStopWords: engine.removeStopWords,
+        searchResults: data,
+        filterResults: data
       };
     }
     return null;
@@ -92,9 +99,103 @@ class ProjectSearch extends Component {
    * in which the results will be added to the state
    */
   searchData = e => {
+    const { data } = this.props;
     const { search } = this.state;
-    const queryResult = search.search(e.target.value);
-    this.setState({ searchQuery: e.target.value, searchResults: queryResult });
+
+    const searchQuery = e.target.value;
+    const queryResult = search.search(searchQuery);
+    const hasFilter = this.hasFilter();
+
+    if (searchQuery === '' && !hasFilter) {
+      this.setState({ searchQuery, searchResults: data, filterResults: data });
+    }
+
+    if (searchQuery === '' && hasFilter) {
+      this.setState({ searchQuery, searchResults: data }, this.filterData);
+    }
+
+    if (searchQuery && hasFilter) {
+      this.setState(
+        {
+          searchQuery: queryResult
+        },
+        this.filterData
+      );
+    }
+  };
+
+  hasFilter = () => {
+    const { filterValues } = this.state;
+    return !isEmpty(filterValues);
+  };
+
+  onFilterChange = ({ field, value }) => {
+    const { searchQuery } = this.state;
+
+    if (searchQuery) {
+      this.filterSearchQueryResults({ field, value });
+      return;
+    }
+
+    this.updateFilter({ field, value });
+  };
+
+  filterData = () => {
+    const { filterValues, searchResults } = this.state;
+    const filters = Object.entries(filterValues).filter(
+      // eslint-disable-next-line no-unused-vars
+      ([field, value]) => value !== ''
+    );
+
+    const applyFilters = i => {
+      return filters.reduce((p, [field, value]) => {
+        if (!p) {
+          return false;
+        }
+
+        if (field === 'ossCategory' || field === 'projectType') {
+          return i[field].title === value;
+        }
+
+        if (field === 'languageType') {
+          const hasLanguage = i.stats.languages.some(l => {
+            // console.log(`Comparing: ${l.name} to ${value}`);
+            return l.name === value;
+          });
+          // console.log(`${i.name} ${JSON.stringify({ hasLanguage }, null, 2)}`);
+          return hasLanguage;
+        }
+
+        return p;
+      }, true);
+    };
+
+    const results = searchResults.filter(applyFilters);
+    this.setState({ filterResults: results });
+  };
+
+  updateFilter({ field, value }) {
+    this.setState(
+      prevState => ({
+        filterValues: {
+          ...prevState.filterValues,
+          [field]: value
+        }
+      }),
+      this.filterData
+    );
+    // debugger;
+  }
+
+  filterSearchQueryResults = ({ field, value }) => {
+    // const { search, searchQuery } = this.state;
+    // const queryResult = search.search(searchQuery);
+
+    // Filter search results
+    this.updateFilter({
+      field,
+      value
+    });
   };
 
   handleSubmit = e => {
@@ -102,20 +203,21 @@ class ProjectSearch extends Component {
   };
 
   render() {
-    const { searchResults, searchQuery } = this.state;
-    const { data, filterOptions, children } = this.props;
-    const queryResults = searchQuery === '' ? data : searchResults;
+    const { searchQuery, filterValues, filterResults } = this.state;
+    const { filterOptions, children } = this.props;
     return (
       <div>
         <div style={{ margin: '0 auto' }}>
           <form onSubmit={this.handleSubmit}>
             <ProjectSearchInput
-              value={searchQuery}
-              onChange={this.searchData}
+              searchQueryValue={searchQuery}
+              onSearchQueryChange={this.searchData}
               filterOptions={filterOptions}
+              filterValues={filterValues}
+              onFilterChange={this.onFilterChange}
             />
           </form>
-          <div>{children({ projects: queryResults })}</div>
+          <div>{children({ projects: filterResults })}</div>
         </div>
       </div>
     );
