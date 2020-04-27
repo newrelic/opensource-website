@@ -19,7 +19,7 @@ const ExploreProjectsPage = props => {
     allLanguages,
     allCategories,
     allProjectTypes,
-    options
+    searchEngineOptions
   } = projectData;
 
   const filterOptions = {
@@ -87,7 +87,7 @@ const ExploreProjectsPage = props => {
       />
       <ProjectSearch
         data={allProjects}
-        engine={options}
+        engine={searchEngineOptions}
         filterOptions={filterOptions}
       >
         {({ projects }) => {

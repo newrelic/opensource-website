@@ -24,11 +24,10 @@ class ProjectSearch extends Component {
     if (prevState.search === null) {
       const { engine } = nextProps;
       return {
-        indexByTitle: engine.TitleIndex,
-        indexByAuthor: engine.AuthorIndex,
-        termFrequency: engine.SearchByTerm,
+        indexFields: engine.indexFields,
         selectedSanitizer: engine.searchSanitizer,
-        selectedStrategy: engine.indexStrategy
+        selectedStrategy: engine.indexStrategy,
+        removeStopWords: engine.removeStopWords,
       };
     }
     return null;
@@ -46,13 +45,13 @@ class ProjectSearch extends Component {
       selectedStrategy,
       selectedSanitizer,
       removeStopWords,
-      termFrequency,
-      indexByTitle,
-      indexByAuthor
+      indexFields
     } = this.state;
     const { data } = this.props;
 
-    const dataToSearch = new JsSearch.Search('isbn');
+    const dataToSearch = new JsSearch.Search('slug');
+    dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex('slug');
+    // dataToSearch.searchIndex = new JsSearch.UnorderedSearchIndex();
 
     if (removeStopWords) {
       dataToSearch.tokenizer = new JsSearch.StopWordsTokenizer(
@@ -80,22 +79,12 @@ class ProjectSearch extends Component {
     selectedSanitizer === 'Case Sensitive'
       ? (dataToSearch.sanitizer = new JsSearch.CaseSensitiveSanitizer())
       : (dataToSearch.sanitizer = new JsSearch.LowerCaseSanitizer());
-    termFrequency === true
-      ? (dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex('isbn'))
-      : (dataToSearch.searchIndex = new JsSearch.UnorderedSearchIndex());
 
-    // sets the index attribute for the data
-    if (indexByTitle) {
-      dataToSearch.addIndex('title');
-    }
-    // sets the index attribute for the data
-    if (indexByAuthor) {
-      dataToSearch.addIndex('author');
-    }
+    indexFields.forEach(field => dataToSearch.addIndex(field));
 
     dataToSearch.addDocuments(data); // adds the data to be searched
 
-    this.setState({ search: dataToSearch, isLoading: false });
+    this.setState({ search: dataToSearch });
   };
 
   /**

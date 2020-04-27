@@ -32,6 +32,7 @@ const allProjectsQuery = `
 
   fragment exploreProjectsFields on Projects {
     id
+    slug
     fullName
     githubUrl
     stats {
@@ -139,12 +140,25 @@ const createExploreProjects = async ({ graphql, actions }) => {
         allCategories: allCategories.group,
         allProjectTypes: allProjectTypes.group,
         // sortBy:
-        options: {
+        searchEngineOptions: {
           indexStrategy: 'Prefix match',
           searchSanitizer: 'Lower Case',
-          TitleIndex: true,
-          AuthorIndex: true,
-          SearchByTerm: true
+          indexFields: [
+            ['slug'],
+            ['fullName'],
+            ['name'],
+            ['description'],
+            ['projectType', 'title'],
+            ['ossCategory', 'title'],
+            ['website', 'title'],
+            ['tags'],
+            ['primaryLanguage']
+
+            // Nested array syntax doesn't work until this PR is merged:
+            // https://github.com/bvaughn/js-search/pull/78/files#diff-5d56a676b2913ba26d67295fe642d9b0R18
+            // ['stats', 'languages', '[]', 'name']
+          ],
+          removeStopWords: true
         }
       }
     }
