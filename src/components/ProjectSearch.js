@@ -117,7 +117,8 @@ class ProjectSearch extends Component {
     if (searchQuery && hasFilter) {
       this.setState(
         {
-          searchQuery: queryResult
+          searchQuery,
+          searchResults: queryResult
         },
         this.filterData
       );
@@ -184,14 +185,9 @@ class ProjectSearch extends Component {
       }),
       this.filterData
     );
-    // debugger;
   }
 
   filterSearchQueryResults = ({ field, value }) => {
-    // const { search, searchQuery } = this.state;
-    // const queryResult = search.search(searchQuery);
-
-    // Filter search results
     this.updateFilter({
       field,
       value
