@@ -6,30 +6,32 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "video agent-roku",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "license": {
+    "title": "Apache 2",
+    "fileUrl": "https://github.com/newrelic/video-agent-roku/blob/master/LICENSE"
+  },
+  "title": "New Relic Roku Agent",
+  "supportUrl": "https://discuss.newrelic.com/t/new-relic-open-source-roku-agent/97802",
   "githubUrl": "https://github.com/newrelic/video-agent-roku",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/video-agent-roku",
   "iconUrl": "https://github.com/newrelic/video-agent-roku/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "New Relic Agent for Roku",
   "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
+    "title": "Community Project",
+    "slug": "community-project"
   },
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
+  "projectTags": [{
+    "title": "Video",
+    "slug": "video"
+  }, {
+    "title": "Agent",
+    "slug": "agent"
+  }],
   "primaryLanguage": "Brightscript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
   "website": {
-    "title": "video agent-roku",
+    "title": "New Relic Roku Agent",
     "url": "https://github.com/newrelic/video-agent-roku"
   },
-  "version": "0.1.0"
+  "version": "1.0.4"
 }
