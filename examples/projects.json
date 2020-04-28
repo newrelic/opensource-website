@@ -1,16 +1,16 @@
 {
-  "name": "nr1-github",
-  "fullName": "newrelic/nr1-github",
-  "slug": "newrelic-nr1-github",
+  "name": "[REPO_NAME]",
+  "fullName": "[GH_ORG_NAME]/[REPO_NAME]",
+  "slug": "[GH_ORG_NAME]-[REPO_NAME]",
   "owner": {
-    "login": "newrelic",
+    "login": "[GH_ORG_NAME]",
     "type": "Organization"
   },
-  "title": "New Relic One GitHub Integration",
+  "title": "New Relic One  GitHub Integration",
   "supportUrl": "https://discuss.newrelic.com/",
-  "githubUrl": "https://github.com/newrelic/nr1-github",
-  "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-github",
-  "iconUrl": "https://github.com/newrelic/nr1-github/blob/master/icon.png?raw=true",
+  "githubUrl": "[REPO_URL]",
+  "permalink": "https://opensource.newrelic.com/projects/[GH_ORG_NAME]/[REPO_NAME]",
+  "iconUrl": "[REPO_URL]/blob/master/icon.png?raw=true",
   "shortDescription": "Align GitHub repositories to Entities.",
   "description": "Create more context to your entities by having access to the GitHub repository, contributors and README.",
   "ossCategory": {
@@ -28,7 +28,7 @@
   ],
   "website": {
     "title": "New Relic One GitHub Integration",
-    "url": "https://github.com/newrelic/nr1-github"
+    "url": "[REPO_URL]"
   },
   "version": "0.1.0"
 }
