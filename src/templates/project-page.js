@@ -61,6 +61,7 @@ const ProjectPage = ({ data }) => {
           href={issue.url}
           key={issue.id}
           className={styles.projectPageIssue}
+          rel="noopener noreferrer"
         >
           <div className={styles.projectPageIssueHeader}>
             <img
@@ -191,6 +192,7 @@ const ProjectPage = ({ data }) => {
                   href={project.githubUrl}
                   className="button button-primary"
                   target="__blank"
+                  rel="noopener noreferrer"
                 >
                   <img src={iconGitHubWhite} alt="GitHub logo" />
                   Star
@@ -198,6 +200,7 @@ const ProjectPage = ({ data }) => {
                 <a
                   href={project.githubUrl}
                   className="button button-secondary"
+                  rel="noopener noreferrer"
                 >
                   View GitHub Repo
                 </a>

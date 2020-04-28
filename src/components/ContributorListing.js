@@ -32,7 +32,10 @@ const ContributorListing = ({ contributors, project }) => {
                 </a>
               </h4>
               <h6 className={styles.contributorContributions}>
-                <a href={`${project.githubUrl}/graphs/contributors`}>
+                <a
+                  href={`${project.githubUrl}/graphs/contributors`}
+                  rel="noopener noreferrer"
+                >
                   {contributor.contributions} commits
                 </a>
               </h6>
