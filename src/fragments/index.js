@@ -58,6 +58,7 @@ export const projectFields = graphql`
       title
     }
     shortDescription
+    supportUrl
     mainContent {
       mdx: parent {
         ... on Mdx {

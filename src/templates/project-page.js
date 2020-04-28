@@ -49,6 +49,7 @@ const ProjectPage = ({ data }) => {
     get(project, 'primaryLanguage', '')
   ];
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
+  const supportUrl = get(project, 'supportUrl', false);
 
   const [screenshotModalActive, setScreenshotModalActive] = useState(false);
   const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(0);
@@ -56,7 +57,11 @@ const ProjectPage = ({ data }) => {
   const renderIssues = (project, projectStats) => {
     return projectStats.cachedIssues.map(issue => {
       return (
-        <a href={issue.url} className={styles.projectPageIssue} key={issue.id}>
+        <a
+          href={issue.url}
+          key={issue.id}
+          className={styles.projectPageIssue}
+        >
           <div className={styles.projectPageIssueHeader}>
             <img
               src={openIssueIcon}
@@ -182,18 +187,29 @@ const ProjectPage = ({ data }) => {
           <div className={styles.callToActionContainer}>
             <div className={styles.callToActionButtons}>
               <div className={styles.callToActionButtonsContainer}>
-                <a href={project.githubUrl} className="button button-primary">
+                <a
+                  href={project.githubUrl}
+                  className="button button-primary"
+                  target="__blank"
+                >
                   <img src={iconGitHubWhite} alt="GitHub logo" />
                   Star
                 </a>
-                <a href={project.githubUrl} className="button button-secondary">
+                <a
+                  href={project.githubUrl}
+                  className="button button-secondary"
+                >
                   View GitHub Repo
                 </a>
               </div>
-              <small className={styles.callToActionSupport}>
-                Need help with the project?{' '}
-                <a href="#">Try the support thread</a>
-              </small>
+              {supportUrl && (
+                <small className={styles.callToActionSupport}>
+                  Need help with the project?{' '}
+                  <a href={supportUrl} rel="noopener noreferrer">
+                    Try the support thread
+                  </a>
+                </small>
+              )}
             </div>
             <div className={styles.callToActionCategorySpecification}>
               <h5 className={styles.callToActionCategory}>
