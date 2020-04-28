@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/insights-about-pagerduty/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Slurp resolved PagerDuty incident data into New Relic Insights",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Ruby",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "insights about-pagerduty",
     "url": "https://github.com/newrelic/insights-about-pagerduty"

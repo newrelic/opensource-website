@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nr1-groundskeeper/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Generate a live view of all the APM agents across your Services.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr1 groundskeeper",
     "url": "https://github.com/newrelic/nr1-groundskeeper"

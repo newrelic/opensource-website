@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/infrastructure-agent-puppet/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Puppet module for installing New Relic Infrastructure agent",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Puppet",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "infrastructure agent-puppet",
     "url": "https://github.com/newrelic/infrastructure-agent-puppet"

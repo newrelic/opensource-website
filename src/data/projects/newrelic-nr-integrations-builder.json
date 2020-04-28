@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nr-integrations-builder/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Command-line tool for scaffolding new New Relic Infrastructure integrations",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Go",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr integrations-builder",
     "url": "https://github.com/newrelic/nr-integrations-builder"

@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-cli/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "The New Relic Command Line Interface",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Go",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic cli",
     "url": "https://github.com/newrelic/newrelic-cli"

@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic-experimental/nr1-service-instance-explorer/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "An New Relic One application that provides simple tabular view of application/service instances and the compute they are running on/in",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr1 service-instance-explorer",
     "url": "https://github.com/newrelic-experimental/nr1-service-instance-explorer"

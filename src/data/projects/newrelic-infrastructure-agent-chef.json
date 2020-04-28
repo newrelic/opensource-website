@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/infrastructure-agent-chef/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Chef cookbook for installing New Relic Infrastructure agent",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Ruby",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "infrastructure agent-chef",
     "url": "https://github.com/newrelic/infrastructure-agent-chef"

@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic-experimental/helm-charts/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Helm charts for New Relic applications",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": null,
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "helm charts",
     "url": "https://github.com/newrelic-experimental/helm-charts"

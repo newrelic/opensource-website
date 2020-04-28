@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/python-agent-extension/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "This repository provides a basic skeleton for creating instrumentation packages that plug into the New Relic Python Agent.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Python",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "python agent-extension",
     "url": "https://github.com/newrelic/python-agent-extension"

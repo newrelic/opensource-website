@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-java-agent-ansible-role/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Ansible role for installing New Relic Java agent",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": null,
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic java-agent-ansible-role",
     "url": "https://github.com/newrelic/newrelic-java-agent-ansible-role"

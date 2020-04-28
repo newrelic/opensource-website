@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/openshift-newrelic-operator/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "repo to publish a certified openshift operator",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "HCL",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "openshift newrelic-operator",
     "url": "https://github.com/newrelic/openshift-newrelic-operator"

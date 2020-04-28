@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic-experimental/nr1-multi-account-query/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Run an NRQL query across your sub accounts",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr1 multi-account-query",
     "url": "https://github.com/newrelic-experimental/nr1-multi-account-query"

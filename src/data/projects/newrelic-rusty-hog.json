@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/rusty-hog/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "A suite of secret scanners built in Rust for performance. Based on TruffleHog (https://github.com/dxa4481/truffleHog) which is written in Python.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Rust",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "rusty hog",
     "url": "https://github.com/newrelic/rusty-hog"

@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/micrometer-registry-newrelic/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Micrometer registry implementation that sends data to New Relic as dimensional metrics.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Java",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "micrometer registry-newrelic",
     "url": "https://github.com/newrelic/micrometer-registry-newrelic"

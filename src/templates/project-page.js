@@ -44,10 +44,15 @@ const ProjectPage = ({ data }) => {
   }
 
   const projectStats = get(project, 'stats', false);
-  const tags = [
+  let tags = [
     get(project, 'ossCategory.title', ''),
     get(project, 'primaryLanguage', '')
   ];
+
+  if (project.projectTags) {
+    tags = tags.concat(project.projectTags.map(i => i.title));
+  }
+
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
   const supportUrl = get(project, 'supportUrl', false);
 
@@ -176,7 +181,16 @@ const ProjectPage = ({ data }) => {
           {!mainContent && <h2>No content found.</h2>}
 
           <h3>Top Contributors</h3>
-          <p>Thanks to these people and <a target="contributors" href={project.githubUrl + '/graphs/contributors'}>more</a> for their contributions:</p>
+          <p>
+            Thanks to these people and{' '}
+            <a
+              target="contributors"
+              href={`${project.githubUrl}/graphs/contributors`}
+            >
+              more
+            </a>{' '}
+            for their contributions:
+          </p>
           {projectStats && (
             <ContributorListing
               contributors={projectStats.cachedContributors}

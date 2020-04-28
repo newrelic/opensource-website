@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-lambda-layers/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Source code and utilities to build and publish New Relic's public AWS Lambda layers.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Shell",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic lambda-layers",
     "url": "https://github.com/newrelic/newrelic-lambda-layers"

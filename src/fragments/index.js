@@ -46,6 +46,7 @@ export const projectFields = graphql`
     ossCategory {
       slug
       title
+      description
     }
     owner {
       login
@@ -59,6 +60,10 @@ export const projectFields = graphql`
     }
     shortDescription
     supportUrl
+    projectTags {
+      title
+      slug
+    }
     mainContent {
       mdx: parent {
         ... on Mdx {
@@ -105,7 +110,10 @@ export const exploreProjectsFields = graphql`
     }
     shortDescription
     supportUrl
-    tags
+    projectTags {
+      title
+      slug
+    }
     title
     version
     website {

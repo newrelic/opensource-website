@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic_microsoft_sqlserver_plugin/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "New Relic Microsoft SQL Server Plugin",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "C#",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic_microsoft_sqlserver_plugin",
     "url": "https://github.com/newrelic/newrelic_microsoft_sqlserver_plugin"

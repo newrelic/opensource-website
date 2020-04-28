@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/openshift-python-with-newrelic/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "OpenShift image with Newrelic's Python agent",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Dockerfile",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "openshift python-with-newrelic",
     "url": "https://github.com/newrelic/openshift-python-with-newrelic"

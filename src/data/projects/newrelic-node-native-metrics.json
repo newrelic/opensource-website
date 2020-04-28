@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/node-native-metrics/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Optional native module for collecting low-level Node & V8 metrics",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "C++",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "node native-metrics",
     "url": "https://github.com/newrelic/node-native-metrics"

@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nr1-graphiql-notebook/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Explore New Relic data using a Jupyter Notebook-inspired utility to explore our GraphQL API. Share notebooks with colleagues.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr1 graphiql-notebook",
     "url": "https://github.com/newrelic/nr1-graphiql-notebook"

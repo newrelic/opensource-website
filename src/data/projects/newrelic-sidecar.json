@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/sidecar/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Gossip-based service discovery. Docker native, but supports static discovery, too.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Go",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "sidecar",
     "url": "https://github.com/newrelic/sidecar"

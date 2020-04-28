@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nr1-flex-manager/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Reduce the effort to create, manage and deploy new Flex integrations.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr1 flex-manager",
     "url": "https://github.com/newrelic/nr1-flex-manager"

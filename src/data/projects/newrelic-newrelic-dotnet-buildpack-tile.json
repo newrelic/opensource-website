@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-dotnet-buildpack-tile/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "This is New Relic Dotnet Extension Buildpack repository for Cloud Foundry.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Go",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic dotnet-buildpack-tile",
     "url": "https://github.com/newrelic/newrelic-dotnet-buildpack-tile"

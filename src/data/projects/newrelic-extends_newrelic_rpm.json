@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/extends_newrelic_rpm/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Gems that extend New Relic's Ruby agent (newrelic_rpm), linked via git submodules",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Ruby",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "extends_newrelic_rpm",
     "url": "https://github.com/newrelic/extends_newrelic_rpm"

@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nr1-workshop/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Self-paced training workshop for the NR1 CLI/SDK",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr1 workshop",
     "url": "https://github.com/newrelic/nr1-workshop"

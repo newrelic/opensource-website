@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/k8s-metadata-injection/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Kubernetes metadata injection for New Relic APM to make a linkage between APM and Infrastructure data.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Go",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "k8s metadata-injection",
     "url": "https://github.com/newrelic/k8s-metadata-injection"

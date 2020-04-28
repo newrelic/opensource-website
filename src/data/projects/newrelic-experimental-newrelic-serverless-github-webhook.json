@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic-experimental/newrelic-serverless-github-webhook/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Function to move GitHub webhook events to NRDB using the Insights Collector endpoint.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic serverless-github-webhook",
     "url": "https://github.com/newrelic-experimental/newrelic-serverless-github-webhook"

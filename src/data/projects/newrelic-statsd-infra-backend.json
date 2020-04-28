@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/statsd-infra-backend/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "StatsD backend for sending metrics to New Relic Infrastructure",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "statsd infra-backend",
     "url": "https://github.com/newrelic/statsd-infra-backend"

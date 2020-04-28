@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nr1-metrics-aggregator/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "The GUI for the metrics to events features of the New Relic data platform",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr1 metrics-aggregator",
     "url": "https://github.com/newrelic/nr1-metrics-aggregator"

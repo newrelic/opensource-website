@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/cloudformation-partner-integration/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Integration with AWS Cloudformation",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Java",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "cloudformation partner-integration",
     "url": "https://github.com/newrelic/cloudformation-partner-integration"

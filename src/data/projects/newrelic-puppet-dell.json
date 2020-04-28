@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/puppet-dell/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Puppet management of drac cards using racadm",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Perl",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "puppet dell",
     "url": "https://github.com/newrelic/puppet-dell"

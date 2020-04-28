@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-php-daemon-docker/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "A docker image for the New Relic PHP Daemon",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Dockerfile",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic php-daemon-docker",
     "url": "https://github.com/newrelic/newrelic-php-daemon-docker"
