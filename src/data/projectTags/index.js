@@ -57,4 +57,8 @@
 {
   "title": "Pivotal Cloud Foundry",
   "slug": "pcf"
+},
+{
+  "title": "Terraform",
+  "slug": "terraform"
 }]
