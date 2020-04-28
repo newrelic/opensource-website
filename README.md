@@ -44,7 +44,7 @@ This file contains the base information about the project detail pages as well a
 
 **Example:** `data/projects/newrelic-nr1-github.json`
 
-**Template:** `data/templates/projects.json`
+**Template:** `examples/projects.json`
 
 ### 2. Project metadata
 
@@ -54,7 +54,7 @@ This file contains the content (markdown and optional React components) that pop
 
 **Example:** `data/project-main-content/newrelic-nr1-github.mdx`
 
-**Template:** `data/templates/project-main-content.mdx`
+**Template:** `examples/project-main-content.mdx`
 
 ## Open source license
 
