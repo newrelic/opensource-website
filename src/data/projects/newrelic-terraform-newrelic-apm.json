@@ -6,30 +6,28 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "terraform newrelic-apm",
+  "title": "New Relic APM Terraform module",
   "supportUrl": "https://discuss.newrelic.com/",
   "githubUrl": "https://github.com/newrelic/terraform-newrelic-apm",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/terraform-newrelic-apm",
   "iconUrl": "https://github.com/newrelic/terraform-newrelic-apm/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Terraform provider APM",
   "description": "Terraform module for New Relic application monitoring",
   "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
+    "title": "Community Project",
+    "slug": "community-project"
   },
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
+  "projectType": [{
+    "title": "Terraform",
+    "slug": "terraform"
+  }, {
+    "title": "Infrastructure",
+    "slug": "infrastructure"
+  }],
   "primaryLanguage": "HCL",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
   "website": {
-    "title": "terraform newrelic-apm",
+    "title": "New Relic APM Terraform module",
     "url": "https://github.com/newrelic/terraform-newrelic-apm"
   },
-  "version": "0.1.0"
+  "version": "0.0.4"
 }
