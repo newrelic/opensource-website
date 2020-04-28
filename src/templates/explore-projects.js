@@ -74,11 +74,13 @@ const ExploreProjectsPage = props => {
     });
   };
 
-  const renderProjectListing = projects => {
+  const renderProjectListing = ({ projects, showFeatured }) => {
+    const start = showFeatured ? featuredProjectsToShow : 0;
+    const end =
+      projects.length >= projectsToShow ? projectsToShow : projects.length;
+
     const projectsToList =
-      projectsToShow > 0
-        ? projects.slice(featuredProjectsToShow, projectsToShow)
-        : projects;
+      projectsToShow > 0 ? projects.slice(start, end) : projects;
 
     return projectsToList.map(p => {
       return <ProjectCard key={p.id} project={p} />;
@@ -97,6 +99,7 @@ const ExploreProjectsPage = props => {
         filterOptions={filterOptions}
       >
         {({ projects, searchQuery }) => {
+          const showFeatured = searchQuery === '';
           const sortedProjects = orderBy(
             projects,
             p => {
@@ -108,7 +111,7 @@ const ExploreProjectsPage = props => {
           return (
             <>
               <div className={styles.featuredProjects}>
-                {searchQuery === '' &&
+                {showFeatured &&
                   renderFeaturedProjects({
                     projects: sortedProjects,
                     featuredProjectsToShow
@@ -116,7 +119,10 @@ const ExploreProjectsPage = props => {
               </div>
 
               <div className={styles.projectListingContainer}>
-                {renderProjectListing(sortedProjects)}
+                {renderProjectListing({
+                  projects: sortedProjects,
+                  showFeatured
+                })}
               </div>
             </>
           );

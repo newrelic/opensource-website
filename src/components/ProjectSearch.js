@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import * as JsSearch from 'js-search';
-import { isEmpty } from 'lodash';
 
 import ProjectSearchInput from './ProjectSearchInput';
 
@@ -123,11 +122,22 @@ class ProjectSearch extends Component {
         this.filterData
       );
     }
+
+    if (searchQuery && !hasFilter) {
+      this.setState({
+        searchQuery,
+        searchResults: queryResult,
+        filterResults: queryResult
+      });
+    }
   };
 
   hasFilter = () => {
     const { filterValues } = this.state;
-    return !isEmpty(filterValues);
+    const isEmpty = !Object.values(filterValues).some(
+      x => x !== null && x !== ''
+    );
+    return !isEmpty;
   };
 
   onFilterChange = ({ field, value }) => {
