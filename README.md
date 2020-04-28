@@ -21,7 +21,7 @@ This project is made up of a few components:
   - building the static pages
   - deploying the site to a static hosting platform
 
-### Architecture diagram
+### Architecture
 
 ![Architecture](assets/images/opensource-website_architecture.png)
 
