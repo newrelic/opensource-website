@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/dropwizard-metrics-newrelic/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Implementation of a DropWizard metrics Reporter that sends data as dimensional metrics to New Relic",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Java",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "dropwizard metrics-newrelic",
     "url": "https://github.com/newrelic/dropwizard-metrics-newrelic"

@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/infrastructure-agent-ansible/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Ansible role for installing New Relic Infrastructure agent",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Python",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "infrastructure agent-ansible",
     "url": "https://github.com/newrelic/infrastructure-agent-ansible"

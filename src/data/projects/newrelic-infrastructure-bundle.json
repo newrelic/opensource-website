@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/infrastructure-bundle/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "New Relic Infrastructure containerised agent bundle",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Shell",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "infrastructure bundle",
     "url": "https://github.com/newrelic/infrastructure-bundle"

@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/fastly-to-insights/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Docker image of Fastly to Insights service",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "fastly to-insights",
     "url": "https://github.com/newrelic/fastly-to-insights"

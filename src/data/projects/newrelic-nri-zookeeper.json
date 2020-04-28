@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nri-zookeeper/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "New Relic On Host Integration for Apache Zookeeper",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Go",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nri zookeeper",
     "url": "https://github.com/newrelic/nri-zookeeper"

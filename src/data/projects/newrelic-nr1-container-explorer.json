@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nr1-container-explorer/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Global visibility of the containers across your infrastructure, easily segmented by tags.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr1 container-explorer",
     "url": "https://github.com/newrelic/nr1-container-explorer"

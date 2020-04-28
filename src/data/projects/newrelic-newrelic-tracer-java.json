@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-tracer-java/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Tracer Plugin for the Java SpecialAgent which provides automatic OpenTracing-based instrumentation for 3rd-party Java libraries",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Java",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic tracer-java",
     "url": "https://github.com/newrelic/newrelic-tracer-java"

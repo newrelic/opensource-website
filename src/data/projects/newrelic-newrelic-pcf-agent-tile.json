@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-pcf-agent-tile/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": null,
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": null,
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic pcf-agent-tile",
     "url": "https://github.com/newrelic/newrelic-pcf-agent-tile"

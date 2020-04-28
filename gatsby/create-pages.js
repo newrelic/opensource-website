@@ -53,6 +53,7 @@ const allProjectsQuery = `
     ossCategory {
       slug
       title
+      description
     }
     owner {
       login
@@ -66,7 +67,10 @@ const allProjectsQuery = `
     }
     shortDescription
     supportUrl
-    tags
+    projectTags {
+      title
+      slug
+    }
     title
     version
     website {
@@ -151,7 +155,7 @@ const createExploreProjects = async ({ graphql, actions }) => {
             ['projectType', 'title'],
             ['ossCategory', 'title'],
             ['website', 'title'],
-            ['tags'],
+            ['projectTags', 'title'],
             ['primaryLanguage']
 
             // Nested array syntax doesn't work until this PR is merged:

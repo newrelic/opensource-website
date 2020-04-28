@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nri-postgresql/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "New Relic Infrastructure Postgresql Integration",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Go",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nri postgresql",
     "url": "https://github.com/newrelic/nri-postgresql"

@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/opentelemetry-exporter-java/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "An OpenTelemetry exporter that sends telemetry to New Relic",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Java",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "opentelemetry exporter-java",
     "url": "https://github.com/newrelic/opentelemetry-exporter-java"

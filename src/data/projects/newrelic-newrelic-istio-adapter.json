@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-istio-adapter/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "An Istio Mixer adapter to send telemetry data to New Relic.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Go",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic istio-adapter",
     "url": "https://github.com/newrelic/newrelic-istio-adapter"

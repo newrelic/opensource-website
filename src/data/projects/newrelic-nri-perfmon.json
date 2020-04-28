@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nri-perfmon/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Windows Perfmon / WMI On-Host Integration for New Relic Infrastructure",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "C#",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nri perfmon",
     "url": "https://github.com/newrelic/nri-perfmon"

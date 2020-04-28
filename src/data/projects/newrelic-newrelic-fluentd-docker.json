@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-fluentd-docker/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "A custom Fluentd Docker image for forwarding log events to New Relic.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Shell",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic fluentd-docker",
     "url": "https://github.com/newrelic/newrelic-fluentd-docker"

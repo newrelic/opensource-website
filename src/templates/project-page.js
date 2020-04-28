@@ -44,11 +44,17 @@ const ProjectPage = ({ data }) => {
   }
 
   const projectStats = get(project, 'stats', false);
-  const tags = [
+  let tags = [
     get(project, 'ossCategory.title', ''),
     get(project, 'primaryLanguage', '')
   ];
+
+  if (project.projectTags) {
+    tags = tags.concat(project.projectTags.map(i => i.title));
+  }
+
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
+  const supportUrl = get(project, 'supportUrl', false);
 
   const [screenshotModalActive, setScreenshotModalActive] = useState(false);
   const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(0);
@@ -56,7 +62,12 @@ const ProjectPage = ({ data }) => {
   const renderIssues = (project, projectStats) => {
     return projectStats.cachedIssues.map(issue => {
       return (
-        <a href={issue.url} className={styles.projectPageIssue} key={issue.id}>
+        <a
+          href={issue.url}
+          key={issue.id}
+          className={styles.projectPageIssue}
+          rel="noopener noreferrer"
+        >
           <div className={styles.projectPageIssueHeader}>
             <img
               src={openIssueIcon}
@@ -170,7 +181,16 @@ const ProjectPage = ({ data }) => {
           {!mainContent && <h2>No content found.</h2>}
 
           <h3>Top Contributors</h3>
-          <p>Thanks to these people and <a target="contributors" href={project.githubUrl + '/graphs/contributors'}>more</a> for their contributions:</p>
+          <p>
+            Thanks to these people and{' '}
+            <a
+              target="contributors"
+              href={`${project.githubUrl}/graphs/contributors`}
+            >
+              more
+            </a>{' '}
+            for their contributions:
+          </p>
           {projectStats && (
             <ContributorListing
               contributors={projectStats.cachedContributors}
@@ -182,18 +202,31 @@ const ProjectPage = ({ data }) => {
           <div className={styles.callToActionContainer}>
             <div className={styles.callToActionButtons}>
               <div className={styles.callToActionButtonsContainer}>
-                <a href={project.githubUrl} className="button button-primary">
+                <a
+                  href={project.githubUrl}
+                  className="button button-primary"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
                   <img src={iconGitHubWhite} alt="GitHub logo" />
                   Star
                 </a>
-                <a href={project.githubUrl} className="button button-secondary">
+                <a
+                  href={project.githubUrl}
+                  className="button button-secondary"
+                  rel="noopener noreferrer"
+                >
                   View GitHub Repo
                 </a>
               </div>
-              <small className={styles.callToActionSupport}>
-                Need help with the project?{' '}
-                <a href="#">Try the support thread</a>
-              </small>
+              {supportUrl && (
+                <small className={styles.callToActionSupport}>
+                  Need help with the project?{' '}
+                  <a href={supportUrl} rel="noopener noreferrer">
+                    Try the support thread
+                  </a>
+                </small>
+              )}
             </div>
             <div className={styles.callToActionCategorySpecification}>
               <h5 className={styles.callToActionCategory}>

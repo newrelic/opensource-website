@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/infra-integrations/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "New Relic Infrastructure Integrations",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Makefile",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "infra integrations",
     "url": "https://github.com/newrelic/infra-integrations"

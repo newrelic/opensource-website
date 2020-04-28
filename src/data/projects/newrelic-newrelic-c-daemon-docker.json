@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/newrelic-c-daemon-docker/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": null,
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "Shell",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "newrelic c-daemon-docker",
     "url": "https://github.com/newrelic/newrelic-c-daemon-docker"

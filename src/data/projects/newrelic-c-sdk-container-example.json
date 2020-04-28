@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/c-sdk-container-example/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "simple application that demonstrates the new container friendly world of the C-SDK",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "C",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "c sdk-container-example",
     "url": "https://github.com/newrelic/c-sdk-container-example"

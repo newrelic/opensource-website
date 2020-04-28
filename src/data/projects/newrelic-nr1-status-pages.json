@@ -13,20 +13,13 @@
   "iconUrl": "https://github.com/newrelic/nr1-status-pages/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "Collect and display the statuses of key dependencies in one place.",
-  "ossCategory": {
-    "title": "Lorem Ipsum",
-    "slug": "lorem-ipsum"
-  },
+  "ossCategory": "tbd",
   "projectType": {
     "title": "New Relic One App",
     "slug": "nr1-app"
   },
   "primaryLanguage": "JavaScript",
-  "tags": [
-    "point-of-sale",
-    "maps",
-    "infrastructure"
-  ],
+  "projectTags": [],
   "website": {
     "title": "nr1 status-pages",
     "url": "https://github.com/newrelic/nr1-status-pages"
