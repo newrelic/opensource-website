@@ -15,9 +15,9 @@ This project is made up of a few components:
   - `project metadata` in the data/projects directory
   - `project stats` in the data/project-stats directory
   - `markdown content` in the data/project-main-content directory
-- Static pages promoting New Relic's engagement in open standards as well as highlighting specific features and collections in New Relic's open source capabilities
+- Static pages that promote New Relic's engagement in open standards and highlight specific features and collections in New Relic's open source capabilities.
 - Automation to handle:
-  - updating of dynamic data in the `project stats` directory and in
+  - updating dynamic data in the `project stats` and `project metadata` directories
   - building the static pages
   - deploying the site to a static hosting platform
 
@@ -27,18 +27,18 @@ This project is made up of a few components:
 
 ## Contributing project data
 
-Contributing new or updated project data to `opensource.newrelic.com` requires the following process.
+The process to contribute new data or update existing data to `opensource.newrelic.com` is the same.
 
 1. `Fork` this repository.
-2. Add/update the files below to your forked `opensource-website` repository.
+2. Add/update the two project metadata files (described below) to your forked `opensource-website` repository.
 3. Submit a `Pull Request` back to this project containing your new or updated files.
-4. If/when your `PR` is accepted, the automation in this project will populate a related file in the `src/data/project-stats` directory, build the site, and deploy a new version of the code (including your project's data) to `opensource.newrelic.com`.
+4. If/when your `PR` is accepted, the automation in this project will populate a related file in the `src/data/project-stats` directory, build the site, and deploy a new version of the code (including your project's new data) to `opensource.newrelic.com`.
 
-To add your project to `opensource.newrelic.com`, you must provide **the following two files**. To update the data on a given project, changes to one of these two files must be present for the `PR` to be accepted and merged.
+To add your project to `opensource.newrelic.com`, you must include **the following two metadata files**. To accept and merge a PR, we check that these files are present, and if you're submitting an update, that at least one of these files has been changed.
 
-### 1. Project metadata
+### 1. Project metadata (JSON)
 
-This file contains the base information about the project detail pages as well as the project search/exploration page.
+The JSON file contains the base information about the project detail pages, as well as the project search/exploration page.
 
 **File format:** `data/projects/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].json`
 
@@ -46,9 +46,9 @@ This file contains the base information about the project detail pages as well a
 
 **Template:** `examples/projects.json`
 
-### 2. Project metadata
+### 2. Project metadata (MDX)
 
-This file contains the content (markdown and optional React components) that populates the left-hand column of a project detail page.
+This MDX file contains the markdown and optional React components that populate the left-hand column of a project detail page.
 
 **File format:** `data/project-main-content/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].mdx`
 
@@ -93,7 +93,7 @@ https://discuss.newrelic.com/t/opensource-website
 
 ## Issues / enhancement requests
 
-Issues and enhancement requests can be submitted in the [Issues tab of this repository](../../issues). Please search for and review the existing open issues before submitting a new issue.
+Submit any issues and enhancement requests in the [Issues tab of this repository](../../issues). Please search for and review the existing open issues before submitting a new issue.
 
 # Contributing code
 
