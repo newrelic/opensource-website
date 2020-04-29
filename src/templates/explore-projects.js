@@ -98,8 +98,11 @@ const ExploreProjectsPage = props => {
         engine={searchEngineOptions}
         filterOptions={filterOptions}
       >
-        {({ projects, searchQuery }) => {
-          const showFeatured = searchQuery === '';
+        {({ projects, searchQuery, filterValues }) => {
+          const hasFilters = Object.values(filterValues).some(
+            x => x !== null && x !== ''
+          );
+          const showFeatured = searchQuery === '' && !hasFilters;
           const sortedProjects = orderBy(
             projects,
             p => {
