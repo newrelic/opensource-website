@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "A CLI to install the New Relic AWS Lambda integration and layers.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Python",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic lambda-cli",
     "url": "https://github.com/newrelic/newrelic-lambda-cli"

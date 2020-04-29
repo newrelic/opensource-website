@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Display and inspect the top processes of your hosts, including CPU, I/O and memory.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 top",
     "url": "https://github.com/newrelic/nr1-top"

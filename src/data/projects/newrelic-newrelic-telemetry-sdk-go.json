@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Go library for sending telemetry data to New Relic",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Go",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic telemetry-sdk-go",
     "url": "https://github.com/newrelic/newrelic-telemetry-sdk-go"

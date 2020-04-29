@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Kubernetes metadata injection for New Relic APM to make a linkage between APM and Infrastructure data.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Go",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "k8s metadata-injection",
     "url": "https://github.com/newrelic/k8s-metadata-injection"

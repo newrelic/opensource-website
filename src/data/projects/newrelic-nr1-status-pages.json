@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Collect and display the statuses of key dependencies in one place.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 status-pages",
     "url": "https://github.com/newrelic/nr1-status-pages"

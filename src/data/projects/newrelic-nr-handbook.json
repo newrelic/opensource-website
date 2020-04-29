@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Welcome to the New Relic Handbook. This handbook is designed for you, as a New Relic Expert, to help your colleagues in onboarding with New Relic. The Handbook goes through account set-up, recommended alerts, Insights dashboards, etc... See more below, or in the Explorers Hub",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "HTML",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr handbook",
     "url": "https://github.com/newrelic/nr-handbook"

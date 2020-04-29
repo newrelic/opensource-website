@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "New Relic Infrastructure Integration to acquire metrics from ThousandEyes (network monitoring)",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Java",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nri thousandeyes",
     "url": "https://github.com/newrelic-experimental/nri-thousandeyes"

@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": null,
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "TypeScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic telemetry-sdk-node",
     "url": "https://github.com/newrelic/newrelic-telemetry-sdk-node"

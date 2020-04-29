@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Docker image of Fastly to Insights service",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "fastly to-insights",
     "url": "https://github.com/newrelic/fastly-to-insights"

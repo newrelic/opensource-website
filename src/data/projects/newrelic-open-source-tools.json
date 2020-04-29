@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Open source templates and tools for New Relic projects.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "open source-tools",
     "url": "https://github.com/newrelic/open-source-tools"

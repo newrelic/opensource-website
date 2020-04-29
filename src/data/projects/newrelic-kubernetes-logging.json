@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Output adapters for Kubernetes, powered by Fluent Bit, for New Relic Logs.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Smarty",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "kubernetes logging",
     "url": "https://github.com/newrelic/kubernetes-logging"

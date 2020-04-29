@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Helm charts for New Relic applications",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": null,
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "helm charts",
     "url": "https://github.com/newrelic-experimental/helm-charts"

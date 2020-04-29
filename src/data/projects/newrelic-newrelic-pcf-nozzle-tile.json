@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "New Relic Firehose Nozzle for Pivotal Cloud Foundry",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Go",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic pcf-nozzle-tile",
     "url": "https://github.com/newrelic/newrelic-pcf-nozzle-tile"

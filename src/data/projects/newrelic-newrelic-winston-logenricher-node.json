@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": null,
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic winston-logenricher-node",
     "url": "https://github.com/newrelic/newrelic-winston-logenricher-node"

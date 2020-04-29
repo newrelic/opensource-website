@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "A nerdlet for visualizing data from your spring boot apps",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "CSS",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 spring-boot-nerdlet",
     "url": "https://github.com/newrelic/nr1-spring-boot-nerdlet"

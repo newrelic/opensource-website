@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "repo to publish a certified openshift operator",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "HCL",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "openshift newrelic-operator",
     "url": "https://github.com/newrelic/openshift-newrelic-operator"

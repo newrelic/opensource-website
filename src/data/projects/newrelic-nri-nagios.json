@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "New Relic Infrastructure Nagios Integration",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Go",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nri nagios",
     "url": "https://github.com/newrelic/nri-nagios"

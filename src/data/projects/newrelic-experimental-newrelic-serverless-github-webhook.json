@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Function to move GitHub webhook events to NRDB using the Insights Collector endpoint.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic serverless-github-webhook",
     "url": "https://github.com/newrelic-experimental/newrelic-serverless-github-webhook"

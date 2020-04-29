@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Source code and utilities to build and publish New Relic's public AWS Lambda layers.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Shell",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic lambda-layers",
     "url": "https://github.com/newrelic/newrelic-lambda-layers"

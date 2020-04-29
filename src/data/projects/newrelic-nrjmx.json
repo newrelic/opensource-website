@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Command line tool to connect to a JMX server and retrieve the MBeans it exposes.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Java",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nrjmx",
     "url": "https://github.com/newrelic/nrjmx"

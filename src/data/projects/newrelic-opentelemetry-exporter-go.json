@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "New Relic's Golang OpenTelemetry Exporter",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Go",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "opentelemetry exporter-go",
     "url": "https://github.com/newrelic/opentelemetry-exporter-go"

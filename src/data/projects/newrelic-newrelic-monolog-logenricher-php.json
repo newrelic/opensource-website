@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Monolog components to enable New Relic Logs",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "PHP",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic monolog-logenricher-php",
     "url": "https://github.com/newrelic/newrelic-monolog-logenricher-php"

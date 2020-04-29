@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": " Specs for the New Relic Telemetry SDKs",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": null,
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic telemetry-sdk-specs",
     "url": "https://github.com/newrelic/newrelic-telemetry-sdk-specs"

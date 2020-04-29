@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "NR1 demo code of a configuration tool.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": null,
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "configurator",
     "url": "https://github.com/newrelic-experimental/configurator"

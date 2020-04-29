@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "New Relic Infrastructure containerised agent bundle",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Shell",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "infrastructure bundle",
     "url": "https://github.com/newrelic/infrastructure-bundle"

@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Display near-real time infrastructure data geographically.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 igor",
     "url": "https://github.com/newrelic/nr1-igor"

@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Bring Splunk logs and data into the New Relic One Entity-centric context.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 splunk",
     "url": "https://github.com/newrelic-experimental/nr1-splunk"

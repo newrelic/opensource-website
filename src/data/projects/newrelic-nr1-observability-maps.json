@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Create an observability map based on any of the data available in New Relic.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 observability-maps",
     "url": "https://github.com/newrelic/nr1-observability-maps"

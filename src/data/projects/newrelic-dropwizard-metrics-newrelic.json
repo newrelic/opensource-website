@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Implementation of a DropWizard metrics Reporter that sends data as dimensional metrics to New Relic",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Java",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "dropwizard metrics-newrelic",
     "url": "https://github.com/newrelic/dropwizard-metrics-newrelic"

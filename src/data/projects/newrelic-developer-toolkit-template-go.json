@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Golang repo template",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Makefile",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "developer toolkit-template-go",
     "url": "https://github.com/newrelic/developer-toolkit-template-go"

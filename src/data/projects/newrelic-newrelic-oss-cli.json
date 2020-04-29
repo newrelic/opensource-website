@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": null,
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic oss-cli",
     "url": "https://github.com/newrelic/newrelic-oss-cli"

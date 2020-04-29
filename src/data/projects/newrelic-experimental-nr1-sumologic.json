@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Bring Sumologic logs into the New Relic One Entity-centric context.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 sumologic",
     "url": "https://github.com/newrelic-experimental/nr1-sumologic"

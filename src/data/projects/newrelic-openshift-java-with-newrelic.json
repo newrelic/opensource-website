@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "OpenShift image with Newrelic's Java agent",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Dockerfile",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "openshift java-with-newrelic",
     "url": "https://github.com/newrelic/openshift-java-with-newrelic"

@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Integration with AWS Cloudformation",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Java",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "cloudformation partner-integration",
     "url": "https://github.com/newrelic/cloudformation-partner-integration"

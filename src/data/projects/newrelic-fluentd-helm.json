@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": null,
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Smarty",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "fluentd helm",
     "url": "https://github.com/newrelic/fluentd-helm"

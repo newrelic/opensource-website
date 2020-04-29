@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "simple application that demonstrates the new container friendly world of the C-SDK",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "C",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "c sdk-container-example",
     "url": "https://github.com/newrelic/c-sdk-container-example"

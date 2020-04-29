@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "@newrelic's opinionated set of ESLint and Prettier rules for writing Javascript",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "eslint plugin-newrelic",
     "url": "https://github.com/newrelic/eslint-plugin-newrelic"

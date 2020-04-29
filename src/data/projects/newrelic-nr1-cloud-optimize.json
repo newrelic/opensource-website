@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Identify right-sizing opportunities and potential savings of your AWS, GCP, and Azure instances across your cloud environment.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 cloud-optimize",
     "url": "https://github.com/newrelic/nr1-cloud-optimize"

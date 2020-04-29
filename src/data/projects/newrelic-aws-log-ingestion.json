@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "AWS Serverless Application that sends log data from CloudWatch Logs to New Relic Infrastructure - Cloud Integrations.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Python",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "aws log-ingestion",
     "url": "https://github.com/newrelic/aws-log-ingestion"

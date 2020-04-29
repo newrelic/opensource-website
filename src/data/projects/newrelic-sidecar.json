@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Gossip-based service discovery. Docker native, but supports static discovery, too.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Go",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "sidecar",
     "url": "https://github.com/newrelic/sidecar"

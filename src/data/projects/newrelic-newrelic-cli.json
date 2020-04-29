@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "The New Relic Command Line Interface",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Go",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic cli",
     "url": "https://github.com/newrelic/newrelic-cli"

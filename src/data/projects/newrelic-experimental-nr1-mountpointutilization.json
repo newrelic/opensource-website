@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Nerdpack for DBAs to help understand the database usage.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 mountpointutilization",
     "url": "https://github.com/newrelic-experimental/nr1-mountpointutilization"

@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Generate a live view of all the APM agents across your Services.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 groundskeeper",
     "url": "https://github.com/newrelic/nr1-groundskeeper"

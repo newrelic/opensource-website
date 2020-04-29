@@ -17,17 +17,8 @@
   "iconUrl": "https://github.com/newrelic/video-agent-roku/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": "New Relic Agent for Roku",
-  "ossCategory": {
-    "title": "Community Project",
-    "slug": "community-project"
-  },
-  "projectTags": [{
-    "title": "Video",
-    "slug": "video"
-  }, {
-    "title": "Agent",
-    "slug": "agent"
-  }],
+  "ossCategory": "community-project",
+  "projectTags": [ "agent", "video" ],
   "primaryLanguage": "Brightscript",
   "website": {
     "title": "New Relic Roku Agent",

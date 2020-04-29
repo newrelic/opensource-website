@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Extensions supporting New Relic Logging (Logs In Context)",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "C#",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic logenricher-dotnet",
     "url": "https://github.com/newrelic/newrelic-logenricher-dotnet"

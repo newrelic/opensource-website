@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Common code between versions of the NR1 Maturity nerdlets",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": null,
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 account-maturity-products",
     "url": "https://github.com/newrelic-experimental/nr1-account-maturity-products"

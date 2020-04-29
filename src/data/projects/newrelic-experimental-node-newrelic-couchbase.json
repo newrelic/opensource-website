@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Instrumentation package for New Relic Node.JS agent to monitor backend calls to Couchbase.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "node newrelic-couchbase",
     "url": "https://github.com/newrelic-experimental/node-newrelic-couchbase"

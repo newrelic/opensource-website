@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Ansible role for installing New Relic Java agent",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": null,
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "newrelic java-agent-ansible-role",
     "url": "https://github.com/newrelic/newrelic-java-agent-ansible-role"

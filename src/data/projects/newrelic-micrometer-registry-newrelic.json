@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Micrometer registry implementation that sends data to New Relic as dimensional metrics.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "Java",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "micrometer registry-newrelic",
     "url": "https://github.com/newrelic/micrometer-registry-newrelic"

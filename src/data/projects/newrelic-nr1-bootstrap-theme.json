@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "Apply New Relic styling to bootstrap for use in libraries like reactstrap.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "CSS",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 bootstrap-theme",
     "url": "https://github.com/newrelic/nr1-bootstrap-theme"

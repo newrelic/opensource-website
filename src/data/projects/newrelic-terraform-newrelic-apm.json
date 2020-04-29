@@ -13,10 +13,7 @@
   "iconUrl": "https://github.com/newrelic/terraform-newrelic-apm/blob/master/icon.png?raw=true",
   "shortDescription": "Terraform provider APM",
   "description": "Terraform module for New Relic application monitoring",
-  "ossCategory": {
-    "title": "Community Project",
-    "slug": "community-project"
-  },
+  "ossCategory": "community-project",
   "projectType": [{
     "title": "Terraform",
     "slug": "terraform"

@@ -14,12 +14,8 @@
   "shortDescription": "",
   "description": "A utility application that lets you easily explore the facets of the data from an NRQL query.",
   "ossCategory": "tbd",
-  "projectType": {
-    "title": "New Relic One App",
-    "slug": "nr1-app"
-  },
   "primaryLanguage": "JavaScript",
-  "projectTags": [],
+  "projectTags": [ "nr1-app" ],
   "website": {
     "title": "nr1 facinator",
     "url": "https://github.com/newrelic-experimental/nr1-facinator"
