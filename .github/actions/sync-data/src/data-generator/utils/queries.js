@@ -38,6 +38,18 @@ const repositoryStats = (owner, repo) => {
         tags: refs(refPrefix: "refs/tags/") {
           totalCount
         }
+        latestTag: refs(refPrefix: "refs/tags/", last: 1) {
+          nodes {
+            id
+            name
+            target {
+              ... on Commit {
+                id
+                authoredDate
+              }
+            }
+          }
+        }
         openIssues: issues(filterBy: {states: OPEN}) {
           totalCount
         }

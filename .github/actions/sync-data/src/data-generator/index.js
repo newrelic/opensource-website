@@ -12,6 +12,7 @@
 
 const path = require('path');
 const fs = require('fs');
+const _ = require('lodash');
 
 const {
   organizationRepositoryIterator,
@@ -114,12 +115,19 @@ function formatStats(project, stats) {
       }))
     : [];
 
+  const latestReleaseName = _.get(repoStats, 'latestTag.nodes[0].name', false);
+  const latestRelease = {
+    name: latestReleaseName,
+    date: _.get(repoStats, 'latestTag.nodes[0].target.authoredDate', null)
+  }
+
   return {
     projectFullName: project.fullName,
     issues: {
       open: repoStats.openIssues.totalCount
     },
     releases: repoStats.tags.totalCount,
+    latestRelease: latestReleaseName ? latestRelease : null,
     commits: repoStats.defaultBranchRef.target.history.totalCount,
     contributors: contributorCount,
     pullRequests: {
