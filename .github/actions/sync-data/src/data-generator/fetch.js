@@ -269,7 +269,7 @@ const fetchOrganizationRepositoryPage = async function ({
 };
 
 const fetchRepositoryStats = async function (owner, repo) {
-  return graphqlWithAuth(queries.repositoryStats(owner, repo));
+  return graphqlWithAuth(queries.repositoryStats(), { owner, repo });
 };
 
 const fetchContributorStats = async function (owner, repo) {

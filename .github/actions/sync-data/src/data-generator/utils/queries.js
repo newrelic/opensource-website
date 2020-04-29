@@ -26,8 +26,8 @@ const repositoryStats = (owner, repo) => {
   );
 
   return (`
-    {
-      repository(name: "${  repo  }", owner: "${  owner  }") {
+    query RepositoryStats ($owner: String!, $repo: String!) {
+      repository(name: $repo, owner: $owner) {
         id
         collaborators {
           totalCount
