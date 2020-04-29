@@ -14,13 +14,7 @@
   "shortDescription": "Terraform provider APM",
   "description": "Terraform module for New Relic application monitoring",
   "ossCategory": "community-project",
-  "projectTags": [{
-    "title": "Terraform",
-    "slug": "terraform"
-  }, {
-    "title": "Infrastructure",
-    "slug": "infrastructure"
-  }],
+  "projectTags": [ "terraform", "infrastructure" ],
   "primaryLanguage": "HCL",
   "website": {
     "title": "New Relic APM Terraform Module",
