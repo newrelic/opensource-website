@@ -46,7 +46,8 @@ const ProjectPage = ({ data }) => {
   const projectStats = get(project, 'stats', false);
   let tags = [
     get(project, 'ossCategory.title', ''),
-    get(project, 'primaryLanguage', '')
+    get(project, 'primaryLanguage', ''),
+    get(project, 'stats.latestRelease.name', '')
   ];
 
   if (project.projectTags) {

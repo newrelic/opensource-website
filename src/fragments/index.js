@@ -17,7 +17,6 @@ export const projectFields = graphql`
       commits
       cachedIssues {
         createdAt
-        # createdBy
         id
         title
         url
@@ -32,11 +31,13 @@ export const projectFields = graphql`
         htmlUrl
         id
         login
-        # name
-        # url
       }
       issues {
         open
+      }
+      latestRelease {
+        date
+        name
       }
       screenshots
     }
