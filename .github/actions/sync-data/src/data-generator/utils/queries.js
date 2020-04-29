@@ -110,6 +110,22 @@ const repositoryStats = (owner, repo) => {
         commitComments {
           totalCount
         }
+        licenseInfo {
+          id
+          name
+          spdxId
+          url
+          featured
+          key
+        }
+        licenseInfo {
+          id
+          name
+          spdxId
+          url
+          featured
+          key
+        }
         ${  screenshots  }
       }
     }

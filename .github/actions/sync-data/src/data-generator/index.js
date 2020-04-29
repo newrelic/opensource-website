@@ -138,6 +138,7 @@ function formatStats(project, stats) {
     cachedContributors,
     languages: repoStats.languages.nodes,
     screenshots: screenshots,
+    license: repoStats.licenseInfo ? { ...repoStats.licenseInfo } : null
   };
 }
 
