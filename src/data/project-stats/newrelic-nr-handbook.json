@@ -4,14 +4,22 @@
     "open": 0
   },
   "releases": 0,
-  "commits": 23,
-  "contributors": 2,
+  "latestRelease": null,
+  "commits": 28,
+  "contributors": 3,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 28544519,
+      "login": "goldenplec",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/28544519?v=4",
+      "htmlUrl": "https://github.com/goldenplec",
+      "contributions": 1
+    },
     {
       "id": 8999556,
       "login": "frank-dornberger",
@@ -24,25 +32,9 @@
       "login": "ryanv94",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/37779995?v=4",
       "htmlUrl": "https://github.com/ryanv94",
-      "contributions": 20
+      "contributions": 22
     }
   ],
-  "languages": [
-    {
-      "id": "MDg6TGFuZ3VhZ2U0MTc=",
-      "name": "HTML",
-      "color": "#e34c26"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxNDA=",
-      "name": "JavaScript",
-      "color": "#f1e05a"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
-    }
-  ],
+  "languages": [],
   "screenshots": []
 }
