@@ -26,6 +26,7 @@ const Header = ({ hasHeaderBg }) => {
     });
   };
 
+  /* eslint-disable react/button-has-type */
   return (
     <>
       <GlobalHeader hasHeaderBg={hasHeaderBg} />
@@ -58,6 +59,7 @@ const Header = ({ hasHeaderBg }) => {
       </header>
     </>
   );
+  /* eslint-enable */
 };
 
 Header.propTypes = {

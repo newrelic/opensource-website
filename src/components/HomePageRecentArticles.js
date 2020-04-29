@@ -26,8 +26,10 @@ const HomePageRecentArticles = articles => {
   );
 };
 
+/* eslint-disable react/no-unused-prop-types */
 HomePageRecentArticles.propTypes = {
   articles: PropTypes.array
 };
+/* eslint-enable */
 
 export default HomePageRecentArticles;

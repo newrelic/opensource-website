@@ -40,8 +40,10 @@ const HomePageInternalProjects = data => {
   );
 };
 
+/* eslint-disable react/no-unused-prop-types */
 HomePageInternalProjects.propTypes = {
   data: PropTypes.array
 };
+/* eslint-enable */
 
 export default HomePageInternalProjects;

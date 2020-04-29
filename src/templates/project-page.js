@@ -179,24 +179,61 @@ const ProjectPage = ({ data }) => {
             <ProjectMainContent mdx={project.mainContent.mdx.compiledMdx} />
           )}
           {!mainContent && <h2>No content found.</h2>}
-          {project.acceptsContributions && (<>
-            <h2>Contributions</h2>
-            <p>
-              {project.title} accepts contributions under the New Relic open source <a href="/code-of-conduct" target="__blank" rel="noopener noreferrer">Code of Conduct</a>.
-            </p>
-            <h3>Issues / Enhancement Requests</h3>
-            <p>
-              Issues and enhancement requests can be submitted in the <a href={project.githubUrl + '/issues'} target="__blank" rel="noopener noreferrer">Issues tab of this repository</a>. Please search for and review the existing open issues before submitting a new issue.
-            </p>
-            <h3>Code Contributions</h3>
-            <p>Code contributions are welcome. Please review our <a href={project.githubUrl + '/blob/master/CONTRIBUTING.md'} target="__blank" rel="noopener noreferrer">Contributors Guide</a> and review the <a href={project.githubUrl + '/issues'} rel="noopener noreferrer">Issues</a> list.</p>
-          </>)}
+          {project.acceptsContributions && (
+            <>
+              <h2>Contributions</h2>
+              <p>
+                {project.title} accepts contributions under the New Relic open
+                source{' '}
+                <a
+                  href="/code-of-conduct"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  Code of Conduct
+                </a>
+                .
+              </p>
+              <h3>Issues / Enhancement Requests</h3>
+              <p>
+                Issues and enhancement requests can be submitted in the{' '}
+                <a
+                  href={`${project.githubUrl}/issues`}
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  Issues tab of this repository
+                </a>
+                . Please search for and review the existing open issues before
+                submitting a new issue.
+              </p>
+              <h3>Code Contributions</h3>
+              <p>
+                Code contributions are welcome. Please review our{' '}
+                <a
+                  href={`${project.githubUrl}/blob/master/CONTRIBUTING.md`}
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  Contributors Guide
+                </a>{' '}
+                and review the{' '}
+                <a
+                  href={`${project.githubUrl}/issues`}
+                  rel="noopener noreferrer"
+                >
+                  Issues
+                </a>{' '}
+                list.
+              </p>
+            </>
+          )}
           <h3>Top Contributors</h3>
           <p>
             Thanks to these people and{' '}
             <a
-              target="contributors"
-              target="__blank" rel="noopener noreferrer"
+              target="__blank"
+              rel="noopener noreferrer"
               href={`${project.githubUrl}/graphs/contributors`}
             >
               more
@@ -215,7 +252,7 @@ const ProjectPage = ({ data }) => {
             <div className={styles.callToActionButtons}>
               <div className={styles.callToActionButtonsContainer}>
                 <a
-                  href={project.githubUrl + '/stargazers'}
+                  href={`${project.githubUrl}/stargazers`}
                   className="button button-primary"
                   target="__blank"
                   rel="noopener noreferrer"
@@ -234,22 +271,35 @@ const ProjectPage = ({ data }) => {
               {supportUrl ? (
                 <small className={styles.callToActionSupport}>
                   Need help? Go to the{' '}
-                  <a href={supportUrl} target="__blank" rel="noopener noreferrer">
+                  <a
+                    href={supportUrl}
+                    target="__blank"
+                    rel="noopener noreferrer"
+                  >
                     New Relic Explorers Hub
-                  </a>.
+                  </a>
+                  .
                 </small>
               ) : (
                 <small className={styles.callToActionSupport}>
-                  This project does <strong>not</strong> have an associated <em>topic</em>, but you may search the{' '}
-                  <a href={`https://discuss.newrelic.com/search?q=${project.title}`} target="__blank" rel="noopener noreferrer">
+                  This project does <strong>not</strong> have an associated{' '}
+                  <em>topic</em>, but you may search the{' '}
+                  <a
+                    href={`https://discuss.newrelic.com/search?q=${project.title}`}
+                    target="__blank"
+                    rel="noopener noreferrer"
+                  >
                     New Relic Explorers Hub
-                  </a>{' '}.
+                  </a>{' '}
+                  .
                 </small>
               )}
             </div>
             <div className={styles.callToActionCategorySpecification}>
               <h5 className={styles.callToActionCategory}>
-                <Link to="/categories" rel="noopener noreferrer">{project.ossCategory.title}</Link>
+                <Link to="/categories" rel="noopener noreferrer">
+                  {project.ossCategory.title}
+                </Link>
               </h5>
               <p className={styles.callToActionDescription}>
                 {project.ossCategory.description}
@@ -281,7 +331,8 @@ const ProjectPage = ({ data }) => {
                   </span>
                   <a
                     href={`${project.githubUrl}/graphs/contributors`}
-                    target="__blank" rel="noopener noreferrer"
+                    target="__blank"
+                    rel="noopener noreferrer"
                     className={styles.repoStatLabel}
                   >
                     Contributors
@@ -299,7 +350,8 @@ const ProjectPage = ({ data }) => {
                   <a
                     href={`${project.githubUrl}/releases`}
                     className={styles.repoStatLabel}
-                    target="__blank" rel="noopener noreferrer"
+                    target="__blank"
+                    rel="noopener noreferrer"
                   >
                     Releases
                   </a>
@@ -316,7 +368,8 @@ const ProjectPage = ({ data }) => {
                   <a
                     href={`${project.githubUrl}/commits`}
                     className={styles.repoStatLabel}
-                    target="__blank" rel="noopener noreferrer"
+                    target="__blank"
+                    rel="noopener noreferrer"
                   >
                     Commits
                   </a>
@@ -335,7 +388,8 @@ const ProjectPage = ({ data }) => {
                   <a
                     href={`${project.githubUrl}/pulls`}
                     className={styles.repoStatLabel}
-                    target="__blank" rel="noopener noreferrer"
+                    target="__blank"
+                    rel="noopener noreferrer"
                   >
                     Open Pull Requests
                   </a>
@@ -352,7 +406,8 @@ const ProjectPage = ({ data }) => {
                   <a
                     href={`${project.githubUrl}/issues`}
                     className={styles.repoStatLabel}
-                    target="__blank" rel="noopener noreferrer"
+                    target="__blank"
+                    rel="noopener noreferrer"
                   >
                     Open Issues
                   </a>

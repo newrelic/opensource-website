@@ -27,7 +27,8 @@ const ContributorListing = ({ contributors, project }) => {
                 <a
                   href={contributor.htmlUrl}
                   className={styles.contributorNameLink}
-                  target="__blank" rel="noopener noreferrer"
+                  target="__blank"
+                  rel="noopener noreferrer"
                 >
                   {contributor.login}
                 </a>
