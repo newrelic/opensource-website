@@ -20,14 +20,14 @@ const ExploreProjectsPage = props => {
     allProjects,
     allLanguages,
     allCategories,
-    allProjectTypes,
+    allProjectTags,
     searchEngineOptions
   } = projectData;
 
   const filterOptions = {
     allCategories: { title: 'Categories', options: allCategories },
     allLanguages: { title: 'Language', options: allLanguages },
-    allProjectTypes: { title: 'Type', options: allProjectTypes }
+    allProjectTags: { title: 'Type', options: allProjectTags }
   };
 
   const featuredProjectsToShow = 3;

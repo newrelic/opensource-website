@@ -61,10 +61,7 @@ function formatRepositories(repositories) {
         title: 'Lorem Ipsum',
         slug: 'lorem-ipsum',
       }, // TO DO
-      projectType: {
-        title: 'New Relic One App',
-        slug: 'nr1-app',
-      }, // TO DO
+      projectTags: [],
       primaryLanguage: r.language,
       tags: ['point-of-sale', 'maps', 'infrastructure'], // TO DO
       website: {

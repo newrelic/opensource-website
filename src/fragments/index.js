@@ -54,10 +54,6 @@ export const projectFields = graphql`
     }
     permalink
     primaryLanguage
-    projectType {
-      slug
-      title
-    }
     shortDescription
     supportUrl
     projectTags {
@@ -104,10 +100,6 @@ export const exploreProjectsFields = graphql`
     }
     permalink
     primaryLanguage
-    projectType {
-      slug
-      title
-    }
     shortDescription
     supportUrl
     projectTags {

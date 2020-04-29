@@ -22,8 +22,8 @@ const allProjectsQuery = `
       }
     }
     
-    allProjectTypes: allProjects {
-      group(field: projectType___title) {
+    allProjectTags: allProjects {
+      group(field: projectTags___title) {
         fieldValue
         totalCount
       }
@@ -61,7 +61,7 @@ const allProjectsQuery = `
     }
     permalink
     primaryLanguage
-    projectType {
+    projectTags {
       slug
       title
     }
@@ -131,7 +131,7 @@ const createExploreProjects = async ({ graphql, actions }) => {
     allProjects,
     allCategories,
     allLanguages,
-    allProjectTypes
+    allProjectTags
   } = allProjectsResult.data;
 
   createPage({
@@ -142,7 +142,7 @@ const createExploreProjects = async ({ graphql, actions }) => {
         allProjects: allProjects.edges.map(p => p.node),
         allLanguages: allLanguages.group,
         allCategories: allCategories.group,
-        allProjectTypes: allProjectTypes.group,
+        allProjectTags: allProjectTags.group,
         // sortBy:
         searchEngineOptions: {
           indexStrategy: 'Prefix match',
@@ -152,7 +152,6 @@ const createExploreProjects = async ({ graphql, actions }) => {
             ['fullName'],
             ['name'],
             ['description'],
-            ['projectType', 'title'],
             ['ossCategory', 'title'],
             ['website', 'title'],
             ['projectTags', 'title'],
