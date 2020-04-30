@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "absinthe schema-stitching-example",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "Absinthe Schema Stitching Example",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/absinthe-schema-stitching-example",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/absinthe-schema-stitching-example",
   "iconUrl": "https://github.com/newrelic/absinthe-schema-stitching-example/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "A set of schema stitching examples",
   "description": null,
-  "ossCategory": "tbd",
+  "ossCategory": "example-code",
   "primaryLanguage": "Elixir",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "example" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "absinthe schema-stitching-example",
+    "title": "Absinthe Schema Stitching Example",
     "url": "https://github.com/newrelic/absinthe-schema-stitching-example"
   },
   "version": "0.1.0"
