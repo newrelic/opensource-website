@@ -6,19 +6,20 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "c sdk",
+  "title": "New Relic C SDK",
   "supportUrl": "https://discuss.newrelic.com/",
   "githubUrl": "https://github.com/newrelic/c-sdk",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/c-sdk",
   "iconUrl": "https://github.com/newrelic/c-sdk/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic C SDK",
-  "ossCategory": "tbd",
+  "shortDescription": "Implement custom instrumentation",
+  "description": "C SDK for custom instrumentation",
+  "ossCategory": "community-project",
   "primaryLanguage": "C",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "agent", "sdk" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "c sdk",
+    "title": "New Relic C SDK",
     "url": "https://github.com/newrelic/c-sdk"
   },
-  "version": "0.1.0"
+  "version": "1.3.0"
 }
