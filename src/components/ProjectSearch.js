@@ -173,7 +173,9 @@ class ProjectSearch extends Component {
           if (!i.projectTags) {
             return p;
           }
-          return i.projectTags.some(t => t.title === value);
+          return i.projectTags.some(t => {
+            return t && t.title === value;
+          });
         }
 
         if (field === 'languageType') {
