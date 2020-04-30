@@ -70,7 +70,7 @@
 .call-to-action-category-specification {
   padding: 16px 18px;
   box-shadow: inset 0 0 0 3px var(--color-neutrals-100);
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 0 0;
 }
 
 .call-to-action-category {
@@ -222,4 +222,12 @@ p.call-to-action-description {
   font-weight: 600;
   position: relative;
   bottom: 1px;
+}
+
+.license-footnote {
+  padding: 4px 8px 10px;
+  background-color: var(--color-neutrals-100);
+  border-radius: 0 0 5px 5px;
+  text-align: center;
+  font-size: 12px;
 }

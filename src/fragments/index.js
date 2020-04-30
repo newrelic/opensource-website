@@ -39,6 +39,12 @@ export const projectFields = graphql`
         date
         name
       }
+      license {
+        key
+        name
+        spdxId
+        url
+      }
       screenshots
     }
     githubUrl

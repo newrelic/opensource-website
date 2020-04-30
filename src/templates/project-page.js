@@ -234,12 +234,15 @@ const ProjectPage = ({ data }) => {
                 <Link to="/categories">{project.ossCategory.title}</Link>
               </h5>
               <p className={styles.callToActionDescription}>
-                This code is a part of the New Relic One Catalog. It is
-                available for installation and configuration via the New Relic
-                One Homepage. You can install it via the Catalog launcher in New
-                Relic One.
+                {project.ossCategory.description}
               </p>
             </div>
+            {project.stats.license &&
+              project.stats.license.spdxId !== 'NOASSERTION' && (
+                <div className={styles.licenseFootnote}>
+                  <small>{project.stats.license.name}</small>
+                </div>
+              )}
           </div>
 
           {projectStats.screenshots.length > 0 && (
