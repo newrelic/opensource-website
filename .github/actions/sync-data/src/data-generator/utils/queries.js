@@ -26,8 +26,8 @@ const repositoryStats = (owner, repo) => {
   );
 
   return (`
-    {
-      repository(name: "${  repo  }", owner: "${  owner  }") {
+    query RepositoryStats ($owner: String!, $repo: String!) {
+      repository(name: $repo, owner: $owner) {
         id
         collaborators {
           totalCount
@@ -37,6 +37,18 @@ const repositoryStats = (owner, repo) => {
         }
         tags: refs(refPrefix: "refs/tags/") {
           totalCount
+        }
+        latestTag: refs(refPrefix: "refs/tags/", last: 1) {
+          nodes {
+            id
+            name
+            target {
+              ... on Commit {
+                id
+                authoredDate
+              }
+            }
+          }
         }
         openIssues: issues(filterBy: {states: OPEN}) {
           totalCount
@@ -97,6 +109,22 @@ const repositoryStats = (owner, repo) => {
         }
         commitComments {
           totalCount
+        }
+        licenseInfo {
+          id
+          name
+          spdxId
+          url
+          featured
+          key
+        }
+        licenseInfo {
+          id
+          name
+          spdxId
+          url
+          featured
+          key
         }
         ${  screenshots  }
       }

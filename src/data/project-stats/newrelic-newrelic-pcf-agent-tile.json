@@ -4,6 +4,10 @@
     "open": 3
   },
   "releases": 2,
+  "latestRelease": {
+    "name": "v1.12.18",
+    "date": "2018-08-10T08:31:22Z"
+  },
   "commits": 51,
   "contributors": 2,
   "pullRequests": {
@@ -28,5 +32,13 @@
     }
   ],
   "languages": [],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

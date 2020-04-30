@@ -4,6 +4,10 @@
     "open": 0
   },
   "releases": 1,
+  "latestRelease": {
+    "name": "v0.1.0",
+    "date": "2015-12-03T16:31:53Z"
+  },
   "commits": 252,
   "contributors": 4,
   "pullRequests": {
@@ -58,5 +62,13 @@
       "color": "#89e051"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTEz",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "http://choosealicense.com/licenses/mit/",
+    "featured": true,
+    "key": "mit"
+  }
 }

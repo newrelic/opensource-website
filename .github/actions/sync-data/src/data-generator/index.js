@@ -12,6 +12,7 @@
 
 const path = require('path');
 const fs = require('fs');
+const _ = require('lodash');
 
 const {
   organizationRepositoryIterator,
@@ -60,10 +61,7 @@ function formatRepositories(repositories) {
         title: 'Lorem Ipsum',
         slug: 'lorem-ipsum',
       }, // TO DO
-      projectType: {
-        title: 'New Relic One App',
-        slug: 'nr1-app',
-      }, // TO DO
+      projectTags: [],
       primaryLanguage: r.language,
       tags: ['point-of-sale', 'maps', 'infrastructure'], // TO DO
       website: {
@@ -114,12 +112,19 @@ function formatStats(project, stats) {
       }))
     : [];
 
+  const latestReleaseName = _.get(repoStats, 'latestTag.nodes[0].name', false);
+  const latestRelease = {
+    name: latestReleaseName,
+    date: _.get(repoStats, 'latestTag.nodes[0].target.authoredDate', null)
+  }
+
   return {
     projectFullName: project.fullName,
     issues: {
       open: repoStats.openIssues.totalCount
     },
     releases: repoStats.tags.totalCount,
+    latestRelease: latestReleaseName ? latestRelease : null,
     commits: repoStats.defaultBranchRef.target.history.totalCount,
     contributors: contributorCount,
     pullRequests: {
@@ -133,6 +138,7 @@ function formatStats(project, stats) {
     cachedContributors,
     languages: repoStats.languages.nodes,
     screenshots: screenshots,
+    license: repoStats.licenseInfo ? { ...repoStats.licenseInfo } : null
   };
 }
 

@@ -4,10 +4,14 @@
     "open": 1
   },
   "releases": 6,
+  "latestRelease": {
+    "name": "v1.0.4",
+    "date": "2020-04-20T20:19:01Z"
+  },
   "commits": 81,
   "contributors": 6,
   "pullRequests": {
-    "open": 0
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -76,5 +80,13 @@
     "https://raw.githubusercontent.com/newrelic/rusty-hog/master/screenshots/ankamali_hog.png",
     "https://raw.githubusercontent.com/newrelic/rusty-hog/master/screenshots/berkshire_hog.png",
     "https://raw.githubusercontent.com/newrelic/rusty-hog/master/screenshots/choctaw_hog.png"
-  ]
+  ],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

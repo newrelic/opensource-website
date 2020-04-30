@@ -4,6 +4,10 @@
     "open": 0
   },
   "releases": 2,
+  "latestRelease": {
+    "name": "v0.0.1",
+    "date": null
+  },
   "commits": 55,
   "contributors": 11,
   "pullRequests": {
@@ -102,5 +106,13 @@
       "color": "#701516"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTA=",
+    "name": "Other",
+    "spdxId": "NOASSERTION",
+    "url": "http://choosealicense.com/licenses/other/",
+    "featured": false,
+    "key": "other"
+  }
 }

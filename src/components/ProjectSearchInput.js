@@ -11,13 +11,13 @@ const ProjectSearchInput = ({
   filterValues,
   onFilterChange
 }) => {
-  const { allLanguages, allCategories, allProjectTypes } = filterOptions;
+  const { allLanguages, allCategories, allProjectTags } = filterOptions;
 
   const onCategoryChange = e =>
     onFilterChange({ field: 'ossCategory', value: e.target.value });
 
-  const onProjectTypeChange = e =>
-    onFilterChange({ field: 'projectType', value: e.target.value });
+  const onProjectTagChange = e =>
+    onFilterChange({ field: 'projectTag', value: e.target.value });
 
   const onLanguageTypeChange = e =>
     onFilterChange({ field: 'languageType', value: e.target.value });
@@ -53,11 +53,11 @@ const ProjectSearchInput = ({
         </select>
         <select
           className={styles.searchFilter}
-          onChange={onProjectTypeChange}
-          value={filterValues.projectType}
+          onChange={onProjectTagChange}
+          value={filterValues.projectTag}
         >
-          <option label="All Project Types" value="" />
-          {allProjectTypes.options.map(c => {
+          <option label="All Project Tags" value="" />
+          {allProjectTags.options.map(c => {
             return (
               <option
                 key={c.fieldValue}

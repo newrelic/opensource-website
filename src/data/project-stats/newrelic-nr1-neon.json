@@ -4,7 +4,11 @@
     "open": 3
   },
   "releases": 8,
-  "commits": 282,
+  "latestRelease": {
+    "name": "v0.3.2",
+    "date": "2020-04-02T01:22:40Z"
+  },
+  "commits": 286,
   "contributors": 8,
   "pullRequests": {
     "open": 0
@@ -84,7 +88,7 @@
       "login": "glitton",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/20893240?v=4",
       "htmlUrl": "https://github.com/glitton",
-      "contributions": 161
+      "contributions": 164
     }
   ],
   "languages": [
@@ -99,5 +103,13 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

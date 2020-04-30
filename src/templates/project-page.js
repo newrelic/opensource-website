@@ -46,7 +46,8 @@ const ProjectPage = ({ data }) => {
   const projectStats = get(project, 'stats', false);
   let tags = [
     get(project, 'ossCategory.title', ''),
-    get(project, 'primaryLanguage', '')
+    get(project, 'primaryLanguage', ''),
+    get(project, 'stats.latestRelease.name', '')
   ];
 
   if (project.projectTags) {
@@ -305,6 +306,12 @@ const ProjectPage = ({ data }) => {
                 {project.ossCategory.description}
               </p>
             </div>
+            {project.stats.license &&
+              project.stats.license.spdxId !== 'NOASSERTION' && (
+                <div className={styles.licenseFootnote}>
+                  <small>{project.stats.license.name}</small>
+                </div>
+              )}
           </div>
 
           {projectStats.screenshots.length > 0 && (

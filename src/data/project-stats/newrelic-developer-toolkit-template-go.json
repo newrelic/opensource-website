@@ -4,7 +4,11 @@
     "open": 0
   },
   "releases": 3,
-  "commits": 17,
+  "latestRelease": {
+    "name": "v0.2.1",
+    "date": "2020-04-10T01:28:14Z"
+  },
+  "commits": 20,
   "contributors": 1,
   "pullRequests": {
     "open": 0
@@ -17,7 +21,7 @@
       "login": "jthurman42",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
       "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 15
+      "contributions": 18
     }
   ],
   "languages": [
@@ -42,5 +46,13 @@
       "color": "#384d54"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

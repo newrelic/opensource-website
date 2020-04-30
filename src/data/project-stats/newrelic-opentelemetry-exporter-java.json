@@ -1,16 +1,38 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-java",
   "issues": {
-    "open": 6
+    "open": 8
   },
   "releases": 1,
+  "latestRelease": {
+    "name": "v0.3.0",
+    "date": "2020-04-13T19:41:14Z"
+  },
   "commits": 92,
   "contributors": 3,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2MDg0OTYwOTg=",
+      "title": "Map the Span.Kind to a New Relic attribute",
+      "url": "https://github.com/newrelic/opentelemetry-exporter-java/issues/40",
+      "createdAt": "2020-04-28T17:40:40Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jkwatson",
+        "id": "MDQ6VXNlcjg1ODczMQ==",
+        "email": "jwatson@newrelic.com",
+        "name": "John Watson"
+      },
+      "number": 40,
+      "createdBy": "John Watson"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 9435570,
@@ -51,5 +73,13 @@
       "color": "#89e051"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

@@ -1,13 +1,17 @@
 {
   "projectFullName": "newrelic/nri-flex",
   "issues": {
-    "open": 4
+    "open": 3
   },
   "releases": 19,
-  "commits": 330,
+  "latestRelease": {
+    "name": "v1.1.2",
+    "date": "2020-04-16T07:09:03Z"
+  },
+  "commits": 346,
   "contributors": 24,
   "pullRequests": {
-    "open": 2
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -104,13 +108,6 @@
       "contributions": 2
     },
     {
-      "id": 717815,
-      "login": "carlosroman",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
-      "htmlUrl": "https://github.com/carlosroman",
-      "contributions": 3
-    },
-    {
       "id": 47863580,
       "login": "cah-zack-mutchler",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/47863580?v=4",
@@ -139,6 +136,13 @@
       "contributions": 5
     },
     {
+      "id": 717815,
+      "login": "carlosroman",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
+      "htmlUrl": "https://github.com/carlosroman",
+      "contributions": 7
+    },
+    {
       "id": 30831476,
       "login": "thezackm",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/30831476?v=4",
@@ -164,7 +168,7 @@
       "login": "ardias",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
       "htmlUrl": "https://github.com/ardias",
-      "contributions": 21
+      "contributions": 25
     },
     {
       "id": 939550,
@@ -178,7 +182,7 @@
       "login": "Kav91",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 146
+      "contributions": 152
     }
   ],
   "languages": [
@@ -208,5 +212,13 @@
       "color": "#C1F12E"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

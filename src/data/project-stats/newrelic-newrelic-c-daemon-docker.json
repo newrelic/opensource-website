@@ -4,6 +4,10 @@
     "open": 0
   },
   "releases": 1,
+  "latestRelease": {
+    "name": "v1.3.0",
+    "date": null
+  },
   "commits": 5,
   "contributors": 1,
   "pullRequests": {
@@ -32,5 +36,13 @@
       "color": "#89e051"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

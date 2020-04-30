@@ -1,9 +1,13 @@
 {
   "projectFullName": "newrelic/infrastructure-agent-chef",
   "issues": {
-    "open": 6
+    "open": 7
   },
   "releases": 18,
+  "latestRelease": {
+    "name": "0.11.0",
+    "date": "2019-07-04T07:39:12Z"
+  },
   "commits": 122,
   "contributors": 11,
   "pullRequests": {
@@ -102,5 +106,13 @@
       "color": "#e34c26"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTA=",
+    "name": "Other",
+    "spdxId": "NOASSERTION",
+    "url": "http://choosealicense.com/licenses/other/",
+    "featured": false,
+    "key": "other"
+  }
 }

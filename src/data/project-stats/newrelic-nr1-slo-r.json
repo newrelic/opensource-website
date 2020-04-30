@@ -1,10 +1,14 @@
 {
   "projectFullName": "newrelic/nr1-slo-r",
   "issues": {
-    "open": 20
+    "open": 19
   },
   "releases": 18,
-  "commits": 285,
+  "latestRelease": {
+    "name": "v1.5.2",
+    "date": "2020-04-01T21:22:22Z"
+  },
+  "commits": 288,
   "contributors": 8,
   "pullRequests": {
     "open": 0
@@ -59,7 +63,7 @@
       "login": "ricegi",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/4061375?v=4",
       "htmlUrl": "https://github.com/ricegi",
-      "contributions": 55
+      "contributions": 57
     },
     {
       "id": 197140,
@@ -81,5 +85,13 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

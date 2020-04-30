@@ -4,6 +4,10 @@
     "open": 8
   },
   "releases": 4,
+  "latestRelease": {
+    "name": "v1.2.0",
+    "date": "2020-03-30T15:34:23Z"
+  },
   "commits": 99,
   "contributors": 12,
   "pullRequests": {
@@ -114,5 +118,13 @@
     "https://raw.githubusercontent.com/newrelic/nr1-cloud-optimize/master/screenshots/screenshot_01.png",
     "https://raw.githubusercontent.com/newrelic/nr1-cloud-optimize/master/screenshots/screenshot_02.png",
     "https://raw.githubusercontent.com/newrelic/nr1-cloud-optimize/master/screenshots/screenshot_03.png"
-  ]
+  ],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

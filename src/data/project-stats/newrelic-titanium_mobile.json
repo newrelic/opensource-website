@@ -4,6 +4,10 @@
     "open": 1
   },
   "releases": 74,
+  "latestRelease": {
+    "name": "pre_1_8_0_1_merge",
+    "date": "2011-11-14T18:36:13Z"
+  },
   "commits": 23926,
   "contributors": 99,
   "pullRequests": {
@@ -758,5 +762,13 @@
       "color": "#438eff"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTA=",
+    "name": "Other",
+    "spdxId": "NOASSERTION",
+    "url": "http://choosealicense.com/licenses/other/",
+    "featured": false,
+    "key": "other"
+  }
 }

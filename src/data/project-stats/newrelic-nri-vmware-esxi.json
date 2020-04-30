@@ -4,6 +4,10 @@
     "open": 2
   },
   "releases": 8,
+  "latestRelease": {
+    "name": "v1.0.1",
+    "date": "2019-01-08T16:50:42Z"
+  },
   "commits": 22,
   "contributors": 4,
   "pullRequests": {
@@ -53,5 +57,13 @@
       "color": "#00ADD8"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTA=",
+    "name": "Other",
+    "spdxId": "NOASSERTION",
+    "url": "http://choosealicense.com/licenses/other/",
+    "featured": false,
+    "key": "other"
+  }
 }

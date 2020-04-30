@@ -1,78 +1,38 @@
 {
   "projectFullName": "newrelic/newrelic-client-go",
   "issues": {
-    "open": 5
-  },
-  "releases": 27,
-  "commits": 578,
-  "contributors": 6,
-  "pullRequests": {
     "open": 4
+  },
+  "releases": 28,
+  "latestRelease": {
+    "name": "v0.22.0",
+    "date": "2020-04-23T22:40:29Z"
+  },
+  "commits": 604,
+  "pullRequests": {
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
     {
-      "id": "MDU6SXNzdWU2MDUwNDk1MzQ=",
-      "title": "Add \"grid_column_count\" to Dashboard API",
-      "url": "https://github.com/newrelic/newrelic-client-go/issues/262",
-      "createdAt": "2020-04-22T20:26:35Z",
+      "id": "MDU6SXNzdWU2MDg1NTE4NjM=",
+      "title": "alerts_events",
+      "url": "https://github.com/newrelic/newrelic-client-go/issues/276",
+      "createdAt": "2020-04-28T19:16:45Z",
       "comments": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "author": {
-        "login": "jthurman42",
-        "id": "MDQ6VXNlcjQ1NTQxOQ==",
-        "email": "jthurman@newrelic.com",
-        "name": "Jonathan Thurman"
+        "login": "jhunthrop",
+        "id": "MDQ6VXNlcjM1OTY2NTU=",
+        "email": "",
+        "name": "Justin Hunthrop"
       },
-      "number": 262,
-      "createdBy": "Jonathan Thurman"
+      "number": 276,
+      "createdBy": "Justin Hunthrop"
     }
   ],
-  "cachedContributors": [
-    {
-      "id": 723533,
-      "login": "monkeyherder",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/723533?v=4",
-      "htmlUrl": "https://github.com/monkeyherder",
-      "contributions": 3
-    },
-    {
-      "id": 25180681,
-      "login": "renovate-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
-      "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 14
-    },
-    {
-      "id": 29264964,
-      "login": "zlesnr",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/29264964?v=4",
-      "htmlUrl": "https://github.com/zlesnr",
-      "contributions": 22
-    },
-    {
-      "id": 455419,
-      "login": "jthurman42",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
-      "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 117
-    },
-    {
-      "id": 2590905,
-      "login": "sanderblue",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
-      "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 140
-    },
-    {
-      "id": 413389,
-      "login": "ctrombley",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
-      "htmlUrl": "https://github.com/ctrombley",
-      "contributions": 179
-    }
-  ],
+  "cachedContributors": [],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2U0MDM=",
@@ -90,5 +50,13 @@
       "color": "#89e051"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

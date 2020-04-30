@@ -18,7 +18,6 @@ export const projectFields = graphql`
       commits
       cachedIssues {
         createdAt
-        # createdBy
         id
         title
         url
@@ -33,11 +32,19 @@ export const projectFields = graphql`
         htmlUrl
         id
         login
-        # name
-        # url
       }
       issues {
         open
+      }
+      latestRelease {
+        date
+        name
+      }
+      license {
+        key
+        name
+        spdxId
+        url
       }
       screenshots
     }
@@ -55,10 +62,6 @@ export const projectFields = graphql`
     }
     permalink
     primaryLanguage
-    projectType {
-      slug
-      title
-    }
     shortDescription
     supportUrl
     projectTags {
@@ -105,10 +108,6 @@ export const exploreProjectsFields = graphql`
     }
     permalink
     primaryLanguage
-    projectType {
-      slug
-      title
-    }
     shortDescription
     supportUrl
     projectTags {

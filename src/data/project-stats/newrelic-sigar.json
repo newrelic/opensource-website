@@ -4,6 +4,10 @@
     "open": 0
   },
   "releases": 5,
+  "latestRelease": {
+    "name": "sigar-1.6.4",
+    "date": null
+  },
   "commits": 3023,
   "contributors": 13,
   "pullRequests": {
@@ -121,5 +125,13 @@
       "color": "#f34b7d"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

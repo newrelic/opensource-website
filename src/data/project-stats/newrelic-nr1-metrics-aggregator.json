@@ -4,7 +4,8 @@
     "open": 0
   },
   "releases": 0,
-  "commits": 6,
+  "latestRelease": null,
+  "commits": 21,
   "contributors": 2,
   "pullRequests": {
     "open": 1
@@ -24,7 +25,7 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 5
+      "contributions": 18
     }
   ],
   "languages": [
@@ -39,5 +40,13 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

@@ -4,6 +4,7 @@
     "open": 0
   },
   "releases": 0,
+  "latestRelease": null,
   "commits": 4,
   "contributors": 2,
   "pullRequests": {
@@ -41,5 +42,13 @@
   ],
   "screenshots": [
     "https://raw.githubusercontent.com/newrelic/nr1-bootstrap-theme/master/screenshots/.gitkeep"
-  ]
+  ],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

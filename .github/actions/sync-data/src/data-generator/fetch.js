@@ -269,7 +269,7 @@ const fetchOrganizationRepositoryPage = async function ({
 };
 
 const fetchRepositoryStats = async function (owner, repo) {
-  return graphqlWithAuth(queries.repositoryStats(owner, repo));
+  return graphqlWithAuth(queries.repositoryStats(), { owner, repo });
 };
 
 const fetchContributorStats = async function (owner, repo) {
@@ -310,35 +310,39 @@ const getRepoStatsByContributor = async function (owner, repo) {
 };
 
 const fetchStats = async function (owner, repo) {
-  // 1. Graphql, includes releases.totalCount, issues.totalCount, forks.totalCount, pullRequests.totalCount
-  const repoStats = await fetchRepositoryStats(owner, repo);
-  // prettyPrint(Object.keys(repoStats.repository));
-  /*
-   [
-    'id',               'collaborators',
-    'releases',         'issues',
-    'forks',            'pullRequests',
-    'pushedAt',         'milestones',
-    'mentionableUsers', 'languages',
-    'labels',           'isFork',
-    'deployments',      'commitComments'
-  ]*/
+  try {
+    // 1. Graphql, includes releases.totalCount, issues.totalCount, forks.totalCount, pullRequests.totalCount
+    const repoStats = await fetchRepositoryStats(owner, repo);
+    // prettyPrint(Object.keys(repoStats.repository));
+    /*
+    [
+      'id',               'collaborators',
+      'releases',         'issues',
+      'forks',            'pullRequests',
+      'pushedAt',         'milestones',
+      'mentionableUsers', 'languages',
+      'labels',           'isFork',
+      'deployments',      'commitComments'
+    ]*/
 
-  // 2a. Individual Contributor stats
-  const contributorStats = await getRepoStatsByContributor(owner, repo); // strips out the 'weeks' object
+    // 2a. Individual Contributor stats
+    const contributorStats = await getRepoStatsByContributor(owner, repo); // strips out the 'weeks' object
 
-  // prettyPrint(contributorStats);
+    // prettyPrint(contributorStats);
 
-  // TO DO - Find a better way than listing all contributors
-  // 2b. Number of contributors by way of listing all contributors
-  // const contributors = await octokit.repos.listContributors({
-  //   owner,
-  //   repo
-  // });
-  // prettyPrint(Object.keys(contributors));
-  // const contributorCount = contributors.data || 0;
+    // TO DO - Find a better way than listing all contributors
+    // 2b. Number of contributors by way of listing all contributors
+    // const contributors = await octokit.repos.listContributors({
+    //   owner,
+    //   repo
+    // });
+    // prettyPrint(Object.keys(contributors));
+    // const contributorCount = contributors.data || 0;
 
-  return { repoStats: repoStats.repository, contributorStats };
+    return { repoStats: repoStats.repository, contributorStats };
+  } catch (e) {
+    prettyPrintJson(e);
+  }
 };
 
 const fetchRepo = async function ({ options }) {

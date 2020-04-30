@@ -3,8 +3,12 @@
   "issues": {
     "open": 0
   },
-  "releases": 28,
-  "commits": 294,
+  "releases": 29,
+  "latestRelease": {
+    "name": "v0.2.2",
+    "date": "2020-04-29T05:15:43Z"
+  },
+  "commits": 295,
   "contributors": 12,
   "pullRequests": {
     "open": 0
@@ -94,7 +98,7 @@
       "login": "kolanos",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/17498?v=4",
       "htmlUrl": "https://github.com/kolanos",
-      "contributions": 95
+      "contributions": 96
     }
   ],
   "languages": [
@@ -114,5 +118,13 @@
       "color": "#384d54"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

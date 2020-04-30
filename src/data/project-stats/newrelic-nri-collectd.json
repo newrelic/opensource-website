@@ -4,6 +4,10 @@
     "open": 0
   },
   "releases": 2,
+  "latestRelease": {
+    "name": "2.0",
+    "date": "2020-02-12T16:56:49Z"
+  },
   "commits": 8,
   "contributors": 3,
   "pullRequests": {
@@ -46,5 +50,13 @@
       "color": "#00ADD8"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTA=",
+    "name": "Other",
+    "spdxId": "NOASSERTION",
+    "url": "http://choosealicense.com/licenses/other/",
+    "featured": false,
+    "key": "other"
+  }
 }

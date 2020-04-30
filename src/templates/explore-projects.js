@@ -20,14 +20,14 @@ const ExploreProjectsPage = props => {
     allProjects,
     allLanguages,
     allCategories,
-    allProjectTypes,
+    allProjectTags,
     searchEngineOptions
   } = projectData;
 
   const filterOptions = {
     allCategories: { title: 'Categories', options: allCategories },
     allLanguages: { title: 'Language', options: allLanguages },
-    allProjectTypes: { title: 'Type', options: allProjectTypes }
+    allProjectTags: { title: 'Type', options: allProjectTags }
   };
 
   const featuredProjectsToShow = 3;
@@ -98,8 +98,11 @@ const ExploreProjectsPage = props => {
         engine={searchEngineOptions}
         filterOptions={filterOptions}
       >
-        {({ projects, searchQuery }) => {
-          const showFeatured = searchQuery === '';
+        {({ projects, searchQuery, filterValues }) => {
+          const hasFilters = Object.values(filterValues).some(
+            x => x !== null && x !== ''
+          );
+          const showFeatured = searchQuery === '' && !hasFilters;
           const sortedProjects = orderBy(
             projects,
             p => {

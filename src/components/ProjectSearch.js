@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { get } from 'lodash';
 import * as JsSearch from 'js-search';
 
 import ProjectSearchInput from './ProjectSearchInput';
@@ -15,7 +16,7 @@ class ProjectSearch extends Component {
     indexFields: [],
     filterValues: {
       ossCategory: '',
-      projectType: '',
+      projectTag: '',
       languageType: ''
     },
     filterResults: []
@@ -164,17 +165,24 @@ class ProjectSearch extends Component {
           return false;
         }
 
-        if (field === 'ossCategory' || field === 'projectType') {
-          return i[field].title === value;
+        if (field === 'ossCategory') {
+          return get(i, `${[field]}.title`, false) === value;
+        }
+
+        if (field === 'projectTag') {
+          if (!i.projectTags) {
+            return p;
+          }
+          return i.projectTags.some(t => {
+            return t && t.title === value;
+          });
         }
 
         if (field === 'languageType') {
-          const hasLanguage = i.stats.languages.some(l => {
-            // console.log(`Comparing: ${l.name} to ${value}`);
-            return l.name === value;
-          });
-          // console.log(`${i.name} ${JSON.stringify({ hasLanguage }, null, 2)}`);
-          return hasLanguage;
+          if (!i.stats) {
+            return p;
+          }
+          return i.stats.languages.some(l => l.name === value);
         }
 
         return p;
@@ -223,7 +231,9 @@ class ProjectSearch extends Component {
               onFilterChange={this.onFilterChange}
             />
           </form>
-          <div>{children({ projects: filterResults, searchQuery })}</div>
+          <div>
+            {children({ projects: filterResults, searchQuery, filterValues })}
+          </div>
         </div>
       </div>
     );

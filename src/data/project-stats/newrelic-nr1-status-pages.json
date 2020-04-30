@@ -4,6 +4,10 @@
     "open": 5
   },
   "releases": 9,
+  "latestRelease": {
+    "name": "v0.12.2",
+    "date": "2020-03-31T20:24:10Z"
+  },
   "commits": 197,
   "contributors": 12,
   "pullRequests": {
@@ -127,5 +131,13 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }
