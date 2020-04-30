@@ -22,10 +22,9 @@ const allProjectsQuery = `
       }
     }
     
-    allProjectTags: allProjects {
-      group(field: projectTags___title) {
+    allProjectTags {
+      group(field: title) {
         fieldValue
-        totalCount
       }
     }
   }
