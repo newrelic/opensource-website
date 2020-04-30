@@ -27,6 +27,8 @@ const ContributorListing = ({ contributors, project }) => {
                 <a
                   href={contributor.htmlUrl}
                   className={styles.contributorNameLink}
+                  target="__blank"
+                  rel="noopener noreferrer"
                 >
                   {contributor.login}
                 </a>
@@ -35,6 +37,7 @@ const ContributorListing = ({ contributors, project }) => {
                 <a
                   href={`${project.githubUrl}/graphs/contributors`}
                   rel="noopener noreferrer"
+                  target="__blank"
                 >
                   {contributor.contributions} commits
                 </a>

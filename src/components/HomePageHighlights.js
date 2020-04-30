@@ -49,8 +49,10 @@ const HomePageHighlights = data => {
   );
 };
 
+/* eslint-disable react/no-unused-prop-types */
 HomePageHighlights.propTypes = {
   data: PropTypes.array
 };
+/* eslint-enable */
 
 export default HomePageHighlights;

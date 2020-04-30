@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "elixir_agent",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "Elixir Agent",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/elixir_agent",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/elixir_agent",
   "iconUrl": "https://github.com/newrelic/elixir_agent/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic's Open Source Elixir Agent",
-  "ossCategory": "tbd",
+  "shortDescription": "New Relic's Elixir Agent",
+  "description": "New Relic's Elixir Agent",
+  "ossCategory": "community-project",
   "primaryLanguage": "Elixir",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "agent" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "elixir_agent",
+    "title": "Elixir Agent",
     "url": "https://github.com/newrelic/elixir_agent"
   },
   "version": "0.1.0"

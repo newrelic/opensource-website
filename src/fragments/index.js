@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 export const projectFields = graphql`
   fragment projectFields on Projects {
     id
+    acceptsContributions
     name
     title
     fullName
