@@ -3,34 +3,18 @@
   "issues": {
     "open": 1
   },
-  "releases": 9,
+  "releases": 10,
   "latestRelease": {
-    "name": "v9.9.0",
+    "name": "v9.10.0",
     "date": null
   },
-  "commits": 26,
-  "contributors": 2,
+  "commits": 28,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
-  "cachedContributors": [
-    {
-      "id": 28364881,
-      "login": "Fahmy-Mohammed",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/28364881?v=4",
-      "htmlUrl": "https://github.com/Fahmy-Mohammed",
-      "contributions": 8
-    },
-    {
-      "id": 7244569,
-      "login": "murphpdx",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/7244569?v=4",
-      "htmlUrl": "https://github.com/murphpdx",
-      "contributions": 10
-    }
-  ],
+  "cachedContributors": [],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
@@ -43,5 +27,13 @@
       "color": "#89e051"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }
