@@ -6,18 +6,18 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "eslint plugin-newrelic",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic ESLint Plugin",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/eslint-plugin-newrelic",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/eslint-plugin-newrelic",
   "iconUrl": "https://github.com/newrelic/eslint-plugin-newrelic/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "@newrelic's opinionated set of ESLint and Prettier rules for writing Javascript",
-  "ossCategory": "tbd",
+  "shortDescription": "JS linting rules for New Relic open source repos",
+  "description": "New Relic's opinionated set of ESLint and Prettier rules for writing Javascript",
+  "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "tools" ],
   "website": {
-    "title": "eslint plugin-newrelic",
+    "title": "New Relic ESLint Plugin",
     "url": "https://github.com/newrelic/eslint-plugin-newrelic"
   },
   "version": "0.1.0"
