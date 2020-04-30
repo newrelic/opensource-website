@@ -229,23 +229,23 @@ const ProjectPage = ({ data }) => {
             </>
           )}
           <h3>Top Contributors</h3>
+          <p>
+            Thank to the following and{' '}
+            <a
+              target="__blank"
+              rel="noopener noreferrer"
+              href={`${project.githubUrl}/graphs/contributors`}
+            >
+               all contributors
+            </a>
+            .
+          </p>
           {projectStats && (
             <ContributorListing
               contributors={projectStats.cachedContributors}
               project={project}
             />
           )}
-          <p>
-            Thanks to{' '}
-            <a
-              target="__blank"
-              rel="noopener noreferrer"
-              href={`${project.githubUrl}/graphs/contributors`}
-            >
-              all the project contributors
-            </a>{' '}
-            for their work.
-          </p>
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
