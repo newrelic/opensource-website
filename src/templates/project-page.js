@@ -179,13 +179,28 @@ const ProjectPage = ({ data }) => {
           {mainContent && (
             <ProjectMainContent mdx={project.mainContent.mdx.compiledMdx} />
           )}
-          {!mainContent && <h2>No content found.</h2>}
+          {!mainContent && (
+            <>
+              <h2>Getting Started</h2>
+              <p>
+                Go to the project's{' '}
+                <Link
+                  to={project.githubUrl}
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  README
+                </Link>{' '}
+                for setup and usage details.
+              </p>
+            </>
+          )}
           {project.acceptsContributions && (
             <>
               <h2>Contributions</h2>
               <p>
-                <strong>{project.title}</strong> accepts contributions under the New Relic open
-                source{' '}
+                <strong>{project.title}</strong> accepts contributions under the
+                New Relic open source{' '}
                 <a
                   href="/code-of-conduct"
                   target="__blank"
@@ -237,7 +252,7 @@ const ProjectPage = ({ data }) => {
               rel="noopener noreferrer"
               href={`${project.githubUrl}/graphs/contributors`}
             >
-               all contributors
+              all contributors
             </a>
             .
           </p>
