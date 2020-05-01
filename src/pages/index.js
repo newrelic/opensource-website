@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import { graphql, Link } from 'gatsby';
+import { get } from 'lodash';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -16,7 +18,22 @@ import articlePlaceholderImage1 from '../images/article-placeholder-image-1.jpg'
 import articlePlaceholderImage2 from '../images/article-placeholder-image-2.jpg';
 import articlePlaceholderImage3 from '../images/article-placeholder-image-3.jpg';
 
-const IndexPage = () => {
+export const query = graphql`
+  query HomePageQuery {
+    topProjects: allProjects(
+      sort: { fields: stats___commits, order: DESC }
+      limit: 8
+    ) {
+      edges {
+        node {
+          ...projectFields
+        }
+      }
+    }
+  }
+`;
+
+const IndexPage = ({ data }) => {
   const externalProjects = [
     {
       title: 'Open Telemetry',
@@ -44,91 +61,12 @@ const IndexPage = () => {
     }
   ];
 
-  const internalProjects = [
-    {
-      name: 'nr1-kafka-agent',
-      fullName: 'newrelic/nr1-kafka-agent',
-      title: 'Kafka agent',
-      githubUrl: 'https://github.com/newrelic/nr1-workload-geoops',
-      permalink: 'https://opensource.newrelic.com/projects/nr1-workload-geoops',
-      iconUrl: genericProjectIcon,
-      shortDescription:
-        'Nulla quis tortor orci. Etiam at risus et justo dignissim.'
-    },
-    {
-      name: 'nr1-workload-geoops',
-      fullName: 'newrelic/nr1-workload-geoops',
-      title: 'Go OpenCensus exporter',
-      githubUrl: 'https://github.com/newrelic/nr1-workload-geoops',
-      permalink: 'https://opensource.newrelic.com/projects/nr1-workload-geoops',
-      iconUrl: genericProjectIcon,
-      shortDescription:
-        'Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.'
-    },
-    {
-      name: 'nr1-workload-geoops',
-      fullName: 'newrelic/nr1-workload-geoops',
-      title: 'Java Telemetry SDK',
-      githubUrl: 'https://github.com/newrelic/nr1-workload-geoops',
-      permalink: 'https://opensource.newrelic.com/projects/nr1-workload-geoops',
-      iconUrl: genericProjectIcon,
-      shortDescription:
-        'Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam.'
-    },
-    {
-      name: 'nr1-workload-geoops',
-      fullName: 'newrelic/nr1-workload-geoops',
-      title: 'New Relic CLI',
-      githubUrl: 'https://github.com/newrelic/nr1-workload-geoops',
-      permalink: 'https://opensource.newrelic.com/projects/nr1-workload-geoops',
-      iconUrl: genericProjectIcon,
-      shortDescription:
-        'Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.'
-    },
-    {
-      name: 'nr1-workload-geoops',
-      fullName: 'newrelic/nr1-workload-geoops',
-      title: 'Roku Agent',
-      githubUrl: 'https://github.com/newrelic/nr1-workload-geoops',
-      permalink: 'https://opensource.newrelic.com/projects/nr1-workload-geoops',
-      iconUrl: genericProjectIcon,
-      shortDescription:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum.'
-    },
-    {
-      name: 'nr1-workload-geoops',
-      fullName: 'newrelic/nr1-workload-geoops',
-      title: 'Browser Analyzer',
-      githubUrl: 'https://github.com/newrelic/nr1-browser-analyzer',
-      permalink: 'https://opensource.newrelic.com/projects/nr1-workload-geoops',
-      iconUrl:
-        'https://github.com/newrelic/nr1-browser-analyzer/blob/master/icon.png?raw=true',
-      shortDescription:
-        'Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo.'
-    },
-    {
-      name: 'nr1-community',
-      fullName: 'newrelic/nr1-community',
-      title: 'Community',
-      githubUrl: 'https://github.com/newrelic/nr1-community',
-      permalink: 'https://opensource.newrelic.com/projects/nr1-community',
-      iconUrl:
-        'https://github.com/newrelic/nr1-community/blob/master/demo/launchers/nr1-community-demo-launcher/icon.png?raw=true',
-      shortDescription:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.'
-    },
-    {
-      name: 'nr1-workload-geoops',
-      fullName: 'newrelic/nr1-workload-geoops',
-      title: 'Workload GeoOps',
-      githubUrl: 'https://github.com/newrelic/nr1-community',
-      permalink: 'https://opensource.newrelic.com/projects/nr1-community',
-      iconUrl:
-        'https://github.com/newrelic/nr1-workload-geoops/blob/master/icon.png?raw=true',
-      shortDescription:
-        'Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.'
-    }
-  ];
+  const internalProjects = get(data, 'topProjects.edges').map(i => i.node);
+  internalProjects.forEach((p, index) => {
+    internalProjects[index].iconUrl = genericProjectIcon;
+    internalProjects[index].shortDescription =
+      'Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.';
+  });
 
   const recentArticles = [
     {
@@ -198,6 +136,10 @@ const IndexPage = () => {
       </div>
     </Layout>
   );
+};
+
+IndexPage.propTypes = {
+  data: PropTypes.object
 };
 
 export default IndexPage;
