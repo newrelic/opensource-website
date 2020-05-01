@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "newrelic cli",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic CLI",
+  "supportUrl": "https://discuss.newrelic.com/c/build-on-new-relic/developer-toolkit",
   "githubUrl": "https://github.com/newrelic/newrelic-cli",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-cli",
   "iconUrl": "https://github.com/newrelic/newrelic-cli/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Automate workflows with New Relic",
   "description": "The New Relic Command Line Interface",
-  "ossCategory": "tbd",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "cli", "tools" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "newrelic cli",
+    "title": "New Relic CLI",
     "url": "https://github.com/newrelic/newrelic-cli"
   },
   "version": "0.1.0"

@@ -6,18 +6,18 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "fastly to-insights",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "Fastly to Insights",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/fastly-to-insights",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/fastly-to-insights",
   "iconUrl": "https://github.com/newrelic/fastly-to-insights/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Write Fastly to NRDB",
   "description": "Docker image of Fastly to Insights service",
-  "ossCategory": "tbd",
+  "ossCategory": "example-code",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "exporter" ],
   "website": {
-    "title": "fastly to-insights",
+    "title": "Fastly to Insights",
     "url": "https://github.com/newrelic/fastly-to-insights"
   },
   "version": "0.1.0"

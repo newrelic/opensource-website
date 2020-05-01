@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 workload-geoops",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "Workload GeoOps",
+  "supportUrl": "https://discuss.newrelic.com/t/workload-geoops-nerdpack/99478",
   "githubUrl": "https://github.com/newrelic/nr1-workload-geoops",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-workload-geoops",
   "iconUrl": "https://github.com/newrelic/nr1-workload-geoops/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "NR1 Nerdpack for aligning Workload data (or other Entities) in a Geographic management console. Think Point-of-Sale alignment of platform features.",
-  "ossCategory": "tbd",
+  "shortDescription": "Manage workloads across geographies",
+  "description": "New Relic One application for aligning Workload data (or other Entities) in a geographic management console. Think Point-of-Sale alignment of platform features.",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
   "projectTags": [ "nr1-app" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nr1 workload-geoops",
+    "title": "Workload GeoOps",
     "url": "https://github.com/newrelic/nr1-workload-geoops"
   },
   "version": "0.1.0"
