@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "fluentbit examples",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "Example Configurations for Fluent Bit",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/fluentbit-examples",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/fluentbit-examples",
   "iconUrl": "https://github.com/newrelic/fluentbit-examples/blob/master/icon.png?raw=true",
   "shortDescription": "",
   "description": null,
-  "ossCategory": "tbd",
+  "ossCategory": "example-code",
   "primaryLanguage": null,
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "logging" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "fluentbit examples",
+    "title": "Example Configurations for Fluent Bit",
     "url": "https://github.com/newrelic/fluentbit-examples"
   },
   "version": "0.1.0"

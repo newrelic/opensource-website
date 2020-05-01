@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "New Relic Go Agent",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Golang Agent",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/go-agent",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/go-agent",
   "iconUrl": "https://github.com/newrelic/go-agent/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic Go Agent",
+  "shortDescription": "New Relic Golang agent",
+  "description": "New Relic Golang agent",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
   "projectTags": [ "agent" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "New Relic Go Agent",
+    "title": "New Relic Golang Agent",
     "url": "https://github.com/newrelic/go-agent"
   },
   "version": "0.1.0"
