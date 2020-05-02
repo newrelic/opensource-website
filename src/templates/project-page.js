@@ -246,7 +246,7 @@ const ProjectPage = ({ data }) => {
           )}
           <h3>Top Contributors</h3>
           <p>
-            Thank to the following and{' '}
+            Thank you to the following and{' '}
             <a
               target="__blank"
               rel="noopener noreferrer"
@@ -281,7 +281,7 @@ const ProjectPage = ({ data }) => {
                   className="button button-secondary"
                   rel="noopener noreferrer"
                 >
-                  View GitHub Repo
+                  Fork GitHub Repo
                 </a>
               </div>
               {supportUrl ? (
@@ -292,22 +292,22 @@ const ProjectPage = ({ data }) => {
                     target="__blank"
                     rel="noopener noreferrer"
                   >
-                    New Relic Explorers Hub
+                    Explorers Hub
                   </a>
                   .
                 </small>
               ) : (
                 <small className={styles.callToActionSupport}>
-                  This project does <strong>not</strong> have an associated{' '}
+                  This project does not have a <strong>monitored</strong>{' '}
                   <em>topic</em>, but you may search the{' '}
                   <a
                     href={`https://discuss.newrelic.com/search?q=${project.title}`}
                     target="__blank"
                     rel="noopener noreferrer"
                   >
-                    New Relic Explorers Hub
+                    Explorers Hub
                   </a>{' '}
-                  .
+                  for help.
                 </small>
               )}
             </div>
