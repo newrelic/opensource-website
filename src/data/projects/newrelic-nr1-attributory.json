@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 attributory",
-  "supportUrl": null,
+  "title": "New Relic One Attributory",
+  "supportUrl": "https://discuss.newrelic.com/t/nr1-attributory-nerdpack/94339",
   "githubUrl": "https://github.com/newrelic/nr1-attributory",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-attributory",
   "iconUrl": "https://github.com/newrelic/nr1-attributory/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": null,
-  "ossCategory": "tbd",
+  "shortDescription": "Track and manage custom attributes",
+  "description": "Monitor, manage, and improve custom attributes",
+  "ossCategory": "community-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [  ],
+  "projectTags": [  "nr1-app"],
   "acceptsContributions": true,
   "website": {
-    "title": "nr1 attributory",
+    "title": "New Relic One Attributory",
     "url": "https://github.com/newrelic/nr1-attributory"
   },
   "version": "0.1.0"

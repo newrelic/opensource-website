@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 browser-analyzer",
-  "supportUrl": null,
+  "title": "New Relic One Browser Analyzer",
+  "supportUrl": "https://discuss.newrelic.com/t/browser-analyzer-nerdpack/82723",
   "githubUrl": "https://github.com/newrelic/nr1-browser-analyzer",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-browser-analyzer",
   "iconUrl": "https://github.com/newrelic/nr1-browser-analyzer/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Understand the impact and performance of your website.",
-  "ossCategory": "tbd",
+  "shortDescription": "Analyze New Relic Browser data",
+  "description": "Understand the impact and performance of your website",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [  ],
+  "projectTags": [ "nr1-app" ],
   "acceptsContributions": true,
   "website": {
-    "title": "nr1 browser-analyzer",
+    "title": "New Relic One Browser Analyzer",
     "url": "https://github.com/newrelic/nr1-browser-analyzer"
   },
   "version": "0.1.0"

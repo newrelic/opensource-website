@@ -6,20 +6,20 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 catalog",
+  "title": "New Relic One Catalog Process",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-catalog",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-catalog",
   "iconUrl": "https://github.com/newrelic/nr1-catalog/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic One Catalog repo of repos",
-  "ossCategory": "tbd",
-  "primaryLanguage": "TypeScript",
-  "projectTags": [  ],
+  "shortDescription": "Submit applications",
+  "description": "New Relic One Catalog application submission process",
+  "ossCategory": "community-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [ "tools", "nr1-app" ],
   "acceptsContributions": true,
   "website": {
-    "title": "nr1 catalog",
-    "url": "https://github.com/newrelic/nr1-catalog"
+    "title": "New Relic One Catalog Process",
+    "url": "https://newrelic.github.io/nr1-catalog"
   },
   "version": "0.1.0"
 }

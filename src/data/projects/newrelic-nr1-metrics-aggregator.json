@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 metrics-aggregator",
-  "supportUrl": null,
+  "title": "New Relic One Metric Aggregator",
+  "supportUrl": "https://discuss.newrelic.com/t/metric-aggregator-nerdpack/101069",
   "githubUrl": "https://github.com/newrelic/nr1-metrics-aggregator",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-metrics-aggregator",
   "iconUrl": "https://github.com/newrelic/nr1-metrics-aggregator/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "The GUI for the metrics to events features of the New Relic data platform",
-  "ossCategory": "tbd",
+  "shortDescription": "Manage metrics to events rules",
+  "description": "The interface for the metrics to events features of the New Relic data platform",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [  ],
+  "projectTags": [ "nr1-app" ],
   "acceptsContributions": true,
   "website": {
-    "title": "nr1 metrics-aggregator",
+    "title": "New Relic One Metric Aggregator",
     "url": "https://github.com/newrelic/nr1-metrics-aggregator"
   },
   "version": "0.1.0"
