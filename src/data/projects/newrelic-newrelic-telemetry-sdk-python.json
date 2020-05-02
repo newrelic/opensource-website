@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "newrelic telemetry-sdk-python",
+  "title": "New Relic Telemetry SDK (Python)",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-python",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-telemetry-sdk-python",
   "iconUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-python/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "A python library to send data to New Relic!",
-  "ossCategory": "tbd",
+  "shortDescription": "New Relic Telemetry SDK for Python",
+  "description": "Python library for sending telemetry data to New Relic",
+  "ossCategory": "community-project",
   "primaryLanguage": "Python",
-  "projectTags": [  ],
+  "projectTags": [ "opentelemetry", "sdk" ],
   "acceptsContributions": true,
   "website": {
-    "title": "newrelic telemetry-sdk-python",
+    "title": "New Relic Telemetry SDK (Python)",
     "url": "https://github.com/newrelic/newrelic-telemetry-sdk-python"
   },
   "version": "0.1.0"
