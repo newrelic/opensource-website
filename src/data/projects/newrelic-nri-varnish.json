@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nri varnish",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-varnish",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-varnish",
   "iconUrl": "https://github.com/newrelic/nri-varnish/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "New Relic Infrastructure Varnish Integration",
   "ossCategory": "tbd",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nri varnish",
     "url": "https://github.com/newrelic/nri-varnish"

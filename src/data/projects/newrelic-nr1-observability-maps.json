@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nr1 observability-maps",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-observability-maps",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-observability-maps",
   "iconUrl": "https://github.com/newrelic/nr1-observability-maps/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Create an observability map based on any of the data available in New Relic.",
   "ossCategory": "tbd",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nr1 observability-maps",
     "url": "https://github.com/newrelic/nr1-observability-maps"

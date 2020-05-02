@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nr1 container-explorer",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-container-explorer",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-container-explorer",
   "iconUrl": "https://github.com/newrelic/nr1-container-explorer/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Global visibility of the containers across your infrastructure, easily segmented by tags.",
   "ossCategory": "tbd",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nr1 container-explorer",
     "url": "https://github.com/newrelic/nr1-container-explorer"

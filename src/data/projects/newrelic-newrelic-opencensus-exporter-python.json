@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "newrelic opencensus-exporter-python",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-opencensus-exporter-python",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-opencensus-exporter-python",
   "iconUrl": "https://github.com/newrelic/newrelic-opencensus-exporter-python/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Export your OpenCensus data to New Relic!",
   "ossCategory": "tbd",
   "primaryLanguage": "Python",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "newrelic opencensus-exporter-python",
     "url": "https://github.com/newrelic/newrelic-opencensus-exporter-python"

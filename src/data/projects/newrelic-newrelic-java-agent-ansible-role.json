@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "newrelic java-agent-ansible-role",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Java Agent Ansible Role",
+  "supportUrl": "https://discuss.newrelic.com/t/ansible-role-for-new-relic-java-agent/99654",
   "githubUrl": "https://github.com/newrelic/newrelic-java-agent-ansible-role",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-java-agent-ansible-role",
   "iconUrl": "https://github.com/newrelic/newrelic-java-agent-ansible-role/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Ansible role for installing New Relic Java agent",
-  "ossCategory": "tbd",
+  "shortDescription": "Install and configure the New Relic Java Agent",
+  "description": "Ansible role for installing New Relic Java Agent",
+  "ossCategory": "community-project",
   "primaryLanguage": null,
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "tools" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "newrelic java-agent-ansible-role",
+    "title": "New Relic Java Agent Ansible Role",
     "url": "https://github.com/newrelic/newrelic-java-agent-ansible-role"
   },
   "version": "0.1.0"

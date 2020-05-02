@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nri consul",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-consul",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-consul",
   "iconUrl": "https://github.com/newrelic/nri-consul/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "New Relic Infrastructure Consul Integration",
   "ossCategory": "tbd",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nri consul",
     "url": "https://github.com/newrelic/nri-consul"

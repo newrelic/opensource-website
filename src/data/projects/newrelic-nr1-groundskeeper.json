@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nr1 groundskeeper",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-groundskeeper",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-groundskeeper",
   "iconUrl": "https://github.com/newrelic/nr1-groundskeeper/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Generate a live view of all the APM agents across your Services.",
   "ossCategory": "tbd",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nr1 groundskeeper",
     "url": "https://github.com/newrelic/nr1-groundskeeper"

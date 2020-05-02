@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "newrelic tracer-java",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-tracer-java",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-tracer-java",
   "iconUrl": "https://github.com/newrelic/newrelic-tracer-java/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Tracer Plugin for the Java SpecialAgent which provides automatic OpenTracing-based instrumentation for 3rd-party Java libraries",
   "ossCategory": "tbd",
   "primaryLanguage": "Java",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "newrelic tracer-java",
     "url": "https://github.com/newrelic/newrelic-tracer-java"

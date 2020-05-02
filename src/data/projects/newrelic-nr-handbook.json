@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nr handbook",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr-handbook",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr-handbook",
   "iconUrl": "https://github.com/newrelic/nr-handbook/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Welcome to the New Relic Handbook. This handbook is designed for you, as a New Relic Expert, to help your colleagues in onboarding with New Relic. The Handbook goes through account set-up, recommended alerts, Insights dashboards, etc... See more below, or in the Explorers Hub",
   "ossCategory": "tbd",
   "primaryLanguage": "HTML",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nr handbook",
     "url": "https://github.com/newrelic/nr-handbook"

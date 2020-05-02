@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nrjmx",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nrjmx",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nrjmx",
   "iconUrl": "https://github.com/newrelic/nrjmx/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Command line tool to connect to a JMX server and retrieve the MBeans it exposes.",
   "ossCategory": "tbd",
   "primaryLanguage": "Java",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nrjmx",
     "url": "https://github.com/newrelic/nrjmx"

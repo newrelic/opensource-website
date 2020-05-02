@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "newrelic unix-monitor",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-unix-monitor",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-unix-monitor",
   "iconUrl": "https://github.com/newrelic/newrelic-unix-monitor/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Monitoring service for Unix (AIX, Linux, Mac, Solaris) systems",
   "ossCategory": "tbd",
   "primaryLanguage": "Java",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "newrelic unix-monitor",
     "url": "https://github.com/newrelic/newrelic-unix-monitor"

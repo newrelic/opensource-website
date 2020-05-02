@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nr1 top",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-top",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-top",
   "iconUrl": "https://github.com/newrelic/nr1-top/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Display and inspect the top processes of your hosts, including CPU, I/O and memory.",
   "ossCategory": "tbd",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nr1 top",
     "url": "https://github.com/newrelic/nr1-top"

@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "openshift java-with-newrelic",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/openshift-java-with-newrelic",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/openshift-java-with-newrelic",
   "iconUrl": "https://github.com/newrelic/openshift-java-with-newrelic/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "OpenShift image with Newrelic's Java agent",
   "ossCategory": "tbd",
   "primaryLanguage": "Dockerfile",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "openshift java-with-newrelic",
     "url": "https://github.com/newrelic/openshift-java-with-newrelic"

@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "open source-tools",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/open-source-tools",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/open-source-tools",
   "iconUrl": "https://github.com/newrelic/open-source-tools/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Open source templates and tools for New Relic projects.",
   "ossCategory": "tbd",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "open source-tools",
     "url": "https://github.com/newrelic/open-source-tools"

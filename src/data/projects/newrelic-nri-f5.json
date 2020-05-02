@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nri f5",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-f5",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-f5",
   "iconUrl": "https://github.com/newrelic/nri-f5/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "New Relic Infrastructure F5 Integration",
   "ossCategory": "tbd",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nri f5",
     "url": "https://github.com/newrelic/nri-f5"

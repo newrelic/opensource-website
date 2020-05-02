@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nri redis",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-redis",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-redis",
   "iconUrl": "https://github.com/newrelic/nri-redis/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "New Relic Infrastructure Redis Integration",
   "ossCategory": "tbd",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nri redis",
     "url": "https://github.com/newrelic/nri-redis"

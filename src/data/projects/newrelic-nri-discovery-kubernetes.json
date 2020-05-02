@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nri discovery-kubernetes",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-discovery-kubernetes",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-discovery-kubernetes",
   "iconUrl": "https://github.com/newrelic/nri-discovery-kubernetes/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": null,
   "ossCategory": "tbd",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nri discovery-kubernetes",
     "url": "https://github.com/newrelic/nri-discovery-kubernetes"

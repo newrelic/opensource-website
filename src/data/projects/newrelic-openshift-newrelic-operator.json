@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "openshift newrelic-operator",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/openshift-newrelic-operator",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/openshift-newrelic-operator",
   "iconUrl": "https://github.com/newrelic/openshift-newrelic-operator/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "repo to publish a certified openshift operator",
   "ossCategory": "tbd",
   "primaryLanguage": "HCL",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "openshift newrelic-operator",
     "url": "https://github.com/newrelic/openshift-newrelic-operator"

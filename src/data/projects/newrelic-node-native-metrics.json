@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "node native-metrics",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/node-native-metrics",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/node-native-metrics",
   "iconUrl": "https://github.com/newrelic/node-native-metrics/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Optional native module for collecting low-level Node & V8 metrics",
   "ossCategory": "tbd",
   "primaryLanguage": "C++",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "node native-metrics",
     "url": "https://github.com/newrelic/node-native-metrics"

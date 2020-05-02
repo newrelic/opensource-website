@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "newrelic oss-cli",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-oss-cli",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-oss-cli",
   "iconUrl": "https://github.com/newrelic/newrelic-oss-cli/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": null,
   "ossCategory": "tbd",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "newrelic oss-cli",
     "url": "https://github.com/newrelic/newrelic-oss-cli"

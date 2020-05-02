@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "newrelic telemetry-sdk-node",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-node",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-telemetry-sdk-node",
   "iconUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-node/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": null,
   "ossCategory": "tbd",
   "primaryLanguage": "TypeScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "newrelic telemetry-sdk-node",
     "url": "https://github.com/newrelic/newrelic-telemetry-sdk-node"

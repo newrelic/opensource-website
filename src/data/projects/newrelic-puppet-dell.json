@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "puppet dell",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/puppet-dell",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/puppet-dell",
   "iconUrl": "https://github.com/newrelic/puppet-dell/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Puppet management of drac cards using racadm",
   "ossCategory": "tbd",
   "primaryLanguage": "Perl",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "puppet dell",
     "url": "https://github.com/newrelic/puppet-dell"

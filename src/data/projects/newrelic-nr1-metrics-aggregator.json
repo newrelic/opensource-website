@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nr1 metrics-aggregator",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-metrics-aggregator",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-metrics-aggregator",
   "iconUrl": "https://github.com/newrelic/nr1-metrics-aggregator/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "The GUI for the metrics to events features of the New Relic data platform",
   "ossCategory": "tbd",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nr1 metrics-aggregator",
     "url": "https://github.com/newrelic/nr1-metrics-aggregator"

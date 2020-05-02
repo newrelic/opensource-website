@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "python agent-extension",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/python-agent-extension",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/python-agent-extension",
   "iconUrl": "https://github.com/newrelic/python-agent-extension/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "This repository provides a basic skeleton for creating instrumentation packages that plug into the New Relic Python Agent.",
   "ossCategory": "tbd",
   "primaryLanguage": "Python",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "python agent-extension",
     "url": "https://github.com/newrelic/python-agent-extension"

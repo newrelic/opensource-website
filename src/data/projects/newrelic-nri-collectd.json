@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nri collectd",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-collectd",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-collectd",
   "iconUrl": "https://github.com/newrelic/nri-collectd/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "New Relic On Host Integration Plugin for collectd",
   "ossCategory": "tbd",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nri collectd",
     "url": "https://github.com/newrelic/nri-collectd"

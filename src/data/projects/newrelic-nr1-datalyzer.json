@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nr1 datalyzer",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-datalyzer",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-datalyzer",
   "iconUrl": "https://github.com/newrelic/nr1-datalyzer/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "Explore event and metric data related in a simple, fast, intuitive way.",
   "ossCategory": "tbd",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nr1 datalyzer",
     "url": "https://github.com/newrelic/nr1-datalyzer"

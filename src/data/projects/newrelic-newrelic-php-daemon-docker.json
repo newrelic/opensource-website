@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "newrelic php-daemon-docker",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-php-daemon-docker",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-php-daemon-docker",
   "iconUrl": "https://github.com/newrelic/newrelic-php-daemon-docker/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "A docker image for the New Relic PHP Daemon",
   "ossCategory": "tbd",
   "primaryLanguage": "Dockerfile",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "newrelic php-daemon-docker",
     "url": "https://github.com/newrelic/newrelic-php-daemon-docker"

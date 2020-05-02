@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "statsd infra-backend",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/statsd-infra-backend",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/statsd-infra-backend",
   "iconUrl": "https://github.com/newrelic/statsd-infra-backend/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "StatsD backend for sending metrics to New Relic Infrastructure",
   "ossCategory": "tbd",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "statsd infra-backend",
     "url": "https://github.com/newrelic/statsd-infra-backend"

@@ -7,7 +7,7 @@
     "type": "Organization"
   },
   "title": "nri postgresql",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-postgresql",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-postgresql",
   "iconUrl": "https://github.com/newrelic/nri-postgresql/blob/master/icon.png?raw=true",
@@ -15,7 +15,8 @@
   "description": "New Relic Infrastructure Postgresql Integration",
   "ossCategory": "tbd",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [  ],
+  "acceptsContributions": true,
   "website": {
     "title": "nri postgresql",
     "url": "https://github.com/newrelic/nri-postgresql"
