@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "New Relic One spring-boot-nerdlet",
+  "title": "New Relic One Spring Boot",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-spring-boot-nerdlet",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-spring-boot-nerdlet",
   "iconUrl": "https://github.com/newrelic/nr1-spring-boot-nerdlet/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Align spring boot data to your Services",
   "description": "A nerdlet for visualizing data from your spring boot apps",
-  "ossCategory": "tbd",
-  "primaryLanguage": "CSS",
-  "projectTags": [  ],
+  "ossCategory": "new-relic-experimental",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [ "nr1-app" ],
   "acceptsContributions": true,
   "website": {
-    "title": "New Relic One spring-boot-nerdlet",
+    "title": "New Relic One Spring Boot",
     "url": "https://github.com/newrelic/nr1-spring-boot-nerdlet"
   },
   "version": "0.1.0"

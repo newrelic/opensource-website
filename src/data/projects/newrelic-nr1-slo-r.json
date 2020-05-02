@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "New Relic One slo-r",
+  "title": "New Relic One SLO/R",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-slo-r",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-slo-r",
   "iconUrl": "https://github.com/newrelic/nr1-slo-r/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Define, calculate and report on service-level objective (SLO) attainment.",
-  "ossCategory": "tbd",
+  "shortDescription": "SLO's for Services",
+  "description": "Define, calculate and report on service-level objective (SLO) attainment",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [  ],
+  "projectTags": [ "nr1-app" ],
   "acceptsContributions": true,
   "website": {
-    "title": "New Relic One slo-r",
+    "title": "New Relic One SLO/R",
     "url": "https://github.com/newrelic/nr1-slo-r"
   },
   "version": "0.1.0"

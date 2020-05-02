@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nri flex",
-  "supportUrl": null,
+  "title": "New Relic Flex",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-flex",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-flex",
   "iconUrl": "https://github.com/newrelic/nri-flex/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "An application-agnostic, all-in-one New Relic integration integration",
-  "ossCategory": "tbd",
+  "shortDescription": "Application-agnostic, all-in-one New Relic integration",
+  "description": "Instrument any application that exposes metrics over a standard protocol with New Relic",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [  ],
+  "projectTags": [ "nri" ],
   "acceptsContributions": true,
   "website": {
-    "title": "nri flex",
+    "title": "New Relic Flex",
     "url": "https://github.com/newrelic/nri-flex"
   },
   "version": "0.1.0"

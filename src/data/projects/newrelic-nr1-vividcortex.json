@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "New Relic One vividcortex",
+  "title": "New Relic One VividCortex",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-vividcortex",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-vividcortex",
   "iconUrl": "https://github.com/newrelic/nr1-vividcortex/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Linking VividCortex database monitoring to New Relic Infrastructure and Applications. ",
-  "ossCategory": "tbd",
+  "shortDescription": "3rd party data in New Relic One",
+  "description": "Linking VividCortex database monitoring to New Relic Infrastructure",
+  "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": [  ],
+  "projectTags": [ "nr1-app" ],
   "acceptsContributions": true,
   "website": {
-    "title": "New Relic One vividcortex",
+    "title": "New Relic One VividCortex",
     "url": "https://github.com/newrelic/nr1-vividcortex"
   },
   "version": "0.1.0"

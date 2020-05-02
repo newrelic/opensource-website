@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nri discovery-kubernetes",
-  "supportUrl": null,
+  "title": "New Relic Kubernetes Auto-Discovery",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-discovery-kubernetes",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-discovery-kubernetes",
   "iconUrl": "https://github.com/newrelic/nri-discovery-kubernetes/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": null,
-  "ossCategory": "tbd",
+  "shortDescription": "Automatically discover containers running inside Kubernetes",
+  "description": "New Relic Infrastructure integration for auto-discovery of Kubernetes containers",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [  ],
+  "projectTags": [ "nri" ],
   "acceptsContributions": true,
   "website": {
-    "title": "nri discovery-kubernetes",
+    "title": "New Relic Kubernetes Auto-Discovery",
     "url": "https://github.com/newrelic/nri-discovery-kubernetes"
   },
   "version": "0.1.0"

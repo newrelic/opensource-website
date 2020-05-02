@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nri collectd",
-  "supportUrl": null,
+  "title": "New Relic Infrastructure Collectd Integration",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-collectd",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-collectd",
   "iconUrl": "https://github.com/newrelic/nri-collectd/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic On Host Integration Plugin for collectd",
-  "ossCategory": "tbd",
+  "shortDescription": "Monitoring for the Collectd devices",
+  "description": "Monitor and report metrics for configured CollectD devices",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [  ],
+  "projectTags": [ "nri" ],
   "acceptsContributions": true,
   "website": {
-    "title": "nri collectd",
+    "title": "New Relic Infrastructure Collectd Integration",
     "url": "https://github.com/newrelic/nri-collectd"
   },
   "version": "0.1.0"

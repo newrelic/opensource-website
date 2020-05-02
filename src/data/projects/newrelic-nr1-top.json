@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "New Relic One top",
-  "supportUrl": null,
+  "title": "New Relic One Top",
+  "supportUrl": "https://discuss.newrelic.com/t/new-relic-one-top-nerdpack/82934",
   "githubUrl": "https://github.com/newrelic/nr1-top",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-top",
   "iconUrl": "https://github.com/newrelic/nr1-top/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Display and inspect the top processes of your hosts, including CPU, I/O and memory.",
-  "ossCategory": "tbd",
+  "shortDescription": "Process inspection in Infrastructure Hosts",
+  "description": "Display and inspect the top processes of your Hosts, including CPU, I/O, and memory",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [  ],
+  "projectTags": [ "nr1-app" ],
   "acceptsContributions": true,
   "website": {
-    "title": "New Relic One top",
+    "title": "New Relic One Top",
     "url": "https://github.com/newrelic/nr1-top"
   },
   "version": "0.1.0"
