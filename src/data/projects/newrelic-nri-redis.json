@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "New Relic Infrastructure redis",
-  "supportUrl": null,
+  "title": "New Relic Infrastructure Redis Integration",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-redis",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-redis",
   "iconUrl": "https://github.com/newrelic/nri-redis/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic Infrastructure Redis Integration",
-  "ossCategory": "tbd",
+  "shortDescription": "Monitoring for Redis databases",
+  "description": "Capture critical performance metrics and inventory reported by Redis databases",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [  ],
+  "projectTags": [ "nri" ],
   "acceptsContributions": true,
   "website": {
-    "title": "New Relic Infrastructure redis",
+    "title": "New Relic Infrastructure Redis Integration",
     "url": "https://github.com/newrelic/nri-redis"
   },
   "version": "0.1.0"

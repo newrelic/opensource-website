@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "papers",
+  "title": "Papers",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/papers",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/papers",
   "iconUrl": "https://github.com/newrelic/papers/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Ruby dependency checker",
   "description": "Validates licenses of your Rails dependencies against a whitelist",
   "ossCategory": "tbd",
   "primaryLanguage": "Ruby",
-  "projectTags": [  ],
+  "projectTags": [ "tools" ],
   "acceptsContributions": true,
   "website": {
-    "title": "papers",
+    "title": "Papers",
     "url": "https://github.com/newrelic/papers"
   },
   "version": "0.1.0"

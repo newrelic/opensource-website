@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "rpm",
+  "title": "New Relic Ruby Agent",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/rpm",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/rpm",
   "iconUrl": "https://github.com/newrelic/rpm/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic RPM Ruby Agent",
-  "ossCategory": "tbd",
+  "shortDescription": "Automated instrumentation for Ruby",
+  "description": "Automatically intrument Ruby with New Relic's agent technology",
+  "ossCategory": "community-project",
   "primaryLanguage": "Ruby",
-  "projectTags": [  ],
+  "projectTags": [ "agent" ],
   "acceptsContributions": true,
   "website": {
-    "title": "rpm",
+    "title": "New Relic Ruby Agent",
     "url": "https://github.com/newrelic/rpm"
   },
   "version": "0.1.0"

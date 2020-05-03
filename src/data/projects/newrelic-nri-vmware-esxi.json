@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "New Relic Infrastructure vmware-esxi",
+  "title": "New Relic Infrastructure VMWare ESXi Integration",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-vmware-esxi",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-vmware-esxi",
   "iconUrl": "https://github.com/newrelic/nri-vmware-esxi/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic On Host Integration for VMWare ESXi Servers",
-  "ossCategory": "tbd",
+  "shortDescription": "Monitoring for VMWare ESXi",
+  "description": "Reports status and metrics for VMWare ESXi hypervisor",
+  "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Go",
-  "projectTags": [  ],
+  "projectTags": [ "nri" ],
   "acceptsContributions": true,
   "website": {
-    "title": "New Relic Infrastructure vmware-esxi",
+    "title": "New Relic Infrastructure VMWare ESXi Integration",
     "url": "https://github.com/newrelic/nri-vmware-esxi"
   },
   "version": "0.1.0"

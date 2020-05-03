@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "New Relic Infrastructure memcached",
-  "supportUrl": null,
+  "title": "New Relic Infrastructure Memcached Integration",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-memcached",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-memcached",
   "iconUrl": "https://github.com/newrelic/nri-memcached/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic Infrastructure memcached Integration",
-  "ossCategory": "tbd",
+  "shortDescription": "Report status and metrics for Memcached services",
+  "description": "Capture critical performance metrics and status by memcached services",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [  ],
+  "projectTags": [ "nri" ],
   "acceptsContributions": true,
   "website": {
-    "title": "New Relic Infrastructure memcached",
+    "title": "New Relic Infrastructure Memcached Integration",
     "url": "https://github.com/newrelic/nri-memcached"
   },
   "version": "0.1.0"

@@ -6,19 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "openshift java-with-newrelic",
+  "title": "OpenShift New Relic Java Agent",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/openshift-java-with-newrelic",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/openshift-java-with-newrelic",
   "iconUrl": "https://github.com/newrelic/openshift-java-with-newrelic/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "OpenShift image with Newrelic's Java agent",
-  "ossCategory": "tbd",
+  "shortDescription": "RedHat OpenShift Docker image",
+  "description": "RedHat OpenShift image with New Relic's Java agent",
+  "ossCategory": "example-code",
   "primaryLanguage": "Dockerfile",
-  "projectTags": [  ],
+  "projectTags": [ "tools" ],
   "acceptsContributions": true,
   "website": {
-    "title": "openshift java-with-newrelic",
+    "title": "OpenShift New Relic Java Agent",
     "url": "https://github.com/newrelic/openshift-java-with-newrelic"
   },
   "version": "0.1.0"
