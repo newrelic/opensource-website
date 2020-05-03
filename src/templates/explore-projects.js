@@ -106,7 +106,7 @@ const ExploreProjectsPage = props => {
           const sortedProjects = orderBy(
             projects,
             p => {
-              return p.stats.commits;
+              return p.stats ? p.stats.commits : 0;
             },
             'desc'
           );
