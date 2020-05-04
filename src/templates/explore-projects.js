@@ -14,7 +14,6 @@ import placeholderIcon from '../images/page-heading-icon-placeholder.jpg';
 import styles from './projects.module.scss';
 
 const ExploreProjectsPage = props => {
-  console.log(props);
   const { pageContext } = props;
   const { projectData } = pageContext;
   const {
@@ -91,8 +90,8 @@ const ExploreProjectsPage = props => {
   return (
     <Layout fullWidth>
       <PageHeading
-        title={`Explore ${allProjects.length} open source projects`}
-        subheader="Projects and products that we're developing in open source"
+        title={`Explore all ${allProjects.length} projects`}
+        subheader="Projects and products being developed in open source"
       />
       <ProjectSearch
         data={allProjects}
