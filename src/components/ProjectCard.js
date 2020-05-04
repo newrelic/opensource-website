@@ -11,7 +11,7 @@ const ProjectCard = ({ project: p }) => {
     <Link className={styles.projectContainer} key={p.id} to={link}>
       <div className={`${styles.projectPrimaryContent}`}>
         <header className={styles.projectHeader}>
-          <img src={p.icon} alt="icon for" className={styles.projectIcon} />
+          <img src={p.iconUrl} alt="icon for" className={styles.projectIcon} />
           <h5 className={styles.projectTitle}>{p.title}</h5>
         </header>
         <p className={`${styles.projectDescription}`}>
