@@ -189,6 +189,16 @@ select {
 
 .primary-content-aside {
   width: 28.57142857142857%;
+
+  & > p {
+    font-size: 13px;
+    color: var(--color-neutrals-600);
+    line-height: 21px;
+
+    strong {
+      font-weight: 600;
+    }
+  }
 }
 
 .button {
