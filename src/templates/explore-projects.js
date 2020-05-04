@@ -91,7 +91,7 @@ const ExploreProjectsPage = props => {
     <Layout fullWidth>
       <PageHeading
         title={`Explore all ${allProjects.length} projects`}
-        subheader="Projects and products that we're developing in open source"
+        subheader="Projects and products being developed in open source"
       />
       <ProjectSearch
         data={allProjects}
