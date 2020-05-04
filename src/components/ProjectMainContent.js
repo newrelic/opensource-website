@@ -15,7 +15,7 @@ const ProjectMainContent = props => {
       {/* <pre>{JSON.stringify(props, null, 2)}</pre> */}
       {props.mdx && (
         <MDXProvider components={components}>
-          <MDXRenderer>{props.mdx}</MDXRenderer>
+          <MDXRenderer project={props.project}>{props.mdx}</MDXRenderer>
         </MDXProvider>
       )}
     </>
