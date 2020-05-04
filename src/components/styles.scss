@@ -189,6 +189,16 @@ select {
 
 .primary-content-aside {
   width: 28.57142857142857%;
+
+  & > p {
+    font-size: 13px;
+    color: var(--color-neutrals-600);
+    line-height: 21px;
+
+    strong {
+      font-weight: 600;
+    }
+  }
 }
 
 .button {
@@ -253,4 +263,28 @@ select {
   text-align: right;
   -webkit-user-select: none;
   color: #606e87;
+}
+
+.responsive-video{
+  overflow: hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  border-radius: 5px;
+  box-shadow: 
+    0px 1.49432px 2.21381px rgba(15, 65, 88, 0.0253031), 
+    0px 3.59106px 5.32008px rgba(15, 65, 88, 0.0363503), 
+    0px 6.76164px 10.0172px rgba(15, 65, 88, 0.045), 
+    0px 12.0616px 17.869px rgba(15, 65, 88, 0.0536497), 
+    0px 22.5599px 33.4221px rgba(15, 65, 88, 0.0646969), 
+    0px 54px 80px rgba(15, 65, 88, 0.09),
+    0px 30px 30px -40px #011b1d65
+}
+
+.responsive-video iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }

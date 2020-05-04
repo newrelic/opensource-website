@@ -53,7 +53,7 @@
 .call-to-action-buttons-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 
   button:first-child {
     margin-right: 11px;
@@ -111,7 +111,7 @@ p.call-to-action-description {
   flex-wrap: nowrap;
   overflow-x: auto;
   position: relative;
-  padding: 1px 5px 15px 1px;
+  padding: 1px 5px 8px 1px;
   margin-bottom: -5px;
 
   list-style-type: none;
@@ -225,9 +225,14 @@ p.call-to-action-description {
 }
 
 .license-footnote {
-  padding: 4px 8px 10px;
-  background-color: var(--color-neutrals-100);
-  border-radius: 0 0 5px 5px;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: -3px;
   text-align: center;
   font-size: 12px;
+  color: var(--color-neutrals-600);
+
+  strong {
+    font-weight: 600;
+  }
 }

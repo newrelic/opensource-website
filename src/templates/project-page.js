@@ -244,24 +244,26 @@ const ProjectPage = ({ data }) => {
               </p>
             </>
           )}
-          {projectStats && (<>
-            <h3>Top Contributors</h3>
-            <p>
-              Thank you to the following and{' '}
-              <a
-                target="__blank"
-                rel="noopener noreferrer"
-                href={`${project.githubUrl}/graphs/contributors`}
-              >
-                all contributors
-              </a>
-              .
-            </p>
-            <ContributorListing
-              contributors={projectStats.cachedContributors}
-              project={project}
-            />
-          </>)}
+          {projectStats && (
+            <>
+              <h3>Top Contributors</h3>
+              <p>
+                Thank you to the following and{' '}
+                <a
+                  target="__blank"
+                  rel="noopener noreferrer"
+                  href={`${project.githubUrl}/graphs/contributors`}
+                >
+                  all contributors
+                </a>
+                .
+              </p>
+              <ContributorListing
+                contributors={projectStats.cachedContributors}
+                project={project}
+              />
+            </>
+          )}
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
@@ -284,32 +286,16 @@ const ProjectPage = ({ data }) => {
                   Fork GitHub Repo
                 </a>
               </div>
-              {supportUrl ? (
-                <small className={styles.callToActionSupport}>
-                  Need help? Go to the{' '}
-                  <a
-                    href={supportUrl}
-                    target="__blank"
-                    rel="noopener noreferrer"
-                  >
-                    Explorers Hub
-                  </a>
-                  .
-                </small>
-              ) : (
-                <small className={styles.callToActionSupport}>
-                  This project does not have a <strong>monitored</strong>{' '}
-                  <em>topic</em>, but you may search the{' '}
-                  <a
-                    href={`https://discuss.newrelic.com/search?q=${project.title}`}
-                    target="__blank"
-                    rel="noopener noreferrer"
-                  >
-                    Explorers Hub
-                  </a>{' '}
-                  for help.
-                </small>
-              )}
+              {project.stats &&
+                project.stats.license &&
+                project.stats.license.spdxId !== 'NOASSERTION' && (
+                  <div className={styles.licenseFootnote}>
+                    <small>
+                      Distributed under{' '}
+                      <strong>{project.stats.license.name}</strong>.
+                    </small>
+                  </div>
+                )}
             </div>
             <div className={styles.callToActionCategorySpecification}>
               <h5 className={styles.callToActionCategory}>
@@ -321,18 +307,43 @@ const ProjectPage = ({ data }) => {
                 {project.ossCategory.description}
               </p>
             </div>
-            {project.stats && project.stats.license &&
-              project.stats.license.spdxId !== 'NOASSERTION' && (
-                <div className={styles.licenseFootnote}>
-                  <small>{project.stats.license.name}</small>
-                </div>
-              )}
           </div>
 
-          {projectStats && projectStats.screenshots && projectStats.screenshots.length > 0 && (
+          {projectStats &&
+            projectStats.screenshots &&
+            projectStats.screenshots.length > 0 && (
+              <>
+                <h4>Screenshots</h4>
+                {renderScreenshots()}
+              </>
+            )}
+
+          {supportUrl ? (
             <>
-              <h4>Screenshots</h4>
-              {renderScreenshots()}
+              <h4>Support</h4>
+              <p>
+                Looking for help? Go to this project's thread in the{' '}
+                <a href={supportUrl} target="__blank" rel="noopener noreferrer">
+                  Explorers Hub
+                </a>
+                .
+              </p>
+            </>
+          ) : (
+            <>
+              <h4>Support</h4>
+              <p>
+                This project does not have a <strong>monitored</strong>{' '}
+                <em>topic</em>, but you may search the{' '}
+                <a
+                  href={`https://discuss.newrelic.com/search?q=${project.title}`}
+                  target="__blank"
+                  rel="noopener noreferrer"
+                >
+                  Explorers Hub
+                </a>{' '}
+                for help.
+              </p>
             </>
           )}
 
