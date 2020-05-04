@@ -43,7 +43,7 @@ const OssCategoryPage = ({ data }) => {
   const categoryList = categories.filter(cat => cat.slug !== 'tbd').map((cat, index) => {
     return (
       <>
-        {headers[index] && <img src={headers[index]} style={{ width: '90%' }}/>}
+        {headers[index] && <img src={headers[index]} style={{ width: '100%', marginTop: '30px' }}/>}
         <h1>{cat.title}</h1>
         <p>{cat.description}</p>
         {cat.requirements && <><h3>Requirements</h3>

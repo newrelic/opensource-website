@@ -90,7 +90,7 @@ const ExploreProjectsPage = props => {
   return (
     <Layout fullWidth>
       <PageHeading
-        title={`Explore all ${allProjects.length} projects`}
+        title={`Explore projects`}
         subheader="Projects and products being developed in open source"
       />
       <ProjectSearch
