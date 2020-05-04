@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nri snmp",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Infrastructure SNMP Integration",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-snmp",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-snmp",
   "iconUrl": "https://github.com/newrelic/nri-snmp/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic Infrastructure SNMP Integration",
-  "ossCategory": "tbd",
+  "shortDescription": "Monitoring data from SNMP servers",
+  "description": "Capture critical performance metrics and inventory reported by SNMP servers",
+  "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "nri", "network" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nri snmp",
+    "title": "New Relic Infrastructure SNMP Integration",
     "url": "https://github.com/newrelic/nri-snmp"
   },
   "version": "0.1.0"

@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nri couchbase",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Infrastructure Couchbase Integration",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-couchbase",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-couchbase",
   "iconUrl": "https://github.com/newrelic/nri-couchbase/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic Infrastructure Couchbase Integration",
-  "ossCategory": "tbd",
+  "shortDescription": "Monitoring for Apache Couchbase clusters",
+  "description": "Capture critical performance metrics and inventory reported by Apache Couchbase clusters",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "nri" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nri couchbase",
+    "title": "New Relic Infrastructure Couchbase Integration",
     "url": "https://github.com/newrelic/nri-couchbase"
   },
   "version": "0.1.0"

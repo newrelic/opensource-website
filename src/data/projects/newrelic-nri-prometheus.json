@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nri prometheus",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Prometheus OpenMetrics Integration",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-prometheus",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-prometheus",
   "iconUrl": "https://github.com/newrelic/nri-prometheus/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Fetch metrics in the Prometheus metrics inside or outside Kubernetes and send them to the New Relic Metrics platform.",
-  "ossCategory": "tbd",
+  "shortDescription": "Send Prometheus metrics to New Relic",
+  "description": "Fetch metrics in the Prometheus metrics inside or outside Kubernetes and send them to New Relic",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "nri", "opentelemetry" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nri prometheus",
+    "title": "New Relic Prometheus OpenMetrics Integration",
     "url": "https://github.com/newrelic/nri-prometheus"
   },
   "version": "0.1.0"

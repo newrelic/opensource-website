@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "newrelic lambda-cli",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Lambda CLI",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-lambda-cli",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-lambda-cli",
   "iconUrl": "https://github.com/newrelic/newrelic-lambda-cli/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Install New Relic Serverless on AWS Lambda",
   "description": "A CLI to install the New Relic AWS Lambda integration and layers.",
-  "ossCategory": "tbd",
+  "ossCategory": "community-project",
   "primaryLanguage": "Python",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "cli" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "newrelic lambda-cli",
+    "title": "New Relic Lambda CLI",
     "url": "https://github.com/newrelic/newrelic-lambda-cli"
   },
   "version": "0.1.0"

@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "newrelic dotnet-buildpack-tile",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Dotnet Extension Buildpack for PCF",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-dotnet-buildpack-tile",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-dotnet-buildpack-tile",
   "iconUrl": "https://github.com/newrelic/newrelic-dotnet-buildpack-tile/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "This is New Relic Dotnet Extension Buildpack repository for Cloud Foundry.",
-  "ossCategory": "tbd",
+  "shortDescription": "Pivotal Cloud Foundry buildpack",
+  "description": "Bind your Dotnet (Core and Framework) applications to New Relic Dotnet agents",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "pcf" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "newrelic dotnet-buildpack-tile",
+    "title": "New Relic Dotnet Extension Buildpack for PCF",
     "url": "https://github.com/newrelic/newrelic-dotnet-buildpack-tile"
   },
   "version": "0.1.0"

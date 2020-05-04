@@ -244,24 +244,24 @@ const ProjectPage = ({ data }) => {
               </p>
             </>
           )}
-          <h3>Top Contributors</h3>
-          <p>
-            Thank to the following and{' '}
-            <a
-              target="__blank"
-              rel="noopener noreferrer"
-              href={`${project.githubUrl}/graphs/contributors`}
-            >
-              all contributors
-            </a>
-            .
-          </p>
-          {projectStats && (
+          {projectStats && (<>
+            <h3>Top Contributors</h3>
+            <p>
+              Thank you to the following and{' '}
+              <a
+                target="__blank"
+                rel="noopener noreferrer"
+                href={`${project.githubUrl}/graphs/contributors`}
+              >
+                all contributors
+              </a>
+              .
+            </p>
             <ContributorListing
               contributors={projectStats.cachedContributors}
               project={project}
             />
-          )}
+          </>)}
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
@@ -281,7 +281,7 @@ const ProjectPage = ({ data }) => {
                   className="button button-secondary"
                   rel="noopener noreferrer"
                 >
-                  View GitHub Repo
+                  Fork GitHub Repo
                 </a>
               </div>
               {supportUrl ? (
@@ -292,22 +292,22 @@ const ProjectPage = ({ data }) => {
                     target="__blank"
                     rel="noopener noreferrer"
                   >
-                    New Relic Explorers Hub
+                    Explorers Hub
                   </a>
                   .
                 </small>
               ) : (
                 <small className={styles.callToActionSupport}>
-                  This project does <strong>not</strong> have an associated{' '}
+                  This project does not have a <strong>monitored</strong>{' '}
                   <em>topic</em>, but you may search the{' '}
                   <a
                     href={`https://discuss.newrelic.com/search?q=${project.title}`}
                     target="__blank"
                     rel="noopener noreferrer"
                   >
-                    New Relic Explorers Hub
+                    Explorers Hub
                   </a>{' '}
-                  .
+                  for help.
                 </small>
               )}
             </div>
@@ -321,7 +321,7 @@ const ProjectPage = ({ data }) => {
                 {project.ossCategory.description}
               </p>
             </div>
-            {project.stats.license &&
+            {project.stats && project.stats.license &&
               project.stats.license.spdxId !== 'NOASSERTION' && (
                 <div className={styles.licenseFootnote}>
                   <small>{project.stats.license.name}</small>
@@ -329,7 +329,7 @@ const ProjectPage = ({ data }) => {
               )}
           </div>
 
-          {projectStats.screenshots.length > 0 && (
+          {projectStats && projectStats.screenshots && projectStats.screenshots.length > 0 && (
             <>
               <h4>Screenshots</h4>
               {renderScreenshots()}

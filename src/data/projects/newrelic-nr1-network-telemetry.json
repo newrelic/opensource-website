@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 network-telemetry",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic One Network Telemetry",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-network-telemetry",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-network-telemetry",
   "iconUrl": "https://github.com/newrelic/nr1-network-telemetry/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Real time IPfix and Sflow visualization of network data passing through your system.",
-  "ossCategory": "tbd",
+  "shortDescription": "Real-time IPFix and Sflow visualizations",
+  "description": "Real time IPfix and Sflow visualization of network data",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "nr1-app", "network" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nr1 network-telemetry",
+    "title": "New Relic One Network Telemetry",
     "url": "https://github.com/newrelic/nr1-network-telemetry"
   },
   "version": "0.1.0"

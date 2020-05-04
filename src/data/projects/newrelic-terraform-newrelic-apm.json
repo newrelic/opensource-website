@@ -16,6 +16,7 @@
   "ossCategory": "community-project",
   "projectTags": [ "terraform", "infrastructure" ],
   "primaryLanguage": "HCL",
+  "acceptsContributions": true,
   "website": {
     "title": "New Relic APM Terraform Module",
     "url": "https://github.com/newrelic/terraform-newrelic-apm"

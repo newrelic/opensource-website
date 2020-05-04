@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 igor",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic One IGOR",
+  "supportUrl": "https://discuss.newrelic.com/t/nr1-igor-infrastructure-map-nerdpack/91886",
   "githubUrl": "https://github.com/newrelic/nr1-igor",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-igor",
   "iconUrl": "https://github.com/newrelic/nr1-igor/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Infrastructure data by geographies",
   "description": "Display near-real time infrastructure data geographically.",
-  "ossCategory": "tbd",
+  "ossCategory": "community-project",
   "primaryLanguage": "JavaScript",
   "projectTags": [ "nr1-app" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nr1 igor",
+    "title": "New Relic One IGOR",
     "url": "https://github.com/newrelic/nr1-igor"
   },
   "version": "0.1.0"

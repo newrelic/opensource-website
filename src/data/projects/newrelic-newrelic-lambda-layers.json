@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "newrelic lambda-layers",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Lambda Layers",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-lambda-layers",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-lambda-layers",
   "iconUrl": "https://github.com/newrelic/newrelic-lambda-layers/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Build and publish New Relic's AWS Lambda Layers",
   "description": "Source code and utilities to build and publish New Relic's public AWS Lambda layers.",
-  "ossCategory": "tbd",
+  "ossCategory": "community-project",
   "primaryLanguage": "Shell",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "lib" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "newrelic lambda-layers",
+    "title": "New Relic Lambda Layers",
     "url": "https://github.com/newrelic/newrelic-lambda-layers"
   },
   "version": "0.1.0"

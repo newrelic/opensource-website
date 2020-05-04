@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 groundskeeper",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic One Groundskeeper",
+  "supportUrl": "https://discuss.newrelic.com/t/groundskeeper-nerdpack/84168",
   "githubUrl": "https://github.com/newrelic/nr1-groundskeeper",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-groundskeeper",
   "iconUrl": "https://github.com/newrelic/nr1-groundskeeper/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Generate a live view of all the APM agents across your Services.",
-  "ossCategory": "tbd",
+  "shortDescription": "Manage New Relic Agent versions",
+  "description": "Generate a live view of all the APM agents across your Services",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
   "projectTags": [ "nr1-app" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nr1 groundskeeper",
+    "title": "New Relic One Groundskeeper",
     "url": "https://github.com/newrelic/nr1-groundskeeper"
   },
   "version": "0.1.0"

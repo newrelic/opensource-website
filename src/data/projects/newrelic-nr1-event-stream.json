@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 event-stream",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic One Event Stream",
+  "supportUrl": "https://discuss.newrelic.com/t/event-stream-nerdpack/83285",
   "githubUrl": "https://github.com/newrelic/nr1-event-stream",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-event-stream",
   "iconUrl": "https://github.com/newrelic/nr1-event-stream/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "View the latest live data stream for APM data based on Transaction and TransactionError events.",
-  "ossCategory": "tbd",
+  "shortDescription": "Tail streams of APM events",
+  "description": "View the latest live data stream for APM data based on Transaction and TransactionError events",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
   "projectTags": [ "nr1-app" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nr1 event-stream",
+    "title": "New Relic One Event Stream",
     "url": "https://github.com/newrelic/nr1-event-stream"
   },
   "version": "0.1.0"

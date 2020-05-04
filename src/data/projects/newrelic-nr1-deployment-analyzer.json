@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 deployment-analyzer",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic One Deployment Analyzer",
+  "supportUrl": "https://discuss.newrelic.com/t/deployment-analyzer-nerdpack/85686",
   "githubUrl": "https://github.com/newrelic/nr1-deployment-analyzer",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-deployment-analyzer",
   "iconUrl": "https://github.com/newrelic/nr1-deployment-analyzer/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "View application deployments across your environments from your APM deployment markers.",
-  "ossCategory": "tbd",
+  "shortDescription": "Compare deployment markers",
+  "description": "View application deployments across your environments from your APM deployment markers",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
   "projectTags": [ "nr1-app" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nr1 deployment-analyzer",
+    "title": "New Relic One Deployment Analyzer",
     "url": "https://github.com/newrelic/nr1-deployment-analyzer"
   },
   "version": "0.1.0"

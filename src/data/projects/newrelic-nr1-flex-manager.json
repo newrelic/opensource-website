@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr1 flex-manager",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic One Flex Manager",
+  "supportUrl": "https://discuss.newrelic.com/t/flex-manager-nerdpack/83346",
   "githubUrl": "https://github.com/newrelic/nr1-flex-manager",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-flex-manager",
   "iconUrl": "https://github.com/newrelic/nr1-flex-manager/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Reduce the effort to create, manage and deploy new Flex integrations.",
-  "ossCategory": "tbd",
+  "shortDescription": "Manage the Flex New Relic Infrastructure integration",
+  "description": "Reduce the effort to create, manage and deploy Flex integrations",
+  "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
   "projectTags": [ "nr1-app" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nr1 flex-manager",
+    "title": "New Relic One Flex Manager",
     "url": "https://github.com/newrelic/nr1-flex-manager"
   },
   "version": "0.1.0"

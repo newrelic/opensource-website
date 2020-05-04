@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "node newrelic-koa",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Koa (Node)",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/node-newrelic-koa",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/node-newrelic-koa",
   "iconUrl": "https://github.com/newrelic/node-newrelic-koa/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "Koa instrumentation for New Relic",
-  "ossCategory": "tbd",
+  "shortDescription": "Node Agent instumentation for Koa",
+  "description": "Koa framework instrumentation for New Relic's Node Agent",
+  "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "agent", "exporter", "lib" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "node newrelic-koa",
+    "title": "New Relic Koa (Node)",
     "url": "https://github.com/newrelic/node-newrelic-koa"
   },
   "version": "0.1.0"

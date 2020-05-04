@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "newrelic telemetry-sdk-node",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Telemetry SDK (Node)",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-node",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-telemetry-sdk-node",
   "iconUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-node/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": null,
-  "ossCategory": "tbd",
+  "shortDescription": "New Relic Telemetry SDK for JavaScript",
+  "description": "JavaScript library for sending telemetry data to New Relic",
+  "ossCategory": "community-project",
   "primaryLanguage": "TypeScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "opentelemetry", "sdk" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "newrelic telemetry-sdk-node",
+    "title": "New Relic Telemetry SDK (Node)",
     "url": "https://github.com/newrelic/newrelic-telemetry-sdk-node"
   },
   "version": "0.1.0"

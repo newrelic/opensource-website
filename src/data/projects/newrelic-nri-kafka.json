@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nri kafka",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Infrastructure Kafka Integration",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-kafka",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-kafka",
   "iconUrl": "https://github.com/newrelic/nri-kafka/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic Infrastructure Kafka Integration",
-  "ossCategory": "tbd",
+  "shortDescription": "Collect data on Brokers, Topics, Producers, and Consumer",
+  "description": "Captures critical performance metrics and inventory reported by Kafka clusters",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "nri" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nri kafka",
+    "title": "New Relic Infrastructure Kafka Integration",
     "url": "https://github.com/newrelic/nri-kafka"
   },
   "version": "0.1.0"

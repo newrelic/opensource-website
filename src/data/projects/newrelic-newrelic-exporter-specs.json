@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "newrelic exporter-specs",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Exporter Specifications",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-exporter-specs",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-exporter-specs",
   "iconUrl": "https://github.com/newrelic/newrelic-exporter-specs/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Design docs for open instrumentation exporters",
   "description": "A repository of design guidelines and implementation details for implementing exporters for open instrumentation systems",
   "ossCategory": "tbd",
-  "primaryLanguage": null,
-  "projectTags": [ "nr1-app" ],
+  "primaryLanguage": "Markdown",
+  "projectTags": [ "docs", "opentelemetry", "exporter" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "newrelic exporter-specs",
+    "title": "New Relic Exporter Specifications",
     "url": "https://github.com/newrelic/newrelic-exporter-specs"
   },
   "version": "0.1.0"

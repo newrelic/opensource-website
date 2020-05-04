@@ -6,18 +6,19 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "nr integrations-builder",
-  "supportUrl": "https://discuss.newrelic.com/",
+  "title": "New Relic Integrations Builder",
+  "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr-integrations-builder",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr-integrations-builder",
   "iconUrl": "https://github.com/newrelic/nr-integrations-builder/blob/master/icon.png?raw=true",
-  "shortDescription": "",
+  "shortDescription": "Extend the New Relic Infrastructure Agent",
   "description": "Command-line tool for scaffolding new New Relic Infrastructure integrations",
-  "ossCategory": "tbd",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [ "sdk", "nri" ],
+  "acceptsContributions": true,
   "website": {
-    "title": "nr integrations-builder",
+    "title": "New Relic Integrations Builder",
     "url": "https://github.com/newrelic/nr-integrations-builder"
   },
   "version": "0.1.0"
