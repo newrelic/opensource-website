@@ -175,7 +175,7 @@ const ProjectPage = ({ data }) => {
         hasSeparator
       />
       <div className="primary-content">
-        <main className="primary-content-main">
+        <main className={`primary-content-main ${styles.primaryContentMain}`}>
           {mainContent && (
             <ProjectMainContent mdx={project.mainContent.mdx.compiledMdx} />
           )}
