@@ -28,9 +28,12 @@ const Footer = () => {
           <Link to="/" className={styles.footerLogo}>
             New Relic Open Source
           </Link>
-          <small className={styles.footerLegal}>
-            Copyright &copy; {new Date().getFullYear()} New Relic Inc.
-          </small>
+          <div className={styles.meta}>
+            <small className={styles.footerLegal}>
+              Copyright &copy; {new Date().getFullYear()} New Relic Inc.
+            </small>
+            <small className={styles.version}>Version 0.2.4</small>
+          </div>
         </div>
         <ul className={styles.footerNavLinks}>{renderNavLinks()}</ul>
       </div>

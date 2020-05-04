@@ -36,7 +36,7 @@
     width: 1px;
     position: absolute;
     right: -0px;
-    top: 0;
+    top: 4px;
     margin-left: 15px;
     border-right: 1px dotted var(--footer-text-color);
     opacity: .36;
@@ -44,10 +44,20 @@
   }
 }
 
-.footer-legal {
-  font-size: 12px;
+.meta {
+  display: flex;
+  flex-direction: column;
   margin-left: 15px;
+  font-size: 12px;
   color: var(--footer-text-color);
+
+  small {
+    font-size: 12px;
+  }
+}
+
+.footer-legal {
+  margin-bottom: 2px;
 }
 
 .footer-nav-links {
