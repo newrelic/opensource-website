@@ -177,7 +177,7 @@ const ProjectPage = ({ data }) => {
       <div className="primary-content">
         <main className="primary-content-main">
           {mainContent && (
-            <ProjectMainContent mdx={project.mainContent.mdx.compiledMdx} />
+            <ProjectMainContent mdx={project.mainContent.mdx.compiledMdx} project={project} />
           )}
           {!mainContent && (
             <>
