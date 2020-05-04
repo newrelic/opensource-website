@@ -14,7 +14,6 @@ import placeholderIcon from '../images/page-heading-icon-placeholder.jpg';
 import styles from './projects.module.scss';
 
 const ExploreProjectsPage = props => {
-  console.log(props);
   const { pageContext } = props;
   const { projectData } = pageContext;
   const {
