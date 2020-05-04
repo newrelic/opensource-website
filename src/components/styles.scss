@@ -42,10 +42,23 @@
 /*-------------------------*/
 /*-- CSS Reset stuff --*/
 /*-------------------------*/
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   margin: 0;
   font-family: var(--primary-font-family);
   color: #464e4e;
+}
+
+#___gatsby {
+  height: 100%;
+}
+
+#gatsby-focus-wrapper {
+  height: 100%;
 }
 
 p {
@@ -109,7 +122,15 @@ select {
 
 /*-- Base styles --*/
 
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .layout-container-main {
+  flex-grow: 1;
+  width: 100%;
   max-width: 980px;
   margin: 0 auto;
 
