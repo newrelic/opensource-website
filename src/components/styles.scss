@@ -65,12 +65,19 @@ p {
   color: var(--color-neutrals-700);
   font-size: 14px;
   line-height: 23px;
+  margin: 12px 0;
 }
 
 a {
   text-decoration: none;
   color: var(--color-brand-800);
   border-bottom: 1px dotted var(--color-brand-800);
+}
+
+ul {
+  padding-left: 30px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -136,6 +143,13 @@ select {
 
   &.full-width {
     max-width: 1180px;
+  }
+
+  & > hr {
+    height: 2px;
+    margin: 36px 0;
+    background-color: var(--color-neutrals-200);
+    border: none;
   }
 }
 
@@ -206,10 +220,18 @@ select {
 
 .primary-content-main {
   width: 69.38775510204081%;
+
+  :first-child {
+    margin-top: 0;
+  }
 }
 
 .primary-content-aside {
   width: 28.57142857142857%;
+  
+  :first-child {
+    margin-top: 0;
+  }
 
   & > p {
     font-size: 13px;

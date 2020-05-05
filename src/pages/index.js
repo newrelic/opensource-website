@@ -7,7 +7,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
-import HomePageRecentArticles from '../components/HomePageRecentArticles';
+import ArticlePreviews from '../components/ArticlePreviews';
 import styles from './home-page.module.scss';
 
 import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg';
@@ -132,7 +132,7 @@ const IndexPage = ({ data }) => {
           Aenean eu leo quam. Pellentesque ornare sem lacinia quam or{' '}
           <Link to="/blog">view more articles</Link>
         </p>
-        <HomePageRecentArticles articles={recentArticles} />
+        <ArticlePreviews articles={recentArticles} />
       </div>
     </Layout>
   );

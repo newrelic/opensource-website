@@ -13,6 +13,10 @@
   &:not(.has-separator) {
     margin-top: 55px;
   }
+
+  &.blog-post-header:not(.has-separator) {
+    margin-top: 74px;
+  }
 }
   
   .page-heading-icon {
@@ -46,6 +50,12 @@
     max-width: 800px;
     color: var(--color-neutrals-900);
     font-family: var(--secondary-font-family);
+
+    .blog-post-header & {
+      font-size: 48px;
+      max-width: 700px;
+      line-height: 54px;
+    }
   }
 
   .page-subheader {
@@ -61,6 +71,10 @@
     font-size: 18px;
     line-height: 29px;
     color: var(--color-neutrals-600);
+
+    .blog-post-header & {
+      margin-top: 5px;
+    }
   }
 
   .page-heading-tag-list {
@@ -83,3 +97,8 @@
       margin-right: 0;
     }
   }
+
+.blog-meta {
+  font-family: var(--tertiary-font-family);
+  color: var(--color-neutrals-600);
+}

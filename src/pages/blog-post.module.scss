@@ -1,0 +1,91 @@
+.related-articles-header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.related-articles-section-title {
+  margin-top: 0;
+  font-family: var(--secondary-font-family);
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.related-articles-more-link {
+  font-size: 14px;
+}
+
+.related-projects-container {
+  position: sticky;
+  top: 20px;
+}
+
+.related-projects-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.related-project {
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 10px;
+  padding: 8px;
+  height: 41px;
+  align-items: center;
+  border: 1px solid var(--color-neutrals-300);
+  box-sizing: border-box;
+  box-shadow: 
+    0px 0.249053px 0.553451px rgba(0, 0, 0, 0.00562291), 
+    0px 0.598509px 1.33002px rgba(0, 0, 0, 0.00807786), 
+    0px 1.12694px 2.50431px rgba(0, 0, 0, 0.01), 
+    0px 2.01027px 4.46726px rgba(0, 0, 0, 0.0119221), 
+    0px 3.75998px 8.35552px rgba(0, 0, 0, 0.0143771), 
+    0px 9px 20px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  transition: all .075s ease-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    border: 1px solid var(--color-neutrals-400);
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.related-project-icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--color-neutrals-400);
+  border-radius: 50%;
+  flex-shrink: 0;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--color-neutrals-400);
+    background-image: url(../images/page-heading-icon-placeholder.jpg);
+    background-size: 120% 120%;
+    background-position: center center;
+  }
+}
+
+.related-project-name {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-neutrals-700);
+  font-weight: 600;
+  flex-grow: 1;
+}
+
