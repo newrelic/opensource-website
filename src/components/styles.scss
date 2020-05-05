@@ -233,8 +233,7 @@ select {
   font-weight: 600;
   border-radius: 4px;
   font-family: var(--primary-font-family);
-  transition: transform .1s var(--ease-out-quad);
-  
+  transition: all .1s var(--ease-out-quad);  
   
   &:hover {
     cursor: pointer;
@@ -243,6 +242,10 @@ select {
 
   &:active {
     transform: translateY(1px);
+  }
+
+  &:focus {
+    outline: none;
   }
 
   img {
@@ -254,6 +257,16 @@ select {
   background-color: transparent;
   box-shadow: inset 0 0 0 2px var(--color-brand-800);
   color: var(--color-brand-800);
+}
+
+.button-tertiary {
+  background-color: var(--color-neutrals-200);
+  color: var(--color-neutrals-800);
+  
+  &:hover {
+    background-color: var(--color-neutrals-300);
+    color: var(--color-neutrals-900);
+  }
 }
 
 .aside-header-item {

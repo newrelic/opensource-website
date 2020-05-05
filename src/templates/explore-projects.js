@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { Link } from 'gatsby';
@@ -14,6 +14,8 @@ import placeholderIcon from '../images/page-heading-icon-placeholder.jpg';
 import styles from './projects.module.scss';
 
 const ExploreProjectsPage = props => {
+  const [projectsToShow, setProjectsToShow] = useState(24);
+  // const [sortedProjects, setSortedProjects] = useState([]);
   const { pageContext } = props;
   const { projectData } = pageContext;
   const {
@@ -31,7 +33,6 @@ const ExploreProjectsPage = props => {
   };
 
   const featuredProjectsToShow = 3;
-  const projectsToShow = 24; // Set to 0 for all
 
   const renderFeaturedProjects = ({ projects, featuredProjectsToShow }) => {
     return projects.slice(0, featuredProjectsToShow).map(p => {
@@ -87,6 +88,24 @@ const ExploreProjectsPage = props => {
     });
   };
 
+  const renderShowAllButton = sortedProjects => {
+    if (sortedProjects.length - projectsToShow > 0 && projectsToShow !== 0) {
+      return (
+        <div className={styles.showAllButtonContainer}>
+          <button
+            className="button button-tertiary"
+            type="button"
+            onClick={() => setProjectsToShow(0)}
+          >
+            Show {sortedProjects.length - projectsToShow} more projects
+          </button>
+        </div>
+      );
+    } else {
+      return null;
+    }
+  };
+
   return (
     <Layout fullWidth>
       <PageHeading
@@ -127,6 +146,7 @@ const ExploreProjectsPage = props => {
                   showFeatured
                 })}
               </div>
+              {renderShowAllButton(sortedProjects)}
             </>
           );
         }}
