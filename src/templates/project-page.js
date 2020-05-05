@@ -299,7 +299,7 @@ const ProjectPage = ({ data }) => {
             </div>
             <div className={styles.callToActionCategorySpecification}>
               <h5 className={styles.callToActionCategory}>
-                <Link to="/categories" rel="noopener noreferrer">
+                <Link to="/oss-category" rel="noopener noreferrer">
                   {project.ossCategory.title}
                 </Link>
               </h5>
