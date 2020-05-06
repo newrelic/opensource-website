@@ -50,6 +50,9 @@
     max-width: 800px;
     color: var(--color-neutrals-900);
     font-family: var(--secondary-font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 
     .blog-post-header & {
       font-size: 48px;
