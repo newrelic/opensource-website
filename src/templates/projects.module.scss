@@ -212,3 +212,38 @@
   margin-top: 32px;
   text-align: center;
 }
+
+.search-empty-state {
+  display: flex;
+  height: 90%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 36px;
+  margin-top: 48px;
+  border-radius: 5px;
+  border: 3px dashed var(--color-neutrals-200);
+}
+
+.search-empty-state-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 16px;
+  opacity: .5;
+}
+
+.search-empty-state-title {
+  margin: 0;
+  font-size: 24px;
+}
+
+.search-empty-state-description {
+  margin: 0;
+  color: var(--color-neutrals-600);
+}
+
+.explore-projects-layout {
+  display: flex;
+  flex-direction: column;
+}

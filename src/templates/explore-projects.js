@@ -10,12 +10,12 @@ import ProjectSearch from '../components/ProjectSearch';
 import ProjectCard from '../components/ProjectCard';
 
 import placeholderIcon from '../images/page-heading-icon-placeholder.jpg';
+import searchIcon from '../images/icon-search.svg';
 
 import styles from './projects.module.scss';
 
 const ExploreProjectsPage = props => {
   const [projectsToShow, setProjectsToShow] = useState(24);
-  // const [sortedProjects, setSortedProjects] = useState([]);
   const { pageContext } = props;
   const { projectData } = pageContext;
   const {
@@ -107,9 +107,9 @@ const ExploreProjectsPage = props => {
   };
 
   return (
-    <Layout fullWidth>
+    <Layout fullWidth className={styles.exploreProjectsLayout}>
       <PageHeading
-        title={`Explore projects`}
+        title="Explore projects"
         subheader="Projects and products being developed in open source"
       />
       <ProjectSearch
@@ -132,13 +132,14 @@ const ExploreProjectsPage = props => {
 
           return (
             <>
-              <div className={styles.featuredProjects}>
-                {showFeatured &&
-                  renderFeaturedProjects({
+              {showFeatured && (
+                <div className={styles.featuredProjects}>
+                  {renderFeaturedProjects({
                     projects: sortedProjects,
                     featuredProjectsToShow
                   })}
-              </div>
+                </div>
+              )}
 
               <div className={styles.projectListingContainer}>
                 {renderProjectListing({
@@ -147,6 +148,23 @@ const ExploreProjectsPage = props => {
                 })}
               </div>
               {renderShowAllButton(sortedProjects)}
+              {sortedProjects.length === 0 && searchQuery !== '' ? (
+                <div className={styles.searchEmptyState}>
+                  <img
+                    src={searchIcon}
+                    className={styles.searchEmptyStateIcon}
+                    alt="search icon"
+                  />
+                  <h3 className={styles.searchEmptyStateTitle}>
+                    No results for <em>"{searchQuery}"</em>
+                  </h3>
+                  <p className={styles.searchEmptyStateDescription}>
+                    It seems we can’t find any results based on your search.
+                  </p>
+                </div>
+              ) : (
+                ''
+              )}
             </>
           );
         }}

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { get } from 'lodash';
 import * as JsSearch from 'js-search';
 
+import styles from './ProjectSearch.module.scss';
 import ProjectSearchInput from './ProjectSearchInput';
 
 class ProjectSearch extends Component {
@@ -220,20 +221,18 @@ class ProjectSearch extends Component {
     const { searchQuery, filterValues, filterResults } = this.state;
     const { filterOptions, children } = this.props;
     return (
-      <div>
-        <div style={{ margin: '0 auto' }}>
-          <form onSubmit={this.handleSubmit}>
-            <ProjectSearchInput
-              searchQueryValue={searchQuery}
-              onSearchQueryChange={this.searchData}
-              filterOptions={filterOptions}
-              filterValues={filterValues}
-              onFilterChange={this.onFilterChange}
-            />
-          </form>
-          <div>
-            {children({ projects: filterResults, searchQuery, filterValues })}
-          </div>
+      <div className={styles.searchContainer}>
+        <form onSubmit={this.handleSubmit}>
+          <ProjectSearchInput
+            searchQueryValue={searchQuery}
+            onSearchQueryChange={this.searchData}
+            filterOptions={filterOptions}
+            filterValues={filterValues}
+            onFilterChange={this.onFilterChange}
+          />
+        </form>
+        <div className={styles.searchChildrenContainer}>
+          {children({ projects: filterResults, searchQuery, filterValues })}
         </div>
       </div>
     );
