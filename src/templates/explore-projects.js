@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { Link } from 'gatsby';
+import { Location } from '@reach/router';
 import { orderBy } from 'lodash';
 
 import Layout from '../components/layout';
@@ -112,63 +113,68 @@ const ExploreProjectsPage = props => {
         title="Explore projects"
         subheader="Projects and products being developed in open source"
       />
-      <ProjectSearch
-        data={allProjects}
-        engine={searchEngineOptions}
-        filterOptions={filterOptions}
-      >
-        {({ projects, searchQuery, filterValues }) => {
-          const hasFilters = Object.values(filterValues).some(
-            x => x !== null && x !== ''
-          );
-          const showFeatured = searchQuery === '' && !hasFilters;
-          const sortedProjects = orderBy(
-            projects,
-            p => {
-              return p.stats ? p.stats.commits : 0;
-            },
-            'desc'
-          );
-
+      <Location>
+        {({ location }) => {
           return (
-            <>
-              {showFeatured && (
-                <div className={styles.featuredProjects}>
-                  {renderFeaturedProjects({
-                    projects: sortedProjects,
-                    featuredProjectsToShow
-                  })}
-                </div>
-              )}
+            <ProjectSearch
+              location={location}
+              data={allProjects}
+              engine={searchEngineOptions}
+              filterOptions={filterOptions}
+            >
+              {({ projects, searchQuery }) => {
+                const showFeatured = true;
+                const sortedProjects = orderBy(
+                  projects,
+                  p => {
+                    return p.stats ? p.stats.commits : 0;
+                  },
+                  'desc'
+                );
 
-              <div className={styles.projectListingContainer}>
-                {renderProjectListing({
-                  projects: sortedProjects,
-                  showFeatured
-                })}
-              </div>
-              {renderShowAllButton(sortedProjects)}
-              {sortedProjects.length === 0 && searchQuery !== '' ? (
-                <div className={styles.searchEmptyState}>
-                  <img
-                    src={searchIcon}
-                    className={styles.searchEmptyStateIcon}
-                    alt="search icon"
-                  />
-                  <h3 className={styles.searchEmptyStateTitle}>
-                    No results for <em>"{searchQuery}"</em>
-                  </h3>
-                  <p className={styles.searchEmptyStateDescription}>
-                    It seems we can’t find any results based on your search.
-                  </p>
-                </div>
-              ) : (
-                ''
-              )}
-            </>
+                return (
+                  <>
+                    {showFeatured && (
+                      <div className={styles.featuredProjects}>
+                        {renderFeaturedProjects({
+                          projects: sortedProjects,
+                          featuredProjectsToShow
+                        })}
+                      </div>
+                    )}
+
+                    <div className={styles.projectListingContainer}>
+                      {renderProjectListing({
+                        projects: sortedProjects,
+                        showFeatured
+                      })}
+                    </div>
+
+                    {renderShowAllButton(sortedProjects)}
+
+                    {sortedProjects.length === 0 && searchQuery !== '' ? (
+                      <div className={styles.searchEmptyState}>
+                        <img
+                          src={searchIcon}
+                          className={styles.searchEmptyStateIcon}
+                          alt="search icon"
+                        />
+                        <h3 className={styles.searchEmptyStateTitle}>
+                          No results for <em>"{searchQuery}"</em>
+                        </h3>
+                        <p className={styles.searchEmptyStateDescription}>
+                          It seems we can’t find any results based on your
+                          search.
+                        </p>
+                      </div>
+                    ) : null}
+                  </>
+                );
+              }}
+            </ProjectSearch>
           );
         }}
-      </ProjectSearch>
+      </Location>
     </Layout>
   );
 };
