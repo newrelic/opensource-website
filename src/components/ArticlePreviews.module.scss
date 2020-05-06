@@ -85,5 +85,20 @@
     line-height: 19px;
     color: var(--color-neutrals-600);
   }
+}
 
+.hero {
+  margin-top: 75px;
+  margin-bottom: 100px;
+
+  &:before {
+    position: absolute;
+    left: 0;
+    content: "";
+    height: 375px;
+    background-color: var(--color-neutrals-100);
+    width: 100%;
+    transform: skewY(-1.5deg) translateY(-40px);
+    z-index: -1;
+  }
 }

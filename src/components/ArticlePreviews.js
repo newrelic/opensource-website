@@ -4,12 +4,12 @@ import { Link } from 'gatsby';
 
 import styles from './ArticlePreviews.module.scss';
 
-const ArticlePreviews = ({ articles, size }) => {
+const ArticlePreviews = ({ articles, size, hero }) => {
   return (
     <div
       className={`${styles.articlePreviews} ${
         size === 'small' ? styles.smallArticlePreviews : ''
-      }`}
+      } ${hero ? styles.hero : ''}`}
     >
       {articles.map(article => {
         return (
@@ -33,7 +33,8 @@ const ArticlePreviews = ({ articles, size }) => {
 /* eslint-disable react/no-unused-prop-types */
 ArticlePreviews.propTypes = {
   articles: PropTypes.array,
-  size: PropTypes.string
+  size: PropTypes.string,
+  hero: PropTypes.bool
 };
 /* eslint-enable */
 
