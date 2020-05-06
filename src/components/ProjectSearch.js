@@ -222,7 +222,7 @@ class ProjectSearch extends Component {
     const { filterOptions, children } = this.props;
     return (
       <div className={styles.searchContainer}>
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} className={styles.searchFrom}>
           <ProjectSearchInput
             searchQueryValue={searchQuery}
             onSearchQueryChange={this.searchData}
