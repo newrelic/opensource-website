@@ -165,7 +165,7 @@ const ProjectPage = ({ data }) => {
   };
 
   return (
-    <Layout hasHeaderBg>
+    <Layout hasHeaderBg className={styles.projectPageLayout}>
       <SEO title="A single project page" />
       <PageHeading
         title={project.title}
@@ -177,7 +177,10 @@ const ProjectPage = ({ data }) => {
       <div className="primary-content">
         <main className={`primary-content-main ${styles.primaryContentMain}`}>
           {mainContent && (
-            <ProjectMainContent mdx={project.mainContent.mdx.compiledMdx} project={project} />
+            <ProjectMainContent
+              mdx={project.mainContent.mdx.compiledMdx}
+              project={project}
+            />
           )}
           {!mainContent && (
             <>

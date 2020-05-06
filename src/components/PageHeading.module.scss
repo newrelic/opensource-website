@@ -9,6 +9,10 @@
   &.has-separator {
     border-bottom: 2px dotted var(--color-neutrals-200);
   }
+  
+  &.has-separator-without-icon {
+    margin-top: 50px;
+  }
 
   &:not(.has-separator) {
     margin-top: 55px;

@@ -12,6 +12,7 @@ import example from '../images/categories/Example_Code.png';
 import experimental from '../images/categories/Experimental.png';
 import product from '../images/categories/New_Relic_One_Catalog_Project.png';
 import archived from '../images/categories/Archived.png';
+import styles from './oss-category.module.scss';
 
 export const query = graphql`
   query OssCategory {
@@ -27,32 +28,55 @@ export const query = graphql`
   }
 `;
 
-const headers = [community, nr1catalog, example, experimental, product, archived]
+const headers = [
+  community,
+  nr1catalog,
+  example,
+  experimental,
+  product,
+  archived
+];
 
 const OssCategoryPage = ({ data }) => {
   const categories = get(data, 'allOssCategory.nodes', false);
 
-  const categoryNavList = categories.filter(cat => cat.slug !== 'tbd').map(cat => {
-    return (
-      <>
-        <h3>{cat.title}</h3>
-      </>
-    );
-  });
+  const categoryNavList = categories
+    .filter(cat => cat.slug !== 'tbd')
+    .map(cat => {
+      return (
+        <li key={cat.slug} className={styles.categorySidebarItem}>
+          <a href={`#${cat.slug}`} className={styles.categorySidebarItemLink}>
+            {cat.title}
+          </a>
+        </li>
+      );
+    });
 
-  const categoryList = categories.filter(cat => cat.slug !== 'tbd').map((cat, index) => {
-    return (
-      <>
-        {headers[index] && <img src={headers[index]} style={{ width: '100%', marginTop: '30px' }}/>}
-        <h1>{cat.title}</h1>
-        <p>{cat.description}</p>
-        {cat.requirements && <><h3>Requirements</h3>
-        <ul>
-          {cat.requirements.map(req => <li>{req}</li>)}
-        </ul></>}
-      </>
-    );
-  });
+  const categoryList = categories
+    .filter(cat => cat.slug !== 'tbd')
+    .map((cat, index) => {
+      return (
+        <>
+          <h2 className={styles.categoryTitle} id={cat.slug}>
+            {cat.title}
+          </h2>
+          <p>{cat.description}</p>
+          {headers[index] && (
+            <img className={styles.categoryImage} src={headers[index]} />
+          )}
+          {cat.requirements && (
+            <>
+              <h3>Requirements</h3>
+              <ul>
+                {cat.requirements.map(req => (
+                  <li>{req}</li>
+                ))}
+              </ul>
+            </>
+          )}
+        </>
+      );
+    });
 
   return (
     <Layout hasHeaderBg>
@@ -63,9 +87,11 @@ const OssCategoryPage = ({ data }) => {
         hasSeparator
       />
       <div className="primary-content">
-        <aside className="primary-content-aside">
-          <h2>Categories</h2>
-          {categoryNavList}
+        <aside className={`primary-content-aside ${styles.aside}`}>
+          <div className={styles.categoriesNavigation}>
+            <h4>Categories</h4>
+            <ul className={styles.categorySidebarList}>{categoryNavList}</ul>
+          </div>
         </aside>
         <main className="primary-content-main">{categoryList}</main>
       </div>

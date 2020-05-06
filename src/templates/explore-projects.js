@@ -107,7 +107,7 @@ const ExploreProjectsPage = props => {
   };
 
   return (
-    <Layout fullWidth className={styles.exploreProjectsLayout}>
+    <Layout fullWidth mainClassName={styles.exploreProjectsLayout}>
       <PageHeading
         title="Explore projects"
         subheader="Projects and products being developed in open source"

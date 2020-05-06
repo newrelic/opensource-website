@@ -20,7 +20,9 @@ const PageHeading = props => {
     <div
       className={`${styles.pageHeadingContainer} ${
         props.hasSeparator ? styles.hasSeparator : ''
-      } ${props.blogMeta ? styles.blogPostHeader : ''}`}
+      } ${props.blogMeta ? styles.blogPostHeader : ''} ${
+        !props.icon && props.hasSeparator ? styles.hasSeparatorWithoutIcon : ''
+      }`}
     >
       {props.icon ? (
         <div className={styles.pageHeadingIconContainer}>
