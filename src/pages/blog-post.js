@@ -42,6 +42,13 @@ const BlogPost = () => {
       />
       <div className="primary-content">
         <main className={`primary-content-main ${styles.primaryContentMain}`}>
+          <p className={styles.leadParagraph}>
+            Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula
+            porta felis euismod semper. Morbi leo risus, porta ac consectetur
+            ac, vestibulum at eros. Donec id elit non mi porta gravida at eget
+            metus. Curabitur blandit tempus porttitor.
+          </p>
+          <img src="https://picsum.photos/1000/500" alt="" />
           <p>
             Donec sed odio dui. Donec sed odio dui. Cras justo odio, dapibus ac
             facilisis in, egestas eget quam. Duis mollis, est non commodo
