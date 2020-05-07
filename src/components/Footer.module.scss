@@ -50,6 +50,8 @@
   flex-direction: column;
   margin-left: 15px;
   font-size: 12px;
+  justify-content: center;
+  align-items: center;
   color: var(--footer-text-color);
 
   small {
@@ -84,6 +86,33 @@
   &:hover {
     color: #fff;
   }
+}
+
+.edit-button {
+  display: flex;
+  margin-left: 15px;
+  padding: 4px 7px;
+  position: relative; 
+  top: 1px;
+  font-size: 12px;
+  border: 1px solid var(--footer-text-color);
+  border-radius: 2px;
+  color: var(--footer-text-color);
+  opacity: .8;
+  transition: all .1s var(--ease-out-quad);
+
+  &:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.edit-button-icon {
+  margin-right: 5px;
 }
 
 @media screen and (max-width: 1240px) {

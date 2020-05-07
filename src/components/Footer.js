@@ -3,6 +3,7 @@ import React from 'react';
 import navLinks from '../data/navigation.json';
 
 import styles from './Footer.module.scss';
+import editIcon from '../images/icon-edit.svg';
 
 const Footer = () => {
   const renderNavLinks = () => {
@@ -28,12 +29,20 @@ const Footer = () => {
           <Link to="/" className={styles.footerLogo}>
             New Relic Open Source
           </Link>
-          <div className={styles.meta}>
-            <small className={styles.footerLegal}>
-              Copyright &copy; {new Date().getFullYear()} New Relic Inc.
-            </small>
-            <small className={styles.version}>Version 0.2.4</small>
-          </div>
+          <a href="#" className={styles.editButton}>
+            <img
+              src={editIcon}
+              alt="pencil icon"
+              className={styles.editButtonIcon}
+            />
+            Edit this page
+          </a>
+        </div>
+        <div className={styles.meta}>
+          <small className={styles.footerLegal}>
+            Copyright &copy; {new Date().getFullYear()} New Relic Inc.
+          </small>
+          <small className={styles.version}>Version 0.2.4</small>
         </div>
         <ul className={styles.footerNavLinks}>{renderNavLinks()}</ul>
       </div>
