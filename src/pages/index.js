@@ -94,20 +94,14 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <div className={styles.heroContainer}>
         <h2 className={styles.homepageHeroHeading}>
-          We believe in an open web toward the development of better tools in
-          software for creating a more perfect web.
+          The future of observability is open.
         </h2>
         <div className={styles.homepageHeroBody}>
           <p className={styles.homepageHeroBodyCopy}>
-            This is the place where you track with <a href="#">New Relic</a>’s
-            open source presence. Praesent commodo cursus magna, vel scelerisque
-            nisl <a href="#">consectetur</a> et. Fusce dapibus curus.
+            <iframe width="426" height="240" src="https://www.youtube.com/embed/7wnav6Fu9T0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
           <p className={styles.homepageHeroBodyCopy}>
-            Donec id elit non mi porta gravida at eget metus. Morbi leo risus,
-            porta ac consectetur ac,
-            <a href="#">vestibulum</a> at eros. Fusce dapibus, tellus ac cursus
-            commodo, tortor.
+            New Relic ❤️'s open source. We built this site to make it easy for <em>you</em> to <a href="/explore-projects">explore hundreds of projects</a> we're maintaining as well as our involvement in <a href="/open-standards">dozens of open standards and projects</a>. <br/><br/>Delivering on the promise of a more <strong>perfect</strong> Internet means developing more <strong>open source</strong> solutions together. <a href="/blog">Learn more</a>.
           </p>
         </div>
       </div>
