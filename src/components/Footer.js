@@ -39,10 +39,10 @@ const Footer = () => {
           </a>
         </div>
         <div className={styles.meta}>
+          <small className={styles.version}>Version 0.2.4</small>
           <small className={styles.footerLegal}>
             Copyright &copy; {new Date().getFullYear()} New Relic Inc.
           </small>
-          <small className={styles.version}>Version 0.2.4</small>
         </div>
         <ul className={styles.footerNavLinks}>{renderNavLinks()}</ul>
       </div>

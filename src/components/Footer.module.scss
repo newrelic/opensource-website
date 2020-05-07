@@ -36,7 +36,7 @@
     height: 37px;
     width: 1px;
     position: absolute;
-    right: -0px;
+    right: 0;
     top: 4px;
     margin-left: 15px;
     border-right: 1px dotted var(--footer-text-color);
@@ -47,11 +47,12 @@
 
 .meta {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-left: 15px;
   font-size: 12px;
+  align-self:center;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
   color: var(--footer-text-color);
 
   small {
@@ -59,9 +60,19 @@
   }
 }
 
-.footer-legal {
-  margin-bottom: 2px;
+.version:after {
+  content: "";
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block;
+  height: 14px;
+  width: 0;
+  opacity: .5;
+  border-right: 1px dotted var(--footer-text-color); 
+  position: relative;
+  top: 2px;
 }
+
 
 .footer-nav-links {
   display: flex;
