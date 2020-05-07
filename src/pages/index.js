@@ -101,7 +101,7 @@ const IndexPage = ({ data }) => {
             <iframe width="426" height="240" src="https://www.youtube.com/embed/7wnav6Fu9T0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </p>
           <p className={styles.homepageHeroBodyCopy}>
-            New Relic ❤️'s open source. We built this site to make it easy for <em>you</em> to <a href="/explore-projects">explore hundreds of projects</a> we're maintaining as well as our involvement in <a href="/open-standards">dozens of open standards and projects</a>. <br/><br/>Delivering on the promise of a more <strong>perfect</strong> Internet means developing more <strong>open source</strong> solutions together. <a href="/blog">Learn more</a>.
+            New Relic ❤️'s open source. We built this site to make it easy for <em>you</em> to <a href="/explore-projects">explore hundreds of projects</a> we're maintaining as well as our involvement in <a href="/open-standards">open standards and projects</a>. <br/><br/>Delivering on the promise of a more <strong>perfect</strong> Internet means developing more <strong>open source</strong> solutions together. <a href="/blog">Learn more</a>.
           </p>
         </div>
       </div>
