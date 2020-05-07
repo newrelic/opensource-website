@@ -48,7 +48,16 @@ const Footer = () => {
             Copyright &copy; {new Date().getFullYear()} New Relic Inc.
           </small>
         </div>
-        <ul className={styles.footerNavLinks}>{renderNavLinks()}</ul>
+        <ul className={styles.footerNavLinks}>
+          <>
+            <li className={styles.footerNavLinkItem} key="0">
+              <Link to="/code-of-conduct" className={styles.footerNavLink}>
+                Code of Conduct
+              </Link>
+            </li>
+            {renderNavLinks()}
+          </>
+        </ul>
       </div>
     </footer>
   );
