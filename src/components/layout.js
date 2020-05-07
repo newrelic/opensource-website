@@ -38,8 +38,8 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
   hasHeaderBg: PropTypes.bool,
   fullWidth: PropTypes.bool,
-  className: PropTypes.object,
-  mainClassName: PropTypes.object
+  className: PropTypes.string,
+  mainClassName: PropTypes.string
 };
 
 export default Layout;
