@@ -29,7 +29,9 @@ const ProjectSearchInput = ({
         <input
           type="text"
           value={searchQueryValue}
-          onChange={onSearchQueryChange}
+          onChange={e => {
+            onSearchQueryChange({ searchQuery: e.target.value });
+          }}
           placeholder="Search for a project"
           className={styles.searchInput}
         />

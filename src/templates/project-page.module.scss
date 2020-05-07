@@ -1,3 +1,10 @@
+.project-page-layout {
+  header:after {
+    transform: skewY(-4.5deg);
+    top: -70px;
+  }
+}
+
 .primary-content-main {
   a {
     font-size: 14px;

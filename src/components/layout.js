@@ -12,12 +12,20 @@ import Header from './header';
 import Footer from './Footer';
 import './styles.scss';
 
-const Layout = ({ children, hasHeaderBg, fullWidth }) => {
+const Layout = ({
+  children,
+  hasHeaderBg,
+  fullWidth,
+  className,
+  mainClassName
+}) => {
   return (
-    <div className="layout-container">
+    <div className={`layout-container ${className}`}>
       <Header hasHeaderBg={hasHeaderBg} />
       <main
-        className={`layout-container-main ${fullWidth ? `full-width` : ''}`}
+        className={`layout-container-main ${
+          fullWidth ? `full-width` : ''
+        } ${mainClassName && mainClassName}`}
       >
         {children}
       </main>
@@ -29,7 +37,9 @@ const Layout = ({ children, hasHeaderBg, fullWidth }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   hasHeaderBg: PropTypes.bool,
-  fullWidth: PropTypes.bool
+  fullWidth: PropTypes.bool,
+  className: PropTypes.object,
+  mainClassName: PropTypes.object
 };
 
 export default Layout;

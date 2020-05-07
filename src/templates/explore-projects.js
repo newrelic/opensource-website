@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import { Link } from 'gatsby';
+import { Location } from '@reach/router';
 import { orderBy } from 'lodash';
 
 import Layout from '../components/layout';
@@ -10,12 +11,12 @@ import ProjectSearch from '../components/ProjectSearch';
 import ProjectCard from '../components/ProjectCard';
 
 import placeholderIcon from '../images/page-heading-icon-placeholder.jpg';
+import searchIcon from '../images/icon-search.svg';
 
 import styles from './projects.module.scss';
 
 const ExploreProjectsPage = props => {
   const [projectsToShow, setProjectsToShow] = useState(24);
-  // const [sortedProjects, setSortedProjects] = useState([]);
   const { pageContext } = props;
   const { projectData } = pageContext;
   const {
@@ -107,50 +108,73 @@ const ExploreProjectsPage = props => {
   };
 
   return (
-    <Layout fullWidth>
+    <Layout fullWidth mainClassName={styles.exploreProjectsLayout}>
       <PageHeading
-        title={`Explore projects`}
+        title="Explore projects"
         subheader="Projects and products being developed in open source"
       />
-      <ProjectSearch
-        data={allProjects}
-        engine={searchEngineOptions}
-        filterOptions={filterOptions}
-      >
-        {({ projects, searchQuery, filterValues }) => {
-          const hasFilters = Object.values(filterValues).some(
-            x => x !== null && x !== ''
-          );
-          const showFeatured = searchQuery === '' && !hasFilters;
-          const sortedProjects = orderBy(
-            projects,
-            p => {
-              return p.stats ? p.stats.commits : 0;
-            },
-            'desc'
-          );
-
+      <Location>
+        {({ location }) => {
           return (
-            <>
-              <div className={styles.featuredProjects}>
-                {showFeatured &&
-                  renderFeaturedProjects({
-                    projects: sortedProjects,
-                    featuredProjectsToShow
-                  })}
-              </div>
+            <ProjectSearch
+              location={location}
+              data={allProjects}
+              engine={searchEngineOptions}
+              filterOptions={filterOptions}
+            >
+              {({ projects, searchQuery }) => {
+                const showFeatured = true;
+                const sortedProjects = orderBy(
+                  projects,
+                  p => {
+                    return p.stats ? p.stats.commits : 0;
+                  },
+                  'desc'
+                );
 
-              <div className={styles.projectListingContainer}>
-                {renderProjectListing({
-                  projects: sortedProjects,
-                  showFeatured
-                })}
-              </div>
-              {renderShowAllButton(sortedProjects)}
-            </>
+                return (
+                  <>
+                    {showFeatured && (
+                      <div className={styles.featuredProjects}>
+                        {renderFeaturedProjects({
+                          projects: sortedProjects,
+                          featuredProjectsToShow
+                        })}
+                      </div>
+                    )}
+
+                    <div className={styles.projectListingContainer}>
+                      {renderProjectListing({
+                        projects: sortedProjects,
+                        showFeatured
+                      })}
+                    </div>
+
+                    {renderShowAllButton(sortedProjects)}
+
+                    {sortedProjects.length === 0 && searchQuery !== '' ? (
+                      <div className={styles.searchEmptyState}>
+                        <img
+                          src={searchIcon}
+                          className={styles.searchEmptyStateIcon}
+                          alt="search icon"
+                        />
+                        <h3 className={styles.searchEmptyStateTitle}>
+                          No results for <em>"{searchQuery}"</em>
+                        </h3>
+                        <p className={styles.searchEmptyStateDescription}>
+                          It seems we can’t find any results based on your
+                          search.
+                        </p>
+                      </div>
+                    ) : null}
+                  </>
+                );
+              }}
+            </ProjectSearch>
           );
         }}
-      </ProjectSearch>
+      </Location>
     </Layout>
   );
 };
