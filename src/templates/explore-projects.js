@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import { Link } from 'gatsby';
 import { Location } from '@reach/router';
-import { orderBy } from 'lodash';
+import { get, orderBy } from 'lodash';
 
 import Layout from '../components/layout';
 import PageHeading from '../components/PageHeading';
@@ -63,7 +63,7 @@ const ExploreProjectsPage = props => {
           </div>
           <footer className={styles.featuredProjectFooter}>
             <span className={styles.featuredProjectFooterLink}>
-              {p.ossCategory.title}
+              {get(p, 'ossCategory.title', '')}
             </span>
             {p.primaryLanguage !== '' && (
               <span className={styles.featuredProjectFooterLink}>

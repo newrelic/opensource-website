@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
+import { get } from 'lodash';
 
 import styles from '../templates/projects.module.scss';
 
@@ -21,7 +22,9 @@ const ProjectCard = ({ project: p }) => {
         </p>
       </div>
       <footer className={styles.projectFooter}>
-        <span className={styles.projectFooterMeta}>{p.ossCategory.title}</span>
+        <span className={styles.projectFooterMeta}>
+          {get(p, 'ossCategory.title', '')}
+        </span>
         {p.primaryLanguage !== null && (
           <span className={styles.projectFooterMeta}>{p.primaryLanguage}</span>
         )}

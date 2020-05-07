@@ -5,6 +5,8 @@ import navLinks from '../data/navigation.json';
 import styles from './Footer.module.scss';
 import editIcon from '../images/icon-edit.svg';
 
+import packageJson from '../../package.json';
+
 const Footer = () => {
   const renderNavLinks = () => {
     const sortedNavLinks = navLinks.navigation.sort((a, b) =>
@@ -39,7 +41,9 @@ const Footer = () => {
           </a>
         </div>
         <div className={styles.meta}>
-          <small className={styles.version}>Version 0.2.4</small>
+          <small className={styles.version}>
+            Version {packageJson.version}
+          </small>
           <small className={styles.footerLegal}>
             Copyright &copy; {new Date().getFullYear()} New Relic Inc.
           </small>
