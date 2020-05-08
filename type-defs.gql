@@ -6,7 +6,7 @@ type ProjectStats implements Node {
 }
 
 type Projects implements Node {
-  stats: ProjectStats @link(by: "slug", from: "slug")
+  stats: ProjectStats @link(by: "projectFullName", from: "fullName")
   mainContent: ProjectMainContent @link(by: "slug", from: "slug")
   projectTags: [ProjectTags] @link(by: "slug")
   ossCategory: OssCategory @link(by: "slug")
