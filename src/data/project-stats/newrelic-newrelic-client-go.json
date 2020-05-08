@@ -1,38 +1,79 @@
 {
   "projectFullName": "newrelic/newrelic-client-go",
   "issues": {
-    "open": 4
+    "open": 5
   },
-  "releases": 28,
+  "releases": 30,
   "latestRelease": {
-    "name": "v0.22.0",
-    "date": "2020-04-23T22:40:29Z"
+    "name": "v0.23.1",
+    "date": "2020-05-04T22:13:12Z"
   },
-  "commits": 604,
+  "commits": 629,
+  "lastMonthCommitTotal": 75,
+  "contributors": 8,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
+  "cachedIssues": [],
+  "cachedContributors": [
     {
-      "id": "MDU6SXNzdWU2MDg1NTE4NjM=",
-      "title": "alerts_events",
-      "url": "https://github.com/newrelic/newrelic-client-go/issues/276",
-      "createdAt": "2020-04-28T19:16:45Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "jhunthrop",
-        "id": "MDQ6VXNlcjM1OTY2NTU=",
-        "email": "",
-        "name": "Justin Hunthrop"
-      },
-      "number": 276,
-      "createdBy": "Justin Hunthrop"
+      "id": 138513,
+      "login": "bthemad",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/138513?v=4",
+      "htmlUrl": "https://github.com/bthemad",
+      "contributions": 1
+    },
+    {
+      "id": 3596655,
+      "login": "jhunthrop",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/3596655?v=4",
+      "htmlUrl": "https://github.com/jhunthrop",
+      "contributions": 2
+    },
+    {
+      "id": 723533,
+      "login": "monkeyherder",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/723533?v=4",
+      "htmlUrl": "https://github.com/monkeyherder",
+      "contributions": 3
+    },
+    {
+      "id": 25180681,
+      "login": "renovate-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
+      "htmlUrl": "https://github.com/renovate-bot",
+      "contributions": 18
+    },
+    {
+      "id": 29264964,
+      "login": "zlesnr",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/29264964?v=4",
+      "htmlUrl": "https://github.com/zlesnr",
+      "contributions": 23
+    },
+    {
+      "id": 455419,
+      "login": "jthurman42",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
+      "htmlUrl": "https://github.com/jthurman42",
+      "contributions": 134
+    },
+    {
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 142
+    },
+    {
+      "id": 413389,
+      "login": "ctrombley",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
+      "htmlUrl": "https://github.com/ctrombley",
+      "contributions": 179
     }
   ],
-  "cachedContributors": [],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2U0MDM=",

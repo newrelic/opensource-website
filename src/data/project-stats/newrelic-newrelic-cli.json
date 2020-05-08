@@ -1,21 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-cli",
   "issues": {
-    "open": 18
+    "open": 20
   },
   "releases": 15,
   "latestRelease": {
     "name": "v0.8.3",
     "date": "2020-04-24T18:02:45Z"
   },
-  "commits": 437,
-  "contributors": 5,
+  "commits": 447,
+  "lastMonthCommitTotal": 135,
+  "contributors": 6,
   "pullRequests": {
-    "open": 6
+    "open": 9
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
     {
       "id": 25180681,
       "login": "renovate-bot",
@@ -49,7 +57,7 @@
       "login": "jthurman42",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
       "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 138
+      "contributions": 143
     }
   ],
   "languages": [

@@ -4,10 +4,12 @@
     "open": 0
   },
   "releases": 0,
-  "commits": 2,
-  "contributors": 1,
+  "latestRelease": null,
+  "commits": 8,
+  "lastMonthCommitTotal": 8,
+  "contributors": 2,
   "pullRequests": {
-    "open": 0
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -18,8 +20,29 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
       "contributions": 2
+    },
+    {
+      "id": 28544519,
+      "login": "goldenplec",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/28544519?v=4",
+      "htmlUrl": "https://github.com/goldenplec",
+      "contributions": 3
     }
   ],
-  "languages": [],
-  "screenshots": []
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    }
+  ],
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }
