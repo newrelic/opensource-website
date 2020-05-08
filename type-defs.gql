@@ -1,4 +1,5 @@
 # https://www.gatsbyjs.org/docs/schema-customization/#foreign-key-fields
+# https://www.gatsbyjs.org/docs/schema-customization/#extensions-and-directives
 
 type ProjectStats implements Node {
   project: Projects @link
