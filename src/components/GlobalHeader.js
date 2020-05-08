@@ -46,9 +46,6 @@ const GlobalHeader = ({ hasHeaderBg }) => {
         </div>
 
         <ul className={styles.rightSideButtons}>
-          <li className={`${styles.rightSideButton} ${styles.searchButton}`}>
-            Search
-          </li>
           <li className={`${styles.rightSideButton} ${styles.githubButton}`}>
             <a
               href="https://github.com/newrelic/opensource-website"
@@ -56,9 +53,6 @@ const GlobalHeader = ({ hasHeaderBg }) => {
             >
               GitHub
             </a>
-          </li>
-          <li className={`${styles.rightSideButton} ${styles.loginButton}`}>
-            Login
           </li>
         </ul>
       </div>

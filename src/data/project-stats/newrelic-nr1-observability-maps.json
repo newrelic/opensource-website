@@ -5,7 +5,8 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 99,
+  "commits": 103,
+  "lastMonthCommitTotal": 16,
   "contributors": 5,
   "pullRequests": {
     "open": 0
@@ -46,7 +47,7 @@
       "login": "Kav91",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 80
+      "contributions": 84
     }
   ],
   "languages": [
@@ -61,7 +62,9 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-observability-maps/master/catalog/screenshots/nr1-observability-maps-1.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

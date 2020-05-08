@@ -9,6 +9,7 @@
     "date": "2020-03-27T17:45:01Z"
   },
   "commits": 132,
+  "lastMonthCommitTotal": 0,
   "contributors": 6,
   "pullRequests": {
     "open": 0
@@ -89,7 +90,9 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-pageview-map/master/catalog/screenshots/screenshot_01.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

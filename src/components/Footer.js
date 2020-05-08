@@ -71,7 +71,14 @@ const Footer = () => {
                       </small>
                     </div>
                     <ul className={styles.footerNavLinks}>
-                      {renderNavLinks()}
+                      <>
+                        <li className={styles.footerNavLinkItem} key="0">
+                          <Link to="/code-of-conduct" className={styles.footerNavLink}>
+                            Code of Conduct
+                          </Link>
+                        </li>
+                        {renderNavLinks()}
+                      </>
                     </ul>
                   </div>
                 </footer>

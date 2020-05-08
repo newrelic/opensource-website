@@ -13,7 +13,7 @@ const ArticlePreviews = ({ articles, size, hero }) => {
     >
       {articles.map(article => {
         return (
-          <Link className={styles.articlePreview} to="/" key={article.title}>
+          <Link className={styles.articlePreview} to="/blog-post" key={article.title}>
             <img
               className={styles.articlePreviewFeaturedImage}
               src={article.featuredImage}

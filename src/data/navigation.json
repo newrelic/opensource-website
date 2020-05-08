@@ -1,19 +1,19 @@
 {
   "navigation": [
     {
+      "label": "Community Contributions",
+      "link": "/community-contributions",
+      "order": 1
+    },
+    {
       "label": "Explore Projects",
       "link": "/explore-projects",
       "order": 2
     },
     {
-      "label": "Blog",
+      "label": "Changelog",
       "link": "/blog",
       "order": 3
-    },
-    {
-      "label": "Blog Post",
-      "link": "/blog-post",
-      "order": 4
     }
   ]
 }
