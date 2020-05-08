@@ -50,7 +50,7 @@ const BlogPost = () => {
           </div>
 
           <div className={styles.recentArticle}>
-            <Link to="/" className={styles.recentArticleLink}>
+            <Link to="/blog-post" className={styles.recentArticleLink}>
               <img
                 src="https://picsum.photos/130/212"
                 className={styles.recentArticleFeaturedImage}
@@ -58,7 +58,7 @@ const BlogPost = () => {
               />
             </Link>
             <div className={styles.recentArticlePrimaryContent}>
-              <Link to="/" className={styles.recentArticleLink}>
+              <Link to="/blog-post" className={styles.recentArticleLink}>
                 <h5 className={styles.recentArticleTitle}>
                   Sit volutpat pellentesque non nunc ut
                 </h5>
@@ -75,7 +75,7 @@ const BlogPost = () => {
             </div>
           </div>
           <div className={styles.recentArticle}>
-            <Link to="/" className={styles.recentArticleLink}>
+            <Link to="/blog-post" className={styles.recentArticleLink}>
               <img
                 src="https://picsum.photos/360/612"
                 className={styles.recentArticleFeaturedImage}
@@ -83,7 +83,7 @@ const BlogPost = () => {
               />
             </Link>
             <div className={styles.recentArticlePrimaryContent}>
-              <Link to="/" className={styles.recentArticleLink}>
+              <Link to="/blog-post" className={styles.recentArticleLink}>
                 <h5 className={styles.recentArticleTitle}>
                   Sit volutpat pellentesque non nunc ut
                 </h5>
@@ -100,7 +100,7 @@ const BlogPost = () => {
             </div>
           </div>
           <div className={styles.recentArticle}>
-            <Link to="/" className={styles.recentArticleLink}>
+            <Link to="/blog-post" className={styles.recentArticleLink}>
               <img
                 src="https://picsum.photos/164/122"
                 className={styles.recentArticleFeaturedImage}
@@ -108,7 +108,7 @@ const BlogPost = () => {
               />
             </Link>
             <div className={styles.recentArticlePrimaryContent}>
-              <Link to="/" className={styles.recentArticleLink}>
+              <Link to="/blog-post" className={styles.recentArticleLink}>
                 <h5 className={styles.recentArticleTitle}>
                   Sit volutpat pellentesque non nunc ut
                 </h5>
