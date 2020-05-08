@@ -67,12 +67,19 @@ p {
   font-size: 14px;
   line-height: 23px;
   margin: 12px 0;
+
+  strong {
+    font-weight: 600;
+  }
 }
 
 a {
   text-decoration: none;
   color: var(--color-brand-800);
-  border-bottom: 1px dotted var(--color-brand-800);
+  // tried hard to find a way to avoid using a hardcoded color value
+  // here but Sass doesn't let me use color operations with css
+  // custom properties :/
+  border-bottom: 1px dotted rgba(#005054, .4);
 }
 
 ul {

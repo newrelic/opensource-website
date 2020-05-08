@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
@@ -17,6 +17,8 @@ import genericProjectIcon from '../images/page-heading-icon-placeholder.jpg';
 import articlePlaceholderImage1 from '../images/article-placeholder-image-1.jpg';
 import articlePlaceholderImage2 from '../images/article-placeholder-image-2.jpg';
 import articlePlaceholderImage3 from '../images/article-placeholder-image-3.jpg';
+import videoPlaceholder from '../images/video-placeholder.jpg';
+import playButton from '../images/button-play.svg';
 
 export const query = graphql`
   query HomePageQuery {
@@ -34,6 +36,7 @@ export const query = graphql`
 `;
 
 const IndexPage = ({ data }) => {
+  const [playButtonHovered, setPlayButtonHovered] = useState(false);
   const externalProjects = [
     {
       title: 'Open Telemetry',
@@ -93,16 +96,45 @@ const IndexPage = ({ data }) => {
     <Layout fullWidth>
       <SEO title="Home" />
       <div className={styles.heroContainer}>
-        <h2 className={styles.homepageHeroHeading}>
-          The future of observability is open.
-        </h2>
-        <div className={styles.homepageHeroBody}>
+        <div className={styles.homepageHeroCopy}>
+          <h2 className={styles.homepageHeroHeading}>
+            The future of observability is open.
+          </h2>
           <p className={styles.homepageHeroBodyCopy}>
-            <iframe width="426" height="240" src="https://www.youtube.com/embed/7wnav6Fu9T0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            New Relic ❤️'s open source. We built this site to make it easy for{' '}
+            <em>you</em> to{' '}
+            <a href="/explore-projects">explore hundreds of projects</a> we're
+            maintaining as well as our involvement in{' '}
+            <a href="/open-standards">dozens of open standards and projects</a>.{' '}
+            Delivering on the promise of a more <strong>perfect</strong>{' '}
+            Internet means developing more <strong>open source</strong>{' '}
+            solutions together. <a href="/blog">Learn more</a>.
           </p>
-          <p className={styles.homepageHeroBodyCopy}>
-            New Relic ❤️'s open source. We built this site to make it easy for <em>you</em> to <a href="/explore-projects">explore hundreds of projects</a> we're maintaining as well as our involvement in <a href="/open-standards">dozens of open standards and projects</a>. <br/><br/>Delivering on the promise of a more <strong>perfect</strong> Internet means developing more <strong>open source</strong> solutions together. <a href="/blog">Learn more</a>.
-          </p>
+        </div>
+        <div
+          className={`${styles.homepageHeroVideo} ${playButtonHovered &&
+            styles.playButtonHovered}`}
+          style={{ backgroundImage: `url(${videoPlaceholder})` }}
+        >
+          <img
+            src={playButton}
+            className={styles.playButton}
+            onMouseOver={() => {
+              setPlayButtonHovered(true);
+            }}
+            onMouseOut={() => {
+              setPlayButtonHovered(false);
+            }}
+          />
+          <iframe
+            style={{ display: 'none' }}
+            width="426"
+            height="240"
+            src="https://www.youtube.com/embed/7wnav6Fu9T0"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
         </div>
       </div>
 
