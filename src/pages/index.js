@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
@@ -36,6 +36,7 @@ export const query = graphql`
 `;
 
 const IndexPage = ({ data }) => {
+  const [playButtonHovered, setPlayButtonHovered] = useState(false);
   const externalProjects = [
     {
       title: 'Open Telemetry',
@@ -111,10 +112,20 @@ const IndexPage = ({ data }) => {
           </p>
         </div>
         <div
-          className={`${styles.homepageHeroVideo}`}
+          className={`${styles.homepageHeroVideo} ${playButtonHovered &&
+            styles.playButtonHovered}`}
           style={{ backgroundImage: `url(${videoPlaceholder})` }}
         >
-          <img src={playButton} className={styles.playButton} />
+          <img
+            src={playButton}
+            className={styles.playButton}
+            onMouseOver={() => {
+              setPlayButtonHovered(true);
+            }}
+            onMouseOut={() => {
+              setPlayButtonHovered(false);
+            }}
+          />
           <iframe
             style={{ display: 'none' }}
             width="426"

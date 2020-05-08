@@ -41,7 +41,8 @@
   position: relative;
   background-size: cover;
   transform: rotateX(-3deg) rotateY(-15deg);
-  transition: all .4s var(--ease-out-quad);
+  transition: all .5s var(--ease-out-quad);
+  transform-style: preserve-3d;
   perspective: 2000px;
 
   // drop shadow
@@ -50,31 +51,67 @@
     content: "";
     position: absolute;
     top: 0;
-    right: 0;
+    right: 15px;
     bottom: 0;
-    left: 0;
+    left: 15px;
     z-index: -10;
-    box-shadow: 0px 1.24527px 3.09933px rgba(26, 46, 52, 0.0759093), 0px 2.99255px 7.44811px rgba(26, 46, 52, 0.109051), 0px 5.6347px 14.0241px rgba(26, 46, 52, 0.135), 0px 10.0513px 25.0167px rgba(26, 46, 52, 0.160949), 0px 18.7999px 46.7909px rgba(26, 46, 52, 0.194091), 0px 45px 112px rgba(26, 46, 52, 0.27);
+    transform: translateZ(-1px);
+    box-shadow: 
+      0px 1.24527px 3.09933px rgba(26, 46, 52, 0.0759093), 
+      0px 2.99255px 7.44811px rgba(26, 46, 52, 0.109051), 
+      0px 5.6347px 14.0241px rgba(26, 46, 52, 0.135), 
+      0px 10.0513px 25.0167px rgba(26, 46, 52, 0.160949), 
+      0px 18.7999px 46.7909px rgba(26, 46, 52, 0.194091), 
+      0px 45px 112px rgba(26, 46, 52, 0.27);
+    transition: all .4s var(--ease-out-quad);
   }
 
   &:after {
     content: "";
-    opacity: .5; 
+    opacity: .25; 
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient(-32deg, rgba(95, 95, 95, 0.5) 20%, rgba(255, 255, 255, 0.2) 60%);
+    border-radius: 4px;
+    background: linear-gradient(-32deg, rgba(95, 95, 95, 1) 20%, rgba(255, 255, 255, 0.7) 60%);
+    transition: all .4s var(--ease-out-quad);
   }
   
   &:hover {
     cursor: pointer;
-    transform: rotateX(-3deg) rotateY(-15deg) translateZ(35px);
+    transform: rotateX(0deg) rotateY(0deg) translateZ(30px);
+
+    &:before {
+      right: 35px;
+      left: 35px;
+      opacity: .875;
+      box-shadow: 
+        0px 6.24527px 8.09933px rgba(26, 46, 52, 0.0759093), 
+        0px 9.99255px 13.44811px rgba(26, 46, 52, 0.109051), 
+        0px 10.6347px 25.0241px rgba(26, 46, 52, 0.135), 
+        0px 20.0513px 35.0167px rgba(26, 46, 52, 0.160949), 
+        0px 35.7999px 50.7909px rgba(26, 46, 52, 0.194091), 
+        0px 65px 112px rgba(26, 46, 52, 0.27);
+    }
 
     .play-button {
-      transform: scale(1.05) translateX(-3px) rotateY(10deg);
+      transform: scale(.91) translateZ(20px);
+      box-shadow: 
+        0px 2.76726px 5.21381px rgba(21, 33, 39, 0.0590406), 
+        0px 6.6501px 10.32008px rgba(21, 33, 39, 0.0848175), 
+        0px 12.5216px 15.0172px rgba(21, 33, 39, 0.105), 
+        0px 22.3363px 25.869px rgba(21, 33, 39, 0.125183), 
+        0px 41.7776px 36.4221px rgba(21, 33, 39, 0.150959), 
+        0px 100px 80px rgba(21, 33, 39, 0.21),
+        0 0 0 4px rgba(0, 80, 84, .1);
+      transition: .25s var(--ease-out-quad);
     }
+  }
+
+  &:hover:after {
+    opacity: .095;
   }
 }
 
@@ -90,23 +127,27 @@ img.play-button {
     0px 100px 80px rgba(21, 33, 39, 0.21);
 
   border-radius: 50%;
-  transition: transform .4s var(--ease-out-quad), box-shadow .15s var(--ease-out-quad);
+  transition: transform .4s var(--ease-out-quad), box-shadow .35s var(--ease-out-quad);
+  transition-delay: .025s;
+  transform: scale(.9) translateZ(20px);
   z-index: 10;
   position: relative;
-
-  &:hover {
+  
+  .homepageHeroVideo &:hover {
     box-shadow: 
-        0px 2.76726px 2.21381px rgba(21, 33, 39, 0.0590406), 
-        0px 6.6501px 5.32008px rgba(21, 33, 39, 0.0848175), 
-        0px 12.5216px 10.0172px rgba(21, 33, 39, 0.105), 
-        0px 22.3363px 17.869px rgba(21, 33, 39, 0.125183), 
-        0px 41.7776px 33.4221px rgba(21, 33, 39, 0.150959), 
-        0px 100px 80px rgba(21, 33, 39, 0.21),
-        0 0 0 7px rgba(0, 126, 138, .25);
+    0px 2.76726px 2.21381px rgba(21, 33, 39, 0.0590406), 
+    0px 6.6501px 5.32008px rgba(21, 33, 39, 0.0848175), 
+    0px 12.5216px 10.0172px rgba(21, 33, 39, 0.105), 
+    0px 22.3363px 17.869px rgba(21, 33, 39, 0.125183), 
+    0px 41.7776px 33.4221px rgba(21, 33, 39, 0.150959), 
+    0px 100px 80px rgba(21, 33, 39, 0.21),
+    0 0 0 8px rgba(0, 80, 84, .15);
+    transform: scale(.95) translateZ(20px);
+    transition: transform .15s var(--ease-out-quad), box-shadow .25s var(--ease-out-quad);
   }
-
-  &:active {
-    transform: scale(1.05) translateY(1px);
+  
+  .homepageHeroVideo &:active {
+    transform: scale(.9) translateZ(20px);
   }
 }
 
