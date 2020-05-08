@@ -54,6 +54,8 @@ const ProjectPage = ({ data }) => {
     tags = tags.concat(project.projectTags.map(i => i.title));
   }
 
+  tags = tags.filter(i => i !== null && i !== '');
+
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
   const supportUrl = get(project, 'supportUrl', false);
 
