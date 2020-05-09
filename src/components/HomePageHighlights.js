@@ -23,7 +23,7 @@ const HomePageHighlights = data => {
               {project.description}
             </p>
             <a
-              href="#"
+              href={project.link}
               className={`button ${styles.featuredExternalProjectButton}`}
             >
               Read more

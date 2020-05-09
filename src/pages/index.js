@@ -45,6 +45,7 @@ const IndexPage = ({ data }) => {
       description:
         'New Relic has invested 30 billion hours into the development of Open Telemetry to help provide robust portable telemetry to all.',
       icon: OpenTelemetryIcon,
+      link: '/open-telemetry',
       githubUrl: 'https://github.com/open-telemetry',
       website: 'https://opentelemetry.io/'
     },
@@ -53,6 +54,7 @@ const IndexPage = ({ data }) => {
       description:
         'New Relic has invested 1,137,000 hours of engineering into freeCodeCamp to help provide educate the next generation engineers.',
       icon: freeCodeCampIcon,
+      link: '/#',
       githubUrl: 'https://github.com/freeCodeCamp/freeCodeCamp',
       website: 'https://www.freecodecamp.org/'
     },
@@ -61,6 +63,7 @@ const IndexPage = ({ data }) => {
       description:
         'We <3 TensorFlow and plan to continue to invest at least 10,000 weekly into the maintenance of the platform to help train ml mipsums.',
       icon: tensorFlowIcon,
+      link: '/#',
       githubUrl: 'https://github.com/tensorflow',
       website: 'https://www.tensorflow.org/'
     }
@@ -112,7 +115,7 @@ const IndexPage = ({ data }) => {
             <em>you</em> to{' '}
             <a href="/explore-projects">explore hundreds of projects</a> we're
             maintaining as well as our involvement in{' '}
-            <a href="/open-standards">open standards and projects</a>.{' '}
+            <a href="/open-standards">open standards</a>.{' '}
             Delivering on the promise of a more <strong>perfect</strong>{' '}
             Internet means developing more <strong>open source</strong>{' '}
             solutions together. <a href="/blog">Learn more</a>.
