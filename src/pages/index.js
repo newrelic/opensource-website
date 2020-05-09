@@ -108,7 +108,7 @@ const IndexPage = ({ data }) => {
           </h2>
           <p className={styles.homepageHeroBodyCopy}>
 
-            New Relic ❤️'s open source. We built this site to make it easy for{' '}
+            New Relic ❤️'s open source. We <a href="https://github.com/newrelic/opensource-website">built</a> this site to make it easy for{' '}
             <em>you</em> to{' '}
             <a href="/explore-projects">explore hundreds of projects</a> we're
             maintaining as well as our involvement in{' '}
