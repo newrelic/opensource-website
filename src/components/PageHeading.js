@@ -9,7 +9,7 @@ const PageHeading = props => {
       if (tag.name !== 'version') {
         return (
           <li key={index} className={styles.pageHeadingTagListTag}>
-            <a className={styles.tagLink} href={`/explore-projects?${tag.name}=${tag.value}`}>{tag.value}</a>
+            <a className={styles.tagLink} href={`/explore-projects/?${tag.name}=${tag.value}`}>{tag.value}</a>
           </li>
         );
       } else {
