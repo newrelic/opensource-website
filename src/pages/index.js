@@ -70,10 +70,9 @@ const IndexPage = ({ data }) => {
   ];
 
   const internalProjects = get(data, 'topProjects.edges').map(i => i.node);
+  console.log(internalProjects);
   internalProjects.forEach((p, index) => {
     internalProjects[index].iconUrl = genericProjectIcon;
-    internalProjects[index].shortDescription =
-      'Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.';
   });
 
   const recentArticles = [
