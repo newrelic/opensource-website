@@ -6,11 +6,19 @@ import styles from './PageHeading.module.scss';
 const PageHeading = props => {
   const renderTags = () => {
     const tags = props.tags.map((tag, index) => {
-      return (
-        <li key={index} className={styles.pageHeadingTagListTag}>
-          {tag}
-        </li>
-      );
+      if (tag.name !== 'version') {
+        return (
+          <li key={index} className={styles.pageHeadingTagListTag}>
+            <a className={styles.tagLink} href={`/explore-projects?${tag.name}=${tag.value}`}>{tag.value}</a>
+          </li>
+        );
+      } else {
+        return (
+          <li key={index} className={styles.pageHeadingTagListTag}>
+            {tag.value}
+          </li>
+        );
+      }
     });
 
     return <ul className={styles.pageHeadingTagList}>{tags}</ul>;

@@ -9,7 +9,7 @@
   &.has-separator {
     border-bottom: 2px dotted var(--color-neutrals-200);
   }
-  
+
   &.has-separator-without-icon {
     margin-top: 50px;
   }
@@ -22,7 +22,7 @@
     margin-top: 74px;
   }
 }
-  
+
   .page-heading-icon {
     display: block;
     width: 80px;
@@ -32,7 +32,7 @@
     overflow: hidden;
     background-color: var(--color-neutrals-400);
     position: relative;
-    
+
     &:before {
       content: "";
       position: absolute;
@@ -46,7 +46,7 @@
       background-position: center center;
     }
   }
-  
+
   .page-title {
     margin: 8px 0 0;
     font-size: 36px;
@@ -63,6 +63,15 @@
       max-width: 700px;
       line-height: 54px;
     }
+  }
+
+  .tag-link {
+    &:link, &:visited {
+      text-decoration: none;
+      border-bottom: none;
+    }
+    text-decoration: none;
+    border-bottom: none;
   }
 
   .page-subheader {
