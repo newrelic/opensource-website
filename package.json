@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "opensource-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.2.4",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Data, code, and automation for opensource.newrelic.com",
+  "version": "0.5.0",
+  "author": "Open Source Team at New Relic <opensource@newrelic.com>",
   "dependencies": {
     "date-fns": "^2.12.0",
     "gatsby": "^2.20.12",
@@ -36,9 +36,11 @@
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "open source",
+    "new relic"
   ],
-  "license": "MIT",
+  "license": "Apache-2",
   "scripts": {
     "build": "gatsby build",
     "develop": "npm run clean && gatsby develop",
@@ -52,9 +54,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/newrelic/opensource-website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/newrelic/opensource-website/issues"
   }
 }
