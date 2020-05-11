@@ -109,15 +109,15 @@ const IndexPage = ({ data }) => {
             The future of observability is open.
           </h2>
           <p className={styles.homepageHeroBodyCopy}>
-
-            New Relic ❤️'s open source. We <a href="https://github.com/newrelic/opensource-website">built</a> this site to make it easy for{' '}
-            <em>you</em> to{' '}
+            New Relic ❤️'s open source. We{' '}
+            <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
+            this site to make it easy for <em>you</em> to{' '}
             <a href="/explore-projects">explore hundreds of projects</a> we're
             maintaining as well as our involvement in{' '}
-            <a href="/open-standards">open standards</a>.{' '}
-            Delivering on the promise of a more <strong>perfect</strong>{' '}
-            Internet means developing more <strong>open source</strong>{' '}
-            solutions together. <a href="/blog">Learn more</a>.
+            <a href="/open-standards">open standards</a>. Delivering on the
+            promise of a more <strong>perfect</strong> Internet means developing
+            more <strong>open source</strong> solutions together.{' '}
+            <a href="/blog">Learn more</a>.
           </p>
         </div>
         <div
