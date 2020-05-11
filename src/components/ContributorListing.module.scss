@@ -54,11 +54,11 @@
 }
 
 .contributor-name {
-    font-size: 16px;
     margin: 8px 0 1px;
     color: var(--color-brand-800);
-
+    
     a.contributor-name-link {
+        font-size: 16px;
      border: none;
     }
 }
@@ -66,11 +66,11 @@
 .contributor-contributions {
     margin: 0;
     font-weight: 400;
-    font-size: 12px;
     
     a {
         color: var(--color-neutrals-600);
         border: none;
+        font-size: 12px;
 
         &:hover {
             text-decoration: underline;
