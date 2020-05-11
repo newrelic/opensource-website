@@ -3,6 +3,8 @@
 const { v4: uuidv4 } = require('uuid');
 
 const isMdx = type => type === 'Mdx';
+const isProject = type => type === 'Projects';
+
 const slugFromAbsoluteFilePath = (rootDir, fileAbsolutePath) => {
   // Directory
   if (fileAbsolutePath.indexOf('index.mdx') >= 0) {
@@ -56,15 +58,11 @@ const createProjectMainContent = ({ node, actions }) => {
 module.exports = params => {
   const { node } = params;
 
-  // if (node.internal.type === `projects`) {
-  //   const basePath = `projects`;
-  //   const slug = createFilePath({ node, getNode, basePath });
-  //   createNodeField({
-  //     node,
-  //     name: `slug`,
-  //     value: slug
-  //   });
-  // }
+  if (isProject(node.internal.type)) {
+    if (!node.projectType) {
+      node.projectType = 'newrelic';
+    }
+  }
 
   // Transform readmes into an object type of ProjectMainContent which we'll stitch into GraphQL in `type-defs.gql`
   // This will enable us to get all data needed for a page with one dynamic query
