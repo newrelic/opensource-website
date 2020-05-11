@@ -33,8 +33,26 @@
   width: 88px;
   height: 88px;
   margin-top: -50px;
+  text-indent: -200%;
   box-shadow: 0 0 0 4px #fff;
+  position: relative;
   border-radius: 50%;
+  font-size: 12px;
+  overflow: hidden;
+  
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: var(--color-neutrals-400);
+    background-image: url(../images/page-heading-icon-placeholder.jpg);
+    background-size: 120% 120%;
+    background-position: center center;
+  }
 }
 
 .featured-project-title {
