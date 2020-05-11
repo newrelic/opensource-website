@@ -10,15 +10,18 @@ const slugFromAbsoluteFilePath = (rootDir, fileAbsolutePath) => {
   if (fileAbsolutePath.indexOf('index.mdx') >= 0) {
     const start = fileAbsolutePath.indexOf(rootDir) + rootDir.length;
     const end = fileAbsolutePath.length - '/index.mdx'.length;
-    return fileAbsolutePath.slice(start, end);
+    const slug = fileAbsolutePath.slice(start, end);
+    return slug;
   }
+
   // Single file
-  return fileAbsolutePath
+  const slug = fileAbsolutePath
     .slice(
       fileAbsolutePath.indexOf(rootDir) + rootDir.length,
       fileAbsolutePath.length
     )
     .replace('.mdx', '');
+  return slug;
 };
 
 const createProjectMainContent = ({ node, actions }) => {

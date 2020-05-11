@@ -1,0 +1,27 @@
+{
+  "name": "open-telemetry",
+  "fullName": "open-telemetry",
+  "slug": "open-telemetry",
+  "owner": {
+    "login": "open-telemetry",
+    "type": "Organization"
+  },
+  "title": "OpenTelemetry",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/open-telemetry",
+  "permalink": "https://opensource.newrelic.com/projects/open-telemetry",
+  "iconUrl": "./images/open-telemetry-icon.jpg",
+  "shortDescription": "OpenTelemetry makes robust, portable telemetry a built-in feature of cloud-native software.",
+  "description": "OpenTelemetry makes robust, portable telemetry a built-in feature of cloud-native software.",
+  "ossCategory": null,
+  "projectTags": [ "telemetry" ],
+  "acceptsContributions": false,
+  "website": {
+    "title": "Open Telemetry",
+    "url": "https://opentelemetry.io"
+  },
+  "version": "0.1.0",
+  "projectType": "external",
+  "subProjects": [ "open-telemetry-open-telemetry-js", "open-telemetry-opentelemetry-go" ],
+  "relatedProjects": [ "newrelic-newrelic-java-agent-ansible-role" ]
+}
