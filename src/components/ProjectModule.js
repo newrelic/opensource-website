@@ -19,12 +19,9 @@ const ProjectModule = ({ data }) => {
         Read more
       </a>
       <footer className={styles.projectModuleFooter}>
-        <a className={styles.projectModuleFooterLink} href={project.githubUrl}>
-          View in Github
-        </a>
-        <a className={styles.projectModuleFooterLink} href={project.website}>
-          Go to website
-        </a>
+        <span className={styles.projectModuleFooterLink}>
+          {project.contributorTotal} contributors from New Relic
+        </span>
       </footer>
     </div>
   );

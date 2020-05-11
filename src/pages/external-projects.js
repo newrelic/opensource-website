@@ -18,8 +18,7 @@ const ExternalProjects = () => {
         'New Relic has invested 30 billion hours into the development of Open Telemetry to help provide robust portable telemetry to all.',
       icon: OpenTelemetryIcon,
       link: '/open-telemetry',
-      githubUrl: 'https://github.com/open-telemetry',
-      website: 'https://opentelemetry.io/'
+      contributorTotal: 7
     },
     {
       title: 'freeCodeCamp',
@@ -27,8 +26,7 @@ const ExternalProjects = () => {
         'New Relic has invested 1,137,000 hours of engineering into freeCodeCamp to help provide educate the next generation engineers.',
       icon: freeCodeCampIcon,
       link: '/#',
-      githubUrl: 'https://github.com/freeCodeCamp/freeCodeCamp',
-      website: 'https://www.freecodecamp.org/'
+      contributorTotal: 3
     },
     {
       title: 'TensorFlow',
@@ -36,8 +34,7 @@ const ExternalProjects = () => {
         'We <3 TensorFlow and plan to continue to invest at least 10,000 weekly into the maintenance of the platform to help train ml mipsums.',
       icon: tensorFlowIcon,
       link: '/#',
-      githubUrl: 'https://github.com/tensorflow',
-      website: 'https://www.tensorflow.org/'
+      contributorTotal: 14
     }
   ];
 
