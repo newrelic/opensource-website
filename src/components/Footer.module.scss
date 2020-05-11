@@ -30,8 +30,8 @@
   background-repeat: no-repeat;
   padding-right: 15px;
   border: none;
-  
-  &:after {
+
+  &.has-edit-button:after {
     content: "";
     height: 37px;
     width: 1px;
