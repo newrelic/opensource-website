@@ -3,10 +3,21 @@
 const { v4: uuidv4 } = require('uuid');
 
 const isMdx = type => type === 'Mdx';
-const slugFromAbsoluteFilePath = (dir, fileAbsolutePath) =>
-  fileAbsolutePath
-    .slice(fileAbsolutePath.indexOf(dir) + dir.length, fileAbsolutePath.length)
+const slugFromAbsoluteFilePath = (rootDir, fileAbsolutePath) => {
+  // Directory
+  if (fileAbsolutePath.indexOf('index.mdx') >= 0) {
+    const start = fileAbsolutePath.indexOf(rootDir) + rootDir.length;
+    const end = fileAbsolutePath.length - '/index.mdx'.length;
+    return fileAbsolutePath.slice(start, end);
+  }
+  // Single file
+  return fileAbsolutePath
+    .slice(
+      fileAbsolutePath.indexOf(rootDir) + rootDir.length,
+      fileAbsolutePath.length
+    )
     .replace('.mdx', '');
+};
 
 const createProjectMainContent = ({ node, actions }) => {
   const { createNode } = actions;
@@ -27,6 +38,7 @@ const createProjectMainContent = ({ node, actions }) => {
   const fieldData = {
     slug
   };
+
   createNode({
     ...fieldData,
 
