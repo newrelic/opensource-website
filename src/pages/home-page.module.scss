@@ -41,7 +41,7 @@
   left: 50%;  
   background-size: cover;
   transform: rotateX(-3deg) rotateY(-15deg);
-  transition: all .5s var(--ease-out-quad);
+  transition: opacity .5s var(--ease-out-quad), transform .5s var(--ease-out-quad);
   transform-style: preserve-3d;
   perspective: 2000px;
 

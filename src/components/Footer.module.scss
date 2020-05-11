@@ -30,8 +30,8 @@
   background-repeat: no-repeat;
   padding-right: 15px;
   border: none;
-  
-  &:after {
+
+  &.has-edit-button:after {
     content: "";
     height: 37px;
     width: 1px;
@@ -77,11 +77,11 @@
 .footer-nav-links {
   display: flex;
   list-style-type: none;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .footer-nav-link-item {
-  margin-right: 24px;
+  margin-right: 20px;
   color: var(--color-neutrals-900);
 
   &:last-child {

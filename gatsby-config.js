@@ -1,4 +1,3 @@
-// import { camelCase, upperFirst } from 'lodash';
 const path = require(`path`);
 const _ = require('lodash');
 
@@ -64,9 +63,39 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
+        // https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/#remark-plugins
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              // `ignoreFileExtensions` defaults to [`png`, `jpg`, `jpeg`, `bmp`, `tiff`]
+              // as we assume you'll use gatsby-remark-images to handle
+              // images in markdown as it automatically creates responsive
+              // versions of images.
+              //
+              // If you'd like to not use gatsby-remark-images and just copy your
+              // original images to the public directory, set
+              // `ignoreFileExtensions` to an empty array.
+              // ignoreFileExtensions: []
+
+              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`]
+            }
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590
+            }
+          }
+        ],
+        // remarkPlugins: [require(`gatsby-remark-copy-linked-files`)],
         extensions: [`.mdx`, `.md`]
       }
     }

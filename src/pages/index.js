@@ -46,8 +46,7 @@ const IndexPage = ({ data }) => {
         'New Relic has invested 30 billion hours into the development of Open Telemetry to help provide robust portable telemetry to all.',
       icon: OpenTelemetryIcon,
       link: '/open-telemetry',
-      githubUrl: 'https://github.com/open-telemetry',
-      website: 'https://opentelemetry.io/'
+      contributorTotal: 7
     },
     {
       title: 'freeCodeCamp',
@@ -55,8 +54,7 @@ const IndexPage = ({ data }) => {
         'New Relic has invested 1,137,000 hours of engineering into freeCodeCamp to help provide educate the next generation engineers.',
       icon: freeCodeCampIcon,
       link: '/#',
-      githubUrl: 'https://github.com/freeCodeCamp/freeCodeCamp',
-      website: 'https://www.freecodecamp.org/'
+      contributorTotal: 3
     },
     {
       title: 'TensorFlow',
@@ -64,8 +62,7 @@ const IndexPage = ({ data }) => {
         'We <3 TensorFlow and plan to continue to invest at least 10,000 weekly into the maintenance of the platform to help train ml mipsums.',
       icon: tensorFlowIcon,
       link: '/#',
-      githubUrl: 'https://github.com/tensorflow',
-      website: 'https://www.tensorflow.org/'
+      contributorTotal: 14
     }
   ];
 
@@ -109,12 +106,15 @@ const IndexPage = ({ data }) => {
             The future of observability is open.
           </h2>
           <p className={styles.homepageHeroBodyCopy}>
-
-            New Relic ❤️'s open source. We <a href="https://github.com/newrelic/opensource-website">built</a> this site to make it easy for{' '}
-            <em>you</em> to{' '}
+            New Relic ❤️'s open source. We{' '}
+            <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
+            this site to make it easy for <em>you</em> to{' '}
             <a href="/explore-projects">explore hundreds of projects</a> we're
             maintaining as well as our involvement in{' '}
-            <a href="/open-standards">open standards</a>, working in <strong>open</strong>{' '}to deliver on the promise of a more perfect Internet together. <a href="/blog">Learn more</a>.
+            <a href="/open-standards">open standards</a>. Delivering on the
+            promise of a more <strong>perfect</strong> Internet means developing
+            more <strong>open source</strong> solutions together.{' '}
+            <a href="/blog">Learn more</a>.
           </p>
         </div>
         <div

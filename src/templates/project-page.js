@@ -46,20 +46,28 @@ const ProjectPage = ({ data }) => {
   const projectStats = get(project, 'stats', false);
   let tags = [
     {
-    name: 'category', value: get(project, 'ossCategory.title', '')
-    },{
-      name: 'language', value: get(project, 'primaryLanguage', '')
-    }, {
-      name: 'version', value: get(project, 'stats.latestRelease.name', '')
+      name: 'category',
+      value: get(project, 'ossCategory.title', '')
+    },
+    {
+      name: 'language',
+      value: get(project, 'primaryLanguage', '')
+    },
+    {
+      name: 'version',
+      value: get(project, 'stats.latestRelease.name', '')
     }
   ];
 
   if (project.projectTags) {
-    tags = tags.concat(project.projectTags.map(i => {
-      return {
-        name: 'tag', value: i.title
-      }
-    }));
+    tags = tags.concat(
+      project.projectTags.map(i => {
+        return {
+          name: 'tag',
+          value: i.title
+        };
+      })
+    );
   }
 
   tags = tags.filter(i => i.value !== null && i.value !== '');

@@ -43,7 +43,7 @@ const ExploreProjectsPage = props => {
         <div className={styles.featuredProject} key={p.id}>
           <img
             className={styles.featuredProjectIcon}
-            src={placeholderIcon}
+            src={p.iconUrl}
             alt={`icon for ${p.title}`}
           />
           <div className={styles.featuredProjectPrimaryContent}>

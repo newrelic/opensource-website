@@ -42,7 +42,12 @@ const Footer = () => {
                 <footer className={styles.footerContainer}>
                   <div className={styles.footerContents}>
                     <div className={styles.footerLogoContainer}>
-                      <Link to="/" className={styles.footerLogo}>
+                      <Link
+                        to="/"
+                        className={`${styles.footerLogo} ${
+                          editLink ? styles.hasEditButton : ''
+                        }`}
+                      >
                         New Relic Open Source
                       </Link>
                       {editLink && (
@@ -73,7 +78,10 @@ const Footer = () => {
                     <ul className={styles.footerNavLinks}>
                       <>
                         <li className={styles.footerNavLinkItem} key="0">
-                          <Link to="/code-of-conduct" className={styles.footerNavLink}>
+                          <Link
+                            to="/code-of-conduct"
+                            className={styles.footerNavLink}
+                          >
                             Code of Conduct
                           </Link>
                         </li>
