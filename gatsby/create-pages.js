@@ -2,7 +2,7 @@ const path = require(`path`);
 
 const allProjectsQuery = `
   query allProjects {
-    allProjects {
+    allProjects(filter: {projectType: {eq: "newrelic"}}) {
       edges {
         node {
           ...exploreProjectsFields
@@ -79,6 +79,18 @@ const allProjectsQuery = `
   }
 `;
 
+const getProjectComponent = projectType => {
+  if (projectType === 'external') {
+    return path.resolve('./src/templates/external-project-page.js');
+  }
+
+  if (projectType === 'external') {
+    return path.resolve('./src/templates/partner-project-page.js');
+  }
+
+  return path.resolve(`./src/templates/project-page.js`);
+};
+
 const createProjectPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const result = await graphql(`
@@ -91,6 +103,7 @@ const createProjectPages = async ({ graphql, actions }) => {
             slug
             fullName
             permalink
+            projectType
           }
         }
       }
@@ -99,10 +112,12 @@ const createProjectPages = async ({ graphql, actions }) => {
   const pages = result.data.allProjects.edges;
 
   pages.forEach(({ node }) => {
+    const component = getProjectComponent(node.projectType);
+
     // https://www.gatsbyjs.org/docs/actions/#createPage
     createPage({
       path: `projects/${node.fullName}`, // {org/user}/{repository-foo-name}, ex. newrelic/nr1-workload-geoops
-      component: path.resolve(`./src/templates/project-page.js`),
+      component,
       context: {
         // Data passed to context is available
         // in page queries as GraphQL variables.

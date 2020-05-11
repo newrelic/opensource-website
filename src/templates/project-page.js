@@ -23,8 +23,10 @@ import openIssueGreyIcon from '../images/icon-open-issue-grey.svg';
 import iconGitHubWhite from '../images/icon-github-white.svg';
 
 export const query = graphql`
-  query Project($slug: String) {
-    allProjects(filter: { slug: { eq: $slug } }) {
+  query NewRelicProjects($slug: String) {
+    allProjects(
+      filter: { slug: { eq: $slug }, projectType: { eq: "newrelic" } }
+    ) {
       nodes {
         ...projectFields
       }
@@ -74,6 +76,7 @@ const ProjectPage = ({ data }) => {
 
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
   const supportUrl = get(project, 'supportUrl', false);
+  const ossCategory = get(project, 'ossCategory', false);
 
   const [screenshotModalActive, setScreenshotModalActive] = useState(false);
   const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(0);
@@ -318,16 +321,18 @@ const ProjectPage = ({ data }) => {
                   </div>
                 )}
             </div>
-            <div className={styles.callToActionCategorySpecification}>
-              <h5 className={styles.callToActionCategory}>
-                <Link to="/oss-category" rel="noopener noreferrer">
-                  {project.ossCategory.title}
-                </Link>
-              </h5>
-              <p className={styles.callToActionDescription}>
-                {project.ossCategory.description}
-              </p>
-            </div>
+            {ossCategory && (
+              <div className={styles.callToActionCategorySpecification}>
+                <h5 className={styles.callToActionCategory}>
+                  <Link to="/oss-category" rel="noopener noreferrer">
+                    {project.ossCategory.title}
+                  </Link>
+                </h5>
+                <p className={styles.callToActionDescription}>
+                  {project.ossCategory.description}
+                </p>
+              </div>
+            )}
           </div>
 
           {projectStats &&
