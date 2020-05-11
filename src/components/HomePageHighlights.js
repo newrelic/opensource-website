@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import ProjectModule from './ProjectModule';
 
 import styles from './HomePageHighlights.module.scss';
 
@@ -9,41 +10,7 @@ const HomePageHighlights = data => {
   return (
     <div className={styles.featuredExternalProjects}>
       {projects.map(project => {
-        return (
-          <div className={styles.featuredExternalProject} key={project.title}>
-            <img
-              className={styles.featuredExternalProjectIcon}
-              src={project.icon}
-              alt={`icon for ${project.title}`}
-            />
-            <h4 className={styles.featuredExternalProjectTitle}>
-              {project.title}
-            </h4>
-            <p className={styles.featuredExternalProjectDescription}>
-              {project.description}
-            </p>
-            <a
-              href={project.link}
-              className={`button ${styles.featuredExternalProjectButton}`}
-            >
-              Read more
-            </a>
-            <footer className={styles.featuredExternalProjectFooter}>
-              <a
-                className={styles.featuredExternalProjectFooterLink}
-                href={project.githubUrl}
-              >
-                View in Github
-              </a>
-              <a
-                className={styles.featuredExternalProjectFooterLink}
-                href={project.website}
-              >
-                Go to website
-              </a>
-            </footer>
-          </div>
-        );
+        return <ProjectModule data={project} key={project.title} />;
       })}
     </div>
   );
