@@ -110,7 +110,7 @@ const IndexPage = ({ data }) => {
             New Relic ❤️'s open source. We{' '}
             <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
             this site to make it easy for <em>you</em> to{' '}
-            <a href="/explore-projects">explore hundreds of projects</a> we're
+            <a href="/explore-projects">explore the projects</a> we're
             maintaining as well as our involvement in{' '}
             <a href="/open-standards">open standards</a>. Delivering on the
             promise of a more <strong>perfect</strong> Internet means developing
