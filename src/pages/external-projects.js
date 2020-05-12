@@ -87,7 +87,7 @@ const ExternalProjects = ({ data }) => {
               <h4 className={styles.moreProjectsHeaderSectionTitle}>
                 More projects
               </h4>
-              <Link className={styles.moreProjectsMoreLink}>View all</Link>
+              {otherProjects.length > 5 && <Link className={styles.moreProjectsMoreLink}>View all</Link>}
             </div>
             {otherProjects.map((project, i) => {
               if (i < 5) {
