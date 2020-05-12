@@ -74,9 +74,9 @@ function formatStats(project, stats) {
     releases: _.get(project, 'tags.totalCount'),
     latestRelease: latestReleaseName ? latestRelease : null,
     commits: _.get(project, 'totalCommits.target.history.totalCount'),
-    lastMonthCommitTotal: _.get(
+    lastSixMonthsCommitTotal: _.get(
       project,
-      'last30Days.target.history.totalCount'
+      'lastSixMonths.target.history.totalCount'
     ),
     contributors: contributorCount,
     pullRequests: {
