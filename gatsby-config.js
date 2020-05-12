@@ -1,5 +1,6 @@
 const path = require(`path`);
 const _ = require('lodash');
+const remarkExternalLinks = require('./plugins/remark-external-link-icon');
 
 module.exports = {
   siteMetadata: {
@@ -67,6 +68,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
+        remarkPlugins: [remarkExternalLinks],
         // https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/#remark-plugins
         gatsbyRemarkPlugins: [
           {
