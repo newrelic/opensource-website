@@ -1,14 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import { get } from 'lodash';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 import ProjectMainContent from '../components/ProjectMainContent';
-import ContributorListing from '../components/ContributorListing';
 import styles from './project-page.module.scss';
 
 import iconGitHubWhite from '../images/icon-github-white.svg';
@@ -76,38 +75,7 @@ const ExternalProjectPage = ({ data }) => {
     return renderNotFound();
   }
 
-  const projectStats = get(project, 'stats', false);
-  let tags = [
-    {
-      name: 'category',
-      value: get(project, 'ossCategory.title', '')
-    },
-    {
-      name: 'language',
-      value: get(project, 'primaryLanguage', '')
-    },
-    {
-      name: 'version',
-      value: get(project, 'stats.latestRelease.name', '')
-    }
-  ];
-
-  if (project.projectTags) {
-    tags = tags.concat(
-      project.projectTags.map(i => {
-        return {
-          name: 'tag',
-          value: i.title
-        };
-      })
-    );
-  }
-
-  tags = tags.filter(i => i.value !== null && i.value !== '');
-
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
-  const supportUrl = get(project, 'supportUrl', false);
-  const ossCategory = get(project, 'ossCategory', false);
 
   return (
     <Layout hasHeaderBg className={styles.projectPageLayout}>
@@ -116,7 +84,6 @@ const ExternalProjectPage = ({ data }) => {
         title={project.title}
         subheader={project.description}
         icon={project.iconUrl}
-        tags={tags}
         hasSeparator
       />
       <div className="primary-content">
@@ -128,43 +95,6 @@ const ExternalProjectPage = ({ data }) => {
               mdx={project.mainContent.mdx.compiledMdx}
               project={project}
             />
-          )}
-          {!mainContent && (
-            <>
-              <h2>Getting Started</h2>
-              <p>
-                Go to the project's{' '}
-                <Link
-                  to={project.githubUrl}
-                  target="__blank"
-                  rel="noopener noreferrer"
-                >
-                  README
-                </Link>{' '}
-                for setup and usage details.
-              </p>
-            </>
-          )}
-
-          {projectStats && (
-            <>
-              <h3>Top Contributors</h3>
-              <p>
-                Thank you to the following and{' '}
-                <a
-                  target="__blank"
-                  rel="noopener noreferrer"
-                  href={`${project.githubUrl}/graphs/contributors`}
-                >
-                  all contributors
-                </a>
-                .
-              </p>
-              <ContributorListing
-                contributors={projectStats.cachedContributors}
-                project={project}
-              />
-            </>
           )}
         </main>
         <aside className="primary-content-aside">
@@ -185,62 +115,14 @@ const ExternalProjectPage = ({ data }) => {
                   className="button button-secondary"
                   rel="noopener noreferrer"
                 >
-                  Fork GitHub Repo
+                  View GitHub Repos
                 </a>
               </div>
-              {project.stats &&
-                project.stats.license &&
-                project.stats.license.spdxId !== 'NOASSERTION' && (
-                  <div className={styles.licenseFootnote}>
-                    <small>
-                      Distributed under{' '}
-                      <strong>{project.stats.license.name}</strong>.
-                    </small>
-                  </div>
-                )}
             </div>
-            {ossCategory && (
-              <div className={styles.callToActionCategorySpecification}>
-                <h5 className={styles.callToActionCategory}>
-                  <Link to="/oss-category" rel="noopener noreferrer">
-                    {project.ossCategory.title}
-                  </Link>
-                </h5>
-                <p className={styles.callToActionDescription}>
-                  {project.ossCategory.description}
-                </p>
-              </div>
-            )}
           </div>
-
-          {supportUrl ? (
-            <>
-              <h4>Support</h4>
-              <p>
-                Looking for help? Go to this project's thread in the{' '}
-                <a href={supportUrl} target="__blank" rel="noopener noreferrer">
-                  Explorers Hub
-                </a>
-                .
-              </p>
-            </>
-          ) : (
-            <>
-              <h4>Support</h4>
-              <p>
-                This project does not have a <strong>monitored</strong>{' '}
-                <em>topic</em>, but you may search the{' '}
-                <a
-                  href={`https://discuss.newrelic.com/search?q=${project.title}`}
-                  target="__blank"
-                  rel="noopener noreferrer"
-                >
-                  Explorers Hub
-                </a>{' '}
-                for help.
-              </p>
-            </>
-          )}
+          <div>
+            Relic contributor list goes here
+          </div>
         </aside>
       </div>
     </Layout>

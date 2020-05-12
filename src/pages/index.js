@@ -8,7 +8,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
-import ArticlePreviews from '../components/ArticlePreviews';
 import styles from './home-page.module.scss';
 
 import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg';
@@ -25,8 +24,10 @@ import closeIcon from '../images/icon-close.svg';
 export const query = graphql`
   query HomePageQuery {
     topProjects: allProjects(
+      filter: {projectType: {eq: "newrelic"}}
       sort: { fields: stats___commits, order: DESC }
       limit: 8
+
     ) {
       edges {
         node {
@@ -45,7 +46,7 @@ const IndexPage = ({ data }) => {
       description:
         'New Relic has invested 30 billion hours into the development of Open Telemetry to help provide robust portable telemetry to all.',
       icon: OpenTelemetryIcon,
-      link: '/open-telemetry',
+      link: '/projects/open-telemetry',
       contributorTotal: 7
     },
     {
@@ -167,15 +168,6 @@ const IndexPage = ({ data }) => {
         </p>
 
         <HomePageInternalProjects data={internalProjects} />
-      </div>
-
-      <div className={styles.recentArticlesContainer}>
-        <h3 className={styles.recentArticlesSectionTitle}>Recent articles</h3>
-        <p className={styles.recentArticlesSectionDescription}>
-          Aenean eu leo quam. Pellentesque ornare sem lacinia quam or{' '}
-          <Link to="/blog">view more articles</Link>
-        </p>
-        <ArticlePreviews articles={recentArticles} />
       </div>
     </Layout>
   );
