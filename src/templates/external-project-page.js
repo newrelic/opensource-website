@@ -8,9 +8,11 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 import ProjectMainContent from '../components/ProjectMainContent';
-import styles from './project-page.module.scss';
+import AsideNavigationItem from '../components/AsideNavigationItem';
+import styles from './external-project-page.module.scss';
 
-import iconGitHubWhite from '../images/icon-github-white.svg';
+import iconGitHubGreen from '../images/icon-github-green.svg';
+import iconGitHub from '../images/icon-github.svg';
 
 export const query = graphql`
   query ExternalProjects($slug: String) {
@@ -22,9 +24,6 @@ export const query = graphql`
         subProjects {
           ...projectFields
         }
-        relatedProjects {
-          ...projectFields
-        }
       }
     }
   }
@@ -33,32 +32,33 @@ export const query = graphql`
 const SubProjects = ({ projects }) => {
   return (
     <>
-      <h2>Sub Projects</h2>
-      <ul>
+      <h3>Sub Projects</h3>
+      <ul className={styles.subProjectList}>
         {projects.map(p => {
-          return <li key={p.fullName}>{p.fullName}</li>;
+          return (
+            <li key={p.fullName} className={styles.subProject}>
+              <div className={styles.subProjectCopy}>
+                <h4 className={styles.subProjectName}>{p.title}</h4>
+                <p className={styles.subProjectDescription}>
+                  {p.description
+                    ? p.description
+                    : 'No description available for this project'}
+                </p>
+              </div>
+              <div className={styles.subProjectCallToAction}>
+                <button type="button" className="button button-tertiary">
+                  <img src={iconGitHub} alt="GitHub Logo" />
+                  View repo
+                </button>
+              </div>
+            </li>
+          );
         })}
       </ul>
     </>
   );
 };
 SubProjects.propTypes = {
-  projects: PropTypes.array
-};
-
-const RelatedProjects = ({ projects }) => {
-  return (
-    <>
-      <h2>Related Projects</h2>
-      <ul>
-        {projects.map(p => {
-          return <li key={p.fullName}>{p.fullName}</li>;
-        })}
-      </ul>
-    </>
-  );
-};
-RelatedProjects.propTypes = {
   projects: PropTypes.array
 };
 
@@ -69,7 +69,6 @@ const ExternalProjectPage = ({ data }) => {
 
   const project = get(data, 'allProjects.nodes[0]', false);
   const subProjects = get(project, 'subProjects', false);
-  const relatedProjects = get(project, 'relatedProjects', false);
 
   if (!project) {
     return renderNotFound();
@@ -95,7 +94,6 @@ const ExternalProjectPage = ({ data }) => {
             />
           )}
           {subProjects && <SubProjects projects={subProjects} />}
-          {relatedProjects && <RelatedProjects projects={relatedProjects} />}
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
@@ -114,15 +112,28 @@ const ExternalProjectPage = ({ data }) => {
                   className="button button-secondary"
                   rel="noopener noreferrer"
                 >
-                  <img src={iconGitHubWhite} alt="GitHub logo" />
+                  <img src={iconGitHubGreen} alt="GitHub logo" />
                   GitHub
                 </a>
               </div>
             </div>
           </div>
-          <div>
-            Relic contributor list goes here
-          </div>
+          <h4>New Relic Contributors</h4>
+          <AsideNavigationItem
+            icon="https://api.adorable.io/avatars/95/sarrah@adorable.io.png"
+            label="John McGibbons"
+            to="https://github.com/tangollama"
+          />
+          <AsideNavigationItem
+            icon="https://api.adorable.io/avatars/90/katie@adorable.png"
+            label="Sarah Summers"
+            to="https://github.com/tangollama"
+          />
+          <AsideNavigationItem
+            icon="https://api.adorable.io/avatars/90/Karen@adorable.png"
+            label="Alex Williamson"
+            to="https://github.com/tangollama"
+          />
         </aside>
       </div>
     </Layout>

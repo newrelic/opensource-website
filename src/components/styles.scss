@@ -229,6 +229,13 @@ select {
 .primary-content-main {
   width: 69.38775510204081%;
 
+  hr {
+    margin: 16px 0 16px;
+    border: none;
+    height: 1px;
+    background-color: var(--color-neutrals-200);
+  }
+
   :first-child {
     margin-top: 0;
   }
