@@ -1,0 +1,128 @@
+{
+  "projectFullName": "newrelic/newrelic-kubernetes-operator",
+  "issues": {
+    "open": 10
+  },
+  "releases": 0,
+  "latestRelease": null,
+  "commits": 112,
+  "lastMonthCommitTotal": 74,
+  "contributors": 7,
+  "pullRequests": {
+    "open": 1
+  },
+  "searchCategory": "good first issue",
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2MTQzODA2Njk=",
+      "title": "Documentation review",
+      "url": "https://github.com/newrelic/newrelic-kubernetes-operator/issues/25",
+      "createdAt": "2020-05-07T22:21:01Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "zlesnr",
+        "id": "MDQ6VXNlcjI5MjY0OTY0",
+        "email": "",
+        "name": "Zach Leslie"
+      },
+      "number": 25,
+      "createdBy": "Zach Leslie"
+    },
+    {
+      "id": "MDU6SXNzdWU2MTYwMzUyMzU=",
+      "title": "Set Service Name in New Relic Client",
+      "url": "https://github.com/newrelic/newrelic-kubernetes-operator/issues/33",
+      "createdAt": "2020-05-11T17:00:22Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jthurman42",
+        "id": "MDQ6VXNlcjQ1NTQxOQ==",
+        "email": "jthurman@newrelic.com",
+        "name": "Jonathan Thurman"
+      },
+      "number": 33,
+      "createdBy": "Jonathan Thurman"
+    }
+  ],
+  "cachedContributors": [
+    {
+      "id": 1902623,
+      "login": "trutx",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1902623?v=4",
+      "htmlUrl": "https://github.com/trutx",
+      "contributions": 1
+    },
+    {
+      "id": 153632,
+      "login": "StephenWeber",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/153632?v=4",
+      "htmlUrl": "https://github.com/StephenWeber",
+      "contributions": 1
+    },
+    {
+      "id": 27262268,
+      "login": "t0astbandit",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/27262268?v=4",
+      "htmlUrl": "https://github.com/t0astbandit",
+      "contributions": 3
+    },
+    {
+      "id": 723533,
+      "login": "monkeyherder",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/723533?v=4",
+      "htmlUrl": "https://github.com/monkeyherder",
+      "contributions": 5
+    },
+    {
+      "id": 297766,
+      "login": "dobbs",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/297766?v=4",
+      "htmlUrl": "https://github.com/dobbs",
+      "contributions": 10
+    },
+    {
+      "id": 455419,
+      "login": "jthurman42",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
+      "htmlUrl": "https://github.com/jthurman42",
+      "contributions": 24
+    },
+    {
+      "id": 7946679,
+      "login": "thande",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/7946679?v=4",
+      "htmlUrl": "https://github.com/thande",
+      "contributions": 43
+    }
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
+    }
+  ],
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
+}

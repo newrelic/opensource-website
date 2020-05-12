@@ -1,39 +1,21 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-java",
   "issues": {
-    "open": 8
+    "open": 9
   },
   "releases": 1,
   "latestRelease": {
     "name": "v0.3.0",
     "date": "2020-04-13T19:41:14Z"
   },
-  "commits": 101,
+  "commits": 103,
   "lastMonthCommitTotal": 18,
   "contributors": 4,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MDg0OTYwOTg=",
-      "title": "Map the Span.Kind to a New Relic attribute",
-      "url": "https://github.com/newrelic/opentelemetry-exporter-java/issues/40",
-      "createdAt": "2020-04-28T17:40:40Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "jkwatson",
-        "id": "MDQ6VXNlcjg1ODczMQ==",
-        "email": "jwatson@newrelic.com",
-        "name": "John Watson"
-      },
-      "number": 40,
-      "createdBy": "John Watson"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 9435570,
@@ -61,7 +43,7 @@
       "login": "jkwatson",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/858731?v=4",
       "htmlUrl": "https://github.com/jkwatson",
-      "contributions": 56
+      "contributions": 57
     }
   ],
   "languages": [
