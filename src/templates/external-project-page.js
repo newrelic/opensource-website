@@ -88,14 +88,14 @@ const ExternalProjectPage = ({ data }) => {
       />
       <div className="primary-content">
         <main className={`primary-content-main ${styles.primaryContentMain}`}>
-          {subProjects && <SubProjects projects={subProjects} />}
-          {relatedProjects && <RelatedProjects projects={relatedProjects} />}
           {mainContent && (
             <ProjectMainContent
               mdx={project.mainContent.mdx.compiledMdx}
               project={project}
             />
           )}
+          {subProjects && <SubProjects projects={subProjects} />}
+          {relatedProjects && <RelatedProjects projects={relatedProjects} />}
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
