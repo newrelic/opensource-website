@@ -3,9 +3,9 @@ const _ = require('lodash');
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`
+    title: `New Relic Open Source`,
+    description: `New Relic <3's open source. We built this site to make it easy for you to explore hundreds of projects we're maintaining as well as our involvement in open standards.`,
+    author: `@newrelic`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -50,13 +50,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `New Relic Open source`,
+        short_name: `NR OSS`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#007e8a`,
+        theme_color: `#007e8a`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
+        icon: `src/images/icon.png` // This path is relative to the root of the site.
       }
     },
     'gatsby-plugin-sass',
