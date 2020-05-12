@@ -35,7 +35,8 @@
   "devDependencies": {
     "@newrelic/eslint-plugin-newrelic": "^0.3.0",
     "eslint": "^6.8.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "unist-util-visit": "^2.0.2"
   },
   "keywords": [
     "gatsby",

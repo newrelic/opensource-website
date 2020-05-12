@@ -71,7 +71,6 @@ const IndexPage = ({ data }) => {
   ];
 
   const internalProjects = get(data, 'topProjects.edges').map(i => i.node);
-  // console.log(internalProjects);
   internalProjects.forEach((p, index) => {
     internalProjects[index].iconUrl = genericProjectIcon;
   });
