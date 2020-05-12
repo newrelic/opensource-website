@@ -1,13 +1,12 @@
 {
   "projectFullName": "newrelic/newrelic-kubernetes-operator",
   "issues": {
-    "open": 10
+    "open": 7
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 112,
-  "lastMonthCommitTotal": 74,
-  "contributors": 7,
+  "commits": 128,
+  "lastSixMonthsCommitTotal": 128,
   "pullRequests": {
     "open": 1
   },
@@ -29,76 +28,9 @@
       },
       "number": 25,
       "createdBy": "Zach Leslie"
-    },
-    {
-      "id": "MDU6SXNzdWU2MTYwMzUyMzU=",
-      "title": "Set Service Name in New Relic Client",
-      "url": "https://github.com/newrelic/newrelic-kubernetes-operator/issues/33",
-      "createdAt": "2020-05-11T17:00:22Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "jthurman42",
-        "id": "MDQ6VXNlcjQ1NTQxOQ==",
-        "email": "jthurman@newrelic.com",
-        "name": "Jonathan Thurman"
-      },
-      "number": 33,
-      "createdBy": "Jonathan Thurman"
     }
   ],
-  "cachedContributors": [
-    {
-      "id": 1902623,
-      "login": "trutx",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1902623?v=4",
-      "htmlUrl": "https://github.com/trutx",
-      "contributions": 1
-    },
-    {
-      "id": 153632,
-      "login": "StephenWeber",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/153632?v=4",
-      "htmlUrl": "https://github.com/StephenWeber",
-      "contributions": 1
-    },
-    {
-      "id": 27262268,
-      "login": "t0astbandit",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/27262268?v=4",
-      "htmlUrl": "https://github.com/t0astbandit",
-      "contributions": 3
-    },
-    {
-      "id": 723533,
-      "login": "monkeyherder",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/723533?v=4",
-      "htmlUrl": "https://github.com/monkeyherder",
-      "contributions": 5
-    },
-    {
-      "id": 297766,
-      "login": "dobbs",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/297766?v=4",
-      "htmlUrl": "https://github.com/dobbs",
-      "contributions": 10
-    },
-    {
-      "id": 455419,
-      "login": "jthurman42",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
-      "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 24
-    },
-    {
-      "id": 7946679,
-      "login": "thande",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/7946679?v=4",
-      "htmlUrl": "https://github.com/thande",
-      "contributions": 43
-    }
-  ],
+  "cachedContributors": [],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2U1MzU=",

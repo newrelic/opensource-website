@@ -5,23 +5,14 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 25,
-  "lastMonthCommitTotal": 25,
-  "contributors": 1,
+  "commits": 27,
+  "lastSixMonthsCommitTotal": 27,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
-  "cachedContributors": [
-    {
-      "id": 1786630,
-      "login": "aso1124",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1786630?v=4",
-      "htmlUrl": "https://github.com/aso1124",
-      "contributions": 25
-    }
-  ],
+  "cachedContributors": [],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
@@ -34,7 +25,10 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-session-timeline/master/screenshots/demo.gif",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-session-timeline/master/screenshots/session-timeline.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",
