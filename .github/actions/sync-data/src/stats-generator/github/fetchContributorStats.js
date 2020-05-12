@@ -1,28 +1,35 @@
-// const github = require("@actions/github")
 const core = require('@actions/core');
+// const { graphql } = require('@octokit/graphql');
+// const parseLinkHeader = require('parse-link-header');
 
-const { Octokit } = require('@octokit/rest');
-const { graphql } = require('@octokit/graphql');
-const parseLinkHeader = require('parse-link-header');
+const { prettyPrintJson, prettyPrint } = require('../../shared/helpers');
+const { createOctokit } = require('./github-client');
 
-const queries = require('./queries');
-const { prettyPrintJson, prettyPrint } = require('../shared/helpers');
-
+// TODO: Set Default_Org via param, since the getContributorStats query won't always be for the newrelic org
 const DEFAULT_ORG = 'newrelic';
 const GH_TOKEN = core.getInput('github-token') || process.env.GH_TOKEN;
-const REPOS_PER_PAGE = 100;
+// console.log(`github-token: ${GH_TOKEN}`);
+// const REPOS_PER_PAGE = 100;
 
-const octokit = new Octokit({
-  auth: GH_TOKEN,
-  log: {
-    debug: () => {},
-    info: () => {},
-    // eslint-disable-next-line no-console
-    warn: console.warn,
-    // eslint-disable-next-line no-console
-    error: console.error
-  }
+const octokit = createOctokit({
+  DEFAULT_ORG,
+  accessToken: GH_TOKEN,
+  cacheKey: ''
 });
+
+// const octokit = (async () => {
+//   return await createGithubClient(DEFAULT_ORG, '', token)
+// })();
+
+// const octokit = new Octokit({
+//   auth: GH_TOKEN,
+//   log: {
+//     debug: () => { },
+//     info: () => { },
+//     warn: console.warn,
+//     error: console.error,
+//   },
+// });
 // const octokit = new github.GitHub(GH_TOKEN, {
 //   log: {
 //     debug: () => {},
@@ -32,11 +39,11 @@ const octokit = new Octokit({
 //   },
 // })
 
-const graphqlWithAuth = graphql.defaults({
-  headers: {
-    authorization: `token ${GH_TOKEN}`
-  }
-});
+// const graphqlWithAuth = graphql.defaults({
+//   headers: {
+//     authorization: `token ${GH_TOKEN}`
+//   }
+// });
 
 /*
 
@@ -154,134 +161,148 @@ const graphqlWithAuth = graphql.defaults({
  * start_page - Beginning page
  * exclude_archived - Whether or not to filter out archived repositories (repos.listForOrg does not offer a way to exclude these from the response)
  */
-const organizationRepositoryIterator = function({
-  pages = 1,
-  org = DEFAULT_ORG,
-  type = 'public',
-  per_page = REPOS_PER_PAGE,
-  start_page = 1
-  // excludeArchived = true
-}) {
-  return function() {
-    const MAX_PAGES_ALLOWED = 100;
+// const organizationRepositoryIterator = function({
+//   pages = 1,
+//   org = DEFAULT_ORG,
+//   type = 'public',
+//   per_page = REPOS_PER_PAGE,
+//   start_page = 1
+//   // excludeArchived = true
+// }) {
+//   return function() {
+//     const MAX_PAGES_ALLOWED = 100;
 
-    let isFirstPage = true;
-    const startPage = start_page;
-    let currentPage = startPage;
-    let pagesNeeded;
-    let pagesAvailable;
+//     let isFirstPage = true;
+//     const startPage = start_page;
+//     let currentPage = startPage;
+//     let pagesNeeded;
+//     let pagesAvailable;
 
-    // How best do we initialize this for the first page?
-    let pagesToGet = pages === 0 ? MAX_PAGES_ALLOWED : pages;
+//     // How best do we initialize this for the first page?
+//     let pagesToGet = pages === 0 ? MAX_PAGES_ALLOWED : pages;
 
-    const hasMore = function() {
-      return pagesToGet > 0;
-    };
+//     const hasMore = function() {
+//       return pagesToGet > 0;
+//     };
 
-    const getCurrentPage = function() {
-      return currentPage;
-    };
+//     const getCurrentPage = function() {
+//       return currentPage;
+//     };
 
-    const firstPage = async function() {
-      const firstPage = await fetchOrganizationRepositoryPage({
-        org,
-        type,
-        per_page,
-        page: startPage
-      });
-      // prettyPrintJson(Object.keys(firstPage.data));
+//     const firstPage = async function() {
+//       const firstPage =
+//         // await fetchOrganizationRepositoryPageGraphQL();
+//         await fetchOrganizationRepositoryPage({
+//           org,
+//           type,
+//           per_page,
+//           page: startPage
+//         });
+//       // prettyPrintJson(Object.keys(firstPage.data));
 
-      if (firstPage instanceof Error) {
-        prettyPrint('Error: organizationRepositoryIterator#firstPage');
-        prettyPrintJson(firstPage);
-      }
+//       if (firstPage instanceof Error) {
+//         prettyPrint('Error: organizationRepositoryIterator#firstPage');
+//         prettyPrintJson(firstPage);
+//       }
 
-      // const { status, url, headers, data } = firstPage;
-      const linkHeaders = parseLinkHeader(firstPage.headers.link);
-      const lastPage = !linkHeaders ? startPage : linkHeaders.last.page;
+//       // const { status, url, headers, data } = firstPage;
+//       const linkHeaders = parseLinkHeader(firstPage.headers.link);
+//       const lastPage = !linkHeaders ? startPage : linkHeaders.last.page;
 
-      pagesNeeded = pages === 0 ? lastPage : pages; // 0 === all pages available
-      pagesAvailable = lastPage - start_page;
-      pagesToGet = pagesAvailable <= pagesNeeded ? pagesAvailable : pagesNeeded;
+//       pagesNeeded = pages === 0 ? lastPage : pages; // 0 === all pages available
+//       pagesAvailable = lastPage - start_page;
+//       pagesToGet = pagesAvailable <= pagesNeeded ? pagesAvailable : pagesNeeded;
 
-      return firstPage;
-    };
+//       return firstPage;
+//     };
 
-    const next = function() {
-      let nextPage = false;
+//     const next = function() {
+//       let nextPage = false;
 
-      if (hasMore()) {
-        if (isFirstPage) {
-          nextPage = firstPage();
-        }
+//       if (hasMore()) {
+//         if (isFirstPage) {
+//           nextPage = firstPage();
+//         }
 
-        if (!isFirstPage) {
-          nextPage =
-            // fetchOrganizationRepositoryPageGraphQL({
-            //   page: currentPage,
-            // });
-            fetchOrganizationRepositoryPage({
-              org,
-              type,
-              per_page,
-              page: currentPage
-            });
-        }
+//         if (!isFirstPage) {
+//           nextPage =
+//             // fetchOrganizationRepositoryPageGraphQL({
+//             //   page: currentPage,
+//             // });
+//             fetchOrganizationRepositoryPage({
+//               org,
+//               type,
+//               per_page,
+//               page: currentPage
+//             });
+//         }
 
-        isFirstPage = false;
-        pagesToGet = pagesToGet - 1;
-        currentPage = currentPage + 1;
-      }
+//         isFirstPage = false;
+//         pagesToGet = pagesToGet - 1;
+//         currentPage = currentPage + 1;
+//       }
 
-      // prettyPrintJson({ value: nextPage, done: !hasMore() });
-      return { value: nextPage, done: !hasMore() };
-    };
+//       // prettyPrintJson({ value: nextPage, done: !hasMore() });
+//       return { value: nextPage, done: !hasMore() };
+//     };
 
-    return {
-      hasMore,
-      next,
-      getCurrentPage
-    };
-  };
-};
+//     return {
+//       hasMore,
+//       next,
+//       getCurrentPage
+//     };
+//   };
+// };
 
-const fetchOrganizationRepositoryPage = async function({
-  org,
-  type,
-  per_page,
-  page
-}) {
-  try {
-    const response = await octokit.repos.listForOrg({
-      org,
-      type,
-      per_page,
-      page
-    });
+// const fetchOrganizationRepositoryPage = async function({
+//   org,
+//   type,
+//   per_page,
+//   page
+// }) {
+//   try {
+//     const response = await octokit.repos.listForOrg({
+//       org,
+//       type,
+//       per_page,
+//       page
+//     });
 
-    const { /* status, url, headers, */ data } = response;
-    prettyPrint(`\nPage: ${page} found ${data.length} total results`);
+//     const { status, url, headers, data } = response;
+//     console.log(`\nPage: ${page} found ${data.length} total results`);
 
-    // prettyPrintJson(response.data.length);
-    // prettyPrintJson(response.status);
-    return response;
-  } catch (e) {
-    // eslint-disable-next-line no-console
-    console.error(e);
-    return e;
-  }
-};
+//     // prettyPrintJson(response.data.length);
+//     // prettyPrintJson(response.status);
+//     return response;
+//   } catch (e) {
+//     console.error(e);
+//     return e;
+//   }
+// };
 
-const fetchRepositoryStats = async function(owner, repo) {
-  return graphqlWithAuth(queries.repositoryStats(), { owner, repo });
-};
+// const fetchOrganizationRepositoryPageGraphQL = async function ({ page }) {
+//   return graphqlWithAuth(queries.projects, { login: "newrelic", page });
+// };
+
+// const fetchRepositoryStats = async function (owner, repo) {
+//   return graphqlWithAuth(queries.repositoryStats(), { owner, repo });
+// };
 
 const fetchContributorStats = async function(owner, repo) {
+  // console.log("creating octokit")
+  // const octokit = await createGithubClient(DEFAULT_ORG, '', token)
+  // console.log("octokit created", octokit);
+  // console.log(`fetchContributorStats: owner[${owner}], repo[${repo}]`);
   try {
-    const contributorStats = await octokit.repos.getContributorsStats({
-      owner,
-      repo
-    });
+    // const contributorStats = await octokit.repos.getContributorsStats({
+    const contributorStats = await octokit.request(
+      'GET /repos/:owner/:repo/stats/contributors',
+      {
+        owner,
+        repo
+      }
+    );
+    // console.log(`Result: ${contributorStats}`);
     return contributorStats;
   } catch (e) {
     prettyPrint(
@@ -291,10 +312,10 @@ const fetchContributorStats = async function(owner, repo) {
 };
 
 const getRepoStatsByContributor = async function(owner, repo) {
-  const response = await fetchContributorStats(owner, repo);
-  const { /* status, url, headers, */ data } = response;
-
   try {
+    const response = await fetchContributorStats(owner, repo);
+    const { /* status, url, headers, */ data } = response;
+
     if (Array.isArray(data)) {
       const formattedContributorStats = data.map(({ total, author }) => ({
         total: total,
@@ -306,23 +327,24 @@ const getRepoStatsByContributor = async function(owner, repo) {
     }
 
     prettyPrint(
-      `Warning, no repoStatsByContributor found for Owner: ${owner} Repo: ${repo}`
+      `[WARNING] No repoStatsByContributor found for Owner: ${owner} Repo: ${repo}`
     );
     prettyPrint('Instead found: ');
     prettyPrintJson(data);
   } catch (e) {
-    prettyPrint(`getRepoStatsByContributor | error | ${e}`);
+    prettyPrint(
+      `[ERROR] stats-generator.github.getRepoStatsByContributor | {"owner": ${owner}, "repo": ${repo}} | ${e}`
+    );
   }
 
   return {};
 };
 
 const fetchStats = async function(owner, repo) {
-  try {
-    // 1. Graphql, includes releases.totalCount, issues.totalCount, forks.totalCount, pullRequests.totalCount
-    const repoStats = await fetchRepositoryStats(owner, repo);
-    // prettyPrint(Object.keys(repoStats.repository));
-    /*
+  // 1. Graphql, includes releases.totalCount, issues.totalCount, forks.totalCount, pullRequests.totalCount
+  // const repoStats = await fetchRepositoryStats(owner, repo);
+  // prettyPrint(Object.keys(repoStats.repository));
+  /*
     [
       'id',               'collaborators',
       'releases',         'issues',
@@ -333,40 +355,42 @@ const fetchStats = async function(owner, repo) {
       'deployments',      'commitComments'
     ]*/
 
-    // 2a. Individual Contributor stats
-    const contributorStats = await getRepoStatsByContributor(owner, repo); // strips out the 'weeks' object
+  // 2a. Individual Contributor stats
+  const contributorStats = await getRepoStatsByContributor(owner, repo); // strips out the 'weeks' object
 
-    // prettyPrint(contributorStats);
+  // prettyPrint(contributorStats);
 
-    // TO DO - Find a better way than listing all contributors
-    // 2b. Number of contributors by way of listing all contributors
-    // const contributors = await octokit.repos.listContributors({
-    //   owner,
-    //   repo
-    // });
-    // prettyPrint(Object.keys(contributors));
-    // const contributorCount = contributors.data || 0;
+  // TO DO - Find a better way than listing all contributors
+  // 2b. Number of contributors by way of listing all contributors
+  // const contributors = await octokit.repos.listContributors({
+  //   owner,
+  //   repo
+  // });
+  // prettyPrint(Object.keys(contributors));
+  // const contributorCount = contributors.data || 0;
 
-    return { repoStats: repoStats.repository, contributorStats };
-  } catch (e) {
-    prettyPrintJson(e);
-  }
+  // return { repoStats: repoStats.repository, contributorStats };
+  return { contributorStats };
 };
 
-const fetchRepo = async function({ options }) {
-  const { org: owner, repo } = options;
+// const fetchRepo = async function({ options }) {
+//   const { org: owner, repo } = options;
 
-  return octokit.repos.get({
-    owner,
-    repo
-  });
-};
+//   return octokit.repos.get({
+//     owner,
+//     repo
+//   });
+// };
+
+// (async function() {
+//   octokit = await createGithubClient(DEFAULT_ORG, '', token);
+// })();
 
 module.exports = {
-  organizationRepositoryIterator,
-  fetchRepositoryStats,
-  fetchContributorStats,
-  getRepoStatsByContributor,
-  fetchStats,
-  fetchRepo
+  // organizationRepositoryIterator,
+  // fetchRepositoryStats,
+  // fetchContributorStats,
+  // getRepoStatsByContributor,
+  fetchStats
+  // fetchRepo
 };

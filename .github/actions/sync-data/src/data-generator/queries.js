@@ -1,31 +1,26 @@
-const { SCREENSHOT_FOLDERS } = require('./constants');
+const { SCREENSHOT_FOLDERS } = require('../shared/constants');
 
-const repositoryStats = (owner, repo) => {
+const repositoryStats = () => {
   // TO DO - Ascertain Github's GraphQL query limits
   const screenshots = Object.entries(SCREENSHOT_FOLDERS).reduce(
     (p, [key, value]) => {
-      const screenShotFragment =
-        `
-      ${  key  }: object(expression: "${  value  }") {
+      const screenShotFragment = `
+      ${key}: object(expression: "${value}") {
         ... on Tree {
           entries {
             name
           }
         }
       }
-    `
-      return (
-        p +
-        `
+    `;
+      return `${p}
     
-    ` +
-        screenShotFragment
-      );
+    ${screenShotFragment}`;
     },
     ''
   );
 
-  return (`
+  return `
     query RepositoryStats ($owner: String!, $repo: String!) {
       repository(name: $repo, owner: $owner) {
         id
@@ -118,20 +113,59 @@ const repositoryStats = (owner, repo) => {
           featured
           key
         }
-        licenseInfo {
-          id
-          name
-          spdxId
-          url
-          featured
-          key
-        }
-        ${  screenshots  }
+        ${screenshots}
       }
     }
-  `)
+  `;
 };
+
+const projects = `
+  query Projects ($login: String!) {
+    organization(login: $login) {
+      repositories(first: 100, isFork: false, privacy: PUBLIC) {
+        totalCount
+        nodes {
+          name
+          nameWithOwner
+          owner {
+            login
+          }
+          url
+          description
+          languages(first: 10) {
+            nodes {
+              name
+            }
+          }
+          primaryLanguage {
+            name
+          }
+          isArchived
+          licenseInfo {
+            id
+            name
+            spdxId
+            url
+            featured
+            key
+          }
+        }
+        pageInfo {
+          endCursor
+          hasNextPage
+        }
+        rateLimit {
+          cost
+          limit
+          remaining
+          resetAt
+        }
+      }
+    }
+  }
+  `;
 
 module.exports = {
   repositoryStats,
+  projects
 };
