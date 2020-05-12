@@ -102,20 +102,20 @@ const ExternalProjectPage = ({ data }) => {
             <div className={styles.callToActionButtons}>
               <div className={styles.callToActionButtonsContainer}>
                 <a
-                  href={`${project.githubUrl}/stargazers`}
+                  href={`${project.githubUrl}`}
                   className="button button-primary"
                   target="__blank"
                   rel="noopener noreferrer"
                 >
-                  <img src={iconGitHubWhite} alt="GitHub logo" />
-                  Star
+                  View Website
                 </a>
                 <a
                   href={project.githubUrl}
                   className="button button-secondary"
                   rel="noopener noreferrer"
                 >
-                  View GitHub Repos
+                  <img src={iconGitHubWhite} alt="GitHub logo" />
+                  GitHub
                 </a>
               </div>
             </div>
