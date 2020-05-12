@@ -82,7 +82,7 @@ const reposForOrgQuery = ({
                 }
               }
             }
-            last30Days: defaultBranchRef {
+            lastSixMonths: defaultBranchRef {
               target {
                 ... on Commit {
                   history(since: "${timeRange}") {
@@ -147,9 +147,9 @@ const getDateOneMonthAgo = () => {
   const d = new Date();
   // console.log(d.toLocaleDateString());
   const month = d.getMonth();
-  d.setMonth(d.getMonth() - 1);
+  d.setMonth(d.getMonth() - 6);
   while (d.getMonth() === month) {
-    d.setDate(d.getDate() - 1);
+    d.setDate(d.getDate() - 6);
   }
   return d.toISOString();
 };

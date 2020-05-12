@@ -1,4 +1,6 @@
 const core = require('@actions/core');
+const fs = require('fs');
+const path = require('path');
 
 const { createGithubClient } = require('./github/github-client');
 const { calculateAndWriteProjectStats } = require('./processor');
@@ -12,7 +14,7 @@ const log = require('./lib/log');
  * @param {*} organizations The organizations to query
  * @param {*} paginationLimit Limits the number of repos that get called at once
  */
-async function generateStatsForOrgs({ organizations, paginationLimit = 25 }) {
+async function generateStatsForOrgs({ organizations, paginationLimit = 5 }) {
   const GH_TOKEN = core.getInput('github-token') || process.env.GH_TOKEN;
 
   log.info(
@@ -46,7 +48,7 @@ async function generateStatsForOrgs({ organizations, paginationLimit = 25 }) {
 }
 
 async function script() {
-  const PAGINATION_LIMIT = 25;
+  const PAGINATION_LIMIT = 5;
 
   // Get all stats data for newrelic and newrelic-experimental orgs
   const results = await generateStatsForOrgs({
