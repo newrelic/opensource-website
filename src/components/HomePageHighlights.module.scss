@@ -1,5 +1,7 @@
 .featured-external-projects {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
   margin: 110px 0 160px;
   
   &:before {

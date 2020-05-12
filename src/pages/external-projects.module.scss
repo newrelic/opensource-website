@@ -84,3 +84,9 @@ h5.project-listing-item-name {
   display: inline-block;
   margin-top: 36px;
 }
+
+.featured-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
