@@ -1,41 +1,52 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { graphql, Link } from 'gatsby';
+import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 import ProjectModule from '../components/ProjectModule';
 
 import styles from './external-projects.module.scss';
-import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg';
-import freeCodeCampIcon from '../images/free-code-camp-icon.jpg';
-import tensorFlowIcon from '../images/tensor-flow-icon.jpg';
 
-const ExternalProjects = () => {
-  const externalProjects = [
-    {
-      title: 'Open Telemetry',
-      description:
-        'New Relic has invested 30 billion hours into the development of Open Telemetry to help provide robust portable telemetry to all.',
-      icon: OpenTelemetryIcon,
-      link: '/open-telemetry',
-      contributorTotal: 7
-    },
-    {
-      title: 'freeCodeCamp',
-      description:
-        'New Relic has invested 1,137,000 hours of engineering into freeCodeCamp to help provide educate the next generation engineers.',
-      icon: freeCodeCampIcon,
-      link: '/#',
-      contributorTotal: 3
-    },
-    {
-      title: 'TensorFlow',
-      description:
-        'We <3 TensorFlow and plan to continue to invest at least 10,000 weekly into the maintenance of the platform to help train ml mipsums.',
-      icon: tensorFlowIcon,
-      link: '/#',
-      contributorTotal: 14
+export const query = graphql`
+  query ExternalProjectsQuery {
+    topProjects: allProjects(
+      filter: {projectType: {eq: "external"}}
+    ) {
+      edges {
+        node {
+          ...projectFields
+        }
+      }
     }
+    openTelemetry: allProjects(
+      filter: { slug: { eq: "open-telemetry" }, projectType: { eq: "external" } }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
+    w3cTraceContext: allProjects(
+      filter: { slug: { eq: "w3c-trace-context" }, projectType: { eq: "external" } }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
+    adoptOpenJdk: allProjects(
+      filter: { slug: { eq: "adopt-open-jdk" }, projectType: { eq: "external" } }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
+  }
+`;
+const ExternalProjects = ({ data }) => {
+  const externalProjects = [
+    get(data, 'openTelemetry.nodes[0]'),
+    get(data, 'w3cTraceContext.nodes[0]'),
+    get(data, 'adoptOpenJdk.nodes[0]')
   ];
 
   return (

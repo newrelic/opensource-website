@@ -10,13 +10,7 @@ import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
 import styles from './home-page.module.scss';
 
-import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg';
-import freeCodeCampIcon from '../images/free-code-camp-icon.jpg';
-import tensorFlowIcon from '../images/tensor-flow-icon.jpg';
 import genericProjectIcon from '../images/page-heading-icon-placeholder.jpg';
-import articlePlaceholderImage1 from '../images/article-placeholder-image-1.jpg';
-import articlePlaceholderImage2 from '../images/article-placeholder-image-2.jpg';
-import articlePlaceholderImage3 from '../images/article-placeholder-image-3.jpg';
 import videoPlaceholder from '../images/video-placeholder.jpg';
 import playButton from '../images/button-play.svg';
 import closeIcon from '../images/icon-close.svg';
@@ -35,36 +29,37 @@ export const query = graphql`
         }
       }
     }
+    openTelemetry: allProjects(
+      filter: { slug: { eq: "open-telemetry" }, projectType: { eq: "external" } }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
+    w3cTraceContext: allProjects(
+      filter: { slug: { eq: "w3c-trace-context" }, projectType: { eq: "external" } }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
+    adoptOpenJdk: allProjects(
+      filter: { slug: { eq: "adopt-open-jdk" }, projectType: { eq: "external" } }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
   }
 `;
 
 const IndexPage = ({ data }) => {
   const [heroVideoActive, setHeroVideoActive] = useState(false);
+
   const externalProjects = [
-    {
-      title: 'Open Telemetry',
-      description:
-        'New Relic has invested 30 billion hours into the development of Open Telemetry to help provide robust portable telemetry to all.',
-      icon: OpenTelemetryIcon,
-      link: '/projects/open-telemetry',
-      contributorTotal: 7
-    },
-    {
-      title: 'freeCodeCamp',
-      description:
-        'New Relic has invested 1,137,000 hours of engineering into freeCodeCamp to help provide educate the next generation engineers.',
-      icon: freeCodeCampIcon,
-      link: '/#',
-      contributorTotal: 3
-    },
-    {
-      title: 'TensorFlow',
-      description:
-        'We <3 TensorFlow and plan to continue to invest at least 10,000 weekly into the maintenance of the platform to help train ml mipsums.',
-      icon: tensorFlowIcon,
-      link: '/#',
-      contributorTotal: 14
-    }
+    get(data, 'openTelemetry.nodes[0]'),
+    get(data, 'w3cTraceContext.nodes[0]'),
+    get(data, 'adoptOpenJdk.nodes[0]')
   ];
 
   const internalProjects = get(data, 'topProjects.edges').map(i => i.node);

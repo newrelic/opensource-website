@@ -5,17 +5,18 @@ import styles from './ProjectModule.module.scss';
 
 const ProjectModule = ({ data }) => {
   const project = data;
+  project.permalink = project.permalink ? project.permalink.replace('https://opensource.newrelic.com', '') : '';
 
   return (
-    <div className={styles.projectModule} key={project.title}>
+    <div className={styles.projectModule} key={project.slug}>
       <img
         className={styles.projectModuleIcon}
-        src={project.icon}
+        src={project.iconUrl}
         alt={`icon for ${project.title}`}
       />
       <h4 className={styles.projectModuleTitle}>{project.title}</h4>
       <p className={styles.projectModuleDescription}>{project.description}</p>
-      <a href={project.link} className={`button ${styles.projectModuleButton}`}>
+      <a href={project.permalink} className={`button ${styles.projectModuleButton}`}>
         Read more
       </a>
       <footer className={styles.projectModuleFooter}>

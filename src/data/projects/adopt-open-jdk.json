@@ -1,0 +1,24 @@
+{
+  "name": "adopt-open-jdk",
+  "fullName": "adopt-open-jdk",
+  "slug": "adopt-open-jdk",
+  "owner": {
+    "login": "AdoptOpenJDK",
+    "type": "Organization"
+  },
+  "title": "Adopt OpenJDK",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/AdoptOpenJDK",
+  "permalink": "https://opensource.newrelic.com/projects/adopt-open-jdk",
+  "iconUrl": "./images/adopt-open-jdk-icon.jpg",
+  "shortDescription": "Open Java binaries",
+  "description": "The Community and code behind the Build Farm which produces high quality, FREE OpenJDK (Java) binaries.",
+  "ossCategory": null,
+  "projectTags": [ "tools" ],
+  "acceptsContributions": false,
+  "website": {
+    "title": "Adopt OpenJDK",
+    "url": "https://adoptopenjdk.net"
+  },
+  "projectType": "external"
+}
