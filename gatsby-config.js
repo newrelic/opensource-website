@@ -5,7 +5,7 @@ const remarkExternalLinks = require('./plugins/remark-external-link-icon');
 module.exports = {
   siteMetadata: {
     title: `New Relic Open Source`,
-    description: `New Relic <3's open source. We built this site to make it easy for you to explore hundreds of projects we're maintaining as well as our involvement in open standards.`,
+    description: `New Relic <3's open source. We built this site to make it easy for you to explore the projects we're maintaining as well as our involvement in open standards.`,
     author: `@newrelic`
   },
   plugins: [
