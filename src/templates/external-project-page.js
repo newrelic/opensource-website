@@ -45,12 +45,14 @@ const SubProjects = ({ projects }) => {
                     : 'No description available for this project'}
                 </p>
               </div>
-              <div className={styles.subProjectCallToAction}>
-                <button type="button" className="button button-tertiary">
-                  <img src={iconGitHub} alt="GitHub Logo" />
-                  View repo
-                </button>
-              </div>
+              {p.githubUrl && (
+                <div className={styles.subProjectCallToAction}>
+                  <a href="button" className="button button-tertiary">
+                    <img src={iconGitHub} alt="GitHub Logo" />
+                    View repo
+                  </a>
+                </div>
+              )}
             </li>
           );
         })}
