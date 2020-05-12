@@ -73,27 +73,6 @@ const IndexPage = ({ data }) => {
     internalProjects[index].iconUrl = genericProjectIcon;
   });
 
-  const recentArticles = [
-    {
-      featuredImage: articlePlaceholderImage1,
-      title: 'Why we invest in open source',
-      snippet:
-        'Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.'
-    },
-    {
-      featuredImage: articlePlaceholderImage2,
-      title: 'Open source in a pandemic',
-      snippet:
-        'Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.'
-    },
-    {
-      featuredImage: articlePlaceholderImage3,
-      title: 'Shipping around the globe',
-      snippet:
-        'Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.'
-    }
-  ];
-
   return (
     <Layout fullWidth>
       <Helmet>
