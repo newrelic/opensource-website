@@ -67,8 +67,7 @@ function formatRepositories(repositories) {
       website: {
         title: humanize(r.name), // TO DO - Can/should be different
         url: r.html_url // TO DO - this won't always be the Github repo url?
-      },
-      version: '0.1.0'
+      }
     };
   });
 }
