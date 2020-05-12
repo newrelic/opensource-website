@@ -26,7 +26,7 @@ async function generateStatsForOrgs({ organizations, paginationLimit = 25 }) {
     const github = await createGithubClient(org, '', GH_TOKEN);
 
     log.magenta(`Fetching all repos for org: ${org}`);
-    const { repos /* , lastPageProps */ } = await getAllReposForOrg(github)({
+    const { repos } = await getAllReposForOrg(github)({
       org,
       paginationLimit
     });

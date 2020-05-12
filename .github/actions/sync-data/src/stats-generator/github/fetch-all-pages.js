@@ -1,6 +1,6 @@
 const log = require('../lib/log');
 
-// generic GrapQl paginator
+// Generic GraphQL paginator
 async function fetchAllPages(
   github,
   {

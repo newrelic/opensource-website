@@ -1,25 +1,11 @@
-const R = require('ramda');
-
 const { Octokit } = require('@octokit/core');
 const throttlingPlugin = require('@octokit/plugin-throttling');
 const retryPlugin = require('@octokit/plugin-retry');
 
 const MyOctokit = Octokit.plugin(throttlingPlugin, retryPlugin);
 const log = require('../lib/log');
-const {
-  removeNewLines,
-  removeTabsAndSpaces,
-  removeEscapedCharacters
-} = require('../lib/utils');
 
 const addGraphQL = require('./graphql');
-// const getInstallationAccessToken = require('./app-auth')
-
-const removeAllExtraCharacters = R.pipe(
-  removeNewLines,
-  removeTabsAndSpaces,
-  removeEscapedCharacters
-);
 
 function isRateLimited(response) {
   return response.headers['x-ratelimit-remaining'] === '0';
