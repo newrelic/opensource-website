@@ -10,7 +10,7 @@ import community from '../images/categories/Community_Project.png';
 import nr1catalog from '../images/categories/New_Relic_One_Catalog_Project.png';
 import example from '../images/categories/Example_Code.png';
 import experimental from '../images/categories/Experimental.png';
-import product from '../images/categories/New_Relic_One_Catalog_Project.png';
+import product from '../images/categories/Product_Delivered_in_Open_Source.png';
 import archived from '../images/categories/Archived.png';
 import styles from './oss-category.module.scss';
 
@@ -68,8 +68,8 @@ const OssCategoryPage = ({ data }) => {
             <>
               <h3>Requirements</h3>
               <ul>
-                {cat.requirements.map(req => (
-                  <li>{req}</li>
+                {cat.requirements.map((req, i) => (
+                  <li key={i}>{req}</li>
                 ))}
               </ul>
             </>

@@ -35,10 +35,8 @@ const ProjectModule = ({ data }) => {
   );
 };
 
-/* eslint-disable react/no-unused-prop-types */
 ProjectModule.propTypes = {
   data: PropTypes.array
 };
-/* eslint-enable */
 
 export default ProjectModule;

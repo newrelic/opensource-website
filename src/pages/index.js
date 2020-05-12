@@ -18,10 +18,9 @@ import closeIcon from '../images/icon-close.svg';
 export const query = graphql`
   query HomePageQuery {
     topProjects: allProjects(
-      filter: {projectType: {eq: "newrelic"}}
+      filter: { projectType: { eq: "newrelic" } }
       sort: { fields: stats___commits, order: DESC }
       limit: 8
-
     ) {
       edges {
         node {
@@ -30,21 +29,30 @@ export const query = graphql`
       }
     }
     openTelemetry: allProjects(
-      filter: { slug: { eq: "open-telemetry" }, projectType: { eq: "external" } }
+      filter: {
+        slug: { eq: "open-telemetry" }
+        projectType: { eq: "external" }
+      }
     ) {
       nodes {
         ...projectFields
       }
     }
     w3cTraceContext: allProjects(
-      filter: { slug: { eq: "w3c-trace-context" }, projectType: { eq: "external" } }
+      filter: {
+        slug: { eq: "w3c-trace-context" }
+        projectType: { eq: "external" }
+      }
     ) {
       nodes {
         ...projectFields
       }
     }
     adoptOpenJdk: allProjects(
-      filter: { slug: { eq: "adopt-open-jdk" }, projectType: { eq: "external" } }
+      filter: {
+        slug: { eq: "adopt-open-jdk" }
+        projectType: { eq: "external" }
+      }
     ) {
       nodes {
         ...projectFields
@@ -63,7 +71,7 @@ const IndexPage = ({ data }) => {
   ];
 
   const internalProjects = get(data, 'topProjects.edges').map(i => i.node);
-  console.log(internalProjects);
+  // console.log(internalProjects);
   internalProjects.forEach((p, index) => {
     internalProjects[index].iconUrl = genericProjectIcon;
   });
@@ -86,10 +94,8 @@ const IndexPage = ({ data }) => {
             this site to make it easy for <em>you</em> to{' '}
             <a href="/explore-projects">explore the projects</a> we're
             maintaining as well as our involvement in{' '}
-            <a href="/open-standards">open standards</a>. Delivering on the
-            promise of a more <strong>perfect</strong> Internet means developing
-            more <strong>open source</strong> solutions together.{' '}
-            <a href="/blog">Learn more</a>.
+            <a href="/external-projects">open standards</a>. Learn{' '}
+            <a href="/welcome">more</a>.
           </p>
         </div>
         <div

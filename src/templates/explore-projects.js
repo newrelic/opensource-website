@@ -10,7 +10,6 @@ import PageHeading from '../components/PageHeading';
 import ProjectSearch from '../components/ProjectSearch';
 import ProjectCard from '../components/ProjectCard';
 
-import placeholderIcon from '../images/page-heading-icon-placeholder.jpg';
 import searchIcon from '../images/icon-search.svg';
 
 import styles from './projects.module.scss';

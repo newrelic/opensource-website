@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
 import Layout from '../components/layout';
@@ -10,9 +11,7 @@ import styles from './external-projects.module.scss';
 
 export const query = graphql`
   query ExternalProjectsQuery {
-    topProjects: allProjects(
-      filter: {projectType: {eq: "external"}}
-    ) {
+    otherProjects: allProjects(filter: { projectType: { eq: "external" } }) {
       edges {
         node {
           ...projectFields
@@ -20,21 +19,30 @@ export const query = graphql`
       }
     }
     openTelemetry: allProjects(
-      filter: { slug: { eq: "open-telemetry" }, projectType: { eq: "external" } }
+      filter: {
+        slug: { eq: "open-telemetry" }
+        projectType: { eq: "external" }
+      }
     ) {
       nodes {
         ...projectFields
       }
     }
     w3cTraceContext: allProjects(
-      filter: { slug: { eq: "w3c-trace-context" }, projectType: { eq: "external" } }
+      filter: {
+        slug: { eq: "w3c-trace-context" }
+        projectType: { eq: "external" }
+      }
     ) {
       nodes {
         ...projectFields
       }
     }
     adoptOpenJdk: allProjects(
-      filter: { slug: { eq: "adopt-open-jdk" }, projectType: { eq: "external" } }
+      filter: {
+        slug: { eq: "adopt-open-jdk" }
+        projectType: { eq: "external" }
+      }
     ) {
       nodes {
         ...projectFields
@@ -43,95 +51,83 @@ export const query = graphql`
   }
 `;
 const ExternalProjects = ({ data }) => {
-  const externalProjects = [
-    get(data, 'openTelemetry.nodes[0]'),
-    get(data, 'w3cTraceContext.nodes[0]'),
-    get(data, 'adoptOpenJdk.nodes[0]')
-  ];
-
+  const openTelemetry = get(data, 'openTelemetry.nodes[0]');
+  const w3cTraceContext = get(data, 'w3cTraceContext.nodes[0]');
+  const adoptOpenJdk = get(data, 'adoptOpenJdk.nodes[0]');
+  const externalProjects = [openTelemetry, w3cTraceContext, adoptOpenJdk];
+  const otherProjectsData = get(data, 'otherProjects.edges').map(i => i.node);
+  // console.log(otherProjectsData);
+  const otherProjects = otherProjectsData.filter(project => {
+    if (
+      project.fullName === openTelemetry.fullName ||
+      project.fullName === w3cTraceContext.fullName ||
+      project.fullName === adoptOpenJdk.fullName
+    ) {
+      return false;
+    }
+    return true;
+  });
+  // console.log(otherProjects);
   return (
     <Layout fullWidth>
-      <SEO title="Open source projects that New Relic contributes to" />
+      <SEO title="Open source projects to which New Relic contributes" />
       <PageHeading
-        title="Projects we love"
-        subheader="Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum."
+        title="Projects we support"
+        subheader="Delivering a more perfect Internet means developing more open source solutions together."
       />
       <div className={styles.featuredProjects}>
         {externalProjects.map(project => (
           <ProjectModule data={project} key={project.title} />
         ))}
       </div>
-      <div className="primary-content">
-        <main className={styles.moreProjects}>
-          <div className={styles.moreProjectsHeaderSection}>
-            <h4 className={styles.moreProjectsHeaderSectionTitle}>
-              More projects
-            </h4>
-            <Link className={styles.moreProjectsMoreLink}>View all</Link>
-          </div>
-
-          <div className={styles.projectListItem}>
-            <img
-              className={styles.projectListingItemImage}
-              src="http://placehold.jp/150x150.png"
-            />
-            <div className={styles.projectListingItemCopy}>
-              <h5 className={styles.projectListingItemName}>
-                Magna ullamco amet
-              </h5>
-              <p className={styles.projectListingItemDescription}>
-                Donec sed odio dui. Aenean lacinia bibendum nulla sed
-                consectetur. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Maecenas faucibus
-                mollis interdum.
-              </p>
+      {otherProjects && (
+        <div className="primary-content">
+          <main className={styles.moreProjects}>
+            <div className={styles.moreProjectsHeaderSection}>
+              <h4 className={styles.moreProjectsHeaderSectionTitle}>
+                More projects
+              </h4>
+              <Link className={styles.moreProjectsMoreLink}>View all</Link>
             </div>
-          </div>
-          <div className={styles.projectListItem}>
-            <img
-              className={styles.projectListingItemImage}
-              src="http://placehold.jp/150x150.png"
-            />
-            <div className={styles.projectListingItemCopy}>
-              <h5 className={styles.projectListingItemName}>
-                Magna ullamco amet
-              </h5>
-              <p className={styles.projectListingItemDescription}>
-                Donec sed odio dui. Aenean lacinia bibendum nulla sed
-                consectetur. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Maecenas faucibus
-                mollis interdum.
-              </p>
-            </div>
-          </div>
-          <div className={styles.projectListItem}>
-            <img
-              className={styles.projectListingItemImage}
-              src="http://placehold.jp/150x150.png"
-            />
-            <div className={styles.projectListingItemCopy}>
-              <h5 className={styles.projectListingItemName}>
-                Magna ullamco amet
-              </h5>
-              <p className={styles.projectListingItemDescription}>
-                Donec sed odio dui. Aenean lacinia bibendum nulla sed
-                consectetur. Cum sociis natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Maecenas faucibus
-                mollis interdum.
-              </p>
-            </div>
-          </div>
-
-          <button
-            className={`button button-tertiary ${styles.viewMoreProjectsButton}`}
-            type="button"
-          >
-            View all projects
-          </button>
-        </main>
-      </div>
+            {otherProjects.map((project, i) => {
+              if (i < 5) {
+                return (
+                  <div className={styles.projectListItem}>
+                    <img
+                      className={styles.projectListingItemImage}
+                      src="http://placehold.jp/150x150.png"
+                    />
+                    <div className={styles.projectListingItemCopy}>
+                      <h5 className={styles.projectListingItemName}>
+                        {project.title}
+                      </h5>
+                      <p className={styles.projectListingItemDescription}>
+                        {project.description}
+                      </p>
+                    </div>
+                  </div>
+                );
+              } else {
+                return null;
+              }
+            })}
+            {otherProjects.length > 5 && (
+              <button
+                className={`button button-tertiary ${styles.viewMoreProjectsButton}`}
+                type="button"
+              >
+                View all projects
+              </button>
+            )}
+          </main>
+        </div>
+      )}
     </Layout>
   );
+};
+
+ExternalProjects.propTypes = {
+  data: PropTypes.object
 };
 
 export default ExternalProjects;

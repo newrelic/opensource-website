@@ -10,12 +10,13 @@ const components = {
 };
 
 const ProjectMainContent = props => {
+  const { mdx, project } = props;
   return (
     <>
       {/* <pre>{JSON.stringify(props, null, 2)}</pre> */}
-      {props.mdx && (
+      {mdx && (
         <MDXProvider components={components}>
-          <MDXRenderer project={props.project}>{props.mdx}</MDXRenderer>
+          <MDXRenderer project={project}>{mdx}</MDXRenderer>
         </MDXProvider>
       )}
     </>
@@ -23,7 +24,8 @@ const ProjectMainContent = props => {
 };
 
 ProjectMainContent.propTypes = {
-  mdx: PropTypes.string
+  mdx: PropTypes.object,
+  project: PropTypes.object
 };
 
 export default ProjectMainContent;

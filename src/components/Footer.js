@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import { Link } from 'gatsby';
 import { Location, Match } from '@reach/router';
