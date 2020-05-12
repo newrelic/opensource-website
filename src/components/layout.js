@@ -7,10 +7,12 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
 import Header from './header';
 import Footer from './Footer';
 import './styles.scss';
+import favicon from '../images/favicon.png';
 
 const Layout = ({
   children,
@@ -21,6 +23,9 @@ const Layout = ({
 }) => {
   return (
     <div className={`layout-container ${className}`}>
+      <Helmet>
+        <link rel="icon" href={favicon} />
+      </Helmet>
       <Header hasHeaderBg={hasHeaderBg} />
       <main
         className={`layout-container-main ${
