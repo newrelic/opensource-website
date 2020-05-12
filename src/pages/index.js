@@ -18,10 +18,9 @@ import closeIcon from '../images/icon-close.svg';
 export const query = graphql`
   query HomePageQuery {
     topProjects: allProjects(
-      filter: {projectType: {eq: "newrelic"}}
+      filter: { projectType: { eq: "newrelic" } }
       sort: { fields: stats___commits, order: DESC }
       limit: 8
-
     ) {
       edges {
         node {
@@ -30,21 +29,30 @@ export const query = graphql`
       }
     }
     openTelemetry: allProjects(
-      filter: { slug: { eq: "open-telemetry" }, projectType: { eq: "external" } }
+      filter: {
+        slug: { eq: "open-telemetry" }
+        projectType: { eq: "external" }
+      }
     ) {
       nodes {
         ...projectFields
       }
     }
     w3cTraceContext: allProjects(
-      filter: { slug: { eq: "w3c-trace-context" }, projectType: { eq: "external" } }
+      filter: {
+        slug: { eq: "w3c-trace-context" }
+        projectType: { eq: "external" }
+      }
     ) {
       nodes {
         ...projectFields
       }
     }
     adoptOpenJdk: allProjects(
-      filter: { slug: { eq: "adopt-open-jdk" }, projectType: { eq: "external" } }
+      filter: {
+        slug: { eq: "adopt-open-jdk" }
+        projectType: { eq: "external" }
+      }
     ) {
       nodes {
         ...projectFields
@@ -63,7 +71,6 @@ const IndexPage = ({ data }) => {
   ];
 
   const internalProjects = get(data, 'topProjects.edges').map(i => i.node);
-  console.log(internalProjects);
   internalProjects.forEach((p, index) => {
     internalProjects[index].iconUrl = genericProjectIcon;
   });
