@@ -38,6 +38,7 @@ const allProjectsQuery = `
       id
       contributors
       commits
+      lastSixMonthsCommitTotal
       languages {
         id
         name

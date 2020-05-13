@@ -125,7 +125,7 @@ const ExploreProjectsPage = props => {
                 const showFeatured = true;
                 const sortedProjects = orderBy(
                   projects,
-                  p => get(p, 'stats.commits', 0),
+                  p => get(p, 'stats.lastSixMonthsCommitTotal', 0),
                   'desc'
                 );
 
