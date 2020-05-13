@@ -234,6 +234,7 @@ const ProjectPage = ({ data }) => {
                   rel="noopener noreferrer"
                 >
                   Code of Conduct
+                  <ExternalLink color="#007e8a" size={14} />
                 </a>
                 .
               </p>
