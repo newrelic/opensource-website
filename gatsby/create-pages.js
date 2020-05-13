@@ -6,7 +6,7 @@ const getProjectComponent = projectType => {
     return path.resolve('./src/templates/external-project-page.js');
   }
 
-  if (projectType === 'external') {
+  if (projectType === 'partner') {
     return path.resolve('./src/templates/partner-project-page.js');
   }
 
