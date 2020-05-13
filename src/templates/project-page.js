@@ -5,7 +5,7 @@ import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import { get } from 'lodash';
-import { Edit } from 'react-feather';
+import { Edit, ExternalLink } from 'react-feather';
 import { getEditLinkFromLocation } from '../utils';
 import { Location, Match } from '@reach/router';
 
@@ -229,7 +229,7 @@ const ProjectPage = ({ data }) => {
                 <strong>{project.title}</strong> accepts contributions under the
                 New Relic open source{' '}
                 <a
-                  href="/code-of-conduct"
+                  href={`${project.githubUrl}/code-of-conduct`}
                   target="__blank"
                   rel="noopener noreferrer"
                 >
@@ -246,6 +246,7 @@ const ProjectPage = ({ data }) => {
                   rel="noopener noreferrer"
                 >
                   Issues tab of this repository
+                  <ExternalLink color="#007e8a" size={14} />
                 </a>
                 . Please search for and review the existing open issues before
                 submitting a new issue.
@@ -259,6 +260,7 @@ const ProjectPage = ({ data }) => {
                   rel="noopener noreferrer"
                 >
                   Contributors Guide
+                  <ExternalLink color="#007e8a" size={14} />
                 </a>{' '}
                 and review the{' '}
                 <a
@@ -266,6 +268,7 @@ const ProjectPage = ({ data }) => {
                   rel="noopener noreferrer"
                 >
                   Issues
+                  <ExternalLink color="#007e8a" size={14} />
                 </a>{' '}
                 list.
               </p>
@@ -373,6 +376,7 @@ const ProjectPage = ({ data }) => {
                 Looking for help? Go to this project's thread in the{' '}
                 <a href={supportUrl} target="__blank" rel="noopener noreferrer">
                   Explorers Hub
+                  <ExternalLink color="#007e8a" size={14} />
                 </a>
                 .
               </p>
@@ -389,6 +393,7 @@ const ProjectPage = ({ data }) => {
                   rel="noopener noreferrer"
                 >
                   Explorers Hub
+                  <ExternalLink color="#007e8a" size={14} />
                 </a>{' '}
                 for help.
               </p>

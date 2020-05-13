@@ -1,4 +1,12 @@
 const visit = require('unist-util-visit');
+const feather = require('feather-icons');
+
+// https://github.com/feathericons/feather#feathericonsnametosvgattrs
+const externalLinkSvg = feather.icons['external-link'].toSvg({
+  color: '#007e8a',
+  width: 14,
+  height: 14
+});
 
 const remarkExternalLinks = () => (tree, file) => {
   const isTarget = node => {
@@ -9,10 +17,6 @@ const remarkExternalLinks = () => (tree, file) => {
 
   visit(tree, isTarget, node => {
     const { url } = node;
-
-    if (!url) {
-      console.log(JSON.stringify(node, null, 2));
-    }
 
     if (url) {
       // Protect
@@ -26,7 +30,7 @@ const remarkExternalLinks = () => (tree, file) => {
       // Add icon
       node.children.push({
         type: 'html',
-        value: `<span class="iconify" data-icon="feather-external-link" data-inline="false"></span>`
+        value: externalLinkSvg
       });
     }
   });
