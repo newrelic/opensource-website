@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-import { Link } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { Location } from '@reach/router';
 import { get, orderBy } from 'lodash';
 
@@ -12,19 +12,46 @@ import ProjectCard from '../components/ProjectCard';
 
 import searchIcon from '../images/icon-search.svg';
 
-import styles from './projects.module.scss';
+import styles from './explore-projects.module.scss';
+
+export const query = graphql`
+  query allProjects {
+    allProjects(filter: { projectType: { eq: "newrelic" } }) {
+      edges {
+        node {
+          ...exploreProjectsFields
+        }
+      }
+    }
+    allCategories: allProjects {
+      group(field: ossCategory___title) {
+        fieldValue
+        totalCount
+      }
+    }
+    allLanguages: allProjects {
+      group(field: stats___languages___name) {
+        fieldValue
+        totalCount
+      }
+    }
+
+    allProjectTags {
+      group(field: title) {
+        fieldValue
+      }
+    }
+  }
+`;
 
 const ExploreProjectsPage = props => {
   const [projectsToShow, setProjectsToShow] = useState(24);
-  const { pageContext } = props;
-  const { projectData } = pageContext;
-  const {
-    allProjects,
-    allLanguages,
-    allCategories,
-    allProjectTags,
-    searchEngineOptions
-  } = projectData;
+  const { data } = props;
+
+  const allProjects = data.allProjects.edges.map(p => p.node);
+  const allLanguages = data.allLanguages.group;
+  const allCategories = data.allCategories.group;
+  const allProjectTags = data.allProjectTags.group;
 
   const filterOptions = {
     allCategories: { title: 'Categories', options: allCategories },
@@ -118,14 +145,13 @@ const ExploreProjectsPage = props => {
             <ProjectSearch
               location={location}
               data={allProjects}
-              engine={searchEngineOptions}
               filterOptions={filterOptions}
             >
               {({ projects, searchQuery }) => {
                 const showFeatured = true;
                 const sortedProjects = orderBy(
                   projects,
-                  p => get(p, 'stats.commits', 0),
+                  p => get(p, 'stats.lastSixMonthsCommitTotal', 0),
                   'desc'
                 );
 
@@ -177,6 +203,6 @@ const ExploreProjectsPage = props => {
 };
 
 ExploreProjectsPage.propTypes = {
-  pageContext: PropTypes.object
+  data: PropTypes.object
 };
 export default ExploreProjectsPage;
