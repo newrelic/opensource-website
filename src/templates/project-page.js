@@ -5,6 +5,9 @@ import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import { get } from 'lodash';
+import { Edit } from 'react-feather';
+import { getEditLinkFromLocation } from '../utils';
+import { Location, Match } from '@reach/router';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -294,21 +297,40 @@ const ProjectPage = ({ data }) => {
             <div className={styles.callToActionButtons}>
               <div className={styles.callToActionButtonsContainer}>
                 <a
-                  href={`${project.githubUrl}/stargazers`}
+                  href={project.githubUrl}
                   className="button button-primary"
-                  target="__blank"
                   rel="noopener noreferrer"
                 >
                   <img src={iconGitHubWhite} alt="GitHub logo" />
-                  Star
+                  Fork Repo
                 </a>
-                <a
-                  href={project.githubUrl}
-                  className="button button-secondary"
-                  rel="noopener noreferrer"
-                >
-                  Fork GitHub Repo
-                </a>
+                <Location>
+                  {({ location }) => {
+                    const editLink = getEditLinkFromLocation({ location });
+
+                    return (
+                      <Match path={location.pathname}>
+                        {// eslint-disable-next-line no-unused-vars
+                        ({ location, match }) => {
+                          // TO DO - Remove <Match>? It seemingly adds no additional context outside of what <Location> gives us
+                          return (
+                            <a
+                              href={editLink}
+                              className="button button-secondary"
+                              target="__blank"
+                              rel="noopener noreferrer"
+                            >
+                              <span className={styles.buttonIcon}>
+                                <Edit color="#007e8a" size={16} />
+                              </span>
+                              Edit page
+                            </a>
+                          );
+                        }}
+                      </Match>
+                    );
+                  }}
+                </Location>
               </div>
               {project.stats &&
                 project.stats.license &&

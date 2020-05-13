@@ -81,6 +81,9 @@
   button:first-child {
     margin-right: 11px;
   }
+  .button:first-child {
+    margin-right: 11px;
+  }
 }
 
 .call-to-action-support {
@@ -272,4 +275,9 @@ p.call-to-action-description {
   height:100%;
   width:100%;
   position:absolute;
+}
+
+.button-icon {
+  line-height: 11px;
+  margin-right: 8px;
 }
