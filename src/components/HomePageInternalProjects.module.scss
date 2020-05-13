@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr  auto;
-  grid-gap: 7.941176471% 1.694915254237288%;
+  grid-gap: 16px;
 }
 
 .featured-internal-project {
@@ -33,7 +33,24 @@
   width: 55px;
   height: 55px;
   margin-right: 14px;
+  position: relative;
+  overflow: hidden;
+  text-indent: -500%;
   border-radius: 50%;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: var(--color-neutrals-400);
+    background-image: url(../images/page-heading-icon-placeholder.jpg);
+    background-size: 120% 120%;
+    background-position: center center;
+  }
 }
 
 .featured-internal-project-title {
