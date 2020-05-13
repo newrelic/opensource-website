@@ -55,8 +55,9 @@ const ExternalProjects = ({ data }) => {
   const w3cTraceContext = get(data, 'w3cTraceContext.nodes[0]');
   const adoptOpenJdk = get(data, 'adoptOpenJdk.nodes[0]');
   const externalProjects = [openTelemetry, w3cTraceContext, adoptOpenJdk];
-  const otherProjectsData = get(data, 'otherProjects.edges').map(i => i.node);
-  // console.log(otherProjectsData);
+  const otherProjectsData = get(data, 'otherProjects.edges', []).map(
+    i => i.node
+  );
   const otherProjects = otherProjectsData.filter(project => {
     if (
       project.fullName === openTelemetry.fullName ||
