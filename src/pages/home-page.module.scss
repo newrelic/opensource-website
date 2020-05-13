@@ -25,9 +25,17 @@
 
 .homepage-hero-body-copy {
   margin-top: 0;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 29px;
   color: var(--color-neutrals-600);
+
+  a {
+    border: none;
+
+    &:hover {
+      border-bottom: 1px dotted rgba(#005054, .4);
+    }
+  }
 
   &:first-child {
     margin-right: 16px;
