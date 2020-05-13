@@ -120,15 +120,20 @@ const ExternalProjectPage = ({ data }) => {
               </div>
             </div>
           </div>
-          {project.team && <>
-            <h4>Involved from New Relic</h4>
-            {project.team.map(relic => (<AsideNavigationItem
-            icon={relic.avatarUrl}
-            label={relic.name}
-            subLabel={relic.role}
-            to={relic.githubUrl}
-          />))}
-          </>}
+          {project.team && (
+            <>
+              <h4>Involved from New Relic</h4>
+              {project.team.map(relic => (
+                <AsideNavigationItem
+                  key={relic.name}
+                  icon={relic.avatarUrl}
+                  label={relic.name}
+                  subLabel={relic.role}
+                  to={relic.githubUrl}
+                />
+              ))}
+            </>
+          )}
         </aside>
       </div>
     </Layout>
