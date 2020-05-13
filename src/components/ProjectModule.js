@@ -28,7 +28,7 @@ const ProjectModule = ({ data }) => {
       </div>
       <footer className={styles.projectModuleFooter}>
         <span className={styles.projectModuleFooterLink}>
-          {project.contributorTotal} contributors from New Relic
+          {project.team ? project.team.length : 0} contributors from New Relic
         </span>
       </footer>
     </div>

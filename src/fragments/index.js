@@ -7,6 +7,7 @@ export const projectFields = graphql`
     name
     title
     fullName
+    isParentProject
     stats {
       contributors
       releases
@@ -67,6 +68,12 @@ export const projectFields = graphql`
     projectTags {
       title
       slug
+    }
+    team {
+      name
+      avatarUrl
+      githubUrl
+      role
     }
     mainContent {
       mdx: parent {

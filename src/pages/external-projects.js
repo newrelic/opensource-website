@@ -11,7 +11,7 @@ import styles from './external-projects.module.scss';
 
 export const query = graphql`
   query ExternalProjectsQuery {
-    otherProjects: allProjects(filter: { projectType: { eq: "external" } }) {
+    otherProjects: allProjects(filter: { projectType: { eq: "external" }, isParentProject: { eq: true } }) {
       edges {
         node {
           ...projectFields
@@ -80,7 +80,7 @@ const ExternalProjects = ({ data }) => {
           <ProjectModule data={project} key={project.title} />
         ))}
       </div>
-      {otherProjects && (
+      {otherProjects && otherProjects.length > 0 && (
         <div className="primary-content">
           <main className={styles.moreProjects}>
             <div className={styles.moreProjectsHeaderSection}>

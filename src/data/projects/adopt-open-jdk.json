@@ -7,6 +7,7 @@
     "type": "Organization"
   },
   "title": "Adopt OpenJDK",
+  "isParentProject": true,
   "supportUrl": null,
   "githubUrl": "https://github.com/AdoptOpenJDK",
   "permalink": "https://opensource.newrelic.com/projects/adopt-open-jdk",
@@ -20,5 +21,11 @@
     "title": "Adopt OpenJDK",
     "url": "https://adoptopenjdk.net"
   },
-  "projectType": "external"
+  "projectType": "external",
+  "team": [{
+    "name": "Ben Evans",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/81539?s=88&u=ec037a0a4945011f224bf734faf54fd99fd1c8d8&v=4",
+    "role": "",
+    "githubUrl": "https://github.com/kittylyst"
+  }]
 }

@@ -49,7 +49,7 @@ const SubProjects = ({ projects }) => {
                 <div className={styles.subProjectCallToAction}>
                   <a href="button" className="button button-tertiary">
                     <img src={iconGitHub} alt="GitHub Logo" />
-                    View repo
+                    View Repo
                   </a>
                 </div>
               )}
@@ -120,22 +120,15 @@ const ExternalProjectPage = ({ data }) => {
               </div>
             </div>
           </div>
-          <h4>New Relic Contributors</h4>
-          <AsideNavigationItem
-            icon="https://api.adorable.io/avatars/95/sarrah@adorable.io.png"
-            label="John McGibbons"
-            to="https://github.com/tangollama"
-          />
-          <AsideNavigationItem
-            icon="https://api.adorable.io/avatars/90/katie@adorable.png"
-            label="Sarah Summers"
-            to="https://github.com/tangollama"
-          />
-          <AsideNavigationItem
-            icon="https://api.adorable.io/avatars/90/Karen@adorable.png"
-            label="Alex Williamson"
-            to="https://github.com/tangollama"
-          />
+          {project.team && <>
+            <h4>Involved from New Relic</h4>
+            {project.team.map(relic => (<AsideNavigationItem
+            icon={relic.avatarUrl}
+            label={relic.name}
+            subLabel={relic.role}
+            to={relic.githubUrl}
+          />))}
+          </>}
         </aside>
       </div>
     </Layout>

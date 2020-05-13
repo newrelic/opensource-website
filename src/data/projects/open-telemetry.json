@@ -8,6 +8,7 @@
   },
   "title": "OpenTelemetry",
   "supportUrl": null,
+  "isParentProject": true,
   "githubUrl": "https://github.com/open-telemetry",
   "permalink": "https://opensource.newrelic.com/projects/open-telemetry",
   "iconUrl": "./images/open-telemetry-icon.jpg",
@@ -22,6 +23,22 @@
   },
   "version": "0.1.0",
   "projectType": "external",
-  "subProjects": [ "open-telemetry-open-telemetry-js", "open-telemetry-opentelemetry-go" ],
-  "relatedProjects": [ "newrelic-newrelic-java-agent-ansible-role" ]
+  "subProjects": [ "open-telemetry-open-telemetry-java", "open-telemetry-opentelemetry-go" ],
+  "relatedProjects": [ "newrelic-newrelic-java-agent-ansible-role" ],
+  "team": [{
+    "name": "Victor Soares",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/21367523?s=460&u=3583c3abb055f9c127101ba2cc4589e17aefb847&v=4",
+    "role": "",
+    "githubUrl": "https://github.com/victorNewRelic"
+  },{
+    "name": "John Watson",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/858731?s=460&v=4",
+    "role": "Maintainer",
+    "githubUrl": "https://github.com/jkwatson"
+  },{
+    "name": "Tyler Yahn",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5543599?s=460&u=f34eb596f4aeb4bff9eb2d57975df03f724a7968&v=4",
+    "role": "Maintainer",
+    "githubUrl": "https://github.com/MrAlias"
+  }]
 }
