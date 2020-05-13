@@ -31,33 +31,30 @@ export const query = graphql`
 
 const SubProjects = ({ projects }) => {
   return (
-    <>
-      <h3>Sub Projects</h3>
-      <ul className={styles.subProjectList}>
-        {projects.map(p => {
-          return (
-            <li key={p.fullName} className={styles.subProject}>
-              <div className={styles.subProjectCopy}>
-                <h4 className={styles.subProjectName}>{p.title}</h4>
-                <p className={styles.subProjectDescription}>
-                  {p.description
-                    ? p.description
-                    : 'No description available for this project'}
-                </p>
+    <ul className={styles.subProjectList}>
+      {projects.map(p => {
+        return (
+          <li key={p.fullName} className={styles.subProject}>
+            <div className={styles.subProjectCopy}>
+              <h4 className={styles.subProjectName}>{p.title}</h4>
+              <p className={styles.subProjectDescription}>
+                {p.description
+                  ? p.description
+                  : 'No description available for this project'}
+              </p>
+            </div>
+            {p.githubUrl && (
+              <div className={styles.subProjectCallToAction}>
+                <a href="button" className="button button-tertiary">
+                  <img src={iconGitHub} alt="GitHub Logo" />
+                  View Repo
+                </a>
               </div>
-              {p.githubUrl && (
-                <div className={styles.subProjectCallToAction}>
-                  <a href="button" className="button button-tertiary">
-                    <img src={iconGitHub} alt="GitHub Logo" />
-                    View Repo
-                  </a>
-                </div>
-              )}
-            </li>
-          );
-        })}
-      </ul>
-    </>
+            )}
+          </li>
+        );
+      })}
+    </ul>
   );
 };
 SubProjects.propTypes = {
