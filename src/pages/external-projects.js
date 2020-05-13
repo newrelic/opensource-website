@@ -11,7 +11,9 @@ import styles from './external-projects.module.scss';
 
 export const query = graphql`
   query ExternalProjectsQuery {
-    otherProjects: allProjects(filter: { projectType: { eq: "external" }, isParentProject: { eq: true } }) {
+    otherProjects: allProjects(
+      filter: { projectType: { eq: "external" }, isParentProject: { eq: true } }
+    ) {
       edges {
         node {
           ...projectFields
@@ -88,7 +90,9 @@ const ExternalProjects = ({ data }) => {
               <h4 className={styles.moreProjectsHeaderSectionTitle}>
                 More projects
               </h4>
-              {otherProjects.length > 5 && <Link className={styles.moreProjectsMoreLink}>View all</Link>}
+              {otherProjects.length > 5 && (
+                <Link className={styles.moreProjectsMoreLink}>View all</Link>
+              )}
             </div>
             {otherProjects.map((project, i) => {
               if (i < 5) {
