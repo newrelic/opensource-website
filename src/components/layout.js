@@ -12,7 +12,7 @@ import Helmet from 'react-helmet';
 import Header from './header';
 import Footer from './Footer';
 import './styles.scss';
-import favicon from '../images/favicon.png';
+import favicon from '../images/favicon.svg';
 
 const Layout = ({
   children,
