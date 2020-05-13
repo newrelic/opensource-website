@@ -1,0 +1,24 @@
+{
+  "name": "newrelic-kubernetes-operator",
+  "fullName": "newrelic/newrelic-kubernetes-operator",
+  "slug": "newrelic-newrelic-kubernetes-operator",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Kubernetes Operator",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/newrelic-kubernetes-operator",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-kubernetes-operator",
+  "iconUrl": null,
+  "shortDescription": "Operator to manage New Relic resources",
+  "description": "Operator to create New Relic configuration in Kubernetes",
+  "ossCategory": "community-project",
+  "primaryLanguage": null,
+  "projectTags": [ "dev-toolkit" ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Developer Toolkit",
+    "url": "https://newrelic.github.io/developer-toolkit/"
+  }
+}

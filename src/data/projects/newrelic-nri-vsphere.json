@@ -1,0 +1,24 @@
+{
+  "name": "nri-vsphere",
+  "fullName": "newrelic/nri-vsphere",
+  "slug": "newrelic-nri-vsphere",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Infrastructure VMware vSpere Integration",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
+  "githubUrl": "https://github.com/newrelic/nri-vsphere",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-vsphere",
+  "iconUrl": "https://github.com/newrelic/nri-vsphere/blob/master/icon.png?raw=true",
+  "shortDescription": "Monitoring for the VMware vSphere",
+  "description": "Captures critical summary metrics and inventory data by connecting to the vCenter or to an ESXi Host",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Go",
+  "projectTags": [ "nri" ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Infrastructure VMware vSpere Integration",
+    "url": "https://github.com/newrelic/nri-vsphere"
+  }
+}

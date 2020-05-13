@@ -1,0 +1,24 @@
+{
+  "name": "nr1-donor-analyzer",
+  "fullName": "newrelic/nr1-donor-analyzer",
+  "slug": "newrelic-nr1-donor-analyzer",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic.org Donor Analyzer",
+  "supportUrl": "https://discuss.newrelic.com/t/nerdpack-donor-analyzer/101177",
+  "githubUrl": "https://github.com/newrelic/nr1-donor-analyzer",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-donor-analyzer",
+  "iconUrl": "https://github.com/newrelic/nr1-donor-analyzer/blob/master/icon.png?raw=true",
+  "shortDescription": "Browser performance connected to CRM data",
+  "description": "Modification on the Browser Analyzer that connects Constituent attributes from donor databases to web traffic",
+  "ossCategory": "new-relic-one-catalog-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [ "nr1-app" ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic.org Donor Analyzer",
+    "url": "https://github.com/newrelic/nr1-donor-analyzer"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "video-theplatform-js",
+  "fullName": "newrelic/video-theplatform-js",
+  "slug": "newrelic-video-theplatform-js",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic thePlatform JS Tracker",
+  "supportUrl": "https://discuss.newrelic.com/t/theplatform-js-tracker/100302",
+  "githubUrl": "https://github.com/newrelic/video-theplatform-js",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/video-theplatform-js",
+  "iconUrl": "https://github.com/newrelic/video-theplatform-js/blob/master/icon.png?raw=true",
+  "shortDescription": "Instrument the thePlatform player",
+  "description": "New Relic Browser Agent that instruments thePlatform HTML5 player",
+  "ossCategory": "community-project",
+  "projectTags": [ "agent", "video" ],
+  "primaryLanguage": "JaavScript",
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic thePlatform JS Tracker",
+    "url": "https://github.com/newrelic/video-jwplayer-js"
+  }
+}
