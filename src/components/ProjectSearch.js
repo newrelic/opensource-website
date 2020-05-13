@@ -24,11 +24,7 @@ class ProjectSearch extends Component {
     this.state = {
       searchResults: [],
       search: null,
-      removeStopWords: false,
       searchQuery: '',
-      selectedStrategy: '',
-      selectedSanitizer: '',
-      indexFields: [],
       filterValues: {
         ossCategory: '',
         projectTag: '',
@@ -36,7 +32,26 @@ class ProjectSearch extends Component {
       },
       filterResults: [],
       urlParamToInputMap: paramMap,
-      inputToUrlParamMap: invert(paramMap)
+      inputToUrlParamMap: invert(paramMap),
+
+      // Search Engine settings
+      selectedStrategy: 'Prefix match',
+      selectedSanitizer: 'Lower Case',
+      indexFields: [
+        ['slug'],
+        ['fullName'],
+        ['name'],
+        ['description'],
+        ['ossCategory', 'title'],
+        ['website', 'title'],
+        ['projectTags', 'title'],
+        ['primaryLanguage']
+
+        // Nested array syntax doesn't work until this PR is merged:
+        // https://github.com/bvaughn/js-search/pull/78/files#diff-5d56a676b2913ba26d67295fe642d9b0R18
+        // ['stats', 'languages', '[]', 'name']
+      ],
+      removeStopWords: true
     };
   }
 
@@ -45,12 +60,8 @@ class ProjectSearch extends Component {
    */
   static getDerivedStateFromProps(nextProps, prevState) {
     if (prevState.search === null) {
-      const { engine, data } = nextProps;
+      const { data } = nextProps;
       return {
-        indexFields: engine.indexFields,
-        selectedSanitizer: engine.searchSanitizer,
-        selectedStrategy: engine.indexStrategy,
-        removeStopWords: engine.removeStopWords,
         searchResults: data,
         filterResults: data
       };
@@ -303,7 +314,6 @@ ProjectSearch.propTypes = {
   location: PropTypes.object,
   children: PropTypes.func,
   data: PropTypes.array,
-  engine: PropTypes.object,
   filterOptions: PropTypes.object,
   urlParams: PropTypes.object
 };

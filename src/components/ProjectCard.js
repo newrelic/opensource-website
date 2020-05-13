@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import { get } from 'lodash';
 
-import styles from '../templates/projects.module.scss';
+import styles from '../pages/explore-projects.module.scss';
 
 const ProjectCard = ({ project: p }) => {
   const link = p.permalink.replace('https://opensource.newrelic.com', '');
