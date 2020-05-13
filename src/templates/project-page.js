@@ -226,8 +226,7 @@ const ProjectPage = ({ data }) => {
             <>
               <h2>Contributions</h2>
               <p>
-                <strong>{project.title}</strong> accepts contributions under the
-                New Relic open source{' '}
+                <strong>{project.title}</strong> accepts contributions under our open source{' '}
                 <a
                   href={`${project.githubUrl}/code-of-conduct`}
                   target="__blank"
