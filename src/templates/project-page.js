@@ -6,8 +6,6 @@ import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import { get } from 'lodash';
 import { Edit } from 'react-feather';
-import { getEditLinkFromLocation } from '../utils';
-import { Location, Match } from '@reach/router';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -26,23 +24,35 @@ import openIssueGreyIcon from '../images/icon-open-issue-grey.svg';
 import iconGitHubWhite from '../images/icon-github-white.svg';
 
 export const query = graphql`
-  query NewRelicProjects($slug: String) {
-    allProjects(
+  query NewRelicProjects($slug: String, $pagePath: String) {
+    project: allProjects(
       filter: { slug: { eq: $slug }, projectType: { eq: "newrelic" } }
     ) {
       nodes {
         ...projectFields
       }
     }
+    sitePage: allSitePage(filter: { path: { eq: $pagePath } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
+      }
+    }
   }
 `;
 
-const ProjectPage = ({ data }) => {
+const ProjectPage = props => {
+  const { data } = props;
+
   const renderNotFound = () => {
     return <h1>Project not found</h1>;
   };
 
-  const project = get(data, 'allProjects.nodes[0]', false);
+  const project = get(data, 'project.nodes[0]', false);
+  const contentEditLink = get(data, 'sitePage.nodes[0].fields.contentEditLink');
 
   if (!project) {
     return renderNotFound();
@@ -189,7 +199,11 @@ const ProjectPage = ({ data }) => {
   };
 
   return (
-    <Layout hasHeaderBg className={styles.projectPageLayout}>
+    <Layout
+      hasHeaderBg
+      className={styles.projectPageLayout}
+      editLink={contentEditLink}
+    >
       <SEO title="A single project page" />
       <PageHeading
         title={project.title}
@@ -304,33 +318,19 @@ const ProjectPage = ({ data }) => {
                   <img src={iconGitHubWhite} alt="GitHub logo" />
                   Fork Repo
                 </a>
-                <Location>
-                  {({ location }) => {
-                    const editLink = getEditLinkFromLocation({ location });
-
-                    return (
-                      <Match path={location.pathname}>
-                        {// eslint-disable-next-line no-unused-vars
-                        ({ location, match }) => {
-                          // TO DO - Remove <Match>? It seemingly adds no additional context outside of what <Location> gives us
-                          return (
-                            <a
-                              href={editLink}
-                              className="button button-secondary"
-                              target="__blank"
-                              rel="noopener noreferrer"
-                            >
-                              <span className={styles.buttonIcon}>
-                                <Edit color="#007e8a" size={16} />
-                              </span>
-                              Edit page
-                            </a>
-                          );
-                        }}
-                      </Match>
-                    );
-                  }}
-                </Location>
+                {contentEditLink && (
+                  <a
+                    href={contentEditLink}
+                    className="button button-secondary"
+                    target="__blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className={styles.buttonIcon}>
+                      <Edit color="#007e8a" size={16} />
+                    </span>
+                    Edit page
+                  </a>
+                )}
               </div>
               {project.stats &&
                 project.stats.license &&

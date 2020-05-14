@@ -1,12 +1,33 @@
+import { graphql } from 'gatsby'
+import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 
-export default ({ children }) => (
-  <Layout fullWidth>
-    <SEO title="New Relic Open Source Code of Conduct" />
-    {children}
-  </Layout>
-);
+export const query = graphql`
+  query PageQuery($path: String) {
+    sitePage: allSitePage(filter: { path: { eq: $path } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
+      }
+    }
+  }
+`;
+
+export default (props) => {
+  const { children, data } = props;
+  const editLink = get(data, 'sitePage.nodes[0].fields.contentEditLink');
+  
+  return (
+    <Layout fullWidth editLink={editLink}>
+      <SEO title="New Relic Open Source Code of Conduct" />
+      {children}
+    </Layout>
+  )
+};
 
 # New Relic Open Source Code of Conduct
 

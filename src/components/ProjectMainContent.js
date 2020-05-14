@@ -24,7 +24,7 @@ const ProjectMainContent = props => {
 };
 
 ProjectMainContent.propTypes = {
-  mdx: PropTypes.object,
+  mdx: PropTypes.string,
   project: PropTypes.object
 };
 
