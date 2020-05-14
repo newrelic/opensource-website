@@ -17,6 +17,14 @@ const ORG_REPOS = [
   // }
 ];
 
+const EXCLUDED_PROJECTS = [
+  'adopt-open-jdk',
+  'open-telemetry/opentelemetry-go',
+  'open-telemetry/opentelemetry-java',
+  'open-telemetry',
+  'w3c-trace-context'
+];
+
 // TO DO - Ascertain Github's GraphQL query limits
 // If we end up with too many of these, GraphQL could get grumpy
 const SCREENSHOT_FOLDERS = {
@@ -27,6 +35,7 @@ const SCREENSHOT_FOLDERS = {
 };
 
 module.exports = {
-  SCREENSHOT_FOLDERS,
-  ORG_REPOS
+  ORG_REPOS,
+  EXCLUDED_PROJECTS,
+  SCREENSHOT_FOLDERS
 };
