@@ -97,7 +97,15 @@ const IndexPage = ({ data }) => {
             <a href="/explore-projects">explore the projects</a> we're
             maintaining as well as our involvement in{' '}
             <a href="/external-projects">open standards</a>. Learn{' '}
-            <a href="#" onClick={() => { alert('New Relic Blog post announcing this site'); }}>more</a>.
+            <a
+              href="#"
+              onClick={() => {
+                alert('New Relic Blog post announcing this site');
+              }}
+            >
+              more
+            </a>
+            .
           </p>
         </div>
         <div
