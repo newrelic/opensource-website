@@ -278,6 +278,7 @@ const ProjectPage = props => {
                 <a
                   href={`${project.githubUrl}/issues`}
                   rel="noopener noreferrer"
+                  target="__blank"
                 >
                   Issues
                 </a>{' '}
