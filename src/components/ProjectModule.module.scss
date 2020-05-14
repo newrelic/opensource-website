@@ -18,16 +18,18 @@
 
 .project-module-icon {
   display: inline-block;
+  flex-shrink: 0;
   width: 88px;
   height: 88px;
   margin-top: -50px;
+  margin-bottom:10px;
   box-shadow: 0 0 0 4px #fff;
   border-radius: 50%;
 }
 
 .project-module-title {
-  margin-top: 10px;
-  margin-bottom: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0 24px;
   font-weight: 600;
   font-size: 21px;
@@ -36,7 +38,8 @@
 }
 
 .project-module-description {
-  margin-bottom: 16px;
+  margin-top: 6px;
+  margin-bottom: 0;
   padding: 0 24px;
   font-size: 14px;
   line-height: 20px;
@@ -48,8 +51,8 @@
   display: flex;
   justify-content: stretch;
   height: 36px;
-  margin-top: 24px;
   align-items: center;
+  margin-top: 16px;
   background-color: var(--color-neutrals-050);
   border-top: 1px dotted var(--color-neutrals-300);
 }
@@ -74,4 +77,67 @@
 a.project-module-footer-link:hover {
     color: var(--color-neutrals-800);
     background-color: var(--color-neutrals-100);
+}
+
+.project-module-primary-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-module-copy {
+  display: flex;
+  min-height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.style-row {
+  flex-grow: 0;
+  margin-top: 0;
+
+  .project-module-copy {
+    align-items: flex-start;
+  }
+
+  .project-module-button {
+    display: none;
+  }
+  
+  .project-module-primary-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    text-align: left;
+    padding: 16px 24px;
+  }
+
+  .project-module-icon {
+    width: 72px;
+    height: 72px;
+    margin: 0;
+  }
+
+  .project-module-title {
+    margin: 0 0 4px 0;
+    text-align: left;
+    box-sizing: border-box;
+    // width: 100%;
+    // overflow: hidden;
+    // text-overflow: ellipsis;
+    // white-space: nowrap;
+  }
+
+  .project-module-description {
+    padding: 0 0 0 24px;
+    margin-bottom: 0;
+    margin-top: 2px;
+  }
+
+  .project-module-footer {
+    margin-top: 0;
+  }
 }
