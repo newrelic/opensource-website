@@ -1,6 +1,6 @@
 const visit = require('unist-util-visit');
 
-const remarkExternalLinks = () => (tree, file) => {
+const remarkExternalLinks = () => tree => {
   const isTarget = node => {
     return (
       node.type === 'link' && node.url.indexOf('opensource.newrelic.com') < 0
