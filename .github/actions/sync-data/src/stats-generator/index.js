@@ -120,7 +120,9 @@ async function script() {
   log.info(
     `Projects with generated stats but no corresponding file in src/data/projects: ${missingProjects.length}`
   );
-  log.magenta(`\n -- Projects missing project json files --`);
+  log.magenta(
+    `\n -- Stats generated, but no corresponding project json file detected --`
+  );
   log.red(missingProjects);
   log.magenta(`-----------------------------------------\n`);
 
