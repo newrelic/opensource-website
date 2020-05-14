@@ -78,10 +78,10 @@ const Footer = () => {
                       <>
                         <li className={styles.footerNavLinkItem} key="0">
                           <Link
-                            to="/code-of-conduct"
+                            to="/standards"
                             className={styles.footerNavLink}
                           >
-                            Code of Conduct
+                            Standards
                           </Link>
                         </li>
                         {renderNavLinks()}

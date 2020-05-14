@@ -1,0 +1,64 @@
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import PageHeading from '../components/PageHeading';
+
+export default ({ children }) => (
+  <Layout hasHeaderBg>
+    <SEO title="Contributing Code to a New Relic Open Source" />
+    <PageHeading
+      title="Contributing Code to a New Relic Open Source"
+      subheader="Demonstrating a standard fork-and-pull-request code contribution workflow"
+      hasSeparator
+    />
+    <div className="primary-content">
+      <main>{children}</main>
+    </div>
+  </Layout>
+);
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g00AeKlECZA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The video above walks you through the details expressed below. For a more technical or detailed description of this process, you can consult [**this link**](https://gist.github.com/tangollama/5d9d63fef0ed4498fb5fbb057bb5983d) or similar documentation across the open source world.
+
+For those new to the concept, the following points encapsulate the major steps and issues.
+
+## Fork a Repository
+
+As opposed to requiring write access to the open source repository, a [**fork**](https://help.github.com/en/enterprise/2.13/user/articles/fork-a-repo) allows you the ability to modify code and contribute changes via a [**pull request**](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
+
+![fork](/images/fork_repository.png "Click the fork button in GitHub")
+
+Navigate to the repository in GitHub and click the **Fork** button.
+
+## Implement changes on your Fork
+
+Now that you have a copy of the repository in your own _writable_ space, you can implement your changes against your forked copy of the code but executing the `git clone` command, and modifying your copy of the code.
+
+![your fork](/images/your_fork.png "Your fork on GitHub")
+
+### Commit message guidance
+
+As you `commit` changes to your **fork**, you want to ensure that your commit messages are human-readable, relevant, descriptive, and follow a standard methodology so that tooling can automate the creation of **Changelogs**, etc.
+
+To support that, New Relic open source projects seek to follow the [Conventional Commit specification](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification) for `git` commit messages.
+
+![conventional commit messages](/images/commit_message.png "Commit messages following Conventional Commit standards")
+
+#### Please ensure
+
+1. That your commit messages follow the [Convention Commit specification](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification).
+2. That your commits tie back to a specific [**Issue**](https://help.github.com/en/github/managing-your-work-on-github/about-issues) in the upstream repository (_hint: if there isn't an issue for your change, add it yourself :)_ ).
+
+## Initiate a Pull Request to the New Relic repository
+
+Once you've committed your changes to your fork, you can now issue a [**Pull Request**](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) back to the New Relic project.
+
+![create a pull request](/images/pull_request.png "create a pull request")
+
+
+## Accept the New Relic CLA (Contributor License Agreement)
+
+Finally, if you've not contributed to a New Relic open source project before, we're going to prompt you to electronically sign our [**Contributor License Agreement (CLA)**](/cla), highlighting that you're freely providing code to for the benefit of the open source project and community.
+
+![cla](/images/cla.png "cla")
+

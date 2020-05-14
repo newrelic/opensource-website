@@ -1,0 +1,29 @@
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import PageHeading from '../components/PageHeading';
+
+export default ({ children }) => (
+  <Layout hasHeaderBg>
+    <SEO title="New Relic Open Source Standards" />
+    <PageHeading
+      title="New Relic Open Source Standards"
+      subheader="How we implement our New Relic core values in open source"
+      hasSeparator
+    />
+    <div className="primary-content">
+      <main>{children}</main>
+    </div>
+  </Layout>
+);
+
+## Code of Conduct
+
+Read our [**Code of Conduct**](/code-of-conduct) to understand how we operate in open source and what we expect of contributors.
+
+## Open Source Categories
+
+All New Relic open source projects are [**categorized**](/oss-category) to help contributors, developers, and customers understand what to expect and how to engage with our projects.
+
+## Contributing
+
+New Relic open source projects follow a [fork-and-pull-request](https://gist.github.com/tangollama/5d9d63fef0ed4498fb5fbb057bb5983d) workflow for project contribution. If you're new to open source contribution, the content on [**this page**](/contributing) will help.
