@@ -16,7 +16,7 @@ const NR1AppGettingStartedContent = ({ project: p }) => {
       </p>
       <p>
         To fork and enhance this New Relic One application, follow the{' '}
-        <a href={`${p.githubUrl}#getting-started`}>
+        <a href={`${p.githubUrl}#getting-started`} target="__blank">
           Getting Started instructions in the README
         </a>
         .

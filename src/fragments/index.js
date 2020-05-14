@@ -101,6 +101,7 @@ export const exploreProjectsFields = graphql`
       }
       releases
       screenshots
+      lastSixMonthsCommitTotal
     }
     description
     iconUrl

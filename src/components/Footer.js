@@ -1,8 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { Link } from 'gatsby';
 import { Location, Match } from '@reach/router';
-import { getEditLinkFromLocation } from '../utils';
 
 import navLinks from '../data/navigation.json';
 import styles from './Footer.module.scss';
@@ -10,7 +10,7 @@ import editIcon from '../images/icon-edit.svg';
 
 import packageJson from '../../package.json';
 
-const Footer = () => {
+const Footer = ({ editLink = false }) => {
   const renderNavLinks = () => {
     const sortedNavLinks = navLinks.navigation.sort((a, b) =>
       a.order > b.order ? 1 : -1
@@ -30,8 +30,6 @@ const Footer = () => {
   return (
     <Location>
       {({ location }) => {
-        const editLink = getEditLinkFromLocation({ location });
-
         return (
           <Match path={location.pathname}>
             {// eslint-disable-next-line no-unused-vars
@@ -99,7 +97,7 @@ const Footer = () => {
 };
 
 Footer.propTypes = {
-  //
+  editLink: PropTypes.string
 };
 
 export default Footer;

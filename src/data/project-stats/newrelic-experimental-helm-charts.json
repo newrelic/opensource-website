@@ -3,20 +3,27 @@
   "issues": {
     "open": 0
   },
-  "releases": 2,
+  "releases": 4,
   "latestRelease": {
-    "name": "redis-10.5.10",
-    "date": "2020-05-11T14:16:14Z"
+    "name": "simple-nginx-1.1.1",
+    "date": "2020-05-13T14:25:14Z"
   },
-  "commits": 23,
-  "lastSixMonthsCommitTotal": 23,
-  "contributors": 4,
+  "commits": 35,
+  "lastSixMonthsCommitTotal": 35,
+  "contributors": 5,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
     {
       "id": 43244625,
       "login": "melissaklein24",
@@ -25,25 +32,25 @@
       "contributions": 1
     },
     {
-      "id": 159076,
-      "login": "douglascamata",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/159076?v=4",
-      "htmlUrl": "https://github.com/douglascamata",
-      "contributions": 2
-    },
-    {
       "id": 5297542,
       "login": "alejandrodnm",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/5297542?v=4",
       "htmlUrl": "https://github.com/alejandrodnm",
-      "contributions": 5
+      "contributions": 6
+    },
+    {
+      "id": 159076,
+      "login": "douglascamata",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/159076?v=4",
+      "htmlUrl": "https://github.com/douglascamata",
+      "contributions": 7
     },
     {
       "id": 503802,
       "login": "jorikvdwerf",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/503802?v=4",
       "htmlUrl": "https://github.com/jorikvdwerf",
-      "contributions": 15
+      "contributions": 20
     }
   ],
   "languages": [

@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-java",
   "issues": {
-    "open": 13
+    "open": 12
   },
   "releases": 7,
   "latestRelease": {
     "name": "v0.5.1",
     "date": "2020-04-30T22:34:27Z"
   },
-  "commits": 481,
-  "lastSixMonthsCommitTotal": 167,
+  "commits": 504,
+  "lastSixMonthsCommitTotal": 190,
   "contributors": 13,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -47,13 +47,6 @@
       "login": "kscaldef",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/50001?v=4",
       "htmlUrl": "https://github.com/kscaldef",
-      "contributions": 1
-    },
-    {
-      "id": 49817386,
-      "login": "jeffalder",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/49817386?v=4",
-      "htmlUrl": "https://github.com/jeffalder",
       "contributions": 1
     },
     {
@@ -99,6 +92,13 @@
       "contributions": 11
     },
     {
+      "id": 49817386,
+      "login": "jeffalder",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/49817386?v=4",
+      "htmlUrl": "https://github.com/jeffalder",
+      "contributions": 15
+    },
+    {
       "id": 662836,
       "login": "jeemar",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/662836?v=4",
@@ -113,18 +113,18 @@
       "contributions": 53
     },
     {
-      "id": 858731,
-      "login": "jkwatson",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/858731?v=4",
-      "htmlUrl": "https://github.com/jkwatson",
-      "contributions": 116
-    },
-    {
       "id": 54085190,
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
       "contributions": 121
+    },
+    {
+      "id": 858731,
+      "login": "jkwatson",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/858731?v=4",
+      "htmlUrl": "https://github.com/jkwatson",
+      "contributions": 123
     }
   ],
   "languages": [

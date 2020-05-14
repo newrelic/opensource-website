@@ -15,8 +15,8 @@ import iconGitHubGreen from '../images/icon-github-green.svg';
 import iconGitHub from '../images/icon-github.svg';
 
 export const query = graphql`
-  query ExternalProjects($slug: String) {
-    allProjects(
+  query ExternalProjects($slug: String, $pagePath: String) {
+    project: allProjects(
       filter: { slug: { eq: $slug }, projectType: { eq: "external" } }
     ) {
       nodes {
@@ -24,6 +24,15 @@ export const query = graphql`
         subProjects {
           ...projectFields
         }
+      }
+    }
+    sitePage: allSitePage(filter: { path: { eq: $pagePath } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
       }
     }
   }
@@ -66,7 +75,8 @@ const ExternalProjectPage = ({ data }) => {
     return <h1>Project not found</h1>;
   };
 
-  const project = get(data, 'allProjects.nodes[0]', false);
+  const project = get(data, 'project.nodes[0]', false);
+  const contentEditLink = get(data, 'sitePage.nodes[0].fields.contentEditLink');
   const subProjects = get(project, 'subProjects', false);
 
   if (!project) {
@@ -76,7 +86,11 @@ const ExternalProjectPage = ({ data }) => {
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
 
   return (
-    <Layout hasHeaderBg className={styles.projectPageLayout}>
+    <Layout
+      hasHeaderBg
+      className={styles.projectPageLayout}
+      editLink={contentEditLink}
+    >
       <SEO title="Opensource Project" />
       <PageHeading
         title={project.title}
@@ -87,10 +101,7 @@ const ExternalProjectPage = ({ data }) => {
       <div className="primary-content">
         <main className={`primary-content-main ${styles.primaryContentMain}`}>
           {mainContent && (
-            <ProjectMainContent
-              mdx={project.mainContent.mdx.compiledMdx}
-              project={project}
-            />
+            <ProjectMainContent mdx={mainContent} project={project} />
           )}
           {subProjects && <SubProjects projects={subProjects} />}
         </main>

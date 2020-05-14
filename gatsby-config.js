@@ -100,6 +100,9 @@ module.exports = {
         // remarkPlugins: [require(`gatsby-remark-copy-linked-files`)],
         extensions: [`.mdx`, `.md`]
       }
+    },
+    {
+      resolve: 'gatsby-plugin-edit-content-links'
     }
   ]
 };

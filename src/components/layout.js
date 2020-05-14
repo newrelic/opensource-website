@@ -19,7 +19,8 @@ const Layout = ({
   hasHeaderBg,
   fullWidth,
   className,
-  mainClassName
+  mainClassName,
+  editLink
 }) => {
   return (
     <div className={`layout-container ${className}`}>
@@ -34,7 +35,7 @@ const Layout = ({
       >
         {children}
       </main>
-      <Footer />
+      <Footer editLink={editLink} />
     </div>
   );
 };
@@ -44,7 +45,8 @@ Layout.propTypes = {
   hasHeaderBg: PropTypes.bool,
   fullWidth: PropTypes.bool,
   className: PropTypes.string,
-  mainClassName: PropTypes.string
+  mainClassName: PropTypes.string,
+  editLink: PropTypes.string
 };
 
 export default Layout;

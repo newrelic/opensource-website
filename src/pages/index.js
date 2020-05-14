@@ -18,8 +18,11 @@ import closeIcon from '../images/icon-close.svg';
 export const query = graphql`
   query HomePageQuery {
     topProjects: allProjects(
-      filter: { projectType: { eq: "newrelic" } }
-      sort: { fields: stats___commits, order: DESC }
+      filter: {
+        projectType: { eq: "newrelic" }
+        stats: { lastSixMonthsCommitTotal: { ne: null } }
+      }
+      sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
       limit: 8
     ) {
       edges {
@@ -94,7 +97,15 @@ const IndexPage = ({ data }) => {
             <a href="/explore-projects">explore the projects</a> we're
             maintaining as well as our involvement in{' '}
             <a href="/external-projects">open standards</a>. Learn{' '}
-            <a href="#" onClick={() => { alert('New Relic Blog post announcing this site'); }}>more</a>.
+            <a
+              href="#"
+              onClick={() => {
+                alert('New Relic Blog post announcing this site');
+              }}
+            >
+              more
+            </a>
+            .
           </p>
         </div>
         <div
@@ -138,13 +149,15 @@ const IndexPage = ({ data }) => {
       <HomePageHighlights data={externalProjects} />
 
       <div className={styles.featuredInternalProjectsContainer}>
-        <h3 className={styles.featuredInternalProjectsSectionTitle}>
-          Explore projects
-        </h3>
-        <p className={styles.featuredInternalProjectsSectionDescription}>
-          Check out some of the products that we’re developing in open source or{' '}
-          <Link to="/explore-projects">view all projects</Link>
-        </p>
+        <div className={styles.featuredInternalProjectsSection}>
+          <h3 className={styles.featuredInternalProjectsSectionTitle}>
+            Explore projects
+          </h3>
+          <p className={styles.featuredInternalProjectsSectionDescription}>
+            Check out some of the products that we’re developing in open source
+            or <Link to="/explore-projects">view all projects</Link>
+          </p>
+        </div>
 
         <HomePageInternalProjects data={internalProjects} />
       </div>

@@ -9,9 +9,19 @@ const HomePageHighlights = data => {
 
   return (
     <div className={styles.featuredExternalProjects}>
-      {projects.map(project => {
-        return <ProjectModule data={project} key={project.title} />;
-      })}
+      <h4 className={styles.featuredExternalProjectsTitle}>
+        Projects that we love
+      </h4>
+      <p className={styles.featuredExternalProjectsDescription}>
+        New Relic contributes resources to the development of these projects.
+        {` `}
+        <a href="/external-projects">View all</a>
+      </p>
+      <div className={styles.externalProjectsList}>
+        {projects.map(project => {
+          return <ProjectModule data={project} key={project.title} row />;
+        })}
+      </div>
     </div>
   );
 };
