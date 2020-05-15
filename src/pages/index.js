@@ -20,7 +20,6 @@ export const query = graphql`
     topProjects: allProjects(
       filter: {
         projectType: { eq: "newrelic" }
-        stats: { lastSixMonthsCommitTotal: { gt: 1 } }
       }
       sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
       limit: 8
