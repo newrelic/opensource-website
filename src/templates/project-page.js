@@ -59,7 +59,7 @@ const ProjectPage = props => {
   }
 
   const projectStats = get(project, 'stats', false);
-  let tags = [
+  const tags = [
     {
       name: 'category',
       value: get(project, 'ossCategory.title', '')
@@ -73,19 +73,6 @@ const ProjectPage = props => {
       value: get(project, 'stats.latestRelease.name', '')
     }
   ];
-
-  if (project.projectTags) {
-    tags = tags.concat(
-      project.projectTags.map(i => {
-        return {
-          name: 'tag',
-          value: i.title
-        };
-      })
-    );
-  }
-
-  tags = tags.filter(i => i.value !== null && i.value !== '');
 
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
   const supportUrl = get(project, 'supportUrl', false);
@@ -187,6 +174,23 @@ const ProjectPage = props => {
         </ModalGateway>
       </>
     );
+  };
+
+  const sidebarProjectTags = () => {
+    const tag = project.projectTags.map(tag => {
+      return (
+        <li className={styles.sidebarTagListTag} key={tag.title}>
+          <a
+            className={styles.tagLink}
+            href={`/explore-projects/?tag=${tag.title}`}
+          >
+            {tag.title}
+          </a>
+        </li>
+      );
+    });
+
+    return <ul className={styles.sidebarTags}>{tag}</ul>;
   };
 
   // TO DO - What do we display when we do not have stats?
@@ -512,6 +516,12 @@ const ProjectPage = props => {
                   {!projectStats && renderEmptyIssues()}
                 </>
               )}
+            </>
+          )}
+          {project.projectTags && (
+            <>
+              <h4>Tags</h4>
+              {sidebarProjectTags()}
             </>
           )}
 
