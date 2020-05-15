@@ -204,7 +204,7 @@ const ProjectPage = props => {
       className={styles.projectPageLayout}
       editLink={contentEditLink}
     >
-      <SEO title="A single project page" />
+      <SEO title={project.title} />
       <PageHeading
         title={project.title}
         subheader={project.description}
