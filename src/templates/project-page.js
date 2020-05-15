@@ -47,6 +47,8 @@ export const query = graphql`
 const ProjectPage = props => {
   const { data } = props;
 
+  console.log(data);
+
   const renderNotFound = () => {
     return <h1>Project not found</h1>;
   };

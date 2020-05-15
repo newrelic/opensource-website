@@ -307,6 +307,11 @@ select {
 }
 
 .aside-header-item {
+
+  &:not(:first-child) {
+    margin-top: 21px;
+  }
+
   display: flex;
   align-items: baseline;
   justify-content: space-between;

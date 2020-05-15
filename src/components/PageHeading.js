@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { startCase } from 'lodash';
 
 import styles from './PageHeading.module.scss';
 
@@ -13,14 +14,19 @@ const PageHeading = props => {
               className={styles.tagLink}
               href={`/explore-projects/?${tag.name}=${tag.value}`}
             >
-              {tag.value}
+              <span className={styles.tagName}>{startCase(tag.name)}</span>
+              <span className={styles.tagValue}>{tag.value}</span>
             </a>
           </li>
         );
       } else {
         return (
-          <li key={index} className={styles.pageHeadingTagListTag}>
-            {tag.value}
+          <li
+            key={index}
+            className={`${styles.pageHeadingTagListTag} ${styles.tagWithNoLink}`}
+          >
+            <span className={styles.tagName}>{startCase(tag.name)}</span>
+            <span className={styles.tagValue}>{tag.value}</span>
           </li>
         );
       }
