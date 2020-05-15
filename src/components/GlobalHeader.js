@@ -13,7 +13,7 @@ const GlobalHeader = ({ hasHeaderBg }) => {
       <div className={styles.globalHeaderContent}>
         <div className={styles.leftSideLinksContainer}>
           <a
-            href="https://one.newrelic.com/"
+            href="https://newrelic.com/"
             className={styles.logo}
             rel="noopener noreferrer"
           >
