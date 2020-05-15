@@ -18,9 +18,7 @@ import closeIcon from '../images/icon-close.svg';
 export const query = graphql`
   query HomePageQuery {
     topProjects: allProjects(
-      filter: { projectType: { eq: "newrelic" } }
-      sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
-      limit: 8
+      filter: { projectType: { eq: "newrelic" } } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC } # limit: 8
     ) {
       edges {
         node {
@@ -70,7 +68,24 @@ const IndexPage = ({ data }) => {
     get(data, 'adoptOpenJdk.nodes[0]')
   ];
 
-  const internalProjects = get(data, 'topProjects.edges').map(i => i.node);
+  // temp workaround until the query above is fixed to pull back the correct top 8
+  const internalProjects = get(data, 'topProjects.edges')
+    .map(i => i.node)
+    .sort((a, b) => {
+      if (a.stats === null && b.stats === null) {
+        return 0;
+      } else if (a.stats === null) {
+        return 1;
+      } else if (b.stats === null) {
+        return -1;
+      }
+
+      return a.stats.lastSixMonthsCommitTotal < b.stats.lastSixMonthsCommitTotal
+        ? 1
+        : -1;
+    })
+    .slice(0, 8);
+
   internalProjects.forEach((p, index) => {
     internalProjects[index].iconUrl = genericProjectIcon;
   });

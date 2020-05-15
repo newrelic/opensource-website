@@ -17,6 +17,7 @@ export const projectFields = graphql`
       }
       searchCategory
       commits
+      lastSixMonthsCommitTotal
       cachedIssues {
         createdAt
         id
