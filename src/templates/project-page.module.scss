@@ -294,3 +294,35 @@ p.call-to-action-description {
   line-height: 11px;
   margin-right: 8px;
 }
+
+.sidebar-tags {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-tag-list-tag {
+  display: inline-block;
+  margin-bottom: 8px;
+  background-color: var(--color-neutrals-100);
+  color: var(--color-neutrals-600);
+  font-size: 12px;
+  padding: 2px 8px;
+  margin-right: 8px;
+  border-radius: 3px;
+  transition: all .07s var(--ease-out-quad);
+  
+  &:hover {
+    transform: translateY(-1px);
+    background-color: rgba(112, 204, 210, 0.17);
+    
+    a {
+      color: #007e8a;
+    }
+  }
+  
+  a {
+    color: var(--color-neutrals-700);
+    border: none;
+    transition: all .09s var(--ease-out-quad);
+  }
+}
