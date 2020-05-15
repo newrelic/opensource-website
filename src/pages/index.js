@@ -155,7 +155,7 @@ const IndexPage = ({ data }) => {
           </h3>
           <p className={styles.featuredInternalProjectsSectionDescription}>
             Check out some of the products that we’re developing in open source
-            or <Link to="/explore-projects">view all projects</Link>
+            or <Link to="/explore-projects">view all projects</Link>.
           </p>
         </div>
 
