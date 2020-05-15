@@ -27,11 +27,6 @@ const ProjectModule = ({ data, row }) => {
           </p>
         </div>
       </div>
-      <footer className={styles.projectModuleFooter}>
-        <span className={styles.projectModuleFooterLink}>
-          {project.team ? project.team.length : 0} contributors from New Relic
-        </span>
-      </footer>
     </div>
   );
 };
