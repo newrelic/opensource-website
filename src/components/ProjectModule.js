@@ -14,7 +14,12 @@ const ProjectModule = ({ data, row }) => {
       className={`${styles.projectModule} ${row ? styles.styleRow : ''}`}
       key={project.slug}
     >
-      <div className={styles.projectModulePrimaryContent} onClick={() => { location.href = project.permalink; }}>
+      <div
+        className={styles.projectModulePrimaryContent}
+        onClick={() => {
+          location.href = project.permalink;
+        }}
+      >
         <img
           className={styles.projectModuleIcon}
           src={project.iconUrl}

@@ -18,9 +18,7 @@ import closeIcon from '../images/icon-close.svg';
 export const query = graphql`
   query HomePageQuery {
     topProjects: allProjects(
-      filter: {
-        projectType: { eq: "newrelic" }
-      }
+      filter: { projectType: { eq: "newrelic" } }
       sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
       limit: 8
     ) {
