@@ -1,5 +1,6 @@
 .footer-container {
   width: 100%;
+  box-sizing: border-box;
   padding: 20px 0;
   margin: 40px auto 0;
   align-items: center;
@@ -133,6 +134,10 @@
 }
 
 @media screen and (max-width: 900px) {
+  .footer-container {
+    padding: 20px 0;
+  }
+
   .footer-nav-links {
     display: none;
   }
@@ -150,10 +155,6 @@
 }
 
 @media screen and (max-width: 480px) {
-  .footer-container {
-    box-sizing: border-box;
-    padding: 20px 0;
-  }
 
   .footer-logo-container {
     flex-direction: column;
@@ -176,5 +177,4 @@
     display: flex;
     flex-direction: column;
   }
-
 }
