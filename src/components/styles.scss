@@ -164,7 +164,7 @@ select {
 .primary-content {
   display: flex;
   justify-content: space-between;
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
   
   main {
@@ -363,4 +363,16 @@ select {
   height:100%;
   width:100%;
   position:absolute;
+}
+
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 1024px) {
+  .primary-content {
+    max-width: 100%;
+    padding: 0 28px;
+  }    
 }
