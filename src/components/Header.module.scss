@@ -165,13 +165,9 @@ div.exists-in-active-mobile-menu {
     }
   }
 
-  .has-header-bg{
-    padding-bottom: 8px;
-    
-    &:after {
-      top: -120px;
-      transform: skewY(-1.75deg);
-    }
+  .has-header-bg:after {
+    top: -120px;
+    transform: skewY(-1.75deg);
   }
 }
 
@@ -180,9 +176,14 @@ div.exists-in-active-mobile-menu {
     .mobile-menu-button {
       top: 28px;
     }
-
+    
     .primary-header-mobile-nav-links {
       margin-top: 76px;
     }
+  }
+  
+  .has-header-bg:after {
+    top: -155px;
+    transform: skewY(-3deg);
   }
 }
