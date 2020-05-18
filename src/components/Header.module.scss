@@ -164,6 +164,15 @@ div.exists-in-active-mobile-menu {
       font-weight: 400;
     }
   }
+
+  .has-header-bg{
+    padding-bottom: 8px;
+    
+    &:after {
+      top: -120px;
+      transform: skewY(-1.75deg);
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {
