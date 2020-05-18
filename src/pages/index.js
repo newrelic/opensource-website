@@ -90,35 +90,20 @@ const IndexPage = ({ data }) => {
     internalProjects[index].iconUrl = genericProjectIcon;
   });
 
-  return (
-    <Layout fullWidth>
-      <Helmet>
-        <body className={heroVideoActive && styles.heroVideoActive} />
-      </Helmet>
-
-      <SEO title="Home" />
-      <div className={styles.heroContainer}>
-        <div className={styles.homepageHeroCopy}>
-          <h2 className={styles.homepageHeroHeading}>
-            The future of observability is open.
-          </h2>
-          <p className={styles.homepageHeroBodyCopy}>
-            New Relic ❤️'s open source. We{' '}
-            <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
-            this site to make it easy for <em>you</em> to{' '}
-            <a href="/explore-projects">explore the projects</a> we're
-            maintaining as well as our involvement in{' '}
-            <a href="/external-projects">open standards</a>. Learn{' '}
-            <a
-              href="#"
-              onClick={() => {
-                alert('New Relic Blog post announcing this site');
-              }}
-            >
-              more
-            </a>
-            .
-          </p>
+  const renderHeroVideo = () => {
+    return (
+      <>
+        <div className={styles.responsiveVideoContainer}>
+          <div className={`responsive-video ${styles.responsiveVideo}`}>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/7wnav6Fu9T0"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
         </div>
         <div
           className={`${styles.homepageHeroVideo}`}
@@ -150,6 +135,41 @@ const IndexPage = ({ data }) => {
             />
           </div>
         </div>
+      </>
+    );
+  };
+
+  return (
+    <Layout fullWidth>
+      <Helmet>
+        <body className={heroVideoActive && styles.heroVideoActive} />
+      </Helmet>
+
+      <SEO title="Home" />
+      <div className={styles.heroContainer}>
+        <div className={styles.homepageHeroCopy}>
+          <h2 className={styles.homepageHeroHeading}>
+            The future of observability is open.
+          </h2>
+          <p className={styles.homepageHeroBodyCopy}>
+            New Relic ❤️'s open source. We{' '}
+            <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
+            this site to make it easy for <em>you</em> to{' '}
+            <a href="/explore-projects">explore the projects</a> we're
+            maintaining as well as our involvement in{' '}
+            <a href="/external-projects">open standards</a>. Learn&nbsp;
+            <a
+              href="#"
+              onClick={() => {
+                alert('New Relic Blog post announcing this site');
+              }}
+            >
+              more
+            </a>
+            .
+          </p>
+        </div>
+        {renderHeroVideo()}
       </div>
       <div
         className={styles.videoModalOverlay}
