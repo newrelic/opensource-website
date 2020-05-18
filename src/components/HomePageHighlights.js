@@ -10,7 +10,7 @@ const HomePageHighlights = data => {
   return (
     <div className={styles.featuredExternalProjects}>
       <h4 className={styles.featuredExternalProjectsTitle}>
-        Projects that we love and support
+        Projects that we support
       </h4>
       <p className={styles.featuredExternalProjectsDescription}>
         New Relic contributes resources to the development of these projects.
