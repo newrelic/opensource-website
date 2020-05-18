@@ -165,3 +165,25 @@
   font-family: var(--tertiary-font-family);
   color: var(--color-neutrals-600);
 }
+
+@media screen and (max-width: 724px) {
+  .page-heading-container {
+    box-sizing: border-box;
+    width: calc(100% - 56px);
+    margin: 35px auto 30px;
+    
+    &.has-separator-without-icon {
+      margin: 35px auto 30px;
+    }
+  }    
+}
+
+@media screen and (max-width: 480px) {
+  .page-heading-container {
+    margin: 25px auto 30px;
+    
+    &.has-separator-without-icon {
+      margin: 25px auto 30px;
+    }
+  }    
+}
