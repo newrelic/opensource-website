@@ -72,6 +72,32 @@ a.primary-header-nav-link {
   display: none;
 }
 
+div.exists-in-active-mobile-menu {
+  position: relative;
+  z-index: 10000;
+  background-color: var(--color-neutrals-100);
+}
+
+.has-header-bg{
+  padding-bottom: 8px;
+  
+  &:after {
+    content: '';
+    position: absolute;
+    height: 230px;
+    top: -99px;
+    right: 0;
+    left: 0;
+    transform: skewY(-2.75deg);
+    z-index: -1;
+    background: linear-gradient(280.65deg, rgba(255, 255, 255, 0.52) 1.64%, rgba(255, 255, 255, 0) 99.19%), #F4F5F5;
+  }
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
 @media screen and (max-width: 1240px) {
   .primary-header-container {
     padding: 20px 28px;
@@ -83,7 +109,7 @@ a.primary-header-nav-link {
     width: 160px;
     height: 34px;
     background-size: 160px 34px;
-    z-index: 100;
+    z-index: 10000;
   }
 
   .primary-header-nav-links {
@@ -100,6 +126,7 @@ a.primary-header-nav-link {
     right: 0;
     bottom: 0;
     left: 0;
+    z-index: 1000;
     background-color: #fff;
 
     .mobile-menu-button {
@@ -107,7 +134,7 @@ a.primary-header-nav-link {
       height: 20.5px;
       background-size: 20.51px 20.51px;
       position: absolute;
-      top: 28px;
+      top: 58px;
       right: 32px;
       background-image: url('../images/icon-menu-close.svg');
     }
@@ -115,30 +142,38 @@ a.primary-header-nav-link {
     .primary-header-mobile-nav-links {
       display: block;
       list-style-type: none;
-      margin-top: 40px;
-      padding: 28px;
+      border-top: 1px dotted var(--color-neutrals-300);
+      margin-top: 108px;
+      padding: 10px 28px;
       line-height: 50px;
     }
 
+    .primary-header-nav-link {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+    }
+
     .primary-header-mobile-nav-links .primary-header-nav-link-item {
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       font-size: 24px;
       font-weight: 400;
     }
   }
 }
 
-.has-header-bg{
-  padding-bottom: 8px;
-  
-  &:after {
-    content: '';
-    position: absolute;
-    height: 230px;
-    top: -99px;
-    right: 0;
-    left: 0;
-    transform: skewY(-2.75deg);
-    z-index: -1;
-    background: linear-gradient(280.65deg, rgba(255, 255, 255, 0.52) 1.64%, rgba(255, 255, 255, 0) 99.19%), #F4F5F5;
+@media screen and (max-width: 480px) {
+  .mobile-menu-active {
+    .mobile-menu-button {
+      top: 28px;
+    }
+
+    .primary-header-mobile-nav-links {
+      margin-top: 76px;
+    }
   }
 }

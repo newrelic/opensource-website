@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 import styles from './GlobalHeader.module.scss';
 
-const GlobalHeader = ({ hasHeaderBg }) => {
+const GlobalHeader = ({ hasHeaderBg, className }) => {
   return (
     <div
       className={`${styles.globalHeaderContainer} ${
         hasHeaderBg ? styles.hasHeaderBg : ''
-      }`}
+      } ${className || className}`}
     >
       <div className={styles.globalHeaderContent}>
         <div className={styles.leftSideLinksContainer}>
@@ -61,7 +61,8 @@ const GlobalHeader = ({ hasHeaderBg }) => {
 };
 
 GlobalHeader.propTypes = {
-  hasHeaderBg: PropTypes.bool
+  hasHeaderBg: PropTypes.bool,
+  className: PropTypes.string
 };
 
 export default GlobalHeader;

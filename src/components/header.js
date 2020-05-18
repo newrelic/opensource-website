@@ -2,6 +2,7 @@ import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import navLinks from '../data/navigation.json';
 import PropTypes from 'prop-types';
+import { ChevronRight } from 'react-feather';
 
 import GlobalHeader from './GlobalHeader';
 
@@ -20,6 +21,7 @@ const Header = ({ hasHeaderBg }) => {
         <li className={styles.primaryHeaderNavLinkItem} key={navItem.order}>
           <Link to={navItem.link} className={styles.primaryHeaderNavLink}>
             {navItem.label}
+            {mobileMenuActive && <ChevronRight color="#000d0d" />}
           </Link>
         </li>
       );
@@ -29,7 +31,10 @@ const Header = ({ hasHeaderBg }) => {
   /* eslint-disable react/button-has-type */
   return (
     <>
-      <GlobalHeader hasHeaderBg={hasHeaderBg} />
+      <GlobalHeader
+        hasHeaderBg={hasHeaderBg}
+        className={mobileMenuActive && styles.existsInActiveMobileMenu}
+      />
       <header
         className={`${styles.primaryHeaderContainer} ${
           hasHeaderBg ? styles.hasHeaderBg : ''
