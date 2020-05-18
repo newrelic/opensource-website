@@ -194,7 +194,7 @@ img.play-button {
   overflow:hidden;
 
   .hero-container {
-    z-index: 10000; 
+    z-index: 100000; 
     transform: all .2s var(--ease-out-quad);
   }
 
@@ -229,7 +229,7 @@ img.play-button {
   }
 
   .video-modal-overlay {
-    z-index: 1000;
+    z-index: 10000;
     opacity: .9;
     pointer-events: inherit;
   }
@@ -238,7 +238,7 @@ img.play-button {
     opacity: 1;
     overflow: visible;
     position: absolute;
-    z-index: 100000;
+    z-index: 1000000;
     transform: scale(0.49) translate(-52%, -52%);
     pointer-events: all;
 
@@ -334,4 +334,189 @@ img.play-button {
 
 .featured-internal-projects-container {
   margin-bottom: 40px;
+}
+
+.responsive-video-container {
+  display: none;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.responsive-video {
+  overflow: visible;
+
+  &:before {
+    border-radius: 4px;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 15px;
+    bottom: 0;
+    left: 15px;
+    z-index: -10;
+    transform: translateZ(-1px);
+    box-shadow: 
+      0px 1.24527px 3.09933px rgba(26, 46, 52, 0.0759093), 
+      0px 2.99255px 7.44811px rgba(26, 46, 52, 0.109051), 
+      0px 5.6347px 14.0241px rgba(26, 46, 52, 0.135), 
+      0px 10.0513px 25.0167px rgba(26, 46, 52, 0.160949), 
+      0px 18.7999px 46.7909px rgba(26, 46, 52, 0.194091), 
+      0px 45px 112px rgba(26, 46, 52, 0.27);
+    transition: all .4s var(--ease-out-quad);
+  }
+
+  iframe {
+    border-radius: 4px;
+    overflow: hidden;
+  }
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 1200px) {
+  .featured-internal-projects-container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 28px;
+  }    
+}
+
+@media screen and (max-width: 1024px) {
+  .hero-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 28px;
+  }
+
+  .homepage-hero-video {
+    transform: scale(.95);
+  }    
+
+  .hero-video-active {
+    .homepage-hero-video {
+      width: 490px;
+      transform: rotateX(0deg) rotateY(0deg) translateZ(600px) translateX(-191px) translateY(45px);
+    }
+    
+    .homepage-hero-video:hover {
+      transform: rotateX(0deg) rotateY(0deg) translateZ(600px) translateX(-191px) translateY(45px);
+    }
+  }
+
+  .featured-internal-projects-section {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 16px;
+  }
+
+  .featured-internal-projects-section-title {
+    margin-bottom: 4px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+
+  .homepage-hero-video {
+    display: none;
+  }
+  
+  .responsive-video-container {
+    display: block;
+  }
+
+  .hero-video-active {
+    overflow: scroll;
+    .video-modal-overlay {
+      display: none;
+    }
+
+    .homepage-hero-copy {
+      opacity: 1;
+    }
+
+    .homepage-hero-video {
+      width: inherit;
+      transform: none;
+      // position: relative;
+    }
+
+    .iframe-container {
+      position: absolute;
+      top: 0;
+      transform: none;
+    }
+
+    .iframe-container iframe {
+      max-width: 100%;
+    }
+
+    .homepage-hero-video:hover {
+      transform: none;
+    }
+  }
+
+  .hero-container {
+    display: block;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .homepage-hero-copy {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 0 28px;
+    text-align: center;
+  }
+
+  .homepage-hero-heading {
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+
+  .homepage-hero-video {
+    transform: scale(1);
+    padding-top: 46.25%;
+    margin: 0 auto;
+    width: 80%;
+    height: 0;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  .hero-container {
+    margin-top: 30px;
+  }
+  
+  .homepage-hero-video {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 54.25% 28px 0 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-container {
+    margin-top: 24px;
+  }
+
+  .homepage-hero-copy {
+    padding: 0;
+    margin-bottom: 20px;
+  }  
+
+  .homepage-hero-heading {
+    font-size: 32px;
+  }
+
+  .homepage-hero-body-copy {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .featured-internal-projects-container {
+    margin-bottom: 20px
+  }
 }
