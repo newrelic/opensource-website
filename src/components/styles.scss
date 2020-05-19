@@ -376,3 +376,17 @@ select {
     padding: 0 28px;
   }    
 }
+
+@media screen and (max-width: 724px) {
+  .primary-content {
+    flex-direction: column;
+
+    .primary-content-main {
+      width: 100%;
+    }
+
+    .primary-content-aside {
+      width: 100%;
+    }
+  }    
+}

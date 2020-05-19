@@ -51,7 +51,7 @@
     margin: 8px 0 0;
     font-size: 36px;
     line-height: 42px;
-    max-width: 800px;
+    max-width: 700px;
     color: var(--color-neutrals-900);
     font-family: var(--secondary-font-family);
     -webkit-font-smoothing: antialiased;
@@ -166,16 +166,46 @@
   color: var(--color-neutrals-600);
 }
 
+// ==============================================================
+// Responsive styles
+// ==============================================================
+@media screen and (max-width: 1245px) {
+  .page-heading-container {
+    &.has-icon {
+      margin-top: -15px;
+    }
+  } 
+}
+
 @media screen and (max-width: 724px) {
   .page-heading-container {
     box-sizing: border-box;
     width: calc(100% - 56px);
     margin: 35px auto 30px;
+    padding-bottom: 0;
     
     &.has-separator-without-icon {
       margin: 35px auto 30px;
     }
-  }    
+
+    &.has-icon {
+      margin-top: -20px;
+    }
+  }
+  
+  .page-heading-tag-list {
+    display: block;
+  }
+  
+  .page-heading-tag-list-tag {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 8px;
+
+    a {
+      display: inline-flex;
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -184,6 +214,10 @@
     
     &.has-separator-without-icon {
       margin: 25px auto 30px;
+    }
+    
+    &.has-icon {
+      margin-top: 10px;
     }
   }    
 }

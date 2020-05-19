@@ -100,3 +100,25 @@ h6.contributor-contributions {
         margin: 0;
     }
 }
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 900px) {
+  ul.contributors-container {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+@media screen and (max-width: 724px) {
+  ul.contributors-container {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ul.contributors-container {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}

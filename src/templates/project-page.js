@@ -202,6 +202,38 @@ const ProjectPage = props => {
     return null;
   };
 
+  const renderCallsToAction = isPageHeadingCTA => {
+    return (
+      <div
+        className={`${styles.callToActionButtonsContainer} ${
+          isPageHeadingCTA ? styles.pageHeadingCTA : ''
+        }`}
+      >
+        <a
+          href={project.githubUrl}
+          className="button button-primary"
+          rel="noopener noreferrer"
+        >
+          <img src={iconGitHubWhite} alt="GitHub logo" />
+          Fork Repo
+        </a>
+        {contentEditLink && (
+          <a
+            href={contentEditLink}
+            className="button button-secondary"
+            target="__blank"
+            rel="noopener noreferrer"
+          >
+            <span className={styles.buttonIcon}>
+              <Edit color="#007e8a" size={16} />
+            </span>
+            Edit page
+          </a>
+        )}
+      </div>
+    );
+  };
+
   return (
     <Layout
       hasHeaderBg
@@ -215,8 +247,9 @@ const ProjectPage = props => {
         icon={project.iconUrl}
         tags={tags}
         hasSeparator
+        callToAction={() => renderCallsToAction(true)}
       />
-      <div className="primary-content">
+      <div className={`primary-content ${styles.primaryContent}`}>
         <main className={`primary-content-main ${styles.primaryContentMain}`}>
           {mainContent && (
             <ProjectMainContent
@@ -311,32 +344,12 @@ const ProjectPage = props => {
             </>
           )}
         </main>
-        <aside className="primary-content-aside">
+        <aside
+          className={`primary-content-aside ${styles.primaryContentAside}`}
+        >
           <div className={styles.callToActionContainer}>
             <div className={styles.callToActionButtons}>
-              <div className={styles.callToActionButtonsContainer}>
-                <a
-                  href={project.githubUrl}
-                  className="button button-primary"
-                  rel="noopener noreferrer"
-                >
-                  <img src={iconGitHubWhite} alt="GitHub logo" />
-                  Fork Repo
-                </a>
-                {contentEditLink && (
-                  <a
-                    href={contentEditLink}
-                    className="button button-secondary"
-                    target="__blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span className={styles.buttonIcon}>
-                      <Edit color="#007e8a" size={16} />
-                    </span>
-                    Edit page
-                  </a>
-                )}
-              </div>
+              {renderCallsToAction()}
               {project.stats &&
                 project.stats.license &&
                 project.stats.license.spdxId !== 'NOASSERTION' && (

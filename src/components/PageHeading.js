@@ -41,7 +41,7 @@ const PageHeading = props => {
         props.hasSeparator ? styles.hasSeparator : ''
       } ${props.blogMeta ? styles.blogPostHeader : ''} ${
         !props.icon && props.hasSeparator ? styles.hasSeparatorWithoutIcon : ''
-      }`}
+      } ${props.icon ? styles.hasIcon : ''}`}
     >
       {props.icon ? (
         <div className={styles.pageHeadingIconContainer}>
@@ -62,6 +62,7 @@ const PageHeading = props => {
       )}
       {props.blogMeta && <p className={styles.blogMeta}>{props.blogMeta}</p>}
       {props.tags ? renderTags() : ''}
+      {props.callToAction && props.callToAction()}
     </div>
   );
 };
@@ -72,7 +73,8 @@ PageHeading.propTypes = {
   icon: PropTypes.string,
   tags: PropTypes.array,
   hasSeparator: PropTypes.bool,
-  blogMeta: PropTypes.string
+  blogMeta: PropTypes.string,
+  callToAction: PropTypes.func
 };
 
 export default PageHeading;
