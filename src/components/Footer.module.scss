@@ -137,7 +137,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .footer-container {
     padding: 20px 0;
   }
@@ -158,18 +158,22 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 
   .footer-logo-container {
-    flex-direction: column;
+    margin: 0 auto 10px;
   }
 
   .footer-logo {
-    margin-bottom: 10px;
-    padding: 0;
+    margin-bottom: 0px;
+    padding-right:8px;
     
-    &:after {
-      display: none;
+    &:not(.has-edit-button) {
+      padding: 0;
+
+      &:after {
+        display: none;
+      }
     }
   }
 
