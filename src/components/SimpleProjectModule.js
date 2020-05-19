@@ -25,11 +25,9 @@ const SimpleProjectModule = ({ data: project, className }) => {
   );
 };
 
-/* eslint-disable react/no-unused-prop-types */
 SimpleProjectModule.propTypes = {
   data: PropTypes.array,
   className: PropTypes.string
 };
-/* eslint-enable */
 
 export default SimpleProjectModule;

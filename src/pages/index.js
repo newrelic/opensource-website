@@ -161,7 +161,7 @@ const IndexPage = ({ data }) => {
             <a
               href="#"
               onClick={() => {
-                alert('New Relic Blog post announcing this site');
+                alert('New Relic Blog post announcing this site'); // eslint-disable-line no-alert
               }}
             >
               more
