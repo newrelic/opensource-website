@@ -364,7 +364,7 @@ p.call-to-action-description {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-bottom: 20px;
+    margin-bottom: -8px;
     
     a {
       margin-right: 8px;
@@ -380,6 +380,7 @@ p.call-to-action-description {
       flex-direction: row;
       justify-content: stretch;
       align-items: center;
+      padding-bottom: 0;
 
       a {
         width: 100%;

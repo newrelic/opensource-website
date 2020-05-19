@@ -41,7 +41,9 @@ const PageHeading = props => {
         props.hasSeparator ? styles.hasSeparator : ''
       } ${props.blogMeta ? styles.blogPostHeader : ''} ${
         !props.icon && props.hasSeparator ? styles.hasSeparatorWithoutIcon : ''
-      } ${props.icon ? styles.hasIcon : ''}`}
+      } ${props.icon ? styles.hasIcon : ''} ${
+        props.callToAction ? styles.hasCallToAction : ''
+      }`}
     >
       {props.icon ? (
         <div className={styles.pageHeadingIconContainer}>
