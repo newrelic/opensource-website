@@ -35,33 +35,42 @@ const Header = ({ hasHeaderBg }) => {
         hasHeaderBg={hasHeaderBg}
         className={mobileMenuActive && styles.existsInActiveMobileMenu}
       />
-      <header
-        className={`${styles.primaryHeaderContainer} ${
-          hasHeaderBg ? styles.hasHeaderBg : ''
-        }`}
-      >
-        <a href="/" className={styles.primaryHeaderLogo}>
-          New Relic Open Source
-        </a>
-
-        <ul className={styles.primaryHeaderNavLinks}>{renderNavLinks()}</ul>
-
-        <div
-          className={`${styles.primaryHeaderMobileNav} ${
-            mobileMenuActive ? styles.mobileMenuActive : ''
+      <div className={styles.primaryHeaderContainerWrapper}>
+        {/* 
+          The above div seems reudndant, right? Maybe it is, but it exists because
+          in safari when you have a flexbox inside of a flexbox that doesn't have a
+          well defined height (e.g. 100%), the inner flexbox collapses :/. So I have
+          this extra div here to be the `display: block` element between my flexbox
+          elements.
+        */}
+        <header
+          className={`${styles.primaryHeaderContainer} ${
+            hasHeaderBg ? styles.hasHeaderBg : ''
           }`}
         >
-          <button
-            className={styles.mobileMenuButton}
-            onClick={() => setMobileMenuActive(!mobileMenuActive)}
+          <a href="/" className={styles.primaryHeaderLogo}>
+            New Relic Open Source
+          </a>
+
+          <ul className={styles.primaryHeaderNavLinks}>{renderNavLinks()}</ul>
+
+          <div
+            className={`${styles.primaryHeaderMobileNav} ${
+              mobileMenuActive ? styles.mobileMenuActive : ''
+            }`}
           >
-            Menu
-          </button>
-          <ul className={styles.primaryHeaderMobileNavLinks}>
-            {renderNavLinks()}
-          </ul>
-        </div>
-      </header>
+            <button
+              className={styles.mobileMenuButton}
+              onClick={() => setMobileMenuActive(!mobileMenuActive)}
+            >
+              Menu
+            </button>
+            <ul className={styles.primaryHeaderMobileNavLinks}>
+              {renderNavLinks()}
+            </ul>
+          </div>
+        </header>
+      </div>
     </>
   );
   /* eslint-enable */
