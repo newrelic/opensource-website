@@ -75,3 +75,9 @@
     max-width: none;
   }    
 }
+
+@media screen and (max-width: 480px) {
+  .project-title {
+    max-width: 19ch;
+  }    
+}
