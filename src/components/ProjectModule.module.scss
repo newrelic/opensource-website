@@ -164,7 +164,6 @@ a.project-module-footer-link:hover {
 @media screen and (max-width: 900px) {
   div.project-module {
     margin-top: 0;
-    margin-bottom: 16px;
 
     div.project-module-copy {
       align-items: flex-start;
@@ -209,6 +208,10 @@ a.project-module-footer-link:hover {
     .project-module-footer {
       margin-top: 0;
     }
+  }
+
+  .project-module:not(.style-row) {
+    margin-bottom: 16px;
   }
 }
 
