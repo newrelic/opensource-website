@@ -84,7 +84,7 @@ const ExternalProjects = ({ data }) => {
         ))}
       </div>
       {otherProjects && otherProjects.length > 0 && (
-        <div className="primary-content">
+        <div className={`primary-content, ${styles.primaryContent}`}>
           <main className={styles.moreProjects}>
             <div className={styles.moreProjectsHeaderSection}>
               <h4 className={styles.moreProjectsHeaderSectionTitle}>

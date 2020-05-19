@@ -90,3 +90,31 @@ h5.project-listing-item-name {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
 }
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 1200px) {
+  .featured-projects {
+    padding: 0 28px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .featured-projects {
+    display: flex;
+    flex-direction: column;
+
+    &:before {
+      height: 500px;
+    }
+  }  
+}
+
+@media screen and (max-width: 724px) {
+  .featured-projects {
+    margin: 40px 0 0px;
+  }    
+}
