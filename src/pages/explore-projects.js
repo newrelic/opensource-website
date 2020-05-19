@@ -102,8 +102,8 @@ const ExploreProjectsPage = props => {
     });
   };
 
-  const renderProjectListing = ({ projects, showFeatured }) => {
-    const start = showFeatured ? featuredProjectsToShow : 0;
+  const renderProjectListing = ({ projects }) => {
+    const start = 0;
     const end =
       projects.length >= projectsToShow ? projectsToShow : projects.length;
 

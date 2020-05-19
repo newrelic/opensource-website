@@ -239,6 +239,7 @@
   align-items: center;
   box-sizing: border-box;
   padding: 36px;
+  text-align: center;
   border-radius: 5px;
   border: 3px dashed var(--color-neutrals-200);
 }
@@ -256,8 +257,9 @@
 }
 
 .search-empty-state-description {
-  margin: 0;
+  margin: 4px 0 0;
   color: var(--color-neutrals-600);
+  line-height: 20px;
 }
 
 .explore-projects-layout {
@@ -267,4 +269,113 @@
 
 .project-listing-container {
   margin-top: 40px;
+}
+
+// Hide the first three items in the list because they're
+// visible above as featured projects. Later we'll display
+// these when we hide the featured projects.
+.project-container:nth-child(-n+3) {
+  display: none;
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 1200px) {
+  .search-container {
+    box-sizing: border-box;
+    padding: 0 28px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .featured-project-icon {
+    width: 65px;
+    height: 65px;
+    margin-top: -35px;
+  }
+
+  .featured-project-title {
+    padding: 0 16px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  
+  .featured-project-description {
+    margin-top: 4px;
+    padding: 0 16px;
+  }
+
+  .featured-project-footer {
+    height: 30px;
+    margin-top: 16px;
+  }
+
+  .featured-project-footer-link:last-child {
+    display: none;
+  }
+  
+  .featured-project-footer-link:first-child {
+    width: 100%;
+    line-height: 30px;
+    border: none;
+  }
+
+  .project-listing-container {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    grid-gap: 16px;
+  }
+
+  .project-container {
+    justify-content: space-between;
+  }
+
+  .project-footer-meta:first-child {
+    width: 100%;
+    border: none;
+  }
+
+  .project-footer-meta:last-child {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .featured-projects {
+    display: none;
+  }
+  .project-container:nth-child(-n+3) {
+    display: flex;
+  }    
+}
+
+@media screen and (max-width: 724px) {
+  .project-listing-container {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }    
+}
+
+@media screen and (max-width: 480px) {
+  .project-listing-container {
+    grid-template-columns: minmax(0, 1fr);
+  }    
+
+  .project-footer-meta:first-child {
+    width: 50%;
+    border-right: 1px dotted var(--color-neutrals-400);
+  }
+
+  .project-footer-meta:last-child {
+    display: block;
+  }
+
+  .search-empty-state {
+    padding: 24px;
+  }
+
+  .search-empty-state-title {
+    font-size: 18px;
+  }
 }

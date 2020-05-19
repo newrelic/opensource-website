@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { Filter } from 'react-feather';
 
 import searchIcon from '../images/icon-search.svg';
 import styles from './ProjectSearchInput.module.scss';
@@ -12,6 +13,7 @@ const ProjectSearchInput = ({
   onFilterChange
 }) => {
   const { allLanguages, allCategories, allProjectTags } = filterOptions;
+  const [mobileFiltersHidden, setMobileFiltersHidden] = useState(true);
 
   const onCategoryChange = e =>
     onFilterChange({ field: 'ossCategory', value: e.target.value });
@@ -36,7 +38,18 @@ const ProjectSearchInput = ({
           className={styles.searchInput}
         />
       </div>
-      <div className={styles.searchFilters}>
+      <div
+        className={`${styles.searchFilters} ${
+          mobileFiltersHidden ? styles.mobileFiltersHidden : ''
+        }`}
+      >
+        <span
+          className={styles.showFiltersButton}
+          onClick={() => setMobileFiltersHidden(false)}
+        >
+          Show filters
+          <Filter color="#007e8a" size={12} />
+        </span>
         <select
           className={styles.searchFilter}
           onChange={onCategoryChange}
