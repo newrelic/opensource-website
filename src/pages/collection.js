@@ -2111,18 +2111,18 @@ const ExternalProjects = () => {
         title="New Relic Agents"
         subheader="Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum."
       />
-
-      {/* <div className={`responsive-video ${styles.featuredVideo}`}> */}
-      <iframe
-        width="578"
-        height="328.125"
-        className={styles.featuredVideo}
-        src="https://www.youtube.com/embed/g00AeKlECZA?controls=0"
-        frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-      {/* </div> */}
+      <div className={styles.featuredVideoContainer}>
+        <div className="responsive-video">
+          <iframe
+            width="578"
+            height="328.125"
+            src="https://www.youtube.com/embed/g00AeKlECZA?controls=0"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </div>
       <section className={styles.primaryBodyCopy}>
         <h5 className={styles.primaryBodyCopyHeader}>
           Duis mollis, est non commodo luctus
