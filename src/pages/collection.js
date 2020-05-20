@@ -10,14 +10,12 @@ import styles from './collection.module.scss';
 
 export const query = graphql`
   query CollectionProjects {
-    allProjects(filter: {
-      projectType: { eq: "newrelic" },
-      projectTags: {
-        elemMatch: {
-          slug: { eq: "agent" }
-        }
+    allProjects(
+      filter: {
+        projectType: { eq: "newrelic" }
+        projectTags: { elemMatch: { slug: { eq: "agent" } } }
       }
-    }) {
+    ) {
       edges {
         node {
           ...exploreProjectsFields
@@ -28,7 +26,6 @@ export const query = graphql`
 `;
 
 const ExampleCollection = ({ data }) => {
-
   const allProjects = data.allProjects.edges.map(p => p.node);
 
   return (
@@ -92,6 +89,6 @@ const ExampleCollection = ({ data }) => {
 
 ExampleCollection.propTypes = {
   data: PropTypes.object
-}
+};
 
 export default ExampleCollection;
