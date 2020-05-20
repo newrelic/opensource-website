@@ -91,7 +91,7 @@ const ExternalProjectPage = ({ data }) => {
       className={styles.projectPageLayout}
       editLink={contentEditLink}
     >
-      <SEO title="Opensource Project" />
+      <SEO title={project.title} />
       <PageHeading
         title={project.title}
         subheader={project.description}
