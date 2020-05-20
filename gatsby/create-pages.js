@@ -6,9 +6,10 @@ const getProjectComponent = projectType => {
     return path.resolve('./src/templates/external-project-page.js');
   }
 
-  if (projectType === 'partner') {
-    return path.resolve('./src/templates/partner-project-page.js');
-  }
+  // @future
+  // if (projectType === 'partner') {
+  //   return path.resolve('./src/templates/partner-project-page.js');
+  // }
 
   return path.resolve(`./src/templates/project-page.js`);
 };
