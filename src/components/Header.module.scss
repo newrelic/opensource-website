@@ -1,3 +1,7 @@
+.html-has-active-mobile-menu {
+  overflow: hidden;
+}
+
 .primary-header-container {
   box-sizing: border-box;
   padding: 20px 0;
@@ -141,7 +145,7 @@ div.exists-in-active-mobile-menu {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: -500px;
     left: 0;
     z-index: 1000;
     background-color: #fff;
@@ -152,7 +156,7 @@ div.exists-in-active-mobile-menu {
       background-size: 20.51px 20.51px;
       position: absolute;
       top: 50px;
-      right: 32px;
+      right: 30px;
       background-image: url('../images/icon-menu-close.svg');
     }
     

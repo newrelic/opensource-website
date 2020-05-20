@@ -2,6 +2,7 @@ import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import navLinks from '../data/navigation.json';
 import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 import { ChevronRight } from 'react-feather';
 
 import GlobalHeader from './GlobalHeader';
@@ -31,6 +32,11 @@ const Header = ({ hasHeaderBg }) => {
   /* eslint-disable react/button-has-type */
   return (
     <>
+      <Helmet>
+        <html
+          className={mobileMenuActive ? styles.htmlHasActiveMobileMenu : ''}
+        />
+      </Helmet>
       <GlobalHeader
         hasHeaderBg={hasHeaderBg}
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
