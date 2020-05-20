@@ -59,6 +59,8 @@ a.primary-header-nav-link {
   white-space: nowrap;
   overflow: hidden;
   border: none;
+  position: relative;
+  bottom: 1px;
   cursor: pointer;
   background-image: url('../images/icon-menu.svg');
   background-color: transparent;
@@ -104,7 +106,22 @@ div.exists-in-active-mobile-menu {
   }
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 724px) {
+  .primary-header-container {
+    height: 60px;
+  }
+
+  .parent-of-active-mobile-menu {
+    .primary-header-logo {
+      // position: relative;
+      // top: 4px;
+    }
+  }
+
+  .exists-in-mobile-active-menu {
+    display: none;
+  }
+
   .primary-header-logo {
     width: 160px;
     height: 34px;
@@ -134,16 +151,17 @@ div.exists-in-active-mobile-menu {
       height: 20.5px;
       background-size: 20.51px 20.51px;
       position: absolute;
-      top: 58px;
+      top: 50px;
       right: 32px;
       background-image: url('../images/icon-menu-close.svg');
     }
+    
 
     .primary-header-mobile-nav-links {
       display: block;
       list-style-type: none;
       border-top: 1px dotted var(--color-neutrals-300);
-      margin-top: 108px;
+      margin-top: 88px;
       padding: 10px 28px;
       line-height: 50px;
     }
@@ -172,15 +190,22 @@ div.exists-in-active-mobile-menu {
 }
 
 @media screen and (max-width: 480px) {
+  .primary-header-logo {
+    position: static;
+    top: 0;
+  }
+
   .mobile-menu-active {
     .mobile-menu-button {
-      top: 28px;
+      top: 21px;
     }
+
     
     .primary-header-mobile-nav-links {
-      margin-top: 76px;
+      margin-top: 59px;
     }
   }
+
   
   .has-header-bg:after {
     top: -155px;

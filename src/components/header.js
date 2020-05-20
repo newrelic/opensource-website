@@ -38,7 +38,7 @@ const Header = ({ hasHeaderBg }) => {
       <header
         className={`${styles.primaryHeaderContainer} ${
           hasHeaderBg ? styles.hasHeaderBg : ''
-        }`}
+        } ${mobileMenuActive ? styles.parentOfActiveMobileMenu : ''}`}
       >
         <a href="/" className={styles.primaryHeaderLogo}>
           New Relic Open Source
