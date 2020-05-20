@@ -23,11 +23,11 @@ const EXCLUDED_PROJECTS = [
   'open-telemetry/opentelemetry-java',
   'open-telemetry',
   'w3c-trace-context',
-  'newrelic-developer-toolkit',
-  'newrelic-extends_newrelic_rpm',
-  'newrelic-open-source-office',
-  'newrelic-open-source-tools',
-  'newrelic-sidecar'
+  'newrelic/developer-toolkit',
+  'newrelic/extends_newrelic_rpm',
+  'newrelic/open-source-office',
+  'newrelic/open-source-tools',
+  'newrelic/sidecar'
 ];
 
 // TO DO - Ascertain Github's GraphQL query limits
