@@ -64,6 +64,10 @@
 
 @media screen and (max-width: 480px) {
   .project-title {
-    max-width: 19ch;
+    max-width: none;
+    white-space: normal;
   }    
+}
+
+@media screen and (max-width: 400px) {
 }

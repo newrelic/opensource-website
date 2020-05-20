@@ -7,6 +7,6 @@
 
 @media screen and (max-width: 480px) {
   .featured-internal-projects {
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }    
 }
