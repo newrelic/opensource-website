@@ -1,10 +1,10 @@
-import { graphql } from 'gatsby'
 import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import PageHeading from '../components/PageHeading';
 
 export const query = graphql`
-  query PageQuery($path: String) {
+  query CLAQuery($path: String) {
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
         fields {
@@ -17,19 +17,18 @@ export const query = graphql`
   }
 `;
 
-export default (props) => {
-  const { children, data } = props;
-  const editLink = get(data, 'sitePage.nodes[0].fields.contentEditLink');
-  
-  return (
-    <Layout fullWidth editLink={editLink}>
+export default ({ children, data }) => (
+  <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
       <SEO title="New Relic Open Source Code of Conduct" />
-      {children}
+      <PageHeading
+        title="New Relic Open Source Code of Conduct"
+        hasSeparator
+      />
+      <div className="primary-content">
+        <main>{children}</main>
+      </div>
     </Layout>
-  )
-};
-
-# New Relic Open Source Code of Conduct
+);
 
 ## Our Pledge
 
