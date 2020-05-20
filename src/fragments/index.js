@@ -7,6 +7,7 @@ export const projectFields = graphql`
     name
     title
     fullName
+    slug
     isParentProject
     stats {
       contributors
@@ -90,6 +91,7 @@ export const exploreProjectsFields = graphql`
   fragment exploreProjectsFields on Projects {
     id
     fullName
+    slug
     githubUrl
     stats {
       id
