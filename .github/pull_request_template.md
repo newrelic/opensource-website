@@ -23,6 +23,8 @@ git push
 - for corrections in the `src/data/oss-category` or `src/data/project-tags` directories
 - for functional corrections to code in the `examples` directory
 
+### Example
+
 ```bash
 git add src/pages/code-of-conduct.mdx
 git commit -m "fix: typo and prop error in the code of conduct"
@@ -33,6 +35,8 @@ git push
 
 - for functional changes / additions to code in the `src/components`, `src/templates`, `src/fragments`, `src/pages` or directories
 - for changes / additions in the `src/data/oss-category` or `src/data/project-tags` directories
+
+### Example
 
 ```bash
 git add src/pages/video.js
