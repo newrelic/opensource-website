@@ -66,10 +66,10 @@ const IndexPage = ({ data }) => {
     get(data, 'openTelemetry.nodes[0]'),
     get(data, 'w3cTraceContext.nodes[0]'),
     get(data, 'adoptOpenJdk.nodes[0]')
-  ];
+  ].filter(i => i !== undefined);
 
   // temp workaround until the query above is fixed to pull back the correct top 8
-  const internalProjects = get(data, 'topProjects.edges')
+  const internalProjects = get(data, 'topProjects.edges', [])
     .map(i => i.node)
     .sort((a, b) => {
       if (a.stats === null && b.stats === null) {
