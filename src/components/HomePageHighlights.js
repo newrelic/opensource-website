@@ -4,9 +4,8 @@ import ProjectModule from './ProjectModule';
 
 import styles from './HomePageHighlights.module.scss';
 
-const HomePageHighlights = data => {
-  const projects = data.data;
-
+const HomePageHighlights = ({ data }) => {
+  const projects = data;
   return (
     <div className={styles.featuredExternalProjects}>
       <h4 className={styles.featuredExternalProjectsTitle}>
@@ -26,10 +25,8 @@ const HomePageHighlights = data => {
   );
 };
 
-/* eslint-disable react/no-unused-prop-types */
 HomePageHighlights.propTypes = {
   data: PropTypes.array
 };
-/* eslint-enable */
 
 export default HomePageHighlights;

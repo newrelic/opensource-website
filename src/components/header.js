@@ -33,7 +33,7 @@ const Header = ({ hasHeaderBg }) => {
     <>
       <GlobalHeader
         hasHeaderBg={hasHeaderBg}
-        className={mobileMenuActive && styles.existsInActiveMobileMenu}
+        className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
       />
       <header
         className={`${styles.primaryHeaderContainer} ${
