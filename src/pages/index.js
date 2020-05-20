@@ -15,7 +15,7 @@ import playButton from '../images/button-play.svg';
 import closeIcon from '../images/icon-close.svg';
 
 export const query = graphql`
-  query HomePageQuery {
+  query HomePageQuery($path: String) {
     topProjects: allProjects(
       filter: { projectType: { eq: "newrelic" } } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC } # limit: 8
     ) {
@@ -53,6 +53,15 @@ export const query = graphql`
     ) {
       nodes {
         ...projectFields
+      }
+    }
+    sitePage: allSitePage(filter: { path: { eq: $path } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
       }
     }
   }
@@ -135,7 +144,7 @@ const IndexPage = ({ data }) => {
   };
 
   return (
-    <Layout fullWidth>
+    <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
       <Helmet>
         <body className={heroVideoActive && styles.heroVideoActive} />
       </Helmet>

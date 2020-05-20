@@ -10,7 +10,7 @@ import ProjectModule from '../components/ProjectModule';
 import styles from './external-projects.module.scss';
 
 export const query = graphql`
-  query ExternalProjectsQuery {
+  query ExternalProjectsQuery($path: String) {
     otherProjects: allProjects(
       filter: { projectType: { eq: "external" }, isParentProject: { eq: true } }
     ) {
@@ -50,6 +50,15 @@ export const query = graphql`
         ...projectFields
       }
     }
+    sitePage: allSitePage(filter: { path: { eq: $path } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
+      }
+    }
   }
 `;
 const ExternalProjects = ({ data }) => {
@@ -72,7 +81,7 @@ const ExternalProjects = ({ data }) => {
   });
   // console.log(otherProjects);
   return (
-    <Layout fullWidth>
+    <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
       <SEO title="Open source projects to which New Relic contributes" />
       <PageHeading
         title="Projects we support"
