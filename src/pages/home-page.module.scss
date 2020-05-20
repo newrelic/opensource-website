@@ -9,7 +9,7 @@
 }
 
 .homepage-hero-copy {
-  width: 45%;
+  width: 47%;
   transition: opacity .2s var(--ease-out-quad);
 }
 
@@ -219,6 +219,7 @@ img.play-button {
   .play-button {
     transition: opacity .2s var(--ease-out-quad);
     opacity: 0;
+    pointer-events: none;
   }
 
   .homepage-hero-video:after {
@@ -235,6 +236,7 @@ img.play-button {
   }
 
   .iframe-container {
+    height: auto;
     opacity: 1;
     overflow: visible;
     position: absolute;
@@ -417,7 +419,6 @@ img.play-button {
 }
 
 @media screen and (max-width: 900px) {
-
   .homepage-hero-video {
     display: none;
   }
