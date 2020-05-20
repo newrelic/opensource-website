@@ -81,13 +81,11 @@ div.exists-in-active-mobile-menu {
 }
 
 .has-header-bg{
-  padding-bottom: 8px;
-  
   &:after {
     content: '';
     position: absolute;
     height: 230px;
-    top: -99px;
+    top: -79px;
     right: 0;
     left: 0;
     transform: skewY(-2.75deg);
