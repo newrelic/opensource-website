@@ -228,7 +228,7 @@ a.project-module-footer-link:hover {
 }
 
 @media screen and (max-width: 400px) {
-  .style-row .project-module-primary-content {
+  div.style-row .project-module-primary-content {
     flex-direction: column;
 
     .project-module-icon {
@@ -245,6 +245,7 @@ a.project-module-footer-link:hover {
     .project-module-title {
       padding: 0;
       width: 100%;
+      line-height: 24px;
       text-align: center;
     }  
 

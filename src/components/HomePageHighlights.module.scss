@@ -150,6 +150,12 @@
   }
 }
 
+@media screen and (max-width: 900px) {
+  .featured-external-projects:after {
+    display: none;
+  }    
+}
+
 @media screen and (max-width: 724px) {
   .featured-external-projects:before {
     height: 640px;
@@ -170,7 +176,7 @@
 
 @media screen and (max-width: 480px) {
   .external-projects-list {
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr))
   }    
 }
 
