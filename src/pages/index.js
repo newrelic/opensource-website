@@ -86,10 +86,6 @@ const IndexPage = ({ data }) => {
     })
     .slice(0, 8);
 
-  internalProjects.forEach((p, index) => {
-    internalProjects[index].iconUrl = genericProjectIcon;
-  });
-
   const renderHeroVideo = () => {
     return (
       <>

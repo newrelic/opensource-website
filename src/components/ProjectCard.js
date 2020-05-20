@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import { get } from 'lodash';
+import { handleBrokenImages } from '../utils';
 
 import styles from '../pages/explore-projects.module.scss';
 
@@ -12,7 +13,12 @@ const ProjectCard = ({ project: p }) => {
     <Link className={styles.projectContainer} key={p.id} to={link}>
       <div className={`${styles.projectPrimaryContent}`}>
         <header className={styles.projectHeader}>
-          <img src={p.iconUrl} alt="icon for" className={styles.projectIcon} />
+          <img
+            src={p.iconUrl}
+            onError={e => handleBrokenImages(e)}
+            alt="icon for"
+            className={styles.projectIcon}
+          />
           <h5 className={styles.projectTitle}>{p.title}</h5>
         </header>
         <p className={`${styles.projectDescription}`}>

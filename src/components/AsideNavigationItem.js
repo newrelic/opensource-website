@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { handleBrokenImages } from '../utils';
 
 import styles from './AsideNavigationItem.module.scss';
 import chevronIcon from '../images/icon-chevron-right.svg';
+import avatarPlaceholder from '../images/avatar-placeholder.png';
 
 const AsideNavigationItem = ({ icon, label, subLabel, to }) => {
   return (
@@ -13,7 +15,12 @@ const AsideNavigationItem = ({ icon, label, subLabel, to }) => {
         subLabel ? styles.hasSublabel : ''
       }`}
     >
-      <img src={icon} className={styles.itemIcon} alt="icon for Project Name" />
+      <img
+        src={icon}
+        className={styles.itemIcon}
+        onError={e => handleBrokenImages(e, avatarPlaceholder)}
+        alt="icon for Project Name"
+      />
       <div className={styles.itemCopy}>
         <span className={styles.itemName}>{label}</span>
         {subLabel && <span className={styles.itemSublabel}>{subLabel}</span>}

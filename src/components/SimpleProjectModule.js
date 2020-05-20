@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
+import { handleBrokenImages } from '../utils';
 
 import styles from './SimpleProjectModule.module.scss';
 
@@ -16,6 +17,7 @@ const SimpleProjectModule = ({ data: project, className }) => {
         src={project.iconUrl}
         className={styles.projectIcon}
         alt={`Icon for ${project.title}`}
+        onError={e => handleBrokenImages(e)}
       />
       <div className={styles.projectMeta}>
         <h4 className={styles.projectTitle}>{project.title}</h4>

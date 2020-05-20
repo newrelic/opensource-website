@@ -39,20 +39,7 @@
   border-radius: 50%;
   font-size: 12px;
   overflow: hidden;
-  
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    border-radius: 50%;
-    background-color: var(--color-neutrals-400);
-    background-image: url(../images/page-heading-icon-placeholder.jpg);
-    background-size: 120% 120%;
-    background-position: center center;
-  }
+
 }
 
 .featured-project-title {
@@ -152,19 +139,6 @@
   background-color: var(--color-neutrals-400);
   border-radius: 50%;
   flex-shrink: 0;
-
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: var(--color-neutrals-400);
-    background-image: url(../images/page-heading-icon-placeholder.jpg);
-    background-size: 120% 120%;
-    background-position: center center;
-  }
 }
 
 .project-title {

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { startCase } from 'lodash';
+import { handleBrokenImages } from '../utils';
 
 import styles from './PageHeading.module.scss';
 
@@ -51,6 +52,7 @@ const PageHeading = props => {
             className={styles.pageHeadingIcon}
             alt="page heading icon"
             src={props.icon}
+            onError={e => handleBrokenImages(e)}
           />
         </div>
       ) : (

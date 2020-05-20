@@ -9,6 +9,7 @@ import Layout from '../components/layout';
 import PageHeading from '../components/PageHeading';
 import ProjectSearch from '../components/ProjectSearch';
 import ProjectCard from '../components/ProjectCard';
+import { handleBrokenImages } from '../utils';
 
 import searchIcon from '../images/icon-search.svg';
 
@@ -69,6 +70,7 @@ const ExploreProjectsPage = props => {
         <div className={styles.featuredProject} key={p.id}>
           <img
             className={styles.featuredProjectIcon}
+            onError={e => handleBrokenImages(e)}
             src={p.iconUrl}
             alt={`icon for ${p.title}`}
           />
