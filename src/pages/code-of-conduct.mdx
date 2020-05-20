@@ -4,7 +4,7 @@ import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 
 export const query = graphql`
-  query CLAQuery($path: String) {
+  query CoCQuery($path: String) {
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
         fields {

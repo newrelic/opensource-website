@@ -1,19 +1,34 @@
+import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 
-export default ({ children }) => (
-  <Layout hasHeaderBg>
-    <SEO title="Contributing to a New Relic Open Source Project" />
-    <PageHeading
-      title="Contributing to a New Relic Open Source Project"
+export const query = graphql`
+  query ContributingQuery($path: String) {
+    sitePage: allSitePage(filter: { path: { eq: $path } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
+      }
+    }
+  }
+`;
+
+export default ({ children, data }) => (
+  <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
+      <SEO title="Contributing to a New Relic Open Source Project" />
+      <PageHeading
+        title="Contributing to a New Relic Open Source Project"
       subheader="Demonstrating a standard fork-and-pull-request code contribution workflow"
-      hasSeparator
-    />
-    <div className="primary-content">
-      <main>{children}</main>
-    </div>
-  </Layout>
+        hasSeparator
+      />
+      <div className="primary-content">
+        <main>{children}</main>
+      </div>
+    </Layout>
 );
 
 _Note: the [video below](https://drive.google.com/file/d/1nKC8MD_zCVGWV46OIRBtKvfTGTiCSISN/view?usp=sharing) is for Relics only and will be replaced before go-live._
