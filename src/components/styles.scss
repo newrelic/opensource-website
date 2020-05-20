@@ -144,10 +144,11 @@ select {
 }
 
 .layout-container-main {
-  flex-grow: 1;
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0; // because nested flexbox elements in safari are buggy
 
   &.full-width {
     max-width: 1180px;

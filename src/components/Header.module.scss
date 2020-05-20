@@ -3,6 +3,7 @@
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
+  flex-shrink: 0; // because nested flexbox elements in safari are buggy
   width: 100%;
   height: 94px;
   max-width: 1180px;
