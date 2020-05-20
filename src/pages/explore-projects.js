@@ -16,7 +16,7 @@ import searchIcon from '../images/icon-search.svg';
 import styles from './explore-projects.module.scss';
 
 export const query = graphql`
-  query allProjects {
+  query ExploreProjects($path: String) {
     allProjects(filter: { projectType: { eq: "newrelic" } }) {
       edges {
         node {
@@ -40,6 +40,15 @@ export const query = graphql`
     allProjectTags {
       group(field: title) {
         fieldValue
+      }
+    }
+    sitePage: allSitePage(filter: { path: { eq: $path } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
       }
     }
   }
@@ -136,7 +145,7 @@ const ExploreProjectsPage = props => {
   };
 
   return (
-    <Layout fullWidth mainClassName={styles.exploreProjectsLayout}>
+    <Layout fullWidth mainClassName={styles.exploreProjectsLayout} editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
       <PageHeading
         title="Explore projects"
         subheader="Projects and products being developed in open source"
