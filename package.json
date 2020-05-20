@@ -37,8 +37,13 @@
   },
   "devDependencies": {
     "@newrelic/eslint-plugin-newrelic": "^0.3.0",
+    "babel-jest": "^26.0.1",
+    "babel-preset-gatsby": "^0.4.4",
     "eslint": "^6.8.0",
-    "prettier": "^1.19.1"
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.0.1",
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.13.1"
   },
   "keywords": [
     "gatsby",
@@ -53,7 +58,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:update:snapshot": "npm test -- --update-snapshot",
     "eslint-check": "eslint src/ gatsby/",
     "eslint-fix": "eslint src/ gatsby/ --fix"
   },
