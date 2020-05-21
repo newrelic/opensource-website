@@ -115,13 +115,6 @@ div.exists-in-active-mobile-menu {
     height: 60px;
   }
 
-  .parent-of-active-mobile-menu {
-    .primary-header-logo {
-      // position: relative;
-      // top: 4px;
-    }
-  }
-
   .exists-in-mobile-active-menu {
     display: none;
   }
@@ -238,5 +231,16 @@ div.exists-in-active-mobile-menu {
       color: var(--color-neutral-800);
     }
   }
-  
+
+  .mobile-menu-button {
+    background-image: url('../images/icon-menu-light.svg');
+    
+    div.mobile-menu-active & {
+      background-image: url('../images/icon-menu-close-light.svg');
+    }
+  }
+
+  .primary-header-nav-link svg {
+    display: none;
+  }
 }
