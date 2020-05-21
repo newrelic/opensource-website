@@ -157,14 +157,6 @@
 // ==============================================================
 // Responsive styles
 // ==============================================================
-@media screen and (max-width: 1245px) {
-  .page-heading-container {
-    &.has-icon {
-      margin-top: -15px;
-    }
-  } 
-}
-
 @media screen and (max-width: 724px) {
   .page-heading-container {
     box-sizing: border-box;
@@ -211,10 +203,29 @@
     &.has-icon {
       margin-top: 10px;
     }
+
+    .page-heading-icon {
+      margin-top: 6px;
+      width: 70px;
+      height: 70px;
+    }
   }
 
   .page-heading-container:not(.has-separator):not(.has-icon) {
     margin-top: 25px;
     margin-bottom: 20px;
-  }    
+  } 
+  
+  .page-title {
+    margin-top: 16px;
+    font-size: 32px;
+    width: 100%;
+    line-height: 34px;
+  }
+
+  .page-subheader {
+    margin-top: 4px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }

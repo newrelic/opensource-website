@@ -228,6 +228,28 @@ a.project-module-footer-link:hover {
 }
 
 @media screen and (max-width: 400px) {
+  div.project-module .project-module-primary-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 16px;
+
+    .project-module-icon {
+      margin-bottom: 10px;
+      width: 50px;
+      height: 50px;
+    }
+
+    .project-module-title {
+      width: 100%;
+      text-align: center;
+      line-height: 24px;
+    }
+
+    .project-module-description {
+      padding-left: 0;
+    }
+  }
+
   div.style-row .project-module-primary-content {
     flex-direction: column;
 

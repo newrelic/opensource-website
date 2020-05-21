@@ -81,7 +81,10 @@ const ExternalProjects = ({ data }) => {
   });
   // console.log(otherProjects);
   return (
-    <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
+    <Layout
+      fullWidth
+      editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
+    >
       <SEO title="Open source projects to which New Relic contributes" />
       <PageHeading
         title="Projects we support"
