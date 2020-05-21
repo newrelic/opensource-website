@@ -22,7 +22,7 @@ const PageHeading = props => {
             </a>
           </li>
         );
-      } else {
+      } else if (tag.value && tag.value.trim().length > 0) {
         return (
           <li
             key={index}
