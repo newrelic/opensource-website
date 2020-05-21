@@ -12,7 +12,7 @@
   margin-top: 50px;
   margin-right: 20px;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: var(--color-background);
   border: 1px solid var(--color-neutrals-300);
   border-radius: 4px;
   box-shadow: 
@@ -34,7 +34,7 @@
   height: 88px;
   margin-top: -50px;
   text-indent: -200%;
-  box-shadow: 0 0 0 4px #fff;
+  box-shadow: 0 0 0 4px var(--color-background);
   position: relative;
   border-radius: 50%;
   font-size: 12px;
@@ -100,7 +100,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
-  background: #FFFFFF;
+  background: var(--color-background);
   border: 1px solid var(--color-neutrals-300);
   box-sizing: border-box;
   border-radius: 4px;

@@ -39,7 +39,27 @@
   --ease-out-quint: cubic-bezier(.23, 1, .32, 1);
   --ease-out-expo: cubic-bezier(.19, 1, .22, 1);
   --ease-out-circ: cubic-bezier(.075, .82, .165, 1);
+  
+  /*-- Dark mode --*/
+  @media (prefers-color-scheme: dark) {
+    --color-background: #1C2A2F;
+    
+    --color-neutrals-050: #131F23;
+    --color-neutrals-100: #22353C;
+    --color-neutrals-200: #233940;
+    --color-neutrals-300: #2A4249;
+    --color-neutrals-400: #37484E;
+    --color-neutrals-500: #495B5C;
+    --color-neutrals-600: #7C9799;
+    --color-neutrals-700: #A5BBBD;
+    --color-neutrals-800: #CEDEDE;
+    --color-neutrals-900: #E8EAEA;
+
+    --color-brand-800: #70CCD3;
+    --color-brand-900: #EDFFFF;
+  }
 }
+
 
 /*-------------------------*/
 /*-- CSS Reset stuff --*/
@@ -54,6 +74,7 @@ body {
   margin: 0;
   font-family: var(--primary-font-family);
   color: var(--color-neutrals-700);
+  background-color: var(--color-background);
 }
 
 #___gatsby {
@@ -122,7 +143,7 @@ select {
   padding-right: 20px;
   -webkit-appearance: none;
   font-size: 12px;
-  background: #FFFFFF;
+  background: var(--color-background);
   border: 1px solid var(--color-neutrals-400);
   box-sizing: border-box;
   border-radius: 4px;
@@ -273,7 +294,7 @@ select {
   display: inline-flex;
   align-items: center;
   border: none;
-  color: #fff;
+  color: var(--color-background);
   background-color: var(--color-brand-800);
   padding: 10px 16px;
   font-size: 14px;

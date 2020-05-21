@@ -4,7 +4,7 @@
   padding: 20px 0;
   margin: 40px auto 0;
   align-items: center;
-  background-color: var(--color-neutrals-800);
+  background-color: var(--color-neutrals-050);
 }
 
 .footer-contents {
@@ -96,7 +96,7 @@
   transition: color .075s ease-out;
 
   &:hover {
-    color: #fff;
+    color: var(--color-background);
   }
 }
 
