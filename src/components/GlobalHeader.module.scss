@@ -128,6 +128,18 @@
   background-image: url('../images/icon-user.svg');
 }
 
+.dark-mode-toggle {
+  margin-right: 4px;
+  position: relative;
+  top: 3px;
+  opacity: .45;
+
+  &:hover {
+    cursor: pointer;
+    opacity: .75;
+  }
+}
+
 // ==============================================================
 // Responsive styles
 // ==============================================================
@@ -148,48 +160,48 @@
 // Dark mode
 // ==============================================================
 
-// @media (prefers-color-scheme: dark) {
-//   .has-header-bg {
-//     background-color: transparent;
-//     border-bottom: 1px dotted var(--color-neutrals-300);
-//     margin-bottom: -1px;
-//   }
+:global(.dark-mode) {
+  .has-header-bg {
+    background-color: transparent;
+    border-bottom: 1px dotted var(--color-neutrals-300);
+    margin-bottom: -1px;
+  }
 
-//   .logo {
-//     background-image: url('../images/new-relic-logo-light.svg');
-//   }
+  .logo {
+    background-image: url('../images/new-relic-logo-light.svg');
+  }
 
-//   .right-side-button {
-//     opacity: .75;
+  .right-side-button {
+    opacity: .75;
   
-//     &:hover {
-//       opacity: 1;
-//     }
+    &:hover {
+      opacity: 1;
+    }
   
-//     &:last-child {
-//       padding-right: 0;
-//       background-position: right;
-//     }
-//   }
+    &:last-child {
+      padding-right: 0;
+      background-position: right;
+    }
+  }
 
-//   .search-button {
-//     background-image: url('../images/icon-search-small-light.svg');
-//   }
+  .search-button {
+    background-image: url('../images/icon-search-small-light.svg');
+  }
   
-//   .github-button-link {
-//     background-image: url('../images/icon-github-light.svg');
-//   }
+  .github-button-link {
+    background-image: url('../images/icon-github-light.svg');
+  }
 
-//   .login-button {
-//     background-image: url('../images/icon-user-light.svg');
-//   }
+  .login-button {
+    background-image: url('../images/icon-user-light.svg');
+  }
 
-//   .left-side-link {
+  .left-side-link {
 
-//     .active &,
-//     .left-side-links:hover .active &:hover {
-//       background-color: var(--color-neutrals-300);
-//       color: var(--color-neutrals-700);
-//     }
-//   }
-// }
+    .active &,
+    .left-side-links:hover .active &:hover {
+      background-color: var(--color-neutrals-300);
+      color: var(--color-neutrals-700);
+    }
+  }
+}

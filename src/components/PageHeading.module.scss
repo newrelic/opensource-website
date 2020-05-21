@@ -240,17 +240,17 @@
 // ==============================================================
 // Dark mode
 // ==============================================================
-// @media (prefers-color-scheme: dark) {
-//   .page-heading-icon {
-//     border-width: 6px;
-//     margin-top: -2px;
-//   }
-//   .page-heading-tag-list-tag {    
-//     &:hover .tag-name,
-//     &:hover .tag-value {
-//       transform: translateY(-1px);
-//       background-color: var(--color-neutrals-300);
-//       color: var(--color-brand-800)
-//     }
-//   }
-// }
+:global(.dark-mode) {
+  .page-heading-icon {
+    border-width: 6px;
+    margin-top: -2px;
+  }
+  .page-heading-tag-list-tag {    
+    &:hover .tag-name,
+    &:hover .tag-value {
+      transform: translateY(-1px);
+      background-color: var(--color-neutrals-300);
+      color: var(--color-brand-800)
+    }
+  }
+}

@@ -190,8 +190,8 @@
 // ==============================================================
 // Dark mode
 // ==============================================================
-// @media (prefers-color-scheme: dark) {
-//   .footer-container {
-//     background-color: var(--color-neutrals-050);
-//   }
-// }
+:global(.dark-mode) {
+  .footer-container {
+    background-color: var(--color-neutrals-050);
+  }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import DarkModeToggle from './DarkModeToggle';
 
 import styles from './GlobalHeader.module.scss';
 
@@ -46,6 +47,9 @@ const GlobalHeader = ({ hasHeaderBg, className }) => {
         </div>
 
         <ul className={styles.rightSideButtons}>
+          <li className={styles.darkModeToggle}>
+            <DarkModeToggle />
+          </li>
           <li className={`${styles.rightSideButton} ${styles.githubButton}`}>
             <a
               href="https://github.com/newrelic/opensource-website"
