@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-    repository_dispatch:
-      types: [semantic-release]
+  repository_dispatch:
+    types: [semantic-release]
 
 jobs:
   job-checkout-and-build:
