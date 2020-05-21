@@ -185,3 +185,18 @@
     height: 775px;
   }    
 }
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+// :global(.dark-mode) {
+//   .featured-external-projects {
+//     &:before {
+//       background-color: var(--color-neutrals-050);
+//     }
+
+//     &:after {
+//       display: none;
+//     }
+//   }
+// }

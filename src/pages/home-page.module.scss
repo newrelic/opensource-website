@@ -248,6 +248,10 @@ img.play-button {
       opacity: 0;
     }
   }
+
+  .modal-close-button {
+    opacity: 1;
+  }
 }
 
 .video-modal-overlay {
@@ -266,6 +270,7 @@ img.play-button {
   pointer-events: none;
   position: absolute;
   transform: scale(.5);
+  opacity: 0;
   top: -15px;
   right: -15px;
 }
@@ -519,5 +524,14 @@ img.play-button {
 
   .featured-internal-projects-container {
     margin-bottom: 20px
+  }
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+:global(.dark-mode) {
+  .video-modal-overlay {
+    background-color: var(--co  lor-neutrals-050);
   }
 }

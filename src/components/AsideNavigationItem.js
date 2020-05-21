@@ -18,7 +18,9 @@ const AsideNavigationItem = ({ icon, label, subLabel, to }) => {
       <img
         src={icon}
         className={styles.itemIcon}
-        onError={e => handleBrokenImages(e, avatarPlaceholder)}
+        onError={e =>
+          handleBrokenImages({ event: e, replacementImage: avatarPlaceholder })
+        }
         alt="icon for Project Name"
       />
       <div className={styles.itemCopy}>

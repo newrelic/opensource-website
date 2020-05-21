@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { Location } from '@reach/router';
 import { get, orderBy } from 'lodash';
+import useDarkMode from 'use-dark-mode';
 
 import Layout from '../components/layout';
 import PageHeading from '../components/PageHeading';
@@ -71,6 +72,8 @@ const ExploreProjectsPage = props => {
 
   const featuredProjectsToShow = 3;
 
+  const darkMode = useDarkMode(false);
+
   const renderFeaturedProjects = ({ projects, featuredProjectsToShow }) => {
     return projects.slice(0, featuredProjectsToShow).map(p => {
       const link = p.permalink.replace('https://opensource.newrelic.com', '');
@@ -79,7 +82,12 @@ const ExploreProjectsPage = props => {
         <div className={styles.featuredProject} key={p.id}>
           <img
             className={styles.featuredProjectIcon}
-            onError={e => handleBrokenImages(e)}
+            onError={event =>
+              handleBrokenImages({
+                event: event,
+                darkModeActive: darkMode.value
+              })
+            }
             src={p.iconUrl}
             alt={`icon for ${p.title}`}
           />

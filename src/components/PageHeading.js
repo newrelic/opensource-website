@@ -2,10 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { startCase } from 'lodash';
 import { handleBrokenImages } from '../utils';
+import useDarkMode from 'use-dark-mode';
 
 import styles from './PageHeading.module.scss';
 
 const PageHeading = props => {
+  const darkMode = useDarkMode(false);
   const renderTags = () => {
     const tags = props.tags.map((tag, index) => {
       if (tag.name !== 'version') {
@@ -52,7 +54,12 @@ const PageHeading = props => {
             className={styles.pageHeadingIcon}
             alt="page heading icon"
             src={props.icon}
-            onError={e => handleBrokenImages(e)}
+            onError={event =>
+              handleBrokenImages({
+                event: event,
+                darkModeActive: darkMode.value
+              })
+            }
           />
         </div>
       ) : (

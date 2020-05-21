@@ -71,3 +71,21 @@
 
 @media screen and (max-width: 400px) {
 }
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+:global(.dark-mode) {
+    .project {
+    border: 1px solid var(--color-neutrals-400);
+  
+    &:hover {
+      transform: translateY(-2px);
+      border: 1px solid var(--color-neutrals-500);
+    }
+    
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+}

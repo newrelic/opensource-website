@@ -287,3 +287,13 @@ a.project-module-footer-link:hover {
     }
   }
 }
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+:global(.dark-mode) {
+  .project-module {
+    box-shadow: none;
+    // background-color: var(--color-neutrals-100);
+  }
+}

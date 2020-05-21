@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import { get } from 'lodash';
 import { handleBrokenImages } from '../utils';
+import useDarkMode from 'use-dark-mode';
 
 import styles from '../pages/explore-projects.module.scss';
 
 const ProjectCard = ({ project: p }) => {
   const link = p.permalink.replace('https://opensource.newrelic.com', '');
+  const darkMode = useDarkMode(false);
 
   return (
     <Link className={styles.projectContainer} key={p.id} to={link}>
@@ -15,7 +17,12 @@ const ProjectCard = ({ project: p }) => {
         <header className={styles.projectHeader}>
           <img
             src={p.iconUrl}
-            onError={e => handleBrokenImages(e)}
+            onError={event =>
+              handleBrokenImages({
+                event: event,
+                darkModeActive: darkMode.value
+              })
+            }
             alt="icon for"
             className={styles.projectIcon}
           />
