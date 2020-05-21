@@ -55,7 +55,7 @@ export const query = graphql`
 `;
 
 const ExploreProjectsPage = props => {
-  const [projectsToShow, setProjectsToShow] = useState(24);
+  const [projectsToShow, setProjectsToShow] = useState(23);
   const { data } = props;
 
   const allProjects = data.allProjects.edges.map(p => p.node);
@@ -145,7 +145,11 @@ const ExploreProjectsPage = props => {
   };
 
   return (
-    <Layout fullWidth mainClassName={styles.exploreProjectsLayout} editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
+    <Layout
+      fullWidth
+      mainClassName={styles.exploreProjectsLayout}
+      editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
+    >
       <PageHeading
         title="Explore projects"
         subheader="Projects and products being developed in open source"
