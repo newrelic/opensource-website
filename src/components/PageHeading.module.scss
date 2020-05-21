@@ -108,13 +108,20 @@
       display: flex;
       color: var(--color-neutrals-600);
       transition: all .09s var(--ease-out-quad);
+      
+      &:hover {
+        transform: translateY(-1px);
+      }
+      
+      &:active {
+        transform: translateY(1px);
+      }
     }
 
     &:hover .tag-name,
     &:hover .tag-value {
-      transform: translateY(-1px);
       background-color: rgba(112, 204, 210, 0.17);
-      color: #007e8a;
+      color: var(--color-brand-800);
     }
 
     &:last-child {
@@ -227,5 +234,23 @@
     margin-top: 4px;
     font-size: 16px;
     line-height: 24px;
+  }
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+@media (prefers-color-scheme: dark) {
+  .page-heading-icon {
+    border-width: 6px;
+    margin-top: -2px;
+  }
+  .page-heading-tag-list-tag {    
+    &:hover .tag-name,
+    &:hover .tag-value {
+      transform: translateY(-1px);
+      background-color: var(--color-neutrals-300);
+      color: var(--color-brand-800)
+    }
   }
 }
