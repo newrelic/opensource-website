@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';

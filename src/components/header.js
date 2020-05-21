@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import React, { useState } from 'react';
 import navLinks from '../data/navigation.json';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { ChevronRight } from 'react-feather';
 
 import GlobalHeader from './GlobalHeader';
