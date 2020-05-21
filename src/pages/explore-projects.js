@@ -59,10 +59,10 @@ const ExploreProjectsPage = props => {
   const [projectsToShow, setProjectsToShow] = useState(23);
   const { data } = props;
 
-  const allProjects = data.allProjects.edges.map(p => p.node);
-  const allLanguages = data.allLanguages.group;
-  const allCategories = data.allCategories.group;
-  const allProjectTags = data.allProjectTags.group;
+  const allProjects = get(data, 'allProjects.edges', []).map(p => p.node);
+  const allLanguages = get(data, 'allLanguages.group', []);
+  const allCategories = get(data, 'allCategories.group', []);
+  const allProjectTags = get(data, 'allProjectTags.group', []);
 
   const filterOptions = {
     allCategories: { title: 'Categories', options: allCategories },
