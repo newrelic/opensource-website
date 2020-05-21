@@ -56,7 +56,9 @@ const SubProjects = ({ projects }) => {
               <div className={styles.subProjectCallToAction}>
                 <a href="button" className="button button-tertiary">
                   <img src={iconGitHub} alt="GitHub Logo" />
-                  View Repo
+                  <span className={styles.subProjectCallToActionLabel}>
+                    View Repo
+                  </span>
                 </a>
               </div>
             )}

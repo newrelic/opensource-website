@@ -54,3 +54,18 @@
   place-items: center;
   border-left: 1px dotted var(--color-neutrals-300);
 }
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 480px) {
+  .sub-project {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .sub-project-call-to-action {
+    margin-bottom: 16px;
+  }
+}
