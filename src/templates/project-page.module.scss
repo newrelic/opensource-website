@@ -413,3 +413,16 @@ p.call-to-action-description {
     }
   } 
 }
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+@media (prefers-color-scheme: dark) {
+  .primary-content-main {
+    a {
+      &[target='__blank']:after {
+        background-image: url('../images/icon-external-link-light.svg');
+      }
+    }
+  }
+}
