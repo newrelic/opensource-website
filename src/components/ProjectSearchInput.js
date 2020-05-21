@@ -55,14 +55,18 @@ const ProjectSearchInput = ({
           onChange={onCategoryChange}
           value={filterValues.ossCategory}
         >
-          <option label="All Categories" value="" />
+          <option label="All Categories" value="">
+            All categories
+          </option>
           {allCategories.options.map(c => {
             return (
               <option
                 key={c.fieldValue}
                 label={c.fieldValue}
                 value={c.fieldValue}
-              />
+              >
+                {c.fieldValue}
+              </option>
             );
           })}
         </select>
@@ -71,14 +75,18 @@ const ProjectSearchInput = ({
           onChange={onProjectTagChange}
           value={filterValues.projectTag}
         >
-          <option label="All Project Tags" value="" />
+          <option label="All Project Tags" value="">
+            All Project Tags
+          </option>
           {allProjectTags.options.map(c => {
             return (
               <option
                 key={c.fieldValue}
                 label={c.fieldValue}
                 value={c.fieldValue}
-              />
+              >
+                {c.fieldValue}
+              </option>
             );
           })}
         </select>
@@ -87,14 +95,18 @@ const ProjectSearchInput = ({
           onChange={onLanguageTypeChange}
           value={filterValues.languageType}
         >
-          <option label="All Language Types" value="" />
+          <option label="All Language Types" value="">
+            All language types
+          </option>
           {allLanguages.options.map(c => {
             return (
               <option
                 key={c.fieldValue}
                 label={c.fieldValue}
                 value={c.fieldValue}
-              />
+              >
+                {c.fieldValue}
+              </option>
             );
           })}
         </select>
