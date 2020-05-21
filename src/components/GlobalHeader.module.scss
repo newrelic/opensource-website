@@ -1,8 +1,7 @@
 .global-header-container {
   position: relative;
   z-index: 10000;
-  background-color: var(--color-neutrals-100);
-  
+  background-color: var(--color-neutrals-100); 
 }
 
 .has-header-bg {
@@ -129,6 +128,10 @@
   background-image: url('../images/icon-user.svg');
 }
 
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
 @media screen and (max-width: 1240px) {
   .global-header-container {
     padding: 0 28px;
@@ -139,4 +142,35 @@
   .global-header-container {
     display: none;
   }    
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+
+@media (prefers-color-scheme: dark) {
+  .logo {
+    background-image: url('../images/new-relic-logo-light.svg');
+  }
+
+  .search-button {
+    background-image: url('../images/icon-search-small.svg');
+  }
+  
+  .github-button-link {
+    background-image: url('../images/icon-github.svg');
+  }
+
+  .login-button {
+    background-image: url('../images/icon-user-light.svg');
+  }
+
+  .left-side-link {
+
+    .active &,
+    .left-side-links:hover .active &:hover {
+      background-color: var(--color-neutrals-300);
+      color: var(--color-neutrals-700);
+    }
+  }
 }
