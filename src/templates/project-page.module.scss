@@ -25,7 +25,7 @@
 
   p strong {
     font-weight: 600;
-    color: #2a3434;
+    color: var(--color-neutrals-800);
   }
 
   ul {
@@ -316,7 +316,7 @@ p.call-to-action-description {
     background-color: rgba(112, 204, 210, 0.17);
     
     a {
-      color: #007e8a;
+      color: var(--color-brand-800);
     }
   }
   

@@ -257,7 +257,7 @@ img.play-button {
   bottom: 0;
   left: 0;
   opacity: 0;
-  background-color: #2a3434;
+  background-color: var(--color-neutrals-800);
   pointer-events: none;
   transition: all .4s var(--ease-out-quad);
 }
