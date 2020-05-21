@@ -149,16 +149,35 @@
 // ==============================================================
 
 @media (prefers-color-scheme: dark) {
+  .has-header-bg {
+    background-color: transparent;
+    border-bottom: 1px dotted var(--color-neutrals-300);
+    margin-bottom: -1px;
+  }
+
   .logo {
     background-image: url('../images/new-relic-logo-light.svg');
   }
 
+  .right-side-button {
+    opacity: .75;
+  
+    &:hover {
+      opacity: 1;
+    }
+  
+    &:last-child {
+      padding-right: 0;
+      background-position: right;
+    }
+  }
+
   .search-button {
-    background-image: url('../images/icon-search-small.svg');
+    background-image: url('../images/icon-search-small-light.svg');
   }
   
   .github-button-link {
-    background-image: url('../images/icon-github.svg');
+    background-image: url('../images/icon-github-light.svg');
   }
 
   .login-button {
