@@ -280,7 +280,7 @@ const ProjectPage = props => {
                 <strong>{project.title}</strong> accepts contributions under our
                 open source{' '}
                 <a
-                  href={`${project.githubUrl}/code-of-conduct`}
+                  href={`/code-of-conduct`}
                   target="__blank"
                   rel="noopener noreferrer"
                 >
