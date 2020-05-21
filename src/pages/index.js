@@ -144,9 +144,12 @@ const IndexPage = ({ data }) => {
   };
 
   return (
-    <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
+    <Layout
+      fullWidth
+      editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
+    >
       <Helmet>
-        <body className={heroVideoActive && styles.heroVideoActive} />
+        <html className={heroVideoActive && styles.heroVideoActive} />
       </Helmet>
 
       <SEO title="Home" />
