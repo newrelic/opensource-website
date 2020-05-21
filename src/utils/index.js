@@ -17,9 +17,9 @@ export const isEmptyObject = obj => {
 // <img src="a-bad-link.png" onError={e => handleBrokenImages(e, backupImage)} />\
 
 export const handleBrokenImages = data => {
-  const { event, replacementImage, darkModeActive } = data;
+  const { replacementImage, darkModeActive } = data;
   const defaultReplacementImage = darkModeActive
     ? placeholderProjectIconLight
     : placeholderProjectIcon;
-  event.target.src = replacementImage || defaultReplacementImage;
+  return replacementImage || defaultReplacementImage;
 };

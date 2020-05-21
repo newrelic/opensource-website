@@ -20,9 +20,14 @@ const SimpleProjectModule = ({ data: project, className }) => {
         src={project.iconUrl}
         className={styles.projectIcon}
         alt={`Icon for ${project.title}`}
-        onError={event =>
-          handleBrokenImages({ event: event, darkModeActive: darkMode.value })
-        }
+        onError={event => {
+          event.persist();
+          const defaultImgUrl = handleBrokenImages({
+            event: event,
+            darkModeActive: darkMode.value
+          });
+          event.target.src = defaultImgUrl;
+        }}
       />
       <div className={styles.projectMeta}>
         <h4 className={styles.projectTitle}>{project.title}</h4>
