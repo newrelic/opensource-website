@@ -96,7 +96,7 @@ div.exists-in-active-mobile-menu {
     left: 0;
     transform: skewY(-2.75deg);
     z-index: -1;
-    background: linear-gradient(280.65deg, rgba(255, 255, 255, 0.52) 1.64%, rgba(255, 255, 255, 0) 99.19%), #F4F5F5;
+    background: linear-gradient(280.65deg, rgba(255, 255, 255, 0.52) 1.64%, rgba(255, 255, 255, 0) 99.19%), var(--color-neutrals-100);
   }
 }
 

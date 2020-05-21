@@ -7,6 +7,8 @@
 
 /*-- CSS Variables --*/
 :root {
+  --color-background: #ffffff;
+
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-200: #edeeee;
@@ -51,7 +53,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: var(--primary-font-family);
-  color: #464e4e;
+  color: var(--color-neutrals-700);
 }
 
 #___gatsby {
