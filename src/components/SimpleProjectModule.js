@@ -8,7 +8,9 @@ import placeholderProjectIconLight from '../images/page-heading-icon-placeholder
 import styles from './SimpleProjectModule.module.scss';
 
 const SimpleProjectModule = ({ data: project, className }) => {
-  const darkModeStatus = localStorage.getItem('darkMode');
+  const local = typeof window !== `undefined` ? window.localStorage : null;
+  const darkModeStatus = local && local.getItem('darkMode');
+
   const darkMode = useDarkMode(darkModeStatus);
   const link = project.permalink.replace('https://opensource.newrelic.com', '');
   const placeholderIcon = darkMode.value

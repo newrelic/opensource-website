@@ -10,7 +10,9 @@ import placeholderProjectIconLight from '../images/page-heading-icon-placeholder
 import styles from './PageHeading.module.scss';
 
 const PageHeading = props => {
-  const darkModeStatus = localStorage.getItem('darkMode');
+  const local = typeof window !== `undefined` ? window.localStorage : null;
+  const darkModeStatus = local && local.getItem('darkMode');
+
   const darkMode = useDarkMode(darkModeStatus);
   const renderTags = () => {
     const tags = props.tags.map((tag, index) => {

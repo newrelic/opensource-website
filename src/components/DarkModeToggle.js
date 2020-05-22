@@ -3,7 +3,9 @@ import { Moon, Sun } from 'react-feather';
 import useDarkMode from 'use-dark-mode';
 
 const DarkModeToggle = () => {
-  const currentDarkModeStatus = localStorage.getItem('darkMode');
+  const local = typeof window !== `undefined` ? window.localStorage : null;
+  const currentDarkModeStatus = local && local.getItem('darkMode');
+
   const darkMode =
     currentDarkModeStatus !== null
       ? useDarkMode(currentDarkModeStatus)

@@ -55,7 +55,8 @@ export const query = graphql`
 const ProjectPage = props => {
   const { data } = props;
 
-  const darkModeStatus = localStorage.getItem('darkMode');
+  const local = typeof window !== `undefined` ? window.localStorage : null;
+  const darkModeStatus = local && local.getItem('darkMode');
   const darkMode = useDarkMode(darkModeStatus);
 
   const renderNotFound = () => {
