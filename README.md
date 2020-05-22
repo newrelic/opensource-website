@@ -56,9 +56,9 @@ To add your project to `opensource.newrelic.com`, you must include **the followi
 
 The JSON file contains the base information about the project detail pages, as well as the project search/exploration page.
 
-**File format:** `data/projects/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].json`
+**File format:** `src/data/projects/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].json`
 
-**Example:** `data/projects/newrelic-nr1-github.json`
+**Example:** `src/data/projects/newrelic-nr1-github.json`
 
 **Template:** `examples/projects.json`
 
@@ -66,9 +66,9 @@ The JSON file contains the base information about the project detail pages, as w
 
 This MDX file contains the markdown and optional React components that populate the left-hand column of a project detail page.
 
-**File format:** `data/project-main-content/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].mdx`
+**File format:** `src/data/project-main-content/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].mdx`
 
-**Example:** `data/project-main-content/newrelic-nr1-github.mdx`
+**Example:** `src/data/project-main-content/newrelic-nr1-github.mdx`
 
 **Template:** `examples/project-main-content.mdx`
 
