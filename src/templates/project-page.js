@@ -563,7 +563,7 @@ const ProjectPage = props => {
 };
 ProjectPage.propTypes = {
   data: PropTypes.object,
-  darkMode: PropTypes.bool
+  darkMode: PropTypes.object
 };
 
 export default withDarkMode(ProjectPage);

@@ -40,7 +40,7 @@ const SimpleProjectModule = ({ data: project, className, darkMode }) => {
 SimpleProjectModule.propTypes = {
   data: PropTypes.array,
   className: PropTypes.string,
-  darkMode: PropTypes.bool
+  darkMode: PropTypes.object
 };
 
 export default withDarkMode(SimpleProjectModule);

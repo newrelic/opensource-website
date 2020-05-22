@@ -226,6 +226,6 @@ const ExploreProjectsPage = props => {
 
 ExploreProjectsPage.propTypes = {
   data: PropTypes.object,
-  darkMode: PropTypes.bool
+  darkMode: PropTypes.object
 };
 export default withDarkMode(ExploreProjectsPage);

@@ -104,7 +104,7 @@ PageHeading.propTypes = {
   hasSeparator: PropTypes.bool,
   blogMeta: PropTypes.string,
   callToAction: PropTypes.func,
-  darkMode: PropTypes.bool
+  darkMode: PropTypes.object
 };
 
 export default withDarkMode(PageHeading);

@@ -23,7 +23,7 @@ const DarkModeToggle = ({ darkMode }) => {
   );
 };
 DarkModeToggle.propTypes = {
-  darkMode: PropTypes.bool
+  darkMode: PropTypes.object
 };
 
 export default withDarkMode(DarkModeToggle);
