@@ -62,7 +62,7 @@ const PageHeading = props => {
         props.callToAction ? styles.hasCallToAction : ''
       }`}
     >
-      {hasIcon ? (
+      {hasIcon && props.showIcon && (
         <div className={styles.pageHeadingIconContainer}>
           <Image
             src={props.icon}
@@ -75,8 +75,6 @@ const PageHeading = props => {
             className={styles.pageHeadingIcon}
           />
         </div>
-      ) : (
-        ''
       )}
       {props.title ? <h1 className={styles.pageTitle}>{props.title}</h1> : ''}
       {props.subheader ? (
@@ -91,10 +89,15 @@ const PageHeading = props => {
   );
 };
 
+PageHeading.defaultProps = {
+  showIcon: false
+}
+
 PageHeading.propTypes = {
   title: PropTypes.string,
   subheader: PropTypes.string,
   icon: PropTypes.string,
+  showIcon: PropTypes.bool,
   tags: PropTypes.array,
   hasSeparator: PropTypes.bool,
   blogMeta: PropTypes.string,
