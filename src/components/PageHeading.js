@@ -42,17 +42,27 @@ const PageHeading = props => {
     return <ul className={styles.pageHeadingTagList}>{tags}</ul>;
   };
 
+  const hasIcon = () => {
+    if (props.icon) {
+      return true;
+    } else if (props.icon === null) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
   return (
     <div
       className={`${styles.pageHeadingContainer} ${
         props.hasSeparator ? styles.hasSeparator : ''
       } ${props.blogMeta ? styles.blogPostHeader : ''} ${
-        !props.icon && props.hasSeparator ? styles.hasSeparatorWithoutIcon : ''
+        !hasIcon && props.hasSeparator ? styles.hasSeparatorWithoutIcon : ''
       } ${props.icon ? styles.hasIcon : ''} ${
         props.callToAction ? styles.hasCallToAction : ''
       }`}
     >
-      {props.icon ? (
+      {hasIcon ? (
         <div className={styles.pageHeadingIconContainer}>
           <Image
             src={props.icon}
