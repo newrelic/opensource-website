@@ -6,6 +6,7 @@ import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import { get } from 'lodash';
 import { Edit } from 'react-feather';
+import useDarkMode from 'use-dark-mode';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -21,7 +22,14 @@ import commitIcon from '../images/icon-commit.svg';
 import prIcon from '../images/icon-pr.svg';
 import contributorIcon from '../images/icon-contributor.svg';
 import openIssueGreyIcon from '../images/icon-open-issue-grey.svg';
+import chatLightIcon from '../images/icon-chat-light.svg';
+import tagLightIcon from '../images/icon-tag-light.svg';
+import commitLightIcon from '../images/icon-commit-light.svg';
+import prLightIcon from '../images/icon-pr-light.svg';
+import contributorLightIcon from '../images/icon-contributor-light.svg';
+import openIssueLightIcon from '../images/icon-open-issue-light.svg';
 import iconGitHubWhite from '../images/icon-github-white.svg';
+import iconGitHubDarkGreen from '../images/icon-github-dark-green.svg';
 
 export const query = graphql`
   query NewRelicProjects($slug: String, $pagePath: String) {
@@ -46,6 +54,8 @@ export const query = graphql`
 
 const ProjectPage = props => {
   const { data } = props;
+
+  const darkMode = useDarkMode(false);
 
   const renderNotFound = () => {
     return <h1>Project not found</h1>;
@@ -108,7 +118,7 @@ const ProjectPage = props => {
             {issue.comments.totalCount > 0 && (
               <div className={styles.projectPageIssueFooterDiscussion}>
                 <img
-                  src={chatIcon}
+                  src={darkMode.value ? chatLightIcon : chatIcon}
                   alt="Chat Icon"
                   className={styles.projectPageIssueFooterDiscussionIcon}
                 />
@@ -214,7 +224,10 @@ const ProjectPage = props => {
           className="button button-primary"
           rel="noopener noreferrer"
         >
-          <img src={iconGitHubWhite} alt="GitHub logo" />
+          <img
+            src={darkMode.value ? iconGitHubDarkGreen : iconGitHubWhite}
+            alt="GitHub logo"
+          />
           Fork Repo
         </a>
         {contentEditLink && (
@@ -225,7 +238,7 @@ const ProjectPage = props => {
             rel="noopener noreferrer"
           >
             <span className={styles.buttonIcon}>
-              <Edit color="#007e8a" size={16} />
+              <Edit color={darkMode.value ? '#70ccd3' : '#007e8a'} size={16} />
             </span>
             Edit page
           </a>
@@ -280,7 +293,7 @@ const ProjectPage = props => {
                 <strong>{project.title}</strong> accepts contributions under our
                 open source{' '}
                 <a
-                  href={`/code-of-conduct`}
+                  href="/code-of-conduct"
                   target="__blank"
                   rel="noopener noreferrer"
                 >
@@ -421,7 +434,9 @@ const ProjectPage = props => {
                   className={`${styles.repoStat} + ${styles.repoStatContributors}`}
                 >
                   <img
-                    src={contributorIcon}
+                    src={
+                      darkMode.value ? contributorLightIcon : contributorIcon
+                    }
                     alt="contributor icon"
                     className={styles.repoStatIcon}
                   />
@@ -439,7 +454,7 @@ const ProjectPage = props => {
                 </li>
                 <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
                   <img
-                    src={tagIcon}
+                    src={darkMode.value ? tagLightIcon : tagIcon}
                     alt="release icon"
                     className={styles.repoStatIcon}
                   />
@@ -457,7 +472,7 @@ const ProjectPage = props => {
                 </li>
                 <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
                   <img
-                    src={commitIcon}
+                    src={darkMode.value ? commitLightIcon : commitIcon}
                     alt="commit icon"
                     className={styles.repoStatIcon}
                   />
@@ -477,7 +492,7 @@ const ProjectPage = props => {
                   className={`${styles.repoStat} ${styles.repoStatPullRequests}`}
                 >
                   <img
-                    src={prIcon}
+                    src={darkMode.value ? prLightIcon : prIcon}
                     alt="pull request icon"
                     className={styles.repoStatIcon}
                   />
@@ -495,7 +510,9 @@ const ProjectPage = props => {
                 </li>
                 <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
                   <img
-                    src={openIssueGreyIcon}
+                    src={
+                      darkMode.value ? openIssueLightIcon : openIssueGreyIcon
+                    }
                     alt="open issue icon"
                     className={styles.repoStatIcon}
                   />

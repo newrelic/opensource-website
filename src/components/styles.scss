@@ -429,4 +429,16 @@ select {
   a {
     border-color: rgba(#69b9bd, .4);
   } 
+
+  .button {
+    color: var(--color-background);
+  }
+  
+  .button-secondary {
+    color: var(--color-brand-400);
+  }
+  
+  .button-tertiary {
+    color: inherit;
+  }
 }

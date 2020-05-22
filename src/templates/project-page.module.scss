@@ -1,7 +1,7 @@
 .project-page-layout {
   header:after {
     transform: skewY(-4.5deg);
-    top: -60px;
+    top: -80px;
   }
 }
 
@@ -357,7 +357,7 @@ p.call-to-action-description {
 @media screen and (max-width: 724px) {
   .project-page-layout header:after {
     transform: skewY(-4.5deg);
-    top: -113px;
+    top: -133px;
   }
 
   .page-heading-CTA {
@@ -394,6 +394,12 @@ p.call-to-action-description {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .project-page-layout header:after {
+    top: -140px;
+  }    
+}
+
 @media screen and (max-width: 400px) {
   .primary-content-aside {
     .call-to-action-buttons-container {
@@ -424,5 +430,33 @@ p.call-to-action-description {
         background-image: url('../images/icon-external-link-light.svg');
       }
     }
+  }
+
+  .project-screenshots-container {
+    &:after {
+      background-image: linear-gradient(to left, var(--color-background), rgba(28, 42, 47, 0));
+    }
+  }
+
+  .call-to-action-buttons {
+    background-color: var(--color-neutrals-300);
+  }
+
+  .call-to-action-category-specification {
+    box-shadow: inset 0 0 0 3px var(--color-neutrals-300);
+  }
+
+  .project-screenshot-list-item {
+    opacity: .5;
+    transition: opacity .1s var(--ease-out-quad);
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .repo-stat-count {
+    color: var(--color-neutrals-900);
+    background-color: var(--color-neutrals-200);
   }
 }

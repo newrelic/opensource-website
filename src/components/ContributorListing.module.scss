@@ -122,3 +122,13 @@ h6.contributor-contributions {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
 }
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+
+:global(.dark-mode) {
+    .contributor-item {
+        box-shadow: 0 0 0 1px var(--color-neutrals-400), 0px 0.664142px 0.553451px rgba(0, 0, 0, 0.0281146), 0px 1.59602px 1.33002px rgba(0, 0, 0, 0.0403893), 0px 3.00517px 2.50431px rgba(0, 0, 0, 0.05), 0px 5.36071px 4.46726px rgba(0, 0, 0, 0.0596107), 0px 10.0266px 8.35552px rgba(0, 0, 0, 0.0718854), 0px 24px 20px rgba(0, 0, 0, 0.1);
+    }
+}
