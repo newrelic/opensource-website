@@ -10,12 +10,15 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/openshift-newrelic-operator",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/openshift-newrelic-operator",
-  "iconUrl": "https://github.com/newrelic/openshift-newrelic-operator/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "RedHat OpenShift Kubernetes Operater template",
   "description": "RedHat OpenShift Kubernetes Operater for New Relic",
   "ossCategory": "example-code",
   "primaryLanguage": "Dockerfile",
-  "projectTags": [ "tools", "template" ],
+  "projectTags": [
+    "tools",
+    "template"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "OpenShift Operator New Relic Template",

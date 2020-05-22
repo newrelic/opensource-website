@@ -10,12 +10,14 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/c-sdk-container-example",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/c-sdk-container-example",
-  "iconUrl": "https://github.com/newrelic/c-sdk-container-example/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "C-SDK container example",
   "description": "Simple application that demonstrates the new container friendly world of the C-SDK",
   "ossCategory": "example-code",
   "primaryLanguage": "C",
-  "projectTags": [ "sdk" ],
+  "projectTags": [
+    "sdk"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "c sdk-container-example",

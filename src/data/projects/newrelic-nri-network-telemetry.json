@@ -10,12 +10,14 @@
   "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-network-telemetry",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-network-telemetry",
-  "iconUrl": "https://github.com/newrelic/nri-network-telemetry/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Send Sflow or IPFIX data to New Relic",
   "description": "Collects data from network devices that export Sflow or IPFIX network samples",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nri" ],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Network Telemetry Integration",

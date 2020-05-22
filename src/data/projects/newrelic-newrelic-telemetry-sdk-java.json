@@ -10,12 +10,15 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-java",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-telemetry-sdk-java",
-  "iconUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-java/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "New Relic Telemetry SDK for Java",
   "description": "Java library for sending telemetry data to New Relic",
   "ossCategory": "community-project",
   "primaryLanguage": "Java",
-  "projectTags": [ "opentelemetry", "sdk" ],
+  "projectTags": [
+    "opentelemetry",
+    "sdk"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Telemetry SDK (Java)",

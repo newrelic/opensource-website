@@ -10,12 +10,15 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/node-native-metrics",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/node-native-metrics",
-  "iconUrl": "https://github.com/newrelic/node-native-metrics/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Native Metrics for the Node Agent",
   "description": "Optional native module for collecting low-level Node & V8 metrics",
   "ossCategory": "community-project",
   "primaryLanguage": "C++",
-  "projectTags": [ "agent", "exporter" ],
+  "projectTags": [
+    "agent",
+    "exporter"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Node Agent Native Metrics",
