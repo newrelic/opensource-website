@@ -10,16 +10,18 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/opentelemetry-exporter-go",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/opentelemetry-exporter-go",
-  "iconUrl": "https://github.com/newrelic/opentelemetry-exporter-go/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Go OpenTelemetry exporter",
   "description": "An OpenTelemetry exporter that sends data to New Relic",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "exporter", "opentelemetry" ],
+  "projectTags": [
+    "exporter",
+    "opentelemetry"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "opentelemetry exporter-go",
     "url": "https://github.com/newrelic/opentelemetry-exporter-go"
-  },
-  "version": "0.1.0"
+  }
 }

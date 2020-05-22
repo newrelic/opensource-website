@@ -3,13 +3,13 @@
   "issues": {
     "open": 3
   },
-  "releases": 7,
+  "releases": 8,
   "latestRelease": {
-    "name": "v0.5.0",
-    "date": "2020-04-01T20:58:52Z"
+    "name": "v0.6.0",
+    "date": "2020-05-19T19:32:42Z"
   },
-  "commits": 152,
-  "contributors": 10,
+  "commits": 161,
+  "lastSixMonthsCommitTotal": 37,
   "pullRequests": {
     "open": 0
   },
@@ -33,78 +33,7 @@
       "createdBy": "Lew Cirne"
     }
   ],
-  "cachedContributors": [
-    {
-      "id": 12318362,
-      "login": "lindsayculver",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/12318362?v=4",
-      "htmlUrl": "https://github.com/lindsayculver",
-      "contributions": 1
-    },
-    {
-      "id": 13562672,
-      "login": "jaesius",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/13562672?v=4",
-      "htmlUrl": "https://github.com/jaesius",
-      "contributions": 1
-    },
-    {
-      "id": 175638,
-      "login": "danielguillan",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/175638?v=4",
-      "htmlUrl": "https://github.com/danielguillan",
-      "contributions": 1
-    },
-    {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 2
-    },
-    {
-      "id": 55203603,
-      "login": "austin-schaefer",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/55203603?v=4",
-      "htmlUrl": "https://github.com/austin-schaefer",
-      "contributions": 2
-    },
-    {
-      "id": 6864939,
-      "login": "jrhinehart",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/6864939?v=4",
-      "htmlUrl": "https://github.com/jrhinehart",
-      "contributions": 4
-    },
-    {
-      "id": 812989,
-      "login": "danielgolden",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/812989?v=4",
-      "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 15
-    },
-    {
-      "id": 197140,
-      "login": "devfreddy",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
-      "htmlUrl": "https://github.com/devfreddy",
-      "contributions": 16
-    },
-    {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
-      "contributions": 23
-    },
-    {
-      "id": 30514,
-      "login": "cirne",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/30514?v=4",
-      "htmlUrl": "https://github.com/cirne",
-      "contributions": 63
-    }
-  ],
+  "cachedContributors": [],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
@@ -117,7 +46,10 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-datalyzer/master/catalog/screenshots/nr1-datalyzer-1.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-datalyzer/master/catalog/screenshots/nr1-datalyzer-2.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

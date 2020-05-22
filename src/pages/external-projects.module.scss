@@ -1,0 +1,120 @@
+.featured-projects {
+  display: flex;
+  margin: 70px 0 60px;
+  
+  &:before {
+    position: absolute;
+    left: 0;
+    content: "";
+    height: 400px;
+    background-color: var(--color-neutrals-100);
+    width: 100%;
+    transform: skewY(-2deg) translateY(-37px);
+    z-index:-1;
+  }
+}
+
+.more-projects {
+  max-width: 780px;
+  margin: 50px auto 10px;
+  text-align: center;
+}
+
+.more-projects-header-section {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--color-neutrals-200);
+}
+
+.more-projects-header-section-title {
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--color-neutrals-900);
+  font-family: var(--secondary-font-family);
+}
+
+.more-projects-more-link {
+  font-size: 14px;
+}
+
+.project-list-item {
+  display: flex;
+  width: 100%;
+  max-width: 780px;
+  margin-bottom: 14px;
+  padding: 16px;
+  text-align: left;
+  border: 1px solid var(--color-neutrals-300);
+  background: var(--color-background);
+  box-sizing: border-box;
+  box-shadow: 0px 0.249053px 0.553451px rgba(0, 0, 0, 0.00562291), 0px 0.598509px 1.33002px rgba(0, 0, 0, 0.00807786), 0px 1.12694px 2.50431px rgba(0, 0, 0, 0.01), 0px 2.01027px 4.46726px rgba(0, 0, 0, 0.0119221), 0px 3.75998px 8.35552px rgba(0, 0, 0, 0.0143771), 0px 9px 20px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+}
+
+.project-listing-item-image {
+  margin-right: 14px;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  background-color: var(--color-neutrals-300);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+h5.project-listing-item-name {
+  font-size: 18px;
+  margin-bottom: 5px;
+  line-height: 16px;
+}
+
+.project-listing-item-description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--color-neutrals-600);
+}
+
+.view-more-projects-button {
+  display: inline-block;
+  margin-top: 36px;
+}
+
+.featured-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 1200px) {
+  .featured-projects {
+    padding: 0 28px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .featured-projects {
+    display: flex;
+    flex-direction: column;
+
+    &:before {
+      height: 500px;
+    }
+  }  
+}
+
+@media screen and (max-width: 724px) {
+  .featured-projects {
+    margin: 40px 0 0;
+  }    
+}

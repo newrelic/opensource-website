@@ -10,16 +10,18 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/java-aws-lambda",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/java-aws-lambda",
-  "iconUrl": "https://github.com/newrelic/java-aws-lambda/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "",
   "description": "AWS Lambda OpenTracing Java SDK",
   "ossCategory": "community-project",
   "primaryLanguage": "Java",
-  "projectTags": [ "opentelemetry", "sdk" ],
+  "projectTags": [
+    "opentelemetry",
+    "sdk"
+  ],
   "acceptsContributions": false,
   "website": {
     "title": "AWS Lambda OpenTracing Java SDK",
     "url": "https://github.com/newrelic/java-aws-lambda"
-  },
-  "version": "0.1.0"
+  }
 }

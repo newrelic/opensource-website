@@ -1,38 +1,67 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { get } from 'lodash';
+import { navigate } from 'gatsby';
+
+import { get, mergeWith, invert } from 'lodash';
 import * as JsSearch from 'js-search';
 
+import styles from './ProjectSearch.module.scss';
+import { isEmptyObject } from '../utils';
+import withUrlParams from './withUrlParams';
 import ProjectSearchInput from './ProjectSearchInput';
 
 class ProjectSearch extends Component {
-  state = {
-    searchResults: [],
-    search: null,
-    removeStopWords: false,
-    searchQuery: '',
-    selectedStrategy: '',
-    selectedSanitizer: '',
-    indexFields: [],
-    filterValues: {
-      ossCategory: '',
-      projectTag: '',
-      languageType: ''
-    },
-    filterResults: []
-  };
+  constructor(props) {
+    super(props);
+
+    const paramMap = {
+      language: 'languageType',
+      category: 'ossCategory',
+      tag: 'projectTag',
+      search: 'search'
+    };
+
+    this.state = {
+      searchResults: [],
+      search: null,
+      searchQuery: '',
+      filterValues: {
+        ossCategory: '',
+        projectTag: '',
+        languageType: ''
+      },
+      filterResults: [],
+      urlParamToInputMap: paramMap,
+      inputToUrlParamMap: invert(paramMap),
+
+      // Search Engine settings
+      selectedStrategy: 'Prefix match',
+      selectedSanitizer: 'Lower Case',
+      indexFields: [
+        ['slug'],
+        ['fullName'],
+        ['name'],
+        ['description'],
+        ['ossCategory', 'title'],
+        ['website', 'title'],
+        ['projectTags', 'title'],
+        ['primaryLanguage']
+
+        // Nested array syntax doesn't work until this PR is merged:
+        // https://github.com/bvaughn/js-search/pull/78/files#diff-5d56a676b2913ba26d67295fe642d9b0R18
+        // ['stats', 'languages', '[]', 'name']
+      ],
+      removeStopWords: true
+    };
+  }
 
   /**
    * React lifecycle method that will inject the data into the state.
    */
   static getDerivedStateFromProps(nextProps, prevState) {
     if (prevState.search === null) {
-      const { engine, data } = nextProps;
+      const { data } = nextProps;
       return {
-        indexFields: engine.indexFields,
-        selectedSanitizer: engine.searchSanitizer,
-        selectedStrategy: engine.indexStrategy,
-        removeStopWords: engine.removeStopWords,
         searchResults: data,
         filterResults: data
       };
@@ -91,65 +120,73 @@ class ProjectSearch extends Component {
 
     dataToSearch.addDocuments(data); // adds the data to be searched
 
-    this.setState({ search: dataToSearch });
+    this.setState({ search: dataToSearch }, this.initializeFromUrlParams);
   };
 
-  /**
-   * handles the input change and perform a search with js-search
-   * in which the results will be added to the state
+  initializeFromUrlParams = () => {
+    const { urlParams } = this.props;
+    const isEmpty = isEmptyObject(urlParams);
+
+    if (isEmpty) {
+      return;
+    }
+
+    const filters = this.mergeFiltersWithUrlParams();
+
+    Object.entries(filters).forEach(([key, value]) => {
+      if (value) {
+        if (key === 'search') {
+          this.updateSearchQuery({ searchQuery: value });
+          return;
+        }
+        this.updateFilter({ field: key, value });
+      }
+    });
+  };
+
+  /*
+   * Map url params to the input names used for filtering and searching
+   * Merge in any user input that needs to override the initially provided url params
    */
-  searchData = e => {
+  mergeFiltersWithUrlParams = () => {
+    const { urlParams } = this.props;
+    const { filterValues, urlParamToInputMap } = this.state;
+
+    const mappedParams = Object.entries(urlParams).reduce(
+      (previousValue, [key, value]) => {
+        const filterInputName = urlParamToInputMap[key];
+        if (filterInputName) {
+          previousValue[filterInputName] = value;
+        }
+
+        return previousValue;
+      },
+      {}
+    );
+
+    return mergeWith({ ...mappedParams }, filterValues, function(
+      value,
+      srcValue
+    ) {
+      if (value === '') {
+        return srcValue;
+      }
+      return value;
+    });
+  };
+
+  updateSearchQuery = ({ searchQuery = false }) => {
     const { data } = this.props;
     const { search } = this.state;
 
-    const searchQuery = e.target.value;
-    const queryResult = search.search(searchQuery);
-    const hasFilter = this.hasFilter();
-
-    if (searchQuery === '' && !hasFilter) {
-      this.setState({ searchQuery, searchResults: data, filterResults: data });
-    }
-
-    if (searchQuery === '' && hasFilter) {
-      this.setState({ searchQuery, searchResults: data }, this.filterData);
-    }
-
-    if (searchQuery && hasFilter) {
-      this.setState(
-        {
-          searchQuery,
-          searchResults: queryResult
-        },
-        this.filterData
-      );
-    }
-
-    if (searchQuery && !hasFilter) {
-      this.setState({
-        searchQuery,
-        searchResults: queryResult,
-        filterResults: queryResult
-      });
-    }
+    const searchResults =
+      searchQuery === '' ? data : search.search(searchQuery);
+    this.setState({ searchQuery, searchResults }, this.filterData);
   };
 
   hasFilter = () => {
     const { filterValues } = this.state;
-    const isEmpty = !Object.values(filterValues).some(
-      x => x !== null && x !== ''
-    );
-    return !isEmpty;
-  };
-
-  onFilterChange = ({ field, value }) => {
-    const { searchQuery } = this.state;
-
-    if (searchQuery) {
-      this.filterSearchQueryResults({ field, value });
-      return;
-    }
-
-    this.updateFilter({ field, value });
+    return !isEmptyObject(filterValues);
   };
 
   filterData = () => {
@@ -158,6 +195,8 @@ class ProjectSearch extends Component {
       // eslint-disable-next-line no-unused-vars
       ([field, value]) => value !== ''
     );
+
+    this.updateUrlParams();
 
     const applyFilters = i => {
       return filters.reduce((p, [field, value]) => {
@@ -193,23 +232,56 @@ class ProjectSearch extends Component {
     this.setState({ filterResults: results });
   };
 
-  updateFilter({ field, value }) {
-    this.setState(
-      prevState => ({
-        filterValues: {
-          ...prevState.filterValues,
-          [field]: value
-        }
-      }),
-      this.filterData
-    );
-  }
+  updateFilter = filter => {
+    this.updateFilters([filter]);
+  };
 
-  filterSearchQueryResults = ({ field, value }) => {
-    this.updateFilter({
-      field,
-      value
-    });
+  updateFilters = filters => {
+    if (!Array.isArray(filters)) {
+      return;
+    }
+
+    const filtersObject = filters.reduce((previousValue, { field, value }) => {
+      previousValue[field] = value;
+      return previousValue;
+    }, {});
+
+    this.setState(prevState => {
+      const newFilterValues = {
+        ...prevState.filterValues,
+        ...filtersObject
+      };
+
+      return {
+        filterValues: newFilterValues
+      };
+    }, this.filterData);
+  };
+
+  updateUrlParams = () => {
+    const { location } = this.props;
+    const { filterValues, searchQuery, inputToUrlParamMap } = this.state;
+
+    const allFilters = {
+      ...filterValues,
+      search: searchQuery !== '' ? searchQuery : ''
+    };
+
+    const urlParams = Object.entries(allFilters).reduce(
+      (previousValue, [key, value]) => {
+        if (value) {
+          const prefix = previousValue !== '?' ? '&' : '';
+          previousValue += `${prefix}${
+            inputToUrlParamMap[key]
+          }=${encodeURIComponent(value)}`;
+        }
+        return previousValue;
+      },
+      '?'
+    );
+
+    const url = location.pathname + urlParams;
+    navigate(url, { replace: true });
   };
 
   handleSubmit = e => {
@@ -220,20 +292,18 @@ class ProjectSearch extends Component {
     const { searchQuery, filterValues, filterResults } = this.state;
     const { filterOptions, children } = this.props;
     return (
-      <div>
-        <div style={{ margin: '0 auto' }}>
-          <form onSubmit={this.handleSubmit}>
-            <ProjectSearchInput
-              searchQueryValue={searchQuery}
-              onSearchQueryChange={this.searchData}
-              filterOptions={filterOptions}
-              filterValues={filterValues}
-              onFilterChange={this.onFilterChange}
-            />
-          </form>
-          <div>
-            {children({ projects: filterResults, searchQuery, filterValues })}
-          </div>
+      <div className={styles.searchContainer}>
+        <form onSubmit={this.handleSubmit} className={styles.searchFrom}>
+          <ProjectSearchInput
+            searchQueryValue={searchQuery}
+            onSearchQueryChange={this.updateSearchQuery}
+            filterOptions={filterOptions}
+            filterValues={filterValues}
+            onFilterChange={this.updateFilter}
+          />
+        </form>
+        <div className={styles.searchChildrenContainer}>
+          {children({ projects: filterResults, searchQuery, filterValues })}
         </div>
       </div>
     );
@@ -241,10 +311,11 @@ class ProjectSearch extends Component {
 }
 
 ProjectSearch.propTypes = {
+  location: PropTypes.object,
   children: PropTypes.func,
   data: PropTypes.array,
-  engine: PropTypes.object,
-  filterOptions: PropTypes.object
+  filterOptions: PropTypes.object,
+  urlParams: PropTypes.object
 };
 
-export default ProjectSearch;
+export default withUrlParams(ProjectSearch);

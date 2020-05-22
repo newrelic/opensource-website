@@ -10,16 +10,18 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-node",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-telemetry-sdk-node",
-  "iconUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-node/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "New Relic Telemetry SDK for JavaScript",
   "description": "JavaScript library for sending telemetry data to New Relic",
   "ossCategory": "community-project",
   "primaryLanguage": "TypeScript",
-  "projectTags": [ "opentelemetry", "sdk" ],
+  "projectTags": [
+    "opentelemetry",
+    "sdk"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Telemetry SDK (Node)",
     "url": "https://github.com/newrelic/newrelic-telemetry-sdk-node"
-  },
-  "version": "0.1.0"
+  }
 }

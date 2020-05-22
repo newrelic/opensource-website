@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/elixir_agent",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/elixir_agent",
-  "iconUrl": "https://github.com/newrelic/elixir_agent/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "New Relic's Elixir Agent",
   "description": "New Relic's Elixir Agent",
   "ossCategory": "community-project",
   "primaryLanguage": "Elixir",
-  "projectTags": [ "agent" ],
+  "projectTags": [
+    "agent"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "Elixir Agent",
     "url": "https://github.com/newrelic/elixir_agent"
-  },
-  "version": "0.1.0"
+  }
 }

@@ -1,19 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import DarkModeToggle from './DarkModeToggle';
 
 import styles from './GlobalHeader.module.scss';
 
-const GlobalHeader = ({ hasHeaderBg }) => {
+const GlobalHeader = ({ hasHeaderBg, className }) => {
   return (
     <div
       className={`${styles.globalHeaderContainer} ${
         hasHeaderBg ? styles.hasHeaderBg : ''
-      }`}
+      } ${className || className}`}
     >
       <div className={styles.globalHeaderContent}>
         <div className={styles.leftSideLinksContainer}>
           <a
-            href="https://one.newrelic.com/"
+            href="https://newrelic.com/"
             className={styles.logo}
             rel="noopener noreferrer"
           >
@@ -46,8 +47,8 @@ const GlobalHeader = ({ hasHeaderBg }) => {
         </div>
 
         <ul className={styles.rightSideButtons}>
-          <li className={`${styles.rightSideButton} ${styles.searchButton}`}>
-            Search
+          <li className={styles.darkModeToggle}>
+            <DarkModeToggle />
           </li>
           <li className={`${styles.rightSideButton} ${styles.githubButton}`}>
             <a
@@ -57,9 +58,6 @@ const GlobalHeader = ({ hasHeaderBg }) => {
               GitHub
             </a>
           </li>
-          <li className={`${styles.rightSideButton} ${styles.loginButton}`}>
-            Login
-          </li>
         </ul>
       </div>
     </div>
@@ -67,7 +65,8 @@ const GlobalHeader = ({ hasHeaderBg }) => {
 };
 
 GlobalHeader.propTypes = {
-  hasHeaderBg: PropTypes.bool
+  hasHeaderBg: PropTypes.bool,
+  className: PropTypes.string
 };
 
 export default GlobalHeader;

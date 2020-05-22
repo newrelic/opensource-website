@@ -10,16 +10,18 @@
   "supportUrl": "https://discuss.newrelic.com/t/layout-nerdpacks/88605",
   "githubUrl": "https://github.com/newrelic/nr1-nerdpack-layout-t-bone",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-nerdpack-layout-t-bone",
-  "iconUrl": "https://github.com/newrelic/nr1-nerdpack-layout-t-bone/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "",
   "description": "A boilerplate for the \"t-bone\" nerdpack design layout ",
   "ossCategory": "community-project",
   "primaryLanguage": "CSS",
-  "projectTags": [ "ux", "template" ],
+  "projectTags": [
+    "ux",
+    "template"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic One Nerdpack Layout T-bone",
     "url": "https://github.com/newrelic/nr1-nerdpack-layout-t-bone"
-  },
-  "version": "0.1.0"
+  }
 }

@@ -1,28 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
+import { Helmet } from 'react-helmet';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
-import HomePageRecentArticles from '../components/HomePageRecentArticles';
 import styles from './home-page.module.scss';
 
-import OpenTelemetryIcon from '../images/open-telemetry-icon.jpg';
-import freeCodeCampIcon from '../images/free-code-camp-icon.jpg';
-import tensorFlowIcon from '../images/tensor-flow-icon.jpg';
-import genericProjectIcon from '../images/page-heading-icon-placeholder.jpg';
-import articlePlaceholderImage1 from '../images/article-placeholder-image-1.jpg';
-import articlePlaceholderImage2 from '../images/article-placeholder-image-2.jpg';
-import articlePlaceholderImage3 from '../images/article-placeholder-image-3.jpg';
+import videoPlaceholder from '../images/video-placeholder.jpg';
+import playButton from '../images/button-play.svg';
+import closeIcon from '../images/icon-close.svg';
 
 export const query = graphql`
-  query HomePageQuery {
+  query HomePageQuery($path: String) {
     topProjects: allProjects(
-      sort: { fields: stats___commits, order: DESC }
-      limit: 8
+      filter: { projectType: { eq: "newrelic" } } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC } # limit: 8
     ) {
       edges {
         node {
@@ -30,109 +25,180 @@ export const query = graphql`
         }
       }
     }
+    openTelemetry: allProjects(
+      filter: {
+        slug: { eq: "open-telemetry" }
+        projectType: { eq: "external" }
+      }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
+    w3cTraceContext: allProjects(
+      filter: {
+        slug: { eq: "w3c-trace-context" }
+        projectType: { eq: "external" }
+      }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
+    adoptOpenJdk: allProjects(
+      filter: {
+        slug: { eq: "adopt-open-jdk" }
+        projectType: { eq: "external" }
+      }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
+    sitePage: allSitePage(filter: { path: { eq: $path } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
+      }
+    }
   }
 `;
 
 const IndexPage = ({ data }) => {
+  const [heroVideoActive, setHeroVideoActive] = useState(false);
+
   const externalProjects = [
-    {
-      title: 'Open Telemetry',
-      description:
-        'New Relic has invested 30 billion hours into the development of Open Telemetry to help provide robust portable telemetry to all.',
-      icon: OpenTelemetryIcon,
-      githubUrl: 'https://github.com/open-telemetry',
-      website: 'https://opentelemetry.io/'
-    },
-    {
-      title: 'freeCodeCamp',
-      description:
-        'New Relic has invested 1,137,000 hours of engineering into freeCodeCamp to help provide educate the next generation engineers.',
-      icon: freeCodeCampIcon,
-      githubUrl: 'https://github.com/freeCodeCamp/freeCodeCamp',
-      website: 'https://www.freecodecamp.org/'
-    },
-    {
-      title: 'TensorFlow',
-      description:
-        'We <3 TensorFlow and plan to continue to invest at least 10,000 weekly into the maintenance of the platform to help train ml mipsums.',
-      icon: tensorFlowIcon,
-      githubUrl: 'https://github.com/tensorflow',
-      website: 'https://www.tensorflow.org/'
-    }
-  ];
+    get(data, 'openTelemetry.nodes[0]'),
+    get(data, 'w3cTraceContext.nodes[0]'),
+    get(data, 'adoptOpenJdk.nodes[0]')
+  ].filter(i => i !== undefined);
 
-  const internalProjects = get(data, 'topProjects.edges').map(i => i.node);
-  internalProjects.forEach((p, index) => {
-    internalProjects[index].iconUrl = genericProjectIcon;
-    internalProjects[index].shortDescription =
-      'Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.';
-  });
+  // temp workaround until the query above is fixed to pull back the correct top 8
+  const internalProjects = get(data, 'topProjects.edges', [])
+    .map(i => i.node)
+    .sort((a, b) => {
+      if (a.stats === null && b.stats === null) {
+        return 0;
+      } else if (a.stats === null) {
+        return 1;
+      } else if (b.stats === null) {
+        return -1;
+      }
 
-  const recentArticles = [
-    {
-      featuredImage: articlePlaceholderImage1,
-      title: 'Why we invest in open source',
-      snippet:
-        'Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.'
-    },
-    {
-      featuredImage: articlePlaceholderImage2,
-      title: 'Open source in a pandemic',
-      snippet:
-        'Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.'
-    },
-    {
-      featuredImage: articlePlaceholderImage3,
-      title: 'Shipping around the globe',
-      snippet:
-        'Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.'
-    }
-  ];
+      return a.stats.lastSixMonthsCommitTotal < b.stats.lastSixMonthsCommitTotal
+        ? 1
+        : -1;
+    })
+    .slice(0, 8);
+
+  const renderHeroVideo = () => {
+    return (
+      <>
+        <div className={styles.responsiveVideoContainer}>
+          <div className={`responsive-video ${styles.responsiveVideo}`}>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/7wnav6Fu9T0"
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+        <div
+          className={`${styles.homepageHeroVideo}`}
+          style={{ backgroundImage: `url(${videoPlaceholder})` }}
+          onClick={() => {
+            setHeroVideoActive(true);
+          }}
+        >
+          <img
+            src={closeIcon}
+            alt="close icon"
+            className={styles.modalCloseButton}
+            onClick={() => {
+              setHeroVideoActive(false);
+            }}
+          />
+
+          <img src={playButton} className={styles.playButton} />
+          <div className={styles.iframeContainer}>
+            <iframe
+              className={styles.heroVideoIframe}
+              width="1000"
+              height="562.704471"
+              src={`https://www.youtube-nocookie.com/embed/7wnav6Fu9T0?showinfo=0&modestbranding=1&rel=0&controls=0${
+                heroVideoActive ? `&autoplay=1` : ''
+              }`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
+            />
+          </div>
+        </div>
+      </>
+    );
+  };
 
   return (
-    <Layout fullWidth>
+    <Layout
+      fullWidth
+      editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
+    >
+      <Helmet>
+        <html className={heroVideoActive && styles.heroVideoActive} />
+      </Helmet>
+
       <SEO title="Home" />
       <div className={styles.heroContainer}>
-        <h2 className={styles.homepageHeroHeading}>
-          We believe in an open web toward the development of better tools in
-          software for creating a more perfect web.
-        </h2>
-        <div className={styles.homepageHeroBody}>
+        <div className={styles.homepageHeroCopy}>
+          <h2 className={styles.homepageHeroHeading}>
+            The future of observability is open.
+          </h2>
           <p className={styles.homepageHeroBodyCopy}>
-            This is the place where you track with <a href="#">New Relic</a>’s
-            open source presence. Praesent commodo cursus magna, vel scelerisque
-            nisl <a href="#">consectetur</a> et. Fusce dapibus curus.
-          </p>
-          <p className={styles.homepageHeroBodyCopy}>
-            Donec id elit non mi porta gravida at eget metus. Morbi leo risus,
-            porta ac consectetur ac,
-            <a href="#">vestibulum</a> at eros. Fusce dapibus, tellus ac cursus
-            commodo, tortor.
+            New Relic ❤️'s open source. We{' '}
+            <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
+            this site to make it easy for <em>you</em> to{' '}
+            <a href="/explore-projects">explore the projects</a> we're
+            maintaining as well as our involvement in{' '}
+            <a href="/external-projects">open standards</a>. Learn&nbsp;
+            <a
+              href="#"
+              onClick={() => {
+                alert('New Relic Blog post announcing this site'); // eslint-disable-line no-alert
+              }}
+            >
+              more
+            </a>
+            .
           </p>
         </div>
+        {renderHeroVideo()}
       </div>
+      <div
+        className={styles.videoModalOverlay}
+        onClick={() => {
+          setHeroVideoActive(false);
+        }}
+      />
 
       <HomePageHighlights data={externalProjects} />
 
       <div className={styles.featuredInternalProjectsContainer}>
-        <h3 className={styles.featuredInternalProjectsSectionTitle}>
-          Explore projects
-        </h3>
-        <p className={styles.featuredInternalProjectsSectionDescription}>
-          Check out some of the products that we’re developing in open source or{' '}
-          <Link to="/explore-projects">view all projects</Link>
-        </p>
+        <div className={styles.featuredInternalProjectsSection}>
+          <h3 className={styles.featuredInternalProjectsSectionTitle}>
+            Explore projects
+          </h3>
+          <p className={styles.featuredInternalProjectsSectionDescription}>
+            Check out some of the products that we’re developing in open source
+            or <Link to="/explore-projects">view all projects</Link>.
+          </p>
+        </div>
 
         <HomePageInternalProjects data={internalProjects} />
-      </div>
-
-      <div className={styles.recentArticlesContainer}>
-        <h3 className={styles.recentArticlesSectionTitle}>Recent articles</h3>
-        <p className={styles.recentArticlesSectionDescription}>
-          Aenean eu leo quam. Pellentesque ornare sem lacinia quam or{' '}
-          <Link to="/blog">view more articles</Link>
-        </p>
-        <HomePageRecentArticles articles={recentArticles} />
       </div>
     </Layout>
   );

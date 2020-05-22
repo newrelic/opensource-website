@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/go-agent",
   "issues": {
-    "open": 8
+    "open": 13
   },
   "releases": 90,
   "latestRelease": {
@@ -9,9 +9,10 @@
     "date": "2020-03-23T19:37:05Z"
   },
   "commits": 1836,
-  "contributors": 24,
+  "lastSixMonthsCommitTotal": 532,
+  "contributors": 23,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -150,18 +151,18 @@
       "contributions": 12
     },
     {
+      "id": 229984,
+      "login": "LawnGnome",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/229984?v=4",
+      "htmlUrl": "https://github.com/LawnGnome",
+      "contributions": 15
+    },
+    {
       "id": 32520944,
       "login": "astormnewrelic",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/32520944?v=4",
       "htmlUrl": "https://github.com/astormnewrelic",
       "contributions": 17
-    },
-    {
-      "id": 229984,
-      "login": "LawnGnome",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/229984?v=4",
-      "htmlUrl": "https://github.com/LawnGnome",
-      "contributions": 22
     },
     {
       "id": 52758187,
@@ -176,13 +177,6 @@
       "avatarUrl": "https://avatars3.githubusercontent.com/u/1383216?v=4",
       "htmlUrl": "https://github.com/purple4reina",
       "contributions": 412
-    },
-    {
-      "id": 20211355,
-      "login": "willnewrelic",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/20211355?v=4",
-      "htmlUrl": "https://github.com/willnewrelic",
-      "contributions": 718
     }
   ],
   "languages": [

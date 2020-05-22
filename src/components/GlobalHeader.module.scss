@@ -1,10 +1,13 @@
 .global-header-container {
-  background-color: var(--color-neutrals-100);
-  
-  &.has-header-bg {
-    background-color: transparent;
-    border-bottom: 1px dotted rgba(0,0,0, .05);
-  }
+  position: relative;
+  z-index: 10000;
+  background-color: var(--color-neutrals-100); 
+}
+
+.has-header-bg {
+  background-color: transparent;
+  border-bottom: 1px dotted rgba(0,0,0, .05);
+  margin-bottom: -1px;
 }
 
 .global-header-content {
@@ -125,6 +128,22 @@
   background-image: url('../images/icon-user.svg');
 }
 
+.dark-mode-toggle {
+  margin-right: 4px;
+  position: relative;
+  top: 3px;
+  opacity: .45;
+
+  &:hover {
+    cursor: pointer;
+    opacity: .75;
+  }
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
 @media screen and (max-width: 1240px) {
   .global-header-container {
     padding: 0 28px;
@@ -135,4 +154,54 @@
   .global-header-container {
     display: none;
   }    
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+
+:global(.dark-mode) {
+  .has-header-bg {
+    background-color: transparent;
+    border-bottom: 1px dotted var(--color-neutrals-300);
+    margin-bottom: -1px;
+  }
+
+  .logo {
+    background-image: url('../images/new-relic-logo-light.svg');
+  }
+
+  .right-side-button {
+    opacity: .75;
+  
+    &:hover {
+      opacity: 1;
+    }
+  
+    &:last-child {
+      padding-right: 0;
+      background-position: right;
+    }
+  }
+
+  .search-button {
+    background-image: url('../images/icon-search-small-light.svg');
+  }
+  
+  .github-button-link {
+    background-image: url('../images/icon-github-light.svg');
+  }
+
+  .login-button {
+    background-image: url('../images/icon-user-light.svg');
+  }
+
+  .left-side-link {
+
+    .active &,
+    .left-side-links:hover .active &:hover {
+      background-color: var(--color-neutrals-300);
+      color: var(--color-neutrals-700);
+    }
+  }
 }

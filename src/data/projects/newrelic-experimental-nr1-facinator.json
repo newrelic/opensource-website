@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic-experimental/nr1-facinator",
   "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/nr1-facinator",
-  "iconUrl": "https://github.com/newrelic-experimental/nr1-facinator/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Explore Facets in New Relic queries",
   "description": "A utility application that lets you easily explore the facets of the data from an NRQL query.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app" ],
+  "projectTags": [
+    "nr1-app"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "The Facinator",
     "url": "https://github.com/newrelic-experimental/nr1-facinator"
-  },
-  "version": "0.1.0"
+  }
 }

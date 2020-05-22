@@ -1,0 +1,22 @@
+.search-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-form {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.search-children-container {
+  height: 100%;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .search-container {
+    box-sizing: border-box;
+    padding: 0 28px;
+  }        
+}

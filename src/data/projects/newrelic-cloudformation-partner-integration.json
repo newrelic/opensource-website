@@ -10,15 +10,16 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/cloudformation-partner-integration",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/cloudformation-partner-integration",
-  "iconUrl": "https://github.com/newrelic/cloudformation-partner-integration/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "",
   "description": "Integration with AWS Cloudformation",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Java",
-  "projectTags": [ ],
+  "projectTags": [
+    "dev-toolkit"
+  ],
   "website": {
-    "title": "Cloudformation Partner Integration",
-    "url": "https://github.com/newrelic/cloudformation-partner-integration"
-  },
-  "version": "0.1.0"
+    "title": "New Relic Developer Toolkit",
+    "url": "https://newrelic.github.io/developer-toolkit/"
+  }
 }

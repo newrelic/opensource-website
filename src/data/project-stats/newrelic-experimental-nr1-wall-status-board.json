@@ -4,10 +4,12 @@
     "open": 0
   },
   "releases": 0,
-  "commits": 15,
+  "latestRelease": null,
+  "commits": 17,
+  "lastSixMonthsCommitTotal": 17,
   "contributors": 2,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -24,7 +26,7 @@
       "login": "jsbnr",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/55132258?v=4",
       "htmlUrl": "https://github.com/jsbnr",
-      "contributions": 14
+      "contributions": 15
     }
   ],
   "languages": [
@@ -39,5 +41,13 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-docker",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-docker",
-  "iconUrl": "https://github.com/newrelic/nri-docker/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Docker Integration for New Relic Infrastructure",
   "description": "Reports status and metrics of Docker containers running into a Host",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Go",
-  "projectTags": [ "nri" ],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Docker Integration",
     "url": "https://github.com/newrelic/nri-docker"
-  },
-  "version": "0.1.0"
+  }
 }

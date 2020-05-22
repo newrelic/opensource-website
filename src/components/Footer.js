@@ -1,10 +1,16 @@
-import { Link } from 'gatsby';
 import React from 'react';
+import PropTypes from 'prop-types';
+
+import { Link } from 'gatsby';
+import { Location, Match } from '@reach/router';
+
 import navLinks from '../data/navigation.json';
-
 import styles from './Footer.module.scss';
+import editIcon from '../images/icon-edit.svg';
 
-const Footer = () => {
+import packageJson from '../../package.json';
+
+const Footer = ({ editLink = false }) => {
   const renderNavLinks = () => {
     const sortedNavLinks = navLinks.navigation.sort((a, b) =>
       a.order > b.order ? 1 : -1
@@ -22,23 +28,76 @@ const Footer = () => {
   };
 
   return (
-    <footer className={styles.footerContainer}>
-      <div className={styles.footerContents}>
-        <div className={styles.footerLogoContainer}>
-          <Link to="/" className={styles.footerLogo}>
-            New Relic Open Source
-          </Link>
-          <div className={styles.meta}>
-            <small className={styles.footerLegal}>
-              Copyright &copy; {new Date().getFullYear()} New Relic Inc.
-            </small>
-            <small className={styles.version}>Version 0.2.4</small>
-          </div>
-        </div>
-        <ul className={styles.footerNavLinks}>{renderNavLinks()}</ul>
-      </div>
-    </footer>
+    <Location>
+      {({ location }) => {
+        return (
+          <Match path={location.pathname}>
+            {// eslint-disable-next-line no-unused-vars
+            ({ location, match }) => {
+              // TO DO - Remove <Match>? It seemingly adds no additional context outside of what <Location> gives us
+              return (
+                <footer className={styles.footerContainer}>
+                  <div className={styles.footerContents}>
+                    <div className={styles.footerLogoContainer}>
+                      <Link
+                        to="/"
+                        className={`${styles.footerLogo} ${
+                          editLink ? styles.hasEditButton : ''
+                        }`}
+                      >
+                        New Relic Open Source
+                      </Link>
+                      {editLink && (
+                        <a
+                          href={editLink}
+                          rel="noopener noreferrer"
+                          className={styles.editButton}
+                          target="__blank"
+                        >
+                          <img
+                            src={editIcon}
+                            alt="pencil icon"
+                            className={styles.editButtonIcon}
+                          />
+                          Edit this page
+                        </a>
+                      )}
+                    </div>
+                    <div className={styles.meta}>
+                      <small className={styles.version}>
+                        Version {packageJson.version}
+                      </small>
+                      <small className={styles.footerLegal}>
+                        Copyright &copy; {new Date().getFullYear()} New Relic
+                        Inc.
+                      </small>
+                    </div>
+                    <ul className={styles.footerNavLinks}>
+                      <>
+                        <li className={styles.footerNavLinkItem} key="0">
+                          <Link
+                            to="/standards"
+                            className={styles.footerNavLink}
+                          >
+                            Standards
+                          </Link>
+                        </li>
+                        {renderNavLinks()}
+                      </>
+                    </ul>
+                  </div>
+                </footer>
+              );
+            }}
+          </Match>
+        );
+      }}
+    </Location>
   );
+};
+
+Footer.propTypes = {
+  editLink: PropTypes.string
 };
 
 export default Footer;

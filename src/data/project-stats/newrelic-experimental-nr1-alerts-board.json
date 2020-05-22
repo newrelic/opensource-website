@@ -4,7 +4,9 @@
     "open": 0
   },
   "releases": 0,
+  "latestRelease": null,
   "commits": 21,
+  "lastSixMonthsCommitTotal": 21,
   "contributors": 2,
   "pullRequests": {
     "open": 1
@@ -42,5 +44,13 @@
   "screenshots": [
     "https://raw.githubusercontent.com/newrelic-experimental/nr1-alerts-board/master/screenshots/1.png",
     "https://raw.githubusercontent.com/newrelic-experimental/nr1-alerts-board/master/screenshots/2.png"
-  ]
+  ],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

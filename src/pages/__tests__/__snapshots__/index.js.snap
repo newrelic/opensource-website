@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage renders correctly 1`] = `
+<div
+  className="layout-container undefined"
+>
+  <div
+    className="globalHeaderContainer  "
+  >
+    <div
+      className="globalHeaderContent"
+    >
+      <div
+        className="leftSideLinksContainer"
+      >
+        <a
+          className="logo"
+          href="https://newrelic.com/"
+          rel="noopener noreferrer"
+        >
+          New Relic
+        </a>
+        <ul
+          className="leftSideLinks"
+        >
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://developer.newrelic.com/"
+            >
+              Developers
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem active"
+          >
+            <a
+              className="leftSideLink"
+              href="#"
+            >
+              Open Source
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://docs.newrelic.com/"
+            >
+              Docs
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul
+        className="rightSideButtons"
+      >
+        <li
+          className="rightSideButton githubButton"
+        >
+          <a
+            className="githubButtonLink"
+            href="https://github.com/newrelic/opensource-website"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <header
+    className="primaryHeaderContainer "
+  >
+    <a
+      className="primaryHeaderLogo"
+      href="/"
+    >
+      New Relic Open Source
+    </a>
+    <ul
+      className="primaryHeaderNavLinks"
+    >
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/external-projects"
+        >
+          External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/explore-projects"
+        >
+          New Relic Projects
+        </a>
+      </li>
+    </ul>
+    <div
+      className="primaryHeaderMobileNav "
+    >
+      <button
+        className="mobileMenuButton"
+        onClick={[Function]}
+      >
+        Menu
+      </button>
+      <ul
+        className="primaryHeaderMobileNavLinks"
+      >
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main
+    className="layout-container-main full-width undefined"
+  >
+    <div
+      className="heroContainer"
+    >
+      <div
+        className="homepageHeroCopy"
+      >
+        <h2
+          className="homepageHeroHeading"
+        >
+          The future of observability is open.
+        </h2>
+        <p
+          className="homepageHeroBodyCopy"
+        >
+          New Relic ❤️'s open source. We
+           
+          <a
+            href="https://github.com/newrelic/opensource-website"
+          >
+            built
+          </a>
+           
+          this site to make it easy for 
+          <em>
+            you
+          </em>
+           to
+           
+          <a
+            href="/explore-projects"
+          >
+            explore the projects
+          </a>
+           we're maintaining as well as our involvement in
+           
+          <a
+            href="/external-projects"
+          >
+            open standards
+          </a>
+          . Learn 
+          <a
+            href="#"
+            onClick={[Function]}
+          >
+            more
+          </a>
+          .
+        </p>
+      </div>
+      <div
+        className="responsiveVideoContainer"
+      >
+        <div
+          className="responsive-video responsiveVideo"
+        >
+          <iframe
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen={true}
+            frameBorder="0"
+            height="315"
+            src="https://www.youtube.com/embed/7wnav6Fu9T0"
+            width="560"
+          />
+        </div>
+      </div>
+      <div
+        className="homepageHeroVideo"
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundImage": "url(test-file-stub)",
+          }
+        }
+      >
+        <img
+          alt="close icon"
+          className="modalCloseButton"
+          onClick={[Function]}
+          src="test-file-stub"
+        />
+        <img
+          className="playButton"
+          src="test-file-stub"
+        />
+        <div
+          className="iframeContainer"
+        >
+          <iframe
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
+            className="heroVideoIframe"
+            frameBorder="0"
+            height="562.704471"
+            src="https://www.youtube-nocookie.com/embed/7wnav6Fu9T0?showinfo=0&modestbranding=1&rel=0&controls=0"
+            width="1000"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="videoModalOverlay"
+      onClick={[Function]}
+    />
+    <div
+      className="featuredExternalProjects"
+    >
+      <h4
+        className="featuredExternalProjectsTitle"
+      >
+        Projects that we support
+      </h4>
+      <p
+        className="featuredExternalProjectsDescription"
+      >
+        New Relic contributes resources to the development of these projects.
+         
+        <a
+          href="/external-projects"
+        >
+          View all
+        </a>
+        .
+      </p>
+      <div
+        className="externalProjectsList"
+      />
+    </div>
+    <div
+      className="featuredInternalProjectsContainer"
+    >
+      <div
+        className="featuredInternalProjectsSection"
+      >
+        <h3
+          className="featuredInternalProjectsSectionTitle"
+        >
+          Explore projects
+        </h3>
+        <p
+          className="featuredInternalProjectsSectionDescription"
+        >
+          Check out some of the products that we’re developing in open source or 
+          <a
+            href="/explore-projects"
+          >
+            view all projects
+          </a>
+          .
+        </p>
+      </div>
+      <div
+        className="featuredInternalProjects"
+      />
+    </div>
+  </main>
+  <footer
+    className="footerContainer"
+  >
+    <div
+      className="footerContents"
+    >
+      <div
+        className="footerLogoContainer"
+      >
+        <a
+          className="footerLogo "
+          href="/"
+        >
+          New Relic Open Source
+        </a>
+      </div>
+      <div
+        className="meta"
+      >
+        <small
+          className="version"
+        >
+          Version 
+          0.5.0
+        </small>
+        <small
+          className="footerLegal"
+        >
+          Copyright © 
+          2020
+           New Relic Inc.
+        </small>
+      </div>
+      <ul
+        className="footerNavLinks"
+      >
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/standards"
+          >
+            Standards
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;

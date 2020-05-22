@@ -10,16 +10,15 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/dropwizard-metrics-newrelic",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/dropwizard-metrics-newrelic",
-  "iconUrl": "https://github.com/newrelic/dropwizard-metrics-newrelic/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "",
   "description": "Implementation of a DropWizard metrics Reporter that sends data as dimensional metrics to New Relic",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Java",
-  "projectTags": [ ],
+  "projectTags": [],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Dropwizard reporter",
     "url": "https://github.com/newrelic/dropwizard-metrics-newrelic"
-  },
-  "version": "0.1.0"
+  }
 }

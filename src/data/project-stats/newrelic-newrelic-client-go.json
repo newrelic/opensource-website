@@ -1,37 +1,20 @@
 {
   "projectFullName": "newrelic/newrelic-client-go",
   "issues": {
-    "open": 4
+    "open": 5
   },
-  "releases": 28,
+  "releases": 34,
   "latestRelease": {
-    "name": "v0.22.0",
-    "date": "2020-04-23T22:40:29Z"
+    "name": "v0.24.0",
+    "date": "2020-05-15T21:16:51Z"
   },
-  "commits": 604,
+  "commits": 664,
+  "lastSixMonthsCommitTotal": 664,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MDg1NTE4NjM=",
-      "title": "alerts_events",
-      "url": "https://github.com/newrelic/newrelic-client-go/issues/276",
-      "createdAt": "2020-04-28T19:16:45Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "jhunthrop",
-        "id": "MDQ6VXNlcjM1OTY2NTU=",
-        "email": "",
-        "name": "Justin Hunthrop"
-      },
-      "number": 276,
-      "createdBy": "Justin Hunthrop"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [],
   "languages": [
     {

@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-nagios",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-nagios",
-  "iconUrl": "https://github.com/newrelic/nri-nagios/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Monitoring data from Nagios",
   "description": "Capture critical performance metrics and inventory reported by Nagios",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Go",
-  "projectTags": [ "nri" ],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Nagios Integration",
     "url": "https://github.com/newrelic/nri-nagios"
-  },
-  "version": "0.1.0"
+  }
 }

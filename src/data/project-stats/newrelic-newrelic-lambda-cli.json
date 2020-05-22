@@ -1,15 +1,16 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-cli",
   "issues": {
-    "open": 0
+    "open": 2
   },
-  "releases": 29,
+  "releases": 31,
   "latestRelease": {
-    "name": "v0.2.2",
-    "date": "2020-04-29T05:15:43Z"
+    "name": "v0.2.4",
+    "date": "2020-05-15T21:16:14Z"
   },
-  "commits": 295,
-  "contributors": 12,
+  "commits": 302,
+  "lastSixMonthsCommitTotal": 100,
+  "contributors": 13,
   "pullRequests": {
     "open": 0
   },
@@ -29,6 +30,13 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/657586?v=4",
       "htmlUrl": "https://github.com/igoratron",
       "contributions": 1
+    },
+    {
+      "id": 11327,
+      "login": "mrickard",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/11327?v=4",
+      "htmlUrl": "https://github.com/mrickard",
+      "contributions": 2
     },
     {
       "id": 8593135,
@@ -98,7 +106,7 @@
       "login": "kolanos",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/17498?v=4",
       "htmlUrl": "https://github.com/kolanos",
-      "contributions": 96
+      "contributions": 100
     }
   ],
   "languages": [

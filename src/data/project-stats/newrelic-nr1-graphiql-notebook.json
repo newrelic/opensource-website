@@ -9,6 +9,7 @@
     "date": "2020-04-01T15:47:54Z"
   },
   "commits": 101,
+  "lastSixMonthsCommitTotal": 26,
   "contributors": 9,
   "pullRequests": {
     "open": 0
@@ -92,7 +93,10 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-graphiql-notebook/master/catalog/screenshots/nr1-graphiql-notebook-1.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-graphiql-notebook/master/catalog/screenshots/nr1-graphiql-notebook-2.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

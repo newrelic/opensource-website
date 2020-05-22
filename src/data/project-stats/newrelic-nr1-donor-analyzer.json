@@ -1,0 +1,145 @@
+{
+  "projectFullName": "newrelic/nr1-donor-analyzer",
+  "issues": {
+    "open": 1
+  },
+  "releases": 0,
+  "latestRelease": null,
+  "commits": 161,
+  "lastSixMonthsCommitTotal": 94,
+  "contributors": 12,
+  "pullRequests": {
+    "open": 0
+  },
+  "searchCategory": "good first issue",
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2MDY0ODY5NTI=",
+      "title": "Implement impacted donors chart using Table components",
+      "url": "https://github.com/newrelic/nr1-donor-analyzer/issues/7",
+      "createdAt": "2020-04-24T17:57:21Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jaesius",
+        "id": "MDQ6VXNlcjEzNTYyNjcy",
+        "email": "",
+        "name": "Jemiah Sius"
+      },
+      "number": 7,
+      "createdBy": "Jemiah Sius"
+    }
+  ],
+  "cachedContributors": [
+    {
+      "id": 37779995,
+      "login": "ryanv94",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/37779995?v=4",
+      "htmlUrl": "https://github.com/ryanv94",
+      "contributions": 1
+    },
+    {
+      "id": 58010132,
+      "login": "mmfred",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/58010132?v=4",
+      "htmlUrl": "https://github.com/mmfred",
+      "contributions": 1
+    },
+    {
+      "id": 829269,
+      "login": "mjesun",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/829269?v=4",
+      "htmlUrl": "https://github.com/mjesun",
+      "contributions": 1
+    },
+    {
+      "id": 12318362,
+      "login": "lindsayculver",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/12318362?v=4",
+      "htmlUrl": "https://github.com/lindsayculver",
+      "contributions": 1
+    },
+    {
+      "id": 26434192,
+      "login": "Tirslo",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/26434192?v=4",
+      "htmlUrl": "https://github.com/Tirslo",
+      "contributions": 1
+    },
+    {
+      "id": 29930229,
+      "login": "mattshandera",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/29930229?v=4",
+      "htmlUrl": "https://github.com/mattshandera",
+      "contributions": 2
+    },
+    {
+      "id": 55203603,
+      "login": "austin-schaefer",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/55203603?v=4",
+      "htmlUrl": "https://github.com/austin-schaefer",
+      "contributions": 3
+    },
+    {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 4
+    },
+    {
+      "id": 812989,
+      "login": "danielgolden",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/812989?v=4",
+      "htmlUrl": "https://github.com/danielgolden",
+      "contributions": 13
+    },
+    {
+      "id": 197140,
+      "login": "devfreddy",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
+      "htmlUrl": "https://github.com/devfreddy",
+      "contributions": 22
+    },
+    {
+      "id": 13562672,
+      "login": "jaesius",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/13562672?v=4",
+      "htmlUrl": "https://github.com/jaesius",
+      "contributions": 28
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 43
+    }
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzMDg=",
+      "name": "CSS",
+      "color": "#563d7c"
+    }
+  ],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-donor-analyzer/master/catalog/screenshots/nr1-donor-analyzer-01.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-donor-analyzer/master/catalog/screenshots/nr1-donor-analyzer-02.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-donor-analyzer/master/catalog/screenshots/nr1-donor-analyzer-03.png"
+  ],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
+}

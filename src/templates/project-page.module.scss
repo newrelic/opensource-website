@@ -1,11 +1,31 @@
+.project-page-layout {
+  header:after {
+    transform: skewY(-4.5deg);
+    top: -80px;
+  }
+}
+
 .primary-content-main {
   a {
     font-size: 14px;
+
+    &[target='__blank']:after {
+      content: '';
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      margin-left: 4px;
+      position: relative;
+      top: 1px;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-image: url('../images/icon-external-link.svg');
+    }
   }
 
   p strong {
     font-weight: 600;
-    color: #2a3434;
+    color: var(--color-neutrals-800);
   }
 
   ul {
@@ -74,6 +94,9 @@
   button:first-child {
     margin-right: 11px;
   }
+  .button:first-child {
+    margin-right: 11px;
+  }
 }
 
 .call-to-action-support {
@@ -118,7 +141,7 @@ p.call-to-action-description {
     top: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(to left, white, transparent);
+    background-image: linear-gradient(to left, white, rgba(255,255,255, .0));
   }
 }
 
@@ -265,4 +288,175 @@ p.call-to-action-description {
   height:100%;
   width:100%;
   position:absolute;
+}
+
+.button-icon {
+  line-height: 11px;
+  margin-right: 8px;
+}
+
+.sidebar-tags {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-tag-list-tag {
+  display: inline-block;
+  margin-bottom: 8px;
+  background-color: var(--color-neutrals-100);
+  color: var(--color-neutrals-600);
+  font-size: 12px;
+  padding: 2px 8px;
+  margin-right: 8px;
+  border-radius: 3px;
+  transition: all .07s var(--ease-out-quad);
+  
+  &:hover {
+    transform: translateY(-1px);
+    background-color: rgba(112, 204, 210, 0.17);
+    
+    a {
+      color: var(--color-brand-800);
+    }
+  }
+  
+  a {
+    color: var(--color-neutrals-700);
+    border: none;
+    transition: all .09s var(--ease-out-quad);
+  }
+}
+
+.page-heading-CTA {
+  display: none;
+  flex-direction: row;
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 1024px) {
+  .call-to-action-buttons-container {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      justify-content: center;
+    }
+    a:first-child {
+      margin-bottom: 8px;
+    }
+  }
+  
+  .page-heading-CTA {
+    display: none;
+  } 
+}
+
+@media screen and (max-width: 724px) {
+  .project-page-layout header:after {
+    transform: skewY(-4.5deg);
+    top: -133px;
+  }
+
+  .page-heading-CTA {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: -8px;
+    
+    a {
+      margin-right: 8px;
+      
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .primary-content-aside {
+    .call-to-action-buttons-container {
+      flex-direction: row;
+      justify-content: stretch;
+      align-items: center;
+      padding-bottom: 0;
+
+      a {
+        width: 100%;
+        margin-bottom: 0;
+      }
+
+      a:first-child {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-page-layout header:after {
+    top: -140px;
+  }    
+}
+
+@media screen and (max-width: 400px) {
+  .primary-content-aside {
+    .call-to-action-buttons-container {
+      flex-direction: column;
+      align-items: center;
+
+      a {
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 0px;
+      }
+
+      a:first-child {
+        margin-bottom: 10px;
+        margin-right: 0;
+      }
+    }
+  } 
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+:global(.dark-mode) {
+  .primary-content-main {
+    a {
+      &[target='__blank']:after {
+        background-image: url('../images/icon-external-link-light.svg');
+      }
+    }
+  }
+
+  .project-screenshots-container {
+    &:after {
+      background-image: linear-gradient(to left, var(--color-background), rgba(28, 42, 47, 0));
+    }
+  }
+
+  .call-to-action-buttons {
+    background-color: var(--color-neutrals-300);
+  }
+
+  .call-to-action-category-specification {
+    box-shadow: inset 0 0 0 3px var(--color-neutrals-300);
+  }
+
+  .project-screenshot-list-item {
+    opacity: .5;
+    transition: opacity .1s var(--ease-out-quad);
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .repo-stat-count {
+    color: var(--color-neutrals-900);
+    background-color: var(--color-neutrals-200);
+  }
 }

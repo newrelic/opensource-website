@@ -1,9 +1,15 @@
+.html-has-active-mobile-menu {
+  overflow: hidden;
+}
+
 .primary-header-container {
   box-sizing: border-box;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
+  flex-shrink: 0; // because nested flexbox elements in safari are buggy
   width: 100%;
+  height: 94px;
   max-width: 1180px;
   margin: 0 auto;
   align-items: center;
@@ -57,6 +63,8 @@ a.primary-header-nav-link {
   white-space: nowrap;
   overflow: hidden;
   border: none;
+  position: relative;
+  bottom: 1px;
   cursor: pointer;
   background-image: url('../images/icon-menu.svg');
   background-color: transparent;
@@ -72,18 +80,50 @@ a.primary-header-nav-link {
   display: none;
 }
 
+div.exists-in-active-mobile-menu {
+  position: relative;
+  z-index: 10000;
+  background-color: var(--color-neutrals-100);
+}
+
+.has-header-bg{
+  &:after {
+    content: '';
+    position: absolute;
+    height: 250px;
+    top: -99px;
+    right: 0;
+    left: 0;
+    transform: skewY(-2.75deg);
+    z-index: -1;
+    background: linear-gradient(280.65deg, rgba(255, 255, 255, 0.52) 1.64%, rgba(255, 255, 255, 0) 99.19%), var(--color-neutrals-100);
+  }
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
 @media screen and (max-width: 1240px) {
   .primary-header-container {
     padding: 20px 28px;
   }
 }
 
-@media screen and (max-width: 728px) {
+@media screen and (max-width: 724px) {
+  .primary-header-container {
+    height: 60px;
+  }
+
+  .exists-in-mobile-active-menu {
+    display: none;
+  }
+
   .primary-header-logo {
     width: 160px;
     height: 34px;
     background-size: 160px 34px;
-    z-index: 100;
+    z-index: 10000;
   }
 
   .primary-header-nav-links {
@@ -98,47 +138,109 @@ a.primary-header-nav-link {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
+    bottom: -500px;
     left: 0;
-    background-color: #fff;
+    z-index: 1000;
+    background-color: var(--color-background);
 
     .mobile-menu-button {
       width: 20.5px;
       height: 20.5px;
       background-size: 20.51px 20.51px;
       position: absolute;
-      top: 28px;
-      right: 32px;
+      top: 50px;
+      right: 30px;
       background-image: url('../images/icon-menu-close.svg');
     }
+    
 
     .primary-header-mobile-nav-links {
       display: block;
       list-style-type: none;
-      margin-top: 40px;
-      padding: 28px;
+      border-top: 1px dotted var(--color-neutrals-300);
+      margin-top: 88px;
+      padding: 10px 28px;
       line-height: 50px;
     }
 
+    .primary-header-nav-link {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+    }
+
     .primary-header-mobile-nav-links .primary-header-nav-link-item {
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       font-size: 24px;
       font-weight: 400;
     }
   }
+
+  .has-header-bg:after {
+    top: -150px;
+    transform: skewY(-1.75deg);
+  }
 }
 
-.has-header-bg{
-  padding-bottom: 8px;
+@media screen and (max-width: 480px) {
+  .primary-header-logo {
+    position: static;
+    top: 0;
+  }
+
+  .mobile-menu-active {
+    .mobile-menu-button {
+      top: 21px;
+    }
+
+    
+    .primary-header-mobile-nav-links {
+      margin-top: 59px;
+    }
+  }
+
   
-  &:after {
-    content: '';
-    position: absolute;
-    height: 230px;
-    top: -70px;
-    right: 0;
-    left: 0;
-    transform: skewY(-4.5deg);
-    z-index: -1;
-    background: linear-gradient(280.65deg, rgba(255, 255, 255, 0.52) 1.64%, rgba(255, 255, 255, 0) 99.19%), #F4F5F5;
+  .has-header-bg:after {
+    top: -180px;
+    transform: skewY(-3deg);
+  }
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+:global(.dark-mode) {
+  .primary-header-logo {
+    background-image: url('../images/logo-light.svg');
+  }
+
+  .has-header-bg{
+    &:after {
+      background: linear-gradient(280.65deg, var(--color-neutrals-100) 1.64%, #22343a);
+    }
+  }
+
+  a.primary-header-nav-link {
+    color: var(--color-neutrals-700);
+  
+    &:hover {
+      color: var(--color-neutral-800);
+    }
+  }
+
+  .mobile-menu-button {
+    background-image: url('../images/icon-menu-light.svg');
+    
+    div.mobile-menu-active & {
+      background-image: url('../images/icon-menu-close-light.svg');
+    }
+  }
+
+  .primary-header-nav-link svg {
+    display: none;
   }
 }

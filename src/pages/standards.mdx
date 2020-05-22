@@ -1,0 +1,44 @@
+import { graphql } from 'gatsby';
+import { get } from 'lodash';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+import PageHeading from '../components/PageHeading';
+
+export const query = graphql`
+  query StandardsQuery($path: String) {
+    sitePage: allSitePage(filter: { path: { eq: $path } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
+      }
+    }
+  }
+`;
+
+export default ({ children, data }) => (
+  <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
+      <SEO title="Contributing to a New Relic Open Source Project" />
+      <PageHeading
+      title="New Relic Open Source Standards"
+      subheader="Guidance for how we implement New Relic core values in open source"
+    />
+      <div className="primary-content">
+        <main>{children}</main>
+      </div>
+    </Layout>
+);
+
+## [Code of Conduct](/code-of-conduct)
+
+Read our [**Code of Conduct**](/code-of-conduct) to understand how we operate in open source and what we expect of contributors.
+
+## [Open Source Categories](/oss-category)
+
+All New Relic open source projects are [**categorized**](/oss-category) to help contributors, developers, and customers understand what to expect and how to engage with our projects.
+
+## [Contributing](/contributing)
+
+New Relic open source projects follow a [fork-and-pull-request](https://gist.github.com/tangollama/5d9d63fef0ed4498fb5fbb057bb5983d) workflow for project contribution. If you're new to open source contribution at New Relic, the content on [**this page**](/contributing) will help.

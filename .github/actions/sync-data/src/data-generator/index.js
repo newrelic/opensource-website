@@ -17,10 +17,10 @@ const _ = require('lodash');
 const {
   organizationRepositoryIterator,
   fetchStats,
-  fetchRepo,
+  fetchRepo
 } = require('./fetch');
-const { SCREENSHOT_FOLDERS, ORG_REPOS } = require('./utils/constants');
-const { prettyPrintJson, prettyPrint, sleep } = require('./utils/helpers');
+const { SCREENSHOT_FOLDERS, ORG_REPOS } = require('../shared/constants');
+const { prettyPrintJson, prettyPrint, sleep } = require('../shared/helpers');
 
 /**
  * 1. Create a personal access token with the following scopes:
@@ -39,15 +39,15 @@ const { prettyPrintJson, prettyPrint, sleep } = require('./utils/helpers');
 const OVERWRITE_EXISTING = true;
 
 function formatRepositories(repositories) {
-  const humanize = (slug) => slug.replace('-', ' ');
-  return repositories.map((r) => {
+  const humanize = slug => slug.replace('-', ' ');
+  return repositories.map(r => {
     return {
       name: r.name,
       fullName: r.full_name.toLowerCase(),
       slug: r.full_name.replace('/', '-'),
       owner: {
         login: r.owner.login,
-        type: r.owner.type,
+        type: r.owner.type
       },
       title: humanize(r.name),
       supportUrl: 'https://discuss.newrelic.com/', // TO DO
@@ -59,16 +59,15 @@ function formatRepositories(repositories) {
       // "screenshots": [ "https://github.com/newrelic/nr1-workload-geoops/blob/master/assets/documentation-images/detail-panel-legend.png?raw=true", "https://github.com/newrelic/nr1-workload-geoops/blob/master/assets/documentation-images/file-upload.png?raw=true" ],
       ossCategory: {
         title: 'Lorem Ipsum',
-        slug: 'lorem-ipsum',
+        slug: 'lorem-ipsum'
       }, // TO DO
       projectTags: [],
       primaryLanguage: r.language,
       tags: ['point-of-sale', 'maps', 'infrastructure'], // TO DO
       website: {
         title: humanize(r.name), // TO DO - Can/should be different
-        url: r.html_url, // TO DO - this won't always be the Github repo url?
-      },
-      version: '0.1.0',
+        url: r.html_url // TO DO - this won't always be the Github repo url?
+      }
     };
   });
 }
@@ -89,7 +88,7 @@ function formatStats(project, stats) {
       // TO DO filter out .gitkeep
 
       if (Array.isArray(fileNames.entries)) {
-        const fullPaths = fileNames.entries.map((file) => {
+        const fullPaths = fileNames.entries.map(file => {
           const dir = path.replace(':', '/'); // Replace "master:" with "master/"
           // const url = `https://github.com/` + project.fullName + `/blob/` + dir + file.name + '?raw=true';
           const url = `https://raw.githubusercontent.com/${project.fullName}/${dir}${file.name}`;
@@ -103,12 +102,12 @@ function formatStats(project, stats) {
   );
 
   const cachedContributors = Array.isArray(contributorStats)
-    ? contributorStats.map((i) => ({
+    ? contributorStats.map(i => ({
         id: i.author.id,
         login: i.author.login,
         avatarUrl: i.author.avatar_url,
         htmlUrl: i.author.html_url,
-        contributions: i.total,
+        contributions: i.total
       }))
     : [];
 
@@ -116,7 +115,7 @@ function formatStats(project, stats) {
   const latestRelease = {
     name: latestReleaseName,
     date: _.get(repoStats, 'latestTag.nodes[0].target.authoredDate', null)
-  }
+  };
 
   return {
     projectFullName: project.fullName,
@@ -128,12 +127,12 @@ function formatStats(project, stats) {
     commits: repoStats.defaultBranchRef.target.history.totalCount,
     contributors: contributorCount,
     pullRequests: {
-      open: repoStats.pullRequests.totalCount, // Filtering by a status of OPEN
+      open: repoStats.pullRequests.totalCount // Filtering by a status of OPEN
     },
     searchCategory: 'good first issue',
-    cachedIssues: repoStats.goodFirstIssues.nodes.map((node) => ({
+    cachedIssues: repoStats.goodFirstIssues.nodes.map(node => ({
       ...node,
-      createdBy: node.author.name || node.author.login || 'Unknown',
+      createdBy: node.author.name || node.author.login || 'Unknown'
     })), // Note: createdBy is author.login
     cachedContributors,
     languages: repoStats.languages.nodes,
@@ -143,7 +142,7 @@ function formatStats(project, stats) {
 }
 
 function writeProjectsToGatsby(projects) {
-  projects.forEach((project) => {
+  projects.forEach(project => {
     const fileName = `${project.fullName.replace('/', '-')}.json`;
     const outputDir = path.resolve(
       __dirname,
@@ -163,7 +162,9 @@ async function calculateAndWriteProjectStats(project) {
   const owner = project.owner.login;
   const repo = project.name;
 
-  // prettyPrint('Fetching stats for ' + project.fullName);
+  prettyPrint(
+    `calculateAndWriteProjectStats || Fetching stats for ${project.fullName}`
+  );
 
   const stats = await fetchStats(owner, repo);
   writeProjectStatsToGatsby(project, formatStats(project, stats));
@@ -178,7 +179,7 @@ function writeProjectStatsToGatsby(project, projectStats) {
   const outputPath = `${outputDir}/${fileName}.json`.toLowerCase();
   const exists = fs.existsSync(outputPath);
   const jsonContent = JSON.stringify(projectStats, null, 2);
-  
+
   prettyPrint(`Writing File: ${outputPath}`);
 
   if (OVERWRITE_EXISTING || !exists) {
@@ -195,7 +196,7 @@ async function generateProjects({ iteratorOptions }) {
 
   if (iteratorOptions.repo) {
     const response = await fetchRepo({
-      options: iteratorOptions,
+      options: iteratorOptions
     });
 
     processProjects(response);
@@ -217,16 +218,14 @@ async function generateProjects({ iteratorOptions }) {
 }
 
 function processProjects(response) {
-  const { status, url, headers, data } = response;
+  const { /* status, url, headers, */ data } = response;
   const dataAsArray = Array.isArray(data) ? data : [data];
   const filteredRepos = dataAsArray.filter(r => r && !r.archived && !r.fork);
 
   prettyPrint(
     `After removing Archived repositories found ${filteredRepos.length} results:`
   );
-  prettyPrint(
-    filteredRepos.map((d) => `id: ${d.id} ${d.full_name}`).join('\n')
-  );
+  prettyPrint(filteredRepos.map(d => `id: ${d.id} ${d.full_name}`).join('\n'));
 
   writeProjectsToGatsby(formatRepositories(filteredRepos));
 }
@@ -238,7 +237,7 @@ function processProjects(response) {
 async function generateProjectStats({ iteratorOptions }) {
   if (iteratorOptions.repo) {
     const response = await fetchRepo({
-      options: iteratorOptions,
+      options: iteratorOptions
     });
     prettyPrint('generateProjectStats');
     prettyPrintJson(response);
@@ -263,16 +262,14 @@ async function generateProjectStats({ iteratorOptions }) {
 }
 
 async function processProjectStats(response) {
-  const { status, url, headers, data } = response;
+  const { /* status, url, headers, */ data } = response;
   const dataAsArray = Array.isArray(data) ? data : [data];
-  const filteredRepos = dataAsArray.filter((r) => r && !r.archived);
+  const filteredRepos = dataAsArray.filter(r => r && !r.archived);
 
   prettyPrint(
     `After removing Archived repositories found ${filteredRepos.length} results:`
   );
-  prettyPrint(
-    filteredRepos.map((d) => `id: ${d.id} ${d.full_name}`).join('\n')
-  );
+  prettyPrint(filteredRepos.map(d => `id: ${d.id} ${d.full_name}`).join('\n'));
 
   const repositories = formatRepositories(filteredRepos);
   for (const repository of repositories) {
@@ -287,31 +284,31 @@ async function processProjectStats(response) {
 async function generateData({ projects = false, project_stats = false }) {
   const defaultOptions = { pages: 0, start_page: 1, per_page: 100 };
 
-  console.log(`Projects: ${projects} | Project_Stats: ${project_stats}`);
+  prettyPrint(`Projects: ${projects} | Project_Stats: ${project_stats}`);
 
   if (projects) {
-    console.log('Processing projects...');
+    prettyPrint('Processing projects...');
     for (const { org, repo = false } of ORG_REPOS) {
       await generateProjects({
         iteratorOptions: {
           ...defaultOptions,
           org,
-          repo,
-        },
+          repo
+        }
       });
       await sleep(2000);
     }
   }
 
   if (project_stats) {
-    console.log('Processing project stats...');
+    prettyPrint('Processing project stats...');
     for (const { org, repo = false } of ORG_REPOS) {
       await generateProjectStats({
         iteratorOptions: {
           ...defaultOptions,
           org,
-          repo,
-        },
+          repo
+        }
       });
       await sleep(2000);
     }
@@ -319,7 +316,7 @@ async function generateData({ projects = false, project_stats = false }) {
 }
 
 module.exports = {
-  generateData,
+  generateData
 };
 
 // (async function () {

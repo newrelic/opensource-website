@@ -10,16 +10,18 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-go",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-telemetry-sdk-go",
-  "iconUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-go/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "New Relic OpenTelemetry for Go",
   "description": "Go library for sending telemetry data to New Relic",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "opentelemetry", "sdk" ],
+  "projectTags": [
+    "opentelemetry",
+    "sdk"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Telemetry SDK (Go)",
     "url": "https://github.com/newrelic/newrelic-telemetry-sdk-go"
-  },
-  "version": "0.1.0"
+  }
 }

@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { Filter } from 'react-feather';
 
 import searchIcon from '../images/icon-search.svg';
 import styles from './ProjectSearchInput.module.scss';
@@ -12,6 +13,7 @@ const ProjectSearchInput = ({
   onFilterChange
 }) => {
   const { allLanguages, allCategories, allProjectTags } = filterOptions;
+  const [mobileFiltersHidden, setMobileFiltersHidden] = useState(true);
 
   const onCategoryChange = e =>
     onFilterChange({ field: 'ossCategory', value: e.target.value });
@@ -29,25 +31,42 @@ const ProjectSearchInput = ({
         <input
           type="text"
           value={searchQueryValue}
-          onChange={onSearchQueryChange}
+          onChange={e => {
+            onSearchQueryChange({ searchQuery: e.target.value });
+          }}
           placeholder="Search for a project"
           className={styles.searchInput}
         />
       </div>
-      <div className={styles.searchFilters}>
+      <div
+        className={`${styles.searchFilters} ${
+          mobileFiltersHidden ? styles.mobileFiltersHidden : ''
+        }`}
+      >
+        <span
+          className={styles.showFiltersButton}
+          onClick={() => setMobileFiltersHidden(false)}
+        >
+          Show filters
+          <Filter color="#007e8a" size={12} />
+        </span>
         <select
           className={styles.searchFilter}
           onChange={onCategoryChange}
           value={filterValues.ossCategory}
         >
-          <option label="All Categories" value="" />
+          <option label="All Categories" value="">
+            All categories
+          </option>
           {allCategories.options.map(c => {
             return (
               <option
                 key={c.fieldValue}
                 label={c.fieldValue}
                 value={c.fieldValue}
-              />
+              >
+                {c.fieldValue}
+              </option>
             );
           })}
         </select>
@@ -56,14 +75,18 @@ const ProjectSearchInput = ({
           onChange={onProjectTagChange}
           value={filterValues.projectTag}
         >
-          <option label="All Project Tags" value="" />
+          <option label="All Project Tags" value="">
+            All Project Tags
+          </option>
           {allProjectTags.options.map(c => {
             return (
               <option
                 key={c.fieldValue}
                 label={c.fieldValue}
                 value={c.fieldValue}
-              />
+              >
+                {c.fieldValue}
+              </option>
             );
           })}
         </select>
@@ -72,14 +95,18 @@ const ProjectSearchInput = ({
           onChange={onLanguageTypeChange}
           value={filterValues.languageType}
         >
-          <option label="All Language Types" value="" />
+          <option label="All Language Types" value="">
+            All language types
+          </option>
           {allLanguages.options.map(c => {
             return (
               <option
                 key={c.fieldValue}
                 label={c.fieldValue}
                 value={c.fieldValue}
-              />
+              >
+                {c.fieldValue}
+              </option>
             );
           })}
         </select>

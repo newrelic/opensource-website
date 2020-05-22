@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/centurion",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/centurion",
-  "iconUrl": "https://github.com/newrelic/centurion/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Docker fleet deployment tool",
   "description": "A mass deployment tool for Docker fleets",
   "ossCategory": "community-project",
   "primaryLanguage": "Ruby",
-  "projectTags": [ "tools" ],
+  "projectTags": [
+    "tools"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "Centurion",
     "url": "https://github.com/newrelic/centurion"
-  },
-  "version": "0.1.0"
+  }
 }

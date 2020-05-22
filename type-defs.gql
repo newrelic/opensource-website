@@ -1,4 +1,5 @@
 # https://www.gatsbyjs.org/docs/schema-customization/#foreign-key-fields
+# https://www.gatsbyjs.org/docs/schema-customization/#extensions-and-directives
 
 type ProjectStats implements Node {
   project: Projects @link
@@ -9,4 +10,6 @@ type Projects implements Node {
   mainContent: ProjectMainContent @link(by: "slug", from: "slug")
   projectTags: [ProjectTags] @link(by: "slug")
   ossCategory: OssCategory @link(by: "slug")
+  subProjects: [Projects] @link(by: "slug")
+  relatedProjects: [Projects] @link(by: "slug")
 }

@@ -4,7 +4,9 @@
     "open": 0
   },
   "releases": 0,
-  "commits": 2,
+  "latestRelease": null,
+  "commits": 8,
+  "lastSixMonthsCommitTotal": 8,
   "contributors": 1,
   "pullRequests": {
     "open": 0
@@ -17,7 +19,7 @@
       "login": "jaesius",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/13562672?v=4",
       "htmlUrl": "https://github.com/jaesius",
-      "contributions": 2
+      "contributions": 8
     }
   ],
   "languages": [
@@ -25,12 +27,13 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
     }
   ],
-  "screenshots": []
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-programmability-201-workshop/master/screenshots/complete-application.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-programmability-201-workshop/master/screenshots/step-0-complete.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-programmability-201-workshop/master/screenshots/step-1-complete.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-programmability-201-workshop/master/screenshots/step-2-complete.png"
+  ],
+  "license": null
 }

@@ -1,12 +1,12 @@
-// import { camelCase, upperFirst } from 'lodash';
 const path = require(`path`);
 const _ = require('lodash');
+const remarkExternalLinks = require('./plugins/remark-external-link-icon');
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`
+    title: `New Relic Open Source`,
+    description: `New Relic <3's open source. We built this site to make it easy for you to explore the projects we're maintaining as well as our involvement in open standards.`,
+    author: `@newrelic`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -15,6 +15,15 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-use-dark-mode',
+      options: {
+        classNameDark: 'dark-mode',
+        classNameLight: 'light-mode',
+        storageKey: 'darkMode',
+        minify: true
       }
     },
     {
@@ -51,24 +60,58 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `New Relic Open source`,
+        short_name: `NR OSS`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#007e8a`,
+        theme_color: `#007e8a`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
+        icon: `src/images/icon.png` // This path is relative to the root of the site.
       }
     },
     'gatsby-plugin-sass',
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
+        remarkPlugins: [remarkExternalLinks],
+        // https://www.gatsbyjs.org/packages/gatsby-plugin-mdx/#remark-plugins
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+            options: {
+              // `ignoreFileExtensions` defaults to [`png`, `jpg`, `jpeg`, `bmp`, `tiff`]
+              // as we assume you'll use gatsby-remark-images to handle
+              // images in markdown as it automatically creates responsive
+              // versions of images.
+              //
+              // If you'd like to not use gatsby-remark-images and just copy your
+              // original images to the public directory, set
+              // `ignoreFileExtensions` to an empty array.
+              // ignoreFileExtensions: []
+
+              ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`]
+            }
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 590
+            }
+          }
+        ],
+        // remarkPlugins: [require(`gatsby-remark-copy-linked-files`)],
         extensions: [`.mdx`, `.md`]
       }
+    },
+    {
+      resolve: 'gatsby-plugin-edit-content-links'
     }
   ]
 };

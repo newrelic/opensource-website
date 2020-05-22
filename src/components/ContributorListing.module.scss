@@ -1,10 +1,15 @@
-.contributors-container {
+
+ul.contributors-container {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     grid-template-rows: 1fr auto;
     grid-gap: 20px;
     padding: 0;
     list-style-type: none;
+    
+    a[target='__blank']:after {
+        display: none;
+    }
 }
 
 .contributor-item {
@@ -54,23 +59,24 @@
 }
 
 .contributor-name {
-    font-size: 16px;
     margin: 8px 0 1px;
     color: var(--color-brand-800);
-
+    
     a.contributor-name-link {
+        font-size: 16px;
      border: none;
     }
 }
 
-.contributor-contributions {
+h6.contributor-contributions {
     margin: 0;
     font-weight: 400;
-    font-size: 12px;
+    line-height: 18px;
     
     a {
         color: var(--color-neutrals-600);
         border: none;
+        font-size: 12px;
 
         &:hover {
             text-decoration: underline;
@@ -92,5 +98,37 @@
 
     &:last-child {
         margin: 0;
+    }
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 900px) {
+  ul.contributors-container {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+@media screen and (max-width: 724px) {
+  ul.contributors-container {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ul.contributors-container {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+
+:global(.dark-mode) {
+    .contributor-item {
+        box-shadow: 0 0 0 1px var(--color-neutrals-400), 0px 0.664142px 0.553451px rgba(0, 0, 0, 0.0281146), 0px 1.59602px 1.33002px rgba(0, 0, 0, 0.0403893), 0px 3.00517px 2.50431px rgba(0, 0, 0, 0.05), 0px 5.36071px 4.46726px rgba(0, 0, 0, 0.0596107), 0px 10.0266px 8.35552px rgba(0, 0, 0, 0.0718854), 0px 24px 20px rgba(0, 0, 0, 0.1);
     }
 }

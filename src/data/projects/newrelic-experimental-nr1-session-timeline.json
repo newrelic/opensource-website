@@ -1,0 +1,26 @@
+{
+  "name": "nr1-session-timeline",
+  "fullName": "newrelic-experimental/nr1-session-timeline",
+  "slug": "newrelic-experimental-nr1-session-timeline",
+  "owner": {
+    "login": "newrelic-experimental",
+    "type": "Organization"
+  },
+  "title": "New Relic One Session Timeline",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic-experimental/nr1-session-timeline",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/nr1-session-timeline",
+  "iconUrl": null,
+  "shortDescription": "3rd party data in New Relic One",
+  "description": "This nerdlet is designed to show all Browser events recorded over time against a single session",
+  "ossCategory": "new-relic-experimental",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [
+    "nr1-app"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic One Session Timeline",
+    "url": "https://github.com/newrelic-experimental/nr1-session-timeline"
+  }
+}

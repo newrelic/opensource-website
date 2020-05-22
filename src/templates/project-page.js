@@ -5,6 +5,8 @@ import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import { get } from 'lodash';
+import { Edit } from 'react-feather';
+import useDarkMode from 'use-dark-mode';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -20,42 +22,73 @@ import commitIcon from '../images/icon-commit.svg';
 import prIcon from '../images/icon-pr.svg';
 import contributorIcon from '../images/icon-contributor.svg';
 import openIssueGreyIcon from '../images/icon-open-issue-grey.svg';
+import chatLightIcon from '../images/icon-chat-light.svg';
+import tagLightIcon from '../images/icon-tag-light.svg';
+import commitLightIcon from '../images/icon-commit-light.svg';
+import prLightIcon from '../images/icon-pr-light.svg';
+import contributorLightIcon from '../images/icon-contributor-light.svg';
+import openIssueLightIcon from '../images/icon-open-issue-light.svg';
 import iconGitHubWhite from '../images/icon-github-white.svg';
+import iconGitHubDarkGreen from '../images/icon-github-dark-green.svg';
 
 export const query = graphql`
-  query Project($slug: String) {
-    allProjects(filter: { slug: { eq: $slug } }) {
+  query NewRelicProjects($slug: String, $pagePath: String) {
+    project: allProjects(
+      filter: { slug: { eq: $slug }, projectType: { eq: "newrelic" } }
+    ) {
       nodes {
         ...projectFields
+      }
+    }
+    sitePage: allSitePage(filter: { path: { eq: $pagePath } }) {
+      nodes {
+        fields {
+          contentEditLink
+        }
+        componentPath
+        path
       }
     }
   }
 `;
 
-const ProjectPage = ({ data }) => {
+const ProjectPage = props => {
+  const { data } = props;
+
+  const local = typeof window !== `undefined` ? window.localStorage : null;
+  const darkModeStatus = local && local.getItem('darkMode');
+  const darkMode = useDarkMode(darkModeStatus);
+
   const renderNotFound = () => {
     return <h1>Project not found</h1>;
   };
 
-  const project = get(data, 'allProjects.nodes[0]', false);
+  const project = get(data, 'project.nodes[0]', false);
+  const contentEditLink = get(data, 'sitePage.nodes[0].fields.contentEditLink');
 
   if (!project) {
     return renderNotFound();
   }
 
   const projectStats = get(project, 'stats', false);
-  let tags = [
-    get(project, 'ossCategory.title', ''),
-    get(project, 'primaryLanguage', ''),
-    get(project, 'stats.latestRelease.name', '')
+  const tags = [
+    {
+      name: 'category',
+      value: get(project, 'ossCategory.title', '')
+    },
+    {
+      name: 'language',
+      value: get(project, 'primaryLanguage', '')
+    },
+    {
+      name: 'version',
+      value: get(project, 'stats.latestRelease.name', '')
+    }
   ];
-
-  if (project.projectTags) {
-    tags = tags.concat(project.projectTags.map(i => i.title));
-  }
 
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
   const supportUrl = get(project, 'supportUrl', false);
+  const ossCategory = get(project, 'ossCategory', false);
 
   const [screenshotModalActive, setScreenshotModalActive] = useState(false);
   const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(0);
@@ -87,7 +120,7 @@ const ProjectPage = ({ data }) => {
             {issue.comments.totalCount > 0 && (
               <div className={styles.projectPageIssueFooterDiscussion}>
                 <img
-                  src={chatIcon}
+                  src={darkMode.value ? chatLightIcon : chatIcon}
                   alt="Chat Icon"
                   className={styles.projectPageIssueFooterDiscussionIcon}
                 />
@@ -155,6 +188,23 @@ const ProjectPage = ({ data }) => {
     );
   };
 
+  const sidebarProjectTags = () => {
+    const tag = project.projectTags.map(tag => {
+      return (
+        <li className={styles.sidebarTagListTag} key={tag.title}>
+          <a
+            className={styles.tagLink}
+            href={`/explore-projects/?tag=${tag.title}`}
+          >
+            {tag.title}
+          </a>
+        </li>
+      );
+    });
+
+    return <ul className={styles.sidebarTags}>{tag}</ul>;
+  };
+
   // TO DO - What do we display when we do not have stats?
   const renderEmptyProjectStats = () => {
     return null;
@@ -164,20 +214,64 @@ const ProjectPage = ({ data }) => {
     return null;
   };
 
+  const renderCallsToAction = isPageHeadingCTA => {
+    return (
+      <div
+        className={`${styles.callToActionButtonsContainer} ${
+          isPageHeadingCTA ? styles.pageHeadingCTA : ''
+        }`}
+      >
+        <a
+          href={project.githubUrl}
+          className="button button-primary"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={darkMode.value ? iconGitHubDarkGreen : iconGitHubWhite}
+            alt="GitHub logo"
+          />
+          Fork Repo
+        </a>
+        {contentEditLink && (
+          <a
+            href={contentEditLink}
+            className="button button-secondary"
+            target="__blank"
+            rel="noopener noreferrer"
+          >
+            <span className={styles.buttonIcon}>
+              <Edit color={darkMode.value ? '#70ccd3' : '#007e8a'} size={16} />
+            </span>
+            Edit page
+          </a>
+        )}
+      </div>
+    );
+  };
+
   return (
-    <Layout hasHeaderBg>
-      <SEO title="A single project page" />
+    <Layout
+      hasHeaderBg
+      className={styles.projectPageLayout}
+      editLink={contentEditLink}
+    >
+      <SEO title={project.title} />
       <PageHeading
+        showIcon
         title={project.title}
         subheader={project.description}
         icon={project.iconUrl}
         tags={tags}
         hasSeparator
+        callToAction={() => renderCallsToAction(true)}
       />
-      <div className="primary-content">
+      <div className={`primary-content ${styles.primaryContent}`}>
         <main className={`primary-content-main ${styles.primaryContentMain}`}>
           {mainContent && (
-            <ProjectMainContent mdx={project.mainContent.mdx.compiledMdx} project={project} />
+            <ProjectMainContent
+              mdx={project.mainContent.mdx.compiledMdx}
+              project={project}
+            />
           )}
           {!mainContent && (
             <>
@@ -199,8 +293,8 @@ const ProjectPage = ({ data }) => {
             <>
               <h2>Contributions</h2>
               <p>
-                <strong>{project.title}</strong> accepts contributions under the
-                New Relic open source{' '}
+                <strong>{project.title}</strong> accepts contributions under our
+                open source{' '}
                 <a
                   href="/code-of-conduct"
                   target="__blank"
@@ -237,6 +331,7 @@ const ProjectPage = ({ data }) => {
                 <a
                   href={`${project.githubUrl}/issues`}
                   rel="noopener noreferrer"
+                  target="__blank"
                 >
                   Issues
                 </a>{' '}
@@ -265,27 +360,12 @@ const ProjectPage = ({ data }) => {
             </>
           )}
         </main>
-        <aside className="primary-content-aside">
+        <aside
+          className={`primary-content-aside ${styles.primaryContentAside}`}
+        >
           <div className={styles.callToActionContainer}>
             <div className={styles.callToActionButtons}>
-              <div className={styles.callToActionButtonsContainer}>
-                <a
-                  href={`${project.githubUrl}/stargazers`}
-                  className="button button-primary"
-                  target="__blank"
-                  rel="noopener noreferrer"
-                >
-                  <img src={iconGitHubWhite} alt="GitHub logo" />
-                  Star
-                </a>
-                <a
-                  href={project.githubUrl}
-                  className="button button-secondary"
-                  rel="noopener noreferrer"
-                >
-                  Fork GitHub Repo
-                </a>
-              </div>
+              {renderCallsToAction()}
               {project.stats &&
                 project.stats.license &&
                 project.stats.license.spdxId !== 'NOASSERTION' && (
@@ -297,16 +377,18 @@ const ProjectPage = ({ data }) => {
                   </div>
                 )}
             </div>
-            <div className={styles.callToActionCategorySpecification}>
-              <h5 className={styles.callToActionCategory}>
-                <Link to="/oss-category" rel="noopener noreferrer">
-                  {project.ossCategory.title}
-                </Link>
-              </h5>
-              <p className={styles.callToActionDescription}>
-                {project.ossCategory.description}
-              </p>
-            </div>
+            {ossCategory && (
+              <div className={styles.callToActionCategorySpecification}>
+                <h5 className={styles.callToActionCategory}>
+                  <Link to="/oss-category" rel="noopener noreferrer">
+                    {project.ossCategory.title}
+                  </Link>
+                </h5>
+                <p className={styles.callToActionDescription}>
+                  {project.ossCategory.description}
+                </p>
+              </div>
+            )}
           </div>
 
           {projectStats &&
@@ -355,7 +437,9 @@ const ProjectPage = ({ data }) => {
                   className={`${styles.repoStat} + ${styles.repoStatContributors}`}
                 >
                   <img
-                    src={contributorIcon}
+                    src={
+                      darkMode.value ? contributorLightIcon : contributorIcon
+                    }
                     alt="contributor icon"
                     className={styles.repoStatIcon}
                   />
@@ -373,7 +457,7 @@ const ProjectPage = ({ data }) => {
                 </li>
                 <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
                   <img
-                    src={tagIcon}
+                    src={darkMode.value ? tagLightIcon : tagIcon}
                     alt="release icon"
                     className={styles.repoStatIcon}
                   />
@@ -391,7 +475,7 @@ const ProjectPage = ({ data }) => {
                 </li>
                 <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
                   <img
-                    src={commitIcon}
+                    src={darkMode.value ? commitLightIcon : commitIcon}
                     alt="commit icon"
                     className={styles.repoStatIcon}
                   />
@@ -411,7 +495,7 @@ const ProjectPage = ({ data }) => {
                   className={`${styles.repoStat} ${styles.repoStatPullRequests}`}
                 >
                   <img
-                    src={prIcon}
+                    src={darkMode.value ? prLightIcon : prIcon}
                     alt="pull request icon"
                     className={styles.repoStatIcon}
                   />
@@ -429,7 +513,9 @@ const ProjectPage = ({ data }) => {
                 </li>
                 <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
                   <img
-                    src={openIssueGreyIcon}
+                    src={
+                      darkMode.value ? openIssueLightIcon : openIssueGreyIcon
+                    }
                     alt="open issue icon"
                     className={styles.repoStatIcon}
                   />
@@ -463,6 +549,12 @@ const ProjectPage = ({ data }) => {
                   {!projectStats && renderEmptyIssues()}
                 </>
               )}
+            </>
+          )}
+          {project.projectTags && (
+            <>
+              <h4>Tags</h4>
+              {sidebarProjectTags()}
             </>
           )}
 

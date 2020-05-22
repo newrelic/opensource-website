@@ -10,16 +10,18 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-workshop",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-workshop",
-  "iconUrl": "https://github.com/newrelic/nr1-workshop/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Step-by-step NR1 SDK training",
   "description": "Self-paced training workshop for the NR1 CLI/SDK",
   "ossCategory": "community-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nr1-app", "training" ],
+  "projectTags": [
+    "nr1-app",
+    "training"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic One Workshop",
     "url": "https://github.com/newrelic/nr1-workshop"
-  },
-  "version": "0.1.0"
+  }
 }

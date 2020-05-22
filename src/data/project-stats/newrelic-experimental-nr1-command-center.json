@@ -1,10 +1,15 @@
 {
   "projectFullName": "newrelic-experimental/nr1-command-center",
   "issues": {
-    "open": 2
+    "open": 1
   },
   "releases": 2,
+  "latestRelease": {
+    "name": "2.0.0",
+    "date": "2020-03-23T16:57:32Z"
+  },
   "commits": 7,
+  "lastSixMonthsCommitTotal": 7,
   "contributors": 1,
   "pullRequests": {
     "open": 0
@@ -36,5 +41,13 @@
     "https://raw.githubusercontent.com/newrelic-experimental/nr1-command-center/master/screenshots/drilldown.png",
     "https://raw.githubusercontent.com/newrelic-experimental/nr1-command-center/master/screenshots/summary.png",
     "https://raw.githubusercontent.com/newrelic-experimental/nr1-command-center/master/screenshots/uuid.png"
-  ]
+  ],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

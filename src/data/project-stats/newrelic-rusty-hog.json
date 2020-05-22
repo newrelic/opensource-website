@@ -8,10 +8,11 @@
     "name": "v1.0.4",
     "date": "2020-04-20T20:19:01Z"
   },
-  "commits": 81,
-  "contributors": 6,
+  "commits": 94,
+  "lastSixMonthsCommitTotal": 93,
+  "contributors": 7,
   "pullRequests": {
-    "open": 3
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -45,6 +46,13 @@
       "contributions": 1
     },
     {
+      "id": 591127,
+      "login": "ccojocar",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/591127?v=4",
+      "htmlUrl": "https://github.com/ccojocar",
+      "contributions": 7
+    },
+    {
       "id": 11471197,
       "login": "EMCain",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/11471197?v=4",
@@ -56,7 +64,7 @@
       "login": "cutler-scott-newrelic",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/47458753?v=4",
       "htmlUrl": "https://github.com/cutler-scott-newrelic",
-      "contributions": 59
+      "contributions": 60
     }
   ],
   "languages": [
@@ -74,6 +82,11 @@
       "id": "MDg6TGFuZ3VhZ2UyNDk=",
       "name": "Rust",
       "color": "#dea584"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
     }
   ],
   "screenshots": [

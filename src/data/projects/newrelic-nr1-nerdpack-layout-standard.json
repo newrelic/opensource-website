@@ -10,16 +10,18 @@
   "supportUrl": "https://discuss.newrelic.com/t/layout-nerdpacks/88605",
   "githubUrl": "https://github.com/newrelic/nr1-nerdpack-layout-standard",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-nerdpack-layout-standard",
-  "iconUrl": "https://github.com/newrelic/nr1-nerdpack-layout-standard/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "",
   "description": "A boilerplate for the standard nerdpack design layout",
   "ossCategory": "community-project",
   "primaryLanguage": "CSS",
-  "projectTags": [ "ux", "template" ],
+  "projectTags": [
+    "ux",
+    "template"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic One Nerdpack Layout Standard",
     "url": "https://github.com/newrelic/nr1-nerdpack-layout-standard"
-  },
-  "version": "0.1.0"
+  }
 }

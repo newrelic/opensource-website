@@ -8,10 +8,11 @@
     "name": "v1.2.0",
     "date": "2020-04-10T20:51:09Z"
   },
-  "commits": 110,
+  "commits": 111,
+  "lastSixMonthsCommitTotal": 44,
   "contributors": 10,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -45,18 +46,18 @@
       "contributions": 1
     },
     {
-      "id": 13562672,
-      "login": "jaesius",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/13562672?v=4",
-      "htmlUrl": "https://github.com/jaesius",
-      "contributions": 1
-    },
-    {
       "id": 26434192,
       "login": "Tirslo",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/26434192?v=4",
       "htmlUrl": "https://github.com/Tirslo",
       "contributions": 1
+    },
+    {
+      "id": 13562672,
+      "login": "jaesius",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/13562672?v=4",
+      "htmlUrl": "https://github.com/jaesius",
+      "contributions": 2
     },
     {
       "id": 55203603,
@@ -99,7 +100,10 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-browser-analyzer/master/catalog/screenshots/nr1-browser-analyzer-01.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-browser-analyzer/master/catalog/screenshots/nr1-browser-analyzer-02.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

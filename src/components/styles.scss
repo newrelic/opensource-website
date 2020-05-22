@@ -7,6 +7,8 @@
 
 /*-- CSS Variables --*/
 :root {
+  --color-background: #ffffff;
+
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-200: #edeeee;
@@ -37,20 +39,42 @@
   --ease-out-quint: cubic-bezier(.23, 1, .32, 1);
   --ease-out-expo: cubic-bezier(.19, 1, .22, 1);
   --ease-out-circ: cubic-bezier(.075, .82, .165, 1);
+  
+  /*-- Dark mode --*/
+  .dark-mode {
+    --color-background: #1C2A2F;
+    
+    --color-neutrals-050: #131F23;
+    --color-neutrals-100: #22353C;
+    --color-neutrals-200: #233940;
+    --color-neutrals-300: #2A4249;
+    --color-neutrals-400: #37484E;
+    --color-neutrals-500: #495B5C;
+    --color-neutrals-600: #7C9799;
+    --color-neutrals-700: #A5BBBD;
+    --color-neutrals-800: #CEDEDE;
+    --color-neutrals-900: #E8EAEA;
+
+    --color-brand-800: #70CCD3;
+    --color-brand-900: #EDFFFF;
+  }
 }
+
 
 /*-------------------------*/
 /*-- CSS Reset stuff --*/
 /*-------------------------*/
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   height: 100%;
   margin: 0;
   font-family: var(--primary-font-family);
-  color: #464e4e;
+  color: var(--color-neutrals-700);
+  background-color: var(--color-background);
 }
 
 #___gatsby {
@@ -65,19 +89,40 @@ p {
   color: var(--color-neutrals-700);
   font-size: 14px;
   line-height: 23px;
+  margin: 12px 0;
+
+  strong {
+    font-weight: 600;
+  }
 }
 
 a {
   text-decoration: none;
   color: var(--color-brand-800);
-  border-bottom: 1px dotted var(--color-brand-800);
+  // tried hard to find a way to avoid using a hardcoded color value
+  // here but Sass doesn't let me use color operations with css
+  // custom properties :/
+  border-bottom: 1px dotted rgba(#005054, .4);
+}
+
+ul {
+  padding-left: 30px;
+  font-size: 14px;
+  line-height: 22px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-
   margin-bottom: 8px;
   font-weight: 600;
   color: var(--color-neutrals-900);
+
+  a {
+    border: none;
+
+    &:hover {
+      border-bottom: 1px dotted rgba(#005054, .4);
+    }
+  }
 }
 
 h1 + p,
@@ -98,7 +143,7 @@ select {
   padding-right: 20px;
   -webkit-appearance: none;
   font-size: 12px;
-  background: #FFFFFF;
+  background: var(--color-background);
   border: 1px solid var(--color-neutrals-400);
   box-sizing: border-box;
   border-radius: 4px;
@@ -129,20 +174,28 @@ select {
 }
 
 .layout-container-main {
-  flex-grow: 1;
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
+  flex-grow: 1;
+  flex-shrink: 0; // because nested flexbox elements in safari are buggy
 
   &.full-width {
     max-width: 1180px;
+  }
+
+  & > hr {
+    height: 2px;
+    margin: 36px 0;
+    background-color: var(--color-neutrals-200);
+    border: none;
   }
 }
 
 .primary-content {
   display: flex;
   justify-content: space-between;
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
   
   main {
@@ -206,10 +259,25 @@ select {
 
 .primary-content-main {
   width: 69.38775510204081%;
+
+  hr {
+    margin: 16px 0 16px;
+    border: none;
+    height: 1px;
+    background-color: var(--color-neutrals-200);
+  }
+
+  :first-child {
+    margin-top: 0;
+  }
 }
 
 .primary-content-aside {
   width: 28.57142857142857%;
+  
+  :first-child {
+    margin-top: 0;
+  }
 
   & > p {
     font-size: 13px;
@@ -226,7 +294,7 @@ select {
   display: inline-flex;
   align-items: center;
   border: none;
-  color: #fff;
+  color: var(--color-background);
   background-color: var(--color-brand-800);
   padding: 10px 16px;
   font-size: 14px;
@@ -270,6 +338,11 @@ select {
 }
 
 .aside-header-item {
+
+  &:not(:first-child) {
+    margin-top: 21px;
+  }
+
   display: flex;
   align-items: baseline;
   justify-content: space-between;
@@ -321,4 +394,51 @@ select {
   height:100%;
   width:100%;
   position:absolute;
+}
+
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 1024px) {
+  .primary-content {
+    max-width: 100%;
+    padding: 0 28px;
+  }    
+}
+
+@media screen and (max-width: 724px) {
+  .primary-content {
+    flex-direction: column;
+
+    .primary-content-main {
+      width: 100%;
+    }
+
+    .primary-content-aside {
+      width: 100%;
+    }
+  }    
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+.dark-mode {
+  a {
+    border-color: rgba(#69b9bd, .4);
+  } 
+
+  .button {
+    color: var(--color-background);
+  }
+  
+  .button-secondary {
+    color: var(--color-brand-400);
+  }
+  
+  .button-tertiary {
+    color: inherit;
+  }
 }

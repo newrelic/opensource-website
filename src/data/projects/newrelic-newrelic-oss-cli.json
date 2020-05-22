@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-oss-cli",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-oss-cli",
-  "iconUrl": "https://github.com/newrelic/newrelic-oss-cli/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "",
   "description": "Tooling to support open source projects at New Relic",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "cli" ],
+  "projectTags": [
+    "cli"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Open Source CLI",
     "url": "https://github.com/newrelic/newrelic-oss-cli"
-  },
-  "version": "0.1.0"
+  }
 }

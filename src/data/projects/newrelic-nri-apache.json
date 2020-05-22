@@ -10,16 +10,17 @@
   "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-apache",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-apache",
-  "iconUrl": "https://github.com/newrelic/nri-apache/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Monitoring for the Apache web server",
   "description": "Capture critical performance metrics and inventory reported by Apache web server",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nri" ],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Apache Integration",
     "url": "https://github.com/newrelic/nri-apache"
-  },
-  "version": "0.1.0"
+  }
 }

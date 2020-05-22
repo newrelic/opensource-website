@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/java-log-extensions",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/java-log-extensions",
-  "iconUrl": "https://github.com/newrelic/java-log-extensions/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Extensions for Java logging",
   "description": "Source for the New Relic Java log framework extensions.",
   "ossCategory": "community-project",
   "primaryLanguage": "Java",
-  "projectTags": [ "logging" ],
+  "projectTags": [
+    "logging"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Java Logging",
     "url": "https://github.com/newrelic/java-log-extensions"
-  },
-  "version": "0.1.0"
+  }
 }

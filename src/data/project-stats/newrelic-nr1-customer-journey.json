@@ -9,6 +9,7 @@
     "date": "2020-04-17T04:13:55Z"
   },
   "commits": 201,
+  "lastSixMonthsCommitTotal": 18,
   "contributors": 7,
   "pullRequests": {
     "open": 0
@@ -78,7 +79,11 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-customer-journey/master/catalog/screenshots/.gitkeep",
+    "https://raw.githubusercontent.com/newrelic/nr1-customer-journey/master/catalog/screenshots/nr1-customer-journey-1.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-customer-journey/master/catalog/screenshots/nr1-customer-journey-2.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

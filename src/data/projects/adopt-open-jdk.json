@@ -1,0 +1,61 @@
+{
+  "name": "adopt-open-jdk",
+  "fullName": "adopt-open-jdk",
+  "slug": "adopt-open-jdk",
+  "owner": {
+    "login": "AdoptOpenJDK",
+    "type": "Organization"
+  },
+  "title": "Adopt OpenJDK",
+  "isParentProject": true,
+  "supportUrl": null,
+  "githubUrl": "https://github.com/AdoptOpenJDK",
+  "permalink": "https://opensource.newrelic.com/projects/adopt-open-jdk",
+  "iconUrl": "../images/adopt-open-jdk-icon.jpg",
+  "shortDescription": "Open Java binaries",
+  "description": "The Community and code behind the Build Farm which produces high quality, FREE OpenJDK (Java) binaries.",
+  "ossCategory": null,
+  "projectTags": [ "tools" ],
+  "acceptsContributions": false,
+  "website": {
+    "title": "Adopt OpenJDK",
+    "url": "https://adoptopenjdk.net"
+  },
+  "projectType": "external",
+  "team": [{
+    "name": "Ben Evans",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/81539?s=88&u=ec037a0a4945011f224bf734faf54fd99fd1c8d8&v=4",
+    "role": "",
+    "githubUrl": "https://github.com/kittylyst"
+  },
+  {
+    "name": "Jason Plumb",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/54085190?s=460&u=b8812ef576c38434643500d5c57e79164cc4ee7d&v=4",
+    "role": "",
+    "githubUrl": "https://github.com/breedx-nr"
+  },
+  {
+    "name": "Jason Clark",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/130504?s=460&v=4",
+    "role": "",
+    "githubUrl": "https://github.com/jasonrclark"
+  },
+  {
+    "name": "Tony Mancill",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1195611?s=460&v=4",
+    "role": "",
+    "githubUrl": "https://github.com/tmancill"
+  },
+  {
+    "name": "Cameron Hotchkies",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1108009?s=460&u=83cf85d93292fb59d04aeebb7b58a784930172a7&v=4",
+    "role": "",
+    "githubUrl": "https://github.com/cameronhotchkies"
+  },
+  {
+    "name": "Rich Vanderwal",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1462042?s=460&u=91b3cd118aad9ce2be981483e9fc033e3c094077&v=4",
+    "role": "",
+    "githubUrl": "https://github.com/rvanderwal-newrelic"
+  }]
+}

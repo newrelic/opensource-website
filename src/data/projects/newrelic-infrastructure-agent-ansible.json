@@ -10,16 +10,18 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/infrastructure-agent-ansible",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/infrastructure-agent-ansible",
-  "iconUrl": "https://github.com/newrelic/infrastructure-agent-ansible/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Install the Infra agent",
   "description": "Ansible role for installing New Relic Infrastructure agent",
   "ossCategory": "community-project",
   "primaryLanguage": "Python",
-  "projectTags": [ "tools", "nri" ],
+  "projectTags": [
+    "tools",
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Ansible Role",
     "url": "https://github.com/newrelic/infrastructure-agent-ansible"
-  },
-  "version": "0.1.0"
+  }
 }

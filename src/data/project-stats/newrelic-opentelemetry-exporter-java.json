@@ -1,44 +1,41 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-java",
   "issues": {
-    "open": 8
+    "open": 9
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "v0.3.0",
-    "date": "2020-04-13T19:41:14Z"
+    "name": "v0.4.0",
+    "date": "2020-05-18T21:33:19Z"
   },
-  "commits": 92,
-  "contributors": 3,
+  "commits": 115,
+  "lastSixMonthsCommitTotal": 93,
+  "contributors": 6,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MDg0OTYwOTg=",
-      "title": "Map the Span.Kind to a New Relic attribute",
-      "url": "https://github.com/newrelic/opentelemetry-exporter-java/issues/40",
-      "createdAt": "2020-04-28T17:40:40Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "jkwatson",
-        "id": "MDQ6VXNlcjg1ODczMQ==",
-        "email": "jwatson@newrelic.com",
-        "name": "John Watson"
-      },
-      "number": 40,
-      "createdBy": "John Watson"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 3496648,
+      "login": "jasonjkeller",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/3496648?v=4",
+      "htmlUrl": "https://github.com/jasonjkeller",
+      "contributions": 1
+    },
     {
       "id": 9435570,
       "login": "zuluecho9",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/9435570?v=4",
       "htmlUrl": "https://github.com/zuluecho9",
+      "contributions": 2
+    },
+    {
+      "id": 6374032,
+      "login": "a-feld",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/6374032?v=4",
+      "htmlUrl": "https://github.com/a-feld",
       "contributions": 2
     },
     {
@@ -49,11 +46,18 @@
       "contributions": 5
     },
     {
+      "id": 3150353,
+      "login": "cmouli84",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/3150353?v=4",
+      "htmlUrl": "https://github.com/cmouli84",
+      "contributions": 8
+    },
+    {
       "id": 858731,
       "login": "jkwatson",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/858731?v=4",
       "htmlUrl": "https://github.com/jkwatson",
-      "contributions": 56
+      "contributions": 61
     }
   ],
   "languages": [

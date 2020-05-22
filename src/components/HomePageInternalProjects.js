@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'gatsby';
+import SimpleProjectModule from './SimpleProjectModule';
 
 import styles from './HomePageInternalProjects.module.scss';
 
-const HomePageInternalProjects = data => {
-  const projects = data.data;
+const HomePageInternalProjects = ({ data }) => {
+  const projects = data;
 
   return (
     <div className={styles.featuredInternalProjects}>
@@ -15,35 +15,19 @@ const HomePageInternalProjects = data => {
           ''
         );
         return (
-          <Link
-            to={link}
-            className={styles.featuredInternalProject}
-            key={project.title}
-          >
-            <img
-              src={project.iconUrl}
-              className={styles.featuredInternalProjectIcon}
-              alt={`Icon for ${project.title}`}
-            />
-            <div className={styles.featuredInternalProjectMeta}>
-              <h4 className={styles.featuredInternalProjectTitle}>
-                {project.title}
-              </h4>
-              <p className={styles.featuredInternalProjectDescription}>
-                {project.shortDescription}
-              </p>
-            </div>
-          </Link>
+          <SimpleProjectModule
+            data={project}
+            key={data.title}
+            projectLink={link}
+          />
         );
       })}
     </div>
   );
 };
 
-/* eslint-disable react/no-unused-prop-types */
 HomePageInternalProjects.propTypes = {
   data: PropTypes.array
 };
-/* eslint-enable */
 
 export default HomePageInternalProjects;

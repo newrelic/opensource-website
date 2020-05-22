@@ -10,12 +10,15 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/c-sdk",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/c-sdk",
-  "iconUrl": "https://github.com/newrelic/c-sdk/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Implement custom instrumentation",
   "description": "C SDK for custom instrumentation",
   "ossCategory": "community-project",
   "primaryLanguage": "C",
-  "projectTags": [ "agent", "sdk" ],
+  "projectTags": [
+    "agent",
+    "sdk"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic C SDK",

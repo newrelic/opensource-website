@@ -10,16 +10,18 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-windows-event-logs",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-windows-event-logs",
-  "iconUrl": "https://github.com/newrelic/nri-windows-event-logs/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Exporter for Windows Event logs",
   "description": "Pipes Windows PowerShell Get-EventLog entries to New Relic",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "PowerShell",
-  "projectTags": [ "nri", "exporter" ],
+  "projectTags": [
+    "nri",
+    "exporter"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Windows Event Logs Integration",
     "url": "https://github.com/newrelic/nri-windows-event-logs"
-  },
-  "version": "0.1.0"
+  }
 }

@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/python-agent-extension",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/python-agent-extension",
-  "iconUrl": "https://github.com/newrelic/python-agent-extension/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Extend the New Relic Python Agent",
   "description": "Creat instrumentation packages that plug into the New Relic Python Agent",
   "ossCategory": "example-code",
   "primaryLanguage": "Python",
-  "projectTags": [ "agent" ],
+  "projectTags": [
+    "agent"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Python Agent Extension",
     "url": "https://github.com/newrelic/python-agent-extension"
-  },
-  "version": "0.1.0"
+  }
 }

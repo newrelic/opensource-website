@@ -7,6 +7,8 @@ export const projectFields = graphql`
     name
     title
     fullName
+    slug
+    isParentProject
     stats {
       contributors
       releases
@@ -16,6 +18,7 @@ export const projectFields = graphql`
       }
       searchCategory
       commits
+      lastSixMonthsCommitTotal
       cachedIssues {
         createdAt
         id
@@ -68,6 +71,12 @@ export const projectFields = graphql`
       title
       slug
     }
+    team {
+      name
+      avatarUrl
+      githubUrl
+      role
+    }
     mainContent {
       mdx: parent {
         ... on Mdx {
@@ -82,6 +91,7 @@ export const exploreProjectsFields = graphql`
   fragment exploreProjectsFields on Projects {
     id
     fullName
+    slug
     githubUrl
     stats {
       id
@@ -94,6 +104,7 @@ export const exploreProjectsFields = graphql`
       }
       releases
       screenshots
+      lastSixMonthsCommitTotal
     }
     description
     iconUrl

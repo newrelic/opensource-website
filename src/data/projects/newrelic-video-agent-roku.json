@@ -6,24 +6,22 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "license": {
-    "title": "Apache 2",
-    "fileUrl": "https://github.com/newrelic/video-agent-roku/blob/master/LICENSE"
-  },
   "title": "New Relic Roku Agent",
   "supportUrl": "https://discuss.newrelic.com/t/new-relic-open-source-roku-agent/97802",
   "githubUrl": "https://github.com/newrelic/video-agent-roku",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/video-agent-roku",
-  "iconUrl": "https://github.com/newrelic/video-agent-roku/blob/master/icon.png?raw=true",
-  "shortDescription": "",
-  "description": "New Relic Agent for Roku",
+  "iconUrl": null,
+  "shortDescription": "Instrument the Roku player",
+  "description": "New Relic Browser Agent for Roku",
   "ossCategory": "community-project",
-  "projectTags": [ "agent", "video" ],
+  "projectTags": [
+    "agent",
+    "video"
+  ],
   "primaryLanguage": "Brightscript",
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Roku Agent",
     "url": "https://github.com/newrelic/video-agent-roku"
-  },
-  "version": "1.0.4"
+  }
 }

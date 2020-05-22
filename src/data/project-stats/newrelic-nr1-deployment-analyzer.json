@@ -9,6 +9,7 @@
     "date": "2020-04-01T18:38:09Z"
   },
   "commits": 40,
+  "lastSixMonthsCommitTotal": 9,
   "contributors": 6,
   "pullRequests": {
     "open": 0
@@ -71,7 +72,9 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-deployment-analyzer/master/catalog/screenshots/nr1-deployment-analyzer-1.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

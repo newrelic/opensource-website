@@ -3,90 +3,19 @@
   "issues": {
     "open": 2
   },
-  "releases": 7,
+  "releases": 10,
   "latestRelease": {
-    "name": "v0.6.0",
-    "date": "2020-04-01T13:58:54Z"
+    "name": "v0.6.3",
+    "date": "2020-05-18T15:13:20Z"
   },
-  "commits": 113,
-  "contributors": 10,
+  "commits": 128,
+  "lastSixMonthsCommitTotal": 52,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
-  "cachedContributors": [
-    {
-      "id": 12318362,
-      "login": "lindsayculver",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/12318362?v=4",
-      "htmlUrl": "https://github.com/lindsayculver",
-      "contributions": 1
-    },
-    {
-      "id": 455419,
-      "login": "jthurman42",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
-      "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 1
-    },
-    {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 1
-    },
-    {
-      "id": 13562672,
-      "login": "jaesius",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/13562672?v=4",
-      "htmlUrl": "https://github.com/jaesius",
-      "contributions": 1
-    },
-    {
-      "id": 829269,
-      "login": "mjesun",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/829269?v=4",
-      "htmlUrl": "https://github.com/mjesun",
-      "contributions": 4
-    },
-    {
-      "id": 55203603,
-      "login": "austin-schaefer",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/55203603?v=4",
-      "htmlUrl": "https://github.com/austin-schaefer",
-      "contributions": 4
-    },
-    {
-      "id": 812989,
-      "login": "danielgolden",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/812989?v=4",
-      "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 8
-    },
-    {
-      "id": 197140,
-      "login": "devfreddy",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
-      "htmlUrl": "https://github.com/devfreddy",
-      "contributions": 16
-    },
-    {
-      "id": 30514,
-      "login": "cirne",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/30514?v=4",
-      "htmlUrl": "https://github.com/cirne",
-      "contributions": 22
-    },
-    {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
-      "contributions": 34
-    }
-  ],
+  "cachedContributors": [],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
@@ -99,7 +28,13 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/nr1-github/master/catalog/screenshots/nr1-github-01.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-github/master/catalog/screenshots/nr1-github-02.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-github/master/catalog/screenshots/nr1-github-03.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-github/master/catalog/screenshots/nr1-github-04.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-github/master/catalog/screenshots/nr1-github-05.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

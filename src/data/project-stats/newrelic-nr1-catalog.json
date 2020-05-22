@@ -1,16 +1,35 @@
 {
   "projectFullName": "newrelic/nr1-catalog",
   "issues": {
-    "open": 4
+    "open": 6
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 161,
+  "commits": 196,
+  "lastSixMonthsCommitTotal": 196,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2MTIwMDg1MzA=",
+      "title": "Add react pinned library checks to PR and merge CI",
+      "url": "https://github.com/newrelic/nr1-catalog/issues/36",
+      "createdAt": "2020-05-04T16:32:15Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "joel@joelworrall.com",
+        "name": "Joel Worrall"
+      },
+      "number": 36,
+      "createdBy": "Joel Worrall"
+    }
+  ],
   "cachedContributors": [],
   "languages": [
     {

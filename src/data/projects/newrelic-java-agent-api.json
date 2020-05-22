@@ -10,16 +10,18 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/java-agent-api",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/java-agent-api",
-  "iconUrl": "https://github.com/newrelic/java-agent-api/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Javadocs for the agent API",
   "description": "Java Agent API Javadocs",
   "ossCategory": "example-code",
   "primaryLanguage": null,
-  "projectTags": [ "agent", "docs" ],
+  "projectTags": [
+    "agent",
+    "docs"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Java Agent API Javadocs",
     "url": "http://newrelic.github.io/java-agent-api/javadoc/index.html?com/newrelic/api/agent/package-summary.htmli"
-  },
-  "version": "0.1.0"
+  }
 }

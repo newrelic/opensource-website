@@ -18,7 +18,7 @@
   width: 100%;
   padding: 14px 16px;
   padding-left: 52px;
-  background: #FFFFFF;
+  background: var(--color-background);
   border: 1px solid var(--color-neutrals-400);
   box-sizing: border-box;
   border-radius: 4px;
@@ -59,3 +59,54 @@
     margin-right: 0;
   }
 }
+
+.show-filters-button {
+  display: none;  
+  font-size: 14px;
+  color: var(--color-brand-800);
+  border-bottom: 1px dotted var(--color-brand-800);
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
+@media screen and (max-width: 600px) {
+  .search-filters {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .search-filter {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mobile-filters-hidden {
+    margin-top: -10px;
+    
+    .search-filter {
+      display: none;
+    }    
+    
+    .showFilters {
+      display: none;
+    }
+    
+    .show-filters-button {
+      display: inline-flex;
+      align-items: center;
+
+      svg {
+        margin-left: 4px;
+      }
+    }
+  }
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================

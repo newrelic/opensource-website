@@ -4,14 +4,23 @@
     "open": 0
   },
   "releases": 0,
-  "commits": 5,
-  "contributors": 1,
+  "latestRelease": null,
+  "commits": 6,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 6426523,
+      "login": "veextee",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6426523?v=4",
+      "htmlUrl": "https://github.com/veextee",
+      "contributions": 1
+    },
     {
       "id": 13562672,
       "login": "jaesius",
@@ -21,5 +30,13 @@
     }
   ],
   "languages": [],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

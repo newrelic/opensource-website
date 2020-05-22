@@ -4,7 +4,12 @@
     "open": 1
   },
   "releases": 1,
+  "latestRelease": {
+    "name": "1.0.0",
+    "date": "2020-03-19T04:18:28Z"
+  },
   "commits": 1,
+  "lastSixMonthsCommitTotal": 1,
   "contributors": 1,
   "pullRequests": {
     "open": 0
@@ -27,5 +32,13 @@
       "color": "#f1e05a"
     }
   ],
-  "screenshots": []
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTEz",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "http://choosealicense.com/licenses/mit/",
+    "featured": true,
+    "key": "mit"
+  }
 }

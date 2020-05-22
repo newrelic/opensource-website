@@ -10,16 +10,18 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/k8s-webhook-cert-manager",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/k8s-webhook-cert-manager",
-  "iconUrl": "https://github.com/newrelic/k8s-webhook-cert-manager/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Generate compatible certificates",
   "description": "Generate certificate suitable for use with any Kubernetes Mutating Webhook.",
   "ossCategory": "example-code",
   "primaryLanguage": "Shell",
-  "projectTags": [ "k8", "tools" ],
+  "projectTags": [
+    "k8",
+    "tools"
+  ],
   "acceptsContributions": false,
   "website": {
     "title": "Kubernetes Webhook Certificate Manager",
     "url": "https://github.com/newrelic/k8s-webhook-cert-manager"
-  },
-  "version": "0.1.0"
+  }
 }

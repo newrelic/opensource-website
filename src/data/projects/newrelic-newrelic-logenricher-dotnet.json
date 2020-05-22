@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-logenricher-dotnet",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-logenricher-dotnet",
-  "iconUrl": "https://github.com/newrelic/newrelic-logenricher-dotnet/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Extensions for common .NET logging frameworks",
   "description": "Extensions supporting New Relic Logging (Logs In Context)",
   "ossCategory": "example-code",
   "primaryLanguage": "C#",
-  "projectTags": [ "logging" ],
+  "projectTags": [
+    "logging"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Logging Extensions for .NET",
     "url": "https://github.com/newrelic/newrelic-logenricher-dotnet"
-  },
-  "version": "0.1.0"
+  }
 }

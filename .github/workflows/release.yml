@@ -1,0 +1,66 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+  repository_dispatch:
+    types: [semantic-release]
+
+jobs:
+  job-checkout-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      # Needs work, this only caches/restores npm cache files, not node_modules (which is explicitly not recommended)
+      # See https://github.com/actions/cache/blob/master/examples.md#node---npm
+      - name: Cache Deps
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: gatsby build
+
+  # job-test # needed??
+
+  job-generate-release:
+    runs-on: ubuntu-latest
+    needs: job-checkout-and-build
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Download Cached Deps
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release

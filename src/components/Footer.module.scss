@@ -1,5 +1,6 @@
 .footer-container {
   width: 100%;
+  box-sizing: border-box;
   padding: 20px 0;
   margin: 40px auto 0;
   align-items: center;
@@ -30,13 +31,13 @@
   background-repeat: no-repeat;
   padding-right: 15px;
   border: none;
-  
-  &:after {
+
+  &.has-edit-button:after {
     content: "";
     height: 37px;
     width: 1px;
     position: absolute;
-    right: -0px;
+    right: 0;
     top: 4px;
     margin-left: 15px;
     border-right: 1px dotted var(--footer-text-color);
@@ -47,9 +48,12 @@
 
 .meta {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-left: 15px;
   font-size: 12px;
+  align-self:center;
+  justify-content: center;
+  align-items: baseline;
   color: var(--footer-text-color);
 
   small {
@@ -57,18 +61,28 @@
   }
 }
 
-.footer-legal {
-  margin-bottom: 2px;
+.version:after {
+  content: "";
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block;
+  height: 14px;
+  width: 0;
+  opacity: .5;
+  border-right: 1px dotted var(--footer-text-color); 
+  position: relative;
+  top: 2px;
 }
+
 
 .footer-nav-links {
   display: flex;
   list-style-type: none;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .footer-nav-link-item {
-  margin-right: 24px;
+  margin-right: 20px;
   color: var(--color-neutrals-900);
 
   &:last-child {
@@ -86,13 +100,48 @@
   }
 }
 
+.edit-button {
+  display: flex;
+  margin-left: 15px;
+  padding: 4px 7px;
+  position: relative; 
+  top: 1px;
+  font-size: 12px;
+  border: 1px solid var(--footer-text-color);
+  border-radius: 2px;
+  color: var(--footer-text-color);
+  opacity: .8;
+  transition: all .1s var(--ease-out-quad);
+
+  &:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+.edit-button-icon {
+  margin-right: 5px;
+}
+
+// ==============================================================
+// Responsive styles
+// ==============================================================
+
 @media screen and (max-width: 1240px) {
   .footer-container {
     padding: 20px 28px;
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
+  .footer-container {
+    padding: 20px 0;
+  }
+
   .footer-nav-links {
     display: none;
   }
@@ -109,18 +158,40 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
+
   .footer-logo-container {
-    flex-direction: column;
+    margin: 0 auto 10px;
   }
 
   .footer-logo {
-    margin-bottom: 10px;
-    padding: 0;
+    margin-bottom: 0px;
+    padding-right:8px;
     
-    &:after {
-      display: none;
+    &:not(.has-edit-button) {
+      padding: 0;
+
+      &:after {
+        display: none;
+      }
     }
   }
 
+  .meta {
+    margin-left: 0;
+  }
+
+  .footer-contents {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+// ==============================================================
+// Dark mode
+// ==============================================================
+:global(.dark-mode) {
+  .footer-container {
+    background-color: var(--color-neutrals-050);
+  }
 }

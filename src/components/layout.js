@@ -7,21 +7,35 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet';
 
 import Header from './header';
 import Footer from './Footer';
 import './styles.scss';
+import favicon from '../images/favicon.svg';
 
-const Layout = ({ children, hasHeaderBg, fullWidth }) => {
+const Layout = ({
+  children,
+  hasHeaderBg,
+  fullWidth,
+  className,
+  mainClassName,
+  editLink
+}) => {
   return (
-    <div className="layout-container">
+    <div className={`layout-container ${className}`}>
+      <Helmet>
+        <link rel="icon" href={favicon} />
+      </Helmet>
       <Header hasHeaderBg={hasHeaderBg} />
       <main
-        className={`layout-container-main ${fullWidth ? `full-width` : ''}`}
+        className={`layout-container-main ${
+          fullWidth ? `full-width` : ''
+        } ${mainClassName && mainClassName}`}
       >
         {children}
       </main>
-      <Footer />
+      <Footer editLink={editLink} />
     </div>
   );
 };
@@ -29,7 +43,10 @@ const Layout = ({ children, hasHeaderBg, fullWidth }) => {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   hasHeaderBg: PropTypes.bool,
-  fullWidth: PropTypes.bool
+  fullWidth: PropTypes.bool,
+  className: PropTypes.string,
+  mainClassName: PropTypes.string,
+  editLink: PropTypes.string
 };
 
 export default Layout;

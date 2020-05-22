@@ -10,16 +10,17 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-perfmon",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-perfmon",
-  "iconUrl": "https://github.com/newrelic/nri-perfmon/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Perfmon/WMI queries and events",
   "description": "Windows Perfmon/WMI query & event results to New Relic",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "C#",
-  "projectTags": [ "nri" ],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Perfmon Integration",
     "url": "https://github.com/newrelic/nri-perfmon"
-  },
-  "version": "0.1.0"
+  }
 }

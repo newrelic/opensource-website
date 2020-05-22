@@ -1,19 +1,14 @@
 {
   "navigation": [
     {
-      "label": "Home",
-      "link": "/",
-      "order": 0
+      "label": "External Projects",
+      "link": "/external-projects",
+      "order": 1
     },
     {
-      "label": "Explore Projects",
+      "label": "New Relic Projects",
       "link": "/explore-projects",
       "order": 2
-    },
-    {
-      "label": "Blog",
-      "link": "/blog",
-      "order": 3
     }
   ]
 }
