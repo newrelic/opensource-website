@@ -9,7 +9,8 @@ import avatarPlaceholder from '../images/avatar-placeholder.png';
 import avatarPlaceholderLight from '../images/avatar-placeholder-light.png';
 
 const AsideNavigationItem = ({ icon, label, subLabel, to }) => {
-  const darkMode = useDarkMode(false);
+  const darkModeStatus = localStorage.getItem('darkMode');
+  const darkMode = useDarkMode(darkModeStatus);
 
   return (
     <a

@@ -55,7 +55,8 @@ export const query = graphql`
 const ProjectPage = props => {
   const { data } = props;
 
-  const darkMode = useDarkMode(false);
+  const darkModeStatus = localStorage.getItem('darkMode');
+  const darkMode = useDarkMode(darkModeStatus);
 
   const renderNotFound = () => {
     return <h1>Project not found</h1>;

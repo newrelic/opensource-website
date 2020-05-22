@@ -12,7 +12,8 @@ import styles from '../pages/explore-projects.module.scss';
 
 const ProjectCard = ({ project: p }) => {
   const link = p.permalink.replace('https://opensource.newrelic.com', '');
-  const darkMode = useDarkMode(false);
+  const darkModeStatus = localStorage.getItem('darkMode');
+  const darkMode = useDarkMode(darkModeStatus);
 
   return (
     <Link className={styles.projectContainer} key={p.id} to={link}>

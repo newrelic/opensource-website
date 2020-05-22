@@ -74,7 +74,8 @@ const ExploreProjectsPage = props => {
 
   const featuredProjectsToShow = 3;
 
-  const darkMode = useDarkMode(false);
+  const darkModeStatus = localStorage.getItem('darkMode');
+  const darkMode = useDarkMode(darkModeStatus);
 
   const renderFeaturedProjects = ({ projects, featuredProjectsToShow }) => {
     return projects.slice(0, featuredProjectsToShow).map(p => {
