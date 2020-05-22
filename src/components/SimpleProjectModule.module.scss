@@ -78,6 +78,7 @@
 :global(.dark-mode) {
     .project {
     border: 1px solid var(--color-neutrals-400);
+    box-shadow: 0px 0.249053px 0.304398px rgba(3, 15, 16, 0.0337375), 0px 0.598509px 0.731511px rgba(3, 15, 16, 0.0484671), 0px 1.12694px 1.37737px rgba(3, 15, 16, 0.06), 0px 2.01027px 2.45699px rgba(3, 15, 16, 0.0715329), 0px 3.75998px 4.59554px rgba(3, 15, 16, 0.0862625), 0px 9px 11px rgba(3, 15, 16, 0.12);
   
     &:hover {
       transform: translateY(-2px);
