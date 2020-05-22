@@ -35,9 +35,9 @@ export const query = graphql`
         ...projectFields
       }
     }
-    w3cTraceContext: allProjects(
+    w3cDistributedTracingWg: allProjects(
       filter: {
-        slug: { eq: "w3c-trace-context" }
+        slug: { eq: "w3c-distributed-tracing-wg" }
         projectType: { eq: "external" }
       }
     ) {

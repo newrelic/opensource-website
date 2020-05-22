@@ -30,9 +30,9 @@ export const query = graphql`
         ...projectFields
       }
     }
-    w3cTraceContext: allProjects(
+    w3cDistributedTracingWg: allProjects(
       filter: {
-        slug: { eq: "w3c-trace-context" }
+        slug: { eq: "w3c-distributed-tracing-wg" }
         projectType: { eq: "external" }
       }
     ) {
@@ -63,16 +63,16 @@ export const query = graphql`
 `;
 const ExternalProjects = ({ data }) => {
   const openTelemetry = get(data, 'openTelemetry.nodes[0]');
-  const w3cTraceContext = get(data, 'w3cTraceContext.nodes[0]');
+  const w3cDistributedTracingWg = get(data, 'w3cDistributedTracingWg.nodes[0]');
   const adoptOpenJdk = get(data, 'adoptOpenJdk.nodes[0]');
-  const externalProjects = [openTelemetry, w3cTraceContext, adoptOpenJdk];
+  const externalProjects = [openTelemetry, w3cDistributedTracingWg, adoptOpenJdk];
   const otherProjectsData = get(data, 'otherProjects.edges', []).map(
     i => i.node
   );
   const otherProjects = otherProjectsData.filter(project => {
     if (
       project.fullName === openTelemetry.fullName ||
-      project.fullName === w3cTraceContext.fullName ||
+      project.fullName === w3cDistributedTracingWg.fullName ||
       project.fullName === adoptOpenJdk.fullName
     ) {
       return false;

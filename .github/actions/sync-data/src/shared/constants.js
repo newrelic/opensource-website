@@ -22,7 +22,7 @@ const EXCLUDED_PROJECTS = [
   'open-telemetry/opentelemetry-go',
   'open-telemetry/opentelemetry-java',
   'open-telemetry',
-  'w3c-trace-context',
+  'w3c-distributed-tracing-wg',
   'newrelic/developer-toolkit',
   'newrelic/extends_newrelic_rpm',
   'newrelic/open-source-office',

@@ -1,0 +1,52 @@
+{
+  "name": "distributed-tracing-wg",
+  "fullName": "w3c-distributed-tracing-wg",
+  "slug": "w3c-distributed-tracing-wg",
+  "owner": {
+    "login": "w3c",
+    "type": "Organization"
+  },
+  "title": "W3C Distributed Tracing Working Group",
+  "supportUrl": null,
+  "isParentProject": true,
+  "githubUrl": "https://github.com/w3c/distributed-tracing-wg/",
+  "permalink": "https://opensource.newrelic.com/projects/w3c-distributed-tracing-wg",
+  "iconUrl": "../images/w3c-icon.jpg",
+  "shortDescription": "Specifications for distributed tracing and context propagation",
+  "description": "Defining common standards for propagating traces and context between tracing tools.",
+  "ossCategory": null,
+  "projectTags": [ "opentelemetry" ],
+  "acceptsContributions": false,
+  "website": {
+    "title": "Distributed Tracing Working Group",
+    "url": "https://www.w3.org/2018/distributed-tracing/"
+  },
+  "projectType": "external",
+  "subProjects": [ "w3c-trace-context", "w3c-correlation-context", "w3c-trace-context-binary", "w3c-trace-response"],
+  "team": [{
+    "name": "Erika Arnold",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6353483?s=460&u=0d00224e95bd623517640e2cea1b12b15d7aea95&v=4",
+    "role": "Contributor",
+    "githubUrl": "https://github.com/erabug"
+  },{
+    "name": "Justin Foote",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3170392?s=460&v=4",
+    "role": "Contributor",
+    "githubUrl": "https://github.com/justinfoote"
+  },{
+    "name": "Zeke Rosenberg",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/5413110?s=460&v=4",
+    "role": "Contributor",
+    "githubUrl": "https://github.com/zrosenberg"
+  },{
+    "name": "Victor Soares",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/21367523?s=460&u=3583c3abb055f9c127101ba2cc4589e17aefb847&v=4",
+    "role": "Contributor",
+    "githubUrl": "https://github.com/victorNewRelic"
+  },{
+    "name": "Tyler Yahn",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5543599?s=460&u=f34eb596f4aeb4bff9eb2d57975df03f724a7968&v=4",
+    "role": "Contributor",
+    "githubUrl": "https://github.com/MrAlias"
+  }]
+}
