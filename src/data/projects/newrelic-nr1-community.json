@@ -10,12 +10,14 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-community",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-community",
-  "iconUrl": "https://github.com/newrelic/nr1-community/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "NR1 SDK JS component extensions",
   "description": "An open-source library of React components for building on New Relic One's platform",
   "ossCategory": "community-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "lib" ],
+  "projectTags": [
+    "lib"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic One Community Library",

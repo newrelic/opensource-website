@@ -10,12 +10,14 @@
   "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-cassandra",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-cassandra",
-  "iconUrl": "https://github.com/newrelic/nri-cassandra/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Monitoring for Apache Cassandra databases",
   "description": "Capture critical performance metrics and inventory reported by Apache Cassandra databases",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nri" ],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Cassandra Integration",

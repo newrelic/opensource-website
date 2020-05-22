@@ -10,12 +10,14 @@
   "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-nginx",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-nginx",
-  "iconUrl": "https://github.com/newrelic/nri-nginx/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Monitoring for Nginx web servers",
   "description": "Capture critical performance metrics and inventory reported by Nginx web servers",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nri" ],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Nginx Integration",

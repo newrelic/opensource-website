@@ -10,12 +10,15 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr-integrations-builder",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr-integrations-builder",
-  "iconUrl": "https://github.com/newrelic/nr-integrations-builder/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Extend the New Relic Infrastructure Agent",
   "description": "Command-line tool for scaffolding new New Relic Infrastructure integrations",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "sdk", "nri" ],
+  "projectTags": [
+    "sdk",
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Integrations Builder",

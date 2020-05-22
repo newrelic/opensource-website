@@ -10,12 +10,14 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/newrelic-airflow-plugin",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-airflow-plugin",
-  "iconUrl": "https://github.com/newrelic/newrelic-airflow-plugin/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Apache Airflow exporter",
   "description": "Send Apache Airflow metrics to New Relic.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Python",
-  "projectTags": [ "exporter" ],
+  "projectTags": [
+    "exporter"
+  ],
   "acceptsContributions": false,
   "website": {
     "title": "New Relic Airflow Metric Exporter",

@@ -10,12 +10,15 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-bootstrap-theme",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-bootstrap-theme",
-  "iconUrl": "https://github.com/newrelic/nr1-bootstrap-theme/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Bootstrap theme for New Relic One apps",
   "description": "Apply New Relic styling to bootstrap for use in libraries like reactstrap",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "CSS",
-  "projectTags": [ "lib", "nr1-app" ],
+  "projectTags": [
+    "lib",
+    "nr1-app"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic One Bootstrap Theme",

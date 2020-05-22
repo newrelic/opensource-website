@@ -10,12 +10,16 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/go-insights",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/go-insights",
-  "iconUrl": "https://github.com/newrelic/go-insights/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Command line utility for Insights",
   "description": "New Relic Insights API Golang client and CLI tool",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Go",
-  "projectTags": [ "cli", "tools", "dev-toolkit" ],
+  "projectTags": [
+    "cli",
+    "tools",
+    "dev-toolkit"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Developer Toolkit",

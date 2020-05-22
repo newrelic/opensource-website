@@ -10,12 +10,14 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic-experimental/newrelic-serverless-github-webhook",
   "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/newrelic-serverless-github-webhook",
-  "iconUrl": "https://github.com/newrelic-experimental/newrelic-serverless-github-webhook/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Track GitHub events in New Relic",
   "description": "Function to move GitHub webhook events to NRDB using the Insights Collector endpoint.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "exporter" ],
+  "projectTags": [
+    "exporter"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Serverless GitHub Webhook",

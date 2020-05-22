@@ -10,12 +10,14 @@
   "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
   "githubUrl": "https://github.com/newrelic/nri-consul",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-consul",
-  "iconUrl": "https://github.com/newrelic/nri-consul/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Monitoring for Hashicorp Consul clusters",
   "description": "Capture critical performance metrics and inventory reported by Hashicorp Consul clusters",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "nri" ],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Consul Integration",
