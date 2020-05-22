@@ -10,11 +10,14 @@
   "supportUrl": "https://discuss.newrelic.com/t/videojs-tracker/100305",
   "githubUrl": "https://github.com/newrelic/video-videojs-js",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/video-videojs-js",
-  "iconUrl": "https://github.com/newrelic/video-videojs-js/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Instrument the VideoJS player",
   "description": "New Relic Browser Agent that instruments VideoJS player",
   "ossCategory": "community-project",
-  "projectTags": [ "agent", "video" ],
+  "projectTags": [
+    "agent",
+    "video"
+  ],
   "primaryLanguage": "JaavScript",
   "acceptsContributions": true,
   "website": {

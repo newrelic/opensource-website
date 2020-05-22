@@ -10,12 +10,14 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/node-test-utilities",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/node-test-utilities",
-  "iconUrl": "https://github.com/newrelic/node-test-utilities/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Test helper libraries",
   "description": "Test helpers for Node.js instrumentation modules",
   "ossCategory": "example-code",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "lib" ],
+  "projectTags": [
+    "lib"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Node Test Utilities",

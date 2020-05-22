@@ -10,12 +10,16 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/node-newrelic-superagent",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/node-newrelic-superagent",
-  "iconUrl": "https://github.com/newrelic/node-newrelic-superagent/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Node Agent instumentation for SuperAgent",
   "description": "SuperAgent instrumentation for New Relic's Node Agent",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "agent", "exporter", "lib" ],
+  "projectTags": [
+    "agent",
+    "exporter",
+    "lib"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic SuperAgent (Node)",

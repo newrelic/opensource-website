@@ -10,12 +10,14 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/statsd-infra-backend",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/statsd-infra-backend",
-  "iconUrl": "https://github.com/newrelic/statsd-infra-backend/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "StatsD data to New Relic",
   "description": "StatsD backend for sending metrics to New Relic Infrastructure",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "nri" ],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastucture StatsD Integration (Node)",

@@ -10,12 +10,14 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/fluentd-helm",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/fluentd-helm",
-  "iconUrl": "https://github.com/newrelic/fluentd-helm/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "FluentD Helm chart for New Relic Logging",
   "description": "FluentD Helm chart for New Relic Logging",
   "ossCategory": "example-code",
   "primaryLanguage": "Smarty",
-  "projectTags": [ "logging" ],
+  "projectTags": [
+    "logging"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "FluentD Helm chart",

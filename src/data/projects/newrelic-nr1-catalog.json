@@ -10,12 +10,15 @@
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nr1-catalog",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-catalog",
-  "iconUrl": "https://github.com/newrelic/nr1-catalog/blob/master/icon.png?raw=true",
+  "iconUrl": null,
   "shortDescription": "Submit applications",
   "description": "New Relic One Catalog application submission process",
   "ossCategory": "community-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [ "tools", "nr1-app" ],
+  "projectTags": [
+    "tools",
+    "nr1-app"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic One Catalog Process",
