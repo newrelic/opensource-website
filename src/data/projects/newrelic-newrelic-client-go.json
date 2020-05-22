@@ -7,15 +7,19 @@
     "type": "Organization"
   },
   "title": "New Relic Go Client",
-  "supportUrl": null,
+  "supportUrl": "https://discuss.newrelic.com/c/build-on-new-relic/developer-toolkit",
   "githubUrl": "https://github.com/newrelic/newrelic-client-go",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-client-go",
-  "iconUrl": null,
-  "shortDescription": "Example code for Golong",
-  "description": "New Relic Client for the Go programming language",
-  "ossCategory": "example-code",
+  "iconUrl": "https://raw.githubusercontent.com/newrelic/developer-toolkit/master/icon.png",
+  "shortDescription": "New Relic Client for the Go programming language",
+  "description": "The New Relic Client provides the building blocks for tools in the Developer Toolkit, enabling quick access to the suite of New Relic APIs. As a library, it can also be leveraged within your own custom applications.",
+  "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [ "tools" ],
+  "projectTags": [
+    "developer-toolkit",
+    "golang",
+    "tools"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Go Client",
