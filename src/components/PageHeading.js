@@ -2,18 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { startCase } from 'lodash';
 import Image from './Image';
-import useDarkMode from 'use-dark-mode';
 
 import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
 import styles from './PageHeading.module.scss';
+import withDarkMode from './withDarkMode';
 
 const PageHeading = props => {
-  const local = typeof window !== `undefined` ? window.localStorage : null;
-  const darkModeStatus = local && local.getItem('darkMode');
+  const { darkMode } = props;
 
-  const darkMode = useDarkMode(darkModeStatus);
   const renderTags = () => {
     const tags = props.tags.map((tag, index) => {
       if (tag.name !== 'version') {
@@ -105,7 +103,8 @@ PageHeading.propTypes = {
   tags: PropTypes.array,
   hasSeparator: PropTypes.bool,
   blogMeta: PropTypes.string,
-  callToAction: PropTypes.func
+  callToAction: PropTypes.func,
+  darkMode: PropTypes.bool
 };
 
-export default PageHeading;
+export default withDarkMode(PageHeading);

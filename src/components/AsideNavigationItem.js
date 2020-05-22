@@ -1,19 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Image from './Image';
-import useDarkMode from 'use-dark-mode';
 
 import styles from './AsideNavigationItem.module.scss';
 import chevronIcon from '../images/icon-chevron-right.svg';
 import avatarPlaceholder from '../images/avatar-placeholder.png';
 import avatarPlaceholderLight from '../images/avatar-placeholder-light.png';
+import withDarkMode from './withDarkMode';
 
-const AsideNavigationItem = ({ icon, label, subLabel, to }) => {
-  const local = typeof window !== `undefined` ? window.localStorage : null;
-  const darkModeStatus = local && local.getItem('darkMode');
-
-  const darkMode = useDarkMode(darkModeStatus);
-
+const AsideNavigationItem = ({ icon, label, subLabel, to, darkMode }) => {
   return (
     <a
       href={to}
@@ -47,7 +42,8 @@ AsideNavigationItem.propTypes = {
   icon: PropTypes.string,
   label: PropTypes.string,
   subLabel: PropTypes.string,
-  to: PropTypes.string
+  to: PropTypes.string,
+  darkMode: PropTypes.bool
 };
 
-export default AsideNavigationItem;
+export default withDarkMode(AsideNavigationItem);

@@ -1,17 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import useDarkMode from 'use-dark-mode';
 import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
 import styles from './SimpleProjectModule.module.scss';
 
-const SimpleProjectModule = ({ data: project, className }) => {
-  const local = typeof window !== `undefined` ? window.localStorage : null;
-  const darkModeStatus = local && local.getItem('darkMode');
+import withDarkMode from './withDarkMode';
 
-  const darkMode = useDarkMode(darkModeStatus);
+const SimpleProjectModule = ({ data: project, className, darkMode }) => {
   const link = project.permalink.replace('https://opensource.newrelic.com', '');
   const placeholderIcon = darkMode.value
     ? placeholderProjectIconLight
@@ -42,7 +39,8 @@ const SimpleProjectModule = ({ data: project, className }) => {
 
 SimpleProjectModule.propTypes = {
   data: PropTypes.array,
-  className: PropTypes.string
+  className: PropTypes.string,
+  darkMode: PropTypes.bool
 };
 
-export default SimpleProjectModule;
+export default withDarkMode(SimpleProjectModule);

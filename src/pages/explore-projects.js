@@ -10,7 +10,7 @@ import PageHeading from '../components/PageHeading';
 import ProjectSearch from '../components/ProjectSearch';
 import ProjectCard from '../components/ProjectCard';
 import Image from '../components/Image';
-import useDarkMode from 'use-dark-mode';
+import withDarkMode from '../components/withDarkMode';
 
 import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
@@ -59,7 +59,7 @@ export const query = graphql`
 
 const ExploreProjectsPage = props => {
   const [projectsToShow, setProjectsToShow] = useState(23);
-  const { data } = props;
+  const { data, darkMode } = props;
 
   const allProjects = get(data, 'allProjects.edges', []).map(p => p.node);
   const allLanguages = get(data, 'allLanguages.group', []);
@@ -73,11 +73,6 @@ const ExploreProjectsPage = props => {
   };
 
   const featuredProjectsToShow = 3;
-
-  const local = typeof window !== `undefined` ? window.localStorage : null;
-  const darkModeStatus = local && local.getItem('darkMode');
-
-  const darkMode = useDarkMode(darkModeStatus);
 
   const renderFeaturedProjects = ({ projects, featuredProjectsToShow }) => {
     return projects.slice(0, featuredProjectsToShow).map(p => {
@@ -230,6 +225,7 @@ const ExploreProjectsPage = props => {
 };
 
 ExploreProjectsPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
+  darkMode: PropTypes.bool
 };
-export default ExploreProjectsPage;
+export default withDarkMode(ExploreProjectsPage);

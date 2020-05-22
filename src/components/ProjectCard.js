@@ -3,19 +3,15 @@ import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import { get } from 'lodash';
 import Image from './Image';
-import useDarkMode from 'use-dark-mode';
 
 import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
 import styles from '../pages/explore-projects.module.scss';
+import withDarkMode from './withDarkMode';
 
-const ProjectCard = ({ project: p }) => {
+const ProjectCard = ({ project: p, darkMode }) => {
   const link = p.permalink.replace('https://opensource.newrelic.com', '');
-  const local = typeof window !== `undefined` ? window.localStorage : null;
-  const darkModeStatus = local && local.getItem('darkMode');
-
-  const darkMode = useDarkMode(darkModeStatus);
 
   return (
     <Link className={styles.projectContainer} key={p.id} to={link}>
@@ -52,7 +48,8 @@ const ProjectCard = ({ project: p }) => {
 };
 
 ProjectCard.propTypes = {
-  project: PropTypes.object
+  project: PropTypes.object,
+  darkMode: PropTypes.bool
 };
 
-export default ProjectCard;
+export default withDarkMode(ProjectCard);

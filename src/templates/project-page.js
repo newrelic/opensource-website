@@ -6,7 +6,6 @@ import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
 import { get } from 'lodash';
 import { Edit } from 'react-feather';
-import useDarkMode from 'use-dark-mode';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -31,6 +30,8 @@ import openIssueLightIcon from '../images/icon-open-issue-light.svg';
 import iconGitHubWhite from '../images/icon-github-white.svg';
 import iconGitHubDarkGreen from '../images/icon-github-dark-green.svg';
 
+import withDarkMode from '../components/withDarkMode';
+
 export const query = graphql`
   query NewRelicProjects($slug: String, $pagePath: String) {
     project: allProjects(
@@ -53,11 +54,7 @@ export const query = graphql`
 `;
 
 const ProjectPage = props => {
-  const { data } = props;
-
-  const local = typeof window !== `undefined` ? window.localStorage : null;
-  const darkModeStatus = local && local.getItem('darkMode');
-  const darkMode = useDarkMode(darkModeStatus);
+  const { data, darkMode } = props;
 
   const renderNotFound = () => {
     return <h1>Project not found</h1>;
@@ -93,7 +90,7 @@ const ProjectPage = props => {
   const [screenshotModalActive, setScreenshotModalActive] = useState(false);
   const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(0);
 
-  const renderIssues = (project, projectStats) => {
+  const renderIssues = ({ projectStats, darkMode }) => {
     return projectStats.cachedIssues.map(issue => {
       return (
         <a
@@ -545,7 +542,7 @@ const ProjectPage = props => {
                     </a>
                   </div>
 
-                  {projectStats && renderIssues(project, projectStats)}
+                  {projectStats && renderIssues({ projectStats, darkMode })}
                   {!projectStats && renderEmptyIssues()}
                 </>
               )}
@@ -565,7 +562,8 @@ const ProjectPage = props => {
   );
 };
 ProjectPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
+  darkMode: PropTypes.bool
 };
 
-export default ProjectPage;
+export default withDarkMode(ProjectPage);

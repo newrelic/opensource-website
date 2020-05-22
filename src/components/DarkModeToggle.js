@@ -1,16 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { Moon, Sun } from 'react-feather';
-import useDarkMode from 'use-dark-mode';
+import withDarkMode from './withDarkMode';
 
-const DarkModeToggle = () => {
-  const local = typeof window !== `undefined` ? window.localStorage : null;
-  const currentDarkModeStatus = local && local.getItem('darkMode');
-
-  const darkMode =
-    currentDarkModeStatus !== null
-      ? useDarkMode(currentDarkModeStatus)
-      : useDarkMode(false);
-
+const DarkModeToggle = ({ darkMode }) => {
   return (
     <div className="dark-mode-toggle">
       {darkMode.value ? (
@@ -29,5 +22,8 @@ const DarkModeToggle = () => {
     </div>
   );
 };
+DarkModeToggle.propTypes = {
+  darkMode: PropTypes.bool
+};
 
-export default DarkModeToggle;
+export default withDarkMode(DarkModeToggle);
