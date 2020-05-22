@@ -79,12 +79,11 @@ const OssCategoryPage = ({ data }) => {
     });
 
   return (
-    <Layout hasHeaderBg>
+    <Layout>
       <SEO title="A single oss category page" />
       <PageHeading
         title="New Relic Open Source Categories"
         subheader="Every public repository in the New Relic and New Relic Experimental GitHub organizations leverages one of the following categories"
-        hasSeparator
       />
       <div className="primary-content">
         <aside className={`primary-content-aside ${styles.aside}`}>

@@ -36,6 +36,8 @@ const PageHeading = props => {
             <span className={styles.tagValue}>{tag.value}</span>
           </li>
         );
+      } else {
+        return null;
       }
     });
 
@@ -91,7 +93,7 @@ const PageHeading = props => {
 
 PageHeading.defaultProps = {
   showIcon: false
-}
+};
 
 PageHeading.propTypes = {
   title: PropTypes.string,
