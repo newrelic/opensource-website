@@ -1,32 +1,32 @@
-import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
-/*
- * This component is built using `gatsby-image` to automatically serve optimized
- * images with lazy loading and reduced file sizes. The image is loaded using a
- * `useStaticQuery`, which allows us to load the image from directly within this
- * component, rather than having to pass the image data down from pages.
- *
- * For more information, see the docs:
- * - `gatsby-image`: https://gatsby.dev/gatsby-image
- * - `useStaticQuery`: https://www.gatsbyjs.org/docs/use-static-query/
- */
+const Image = props => {
+  const [currentSrc, setCurrentSrc] = useState(props.src);
+  const [errored, setErrored] = useState(false);
 
-const Image = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
+  const onError = () => {
+    if (!errored) {
+      setCurrentSrc(props.fallbackSrc);
+      setErrored(true);
     }
-  `);
+  };
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />;
+  const { src, fallbackSrc, ...remainingProps } = props;
+
+  return (
+    // Keep in mind that sometimes `null` is provided as the value for project icons
+    <img
+      src={currentSrc !== null ? currentSrc : 'do me a favor and fail'}
+      onError={onError}
+      {...remainingProps}
+    />
+  );
+};
+
+Image.propTypes = {
+  src: PropTypes.string,
+  fallbackSrc: PropTypes.string
 };
 
 export default Image;

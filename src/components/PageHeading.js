@@ -1,8 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { startCase } from 'lodash';
-import { handleBrokenImages } from '../utils';
+import Image from './Image';
 import useDarkMode from 'use-dark-mode';
+
+import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
+import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
 import styles from './PageHeading.module.scss';
 
@@ -50,16 +53,15 @@ const PageHeading = props => {
     >
       {props.icon ? (
         <div className={styles.pageHeadingIconContainer}>
-          <img
-            className={styles.pageHeadingIcon}
-            alt="page heading icon"
+          <Image
             src={props.icon}
-            onError={event =>
-              handleBrokenImages({
-                event: event,
-                darkModeActive: darkMode.value
-              })
+            fallbackSrc={
+              darkMode.value
+                ? placeholderProjectIconLight
+                : placeholderProjectIcon
             }
+            alt={`Icon for ${props.title}`}
+            className={styles.pageHeadingIcon}
           />
         </div>
       ) : (

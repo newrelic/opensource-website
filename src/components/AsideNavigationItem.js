@@ -1,12 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { handleBrokenImages } from '../utils';
+import Image from './Image';
+import useDarkMode from 'use-dark-mode';
 
 import styles from './AsideNavigationItem.module.scss';
 import chevronIcon from '../images/icon-chevron-right.svg';
 import avatarPlaceholder from '../images/avatar-placeholder.png';
+import avatarPlaceholderLight from '../images/avatar-placeholder-light.png';
 
 const AsideNavigationItem = ({ icon, label, subLabel, to }) => {
+  const darkMode = useDarkMode(false);
+
   return (
     <a
       href={to}
@@ -15,13 +19,13 @@ const AsideNavigationItem = ({ icon, label, subLabel, to }) => {
         subLabel ? styles.hasSublabel : ''
       }`}
     >
-      <img
+      <Image
         src={icon}
-        className={styles.itemIcon}
-        onError={e =>
-          handleBrokenImages({ event: e, replacementImage: avatarPlaceholder })
+        fallbackSrc={
+          darkMode.value ? avatarPlaceholderLight : avatarPlaceholder
         }
-        alt="icon for Project Name"
+        alt={`Icon for ${label}`}
+        className={styles.itemIcon}
       />
       <div className={styles.itemCopy}>
         <span className={styles.itemName}>{label}</span>

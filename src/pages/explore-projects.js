@@ -4,14 +4,16 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { Location } from '@reach/router';
 import { get, orderBy } from 'lodash';
-import useDarkMode from 'use-dark-mode';
 
 import Layout from '../components/layout';
 import PageHeading from '../components/PageHeading';
 import ProjectSearch from '../components/ProjectSearch';
 import ProjectCard from '../components/ProjectCard';
-import { handleBrokenImages } from '../utils';
+import Image from '../components/Image';
+import useDarkMode from 'use-dark-mode';
 
+import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
+import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 import searchIcon from '../images/icon-search.svg';
 
 import styles from './explore-projects.module.scss';
@@ -80,16 +82,15 @@ const ExploreProjectsPage = props => {
 
       return (
         <div className={styles.featuredProject} key={p.id}>
-          <img
-            className={styles.featuredProjectIcon}
-            onError={event =>
-              handleBrokenImages({
-                event: event,
-                darkModeActive: darkMode.value
-              })
-            }
+          <Image
             src={p.iconUrl}
-            alt={`icon for ${p.title}`}
+            fallbackSrc={
+              darkMode.value
+                ? placeholderProjectIconLight
+                : placeholderProjectIcon
+            }
+            alt={`Icon for ${p.title}`}
+            className={styles.featuredProjectIcon}
           />
           <div className={styles.featuredProjectPrimaryContent}>
             <h4 className={styles.featuredProjectTitle}>{p.title}</h4>

@@ -2,8 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 import { get } from 'lodash';
-import { handleBrokenImages } from '../utils';
+import Image from './Image';
 import useDarkMode from 'use-dark-mode';
+
+import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
+import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
 import styles from '../pages/explore-projects.module.scss';
 
@@ -15,15 +18,14 @@ const ProjectCard = ({ project: p }) => {
     <Link className={styles.projectContainer} key={p.id} to={link}>
       <div className={`${styles.projectPrimaryContent}`}>
         <header className={styles.projectHeader}>
-          <img
+          <Image
             src={p.iconUrl}
-            onError={event =>
-              handleBrokenImages({
-                event: event,
-                darkModeActive: darkMode.value
-              })
+            fallbackSrc={
+              darkMode.value
+                ? placeholderProjectIconLight
+                : placeholderProjectIcon
             }
-            alt="icon for"
+            alt={`Icon for ${p.title}`}
             className={styles.projectIcon}
           />
           <h5 className={styles.projectTitle}>{p.title}</h5>

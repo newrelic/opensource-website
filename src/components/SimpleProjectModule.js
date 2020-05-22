@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
-import { handleBrokenImages } from '../utils';
 import useDarkMode from 'use-dark-mode';
+import Image from './Image';
+import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
+import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
 import styles from './SimpleProjectModule.module.scss';
 
@@ -16,18 +18,13 @@ const SimpleProjectModule = ({ data: project, className }) => {
       className={`${styles.project} ${className || ''}`}
       key={project.title}
     >
-      <img
+      <Image
         src={project.iconUrl}
-        className={styles.projectIcon}
+        fallbackSrc={
+          darkMode.value ? placeholderProjectIconLight : placeholderProjectIcon
+        }
         alt={`Icon for ${project.title}`}
-        onError={event => {
-          event.persist();
-          const defaultImgUrl = handleBrokenImages({
-            event: event,
-            darkModeActive: darkMode.value
-          });
-          event.target.src = defaultImgUrl;
-        }}
+        className={styles.projectIcon}
       />
       <div className={styles.projectMeta}>
         <h4 className={styles.projectTitle}>{project.title}</h4>
