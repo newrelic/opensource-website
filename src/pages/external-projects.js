@@ -109,7 +109,7 @@ const ExternalProjects = ({ data }) => {
             {otherProjects.map((project, i) => {
               if (i < 5) {
                 return (
-                  <div className={styles.projectListItem}>
+                  <div className={styles.projectListItem} onClick={() => { location.href = `/projects/${project.fullName}`; }}>
                     <img
                       className={styles.projectListingItemImage}
                       src="http://placehold.jp/150x150.png"

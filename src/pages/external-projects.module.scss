@@ -1,7 +1,7 @@
 .featured-projects {
   display: flex;
   margin: 70px 0 60px;
-  
+
   &:before {
     position: absolute;
     left: 0;
@@ -45,6 +45,7 @@
 
 .project-list-item {
   display: flex;
+  cursor: pointer;
   width: 100%;
   max-width: 780px;
   margin-bottom: 14px;
@@ -110,11 +111,11 @@ h5.project-listing-item-name {
     &:before {
       height: 500px;
     }
-  }  
+  }
 }
 
 @media screen and (max-width: 724px) {
   .featured-projects {
     margin: 40px 0 0;
-  }    
+  }
 }
