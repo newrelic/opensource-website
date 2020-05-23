@@ -72,7 +72,7 @@ const IndexPage = ({ data }) => {
 
   const externalProjects = [
     get(data, 'openTelemetry.nodes[0]'),
-    get(data, 'w3cTraceContext.nodes[0]'),
+    get(data, 'w3cDistributedTracingWg.nodes[0]'),
     get(data, 'adoptOpenJdk.nodes[0]')
   ].filter(i => i !== undefined);
 
