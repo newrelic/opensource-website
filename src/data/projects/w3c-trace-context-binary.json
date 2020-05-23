@@ -1,0 +1,25 @@
+{
+  "name": "trace-context-binary",
+  "fullName": "w3c-trace-context-binary",
+  "slug": "w3c-trace-context-binary",
+  "owner": {
+    "login": "w3c",
+    "type": "Organization"
+  },
+  "title": "W3C Trace Context Binary Protocol Specification",
+  "supportUrl": null,
+  "isParentProject": true,
+  "githubUrl": "https://github.com/w3c/trace-context-binary",
+  "permalink": "https://opensource.newrelic.com/projects/w3c-trace-context-binary",
+  "iconUrl": "../images/w3c-icon.jpg",
+  "shortDescription": "Specification for distributed tracing context propagation",
+  "description": "New Relic contributes to the W3C Trace Context binary protocol specification",
+  "ossCategory": null,
+  "projectTags": [ "opentelemetry" ],
+  "acceptsContributions": false,
+  "website": {
+    "title": "Trace Context",
+    "url": "https://w3c.github.io/trace-context-binary/"
+  },
+  "projectType": "external"
+}

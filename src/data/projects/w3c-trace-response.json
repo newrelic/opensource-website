@@ -1,0 +1,25 @@
+{
+  "name": "trace-response",
+  "fullName": "w3c-trace-response",
+  "slug": "w3c-trace-response",
+  "owner": {
+    "login": "w3c",
+    "type": "Organization"
+  },
+  "title": "W3C Trace Response Headers Specification",
+  "supportUrl": null,
+  "isParentProject": true,
+  "githubUrl": "https://github.com/w3c/trace-response-headers/",
+  "permalink": "https://opensource.newrelic.com/projects/w3c-trace-response",
+  "iconUrl": "../images/w3c-icon.jpg",
+  "shortDescription": "Specification for distributed tracing context propagation",
+  "description": "New Relic contributes to the W3C Trace Response Headers specification",
+  "ossCategory": null,
+  "projectTags": [ "opentelemetry" ],
+  "acceptsContributions": false,
+  "website": {
+    "title": "Trace Context",
+    "url": "https://w3c.github.io/trace-response-headers/"
+  },
+  "projectType": "external"
+}
