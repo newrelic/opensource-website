@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`HomePage renders correctly 1`] = `
+exports[`HomePage Renders correctly 1`] = `
 <div
   className="layout-container undefined"
 >
@@ -59,6 +59,9 @@ exports[`HomePage renders correctly 1`] = `
         className="rightSideButtons"
       >
         <li
+          className="darkModeToggle"
+        />
+        <li
           className="rightSideButton githubButton"
         >
           <a
@@ -72,7 +75,7 @@ exports[`HomePage renders correctly 1`] = `
     </div>
   </div>
   <header
-    className="primaryHeaderContainer "
+    className="primaryHeaderContainer  "
   >
     <a
       className="primaryHeaderLogo"
@@ -150,6 +153,7 @@ exports[`HomePage renders correctly 1`] = `
       >
         <h2
           className="homepageHeroHeading"
+          data-testid="homepageHeroHeading"
         >
           The future of observability is open.
         </h2>

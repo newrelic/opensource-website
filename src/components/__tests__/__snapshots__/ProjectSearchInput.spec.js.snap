@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectSearchInput Renders correctly 1`] = `
+<div
+  className="searchSection"
+>
+  <div
+    className="searchContainer"
+  >
+    <img
+      alt="search icon"
+      className="searchIcon"
+      src="test-file-stub"
+    />
+    <input
+      className="searchInput"
+      onChange={[Function]}
+      placeholder="Search for a project"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="searchFilters mobileFiltersHidden"
+  >
+    <span
+      className="showFiltersButton"
+      onClick={[Function]}
+    >
+      Show filters
+      <svg
+        fill="none"
+        height={12}
+        stroke="#007e8a"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        viewBox="0 0 24 24"
+        width={12}
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <polygon
+          points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"
+        />
+      </svg>
+    </span>
+    <select
+      className="searchFilter"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        label="All Categories"
+        value=""
+      >
+        All categories
+      </option>
+    </select>
+    <select
+      className="searchFilter"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        label="All Project Tags"
+        value=""
+      >
+        All Project Tags
+      </option>
+    </select>
+    <select
+      className="searchFilter"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        label="All Language Types"
+        value=""
+      >
+        All language types
+      </option>
+    </select>
+  </div>
+</div>
+`;

@@ -57,6 +57,9 @@ Array [
         className="rightSideButtons"
       >
         <li
+          className="darkModeToggle"
+        />
+        <li
           className="rightSideButton githubButton"
         >
           <a
@@ -70,7 +73,7 @@ Array [
     </div>
   </div>,
   <header
-    className="primaryHeaderContainer "
+    className="primaryHeaderContainer  "
   >
     <a
       className="primaryHeaderLogo"

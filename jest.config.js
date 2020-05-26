@@ -11,12 +11,14 @@ module.exports = {
     `\\.cache`,
     `<rootDir>.*/public`,
     `<rootDir>/.github`,
-    `<rootDir>/src/pages/__tests__/fixtures/`
+    `<rootDir>/src/pages/__tests__/fixtures/`,
+    `<rootDir>/src/components/__tests__/fixtures`
   ],
   transformIgnorePatterns: [`node_modules/(?!(gatsby)/)`],
   globals: {
     __PATH_PREFIX__: ``
   },
   testURL: `http://localhost`,
-  setupFiles: [`<rootDir>/loadershim.js`]
+  setupFiles: [`<rootDir>/loadershim.js`],
+  setupFilesAfterEnv: ['<rootDir>/setup-test-env.js']
 };

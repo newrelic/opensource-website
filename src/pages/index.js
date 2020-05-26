@@ -155,7 +155,10 @@ const IndexPage = ({ data }) => {
       <SEO title="Home" />
       <div className={styles.heroContainer}>
         <div className={styles.homepageHeroCopy}>
-          <h2 className={styles.homepageHeroHeading}>
+          <h2
+            className={styles.homepageHeroHeading}
+            data-testid="homepageHeroHeading"
+          >
             The future of observability is open.
           </h2>
           <p className={styles.homepageHeroBodyCopy}>
