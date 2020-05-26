@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OSS Category Page Renders correctly 1`] = `
+<div
+  className="layout-container undefined"
+>
+  <div
+    className="globalHeaderContainer  "
+  >
+    <div
+      className="globalHeaderContent"
+    >
+      <div
+        className="leftSideLinksContainer"
+      >
+        <a
+          className="logo"
+          href="https://newrelic.com/"
+          rel="noopener noreferrer"
+        >
+          New Relic
+        </a>
+        <ul
+          className="leftSideLinks"
+        >
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://developer.newrelic.com/"
+            >
+              Developers
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem active"
+          >
+            <a
+              className="leftSideLink"
+              href="#"
+            >
+              Open Source
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://docs.newrelic.com/"
+            >
+              Docs
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul
+        className="rightSideButtons"
+      >
+        <li
+          className="darkModeToggle"
+        />
+        <li
+          className="rightSideButton githubButton"
+        >
+          <a
+            className="githubButtonLink"
+            href="https://github.com/newrelic/opensource-website"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <header
+    className="primaryHeaderContainer  "
+  >
+    <a
+      className="primaryHeaderLogo"
+      href="/"
+    >
+      New Relic Open Source
+    </a>
+    <ul
+      className="primaryHeaderNavLinks"
+    >
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/external-projects"
+        >
+          External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/explore-projects"
+        >
+          New Relic Projects
+        </a>
+      </li>
+    </ul>
+    <div
+      className="primaryHeaderMobileNav "
+    >
+      <button
+        className="mobileMenuButton"
+        onClick={[Function]}
+      >
+        Menu
+      </button>
+      <ul
+        className="primaryHeaderMobileNavLinks"
+      >
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main
+    className="layout-container-main  undefined"
+  >
+    <div
+      className="primary-content"
+    >
+      <aside
+        className="primary-content-aside aside"
+      >
+        <div
+          className="categoriesNavigation"
+        >
+          <h4>
+            Categories
+          </h4>
+          <ul
+            className="categorySidebarList"
+          >
+            <li
+              className="categorySidebarItem"
+            >
+              <a
+                className="categorySidebarItemLink"
+                href="#community-project"
+              >
+                Community Project
+              </a>
+            </li>
+            <li
+              className="categorySidebarItem"
+            >
+              <a
+                className="categorySidebarItemLink"
+                href="#new-relic-one-catalog-project"
+              >
+                New Relic One Catalog
+              </a>
+            </li>
+            <li
+              className="categorySidebarItem"
+            >
+              <a
+                className="categorySidebarItemLink"
+                href="#example-code"
+              >
+                Example Code
+              </a>
+            </li>
+            <li
+              className="categorySidebarItem"
+            >
+              <a
+                className="categorySidebarItemLink"
+                href="#new-relic-experimental"
+              >
+                New Relic Experimental
+              </a>
+            </li>
+            <li
+              className="categorySidebarItem"
+            >
+              <a
+                className="categorySidebarItemLink"
+                href="#product-delivered-in-open-source"
+              >
+                Product delivered in Open Source
+              </a>
+            </li>
+            <li
+              className="categorySidebarItem"
+            >
+              <a
+                className="categorySidebarItemLink"
+                href="#archived"
+              >
+                Archived
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <main
+        className="primary-content-main"
+      >
+        <h2
+          className="categoryTitle"
+          id="community-project"
+        >
+          Community Project
+        </h2>
+        <p>
+          This code is developed in the open with input from the community through issues and PRs. There is an active maintainer team within New Relic, troubleshooting support in the New Relic Explorers Hub, and the documentation is available in the project repository.
+        </p>
+        <img
+          className="categoryImage"
+          src="test-file-stub"
+        />
+        <h3>
+          Requirements
+        </h3>
+        <ul>
+          <li>
+            Complies with New Relic's legal and security requirements for open source software
+          </li>
+          <li>
+            Contains the appropriate New Relic open source category header below at the top of the repository's README file
+          </li>
+          <li>
+            Has active maintainer / maintainers, including at least one Relic
+          </li>
+          <li>
+            Troubleshooting support via the New Relic Explorers Hub
+          </li>
+          <li>
+            Issues and PR’s managed in GitHub
+          </li>
+          <li>
+            Documentation reviewed by the New Relic documentation team
+          </li>
+          <li>
+            Linted code
+          </li>
+          <li>
+            An automated release pipeline
+          </li>
+        </ul>
+        <h2
+          className="categoryTitle"
+          id="new-relic-one-catalog-project"
+        >
+          New Relic One Catalog
+        </h2>
+        <p>
+          This code is a part of the New Relic One Catalog. It meets the criteria for a Community Project; but it also contains UI workflows for configuration. Most Catalog projects seek to maintain a public roadmap, often expressed in a GitHub Project board and Issues within the repository.
+        </p>
+        <img
+          className="categoryImage"
+          src="test-file-stub"
+        />
+        <h3>
+          Requirements
+        </h3>
+        <ul>
+          <li>
+            All the requirements of a Community Project
+          </li>
+          <li>
+            An empty state application workflow that guides users through the setup of configuration data that is stored in NerdStorage
+          </li>
+          <li>
+            Architectural review (including UX) by New Relic
+          </li>
+          <li>
+            (Optional) maintains a public roadmap (recommended via a GitHub project in the repo)
+          </li>
+        </ul>
+        <h2
+          className="categoryTitle"
+          id="example-code"
+        >
+          Example Code
+        </h2>
+        <p>
+          This code demonstrates an aspect of building on the New Relic One platform. Find the complete description of its usage and other relevant docs in the README. There is no long-term maintainer for this code nor is support provided, but the author(s) may address future updates / needs as platform features change.
+        </p>
+        <img
+          className="categoryImage"
+          src="test-file-stub"
+        />
+        <h3>
+          Requirements
+        </h3>
+        <ul>
+          <li>
+            Complies with New Relic's legal and security requirements for open source software
+          </li>
+          <li>
+            Contains the appropriate New Relic open source category header below at the top of the repository's README file
+          </li>
+          <li>
+            (optional) Issues are available at the project author's discretion
+          </li>
+          <li>
+            Documentation reviewed by the New Relic documentation team
+          </li>
+          <li>
+            Linted code
+          </li>
+        </ul>
+        <h2
+          className="categoryTitle"
+          id="new-relic-experimental"
+        >
+          New Relic Experimental
+        </h2>
+        <p>
+          This code solves an interesting problem but does not yet have an active maintainer(s). The project is being developed in the open for the purpose of feedback on a new feature or function.
+        </p>
+        <img
+          className="categoryImage"
+          src="test-file-stub"
+        />
+        <h3>
+          Requirements
+        </h3>
+        <ul>
+          <li>
+            Complies with New Relic's legal and security requirements for open source software
+          </li>
+          <li>
+            Contains the appropriate New Relic open source category header below at the top of the repository's README file
+          </li>
+          <li>
+            Typically hosted in the New Relic Experimental GitHub org
+          </li>
+          <li>
+            (Optional) Issues at the project owner's discertion
+          </li>
+        </ul>
+        <h2
+          className="categoryTitle"
+          id="product-delivered-in-open-source"
+        >
+          Product delivered in Open Source
+        </h2>
+        <p>
+          This code is developed and maintained by New Relic engineering teams in a private code repository but is delivered via GitHub.
+        </p>
+        <img
+          className="categoryImage"
+          src="test-file-stub"
+        />
+        <h3>
+          Requirements
+        </h3>
+        <ul>
+          <li>
+            Complies with New Relic's legal and security requirements for open source software
+          </li>
+          <li>
+            Contains the appropriate New Relic open source category header below at the top of the repository's README file
+          </li>
+        </ul>
+        <h2
+          className="categoryTitle"
+          id="archived"
+        >
+          Archived
+        </h2>
+        <p>
+          This code is read-only. There is no maintainer team nor support.
+        </p>
+        <img
+          className="categoryImage"
+          src="test-file-stub"
+        />
+        <h3>
+          Requirements
+        </h3>
+        <ul>
+          <li>
+            Complies with New Relic's legal requirements for open source software
+          </li>
+          <li>
+            Contains the appropriate New Relic open source category header below at the top of the repository's README file
+          </li>
+          <li>
+            Previous references to Support should be modified or removed from the README
+          </li>
+          <li>
+            Project is read-only and available for cloning only
+          </li>
+        </ul>
+      </main>
+    </div>
+  </main>
+  <footer
+    className="footerContainer"
+  >
+    <div
+      className="footerContents"
+    >
+      <div
+        className="footerLogoContainer"
+      >
+        <a
+          className="footerLogo "
+          href="/"
+        >
+          New Relic Open Source
+        </a>
+      </div>
+      <div
+        className="meta"
+      >
+        <small
+          className="version"
+        >
+          Version 
+          0.5.0
+        </small>
+        <small
+          className="footerLegal"
+        >
+          Copyright © 
+          2020
+           New Relic Inc.
+        </small>
+      </div>
+      <ul
+        className="footerNavLinks"
+      >
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/standards"
+          >
+            Standards
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;

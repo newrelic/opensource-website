@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`External Projects Page Renders correctly 1`] = `
+<div
+  className="layout-container undefined"
+>
+  <div
+    className="globalHeaderContainer  "
+  >
+    <div
+      className="globalHeaderContent"
+    >
+      <div
+        className="leftSideLinksContainer"
+      >
+        <a
+          className="logo"
+          href="https://newrelic.com/"
+          rel="noopener noreferrer"
+        >
+          New Relic
+        </a>
+        <ul
+          className="leftSideLinks"
+        >
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://developer.newrelic.com/"
+            >
+              Developers
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem active"
+          >
+            <a
+              className="leftSideLink"
+              href="#"
+            >
+              Open Source
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://docs.newrelic.com/"
+            >
+              Docs
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul
+        className="rightSideButtons"
+      >
+        <li
+          className="darkModeToggle"
+        />
+        <li
+          className="rightSideButton githubButton"
+        >
+          <a
+            className="githubButtonLink"
+            href="https://github.com/newrelic/opensource-website"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <header
+    className="primaryHeaderContainer  "
+  >
+    <a
+      className="primaryHeaderLogo"
+      href="/"
+    >
+      New Relic Open Source
+    </a>
+    <ul
+      className="primaryHeaderNavLinks"
+    >
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/external-projects"
+        >
+          External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/explore-projects"
+        >
+          New Relic Projects
+        </a>
+      </li>
+    </ul>
+    <div
+      className="primaryHeaderMobileNav "
+    >
+      <button
+        className="mobileMenuButton"
+        onClick={[Function]}
+      >
+        Menu
+      </button>
+      <ul
+        className="primaryHeaderMobileNavLinks"
+      >
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main
+    className="layout-container-main full-width undefined"
+  >
+    <div
+      className="featuredProjects"
+    />
+  </main>
+  <footer
+    className="footerContainer"
+  >
+    <div
+      className="footerContents"
+    >
+      <div
+        className="footerLogoContainer"
+      >
+        <a
+          className="footerLogo hasEditButton"
+          href="/"
+        >
+          New Relic Open Source
+        </a>
+        <a
+          className="editButton"
+          href="https://github.com/newrelic/opensource-website/tree/develop/src/pages/code-of-conduct.mdx"
+          rel="noopener noreferrer"
+          target="__blank"
+        >
+          <img
+            alt="pencil icon"
+            className="editButtonIcon"
+            src="test-file-stub"
+          />
+          Edit this page
+        </a>
+      </div>
+      <div
+        className="meta"
+      >
+        <small
+          className="version"
+        >
+          Version 
+          0.5.0
+        </small>
+        <small
+          className="footerLegal"
+        >
+          Copyright © 
+          2020
+           New Relic Inc.
+        </small>
+      </div>
+      <ul
+        className="footerNavLinks"
+      >
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/standards"
+          >
+            Standards
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;

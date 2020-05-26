@@ -38,7 +38,7 @@ const headers = [
 ];
 
 const OssCategoryPage = ({ data }) => {
-  const categories = get(data, 'allOssCategory.nodes', false);
+  const categories = get(data, 'allOssCategory.nodes', []);
 
   const categoryNavList = categories
     .filter(cat => cat.slug !== 'tbd')
@@ -56,7 +56,7 @@ const OssCategoryPage = ({ data }) => {
     .filter(cat => cat.slug !== 'tbd')
     .map((cat, index) => {
       return (
-        <>
+        <React.Fragment key={cat.slug}>
           <h2 className={styles.categoryTitle} id={cat.slug}>
             {cat.title}
           </h2>
@@ -74,7 +74,7 @@ const OssCategoryPage = ({ data }) => {
               </ul>
             </>
           )}
-        </>
+        </React.Fragment>
       );
     });
 

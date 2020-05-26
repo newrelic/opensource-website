@@ -67,7 +67,7 @@ export const query = graphql`
   }
 `;
 
-const IndexPage = ({ data }) => {
+const HomePage = ({ data }) => {
   const [heroVideoActive, setHeroVideoActive] = useState(false);
 
   const externalProjects = [
@@ -207,8 +207,8 @@ const IndexPage = ({ data }) => {
   );
 };
 
-IndexPage.propTypes = {
+HomePage.propTypes = {
   data: PropTypes.object
 };
 
-export default IndexPage;
+export default HomePage;

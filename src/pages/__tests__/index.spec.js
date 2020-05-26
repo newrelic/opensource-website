@@ -3,7 +3,7 @@ import TestRenderer from 'react-test-renderer'; // https://reactjs.org/docs/test
 import { render } from '@testing-library/react'; // https://testing-library.com/docs/react-testing-library/intro
 import { useStaticQuery } from 'gatsby';
 
-import Index from '../index';
+import HomePage from '../index';
 import HomePageHighlights from '../../components/HomePageHighlights';
 import HomePageInternalProjects from '../../components/HomePageInternalProjects';
 
@@ -22,14 +22,14 @@ beforeEach(() => {
 
 describe('HomePage', () => {
   it('Renders correctly', () => {
-    const tree = TestRenderer.create(<Index />).toJSON();
+    const tree = TestRenderer.create(<HomePage />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
 
 describe('HomePage Hero Header', () => {
   it('Displays the correct title', () => {
-    const { getByTestId } = render(<Index />);
+    const { getByTestId } = render(<HomePage />);
     const expectation = getByTestId('homepageHeroHeading');
     expect(expectation).toHaveTextContent(
       'The future of observability is open.'
@@ -39,7 +39,7 @@ describe('HomePage Hero Header', () => {
 
 describe('HomePage Projects We Support', () => {
   it('Renders correctly', () => {
-    const testRenderer = TestRenderer.create(<Index />);
+    const testRenderer = TestRenderer.create(<HomePage />);
     const testInstance = testRenderer.root;
     const props = testInstance.findByType(HomePageHighlights).props;
 
@@ -49,7 +49,7 @@ describe('HomePage Projects We Support', () => {
 
 describe('HomePage Explore Projects', () => {
   it('renders correctly', () => {
-    const testRenderer = TestRenderer.create(<Index />);
+    const testRenderer = TestRenderer.create(<HomePage />);
     const testInstance = testRenderer.root;
 
     const props = testInstance.findByType(HomePageInternalProjects).props;

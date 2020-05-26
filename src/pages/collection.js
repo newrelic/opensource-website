@@ -25,7 +25,7 @@ export const query = graphql`
   }
 `;
 
-const ExampleCollection = ({ data }) => {
+const CollectionPage = ({ data }) => {
   const allProjects = data.allProjects.edges.map(p => p.node);
 
   return (
@@ -87,8 +87,8 @@ const ExampleCollection = ({ data }) => {
   );
 };
 
-ExampleCollection.propTypes = {
+CollectionPage.propTypes = {
   data: PropTypes.object
 };
 
-export default ExampleCollection;
+export default CollectionPage;

@@ -61,11 +61,16 @@ export const query = graphql`
     }
   }
 `;
-const ExternalProjects = ({ data }) => {
+
+const ExternalProjectsPage = ({ data }) => {
   const openTelemetry = get(data, 'openTelemetry.nodes[0]');
   const w3cDistributedTracingWg = get(data, 'w3cDistributedTracingWg.nodes[0]');
   const adoptOpenJdk = get(data, 'adoptOpenJdk.nodes[0]');
-  const externalProjects = [openTelemetry, w3cDistributedTracingWg, adoptOpenJdk];
+  const externalProjects = [
+    openTelemetry,
+    w3cDistributedTracingWg,
+    adoptOpenJdk
+  ];
   const otherProjectsData = get(data, 'otherProjects.edges', []).map(
     i => i.node
   );
@@ -79,7 +84,7 @@ const ExternalProjects = ({ data }) => {
     }
     return true;
   });
-  // console.log(otherProjects);
+
   return (
     <Layout
       fullWidth
@@ -109,7 +114,12 @@ const ExternalProjects = ({ data }) => {
             {otherProjects.map((project, i) => {
               if (i < 5) {
                 return (
-                  <div className={styles.projectListItem} onClick={() => { location.href = `/projects/${project.fullName}`; }}>
+                  <div
+                    className={styles.projectListItem}
+                    onClick={() => {
+                      location.href = `/projects/${project.fullName}`;
+                    }}
+                  >
                     <img
                       className={styles.projectListingItemImage}
                       src="http://placehold.jp/150x150.png"
@@ -143,8 +153,8 @@ const ExternalProjects = ({ data }) => {
   );
 };
 
-ExternalProjects.propTypes = {
+ExternalProjectsPage.propTypes = {
   data: PropTypes.object
 };
 
-export default ExternalProjects;
+export default ExternalProjectsPage;
