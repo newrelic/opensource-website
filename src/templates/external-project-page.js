@@ -54,7 +54,11 @@ const SubProjects = ({ projects }) => {
             </div>
             {p.githubUrl && (
               <div className={styles.subProjectCallToAction}>
-                <a href={p.githubUrl} className="button button-tertiary" target="__blank">
+                <a
+                  href={p.githubUrl}
+                  className="button button-tertiary"
+                  target="__blank"
+                >
                   <img src={iconGitHub} alt="GitHub Logo" />
                   <span className={styles.subProjectCallToActionLabel}>
                     View Repo
