@@ -159,7 +159,7 @@ const ExploreProjectsPage = props => {
     >
       <PageHeading
         title="Explore projects"
-        subheader="Projects and products being developed in open source"
+        subheader="Projects and products being developed in open source."
       />
       <Location>
         {({ location }) => {
