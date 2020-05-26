@@ -1,9 +1,26 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
+/*
+ * Skip rendering <img> tags server-side, wait until the client-side has rehydrated the application (utilizing useEffect)
+ * before attempting to load them, and if they fail to load, re-render with a fallback img
+ *
+ * If currentSrc is null or if we get an error when loading currentSrc utilize the provided fallbackSrc
+ */
 const Image = props => {
   const [currentSrc, setCurrentSrc] = useState(props.src);
   const [errored, setErrored] = useState(false);
+
+  const [isClient, setIsClient] = useState(false);
+  React.useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  React.useEffect(() => {
+    if (errored) {
+      setCurrentSrc(props.fallbackSrc);
+    }
+  }, [props.fallbackSrc]);
 
   const onError = () => {
     if (!errored) {
@@ -14,10 +31,13 @@ const Image = props => {
 
   const { src, fallbackSrc, ...remainingProps } = props;
 
+  if (!isClient) {
+    return null;
+  }
+
   return (
-    // Keep in mind that sometimes `null` is provided as the value for project icons
     <img
-      src={currentSrc !== null ? currentSrc : 'do me a favor and fail'}
+      src={currentSrc !== null && currentSrc !== '' ? currentSrc : fallbackSrc}
       onError={onError}
       {...remainingProps}
     />
@@ -26,7 +46,7 @@ const Image = props => {
 
 Image.propTypes = {
   src: PropTypes.string,
-  fallbackSrc: PropTypes.string
+  fallbackSrc: PropTypes.string.isRequired
 };
 
 export default Image;

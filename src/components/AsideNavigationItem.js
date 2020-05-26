@@ -22,6 +22,7 @@ const AsideNavigationItem = ({ icon, label, subLabel, to, darkMode }) => {
         fallbackSrc={
           darkMode.value ? avatarPlaceholderLight : avatarPlaceholder
         }
+        darkMode={darkMode}
         alt={`Icon for ${label}`}
         className={styles.itemIcon}
       />

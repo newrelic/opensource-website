@@ -1,22 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
+
+import styles from './SimpleProjectModule.module.scss';
+import withDarkMode from './withDarkMode';
+import Image from './Image';
 import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
-import styles from './SimpleProjectModule.module.scss';
-
-import withDarkMode from './withDarkMode';
-
 const SimpleProjectModule = ({ data: project, className, darkMode }) => {
   const link = project.permalink.replace('https://opensource.newrelic.com', '');
-  const placeholderIcon = darkMode.value
-    ? placeholderProjectIconLight
-    : placeholderProjectIcon;
-  const imgIconUrl =
-    project.iconUrl !== null && project.iconUrl !== ''
-      ? project.iconUrl
-      : placeholderIcon;
 
   return (
     <Link
@@ -24,8 +17,12 @@ const SimpleProjectModule = ({ data: project, className, darkMode }) => {
       className={`${styles.project} ${className || ''}`}
       key={project.title}
     >
-      <img
-        src={imgIconUrl}
+      <Image
+        src={project.iconUrl}
+        fallbackSrc={
+          darkMode.value ? placeholderProjectIconLight : placeholderProjectIcon
+        }
+        darkMode={darkMode}
         alt={`Icon for ${project.title}`}
         className={styles.projectIcon}
       />
