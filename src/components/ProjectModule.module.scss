@@ -42,8 +42,8 @@
   margin-bottom: 0;
   padding: 0 24px;
   font-weight: 600;
-  font-size: 21px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 26px;
   color: var(--color-neutrals-900);
 }
 
@@ -105,7 +105,7 @@ a.project-module-footer-link:hover {
   align-items: center;
 
   div:not(.style-row) & {
-    padding-bottom: 16px;
+    padding-bottom: 0;
   }
 }
 
