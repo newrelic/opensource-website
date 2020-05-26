@@ -12,7 +12,8 @@ module.exports = {
     `<rootDir>.*/public`,
     `<rootDir>/.github`,
     `<rootDir>/src/pages/__tests__/fixtures/`,
-    `<rootDir>/src/components/__tests__/fixtures`
+    `<rootDir>/src/components/__tests__/fixtures`,
+    `<rootDir>/src/templates/__tests__/fixtures`
   ],
   transformIgnorePatterns: [`node_modules/(?!(gatsby||gatsby-plugin-mdx)/)`],
   globals: {

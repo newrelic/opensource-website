@@ -1,0 +1,1142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Adopt OpenJDK Renders correctly 1`] = `
+<div
+  className="layout-container projectPageLayout"
+>
+  <div
+    className="globalHeaderContainer hasHeaderBg "
+  >
+    <div
+      className="globalHeaderContent"
+    >
+      <div
+        className="leftSideLinksContainer"
+      >
+        <a
+          className="logo"
+          href="https://newrelic.com/"
+          rel="noopener noreferrer"
+        >
+          New Relic
+        </a>
+        <ul
+          className="leftSideLinks"
+        >
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://developer.newrelic.com/"
+            >
+              Developers
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem active"
+          >
+            <a
+              className="leftSideLink"
+              href="#"
+            >
+              Open Source
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://docs.newrelic.com/"
+            >
+              Docs
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul
+        className="rightSideButtons"
+      >
+        <li
+          className="darkModeToggle"
+        />
+        <li
+          className="rightSideButton githubButton"
+        >
+          <a
+            className="githubButtonLink"
+            href="https://github.com/newrelic/opensource-website"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <header
+    className="primaryHeaderContainer hasHeaderBg "
+  >
+    <a
+      className="primaryHeaderLogo"
+      href="/"
+    >
+      New Relic Open Source
+    </a>
+    <ul
+      className="primaryHeaderNavLinks"
+    >
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/external-projects"
+        >
+          External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/explore-projects"
+        >
+          New Relic Projects
+        </a>
+      </li>
+    </ul>
+    <div
+      className="primaryHeaderMobileNav "
+    >
+      <button
+        className="mobileMenuButton"
+        onClick={[Function]}
+      >
+        Menu
+      </button>
+      <ul
+        className="primaryHeaderMobileNavLinks"
+      >
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main
+    className="layout-container-main  undefined"
+  >
+    <div
+      className="primary-content"
+    >
+      <main
+        className="primary-content-main primaryContentMain"
+      >
+        <h2>
+          How New Relic is Involved
+        </h2>
+        <p>
+          New Relic is a sponsor of 
+          <a
+            href="https://adoptopenjdk.net"
+            rel="noopener noreferrer"
+            target="__blank"
+          >
+            AdoptOpenJDK
+          </a>
+           and participates in technical work related to the project, including:
+        </p>
+        <ul>
+          <li>
+            Performance Regression testing
+          </li>
+          <li>
+            Java Flight Recorder (JFR) and Java Mission Control (JMC)
+          </li>
+          <li>
+            Beta testing
+          </li>
+          <li>
+            Build tooling
+          </li>
+        </ul>
+        <p>
+          We also use Adopt's binaries extensively in our own JVM-based services and recommend them as the preferred upgrade path from Oracle's binaries.
+        </p>
+      </main>
+      <aside
+        className="primary-content-aside"
+      >
+        <div
+          className="callToActionContainer"
+        >
+          <div
+            className="callToActionButtons"
+          >
+            <div
+              className="callToActionButtonsContainer"
+            >
+              <a
+                className="button button-primary"
+                href="https://github.com/AdoptOpenJDK"
+                rel="noopener noreferrer"
+                target="__blank"
+              >
+                View Website
+              </a>
+              <a
+                className="button button-secondary"
+                href="https://github.com/AdoptOpenJDK"
+                rel="noopener noreferrer"
+              >
+                <img
+                  alt="GitHub logo"
+                  src="test-file-stub"
+                />
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <h4>
+          Involved from New Relic
+        </h4>
+      </aside>
+    </div>
+  </main>
+  <footer
+    className="footerContainer"
+  >
+    <div
+      className="footerContents"
+    >
+      <div
+        className="footerLogoContainer"
+      >
+        <a
+          className="footerLogo "
+          href="/"
+        >
+          New Relic Open Source
+        </a>
+      </div>
+      <div
+        className="meta"
+      >
+        <small
+          className="version"
+        >
+          Version 
+          0.5.0
+        </small>
+        <small
+          className="footerLegal"
+        >
+          Copyright © 
+          2020
+           New Relic Inc.
+        </small>
+      </div>
+      <ul
+        className="footerNavLinks"
+      >
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/standards"
+          >
+            Standards
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`Open Telemetry Page Renders correctly 1`] = `
+<div
+  className="layout-container projectPageLayout"
+>
+  <div
+    className="globalHeaderContainer hasHeaderBg "
+  >
+    <div
+      className="globalHeaderContent"
+    >
+      <div
+        className="leftSideLinksContainer"
+      >
+        <a
+          className="logo"
+          href="https://newrelic.com/"
+          rel="noopener noreferrer"
+        >
+          New Relic
+        </a>
+        <ul
+          className="leftSideLinks"
+        >
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://developer.newrelic.com/"
+            >
+              Developers
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem active"
+          >
+            <a
+              className="leftSideLink"
+              href="#"
+            >
+              Open Source
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://docs.newrelic.com/"
+            >
+              Docs
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul
+        className="rightSideButtons"
+      >
+        <li
+          className="darkModeToggle"
+        />
+        <li
+          className="rightSideButton githubButton"
+        >
+          <a
+            className="githubButtonLink"
+            href="https://github.com/newrelic/opensource-website"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <header
+    className="primaryHeaderContainer hasHeaderBg "
+  >
+    <a
+      className="primaryHeaderLogo"
+      href="/"
+    >
+      New Relic Open Source
+    </a>
+    <ul
+      className="primaryHeaderNavLinks"
+    >
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/external-projects"
+        >
+          External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/explore-projects"
+        >
+          New Relic Projects
+        </a>
+      </li>
+    </ul>
+    <div
+      className="primaryHeaderMobileNav "
+    >
+      <button
+        className="mobileMenuButton"
+        onClick={[Function]}
+      >
+        Menu
+      </button>
+      <ul
+        className="primaryHeaderMobileNavLinks"
+      >
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main
+    className="layout-container-main  undefined"
+  >
+    <div
+      className="primary-content"
+    >
+      <main
+        className="primary-content-main primaryContentMain"
+      >
+        <h2>
+          How New Relic is Involved
+        </h2>
+        <p>
+          New Relic is a sponsor of 
+          <a
+            href="https://adoptopenjdk.net"
+            rel="noopener noreferrer"
+            target="__blank"
+          >
+            AdoptOpenJDK
+          </a>
+           and participates in technical work related to the project, including:
+        </p>
+        <ul>
+          <li>
+            Performance Regression testing
+          </li>
+          <li>
+            Java Flight Recorder (JFR) and Java Mission Control (JMC)
+          </li>
+          <li>
+            Beta testing
+          </li>
+          <li>
+            Build tooling
+          </li>
+        </ul>
+        <p>
+          We also use Adopt's binaries extensively in our own JVM-based services and recommend them as the preferred upgrade path from Oracle's binaries.
+        </p>
+      </main>
+      <aside
+        className="primary-content-aside"
+      >
+        <div
+          className="callToActionContainer"
+        >
+          <div
+            className="callToActionButtons"
+          >
+            <div
+              className="callToActionButtonsContainer"
+            >
+              <a
+                className="button button-primary"
+                href="https://github.com/AdoptOpenJDK"
+                rel="noopener noreferrer"
+                target="__blank"
+              >
+                View Website
+              </a>
+              <a
+                className="button button-secondary"
+                href="https://github.com/AdoptOpenJDK"
+                rel="noopener noreferrer"
+              >
+                <img
+                  alt="GitHub logo"
+                  src="test-file-stub"
+                />
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <h4>
+          Involved from New Relic
+        </h4>
+      </aside>
+    </div>
+  </main>
+  <footer
+    className="footerContainer"
+  >
+    <div
+      className="footerContents"
+    >
+      <div
+        className="footerLogoContainer"
+      >
+        <a
+          className="footerLogo "
+          href="/"
+        >
+          New Relic Open Source
+        </a>
+      </div>
+      <div
+        className="meta"
+      >
+        <small
+          className="version"
+        >
+          Version 
+          0.5.0
+        </small>
+        <small
+          className="footerLegal"
+        >
+          Copyright © 
+          2020
+           New Relic Inc.
+        </small>
+      </div>
+      <ul
+        className="footerNavLinks"
+      >
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/standards"
+          >
+            Standards
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;
+
+exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
+<div
+  className="layout-container projectPageLayout"
+>
+  <div
+    className="globalHeaderContainer hasHeaderBg "
+  >
+    <div
+      className="globalHeaderContent"
+    >
+      <div
+        className="leftSideLinksContainer"
+      >
+        <a
+          className="logo"
+          href="https://newrelic.com/"
+          rel="noopener noreferrer"
+        >
+          New Relic
+        </a>
+        <ul
+          className="leftSideLinks"
+        >
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://developer.newrelic.com/"
+            >
+              Developers
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem active"
+          >
+            <a
+              className="leftSideLink"
+              href="#"
+            >
+              Open Source
+            </a>
+          </li>
+          <li
+            className="leftSideLinkItem"
+          >
+            <a
+              className="leftSideLink"
+              href="https://docs.newrelic.com/"
+            >
+              Docs
+            </a>
+          </li>
+        </ul>
+      </div>
+      <ul
+        className="rightSideButtons"
+      >
+        <li
+          className="darkModeToggle"
+        >
+          <div
+            className="dark-mode-toggle"
+          >
+            <svg
+              fill="#000d0d"
+              height={15}
+              onClick={[Function]}
+              stroke="rgba(0,0,0, 0)"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              viewBox="0 0 24 24"
+              width={15}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+              />
+            </svg>
+          </div>
+        </li>
+        <li
+          className="rightSideButton githubButton"
+        >
+          <a
+            className="githubButtonLink"
+            href="https://github.com/newrelic/opensource-website"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <header
+    className="primaryHeaderContainer hasHeaderBg "
+  >
+    <a
+      className="primaryHeaderLogo"
+      href="/"
+    >
+      New Relic Open Source
+    </a>
+    <ul
+      className="primaryHeaderNavLinks"
+    >
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/external-projects"
+        >
+          External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/explore-projects"
+        >
+          New Relic Projects
+        </a>
+      </li>
+    </ul>
+    <div
+      className="primaryHeaderMobileNav "
+    >
+      <button
+        className="mobileMenuButton"
+        onClick={[Function]}
+      >
+        Menu
+      </button>
+      <ul
+        className="primaryHeaderMobileNavLinks"
+      >
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main
+    className="layout-container-main  undefined"
+  >
+    <div
+      className="pageHeadingContainer hasSeparator   hasIcon "
+    >
+      <div
+        className="pageHeadingIconContainer"
+      >
+        <img
+          alt="Icon for Adopt OpenJDK"
+          className="pageHeadingIcon"
+          onError={[Function]}
+          src="../images/adopt-open-jdk-icon.jpg"
+        />
+      </div>
+      <h1
+        className="pageTitle"
+      >
+        Adopt OpenJDK
+      </h1>
+      <p
+        className="pageSubheader"
+      >
+        The Community and code behind the Build Farm which produces high quality, FREE OpenJDK (Java) binaries.
+      </p>
+      
+    </div>
+    <div
+      className="primary-content"
+    >
+      <main
+        className="primary-content-main primaryContentMain"
+      >
+        <h2>
+          How New Relic is Involved
+        </h2>
+        <p>
+          New Relic is a sponsor of 
+          <a
+            href="https://adoptopenjdk.net"
+            rel="noopener noreferrer"
+            target="__blank"
+          >
+            AdoptOpenJDK
+          </a>
+           and participates in technical work related to the project, including:
+        </p>
+        <ul>
+          <li>
+            Performance Regression testing
+          </li>
+          <li>
+            Java Flight Recorder (JFR) and Java Mission Control (JMC)
+          </li>
+          <li>
+            Beta testing
+          </li>
+          <li>
+            Build tooling
+          </li>
+        </ul>
+        <p>
+          We also use Adopt's binaries extensively in our own JVM-based services and recommend them as the preferred upgrade path from Oracle's binaries.
+        </p>
+      </main>
+      <aside
+        className="primary-content-aside"
+      >
+        <div
+          className="callToActionContainer"
+        >
+          <div
+            className="callToActionButtons"
+          >
+            <div
+              className="callToActionButtonsContainer"
+            >
+              <a
+                className="button button-primary"
+                href="https://github.com/AdoptOpenJDK"
+                rel="noopener noreferrer"
+                target="__blank"
+              >
+                View Website
+              </a>
+              <a
+                className="button button-secondary"
+                href="https://github.com/AdoptOpenJDK"
+                rel="noopener noreferrer"
+              >
+                <img
+                  alt="GitHub logo"
+                  src="test-file-stub"
+                />
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <h4>
+          Involved from New Relic
+        </h4>
+        <a
+          className="itemContainer "
+          href="https://github.com/kittylyst"
+          target="__blank"
+        >
+          <img
+            alt="Icon for Ben Evans"
+            className="itemIcon"
+            darkMode={
+              Object {
+                "disable": [Function],
+                "enable": [Function],
+                "toggle": [Function],
+                "value": false,
+              }
+            }
+            onError={[Function]}
+            src="https://avatars0.githubusercontent.com/u/81539?s=88&u=ec037a0a4945011f224bf734faf54fd99fd1c8d8&v=4"
+          />
+          <div
+            className="itemCopy"
+          >
+            <span
+              className="itemName"
+            >
+              Ben Evans
+            </span>
+            
+          </div>
+          <img
+            alt="arrow pointing right"
+            className="itemChevron"
+            src="test-file-stub"
+          />
+        </a>
+        <a
+          className="itemContainer "
+          href="https://github.com/breedx-nr"
+          target="__blank"
+        >
+          <img
+            alt="Icon for Jason Plumb"
+            className="itemIcon"
+            darkMode={
+              Object {
+                "disable": [Function],
+                "enable": [Function],
+                "toggle": [Function],
+                "value": false,
+              }
+            }
+            onError={[Function]}
+            src="https://avatars1.githubusercontent.com/u/54085190?s=460&u=b8812ef576c38434643500d5c57e79164cc4ee7d&v=4"
+          />
+          <div
+            className="itemCopy"
+          >
+            <span
+              className="itemName"
+            >
+              Jason Plumb
+            </span>
+            
+          </div>
+          <img
+            alt="arrow pointing right"
+            className="itemChevron"
+            src="test-file-stub"
+          />
+        </a>
+        <a
+          className="itemContainer "
+          href="https://github.com/jasonrclark"
+          target="__blank"
+        >
+          <img
+            alt="Icon for Jason Clark"
+            className="itemIcon"
+            darkMode={
+              Object {
+                "disable": [Function],
+                "enable": [Function],
+                "toggle": [Function],
+                "value": false,
+              }
+            }
+            onError={[Function]}
+            src="https://avatars0.githubusercontent.com/u/130504?s=460&v=4"
+          />
+          <div
+            className="itemCopy"
+          >
+            <span
+              className="itemName"
+            >
+              Jason Clark
+            </span>
+            
+          </div>
+          <img
+            alt="arrow pointing right"
+            className="itemChevron"
+            src="test-file-stub"
+          />
+        </a>
+        <a
+          className="itemContainer "
+          href="https://github.com/tmancill"
+          target="__blank"
+        >
+          <img
+            alt="Icon for Tony Mancill"
+            className="itemIcon"
+            darkMode={
+              Object {
+                "disable": [Function],
+                "enable": [Function],
+                "toggle": [Function],
+                "value": false,
+              }
+            }
+            onError={[Function]}
+            src="https://avatars2.githubusercontent.com/u/1195611?s=460&v=4"
+          />
+          <div
+            className="itemCopy"
+          >
+            <span
+              className="itemName"
+            >
+              Tony Mancill
+            </span>
+            
+          </div>
+          <img
+            alt="arrow pointing right"
+            className="itemChevron"
+            src="test-file-stub"
+          />
+        </a>
+        <a
+          className="itemContainer "
+          href="https://github.com/cameronhotchkies"
+          target="__blank"
+        >
+          <img
+            alt="Icon for Cameron Hotchkies"
+            className="itemIcon"
+            darkMode={
+              Object {
+                "disable": [Function],
+                "enable": [Function],
+                "toggle": [Function],
+                "value": false,
+              }
+            }
+            onError={[Function]}
+            src="https://avatars3.githubusercontent.com/u/1108009?s=460&u=83cf85d93292fb59d04aeebb7b58a784930172a7&v=4"
+          />
+          <div
+            className="itemCopy"
+          >
+            <span
+              className="itemName"
+            >
+              Cameron Hotchkies
+            </span>
+            
+          </div>
+          <img
+            alt="arrow pointing right"
+            className="itemChevron"
+            src="test-file-stub"
+          />
+        </a>
+        <a
+          className="itemContainer "
+          href="https://github.com/rvanderwal-newrelic"
+          target="__blank"
+        >
+          <img
+            alt="Icon for Rich Vanderwal"
+            className="itemIcon"
+            darkMode={
+              Object {
+                "disable": [Function],
+                "enable": [Function],
+                "toggle": [Function],
+                "value": false,
+              }
+            }
+            onError={[Function]}
+            src="https://avatars1.githubusercontent.com/u/1462042?s=460&u=91b3cd118aad9ce2be981483e9fc033e3c094077&v=4"
+          />
+          <div
+            className="itemCopy"
+          >
+            <span
+              className="itemName"
+            >
+              Rich Vanderwal
+            </span>
+            
+          </div>
+          <img
+            alt="arrow pointing right"
+            className="itemChevron"
+            src="test-file-stub"
+          />
+        </a>
+      </aside>
+    </div>
+  </main>
+  <footer
+    className="footerContainer"
+  >
+    <div
+      className="footerContents"
+    >
+      <div
+        className="footerLogoContainer"
+      >
+        <a
+          className="footerLogo "
+          href="/"
+        >
+          New Relic Open Source
+        </a>
+      </div>
+      <div
+        className="meta"
+      >
+        <small
+          className="version"
+        >
+          Version 
+          0.5.0
+        </small>
+        <small
+          className="footerLegal"
+        >
+          Copyright © 
+          2020
+           New Relic Inc.
+        </small>
+      </div>
+      <ul
+        className="footerNavLinks"
+      >
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/standards"
+          >
+            Standards
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/external-projects"
+          >
+            External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/explore-projects"
+          >
+            New Relic Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</div>
+`;
