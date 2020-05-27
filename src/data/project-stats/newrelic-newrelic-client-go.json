@@ -1,21 +1,79 @@
 {
   "projectFullName": "newrelic/newrelic-client-go",
   "issues": {
-    "open": 5
+    "open": 6
   },
-  "releases": 34,
+  "releases": 38,
   "latestRelease": {
-    "name": "v0.24.0",
-    "date": "2020-05-15T21:16:51Z"
+    "name": "v0.26.0",
+    "date": "2020-05-27T18:52:20Z"
   },
-  "commits": 664,
-  "lastSixMonthsCommitTotal": 664,
+  "commits": 696,
+  "lastSixMonthsCommitTotal": 696,
+  "contributors": 8,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
-  "cachedContributors": [],
+  "cachedContributors": [
+    {
+      "id": 138513,
+      "login": "bthemad",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/138513?v=4",
+      "htmlUrl": "https://github.com/bthemad",
+      "contributions": 1
+    },
+    {
+      "id": 3596655,
+      "login": "jhunthrop",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/3596655?v=4",
+      "htmlUrl": "https://github.com/jhunthrop",
+      "contributions": 2
+    },
+    {
+      "id": 723533,
+      "login": "monkeyherder",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/723533?v=4",
+      "htmlUrl": "https://github.com/monkeyherder",
+      "contributions": 3
+    },
+    {
+      "id": 25180681,
+      "login": "renovate-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
+      "htmlUrl": "https://github.com/renovate-bot",
+      "contributions": 24
+    },
+    {
+      "id": 29264964,
+      "login": "zlesnr",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/29264964?v=4",
+      "htmlUrl": "https://github.com/zlesnr",
+      "contributions": 25
+    },
+    {
+      "id": 455419,
+      "login": "jthurman42",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
+      "htmlUrl": "https://github.com/jthurman42",
+      "contributions": 145
+    },
+    {
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 148
+    },
+    {
+      "id": 413389,
+      "login": "ctrombley",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
+      "htmlUrl": "https://github.com/ctrombley",
+      "contributions": 190
+    }
+  ],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2U0MDM=",

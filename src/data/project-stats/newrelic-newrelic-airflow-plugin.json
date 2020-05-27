@@ -1,17 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-airflow-plugin",
   "issues": {
-    "open": 4
+    "open": 3
   },
   "releases": 1,
   "latestRelease": {
     "name": "v0.1.0",
     "date": "2019-11-06T19:50:24Z"
   },
-  "commits": 5,
-  "lastSixMonthsCommitTotal": 3,
+  "commits": 15,
+  "lastSixMonthsCommitTotal": 13,
+  "contributors": 2,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -50,7 +51,22 @@
       "createdBy": "Loren Arthur"
     }
   ],
-  "cachedContributors": [],
+  "cachedContributors": [
+    {
+      "id": 6374032,
+      "login": "a-feld",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/6374032?v=4",
+      "htmlUrl": "https://github.com/a-feld",
+      "contributions": 3
+    },
+    {
+      "id": 13881487,
+      "login": "BrandonTheBuilder",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/13881487?v=4",
+      "htmlUrl": "https://github.com/BrandonTheBuilder",
+      "contributions": 12
+    }
+  ],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2UxNDU=",

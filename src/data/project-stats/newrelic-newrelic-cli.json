@@ -1,15 +1,16 @@
 {
   "projectFullName": "newrelic/newrelic-cli",
   "issues": {
-    "open": 12
+    "open": 13
   },
-  "releases": 18,
+  "releases": 19,
   "latestRelease": {
-    "name": "v0.8.4",
-    "date": "2020-05-11T20:36:03Z"
+    "name": "v0.8.5",
+    "date": "2020-05-27T21:42:52Z"
   },
-  "commits": 501,
-  "lastSixMonthsCommitTotal": 501,
+  "commits": 523,
+  "lastSixMonthsCommitTotal": 523,
+  "contributors": 6,
   "pullRequests": {
     "open": 5
   },
@@ -31,9 +32,69 @@
       },
       "number": 274,
       "createdBy": "Jonathan Thurman"
+    },
+    {
+      "id": "MDU6SXNzdWU2MjM0NzI2MzE=",
+      "title": "Don't print the help message on error in CI",
+      "url": "https://github.com/newrelic/newrelic-cli/issues/289",
+      "createdAt": "2020-05-22T20:59:25Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jthurman42",
+        "id": "MDQ6VXNlcjQ1NTQxOQ==",
+        "email": "jthurman@newrelic.com",
+        "name": "Jonathan Thurman"
+      },
+      "number": 289,
+      "createdBy": "Jonathan Thurman"
     }
   ],
-  "cachedContributors": [],
+  "cachedContributors": [
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
+    {
+      "id": 25180681,
+      "login": "renovate-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
+      "htmlUrl": "https://github.com/renovate-bot",
+      "contributions": 24
+    },
+    {
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 31
+    },
+    {
+      "id": 29264964,
+      "login": "zlesnr",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/29264964?v=4",
+      "htmlUrl": "https://github.com/zlesnr",
+      "contributions": 49
+    },
+    {
+      "id": 413389,
+      "login": "ctrombley",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
+      "htmlUrl": "https://github.com/ctrombley",
+      "contributions": 78
+    },
+    {
+      "id": 455419,
+      "login": "jthurman42",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
+      "htmlUrl": "https://github.com/jthurman42",
+      "contributions": 159
+    }
+  ],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2U0MDM=",
