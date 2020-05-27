@@ -11,6 +11,13 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: "GTM-TK2F7T",
+        includeInDevelopment: false
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
