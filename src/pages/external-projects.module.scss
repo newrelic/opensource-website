@@ -6,8 +6,9 @@
     position: absolute;
     left: 0;
     content: "";
-    height: 400px;
-    background-color: var(--color-neutrals-100);
+    height: 317px;
+    background-color: var(--color-neutrals-050);
+    opacity: .5;
     width: 100%;
     transform: skewY(-2deg) translateY(-37px);
     z-index:-1;
