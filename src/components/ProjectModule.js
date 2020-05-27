@@ -31,7 +31,6 @@ const ProjectModule = ({ data, row, darkMode }) => {
               ? placeholderProjectIconLight
               : placeholderProjectIcon
           }
-          darkMode={darkMode}
           alt={`Icon for ${project.title}`}
           className={styles.projectModuleIcon}
         />

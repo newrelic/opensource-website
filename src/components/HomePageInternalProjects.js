@@ -17,7 +17,7 @@ const HomePageInternalProjects = ({ data }) => {
         return (
           <SimpleProjectModule
             data={project}
-            key={data.title}
+            key={project.slug}
             projectLink={link}
           />
         );

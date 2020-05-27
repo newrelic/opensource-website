@@ -22,7 +22,6 @@ const SimpleProjectModule = ({ data: project, className, darkMode }) => {
         fallbackSrc={
           darkMode.value ? placeholderProjectIconLight : placeholderProjectIcon
         }
-        darkMode={darkMode}
         alt={`Icon for ${project.title}`}
         className={styles.projectIcon}
       />
@@ -35,7 +34,7 @@ const SimpleProjectModule = ({ data: project, className, darkMode }) => {
 };
 
 SimpleProjectModule.propTypes = {
-  data: PropTypes.array,
+  data: PropTypes.object,
   className: PropTypes.string,
   darkMode: PropTypes.object
 };
