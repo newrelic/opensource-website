@@ -7,6 +7,7 @@ import { Location, Match } from '@reach/router';
 import navLinks from '../data/navigation.json';
 import styles from './Footer.module.scss';
 import editIcon from '../images/icon-edit.svg';
+import { GitHub } from 'react-feather';
 
 import packageJson from '../../package.json';
 
@@ -37,21 +38,24 @@ const Footer = ({ editLink = false }) => {
               // TO DO - Remove <Match>? It seemingly adds no additional context outside of what <Location> gives us
               return (
                 <footer className={styles.footerContainer}>
-                  <div className={styles.footerContents}>
-                    <div className={styles.footerLogoContainer}>
-                      <Link
-                        to="/"
-                        className={`${styles.footerLogo} ${
-                          editLink ? styles.hasEditButton : ''
-                        }`}
-                      >
-                        New Relic Open Source
-                      </Link>
+                  <section className={styles.footerPrimaryContent}>
+                    <Link to="/" className={styles.footerLogo}>
+                      New Relic Open Source
+                    </Link>
+                    <ul className={styles.footerNavLinks}>
+                      <li className={styles.footerNavLinkItem} key="0">
+                        <Link to="/standards" className={styles.footerNavLink}>
+                          Standards
+                        </Link>
+                      </li>
+                      {renderNavLinks()}
+                    </ul>
+                    <div className={styles.footerCTAContainer}>
                       {editLink && (
                         <a
                           href={editLink}
                           rel="noopener noreferrer"
-                          className={styles.editButton}
+                          className={styles.footerCTA}
                           target="__blank"
                         >
                           <img
@@ -62,30 +66,32 @@ const Footer = ({ editLink = false }) => {
                           Edit this page
                         </a>
                       )}
+                      <a
+                        href={editLink}
+                        rel="noopener noreferrer"
+                        className={styles.footerCTA}
+                        target="__blank"
+                      >
+                        <GitHub color="#7DA5A8" size={14} />
+                        Create an issue
+                      </a>
                     </div>
-                    <div className={styles.meta}>
-                      <small className={styles.version}>
-                        Version {packageJson.version}
-                      </small>
-                      <small className={styles.footerLegal}>
+                  </section>
+                  <section className={styles.footerSecondaryContentContainer}>
+                    <div className={styles.footerSecondaryContent}>
+                      <small
+                        className={`${styles.footerLegal} ${styles.footerMeta}`}
+                      >
                         Copyright &copy; {new Date().getFullYear()} New Relic
                         Inc.
                       </small>
+                      <small
+                        className={`${styles.version} ${styles.footerMeta}`}
+                      >
+                        Version {packageJson.version}
+                      </small>
                     </div>
-                    <ul className={styles.footerNavLinks}>
-                      <>
-                        <li className={styles.footerNavLinkItem} key="0">
-                          <Link
-                            to="/standards"
-                            className={styles.footerNavLink}
-                          >
-                            Standards
-                          </Link>
-                        </li>
-                        {renderNavLinks()}
-                      </>
-                    </ul>
-                  </div>
+                  </section>
                 </footer>
               );
             }}
