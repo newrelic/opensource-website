@@ -13,10 +13,9 @@ assignees: ''
 
 [NOTE]: # ( Provide a brief overview of what the new feature is all about. )
 
-## Desired Behaviour
+## Desired Behavior
 
 [NOTE]: # ( Tell us how the new feature should work. Be specific. )
-[TIP]:  # ( Do NOT give us access or passwords to your New Relic account or API keys! )
 
 ## Possible Solution
 

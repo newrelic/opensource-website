@@ -12,7 +12,6 @@ assignees: ''
 ## Description
 
 [NOTE]: # ( Describe the problem you're encountering. )
-[TIP]:  # ( Do NOT give us access or passwords to your New Relic account or API keys! )
 
 ## Steps to Reproduce
 

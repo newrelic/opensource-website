@@ -11,8 +11,8 @@ assignees: ''
 
 ## Summary
 
-[NOTE]: # ( Provide a brief overview of what the new feature is all about. )
+[NOTE]: # ( Provide a brief overview of your feedback. )
 
 ## Link to Page
 
-[TIP]:  # ( If this is related to a specific Nerdpack, please provide the URL. )
+[TIP]:  # ( Please provide the URL. )

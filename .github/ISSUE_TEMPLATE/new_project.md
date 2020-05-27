@@ -6,8 +6,6 @@ labels: project
 
 ---
 
-[NOTE]: # ( ^^ Provide a general summary of the request in the title above. ^^ )
-
 ## Project Title
 
 [NOTE]: # ( What is the project called? )
@@ -18,4 +16,4 @@ labels: project
 
 ## (Optional and if applicable) New Relic Open Source Category
 
-From the list, https://opensource.newrelic.com/oss-category
+Is there a category based on this list, https://opensource.newrelic.com/oss-category?
