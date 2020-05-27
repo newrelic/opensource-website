@@ -1,9 +1,8 @@
 ---
-name: New project
+name: Add a new project
 about: Submit a new project that should be represented on this site
-title: ''
+title: "Add [PROJECT_NAME]"
 labels: project
-assignees: ''
 
 ---
 
