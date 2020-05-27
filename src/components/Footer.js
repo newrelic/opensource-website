@@ -67,7 +67,7 @@ const Footer = ({ editLink = false }) => {
                         </a>
                       )}
                       <a
-                        href={editLink}
+                        href="https://github.com/newrelic/opensource-website/issues/new/choose"
                         rel="noopener noreferrer"
                         className={styles.footerCTA}
                         target="__blank"
