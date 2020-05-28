@@ -119,6 +119,21 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-edit-content-links'
+    },
+    {
+      resolve: 'gatsby-plugin-newrelic',
+      options: {
+        instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
+        configs: {
+          accountId: '2526305',
+          trustKey: '2526305',
+          agentID: '272855746',
+          licenseKey: '37bee87821',
+          applicationID: '272855746',
+          beacon: 'bam.nr-data.net',
+          errorBeacon: 'bam.nr-data.net'
+        }
+      }
     }
   ]
 };
