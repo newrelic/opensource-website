@@ -59,6 +59,8 @@
   "license": "Apache-2",
   "scripts": {
     "build": "gatsby build",
+    "build:production": "npm run build",
+    "build:staging": "NODE_ENV=staging gatsby build",
     "develop": "npm run clean && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

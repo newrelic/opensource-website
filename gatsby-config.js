@@ -123,15 +123,48 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-newrelic',
       options: {
-        instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
+        // Keyed by process.env.NODE_ENV
         configs: {
-          accountId: '2526305',
-          trustKey: '2526305',
-          agentID: '272855746',
-          licenseKey: '37bee87821',
-          applicationID: '272855746',
-          beacon: 'bam.nr-data.net',
-          errorBeacon: 'bam.nr-data.net'
+          /*
+          ;NREUM.loader_config={accountID:"10175106",trustKey:"1",agentID:"21547964",licenseKey:"23448da482",applicationID:"21547964"}
+          ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"23448da482",applicationID:"21547964",sa:1}
+          */
+          production: {
+            instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
+            accountId: '10175106',
+            trustKey: '1',
+            agentID: '21547964',
+            licenseKey: '23448da482',
+            applicationID: '21547964',
+            beacon: 'staging-bam.nr-data.net',
+            errorBeacon: 'staging-bam.nr-data.net'
+          },
+          // Our "staging" site (on AWS Amplify) named after the branch it comes from "develop"
+
+          /*
+          ;NREUM.loader_config={accountID:"10175106",trustKey:"1",agentID:"21548202",licenseKey:"23448da482",applicationID:"21548202"}
+          ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"23448da482",applicationID:"21548202",sa:1}
+          */
+          staging: {
+            instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
+            accountId: '10175106',
+            trustKey: '1',
+            agentID: '21548202',
+            licenseKey: '23448da482',
+            applicationID: '21548202',
+            beacon: 'staging-bam.nr-data.net',
+            errorBeacon: 'staging-bam.nr-data.net'
+          }
+
+          // For local development, uncomment and replace information
+          // development: {
+          //   instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
+          //   accountId: '',
+          //   trustKey: '',
+          //   agentID: '',
+          //   licenseKey: '',
+          //   applicationID: ''
+          // }
         }
       }
     }
