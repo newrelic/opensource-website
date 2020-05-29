@@ -193,7 +193,7 @@ const HomePage = ({ data }) => {
       <div className={styles.featuredInternalProjectsContainer}>
         <div className={styles.featuredInternalProjectsSection}>
           <h3 className={styles.featuredInternalProjectsSectionTitle}>
-            Explore projects
+            Explore our projects
           </h3>
           <p className={styles.featuredInternalProjectsSectionDescription}>
             Check out some of the products that we’re developing in open source
