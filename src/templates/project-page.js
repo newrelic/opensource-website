@@ -227,7 +227,7 @@ const ProjectPage = props => {
             src={darkMode.value ? iconGitHubDarkGreen : iconGitHubWhite}
             alt="GitHub logo"
           />
-          Fork Repo
+          View Repo
         </a>
         {contentEditLink && (
           <a
