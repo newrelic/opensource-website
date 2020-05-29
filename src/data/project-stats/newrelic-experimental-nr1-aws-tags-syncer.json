@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 6,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,10 +20,36 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/4061375?v=4",
       "htmlUrl": "https://github.com/ricegi",
       "contributions": 1
+    },
+    {
+      "id": 40477042,
+      "login": "aminoz007",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/40477042?v=4",
+      "htmlUrl": "https://github.com/aminoz007",
+      "contributions": 1
     }
   ],
-  "languages": [],
-  "screenshots": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzMDg=",
+      "name": "CSS",
+      "color": "#563d7c"
+    }
+  ],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-aws-tags-syncer/master/screenshots/actions.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-aws-tags-syncer/master/screenshots/details.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-aws-tags-syncer/master/screenshots/filters.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-aws-tags-syncer/master/screenshots/help.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-aws-tags-syncer/master/screenshots/launcher.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-aws-tags-syncer/master/screenshots/mainPage.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-aws-tags-syncer/master/screenshots/summary.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",
