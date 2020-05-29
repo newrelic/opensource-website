@@ -1,38 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-cli",
   "issues": {
-    "open": 13
+    "open": 12
   },
   "releases": 19,
   "latestRelease": {
     "name": "v0.8.5",
     "date": "2020-05-27T21:42:52Z"
   },
-  "commits": 523,
-  "lastSixMonthsCommitTotal": 523,
+  "commits": 529,
+  "lastSixMonthsCommitTotal": 529,
   "contributors": 6,
   "pullRequests": {
-    "open": 5
+    "open": 6
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MTkxNDQ1MDI=",
-      "title": "Pre-GA Feature flag",
-      "url": "https://github.com/newrelic/newrelic-cli/issues/274",
-      "createdAt": "2020-05-15T17:56:45Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "jthurman42",
-        "id": "MDQ6VXNlcjQ1NTQxOQ==",
-        "email": "jthurman@newrelic.com",
-        "name": "Jonathan Thurman"
-      },
-      "number": 274,
-      "createdBy": "Jonathan Thurman"
-    },
     {
       "id": "MDU6SXNzdWU2MjM0NzI2MzE=",
       "title": "Don't print the help message on error in CI",
@@ -64,7 +47,7 @@
       "login": "renovate-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
       "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 24
+      "contributions": 25
     },
     {
       "id": 2590905,
@@ -92,7 +75,7 @@
       "login": "jthurman42",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
       "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 159
+      "contributions": 162
     }
   ],
   "languages": [

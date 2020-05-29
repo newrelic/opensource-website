@@ -1,11 +1,7 @@
 // const github = require("@actions/github")
 const core = require('@actions/core');
-
 const { Octokit } = require('@octokit/rest');
-const { graphql } = require('@octokit/graphql');
 const parseLinkHeader = require('parse-link-header');
-
-const queries = require('./queries');
 const { prettyPrintJson, prettyPrint } = require('../shared/helpers');
 
 const DEFAULT_ORG = 'newrelic';
@@ -15,26 +11,12 @@ const REPOS_PER_PAGE = 100;
 const octokit = new Octokit({
   auth: GH_TOKEN,
   log: {
-    debug: () => {},
-    info: () => {},
+    debug: () => { },
+    info: () => { },
     // eslint-disable-next-line no-console
     warn: console.warn,
     // eslint-disable-next-line no-console
     error: console.error
-  }
-});
-// const octokit = new github.GitHub(GH_TOKEN, {
-//   log: {
-//     debug: () => {},
-//     info: () => {},
-//     warn: console.warn,
-//     error: console.error,
-//   },
-// })
-
-const graphqlWithAuth = graphql.defaults({
-  headers: {
-    authorization: `token ${GH_TOKEN}`
   }
 });
 
@@ -146,7 +128,7 @@ const graphqlWithAuth = graphql.defaults({
   }
 }
 */
-/*
+/**
  * pages - number of pages to loop through
  * org - Github 'login', either a user or an organization
  * type - Repository type
@@ -154,7 +136,7 @@ const graphqlWithAuth = graphql.defaults({
  * start_page - Beginning page
  * exclude_archived - Whether or not to filter out archived repositories (repos.listForOrg does not offer a way to exclude these from the response)
  */
-const organizationRepositoryIterator = function({
+const organizationRepositoryIterator = function ({
   pages = 1,
   org = DEFAULT_ORG,
   type = 'public',
@@ -162,7 +144,7 @@ const organizationRepositoryIterator = function({
   start_page = 1
   // excludeArchived = true
 }) {
-  return function() {
+  return function () {
     const MAX_PAGES_ALLOWED = 100;
 
     let isFirstPage = true;
@@ -174,15 +156,15 @@ const organizationRepositoryIterator = function({
     // How best do we initialize this for the first page?
     let pagesToGet = pages === 0 ? MAX_PAGES_ALLOWED : pages;
 
-    const hasMore = function() {
+    const hasMore = function () {
       return pagesToGet > 0;
     };
 
-    const getCurrentPage = function() {
+    const getCurrentPage = function () {
       return currentPage;
     };
 
-    const firstPage = async function() {
+    const firstPage = async function () {
       const firstPage = await fetchOrganizationRepositoryPage({
         org,
         type,
@@ -207,7 +189,7 @@ const organizationRepositoryIterator = function({
       return firstPage;
     };
 
-    const next = function() {
+    const next = function () {
       let nextPage = false;
 
       if (hasMore()) {
@@ -245,7 +227,7 @@ const organizationRepositoryIterator = function({
   };
 };
 
-const fetchOrganizationRepositoryPage = async function({
+const fetchOrganizationRepositoryPage = async function ({
   org,
   type,
   per_page,
@@ -272,88 +254,7 @@ const fetchOrganizationRepositoryPage = async function({
   }
 };
 
-const fetchRepositoryStats = async function(owner, repo) {
-  return graphqlWithAuth(queries.repositoryStats(), { owner, repo });
-};
-
-const fetchContributorStats = async function(owner, repo) {
-  try {
-    const contributorStats = await octokit.repos.getContributorsStats({
-      owner,
-      repo
-    });
-    return contributorStats;
-  } catch (e) {
-    prettyPrint(
-      `[ERROR] data-generator.fetch.fetchContributorStats | {"owner": ${owner}, "repo": ${repo}} | ${e}`
-    );
-  }
-};
-
-const getRepoStatsByContributor = async function(owner, repo) {
-  const response = await fetchContributorStats(owner, repo);
-  const { /* status, url, headers, */ data } = response;
-
-  try {
-    if (Array.isArray(data)) {
-      const formattedContributorStats = data.map(({ total, author }) => ({
-        total: total,
-        author: author
-      }));
-
-      // prettyPrint(formattedContributorStats);
-      return formattedContributorStats;
-    }
-
-    prettyPrint(
-      `Warning, no repoStatsByContributor found for Owner: ${owner} Repo: ${repo}`
-    );
-    prettyPrint('Instead found: ');
-    prettyPrintJson(data);
-  } catch (e) {
-    prettyPrint(`getRepoStatsByContributor | error | ${e}`);
-  }
-
-  return {};
-};
-
-const fetchStats = async function(owner, repo) {
-  try {
-    // 1. Graphql, includes releases.totalCount, issues.totalCount, forks.totalCount, pullRequests.totalCount
-    const repoStats = await fetchRepositoryStats(owner, repo);
-    // prettyPrint(Object.keys(repoStats.repository));
-    /*
-    [
-      'id',               'collaborators',
-      'releases',         'issues',
-      'forks',            'pullRequests',
-      'pushedAt',         'milestones',
-      'mentionableUsers', 'languages',
-      'labels',           'isFork',
-      'deployments',      'commitComments'
-    ]*/
-
-    // 2a. Individual Contributor stats
-    const contributorStats = await getRepoStatsByContributor(owner, repo); // strips out the 'weeks' object
-
-    // prettyPrint(contributorStats);
-
-    // TO DO - Find a better way than listing all contributors
-    // 2b. Number of contributors by way of listing all contributors
-    // const contributors = await octokit.repos.listContributors({
-    //   owner,
-    //   repo
-    // });
-    // prettyPrint(Object.keys(contributors));
-    // const contributorCount = contributors.data || 0;
-
-    return { repoStats: repoStats.repository, contributorStats };
-  } catch (e) {
-    prettyPrintJson(e);
-  }
-};
-
-const fetchRepo = async function({ options }) {
+const fetchRepo = async function ({ options }) {
   const { org: owner, repo } = options;
 
   return octokit.repos.get({
@@ -364,9 +265,5 @@ const fetchRepo = async function({ options }) {
 
 module.exports = {
   organizationRepositoryIterator,
-  fetchRepositoryStats,
-  fetchContributorStats,
-  getRepoStatsByContributor,
-  fetchStats,
   fetchRepo
 };

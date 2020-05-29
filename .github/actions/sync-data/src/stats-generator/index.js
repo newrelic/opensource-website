@@ -5,6 +5,7 @@ const path = require('path');
 const { createGithubClient } = require('./github/github-client');
 const { calculateAndWriteProjectStats } = require('./processor');
 const { ORG_REPOS, EXCLUDED_PROJECTS } = require('../shared/constants');
+const { sleep } = require('../shared/helpers');
 
 const getAllReposForOrg = require('./queries/get-all-repos-for-org');
 const log = require('./lib/log');
@@ -16,6 +17,7 @@ const log = require('./lib/log');
  */
 async function generateStatsForOrgs({ organizations, paginationLimit = 5 }) {
   const GH_TOKEN = core.getInput('github-token') || process.env.GH_TOKEN;
+  const delay = 1000;
 
   log.info(
     `Generating stats for orgs: [${organizations
@@ -40,6 +42,7 @@ async function generateStatsForOrgs({ organizations, paginationLimit = 5 }) {
     log.magenta(`Begin - process stats and write files for org: ${org}`);
     for (const repo of repos) {
       await calculateAndWriteProjectStats(repo);
+      await sleep(delay);
     }
     log.magenta(`Finished - stats processed for org: ${org}`);
   }
@@ -53,7 +56,7 @@ async function generateStatsForOrgs({ organizations, paginationLimit = 5 }) {
  * @param {*} outputDir Directory of project file
  */
 async function getProjectFullName(file, outputDir) {
-  const data = await fsp.readFile(path.join(outputDir, file), 'utf-8');
+  const data = await fsp.readFile(path.join(outputDir, file));
   return JSON.parse(data).fullName;
 }
 
@@ -104,6 +107,8 @@ async function generateDiff(results) {
  */
 async function script() {
   const PAGINATION_LIMIT = 5;
+
+  // TODO: First thing script should do is delete all files from project-stats directory to remove deleted projects
 
   // Get all stats data for newrelic and newrelic-experimental orgs
   const results = await generateStatsForOrgs({

@@ -17,7 +17,14 @@ async function calculateAndWriteProjectStats(project) {
   // prettyPrint('Fetching stats for ' + project.fullName);
 
   const stats = await fetchStats(owner, repo);
-  writeProjectStatsToGatsby(project, formatStats(project, stats));
+
+  if (stats != null) {
+    writeProjectStatsToGatsby(project, formatStats(project, stats));
+  } else {
+    prettyPrint(
+      `[WARNING] at processor.calculateAndWriteProjectStats \n  | owner: ${owner}, repo: ${repo} \n  | No stats found, skipping writing stats. Check to see if this is expected (i.e. does repo have any contributions?).\n`
+    );
+  }
 }
 
 function formatStats(project, stats) {
