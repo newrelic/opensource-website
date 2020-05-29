@@ -1,6 +1,6 @@
 const core = require('@actions/core');
 const { createOctokit } = require('./github-client');
-const { prettyPrintJson, prettyPrint } = require('../../shared/helpers');
+const { prettyPrint, sleep } = require('../../shared/helpers');
 
 // TODO: Set Default_Org via param, since the getContributorStats query won't always be for the newrelic org
 const DEFAULT_ORG = 'newrelic';
@@ -30,71 +30,59 @@ const fetchContributorStats = async function(owner, repo) {
     return contributorStats;
   } catch (e) {
     prettyPrint(
-      `[ERROR] data-generator.fetch.fetchContributorStats | {"owner": ${owner}, "repo": ${repo}} | ${e}`
+      `[ERROR] at stats-generator.github.fetchContributorStats.fetchContributorStats \n  | owner: ${owner}, repo: ${repo} \n  | ${e}`
     );
   }
+};
+
+const fetchRepoStatsByContributor_withRetry = async (owner, repo, retries) => {
+  const delay = 3000;
+  let error;
+  for (let i = 0; i < retries; i++) {
+    try {
+      return await getRepoStatsByContributor(owner, repo);
+    } catch (err) {
+      error = err;
+      prettyPrint(
+        `[WARNING] at stats-generator.github.fetchContributorStats.fetchRepoStatsByContributor_withRetry \n  | Try #${i +
+          1} | getRepoStatsByContributor failes, retrying after ${delay /
+          1000}s delay\n`
+      );
+      await sleep(delay);
+    }
+  }
+
+  prettyPrint(error.message);
+  return null;
 };
 
 const getRepoStatsByContributor = async function(owner, repo) {
-  try {
-    const response = await fetchContributorStats(owner, repo);
-    const { /* status, url, headers, */ data } = response;
+  const response = await fetchContributorStats(owner, repo);
+  const { /* status, url, headers, */ data } = response;
 
-    if (Array.isArray(data)) {
-      const formattedContributorStats = data.map(({ total, author }) => ({
-        total: total,
-        author: author
-      }));
-
-      // prettyPrint(formattedContributorStats);
-      return formattedContributorStats;
-    }
-
-    prettyPrint(
-      `[WARNING] No repoStatsByContributor found for Owner: ${owner} Repo: ${repo}`
-    );
-    prettyPrint('Instead found: ');
-    prettyPrintJson(data);
-  } catch (e) {
-    prettyPrint(
-      `[ERROR] stats-generator.github.getRepoStatsByContributor | {"owner": ${owner}, "repo": ${repo}} | ${e}`
-    );
+  if (Array.isArray(data)) {
+    const formattedContributorStats = data.map(({ total, author }) => ({
+      total: total,
+      author: author
+    }));
+    return formattedContributorStats;
   }
 
-  return {};
+  // fetchContributorStats failed to return data, logging output and letting retry flow
+  throw new Error(
+    `[ERROR] at stats-generator.github.fetchContributorStats.getRepoStatsByContributor \n  | owner: ${owner}, repo: ${repo} \n  | fetchContributorStats failed: No stats returned\n`
+  );
 };
 
 const fetchStats = async function(owner, repo) {
-  // 1. Graphql, includes releases.totalCount, issues.totalCount, forks.totalCount, pullRequests.totalCount
-  // const repoStats = await fetchRepositoryStats(owner, repo);
-  // prettyPrint(Object.keys(repoStats.repository));
-  /*
-    [
-      'id',               'collaborators',
-      'releases',         'issues',
-      'forks',            'pullRequests',
-      'pushedAt',         'milestones',
-      'mentionableUsers', 'languages',
-      'labels',           'isFork',
-      'deployments',      'commitComments'
-    ]*/
+  const retries = 3;
+  const contributorStats = await fetchRepoStatsByContributor_withRetry(
+    owner,
+    repo,
+    retries
+  );
 
-  // 2a. Individual Contributor stats
-  const contributorStats = await getRepoStatsByContributor(owner, repo); // strips out the 'weeks' object
-
-  // prettyPrint(contributorStats);
-
-  // TO DO - Find a better way than listing all contributors
-  // 2b. Number of contributors by way of listing all contributors
-  // const contributors = await octokit.repos.listContributors({
-  //   owner,
-  //   repo
-  // });
-  // prettyPrint(Object.keys(contributors));
-  // const contributorCount = contributors.data || 0;
-
-  // return { repoStats: repoStats.repository, contributorStats };
-  return { contributorStats };
+  return contributorStats ? { contributorStats } : null;
 };
 
 // (async function() {
