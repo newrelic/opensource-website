@@ -1,0 +1,24 @@
+{
+  "name": "validate-nerdpack-action",
+  "fullName": "newrelic/validate-nerdpack-action",
+  "slug": "newrelic-validate-nerdpack-action",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "Validate Nerdpack Action",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/validate-nerdpack-action",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/validate-nerdpack-action",
+  "iconUrl": null,
+  "shortDescription": "Verify your NR1 application",
+  "description": "A GitHub Action to check New Relic nerdpacks for standard files",
+  "ossCategory": "community-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [ "tools", "ci", "github-action" ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "Validate Nerdpack Action",
+    "url": "https://github.com/newrelic/validate-nerdpack-action"
+  }
+}
