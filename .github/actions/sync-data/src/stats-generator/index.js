@@ -56,7 +56,7 @@ async function generateStatsForOrgs({ organizations, paginationLimit = 5 }) {
  * @param {*} outputDir Directory of project file
  */
 async function getProjectFullName(file, outputDir) {
-  const data = await fsp.readFile(path.join(outputDir, file), 'utf-8');
+  const data = await fsp.readFile(path.join(outputDir, file));
   return JSON.parse(data).fullName;
 }
 

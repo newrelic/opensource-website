@@ -9,18 +9,12 @@
  * - https://github.com/octokit/graphql.js
  *
  */
-
 const path = require('path');
 const fs = require('fs');
-const _ = require('lodash');
 
-const {
-  organizationRepositoryIterator,
-  fetchStats,
-  fetchRepo
-} = require('./fetch');
-const { SCREENSHOT_FOLDERS, ORG_REPOS } = require('../shared/constants');
-const { prettyPrintJson, prettyPrint, sleep } = require('../shared/helpers');
+const { organizationRepositoryIterator, fetchRepo } = require('./fetch');
+const { ORG_REPOS } = require('../shared/constants');
+const { prettyPrint, sleep } = require('../shared/helpers');
 
 /**
  * 1. Create a personal access token with the following scopes:
@@ -72,75 +66,6 @@ function formatRepositories(repositories) {
   });
 }
 
-function formatStats(project, stats) {
-  const { repoStats, contributorStats } = stats;
-  const contributorCount = contributorStats.length;
-
-  const screenshots = Object.entries(SCREENSHOT_FOLDERS).reduce(
-    (p, [key, path]) => {
-      const fileNames = repoStats[key];
-
-      if (!fileNames || fileNames === null) {
-        return p;
-      }
-
-      // prettyPrintJson(fileNames);
-      // TO DO filter out .gitkeep
-
-      if (Array.isArray(fileNames.entries)) {
-        const fullPaths = fileNames.entries.map(file => {
-          const dir = path.replace(':', '/'); // Replace "master:" with "master/"
-          // const url = `https://github.com/` + project.fullName + `/blob/` + dir + file.name + '?raw=true';
-          const url = `https://raw.githubusercontent.com/${project.fullName}/${dir}${file.name}`;
-          return url;
-        });
-        return p.concat(fullPaths);
-      }
-      return p;
-    },
-    []
-  );
-
-  const cachedContributors = Array.isArray(contributorStats)
-    ? contributorStats.map(i => ({
-        id: i.author.id,
-        login: i.author.login,
-        avatarUrl: i.author.avatar_url,
-        htmlUrl: i.author.html_url,
-        contributions: i.total
-      }))
-    : [];
-
-  const latestReleaseName = _.get(repoStats, 'latestTag.nodes[0].name', false);
-  const latestRelease = {
-    name: latestReleaseName,
-    date: _.get(repoStats, 'latestTag.nodes[0].target.authoredDate', null)
-  };
-
-  return {
-    projectFullName: project.fullName,
-    issues: {
-      open: repoStats.openIssues.totalCount
-    },
-    releases: repoStats.tags.totalCount,
-    latestRelease: latestReleaseName ? latestRelease : null,
-    commits: repoStats.defaultBranchRef.target.history.totalCount,
-    contributors: contributorCount,
-    pullRequests: {
-      open: repoStats.pullRequests.totalCount // Filtering by a status of OPEN
-    },
-    searchCategory: 'good first issue',
-    cachedIssues: repoStats.goodFirstIssues.nodes.map(node => ({
-      ...node,
-      createdBy: node.author.name || node.author.login || 'Unknown'
-    })), // Note: createdBy is author.login
-    cachedContributors,
-    languages: repoStats.languages.nodes,
-    screenshots: screenshots,
-    license: repoStats.licenseInfo ? { ...repoStats.licenseInfo } : null
-  };
-}
-
 function writeProjectsToGatsby(projects) {
   projects.forEach(project => {
     const fileName = `${project.fullName.replace('/', '-')}.json`;
@@ -156,35 +81,6 @@ function writeProjectsToGatsby(projects) {
       fs.writeFileSync(outputPath, jsonContent);
     }
   });
-}
-
-async function calculateAndWriteProjectStats(project) {
-  const owner = project.owner.login;
-  const repo = project.name;
-
-  prettyPrint(
-    `calculateAndWriteProjectStats || Fetching stats for ${project.fullName}`
-  );
-
-  const stats = await fetchStats(owner, repo);
-  writeProjectStatsToGatsby(project, formatStats(project, stats));
-}
-
-function writeProjectStatsToGatsby(project, projectStats) {
-  const fileName = project.fullName.replace('/', '-');
-  const outputDir = path.resolve(
-    __dirname,
-    '../../../../../src/data/project-stats'
-  );
-  const outputPath = `${outputDir}/${fileName}.json`.toLowerCase();
-  const exists = fs.existsSync(outputPath);
-  const jsonContent = JSON.stringify(projectStats, null, 2);
-
-  prettyPrint(`Writing File: ${outputPath}`);
-
-  if (OVERWRITE_EXISTING || !exists) {
-    fs.writeFileSync(outputPath, jsonContent);
-  }
 }
 
 /*
@@ -230,54 +126,6 @@ function processProjects(response) {
   writeProjectsToGatsby(formatRepositories(filteredRepos));
 }
 
-/*
- * Generates files with a filename like:
- * project-stats/<organization>-<repository-name>.json
- */
-async function generateProjectStats({ iteratorOptions }) {
-  if (iteratorOptions.repo) {
-    const response = await fetchRepo({
-      options: iteratorOptions
-    });
-    prettyPrint('generateProjectStats');
-    prettyPrintJson(response);
-    processProjectStats(response);
-    return;
-  }
-
-  const iterator = organizationRepositoryIterator(iteratorOptions)();
-  const delay = 2000;
-
-  let result = iterator.next();
-  const response = await result.value;
-  processProjectStats(response);
-
-  while (!result.done) {
-    result = await iterator.next();
-
-    const response = await result.value;
-    processProjectStats(response);
-    await sleep(delay);
-  }
-}
-
-async function processProjectStats(response) {
-  const { /* status, url, headers, */ data } = response;
-  const dataAsArray = Array.isArray(data) ? data : [data];
-  const filteredRepos = dataAsArray.filter(r => r && !r.archived);
-
-  prettyPrint(
-    `After removing Archived repositories found ${filteredRepos.length} results:`
-  );
-  prettyPrint(filteredRepos.map(d => `id: ${d.id} ${d.full_name}`).join('\n'));
-
-  const repositories = formatRepositories(filteredRepos);
-  for (const repository of repositories) {
-    calculateAndWriteProjectStats(repository);
-    await sleep(2000);
-  }
-}
-
 /**
  * RequestError [HttpError]: You have triggered an abuse detection mechanism. Please wait a few minutes before you try again.
  */
@@ -299,26 +147,8 @@ async function generateData({ projects = false, project_stats = false }) {
       await sleep(2000);
     }
   }
-
-  if (project_stats) {
-    prettyPrint('Processing project stats...');
-    for (const { org, repo = false } of ORG_REPOS) {
-      await generateProjectStats({
-        iteratorOptions: {
-          ...defaultOptions,
-          org,
-          repo
-        }
-      });
-      await sleep(2000);
-    }
-  }
 }
 
 module.exports = {
   generateData
 };
-
-// (async function () {
-//   start()
-// })();
