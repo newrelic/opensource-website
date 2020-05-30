@@ -1,0 +1,24 @@
+{
+  "name": "deployment-marker-action",
+  "fullName": "newrelic/deployment-marker-action",
+  "slug": "newrelic-deployment-marker-action",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Application Deployment Marker",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/deployment-marker-action",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/deployment-marker-action",
+  "iconUrl": null,
+  "shortDescription": "GitHub Action for recording deployment markers",
+  "description": "A GitHub Action to add New Relic deployment markers in your release pipeline",
+  "ossCategory": "community-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [ "tools", "ci", "github-action" ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Application Deployment Marker",
+    "url": "https://github.com/newrelic/deployment-marker-action"
+  }
+}
