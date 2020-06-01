@@ -1,0 +1,122 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - develop
+      - master
+  repository_dispatch:
+    types: [pull-request-develop, pull-request-master]
+
+jobs:
+  job-checkout-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Cache node_modules
+        id: cache-node
+        uses: actions/cache@v2
+        env:
+          cache-name: node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-name }}-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: |
+          if [ '${{ github.ref }}' = 'refs/heads/develop' ]; then
+            npm run build:staging
+          elif [ '${{ github.ref }}' = 'refs/heads/master' ]; then
+            npm run build:production
+          else
+            echo "::error::Pull Request opened on unsupported branch. Exiting."
+            exit 1
+          fi
+
+  job-eslint:
+    name: eslint
+    runs-on: ubuntu-latest
+    needs: job-checkout-and-build
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Setup node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+
+      - name: Cache node_modules
+        id: cache-node
+        uses: actions/cache@v2
+        env:
+          cache-name: node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-name }}-
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run eslint-check and generate report
+        id: eslint-check
+        run: |
+          npm run eslint-check -- --output-file eslint_report.json --format json
+        continue-on-error: true
+
+      - name: Annotate Lint Results
+        uses: ataylorme/eslint-annotate-action@1.0.4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          report-json: eslint_report.json
+        continue-on-error: true
+
+      - name: Check eslint-check outcome
+        if: steps.eslint-check.outcome != 'success'
+        run: |
+          echo "::error::eslint-check failed. View output of _Run eslint-check and generate report_ step"
+          exit 1
+
+  job-test:
+    name: Jest
+    runs-on: ubuntu-latest
+    needs: job-checkout-and-build
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Cache node_modules
+        id: cache-node
+        uses: actions/cache@v2
+        env:
+          cache-name: node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-name }}-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Jest
+        uses: stefanoeb/jest-action@1.0.2
