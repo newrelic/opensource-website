@@ -10,7 +10,7 @@ import SimpleProjectModule from '../components/SimpleProjectModule';
 import styles from './collection.module.scss';
 
 export const query = graphql`
-  query NerdpackProjects {
+  query NerdpackProjects($path: String) {
     allProjects(
       filter: {
         projectType: { eq: "newrelic" }
