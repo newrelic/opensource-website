@@ -19,23 +19,22 @@ jobs:
         with:
           node-version: 12
 
-      # Needs work, this only caches/restores npm cache files, not node_modules (which is explicitly not recommended)
-      # See https://github.com/actions/cache/blob/master/examples.md#node---npm
-      - name: Cache Deps
-        uses: actions/cache@v1
+      - name: Cache node_modules
+        id: cache-node
+        uses: actions/cache@v2
+        env:
+          cache-name: node-modules
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build
-        run: gatsby build
-
-  # job-test # needed??
+        run: npm run build:production
 
   job-generate-release:
     runs-on: ubuntu-latest
@@ -49,16 +48,19 @@ jobs:
         with:
           node-version: 12
 
-      - name: Download Cached Deps
-        uses: actions/cache@v1
+      - name: Cache node_modules
+        id: cache-node
+        uses: actions/cache@v2
+        env:
+          cache-name: node-modules
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
-            ${{ runner.os }}-node-
+            ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Release
         env:
