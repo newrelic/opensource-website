@@ -4,6 +4,7 @@ import navLinks from '../data/navigation.json';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { ChevronRight } from 'react-feather';
+import DarkModeToggle from './DarkModeToggle';
 
 import GlobalHeader from './GlobalHeader';
 
@@ -57,6 +58,7 @@ const Header = ({ hasHeaderBg }) => {
             mobileMenuActive ? styles.mobileMenuActive : ''
           }`}
         >
+          <DarkModeToggle className={styles.headerDarkModeToggle} />
           <button
             className={styles.mobileMenuButton}
             onClick={() => setMobileMenuActive(!mobileMenuActive)}

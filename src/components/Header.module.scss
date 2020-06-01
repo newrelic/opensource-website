@@ -100,6 +100,13 @@ div.exists-in-active-mobile-menu {
   }
 }
 
+.header-dark-mode-toggle {
+  display: none;
+  position: absolute;
+  right: 70px;
+  top: 22px;
+}
+
 // ==============================================================
 // Responsive styles
 // ==============================================================
@@ -197,6 +204,13 @@ div.exists-in-active-mobile-menu {
       top: 21px;
     }
 
+    .header-dark-mode-toggle {
+      display: block;
+
+      svg {
+        fill: var(--color-brand-800);
+      }
+    }
     
     .primary-header-mobile-nav-links {
       margin-top: 59px;
@@ -242,5 +256,9 @@ div.exists-in-active-mobile-menu {
 
   .primary-header-nav-link svg {
     display: none;
+  }
+
+  .mobile-menu-active .header-dark-mode-toggle svg {
+      fill: var(--color-neutrals-800);
   }
 }
