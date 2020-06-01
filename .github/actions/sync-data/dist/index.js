@@ -23091,9 +23091,9 @@ function formatStats(project, stats) {
 }
 
 function writeProjectStatsToGatsby(project, projectStats) {
-  const workingDir = process.env.GITHUB_WORKSPACE || '../../../../../';
+  const workingDir = process.env.GITHUB_WORKSPACE || path.join(__dirname, '../../../../../');
   const statsDir = core.getInput('stats-dir') || DEFAULT_DIR;
-  const outputDir = __webpack_require__.ab + "stats-generator/" + workingDir + '/' + statsDir;
+  const outputDir = path.resolve(workingDir, statsDir);
 
   const fileName = project.nameWithOwner.replace('/', '-');
   const outputPath = `${outputDir}/${fileName}.json`.toLowerCase();
