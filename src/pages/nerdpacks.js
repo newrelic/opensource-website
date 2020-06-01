@@ -36,7 +36,7 @@ const NerdpackPage = ({ data }) => {
       <SEO title="Open source New Relic One applications" />
       <PageHeading
         title="New Relic One Applications"
-        subheader="Explore the New Relic One Applications that are available in open source"
+        subheader="Explore the New Relic One Applications that are available in open source."
       />
       <div className={styles.featuredVideoContainer}>
         <div className="responsive-video">
@@ -57,7 +57,7 @@ const NerdpackPage = ({ data }) => {
         <p className={styles.primaryBodyCopyDescription}>
         New Relic has a growing body of open-source apps that can extend and enhance your data views. The New Relic One Catalog provides a fast, easy way to browse through the available apps and subscribe to the ones you want, all from the New Relic One GUI.
         <br/><br/><br/>
-        The Catalog also provides links to the code for you to futher customize. You can borrow code sections to use in your own <a href="https://developer.newrelic.com/use-cases/build-new-relic-one-applications">New Relic One apps</a>, or explore the source to understand how they work. Check out our <a href="/explore-projects/?tag=Template">layout templates</a>, which give you a headstart by letting you choose common layouts.
+        The Catalog also provides links to the code for you to futher customize. You can borrow code sections to use in your own <a href="https://developer.newrelic.com/use-cases/build-new-relic-one-applications">New Relic One applications</a>, or explore the source to understand how they work. Check out our <a href="/explore-projects/?tag=Template">layout templates</a>, which give you a headstart by letting you choose common layouts.
         </p>
       </section>
       <div className={styles.collectionListingContainer}>
