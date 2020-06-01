@@ -21,7 +21,7 @@ jobs:
       - name: Sync Data
         uses: ./.github/actions/sync-data
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.NEWRELIC_BOT_TOKEN }}
           project-stats: true
 
       - name: Commit data files
