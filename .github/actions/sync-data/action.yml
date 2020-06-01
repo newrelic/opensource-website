@@ -2,7 +2,7 @@ name: "sync-data"
 description: "Sync project and project-stats data"
 inputs:
   github-token:
-    description: "Token for the repo. Can be passed in using ${{ secrets.GITHUB_TOKEN }}"
+    description: "Token to use for authentication to GitHub APIs"
     required: true
   projects:
     description: "true/false - determines whether to fetch and sync the project data"
