@@ -706,7 +706,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="darkModeToggle"
         >
           <div
-            className="dark-mode-toggle"
+            className="dark-mode-toggle undefined"
           >
             <svg
               fill="#000d0d"
@@ -775,6 +775,26 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     <div
       className="primaryHeaderMobileNav "
     >
+      <div
+        className="dark-mode-toggle headerDarkModeToggle"
+      >
+        <svg
+          fill="#000d0d"
+          height={15}
+          onClick={[Function]}
+          stroke="rgba(0,0,0, 0)"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          viewBox="0 0 24 24"
+          width={15}
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+          />
+        </svg>
+      </div>
       <button
         className="mobileMenuButton"
         onClick={[Function]}
