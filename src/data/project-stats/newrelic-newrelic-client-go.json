@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-client-go",
   "issues": {
-    "open": 8
+    "open": 7
   },
-  "releases": 39,
+  "releases": 40,
   "latestRelease": {
-    "name": "v0.27.0",
-    "date": "2020-05-28T23:15:59Z"
+    "name": "v0.27.1",
+    "date": "2020-05-29T21:45:24Z"
   },
-  "commits": 700,
-  "lastSixMonthsCommitTotal": 700,
+  "commits": 711,
+  "lastSixMonthsCommitTotal": 711,
   "contributors": 8,
   "pullRequests": {
     "open": 1
@@ -39,13 +39,6 @@
       "contributions": 3
     },
     {
-      "id": 25180681,
-      "login": "renovate-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
-      "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 24
-    },
-    {
       "id": 29264964,
       "login": "zlesnr",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/29264964?v=4",
@@ -53,11 +46,18 @@
       "contributions": 25
     },
     {
+      "id": 25180681,
+      "login": "renovate-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
+      "htmlUrl": "https://github.com/renovate-bot",
+      "contributions": 26
+    },
+    {
       "id": 455419,
       "login": "jthurman42",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
       "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 145
+      "contributions": 147
     },
     {
       "id": 2590905,
@@ -71,7 +71,7 @@
       "login": "ctrombley",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
       "htmlUrl": "https://github.com/ctrombley",
-      "contributions": 192
+      "contributions": 194
     }
   ],
   "languages": [

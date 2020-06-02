@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-java",
   "issues": {
-    "open": 19
+    "open": 18
   },
   "releases": 8,
   "latestRelease": {
     "name": "v0.6.0",
     "date": "2020-05-28T22:39:36Z"
   },
-  "commits": 522,
-  "lastSixMonthsCommitTotal": 208,
+  "commits": 525,
+  "lastSixMonthsCommitTotal": 211,
   "contributors": 13,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -31,6 +31,40 @@
         "name": "Jason Plumb"
       },
       "number": 116,
+      "createdBy": "Jason Plumb"
+    },
+    {
+      "id": "MDU6SXNzdWU2MjY4NTU3OTc=",
+      "title": "Create logging example in telemetry_examples/",
+      "url": "https://github.com/newrelic/newrelic-telemetry-sdk-java/issues/171",
+      "createdAt": "2020-05-28T22:27:32Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "breedx-nr",
+        "id": "MDQ6VXNlcjU0MDg1MTkw",
+        "email": "",
+        "name": "Jason Plumb"
+      },
+      "number": 171,
+      "createdBy": "Jason Plumb"
+    },
+    {
+      "id": "MDU6SXNzdWU2MjY4NTYyMDk=",
+      "title": "Create events example in telemetry_examples/",
+      "url": "https://github.com/newrelic/newrelic-telemetry-sdk-java/issues/172",
+      "createdAt": "2020-05-28T22:28:28Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "breedx-nr",
+        "id": "MDQ6VXNlcjU0MDg1MTkw",
+        "email": "",
+        "name": "Jason Plumb"
+      },
+      "number": 172,
       "createdBy": "Jason Plumb"
     }
   ],
@@ -117,7 +151,7 @@
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 124
+      "contributions": 126
     },
     {
       "id": 858731,
