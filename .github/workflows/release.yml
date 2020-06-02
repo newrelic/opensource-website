@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
+      - name: Gatsby Build
         run: npm run build:production
 
   job-generate-release:
@@ -61,8 +61,8 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
-      - name: Release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npx semantic-release
+      # Don't actually run release yet
+      # - name: Release
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   run: npx semantic-release

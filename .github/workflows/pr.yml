@@ -34,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build
+      - name: Gatsby Build
         run: |
           if [ '${{ github.ref }}' = 'refs/heads/develop' ]; then
             npm run build:staging
