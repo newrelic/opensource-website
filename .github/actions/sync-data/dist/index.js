@@ -29922,9 +29922,9 @@ async function getProjectFullName(file, outputDir) {
  * explicitly not generating stats for.
  */
 async function getProjectsAndExclusions() {
-  const workingDir = process.env.GITHUB_WORKSPACE || '../../../../../';
+  const workingDir = process.env.GITHUB_WORKSPACE || path.join(__dirname, '../../../../../');
   const projectsDir = core.getInput('stats-dir') || 'src/data/projects';
-  const outputDir = __webpack_require__.ab + "stats-generator/" + workingDir + '/' + projectsDir;
+  const outputDir = path.resolve(workingDir, projectsDir);
 
   const projectFiles = await fsp.readdir(outputDir);
   const projects = await Promise.all(
@@ -38804,7 +38804,7 @@ const fetchRepoStatsByContributor_withRetry = async (owner, repo, retries) => {
       error = err;
       prettyPrint(
         `[WARNING] at stats-generator.github.fetchContributorStats.fetchRepoStatsByContributor_withRetry \n  | Try #${i +
-          1} | getRepoStatsByContributor failes, retrying after ${delay /
+          1} | owner: ${owner}, repo: ${repo} | getRepoStatsByContributor failed, retrying after ${delay /
           1000}s delay\n`
       );
       await sleep(delay);

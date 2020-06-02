@@ -65,9 +65,9 @@ async function getProjectFullName(file, outputDir) {
  * explicitly not generating stats for.
  */
 async function getProjectsAndExclusions() {
-  const workingDir = process.env.GITHUB_WORKSPACE || '../../../../../';
+  const workingDir = process.env.GITHUB_WORKSPACE || path.join(__dirname, '../../../../../');
   const projectsDir = core.getInput('stats-dir') || 'src/data/projects';
-  const outputDir = path.resolve(__dirname, workingDir, projectsDir);
+  const outputDir = path.resolve(workingDir, projectsDir);
 
   const projectFiles = await fsp.readdir(outputDir);
   const projects = await Promise.all(

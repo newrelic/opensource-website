@@ -45,7 +45,7 @@ const fetchRepoStatsByContributor_withRetry = async (owner, repo, retries) => {
       error = err;
       prettyPrint(
         `[WARNING] at stats-generator.github.fetchContributorStats.fetchRepoStatsByContributor_withRetry \n  | Try #${i +
-          1} | getRepoStatsByContributor failes, retrying after ${delay /
+          1} | owner: ${owner}, repo: ${repo} | getRepoStatsByContributor failed, retrying after ${delay /
           1000}s delay\n`
       );
       await sleep(delay);
