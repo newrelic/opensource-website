@@ -36,7 +36,7 @@ export const query = graphql`
 `;
 
 const NerdpackPage = ({ data }) => {
-  //console.debug(data);
+  // console.debug(data);
   const allProjects = data.allProjects.edges.map(p => p.node);
   const catalogProjects = allProjects.filter(
     p => p.ossCategory.slug === 'new-relic-one-catalog-project'
