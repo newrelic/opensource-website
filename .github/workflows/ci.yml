@@ -6,7 +6,7 @@ on:
   # push:
   #   branches:
   #     - develop
-      # - master
+  # - master
   repository_dispatch:
     # types: [develop, master]
     types: [develop]
@@ -23,6 +23,8 @@ jobs:
         uses: actions/checkout@v2
         with:
           ref: develop
+          fetch-depth: 0
+          token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
 
       - name: Sync Data
         uses: ./.github/actions/sync-data
@@ -34,18 +36,26 @@ jobs:
         run: |
           git config --local user.email "${{ env.THIRD_PARTY_GIT_AUTHOR_EMAIL }}"
           git config --local user.name "${{ env.THIRD_PARTY_GIT_AUTHOR_NAME }}"
+
           echo "Updated project data files -- committing"
-          git commit src/data -m "chore(stats): updated project stats files"
+          git add src/data
+          git commit -m "chore(stats): updated project stats files"
 
-          # Push to both develop and master here rather than
-          # using github-push-action?
-          # git push origin ${GITHUB_REF#/refs/heads/}
+          # Push to both develop and master here rather than using github-push-action
+          echo "Pushing to develop"
+          git push origin develop
+          CHERRYCOMMIT=`git log -n1 | head -n1 | cut -c8-`
 
-      - name: Push Commit
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
-          branch: ${{ github.ref }} #pushes to the branch that kicked off the job
+          echo "Pushing to develop"
+          git checkout master
+          git cherry-pick $CHERRYCOMMIT
+          git push origin master
+
+      # - name: Push Commit
+      #   uses: ad-m/github-push-action@v0.6.0
+      #   with:
+      #     github_token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+      #     branch: ${{ github.ref }} #pushes to the branch that kicked off the job
 
   job-checkout-and-build:
     runs-on: ubuntu-latest
