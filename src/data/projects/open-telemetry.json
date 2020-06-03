@@ -23,14 +23,9 @@
   },
   "version": "0.1.0",
   "projectType": "external",
-  "subProjects": [ "open-telemetry-opentelemetry-specification", "open-telemetry-opentelemetry-java", "open-telemetry-opentelemetry-go", "open-telemetry-opentelemetry-dotnet", "open-telemetry-opentelemetry-cpp", "open-telemetry-opentelemetry-auto-instr-java", "open-telemetry-opentelemetry-collector", "open-telemetry-opentelemetry-ruby" ],
+  "subProjects": [ "open-telemetry-opentelemetry-specification", "open-telemetry-opentelemetry-java", "open-telemetry-opentelemetry-go", "open-telemetry-opentelemetry-dotnet", "open-telemetry-opentelemetry-cpp", "open-telemetry-opentelemetry-auto-instr-java", "open-telemetry-opentelemetry-collector", "open-telemetry-opentelemetry-ruby", "open-telemetry-opentelemetry-erlang" ],
   "relatedProjects": [ "newrelic-newrelic-java-agent-ansible-role" ],
   "team": [{
-    "name": "Victor Soares",
-    "avatarUrl": "https://avatars3.githubusercontent.com/u/21367523?s=460&u=3583c3abb055f9c127101ba2cc4589e17aefb847&v=4",
-    "role": "",
-    "githubUrl": "https://github.com/victorNewRelic"
-  },{
     "name": "John Watson",
     "avatarUrl": "https://avatars3.githubusercontent.com/u/858731?s=460&v=4",
     "role": "Java Maintainer",
@@ -75,5 +70,15 @@
     "avatarUrl": "https://avatars0.githubusercontent.com/u/779638?s=460&u=84c03a03b1c5ccdf6d28e0e74f670679a92c87df&v=4",
     "role": "Java",
     "githubUrl": "https://github.com/abhihub"
+  },{
+    "name": "Vince Foley",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/39946?s=460&v=4",
+    "role": "Erlang",
+    "githubUrl": "https://github.com/binaryseed"
+  },{
+    "name": "Victor Soares",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/21367523?s=460&u=3583c3abb055f9c127101ba2cc4589e17aefb847&v=4",
+    "role": "",
+    "githubUrl": "https://github.com/victorNewRelic"
   }]
 }
