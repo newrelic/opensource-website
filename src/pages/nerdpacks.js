@@ -37,10 +37,12 @@ export const query = graphql`
 
 const NerdpackPage = ({ data }) => {
   // console.debug(data);
-  const allProjects = data.allProjects.edges.map(p => p.node);
-  const catalogProjects = allProjects.filter(
-    p => p.ossCategory.slug === 'new-relic-one-catalog-project'
-  );
+  const allProjects = data.allProjects.edges.map(project => {
+    const p = project.node;
+    p.title = p.title.startsWith("New Relic One") ? p.title.substring("New Relic One".length) : p.title;
+    return p;
+  });
+  const catalogProjects = allProjects.filter(p => p.ossCategory.slug === 'new-relic-one-catalog-project');
   const otherProjects = allProjects.filter(
     p => p.ossCategory.slug !== 'new-relic-one-catalog-project'
   );
