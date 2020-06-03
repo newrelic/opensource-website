@@ -2,18 +2,18 @@ name: CI
 
 on:
   schedule:
-    - cron: "* */4 * * *" # every 4 hours
-  push:
-    branches:
-      - develop
+    - cron: "0 */4 * * *" # every 4 hours
+  # push:
+  #   branches:
+  #     - develop
       # - master
   repository_dispatch:
     # types: [develop, master]
     types: [develop]
 
 env:
-  THIRD_PARTY_GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com #opensource+newrelicbot@newrelic.com
-  THIRD_PARTY_GIT_AUTHOR_NAME: github-actions[bot] #Newrelicbot
+  THIRD_PARTY_GIT_AUTHOR_EMAIL: opensource+bot@newrelic.com
+  THIRD_PARTY_GIT_AUTHOR_NAME: nr-opensource-bot
 
 jobs:
   job-sync-project-data:
@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+        with:
+          ref: develop
 
       - name: Sync Data
         uses: ./.github/actions/sync-data
@@ -42,8 +44,8 @@ jobs:
       - name: Push Commit
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          github_token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+          branch: ${{ github.ref }} #pushes to the branch that kicked off the job
 
   job-checkout-and-build:
     runs-on: ubuntu-latest
