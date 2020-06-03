@@ -3,9 +3,9 @@ name: CI
 on:
   schedule:
     - cron: "0 */4 * * *" # every 4 hours
-  push:
-    branches:
-      - develop
+  # push:
+  #   branches:
+  #     - develop
       # - master
   repository_dispatch:
     # types: [develop, master]
