@@ -102,23 +102,21 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 10
+          node-version: 12
 
-      # - name: Cache node_modules
-      #   id: cache-node
-      #   uses: actions/cache@v2
-      #   env:
-      #     cache-name: node-modules
-      #   with:
-      #     path: ~/.npm
-      #     key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-${{ env.cache-name }}-
+      - name: Cache node_modules
+        id: cache-node
+        uses: actions/cache@v2
+        env:
+          cache-name: node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run Jest
-        uses: stefanoeb/jest-action@1.0.3
-      # - name: Run Jest
-      #   run: npm run test
+        run: npm run test
