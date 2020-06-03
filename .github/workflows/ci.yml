@@ -3,7 +3,7 @@ name: CI
 on:
   schedule:
     # - cron: "0 */4 * * *" # every 4 hours
-    - cron: "15 * * * *"
+    - cron: "*/15 * * * *"
   # push:
   #   branches:
   #     - develop
@@ -30,7 +30,7 @@ jobs:
       - name: Sync Data
         uses: ./.github/actions/sync-data
         with:
-          github-token: ${{ secrets.NEWRELIC_BOT_TOKEN }}
+          github-token: ${{ secrets.NEWRELIC_BOT_TOKEN }} # must have push access to repos for stats queries to work
           project-stats: true
 
       - name: Commit data files
