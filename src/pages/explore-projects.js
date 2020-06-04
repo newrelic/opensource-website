@@ -158,8 +158,8 @@ const ExploreProjectsPage = props => {
       editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
     >
       <PageHeading
-        title="Explore projects"
-        subheader="Projects and products being developed in open source."
+        title="Explore our projects"
+        subheader="Integrations, tools, applications, and examples being developed in open source."
       />
       <Location>
         {({ location }) => {
