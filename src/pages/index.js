@@ -159,24 +159,22 @@ const HomePage = ({ data }) => {
             className={styles.homepageHeroHeading}
             data-testid="homepageHeroHeading"
           >
-            The future of observability is open.
+            Open standards. Open instrumentation. Open collaboration.
           </h2>
           <p className={styles.homepageHeroBodyCopy}>
-            New Relic ❤️'s open source. We{' '}
+            New Relic is committed to open standards, open instrumentation, and open collaboration. We{' '}
             <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
-            this site to make it easy for <em>you</em> to{' '}
-            <a href="/explore-projects">explore the projects</a> we're
-            maintaining as well as our involvement in{' '}
-            <a href="/external-projects">open standards</a>. Learn&nbsp;
-            <a
-              href="#"
+            this site to make it easy for <em>you</em> to explore the{' '}
+            <a href="/explore-projects">open source projects</a>{' '}
+            we maintain and the{' '}
+            <a href="/external-projects">open standards projects</a>{' '}
+            we participate in. Learn{' '}
+            <a href="#"
               onClick={() => {
                 alert('New Relic Blog post announcing this site'); // eslint-disable-line no-alert
               }}
             >
-              more
-            </a>
-            .
+              more</a>.
           </p>
         </div>
         {renderHeroVideo()}
