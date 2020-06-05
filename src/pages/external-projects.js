@@ -93,7 +93,7 @@ const ExternalProjectsPage = ({ data }) => {
       <SEO title="Open source projects to which New Relic contributes" />
       <PageHeading
         title="Projects we support"
-        subheader="Delivering a more perfect Internet means developing more open source solutions together."
+        subheader="Making it easier for everyone to instrument everything and build better software together."
       />
       <div className={styles.featuredProjects}>
         {externalProjects.map(project => (
