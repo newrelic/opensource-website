@@ -40,7 +40,7 @@ const GlobalHeader = ({ hasHeaderBg, className }) => {
                 href="https://docs.newrelic.com/"
                 className={styles.leftSideLink}
               >
-                Docs
+                Documentation
               </a>
             </li>
           </ul>
