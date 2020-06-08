@@ -13,8 +13,6 @@ const HomePageHighlights = ({ data }) => {
       </h4>
       <p className={styles.featuredExternalProjectsDescription}>
         New Relic contributes resources to the development of these projects.
-        {` `}
-        <a href="/external-projects">View all</a>.
       </p>
       <div className={styles.externalProjectsList}>
         {projects.map(project => {
