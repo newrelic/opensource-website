@@ -159,10 +159,10 @@ const HomePage = ({ data }) => {
             className={styles.homepageHeroHeading}
             data-testid="homepageHeroHeading"
           >
-            Open standards. Open instrumentation. Open collaboration.
+            Open standards.<br/> Open instrumentation.<br/> Open collaboration.
           </h2>
           <p className={styles.homepageHeroBodyCopy}>
-            New Relic is committed to open standards, open instrumentation, and open collaboration. We{' '}
+            We{' '}
             <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
             this site to make it easy for <em>you</em> to explore the{' '}
             <a href="/explore-projects">open source projects</a>{' '}
