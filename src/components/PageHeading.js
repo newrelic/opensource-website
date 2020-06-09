@@ -10,7 +10,7 @@ import styles from './PageHeading.module.scss';
 import withDarkMode from './withDarkMode';
 
 const PageHeading = props => {
-  const { darkMode } = props;
+  const { darkMode, project } = props;
 
   const renderTags = () => {
     const tags = props.tags.map((tag, index) => {
@@ -32,8 +32,15 @@ const PageHeading = props => {
             key={index}
             className={`${styles.pageHeadingTagListTag} ${styles.tagWithNoLink}`}
           >
-            <span className={styles.tagName}>{startCase(tag.name)}</span>
-            <span className={styles.tagValue}>{tag.value}</span>
+            <a
+              className={styles.tagLink}
+              href={`${project.githubUrl}/releases`}
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              <span className={styles.tagName}>{startCase(tag.name)}</span>
+              <span className={styles.tagValue}>{tag.value}</span>
+            </a>
           </li>
         );
       } else {
@@ -96,6 +103,7 @@ PageHeading.defaultProps = {
 };
 
 PageHeading.propTypes = {
+  project: PropTypes.object,
   title: PropTypes.string,
   subheader: PropTypes.string,
   icon: PropTypes.string,

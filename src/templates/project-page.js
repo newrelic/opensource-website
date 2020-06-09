@@ -255,6 +255,7 @@ const ProjectPage = props => {
       <SEO title={project.title} />
       <PageHeading
         showIcon
+        project={project}
         title={project.title}
         subheader={project.description}
         icon={project.iconUrl}
