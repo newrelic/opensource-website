@@ -41,11 +41,6 @@
   font-size: 14px;
   line-height: 20px;
   color: var(--color-neutrals-600);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .sub-project-call-to-action {
