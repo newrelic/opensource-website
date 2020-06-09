@@ -159,22 +159,26 @@ const HomePage = ({ data }) => {
             className={styles.homepageHeroHeading}
             data-testid="homepageHeroHeading"
           >
-            Open standards.<br/> Open instrumentation.<br/> Open collaboration.
+            Open standards.
+            <br /> Open instrumentation.
+            <br /> Open collaboration.
           </h2>
           <p className={styles.homepageHeroBodyCopy}>
             We{' '}
             <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
             this site to make it easy for <em>you</em> to explore the{' '}
-            <a href="/explore-projects">open source projects</a>{' '}
-            we maintain and the{' '}
-            <a href="/external-projects">open standards projects</a>{' '}
-            we participate in. Learn{' '}
-            <a href="#"
+            <a href="/explore-projects">open source projects</a> we maintain and
+            the <a href="/external-projects">open standards projects</a> we
+            participate in. Learn{' '}
+            <a
+              href="#"
               onClick={() => {
                 alert('New Relic Blog post announcing this site'); // eslint-disable-line no-alert
               }}
             >
-              more</a>.
+              more
+            </a>
+            .
           </p>
         </div>
         {renderHeroVideo()}
