@@ -1,9 +1,8 @@
 name: CI
 
 on:
-  schedule:
-    # - cron: "0 */4 * * *" # every 4 hours
-    - cron: "*/15 * * * *"
+  # schedule:
+  #   - cron: "0 */4 * * *" # every 4 hours
   # push:
   #   branches:
   #     - develop
@@ -47,7 +46,7 @@ jobs:
           git push origin develop
           CHERRYCOMMIT=`git log -n1 | head -n1 | cut -c8-`
 
-          echo "Pushing to develop"
+          echo "Pushing to master"
           git checkout master
           git cherry-pick $CHERRYCOMMIT
           git push origin master
