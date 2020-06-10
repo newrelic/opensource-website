@@ -5,7 +5,7 @@
     "description": "This code is developed in the open with input from the community through issues and PRs. There is an active maintainer team within New Relic, troubleshooting support in the New Relic Explorers Hub, and the documentation is available in the project repository.",
     "requirements": [
       "Complies with New Relic's legal and security requirements for open source software",
-      "Contains the appropriate New Relic open source category header below at the top of the repository's README file",
+      "Contains the appropriate New Relic open source category header in the repository's README file",
       "Has active maintainer / maintainers, including at least one Relic",
       "Troubleshooting support via the New Relic Explorers Hub",
       "Issues and PR’s managed in GitHub",
@@ -31,7 +31,7 @@
     "description": "This code demonstrates an aspect of building on the New Relic One platform. Find the complete description of its usage and other relevant docs in the README. There is no long-term maintainer for this code nor is support provided, but the author(s) may address future updates / needs as platform features change.",
     "requirements": [
       "Complies with New Relic's legal and security requirements for open source software",
-      "Contains the appropriate New Relic open source category header below at the top of the repository's README file",
+      "Contains the appropriate New Relic open source category header in the repository's README file",
       "(optional) Issues are available at the project author's discretion",
       "Documentation reviewed by the New Relic documentation team",
       "Linted code"
@@ -43,7 +43,7 @@
     "description": "This code solves an interesting problem but does not yet have an active maintainer(s). The project is being developed in the open for the purpose of feedback on a new feature or function.",
     "requirements": [
       "Complies with New Relic's legal and security requirements for open source software",
-      "Contains the appropriate New Relic open source category header below at the top of the repository's README file",
+      "Contains the appropriate New Relic open source category header in the repository's README file",
       "Typically hosted in the New Relic Experimental GitHub org",
       "(Optional) Issues at the project owner's discertion"
     ]
@@ -54,7 +54,7 @@
     "description": "This code is developed and maintained by New Relic engineering teams in a private code repository but is delivered via GitHub.",
     "requirements": [
       "Complies with New Relic's legal and security requirements for open source software",
-      "Contains the appropriate New Relic open source category header below at the top of the repository's README file"
+      "Contains the appropriate New Relic open source category header in the repository's README file"
     ]
   },
   {
@@ -63,7 +63,7 @@
     "description": "This code is read-only. There is no maintainer team nor support.",
     "requirements": [
       "Complies with New Relic's legal requirements for open source software",
-      "Contains the appropriate New Relic open source category header below at the top of the repository's README file",
+      "Contains the appropriate New Relic open source category header in the repository's README file",
       "Previous references to Support should be modified or removed from the README",
       "Project is read-only and available for cloning only"
     ]
