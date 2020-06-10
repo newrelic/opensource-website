@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -92,7 +92,7 @@ const NerdpackPage = ({ data }) => {
             New Relic One applications
           </a>
           , or explore the source to understand how they work. Check out our{' '}
-          <a href="/explore-projects/?tag=Template">layout templates</a>, which
+          <Link to="/layouts">layout templates</Link>, which
           give you a headstart by letting you choose common layouts.
         </p>
       </section>
