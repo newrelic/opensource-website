@@ -104,6 +104,12 @@ jobs:
             echo "No change in package.json, not regenerating third-party notices"
           fi
 
+      - name: Push Commit
+        if: steps.generate-notices.outputs.commit == 'true'
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+
   job-generate-release:
     runs-on: ubuntu-latest
     needs: [job-checkout-and-build, job-generate-third-party-notices]
