@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Thu Jun 11 2020 10:25:33 GMT-0400 (Eastern Daylight Time)",
+  "lastUpdated": "Thu Jun 11 2020 19:56:48 GMT+0000 (Coordinated Universal Time)",
   "projectName": "opensource-website",
   "projectUrl": "https://github.com/newrelic/opensource-website",
   "includeDev": true,
@@ -422,6 +422,32 @@
       "licenseTextSource": "file",
       "publisher": "New Relic"
     },
+    "@semantic-release/changelog@5.0.1": {
+      "name": "@semantic-release/changelog",
+      "version": "5.0.1",
+      "range": "^5.0.1",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/semantic-release/changelog",
+      "versionedRepoUrl": "https://github.com/semantic-release/changelog/tree/v5.0.1",
+      "licenseFile": "node_modules/@semantic-release/changelog/LICENSE",
+      "licenseUrl": "https://github.com/semantic-release/changelog/blob/v5.0.1/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Pierre Vanduynslager",
+      "url": "https://github.com/pvdlg"
+    },
+    "@semantic-release/git@9.0.0": {
+      "name": "@semantic-release/git",
+      "version": "9.0.0",
+      "range": "^9.0.0",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/semantic-release/git",
+      "versionedRepoUrl": "https://github.com/semantic-release/git/tree/v9.0.0",
+      "licenseFile": "node_modules/@semantic-release/git/LICENSE",
+      "licenseUrl": "https://github.com/semantic-release/git/blob/v9.0.0/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "Pierre Vanduynslager",
+      "url": "https://github.com/pvdlg"
+    },
     "@testing-library/jest-dom@5.8.0": {
       "name": "@testing-library/jest-dom",
       "version": "5.8.0",
@@ -474,15 +500,15 @@
       "publisher": "Philipp Spiess",
       "email": "hello@philippspiess.com"
     },
-    "eslint@6.8.0": {
+    "eslint@7.2.0": {
       "name": "eslint",
-      "version": "6.8.0",
-      "range": "^6.8.0",
+      "version": "7.2.0",
+      "range": "^7.2.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/eslint/eslint",
-      "versionedRepoUrl": "https://github.com/eslint/eslint/tree/v6.8.0",
+      "versionedRepoUrl": "https://github.com/eslint/eslint/tree/v7.2.0",
       "licenseFile": "node_modules/eslint/LICENSE",
-      "licenseUrl": "https://github.com/eslint/eslint/blob/v6.8.0/LICENSE",
+      "licenseUrl": "https://github.com/eslint/eslint/blob/v7.2.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Nicholas C. Zakas",
       "email": "nicholas+npm@nczconsulting.com"

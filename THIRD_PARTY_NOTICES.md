@@ -50,6 +50,8 @@ code, the source code can be found at [https://github.com/newrelic/opensource-we
 **[devDependencies](#devDependencies)**
 
 * [@newrelic/eslint-plugin-newrelic](#newreliceslint-plugin-newrelic)
+* [@semantic-release/changelog](#semantic-releasechangelog)
+* [@semantic-release/git](#semantic-releasegit)
 * [@testing-library/jest-dom](#testing-libraryjest-dom)
 * [@testing-library/react](#testing-libraryreact)
 * [babel-jest](#babel-jest)
@@ -1221,6 +1223,64 @@ This product includes source derived from [@newrelic/eslint-plugin-newrelic](htt
 
 ```
 
+### @semantic-release/changelog
+
+This product includes source derived from [@semantic-release/changelog](https://github.com/semantic-release/changelog) ([v5.0.1](https://github.com/semantic-release/changelog/tree/v5.0.1)), distributed under the [MIT License](https://github.com/semantic-release/changelog/blob/v5.0.1/LICENSE):
+
+```
+MIT License
+
+Copyright (c) 2017 Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+```
+
+### @semantic-release/git
+
+This product includes source derived from [@semantic-release/git](https://github.com/semantic-release/git) ([v9.0.0](https://github.com/semantic-release/git/tree/v9.0.0)), distributed under the [MIT License](https://github.com/semantic-release/git/blob/v9.0.0/LICENSE):
+
+```
+MIT License
+
+Copyright (c) 2017 Pierre-Denis Vanduynslager
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+```
+
 ### @testing-library/jest-dom
 
 This product includes source derived from [@testing-library/jest-dom](https://github.com/testing-library/jest-dom) ([v5.8.0](https://github.com/testing-library/jest-dom/tree/v5.8.0)), distributed under the [MIT License](https://github.com/testing-library/jest-dom/blob/v5.8.0/LICENSE):
@@ -1338,7 +1398,7 @@ SOFTWARE.
 
 ### eslint
 
-This product includes source derived from [eslint](https://github.com/eslint/eslint) ([v6.8.0](https://github.com/eslint/eslint/tree/v6.8.0)), distributed under the [MIT License](https://github.com/eslint/eslint/blob/v6.8.0/LICENSE):
+This product includes source derived from [eslint](https://github.com/eslint/eslint) ([v7.2.0](https://github.com/eslint/eslint/tree/v7.2.0)), distributed under the [MIT License](https://github.com/eslint/eslint/blob/v7.2.0/LICENSE):
 
 ```
 Copyright JS Foundation and other contributors, https://js.foundation
