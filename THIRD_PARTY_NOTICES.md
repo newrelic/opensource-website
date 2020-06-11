@@ -1484,7 +1484,7 @@ SOFTWARE.
 
 ### prettier
 
-This product includes source derived from [prettier](https://github.com/prettier/prettier) ([v1.19.1](https://github.com/prettier/prettier/tree/v1.19.1)), distributed under the [MIT License](https://github.com/prettier/prettier/blob/v1.19.1/LICENSE):
+This product includes source derived from [prettier](https://github.com/prettier/prettier) ([v2.0.5](https://github.com/prettier/prettier/tree/v2.0.5)), distributed under the [MIT License](https://github.com/prettier/prettier/blob/v2.0.5/LICENSE):
 
 ```
 Copyright © James Long and contributors

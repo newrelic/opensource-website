@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Thu Jun 11 2020 19:56:48 GMT+0000 (Coordinated Universal Time)",
+  "lastUpdated": "Thu Jun 11 2020 20:49:58 GMT+0000 (Coordinated Universal Time)",
   "projectName": "opensource-website",
   "projectUrl": "https://github.com/newrelic/opensource-website",
   "includeDev": true,
@@ -538,15 +538,15 @@
       "licenseUrl": "https://github.com/facebook/jest/blob/v26.0.1/LICENSE",
       "licenseTextSource": "file"
     },
-    "prettier@1.19.1": {
+    "prettier@2.0.5": {
       "name": "prettier",
-      "version": "1.19.1",
-      "range": "^1.19.1",
+      "version": "2.0.5",
+      "range": "^2.0.5",
       "licenses": "MIT",
       "repoUrl": "https://github.com/prettier/prettier",
-      "versionedRepoUrl": "https://github.com/prettier/prettier/tree/v1.19.1",
-      "licenseFile": "node_modules/prettier/LICENSE",
-      "licenseUrl": "https://github.com/prettier/prettier/blob/v1.19.1/LICENSE",
+      "versionedRepoUrl": "https://github.com/prettier/prettier/tree/v2.0.5",
+      "licenseFile": "node_modules/gatsby-recipes/node_modules/prettier/LICENSE",
+      "licenseUrl": "https://github.com/prettier/prettier/blob/v2.0.5/LICENSE",
       "licenseTextSource": "file",
       "publisher": "James Long"
     },
