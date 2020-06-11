@@ -252,7 +252,7 @@ const ProjectPage = props => {
       className={styles.projectPageLayout}
       editLink={contentEditLink}
     >
-      <SEO title={project.title} />
+      <SEO title={project.title} description={project.description} />
       <PageHeading
         showIcon
         project={project}
