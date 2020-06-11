@@ -12,13 +12,59 @@ To diagnose a particular alert, we've started a [Common Issues](#Common-Issues)
 
 This site is deployed utilizing Github Actions for continuous integration (CI) combined with AWS Amplify's branch-based continuous deployment (CD).
 
+### Staging/Production Deployment
+
+Amplify is connected to the `master` and `deploy` branches, and has webhooks set on the repo that listen for pushes to those branches. On push, an atomic deploy is triggered. If the build/deploy fails, the site will continue to run with the existing version.
+
+> Note: Any commit with `[skip-cd]` will bypass the build process in Amplify.
+
+**Production** deployments are exclusively handled through merging a PR into the `master` branch. If an ad-hoc deployment is required, please reach out to a project maintainer.
+
+**Staging** deployments will happen frequently, and should be used to QA changes prior to opening a Pull Request to `master`.
+
+If it seems like builds/deploys should be occurring but aren't, please contact a project maintainer.
+
+### GitHub Actions
+
+* Generation of project-stats data
+  * Triggered every 4 hours
+* Docs/Wiki Sync
+  * Triggered on pushes to `develop` branch when the `docs` directory changes
+* Pull Request build/test/lint checking
+  * Triggered on pull requests being opened
+* Release management
+  * Triggered on pushes to `develop` following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
+
+### Project-Stats Generation
+
+Every 4 hours, the project-stats workflow kicks off. After running this Actions, it will commit and push to both the `develop` and `master` branch. Then, this will trigger builds on Amplify.
+
+
 ### Trigger a deployment
 
-Deployments are exclusively handled through merging a PR into the `master` branch. If an ad-hoc deployment is required, please reach out to a project maintainer.
+
 
 ### Rollback a release
 
-<!-- TO DO -->
+Use the Amplify Console UI to select a previous build and redeploy that build.
+
+First, determine the desired previous build:
+
+1. Navigate to the [Releases](https://github.com/newrelic/opensource-website/releases) tab in the opensource-website repo.
+2. Determine which release to rollback to. Typically, this should be `latest_release - 1`. However, you might need to go back further. Click the commit hash (in this case, `12f5187`).
+  ![Releases](./images/screenshot_01.png)
+3. Use this commit message/hash value to locate the corresponding build in the Amplify Console.
+  ![Commits](./images/screenshot_02.png)
+
+Steps to redeploy in Amplify:
+
+1. Log into the Amplify Console via nr-prod okta.
+2. Select the `opensource-website` app. Under `Frontend environments`, select `master`.
+  ![Amplify Console](./images/screenshot_03.png)
+3. Click the `View build history` button to see all the previous builds that have run.
+4. Find the appropriate build corresponding to the release you located from the repo releases. This is the build to roll back to. Click `Build #xxx` to select that build. In this case, you'd select `Build #10`.
+  ![Builds](./images/screenshot_04.png)
+5. Click `Redeploy this version`. Validate once the deploy is finished.
 
 ## Environments
 
@@ -61,3 +107,5 @@ Beyond the CI/CD automation, GitHub Actions are used to keep the [stats data](ht
 ## Common Issues
 
 No issues yet!
+
+## How to get help
