@@ -41,6 +41,8 @@
   },
   "devDependencies": {
     "@newrelic/eslint-plugin-newrelic": "^0.3.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
     "@testing-library/jest-dom": "^5.8.0",
     "@testing-library/react": "^10.0.4",
     "babel-jest": "^26.0.1",
