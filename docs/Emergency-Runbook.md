@@ -47,18 +47,18 @@ First, determine the desired previous build:
 
 1. Navigate to the [Releases](https://github.com/newrelic/opensource-website/releases) tab in the opensource-website repo.
 2. Determine which release to rollback to. Typically, this should be `latest_release - 1`. However, you might need to go back further. Click the commit hash (in this case, `12f5187`).
-  ![Releases]([./images/screenshot_01.png](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_01.png))
+  ![Releases](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_01.png)
 3. Use this commit message/hash value to locate the corresponding build in the Amplify Console.
-  ![Commits]([./images/screenshot_02.png](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_02.png))
+  ![Commits](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_02.png)
 
 Steps to redeploy in Amplify:
 
 1. Log into the Amplify Console via nr-prod okta.
 2. Select the `opensource-website` app. Under `Frontend environments`, select `master`.
-  ![Amplify Console]([./images/screenshot_03.png](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_03.png))
+  ![Amplify Console](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_03.png)
 3. Click the `View build history` button to see all the previous builds that have run.
 4. Find the appropriate build corresponding to the release you located from the repo releases. This is the build to roll back to. Click `Build #xxx` to select that build. In this case, you'd select `Build #10`.
-  ![Builds]([./images/screenshot_04.png](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_04.png))
+  ![Builds](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_04.png)
 5. Click `Redeploy this version`. Validate once the deploy is finished.
 
 ## Environments
