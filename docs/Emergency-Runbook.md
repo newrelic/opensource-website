@@ -104,5 +104,7 @@ Beyond the CI/CD automation, GitHub Actions are used to keep the [stats data](ht
 
 No issues yet!
 
-## How to get help
+## Help/Support Channels
 
+* [The Open Source Team](https://newrelic.slack.com/archives/GNR5YH7HP)
+* [@hero in #help-opensource](https://newrelic.slack.com/archives/C2XN6HL2G)
