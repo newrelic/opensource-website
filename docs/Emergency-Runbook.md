@@ -60,6 +60,7 @@ Steps to redeploy in Amplify:
 4. Find the appropriate build corresponding to the release you located from the repo releases. This is the build to roll back to. Click `Build #xxx` to select that build. In this case, you'd select `Build #10`.
   ![Builds](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_04.png)
 5. Click `Redeploy this version`. Validate once the deploy is finished.
+6. Notify [The Open Source Team](https://newrelic.slack.com/archives/GNR5YH7HP) and the [@hero in #help-opensource](https://newrelic.slack.com/archives/C2XN6HL2G) of the rollback so we can address the underlying issue.
 
 ## Environments
 
@@ -95,9 +96,9 @@ Should you want New Relic Browser instrumentation while developing locally, you 
 
 ## Architecture
 
-The site is a combination of [template-generated pages](https://github.com/newrelic/opensource-website/tree/develop/src/templates) and [single pages](https://github.com/newrelic/opensource-website/tree/develop/src/pages) built using React, markup, and [MDX](https://mdxjs.com/). 
+The site is a combination of [template-generated pages](https://github.com/newrelic/opensource-website/tree/develop/src/templates) and [single pages](https://github.com/newrelic/opensource-website/tree/develop/src/pages) built using React, markup, and [MDX](https://mdxjs.com/).
 
-Beyond the CI/CD automation, GitHub Actions are used to keep the [stats data](https://github.com/newrelic/opensource-website/tree/develop/src/data/project-stats) related to each [project](https://github.com/newrelic/opensource-website/tree/develop/src/data/projects) updated on a [scheduled basis](https://github.com/newrelic/opensource-website/blob/develop/.github/workflows/ci.yml#L4). Some of the architecture consequences of that change are described [here](https://github.com/newrelic/opensource-website#design-choice-project-stats-automation-commits-will-appear-out-of-sync). 
+Beyond the CI/CD automation, GitHub Actions are used to keep the [stats data](https://github.com/newrelic/opensource-website/tree/develop/src/data/project-stats) related to each [project](https://github.com/newrelic/opensource-website/tree/develop/src/data/projects) updated on a [scheduled basis](https://github.com/newrelic/opensource-website/blob/develop/.github/workflows/ci.yml#L4). Some of the architecture consequences of that change are described [here](https://github.com/newrelic/opensource-website#design-choice-project-stats-automation-commits-will-appear-out-of-sync).
 
 ## Common Issues
 
