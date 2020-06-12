@@ -6,19 +6,185 @@ on:
       - develop
     paths:
       - "docs/**"
-
   repository_dispatch:
     types: [docs]
+  gollum:
+
+env:
+  THIRD_PARTY_GIT_AUTHOR_EMAIL: opensource+bot@newrelic.com
+  THIRD_PARTY_GIT_AUTHOR_NAME: nr-opensource-bot
 
 jobs:
-  job-sync-documentation:
+  # Syncs changes made to the Wiki through the GitHub UI to the docs directory
+  # Modified from: https://github.com/SwiftDocOrg/github-wiki-publish-action/blob/v1/entrypoint.sh
+  job-sync-wiki-to-docs:
     runs-on: ubuntu-latest
+    if: github.event_name == 'gollum'
+    env:
+      GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.NEWRELIC_BOT_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
-      # Additional steps to generate documentation in "Documentation" directory
-      - name: Upload Documentation to Wiki
-        uses: SwiftDocOrg/github-wiki-publish-action@v1
+      - name: Checkout Repo
+        uses: actions/checkout@v2
         with:
-          path: "docs"
-        env:
-          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.NEWRELIC_BOT_TOKEN }}
+          token: ${{ secrets.NEWRELIC_BOT_TOKEN }} # allows us to push back to repo
+      - name: Sync wiki to docs
+        run: |
+          function debug() {
+              echo "$1"
+          }
+
+          function warning() {
+              echo "::warning::$1"
+          }
+
+          function error() {
+              echo "::error::$1"
+          }
+
+          function add_mask() {
+              echo "::add-mask::$1"
+          }
+
+          # check that vars are set
+          if [ -z "$GITHUB_ACTOR" ]; then
+              error "GITHUB_ACTOR environment variable is not set"
+              exit 1
+          fi
+
+          if [ -z "$GITHUB_REPOSITORY" ]; then
+              error "GITHUB_REPOSITORY environment variable is not set"
+              exit 1
+          fi
+
+          if [ -z "$GH_PERSONAL_ACCESS_TOKEN" ]; then
+              error "GH_PERSONAL_ACCESS_TOKEN environment variable is not set"
+              exit 1
+          fi
+
+          add_mask "${GH_PERSONAL_ACCESS_TOKEN}"
+
+          if [ -z "${WIKI_COMMIT_MESSAGE:-}" ]; then
+              debug "WIKI_COMMIT_MESSAGE not set, using default"
+              WIKI_COMMIT_MESSAGE='chore(docs): Sync wiki to docs [skip ci]'
+          fi
+
+          GIT_REPOSITORY_URL="https://${GH_PERSONAL_ACCESS_TOKEN}@github.com/$GITHUB_REPOSITORY.wiki.git"
+
+          debug "Checking out wiki repository"
+          tmp_dir=$(mktemp -d -t ci-XXXXXXXXXX)
+          (
+              cd "$tmp_dir" || exit 1
+              git init
+              git config user.name "$GITHUB_ACTOR"
+              git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+              git pull "$GIT_REPOSITORY_URL"
+          )
+
+          debug "diffing files"
+          files_modified=$(diff -qr --exclude=.git docs $tmp_dir || true) # diff returns -1 if there are differences, which exits the workflow
+          if [ "$files_modified" != "" ]; then
+
+            debug "Syncing contents of Wiki to repository dir docs"
+            rsync -avzr --delete --exclude='.git/' "$tmp_dir/" "docs"
+
+            debug "Committing and pushing changes"
+            (
+                git config user.name "${{ env.THIRD_PARTY_GIT_AUTHOR_NAME }}"
+                git config user.email "${{ env.THIRD_PARTY_GIT_AUTHOR_EMAIL }}"
+                
+                # master could have been modified, so pull before pushing
+                git pull --ff-only origin master
+                
+                git add .
+                git commit -m "$WIKI_COMMIT_MESSAGE"
+                git push origin master
+            )
+          else 
+            warning "No file diff between wiki and docs. Exiting."
+          fi 
+          rm -rf "$tmp_dir"
+          debug "Finished - Wiki synced to docs dir"
+          exit 0
+
+  job-sync-docs-to-wiki:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'gollum'
+    env:
+      GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.NEWRELIC_BOT_TOKEN }}
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: Sync docs to wiki
+        run: |
+          function debug() {
+              echo "$1"
+          }
+
+          function warning() {
+              echo "::warning::$1"
+          }
+
+          function error() {
+              echo "::error::$1"
+          }
+
+          function add_mask() {
+              echo "::add-mask::$1"
+          }
+
+          # check that vars are set
+          if [ -z "$GITHUB_ACTOR" ]; then
+              error "GITHUB_ACTOR environment variable is not set"
+              exit 1
+          fi
+
+          if [ -z "$GITHUB_REPOSITORY" ]; then
+              error "GITHUB_REPOSITORY environment variable is not set"
+              exit 1
+          fi
+
+          if [ -z "$GH_PERSONAL_ACCESS_TOKEN" ]; then
+              error "GH_PERSONAL_ACCESS_TOKEN environment variable is not set"
+              exit 1
+          fi
+
+          add_mask "${GH_PERSONAL_ACCESS_TOKEN}"
+
+          if [ -z "${WIKI_COMMIT_MESSAGE:-}" ]; then
+              debug "WIKI_COMMIT_MESSAGE not set, using default"
+              WIKI_COMMIT_MESSAGE='chore(docs): Sync docs to wiki [skip ci]'
+          fi
+
+          GIT_REPOSITORY_URL="https://${GH_PERSONAL_ACCESS_TOKEN}@github.com/$GITHUB_REPOSITORY.wiki.git"
+
+          debug "Checking out wiki repository"
+          tmp_dir=$(mktemp -d -t ci-XXXXXXXXXX)
+          (
+              cd "$tmp_dir" || exit 1
+              git init
+              git config user.name "${{ env.THIRD_PARTY_GIT_AUTHOR_NAME }}"
+              git config user.email "${{ env.THIRD_PARTY_GIT_AUTHOR_EMAIL }}"
+              git pull "$GIT_REPOSITORY_URL"
+          )
+
+          debug "diffing files"
+          files_modified=$(diff -qr --exclude=.git docs $tmp_dir || true) # diff returns -1 if there are differences, which exits the workflow
+          if [ "$files_modified" != "" ]; then
+
+            debug "Syncing contents of docs to wiki repository"
+            rsync -avzr --delete --exclude='.git/' "docs/" "$tmp_dir"
+
+            debug "Committing and pushing changes"
+            (
+                cd "$tmp_dir" || exit 1
+                git add .
+                git commit -m "$WIKI_COMMIT_MESSAGE"
+                git push --set-upstream "$GIT_REPOSITORY_URL" master
+            )
+          else 
+            warning "No file diff between docs and wiki. Exiting."
+          fi 
+
+          rm -rf "$tmp_dir"
+          debug "Finished - Wiki synced to docs dir"
+          exit 0
