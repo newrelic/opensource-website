@@ -32,6 +32,9 @@ jobs:
           git config --local user.email "${{ env.THIRD_PARTY_GIT_AUTHOR_EMAIL }}"
           git config --local user.name "${{ env.THIRD_PARTY_GIT_AUTHOR_NAME }}"
 
+          # develop could have been modified since we checked out, so pull before pushing
+          git pull --ff-only origin develop
+
           echo "Updated project data files -- committing"
           git add src/data
           git commit -m "chore(stats): updated project stats files"
@@ -85,7 +88,7 @@ jobs:
           elif [ '${{ github.ref }}' = 'refs/heads/master' ]; then
             npm run build:production
           else
-            echo "::error::Pull Request opened on unsupported branch. Exiting."
+            echo "::error::Running on unsupported branch. Exiting."
             exit 1
           fi
 

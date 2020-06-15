@@ -92,12 +92,12 @@ jobs:
                 git config user.name "${{ env.THIRD_PARTY_GIT_AUTHOR_NAME }}"
                 git config user.email "${{ env.THIRD_PARTY_GIT_AUTHOR_EMAIL }}"
                 
-                # master could have been modified, so pull before pushing
-                git pull --ff-only origin master
+                # develop could have been modified by the time we get here, so pull before pushing
+                git pull --ff-only origin develop
                 
                 git add .
                 git commit -m "$WIKI_COMMIT_MESSAGE"
-                git push origin master
+                git push origin develop
             )
           else 
             warning "No file diff between wiki and docs. Exiting."
