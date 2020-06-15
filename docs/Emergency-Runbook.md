@@ -18,9 +18,31 @@ Amplify is connected to the `master` and `deploy` branches, and has webhooks set
 
 > Note: Any commit with `[skip-cd]` will bypass the build process in Amplify.
 
-**Production** deployments are exclusively handled through merging a PR into the `master` branch. If an ad-hoc deployment is required, please reach out to a project maintainer.
+#### Production Deployment
+
+**Production** deployments are exclusively handled through merging a Pull Request into the `master` branch. If an ad-hoc deployment is required, please reach out to a project maintainer.
+
+**Opening a Pull Request**: the direction should be `develop` -> `master`. Once all checks have passed, merge via `Merge Pull Request` option (using `Create a merge commit` at the strategy). This will merge the commits in from develop (effectively "catching" `master` up with `develop`), plus issue the merge commit on top.
+
+**Merging**: use a [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) message indicating this is a release:
+
+```
+chore(release): updating production to vX.X.X
+```
+
+The intent is: semantic-release issued a new tag/release on the `develop` branch, so we are now promoting that to production. If for whatever reason there wasn't a release, include what the update is and provide the release at the end of the message:
+
+```
+chore(release): content updates but no new site features [vX.X.X]
+```
+
+> Note: Since semantic-release is only running on the `develop` branch, there won't be a new tag/release cut from the master branch. We might revisit this idea in the future if the tooling evolves.
+
+#### Staging Deployment
 
 **Staging** deployments will happen frequently, and should be used to QA changes prior to opening a Pull Request to `master`.
+
+These deployments happen automagically every time a commit is made to `develop`. This is handled via Amplify's Git-based continuous deployment.
 
 If it seems like builds/deploys should be occurring but aren't, please contact a project maintainer.
 
