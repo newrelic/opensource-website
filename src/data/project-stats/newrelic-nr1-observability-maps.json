@@ -3,17 +3,34 @@
   "issues": {
     "open": 3
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 114,
-  "lastSixMonthsCommitTotal": 114,
-  "contributors": 5,
+  "releases": 2,
+  "latestRelease": {
+    "name": "v0.6.7",
+    "date": "2020-06-05T22:17:05Z"
+  },
+  "commits": 120,
+  "lastSixMonthsCommitTotal": 120,
+  "contributors": 7,
   "pullRequests": {
     "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 1
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 1
+    },
     {
       "id": 58010132,
       "login": "mmfred",
@@ -33,7 +50,7 @@
       "login": "jbeveland27",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 1
+      "contributions": 2
     },
     {
       "id": 812989,
@@ -47,7 +64,7 @@
       "login": "Kav91",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 95
+      "contributions": 98
     }
   ],
   "languages": [

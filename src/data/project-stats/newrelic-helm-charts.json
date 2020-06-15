@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/helm-charts",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 12,
+  "releases": 37,
   "latestRelease": {
     "name": "simple-nginx-1.1.1",
     "date": "2020-05-13T14:25:14Z"
   },
-  "commits": 51,
-  "lastSixMonthsCommitTotal": 51,
-  "contributors": 6,
+  "commits": 72,
+  "lastSixMonthsCommitTotal": 72,
+  "contributors": 10,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -32,6 +32,13 @@
       "contributions": 1
     },
     {
+      "id": 10621910,
+      "login": "mr-smithers-excellent",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/10621910?v=4",
+      "htmlUrl": "https://github.com/mr-smithers-excellent",
+      "contributions": 1
+    },
+    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
@@ -39,25 +46,46 @@
       "contributions": 1
     },
     {
-      "id": 5297542,
-      "login": "alejandrodnm",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/5297542?v=4",
-      "htmlUrl": "https://github.com/alejandrodnm",
-      "contributions": 7
+      "id": 184273,
+      "login": "kidk",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/184273?v=4",
+      "htmlUrl": "https://github.com/kidk",
+      "contributions": 1
+    },
+    {
+      "id": 12255612,
+      "login": "gopisaba",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/12255612?v=4",
+      "htmlUrl": "https://github.com/gopisaba",
+      "contributions": 1
+    },
+    {
+      "id": 6353483,
+      "login": "erabug",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/6353483?v=4",
+      "htmlUrl": "https://github.com/erabug",
+      "contributions": 1
     },
     {
       "id": 159076,
       "login": "douglascamata",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/159076?v=4",
       "htmlUrl": "https://github.com/douglascamata",
-      "contributions": 11
+      "contributions": 12
+    },
+    {
+      "id": 5297542,
+      "login": "alejandrodnm",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/5297542?v=4",
+      "htmlUrl": "https://github.com/alejandrodnm",
+      "contributions": 21
     },
     {
       "id": 503802,
       "login": "jorik",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/503802?v=4",
       "htmlUrl": "https://github.com/jorik",
-      "contributions": 30
+      "contributions": 32
     }
   ],
   "languages": [

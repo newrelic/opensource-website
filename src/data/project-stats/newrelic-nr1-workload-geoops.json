@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nr1-workload-geoops",
   "issues": {
-    "open": 18
+    "open": 17
   },
-  "releases": 9,
+  "releases": 12,
   "latestRelease": {
-    "name": "v1.1.1",
-    "date": "2020-04-15T19:18:25Z"
+    "name": "v1.1.4",
+    "date": "2020-06-10T14:02:25Z"
   },
-  "commits": 358,
-  "lastSixMonthsCommitTotal": 321,
-  "contributors": 6,
+  "commits": 375,
+  "lastSixMonthsCommitTotal": 338,
+  "contributors": 8,
   "pullRequests": {
-    "open": 11
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -61,7 +61,7 @@
       "author": {
         "login": "tangollama",
         "id": "MDQ6VXNlcjkyOTI2MQ==",
-        "email": "joel@joelworrall.com",
+        "email": "",
         "name": "Joel Worrall"
       },
       "number": 59,
@@ -77,13 +77,6 @@
       "contributions": 1
     },
     {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 1
-    },
-    {
       "id": 138513,
       "login": "bthemad",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/138513?v=4",
@@ -91,25 +84,46 @@
       "contributions": 1
     },
     {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 3
+    },
+    {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 3
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 6
+    },
+    {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 58
+      "contributions": 59
     },
     {
       "id": 197140,
       "login": "devfreddy",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
       "htmlUrl": "https://github.com/devfreddy",
-      "contributions": 125
+      "contributions": 127
     },
     {
       "id": 812989,
       "login": "danielgolden",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/812989?v=4",
       "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 131
+      "contributions": 133
     }
   ],
   "languages": [

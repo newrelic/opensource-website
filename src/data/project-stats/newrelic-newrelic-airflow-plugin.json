@@ -3,14 +3,14 @@
   "issues": {
     "open": 3
   },
-  "releases": 1,
+  "releases": 3,
   "latestRelease": {
-    "name": "v0.1.0",
-    "date": "2019-11-06T19:50:24Z"
+    "name": "v0.1.2",
+    "date": "2020-06-08T12:16:49Z"
   },
-  "commits": 15,
-  "lastSixMonthsCommitTotal": 13,
-  "contributors": 2,
+  "commits": 17,
+  "lastSixMonthsCommitTotal": 15,
+  "contributors": 3,
   "pullRequests": {
     "open": 0
   },
@@ -27,7 +27,7 @@
       "author": {
         "login": "BrandonTheBuilder",
         "id": "MDQ6VXNlcjEzODgxNDg3",
-        "email": "larthur@newrelic.com",
+        "email": "",
         "name": "Loren Arthur"
       },
       "number": 1,
@@ -44,7 +44,7 @@
       "author": {
         "login": "BrandonTheBuilder",
         "id": "MDQ6VXNlcjEzODgxNDg3",
-        "email": "larthur@newrelic.com",
+        "email": "",
         "name": "Loren Arthur"
       },
       "number": 2,
@@ -52,6 +52,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 135613,
+      "login": "joshowen",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/135613?v=4",
+      "htmlUrl": "https://github.com/joshowen",
+      "contributions": 1
+    },
     {
       "id": 6374032,
       "login": "a-feld",
@@ -64,7 +71,7 @@
       "login": "BrandonTheBuilder",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/13881487?v=4",
       "htmlUrl": "https://github.com/BrandonTheBuilder",
-      "contributions": 12
+      "contributions": 13
     }
   ],
   "languages": [

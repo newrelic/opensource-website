@@ -1,39 +1,21 @@
 {
-  "projectFullName": "newrelic/nri-vsphere",
+  "projectFullName": "newrelic/nri-winservices",
   "issues": {
-    "open": 4
+    "open": 0
   },
   "releases": 2,
   "latestRelease": {
-    "name": "v0.0.8",
-    "date": "2020-05-04T17:57:24Z"
+    "name": "v0.0.3",
+    "date": "2020-06-12T09:32:53Z"
   },
-  "commits": 36,
-  "lastSixMonthsCommitTotal": 36,
+  "commits": 67,
+  "lastSixMonthsCommitTotal": 67,
   "contributors": 4,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MDkwODEyODU=",
-      "title": "vSphere Snapshot information ",
-      "url": "https://github.com/newrelic/nri-vsphere/issues/21",
-      "createdAt": "2020-04-29T13:59:21Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "paologallinaharbur",
-        "id": "MDQ6VXNlcjQzMzM1NzUw",
-        "email": "",
-        "name": "PaoloGallina"
-      },
-      "number": 21,
-      "createdBy": "PaoloGallina"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 1773616,
@@ -43,25 +25,25 @@
       "contributions": 1
     },
     {
-      "id": 13043208,
-      "login": "Kav91",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/13043208?v=4",
-      "htmlUrl": "https://github.com/Kav91",
-      "contributions": 4
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
     },
     {
       "id": 5143130,
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 14
+      "contributions": 21
     },
     {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 17
+      "contributions": 25
     }
   ],
   "languages": [
@@ -74,11 +56,6 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2U1MzU=",
-      "name": "Dockerfile",
-      "color": "#384d54"
     },
     {
       "id": "MDg6TGFuZ3VhZ2UyNjQ=",

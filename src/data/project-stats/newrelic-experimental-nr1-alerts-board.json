@@ -3,23 +3,47 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 21,
-  "lastSixMonthsCommitTotal": 21,
-  "contributors": 2,
+  "releases": 2,
+  "latestRelease": {
+    "name": "v2.2.1",
+    "date": "2020-06-08T16:39:34Z"
+  },
+  "commits": 28,
+  "lastSixMonthsCommitTotal": 28,
+  "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 1
+    },
     {
       "id": 4061375,
       "login": "ricegi",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/4061375?v=4",
       "htmlUrl": "https://github.com/ricegi",
       "contributions": 1
+    },
+    {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 1
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 2
     },
     {
       "id": 11896953,

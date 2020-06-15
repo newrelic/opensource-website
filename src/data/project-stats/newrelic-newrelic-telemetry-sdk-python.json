@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-python",
   "issues": {
-    "open": 3
+    "open": 2
   },
-  "releases": 12,
+  "releases": 13,
   "latestRelease": {
-    "name": "v0.3.1",
-    "date": "2020-06-02T18:44:23Z"
+    "name": "v0.4.0",
+    "date": "2020-06-05T14:40:27Z"
   },
-  "commits": 120,
-  "lastSixMonthsCommitTotal": 85,
-  "contributors": 2,
+  "commits": 127,
+  "lastSixMonthsCommitTotal": 92,
+  "contributors": 3,
   "pullRequests": {
     "open": 0
   },
@@ -25,11 +25,18 @@
       "contributions": 1
     },
     {
+      "id": 13881487,
+      "login": "BrandonTheBuilder",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/13881487?v=4",
+      "htmlUrl": "https://github.com/BrandonTheBuilder",
+      "contributions": 2
+    },
+    {
       "id": 6374032,
       "login": "a-feld",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/6374032?v=4",
       "htmlUrl": "https://github.com/a-feld",
-      "contributions": 116
+      "contributions": 121
     }
   ],
   "languages": [
