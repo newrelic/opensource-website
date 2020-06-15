@@ -1,39 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-cli",
   "issues": {
-    "open": 12
+    "open": 11
   },
   "releases": 19,
   "latestRelease": {
     "name": "v0.8.5",
     "date": "2020-05-27T21:42:52Z"
   },
-  "commits": 558,
-  "lastSixMonthsCommitTotal": 558,
+  "commits": 568,
+  "lastSixMonthsCommitTotal": 568,
   "contributors": 6,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MjM0NzI2MzE=",
-      "title": "Don't print the help message on error in CI",
-      "url": "https://github.com/newrelic/newrelic-cli/issues/289",
-      "createdAt": "2020-05-22T20:59:25Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "jthurman42",
-        "id": "MDQ6VXNlcjQ1NTQxOQ==",
-        "email": "",
-        "name": "Jonathan Thurman"
-      },
-      "number": 289,
-      "createdBy": "Jonathan Thurman"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 929261,
@@ -47,7 +29,7 @@
       "login": "sanderblue",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
       "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 31
+      "contributions": 32
     },
     {
       "id": 25180681,
@@ -75,7 +57,7 @@
       "login": "jthurman42",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
       "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 163
+      "contributions": 170
     }
   ],
   "languages": [
