@@ -92,8 +92,8 @@ const NerdpackPage = ({ data }) => {
             New Relic One applications
           </a>
           , or explore the source to understand how they work. Check out our{' '}
-          <Link to="/layouts">layout templates</Link>, which
-          give you a headstart by letting you choose common layouts.
+          <Link to="/layouts">layout templates</Link>, which give you a
+          headstart by letting you choose common layouts.
         </p>
       </section>
       <div className={styles.collectionListingContainer}>

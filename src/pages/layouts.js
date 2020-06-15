@@ -11,7 +11,7 @@ import styles from './collection.module.scss';
 
 export const query = graphql`
   query NerdpackLayouts($path: String) {
-    allProjects(filter: {name: {regex: "/layout/"}}) {
+    allProjects(filter: { name: { regex: "/layout/" } }) {
       edges {
         node {
           ...exploreProjectsFields
@@ -34,7 +34,11 @@ const LayoutsPage = ({ data }) => {
   // console.debug(data);
   const allProjects = data.allProjects.edges.map(p => {
     const project = p.node;
-    project.title = project.title.startsWith("New Relic One Nerdpack Layout") ? project.title.substring("New Relic One Nerdpack Layout".length) + " Layout" : project.title;
+    project.title = project.title.startsWith('New Relic One Nerdpack Layout')
+      ? `${project.title.substring(
+          'New Relic One Nerdpack Layout'.length
+        )} Layout`
+      : project.title;
     return project;
   });
 
@@ -66,8 +70,17 @@ const LayoutsPage = ({ data }) => {
           New Relic One Nerdpack Template Layouts
         </h5>
         <p className={styles.primaryBodyCopyDescription}>
-          Getting started with a custom application can be challenging with user experience design is not your primary gifting. To help developers get direction and momentum faster, we've published a series of Nerdpack template layouts that you can clone and crib. <br/>
-          Accelerate development of your own New Relic One application by leveraging one of these community-driven templates; and if you improve or want to extend the library, we're always accepting <a href="https://github.com/newrelic/nr1-nerdpack-layout-standard/pulls">pull requests</a>.
+          Getting started with a custom application can be challenging with user
+          experience design is not your primary gifting. To help developers get
+          direction and momentum faster, we've published a series of Nerdpack
+          template layouts that you can clone and crib. <br />
+          Accelerate development of your own New Relic One application by
+          leveraging one of these community-driven templates; and if you improve
+          or want to extend the library, we're always accepting{' '}
+          <a href="https://github.com/newrelic/nr1-nerdpack-layout-standard/pulls">
+            pull requests
+          </a>
+          .
         </p>
       </section>
       <div className={styles.collectionListingContainer}>
