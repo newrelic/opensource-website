@@ -1,0 +1,36 @@
+version: 0.1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm ci
+    build:
+      commands:
+        - | 
+          if [ "${AWS_BRANCH}" = "master" ]; then 
+            npm run build:production; 
+          else 
+            npm run build:staging; 
+          fi
+  artifacts:
+    baseDirectory: public
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
+  customHeaders:
+    - pattern: "**/*"
+      headers: # https://infosec.mozilla.org/guidelines/web_security
+        - key: "Strict-Transport-Security"
+          value: "max-age=31536000; includeSubDomains"
+        - key: "X-Content-Type-Options"
+          value: "nosniff"
+        - key: "X-XSS-Protection"
+          value: "1; mode=block"
+        - key: "X-Frame-Options"
+          value: "SAMEORIGIN"
+        - key: "Referrer-Policy"
+          value: "same-origin"
+        - key: "Feature-Policy"
+          value: "microphone 'none'; camera 'none'; notifications 'self'"
