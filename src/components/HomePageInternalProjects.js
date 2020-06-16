@@ -9,7 +9,7 @@ const HomePageInternalProjects = ({ data }) => {
 
   return (
     <div className={styles.featuredInternalProjects}>
-      {projects.map((project) => {
+      {projects.map(project => {
         const link = project.permalink.replace(
           'https://opensource.newrelic.com',
           ''
@@ -27,7 +27,7 @@ const HomePageInternalProjects = ({ data }) => {
 };
 
 HomePageInternalProjects.propTypes = {
-  data: PropTypes.array,
+  data: PropTypes.array
 };
 
 export default HomePageInternalProjects;

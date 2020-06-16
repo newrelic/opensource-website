@@ -57,11 +57,11 @@ export const query = graphql`
   }
 `;
 
-const ExploreProjectsPage = (props) => {
+const ExploreProjectsPage = props => {
   const [projectsToShow, setProjectsToShow] = useState(23);
   const { data, darkMode } = props;
 
-  const allProjects = get(data, 'allProjects.edges', []).map((p) => p.node);
+  const allProjects = get(data, 'allProjects.edges', []).map(p => p.node);
   const allLanguages = get(data, 'allLanguages.group', []);
   const allCategories = get(data, 'allCategories.group', []);
   const allProjectTags = get(data, 'allProjectTags.group', []);
@@ -69,13 +69,13 @@ const ExploreProjectsPage = (props) => {
   const filterOptions = {
     allCategories: { title: 'Categories', options: allCategories },
     allLanguages: { title: 'Language', options: allLanguages },
-    allProjectTags: { title: 'Type', options: allProjectTags },
+    allProjectTags: { title: 'Type', options: allProjectTags }
   };
 
   const featuredProjectsToShow = 3;
 
   const renderFeaturedProjects = ({ projects, featuredProjectsToShow }) => {
-    return projects.slice(0, featuredProjectsToShow).map((p) => {
+    return projects.slice(0, featuredProjectsToShow).map(p => {
       const link = p.permalink.replace('https://opensource.newrelic.com', '');
 
       return (
@@ -128,12 +128,12 @@ const ExploreProjectsPage = (props) => {
     const projectsToList =
       projectsToShow > 0 ? projects.slice(start, end) : projects;
 
-    return projectsToList.map((p) => {
+    return projectsToList.map(p => {
       return <ProjectCard key={p.id} project={p} />;
     });
   };
 
-  const renderShowAllButton = (sortedProjects) => {
+  const renderShowAllButton = sortedProjects => {
     if (sortedProjects.length - projectsToShow > 0 && projectsToShow !== 0) {
       return (
         <div className={styles.showAllButtonContainer}>
@@ -173,7 +173,7 @@ const ExploreProjectsPage = (props) => {
                 const showFeatured = true;
                 const sortedProjects = orderBy(
                   projects,
-                  (p) => get(p, 'stats.lastSixMonthsCommitTotal', 0),
+                  p => get(p, 'stats.lastSixMonthsCommitTotal', 0),
                   'desc'
                 );
 
@@ -183,7 +183,7 @@ const ExploreProjectsPage = (props) => {
                       <div className={styles.featuredProjects}>
                         {renderFeaturedProjects({
                           projects: sortedProjects,
-                          featuredProjectsToShow,
+                          featuredProjectsToShow
                         })}
                       </div>
                     )}
@@ -191,7 +191,7 @@ const ExploreProjectsPage = (props) => {
                     <div className={styles.projectListingContainer}>
                       {renderProjectListing({
                         projects: sortedProjects,
-                        showFeatured,
+                        showFeatured
                       })}
                     </div>
 
@@ -226,6 +226,6 @@ const ExploreProjectsPage = (props) => {
 
 ExploreProjectsPage.propTypes = {
   data: PropTypes.object,
-  darkMode: PropTypes.object,
+  darkMode: PropTypes.object
 };
 export default withDarkMode(ExploreProjectsPage);

@@ -53,7 +53,7 @@ export const query = graphql`
   }
 `;
 
-const ProjectPage = (props) => {
+const ProjectPage = props => {
   const { data, darkMode } = props;
 
   const renderNotFound = () => {
@@ -71,16 +71,16 @@ const ProjectPage = (props) => {
   const tags = [
     {
       name: 'category',
-      value: get(project, 'ossCategory.title', ''),
+      value: get(project, 'ossCategory.title', '')
     },
     {
       name: 'language',
-      value: get(project, 'primaryLanguage', ''),
+      value: get(project, 'primaryLanguage', '')
     },
     {
       name: 'version',
-      value: get(project, 'stats.latestRelease.name', ''),
-    },
+      value: get(project, 'stats.latestRelease.name', '')
+    }
   ];
 
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
@@ -91,7 +91,7 @@ const ProjectPage = (props) => {
   const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(0);
 
   const renderIssues = ({ projectStats, darkMode }) => {
-    return projectStats.cachedIssues.map((issue) => {
+    return projectStats.cachedIssues.map(issue => {
       return (
         <a
           href={issue.url}
@@ -159,10 +159,10 @@ const ProjectPage = (props) => {
       );
     });
 
-    const screenshotsObject = projectStats.screenshots.map((screenshot) => {
+    const screenshotsObject = projectStats.screenshots.map(screenshot => {
       return {
         source: screenshot,
-        caption: '',
+        caption: ''
       };
     });
 
@@ -186,7 +186,7 @@ const ProjectPage = (props) => {
   };
 
   const sidebarProjectTags = () => {
-    const tag = project.projectTags.map((tag) => {
+    const tag = project.projectTags.map(tag => {
       return (
         <li className={styles.sidebarTagListTag} key={tag.title}>
           <a
@@ -211,7 +211,7 @@ const ProjectPage = (props) => {
     return null;
   };
 
-  const renderCallsToAction = (isPageHeadingCTA) => {
+  const renderCallsToAction = isPageHeadingCTA => {
     return (
       <div
         className={`${styles.callToActionButtonsContainer} ${
@@ -564,7 +564,7 @@ const ProjectPage = (props) => {
 };
 ProjectPage.propTypes = {
   data: PropTypes.object,
-  darkMode: PropTypes.object,
+  darkMode: PropTypes.object
 };
 
 export default withDarkMode(ProjectPage);

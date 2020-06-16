@@ -6,10 +6,10 @@ import { MDXProvider } from '@mdx-js/react';
 import CodeBlock from './CodeBlock';
 
 const components = {
-  code: CodeBlock,
+  code: CodeBlock
 };
 
-const ProjectMainContent = (props) => {
+const ProjectMainContent = props => {
   const { mdx, project } = props;
   return (
     <>
@@ -25,7 +25,7 @@ const ProjectMainContent = (props) => {
 
 ProjectMainContent.propTypes = {
   mdx: PropTypes.string,
-  project: PropTypes.object,
+  project: PropTypes.object
 };
 
 export default ProjectMainContent;

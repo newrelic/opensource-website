@@ -14,7 +14,7 @@ const CodeBlock = ({ children, className, live, render }) => {
       <div style={{ marginTop: '40px', backgroundColor: 'black' }}>
         <LiveProvider
           code={children.trim()}
-          transformCode={(code) => `/** @jsx mdx */${code}`}
+          transformCode={code => `/** @jsx mdx */${code}`}
           scope={{ mdx }}
         >
           <LivePreview />
@@ -62,6 +62,6 @@ CodeBlock.propTypes = {
   children: PropTypes.string,
   className: PropTypes.string,
   live: PropTypes.bool,
-  render: PropTypes.func,
+  render: PropTypes.func
 };
 export default CodeBlock;

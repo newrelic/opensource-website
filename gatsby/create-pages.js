@@ -1,7 +1,7 @@
 // https://www.gatsbyjs.org/docs/actions/#createPage
 const path = require(`path`);
 
-const getProjectComponent = (projectType) => {
+const getProjectComponent = projectType => {
   if (projectType === 'external') {
     return path.resolve('./src/templates/external-project-page.js');
   }
@@ -45,12 +45,12 @@ const createProjectPages = async ({ graphql, actions }) => {
         // in page queries as GraphQL variables.
 
         slug: node.slug, // {org/user}-{repository-foo-name}, ex. newrelic-nr1-workload-geoops
-        pagePath: path,
-      },
+        pagePath: path
+      }
     });
   });
 };
 
-module.exports = async (params) => {
+module.exports = async params => {
   createProjectPages(params);
 };

@@ -9,7 +9,7 @@ const ContributorListing = ({ contributors, project }) => {
       b.contributions > a.contributions ? 1 : -1
     );
 
-    const navigate = (url) => window.open(url, '_blank');
+    const navigate = url => window.open(url, '_blank');
     const contributorItem = sortedContributors.map((contributor, i) => {
       if (i < 4) {
         return (
@@ -60,7 +60,7 @@ const ContributorListing = ({ contributors, project }) => {
 
 ContributorListing.propTypes = {
   contributors: PropTypes.array,
-  project: PropTypes.object,
+  project: PropTypes.object
 };
 
 export default ContributorListing;

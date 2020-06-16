@@ -54,6 +54,7 @@ const GlobalHeader = ({ hasHeaderBg, className }) => {
             <a
               href="https://github.com/newrelic/opensource-website"
               className={styles.githubButtonLink}
+              target="__blank"
             >
               GitHub
             </a>
@@ -66,7 +67,7 @@ const GlobalHeader = ({ hasHeaderBg, className }) => {
 
 GlobalHeader.propTypes = {
   hasHeaderBg: PropTypes.bool,
-  className: PropTypes.string,
+  className: PropTypes.string
 };
 
 export default GlobalHeader;

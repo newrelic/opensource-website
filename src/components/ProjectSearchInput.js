@@ -10,18 +10,18 @@ const ProjectSearchInput = ({
   onSearchQueryChange,
   filterOptions,
   filterValues,
-  onFilterChange,
+  onFilterChange
 }) => {
   const { allLanguages, allCategories, allProjectTags } = filterOptions;
   const [mobileFiltersHidden, setMobileFiltersHidden] = useState(true);
 
-  const onCategoryChange = (e) =>
+  const onCategoryChange = e =>
     onFilterChange({ field: 'ossCategory', value: e.target.value });
 
-  const onProjectTagChange = (e) =>
+  const onProjectTagChange = e =>
     onFilterChange({ field: 'projectTag', value: e.target.value });
 
-  const onLanguageTypeChange = (e) =>
+  const onLanguageTypeChange = e =>
     onFilterChange({ field: 'languageType', value: e.target.value });
 
   return (
@@ -31,7 +31,7 @@ const ProjectSearchInput = ({
         <input
           type="text"
           value={searchQueryValue}
-          onChange={(e) => {
+          onChange={e => {
             onSearchQueryChange({ searchQuery: e.target.value });
           }}
           placeholder="Search for a project"
@@ -58,7 +58,7 @@ const ProjectSearchInput = ({
           <option label="All Categories" value="">
             All categories
           </option>
-          {allCategories.options.map((c) => {
+          {allCategories.options.map(c => {
             return (
               <option
                 key={c.fieldValue}
@@ -78,7 +78,7 @@ const ProjectSearchInput = ({
           <option label="All Project Tags" value="">
             All Project Tags
           </option>
-          {allProjectTags.options.map((c) => {
+          {allProjectTags.options.map(c => {
             return (
               <option
                 key={c.fieldValue}
@@ -98,7 +98,7 @@ const ProjectSearchInput = ({
           <option label="All Language Types" value="">
             All language types
           </option>
-          {allLanguages.options.map((c) => {
+          {allLanguages.options.map(c => {
             return (
               <option
                 key={c.fieldValue}
@@ -120,6 +120,6 @@ ProjectSearchInput.propTypes = {
   onSearchQueryChange: PropTypes.func,
   filterOptions: PropTypes.object,
   filterValues: PropTypes.object,
-  onFilterChange: PropTypes.func,
+  onFilterChange: PropTypes.func
 };
 export default ProjectSearchInput;

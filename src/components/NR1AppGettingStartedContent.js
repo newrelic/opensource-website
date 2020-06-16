@@ -26,7 +26,7 @@ const NR1AppGettingStartedContent = ({ project: p }) => {
 };
 
 NR1AppGettingStartedContent.propTypes = {
-  project: PropTypes.object,
+  project: PropTypes.object
 };
 
 export default NR1AppGettingStartedContent;

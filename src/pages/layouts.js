@@ -32,7 +32,7 @@ export const query = graphql`
 
 const LayoutsPage = ({ data }) => {
   // console.debug(data);
-  const allProjects = data.allProjects.edges.map((p) => {
+  const allProjects = data.allProjects.edges.map(p => {
     const project = p.node;
     project.title = project.title.startsWith('New Relic One Nerdpack Layout')
       ? `${project.title.substring(
@@ -93,7 +93,7 @@ const LayoutsPage = ({ data }) => {
           </p>
         </header>
         <div className={styles.collectionListing}>
-          {allProjects.map((project) => {
+          {allProjects.map(project => {
             return (
               <SimpleProjectModule
                 key={project.id}
@@ -109,7 +109,7 @@ const LayoutsPage = ({ data }) => {
 };
 
 LayoutsPage.propTypes = {
-  data: PropTypes.object,
+  data: PropTypes.object
 };
 
 export default LayoutsPage;

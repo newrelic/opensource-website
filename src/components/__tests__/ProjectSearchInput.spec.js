@@ -15,7 +15,7 @@ const allProjectTags = get(data, 'allProjectTags.group', []);
 const filterOptions = {
   allCategories: { title: 'Categories', options: allCategories },
   allLanguages: { title: 'Language', options: allLanguages },
-  allProjectTags: { title: 'Type', options: allProjectTags },
+  allProjectTags: { title: 'Type', options: allProjectTags }
 };
 
 describe('ProjectSearchInput', () => {
@@ -25,11 +25,11 @@ describe('ProjectSearchInput', () => {
       filterValues: {
         ossCategory: '',
         projectTag: '',
-        languageType: '',
+        languageType: ''
       },
       searchQueryValue: '',
       onSearchQueryChange: () => {},
-      onFilterChange: () => {},
+      onFilterChange: () => {}
     };
     const tree = TestRenderer.create(
       <ProjectSearchInput {...props} />
