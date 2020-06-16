@@ -41,7 +41,7 @@ export const query = graphql`
 const SubProjects = ({ projects }) => {
   return (
     <ul className={styles.subProjectList}>
-      {projects.map(p => {
+      {projects.map((p) => {
         return (
           <li key={p.fullName} className={styles.subProject}>
             <div className={styles.subProjectCopy}>
@@ -73,7 +73,7 @@ const SubProjects = ({ projects }) => {
   );
 };
 SubProjects.propTypes = {
-  projects: PropTypes.array
+  projects: PropTypes.array,
 };
 
 const ExternalProjectPage = ({ data }) => {
@@ -138,7 +138,7 @@ const ExternalProjectPage = ({ data }) => {
           {project.team && (
             <>
               <h4>Involved from New Relic</h4>
-              {project.team.map(relic => (
+              {project.team.map((relic) => (
                 <AsideNavigationItem
                   key={relic.name}
                   icon={relic.avatarUrl}
@@ -155,7 +155,7 @@ const ExternalProjectPage = ({ data }) => {
   );
 };
 ExternalProjectPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 export default ExternalProjectPage;

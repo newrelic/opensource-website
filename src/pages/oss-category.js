@@ -34,15 +34,15 @@ const headers = [
   example,
   experimental,
   product,
-  archived
+  archived,
 ];
 
 const OssCategoryPage = ({ data }) => {
   const categories = get(data, 'allOssCategory.nodes', []);
 
   const categoryNavList = categories
-    .filter(cat => cat.slug !== 'tbd')
-    .map(cat => {
+    .filter((cat) => cat.slug !== 'tbd')
+    .map((cat) => {
       return (
         <li key={cat.slug} className={styles.categorySidebarItem}>
           <a href={`#${cat.slug}`} className={styles.categorySidebarItemLink}>
@@ -53,7 +53,7 @@ const OssCategoryPage = ({ data }) => {
     });
 
   const categoryList = categories
-    .filter(cat => cat.slug !== 'tbd')
+    .filter((cat) => cat.slug !== 'tbd')
     .map((cat, index) => {
       return (
         <React.Fragment key={cat.slug}>
@@ -99,7 +99,7 @@ const OssCategoryPage = ({ data }) => {
 };
 
 OssCategoryPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 export default OssCategoryPage;

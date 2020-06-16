@@ -18,7 +18,7 @@ const Header = ({ hasHeaderBg }) => {
       a.order > b.order ? 1 : -1
     );
 
-    return sortedNavLinks.map(navItem => {
+    return sortedNavLinks.map((navItem) => {
       return (
         <li className={styles.primaryHeaderNavLinkItem} key={navItem.order}>
           <Link to={navItem.link} className={styles.primaryHeaderNavLink}>
@@ -76,7 +76,7 @@ const Header = ({ hasHeaderBg }) => {
 };
 
 Header.propTypes = {
-  hasHeaderBg: PropTypes.bool
+  hasHeaderBg: PropTypes.bool,
 };
 
 export default Header;

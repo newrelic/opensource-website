@@ -66,7 +66,7 @@ const GlobalHeader = ({ hasHeaderBg, className }) => {
 
 GlobalHeader.propTypes = {
   hasHeaderBg: PropTypes.bool,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 export default GlobalHeader;

@@ -20,7 +20,7 @@ const Layout = ({
   fullWidth,
   className,
   mainClassName,
-  editLink
+  editLink,
 }) => {
   return (
     <div className={`layout-container ${className}`}>
@@ -29,9 +29,9 @@ const Layout = ({
       </Helmet>
       <Header hasHeaderBg={hasHeaderBg} />
       <main
-        className={`layout-container-main ${
-          fullWidth ? `full-width` : ''
-        } ${mainClassName && mainClassName}`}
+        className={`layout-container-main ${fullWidth ? `full-width` : ''} ${
+          mainClassName && mainClassName
+        }`}
       >
         {children}
       </main>
@@ -46,7 +46,7 @@ Layout.propTypes = {
   fullWidth: PropTypes.bool,
   className: PropTypes.string,
   mainClassName: PropTypes.string,
-  editLink: PropTypes.string
+  editLink: PropTypes.string,
 };
 
 export default Layout;
