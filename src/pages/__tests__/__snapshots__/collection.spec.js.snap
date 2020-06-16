@@ -50,7 +50,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
               className="leftSideLink"
               href="https://docs.newrelic.com/"
             >
-              Docs
+              Documentation
             </a>
           </li>
         </ul>
@@ -67,6 +67,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           <a
             className="githubButtonLink"
             href="https://github.com/newrelic/opensource-website"
+            target="__blank"
           >
             GitHub
           </a>
@@ -288,7 +289,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          0.5.0
+          0.5.6
         </small>
       </div>
     </section>

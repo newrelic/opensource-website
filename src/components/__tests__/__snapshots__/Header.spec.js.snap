@@ -48,7 +48,7 @@ Array [
               className="leftSideLink"
               href="https://docs.newrelic.com/"
             >
-              Docs
+              Documentation
             </a>
           </li>
         </ul>
@@ -65,6 +65,7 @@ Array [
           <a
             className="githubButtonLink"
             href="https://github.com/newrelic/opensource-website"
+            target="__blank"
           >
             GitHub
           </a>

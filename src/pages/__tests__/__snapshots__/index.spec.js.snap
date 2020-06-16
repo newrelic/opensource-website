@@ -50,7 +50,7 @@ exports[`HomePage Renders correctly 1`] = `
               className="leftSideLink"
               href="https://docs.newrelic.com/"
             >
-              Docs
+              Documentation
             </a>
           </li>
         </ul>
@@ -67,6 +67,7 @@ exports[`HomePage Renders correctly 1`] = `
           <a
             className="githubButtonLink"
             href="https://github.com/newrelic/opensource-website"
+            target="__blank"
           >
             GitHub
           </a>
@@ -155,12 +156,16 @@ exports[`HomePage Renders correctly 1`] = `
           className="homepageHeroHeading"
           data-testid="homepageHeroHeading"
         >
-          The future of observability is open.
+          Open standards.
+          <br />
+           Open instrumentation.
+          <br />
+           Open collaboration.
         </h2>
         <p
           className="homepageHeroBodyCopy"
         >
-          New Relic ❤️'s open source. We
+          We
            
           <a
             href="https://github.com/newrelic/opensource-website"
@@ -172,21 +177,21 @@ exports[`HomePage Renders correctly 1`] = `
           <em>
             you
           </em>
-           to
+           to explore the
            
           <a
             href="/explore-projects"
           >
-            explore the projects
+            open source projects
           </a>
-           we're maintaining as well as our involvement in
-           
+           we maintain and the 
           <a
             href="/external-projects"
           >
-            open standards
+            open standards projects
           </a>
-          . Learn 
+           we participate in. Learn
+           
           <a
             href="#"
             onClick={[Function]}
@@ -261,13 +266,6 @@ exports[`HomePage Renders correctly 1`] = `
         className="featuredExternalProjectsDescription"
       >
         New Relic contributes resources to the development of these projects.
-         
-        <a
-          href="/external-projects"
-        >
-          View all
-        </a>
-        .
       </p>
       <div
         className="externalProjectsList"
@@ -392,7 +390,7 @@ exports[`HomePage Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          0.5.0
+          0.5.6
         </small>
       </div>
     </section>

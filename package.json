@@ -2,7 +2,7 @@
   "name": "opensource-website",
   "private": true,
   "description": "Data, code, and automation for opensource.newrelic.com",
-  "version": "0.5.5",
+  "version": "0.6.0",
   "author": "Open Source Team at New Relic <opensource@newrelic.com>",
   "dependencies": {
     "date-fns": "^2.14.0",
@@ -16,6 +16,7 @@
     "gatsby-plugin-offline": "^3.2.7",
     "gatsby-plugin-react-helmet": "^3.3.2",
     "gatsby-plugin-sass": "^2.3.2",
+    "gatsby-plugin-segment-js": "^3.3.0",
     "gatsby-plugin-sharp": "^2.6.9",
     "gatsby-plugin-use-dark-mode": "^1.1.2",
     "gatsby-remark-copy-linked-files": "^2.3.3",

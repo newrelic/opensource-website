@@ -32,7 +32,7 @@ describe('HomePage Hero Header', () => {
     const { getByTestId } = render(<HomePage />);
     const expectation = getByTestId('homepageHeroHeading');
     expect(expectation).toHaveTextContent(
-      'The future of observability is open.'
+      'Open standards. Open instrumentation. Open collaboration.'
     );
   });
 });

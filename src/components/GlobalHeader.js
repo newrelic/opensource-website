@@ -54,6 +54,7 @@ const GlobalHeader = ({ hasHeaderBg, className }) => {
             <a
               href="https://github.com/newrelic/opensource-website"
               className={styles.githubButtonLink}
+              target="__blank"
             >
               GitHub
             </a>
