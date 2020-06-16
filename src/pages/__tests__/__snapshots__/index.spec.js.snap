@@ -67,6 +67,7 @@ exports[`HomePage Renders correctly 1`] = `
           <a
             className="githubButtonLink"
             href="https://github.com/newrelic/opensource-website"
+            target="__blank"
           >
             GitHub
           </a>

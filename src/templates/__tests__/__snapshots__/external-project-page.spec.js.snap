@@ -67,6 +67,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           <a
             className="githubButtonLink"
             href="https://github.com/newrelic/opensource-website"
+            target="__blank"
           >
             GitHub
           </a>
@@ -389,6 +390,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           <a
             className="githubButtonLink"
             href="https://github.com/newrelic/opensource-website"
+            target="__blank"
           >
             GitHub
           </a>
@@ -732,6 +734,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           <a
             className="githubButtonLink"
             href="https://github.com/newrelic/opensource-website"
+            target="__blank"
           >
             GitHub
           </a>
