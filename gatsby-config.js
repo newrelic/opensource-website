@@ -38,7 +38,7 @@ module.exports = {
       options: {
         prodKey: `jzjQisi3j3VvLyH9mc0QNEgYKpj4LlD1`,
         devKey: `jzjQisi3j3VvLyH9mc0QNEgYKpj4LlD1`,
-        trackPage: false,
+        trackPage: true,
         delayLoad: false,
         delayLoadTime: 1000
       }
