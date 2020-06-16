@@ -34,6 +34,16 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-segment-js`,
+      options: {
+        prodKey: `jzjQisi3j3VvLyH9mc0QNEgYKpj4LlD1`,
+        devKey: `jzjQisi3j3VvLyH9mc0QNEgYKpj4LlD1`,
+        trackPage: false,
+        delayLoad: false,
+        delayLoadTime: 1000
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
