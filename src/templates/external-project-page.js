@@ -117,7 +117,8 @@ const ExternalProjectPage = ({ data }) => {
             <div className={styles.callToActionButtons}>
               <div className={styles.callToActionButtonsContainer}>
                 <a
-                  href={`${get(project, ['website', 'url'], '') || project.githubUrl}`}
+                  href={`${get(project, ['website', 'url'], '') ||
+                    project.githubUrl}`}
                   className="button button-primary"
                   target="__blank"
                   rel="noopener noreferrer"
