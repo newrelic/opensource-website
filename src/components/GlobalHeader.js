@@ -31,7 +31,7 @@ const GlobalHeader = ({ hasHeaderBg, className }) => {
               </a>
             </li>
             <li className={`${styles.leftSideLinkItem} ${styles.active}`}>
-              <a href="#" className={styles.leftSideLink}>
+              <a href="/" className={styles.leftSideLink}>
                 Open Source
               </a>
             </li>
