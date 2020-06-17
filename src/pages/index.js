@@ -103,9 +103,7 @@ const HomePage = ({ data }) => {
               className={styles.heroVideoIframe}
               width="1000"
               height="562.704471"
-              src={`https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true${
-                heroVideoActive ? `&autoplay=1` : ''
-              }`}
+              src="https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true"
               frameBorder="0"
               allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
               placeholder=""
