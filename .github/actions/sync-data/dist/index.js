@@ -1975,17 +1975,29 @@ const ORG_REPOS = [
   // }
 ];
 
+// These entries should match the `fullName` in the corresponding project's json file
 const EXCLUDED_PROJECTS = [
   'adopt-open-jdk',
-  'open-telemetry/opentelemetry-go',
-  'open-telemetry/opentelemetry-java',
-  'open-telemetry',
-  'w3c-distributed-tracing-wg',
   'newrelic/developer-toolkit',
   'newrelic/extends_newrelic_rpm',
   'newrelic/open-source-office',
   'newrelic/open-source-tools',
-  'newrelic/sidecar'
+  'newrelic/sidecar',
+  'open-telemetry',
+  'open-telemetry-opentelemetry-auto-instr-java',
+  'open-telemetry-opentelemetry-collector',
+  'open-telemetry-opentelemetry-cpp',
+  'open-telemetry-opentelemetry-dotnet',
+  'open-telemetry-opentelemetry-erlang',
+  'open-telemetry/opentelemetry-go',
+  'open-telemetry/opentelemetry-java',
+  'open-telemetry-opentelemetry-ruby',
+  'open-telemetry/opentelemetry-specification',
+  'w3c-correlation-context',
+  'w3c-distributed-tracing-wg',
+  'w3c-trace-context',
+  'w3c-trace-context-binary',
+  'w3c-trace-response'
 ];
 
 // TO DO - Ascertain Github's GraphQL query limits
@@ -23091,7 +23103,8 @@ function formatStats(project, stats) {
 }
 
 function writeProjectStatsToGatsby(project, projectStats) {
-  const workingDir = process.env.GITHUB_WORKSPACE || path.join(__dirname, '../../../../../');
+  const workingDir =
+    process.env.GITHUB_WORKSPACE || path.join(__dirname, '../../../../../');
   const statsDir = core.getInput('stats-dir') || DEFAULT_DIR;
   const outputDir = path.resolve(workingDir, statsDir);
 
@@ -26449,7 +26462,7 @@ const reposForOrgQuery = ({
             tags: refs(refPrefix: "refs/tags/") {
               totalCount
             }
-            latestTag: refs(refPrefix: "refs/tags/", last: 1) {
+            latestTag: refs(refPrefix: "refs/tags/", last: 1, , orderBy: {field: TAG_COMMIT_DATE, direction: ASC}) {
               nodes {
                 id
                 name
@@ -29922,7 +29935,8 @@ async function getProjectFullName(file, outputDir) {
  * explicitly not generating stats for.
  */
 async function getProjectsAndExclusions() {
-  const workingDir = process.env.GITHUB_WORKSPACE || path.join(__dirname, '../../../../../');
+  const workingDir =
+    process.env.GITHUB_WORKSPACE || path.join(__dirname, '../../../../../');
   const projectsDir = core.getInput('stats-dir') || 'src/data/projects';
   const outputDir = path.resolve(workingDir, projectsDir);
 
@@ -32095,7 +32109,6 @@ module.exports = isWeekend
 /* 767 */
 /***/ (function(module, __unusedexports, __webpack_require__) {
 
-// const github = require("@actions/github")
 const core = __webpack_require__(470);
 const { Octokit } = __webpack_require__(889);
 const parseLinkHeader = __webpack_require__(386);
@@ -32108,8 +32121,8 @@ const REPOS_PER_PAGE = 100;
 const octokit = new Octokit({
   auth: GH_TOKEN,
   log: {
-    debug: () => { },
-    info: () => { },
+    debug: () => {},
+    info: () => {},
     // eslint-disable-next-line no-console
     warn: console.warn,
     // eslint-disable-next-line no-console
@@ -32233,7 +32246,7 @@ const octokit = new Octokit({
  * start_page - Beginning page
  * exclude_archived - Whether or not to filter out archived repositories (repos.listForOrg does not offer a way to exclude these from the response)
  */
-const organizationRepositoryIterator = function ({
+const organizationRepositoryIterator = function({
   pages = 1,
   org = DEFAULT_ORG,
   type = 'public',
@@ -32241,7 +32254,7 @@ const organizationRepositoryIterator = function ({
   start_page = 1
   // excludeArchived = true
 }) {
-  return function () {
+  return function() {
     const MAX_PAGES_ALLOWED = 100;
 
     let isFirstPage = true;
@@ -32253,15 +32266,15 @@ const organizationRepositoryIterator = function ({
     // How best do we initialize this for the first page?
     let pagesToGet = pages === 0 ? MAX_PAGES_ALLOWED : pages;
 
-    const hasMore = function () {
+    const hasMore = function() {
       return pagesToGet > 0;
     };
 
-    const getCurrentPage = function () {
+    const getCurrentPage = function() {
       return currentPage;
     };
 
-    const firstPage = async function () {
+    const firstPage = async function() {
       const firstPage = await fetchOrganizationRepositoryPage({
         org,
         type,
@@ -32286,7 +32299,7 @@ const organizationRepositoryIterator = function ({
       return firstPage;
     };
 
-    const next = function () {
+    const next = function() {
       let nextPage = false;
 
       if (hasMore()) {
@@ -32324,7 +32337,7 @@ const organizationRepositoryIterator = function ({
   };
 };
 
-const fetchOrganizationRepositoryPage = async function ({
+const fetchOrganizationRepositoryPage = async function({
   org,
   type,
   per_page,
@@ -32351,7 +32364,7 @@ const fetchOrganizationRepositoryPage = async function ({
   }
 };
 
-const fetchRepo = async function ({ options }) {
+const fetchRepo = async function({ options }) {
   const { org: owner, repo } = options;
 
   return octokit.repos.get({
@@ -32752,12 +32765,10 @@ const stringToColor = str => {
 
   let hash = 0;
   for (let i = 0; i < str.length; i += 1) {
-    // eslint-disable-next-line no-bitwise
     hash = str.charCodeAt(i) + ((hash << 5) - hash);
   }
   let colour = '#';
   for (let i = 0; i < 3; i += 1) {
-    // eslint-disable-next-line no-bitwise
     const value = (hash >> (i * 8)) & 0xff;
     colour += `00${value.toString(16)}`.substr(-2);
   }
