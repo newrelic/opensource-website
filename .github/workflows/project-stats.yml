@@ -17,10 +17,10 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2.3.0
-        with:
-          ref: develop
-          fetch-depth: 0
-          token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+        # with:
+        #   ref: develop
+        #   fetch-depth: 0
+        #   token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
 
       - name: Sync Data
         uses: ./.github/actions/sync-data
