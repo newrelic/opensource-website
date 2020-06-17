@@ -1,3 +1,10 @@
+## [1.0.13](https://github.com/newrelic/opensource-website/compare/v1.0.12...v1.0.13) (2020-06-17)
+
+
+### Bug Fixes
+
+* need these fields for View Website button to work ([#471](https://github.com/newrelic/opensource-website/issues/471)) ([87af608](https://github.com/newrelic/opensource-website/commit/87af60839a2d411f633b91b6cac467d525844b19))
+
 ## [1.0.12](https://github.com/newrelic/opensource-website/compare/v1.0.11...v1.0.12) (2020-06-17)
 
 
