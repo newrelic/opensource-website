@@ -131,7 +131,7 @@ const HomePage = ({ data }) => {
               className={styles.heroVideoIframe}
               width="1000"
               height="562.704471"
-              src={`https://www.youtube-nocookie.com/embed/7wnav6Fu9T0?showinfo=0&modestbranding=1&rel=0&controls=0${
+              src={`https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true${
                 heroVideoActive ? `&autoplay=1` : ''
               }`}
               frameBorder="0"
