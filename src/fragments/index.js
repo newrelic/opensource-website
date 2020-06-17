@@ -77,6 +77,9 @@ export const projectFields = graphql`
       githubUrl
       role
     }
+    website {
+      url
+    }
     mainContent {
       mdx: parent {
         ... on Mdx {
