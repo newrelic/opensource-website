@@ -171,7 +171,7 @@ const HomePage = ({ data }) => {
             the <a href="/external-projects">open standards projects</a> we
             participate in. Learn{' '}
             <a
-              href="#"
+              href="https://blog.newrelic.com/product-news/announcing-new-relic-open-source/"
               onClick={() => {
                 alert('New Relic Blog post announcing this site'); // eslint-disable-line no-alert
               }}
