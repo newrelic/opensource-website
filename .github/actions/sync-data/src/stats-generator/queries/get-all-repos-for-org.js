@@ -30,7 +30,7 @@ const reposForOrgQuery = ({
             tags: refs(refPrefix: "refs/tags/") {
               totalCount
             }
-            latestTag: refs(refPrefix: "refs/tags/", last: 1) {
+            latestTag: refs(refPrefix: "refs/tags/", last: 1, , orderBy: {field: TAG_COMMIT_DATE, direction: ASC}) {
               nodes {
                 id
                 name
