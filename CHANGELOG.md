@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/newrelic/opensource-website/compare/v1.0.9...v1.0.10) (2020-06-17)
+
+
+### Bug Fixes
+
+* changelog generation from semantic-release ([#464](https://github.com/newrelic/opensource-website/issues/464)) ([94f32e4](https://github.com/newrelic/opensource-website/commit/94f32e4f1539e37cdc3508987682fb86a7e462ad))
+
 ## [1.0.9](https://github.com/newrelic/opensource-website/compare/v1.0.8...v1.0.9) (2020-06-17)
 
 
