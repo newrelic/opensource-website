@@ -10,8 +10,8 @@ const REPOS_PER_PAGE = 100;
 const octokit = new Octokit({
   auth: GH_TOKEN,
   log: {
-    debug: () => { },
-    info: () => { },
+    debug: () => {},
+    info: () => {},
     // eslint-disable-next-line no-console
     warn: console.warn,
     // eslint-disable-next-line no-console
@@ -135,7 +135,7 @@ const octokit = new Octokit({
  * start_page - Beginning page
  * exclude_archived - Whether or not to filter out archived repositories (repos.listForOrg does not offer a way to exclude these from the response)
  */
-const organizationRepositoryIterator = function ({
+const organizationRepositoryIterator = function({
   pages = 1,
   org = DEFAULT_ORG,
   type = 'public',
@@ -143,7 +143,7 @@ const organizationRepositoryIterator = function ({
   start_page = 1
   // excludeArchived = true
 }) {
-  return function () {
+  return function() {
     const MAX_PAGES_ALLOWED = 100;
 
     let isFirstPage = true;
@@ -155,15 +155,15 @@ const organizationRepositoryIterator = function ({
     // How best do we initialize this for the first page?
     let pagesToGet = pages === 0 ? MAX_PAGES_ALLOWED : pages;
 
-    const hasMore = function () {
+    const hasMore = function() {
       return pagesToGet > 0;
     };
 
-    const getCurrentPage = function () {
+    const getCurrentPage = function() {
       return currentPage;
     };
 
-    const firstPage = async function () {
+    const firstPage = async function() {
       const firstPage = await fetchOrganizationRepositoryPage({
         org,
         type,
@@ -188,7 +188,7 @@ const organizationRepositoryIterator = function ({
       return firstPage;
     };
 
-    const next = function () {
+    const next = function() {
       let nextPage = false;
 
       if (hasMore()) {
@@ -226,7 +226,7 @@ const organizationRepositoryIterator = function ({
   };
 };
 
-const fetchOrganizationRepositoryPage = async function ({
+const fetchOrganizationRepositoryPage = async function({
   org,
   type,
   per_page,
@@ -253,7 +253,7 @@ const fetchOrganizationRepositoryPage = async function ({
   }
 };
 
-const fetchRepo = async function ({ options }) {
+const fetchRepo = async function({ options }) {
   const { org: owner, repo } = options;
 
   return octokit.repos.get({

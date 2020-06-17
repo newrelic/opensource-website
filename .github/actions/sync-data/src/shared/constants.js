@@ -26,20 +26,20 @@ const EXCLUDED_PROJECTS = [
   'newrelic/open-source-tools',
   'newrelic/sidecar',
   'open-telemetry',
-  "open-telemetry-opentelemetry-auto-instr-java",
-  "open-telemetry-opentelemetry-collector",
-  "open-telemetry-opentelemetry-cpp",
-  "open-telemetry-opentelemetry-dotnet",
-  "open-telemetry-opentelemetry-erlang",
+  'open-telemetry-opentelemetry-auto-instr-java',
+  'open-telemetry-opentelemetry-collector',
+  'open-telemetry-opentelemetry-cpp',
+  'open-telemetry-opentelemetry-dotnet',
+  'open-telemetry-opentelemetry-erlang',
   'open-telemetry/opentelemetry-go',
   'open-telemetry/opentelemetry-java',
-  "open-telemetry-opentelemetry-ruby",
-  "open-telemetry/opentelemetry-specification",
-  "w3c-correlation-context",
-  "w3c-distributed-tracing-wg",
-  "w3c-trace-context",
-  "w3c-trace-context-binary",
-  "w3c-trace-response"
+  'open-telemetry-opentelemetry-ruby',
+  'open-telemetry/opentelemetry-specification',
+  'w3c-correlation-context',
+  'w3c-distributed-tracing-wg',
+  'w3c-trace-context',
+  'w3c-trace-context-binary',
+  'w3c-trace-response'
 ];
 
 // TO DO - Ascertain Github's GraphQL query limits
