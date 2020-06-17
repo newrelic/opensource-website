@@ -169,6 +169,8 @@ exports[`HomePage Renders correctly 1`] = `
            
           <a
             href="https://github.com/newrelic/opensource-website"
+            rel="noopener noreferrer"
+            target="__blank"
           >
             built
           </a>
@@ -194,7 +196,8 @@ exports[`HomePage Renders correctly 1`] = `
            
           <a
             href="https://blog.newrelic.com/product-news/announcing-new-relic-open-source/"
-            onClick={[Function]}
+            rel="noopener noreferrer"
+            target="__blank"
           >
             more
           </a>
