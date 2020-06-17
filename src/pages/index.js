@@ -10,7 +10,7 @@ import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
 import styles from './home-page.module.scss';
 
-import videoPlaceholder from '../images/video-placeholder.jpg';
+import videoPlaceholder from '../images/video-placeholder-1.png';
 import playButton from '../images/button-play.svg';
 import closeIcon from '../images/icon-close.svg';
 
@@ -100,12 +100,15 @@ const HomePage = ({ data }) => {
         <div className={styles.responsiveVideoContainer}>
           <div className={`responsive-video ${styles.responsiveVideo}`}>
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/7wnav6Fu9T0"
+              className={styles.heroVideoIframe}
+              width="1000"
+              height="562.704471"
+              src={`https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true${
+                heroVideoActive ? `&autoplay=1` : ''
+              }`}
               frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
+              placeholder=""
             />
           </div>
         </div>
