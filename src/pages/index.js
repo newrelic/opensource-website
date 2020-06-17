@@ -168,16 +168,21 @@ const HomePage = ({ data }) => {
           </h2>
           <p className={styles.homepageHeroBodyCopy}>
             We{' '}
-            <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
+            <a
+              href="https://github.com/newrelic/opensource-website"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              built
+            </a>{' '}
             this site to make it easy for <em>you</em> to explore the{' '}
             <a href="/explore-projects">open source projects</a> we maintain and
             the <a href="/external-projects">open standards projects</a> we
             participate in. Learn{' '}
             <a
               href="https://blog.newrelic.com/product-news/announcing-new-relic-open-source/"
-              onClick={() => {
-                alert('New Relic Blog post announcing this site'); // eslint-disable-line no-alert
-              }}
+              target="__blank"
+              rel="noopener noreferrer"
             >
               more
             </a>
