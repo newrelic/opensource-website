@@ -10,7 +10,7 @@
   "supportUrl": "https://discuss.newrelic.com/t/jw-player-js-tracker/100304",
   "githubUrl": "https://github.com/newrelic/jwplayer-js",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/video-jwplayer-js",
-  "iconUrl": null,
+  "iconUrl": "https://github.com/newrelic/video-jwplayer-js/blob/master/icon.png?raw=true",
   "shortDescription": "Instrument the JW player",
   "description": "New Relic Browser Agent for the JW player",
   "ossCategory": "community-project",
@@ -18,7 +18,7 @@
     "agent",
     "video"
   ],
-  "primaryLanguage": "JaavScript",
+  "primaryLanguage": "JavaScript",
   "acceptsContributions": true,
   "website": {
     "title": "New Relic JW Player JS Tracker",

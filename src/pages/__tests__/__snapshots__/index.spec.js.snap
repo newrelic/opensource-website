@@ -169,6 +169,8 @@ exports[`HomePage Renders correctly 1`] = `
            
           <a
             href="https://github.com/newrelic/opensource-website"
+            rel="noopener noreferrer"
+            target="__blank"
           >
             built
           </a>
@@ -193,8 +195,9 @@ exports[`HomePage Renders correctly 1`] = `
            we participate in. Learn
            
           <a
-            href="#"
-            onClick={[Function]}
+            href="https://blog.newrelic.com/product-news/announcing-new-relic-open-source/"
+            rel="noopener noreferrer"
+            target="__blank"
           >
             more
           </a>
@@ -208,12 +211,13 @@ exports[`HomePage Renders correctly 1`] = `
           className="responsive-video responsiveVideo"
         >
           <iframe
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen={true}
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
+            className="heroVideoIframe"
             frameBorder="0"
-            height="315"
-            src="https://www.youtube.com/embed/7wnav6Fu9T0"
-            width="560"
+            height="562.704471"
+            placeholder=""
+            src="https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true"
+            width="1000"
           />
         </div>
       </div>
@@ -244,7 +248,7 @@ exports[`HomePage Renders correctly 1`] = `
             className="heroVideoIframe"
             frameBorder="0"
             height="562.704471"
-            src="https://www.youtube-nocookie.com/embed/7wnav6Fu9T0?showinfo=0&modestbranding=1&rel=0&controls=0"
+            src="https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true"
             width="1000"
           />
         </div>
@@ -390,7 +394,7 @@ exports[`HomePage Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          0.5.6
+          1.0.3
         </small>
       </div>
     </section>

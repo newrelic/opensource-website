@@ -10,7 +10,7 @@ import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
 import styles from './home-page.module.scss';
 
-import videoPlaceholder from '../images/video-placeholder.jpg';
+import videoPlaceholder from '../images/video-placeholder-1.png';
 import playButton from '../images/button-play.svg';
 import closeIcon from '../images/icon-close.svg';
 
@@ -100,12 +100,15 @@ const HomePage = ({ data }) => {
         <div className={styles.responsiveVideoContainer}>
           <div className={`responsive-video ${styles.responsiveVideo}`}>
             <iframe
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/7wnav6Fu9T0"
+              className={styles.heroVideoIframe}
+              width="1000"
+              height="562.704471"
+              src={`https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true${
+                heroVideoActive ? `&autoplay=1` : ''
+              }`}
               frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
+              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
+              placeholder=""
             />
           </div>
         </div>
@@ -131,7 +134,7 @@ const HomePage = ({ data }) => {
               className={styles.heroVideoIframe}
               width="1000"
               height="562.704471"
-              src={`https://www.youtube-nocookie.com/embed/7wnav6Fu9T0?showinfo=0&modestbranding=1&rel=0&controls=0${
+              src={`https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true${
                 heroVideoActive ? `&autoplay=1` : ''
               }`}
               frameBorder="0"
@@ -165,16 +168,21 @@ const HomePage = ({ data }) => {
           </h2>
           <p className={styles.homepageHeroBodyCopy}>
             We{' '}
-            <a href="https://github.com/newrelic/opensource-website">built</a>{' '}
+            <a
+              href="https://github.com/newrelic/opensource-website"
+              target="__blank"
+              rel="noopener noreferrer"
+            >
+              built
+            </a>{' '}
             this site to make it easy for <em>you</em> to explore the{' '}
             <a href="/explore-projects">open source projects</a> we maintain and
             the <a href="/external-projects">open standards projects</a> we
             participate in. Learn{' '}
             <a
-              href="#"
-              onClick={() => {
-                alert('New Relic Blog post announcing this site'); // eslint-disable-line no-alert
-              }}
+              href="https://blog.newrelic.com/product-news/announcing-new-relic-open-source/"
+              target="__blank"
+              rel="noopener noreferrer"
             >
               more
             </a>
