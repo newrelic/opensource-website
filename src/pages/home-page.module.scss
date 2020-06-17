@@ -505,7 +505,7 @@ img.play-button {
   }
 }
 
-@media screen and (max-width:xzF 480px) {
+@media screen and (max-width: 480px) {
   .hero-container {
     margin-top: 24px;
   }
@@ -527,6 +527,12 @@ img.play-button {
   .featured-internal-projects-container {
     margin-bottom: 20px
   }
+}
+
+@media screen and (max-width: 375px) {
+    .homepage-hero-heading {
+      font-size: 28px; 
+    }   
 }
 
 // ==============================================================
