@@ -14,6 +14,7 @@
 }
 
 .homepage-hero-heading {
+  margin-top: 10px;
   font-family: var(--secondary-font-family);
   font-style: normal;
   font-weight: normal;
@@ -420,6 +421,7 @@ img.play-button {
 
   .featured-internal-projects-section-title {
     margin-bottom: 4px;
+    text-align: center;
   }
 }
 
@@ -503,7 +505,7 @@ img.play-button {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:xzF 480px) {
   .hero-container {
     margin-top: 24px;
   }
@@ -514,7 +516,7 @@ img.play-button {
   }  
 
   .homepage-hero-heading {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .homepage-hero-body-copy {
