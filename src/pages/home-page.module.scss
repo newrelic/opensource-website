@@ -53,6 +53,7 @@
   transition: opacity .5s var(--ease-out-quad), transform .5s var(--ease-out-quad);
   transform-style: preserve-3d;
   perspective: 2000px;
+  background-color: #fff;
 
   // drop shadow
   &:before {
@@ -533,6 +534,9 @@ img.play-button {
 // Dark mode
 // ==============================================================
 :global(.dark-mode) {
+  .homepage-hero-video {
+    background-color: var(--color-neutrals-100);
+  }
   .homepage-hero-video:before {
     box-shadow: 0px 1.24527px 3.09933px rgba(6, 19, 23, 0.213671), 0px 2.99255px 7.44811px rgba(6, 19, 23, 0.306958), 0px 5.6347px 14.0241px rgba(6, 19, 23, 0.38), 0px 10.0513px 25.0167px rgba(6, 19, 23, 0.453041), 0px 18.7999px 46.7909px rgba(6, 19, 23, 0.546329), 0px 45px 112px rgba(6, 19, 23, 0.76);
   }
