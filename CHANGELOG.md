@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/newrelic/opensource-website/compare/v1.0.11...v1.0.12) (2020-06-17)
+
+
+### Bug Fixes
+
+* use website url for ext-projects when available ([#467](https://github.com/newrelic/opensource-website/issues/467)) ([e196e84](https://github.com/newrelic/opensource-website/commit/e196e840694e292d874777d86a2b029a8f6aa0d2))
+
 ## [1.0.11](https://github.com/newrelic/opensource-website/compare/v1.0.10...v1.0.11) (2020-06-17)
 
 
