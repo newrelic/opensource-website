@@ -38,7 +38,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           >
             <a
               className="leftSideLink"
-              href="#"
+              href="/"
             >
               Open Source
             </a>
@@ -315,7 +315,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.0.3
+          1.0.10
         </small>
       </div>
     </section>
@@ -361,7 +361,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           >
             <a
               className="leftSideLink"
-              href="#"
+              href="/"
             >
               Open Source
             </a>
@@ -638,7 +638,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.0.3
+          1.0.10
         </small>
       </div>
     </section>
@@ -684,7 +684,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           >
             <a
               className="leftSideLink"
-              href="#"
+              href="/"
             >
               Open Source
             </a>
@@ -1189,7 +1189,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.0.3
+          1.0.10
         </small>
       </div>
     </section>

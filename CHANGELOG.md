@@ -1,3 +1,25 @@
+## [1.0.13](https://github.com/newrelic/opensource-website/compare/v1.0.12...v1.0.13) (2020-06-17)
+
+
+### Bug Fixes
+
+* need these fields for View Website button to work ([#471](https://github.com/newrelic/opensource-website/issues/471)) ([87af608](https://github.com/newrelic/opensource-website/commit/87af60839a2d411f633b91b6cac467d525844b19))
+
+## [1.0.12](https://github.com/newrelic/opensource-website/compare/v1.0.11...v1.0.12) (2020-06-17)
+
+
+### Bug Fixes
+
+* use website url for ext-projects when available ([#467](https://github.com/newrelic/opensource-website/issues/467)) ([e196e84](https://github.com/newrelic/opensource-website/commit/e196e840694e292d874777d86a2b029a8f6aa0d2))
+
+## [1.0.11](https://github.com/newrelic/opensource-website/compare/v1.0.10...v1.0.11) (2020-06-17)
+
+
+### Bug Fixes
+
+* remove 'Browser' from 'description' ([#469](https://github.com/newrelic/opensource-website/issues/469)) ([722873a](https://github.com/newrelic/opensource-website/commit/722873a1703b5071598252fea54198188b738286))
+* remove remaining source available node projects. ([#468](https://github.com/newrelic/opensource-website/issues/468)) ([4b09a06](https://github.com/newrelic/opensource-website/commit/4b09a067720ef20f007838b3024e26b7cb7689c3))
+
 ## [1.0.10](https://github.com/newrelic/opensource-website/compare/v1.0.9...v1.0.10) (2020-06-17)
 
 

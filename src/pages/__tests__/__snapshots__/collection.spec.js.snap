@@ -38,7 +38,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           >
             <a
               className="leftSideLink"
-              href="#"
+              href="/"
             >
               Open Source
             </a>
@@ -289,7 +289,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.0.3
+          1.0.10
         </small>
       </div>
     </section>
