@@ -80,7 +80,7 @@ const OssCategoryPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title="A single oss category page" />
+      <SEO title="New Relic Open Source Categories" />
       <PageHeading
         title="New Relic Open Source Categories"
         subheader="Every public repository in the New Relic and New Relic Experimental GitHub organizations leverages one of the following categories"
