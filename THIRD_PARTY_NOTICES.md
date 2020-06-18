@@ -17,7 +17,6 @@ code, the source code can be found at [https://github.com/newrelic/opensource-we
 * [date-fns](#date-fns)
 * [feather-icons](#feather-icons)
 * [gatsby-image](#gatsby-image)
-* [gatsby-plugin-google-tagmanager](#gatsby-plugin-google-tagmanager)
 * [gatsby-plugin-manifest](#gatsby-plugin-manifest)
 * [gatsby-plugin-mdx](#gatsby-plugin-mdx)
 * [gatsby-plugin-offline](#gatsby-plugin-offline)
@@ -108,36 +107,6 @@ SOFTWARE.
 ### gatsby-image
 
 This product includes source derived from [gatsby-image](https://github.com/gatsbyjs/gatsby) ([v2.4.5](https://github.com/gatsbyjs/gatsby/tree/v2.4.5)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.4.5/LICENSE):
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2015 Gatsbyjs
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-```
-
-### gatsby-plugin-google-tagmanager
-
-This product includes source derived from [gatsby-plugin-google-tagmanager](https://github.com/gatsbyjs/gatsby) ([v2.3.3](https://github.com/gatsbyjs/gatsby/tree/v2.3.3)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.3.3/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -1484,7 +1453,7 @@ SOFTWARE.
 
 ### prettier
 
-This product includes source derived from [prettier](https://github.com/prettier/prettier) ([v2.0.5](https://github.com/prettier/prettier/tree/v2.0.5)), distributed under the [MIT License](https://github.com/prettier/prettier/blob/v2.0.5/LICENSE):
+This product includes source derived from [prettier](https://github.com/prettier/prettier) ([v1.19.1](https://github.com/prettier/prettier/tree/v1.19.1)), distributed under the [MIT License](https://github.com/prettier/prettier/blob/v1.19.1/LICENSE):
 
 ```
 Copyright © James Long and contributors
