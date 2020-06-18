@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/newrelic/opensource-website/compare/v1.0.14...v1.0.15) (2020-06-18)
+
+
+### Bug Fixes
+
+* mime type issue in chrome ([#478](https://github.com/newrelic/opensource-website/issues/478)) ([29b2a39](https://github.com/newrelic/opensource-website/commit/29b2a39a89d43587ef7e81ab606f6f4bb1a3f9a1))
+
 ## [1.0.14](https://github.com/newrelic/opensource-website/compare/v1.0.13...v1.0.14) (2020-06-18)
 
 
