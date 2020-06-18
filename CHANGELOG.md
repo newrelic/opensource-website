@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/newrelic/opensource-website/compare/v1.0.13...v1.0.14) (2020-06-18)
+
+
+### Bug Fixes
+
+* temporarily remove GTM and Segment for performance concerns ([#474](https://github.com/newrelic/opensource-website/issues/474)) ([9e25134](https://github.com/newrelic/opensource-website/commit/9e25134e28b6ef2493cba7cb1e2e018e27d9fb40))
+
 ## [1.0.13](https://github.com/newrelic/opensource-website/compare/v1.0.12...v1.0.13) (2020-06-17)
 
 
