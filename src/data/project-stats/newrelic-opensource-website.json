@@ -3,16 +3,16 @@
   "issues": {
     "open": 11
   },
-  "releases": 18,
+  "releases": 24,
   "latestRelease": {
-    "name": "v1.0.7",
-    "date": "2020-06-17T14:58:26Z"
+    "name": "v1.0.13",
+    "date": "2020-06-17T21:08:41Z"
   },
-  "commits": 799,
-  "lastSixMonthsCommitTotal": 799,
-  "contributors": 22,
+  "commits": 821,
+  "lastSixMonthsCommitTotal": 821,
+  "contributors": 24,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -74,10 +74,24 @@
       "contributions": 1
     },
     {
+      "id": 283858,
+      "login": "jonathanpdx",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/283858?v=4",
+      "htmlUrl": "https://github.com/jonathanpdx",
+      "contributions": 1
+    },
+    {
       "id": 130504,
       "login": "jasonrclark",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/130504?v=4",
       "htmlUrl": "https://github.com/jasonrclark",
+      "contributions": 1
+    },
+    {
+      "id": 16843267,
+      "login": "ericboucher",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/16843267?v=4",
+      "htmlUrl": "https://github.com/ericboucher",
       "contributions": 1
     },
     {
@@ -144,13 +158,6 @@
       "contributions": 3
     },
     {
-      "id": 11223178,
-      "login": "michaelgoin",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
-      "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 3
-    },
-    {
       "id": 455419,
       "login": "jthurman42",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
@@ -158,32 +165,39 @@
       "contributions": 3
     },
     {
+      "id": 11223178,
+      "login": "michaelgoin",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
+      "htmlUrl": "https://github.com/michaelgoin",
+      "contributions": 4
+    },
+    {
       "id": 8813505,
       "login": "adwetzelnr",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/8813505?v=4",
       "htmlUrl": "https://github.com/adwetzelnr",
-      "contributions": 8
+      "contributions": 9
     },
     {
       "id": 32174276,
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 17
+      "contributions": 23
     },
     {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 25
+      "contributions": 31
     },
     {
       "id": 6722433,
       "login": "jbeveland27",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 73
+      "contributions": 76
     },
     {
       "id": 197140,
@@ -204,7 +218,7 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 239
+      "contributions": 241
     }
   ],
   "languages": [
