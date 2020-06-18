@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Thu Jun 11 2020 20:49:58 GMT+0000 (Coordinated Universal Time)",
+  "lastUpdated": "Thu Jun 18 2020 16:14:57 GMT+0000 (Coordinated Universal Time)",
   "projectName": "opensource-website",
   "projectUrl": "https://github.com/newrelic/opensource-website",
   "includeDev": true,
@@ -41,19 +41,6 @@
       "licenseTextSource": "file",
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
-    },
-    "gatsby-plugin-google-tagmanager@2.3.3": {
-      "name": "gatsby-plugin-google-tagmanager",
-      "version": "2.3.3",
-      "range": "^2.3.3",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v2.3.3",
-      "licenseFile": "node_modules/gatsby-plugin-google-tagmanager/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v2.3.3/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "Thijs Koerselman",
-      "email": "thijs@vauxlab.com"
     },
     "gatsby-plugin-manifest@2.4.9": {
       "name": "gatsby-plugin-manifest",
@@ -538,15 +525,15 @@
       "licenseUrl": "https://github.com/facebook/jest/blob/v26.0.1/LICENSE",
       "licenseTextSource": "file"
     },
-    "prettier@2.0.5": {
+    "prettier@1.19.1": {
       "name": "prettier",
-      "version": "2.0.5",
-      "range": "^2.0.5",
+      "version": "1.19.1",
+      "range": "^1.19.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/prettier/prettier",
-      "versionedRepoUrl": "https://github.com/prettier/prettier/tree/v2.0.5",
-      "licenseFile": "node_modules/gatsby-recipes/node_modules/prettier/LICENSE",
-      "licenseUrl": "https://github.com/prettier/prettier/blob/v2.0.5/LICENSE",
+      "versionedRepoUrl": "https://github.com/prettier/prettier/tree/v1.19.1",
+      "licenseFile": "node_modules/prettier/LICENSE",
+      "licenseUrl": "https://github.com/prettier/prettier/blob/v1.19.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "James Long"
     },
