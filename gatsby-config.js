@@ -11,13 +11,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-google-tagmanager',
-      options: {
-        id: 'GTM-TK2F7T',
-        includeInDevelopment: false
-      }
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
@@ -31,16 +24,6 @@ module.exports = {
         classNameLight: 'light-mode',
         storageKey: 'darkMode',
         minify: true
-      }
-    },
-    {
-      resolve: `gatsby-plugin-segment-js`,
-      options: {
-        prodKey: `jzjQisi3j3VvLyH9mc0QNEgYKpj4LlD1`,
-        devKey: `jzjQisi3j3VvLyH9mc0QNEgYKpj4LlD1`,
-        trackPage: false,
-        delayLoad: false,
-        delayLoadTime: 1000
       }
     },
     {
