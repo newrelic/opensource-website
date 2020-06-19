@@ -1,5 +1,3 @@
-# Architecture
-
 ![Architecture](https://github.com/newrelic/opensource-website/blob/develop/docs/images/opensource-website_architecture.png)
 
 ## Design Choice: Project stats automation commits will appear out of sync
