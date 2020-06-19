@@ -13,10 +13,10 @@ Project documentation can be found in the [Wiki](https://github.com/newrelic/ope
 | Topic                           | Wiki Guide                                                                        |
 | --------------------------------| ----------------------------------------------------------------------------------|
 | Architecture                    | [Architecture](https://github.com/newrelic/opensource-website/wiki/Architecture)  |
-| Contributing Project Data      | [Contributing Project Data](https://github.com/newrelic/opensource-website/wiki/Contributing-Project-Data)<br>_If you are adding or modifying your project listing and its metadata, this is the guide you should consult to make sure all necessary files are present._ |
+| Contributing Project Data       | [Contributing Project Data](https://github.com/newrelic/opensource-website/wiki/Contributing-Project-Data)<br>_If you are adding or modifying your project listing and its metadata, this is the guide you should consult to make sure all necessary files are present._ |
 | Deploy                          | [Deploy](https://github.com/newrelic/opensource-website/wiki/Deploy)              |
 | Emergency Runbook               | [Runbook](https://github.com/newrelic/opensource-website/wiki/Emergency-Runbook)  |
-| Project Structure               | [Project](https://github.com/newrelic/opensource-website/wiki/Project-Structure)  |
+| Project Structure               | [Repo and Project Structure](https://github.com/newrelic/opensource-website/wiki/Project-Structure)  |
 
 ## Open source license
 

@@ -1,5 +1,3 @@
-# Project Structure
-
 This project is made up of a few components:
 
 - React code, components, and page templates built primarily in [MDX](https://mdxjs.com/)
