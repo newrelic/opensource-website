@@ -1,5 +1,3 @@
-# Contributing project data
-
 The process to contribute new data or update existing data to `opensource.newrelic.com` is the same.
 
 1. `Fork` this repository.
