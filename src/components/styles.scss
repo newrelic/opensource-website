@@ -436,14 +436,21 @@ select {
   } 
 
   .button {
-    color: var(--color-background);
+    background-color: var(--color-neutrals-800);
   }
   
   .button-secondary {
-    color: var(--color-brand-400);
+    color: var(--color-neutrals-800);
+    box-shadow: inset 0 0 0 2px var(--color-neutrals-800);
+    background-color: transparent;
   }
   
   .button-tertiary {
+    background-color: inherit;
     color: inherit;
+
+    &:hover {
+      background-color: var(--color-neutrals-100);
+    }
   }
 }
