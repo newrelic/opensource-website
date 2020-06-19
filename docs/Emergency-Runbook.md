@@ -1,4 +1,4 @@
-# opensource.newrelic.com runbook
+# Emergency Runbook -- opensource.newrelic.com
 
 This site is hosted on [AWS Amplify](https://aws.amazon.com/amplify/) by New Relic's OpenSource team and is maintained and supported by New Relic's developer experience team. If you have any questions or comments, please reach out to opensource@newrelic.com.
 
@@ -8,60 +8,7 @@ This site is hosted on [AWS Amplify](https://aws.amazon.com/amplify/) by New Rel
 
 To diagnose a particular alert, we've started a [Common Issues](#Common-Issues)
 
-## CI/CD
-
-This site is deployed utilizing Github Actions for continuous integration (CI) combined with AWS Amplify's branch-based continuous deployment (CD).
-
-### Staging/Production Deployment
-
-Amplify is connected to the `master` and `deploy` branches, and has webhooks set on the repo that listen for pushes to those branches. On push, an atomic deploy is triggered. If the build/deploy fails, the site will continue to run with the existing version.
-
-> Note: Any commit with `[skip-cd]` will bypass the build process in Amplify.
-
-#### Production Deployment
-
-**Production** deployments are exclusively handled through merging a Pull Request into the `master` branch. If an ad-hoc deployment is required, please reach out to a project maintainer.
-
-**Opening a Pull Request**: the direction should be `develop` -> `master`. Once all checks have passed, merge via `Merge Pull Request` option (using `Create a merge commit` at the strategy). This will merge the commits in from develop (effectively "catching" `master` up with `develop`), plus issue the merge commit on top.
-
-**Merging**: use a [Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) message indicating this is a release:
-
-```
-chore(release): updating production to vX.X.X
-```
-
-The intent is: semantic-release issued a new tag/release on the `develop` branch, so we are now promoting that to production. If for whatever reason there wasn't a release, include what the update is and provide the release at the end of the message:
-
-```
-chore(release): content updates but no new site features [vX.X.X]
-```
-
-> Note: Since semantic-release is only running on the `develop` branch, there won't be a new tag/release cut from the master branch. We might revisit this idea in the future if the tooling evolves.
-
-#### Staging Deployment
-
-**Staging** deployments will happen frequently, and should be used to QA changes prior to opening a Pull Request to `master`.
-
-These deployments happen automagically every time a commit is made to `develop`. This is handled via Amplify's Git-based continuous deployment.
-
-If it seems like builds/deploys should be occurring but aren't, please contact a project maintainer.
-
-### GitHub Actions
-
-* Generation of project-stats data
-  * Triggered every 4 hours
-* Docs/Wiki Sync
-  * Triggered on pushes to `develop` branch when the `docs` directory changes
-* Pull Request build/test/lint checking
-  * Triggered on pull requests being opened
-* Release management
-  * Triggered on pushes to `develop` following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
-
-### Project-Stats Generation
-
-Every 4 hours, the project-stats workflow kicks off. After running this Actions, it will commit and push to both the `develop` and `master` branch. Then, this will trigger builds on Amplify.
-
-### Rollback a release
+## Rollback a release
 
 Use the Amplify Console UI to select a previous build and redeploy that build.
 
