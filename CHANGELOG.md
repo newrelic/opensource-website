@@ -1,3 +1,10 @@
+## [1.0.18](https://github.com/newrelic/opensource-website/compare/v1.0.17...v1.0.18) (2020-06-22)
+
+
+### Bug Fixes
+
+* addresses null pointer when contributors API returns no author ([#489](https://github.com/newrelic/opensource-website/issues/489)) ([8519971](https://github.com/newrelic/opensource-website/commit/85199714ea248fd29593c726cfdb312348bf7702))
+
 ## [1.0.17](https://github.com/newrelic/opensource-website/compare/v1.0.16...v1.0.17) (2020-06-22)
 
 
