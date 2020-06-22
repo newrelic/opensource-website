@@ -65,7 +65,7 @@ jobs:
 
           if [ -z "${WIKI_COMMIT_MESSAGE:-}" ]; then
               debug "WIKI_COMMIT_MESSAGE not set, using default"
-              WIKI_COMMIT_MESSAGE='chore(docs): Sync wiki to docs [skip ci]'
+              WIKI_COMMIT_MESSAGE='chore(docs): Sync wiki to docs [skip-cd]'
           fi
 
           GIT_REPOSITORY_URL="https://${GH_PERSONAL_ACCESS_TOKEN}@github.com/$GITHUB_REPOSITORY.wiki.git"
@@ -152,7 +152,7 @@ jobs:
 
           if [ -z "${WIKI_COMMIT_MESSAGE:-}" ]; then
               debug "WIKI_COMMIT_MESSAGE not set, using default"
-              WIKI_COMMIT_MESSAGE='chore(docs): Sync docs to wiki [skip ci]'
+              WIKI_COMMIT_MESSAGE='chore(docs): Sync docs to wiki [skip-cd]'
           fi
 
           GIT_REPOSITORY_URL="https://${GH_PERSONAL_ACCESS_TOKEN}@github.com/$GITHUB_REPOSITORY.wiki.git"

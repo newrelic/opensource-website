@@ -1,3 +1,18 @@
+## [1.0.18](https://github.com/newrelic/opensource-website/compare/v1.0.17...v1.0.18) (2020-06-22)
+
+
+### Bug Fixes
+
+* addresses null pointer when contributors API returns no author ([#489](https://github.com/newrelic/opensource-website/issues/489)) ([8519971](https://github.com/newrelic/opensource-website/commit/85199714ea248fd29593c726cfdb312348bf7702))
+
+## [1.0.17](https://github.com/newrelic/opensource-website/compare/v1.0.16...v1.0.17) (2020-06-22)
+
+
+### Bug Fixes
+
+* eslint fixes and test updates ([2e54666](https://github.com/newrelic/opensource-website/commit/2e546666f8a2f1c3072606d0dbb99b25a82ab59c))
+* temporarily remove GTM and Segment for performance concerns ([99cf90a](https://github.com/newrelic/opensource-website/commit/99cf90acb667c3e33dc6170e74ec73ad28a3e28b))
+
 ## [1.0.16](https://github.com/newrelic/opensource-website/compare/v1.0.15...v1.0.16) (2020-06-18)
 
 
