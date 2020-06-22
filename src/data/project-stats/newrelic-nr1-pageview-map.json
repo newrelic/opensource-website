@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nr1-pageview-map",
   "issues": {
-    "open": 2
+    "open": 1
   },
-  "releases": 6,
+  "releases": 7,
   "latestRelease": {
-    "name": "v1.2.0",
-    "date": "2020-03-27T17:45:01Z"
+    "name": "v1.3.0",
+    "date": "2020-06-22T14:40:54Z"
   },
-  "commits": 139,
-  "lastSixMonthsCommitTotal": 28,
-  "contributors": 8,
+  "commits": 142,
+  "lastSixMonthsCommitTotal": 31,
+  "contributors": 9,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -36,10 +36,10 @@
   ],
   "cachedContributors": [
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
       "contributions": 1
     },
     {
@@ -48,6 +48,13 @@
       "avatarUrl": "https://avatars2.githubusercontent.com/u/712701?v=4",
       "htmlUrl": "https://github.com/adamlukaszczyk",
       "contributions": 1
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 2
     },
     {
       "id": 6722433,
@@ -89,7 +96,7 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 32
+      "contributions": 33
     }
   ],
   "languages": [
