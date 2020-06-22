@@ -90,16 +90,16 @@ const OssCategoryPage = ({ data }) => {
           <div className={styles.categoriesNavigation}>
             <h4>Categories</h4>
             <ul className={styles.categorySidebarList}>{categoryNavList}</ul>
+            <p>
+              For the code snippets that appear in the project's README file, see{' '}
+              <a href="https://github.com/newrelic/opensource-website/wiki/Open-Source-Category-Snippets">
+                this documentation
+              </a>
+              .
+            </p>
           </div>
         </aside>
         <main className="primary-content-main">
-          <p>
-            For the code snippets that appear in the project's README file, see{' '}
-            <a href="https://github.com/newrelic/opensource-website/wiki/Open-Source-Category-Snippets">
-              this documentation
-            </a>
-            .
-          </p>
           {categoryList}
         </main>
       </div>
