@@ -3,20 +3,27 @@
   "issues": {
     "open": 21
   },
-  "releases": 18,
+  "releases": 19,
   "latestRelease": {
-    "name": "v1.5.2",
-    "date": "2020-04-01T21:22:22Z"
+    "name": "v1.5.3",
+    "date": "2020-06-19T18:27:38Z"
   },
-  "commits": 290,
-  "lastSixMonthsCommitTotal": 56,
-  "contributors": 9,
+  "commits": 294,
+  "lastSixMonthsCommitTotal": 53,
+  "contributors": 11,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 1
+    },
     {
       "id": 854297,
       "login": "seankcarpenter",
@@ -25,10 +32,10 @@
       "contributions": 1
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "id": 1987319,
+      "login": "idirouhab",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1987319?v=4",
+      "htmlUrl": "https://github.com/idirouhab",
       "contributions": 1
     },
     {
@@ -44,6 +51,13 @@
       "avatarUrl": "https://avatars1.githubusercontent.com/u/18217538?v=4",
       "htmlUrl": "https://github.com/NewRelic-OT-docs",
       "contributions": 1
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 2
     },
     {
       "id": 6722433,

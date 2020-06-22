@@ -1,3 +1,24 @@
+## [1.0.16](https://github.com/newrelic/opensource-website/compare/v1.0.15...v1.0.16) (2020-06-18)
+
+
+### Bug Fixes
+
+* removing dotnet-agent project for now ([#479](https://github.com/newrelic/opensource-website/issues/479)) ([e4457a3](https://github.com/newrelic/opensource-website/commit/e4457a33d48b7bbf2edf2efd31c17fae2b0e49ee))
+
+## [1.0.15](https://github.com/newrelic/opensource-website/compare/v1.0.14...v1.0.15) (2020-06-18)
+
+
+### Bug Fixes
+
+* mime type issue in chrome ([#478](https://github.com/newrelic/opensource-website/issues/478)) ([29b2a39](https://github.com/newrelic/opensource-website/commit/29b2a39a89d43587ef7e81ab606f6f4bb1a3f9a1))
+
+## [1.0.14](https://github.com/newrelic/opensource-website/compare/v1.0.13...v1.0.14) (2020-06-18)
+
+
+### Bug Fixes
+
+* temporarily remove GTM and Segment for performance concerns ([#474](https://github.com/newrelic/opensource-website/issues/474)) ([9e25134](https://github.com/newrelic/opensource-website/commit/9e25134e28b6ef2493cba7cb1e2e018e27d9fb40))
+
 ## [1.0.13](https://github.com/newrelic/opensource-website/compare/v1.0.12...v1.0.13) (2020-06-17)
 
 
