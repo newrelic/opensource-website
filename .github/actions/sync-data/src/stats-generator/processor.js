@@ -58,13 +58,15 @@ function formatStats(project, stats) {
   );
 
   const cachedContributors = Array.isArray(contributorStats)
-    ? contributorStats.map(i => ({
-        id: i.author.id,
-        login: i.author.login,
-        avatarUrl: i.author.avatar_url,
-        htmlUrl: i.author.html_url,
-        contributions: i.total
-      }))
+    ? contributorStats.map(i => {
+        return {
+          id: _.get(i, 'author.id'),
+          login: _.get(i, 'author.login'),
+          avatarUrl: _.get(i, 'author.avatar_url'),
+          htmlUrl: _.get(i, 'author.html_url'),
+          contributions: _.get(i, 'total')
+        };
+      })
     : [];
 
   const latestReleaseName = _.get(project, 'latestTag.nodes[0].name', false);
