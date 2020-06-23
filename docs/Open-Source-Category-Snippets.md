@@ -66,7 +66,7 @@ See [here](https://opensource.newrelic.com/oss-category/#new-relic-one-catalog-p
 
 ### Category Description and Requirements
 
-See [here](https://opensource.newrelic.com/oss-category/#eexample-code).
+See [here](https://opensource.newrelic.com/oss-category/#example-code).
 
 ### Code snippet
 

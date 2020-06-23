@@ -143,5 +143,11 @@ jobs:
 
       - name: Release
         env:
+          # Use nr-opensource-bot for authoring commits done by
+          # semantic-release (rather than using @semantic-release-bot)
+          GIT_AUTHOR_NAME: "nr-opensource-bot"
+          GIT_AUTHOR_EMAIL: "opensource+bot@newrelic.com"
+          GIT_COMMITTER_NAME: "nr-opensource-bot"
+          GIT_COMMITTER_EMAIL: "opensource+bot@newrelic.com"
           GITHUB_TOKEN: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
         run: npx semantic-release
