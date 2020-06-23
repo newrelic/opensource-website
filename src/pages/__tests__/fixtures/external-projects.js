@@ -129,9 +129,9 @@ export default {
               "role": ".NET"
             },
             {
-              "name": "Eric Lucas",
+              "name": "Erik Lucus",
               "avatarUrl": "https://avatars3.githubusercontent.com/u/4761745?s=460&v=4",
-              "githubUrl": "https://github.com/elucas",
+              "githubUrl": "https://github.com/elucus",
               "role": ".NET"
             },
             {
@@ -296,9 +296,9 @@ export default {
             "role": ".NET"
           },
           {
-            "name": "Eric Lucas",
+            "name": "Erik Lucus",
             "avatarUrl": "https://avatars3.githubusercontent.com/u/4761745?s=460&v=4",
-            "githubUrl": "https://github.com/elucas",
+            "githubUrl": "https://github.com/elucus",
             "role": ".NET"
           },
           {
