@@ -1,42 +1,39 @@
 {
-  "projectFullName": "newrelic/nri-discovery-kubernetes",
+  "projectFullName": "newrelic/infrastructure-agent",
   "issues": {
     "open": 0
   },
-  "releases": 7,
-  "latestRelease": {
-    "name": "v1.2.0",
-    "date": "2020-06-02T08:35:29Z"
-  },
-  "commits": 20,
-  "lastSixMonthsCommitTotal": 16,
+  "releases": 0,
+  "latestRelease": null,
+  "commits": 5,
+  "lastSixMonthsCommitTotal": 5,
   "contributors": 3,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 15685307,
-      "login": "cristianciutea",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/15685307?v=4",
-      "htmlUrl": "https://github.com/cristianciutea",
-      "contributions": 2
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
+    {
+      "id": 7732950,
+      "login": "jfjoly",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/7732950?v=4",
+      "htmlUrl": "https://github.com/jfjoly",
+      "contributions": 1
     },
     {
       "id": 717815,
       "login": "carlosroman",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
       "htmlUrl": "https://github.com/carlosroman",
-      "contributions": 3
-    },
-    {
-      "id": 2054195,
-      "login": "ardias",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
-      "htmlUrl": "https://github.com/ardias",
-      "contributions": 12
+      "contributions": 2
     }
   ],
   "languages": [
@@ -49,6 +46,16 @@
       "id": "MDg6TGFuZ3VhZ2U0MDM=",
       "name": "Makefile",
       "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
     },
     {
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
