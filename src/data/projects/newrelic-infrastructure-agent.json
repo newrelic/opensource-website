@@ -1,0 +1,27 @@
+{
+  "name": "infrastructure-agent",
+  "fullName": "newrelic/infrastructure-agent",
+  "slug": "newrelic-infrastructure-agent",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Infrastructure Agent",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
+  "githubUrl": "https://github.com/newrelic/infrastructure-agent",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/infrastructure-agent",
+  "iconUrl": null,
+  "shortDescription": "Install the Infra agent",
+  "description": "Collects inventory data and metrics of your hosts and sends it to the New Relic platform",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Go",
+  "projectTags": [
+    "nri",
+    "agent"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Infrastructure Agent",
+    "url": "https://github.com/newrelic/infrastructure-agent"
+  }
+}
