@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 45
+    "open": 43
   },
   "releases": 32,
   "latestRelease": {
     "name": "v2.1.0",
     "date": null
   },
-  "commits": 875,
-  "lastSixMonthsCommitTotal": 365,
+  "commits": 884,
+  "lastSixMonthsCommitTotal": 374,
   "contributors": 50,
   "pullRequests": {
-    "open": 7
+    "open": 8
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -49,6 +49,23 @@
       },
       "number": 434,
       "createdBy": "Chris Trombley"
+    },
+    {
+      "id": "MDU6SXNzdWU2MzM3MzMyMDA=",
+      "title": "Reflect current account information",
+      "url": "https://github.com/newrelic/terraform-provider-newrelic/issues/647",
+      "createdAt": "2020-06-07T20:25:39Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "skyzyx",
+        "id": "MDQ6VXNlcjM5NDQ3",
+        "email": "",
+        "name": "Ryan Parman"
+      },
+      "number": 647,
+      "createdBy": "Ryan Parman"
     }
   ],
   "cachedContributors": [
@@ -400,7 +417,7 @@
       "login": "ctrombley",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
       "htmlUrl": "https://github.com/ctrombley",
-      "contributions": 134
+      "contributions": 142
     }
   ],
   "languages": [
