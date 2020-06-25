@@ -1,0 +1,28 @@
+{
+  "name": "wiki-sync-action",
+  "fullName": "newrelic/wiki-sync-action",
+  "slug": "newrelic-wiki-sync-action",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "Wiki Sync Action",
+  "supportUrl": "https://discuss.newrelic.com/t/open-source-maintainers-keep-repo-documentation-in-sync-with-the-bi-directional-wiki-sync-github-action/105611",
+  "githubUrl": "https://github.com/newrelic/wiki-sync-action",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/wiki-sync-action",
+  "iconUrl": "null",
+  "shortDescription": "Sync your documentation and Wiki",
+  "description": "A GitHub Action that synchronizes the contents of a directory to the repository's Wiki.",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Bash",
+  "projectTags": [
+    "tools",
+    "ci",
+    "github-action"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "Wiki Sync Action",
+    "url": "https://github.com/newrelic/wiki-sync-action"
+  }
+}
