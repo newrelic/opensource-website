@@ -3,16 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 7,
+  "releases": 8,
   "latestRelease": {
-    "name": "v1.3.0",
-    "date": "2020-06-22T14:40:54Z"
+    "name": "v1.4.0",
+    "date": "2020-06-24T19:27:12Z"
   },
-  "commits": 142,
-  "lastSixMonthsCommitTotal": 31,
+  "commits": 150,
+  "lastSixMonthsCommitTotal": 39,
   "contributors": 9,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -36,13 +36,6 @@
   ],
   "cachedContributors": [
     {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 1
-    },
-    {
       "id": 712701,
       "login": "adamlukaszczyk",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/712701?v=4",
@@ -50,10 +43,10 @@
       "contributions": 1
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
       "contributions": 2
     },
     {
@@ -78,6 +71,13 @@
       "contributions": 3
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 3
+    },
+    {
       "id": 24775098,
       "login": "madecki",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/24775098?v=4",
@@ -96,7 +96,7 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 33
+      "contributions": 36
     }
   ],
   "languages": [

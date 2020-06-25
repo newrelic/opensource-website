@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 28,
-  "lastSixMonthsCommitTotal": 17,
-  "contributors": 7,
+  "commits": 31,
+  "lastSixMonthsCommitTotal": 20,
+  "contributors": 8,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 17498,
+      "login": "kolanos",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/17498?v=4",
+      "htmlUrl": "https://github.com/kolanos",
+      "contributions": 1
+    },
     {
       "id": 41185214,
       "login": "jotanavarro",
@@ -61,7 +68,7 @@
       "login": "MattWhelan",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/585473?v=4",
       "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 11
+      "contributions": 12
     }
   ],
   "languages": [
@@ -69,6 +76,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDU=",
       "name": "Python",
       "color": "#3572A5"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],

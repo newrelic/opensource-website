@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 45
+    "open": 40
   },
-  "releases": 32,
+  "releases": 34,
   "latestRelease": {
-    "name": "v2.1.0",
-    "date": null
+    "name": "v1.19.1",
+    "date": "2020-06-24T16:59:58Z"
   },
-  "commits": 875,
-  "lastSixMonthsCommitTotal": 365,
+  "commits": 897,
+  "lastSixMonthsCommitTotal": 387,
   "contributors": 50,
   "pullRequests": {
     "open": 7
@@ -49,6 +49,23 @@
       },
       "number": 434,
       "createdBy": "Chris Trombley"
+    },
+    {
+      "id": "MDU6SXNzdWU2MzM3MzMyMDA=",
+      "title": "Reflect current account information",
+      "url": "https://github.com/newrelic/terraform-provider-newrelic/issues/647",
+      "createdAt": "2020-06-07T20:25:39Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "skyzyx",
+        "id": "MDQ6VXNlcjM5NDQ3",
+        "email": "",
+        "name": "Ryan Parman"
+      },
+      "number": 647,
+      "createdBy": "Ryan Parman"
     }
   ],
   "cachedContributors": [
@@ -372,7 +389,7 @@
       "login": "jthurman42",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/455419?v=4",
       "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 42
+      "contributions": 43
     },
     {
       "id": 25180681,
@@ -386,21 +403,21 @@
       "login": "zlesnr",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/29264964?v=4",
       "htmlUrl": "https://github.com/zlesnr",
-      "contributions": 55
+      "contributions": 58
     },
     {
       "id": 2590905,
       "login": "sanderblue",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
       "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 94
+      "contributions": 97
     },
     {
       "id": 413389,
       "login": "ctrombley",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
       "htmlUrl": "https://github.com/ctrombley",
-      "contributions": 134
+      "contributions": 143
     }
   ],
   "languages": [

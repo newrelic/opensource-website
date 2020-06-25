@@ -1,3 +1,11 @@
+## [1.0.19](https://github.com/newrelic/opensource-website/compare/v1.0.18...v1.0.19) (2020-06-25)
+
+
+### Bug Fixes
+
+* **homepage:** horizontal overflow scrollbar ([#498](https://github.com/newrelic/opensource-website/issues/498)) ([a3edd96](https://github.com/newrelic/opensource-website/commit/a3edd96a934147e7ddbc36e36ef40ca86f958450)), closes [#5](https://github.com/newrelic/opensource-website/issues/5) [newrelic#435](https://github.com/newrelic/issues/435) [#6](https://github.com/newrelic/opensource-website/issues/6)
+* broken link on newrelic-python-agent ([cbc7242](https://github.com/newrelic/opensource-website/commit/cbc7242852d2fd1122dfc619c3fcc45d749a899b))
+
 ## [1.0.18](https://github.com/newrelic/opensource-website/compare/v1.0.17...v1.0.18) (2020-06-22)
 
 
