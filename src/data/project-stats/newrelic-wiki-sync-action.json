@@ -3,10 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 4,
-  "lastSixMonthsCommitTotal": 4,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.0",
+    "date": "2020-06-25T14:05:44Z"
+  },
+  "commits": 7,
+  "lastSixMonthsCommitTotal": 7,
   "contributors": 1,
   "pullRequests": {
     "open": 0
@@ -19,7 +22,7 @@
       "login": "jbeveland27",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 4
+      "contributions": 7
     }
   ],
   "languages": [
@@ -34,7 +37,10 @@
       "color": "#89e051"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic/wiki-sync-action/master/screenshots/screenshot-01.png",
+    "https://raw.githubusercontent.com/newrelic/wiki-sync-action/master/screenshots/screenshot-02.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

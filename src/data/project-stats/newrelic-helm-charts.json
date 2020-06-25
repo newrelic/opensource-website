@@ -12,10 +12,28 @@
   "lastSixMonthsCommitTotal": 73,
   "contributors": 10,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2NDM5MTUzMzA=",
+      "title": "[nri-kube-events] attempting to write warnings to RO filesystem",
+      "url": "https://github.com/newrelic/helm-charts/issues/72",
+      "createdAt": "2020-06-23T14:59:37Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "paul91",
+        "id": "MDQ6VXNlcjc1MzE1OQ==",
+        "email": "",
+        "name": "Paul Lewis"
+      },
+      "number": 72,
+      "createdBy": "Paul Lewis"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 1773616,
