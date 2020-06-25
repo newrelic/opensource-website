@@ -10,7 +10,7 @@ import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
 import styles from './home-page.module.scss';
 
-import videoPlaceholder from '../images/video-placeholder-1.png';
+import videoPlaceholder from '../images/video-placeholder-1.jpg';
 import playButton from '../images/button-play.svg';
 import closeIcon from '../images/icon-close.svg';
 
