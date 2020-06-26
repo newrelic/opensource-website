@@ -160,6 +160,18 @@ module.exports = {
           // }
         }
       }
+    },
+    {
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleTagManager: {
+          trackingId: 'BLAH', // leave empty if you want to disable the tracker
+          cookieName: 'newrelic-gdpr-consent', // default
+          dataLayerName: 'dataLayer', // default
+        },
+        // defines the environments where the tracking should be available  - default is ["production"]
+        environments: ['production', 'development']
+      },
     }
   ]
 };
