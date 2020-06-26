@@ -34,12 +34,10 @@ class CookieApprovalDialog extends React.Component {
             {/* <X className={styles.buttonClose} size={18} /> */}
             <div className={styles.primaryContent}>
               <h4 className={styles.heading}>
-                This site uses tracking cookies 🍪
+                This site uses cookies 🍪
               </h4>
               <p className={styles.description}>
-                We rely on tracking instrumentation to deliver an optimal
-                experience across our sites. If you consent to our cookies,
-                please click “OK”.
+                We rely on tracking instrumentation to deliver an optimal experience across our sites. If you consent to our cookies, please click “Yes".
               </p>
             </div>
             <div className={styles.ctaContainer}>
@@ -50,7 +48,7 @@ class CookieApprovalDialog extends React.Component {
                   this.writeCookies(true);
                 }}
               >
-                OK
+                Yes
               </button>
               <button
                 className={`button button-tertiary ${styles.ignoreButton}`}
@@ -59,7 +57,7 @@ class CookieApprovalDialog extends React.Component {
                   this.writeCookies(false);
                 }}
               >
-                Reject
+                No
               </button>
             </div>
           </div>
