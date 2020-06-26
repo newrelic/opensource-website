@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nr1-workload-geoops",
   "issues": {
-    "open": 16
+    "open": 18
   },
   "releases": 12,
   "latestRelease": {
@@ -12,27 +12,10 @@
   "lastSixMonthsCommitTotal": 338,
   "contributors": 8,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU1ODM3OTk1MDY=",
-      "title": "refactor(MapItem): render single map tile instead of whole map",
-      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/40",
-      "createdAt": "2020-03-18T15:11:56Z",
-      "comments": {
-        "totalCount": 2
-      },
-      "author": {
-        "login": "devfreddy",
-        "id": "MDQ6VXNlcjE5NzE0MA==",
-        "email": "",
-        "name": "Michael Frederick"
-      },
-      "number": 40,
-      "createdBy": "Michael Frederick"
-    },
     {
       "id": "MDU6SXNzdWU1ODM4MTAzNDE=",
       "title": "feat(recent incidents): expand the incident user clicks on",
