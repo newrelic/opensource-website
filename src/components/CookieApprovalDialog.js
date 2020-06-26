@@ -14,9 +14,12 @@ class CookieApprovalDialog extends React.Component {
   }
 
   writeCookies(answer) {
-    Cookies.set('newrelic-gdpr-consent', !!answer, {
-      expires: 365
-    });
+    const currentEnvironment = process.env.ENV || process.env.NODE_ENV || "development";
+    const options = { expires: 365 };
+    if (currentEnvironment !== 'development') {
+      options.domain = 'newrelic.com';
+    }
+    Cookies.set('newrelic-gdpr-consent', !!answer, options);
     // console.debug(Cookies.get('newrelic-gdpr-consent'));
     this.setState({ cookieSet: true });
   }
