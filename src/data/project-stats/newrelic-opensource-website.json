@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 11
+    "open": 12
   },
   "releases": 30,
   "latestRelease": {
     "name": "v1.0.19",
     "date": "2020-06-25T13:54:11Z"
   },
-  "commits": 917,
-  "lastSixMonthsCommitTotal": 917,
+  "commits": 918,
+  "lastSixMonthsCommitTotal": 918,
   "contributors": 27,
   "pullRequests": {
     "open": 2
@@ -48,6 +48,23 @@
         "name": "Joel Worrall"
       },
       "number": 415,
+      "createdBy": "Joel Worrall"
+    },
+    {
+      "id": "MDU6SXNzdWU2NDY5Njc2NTU=",
+      "title": "Responsive styles for markdown images",
+      "url": "https://github.com/newrelic/opensource-website/issues/505",
+      "createdAt": "2020-06-28T17:14:53Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "",
+        "name": "Joel Worrall"
+      },
+      "number": 505,
       "createdBy": "Joel Worrall"
     }
   ],
@@ -211,7 +228,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 80
+      "contributions": 81
     },
     {
       "id": 6722433,
