@@ -83,14 +83,13 @@
 .right-side-button {
   width: 14px;
   height: 14px;
-  text-indent: 300%;
-  white-space: nowrap;
-  overflow: hidden;
+  border: none;
   padding: 0 8px 0;
   opacity: .45;
   background-repeat: no-repeat;
   background-position: center;
   transition: opacity .1s var(--ease-out-quad);
+  transform: translateY(-2px);
 
   &:hover {
     cursor: pointer;
@@ -100,6 +99,10 @@
   &:last-child {
     padding-right: 0;
     background-position: right;
+  }
+
+  a {
+    border: none;
   }
 }
 
@@ -114,14 +117,11 @@
   width: 15px;
   height: 15px;
   text-indent: 0;
+  opacity: .45;
 }
 
 .github-button-link {
   display: block;
-  background-image: url('../images/icon-github.svg');
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .login-button {
@@ -129,7 +129,6 @@
 }
 
 .dark-mode-toggle {
-  margin-right: 4px;
   position: relative;
   top: 3px;
   opacity: .45;
@@ -154,6 +153,15 @@
   .global-header-container {
     display: none;
   }    
+
+  .edit-icon {
+    stroke: #CEDEDE;
+  }
+
+  .dark-mode-toggle {
+    stroke: #CEDEDE;
+    fill: transparent;
+  }
 }
 
 // ==============================================================
@@ -172,7 +180,7 @@
   }
 
   .right-side-button {
-    opacity: .75;
+    opacity: .5;
   
     &:hover {
       opacity: 1;
@@ -187,10 +195,6 @@
   .search-button {
     background-image: url('../images/icon-search-small-light.svg');
   }
-  
-  .github-button-link {
-    background-image: url('../images/icon-github-light.svg');
-  }
 
   .login-button {
     background-image: url('../images/icon-user-light.svg');
@@ -203,5 +207,13 @@
       background-color: var(--color-neutrals-300);
       color: var(--color-neutrals-700);
     }
+  }
+
+  .github-icon {
+    stroke: #CEDEDE;
+  }
+  
+  .edit-icon {
+    stroke: #CEDEDE;
   }
 }

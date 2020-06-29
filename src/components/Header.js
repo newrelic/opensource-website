@@ -10,7 +10,7 @@ import GlobalHeader from './GlobalHeader';
 
 import styles from './Header.module.scss';
 
-const Header = ({ hasHeaderBg }) => {
+const Header = ({ hasHeaderBg, editLink }) => {
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
 
   const renderNavLinks = () => {
@@ -41,6 +41,7 @@ const Header = ({ hasHeaderBg }) => {
       <GlobalHeader
         hasHeaderBg={hasHeaderBg}
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
+        editLink={editLink}
       />
       <header
         className={`${styles.primaryHeaderContainer} ${
@@ -76,7 +77,8 @@ const Header = ({ hasHeaderBg }) => {
 };
 
 Header.propTypes = {
-  hasHeaderBg: PropTypes.bool
+  hasHeaderBg: PropTypes.bool,
+  editLink: PropTypes.string
 };
 
 export default Header;
