@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/newrelic/opensource-website/compare/v1.0.20...v1.1.0) (2020-06-30)
+
+
+### Features
+
+* revised global header ([41ac595](https://github.com/newrelic/opensource-website/commit/41ac59594d91f40cf3687bb517d30bdeb5616889))
+
 ## [1.0.20](https://github.com/newrelic/opensource-website/compare/v1.0.19...v1.0.20) (2020-06-30)
 
 
