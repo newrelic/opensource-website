@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/newrelic/opensource-website/compare/v1.1.0...v1.1.1) (2020-06-30)
+
+
+### Bug Fixes
+
+* align github icon with dev website ([4474c9e](https://github.com/newrelic/opensource-website/commit/4474c9ee96ad55b634718783445415aab8d8535e))
+
 # [1.1.0](https://github.com/newrelic/opensource-website/compare/v1.0.20...v1.1.0) (2020-06-30)
 
 

@@ -105,11 +105,11 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         </li>
         <li
           className="rightSideButton githubButton"
-          title="View the GitHub repo for this website"
+          title="Create a new Issue for this website"
         >
           <a
             className="githubButtonLink"
-            href="https://github.com/newrelic/opensource-website"
+            href="https://github.com/newrelic/opensource-website/issues/new/choose"
             target="__blank"
           >
             <svg
@@ -351,7 +351,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.0.20
+          1.1.1
         </small>
       </div>
     </section>

@@ -76,10 +76,10 @@ const GlobalHeader = ({ hasHeaderBg, className, editLink }) => {
           </li>
           <li
             className={`${styles.rightSideButton} ${styles.githubButton}`}
-            title="View the GitHub repo for this website"
+            title="Create a new Issue for this website"
           >
             <a
-              href="https://github.com/newrelic/opensource-website"
+              href="https://github.com/newrelic/opensource-website/issues/new/choose"
               className={styles.githubButtonLink}
               target="__blank"
             >

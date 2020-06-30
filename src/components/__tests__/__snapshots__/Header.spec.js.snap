@@ -103,11 +103,11 @@ Array [
         </li>
         <li
           className="rightSideButton githubButton"
-          title="View the GitHub repo for this website"
+          title="Create a new Issue for this website"
         >
           <a
             className="githubButtonLink"
-            href="https://github.com/newrelic/opensource-website"
+            href="https://github.com/newrelic/opensource-website/issues/new/choose"
             target="__blank"
           >
             <svg
