@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nr1-workload-geoops",
   "issues": {
-    "open": 16
+    "open": 15
   },
-  "releases": 13,
+  "releases": 14,
   "latestRelease": {
-    "name": "v1.1.5",
-    "date": "2020-06-26T13:31:29Z"
+    "name": "v1.1.6",
+    "date": "2020-06-30T13:03:39Z"
   },
-  "commits": 382,
-  "lastSixMonthsCommitTotal": 345,
-  "contributors": 9,
+  "commits": 386,
+  "lastSixMonthsCommitTotal": 349,
+  "contributors": 10,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -35,6 +35,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 5214156,
+      "login": "norbertsuski",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/5214156?v=4",
+      "htmlUrl": "https://github.com/norbertsuski",
+      "contributions": 1
+    },
     {
       "id": 58010132,
       "login": "mmfred",
@@ -68,14 +75,14 @@
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 4
+      "contributions": 5
     },
     {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 8
+      "contributions": 9
     },
     {
       "id": 929261,
