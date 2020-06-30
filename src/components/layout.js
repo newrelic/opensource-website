@@ -27,7 +27,7 @@ const Layout = ({
       <Helmet>
         <link rel="icon" href={favicon} />
       </Helmet>
-      <Header hasHeaderBg={hasHeaderBg} />
+      <Header hasHeaderBg={hasHeaderBg} editLink={editLink} />
       <main
         className={`layout-container-main ${
           fullWidth ? `full-width` : ''
