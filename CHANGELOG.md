@@ -1,3 +1,24 @@
+## [1.1.1](https://github.com/newrelic/opensource-website/compare/v1.1.0...v1.1.1) (2020-06-30)
+
+
+### Bug Fixes
+
+* align github icon with dev website ([4474c9e](https://github.com/newrelic/opensource-website/commit/4474c9ee96ad55b634718783445415aab8d8535e))
+
+# [1.1.0](https://github.com/newrelic/opensource-website/compare/v1.0.20...v1.1.0) (2020-06-30)
+
+
+### Features
+
+* revised global header ([41ac595](https://github.com/newrelic/opensource-website/commit/41ac59594d91f40cf3687bb517d30bdeb5616889))
+
+## [1.0.20](https://github.com/newrelic/opensource-website/compare/v1.0.19...v1.0.20) (2020-06-30)
+
+
+### Bug Fixes
+
+* **icon consistency:** update global header icons ([#7](https://github.com/newrelic/opensource-website/issues/7)) ([7447741](https://github.com/newrelic/opensource-website/commit/7447741e53c1ada6598e33c92b4bb46abd7decef))
+
 ## [1.0.19](https://github.com/newrelic/opensource-website/compare/v1.0.18...v1.0.19) (2020-06-25)
 
 

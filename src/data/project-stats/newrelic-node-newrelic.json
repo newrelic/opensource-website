@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/node-newrelic",
   "issues": {
-    "open": 10
+    "open": 17
   },
   "releases": 263,
   "latestRelease": {
     "name": "v6.10.0",
     "date": null
   },
-  "commits": 6131,
-  "lastSixMonthsCommitTotal": 735,
+  "commits": 6162,
+  "lastSixMonthsCommitTotal": 766,
   "contributors": 66,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -365,7 +365,7 @@
       "login": "snyk-bot",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 7
+      "contributions": 8
     },
     {
       "id": 28942544,
@@ -421,7 +421,7 @@
       "login": "nijotz",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
       "htmlUrl": "https://github.com/nijotz",
-      "contributions": 129
+      "contributions": 130
     },
     {
       "id": 418097,
@@ -442,21 +442,21 @@
       "login": "carlonewrelic",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/54335840?v=4",
       "htmlUrl": "https://github.com/carlonewrelic",
-      "contributions": 150
+      "contributions": 153
     },
     {
       "id": 32520944,
       "login": "astormnewrelic",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/32520944?v=4",
       "htmlUrl": "https://github.com/astormnewrelic",
-      "contributions": 239
+      "contributions": 250
     },
     {
       "id": 11223178,
       "login": "michaelgoin",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 510
+      "contributions": 515
     },
     {
       "id": 1342804,
@@ -499,11 +499,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }

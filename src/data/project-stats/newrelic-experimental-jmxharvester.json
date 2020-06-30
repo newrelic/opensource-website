@@ -1,32 +1,25 @@
 {
-  "projectFullName": "newrelic/eslint-plugin-newrelic",
+  "projectFullName": "newrelic-experimental/jmxHarvester",
   "issues": {
-    "open": 1
+    "open": 0
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 7,
+  "commits": 1,
   "lastSixMonthsCommitTotal": 1,
-  "contributors": 2,
+  "contributors": 1,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
+      "id": 4061375,
+      "login": "ricegi",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/4061375?v=4",
+      "htmlUrl": "https://github.com/ricegi",
       "contributions": 1
-    },
-    {
-      "id": 197140,
-      "login": "devfreddy",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
-      "htmlUrl": "https://github.com/devfreddy",
-      "contributions": 6
     }
   ],
   "languages": [
@@ -36,7 +29,10 @@
       "color": "#f1e05a"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic-experimental/jmxHarvester/master/screenshots/.gitkeep",
+    "https://raw.githubusercontent.com/newrelic-experimental/jmxHarvester/master/catalog/screenshots/.gitkeep"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

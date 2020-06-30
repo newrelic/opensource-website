@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 8,
+  "lastSixMonthsCommitTotal": 8,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,6 +20,13 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
+    },
+    {
+      "id": 66958286,
+      "login": "nrkk-azuma",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/66958286?v=4",
+      "htmlUrl": "https://github.com/nrkk-azuma",
+      "contributions": 5
     }
   ],
   "languages": [
@@ -27,10 +34,17 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzMDg=",
+      "name": "CSS",
+      "color": "#563d7c"
     }
   ],
   "screenshots": [
     "https://raw.githubusercontent.com/newrelic-experimental/nr1-js-error-tracking/master/screenshots/.gitkeep",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-js-error-tracking/master/screenshots/img1.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-js-error-tracking/master/screenshots/img2.png",
     "https://raw.githubusercontent.com/newrelic-experimental/nr1-js-error-tracking/master/catalog/screenshots/.gitkeep"
   ],
   "license": {

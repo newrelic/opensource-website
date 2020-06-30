@@ -1,38 +1,21 @@
 {
   "projectFullName": "newrelic/nr1-workload-geoops",
   "issues": {
-    "open": 16
+    "open": 15
   },
-  "releases": 12,
+  "releases": 14,
   "latestRelease": {
-    "name": "v1.1.4",
-    "date": "2020-06-10T14:02:25Z"
+    "name": "v1.1.6",
+    "date": "2020-06-30T13:03:39Z"
   },
-  "commits": 375,
-  "lastSixMonthsCommitTotal": 338,
-  "contributors": 8,
+  "commits": 386,
+  "lastSixMonthsCommitTotal": 349,
+  "contributors": 10,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU1ODM3OTk1MDY=",
-      "title": "refactor(MapItem): render single map tile instead of whole map",
-      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/40",
-      "createdAt": "2020-03-18T15:11:56Z",
-      "comments": {
-        "totalCount": 2
-      },
-      "author": {
-        "login": "devfreddy",
-        "id": "MDQ6VXNlcjE5NzE0MA==",
-        "email": "",
-        "name": "Michael Frederick"
-      },
-      "number": 40,
-      "createdBy": "Michael Frederick"
-    },
     {
       "id": "MDU6SXNzdWU1ODM4MTAzNDE=",
       "title": "feat(recent incidents): expand the incident user clicks on",
@@ -53,6 +36,13 @@
   ],
   "cachedContributors": [
     {
+      "id": 5214156,
+      "login": "norbertsuski",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/5214156?v=4",
+      "htmlUrl": "https://github.com/norbertsuski",
+      "contributions": 1
+    },
+    {
       "id": 58010132,
       "login": "mmfred",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/58010132?v=4",
@@ -67,11 +57,11 @@
       "contributions": 1
     },
     {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 3
+      "id": 24775098,
+      "login": "madecki",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/24775098?v=4",
+      "htmlUrl": "https://github.com/madecki",
+      "contributions": 2
     },
     {
       "id": 6722433,
@@ -81,11 +71,18 @@
       "contributions": 3
     },
     {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 5
+    },
+    {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 6
+      "contributions": 9
     },
     {
       "id": 929261,
