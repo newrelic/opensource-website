@@ -27,6 +27,8 @@ const GlobalHeader = ({ hasHeaderBg, className, editLink }) => {
               <a
                 href="https://developer.newrelic.com/"
                 className={styles.leftSideLink}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Developers
               </a>
@@ -40,8 +42,20 @@ const GlobalHeader = ({ hasHeaderBg, className, editLink }) => {
               <a
                 href="https://docs.newrelic.com/"
                 className={styles.leftSideLink}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Documentation
+              </a>
+            </li>
+            <li className={styles.leftSideLinkItem}>
+              <a
+                href="https://discuss.newrelic.com/"
+                className={styles.leftSideLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Community
               </a>
             </li>
           </ul>
