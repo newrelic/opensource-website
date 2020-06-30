@@ -1,3 +1,10 @@
+## [1.0.20](https://github.com/newrelic/opensource-website/compare/v1.0.19...v1.0.20) (2020-06-30)
+
+
+### Bug Fixes
+
+* **icon consistency:** update global header icons ([#7](https://github.com/newrelic/opensource-website/issues/7)) ([7447741](https://github.com/newrelic/opensource-website/commit/7447741e53c1ada6598e33c92b4bb46abd7decef))
+
 ## [1.0.19](https://github.com/newrelic/opensource-website/compare/v1.0.18...v1.0.19) (2020-06-25)
 
 
