@@ -14,7 +14,8 @@ class CookieApprovalDialog extends React.Component {
   }
 
   writeCookies(answer) {
-    const currentEnvironment = process.env.ENV || process.env.NODE_ENV || "development";
+    const currentEnvironment =
+      process.env.ENV || process.env.NODE_ENV || 'development';
     const options = { expires: 365 };
     if (currentEnvironment !== 'development') {
       options.domain = 'newrelic.com';
@@ -33,11 +34,11 @@ class CookieApprovalDialog extends React.Component {
           <div className={styles.content}>
             {/* <X className={styles.buttonClose} size={18} /> */}
             <div className={styles.primaryContent}>
-              <h4 className={styles.heading}>
-                This site uses cookies 🍪
-              </h4>
+              <h4 className={styles.heading}>This site uses cookies 🍪</h4>
               <p className={styles.description}>
-                We rely on tracking instrumentation to deliver an optimal experience across our sites. If you consent to our cookies, please click “Yes".
+                We rely on tracking instrumentation to deliver an optimal
+                experience across our sites. If you consent to our cookies,
+                please click “Yes".
               </p>
             </div>
             <div className={styles.ctaContainer}>
