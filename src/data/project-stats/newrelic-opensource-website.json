@@ -3,16 +3,16 @@
   "issues": {
     "open": 13
   },
-  "releases": 32,
+  "releases": 33,
   "latestRelease": {
-    "name": "v1.1.0",
-    "date": "2020-06-30T04:04:37Z"
+    "name": "v1.1.1",
+    "date": "2020-06-30T14:43:36Z"
   },
-  "commits": 933,
-  "lastSixMonthsCommitTotal": 933,
-  "contributors": 27,
+  "commits": 941,
+  "lastSixMonthsCommitTotal": 941,
+  "contributors": 29,
   "pullRequests": {
-    "open": 4
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -56,7 +56,7 @@
       "url": "https://github.com/newrelic/opensource-website/issues/505",
       "createdAt": "2020-06-28T17:14:53Z",
       "comments": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "author": {
         "login": "tangollama",
@@ -84,6 +84,13 @@
       "contributions": 1
     },
     {
+      "id": 64921278,
+      "login": "lchockalingam",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/64921278?v=4",
+      "htmlUrl": "https://github.com/lchockalingam",
+      "contributions": 1
+    },
+    {
       "id": 55132258,
       "login": "jsbnr",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/55132258?v=4",
@@ -95,6 +102,13 @@
       "login": "jonathanpdx",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/283858?v=4",
       "htmlUrl": "https://github.com/jonathanpdx",
+      "contributions": 1
+    },
+    {
+      "id": 565661,
+      "login": "jerelmiller",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/565661?v=4",
+      "htmlUrl": "https://github.com/jerelmiller",
       "contributions": 1
     },
     {
@@ -235,7 +249,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 93
+      "contributions": 95
     },
     {
       "id": 197140,
@@ -256,7 +270,7 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 257
+      "contributions": 259
     }
   ],
   "languages": [
