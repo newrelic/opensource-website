@@ -3,6 +3,7 @@ import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
+import styles from './collection.module.scss';
 
 export const query = graphql`
   query ContributingQuery($path: String) {
@@ -31,6 +32,18 @@ export default ({ children, data }) => (
     </Layout>
 );
 
+<div className={styles.featuredVideoContainer}>
+        <div className="responsive-video">
+          <iframe
+            width="578"
+            height="328.125"
+            src="https://www.youtube.com/embed/3zalIudBF6A"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      </div>
 
 For those newer to open source contribution at New Relic, the following points encapsulate the major steps and issues. For command line description of this workflow, [**consult this documentation**](https://gist.github.com/tangollama/5d9d63fef0ed4498fb5fbb057bb5983d).
 
