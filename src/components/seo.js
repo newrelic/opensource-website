@@ -66,6 +66,12 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription
+        },
+        {
+          class: 'swiftype',
+          name: 'type',
+          'data-type': 'enum',
+          content: 'opensource'
         }
       ].concat(meta)}
     />

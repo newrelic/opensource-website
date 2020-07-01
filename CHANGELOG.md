@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/newrelic/opensource-website/compare/v1.1.2...v1.2.0) (2020-07-01)
+
+
+### Features
+
+* **project-tags:** add Terraform tag ([72b8506](https://github.com/newrelic/opensource-website/commit/72b8506fd2b17b16418d29c5122af707670e8df4))
+
+## [1.1.2](https://github.com/newrelic/opensource-website/compare/v1.1.1...v1.1.2) (2020-06-30)
+
+
+### Bug Fixes
+
+* **open-telemetry:** youtube link corrections ([7218d9d](https://github.com/newrelic/opensource-website/commit/7218d9ddf7dd1c7d9bf8d030c6c5f5e218bba6bf))
+
 ## [1.1.1](https://github.com/newrelic/opensource-website/compare/v1.1.0...v1.1.1) (2020-06-30)
 
 
