@@ -319,7 +319,7 @@ const ProjectPage = props => {
               <p>
                 Code contributions are welcome. Please review our{' '}
                 <a
-                  href={`${project.githubUrl}/blob/master/CONTRIBUTING.md`}
+                  href={`${project.githubUrl}/blob/${project.defaultBranch||'master'}/CONTRIBUTING.md`}
                   target="__blank"
                   rel="noopener noreferrer"
                 >

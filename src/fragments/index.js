@@ -52,6 +52,7 @@ export const projectFields = graphql`
       screenshots
     }
     githubUrl
+    defaultBranch
     iconUrl
     description
     ossCategory {
