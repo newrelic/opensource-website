@@ -61,7 +61,7 @@ const ProjectPage = props => {
   };
 
   const project = get(data, 'project.nodes[0]', false);
-  console.debug(project);
+  // console.debug(project);
   const contentEditLink = get(data, 'sitePage.nodes[0].fields.contentEditLink');
 
   if (!project) {
@@ -320,7 +320,11 @@ const ProjectPage = props => {
               <p>
                 Code contributions are welcome. Please review our{' '}
                 <a
-                  href={project.contributingGuideUrl || `${project.githubUrl}/blob/${project.defaultBranch||'master'}/CONTRIBUTING.md`}
+                  href={
+                    project.contributingGuideUrl ||
+                    `${project.githubUrl}/blob/${project.defaultBranch ||
+                      'master'}/CONTRIBUTING.md`
+                  }
                   target="__blank"
                   rel="noopener noreferrer"
                 >
