@@ -1,0 +1,28 @@
+{
+  "name": "terraform-provider-newrelic",
+  "fullName": "newrelic/terraform-provider-newrelic",
+  "slug": "newrelic-terraform-provider-newrelic",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Terraform Provider",
+  "supportUrl": "https://discuss.newrelic.com/tags/c/build-on-new-relic/developer-toolkit/terraform",
+  "githubUrl": "https://github.com/newrelic/terraform-provider-newrelic",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/terraform-provider-newrelic",
+  "iconUrl": "https://raw.githubusercontent.com/newrelic/developer-toolkit/master/icon.png",
+  "shortDescription": "Automate provisioning of New Relic resources",
+  "description": "Observability as Code: Provision and manage your New Relic resources via Terraform's powerful configuration language.",
+  "ossCategory": "community-project",
+  "projectTags": [
+    "tools",
+    "dev-toolkit",
+    "terraform"
+  ],
+  "primaryLanguage": "Go",
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Terraform Provider",
+    "url": "https://github.com/newrelic/terraform-provider-newrelic"
+  }
+}

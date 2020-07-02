@@ -3,6 +3,7 @@ import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
+import styles from './collection.module.scss';
 
 export const query = graphql`
   query ContributingQuery($path: String) {
@@ -31,6 +32,18 @@ export default ({ children, data }) => (
     </Layout>
 );
 
+<div className={styles.featuredVideoContainer}>
+        <div className="responsive-video">
+          <iframe
+            width="1000"
+            height="562.704471"
+            src="https://fast.wistia.net/embed/iframe/ypgdkgysmo?videoFoam=true"
+            frameBorder="0"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
+            placeholder=""
+          />
+        </div>
+      </div>
 
 For those newer to open source contribution at New Relic, the following points encapsulate the major steps and issues. For command line description of this workflow, [**consult this documentation**](https://gist.github.com/tangollama/5d9d63fef0ed4498fb5fbb057bb5983d).
 
