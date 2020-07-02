@@ -1,21 +1,38 @@
 {
   "projectFullName": "newrelic/nr1-workload-geoops",
   "issues": {
-    "open": 14
+    "open": 13
   },
-  "releases": 16,
+  "releases": 17,
   "latestRelease": {
-    "name": "v1.2.0",
-    "date": "2020-07-02T11:26:28Z"
+    "name": "v1.2.1",
+    "date": "2020-07-02T13:32:38Z"
   },
-  "commits": 408,
-  "lastSixMonthsCommitTotal": 371,
+  "commits": 412,
+  "lastSixMonthsCommitTotal": 375,
   "contributors": 11,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU1NDUyMzYzMjQ=",
+      "title": "Branded markers on the map",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/19",
+      "createdAt": "2020-01-04T03:45:03Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "",
+        "name": "Joel Worrall"
+      },
+      "number": 19,
+      "createdBy": "Joel Worrall"
+    },
     {
       "id": "MDU6SXNzdWU1NjExNjk0MTk=",
       "title": "Mutating Tags with Mapping Data",
@@ -49,23 +66,6 @@
       },
       "number": 39,
       "createdBy": "Daniel Golden"
-    },
-    {
-      "id": "MDU6SXNzdWU1ODM4MTAzNDE=",
-      "title": "feat(recent incidents): expand the incident user clicks on",
-      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/41",
-      "createdAt": "2020-03-18T15:27:19Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "devfreddy",
-        "id": "MDQ6VXNlcjE5NzE0MA==",
-        "email": "",
-        "name": "Michael Frederick"
-      },
-      "number": 41,
-      "createdBy": "Michael Frederick"
     }
   ],
   "cachedContributors": [
@@ -109,21 +109,21 @@
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 7
+      "contributions": 8
     },
     {
       "id": 24775098,
       "login": "madecki",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/24775098?v=4",
       "htmlUrl": "https://github.com/madecki",
-      "contributions": 8
+      "contributions": 9
     },
     {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 13
+      "contributions": 14
     },
     {
       "id": 929261,
