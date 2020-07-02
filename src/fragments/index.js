@@ -53,6 +53,7 @@ export const projectFields = graphql`
     }
     githubUrl
     defaultBranch
+    contributingGuideUrl
     iconUrl
     description
     ossCategory {
