@@ -3,19 +3,53 @@
   "issues": {
     "open": 14
   },
-  "releases": 15,
+  "releases": 16,
   "latestRelease": {
-    "name": "v1.1.7",
-    "date": "2020-07-01T13:43:06Z"
+    "name": "v1.2.0",
+    "date": "2020-07-02T11:26:28Z"
   },
-  "commits": 401,
-  "lastSixMonthsCommitTotal": 364,
+  "commits": 408,
+  "lastSixMonthsCommitTotal": 371,
   "contributors": 11,
   "pullRequests": {
     "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU1NjExNjk0MTk=",
+      "title": "Mutating Tags with Mapping Data",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/30",
+      "createdAt": "2020-02-06T17:46:02Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "jbeveland27",
+        "id": "MDQ6VXNlcjY3MjI0MzM=",
+        "email": "",
+        "name": "Justin Eveland"
+      },
+      "number": 30,
+      "createdBy": "Justin Eveland"
+    },
+    {
+      "id": "MDU6SXNzdWU1ODI1NjQzNjc=",
+      "title": "Create documentation on data formats",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/39",
+      "createdAt": "2020-03-16T19:56:26Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "danielgolden",
+        "id": "MDQ6VXNlcjgxMjk4OQ==",
+        "email": "",
+        "name": "Daniel Golden"
+      },
+      "number": 39,
+      "createdBy": "Daniel Golden"
+    },
     {
       "id": "MDU6SXNzdWU1ODM4MTAzNDE=",
       "title": "feat(recent incidents): expand the incident user clicks on",
@@ -75,28 +109,28 @@
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 6
+      "contributions": 7
     },
     {
       "id": 24775098,
       "login": "madecki",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/24775098?v=4",
       "htmlUrl": "https://github.com/madecki",
-      "contributions": 6
+      "contributions": 8
     },
     {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 11
+      "contributions": 13
     },
     {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 60
+      "contributions": 61
     },
     {
       "id": 197140,
