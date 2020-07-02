@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/newrelic/opensource-website/compare/v1.2.0...v1.2.1) (2020-07-02)
+
+
+### Bug Fixes
+
+* config updates to projects ([0645216](https://github.com/newrelic/opensource-website/commit/0645216e824af19cd2dcc323ce0956edb73de3c1))
+* make use of defaultBranch and contributingGuideUrl ([612be84](https://github.com/newrelic/opensource-website/commit/612be84ef94ab61c1db8a81b5cc2b73309a2b042))
+* **project pages:** support specifying default branch ([893dfb1](https://github.com/newrelic/opensource-website/commit/893dfb1efc152dc0d0c60b6b9a729cd931c97e9d))
+
 # [1.2.0](https://github.com/newrelic/opensource-website/compare/v1.1.2...v1.2.0) (2020-07-01)
 
 
