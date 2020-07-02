@@ -3,14 +3,14 @@
   "issues": {
     "open": 15
   },
-  "releases": 94,
+  "releases": 95,
   "latestRelease": {
-    "name": "v3.7.0",
-    "date": "2020-06-18T16:32:46Z"
+    "name": "v3.8.0",
+    "date": "2020-07-01T17:31:28Z"
   },
-  "commits": 1942,
-  "lastSixMonthsCommitTotal": 405,
-  "contributors": 24,
+  "commits": 1966,
+  "lastSixMonthsCommitTotal": 429,
+  "contributors": 25,
   "pullRequests": {
     "open": 0
   },
@@ -123,6 +123,13 @@
       "contributions": 1
     },
     {
+      "id": 52978576,
+      "login": "Miriam-R",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/52978576?v=4",
+      "htmlUrl": "https://github.com/Miriam-R",
+      "contributions": 1
+    },
+    {
       "id": 6454794,
       "login": "AncientToaster",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/6454794?v=4",
@@ -176,14 +183,14 @@
       "login": "newrelic-eheinlein",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/52758187?v=4",
       "htmlUrl": "https://github.com/newrelic-eheinlein",
-      "contributions": 127
+      "contributions": 136
     },
     {
       "id": 1383216,
       "login": "purple4reina",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/1383216?v=4",
       "htmlUrl": "https://github.com/purple4reina",
-      "contributions": 466
+      "contributions": 469
     }
   ],
   "languages": [
@@ -191,6 +198,11 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     },
     {
       "id": "MDg6TGFuZ3VhZ2U0MTc=",
@@ -201,20 +213,8 @@
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
       "name": "Dockerfile",
       "color": "#384d54"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
     }
   ],
   "screenshots": [],
-  "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
-  }
+  "license": null
 }
