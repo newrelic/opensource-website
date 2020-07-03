@@ -3,10 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 13,
-  "lastSixMonthsCommitTotal": 13,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.7",
+    "date": null
+  },
+  "commits": 19,
+  "lastSixMonthsCommitTotal": 19,
   "contributors": 3,
   "pullRequests": {
     "open": 0
@@ -22,18 +25,18 @@
       "contributions": 1
     },
     {
-      "id": 4672940,
-      "login": "shahramk",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/4672940?v=4",
-      "htmlUrl": "https://github.com/shahramk",
-      "contributions": 6
-    },
-    {
       "id": 7143309,
       "login": "ddarwin",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/7143309?v=4",
       "htmlUrl": "https://github.com/ddarwin",
       "contributions": 6
+    },
+    {
+      "id": 4672940,
+      "login": "shahramk",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/4672940?v=4",
+      "htmlUrl": "https://github.com/shahramk",
+      "contributions": 12
     }
   ],
   "languages": [
