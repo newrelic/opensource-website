@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/newrelic/opensource-website/compare/v1.2.3...v1.3.0) (2020-07-03)
+
+
+### Features
+
+* add responsive styling to images [#505](https://github.com/newrelic/opensource-website/issues/505) ([dc21fb2](https://github.com/newrelic/opensource-website/commit/dc21fb2942940ef14e40abe84bc77cd49c38d285))
+* update image styling ([ccd2ff0](https://github.com/newrelic/opensource-website/commit/ccd2ff04d18935d22a7f56e2f0ec443c1b268a6d))
+
 ## [1.2.3](https://github.com/newrelic/opensource-website/compare/v1.2.2...v1.2.3) (2020-07-03)
 
 
