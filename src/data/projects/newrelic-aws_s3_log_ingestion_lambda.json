@@ -1,0 +1,28 @@
+{
+  "name": "aws_s3_log_ingestion_lambda",
+  "fullName": "newrelic/aws_s3_log_ingestion_lambda",
+  "slug": "newrelic-aws_s3_log_ingestion_lambda",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "AWS s3 log ingestion",
+  "supportUrl": "https://discuss.newrelic.com/t/aws-s3-log-ingestion-lambda/",
+  "githubUrl": "https://github.com/newrelic/aws_s3_log_ingestion_lambda",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/aws_s3_log_ingestion_lambda",
+  "defaultBranch": "main",
+  "contributingGuideUrl": null,
+  "iconUrl": null,
+  "shortDescription": "AWS s3 log ingestion",
+  "description": "s3-log-ingestion-lambda is an AWS Serverless application that sends log data from an S3 bucket of your choice to New Relic.",
+  "ossCategory": "Community",
+  "primaryLanguage": "Python",
+  "projectTags": [
+    "logging"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "AWS S3 log-ingestion",
+    "url": "https://github.com/newrelic/aws_s3_log_ingestion_lambda"
+  }
+}
