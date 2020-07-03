@@ -9,7 +9,7 @@
     "date": "2020-07-01T17:31:28Z"
   },
   "commits": 1966,
-  "lastSixMonthsCommitTotal": 429,
+  "lastSixMonthsCommitTotal": 410,
   "contributors": 25,
   "pullRequests": {
     "open": 0
@@ -216,5 +216,12 @@
     }
   ],
   "screenshots": [],
-  "license": null
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }
