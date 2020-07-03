@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 16
+    "open": 14
   },
-  "releases": 37,
+  "releases": 39,
   "latestRelease": {
-    "name": "v1.2.2",
-    "date": "2020-07-02T21:38:25Z"
+    "name": "v1.3.0",
+    "date": "2020-07-03T03:19:42Z"
   },
-  "commits": 991,
-  "lastSixMonthsCommitTotal": 991,
+  "commits": 1003,
+  "lastSixMonthsCommitTotal": 1003,
   "contributors": 32,
   "pullRequests": {
-    "open": 5
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -48,23 +48,6 @@
         "name": "Joel Worrall"
       },
       "number": 415,
-      "createdBy": "Joel Worrall"
-    },
-    {
-      "id": "MDU6SXNzdWU2NDY5Njc2NTU=",
-      "title": "Responsive styles for markdown images",
-      "url": "https://github.com/newrelic/opensource-website/issues/505",
-      "createdAt": "2020-06-28T17:14:53Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "tangollama",
-        "id": "MDQ6VXNlcjkyOTI2MQ==",
-        "email": "",
-        "name": "Joel Worrall"
-      },
-      "number": 505,
       "createdBy": "Joel Worrall"
     }
   ],
@@ -242,7 +225,7 @@
       "login": "michaelgoin",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 6
+      "contributions": 7
     },
     {
       "id": 8813505,
@@ -270,7 +253,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 113
+      "contributions": 116
     },
     {
       "id": 197140,
@@ -291,7 +274,7 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 271
+      "contributions": 273
     }
   ],
   "languages": [
