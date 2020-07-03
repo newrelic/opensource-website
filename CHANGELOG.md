@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/newrelic/opensource-website/compare/v1.2.2...v1.2.3) (2020-07-03)
+
+
+### Bug Fixes
+
+* standardize bug template 'behavior' spelling to US English. ([fa6c822](https://github.com/newrelic/opensource-website/commit/fa6c8222fc32af86e649df84da987fb8fab16ba2))
+
 ## [1.2.2](https://github.com/newrelic/opensource-website/compare/v1.2.1...v1.2.2) (2020-07-02)
 
 
