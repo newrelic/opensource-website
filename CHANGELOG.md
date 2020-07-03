@@ -1,3 +1,34 @@
+# [1.3.0](https://github.com/newrelic/opensource-website/compare/v1.2.3...v1.3.0) (2020-07-03)
+
+
+### Features
+
+* add responsive styling to images [#505](https://github.com/newrelic/opensource-website/issues/505) ([dc21fb2](https://github.com/newrelic/opensource-website/commit/dc21fb2942940ef14e40abe84bc77cd49c38d285))
+* update image styling ([ccd2ff0](https://github.com/newrelic/opensource-website/commit/ccd2ff04d18935d22a7f56e2f0ec443c1b268a6d))
+
+## [1.2.3](https://github.com/newrelic/opensource-website/compare/v1.2.2...v1.2.3) (2020-07-03)
+
+
+### Bug Fixes
+
+* standardize bug template 'behavior' spelling to US English. ([fa6c822](https://github.com/newrelic/opensource-website/commit/fa6c8222fc32af86e649df84da987fb8fab16ba2))
+
+## [1.2.2](https://github.com/newrelic/opensource-website/compare/v1.2.1...v1.2.2) (2020-07-02)
+
+
+### Bug Fixes
+
+* adds default branch for proper linking. ([8b20498](https://github.com/newrelic/opensource-website/commit/8b20498df51910f6e0d2015f2b90b602b1f00929))
+
+## [1.2.1](https://github.com/newrelic/opensource-website/compare/v1.2.0...v1.2.1) (2020-07-02)
+
+
+### Bug Fixes
+
+* config updates to projects ([0645216](https://github.com/newrelic/opensource-website/commit/0645216e824af19cd2dcc323ce0956edb73de3c1))
+* make use of defaultBranch and contributingGuideUrl ([612be84](https://github.com/newrelic/opensource-website/commit/612be84ef94ab61c1db8a81b5cc2b73309a2b042))
+* **project pages:** support specifying default branch ([893dfb1](https://github.com/newrelic/opensource-website/commit/893dfb1efc152dc0d0c60b6b9a729cd931c97e9d))
+
 # [1.2.0](https://github.com/newrelic/opensource-website/compare/v1.1.2...v1.2.0) (2020-07-01)
 
 
