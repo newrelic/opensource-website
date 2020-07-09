@@ -162,16 +162,23 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-gdpr-cookies`,
+      resolve: 'gatsby-plugin-gdpr-tracking',
       options: {
-        googleTagManager: {
-          trackingId: 'UA-3047412-33', // leave empty if you want to disable the tracker
-          cookieName: 'newrelic-gdpr-consent', // default
-          dataLayerName: 'dataLayer', // default
+        // logging to the console, if debug is true
+        debug: false,
+        googleAnalytics: {
+            // The property ID; the tracking code won't be generated without it.
+            trackingId: 'UA-3047412-33',
+            // Defines it google analytics should be started with out the cookie consent
+            autoStart: false, // <--- default
+            // Setting this parameter is optional
+            anonymize: true, // <--- default
+            // Name of the cookie, that enables the tracking if it is true
+            controlCookieName: 'newrelic-gdpr-consent', // <--- default
+            cookieFlags: 'secure;samesite=none' // <--- default
         },
-        // defines the environments where the tracking should be available  - default is ["production"]
         environments: ['production', 'development']
-      },
+      }
     }
   ]
 };
