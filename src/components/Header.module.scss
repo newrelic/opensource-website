@@ -216,11 +216,20 @@ div.exists-in-active-mobile-menu {
       margin-top: 59px;
     }
   }
-
   
   .has-header-bg:after {
     top: -180px;
     transform: skewY(-3deg);
+  }
+
+  .mobile-menu-active .header-dark-mode-toggle {
+    display: block;
+    transform: scale(1.25);
+
+    svg {
+      fill: transparent;
+      stroke: var(--color-brand-800);
+    }
   }
 }
 
@@ -259,6 +268,7 @@ div.exists-in-active-mobile-menu {
   }
 
   .mobile-menu-active .header-dark-mode-toggle svg {
-      fill: var(--color-neutrals-800);
+    fill: transparent;
+    stroke: var(--color-neutrals-800);
   }
 }

@@ -1,3 +1,69 @@
+# [1.3.0](https://github.com/newrelic/opensource-website/compare/v1.2.3...v1.3.0) (2020-07-03)
+
+
+### Features
+
+* add responsive styling to images [#505](https://github.com/newrelic/opensource-website/issues/505) ([dc21fb2](https://github.com/newrelic/opensource-website/commit/dc21fb2942940ef14e40abe84bc77cd49c38d285))
+* update image styling ([ccd2ff0](https://github.com/newrelic/opensource-website/commit/ccd2ff04d18935d22a7f56e2f0ec443c1b268a6d))
+
+## [1.2.3](https://github.com/newrelic/opensource-website/compare/v1.2.2...v1.2.3) (2020-07-03)
+
+
+### Bug Fixes
+
+* standardize bug template 'behavior' spelling to US English. ([fa6c822](https://github.com/newrelic/opensource-website/commit/fa6c8222fc32af86e649df84da987fb8fab16ba2))
+
+## [1.2.2](https://github.com/newrelic/opensource-website/compare/v1.2.1...v1.2.2) (2020-07-02)
+
+
+### Bug Fixes
+
+* adds default branch for proper linking. ([8b20498](https://github.com/newrelic/opensource-website/commit/8b20498df51910f6e0d2015f2b90b602b1f00929))
+
+## [1.2.1](https://github.com/newrelic/opensource-website/compare/v1.2.0...v1.2.1) (2020-07-02)
+
+
+### Bug Fixes
+
+* config updates to projects ([0645216](https://github.com/newrelic/opensource-website/commit/0645216e824af19cd2dcc323ce0956edb73de3c1))
+* make use of defaultBranch and contributingGuideUrl ([612be84](https://github.com/newrelic/opensource-website/commit/612be84ef94ab61c1db8a81b5cc2b73309a2b042))
+* **project pages:** support specifying default branch ([893dfb1](https://github.com/newrelic/opensource-website/commit/893dfb1efc152dc0d0c60b6b9a729cd931c97e9d))
+
+# [1.2.0](https://github.com/newrelic/opensource-website/compare/v1.1.2...v1.2.0) (2020-07-01)
+
+
+### Features
+
+* **project-tags:** add Terraform tag ([72b8506](https://github.com/newrelic/opensource-website/commit/72b8506fd2b17b16418d29c5122af707670e8df4))
+
+## [1.1.2](https://github.com/newrelic/opensource-website/compare/v1.1.1...v1.1.2) (2020-06-30)
+
+
+### Bug Fixes
+
+* **open-telemetry:** youtube link corrections ([7218d9d](https://github.com/newrelic/opensource-website/commit/7218d9ddf7dd1c7d9bf8d030c6c5f5e218bba6bf))
+
+## [1.1.1](https://github.com/newrelic/opensource-website/compare/v1.1.0...v1.1.1) (2020-06-30)
+
+
+### Bug Fixes
+
+* align github icon with dev website ([4474c9e](https://github.com/newrelic/opensource-website/commit/4474c9ee96ad55b634718783445415aab8d8535e))
+
+# [1.1.0](https://github.com/newrelic/opensource-website/compare/v1.0.20...v1.1.0) (2020-06-30)
+
+
+### Features
+
+* revised global header ([41ac595](https://github.com/newrelic/opensource-website/commit/41ac59594d91f40cf3687bb517d30bdeb5616889))
+
+## [1.0.20](https://github.com/newrelic/opensource-website/compare/v1.0.19...v1.0.20) (2020-06-30)
+
+
+### Bug Fixes
+
+* **icon consistency:** update global header icons ([#7](https://github.com/newrelic/opensource-website/issues/7)) ([7447741](https://github.com/newrelic/opensource-website/commit/7447741e53c1ada6598e33c92b4bb46abd7decef))
+
 ## [1.0.19](https://github.com/newrelic/opensource-website/compare/v1.0.18...v1.0.19) (2020-06-25)
 
 

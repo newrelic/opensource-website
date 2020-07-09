@@ -1,21 +1,39 @@
 {
   "projectFullName": "newrelic/micrometer-registry-newrelic",
   "issues": {
-    "open": 5
+    "open": 7
   },
   "releases": 4,
   "latestRelease": {
     "name": "v0.4.0",
     "date": "2020-01-09T23:23:42Z"
   },
-  "commits": 137,
-  "lastSixMonthsCommitTotal": 43,
+  "commits": 140,
+  "lastSixMonthsCommitTotal": 39,
   "contributors": 12,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2NDkxMjczOTQ=",
+      "title": "Upgrade to Gradle 6",
+      "url": "https://github.com/newrelic/micrometer-registry-newrelic/issues/86",
+      "createdAt": "2020-07-01T16:49:53Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "breedx-nr",
+        "id": "MDQ6VXNlcjU0MDg1MTkw",
+        "email": "",
+        "name": "Jason Plumb"
+      },
+      "number": 86,
+      "createdBy": "Jason Plumb"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 662836,
@@ -92,7 +110,7 @@
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 20
+      "contributions": 22
     },
     {
       "id": 858731,

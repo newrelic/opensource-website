@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nr1-status-pages",
   "issues": {
-    "open": 6
+    "open": 9
   },
-  "releases": 9,
+  "releases": 10,
   "latestRelease": {
-    "name": "v0.12.2",
-    "date": "2020-03-31T20:24:10Z"
+    "name": "v0.12.3",
+    "date": "2020-07-07T16:39:20Z"
   },
-  "commits": 199,
-  "lastSixMonthsCommitTotal": 29,
-  "contributors": 13,
+  "commits": 228,
+  "lastSixMonthsCommitTotal": 58,
+  "contributors": 16,
   "pullRequests": {
-    "open": 11
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -43,17 +43,17 @@
       "contributions": 1
     },
     {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 1
+    },
+    {
       "id": 8994475,
       "login": "sarnathkj",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/8994475?v=4",
       "htmlUrl": "https://github.com/sarnathkj",
-      "contributions": 1
-    },
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
       "contributions": 1
     },
     {
@@ -99,11 +99,32 @@
       "contributions": 2
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 4
+    },
+    {
+      "id": 5214156,
+      "login": "norbertsuski",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/5214156?v=4",
+      "htmlUrl": "https://github.com/norbertsuski",
+      "contributions": 5
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 8
+    },
+    {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 18
+      "contributions": 19
     },
     {
       "id": 197140,

@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/helm-charts",
   "issues": {
-    "open": 1
+    "open": 8
   },
-  "releases": 39,
+  "releases": 44,
   "latestRelease": {
-    "name": "newrelic-logging-1.1.2",
-    "date": "2020-06-25T19:32:33Z"
+    "name": "nri-prometheus-1.1.1",
+    "date": "2020-07-07T08:46:16Z"
   },
-  "commits": 75,
-  "lastSixMonthsCommitTotal": 75,
-  "contributors": 11,
+  "commits": 80,
+  "lastSixMonthsCommitTotal": 80,
+  "contributors": 12,
   "pullRequests": {
     "open": 0
   },
@@ -71,13 +71,6 @@
       "contributions": 1
     },
     {
-      "id": 6243832,
-      "login": "jsubirat",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/6243832?v=4",
-      "htmlUrl": "https://github.com/jsubirat",
-      "contributions": 1
-    },
-    {
       "id": 12255612,
       "login": "gopisaba",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/12255612?v=4",
@@ -90,6 +83,20 @@
       "avatarUrl": "https://avatars1.githubusercontent.com/u/6353483?v=4",
       "htmlUrl": "https://github.com/erabug",
       "contributions": 1
+    },
+    {
+      "id": 6243832,
+      "login": "jsubirat",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6243832?v=4",
+      "htmlUrl": "https://github.com/jsubirat",
+      "contributions": 2
+    },
+    {
+      "id": 2459231,
+      "login": "AdrienKuhn",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/2459231?v=4",
+      "htmlUrl": "https://github.com/AdrienKuhn",
+      "contributions": 4
     },
     {
       "id": 159076,
