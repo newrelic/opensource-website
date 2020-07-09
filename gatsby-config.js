@@ -165,7 +165,7 @@ module.exports = {
       resolve: `gatsby-plugin-gdpr-cookies`,
       options: {
         googleTagManager: {
-          trackingId: null, // leave empty if you want to disable the tracker
+          trackingId: 'UA-3047412-33', // leave empty if you want to disable the tracker
           cookieName: 'newrelic-gdpr-consent', // default
           dataLayerName: 'dataLayer', // default
         },
