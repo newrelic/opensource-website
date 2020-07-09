@@ -17,7 +17,8 @@ class CookieApprovalDialog extends React.Component {
     const currentEnvironment =
       process.env.ENV || process.env.NODE_ENV || 'development';
     const options = { expires: 365 };
-    if (currentEnvironment !== 'development') {
+    const { hostname } = window.location;
+    if (currentEnvironment !== 'production' && !hostname.includes('staging')) {
       options.domain = 'newrelic.com';
     }
     Cookies.set('newrelic-gdpr-consent', !!answer, options);
