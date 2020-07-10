@@ -3,11 +3,14 @@
   "issues": {
     "open": 33
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 1693,
-  "lastSixMonthsCommitTotal": 1693,
-  "contributors": 21,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.0",
+    "date": "2020-07-09T23:52:02Z"
+  },
+  "commits": 1708,
+  "lastSixMonthsCommitTotal": 1708,
+  "contributors": 22,
   "pullRequests": {
     "open": 8
   },
@@ -95,6 +98,13 @@
       "contributions": 1
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 1
+    },
+    {
       "id": 3792897,
       "login": "honeyd",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/3792897?v=4",
@@ -176,7 +186,7 @@
       "login": "jpvajda",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/1395158?v=4",
       "htmlUrl": "https://github.com/jpvajda",
-      "contributions": 63
+      "contributions": 64
     },
     {
       "id": 58010132,
@@ -211,7 +221,7 @@
       "login": "jerelmiller",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/565661?v=4",
       "htmlUrl": "https://github.com/jerelmiller",
-      "contributions": 484
+      "contributions": 494
     }
   ],
   "languages": [
