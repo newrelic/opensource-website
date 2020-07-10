@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nri-perfmon",
   "issues": {
-    "open": 3
+    "open": 0
   },
-  "releases": 9,
+  "releases": 10,
   "latestRelease": {
-    "name": "0.5.0",
-    "date": "2020-04-17T20:36:57Z"
+    "name": "0.5.1",
+    "date": "2020-07-01T01:07:36Z"
   },
-  "commits": 75,
-  "lastSixMonthsCommitTotal": 8,
-  "contributors": 3,
+  "commits": 79,
+  "lastSixMonthsCommitTotal": 12,
+  "contributors": 4,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 1215492,
+      "login": "brunotag",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/1215492?v=4",
+      "htmlUrl": "https://github.com/brunotag",
+      "contributions": 1
+    },
     {
       "id": 13701055,
       "login": "anwittin",
@@ -36,7 +43,7 @@
       "login": "sschwartzman",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/3536684?v=4",
       "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 61
+      "contributions": 62
     }
   ],
   "languages": [

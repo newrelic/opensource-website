@@ -206,7 +206,9 @@ select {
       }
     }
   }
-  
+  p img {
+    max-width: 100%;
+  }
   blockquote {
     box-sizing: border-box;
     width: calc(100% - 15px);

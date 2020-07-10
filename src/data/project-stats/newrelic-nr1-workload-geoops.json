@@ -1,57 +1,81 @@
 {
   "projectFullName": "newrelic/nr1-workload-geoops",
   "issues": {
-    "open": 16
+    "open": 11
   },
-  "releases": 12,
+  "releases": 18,
   "latestRelease": {
-    "name": "v1.1.4",
-    "date": "2020-06-10T14:02:25Z"
+    "name": "v1.3.0",
+    "date": "2020-07-06T13:13:13Z"
   },
-  "commits": 375,
-  "lastSixMonthsCommitTotal": 338,
-  "contributors": 8,
+  "commits": 441,
+  "lastSixMonthsCommitTotal": 404,
+  "contributors": 11,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
     {
-      "id": "MDU6SXNzdWU1ODM3OTk1MDY=",
-      "title": "refactor(MapItem): render single map tile instead of whole map",
-      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/40",
-      "createdAt": "2020-03-18T15:11:56Z",
+      "id": "MDU6SXNzdWU1NDUyMzYzMjQ=",
+      "title": "Branded markers on the map",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/19",
+      "createdAt": "2020-01-04T03:45:03Z",
       "comments": {
-        "totalCount": 2
+        "totalCount": 0
       },
       "author": {
-        "login": "devfreddy",
-        "id": "MDQ6VXNlcjE5NzE0MA==",
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
         "email": "",
-        "name": "Michael Frederick"
+        "name": "Joel Worrall"
       },
-      "number": 40,
-      "createdBy": "Michael Frederick"
+      "number": 19,
+      "createdBy": "Joel Worrall"
     },
     {
-      "id": "MDU6SXNzdWU1ODM4MTAzNDE=",
-      "title": "feat(recent incidents): expand the incident user clicks on",
-      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/41",
-      "createdAt": "2020-03-18T15:27:19Z",
+      "id": "MDU6SXNzdWU1NjExNjk0MTk=",
+      "title": "Mutating Tags with Mapping Data",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/30",
+      "createdAt": "2020-02-06T17:46:02Z",
       "comments": {
         "totalCount": 1
       },
       "author": {
-        "login": "devfreddy",
-        "id": "MDQ6VXNlcjE5NzE0MA==",
+        "login": "jbeveland27",
+        "id": "MDQ6VXNlcjY3MjI0MzM=",
         "email": "",
-        "name": "Michael Frederick"
+        "name": "Justin Eveland"
       },
-      "number": 41,
-      "createdBy": "Michael Frederick"
+      "number": 30,
+      "createdBy": "Justin Eveland"
+    },
+    {
+      "id": "MDU6SXNzdWU1ODI1NjQzNjc=",
+      "title": "Create documentation on data formats",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/39",
+      "createdAt": "2020-03-16T19:56:26Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "danielgolden",
+        "id": "MDQ6VXNlcjgxMjk4OQ==",
+        "email": "",
+        "name": "Daniel Golden"
+      },
+      "number": 39,
+      "createdBy": "Daniel Golden"
     }
   ],
   "cachedContributors": [
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
+    },
     {
       "id": 58010132,
       "login": "mmfred",
@@ -67,13 +91,6 @@
       "contributions": 1
     },
     {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 3
-    },
-    {
       "id": 6722433,
       "login": "jbeveland27",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
@@ -81,18 +98,39 @@
       "contributions": 3
     },
     {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 9
+    },
+    {
+      "id": 24775098,
+      "login": "madecki",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/24775098?v=4",
+      "htmlUrl": "https://github.com/madecki",
+      "contributions": 13
+    },
+    {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 6
+      "contributions": 16
+    },
+    {
+      "id": 5214156,
+      "login": "norbertsuski",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/5214156?v=4",
+      "htmlUrl": "https://github.com/norbertsuski",
+      "contributions": 16
     },
     {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 59
+      "contributions": 63
     },
     {
       "id": 197140,

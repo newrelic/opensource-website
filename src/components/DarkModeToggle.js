@@ -10,14 +10,12 @@ const DarkModeToggle = ({ darkMode, className }) => {
         <Sun
           size={15}
           color={darkMode.value ? `#CEDEDE` : `#000d0d`}
-          fill={darkMode.value ? `#CEDEDE` : `#000d0d`}
           onClick={darkMode.disable}
         />
       ) : (
         <Moon
           size={15}
-          stroke="rgba(0,0,0, 0)"
-          fill={darkMode.value ? `#CEDEDE` : `#000d0d`}
+          color={darkMode.value ? `#CEDEDE` : `#000d0d`}
           onClick={darkMode.enable}
         />
       )}

@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 11
+    "open": 15
   },
-  "releases": 30,
+  "releases": 39,
   "latestRelease": {
-    "name": "v1.0.19",
-    "date": "2020-06-25T13:54:11Z"
+    "name": "v1.3.0",
+    "date": "2020-07-03T03:19:42Z"
   },
-  "commits": 899,
-  "lastSixMonthsCommitTotal": 899,
-  "contributors": 26,
+  "commits": 1041,
+  "lastSixMonthsCommitTotal": 1041,
+  "contributors": 32,
   "pullRequests": {
     "open": 1
   },
@@ -60,10 +60,31 @@
       "contributions": 1
     },
     {
+      "id": 2952843,
+      "login": "roadlittledawn",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/2952843?v=4",
+      "htmlUrl": "https://github.com/roadlittledawn",
+      "contributions": 1
+    },
+    {
+      "id": 19716792,
+      "login": "njvrzm",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/19716792?v=4",
+      "htmlUrl": "https://github.com/njvrzm",
+      "contributions": 1
+    },
+    {
       "id": 58010132,
       "login": "mmfred",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/58010132?v=4",
       "htmlUrl": "https://github.com/mmfred",
+      "contributions": 1
+    },
+    {
+      "id": 64921278,
+      "login": "lchockalingam",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/64921278?v=4",
+      "htmlUrl": "https://github.com/lchockalingam",
       "contributions": 1
     },
     {
@@ -78,6 +99,13 @@
       "login": "jonathanpdx",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/283858?v=4",
       "htmlUrl": "https://github.com/jonathanpdx",
+      "contributions": 1
+    },
+    {
+      "id": 565661,
+      "login": "jerelmiller",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/565661?v=4",
+      "htmlUrl": "https://github.com/jerelmiller",
       "contributions": 1
     },
     {
@@ -113,6 +141,13 @@
       "login": "crshanks",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/44571906?v=4",
       "htmlUrl": "https://github.com/crshanks",
+      "contributions": 1
+    },
+    {
+      "id": 32520944,
+      "login": "astormnewrelic",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/32520944?v=4",
+      "htmlUrl": "https://github.com/astormnewrelic",
       "contributions": 1
     },
     {
@@ -165,6 +200,13 @@
       "contributions": 2
     },
     {
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 3
+    },
+    {
       "id": 37779995,
       "login": "ryanv94",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/37779995?v=4",
@@ -183,7 +225,7 @@
       "login": "michaelgoin",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 4
+      "contributions": 7
     },
     {
       "id": 8813505,
@@ -200,13 +242,6 @@
       "contributions": 28
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 64
-    },
-    {
       "id": 6722433,
       "login": "jbeveland27",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
@@ -221,18 +256,25 @@
       "contributions": 138
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 154
+    },
+    {
       "id": 812989,
       "login": "danielgolden",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/812989?v=4",
       "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 169
+      "contributions": 170
     },
     {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 256
+      "contributions": 273
     }
   ],
   "languages": [

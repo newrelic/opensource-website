@@ -1,39 +1,21 @@
 {
   "projectFullName": "newrelic/nri-vsphere",
   "issues": {
-    "open": 3
+    "open": 1
   },
-  "releases": 2,
+  "releases": 3,
   "latestRelease": {
-    "name": "v0.0.8",
-    "date": "2020-05-04T17:57:24Z"
+    "name": "v0.0.10",
+    "date": "2020-06-19T09:28:44Z"
   },
-  "commits": 40,
-  "lastSixMonthsCommitTotal": 40,
+  "commits": 45,
+  "lastSixMonthsCommitTotal": 45,
   "contributors": 4,
   "pullRequests": {
-    "open": 2
+    "open": 5
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MDkwODEyODU=",
-      "title": "vSphere Snapshot information ",
-      "url": "https://github.com/newrelic/nri-vsphere/issues/21",
-      "createdAt": "2020-04-29T13:59:21Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "paologallinaharbur",
-        "id": "MDQ6VXNlcjQzMzM1NzUw",
-        "email": "",
-        "name": "PaoloGallina"
-      },
-      "number": 21,
-      "createdBy": "PaoloGallina"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 1773616,
@@ -54,14 +36,14 @@
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 15
+      "contributions": 17
     },
     {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 20
+      "contributions": 23
     }
   ],
   "languages": [

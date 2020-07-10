@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/node-newrelic",
   "issues": {
-    "open": 21
+    "open": 12
   },
-  "releases": 263,
+  "releases": 264,
   "latestRelease": {
-    "name": "v6.10.0",
+    "name": "v6.11.0",
     "date": null
   },
-  "commits": 6133,
-  "lastSixMonthsCommitTotal": 737,
-  "contributors": 66,
+  "commits": 6200,
+  "lastSixMonthsCommitTotal": 792,
+  "contributors": 68,
   "pullRequests": {
-    "open": 5
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -53,6 +53,13 @@
       "contributions": 1
     },
     {
+      "id": 8731013,
+      "login": "prototypicalpro",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/8731013?v=4",
+      "htmlUrl": "https://github.com/prototypicalpro",
+      "contributions": 1
+    },
+    {
       "id": 991932,
       "login": "pasieronen",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/991932?v=4",
@@ -78,6 +85,13 @@
       "login": "nullvariable",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/171515?v=4",
       "htmlUrl": "https://github.com/nullvariable",
+      "contributions": 1
+    },
+    {
+      "id": 58010132,
+      "login": "mmfred",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/58010132?v=4",
+      "htmlUrl": "https://github.com/mmfred",
       "contributions": 1
     },
     {
@@ -365,7 +379,7 @@
       "login": "snyk-bot",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 7
+      "contributions": 8
     },
     {
       "id": 28942544,
@@ -417,18 +431,18 @@
       "contributions": 82
     },
     {
-      "id": 398399,
-      "login": "nijotz",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
-      "htmlUrl": "https://github.com/nijotz",
-      "contributions": 130
-    },
-    {
       "id": 418097,
       "login": "othiym23",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/418097?v=4",
       "htmlUrl": "https://github.com/othiym23",
       "contributions": 135
+    },
+    {
+      "id": 398399,
+      "login": "nijotz",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
+      "htmlUrl": "https://github.com/nijotz",
+      "contributions": 139
     },
     {
       "id": 4933147,
@@ -442,21 +456,21 @@
       "login": "carlonewrelic",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/54335840?v=4",
       "htmlUrl": "https://github.com/carlonewrelic",
-      "contributions": 150
+      "contributions": 159
     },
     {
       "id": 32520944,
       "login": "astormnewrelic",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/32520944?v=4",
       "htmlUrl": "https://github.com/astormnewrelic",
-      "contributions": 239
+      "contributions": 259
     },
     {
       "id": 11223178,
       "login": "michaelgoin",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 510
+      "contributions": 517
     },
     {
       "id": 1342804,
@@ -499,11 +513,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }
