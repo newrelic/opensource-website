@@ -18,11 +18,14 @@ class CookieApprovalDialog extends React.Component {
       process.env.ENV || process.env.NODE_ENV || 'development';
     const options = { expires: 365 };
     const { hostname } = window.location;
-    if (currentEnvironment !== 'production' && !hostname.includes('staging')) {
+    if (currentEnvironment === 'production' && hostname.includes('newrelic.com')) {
       options.domain = 'newrelic.com';
     }
     Cookies.set('newrelic-gdpr-consent', !!answer, options);
-    // console.debug(Cookies.get('newrelic-gdpr-consent'));
+    if (answer && window.trackGoogleAnalytics) {
+      window.trackGoogleAnalytics();
+    }
+    //console.debug(Cookies.get('newrelic-gdpr-consent'));
     this.setState({ cookieSet: true });
   }
 
