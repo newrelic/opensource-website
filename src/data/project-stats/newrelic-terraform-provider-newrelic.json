@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 37
+    "open": 36
   },
   "releases": 36,
   "latestRelease": {
@@ -49,23 +49,6 @@
       },
       "number": 434,
       "createdBy": "Chris Trombley"
-    },
-    {
-      "id": "MDU6SXNzdWU2MzM3MzMyMDA=",
-      "title": "Reflect current account information",
-      "url": "https://github.com/newrelic/terraform-provider-newrelic/issues/647",
-      "createdAt": "2020-06-07T20:25:39Z",
-      "comments": {
-        "totalCount": 2
-      },
-      "author": {
-        "login": "skyzyx",
-        "id": "MDQ6VXNlcjM5NDQ3",
-        "email": "",
-        "name": "Ryan Parman"
-      },
-      "number": 647,
-      "createdBy": "Ryan Parman"
     }
   ],
   "cachedContributors": [
