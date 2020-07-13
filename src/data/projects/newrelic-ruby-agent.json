@@ -1,0 +1,24 @@
+{
+  "name": "newrelic-ruby-agent",
+  "fullName": "newrelic/newrelic-ruby-agent",
+  "slug": "newrelic-ruby-agent",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "Ruby Agent",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/ruby-agent",
+  "githubUrl": "https://github.com/newrelic/newrelic-ruby-agent",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-ruby-agent",
+  "iconUrl": null,
+  "shortDescription": "New Relic's Ruby Agent",
+  "description": "The New Relic Ruby agent monitors your applications to help you identify and solve performance issues. You can also extend the agent's performance monitoring to collect and analyze business data to help you improve the customer experience and make data-driven business decisions.",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Ruby",
+  "projectTags": ["agent", "ruby"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Ruby Agent",
+    "url": "https://github.com/newrelic/newrelic-ruby-agent"
+  }
+}
