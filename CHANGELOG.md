@@ -1,3 +1,20 @@
+# [1.4.0](https://github.com/newrelic/opensource-website/compare/v1.3.0...v1.4.0) (2020-07-14)
+
+
+### Bug Fixes
+
+* addressed SEO of explore projects ([371376c](https://github.com/newrelic/opensource-website/commit/371376c684f9c53f13b3b3a22107af2613581614))
+* addressing GDPR loading issue ([3d633f8](https://github.com/newrelic/opensource-website/commit/3d633f87cae29390470948cbdd1280870aa73677))
+* import statement ([72ce946](https://github.com/newrelic/opensource-website/commit/72ce946ad3fac2528b4258cba063932c8bef4133))
+* resolved cookie domain logic + make sure we call first page. ([a09bee3](https://github.com/newrelic/opensource-website/commit/a09bee32d07f844e208417f0e20e5a11bdf7e5ff))
+
+
+### Features
+
+* adding cookie dialog ([42b0130](https://github.com/newrelic/opensource-website/commit/42b013004409708b3cf184417b2084cb4c7b634b))
+* handle domains ([7456696](https://github.com/newrelic/opensource-website/commit/7456696ff4c4ed93afbf03199d98bffd1661b977))
+* **GDPR:** cookie acceptance dialog ([575589b](https://github.com/newrelic/opensource-website/commit/575589b26a7614078e6fc725b19ec0ecbbf2aa71))
+
 # [1.3.0](https://github.com/newrelic/opensource-website/compare/v1.2.3...v1.3.0) (2020-07-03)
 
 
