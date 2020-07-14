@@ -238,7 +238,7 @@ const ProjectPage = props => {
             rel="noopener noreferrer"
           >
             <span className={styles.buttonIcon}>
-              <Edit color={darkMode.value ? '#70ccd3' : '#007e8a'} size={16} />
+              <Edit color={darkMode.value ? '#cedede' : '#007e8a'} size={16} />
             </span>
             Edit page
           </a>

@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { Location } from '@reach/router';
 import { get, orderBy } from 'lodash';
+import SEO from '../components/seo';
 
 import Layout from '../components/layout';
 import PageHeading from '../components/PageHeading';
@@ -157,6 +158,7 @@ const ExploreProjectsPage = props => {
       mainClassName={styles.exploreProjectsLayout}
       editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
     >
+      <SEO title="New Relic open source projects" />
       <PageHeading
         title="Explore our projects"
         subheader="Integrations, tools, applications, and examples being developed in open source."
