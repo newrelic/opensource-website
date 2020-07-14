@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
 import { Location } from '@reach/router';
 import { get, orderBy } from 'lodash';
+import SEO from '../components/seo';
 
 import Layout from '../components/layout';
 import PageHeading from '../components/PageHeading';
