@@ -165,7 +165,7 @@ module.exports = {
       resolve: 'gatsby-plugin-gdpr-tracking',
       options: {
         // logging to the console, if debug is true
-        debug: true,
+        debug: false,
         googleAnalytics: {
             // The property ID; the tracking code won't be generated without it.
             trackingId: 'UA-3047412-33',
