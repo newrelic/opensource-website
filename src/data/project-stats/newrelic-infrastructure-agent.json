@@ -3,13 +3,16 @@
   "issues": {
     "open": 3
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 40,
-  "lastSixMonthsCommitTotal": 40,
+  "releases": 1,
+  "latestRelease": {
+    "name": "1.12.0",
+    "date": "2020-07-15T15:52:02Z"
+  },
+  "commits": 43,
+  "lastSixMonthsCommitTotal": 43,
   "contributors": 9,
   "pullRequests": {
-    "open": 7
+    "open": 6
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -61,7 +64,7 @@
       "login": "varas",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/1300852?v=4",
       "htmlUrl": "https://github.com/varas",
-      "contributions": 5
+      "contributions": 6
     },
     {
       "id": 4612272,
@@ -75,7 +78,7 @@
       "login": "carlosroman",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
       "htmlUrl": "https://github.com/carlosroman",
-      "contributions": 10
+      "contributions": 12
     }
   ],
   "languages": [
