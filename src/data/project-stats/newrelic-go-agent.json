@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/go-agent",
   "issues": {
-    "open": 17
+    "open": 16
   },
-  "releases": 95,
+  "releases": 96,
   "latestRelease": {
-    "name": "v3.8.0",
-    "date": "2020-07-01T17:31:28Z"
+    "name": "v3.8.1",
+    "date": "2020-07-15T18:46:09Z"
   },
-  "commits": 1966,
-  "lastSixMonthsCommitTotal": 354,
-  "contributors": 25,
+  "commits": 1984,
+  "lastSixMonthsCommitTotal": 366,
+  "contributors": 28,
   "pullRequests": {
     "open": 1
   },
@@ -109,10 +109,24 @@
       "contributions": 1
     },
     {
+      "id": 28523,
+      "login": "alrs",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/28523?v=4",
+      "htmlUrl": "https://github.com/alrs",
+      "contributions": 1
+    },
+    {
       "id": 704945,
       "login": "alfred-landrum",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/704945?v=4",
       "htmlUrl": "https://github.com/alfred-landrum",
+      "contributions": 1
+    },
+    {
+      "id": 5743678,
+      "login": "acunning1",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/5743678?v=4",
+      "htmlUrl": "https://github.com/acunning1",
       "contributions": 1
     },
     {
@@ -135,6 +149,13 @@
       "avatarUrl": "https://avatars1.githubusercontent.com/u/6454794?v=4",
       "htmlUrl": "https://github.com/AncientToaster",
       "contributions": 1
+    },
+    {
+      "id": 48965776,
+      "login": "jodeev",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/48965776?v=4",
+      "htmlUrl": "https://github.com/jodeev",
+      "contributions": 2
     },
     {
       "id": 982820,
@@ -183,14 +204,14 @@
       "login": "newrelic-eheinlein",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/52758187?v=4",
       "htmlUrl": "https://github.com/newrelic-eheinlein",
-      "contributions": 136
+      "contributions": 140
     },
     {
       "id": 1383216,
       "login": "purple4reina",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/1383216?v=4",
       "htmlUrl": "https://github.com/purple4reina",
-      "contributions": 469
+      "contributions": 472
     }
   ],
   "languages": [
