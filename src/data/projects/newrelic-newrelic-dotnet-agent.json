@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-dotnet-agent",
+  "fullName": "newrelic/newrelic-dotnet-agent",
+  "slug": "newrelic-newrelic-dotnet-agent",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic .NET Agent",
+  "supportUrl": null,
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-dotnet-agent/blob/main/CONTRIBUTING.md",
+  "githubUrl": "https://github.com/newrelic/newrelic-dotnet-agent",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-dotnet-agent",
+  "iconUrl": null,
+  "shortDescription": "Automated instrumentation for .NET",
+  "description": "The official New Relic agent for .NET",
+  "ossCategory": "community-project",
+  "primaryLanguage": ".NET",
+  "projectTags": [ "agent" ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic .NET Agent",
+    "url": "https://github.com/newrelic/newrelic-dotnet-agent"
+  }
+}
