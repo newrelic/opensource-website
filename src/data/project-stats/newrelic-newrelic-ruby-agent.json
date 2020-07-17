@@ -3,13 +3,13 @@
   "issues": {
     "open": 13
   },
-  "releases": 359,
+  "releases": 360,
   "latestRelease": {
-    "name": "6.11.0.365",
-    "date": "2020-05-28T22:47:51Z"
+    "name": "6.12.0.367",
+    "date": "2020-07-14T14:42:56Z"
   },
-  "commits": 13762,
-  "lastSixMonthsCommitTotal": 376,
+  "commits": 13886,
+  "lastSixMonthsCommitTotal": 498,
   "contributors": 100,
   "pullRequests": {
     "open": 2
@@ -592,13 +592,6 @@
       "contributions": 55
     },
     {
-      "id": 11799492,
-      "login": "tannalynn",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/11799492?v=4",
-      "htmlUrl": "https://github.com/tannalynn",
-      "contributions": 68
-    },
-    {
       "id": 1627067,
       "login": "sdaubin",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/1627067?v=4",
@@ -613,6 +606,13 @@
       "contributions": 92
     },
     {
+      "id": 11799492,
+      "login": "tannalynn",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/11799492?v=4",
+      "htmlUrl": "https://github.com/tannalynn",
+      "contributions": 94
+    },
+    {
       "id": 1577272,
       "login": "rsaul",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/1577272?v=4",
@@ -625,13 +625,6 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/933055?v=4",
       "htmlUrl": "https://github.com/kenichi",
       "contributions": 177
-    },
-    {
-      "id": 18387,
-      "login": "mwlang",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/18387?v=4",
-      "htmlUrl": "https://github.com/mwlang",
-      "contributions": 228
     },
     {
       "id": 4594088,
@@ -655,11 +648,18 @@
       "contributions": 252
     },
     {
+      "id": 18387,
+      "login": "mwlang",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/18387?v=4",
+      "htmlUrl": "https://github.com/mwlang",
+      "contributions": 255
+    },
+    {
       "id": 10822861,
       "login": "rachelleahklein",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/10822861?v=4",
       "htmlUrl": "https://github.com/rachelleahklein",
-      "contributions": 297
+      "contributions": 337
     },
     {
       "id": 40875,
@@ -737,11 +737,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }
