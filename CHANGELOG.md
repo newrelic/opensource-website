@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/newrelic/opensource-website/compare/v1.4.0...v1.5.0) (2020-07-17)
+
+
+### Features
+
+* **policy:** updated code of conduct and reporting guide ([21db501](https://github.com/newrelic/opensource-website/commit/21db501654bacf08b48fdfc869b2b84e54877c58))
+
 # [1.4.0](https://github.com/newrelic/opensource-website/compare/v1.3.0...v1.4.0) (2020-07-14)
 
 
