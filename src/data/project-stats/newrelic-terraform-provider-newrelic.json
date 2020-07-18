@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 40
+    "open": 39
   },
   "releases": 37,
   "latestRelease": {
@@ -9,7 +9,7 @@
     "date": "2020-07-10T20:28:55Z"
   },
   "commits": 952,
-  "lastSixMonthsCommitTotal": 410,
+  "lastSixMonthsCommitTotal": 407,
   "contributors": 50,
   "pullRequests": {
     "open": 6
@@ -49,6 +49,23 @@
       },
       "number": 434,
       "createdBy": "Chris Trombley"
+    },
+    {
+      "id": "MDU6SXNzdWU2NTAzNjUzMTU=",
+      "title": "2.x Migration Guide",
+      "url": "https://github.com/newrelic/terraform-provider-newrelic/issues/751",
+      "createdAt": "2020-07-03T06:05:37Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "skyzyx",
+        "id": "MDQ6VXNlcjM5NDQ3",
+        "email": "",
+        "name": "Ryan Parman"
+      },
+      "number": 751,
+      "createdBy": "Ryan Parman"
     }
   ],
   "cachedContributors": [
