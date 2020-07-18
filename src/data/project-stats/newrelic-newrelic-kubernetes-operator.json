@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-kubernetes-operator",
   "issues": {
-    "open": 19
+    "open": 16
   },
   "releases": 2,
   "latestRelease": {
@@ -15,7 +15,25 @@
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2NTk0MzYxODc=",
+      "title": "Add support for NRQL Baseline conditions",
+      "url": "https://github.com/newrelic/newrelic-kubernetes-operator/issues/98",
+      "createdAt": "2020-07-17T17:06:55Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "thande",
+        "id": "MDQ6VXNlcjc5NDY2Nzk=",
+        "email": "",
+        "name": "Shane Delight"
+      },
+      "number": 98,
+      "createdBy": "Shane Delight"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 1902623,
