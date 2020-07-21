@@ -8,13 +8,13 @@ const DarkModeToggle = ({ darkMode, className }) => {
     <div className={`dark-mode-toggle ${className}`}>
       {darkMode.value ? (
         <Sun
-          size={14}
+          size={15}
           color={darkMode.value ? `#CEDEDE` : `#000d0d`}
           onClick={darkMode.disable}
         />
       ) : (
         <Moon
-          size={14}
+          size={15}
           color={darkMode.value ? `#CEDEDE` : `#000d0d`}
           onClick={darkMode.enable}
         />
