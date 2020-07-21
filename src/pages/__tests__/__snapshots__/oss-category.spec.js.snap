@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`OSS Category Page Renders correctly 1`] = `
+.emotion-0 {
+  margin-bottom: 1rem;
+}
+
 <div
   className="layout-container undefined"
 >
@@ -131,7 +135,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         />
       </ul>
@@ -221,7 +225,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
             Categories
           </h4>
           <ul
-            className="categorySidebarList"
+            className="categorySidebarList emotion-0"
           >
             <li
               className="categorySidebarItem"
