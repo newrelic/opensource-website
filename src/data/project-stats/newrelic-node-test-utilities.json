@@ -8,8 +8,8 @@
     "name": "v3.3.0",
     "date": null
   },
-  "commits": 101,
-  "lastSixMonthsCommitTotal": 6,
+  "commits": 135,
+  "lastSixMonthsCommitTotal": 40,
   "contributors": 7,
   "pullRequests": {
     "open": 0
@@ -17,13 +17,6 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 11223178,
-      "login": "michaelgoin",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
-      "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 1
-    },
     {
       "id": 4933147,
       "login": "martinkuba",
@@ -39,11 +32,11 @@
       "contributions": 4
     },
     {
-      "id": 398399,
-      "login": "nijotz",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
-      "htmlUrl": "https://github.com/nijotz",
-      "contributions": 5
+      "id": 11223178,
+      "login": "michaelgoin",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
+      "htmlUrl": "https://github.com/michaelgoin",
+      "contributions": 6
     },
     {
       "id": 1342804,
@@ -58,6 +51,13 @@
       "avatarUrl": "https://avatars2.githubusercontent.com/u/7945073?v=4",
       "htmlUrl": "https://github.com/psvet",
       "contributions": 17
+    },
+    {
+      "id": 398399,
+      "login": "nijotz",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
+      "htmlUrl": "https://github.com/nijotz",
+      "contributions": 20
     },
     {
       "id": 466761,
@@ -80,5 +80,12 @@
     }
   ],
   "screenshots": [],
-  "license": null
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }
