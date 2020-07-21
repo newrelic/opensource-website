@@ -87,7 +87,7 @@ const GlobalHeader = ({ hasHeaderBg, className, editLink }) => {
             </a>
           </li>
           <li
-            className={`styles.darkModeToggle ${styles.rightSideButton}`}
+            className={`${styles.darkModeToggle} ${styles.rightSideButton}`}
             title="Toggle dark mode"
           >
             <DarkModeToggle />
