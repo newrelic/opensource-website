@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 
 import { graphql } from 'gatsby';
 import { get } from 'lodash';
+import { Button } from '@newrelic/gatsby-theme-newrelic';
+import { css } from '@emotion/core';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -54,16 +56,32 @@ const SubProjects = ({ projects }) => {
             </div>
             {p.githubUrl && (
               <div className={styles.subProjectCallToAction}>
-                <a
+                <Button
+                  as="a"
+                  variant={Button.VARIANT.PLAIN}
                   href={p.githubUrl}
-                  className="button button-tertiary"
                   target="__blank"
+                  css={css`
+                    .dark-mode & {
+                      border-color: transparent;
+                    }
+
+                    &&&:after {
+                      display: none;
+                    }
+                  `}
                 >
-                  <img src={iconGitHub} alt="GitHub Logo" />
+                  <img
+                    css={css`
+                      margin-right: 0.5rem;
+                    `}
+                    src={iconGitHub}
+                    alt="GitHub Logo"
+                  />
                   <span className={styles.subProjectCallToActionLabel}>
                     View Repo
                   </span>
-                </a>
+                </Button>
               </div>
             )}
           </li>
@@ -114,25 +132,43 @@ const ExternalProjectPage = ({ data }) => {
         </main>
         <aside className="primary-content-aside">
           <div className={styles.callToActionContainer}>
-            <div className={styles.callToActionButtons}>
+            <div
+              css={css`
+                margin-bottom: 1rem;
+              `}
+              className={styles.callToActionButtons}
+            >
               <div className={styles.callToActionButtonsContainer}>
-                <a
+                <Button
+                  as="a"
+                  variant={Button.VARIANT.PRIMARY}
                   href={`${get(project, ['website', 'url'], '') ||
                     project.githubUrl}`}
-                  className="button button-primary"
                   target="__blank"
                   rel="noopener noreferrer"
                 >
                   View Website
-                </a>
-                <a
+                </Button>
+                <Button
+                  as="a"
+                  variant={Button.VARIANT.PLAIN}
                   href={project.githubUrl}
-                  className="button button-secondary"
                   rel="noopener noreferrer"
+                  css={css`
+                    .dark-mode & {
+                      border-color: transparent;
+                    }
+                  `}
                 >
-                  <img src={iconGitHubGreen} alt="GitHub logo" />
+                  <img
+                    css={css`
+                      margin-right: 0.5rem;
+                    `}
+                    src={iconGitHubGreen}
+                    alt="GitHub logo"
+                  />
                   GitHub
-                </a>
+                </Button>
               </div>
             </div>
           </div>

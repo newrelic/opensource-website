@@ -131,7 +131,7 @@ exports[`HomePage Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         />
       </ul>

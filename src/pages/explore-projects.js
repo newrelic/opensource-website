@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { Button } from '@newrelic/gatsby-theme-newrelic';
 
 import { graphql, Link } from 'gatsby';
 import { Location } from '@reach/router';
@@ -98,13 +99,14 @@ const ExploreProjectsPage = props => {
                 ? p.description
                 : `There is no description for this project`}
             </p>
-            <Link
-              className={`button ${styles.featuredProjectButton}`}
+            <Button
+              as={Link}
+              variant={Button.VARIANT.PRIMARY}
               key={p.id}
               to={link}
             >
               View Project
-            </Link>
+            </Button>
           </div>
           <footer className={styles.featuredProjectFooter}>
             <span className={styles.featuredProjectFooterLink}>
@@ -138,13 +140,13 @@ const ExploreProjectsPage = props => {
     if (sortedProjects.length - projectsToShow > 0 && projectsToShow !== 0) {
       return (
         <div className={styles.showAllButtonContainer}>
-          <button
-            className="button button-tertiary"
+          <Button
+            variant={Button.VARIANT.NORMAL}
             type="button"
             onClick={() => setProjectsToShow(0)}
           >
             Show {sortedProjects.length - projectsToShow} more projects
-          </button>
+          </Button>
         </div>
       );
     } else {
