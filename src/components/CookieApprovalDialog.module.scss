@@ -3,8 +3,13 @@
   position: fixed;
   bottom: 0;
   z-index: 10000;
-  background-color: rgba(28,42,47, .92);
-  box-shadow: 0px -0.249053px 4.26158px rgba(12, 48, 57, 0.0421718), 0px -0.598509px 10.2412px rgba(12, 48, 57, 0.0605839), 0px -1.12694px 19.2832px rgba(12, 48, 57, 0.075), 0px -2.01027px 34.3979px rgba(12, 48, 57, 0.0894161), 0px -3.75998px 64.3375px rgba(12, 48, 57, 0.107828), 0px -9px 154px rgba(12, 48, 57, 0.15);
+  background-color: rgba(28, 42, 47, 0.92);
+  box-shadow: 0px -0.249053px 4.26158px rgba(12, 48, 57, 0.0421718),
+    0px -0.598509px 10.2412px rgba(12, 48, 57, 0.0605839),
+    0px -1.12694px 19.2832px rgba(12, 48, 57, 0.075),
+    0px -2.01027px 34.3979px rgba(12, 48, 57, 0.0894161),
+    0px -3.75998px 64.3375px rgba(12, 48, 57, 0.107828),
+    0px -9px 154px rgba(12, 48, 57, 0.15);
   backdrop-filter: blur(5px);
 }
 
@@ -39,14 +44,13 @@
 
 .approval-button {
   margin-right: 10px;
-  padding: 10px 30px;
 }
 
 .button-close {
   position: absolute;
   top: 4px;
   right: 4px;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 // ==============================================================
@@ -80,17 +84,6 @@
   .cta-container {
     margin: 0;
   }
-
-  .approval-button {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-  
-  .ignore-button {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: var(--color-neutrals-700);
-  }
 }
 
 // ==============================================================
@@ -98,11 +91,12 @@
 // ==============================================================
 :global(.dark-mode) {
   .container {
-    background-color: rgba(15,25,28, .92);
-    box-shadow: 0 -1px 0 rgba(55,72,78, .4);
+    background-color: rgba(15, 25, 28, 0.92);
+    box-shadow: 0 -1px 0 rgba(55, 72, 78, 0.4);
   }
 
   .description {
     color: var(--color-neutrals-600);
   }
 }
+
