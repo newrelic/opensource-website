@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { get } from 'lodash';
+import { css } from '@emotion/core';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -89,7 +90,14 @@ const OssCategoryPage = ({ data }) => {
         <aside className={`primary-content-aside ${styles.aside}`}>
           <div className={styles.categoriesNavigation}>
             <h4>Categories</h4>
-            <ul className={styles.categorySidebarList}>{categoryNavList}</ul>
+            <ul
+              css={css`
+                margin-bottom: 1rem;
+              `}
+              className={styles.categorySidebarList}
+            >
+              {categoryNavList}
+            </ul>
             <p>
               For the code snippets that appear in the project's README file,
               see{' '}
