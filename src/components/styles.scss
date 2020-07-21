@@ -1,66 +1,41 @@
 @import './nord-prism-theme.css';
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400%3B0,600%3B0,700%3B1,400%3B1,600%3B1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
-@import url("https://use.typekit.net/pnb6qnj.css");
-@import url('https://fonts.googleapis.com/css2?family=Ovo&display=swap');
-
 
 /*-- CSS Variables --*/
 :root {
   --color-background: #ffffff;
 
-  --color-neutrals-050: #fafbfb;
-  --color-neutrals-100: #f4f5f5;
-  --color-neutrals-200: #edeeee;
-  --color-neutrals-300: #e3e4e4;
-  --color-neutrals-400: #d5d7d7;
-  --color-neutrals-500: #b9bdbd;
-  --color-neutrals-600: #8e9494;
-  --color-neutrals-700: #464e4e;
-  --color-neutrals-800: #2a3434;
-  --color-neutrals-850: #161F1F;
-  --color-neutrals-900: #000d0d;
+  --color-neutrals-850: #161f1f;
 
-  --color-brand-050: #f7ffff;
-  --color-brand-100: #edffff;
-  --color-brand-400: #70ccd2;
-  --color-brand-800: #007e8a;
-  --color-brand-900: #005054;
-
-  --footer-text-color: #7DA5A8;
-
-  --primary-font-family: 'open sans', sans-serif;
-  --secondary-font-family: 'effra', sans-serif;
-  --tertiary-font-family: 'Ovo', serif;
+  --footer-text-color: #7da5a8;
 
   /*-- Easing --*/
-  --ease-out-quad: cubic-bezier(.25, .46, .45, .94);
-  --ease-out-cubic: cubic-bezier(.215, .61, .355, 1);
-  --ease-out-quart: cubic-bezier(.165, .84, .44, 1);
-  --ease-out-quint: cubic-bezier(.23, 1, .32, 1);
-  --ease-out-expo: cubic-bezier(.19, 1, .22, 1);
-  --ease-out-circ: cubic-bezier(.075, .82, .165, 1);
-  
+  --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+  --ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+  --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
+
   /*-- Dark mode --*/
   .dark-mode {
-    --color-background: #1C2A2F;
-    
-    --color-neutrals-050: #131F23;
-    --color-neutrals-100: #22353C;
-    --color-neutrals-200: #233940;
-    --color-neutrals-300: #2A4249;
-    --color-neutrals-400: #37484E;
-    --color-neutrals-500: #495B5C;
-    --color-neutrals-600: #7C9799;
-    --color-neutrals-700: #A5BBBD;
-    --color-neutrals-800: #CEDEDE;
-    --color-neutrals-900: #E8EAEA;
+    --color-background: #1c2a2f;
 
-    --color-brand-800: #70CCD3;
-    --color-brand-900: #EDFFFF;
+    --color-neutrals-050: #131f23;
+    --color-neutrals-100: #22353c;
+    --color-neutrals-200: #233940;
+    --color-neutrals-300: #2a4249;
+    --color-neutrals-400: #37484e;
+    --color-neutrals-500: #495b5c;
+    --color-neutrals-600: #7c9799;
+    --color-neutrals-700: #a5bbbd;
+    --color-neutrals-800: #cedede;
+    --color-neutrals-900: #e8eaea;
+
+    --color-brand-800: #70ccd3;
+    --color-brand-900: #edffff;
   }
 }
-
 
 /*-------------------------*/
 /*-- CSS Reset stuff --*/
@@ -73,9 +48,6 @@ html {
 body {
   height: 100%;
   margin: 0;
-  font-family: var(--primary-font-family);
-  color: var(--color-neutrals-700);
-  background-color: var(--color-background);
 }
 
 #___gatsby {
@@ -98,30 +70,28 @@ p {
 }
 
 a {
-  text-decoration: none;
-  color: var(--color-brand-800);
   // tried hard to find a way to avoid using a hardcoded color value
   // here but Sass doesn't let me use color operations with css
   // custom properties :/
-  border-bottom: 1px dotted rgba(#005054, .4);
+  border-bottom: 1px dotted rgba(#005054, 0.4);
 }
 
 ul {
-  padding-left: 30px;
   font-size: 14px;
   line-height: 22px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 8px;
-  font-weight: 600;
-  color: var(--color-neutrals-900);
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   a {
     border: none;
 
     &:hover {
-      border-bottom: 1px dotted rgba(#005054, .4);
+      border-bottom: 1px dotted rgba(#005054, 0.4);
     }
   }
 }
@@ -133,10 +103,6 @@ h4 + p,
 h5 + p,
 h6 + p {
   margin-top: 8px;
-}
-
-::placeholder {
-  color: var(--color-neutrals-500);
 }
 
 select {
@@ -158,11 +124,11 @@ select {
     cursor: pointer;
     border: 1px solid var(--color-neutrals-500);
   }
-  
+
   &:focus {
-    border: 1px solid rgba(#007E8A, .6);
+    border: 1px solid rgba(#007e8a, 0.6);
     outline: none;
-    box-shadow: 0 0 0 4px rgba(#007E8A, .1);
+    box-shadow: 0 0 0 4px rgba(#007e8a, 0.1);
   }
 }
 
@@ -198,9 +164,14 @@ select {
   justify-content: space-between;
   max-width: 980px;
   margin: 0 auto;
-  
+
   main {
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       &:first-child {
         margin-top: 0;
       }
@@ -219,7 +190,7 @@ select {
     font-style: italic;
     font-size: 14px;
     color: var(--color-neutrals-700);
-    opacity: .8;
+    opacity: 0.8;
     line-height: 23px;
 
     &:before,
@@ -231,7 +202,7 @@ select {
       position: absolute;
       left: -9px;
       top: 50%;
-      margin-top: - 7px;
+      margin-top: -7px;
       background-image: url('../images/quote-left.svg');
       text-indent: 100%;
       white-space: nowrap;
@@ -248,13 +219,13 @@ select {
       display: block;
       margin-top: 4px;
       text-transform: uppercase;
-      letter-spacing: .03em;
+      letter-spacing: 0.03em;
       font-weight: 600;
       font-size: 11px;
       font-style: normal;
 
       &:before {
-        content: "— "
+        content: '— ';
       }
     }
   }
@@ -281,7 +252,7 @@ select {
 
 .primary-content-aside {
   width: 28.57142857142857%;
-  
+
   :first-child {
     margin-top: 0;
   }
@@ -308,8 +279,8 @@ select {
   font-weight: 600;
   border-radius: 4px;
   font-family: var(--primary-font-family);
-  transition: all .1s var(--ease-out-quad);  
-  
+  transition: all 0.1s var(--ease-out-quad);
+
   &:hover {
     cursor: pointer;
     transform: translateY(-1px);
@@ -337,7 +308,7 @@ select {
 .button-tertiary {
   background-color: var(--color-neutrals-200);
   color: var(--color-neutrals-800);
-  
+
   &:hover {
     background-color: var(--color-neutrals-300);
     color: var(--color-neutrals-900);
@@ -345,7 +316,6 @@ select {
 }
 
 .aside-header-item {
-
   &:not(:first-child) {
     margin-top: 21px;
   }
@@ -370,7 +340,7 @@ select {
 .prism-code .line-number {
   display: inline-block;
   width: 3ch;
-  opacity: .7;
+  opacity: 0.7;
   margin-left: -14px;
   margin-right: 15px;
   position: relative;
@@ -379,30 +349,27 @@ select {
   color: #606e87;
 }
 
-.responsive-video{
+.responsive-video {
   overflow: hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
   border-radius: 5px;
-  box-shadow: 
-    0px 1.49432px 2.21381px rgba(15, 65, 88, 0.0253031), 
-    0px 3.59106px 5.32008px rgba(15, 65, 88, 0.0363503), 
-    0px 6.76164px 10.0172px rgba(15, 65, 88, 0.045), 
-    0px 12.0616px 17.869px rgba(15, 65, 88, 0.0536497), 
-    0px 22.5599px 33.4221px rgba(15, 65, 88, 0.0646969), 
-    0px 54px 80px rgba(15, 65, 88, 0.09),
-    0px 30px 30px -40px #011b1d65
+  box-shadow: 0px 1.49432px 2.21381px rgba(15, 65, 88, 0.0253031),
+    0px 3.59106px 5.32008px rgba(15, 65, 88, 0.0363503),
+    0px 6.76164px 10.0172px rgba(15, 65, 88, 0.045),
+    0px 12.0616px 17.869px rgba(15, 65, 88, 0.0536497),
+    0px 22.5599px 33.4221px rgba(15, 65, 88, 0.0646969),
+    0px 54px 80px rgba(15, 65, 88, 0.09), 0px 30px 30px -40px #011b1d65;
 }
 
 .responsive-video iframe {
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
-
 
 // ==============================================================
 // Responsive styles
@@ -412,7 +379,7 @@ select {
   .primary-content {
     max-width: 100%;
     padding: 0 28px;
-  }    
+  }
 }
 
 @media screen and (max-width: 724px) {
@@ -426,7 +393,7 @@ select {
     .primary-content-aside {
       width: 100%;
     }
-  }    
+  }
 }
 
 // ==============================================================
@@ -434,19 +401,19 @@ select {
 // ==============================================================
 .dark-mode {
   a {
-    border-color: rgba(#69b9bd, .4);
-  } 
+    border-color: rgba(#69b9bd, 0.4);
+  }
 
   .button {
     background-color: var(--color-neutrals-800);
   }
-  
+
   .button-secondary {
     color: var(--color-neutrals-800);
     box-shadow: inset 0 0 0 2px var(--color-neutrals-800);
     background-color: transparent;
   }
-  
+
   .button-tertiary {
     background-color: inherit;
     color: inherit;
@@ -456,3 +423,4 @@ select {
     }
   }
 }
+
