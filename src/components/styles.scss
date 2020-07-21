@@ -109,7 +109,8 @@ select {
   padding: 4px 10px;
   padding-right: 20px;
   -webkit-appearance: none;
-  font-size: 12px;
+  font-size: 12px !important;
+  line-height: initial !important;
   background: var(--color-background);
   border: 1px solid var(--color-neutrals-400);
   box-sizing: border-box;
