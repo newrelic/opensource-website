@@ -1,0 +1,27 @@
+{
+  "name": "node-test-utilities",
+  "fullName": "newrelic/node-test-utilities",
+  "slug": "newrelic-node-test-utilities",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Node Test Utilities",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/node-js-agent",
+  "githubUrl": "https://github.com/newrelic/node-test-utilities",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/node-test-utilities",
+  "iconUrl": null,
+  "shortDescription": "Test helper libraries",
+  "description": "Test helpers for Node.js instrumentation modules",
+  "ossCategory": "community-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [
+    "lib"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Node Test Utilities",
+    "url": "https://github.com/newrelic/node-test-utilities"
+  },
+  "defaultBranch": "main"
+}
