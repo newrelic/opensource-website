@@ -15,7 +15,9 @@ module.exports = {
     `<rootDir>/src/components/__tests__/fixtures`,
     `<rootDir>/src/templates/__tests__/fixtures`
   ],
-  transformIgnorePatterns: [`node_modules/(?!(gatsby||gatsby-plugin-mdx)/)`],
+  transformIgnorePatterns: [
+    `node_modules/(?!(gatsby||gatsby-plugin-mdx||@newrelic\/gatsby-theme-newrelic)/)`
+  ],
   globals: {
     __PATH_PREFIX__: ``
   },
