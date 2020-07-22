@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 88,
-  "lastSixMonthsCommitTotal": 46,
-  "contributors": 4,
+  "commits": 91,
+  "lastSixMonthsCommitTotal": 49,
+  "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 2
+    },
     {
       "id": 413389,
       "login": "ctrombley",
@@ -43,7 +50,13 @@
       "contributions": 60
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",

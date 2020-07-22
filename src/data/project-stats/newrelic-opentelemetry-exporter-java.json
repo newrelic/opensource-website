@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-java",
   "issues": {
-    "open": 7
+    "open": 6
   },
-  "releases": 5,
+  "releases": 6,
   "latestRelease": {
-    "name": "v0.6.0",
-    "date": "2020-07-07T16:56:00Z"
+    "name": "v0.6.1",
+    "date": "2020-07-21T21:02:47Z"
   },
-  "commits": 181,
-  "lastSixMonthsCommitTotal": 146,
+  "commits": 201,
+  "lastSixMonthsCommitTotal": 166,
   "contributors": 7,
   "pullRequests": {
     "open": 1
@@ -39,13 +39,6 @@
       "contributions": 2
     },
     {
-      "id": 24482401,
-      "login": "XiXiaPdx",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/24482401?v=4",
-      "htmlUrl": "https://github.com/XiXiaPdx",
-      "contributions": 5
-    },
-    {
       "id": 3150353,
       "login": "cmouli84",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/3150353?v=4",
@@ -60,11 +53,18 @@
       "contributions": 15
     },
     {
+      "id": 24482401,
+      "login": "XiXiaPdx",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/24482401?v=4",
+      "htmlUrl": "https://github.com/XiXiaPdx",
+      "contributions": 16
+    },
+    {
       "id": 858731,
       "login": "jkwatson",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/858731?v=4",
       "htmlUrl": "https://github.com/jkwatson",
-      "contributions": 87
+      "contributions": 88
     }
   ],
   "languages": [
