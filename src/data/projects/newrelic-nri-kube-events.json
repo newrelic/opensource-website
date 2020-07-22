@@ -1,0 +1,30 @@
+{
+  "name": "nri-kube-events",
+  "fullName": "newrelic/nri-kube-events",
+  "slug": "newrelic-nri-kube-events",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Integration for Kubernetes Events ",
+  "supportUrl": "https://discuss.newrelic.com/t/new-relic-kube-events-integration",
+  "githubUrl": "https://github.com/newrelic/nri-kube-events",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-kube-events",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/nri-kube-events/blob/main/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "Router for Kubernetes Events.",
+  "description": "Event router for the Kubernetes project. The event router serves as an active watcher of event resource in the Kubernetes system, which takes those events and pushes them to a list of configured sinks.",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Go",
+  "projectTags": [
+    "nri",
+    "infrastructure",
+    "k8"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Integration for Kubernetes Events ",
+    "url": "https://github.com/newrelic/nri-kube-events"
+  }
+}
