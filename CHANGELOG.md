@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/newrelic/opensource-website/compare/v1.5.0...v1.5.1) (2020-07-22)
+
+
+### Bug Fixes
+
+* newrelic-gatsby-theme-newrelic had incorrect projectTag ([d7cdd9e](https://github.com/newrelic/opensource-website/commit/d7cdd9ecfa1199d0ac04c6b207d26f97613c2ea6))
+
 # [1.5.0](https://github.com/newrelic/opensource-website/compare/v1.4.0...v1.5.0) (2020-07-17)
 
 
