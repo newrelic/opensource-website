@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 16
+    "open": 19
   },
-  "releases": 41,
+  "releases": 42,
   "latestRelease": {
-    "name": "v1.5.0",
-    "date": "2020-07-17T12:51:07Z"
+    "name": "v1.5.1",
+    "date": "2020-07-22T16:48:16Z"
   },
-  "commits": 1188,
-  "lastSixMonthsCommitTotal": 1188,
+  "commits": 1191,
+  "lastSixMonthsCommitTotal": 1191,
   "contributors": 36,
   "pullRequests": {
     "open": 3
@@ -48,6 +48,23 @@
         "name": "Joel Worrall"
       },
       "number": 415,
+      "createdBy": "Joel Worrall"
+    },
+    {
+      "id": "MDU6SXNzdWU2NjM5ODk4NzI=",
+      "title": "On mobile, the global nav (top 40ish pixels) experience is different from developer.newrelic.com",
+      "url": "https://github.com/newrelic/opensource-website/issues/556",
+      "createdAt": "2020-07-22T19:14:34Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "",
+        "name": "Joel Worrall"
+      },
+      "number": 556,
       "createdBy": "Joel Worrall"
     }
   ],
@@ -295,14 +312,14 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 232
+      "contributions": 234
     },
     {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 296
+      "contributions": 297
     }
   ],
   "languages": [
