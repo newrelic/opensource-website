@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './CookieApprovalDialog.module.scss';
 import withDarkMode from './withDarkMode';
 import Cookies from 'js-cookie';
+import { Button } from '@newrelic/gatsby-theme-newrelic';
 
 class CookieApprovalDialog extends React.Component {
   constructor(props) {
@@ -58,24 +59,26 @@ class CookieApprovalDialog extends React.Component {
               </p>
             </div>
             <div className={styles.ctaContainer}>
-              <button
-                className={`button ${styles.approvalButton}`}
+              <Button
+                variant={Button.VARIANT.PRIMARY}
+                className={styles.approvalButton}
                 type="button"
                 onClick={() => {
                   this.writeCookies(true);
                 }}
               >
                 Yes
-              </button>
-              <button
-                className={`button button-tertiary ${styles.ignoreButton}`}
+              </Button>
+              <Button
+                variant={Button.VARIANT.NORMAL}
+                className={styles.ignoreButton}
                 type="button"
                 onClick={() => {
                   this.writeCookies(false);
                 }}
               >
                 No
-              </button>
+              </Button>
             </div>
           </div>
         </div>

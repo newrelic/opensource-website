@@ -52,5 +52,5 @@ const createProjectPages = async ({ graphql, actions }) => {
 };
 
 module.exports = async params => {
-  createProjectPages(params);
+  await createProjectPages(params);
 };

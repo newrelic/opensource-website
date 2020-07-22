@@ -1,12 +1,12 @@
 .global-header-container {
   position: relative;
   z-index: 10000;
-  background-color: var(--color-neutrals-100); 
+  background-color: var(--color-neutrals-100);
 }
 
 .has-header-bg {
   background-color: transparent;
-  border-bottom: 1px dotted rgba(0,0,0, .05);
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.05);
   margin-bottom: -1px;
 }
 
@@ -81,28 +81,25 @@
 }
 
 .right-side-button {
-  width: 14px;
-  height: 14px;
-  border: none;
-  padding: 0 8px 0;
-  opacity: .45;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: opacity .1s var(--ease-out-quad);
-  transform: translateY(-2px);
+  margin-left: 1rem;
+  opacity: 0.45;
+  transition: opacity 0.1s var(--ease-out-quad);
 
   &:hover {
     cursor: pointer;
-    opacity: .75;
+    opacity: 0.75;
   }
 
   &:last-child {
     padding-right: 0;
-    background-position: right;
   }
 
   a {
     border: none;
+  }
+
+  svg {
+    display: block;
   }
 }
 
@@ -114,10 +111,8 @@
 
 .github-button {
   display: block;
-  width: 15px;
-  height: 15px;
   text-indent: 0;
-  opacity: .45;
+  opacity: 0.45;
 }
 
 .github-button-link {
@@ -130,12 +125,13 @@
 
 .dark-mode-toggle {
   position: relative;
-  top: 3px;
-  opacity: .45;
+  opacity: 0.45;
+  position: relative;
+  top: -1px;
 
   &:hover {
     cursor: pointer;
-    opacity: .75;
+    opacity: 0.75;
   }
 }
 
@@ -152,14 +148,14 @@
 @media screen and (max-width: 480px) {
   .global-header-container {
     display: none;
-  }    
+  }
 
   .edit-icon {
-    stroke: #CEDEDE;
+    stroke: #cedede;
   }
 
   .dark-mode-toggle {
-    stroke: #CEDEDE;
+    stroke: #cedede;
     fill: transparent;
   }
 }
@@ -180,12 +176,12 @@
   }
 
   .right-side-button {
-    opacity: .5;
-  
+    opacity: 0.5;
+
     &:hover {
       opacity: 1;
     }
-  
+
     &:last-child {
       padding-right: 0;
       background-position: right;
@@ -201,7 +197,6 @@
   }
 
   .left-side-link {
-
     .active &,
     .left-side-links:hover .active &:hover {
       background-color: var(--color-neutrals-300);
@@ -210,10 +205,11 @@
   }
 
   .github-icon {
-    stroke: #CEDEDE;
+    stroke: #cedede;
   }
-  
+
   .edit-icon {
-    stroke: #CEDEDE;
+    stroke: #cedede;
   }
 }
+

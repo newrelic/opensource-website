@@ -1,6 +1,82 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Adopt OpenJDK Renders correctly 1`] = `
+.emotion-5 {
+  margin-bottom: 1rem;
+}
+
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-white);
+  border-color: var(--color-brand-800);
+  background-color: var(--color-brand-800);
+}
+
+.dark-mode .emotion-0 {
+  color: var(--primary-background-color);
+  background-color: var(--color-brand-400);
+  border-color: var(--color-brand-400);
+}
+
+.emotion-3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-brand-800);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.dark-mode .emotion-3 {
+  color: var(--color-brand-400);
+}
+
+.dark-mode .emotion-3 {
+  border-color: transparent;
+}
+
+.emotion-2 {
+  margin-right: 0.5rem;
+}
+
 <div
   className="layout-container projectPageLayout"
 >
@@ -131,7 +207,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         />
       </ul>
@@ -253,13 +329,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons"
+            className="callToActionButtons emotion-5"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="button button-primary"
+                className="emotion-0 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -267,12 +343,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="button button-secondary"
+                className="emotion-3 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
+                  className="emotion-2"
                   src="test-file-stub"
                 />
                 GitHub
@@ -377,7 +454,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.5.0
+          1.5.1
         </small>
       </div>
     </section>
@@ -386,6 +463,82 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 `;
 
 exports[`Open Telemetry Page Renders correctly 1`] = `
+.emotion-5 {
+  margin-bottom: 1rem;
+}
+
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-white);
+  border-color: var(--color-brand-800);
+  background-color: var(--color-brand-800);
+}
+
+.dark-mode .emotion-0 {
+  color: var(--primary-background-color);
+  background-color: var(--color-brand-400);
+  border-color: var(--color-brand-400);
+}
+
+.emotion-3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-brand-800);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.dark-mode .emotion-3 {
+  color: var(--color-brand-400);
+}
+
+.dark-mode .emotion-3 {
+  border-color: transparent;
+}
+
+.emotion-2 {
+  margin-right: 0.5rem;
+}
+
 <div
   className="layout-container projectPageLayout"
 >
@@ -516,7 +669,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         />
       </ul>
@@ -638,13 +791,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons"
+            className="callToActionButtons emotion-5"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="button button-primary"
+                className="emotion-0 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -652,12 +805,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="button button-secondary"
+                className="emotion-3 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
+                  className="emotion-2"
                   src="test-file-stub"
                 />
                 GitHub
@@ -762,7 +916,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.5.0
+          1.5.1
         </small>
       </div>
     </section>
@@ -771,6 +925,115 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 `;
 
 exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
+.emotion-5 {
+  margin-bottom: 1rem;
+}
+
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-white);
+  border-color: var(--color-brand-800);
+  background-color: var(--color-brand-800);
+}
+
+.dark-mode .emotion-0 {
+  color: var(--primary-background-color);
+  background-color: var(--color-brand-400);
+  border-color: var(--color-brand-400);
+}
+
+.emotion-3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-brand-800);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.dark-mode .emotion-3 {
+  color: var(--color-brand-400);
+}
+
+.dark-mode .emotion-3 {
+  border-color: transparent;
+}
+
+.emotion-2 {
+  margin-right: 0.5rem;
+}
+
+.emotion-8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-neutrals-800);
+  border-color: var(--color-neutrals-100);
+  background-color: var(--color-neutrals-100);
+}
+
+.dark-mode .emotion-8 {
+  color: var(--color-white);
+  border-color: var(--color-dark-100);
+  background-color: var(--color-dark-100);
+}
+
 <div
   className="layout-container projectPageLayout"
 >
@@ -901,7 +1164,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         >
           <div
@@ -1089,13 +1352,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons"
+            className="callToActionButtons emotion-5"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="button button-primary"
+                className="emotion-0 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -1103,12 +1366,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="button button-secondary"
+                className="emotion-3 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
+                  className="emotion-2"
                   src="test-file-stub"
                 />
                 GitHub
@@ -1375,7 +1639,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.5.0
+          1.5.1
         </small>
       </div>
     </section>
@@ -1417,14 +1681,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         className="ctaContainer"
       >
         <button
-          className="button approvalButton"
+          className="approvalButton emotion-0 emotion-1"
           onClick={[Function]}
           type="button"
         >
           Yes
         </button>
         <button
-          className="button button-tertiary ignoreButton"
+          className="ignoreButton emotion-8 emotion-1"
           onClick={[Function]}
           type="button"
         >
