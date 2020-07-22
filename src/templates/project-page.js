@@ -350,7 +350,11 @@ const ProjectPage = props => {
                 >
                   Issues
                 </a>{' '}
-                list. New Relic open source projects follow a <Link to="/contributing">fork-and-pull-request code contribution workflow</Link>.
+                list. New Relic open source projects follow a{' '}
+                <Link to="/contributing">
+                  fork-and-pull-request code contribution workflow
+                </Link>
+                .
               </p>
             </>
           )}
