@@ -1,0 +1,26 @@
+{
+  "name": "go-agent",
+  "fullName": "newrelic/go-agent",
+  "slug": "newrelic-go-agent",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Go Agent",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/go-agent",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/go-agent",
+  "defaultBranch": "master",
+  "contributingGuideUrl": "https://github.com/newrelic/go-agent/blob/master/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "The official New Relic agent for Golang",
+  "description": "Allows you to monitor your Go applications with New Relic",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Go",
+  "projectTags": [ "agent" ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Go Agent",
+    "url": "https://github.com/newrelic/go-agent"
+  }
+}
