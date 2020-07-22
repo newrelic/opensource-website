@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 2,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 1,
+  "commits": 3,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 39402771,
+      "login": "adiosspandit",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/39402771?v=4",
+      "htmlUrl": "https://github.com/adiosspandit",
+      "contributions": 1
+    },
     {
       "id": 929261,
       "login": "tangollama",
@@ -22,7 +29,13 @@
       "contributions": 2
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
