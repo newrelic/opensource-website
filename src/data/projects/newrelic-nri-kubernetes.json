@@ -1,0 +1,30 @@
+{
+  "name": "nri-kubernetes",
+  "fullName": "newrelic/nri-kubernetes",
+  "slug": "newrelic-nri-kubernetes",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Integration for Kubernetes",
+  "supportUrl": "https://discuss.newrelic.com/t/new-relic-kubernetes-open-source-integration",
+  "githubUrl": "https://github.com/newrelic/nri-kubernetes",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-kubernetes",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/nri-kubernetes/blob/main/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "Monitoring for Kubernetes.",
+  "description": "Instruments the container orchestration layer by reporting metrics from Kubernetes objects. It gives you visibility about Kubernetes namespaces, deployments, replica sets, nodes, pods, and containers",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Go",
+  "projectTags": [
+    "nri",
+    "infrastructure",
+    "k8"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Integration for Kubernetes ",
+    "url": "https://github.com/newrelic/nri-kubernetes"
+  }
+}
