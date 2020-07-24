@@ -8,15 +8,22 @@
     "name": "v1.4.0",
     "date": "2019-11-22T10:48:37Z"
   },
-  "commits": 128,
-  "lastSixMonthsCommitTotal": 4,
-  "contributors": 10,
+  "commits": 130,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 11,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
+      "contributions": 1
+    },
     {
       "id": 13438133,
       "login": "matiasburni",
@@ -107,11 +114,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTEz",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "http://choosealicense.com/licenses/mit/",
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
     "featured": true,
-    "key": "mit"
+    "key": "apache-2.0"
   }
 }

@@ -8,11 +8,11 @@
     "name": "v1.5.0",
     "date": "2019-12-10T16:22:49Z"
   },
-  "commits": 65,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 12,
+  "commits": 68,
+  "lastSixMonthsCommitTotal": 5,
+  "contributors": 13,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -44,6 +44,13 @@
       "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
       "htmlUrl": "https://github.com/carlosroman",
       "contributions": 1
+    },
+    {
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
+      "contributions": 2
     },
     {
       "id": 1876430,
@@ -121,11 +128,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTEz",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "http://choosealicense.com/licenses/mit/",
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
     "featured": true,
-    "key": "mit"
+    "key": "apache-2.0"
   }
 }
