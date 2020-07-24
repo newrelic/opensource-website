@@ -59,10 +59,11 @@ const InstrumentationPage = ({ data }) => {
       className={styles.collectionPage}
       editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
     >
-      <SEO title="Open source New Relic One applications" />
+      <SEO title="New Relic Open Source Instrumentation" />
       <PageHeading
         title="New Relic Open Source Instrumentation"
-        subheader="Explore our agents, data exporters, SDK's, and instrumentation intregrations."
+        subheader="Instrument everything, capture complete telemetry, and understand your digital systems better 
+        with our open source instrumentation."
       />
       <div className={styles.collectionListingContainer}>
         <header className={styles.collectionListingHeaderSection}>
@@ -70,7 +71,7 @@ const InstrumentationPage = ({ data }) => {
             Agents
           </h4>
           <p className={styles.collectionListingHeaderSectionDescription}>
-            Automated instrumentation projects for languages and technologies
+            Easily send your telemetry data to New Relic One with our automated instrumentation
           </p>
         </header>
         <div className={styles.collectionListing}>
@@ -88,31 +89,10 @@ const InstrumentationPage = ({ data }) => {
       <div className={styles.collectionListingContainer}>
         <header className={styles.collectionListingHeaderSection}>
           <h4 className={styles.collectionListingHeaderSectionHeading}>
-            New Relic Infrastructure integrations
-          </h4>
-          <p className={styles.collectionListingHeaderSectionDescription}>
-            Replace me with smart words.
-          </p>
-        </header>
-        <div className={styles.collectionListing}>
-          {nris.map(project => {
-            return (
-              <SimpleProjectModule
-                key={project.id}
-                data={project}
-                className={styles.project}
-              />
-            );
-          })}
-        </div>
-      </div>
-      <div className={styles.collectionListingContainer}>
-        <header className={styles.collectionListingHeaderSection}>
-          <h4 className={styles.collectionListingHeaderSectionHeading}>
             Data Exporters
           </h4>
           <p className={styles.collectionListingHeaderSectionDescription}>
-            Replace me with smart words.
+            Send data from popular sources of telemetry to New Relic One
           </p>
         </header>
         <div className={styles.collectionListing}>
@@ -130,10 +110,31 @@ const InstrumentationPage = ({ data }) => {
       <div className={styles.collectionListingContainer}>
         <header className={styles.collectionListingHeaderSection}>
           <h4 className={styles.collectionListingHeaderSectionHeading}>
-            SDK's
+            Infrastructure Integrations
           </h4>
           <p className={styles.collectionListingHeaderSectionDescription}>
-            Replace me with smart words.
+            Extend New Relic's Infrastructure instrumentation across your digital ecosystem
+          </p>
+        </header>
+        <div className={styles.collectionListing}>
+          {nris.map(project => {
+            return (
+              <SimpleProjectModule
+                key={project.id}
+                data={project}
+                className={styles.project}
+              />
+            );
+          })}
+        </div>
+      </div>
+      <div className={styles.collectionListingContainer}>
+        <header className={styles.collectionListingHeaderSection}>
+          <h4 className={styles.collectionListingHeaderSectionHeading}>
+            SDKs
+          </h4>
+          <p className={styles.collectionListingHeaderSectionDescription}>
+            Quickly and easily build custom instrumentation into your software
           </p>
         </header>
         <div className={styles.collectionListing}>
@@ -151,10 +152,10 @@ const InstrumentationPage = ({ data }) => {
       <div className={styles.collectionListingContainer}>
         <header className={styles.collectionListingHeaderSection}>
           <h4 className={styles.collectionListingHeaderSectionHeading}>
-            CLI's
+            CLIs
           </h4>
           <p className={styles.collectionListingHeaderSectionDescription}>
-            Replace me with smart words.
+            Add New Relic to your automated workflows
           </p>
         </header>
         <div className={styles.collectionListing}>
