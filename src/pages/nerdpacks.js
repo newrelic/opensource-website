@@ -88,7 +88,7 @@ const NerdpackPage = ({ data }) => {
           <br />
           The Catalog also provides links to the code for you to futher
           customize. You can borrow code sections to use in your own{' '}
-          <a href="https://developer.newrelic.com/use-cases/build-new-relic-one-applications">
+          <a href="https://developer.newrelic.com/build-apps">
             New Relic One applications
           </a>
           , or explore the source to understand how they work. Check out our{' '}
