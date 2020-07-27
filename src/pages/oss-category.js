@@ -11,7 +11,6 @@ import community from '../images/categories/Community_Project.png';
 import nr1catalog from '../images/categories/New_Relic_One_Catalog_Project.png';
 import example from '../images/categories/Example_Code.png';
 import experimental from '../images/categories/Experimental.png';
-import product from '../images/categories/Product_Delivered_in_Open_Source.png';
 import archived from '../images/categories/Archived.png';
 import styles from './oss-category.module.scss';
 
@@ -34,7 +33,6 @@ const headers = [
   nr1catalog,
   example,
   experimental,
-  product,
   archived
 ];
 
