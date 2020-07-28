@@ -343,6 +343,17 @@ img.play-button {
 
 .featured-internal-projects-container {
   margin-bottom: 40px;
+
+  &:before {
+    position: absolute;
+    left: 0;
+    content: "";
+    height: 500px;
+    background-color: var(--color-neutrals-100);
+    width: 100%;
+    transform: skewY(-2deg) translateY(-80px);
+    z-index:-1;
+  }
 }
 
 .responsive-video-container {
