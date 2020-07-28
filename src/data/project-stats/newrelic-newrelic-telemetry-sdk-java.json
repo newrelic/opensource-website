@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-java",
   "issues": {
-    "open": 16
+    "open": 15
   },
   "releases": 10,
   "latestRelease": {
@@ -16,23 +16,6 @@
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU1NDY1OTc1OTA=",
-      "title": "Make examples jar runnable with a main method",
-      "url": "https://github.com/newrelic/newrelic-telemetry-sdk-java/issues/116",
-      "createdAt": "2020-01-08T01:38:17Z",
-      "comments": {
-        "totalCount": 4
-      },
-      "author": {
-        "login": "breedx-nr",
-        "id": "MDQ6VXNlcjU0MDg1MTkw",
-        "email": "",
-        "name": "Jason Plumb"
-      },
-      "number": 116,
-      "createdBy": "Jason Plumb"
-    },
     {
       "id": "MDU6SXNzdWU2MjY4NTU3OTc=",
       "title": "Create logging example in telemetry_examples/",
@@ -65,6 +48,23 @@
         "name": "Jason Plumb"
       },
       "number": 172,
+      "createdBy": "Jason Plumb"
+    },
+    {
+      "id": "MDU6SXNzdWU2NDQ4MjM2MTE=",
+      "title": "Event should protect from invalid eventType",
+      "url": "https://github.com/newrelic/newrelic-telemetry-sdk-java/issues/195",
+      "createdAt": "2020-06-24T18:26:01Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "breedx-nr",
+        "id": "MDQ6VXNlcjU0MDg1MTkw",
+        "email": "",
+        "name": "Jason Plumb"
+      },
+      "number": 195,
       "createdBy": "Jason Plumb"
     }
   ],
