@@ -8,6 +8,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
+import HomepageCollection from '../components/HomepageCollection';
 import styles from './home-page.module.scss';
 
 import videoPlaceholder from '../images/video-placeholder-1.jpg';
@@ -195,6 +196,8 @@ const HomePage = ({ data }) => {
           setHeroVideoActive(false);
         }}
       />
+
+      <HomepageCollection />
 
       <HomePageHighlights data={externalProjects} />
 
