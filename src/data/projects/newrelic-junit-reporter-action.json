@@ -1,0 +1,23 @@
+{
+    "name": "junit-reporter-action",
+    "fullName": "newrelic/junit-reporter-action",
+    "slug": "newrelic-junit-reporter-action",
+    "owner": {
+      "login": "newrelic",
+      "type": "Organization"
+    },
+    "title": "New Relic JUnit Reporter",
+    "supportUrl": null,
+    "githubUrl": "https://github.com/newrelic/junit-reporter-action",
+    "permalink": "https://opensource.newrelic.com/projects/newrelic/junit-reporter-action",
+    "iconUrl": null,
+    "shortDescription": "GitHub Action for sending JUnit test run results to New Relic.",
+    "description": "A GitHub Action for posting JUnit test run results as custom events to New Relic.",
+    "ossCategory": "community-project",
+    "projectTags": [ "tools", "ci", "github-action" ],
+    "acceptsContributions": true,
+    "website": {
+      "title": "New Relic JUnit Reporter",
+      "url": "https://github.com/newrelic/junit-reporter-action"
+    }
+  }
