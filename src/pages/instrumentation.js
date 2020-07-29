@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -14,8 +14,10 @@ export const query = graphql`
     allProjects(
       filter: {
         projectType: { eq: "newrelic" }
-        projectTags:
-          { elemMatch: { slug: { in: ["exporter", "nri", "agent", "sdk", "cli" ] } }
+        projectTags: {
+          elemMatch: {
+            slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
+          }
         }
       }
     ) {
@@ -46,12 +48,22 @@ const InstrumentationPage = ({ data }) => {
     return p;
   });
 
-  const exporters = allProjects.filter(p => p.projectTags.find(t => t.slug === 'exporter'));
-  const nris = allProjects.filter(p => p.projectTags.find(t => t.slug === 'nri'));
-  const sdks = allProjects.filter(p => p.projectTags.find(t => t.slug === 'sdk'));
-  const clis = allProjects.filter(p => p.projectTags.find(t => t.slug === 'cli'));
-  const agents = allProjects.filter(p => p.projectTags.find(t => t.slug === 'agent'));
-  //const opentelemetry = allProjects.filter(p => p.projectTags.find(t => t.slug === 'opentelemetry'));
+  const exporters = allProjects.filter(p =>
+    p.projectTags.find(t => t.slug === 'exporter')
+  );
+  const nris = allProjects.filter(p =>
+    p.projectTags.find(t => t.slug === 'nri')
+  );
+  const sdks = allProjects.filter(p =>
+    p.projectTags.find(t => t.slug === 'sdk')
+  );
+  const clis = allProjects.filter(p =>
+    p.projectTags.find(t => t.slug === 'cli')
+  );
+  const agents = allProjects.filter(p =>
+    p.projectTags.find(t => t.slug === 'agent')
+  );
+  // const opentelemetry = allProjects.filter(p => p.projectTags.find(t => t.slug === 'opentelemetry'));
 
   return (
     <Layout
@@ -62,7 +74,7 @@ const InstrumentationPage = ({ data }) => {
       <SEO title="New Relic Open Source Instrumentation" />
       <PageHeading
         title="New Relic Open Source Instrumentation"
-        subheader="Instrument everything, capture complete telemetry, and understand your digital systems better 
+        subheader="Instrument everything, capture complete telemetry, and understand your digital systems better
         with our open source instrumentation."
       />
       <div className={styles.collectionListingContainer}>
@@ -71,7 +83,8 @@ const InstrumentationPage = ({ data }) => {
             Agents
           </h4>
           <p className={styles.collectionListingHeaderSectionDescription}>
-            Easily send your telemetry data to New Relic One with our automated instrumentation
+            Easily send your telemetry data to New Relic One with our automated
+            instrumentation
           </p>
         </header>
         <div className={styles.collectionListing}>
@@ -113,7 +126,8 @@ const InstrumentationPage = ({ data }) => {
             Infrastructure Integrations
           </h4>
           <p className={styles.collectionListingHeaderSectionDescription}>
-            Extend New Relic's Infrastructure instrumentation across your digital ecosystem
+            Extend New Relic's Infrastructure instrumentation across your
+            digital ecosystem
           </p>
         </header>
         <div className={styles.collectionListing}>
@@ -130,9 +144,7 @@ const InstrumentationPage = ({ data }) => {
       </div>
       <div className={styles.collectionListingContainer}>
         <header className={styles.collectionListingHeaderSection}>
-          <h4 className={styles.collectionListingHeaderSectionHeading}>
-            SDKs
-          </h4>
+          <h4 className={styles.collectionListingHeaderSectionHeading}>SDKs</h4>
           <p className={styles.collectionListingHeaderSectionDescription}>
             Quickly and easily build custom instrumentation into your software
           </p>
@@ -151,9 +163,7 @@ const InstrumentationPage = ({ data }) => {
       </div>
       <div className={styles.collectionListingContainer}>
         <header className={styles.collectionListingHeaderSection}>
-          <h4 className={styles.collectionListingHeaderSectionHeading}>
-            CLIs
-          </h4>
+          <h4 className={styles.collectionListingHeaderSectionHeading}>CLIs</h4>
           <p className={styles.collectionListingHeaderSectionDescription}>
             Add New Relic to your automated workflows
           </p>
