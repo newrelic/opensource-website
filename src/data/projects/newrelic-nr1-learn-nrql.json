@@ -1,0 +1,29 @@
+{
+  "name": "nr1-learn-nrql",
+  "fullName": "newrelic/nr1-learn-nrql",
+  "slug": "newrelic-nr1-learn-nrql",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic One NRQL Lessons",
+  "supportUrl": "https://discuss.newrelic.com/t/new-relic-nrql-lessons-nerdpack/109646",
+  "githubUrl": "https://github.com/newrelic/nr1-learn-nrql",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-learn-nrql",
+  "defaultBranch": "main",
+  "contributingGuideUrl": null,
+  "iconUrl": "https://github.com/newrelic/nr1-learn-nrql/blob/main/icon.png?raw=true",
+  "shortDescription": "Improve your NRQL skills",
+  "description": "NRQL Lessons is a self-paced learning tool aimed to help New Relic customers improve their NRQL skills. Master NRQL (New Relic's Query Language) through a series of training levels using your own data.  Start from the very basics of NRQL syntax through to advanced concepts and querying techniques to become NRQL Ninjas!",
+  "ossCategory": "new-relic-one-catalog-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [
+    "nr1-app",
+    "training"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic One NRQL Lessons",
+    "url": "https://github.com/newrelic/nr1-learn-nrql"
+  }
+}
