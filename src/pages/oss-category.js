@@ -3,11 +3,13 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { get } from 'lodash';
 import { css } from '@emotion/core';
+import marked from 'marked';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 import community from '../images/categories/Community_Project.png';
+import community_plus from '../images/categories/Community_Plus.png';
 import nr1catalog from '../images/categories/New_Relic_One_Catalog_Project.png';
 import example from '../images/categories/Example_Code.png';
 import experimental from '../images/categories/Experimental.png';
@@ -30,11 +32,14 @@ export const query = graphql`
 
 const headers = [
   community,
+  community_plus,
   nr1catalog,
   example,
   experimental,
   archived
 ];
+
+marked.setOptions({ gfm: true })
 
 const OssCategoryPage = ({ data }) => {
   const categories = get(data, 'allOssCategory.nodes', []);
@@ -44,7 +49,7 @@ const OssCategoryPage = ({ data }) => {
     .map(cat => {
       return (
         <li key={cat.slug} className={styles.categorySidebarItem}>
-          <a href={`#${cat.slug}`} className={styles.categorySidebarItemLink}>
+          <a href={`./#${cat.slug}`} className={styles.categorySidebarItemLink}>
             {cat.title}
           </a>
         </li>
@@ -68,7 +73,7 @@ const OssCategoryPage = ({ data }) => {
               <h3>Requirements</h3>
               <ul>
                 {cat.requirements.map((req, i) => (
-                  <li key={i}>{req}</li>
+                  <li key={i} dangerouslySetInnerHTML={{__html: marked(req)}}></li>
                 ))}
               </ul>
             </>
