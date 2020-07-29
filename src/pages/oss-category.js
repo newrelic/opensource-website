@@ -39,7 +39,7 @@ const headers = [
   archived
 ];
 
-marked.setOptions({ gfm: true })
+marked.setOptions({ gfm: true });
 
 const OssCategoryPage = ({ data }) => {
   const categories = get(data, 'allOssCategory.nodes', []);
@@ -73,7 +73,10 @@ const OssCategoryPage = ({ data }) => {
               <h3>Requirements</h3>
               <ul>
                 {cat.requirements.map((req, i) => (
-                  <li key={i} dangerouslySetInnerHTML={{__html: marked(req)}}></li>
+                  <li
+                    key={i}
+                    dangerouslySetInnerHTML={{ __html: marked(req) }}
+                  />
                 ))}
               </ul>
             </>
