@@ -427,7 +427,15 @@ const ProjectPage = props => {
                 <a href={supportUrl} target="__blank" rel="noopener noreferrer">
                   Explorers Hub
                 </a>
-                .
+                , and review the{' '}
+                <a
+                  href="https://docs.newrelic.com/docs/licenses/license-information/general-usage-licenses/global-technical-support-offerings"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  New Relic Support Policy
+                </a>{' '}
+                for details on open source support.
               </p>
             </>
           ) : (
@@ -443,7 +451,15 @@ const ProjectPage = props => {
                 >
                   Explorers Hub
                 </a>{' '}
-                for help.
+                for help, and review the{' '}
+                <a
+                  href="https://docs.newrelic.com/docs/licenses/license-information/general-usage-licenses/global-technical-support-offerings"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  New Relic Support Policy
+                </a>{' '}
+                for details on open source support.
               </p>
             </>
           )}
