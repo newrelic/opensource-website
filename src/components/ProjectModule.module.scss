@@ -8,9 +8,10 @@
   text-align: center;
   background-color: var(--color-background);
   position: relative;
-  border-radius: 4px;
   z-index: 100;
-  box-shadow: 0px 2.76726px 2.21381px rgba(0, 85, 90, 0.0168687), 0px 6.6501px 5.32008px rgba(0, 85, 90, 0.0242336), 0px 12.5216px 10.0172px rgba(0, 85, 90, 0.03), 0px 22.3363px 17.869px rgba(0, 85, 90, 0.0357664), 0px 41.7776px 33.4221px rgba(0, 85, 90, 0.0431313), 0px 100px 80px rgba(0, 85, 90, 0.06);
+  border: 1px solid var(--color-neutrals-300);
+  box-shadow: 0px 0.249053px 0.553451px rgba(0, 0, 0, 0.00562291), 0px 0.598509px 1.33002px rgba(0, 0, 0, 0.00807786), 0px 1.12694px 2.50431px rgba(0, 0, 0, 0.01), 0px 2.01027px 4.46726px rgba(0, 0, 0, 0.0119221), 0px 3.75998px 8.35552px rgba(0, 0, 0, 0.0143771), 0px 9px 20px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
   transition: all .13s var(--ease-out-quad);
 
   &:last-child {

@@ -30,7 +30,7 @@
     height: 10000px;
     background-color: var(--color-neutrals-100);
     width: 100%;
-    transform: skewY(-2deg) translateY(-30px);
+    transform: skewY(-2deg) translateY(-70px);
     z-index:-1;
   }
 }
@@ -59,6 +59,7 @@
 }
 
 .collection-listing {
+  position: relative;
   margin-bottom: 40px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
@@ -75,6 +76,65 @@
   }
 }
 
+.collections-page {
+  .collection-listing-container {
+    margin-top: 70px;
+  }
+
+  .collection-listing-header-section {
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+  }
+
+  .collection-listing-header-section-heading {
+    display: inline;
+    margin-right: 10px;
+  }
+
+  .collection-listing-header-section-description {
+    display: inline;
+  }
+
+  .collection-listing {
+    &:after {
+      content: "";
+      display: block;
+      width: 150px;
+      height: calc(100% + 25px);
+      position: absolute;
+      top: -1px;
+      right: -9px;
+      z-index: 1000; 
+      background: linear-gradient(270deg, var(--color-neutrals-100) 34.6%, rgba(244, 245, 245, 0) 78.29%);
+    }
+  }
+  
+
+  .page-heading {
+    margin-bottom: 100px;
+  }
+}
+
+.collections-page-collection-link {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  border: none;
+
+  svg {
+    transform: scale(.75) translateY(-1.5px);
+  }
+}
+
+.collection-project-count {
+  margin: 0 2px;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
 // ==============================================================
 // Responsive styles
 // ==============================================================
@@ -84,7 +144,23 @@
     padding: 0 28px;
   }    
 
-  // .collection-listing {}
+  .collections-page {
+    .collection-listing-header-section {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .collection-listing-header-section-heading {
+      display: block;
+      text-align: center;
+    }
+  
+    .collection-listing-header-section-description {
+      display: block;
+      text-align: center;
+      margin-bottom: 4px;
+    }
+  }  
 }
 
 @media screen and (max-width: 1024px) {
@@ -125,5 +201,21 @@
 
   .collection-listing-header-section-heading {
     margin-top: 20px;
+  }
+
+  .collections-page .collection-listing:after {
+    display: none;
+  }
+
+  .collections-page div.collection-listing-container {
+    margin-top: 40px;
+
+    &:before {
+      transform: skewY(-2deg) translateY(-30px);
+    }
+  }
+
+  .collections-page .page-heading {
+    margin-bottom: 0px;
   }
 }
