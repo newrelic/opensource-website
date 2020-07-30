@@ -69,7 +69,7 @@ const PageHeading = props => {
         !hasIcon && props.hasSeparator ? styles.hasSeparatorWithoutIcon : ''
       } ${props.icon ? styles.hasIcon : ''} ${
         props.callToAction ? styles.hasCallToAction : ''
-      }`}
+      } ${props.className ? props.className : ''}`}
     >
       {hasIcon && props.showIcon && (
         <div className={styles.pageHeadingIconContainer}>
@@ -112,7 +112,8 @@ PageHeading.propTypes = {
   hasSeparator: PropTypes.bool,
   blogMeta: PropTypes.string,
   callToAction: PropTypes.func,
-  darkMode: PropTypes.object
+  darkMode: PropTypes.object,
+  className: PropTypes.string
 };
 
 export default withDarkMode(PageHeading);

@@ -155,3 +155,15 @@
     animation-duration: 30s;
   }    
 }
+
+// ==============================================================
+// Dark mode styles
+// =============================================================
+
+:global(.dark-mode) {
+  .homepage-collection:before {
+
+    background: linear-gradient(0deg, rgba(0,0,0, .2) 23.26%, var(--color-neutrals-100));
+
+  }
+}
