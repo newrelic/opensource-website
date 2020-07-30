@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/newrelic/opensource-website/compare/v1.5.1...v1.6.0) (2020-07-30)
+
+
+### Bug Fixes
+
+* correct header for archived ([35aac22](https://github.com/newrelic/opensource-website/commit/35aac2286500d2d49200e1cd32c452ac514a6c2f))
+* update/clarify support policy details ([0b24e90](https://github.com/newrelic/opensource-website/commit/0b24e90ead95c3fe4ea06755946fd112bee76c06))
+
+
+### Features
+
+* add instrumentation landing page ([d1b7802](https://github.com/newrelic/opensource-website/commit/d1b7802069349dcbf85aea94b85cc3d060496c0a))
+
 ## [1.5.1](https://github.com/newrelic/opensource-website/compare/v1.5.0...v1.5.1) (2020-07-22)
 
 
