@@ -26,6 +26,22 @@ export const query = graphql`
         }
       }
     }
+    instrumentation: allProjects(
+      filter: {
+        projectType: { eq: "newrelic" }
+        projectTags: {
+          elemMatch: {
+            slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
+          }
+        }
+      } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC } # limit: 8
+    ) {
+      edges {
+        node {
+          ...projectFields
+        }
+      }
+    }
     openTelemetry: allProjects(
       filter: {
         slug: { eq: "open-telemetry" }
@@ -70,6 +86,8 @@ export const query = graphql`
 
 const HomePage = ({ data }) => {
   const [heroVideoActive, setHeroVideoActive] = useState(false);
+
+  const instrumentationProjects = get(data, 'instrumentation.edges');
 
   const externalProjects = [
     get(data, 'openTelemetry.nodes[0]'),
@@ -197,7 +215,7 @@ const HomePage = ({ data }) => {
         }}
       />
 
-      <HomepageCollection />
+      <HomepageCollection projects={instrumentationProjects.map(i => i.node)} />
 
       <HomePageHighlights data={externalProjects} />
 

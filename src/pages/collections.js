@@ -15,8 +15,8 @@ export const query = graphql`
     nerdpacks: allProjects(
       filter: {
         projectType: { eq: "newrelic" }
-        projectTags: { elemMatch: { slug: { eq: "nr1-app" } } }
-      }
+        projectTags: { elemMatch: { slug: { eq: "nr1-app" }  } }
+      } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
     ) {
       edges {
         node {
@@ -25,7 +25,11 @@ export const query = graphql`
       }
     }
 
-    layouts: allProjects(filter: { name: { regex: "/layout/" } }) {
+    layouts: allProjects(
+      filter: {
+        name: { regex: "/layout/" }
+      } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
+    ) {
       edges {
         node {
           ...exploreProjectsFields
@@ -44,52 +48,82 @@ export const query = graphql`
   }
 `;
 
+function generateDescription(name) {
+  switch (name) {
+    case 'nerdpacks':
+      return 'Explore the New Relic One Applications that are available in open source.';
+    case 'layouts':
+      return 'Build a better application beginning with a better starting point.';
+    case 'instrumentation':
+      return 'Instrument everything with our open source agents, tools, and sdk\'s.'
+  }
+}
+
 const CollectionPage = ({ data }) => {
-  const allCollections = Object.entries(data);
+  const allData = Object.entries(data);
+  const allCollections = allData.filter(c => c[0] !== 'sitePage').map(c => {
+    return {
+      name: c[0],
+      size: c[1].edges.length,
+      projects: c[1].edges.filter((e, i) => i < 4).map(e => e.node),
+      description: generateDescription(c[0])
+    }
+  });
+  console.debug(allCollections);
   return (
-    <Layout fullWidth className={`${styles.collectionPage} ${styles.collectionsPage}`}>
+    <Layout
+      fullWidth
+      className={`${styles.collectionPage} ${styles.collectionsPage}`}
+    >
       <SEO title="Open source projects to which New Relic contributes" />
       <PageHeading
         title="Highlighted projects"
-        subheader="Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum."
+        subheader="Explore collections of unique solutions in telemetry acquisition and visualization."
         className={styles.pageHeading}
       />
-      {allCollections.map((collection, i) => {
-        if (collection[0] !== 'sitePage') {
+
+      {allCollections.map(collection => {
           return (
             <>
               <div className={styles.collectionListingContainer}>
                 <header className={styles.collectionListingHeaderSection}>
                   <div>
-                    <h4 className={styles.collectionListingHeaderSectionHeading}>
-                      {startCase(collection[0])}
+                    <h4
+                      className={styles.collectionListingHeaderSectionHeading}
+                    >
+                      {startCase(collection.name)}
                     </h4>
-                    <p className={styles.collectionListingHeaderSectionDescription}>
-                      Explore the open source repositories for New Relic agent technology
+                    <p
+                      className={
+                        styles.collectionListingHeaderSectionDescription
+                      }
+                    >
+                      {collection.description}
                     </p>
                   </div>
-                  <a href={collection[0]} className={styles.collectionsPageCollectionLink}>
-                    View all <span className={styles.collectionProjectCount}>{collection[1].edges.length}</span> projects 
+                  <a
+                    href={`/${collection.name}`}
+                    className={styles.collectionsPageCollectionLink}
+                  >
+                    View all{' '}
+                    <span className={styles.collectionProjectCount}>
+                      {collection.size}
+                    </span>{' '}
+                    projects
                     <ChevronRight />
                   </a>
                 </header>
                 <div className={styles.collectionListing}>
-                  {collection[1].edges.map((project, i) => {
-                    if (i < 4) {
-                      return (
-                        <SimpleProjectModule
-                          key={project.node.id}
-                          data={project.node}
+                  {collection.projects.map(project => <SimpleProjectModule
+                          key={project.id}
+                          data={project}
                           className={styles.project}
                         />
-                      );
-                    }
-                  })}
+                  )}
                 </div>
               </div>
             </>
           );
-        }
       })}
     </Layout>
   );
