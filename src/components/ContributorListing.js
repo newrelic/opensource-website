@@ -5,9 +5,9 @@ import styles from './ContributorListing.module.scss';
 
 const ContributorListing = ({ contributors, project }) => {
   const renderContributorItems = () => {
-    const sortedContributors = contributors.sort((a, b) =>
-      b.contributions > a.contributions ? 1 : -1
-    );
+    const sortedContributors = contributors
+      .filter(contributor => contributor.login.indexOf('-bot') === -1)
+      .sort((a, b) => (b.contributions > a.contributions ? 1 : -1));
 
     const navigate = url => window.open(url, '_blank');
     const contributorItem = sortedContributors.map((contributor, i) => {
