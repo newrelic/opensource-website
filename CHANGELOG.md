@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/newrelic/opensource-website/compare/v1.6.0...v1.6.1) (2020-07-30)
+
+
+### Bug Fixes
+
+* exclude bots from contributor list ([f1c7c81](https://github.com/newrelic/opensource-website/commit/f1c7c815bc10034a1fd76aafdc7bccacac0eded1))
+
 # [1.6.0](https://github.com/newrelic/opensource-website/compare/v1.5.1...v1.6.0) (2020-07-30)
 
 
