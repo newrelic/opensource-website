@@ -3,14 +3,14 @@
   "issues": {
     "open": 0
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
     "name": "1.0",
     "date": "2020-07-28T14:28:28Z"
   },
-  "commits": 2,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 1,
+  "commits": 6,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 3,
   "pullRequests": {
     "open": 0
   },
@@ -18,14 +18,44 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 11946809,
+      "login": "khpeet",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/11946809?v=4",
+      "htmlUrl": "https://github.com/khpeet",
+      "contributions": 1
+    },
+    {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
       "contributions": 2
+    },
+    {
+      "id": 30607359,
+      "login": "peetk",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/30607359?v=4",
+      "htmlUrl": "https://github.com/peetk",
+      "contributions": 2
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
