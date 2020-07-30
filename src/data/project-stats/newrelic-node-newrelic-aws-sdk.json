@@ -1,28 +1,28 @@
 {
   "projectFullName": "newrelic/node-newrelic-aws-sdk",
   "issues": {
-    "open": 4
+    "open": 2
   },
   "releases": 7,
   "latestRelease": {
     "name": "v1.1.3",
     "date": null
   },
-  "commits": 134,
-  "lastSixMonthsCommitTotal": 15,
-  "contributors": 6,
+  "commits": 182,
+  "lastSixMonthsCommitTotal": 63,
+  "contributors": 7,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 54335840,
-      "login": "carlonewrelic",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/54335840?v=4",
-      "htmlUrl": "https://github.com/carlonewrelic",
-      "contributions": 1
+      "id": 398399,
+      "login": "nijotz",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
+      "htmlUrl": "https://github.com/nijotz",
+      "contributions": 3
     },
     {
       "id": 1342804,
@@ -32,11 +32,11 @@
       "contributions": 4
     },
     {
-      "id": 32520944,
-      "login": "astormnewrelic",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/32520944?v=4",
-      "htmlUrl": "https://github.com/astormnewrelic",
-      "contributions": 11
+      "id": 54335840,
+      "login": "carlonewrelic",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/54335840?v=4",
+      "htmlUrl": "https://github.com/carlonewrelic",
+      "contributions": 5
     },
     {
       "id": 7945073,
@@ -44,6 +44,13 @@
       "avatarUrl": "https://avatars2.githubusercontent.com/u/7945073?v=4",
       "htmlUrl": "https://github.com/psvet",
       "contributions": 19
+    },
+    {
+      "id": 32520944,
+      "login": "astormnewrelic",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/32520944?v=4",
+      "htmlUrl": "https://github.com/astormnewrelic",
+      "contributions": 20
     },
     {
       "id": 466761,
@@ -57,7 +64,7 @@
       "login": "michaelgoin",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 41
+      "contributions": 54
     }
   ],
   "languages": [
@@ -69,11 +76,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }
