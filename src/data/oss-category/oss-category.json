@@ -15,6 +15,22 @@
     ]
   },
   {
+    "title": "Community Plus",
+    "slug": "community-plus",
+    "description": "This code is developed in the open with input from the community through issues and PRs. A New Relic engineering team serves as the maintainer. Troubleshooting support is available in the New Relic Explorers Hub, and documentation is available in the project repository and docs.newrelic.com.",
+    "requirements": [
+      "Complies with New Relic's legal and security requirements for open source software",
+      "Contains the appropriate New Relic open source category header in the repository's README file",
+      "Is maintained by a New Relic engineering team",
+      "Troubleshooting support via the New Relic Explorers Hub",
+      "Issues and PR’s managed in GitHub",
+      "For additional details on support options, see the [Open Source Support Policy](https://docs.newrelic.com/docs/licenses/license-information/general-usage-licenses/global-technical-support-offerings)",
+      "Documentation reviewed by the New Relic documentation team",
+      "Linted code",
+      "An automated release pipeline"
+    ]
+  },
+  {
     "title": "New Relic One Catalog",
     "slug": "new-relic-one-catalog-project",
     "description": "This code is a part of the New Relic One Catalog. It meets the criteria for a Community Project; but it also contains UI workflows for configuration. Most Catalog projects seek to maintain a public roadmap, often expressed in a GitHub Project board and Issues within the repository.",
