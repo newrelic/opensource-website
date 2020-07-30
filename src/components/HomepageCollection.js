@@ -31,7 +31,6 @@ const HomepageCollection = ({ projects }) => {
           as="a"
           variant={Button.VARIANT.PRIMARY}
           href="/instrumentation"
-          target="__blank"
           css={css`
             .dark-mode & {
               border-color: transparent;

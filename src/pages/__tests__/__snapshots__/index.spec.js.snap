@@ -408,7 +408,6 @@ exports[`HomePage Renders correctly 1`] = `
         <a
           className="ctaButton emotion-0 emotion-1"
           href="/instrumentation"
-          target="__blank"
         >
           <span
             className="subProjectCallToActionLabel"
@@ -568,7 +567,7 @@ exports[`HomePage Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.6.1
+          1.7.0
         </small>
       </div>
     </section>
