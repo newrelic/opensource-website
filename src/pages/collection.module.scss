@@ -23,6 +23,7 @@
 }
 
 .collection-listing-container {
+  margin-top: 100px;
   &:before {
     position: absolute;
     left: 0;
@@ -109,7 +110,6 @@
     }
   }
   
-
   .page-heading {
     margin-bottom: 100px;
   }

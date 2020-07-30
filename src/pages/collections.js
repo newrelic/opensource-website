@@ -32,6 +32,24 @@ export const query = graphql`
         }
       }
     }
+
+    instrumentation: allProjects(
+      filter: {
+        projectType: { eq: "newrelic" }
+        projectTags: {
+          elemMatch: {
+            slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
+          }
+        }
+      }
+    ) {
+      edges {
+        node {
+          ...exploreProjectsFields
+        }
+      }
+    }
+
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
         fields {

@@ -56,6 +56,24 @@ export const query = graphql`
         ...projectFields
       }
     }
+
+    instrumentation: allProjects(
+      filter: {
+        projectType: { eq: "newrelic" }
+        projectTags: {
+          elemMatch: {
+            slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
+          }
+        }
+      }
+    ) {
+      edges {
+        node {
+          ...exploreProjectsFields
+        }
+      }
+    }
+    
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
         fields {
@@ -197,7 +215,7 @@ const HomePage = ({ data }) => {
         }}
       />
 
-      <HomepageCollection />
+      <HomepageCollection data={data.instrumentation.edges} />
 
       <HomePageHighlights data={externalProjects} />
 
