@@ -240,6 +240,16 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
       >
         <a
           className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
           href="/explore-projects"
         >
           New Relic Projects
@@ -266,6 +276,16 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -403,6 +423,16 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         >
           <a
             className="footerNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
             href="/explore-projects"
           >
             New Relic Projects
@@ -454,7 +484,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.6.1
+          1.7.0
         </small>
       </div>
     </section>
@@ -702,6 +732,16 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
       >
         <a
           className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
           href="/explore-projects"
         >
           New Relic Projects
@@ -728,6 +768,16 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -865,6 +915,16 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         >
           <a
             className="footerNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
             href="/explore-projects"
           >
             New Relic Projects
@@ -916,7 +976,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.6.1
+          1.7.0
         </small>
       </div>
     </section>
@@ -1218,6 +1278,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
       >
         <a
           className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
           href="/explore-projects"
         >
           New Relic Projects
@@ -1271,6 +1341,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         >
           <a
             className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
             href="/explore-projects"
           >
             New Relic Projects
@@ -1283,7 +1363,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     className="layout-container-main  undefined"
   >
     <div
-      className="pageHeadingContainer hasSeparator   hasIcon "
+      className="pageHeadingContainer hasSeparator   hasIcon  "
     >
       <div
         className="pageHeadingIconContainer"
@@ -1588,6 +1668,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         >
           <a
             className="footerNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
             href="/explore-projects"
           >
             New Relic Projects
@@ -1639,7 +1729,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.6.1
+          1.7.0
         </small>
       </div>
     </section>

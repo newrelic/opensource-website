@@ -165,6 +165,16 @@ exports[`External Projects Page Renders correctly 1`] = `
       >
         <a
           className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
           href="/explore-projects"
         >
           New Relic Projects
@@ -191,6 +201,16 @@ exports[`External Projects Page Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -246,6 +266,16 @@ exports[`External Projects Page Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -317,7 +347,7 @@ exports[`External Projects Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.6.1
+          1.7.0
         </small>
       </div>
     </section>

@@ -1,8 +1,18 @@
+
 .featured-internal-projects {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   grid-template-rows: 1fr  auto;
   grid-gap: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .featured-internal-projects-container {
+    opacity: .1;
+    &:before {
+      height: 700px;
+    }
+  }
 }
 
 @media screen and (max-width: 480px) {

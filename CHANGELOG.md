@@ -1,3 +1,24 @@
+# [1.7.0](https://github.com/newrelic/opensource-website/compare/v1.6.1...v1.7.0) (2020-07-30)
+
+
+### Bug Fixes
+
+* build collections ([2890dcb](https://github.com/newrelic/opensource-website/commit/2890dcb039eef98e477caf1782b126a12bc06a84))
+* center homepage collection list of projects ([89ead32](https://github.com/newrelic/opensource-website/commit/89ead32f7f101befdf54c76a268f3f569cd66554))
+* merge changes and arrange homepage and landing page content ([52afb68](https://github.com/newrelic/opensource-website/commit/52afb68cd875d623dcd5ff60e27a7db7fcf2eede))
+* responsive + dark mode fixes for collections ([6d3fb2f](https://github.com/newrelic/opensource-website/commit/6d3fb2ff01a739642defeb7110c629ef5d82491f))
+* updates to collections ([cf93dad](https://github.com/newrelic/opensource-website/commit/cf93dad22609c89f9c7cf3138d740a410c1aac9f))
+
+
+### Features
+
+* add collections landing page ([38c315b](https://github.com/newrelic/opensource-website/commit/38c315b1168792725ee001d348af7be2a57d5814))
+* add highlighted projects into top nav ([b6b4c08](https://github.com/newrelic/opensource-website/commit/b6b4c08d5230e3d066f7aa5d8b94dbe99a4dd329))
+* add in markup + styles for home collections ([2bdf7ef](https://github.com/newrelic/opensource-website/commit/2bdf7ef4f8c55a84f27df1feb26c2aff80f20613))
+* finish responsive styling homepage updates ([a357c12](https://github.com/newrelic/opensource-website/commit/a357c12bf5f01b0fe7296f13637a6712c4aa2ed2))
+* responsive styles for homepage collections ([930a059](https://github.com/newrelic/opensource-website/commit/930a0596107618730ab4452ff1cd5dff43a5000e))
+* update homepage to fit new design ([0d09907](https://github.com/newrelic/opensource-website/commit/0d09907b5af6ab2ad0e84f47e1cf6c9ffe0ea411))
+
 ## [1.6.1](https://github.com/newrelic/opensource-website/compare/v1.6.0...v1.6.1) (2020-07-30)
 
 

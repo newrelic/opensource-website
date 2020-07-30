@@ -162,6 +162,16 @@ Array [
       >
         <a
           className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
           href="/explore-projects"
         >
           New Relic Projects
@@ -188,6 +198,16 @@ Array [
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
