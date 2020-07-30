@@ -41,6 +41,7 @@
 
 .projects-container {
   display: flex;
+  justify-content: center;
   height: 150px;
   overflow: hidden;
   position: relative;
@@ -71,15 +72,11 @@
   height: 105px;
   flex-shrink: 0;
   margin-right: 20px;
-  animation-duration: 60s;
-  animation-name: project-slide;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
   position: relative;
   z-index: 100;
   box-shadow: 0px 0.913195px 0.802504px rgba(4, 22, 22, 0.00562291), 0px 2.19453px 1.92853px rgba(4, 22, 22, 0.00807786), 0px 4.13211px 3.63125px rgba(4, 22, 22, 0.01), 0px 7.37098px 6.47753px rgba(4, 22, 22, 0.0119221), 0px 13.7866px 12.1155px rgba(4, 22, 22, 0.0143771), 0px 33px 29px rgba(4, 22, 22, 0.02);
   pointer-events: none;
+  transform: translateX(-150px);
 
   &:last-child {
     margin-right: 0;
@@ -90,16 +87,6 @@
     animation-play-state: paused;
     opacity: .6;
   }  
-}
-
-@keyframes project-slide {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(-1000px);
-  }
 }
 
 .cta-button {

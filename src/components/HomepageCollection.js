@@ -8,13 +8,12 @@ import SimpleProjectModule from './SimpleProjectModule';
 
 const HomepageCollection = ({ projects }) => {
   const [projectsHovered, setProjectsHovered] = useState(false);
-
   return (
     <div className={styles.homepageCollection}>
       <h4 className={styles.title}>Instrumentation projects</h4>
       <p className={styles.description}>
-        Instrument everything with our open source agents, tools, and sdk's.{' '}
-        <a href="/collections">Other highlighted collection</a>
+        Instrument everything with our open source agents, tools, and sdk's or{' '}
+        <a href="/collections">see other highlighted collections.</a>
       </p>
 
       <div
@@ -43,9 +42,10 @@ const HomepageCollection = ({ projects }) => {
             }
           `}
         >
-          <span className={styles.subProjectCallToActionLabel}>View all</span>
+          <span className={styles.subProjectCallToActionLabel}>
+            Explore open source instrumentation
+          </span>
         </Button>
-
         {projects.map(project => {
           const link = project.permalink.replace(
             'https://opensource.newrelic.com',

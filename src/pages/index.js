@@ -17,9 +17,7 @@ import closeIcon from '../images/icon-close.svg';
 
 export const query = graphql`
   query HomePageQuery($path: String) {
-    topProjects: allProjects(
-      filter: { projectType: { eq: "newrelic" } } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC } # limit: 8
-    ) {
+    topProjects: allProjects(filter: { projectType: { eq: "newrelic" } }) {
       edges {
         node {
           ...projectFields
@@ -34,7 +32,7 @@ export const query = graphql`
             slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
           }
         }
-      } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC } # limit: 8
+      }
     ) {
       edges {
         node {
@@ -84,10 +82,27 @@ export const query = graphql`
   }
 `;
 
+function sortByStats(a, b) {
+  if (a.stats === null && b.stats === null) {
+    return 0;
+  } else if (a.stats === null) {
+    return 1;
+  } else if (b.stats === null) {
+    return -1;
+  }
+
+  return a.stats.lastSixMonthsCommitTotal < b.stats.lastSixMonthsCommitTotal
+    ? 1
+    : -1;
+}
+
 const HomePage = ({ data }) => {
   const [heroVideoActive, setHeroVideoActive] = useState(false);
 
-  const instrumentationProjects = get(data, 'instrumentation.edges');
+  const instrumentationProjects = get(data, 'instrumentation.edges', [])
+    .map(i => i.node)
+    .sort(sortByStats)
+    .slice(0, 5);
 
   const externalProjects = [
     get(data, 'openTelemetry.nodes[0]'),
@@ -98,19 +113,7 @@ const HomePage = ({ data }) => {
   // temp workaround until the query above is fixed to pull back the correct top 8
   const internalProjects = get(data, 'topProjects.edges', [])
     .map(i => i.node)
-    .sort((a, b) => {
-      if (a.stats === null && b.stats === null) {
-        return 0;
-      } else if (a.stats === null) {
-        return 1;
-      } else if (b.stats === null) {
-        return -1;
-      }
-
-      return a.stats.lastSixMonthsCommitTotal < b.stats.lastSixMonthsCommitTotal
-        ? 1
-        : -1;
-    })
+    .sort(sortByStats)
     .slice(0, 8);
 
   const renderHeroVideo = () => {
@@ -215,7 +218,7 @@ const HomePage = ({ data }) => {
         }}
       />
 
-      <HomepageCollection projects={instrumentationProjects.map(i => i.node)} />
+      <HomepageCollection projects={instrumentationProjects} />
 
       <HomePageHighlights data={externalProjects} />
 

@@ -12,10 +12,27 @@ import styles from './collection.module.scss';
 
 export const query = graphql`
   query allCollections($path: String) {
+    instrumentation: allProjects(
+      filter: {
+        projectType: { eq: "newrelic" }
+        projectTags: {
+          elemMatch: {
+            slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
+          }
+        }
+      }
+    ) {
+      edges {
+        node {
+          ...exploreProjectsFields
+        }
+      }
+    }
+
     nerdpacks: allProjects(
       filter: {
         projectType: { eq: "newrelic" }
-        projectTags: { elemMatch: { slug: { eq: "nr1-app" }  } }
+        projectTags: { elemMatch: { slug: { eq: "nr1-app" } } }
       } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
     ) {
       edges {
@@ -26,9 +43,7 @@ export const query = graphql`
     }
 
     layouts: allProjects(
-      filter: {
-        name: { regex: "/layout/" }
-      } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
+      filter: { name: { regex: "/layout/" } } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
     ) {
       edges {
         node {
@@ -36,6 +51,7 @@ export const query = graphql`
         }
       }
     }
+
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
         fields {
@@ -55,21 +71,23 @@ function generateDescription(name) {
     case 'layouts':
       return 'Build a better application beginning with a better starting point.';
     case 'instrumentation':
-      return 'Instrument everything with our open source agents, tools, and sdk\'s.'
+      return "Instrument everything with our open source agents, tools, and sdk's.";
   }
 }
 
 const CollectionPage = ({ data }) => {
   const allData = Object.entries(data);
-  const allCollections = allData.filter(c => c[0] !== 'sitePage').map(c => {
-    return {
-      name: c[0],
-      size: c[1].edges.length,
-      projects: c[1].edges.filter((e, i) => i < 4).map(e => e.node),
-      description: generateDescription(c[0])
-    }
-  });
-  console.debug(allCollections);
+  const allCollections = allData
+    .filter(c => c[0] !== 'sitePage')
+    .map(c => {
+      return {
+        name: c[0],
+        size: c[1].edges.length,
+        projects: c[1].edges.filter((e, i) => i < 4).map(e => e.node),
+        description: generateDescription(c[0])
+      };
+    });
+
   return (
     <Layout
       fullWidth
@@ -83,47 +101,44 @@ const CollectionPage = ({ data }) => {
       />
 
       {allCollections.map(collection => {
-          return (
-            <>
-              <div className={styles.collectionListingContainer}>
-                <header className={styles.collectionListingHeaderSection}>
-                  <div>
-                    <h4
-                      className={styles.collectionListingHeaderSectionHeading}
-                    >
-                      {startCase(collection.name)}
-                    </h4>
-                    <p
-                      className={
-                        styles.collectionListingHeaderSectionDescription
-                      }
-                    >
-                      {collection.description}
-                    </p>
-                  </div>
-                  <a
-                    href={`/${collection.name}`}
-                    className={styles.collectionsPageCollectionLink}
+        return (
+          <>
+            <div className={styles.collectionListingContainer}>
+              <header className={styles.collectionListingHeaderSection}>
+                <div>
+                  <h4 className={styles.collectionListingHeaderSectionHeading}>
+                    {startCase(collection.name)}
+                  </h4>
+                  <p
+                    className={styles.collectionListingHeaderSectionDescription}
                   >
-                    View all{' '}
-                    <span className={styles.collectionProjectCount}>
-                      {collection.size}
-                    </span>{' '}
-                    projects
-                    <ChevronRight />
-                  </a>
-                </header>
-                <div className={styles.collectionListing}>
-                  {collection.projects.map(project => <SimpleProjectModule
-                          key={project.id}
-                          data={project}
-                          className={styles.project}
-                        />
-                  )}
+                    {collection.description}
+                  </p>
                 </div>
+                <a
+                  href={`/${collection.name}`}
+                  className={styles.collectionsPageCollectionLink}
+                >
+                  View all{' '}
+                  <span className={styles.collectionProjectCount}>
+                    {collection.size}
+                  </span>{' '}
+                  projects
+                  <ChevronRight />
+                </a>
+              </header>
+              <div className={styles.collectionListing}>
+                {collection.projects.map(project => (
+                  <SimpleProjectModule
+                    key={project.id}
+                    data={project}
+                    className={styles.project}
+                  />
+                ))}
               </div>
-            </>
-          );
+            </div>
+          </>
+        );
       })}
     </Layout>
   );
