@@ -2937,7 +2937,7 @@ const Footer = () => {
     <div className={styles.homepageCollection}>
       <h4 className={styles.title}>Instrumentation projects</h4>
       <p className={styles.description}>
-        Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. <a href="#">Other highlighted projects</a>
+        Donec id elit non mi porta gravida at eget metus. Donec sed odio dui. <a href="/collections">Other highlighted projects</a>
       </p>
 
       <div className={`${styles.projectsContainer} ${projectsHovered && styles.projectsHovered}`} onMouseOver={() => {setProjectsHovered(true)}} onMouseOut={() => {setProjectsHovered(false)}}>

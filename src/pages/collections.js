@@ -68,8 +68,8 @@ const CollectionPage = ({ data }) => {
                       Explore the open source repositories for New Relic agent technology
                     </p>
                   </div>
-                  <a href="#" className={styles.collectionsPageCollectionLink}>
-                    View all {collection[1].edges.length} projects 
+                  <a href={collection[0]} className={styles.collectionsPageCollectionLink}>
+                    View all <span className={styles.collectionProjectCount}>{collection[1].edges.length}</span> projects 
                     <ChevronRight />
                   </a>
                 </header>
@@ -84,7 +84,6 @@ const CollectionPage = ({ data }) => {
                         />
                       );
                     }
-
                   })}
                 </div>
               </div>

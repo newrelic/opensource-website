@@ -162,8 +162,23 @@
 
 :global(.dark-mode) {
   .homepage-collection:before {
+    background: linear-gradient(0deg, rgba(0,0,0, 0) 23.26%, var(--color-neutrals-100));
+  }
 
-    background: linear-gradient(0deg, rgba(0,0,0, .2) 23.26%, var(--color-neutrals-100));
-
+  .projects-container {
+  
+    &:before,
+    &:after {
+      top: -10px;
+      background-image: url('../images/home-collection-mask-dark.png');
+    }
+  
+    &:after {
+      top: -15px;
+      left: inherit;
+      right: 0;
+      transform: rotateY(180deg) translateY(-19px);
+      filter: brightness(.97);
+    }
   }
 }
