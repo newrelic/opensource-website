@@ -82,5 +82,10 @@
   },
   "bugs": {
     "url": "https://github.com/newrelic/opensource-website/issues"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "trailingComma": "none",
+    "singleQuote": true
   }
 }
