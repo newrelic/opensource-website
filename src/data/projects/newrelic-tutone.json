@@ -1,0 +1,23 @@
+{
+  "name": "tutone",
+  "fullName": "newrelic/tutone",
+  "slug": "newrelic-tutone",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic CLI",
+  "supportUrl": "https://discuss.newrelic.com/c/build-on-new-relic/developer-toolkit",
+  "githubUrl": "https://github.com/newrelic/tutone",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/tutone",
+  "iconUrl": "https://raw.githubusercontent.com/newrelic/developer-toolkit/master/icon.png",
+  "shortDescription": "Generate Golang code from GraphQL schema introspection",
+  "description": "Generate Golang code from GraphQL schema introspection",
+  "primaryLanguage": "Go",
+  "projectTags": [ "cli", "tools", "dev-toolkit" ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Developer Toolkit",
+    "url": "https://newrelic.github.io/developer-toolkit/"
+  }
+}
