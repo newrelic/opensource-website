@@ -1,6 +1,82 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Adopt OpenJDK Renders correctly 1`] = `
+.emotion-5 {
+  margin-bottom: 1rem;
+}
+
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-white);
+  border-color: var(--color-brand-800);
+  background-color: var(--color-brand-800);
+}
+
+.dark-mode .emotion-0 {
+  color: var(--primary-background-color);
+  background-color: var(--color-brand-400);
+  border-color: var(--color-brand-400);
+}
+
+.emotion-3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-brand-800);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.dark-mode .emotion-3 {
+  color: var(--color-brand-400);
+}
+
+.dark-mode .emotion-3 {
+  border-color: transparent;
+}
+
+.emotion-2 {
+  margin-right: 0.5rem;
+}
+
 <div
   className="layout-container projectPageLayout"
 >
@@ -131,7 +207,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         />
       </ul>
@@ -157,6 +233,16 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           href="/external-projects"
         >
           External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
         </a>
       </li>
       <li
@@ -190,6 +276,16 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -253,13 +349,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons"
+            className="callToActionButtons emotion-5"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="button button-primary"
+                className="emotion-0 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -267,12 +363,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="button button-secondary"
+                className="emotion-3 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
+                  className="emotion-2"
                   src="test-file-stub"
                 />
                 GitHub
@@ -319,6 +416,16 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -377,7 +484,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.2.0
+          1.7.0
         </small>
       </div>
     </section>
@@ -386,6 +493,82 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 `;
 
 exports[`Open Telemetry Page Renders correctly 1`] = `
+.emotion-5 {
+  margin-bottom: 1rem;
+}
+
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-white);
+  border-color: var(--color-brand-800);
+  background-color: var(--color-brand-800);
+}
+
+.dark-mode .emotion-0 {
+  color: var(--primary-background-color);
+  background-color: var(--color-brand-400);
+  border-color: var(--color-brand-400);
+}
+
+.emotion-3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-brand-800);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.dark-mode .emotion-3 {
+  color: var(--color-brand-400);
+}
+
+.dark-mode .emotion-3 {
+  border-color: transparent;
+}
+
+.emotion-2 {
+  margin-right: 0.5rem;
+}
+
 <div
   className="layout-container projectPageLayout"
 >
@@ -516,7 +699,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         />
       </ul>
@@ -542,6 +725,16 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           href="/external-projects"
         >
           External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
         </a>
       </li>
       <li
@@ -575,6 +768,16 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -638,13 +841,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons"
+            className="callToActionButtons emotion-5"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="button button-primary"
+                className="emotion-0 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -652,12 +855,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="button button-secondary"
+                className="emotion-3 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
+                  className="emotion-2"
                   src="test-file-stub"
                 />
                 GitHub
@@ -704,6 +908,16 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -762,7 +976,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.2.0
+          1.7.0
         </small>
       </div>
     </section>
@@ -771,6 +985,115 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 `;
 
 exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
+.emotion-5 {
+  margin-bottom: 1rem;
+}
+
+.emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-white);
+  border-color: var(--color-brand-800);
+  background-color: var(--color-brand-800);
+}
+
+.dark-mode .emotion-0 {
+  color: var(--primary-background-color);
+  background-color: var(--color-brand-400);
+  border-color: var(--color-brand-400);
+}
+
+.emotion-3 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-brand-800);
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.dark-mode .emotion-3 {
+  color: var(--color-brand-400);
+}
+
+.dark-mode .emotion-3 {
+  border-color: transparent;
+}
+
+.emotion-2 {
+  margin-right: 0.5rem;
+}
+
+.emotion-8 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  color: var(--color-neutrals-800);
+  border-color: var(--color-neutrals-100);
+  background-color: var(--color-neutrals-100);
+}
+
+.dark-mode .emotion-8 {
+  color: var(--color-white);
+  border-color: var(--color-dark-100);
+  background-color: var(--color-dark-100);
+}
+
 <div
   className="layout-container projectPageLayout"
 >
@@ -901,7 +1224,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         >
           <div
@@ -948,6 +1271,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           href="/external-projects"
         >
           External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
         </a>
       </li>
       <li
@@ -1008,6 +1341,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         >
           <a
             className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
             href="/explore-projects"
           >
             New Relic Projects
@@ -1020,7 +1363,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     className="layout-container-main  undefined"
   >
     <div
-      className="pageHeadingContainer hasSeparator   hasIcon "
+      className="pageHeadingContainer hasSeparator   hasIcon  "
     >
       <div
         className="pageHeadingIconContainer"
@@ -1089,13 +1432,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons"
+            className="callToActionButtons emotion-5"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="button button-primary"
+                className="emotion-0 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -1103,12 +1446,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="button button-secondary"
+                className="emotion-3 emotion-1"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
+                  className="emotion-2"
                   src="test-file-stub"
                 />
                 GitHub
@@ -1324,6 +1668,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         >
           <a
             className="footerNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
             href="/explore-projects"
           >
             New Relic Projects
@@ -1375,10 +1729,63 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.2.0
+          1.7.0
         </small>
       </div>
     </section>
   </footer>
+  <div
+    className="container "
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="primaryContent"
+      >
+        <h4
+          className="heading"
+        >
+          This site uses cookies 🍪
+        </h4>
+        <p
+          className="description"
+        >
+          We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more
+           
+          <a
+            href="https://newrelic.com/termsandconditions/cookie-policy"
+            target="__blank"
+          >
+            here
+          </a>
+          . If you consent to our cookies, please click
+           
+          <strong>
+            Yes
+          </strong>
+          .
+        </p>
+      </div>
+      <div
+        className="ctaContainer"
+      >
+        <button
+          className="approvalButton emotion-0 emotion-1"
+          onClick={[Function]}
+          type="button"
+        >
+          Yes
+        </button>
+        <button
+          className="ignoreButton emotion-8 emotion-1"
+          onClick={[Function]}
+          type="button"
+        >
+          No
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 `;

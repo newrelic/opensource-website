@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-gradle-verify-instrumentation",
   "issues": {
-    "open": 0
+    "open": 1
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "v3.1.0",
-    "date": "2020-06-30T19:06:54Z"
+    "name": "v3.2.0",
+    "date": "2020-07-08T16:50:56Z"
   },
-  "commits": 34,
-  "lastSixMonthsCommitTotal": 34,
+  "commits": 53,
+  "lastSixMonthsCommitTotal": 53,
   "contributors": 7,
   "pullRequests": {
     "open": 1
@@ -46,25 +46,25 @@
       "contributions": 1
     },
     {
-      "id": 24482401,
-      "login": "XiXiaPdx",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/24482401?v=4",
-      "htmlUrl": "https://github.com/XiXiaPdx",
-      "contributions": 3
-    },
-    {
       "id": 49817386,
       "login": "jeffalder",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/49817386?v=4",
       "htmlUrl": "https://github.com/jeffalder",
-      "contributions": 5
+      "contributions": 6
     },
     {
       "id": 54085190,
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 7
+      "contributions": 8
+    },
+    {
+      "id": 24482401,
+      "login": "XiXiaPdx",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/24482401?v=4",
+      "htmlUrl": "https://github.com/XiXiaPdx",
+      "contributions": 14
     }
   ],
   "languages": [

@@ -17,7 +17,7 @@ assignees: ''
 
 [NOTE]: # ( Please be as specific as possible. )
 
-## Expected Behaviour
+## Expected Behavior
 
 [NOTE]: # ( Tell us what you expected to happen. )
 

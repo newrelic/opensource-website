@@ -6,6 +6,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 import ProjectModule from '../components/ProjectModule';
+import { Button } from '@newrelic/gatsby-theme-newrelic';
 
 import styles from './external-projects.module.scss';
 
@@ -139,12 +140,13 @@ const ExternalProjectsPage = ({ data }) => {
               }
             })}
             {otherProjects.length > 5 && (
-              <button
-                className={`button button-tertiary ${styles.viewMoreProjectsButton}`}
+              <Button
+                variant={Button.VARIANT.NORMAL}
+                className={styles.viewMoreProjectsButton}
                 type="button"
               >
                 View all projects
-              </button>
+              </Button>
             )}
           </main>
         </div>

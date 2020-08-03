@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
+import { css } from '@emotion/core';
+import { Button } from '@newrelic/gatsby-theme-newrelic';
 import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
 import Carousel, { Modal, ModalGateway } from 'react-images';
@@ -61,6 +63,7 @@ const ProjectPage = props => {
   };
 
   const project = get(data, 'project.nodes[0]', false);
+  // console.debug(project);
   const contentEditLink = get(data, 'sitePage.nodes[0].fields.contentEditLink');
 
   if (!project) {
@@ -218,29 +221,39 @@ const ProjectPage = props => {
           isPageHeadingCTA ? styles.pageHeadingCTA : ''
         }`}
       >
-        <a
+        <Button
+          as="a"
+          variant={Button.VARIANT.PRIMARY}
           href={project.githubUrl}
-          className="button button-primary"
           rel="noopener noreferrer"
         >
           <img
+            css={css`
+              margin-right: 0.5rem;
+            `}
             src={darkMode.value ? iconGitHubDarkGreen : iconGitHubWhite}
             alt="GitHub logo"
           />
           View Repo
-        </a>
+        </Button>
         {contentEditLink && (
-          <a
+          <Button
+            as="a"
+            variant={Button.VARIANT.PLAIN}
             href={contentEditLink}
-            className="button button-secondary"
             target="__blank"
             rel="noopener noreferrer"
+            css={css`
+              .dark-mode & {
+                border-color: transparent;
+              }
+            `}
           >
             <span className={styles.buttonIcon}>
-              <Edit color={darkMode.value ? '#70ccd3' : '#007e8a'} size={16} />
+              <Edit color="currentColor" size={16} />
             </span>
             Edit page
-          </a>
+          </Button>
         )}
       </div>
     );
@@ -319,7 +332,11 @@ const ProjectPage = props => {
               <p>
                 Code contributions are welcome. Please review our{' '}
                 <a
-                  href={`${project.githubUrl}/blob/master/CONTRIBUTING.md`}
+                  href={
+                    project.contributingGuideUrl ||
+                    `${project.githubUrl}/blob/${project.defaultBranch ||
+                      'master'}/CONTRIBUTING.md`
+                  }
                   target="__blank"
                   rel="noopener noreferrer"
                 >
@@ -333,7 +350,11 @@ const ProjectPage = props => {
                 >
                   Issues
                 </a>{' '}
-                list.
+                list. New Relic open source projects follow a{' '}
+                <Link to="/contributing">
+                  fork-and-pull-request code contribution workflow
+                </Link>
+                .
               </p>
             </>
           )}
@@ -406,7 +427,15 @@ const ProjectPage = props => {
                 <a href={supportUrl} target="__blank" rel="noopener noreferrer">
                   Explorers Hub
                 </a>
-                .
+                , and review the{' '}
+                <a
+                  href="https://docs.newrelic.com/docs/licenses/license-information/general-usage-licenses/global-technical-support-offerings"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  New Relic Support Policy
+                </a>{' '}
+                for details on open source support.
               </p>
             </>
           ) : (
@@ -422,7 +451,15 @@ const ProjectPage = props => {
                 >
                   Explorers Hub
                 </a>{' '}
-                for help.
+                for help, and review the{' '}
+                <a
+                  href="https://docs.newrelic.com/docs/licenses/license-information/general-usage-licenses/global-technical-support-offerings"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  New Relic Support Policy
+                </a>{' '}
+                for details on open source support.
               </p>
             </>
           )}

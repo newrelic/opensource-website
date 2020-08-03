@@ -1,3 +1,106 @@
+# [1.7.0](https://github.com/newrelic/opensource-website/compare/v1.6.1...v1.7.0) (2020-07-30)
+
+
+### Bug Fixes
+
+* build collections ([2890dcb](https://github.com/newrelic/opensource-website/commit/2890dcb039eef98e477caf1782b126a12bc06a84))
+* center homepage collection list of projects ([89ead32](https://github.com/newrelic/opensource-website/commit/89ead32f7f101befdf54c76a268f3f569cd66554))
+* merge changes and arrange homepage and landing page content ([52afb68](https://github.com/newrelic/opensource-website/commit/52afb68cd875d623dcd5ff60e27a7db7fcf2eede))
+* responsive + dark mode fixes for collections ([6d3fb2f](https://github.com/newrelic/opensource-website/commit/6d3fb2ff01a739642defeb7110c629ef5d82491f))
+* updates to collections ([cf93dad](https://github.com/newrelic/opensource-website/commit/cf93dad22609c89f9c7cf3138d740a410c1aac9f))
+
+
+### Features
+
+* add collections landing page ([38c315b](https://github.com/newrelic/opensource-website/commit/38c315b1168792725ee001d348af7be2a57d5814))
+* add highlighted projects into top nav ([b6b4c08](https://github.com/newrelic/opensource-website/commit/b6b4c08d5230e3d066f7aa5d8b94dbe99a4dd329))
+* add in markup + styles for home collections ([2bdf7ef](https://github.com/newrelic/opensource-website/commit/2bdf7ef4f8c55a84f27df1feb26c2aff80f20613))
+* finish responsive styling homepage updates ([a357c12](https://github.com/newrelic/opensource-website/commit/a357c12bf5f01b0fe7296f13637a6712c4aa2ed2))
+* responsive styles for homepage collections ([930a059](https://github.com/newrelic/opensource-website/commit/930a0596107618730ab4452ff1cd5dff43a5000e))
+* update homepage to fit new design ([0d09907](https://github.com/newrelic/opensource-website/commit/0d09907b5af6ab2ad0e84f47e1cf6c9ffe0ea411))
+
+## [1.6.1](https://github.com/newrelic/opensource-website/compare/v1.6.0...v1.6.1) (2020-07-30)
+
+
+### Bug Fixes
+
+* exclude bots from contributor list ([f1c7c81](https://github.com/newrelic/opensource-website/commit/f1c7c815bc10034a1fd76aafdc7bccacac0eded1))
+
+# [1.6.0](https://github.com/newrelic/opensource-website/compare/v1.5.1...v1.6.0) (2020-07-30)
+
+
+### Bug Fixes
+
+* correct header for archived ([35aac22](https://github.com/newrelic/opensource-website/commit/35aac2286500d2d49200e1cd32c452ac514a6c2f))
+* update/clarify support policy details ([0b24e90](https://github.com/newrelic/opensource-website/commit/0b24e90ead95c3fe4ea06755946fd112bee76c06))
+
+
+### Features
+
+* add instrumentation landing page ([d1b7802](https://github.com/newrelic/opensource-website/commit/d1b7802069349dcbf85aea94b85cc3d060496c0a))
+
+## [1.5.1](https://github.com/newrelic/opensource-website/compare/v1.5.0...v1.5.1) (2020-07-22)
+
+
+### Bug Fixes
+
+* newrelic-gatsby-theme-newrelic had incorrect projectTag ([d7cdd9e](https://github.com/newrelic/opensource-website/commit/d7cdd9ecfa1199d0ac04c6b207d26f97613c2ea6))
+
+# [1.5.0](https://github.com/newrelic/opensource-website/compare/v1.4.0...v1.5.0) (2020-07-17)
+
+
+### Features
+
+* **policy:** updated code of conduct and reporting guide ([21db501](https://github.com/newrelic/opensource-website/commit/21db501654bacf08b48fdfc869b2b84e54877c58))
+
+# [1.4.0](https://github.com/newrelic/opensource-website/compare/v1.3.0...v1.4.0) (2020-07-14)
+
+
+### Bug Fixes
+
+* addressed SEO of explore projects ([371376c](https://github.com/newrelic/opensource-website/commit/371376c684f9c53f13b3b3a22107af2613581614))
+* addressing GDPR loading issue ([3d633f8](https://github.com/newrelic/opensource-website/commit/3d633f87cae29390470948cbdd1280870aa73677))
+* import statement ([72ce946](https://github.com/newrelic/opensource-website/commit/72ce946ad3fac2528b4258cba063932c8bef4133))
+* resolved cookie domain logic + make sure we call first page. ([a09bee3](https://github.com/newrelic/opensource-website/commit/a09bee32d07f844e208417f0e20e5a11bdf7e5ff))
+
+
+### Features
+
+* adding cookie dialog ([42b0130](https://github.com/newrelic/opensource-website/commit/42b013004409708b3cf184417b2084cb4c7b634b))
+* handle domains ([7456696](https://github.com/newrelic/opensource-website/commit/7456696ff4c4ed93afbf03199d98bffd1661b977))
+* **GDPR:** cookie acceptance dialog ([575589b](https://github.com/newrelic/opensource-website/commit/575589b26a7614078e6fc725b19ec0ecbbf2aa71))
+
+# [1.3.0](https://github.com/newrelic/opensource-website/compare/v1.2.3...v1.3.0) (2020-07-03)
+
+
+### Features
+
+* add responsive styling to images [#505](https://github.com/newrelic/opensource-website/issues/505) ([dc21fb2](https://github.com/newrelic/opensource-website/commit/dc21fb2942940ef14e40abe84bc77cd49c38d285))
+* update image styling ([ccd2ff0](https://github.com/newrelic/opensource-website/commit/ccd2ff04d18935d22a7f56e2f0ec443c1b268a6d))
+
+## [1.2.3](https://github.com/newrelic/opensource-website/compare/v1.2.2...v1.2.3) (2020-07-03)
+
+
+### Bug Fixes
+
+* standardize bug template 'behavior' spelling to US English. ([fa6c822](https://github.com/newrelic/opensource-website/commit/fa6c8222fc32af86e649df84da987fb8fab16ba2))
+
+## [1.2.2](https://github.com/newrelic/opensource-website/compare/v1.2.1...v1.2.2) (2020-07-02)
+
+
+### Bug Fixes
+
+* adds default branch for proper linking. ([8b20498](https://github.com/newrelic/opensource-website/commit/8b20498df51910f6e0d2015f2b90b602b1f00929))
+
+## [1.2.1](https://github.com/newrelic/opensource-website/compare/v1.2.0...v1.2.1) (2020-07-02)
+
+
+### Bug Fixes
+
+* config updates to projects ([0645216](https://github.com/newrelic/opensource-website/commit/0645216e824af19cd2dcc323ce0956edb73de3c1))
+* make use of defaultBranch and contributingGuideUrl ([612be84](https://github.com/newrelic/opensource-website/commit/612be84ef94ab61c1db8a81b5cc2b73309a2b042))
+* **project pages:** support specifying default branch ([893dfb1](https://github.com/newrelic/opensource-website/commit/893dfb1efc152dc0d0c60b6b9a729cd931c97e9d))
+
 # [1.2.0](https://github.com/newrelic/opensource-website/compare/v1.1.2...v1.2.0) (2020-07-01)
 
 

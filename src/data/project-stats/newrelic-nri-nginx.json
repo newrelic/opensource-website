@@ -3,20 +3,27 @@
   "issues": {
     "open": 2
   },
-  "releases": 13,
+  "releases": 14,
   "latestRelease": {
-    "name": "v2.0.1",
-    "date": "2020-03-26T17:55:53Z"
+    "name": "v3.0.0",
+    "date": "2020-07-28T11:27:15Z"
   },
-  "commits": 91,
-  "lastSixMonthsCommitTotal": 7,
-  "contributors": 13,
+  "commits": 98,
+  "lastSixMonthsCommitTotal": 9,
+  "contributors": 15,
   "pullRequests": {
     "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 30265338,
+      "login": "pe1227",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/30265338?v=4",
+      "htmlUrl": "https://github.com/pe1227",
+      "contributions": 1
+    },
     {
       "id": 39911991,
       "login": "davidbrota",
@@ -25,18 +32,18 @@
       "contributions": 1
     },
     {
-      "id": 2054195,
-      "login": "ardias",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
-      "htmlUrl": "https://github.com/ardias",
-      "contributions": 1
-    },
-    {
       "id": 44578509,
       "login": "alijared",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/44578509?v=4",
       "htmlUrl": "https://github.com/alijared",
       "contributions": 1
+    },
+    {
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
+      "contributions": 2
     },
     {
       "id": 20245790,
@@ -78,6 +85,13 @@
       "login": "ferranorriols",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/947112?v=4",
       "htmlUrl": "https://github.com/ferranorriols",
+      "contributions": 3
+    },
+    {
+      "id": 2054195,
+      "login": "ardias",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
+      "htmlUrl": "https://github.com/ardias",
       "contributions": 3
     },
     {
@@ -128,11 +142,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTEz",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "http://choosealicense.com/licenses/mit/",
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
     "featured": true,
-    "key": "mit"
+    "key": "apache-2.0"
   }
 }

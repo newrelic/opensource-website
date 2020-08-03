@@ -8,6 +8,7 @@ Every public repository in the `newrelic` and `newrelic-experimental` GitHub org
 
 - New Relic Experimental
 - Community Project
+- Community Plus
 - New Relic One Catalog Project
 - Example Code
 - Archived
@@ -42,6 +43,22 @@ See [here](https://opensource.newrelic.com/oss-category/#community-project).
 
 ```markdown
 [![Community Project header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Community_Project.png)](https://opensource.newrelic.com/oss-category/#community-project)
+```
+
+## Category: [Community Plus](#category-community-plus)
+
+[![Community Plus header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.newrelic.com/oss-category/#community-plus)
+
+### Category Description and Requirements
+
+See [here](https://opensource.newrelic.com/oss-category/#community-plus).
+
+### Code snippet
+
+**Required:** Copy and paste the following into the **top** of your project's README.
+
+```markdown
+[![Community Plus header](https://github.com/newrelic/opensource-website/raw/master/src/images/categories/Community_Plus.png)](https://opensource.newrelic.com/oss-category/#community-plus)
 ```
 
 ## Category: [New Relic One Catalog Project](#category-new-relic-one-catalog-project)

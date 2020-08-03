@@ -1,6 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`OSS Category Page Renders correctly 1`] = `
+.emotion-0 {
+  margin-bottom: 1rem;
+}
+
 <div
   className="layout-container undefined"
 >
@@ -131,7 +135,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         />
       </ul>
@@ -157,6 +161,16 @@ exports[`OSS Category Page Renders correctly 1`] = `
           href="/external-projects"
         >
           External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
         </a>
       </li>
       <li
@@ -197,6 +211,16 @@ exports[`OSS Category Page Renders correctly 1`] = `
         >
           <a
             className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
             href="/explore-projects"
           >
             New Relic Projects
@@ -221,14 +245,14 @@ exports[`OSS Category Page Renders correctly 1`] = `
             Categories
           </h4>
           <ul
-            className="categorySidebarList"
+            className="categorySidebarList emotion-0"
           >
             <li
               className="categorySidebarItem"
             >
               <a
                 className="categorySidebarItemLink"
-                href="#community-project"
+                href="./#community-project"
               >
                 Community Project
               </a>
@@ -238,7 +262,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
             >
               <a
                 className="categorySidebarItemLink"
-                href="#new-relic-one-catalog-project"
+                href="./#new-relic-one-catalog-project"
               >
                 New Relic One Catalog
               </a>
@@ -248,7 +272,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
             >
               <a
                 className="categorySidebarItemLink"
-                href="#example-code"
+                href="./#example-code"
               >
                 Example Code
               </a>
@@ -258,7 +282,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
             >
               <a
                 className="categorySidebarItemLink"
-                href="#new-relic-experimental"
+                href="./#new-relic-experimental"
               >
                 New Relic Experimental
               </a>
@@ -268,7 +292,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
             >
               <a
                 className="categorySidebarItemLink"
-                href="#product-delivered-in-open-source"
+                href="./#product-delivered-in-open-source"
               >
                 Product delivered in Open Source
               </a>
@@ -278,7 +302,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
             >
               <a
                 className="categorySidebarItemLink"
-                href="#archived"
+                href="./#archived"
               >
                 Archived
               </a>
@@ -316,30 +340,70 @@ exports[`OSS Category Page Renders correctly 1`] = `
           Requirements
         </h3>
         <ul>
-          <li>
-            Complies with New Relic's legal and security requirements for open source software
-          </li>
-          <li>
-            Contains the appropriate New Relic open source category header below at the top of the repository's README file
-          </li>
-          <li>
-            Has active maintainer / maintainers, including at least one Relic
-          </li>
-          <li>
-            Troubleshooting support via the New Relic Explorers Hub
-          </li>
-          <li>
-            Issues and PR’s managed in GitHub
-          </li>
-          <li>
-            Documentation reviewed by the New Relic documentation team
-          </li>
-          <li>
-            Linted code
-          </li>
-          <li>
-            An automated release pipeline
-          </li>
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Complies with New Relic&#39;s legal and security requirements for open source software</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Contains the appropriate New Relic open source category header below at the top of the repository&#39;s README file</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Has active maintainer / maintainers, including at least one Relic</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Troubleshooting support via the New Relic Explorers Hub</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Issues and PR’s managed in GitHub</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Documentation reviewed by the New Relic documentation team</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Linted code</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>An automated release pipeline</p>
+",
+              }
+            }
+          />
         </ul>
         <h2
           className="categoryTitle"
@@ -358,18 +422,38 @@ exports[`OSS Category Page Renders correctly 1`] = `
           Requirements
         </h3>
         <ul>
-          <li>
-            All the requirements of a Community Project
-          </li>
-          <li>
-            An empty state application workflow that guides users through the setup of configuration data that is stored in NerdStorage
-          </li>
-          <li>
-            Architectural review (including UX) by New Relic
-          </li>
-          <li>
-            (Optional) maintains a public roadmap (recommended via a GitHub project in the repo)
-          </li>
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>All the requirements of a Community Project</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>An empty state application workflow that guides users through the setup of configuration data that is stored in NerdStorage</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Architectural review (including UX) by New Relic</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>(Optional) maintains a public roadmap (recommended via a GitHub project in the repo)</p>
+",
+              }
+            }
+          />
         </ul>
         <h2
           className="categoryTitle"
@@ -388,21 +472,46 @@ exports[`OSS Category Page Renders correctly 1`] = `
           Requirements
         </h3>
         <ul>
-          <li>
-            Complies with New Relic's legal and security requirements for open source software
-          </li>
-          <li>
-            Contains the appropriate New Relic open source category header below at the top of the repository's README file
-          </li>
-          <li>
-            (optional) Issues are available at the project author's discretion
-          </li>
-          <li>
-            Documentation reviewed by the New Relic documentation team
-          </li>
-          <li>
-            Linted code
-          </li>
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Complies with New Relic&#39;s legal and security requirements for open source software</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Contains the appropriate New Relic open source category header below at the top of the repository&#39;s README file</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>(optional) Issues are available at the project author&#39;s discretion</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Documentation reviewed by the New Relic documentation team</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Linted code</p>
+",
+              }
+            }
+          />
         </ul>
         <h2
           className="categoryTitle"
@@ -421,18 +530,38 @@ exports[`OSS Category Page Renders correctly 1`] = `
           Requirements
         </h3>
         <ul>
-          <li>
-            Complies with New Relic's legal and security requirements for open source software
-          </li>
-          <li>
-            Contains the appropriate New Relic open source category header below at the top of the repository's README file
-          </li>
-          <li>
-            Typically hosted in the New Relic Experimental GitHub org
-          </li>
-          <li>
-            (Optional) Issues at the project owner's discertion
-          </li>
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Complies with New Relic&#39;s legal and security requirements for open source software</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Contains the appropriate New Relic open source category header below at the top of the repository&#39;s README file</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Typically hosted in the New Relic Experimental GitHub org</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>(Optional) Issues at the project owner&#39;s discertion</p>
+",
+              }
+            }
+          />
         </ul>
         <h2
           className="categoryTitle"
@@ -451,12 +580,22 @@ exports[`OSS Category Page Renders correctly 1`] = `
           Requirements
         </h3>
         <ul>
-          <li>
-            Complies with New Relic's legal and security requirements for open source software
-          </li>
-          <li>
-            Contains the appropriate New Relic open source category header below at the top of the repository's README file
-          </li>
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Complies with New Relic&#39;s legal and security requirements for open source software</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Contains the appropriate New Relic open source category header below at the top of the repository&#39;s README file</p>
+",
+              }
+            }
+          />
         </ul>
         <h2
           className="categoryTitle"
@@ -475,18 +614,38 @@ exports[`OSS Category Page Renders correctly 1`] = `
           Requirements
         </h3>
         <ul>
-          <li>
-            Complies with New Relic's legal requirements for open source software
-          </li>
-          <li>
-            Contains the appropriate New Relic open source category header below at the top of the repository's README file
-          </li>
-          <li>
-            Previous references to Support should be modified or removed from the README
-          </li>
-          <li>
-            Project is read-only and available for cloning only
-          </li>
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Complies with New Relic&#39;s legal requirements for open source software</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Contains the appropriate New Relic open source category header below at the top of the repository&#39;s README file</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Previous references to Support should be modified or removed from the README</p>
+",
+              }
+            }
+          />
+          <li
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<p>Project is read-only and available for cloning only</p>
+",
+              }
+            }
+          />
         </ul>
       </main>
     </div>
@@ -524,6 +683,16 @@ exports[`OSS Category Page Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -582,7 +751,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.2.0
+          1.7.0
         </small>
       </div>
     </section>

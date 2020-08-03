@@ -129,7 +129,7 @@ Array [
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         />
       </ul>
@@ -155,6 +155,16 @@ Array [
           href="/external-projects"
         >
           External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
         </a>
       </li>
       <li
@@ -188,6 +198,16 @@ Array [
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li

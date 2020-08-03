@@ -8,9 +8,9 @@
     "name": "0.8.2",
     "date": "2019-07-10T08:26:26Z"
   },
-  "commits": 103,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 18,
+  "commits": 107,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 21,
   "pullRequests": {
     "open": 3
   },
@@ -39,6 +39,13 @@
       "contributions": 1
     },
     {
+      "id": 877369,
+      "login": "ramonguiu",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/877369?v=4",
+      "htmlUrl": "https://github.com/ramonguiu",
+      "contributions": 1
+    },
+    {
       "id": 2077281,
       "login": "radykal-com",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/2077281?v=4",
@@ -60,11 +67,25 @@
       "contributions": 1
     },
     {
+      "id": 717815,
+      "login": "carlosroman",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
+      "htmlUrl": "https://github.com/carlosroman",
+      "contributions": 1
+    },
+    {
       "id": 9837641,
       "login": "abedk",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/9837641?v=4",
       "htmlUrl": "https://github.com/abedk",
       "contributions": 1
+    },
+    {
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
+      "contributions": 2
     },
     {
       "id": 2896066,
@@ -153,11 +174,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }

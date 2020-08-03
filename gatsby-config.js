@@ -6,24 +6,59 @@ module.exports = {
   siteMetadata: {
     title: `New Relic Open Source`,
     description: `New Relic's open source website makes it easy for you to explore the projects we're maintaining as well as our involvement in open standards.`,
-    author: `@newrelic`
+    author: `@newrelic`,
+    repository: 'https://github.com/newrelic/opensource-website',
+    siteUrl: 'https://opensource.newrelic.com'
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: '@newrelic/gatsby-theme-newrelic',
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-use-dark-mode',
-      options: {
-        classNameDark: 'dark-mode',
-        classNameLight: 'light-mode',
-        storageKey: 'darkMode',
-        minify: true
+        newrelic: {
+          // Keyed by process.env.NODE_ENV
+          configs: {
+            /*
+            ;NREUM.loader_config={accountID:"10175106",trustKey:"1",agentID:"21547964",licenseKey:"23448da482",applicationID:"21547964"}
+            ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"23448da482",applicationID:"21547964",sa:1}
+            */
+            production: {
+              instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
+              accountId: '10175106',
+              trustKey: '1',
+              agentID: '21547964',
+              licenseKey: '23448da482',
+              applicationID: '21547964',
+              beacon: 'staging-bam.nr-data.net',
+              errorBeacon: 'staging-bam.nr-data.net'
+            },
+            // Our "staging" site (on AWS Amplify) named after the branch it comes from "develop"
+
+            /*
+            ;NREUM.loader_config={accountID:"10175106",trustKey:"1",agentID:"21548202",licenseKey:"23448da482",applicationID:"21548202"}
+            ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"23448da482",applicationID:"21548202",sa:1}
+            */
+            staging: {
+              instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
+              accountId: '10175106',
+              trustKey: '1',
+              agentID: '21548202',
+              licenseKey: '23448da482',
+              applicationID: '21548202',
+              beacon: 'staging-bam.nr-data.net',
+              errorBeacon: 'staging-bam.nr-data.net'
+            }
+
+            // For local development, uncomment and replace information
+            // development: {
+            //   instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
+            //   accountId: '',
+            //   trustKey: '',
+            //   agentID: '',
+            //   licenseKey: '',
+            //   applicationID: ''
+            // }
+          }
+        }
       }
     },
     {
@@ -55,8 +90,6 @@ module.exports = {
         }
       }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -114,51 +147,22 @@ module.exports = {
       resolve: 'gatsby-plugin-edit-content-links'
     },
     {
-      resolve: 'gatsby-plugin-newrelic',
+      resolve: 'gatsby-plugin-gdpr-tracking',
       options: {
-        // Keyed by process.env.NODE_ENV
-        configs: {
-          /*
-          ;NREUM.loader_config={accountID:"10175106",trustKey:"1",agentID:"21547964",licenseKey:"23448da482",applicationID:"21547964"}
-          ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"23448da482",applicationID:"21547964",sa:1}
-          */
-          production: {
-            instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
-            accountId: '10175106',
-            trustKey: '1',
-            agentID: '21547964',
-            licenseKey: '23448da482',
-            applicationID: '21547964',
-            beacon: 'staging-bam.nr-data.net',
-            errorBeacon: 'staging-bam.nr-data.net'
-          },
-          // Our "staging" site (on AWS Amplify) named after the branch it comes from "develop"
-
-          /*
-          ;NREUM.loader_config={accountID:"10175106",trustKey:"1",agentID:"21548202",licenseKey:"23448da482",applicationID:"21548202"}
-          ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"23448da482",applicationID:"21548202",sa:1}
-          */
-          staging: {
-            instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
-            accountId: '10175106',
-            trustKey: '1',
-            agentID: '21548202',
-            licenseKey: '23448da482',
-            applicationID: '21548202',
-            beacon: 'staging-bam.nr-data.net',
-            errorBeacon: 'staging-bam.nr-data.net'
-          }
-
-          // For local development, uncomment and replace information
-          // development: {
-          //   instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
-          //   accountId: '',
-          //   trustKey: '',
-          //   agentID: '',
-          //   licenseKey: '',
-          //   applicationID: ''
-          // }
-        }
+        // logging to the console, if debug is true
+        debug: false,
+        googleAnalytics: {
+          // The property ID; the tracking code won't be generated without it.
+          trackingId: 'UA-3047412-33',
+          // Defines it google analytics should be started with out the cookie consent
+          autoStart: false, // <--- default
+          // Setting this parameter is optional
+          anonymize: true, // <--- default
+          // Name of the cookie, that enables the tracking if it is true
+          controlCookieName: 'newrelic-gdpr-consent', // <--- default
+          cookieFlags: 'secure;samesite=none' // <--- default
+        },
+        environments: ['production', 'development']
       }
     }
   ]

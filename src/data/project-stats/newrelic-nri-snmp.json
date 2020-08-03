@@ -8,15 +8,29 @@
     "name": "v1.2.0",
     "date": "2020-05-11T10:04:48Z"
   },
-  "commits": 58,
-  "lastSixMonthsCommitTotal": 20,
-  "contributors": 7,
+  "commits": 60,
+  "lastSixMonthsCommitTotal": 18,
+  "contributors": 9,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
+      "contributions": 1
+    },
+    {
+      "id": 877369,
+      "login": "ramonguiu",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/877369?v=4",
+      "htmlUrl": "https://github.com/ramonguiu",
+      "contributions": 1
+    },
     {
       "id": 13438133,
       "login": "matiasburni",
@@ -86,11 +100,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }

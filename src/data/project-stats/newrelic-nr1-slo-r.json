@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nr1-slo-r",
   "issues": {
-    "open": 21
+    "open": 23
   },
   "releases": 19,
   "latestRelease": {
@@ -9,13 +9,31 @@
     "date": "2020-06-19T18:27:38Z"
   },
   "commits": 294,
-  "lastSixMonthsCommitTotal": 53,
+  "lastSixMonthsCommitTotal": 48,
   "contributors": 11,
   "pullRequests": {
-    "open": 0
+    "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2NzExNzEyMzg=",
+      "title": "Replace appName with entityGuid in the queries and SLO definitions",
+      "url": "https://github.com/newrelic/nr1-slo-r/issues/98",
+      "createdAt": "2020-08-01T20:25:53Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "",
+        "name": "Joel Worrall"
+      },
+      "number": 98,
+      "createdBy": "Joel Worrall"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 32174276,

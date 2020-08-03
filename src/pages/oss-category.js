@@ -2,15 +2,17 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { get } from 'lodash';
+import { css } from '@emotion/core';
+import marked from 'marked';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 import community from '../images/categories/Community_Project.png';
+import community_plus from '../images/categories/Community_Plus.png';
 import nr1catalog from '../images/categories/New_Relic_One_Catalog_Project.png';
 import example from '../images/categories/Example_Code.png';
 import experimental from '../images/categories/Experimental.png';
-import product from '../images/categories/Product_Delivered_in_Open_Source.png';
 import archived from '../images/categories/Archived.png';
 import styles from './oss-category.module.scss';
 
@@ -30,12 +32,14 @@ export const query = graphql`
 
 const headers = [
   community,
+  community_plus,
   nr1catalog,
   example,
   experimental,
-  product,
   archived
 ];
+
+marked.setOptions({ gfm: true });
 
 const OssCategoryPage = ({ data }) => {
   const categories = get(data, 'allOssCategory.nodes', []);
@@ -45,7 +49,7 @@ const OssCategoryPage = ({ data }) => {
     .map(cat => {
       return (
         <li key={cat.slug} className={styles.categorySidebarItem}>
-          <a href={`#${cat.slug}`} className={styles.categorySidebarItemLink}>
+          <a href={`./#${cat.slug}`} className={styles.categorySidebarItemLink}>
             {cat.title}
           </a>
         </li>
@@ -69,7 +73,10 @@ const OssCategoryPage = ({ data }) => {
               <h3>Requirements</h3>
               <ul>
                 {cat.requirements.map((req, i) => (
-                  <li key={i}>{req}</li>
+                  <li
+                    key={i}
+                    dangerouslySetInnerHTML={{ __html: marked(req) }}
+                  />
                 ))}
               </ul>
             </>
@@ -89,7 +96,14 @@ const OssCategoryPage = ({ data }) => {
         <aside className={`primary-content-aside ${styles.aside}`}>
           <div className={styles.categoriesNavigation}>
             <h4>Categories</h4>
-            <ul className={styles.categorySidebarList}>{categoryNavList}</ul>
+            <ul
+              css={css`
+                margin-bottom: 1rem;
+              `}
+              className={styles.categorySidebarList}
+            >
+              {categoryNavList}
+            </ul>
             <p>
               For the code snippets that appear in the project's README file,
               see{' '}

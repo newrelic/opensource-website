@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nr1-cloud-optimize",
   "issues": {
-    "open": 4
+    "open": 3
   },
-  "releases": 8,
+  "releases": 9,
   "latestRelease": {
-    "name": "v2.1.0",
-    "date": "2020-05-29T17:15:20Z"
+    "name": "v2.1.1",
+    "date": "2020-07-24T01:46:44Z"
   },
-  "commits": 137,
-  "lastSixMonthsCommitTotal": 55,
-  "contributors": 14,
+  "commits": 148,
+  "lastSixMonthsCommitTotal": 63,
+  "contributors": 16,
   "pullRequests": {
-    "open": 0
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
+    },
     {
       "id": 37779995,
       "login": "ryanv94",
@@ -39,10 +46,10 @@
       "contributions": 1
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "id": 44571906,
+      "login": "crshanks",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/44571906?v=4",
+      "htmlUrl": "https://github.com/crshanks",
       "contributions": 1
     },
     {
@@ -78,7 +85,14 @@
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 3
+      "contributions": 4
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 4
     },
     {
       "id": 6722433,
@@ -92,7 +106,7 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 9
+      "contributions": 10
     },
     {
       "id": 812989,
@@ -113,7 +127,7 @@
       "login": "Kav91",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 58
+      "contributions": 61
     }
   ],
   "languages": [

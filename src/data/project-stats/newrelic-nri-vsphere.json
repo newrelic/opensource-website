@@ -3,26 +3,47 @@
   "issues": {
     "open": 1
   },
-  "releases": 2,
+  "releases": 4,
   "latestRelease": {
-    "name": "v0.0.8",
-    "date": "2020-05-04T17:57:24Z"
+    "name": "v1.0.0",
+    "date": "2020-07-17T15:02:47Z"
   },
-  "commits": 43,
-  "lastSixMonthsCommitTotal": 43,
-  "contributors": 4,
+  "commits": 70,
+  "lastSixMonthsCommitTotal": 70,
+  "contributors": 8,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 482671,
+      "login": "fightingmonk",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/482671?v=4",
+      "htmlUrl": "https://github.com/fightingmonk",
+      "contributions": 1
+    },
+    {
       "id": 1773616,
       "login": "theletterf",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
       "htmlUrl": "https://github.com/theletterf",
-      "contributions": 1
+      "contributions": 2
+    },
+    {
+      "id": 39911991,
+      "login": "davidbrota",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/39911991?v=4",
+      "htmlUrl": "https://github.com/davidbrota",
+      "contributions": 2
+    },
+    {
+      "id": 3230102,
+      "login": "morecar",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/3230102?v=4",
+      "htmlUrl": "https://github.com/morecar",
+      "contributions": 4
     },
     {
       "id": 13043208,
@@ -32,18 +53,25 @@
       "contributions": 4
     },
     {
+      "id": 2054195,
+      "login": "ardias",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
+      "htmlUrl": "https://github.com/ardias",
+      "contributions": 9
+    },
+    {
       "id": 5143130,
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 16
+      "contributions": 20
     },
     {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 22
+      "contributions": 27
     }
   ],
   "languages": [
@@ -56,11 +84,6 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2U1MzU=",
-      "name": "Dockerfile",
-      "color": "#384d54"
     },
     {
       "id": "MDg6TGFuZ3VhZ2UyNjQ=",

@@ -1,0 +1,82 @@
+{
+  "projectFullName": "newrelic-experimental/newrelic-azure-functions",
+  "issues": {
+    "open": 0
+  },
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.0",
+    "date": "2020-07-09T11:34:52Z"
+  },
+  "commits": 86,
+  "lastSixMonthsCommitTotal": 86,
+  "contributors": 6,
+  "pullRequests": {
+    "open": 1
+  },
+  "searchCategory": "good first issue",
+  "cachedIssues": [],
+  "cachedContributors": [
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
+    {
+      "id": 13151736,
+      "login": "mnevilleoneill",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/13151736?v=4",
+      "htmlUrl": "https://github.com/mnevilleoneill",
+      "contributions": 3
+    },
+    {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 5
+    },
+    {
+      "id": 6243832,
+      "login": "jsubirat",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6243832?v=4",
+      "htmlUrl": "https://github.com/jsubirat",
+      "contributions": 11
+    },
+    {
+      "id": 13105375,
+      "login": "matildasmeds",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/13105375?v=4",
+      "htmlUrl": "https://github.com/matildasmeds",
+      "contributions": 17
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 26
+    }
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    }
+  ],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic-experimental/newrelic-azure-functions/master/screenshots/BlobForwarder",
+    "https://raw.githubusercontent.com/newrelic-experimental/newrelic-azure-functions/master/screenshots/EventHub"
+  ],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
+}

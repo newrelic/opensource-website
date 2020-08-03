@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/node-test-utilities",
   "issues": {
-    "open": 0
+    "open": 1
   },
-  "releases": 12,
+  "releases": 13,
   "latestRelease": {
-    "name": "v3.3.0",
+    "name": "v4.0.0",
     "date": null
   },
-  "commits": 103,
-  "lastSixMonthsCommitTotal": 8,
+  "commits": 140,
+  "lastSixMonthsCommitTotal": 45,
   "contributors": 7,
   "pullRequests": {
     "open": 0
@@ -17,13 +17,6 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 11223178,
-      "login": "michaelgoin",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
-      "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 1
-    },
     {
       "id": 4933147,
       "login": "martinkuba",
@@ -36,7 +29,7 @@
       "login": "astormnewrelic",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/32520944?v=4",
       "htmlUrl": "https://github.com/astormnewrelic",
-      "contributions": 4
+      "contributions": 5
     },
     {
       "id": 1342804,
@@ -46,11 +39,11 @@
       "contributions": 6
     },
     {
-      "id": 398399,
-      "login": "nijotz",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
-      "htmlUrl": "https://github.com/nijotz",
-      "contributions": 7
+      "id": 11223178,
+      "login": "michaelgoin",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
+      "htmlUrl": "https://github.com/michaelgoin",
+      "contributions": 8
     },
     {
       "id": 7945073,
@@ -58,6 +51,13 @@
       "avatarUrl": "https://avatars2.githubusercontent.com/u/7945073?v=4",
       "htmlUrl": "https://github.com/psvet",
       "contributions": 17
+    },
+    {
+      "id": 398399,
+      "login": "nijotz",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
+      "htmlUrl": "https://github.com/nijotz",
+      "contributions": 20
     },
     {
       "id": 466761,
@@ -80,5 +80,12 @@
     }
   ],
   "screenshots": [],
-  "license": null
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

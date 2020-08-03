@@ -8,11 +8,11 @@
     "name": "v1.5.2",
     "date": "2019-11-18T07:44:41Z"
   },
-  "commits": 161,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 12,
+  "commits": 163,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 14,
   "pullRequests": {
-    "open": 3
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,6 +22,20 @@
       "login": "xino12",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/1876430?v=4",
       "htmlUrl": "https://github.com/xino12",
+      "contributions": 1
+    },
+    {
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
+      "contributions": 1
+    },
+    {
+      "id": 877369,
+      "login": "ramonguiu",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/877369?v=4",
+      "htmlUrl": "https://github.com/ramonguiu",
       "contributions": 1
     },
     {
@@ -131,11 +145,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }

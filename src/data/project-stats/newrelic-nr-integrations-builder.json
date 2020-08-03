@@ -8,9 +8,9 @@
     "name": "v1.0.1",
     "date": "2018-05-02T09:02:33Z"
   },
-  "commits": 92,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 5,
+  "commits": 94,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 7,
   "pullRequests": {
     "open": 0
   },
@@ -22,6 +22,20 @@
       "login": "trutx",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/1902623?v=4",
       "htmlUrl": "https://github.com/trutx",
+      "contributions": 1
+    },
+    {
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
+      "contributions": 1
+    },
+    {
+      "id": 877369,
+      "login": "ramonguiu",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/877369?v=4",
+      "htmlUrl": "https://github.com/ramonguiu",
       "contributions": 1
     },
     {
@@ -67,11 +81,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }

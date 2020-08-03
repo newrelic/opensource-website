@@ -3,14 +3,14 @@
   "issues": {
     "open": 1
   },
-  "releases": 8,
+  "releases": 10,
   "latestRelease": {
-    "name": "v1.3.0",
-    "date": "2020-05-29T06:47:48Z"
+    "name": "v1.3.2",
+    "date": "2020-07-24T04:25:16Z"
   },
-  "commits": 135,
-  "lastSixMonthsCommitTotal": 68,
-  "contributors": 12,
+  "commits": 149,
+  "lastSixMonthsCommitTotal": 79,
+  "contributors": 13,
   "pullRequests": {
     "open": 2
   },
@@ -18,24 +18,10 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 1
-    },
-    {
       "id": 37779995,
       "login": "ryanv94",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/37779995?v=4",
       "htmlUrl": "https://github.com/ryanv94",
-      "contributions": 1
-    },
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
       "contributions": 1
     },
     {
@@ -60,11 +46,32 @@
       "contributions": 1
     },
     {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 2
+    },
+    {
       "id": 13562672,
       "login": "jaesius",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/13562672?v=4",
       "htmlUrl": "https://github.com/jaesius",
       "contributions": 2
+    },
+    {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 3
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 3
     },
     {
       "id": 55203603,
@@ -99,7 +106,7 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 40
+      "contributions": 42
     }
   ],
   "languages": [
@@ -115,8 +122,7 @@
     }
   ],
   "screenshots": [
-    "https://raw.githubusercontent.com/newrelic/nr1-browser-analyzer/master/catalog/screenshots/nr1-browser-analyzer-01.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-browser-analyzer/master/catalog/screenshots/nr1-browser-analyzer-02.png"
+    "https://raw.githubusercontent.com/newrelic/nr1-browser-analyzer/master/catalog/screenshots/nr1-browser-analyzer-01.png"
   ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",

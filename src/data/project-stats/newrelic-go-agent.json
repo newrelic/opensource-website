@@ -1,34 +1,34 @@
 {
   "projectFullName": "newrelic/go-agent",
   "issues": {
-    "open": 15
+    "open": 16
   },
-  "releases": 94,
+  "releases": 96,
   "latestRelease": {
-    "name": "v3.7.0",
-    "date": "2020-06-18T16:32:46Z"
+    "name": "v3.8.1",
+    "date": "2020-07-15T18:46:09Z"
   },
-  "commits": 1942,
-  "lastSixMonthsCommitTotal": 405,
-  "contributors": 24,
+  "commits": 2006,
+  "lastSixMonthsCommitTotal": 314,
+  "contributors": 28,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 21367523,
-      "login": "victorNewRelic",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/21367523?v=4",
-      "htmlUrl": "https://github.com/victorNewRelic",
-      "contributions": 1
-    },
-    {
       "id": 13732144,
       "login": "tkivisik",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/13732144?v=4",
       "htmlUrl": "https://github.com/tkivisik",
+      "contributions": 1
+    },
+    {
+      "id": 21367523,
+      "login": "subvocal",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/21367523?v=4",
+      "htmlUrl": "https://github.com/subvocal",
       "contributions": 1
     },
     {
@@ -109,6 +109,13 @@
       "contributions": 1
     },
     {
+      "id": 28523,
+      "login": "alrs",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/28523?v=4",
+      "htmlUrl": "https://github.com/alrs",
+      "contributions": 1
+    },
+    {
       "id": 704945,
       "login": "alfred-landrum",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/704945?v=4",
@@ -116,10 +123,24 @@
       "contributions": 1
     },
     {
+      "id": 5743678,
+      "login": "acunning1",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/5743678?v=4",
+      "htmlUrl": "https://github.com/acunning1",
+      "contributions": 1
+    },
+    {
       "id": 15604207,
       "login": "abeltay",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/15604207?v=4",
       "htmlUrl": "https://github.com/abeltay",
+      "contributions": 1
+    },
+    {
+      "id": 52978576,
+      "login": "Miriam-R",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/52978576?v=4",
+      "htmlUrl": "https://github.com/Miriam-R",
       "contributions": 1
     },
     {
@@ -151,6 +172,13 @@
       "contributions": 4
     },
     {
+      "id": 48965776,
+      "login": "jodeev",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/48965776?v=4",
+      "htmlUrl": "https://github.com/jodeev",
+      "contributions": 4
+    },
+    {
       "id": 3723686,
       "login": "TylerConlee",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/3723686?v=4",
@@ -176,14 +204,14 @@
       "login": "newrelic-eheinlein",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/52758187?v=4",
       "htmlUrl": "https://github.com/newrelic-eheinlein",
-      "contributions": 127
+      "contributions": 144
     },
     {
       "id": 1383216,
       "login": "purple4reina",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/1383216?v=4",
       "htmlUrl": "https://github.com/purple4reina",
-      "contributions": 466
+      "contributions": 487
     }
   ],
   "languages": [
@@ -191,6 +219,11 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     },
     {
       "id": "MDg6TGFuZ3VhZ2U0MTc=",
@@ -201,20 +234,15 @@
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
       "name": "Dockerfile",
       "color": "#384d54"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
     }
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }

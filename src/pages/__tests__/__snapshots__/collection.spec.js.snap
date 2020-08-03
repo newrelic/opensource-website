@@ -131,7 +131,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="styles.darkModeToggle rightSideButton"
+          className="darkModeToggle rightSideButton"
           title="Toggle dark mode"
         />
       </ul>
@@ -157,6 +157,16 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           href="/external-projects"
         >
           External Projects
+        </a>
+      </li>
+      <li
+        className="primaryHeaderNavLinkItem"
+      >
+        <a
+          className="primaryHeaderNavLink"
+          href="/collections"
+        >
+          Highlighted Projects
         </a>
       </li>
       <li
@@ -190,6 +200,16 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
             href="/external-projects"
           >
             External Projects
+          </a>
+        </li>
+        <li
+          className="primaryHeaderNavLinkItem"
+        >
+          <a
+            className="primaryHeaderNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
           </a>
         </li>
         <li
@@ -300,6 +320,16 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         >
           <a
             className="footerNavLink"
+            href="/collections"
+          >
+            Highlighted Projects
+          </a>
+        </li>
+        <li
+          className="footerNavLinkItem"
+        >
+          <a
+            className="footerNavLink"
             href="/explore-projects"
           >
             New Relic Projects
@@ -351,7 +381,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.2.0
+          1.7.0
         </small>
       </div>
     </section>
