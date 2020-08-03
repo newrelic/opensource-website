@@ -40,7 +40,6 @@ const Header = ({ hasHeaderBg, editLink }) => {
         />
       </Helmet>
       <GlobalHeader
-        hasHeaderBg={hasHeaderBg}
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
         editUrl={editLink}
         css={css`
@@ -48,6 +47,10 @@ const Header = ({ hasHeaderBg, editLink }) => {
 
           a {
             border-bottom: none;
+          }
+
+          @media screen and (max-width: 480px) {
+            display: none;
           }
         `}
       />
