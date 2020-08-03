@@ -44,7 +44,6 @@ const Header = ({ hasHeaderBg, editLink }) => {
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
         editUrl={editLink}
         css={css`
-          overflow: visible;
           position: static;
 
           a {
