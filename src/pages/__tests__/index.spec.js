@@ -8,13 +8,16 @@ import HomePageHighlights from '../../components/HomePageHighlights';
 import HomePageInternalProjects from '../../components/HomePageInternalProjects';
 
 beforeEach(() => {
-  useStaticQuery.mockImplementationOnce(() => ({
+  useStaticQuery.mockImplementation(() => ({
     site: {
       siteMetadata: {
         title: 'New Relic Open Source',
         description:
           "New Relic <3's open source. We built this site to make it easy for you to explore the projects we're maintaining as well as our involvement in open standards.",
         author: '@newrelic'
+      },
+      layout: {
+        maxWidth: '1236px'
       }
     }
   }));
