@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/newrelic/opensource-website/compare/v1.7.0...v1.7.1) (2020-08-03)
+
+
+### Bug Fixes
+
+* **explore-projects:** updated styling for project description length. Closes [#579](https://github.com/newrelic/opensource-website/issues/579) ([0efbc8a](https://github.com/newrelic/opensource-website/commit/0efbc8af2330b288190648814d03fcb9e5acbdc5))
+
 # [1.7.0](https://github.com/newrelic/opensource-website/compare/v1.6.1...v1.7.0) (2020-07-30)
 
 
