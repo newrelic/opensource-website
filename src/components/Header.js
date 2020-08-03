@@ -1,4 +1,5 @@
 import { Link } from 'gatsby';
+import { css } from '@emotion/core';
 import React, { useState } from 'react';
 import navLinks from '../data/navigation.json';
 import PropTypes from 'prop-types';
@@ -6,7 +7,7 @@ import { Helmet } from 'react-helmet';
 import { ChevronRight } from 'react-feather';
 import DarkModeToggle from './DarkModeToggle';
 
-import GlobalHeader from './GlobalHeader';
+import { GlobalHeader } from '@newrelic/gatsby-theme-newrelic';
 
 import styles from './Header.module.scss';
 
@@ -41,7 +42,15 @@ const Header = ({ hasHeaderBg, editLink }) => {
       <GlobalHeader
         hasHeaderBg={hasHeaderBg}
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
-        editLink={editLink}
+        editUrl={editLink}
+        css={css`
+          overflow: visible;
+          position: static;
+
+          a {
+            border-bottom: none;
+          }
+        `}
       />
       <header
         className={`${styles.primaryHeaderContainer} ${
