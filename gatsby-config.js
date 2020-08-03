@@ -14,6 +14,9 @@ module.exports = {
     {
       resolve: '@newrelic/gatsby-theme-newrelic',
       options: {
+        layout: {
+          maxWidth: '1180px'
+        },
         newrelic: {
           // Keyed by process.env.NODE_ENV
           configs: {
