@@ -101,7 +101,7 @@ const GlobalHeader = ({ hasHeaderBg, className, editLink }) => {
 GlobalHeader.propTypes = {
   hasHeaderBg: PropTypes.bool,
   className: PropTypes.string,
-  editLink: PropTypes.string
+  editLink: PropTypes.string,
 };
 
 export default GlobalHeader;

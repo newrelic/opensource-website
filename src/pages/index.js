@@ -100,19 +100,19 @@ const HomePage = ({ data }) => {
   const [heroVideoActive, setHeroVideoActive] = useState(false);
 
   const instrumentationProjects = get(data, 'instrumentation.edges', [])
-    .map(i => i.node)
+    .map((i) => i.node)
     .sort(sortByStats)
     .slice(0, 5);
 
   const externalProjects = [
     get(data, 'openTelemetry.nodes[0]'),
     get(data, 'w3cDistributedTracingWg.nodes[0]'),
-    get(data, 'adoptOpenJdk.nodes[0]')
-  ].filter(i => i !== undefined);
+    get(data, 'adoptOpenJdk.nodes[0]'),
+  ].filter((i) => i !== undefined);
 
   // temp workaround until the query above is fixed to pull back the correct top 8
   const internalProjects = get(data, 'topProjects.edges', [])
-    .map(i => i.node)
+    .map((i) => i.node)
     .sort(sortByStats)
     .slice(0, 8);
 
@@ -240,7 +240,7 @@ const HomePage = ({ data }) => {
 };
 
 HomePage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 export default HomePage;

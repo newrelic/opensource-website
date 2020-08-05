@@ -70,12 +70,12 @@ const ExternalProjectsPage = ({ data }) => {
   const externalProjects = [
     openTelemetry,
     w3cDistributedTracingWg,
-    adoptOpenJdk
+    adoptOpenJdk,
   ];
   const otherProjectsData = get(data, 'otherProjects.edges', []).map(
-    i => i.node
+    (i) => i.node
   );
-  const otherProjects = otherProjectsData.filter(project => {
+  const otherProjects = otherProjectsData.filter((project) => {
     if (
       project.fullName === openTelemetry.fullName ||
       project.fullName === w3cDistributedTracingWg.fullName ||
@@ -97,7 +97,7 @@ const ExternalProjectsPage = ({ data }) => {
         subheader="Making it easier for everyone to instrument everything and build better software together."
       />
       <div className={styles.featuredProjects}>
-        {externalProjects.map(project => (
+        {externalProjects.map((project) => (
           <ProjectModule data={project} key={project.title} />
         ))}
       </div>
@@ -156,7 +156,7 @@ const ExternalProjectsPage = ({ data }) => {
 };
 
 ExternalProjectsPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 export default ExternalProjectsPage;

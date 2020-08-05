@@ -26,7 +26,7 @@ export const query = graphql`
 `;
 
 const CollectionPage = ({ data }) => {
-  const allProjects = data.allProjects.edges.map(p => p.node);
+  const allProjects = data.allProjects.edges.map((p) => p.node);
 
   return (
     <Layout fullWidth className={styles.collectionPage}>
@@ -72,7 +72,7 @@ const CollectionPage = ({ data }) => {
           </p>
         </header>
         <div className={styles.collectionListing}>
-          {allProjects.map(project => {
+          {allProjects.map((project) => {
             return (
               <SimpleProjectModule
                 key={project.id}
@@ -88,7 +88,7 @@ const CollectionPage = ({ data }) => {
 };
 
 CollectionPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 export default CollectionPage;

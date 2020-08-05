@@ -15,10 +15,7 @@
   "description": "Micrometer registry implementation that sends data to New Relic as dimensional metrics.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Java",
-  "projectTags": [
-    "exporter",
-    "opentelemetry"
-  ],
+  "projectTags": ["exporter", "opentelemetry"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Micrometer",

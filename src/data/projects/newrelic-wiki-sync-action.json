@@ -15,11 +15,7 @@
   "description": "A GitHub Action that synchronizes the contents of a directory to the repository's Wiki.",
   "ossCategory": "community-project",
   "primaryLanguage": "Bash",
-  "projectTags": [
-    "tools",
-    "ci",
-    "github-action"
-  ],
+  "projectTags": ["tools", "ci", "github-action"],
   "acceptsContributions": true,
   "website": {
     "title": "Wiki Sync Action",

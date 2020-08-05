@@ -15,10 +15,7 @@
   "description": "Tracer Plugin for the Java SpecialAgent which provides automatic OpenTracing-based instrumentation for 3rd-party Java libraries",
   "ossCategory": "community-project",
   "primaryLanguage": "Java",
-  "projectTags": [
-    "lib",
-    "opentelemetry"
-  ],
+  "projectTags": ["lib", "opentelemetry"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic OpenTracing Tracer Plugin",

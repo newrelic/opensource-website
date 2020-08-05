@@ -67,19 +67,21 @@ eget risus varius blandit sit amet non magna.
 -->`;
 }
 
-fs.readdir("../src/data/projects", (err, files) => {
+fs.readdir('../src/data/projects', (err, files) => {
   files.forEach((file, i) => {
-    const name = file.substring(0, file.length-5);
+    const name = file.substring(0, file.length - 5);
 
     const rawdata = fs.readFileSync(`../src/data/projects/${file}`);
     const project = JSON.parse(rawdata);
     if (!fs.existsSync(`../src/data/project-main-content/${name}.mdx`)) {
       const mdxContent = buildContentMdx(project);
-      fs.writeFileSync(`../src/data/project-main-content/${name}.mdx`, mdxContent);
+      fs.writeFileSync(
+        `../src/data/project-main-content/${name}.mdx`,
+        mdxContent
+      );
       console.log(`Wrote ../src/data/project-main-content/${name}.mdx`);
     } else {
       console.log(`skipping ../src/data/project-main-content/${name}.mdx`);
     }
   });
 });
-

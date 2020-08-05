@@ -15,9 +15,7 @@
   "description": "Collects data from network devices that export Sflow or IPFIX network samples",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [
-    "nri"
-  ],
+  "projectTags": ["nri"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Network Telemetry Integration",

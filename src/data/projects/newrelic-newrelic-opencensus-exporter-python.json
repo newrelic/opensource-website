@@ -15,10 +15,7 @@
   "description": "Export OpenCensus data to New Relic in Python",
   "ossCategory": "community-project",
   "primaryLanguage": "Python",
-  "projectTags": [
-    "opentelemetry",
-    "exporter"
-  ],
+  "projectTags": ["opentelemetry", "exporter"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic OpenCensus Exporter (Python)",

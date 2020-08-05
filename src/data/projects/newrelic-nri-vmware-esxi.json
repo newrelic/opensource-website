@@ -15,9 +15,7 @@
   "description": "Reports status and metrics for VMWare ESXi hypervisor",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Go",
-  "projectTags": [
-    "nri"
-  ],
+  "projectTags": ["nri"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure VMWare ESXi Integration",

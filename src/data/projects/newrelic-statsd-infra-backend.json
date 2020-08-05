@@ -15,9 +15,7 @@
   "description": "StatsD backend for sending metrics to New Relic Infrastructure",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": [
-    "nri"
-  ],
+  "projectTags": ["nri"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastucture StatsD Integration (Node)",

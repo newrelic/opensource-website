@@ -18,7 +18,7 @@ class ProjectSearch extends Component {
       language: 'languageType',
       category: 'ossCategory',
       tag: 'projectTag',
-      search: 'search'
+      search: 'search',
     };
 
     this.state = {
@@ -28,7 +28,7 @@ class ProjectSearch extends Component {
       filterValues: {
         ossCategory: '',
         projectTag: '',
-        languageType: ''
+        languageType: '',
       },
       filterResults: [],
       urlParamToInputMap: paramMap,
@@ -45,13 +45,13 @@ class ProjectSearch extends Component {
         ['ossCategory', 'title'],
         ['website', 'title'],
         ['projectTags', 'title'],
-        ['primaryLanguage']
+        ['primaryLanguage'],
 
         // Nested array syntax doesn't work until this PR is merged:
         // https://github.com/bvaughn/js-search/pull/78/files#diff-5d56a676b2913ba26d67295fe642d9b0R18
         // ['stats', 'languages', '[]', 'name']
       ],
-      removeStopWords: true
+      removeStopWords: true,
     };
   }
 
@@ -63,7 +63,7 @@ class ProjectSearch extends Component {
       const { data } = nextProps;
       return {
         searchResults: data,
-        filterResults: data
+        filterResults: data,
       };
     }
     return null;
@@ -81,7 +81,7 @@ class ProjectSearch extends Component {
       selectedStrategy,
       selectedSanitizer,
       removeStopWords,
-      indexFields
+      indexFields,
     } = this.state;
     const { data } = this.props;
 
@@ -116,7 +116,7 @@ class ProjectSearch extends Component {
       ? (dataToSearch.sanitizer = new JsSearch.CaseSensitiveSanitizer())
       : (dataToSearch.sanitizer = new JsSearch.LowerCaseSanitizer());
 
-    indexFields.forEach(field => dataToSearch.addIndex(field));
+    indexFields.forEach((field) => dataToSearch.addIndex(field));
 
     dataToSearch.addDocuments(data); // adds the data to be searched
 
@@ -164,7 +164,7 @@ class ProjectSearch extends Component {
       {}
     );
 
-    return mergeWith({ ...mappedParams }, filterValues, function(
+    return mergeWith({ ...mappedParams }, filterValues, function (
       value,
       srcValue
     ) {
@@ -198,7 +198,7 @@ class ProjectSearch extends Component {
 
     this.updateUrlParams();
 
-    const applyFilters = i => {
+    const applyFilters = (i) => {
       return filters.reduce((p, [field, value]) => {
         if (!p) {
           return false;
@@ -212,7 +212,7 @@ class ProjectSearch extends Component {
           if (!i.projectTags) {
             return p;
           }
-          return i.projectTags.some(t => {
+          return i.projectTags.some((t) => {
             return t && t.title === value;
           });
         }
@@ -221,7 +221,7 @@ class ProjectSearch extends Component {
           if (!i.stats) {
             return p;
           }
-          return i.stats.languages.some(l => l.name === value);
+          return i.stats.languages.some((l) => l.name === value);
         }
 
         return p;
@@ -232,11 +232,11 @@ class ProjectSearch extends Component {
     this.setState({ filterResults: results });
   };
 
-  updateFilter = filter => {
+  updateFilter = (filter) => {
     this.updateFilters([filter]);
   };
 
-  updateFilters = filters => {
+  updateFilters = (filters) => {
     if (!Array.isArray(filters)) {
       return;
     }
@@ -246,14 +246,14 @@ class ProjectSearch extends Component {
       return previousValue;
     }, {});
 
-    this.setState(prevState => {
+    this.setState((prevState) => {
       const newFilterValues = {
         ...prevState.filterValues,
-        ...filtersObject
+        ...filtersObject,
       };
 
       return {
-        filterValues: newFilterValues
+        filterValues: newFilterValues,
       };
     }, this.filterData);
   };
@@ -264,7 +264,7 @@ class ProjectSearch extends Component {
 
     const allFilters = {
       ...filterValues,
-      search: searchQuery !== '' ? searchQuery : ''
+      search: searchQuery !== '' ? searchQuery : '',
     };
 
     const urlParams = Object.entries(allFilters).reduce(
@@ -284,7 +284,7 @@ class ProjectSearch extends Component {
     navigate(url, { replace: true });
   };
 
-  handleSubmit = e => {
+  handleSubmit = (e) => {
     e.preventDefault();
   };
 
@@ -315,7 +315,7 @@ ProjectSearch.propTypes = {
   children: PropTypes.func,
   data: PropTypes.array,
   filterOptions: PropTypes.object,
-  urlParams: PropTypes.object
+  urlParams: PropTypes.object,
 };
 
 export default withUrlParams(ProjectSearch);

@@ -2,23 +2,23 @@
 
 This site is deployed utilizing Github Actions for continuous integration (CI) combined with AWS Amplify's branch-based continuous deployment (CD).
 
-* [GitHub Actions (CI)](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#github-actions-ci)
-  * [Project Stats Generation](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#project-stats-generation)
-* [Staging/Production Deployment (CD)](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#stagingproduction-deployment-cd)
-  * [Production Deployment](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#production-deployment)
-  * [Staging Deployment](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#staging-deployment)
+- [GitHub Actions (CI)](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#github-actions-ci)
+  - [Project Stats Generation](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#project-stats-generation)
+- [Staging/Production Deployment (CD)](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#stagingproduction-deployment-cd)
+  - [Production Deployment](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#production-deployment)
+  - [Staging Deployment](https://github.com/newrelic/opensource-website/wiki/Build-and-Deploy#staging-deployment)
 
 ## Github Actions (CI)
 
-* Generation of project-stats data
-  * Triggered every 4 hours
-* Docs/Wiki Sync
-  * Triggered on pushes to `develop` branch when the `docs` directory changes
-  * Triggered when wiki is edited (though this is discouraged - all changes _should_ happen in the docs directory via pull request)
-* Pull Request build/test/lint checking
-  * Triggered on pull requests being opened
-* Release management
-  * Triggered on pushes to `develop` following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
+- Generation of project-stats data
+  - Triggered every 4 hours
+- Docs/Wiki Sync
+  - Triggered on pushes to `develop` branch when the `docs` directory changes
+  - Triggered when wiki is edited (though this is discouraged - all changes _should_ happen in the docs directory via pull request)
+- Pull Request build/test/lint checking
+  - Triggered on pull requests being opened
+- Release management
+  - Triggered on pushes to `develop` following the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) standard.
 
 ### Project-Stats Generation
 

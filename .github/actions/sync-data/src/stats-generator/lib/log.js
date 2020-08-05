@@ -7,7 +7,7 @@ let prefix;
 const coloredOutput = false;
 
 const createMsg = (type = '') => (color, ...args) => {
-  const stringifiedArgs = args.map(arg => {
+  const stringifiedArgs = args.map((arg) => {
     if (arg instanceof Error) {
       const remainingProps = R.omit(['message', 'stack'], arg);
       return R.isEmpty(remainingProps)
@@ -56,7 +56,7 @@ const log = {
   json: (x, { colors = coloredOutput, depth = 4 } = {}) =>
     process.env.NODE_ENV === 'production'
       ? console.log(toJson(x))
-      : console.log(util.inspect(x, { colors, depth }))
+      : console.log(util.inspect(x, { colors, depth })),
 };
 /* eslint-enable no-console */
 

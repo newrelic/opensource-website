@@ -15,10 +15,7 @@
   "description": "Fetch metrics in the Prometheus metrics inside or outside Kubernetes and send them to New Relic",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [
-    "nri",
-    "opentelemetry"
-  ],
+  "projectTags": ["nri", "opentelemetry"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Prometheus OpenMetrics Integration",

@@ -1,12 +1,15 @@
 var request = require('request');
 const fs = require('fs');
 
-fs.readdir("../src/data/projects", (err, files) => {
+fs.readdir('../src/data/projects', (err, files) => {
   files.forEach((file, i) => {
     const rawdata = fs.readFileSync(`../src/data/projects/${file}`);
     const project = JSON.parse(rawdata);
     if (project.iconUrl && project.iconUrl.startsWith('http')) {
-      request({method: 'HEAD', uri:project.iconUrl}, function (error,  response) {
+      request({ method: 'HEAD', uri: project.iconUrl }, function (
+        error,
+        response
+      ) {
         if (!error && response.statusCode == 200) {
           console.log(`${file} Ok`);
         } else {
@@ -20,6 +23,5 @@ fs.readdir("../src/data/projects", (err, files) => {
     } else {
       console.log(`Skipping ${file}`);
     }
-
   });
 });

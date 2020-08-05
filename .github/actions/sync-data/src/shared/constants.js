@@ -39,7 +39,7 @@ const EXCLUDED_PROJECTS = [
   'w3c-distributed-tracing-wg',
   'w3c-trace-context',
   'w3c-trace-context-binary',
-  'w3c-trace-response'
+  'w3c-trace-response',
 ];
 
 // TO DO - Ascertain Github's GraphQL query limits
@@ -48,11 +48,11 @@ const SCREENSHOT_FOLDERS = {
   screenshots: 'master:screenshots/',
   assetsScreenshots: 'master:assets/screenshots/',
   assetsDocumentationImages: 'master:assets/documentation-images/',
-  catalogScreenshots: 'master:catalog/screenshots/'
+  catalogScreenshots: 'master:catalog/screenshots/',
 };
 
 module.exports = {
   ORG_REPOS,
   EXCLUDED_PROJECTS,
-  SCREENSHOT_FOLDERS
+  SCREENSHOT_FOLDERS,
 };
