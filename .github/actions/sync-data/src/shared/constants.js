@@ -1,13 +1,13 @@
 const ORG_REPOS = [
   {
-    org: 'newrelic'
+    org: 'newrelic',
   },
 
   // TO DO - resolve permissions on GH_TOKEN to fix this error:
   // (node:12679) UnhandledPromiseRejectionWarning: GraphqlError: Must have push access to view repository collaborators.
   {
-    org: 'newrelic-experimental'
-  }
+    org: 'newrelic-experimental',
+  },
 
   // For more specific org/repo combinations, i.e. a solution to how to include a partner project
   // or a project we contribute to in other organizations

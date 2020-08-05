@@ -33,15 +33,15 @@ const { prettyPrint, sleep } = require('../shared/helpers');
 const OVERWRITE_EXISTING = true;
 
 function formatRepositories(repositories) {
-  const humanize = slug => slug.replace('-', ' ');
-  return repositories.map(r => {
+  const humanize = (slug) => slug.replace('-', ' ');
+  return repositories.map((r) => {
     return {
       name: r.name,
       fullName: r.full_name.toLowerCase(),
       slug: r.full_name.replace('/', '-'),
       owner: {
         login: r.owner.login,
-        type: r.owner.type
+        type: r.owner.type,
       },
       title: humanize(r.name),
       supportUrl: 'https://discuss.newrelic.com/', // TO DO
@@ -53,21 +53,21 @@ function formatRepositories(repositories) {
       // "screenshots": [ "https://github.com/newrelic/nr1-workload-geoops/blob/master/assets/documentation-images/detail-panel-legend.png?raw=true", "https://github.com/newrelic/nr1-workload-geoops/blob/master/assets/documentation-images/file-upload.png?raw=true" ],
       ossCategory: {
         title: 'Lorem Ipsum',
-        slug: 'lorem-ipsum'
+        slug: 'lorem-ipsum',
       }, // TO DO
       projectTags: [],
       primaryLanguage: r.language,
       tags: ['point-of-sale', 'maps', 'infrastructure'], // TO DO
       website: {
         title: humanize(r.name), // TO DO - Can/should be different
-        url: r.html_url // TO DO - this won't always be the Github repo url?
-      }
+        url: r.html_url, // TO DO - this won't always be the Github repo url?
+      },
     };
   });
 }
 
 function writeProjectsToGatsby(projects) {
-  projects.forEach(project => {
+  projects.forEach((project) => {
     const fileName = `${project.fullName.replace('/', '-')}.json`;
     const outputDir = path.resolve(
       __dirname,
@@ -92,7 +92,7 @@ async function generateProjects({ iteratorOptions }) {
 
   if (iteratorOptions.repo) {
     const response = await fetchRepo({
-      options: iteratorOptions
+      options: iteratorOptions,
     });
 
     processProjects(response);
@@ -116,12 +116,14 @@ async function generateProjects({ iteratorOptions }) {
 function processProjects(response) {
   const { /* status, url, headers, */ data } = response;
   const dataAsArray = Array.isArray(data) ? data : [data];
-  const filteredRepos = dataAsArray.filter(r => r && !r.archived && !r.fork);
+  const filteredRepos = dataAsArray.filter((r) => r && !r.archived && !r.fork);
 
   prettyPrint(
     `After removing Archived repositories found ${filteredRepos.length} results:`
   );
-  prettyPrint(filteredRepos.map(d => `id: ${d.id} ${d.full_name}`).join('\n'));
+  prettyPrint(
+    filteredRepos.map((d) => `id: ${d.id} ${d.full_name}`).join('\n')
+  );
 
   writeProjectsToGatsby(formatRepositories(filteredRepos));
 }
@@ -141,8 +143,8 @@ async function generateData({ projects = false, project_stats = false }) {
         iteratorOptions: {
           ...defaultOptions,
           org,
-          repo
-        }
+          repo,
+        },
       });
       await sleep(2000);
     }
@@ -150,5 +152,5 @@ async function generateData({ projects = false, project_stats = false }) {
 }
 
 module.exports = {
-  generateData
+  generateData,
 };
