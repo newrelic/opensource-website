@@ -3,27 +3,20 @@
   "issues": {
     "open": 4
   },
-  "releases": 6,
+  "releases": 8,
   "latestRelease": {
-    "name": "v0.6.0",
-    "date": "2020-04-01T15:47:54Z"
+    "name": "v0.6.2",
+    "date": "2020-08-06T15:43:14Z"
   },
-  "commits": 108,
-  "lastSixMonthsCommitTotal": 29,
-  "contributors": 10,
+  "commits": 114,
+  "lastSixMonthsCommitTotal": 35,
+  "contributors": 11,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 1
-    },
     {
       "id": 522116,
       "login": "markweitzel",
@@ -46,11 +39,18 @@
       "contributions": 1
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 4
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 2
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 3
     },
     {
       "id": 6722433,
@@ -58,6 +58,13 @@
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 5
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 6
     },
     {
       "id": 812989,
