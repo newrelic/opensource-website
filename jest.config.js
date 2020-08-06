@@ -16,7 +16,7 @@ module.exports = {
     `<rootDir>/src/templates/__tests__/fixtures`,
   ],
   transformIgnorePatterns: [
-    `node_modules/(?!(gatsby||gatsby-plugin-mdx||@newrelic\/gatsby-theme-newrelic)/)`,
+    `node_modules/(?!(gatsby||gatsby-plugin-mdx||@newrelic/gatsby-theme-newrelic||@elastic/react-search-ui-views)/)`,
   ],
   globals: {
     __PATH_PREFIX__: ``,
