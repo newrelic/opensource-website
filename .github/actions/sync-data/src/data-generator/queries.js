@@ -167,5 +167,5 @@ const projects = `
 
 module.exports = {
   repositoryStats,
-  projects
+  projects,
 };

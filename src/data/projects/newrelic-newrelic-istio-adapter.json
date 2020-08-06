@@ -15,9 +15,7 @@
   "description": "An Istio Mixer adapter to send telemetry data to New Relic.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Go",
-  "projectTags": [
-    "exporter"
-  ],
+  "projectTags": ["exporter"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Istio Adapter",

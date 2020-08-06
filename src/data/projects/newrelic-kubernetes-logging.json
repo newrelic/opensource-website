@@ -15,10 +15,7 @@
   "description": "Output adapters for Kubernetes, powered by Fluent Bit, for New Relic Logs.",
   "ossCategory": "example-code",
   "primaryLanguage": "Smarty",
-  "projectTags": [
-    "k8",
-    "logging"
-  ],
+  "projectTags": ["k8", "logging"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Kubernetes logging",

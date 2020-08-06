@@ -15,10 +15,7 @@
   "description": "Collects inventory data and metrics of your hosts and sends it to the New Relic platform",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [
-    "nri",
-    "agent"
-  ],
+  "projectTags": ["nri", "agent"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Agent",

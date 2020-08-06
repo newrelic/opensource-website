@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import useDarkMode from 'use-dark-mode';
 
-const withDarkMode = ComponentToWrap => props => {
+const withDarkMode = (ComponentToWrap) => (props) => {
   const [isClient, setIsClient] = useState(false);
   React.useEffect(() => {
     setIsClient(true);

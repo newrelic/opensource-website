@@ -44,7 +44,7 @@ function formatStats(project, stats) {
       // TODO filter out .gitkeep
 
       if (Array.isArray(fileNames.entries)) {
-        const fullPaths = fileNames.entries.map(file => {
+        const fullPaths = fileNames.entries.map((file) => {
           const dir = path.replace(':', '/'); // Replace "master:" with "master/"
           // const url = `https://github.com/` + project.fullName + `/blob/` + dir + file.name + '?raw=true';
           const url = `https://raw.githubusercontent.com/${project.nameWithOwner}/${dir}${file.name}`;
@@ -58,13 +58,13 @@ function formatStats(project, stats) {
   );
 
   const cachedContributors = Array.isArray(contributorStats)
-    ? contributorStats.map(i => {
+    ? contributorStats.map((i) => {
         return {
           id: _.get(i, 'author.id'),
           login: _.get(i, 'author.login'),
           avatarUrl: _.get(i, 'author.avatar_url'),
           htmlUrl: _.get(i, 'author.html_url'),
-          contributions: _.get(i, 'total')
+          contributions: _.get(i, 'total'),
         };
       })
     : [];
@@ -72,13 +72,13 @@ function formatStats(project, stats) {
   const latestReleaseName = _.get(project, 'latestTag.nodes[0].name', false);
   const latestRelease = {
     name: latestReleaseName,
-    date: _.get(project, 'latestTag.nodes[0].target.authoredDate', null)
+    date: _.get(project, 'latestTag.nodes[0].target.authoredDate', null),
   };
 
   return {
     projectFullName: _.get(project, 'nameWithOwner'),
     issues: {
-      open: _.get(project, 'openIssues.totalCount')
+      open: _.get(project, 'openIssues.totalCount'),
     },
     releases: _.get(project, 'tags.totalCount'),
     latestRelease: latestReleaseName ? latestRelease : null,
@@ -89,18 +89,18 @@ function formatStats(project, stats) {
     ),
     contributors: contributorCount,
     pullRequests: {
-      open: _.get(project, 'pullRequests.totalCount') // Filtering by a status of OPEN
+      open: _.get(project, 'pullRequests.totalCount'), // Filtering by a status of OPEN
     },
     searchCategory: 'good first issue',
-    cachedIssues: project.goodFirstIssues.nodes.map(node => ({
+    cachedIssues: project.goodFirstIssues.nodes.map((node) => ({
       ...node,
       createdBy:
-        _.get(node, 'author.name') || _.get(node, 'author.login') || 'Unknown'
+        _.get(node, 'author.name') || _.get(node, 'author.login') || 'Unknown',
     })), // Note: createdBy is author.login
     cachedContributors,
     languages: _.get(project, 'languages.nodes'),
     screenshots: screenshots,
-    license: project.licenseInfo ? { ...project.licenseInfo } : null
+    license: project.licenseInfo ? { ...project.licenseInfo } : null,
   };
 }
 
@@ -124,5 +124,5 @@ function writeProjectStatsToGatsby(project, projectStats) {
 }
 
 module.exports = {
-  calculateAndWriteProjectStats
+  calculateAndWriteProjectStats,
 };

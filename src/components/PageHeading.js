@@ -9,7 +9,7 @@ import placeholderProjectIconLight from '../images/page-heading-icon-placeholder
 import styles from './PageHeading.module.scss';
 import withDarkMode from './withDarkMode';
 
-const PageHeading = props => {
+const PageHeading = (props) => {
   const { darkMode, project } = props;
 
   const renderTags = () => {
@@ -99,7 +99,7 @@ const PageHeading = props => {
 };
 
 PageHeading.defaultProps = {
-  showIcon: false
+  showIcon: false,
 };
 
 PageHeading.propTypes = {
@@ -113,7 +113,7 @@ PageHeading.propTypes = {
   blogMeta: PropTypes.string,
   callToAction: PropTypes.func,
   darkMode: PropTypes.object,
-  className: PropTypes.string
+  className: PropTypes.string,
 };
 
 export default withDarkMode(PageHeading);

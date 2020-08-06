@@ -15,9 +15,7 @@
   "description": "Monitor and report metrics for configured CollectD devices",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [
-    "nri"
-  ],
+  "projectTags": ["nri"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Collectd Integration",

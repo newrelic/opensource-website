@@ -15,9 +15,7 @@
   "description": "A custom Fluentd Docker image for forwarding log events to New Relic.",
   "ossCategory": "community-project",
   "primaryLanguage": "Shell",
-  "projectTags": [
-    "logging"
-  ],
+  "projectTags": ["logging"],
   "acceptsContributions": true,
   "website": {
     "title": "Fluentd Docker Image for New Relic Logs",

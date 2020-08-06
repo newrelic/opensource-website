@@ -1,13 +1,13 @@
 const ORG_REPOS = [
   {
-    org: 'newrelic'
+    org: 'newrelic',
   },
 
   // TO DO - resolve permissions on GH_TOKEN to fix this error:
   // (node:12679) UnhandledPromiseRejectionWarning: GraphqlError: Must have push access to view repository collaborators.
   {
-    org: 'newrelic-experimental'
-  }
+    org: 'newrelic-experimental',
+  },
 
   // For more specific org/repo combinations, i.e. a solution to how to include a partner project
   // or a project we contribute to in other organizations
@@ -39,7 +39,7 @@ const EXCLUDED_PROJECTS = [
   'w3c-distributed-tracing-wg',
   'w3c-trace-context',
   'w3c-trace-context-binary',
-  'w3c-trace-response'
+  'w3c-trace-response',
 ];
 
 // TO DO - Ascertain Github's GraphQL query limits
@@ -48,11 +48,11 @@ const SCREENSHOT_FOLDERS = {
   screenshots: 'master:screenshots/',
   assetsScreenshots: 'master:assets/screenshots/',
   assetsDocumentationImages: 'master:assets/documentation-images/',
-  catalogScreenshots: 'master:catalog/screenshots/'
+  catalogScreenshots: 'master:catalog/screenshots/',
 };
 
 module.exports = {
   ORG_REPOS,
   EXCLUDED_PROJECTS,
-  SCREENSHOT_FOLDERS
+  SCREENSHOT_FOLDERS,
 };

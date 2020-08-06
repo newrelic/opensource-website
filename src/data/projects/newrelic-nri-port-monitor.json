@@ -15,9 +15,7 @@
   "description": "Reports up or down status for a network (TCP, UDP, etc.) port",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Go",
-  "projectTags": [
-    "nri"
-  ],
+  "projectTags": ["nri"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Port Monitor Integration",

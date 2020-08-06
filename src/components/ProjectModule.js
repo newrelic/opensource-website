@@ -48,7 +48,7 @@ const ProjectModule = ({ data, row, darkMode }) => {
 ProjectModule.propTypes = {
   data: PropTypes.object,
   row: PropTypes.bool,
-  darkMode: PropTypes.object
+  darkMode: PropTypes.object,
 };
 
 export default withDarkMode(ProjectModule);

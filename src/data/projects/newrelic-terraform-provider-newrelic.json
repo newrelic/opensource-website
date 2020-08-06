@@ -14,11 +14,7 @@
   "shortDescription": "Automate provisioning of New Relic resources",
   "description": "Observability as Code: Provision and manage your New Relic resources via Terraform's powerful configuration language.",
   "ossCategory": "community-project",
-  "projectTags": [
-    "tools",
-    "dev-toolkit",
-    "terraform"
-  ],
+  "projectTags": ["tools", "dev-toolkit", "terraform"],
   "primaryLanguage": "Go",
   "acceptsContributions": true,
   "website": {

@@ -19,7 +19,7 @@ const Header = ({ hasHeaderBg, editLink }) => {
       a.order > b.order ? 1 : -1
     );
 
-    return sortedNavLinks.map(navItem => {
+    return sortedNavLinks.map((navItem) => {
       return (
         <li className={styles.primaryHeaderNavLinkItem} key={navItem.order}>
           <Link to={navItem.link} className={styles.primaryHeaderNavLink}>
@@ -89,7 +89,7 @@ const Header = ({ hasHeaderBg, editLink }) => {
 
 Header.propTypes = {
   hasHeaderBg: PropTypes.bool,
-  editLink: PropTypes.string
+  editLink: PropTypes.string,
 };
 
 export default Header;

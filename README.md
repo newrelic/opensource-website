@@ -10,13 +10,13 @@ The `opensource-website` project is the code and data behind [opensource.newreli
 
 Project documentation can be found in the [Wiki](https://github.com/newrelic/opensource-website/wiki).
 
-| Topic                           | Wiki Guide                                                                                  |
-| --------------------------------| --------------------------------------------------------------------------------------------|
-| Architecture                    | [Architecture](https://github.com/newrelic/opensource-website/wiki/Architecture)            |
-| Build and Deploy                | [Build and Deploy](https://github.com/newrelic/opensource-website/wiki/Build-And-Deploy)    |
-| Contributing Project Data       | [Contributing Project Data](https://github.com/newrelic/opensource-website/wiki/Contributing-Project-Data)<br>_If you are adding or modifying your project listing and its metadata, this is the guide you should consult to make sure all necessary files are present._ |
-| Emergency Runbook               | [Emergency Runbook](https://github.com/newrelic/opensource-website/wiki/Emergency-Runbook)  |
-| Project Structure               | [Project Structure](https://github.com/newrelic/opensource-website/wiki/Project-Structure)  |
+| Topic                     | Wiki Guide                                                                                                                                                                                                                                                               |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Architecture              | [Architecture](https://github.com/newrelic/opensource-website/wiki/Architecture)                                                                                                                                                                                         |
+| Build and Deploy          | [Build and Deploy](https://github.com/newrelic/opensource-website/wiki/Build-And-Deploy)                                                                                                                                                                                 |
+| Contributing Project Data | [Contributing Project Data](https://github.com/newrelic/opensource-website/wiki/Contributing-Project-Data)<br>_If you are adding or modifying your project listing and its metadata, this is the guide you should consult to make sure all necessary files are present._ |
+| Emergency Runbook         | [Emergency Runbook](https://github.com/newrelic/opensource-website/wiki/Emergency-Runbook)                                                                                                                                                                               |
+| Project Structure         | [Project Structure](https://github.com/newrelic/opensource-website/wiki/Project-Structure)                                                                                                                                                                               |
 
 ## Open source license
 

@@ -17,7 +17,7 @@ const HomePageHighlights = ({ data }) => {
         </p>
       </div>
       <div className={styles.externalProjectsList}>
-        {projects.map(project => {
+        {projects.map((project) => {
           return <ProjectModule data={project} key={project.title} row />;
         })}
       </div>
@@ -26,7 +26,7 @@ const HomePageHighlights = ({ data }) => {
 };
 
 HomePageHighlights.propTypes = {
-  data: PropTypes.array
+  data: PropTypes.array,
 };
 
 export default HomePageHighlights;

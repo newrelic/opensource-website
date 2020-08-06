@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/nr1-integrations-manager",
   "issues": {
-    "open": 0
+    "open": 3
   },
-  "releases": 15,
+  "releases": 16,
   "latestRelease": {
-    "name": "v1.6.1",
-    "date": "2020-08-03T03:15:02Z"
+    "name": "v1.7.0",
+    "date": "2020-08-03T15:37:45Z"
   },
-  "commits": 109,
-  "lastSixMonthsCommitTotal": 82,
+  "commits": 112,
+  "lastSixMonthsCommitTotal": 85,
   "contributors": 10,
   "pullRequests": {
     "open": 0
@@ -64,14 +64,7 @@
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 11
-    },
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 13
+      "contributions": 12
     },
     {
       "id": 197140,
@@ -81,11 +74,18 @@
       "contributions": 13
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 14
+    },
+    {
       "id": 13043208,
       "login": "Kav91",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 40
+      "contributions": 41
     }
   ],
   "languages": [

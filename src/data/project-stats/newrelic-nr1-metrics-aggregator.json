@@ -3,14 +3,14 @@
   "issues": {
     "open": 0
   },
-  "releases": 3,
+  "releases": 4,
   "latestRelease": {
-    "name": "v0.9.8",
-    "date": "2020-07-24T03:34:43Z"
+    "name": "v0.9.9",
+    "date": "2020-08-06T15:49:46Z"
   },
-  "commits": 92,
-  "lastSixMonthsCommitTotal": 92,
-  "contributors": 7,
+  "commits": 96,
+  "lastSixMonthsCommitTotal": 96,
+  "contributors": 8,
   "pullRequests": {
     "open": 0
   },
@@ -18,18 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 812989,
+      "login": "danielgolden",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/812989?v=4",
+      "htmlUrl": "https://github.com/danielgolden",
+      "contributions": 1
+    },
+    {
       "id": 12127,
       "login": "WardCunningham",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/12127?v=4",
       "htmlUrl": "https://github.com/WardCunningham",
       "contributions": 1
-    },
-    {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 2
     },
     {
       "id": 13436647,
@@ -39,11 +39,11 @@
       "contributions": 2
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 6
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 3
     },
     {
       "id": 6722433,
@@ -51,6 +51,13 @@
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 6
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 7
     },
     {
       "id": 929261,

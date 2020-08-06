@@ -1,13 +1,13 @@
 const visit = require('unist-util-visit');
 
-const remarkExternalLinks = () => tree => {
-  const isTarget = node => {
+const remarkExternalLinks = () => (tree) => {
+  const isTarget = (node) => {
     return (
       node.type === 'link' && node.url.indexOf('opensource.newrelic.com') < 0
     );
   };
 
-  visit(tree, isTarget, node => {
+  visit(tree, isTarget, (node) => {
     const { url } = node;
 
     if (url) {
@@ -15,8 +15,8 @@ const remarkExternalLinks = () => tree => {
       node.data = {
         hProperties: {
           target: '__blank',
-          rel: 'noopener noreferrer'
-        }
+          rel: 'noopener noreferrer',
+        },
       };
     }
   });

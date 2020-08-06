@@ -7,18 +7,17 @@
     "type": "Organization"
   },
   "title": "New Relic Micrometer",
-  "supportUrl": null,
+  "supportUrl": "https://discuss.newrelic.com/tags/javaagent",
   "githubUrl": "https://github.com/newrelic/micrometer-registry-newrelic",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/micrometer-registry-newrelic",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/micrometer-registry-newrelic/blob/main/CONTRIBUTING.md",
   "iconUrl": null,
   "shortDescription": "Micrometer registry for the Java Telemetry SDK",
   "description": "Micrometer registry implementation that sends data to New Relic as dimensional metrics.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Java",
-  "projectTags": [
-    "exporter",
-    "opentelemetry"
-  ],
+  "projectTags": ["opentelemetry", "exporter"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Micrometer",

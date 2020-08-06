@@ -7,18 +7,17 @@
     "type": "Organization"
   },
   "title": "New Relic Telemetry SDK (Java)",
-  "supportUrl": null,
+  "supportUrl": "https://discuss.newrelic.com/tags/javaagent",
   "githubUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-java",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-telemetry-sdk-java",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-java/blob/main/CONTRIBUTING.md",
   "iconUrl": null,
   "shortDescription": "New Relic Telemetry SDK for Java",
   "description": "Java library for sending telemetry data to New Relic",
   "ossCategory": "community-project",
   "primaryLanguage": "Java",
-  "projectTags": [
-    "opentelemetry",
-    "sdk"
-  ],
+  "projectTags": ["opentelemetry", "sdk"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Telemetry SDK (Java)",

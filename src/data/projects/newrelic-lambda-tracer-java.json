@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-lambda-tracer-java",
+  "fullName": "newrelic/newrelic-lambda-tracer-java",
+  "slug": "newrelic-lambda-tracer-java",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic OpenTracing AWS Lambda Tracer for Java",
+  "supportUrl": "https://discuss.newrelic.com/tags/javaagent",
+  "githubUrl": "https://github.com/newrelic/newrelic-lambda-tracer-java",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-lambda-tracer-java",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-lambda-tracer-java/blob/main/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "",
+  "description": "New Relic OpenTracing AWS Lambda Tracer for Java",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Java",
+  "projectTags": ["opentelemetry", "exporter", "lib"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic OpenTracing AWS Lambda Tracer for Java",
+    "url": "https://github.com/newrelic/newrelic-lambda-tracer-java"
+  }
+}

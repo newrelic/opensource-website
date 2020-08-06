@@ -13,12 +13,12 @@ beforeEach(() => {
         title: 'New Relic Open Source',
         description:
           "New Relic <3's open source. We built this site to make it easy for you to explore the projects we're maintaining as well as our involvement in open standards.",
-        author: '@newrelic'
+        author: '@newrelic',
       },
       layout: {
-        maxWidth: '1236px'
-      }
-    }
+        maxWidth: '1236px',
+      },
+    },
   }));
 });
 

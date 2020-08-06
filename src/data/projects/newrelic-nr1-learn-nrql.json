@@ -17,10 +17,7 @@
   "description": "NRQL Lessons is a self-paced learning tool aimed to help New Relic customers improve their NRQL skills. Master NRQL (New Relic's Query Language) through a series of training levels using your own data.  Start from the very basics of NRQL syntax through to advanced concepts and querying techniques to become NRQL Ninjas!",
   "ossCategory": "new-relic-one-catalog-project",
   "primaryLanguage": "JavaScript",
-  "projectTags": [
-    "nr1-app",
-    "training"
-  ],
+  "projectTags": ["nr1-app", "training"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic One NRQL Lessons",
