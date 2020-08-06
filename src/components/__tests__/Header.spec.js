@@ -1,8 +1,16 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { useStaticQuery } from 'gatsby';
+import {
+  LocationProvider,
+  createHistory,
+  createMemorySource,
+} from '@reach/router';
 
 import Header from '../Header';
+
+const source = createMemorySource('/');
+const history = createHistory(source);
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
@@ -22,7 +30,13 @@ beforeEach(() => {
 
 describe('Header', () => {
   it('renders correctly', () => {
-    const tree = renderer.create(<Header />).toJSON();
+    const tree = renderer
+      .create(
+        <LocationProvider history={history}>
+          <Header />
+        </LocationProvider>
+      )
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

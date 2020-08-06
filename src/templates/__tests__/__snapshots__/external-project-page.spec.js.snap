@@ -150,6 +150,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   width: 0.875rem;
   height: 0.875rem;
   cursor: pointer;
+  cursor: pointer;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
@@ -797,6 +798,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   width: 0.875rem;
   height: 0.875rem;
   cursor: pointer;
+  cursor: pointer;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
@@ -1443,6 +1445,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   stroke-linejoin: round;
   width: 0.875rem;
   height: 0.875rem;
+  cursor: pointer;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;

@@ -2,9 +2,17 @@ import React from 'react';
 import TestRenderer from 'react-test-renderer'; // https://reactjs.org/docs/test-renderer.html
 // import { render } from '@testing-library/react'; // https://testing-library.com/docs/react-testing-library/intro
 import { useStaticQuery } from 'gatsby';
+import {
+  LocationProvider,
+  createHistory,
+  createMemorySource,
+} from '@reach/router';
 
 import ExternalProjectPage from '../external-project-page';
 import data from './fixtures/external-project-page';
+
+const source = createMemorySource('/');
+const history = createHistory(source);
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
@@ -25,7 +33,9 @@ beforeEach(() => {
 describe('Open Telemetry Page', () => {
   it('Renders correctly', () => {
     const tree = TestRenderer.create(
-      <ExternalProjectPage data={data['projects/open-telemetry']} />
+      <LocationProvider history={history}>
+        <ExternalProjectPage data={data['projects/open-telemetry']} />
+      </LocationProvider>
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });
@@ -34,7 +44,11 @@ describe('Open Telemetry Page', () => {
 describe('W3C Distributed Tracing Working Group', () => {
   it('Renders correctly', () => {
     const tree = TestRenderer.create(
-      <ExternalProjectPage data={data['projects/w3c-distributed-tracing-wg']} />
+      <LocationProvider history={history}>
+        <ExternalProjectPage
+          data={data['projects/w3c-distributed-tracing-wg']}
+        />
+      </LocationProvider>
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });
@@ -43,7 +57,9 @@ describe('W3C Distributed Tracing Working Group', () => {
 describe('Adopt OpenJDK', () => {
   it('Renders correctly', () => {
     const tree = TestRenderer.create(
-      <ExternalProjectPage data={data['projects/adopt-open-jdk']} />
+      <LocationProvider history={history}>
+        <ExternalProjectPage data={data['projects/adopt-open-jdk']} />
+      </LocationProvider>
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });

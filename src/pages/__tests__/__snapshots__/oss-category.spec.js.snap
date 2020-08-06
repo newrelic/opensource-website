@@ -150,6 +150,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   width: 0.875rem;
   height: 0.875rem;
   cursor: pointer;
+  cursor: pointer;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);

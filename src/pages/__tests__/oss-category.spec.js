@@ -2,9 +2,17 @@ import React from 'react';
 import TestRenderer from 'react-test-renderer'; // https://reactjs.org/docs/test-renderer.html
 // import { render } from '@testing-library/react'; // https://testing-library.com/docs/react-testing-library/intro
 import { useStaticQuery } from 'gatsby';
+import {
+  LocationProvider,
+  createHistory,
+  createMemorySource,
+} from '@reach/router';
 
 import OssCategoryPage from '../oss-category';
 import data from './fixtures/oss-category';
+
+const source = createMemorySource('/');
+const history = createHistory(source);
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
@@ -24,7 +32,11 @@ beforeEach(() => {
 
 describe('OSS Category Page', () => {
   it('Renders correctly', () => {
-    const tree = TestRenderer.create(<OssCategoryPage data={data} />).toJSON();
+    const tree = TestRenderer.create(
+      <LocationProvider history={history}>
+        <OssCategoryPage data={data} />
+      </LocationProvider>
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
