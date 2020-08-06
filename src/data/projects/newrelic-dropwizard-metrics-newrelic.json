@@ -17,10 +17,7 @@
   "description": "Implementation of a DropWizard metrics Reporter that sends data as dimensional metrics to New Relic",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Java",
-  "projectTags": [
-    "opentelemetry",
-    "exporter"
-  ],
+  "projectTags": ["opentelemetry", "exporter"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Dropwizard reporter",
