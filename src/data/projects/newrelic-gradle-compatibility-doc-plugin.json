@@ -1,0 +1,29 @@
+{
+  "name": "newrelic-gradle-compatibility-doc-plugin",
+  "fullName": "newrelic/newrelic-gradle-compatibility-doc-plugin",
+  "slug": "newrelic-gradle-compatibility-doc-plugin",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Gradle Compatibility Doc Plugin",
+  "supportUrl": "https://discuss.newrelic.com/tags/javaagent",
+  "githubUrl": "https://github.com/newrelic/newrelic-gradle-compatibility-doc-plugin",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-gradle-compatibility-doc-plugin",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-gradle-compatibility-doc-plugin/blob/main/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "",
+  "description": "Gradle plugin for generating compatibility documents (lists of supported software versions) from instrumentation modules.",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Java",
+  "projectTags": [
+    "docs",
+    "agent"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Gradle Compatibility Doc Plugin",
+    "url": "https://github.com/newrelic/newrelic-gradle-compatibility-doc-plugin"
+  }
+}
