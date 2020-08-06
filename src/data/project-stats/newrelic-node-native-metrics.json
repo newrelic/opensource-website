@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/node-native-metrics",
   "issues": {
-    "open": 1
+    "open": 0
   },
   "releases": 25,
   "latestRelease": {
     "name": "v5.2.0",
     "date": null
   },
-  "commits": 217,
-  "lastSixMonthsCommitTotal": 20,
-  "contributors": 17,
+  "commits": 251,
+  "lastSixMonthsCommitTotal": 54,
+  "contributors": 18,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -67,6 +67,13 @@
       "contributions": 2
     },
     {
+      "id": 398399,
+      "login": "nijotz",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
+      "htmlUrl": "https://github.com/nijotz",
+      "contributions": 3
+    },
+    {
       "id": 176090,
       "login": "0x7f",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/176090?v=4",
@@ -95,13 +102,6 @@
       "contributions": 5
     },
     {
-      "id": 11223178,
-      "login": "michaelgoin",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
-      "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 7
-    },
-    {
       "id": 4933147,
       "login": "martinkuba",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/4933147?v=4",
@@ -116,6 +116,13 @@
       "contributions": 14
     },
     {
+      "id": 11223178,
+      "login": "michaelgoin",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
+      "htmlUrl": "https://github.com/michaelgoin",
+      "contributions": 14
+    },
+    {
       "id": 1342804,
       "login": "lykkin",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/1342804?v=4",
@@ -127,7 +134,7 @@
       "login": "carlonewrelic",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/54335840?v=4",
       "htmlUrl": "https://github.com/carlonewrelic",
-      "contributions": 21
+      "contributions": 31
     },
     {
       "id": 466761,
@@ -161,11 +168,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }

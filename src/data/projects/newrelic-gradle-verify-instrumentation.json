@@ -1,0 +1,28 @@
+{
+  "name": "newrelic-gradle-verify-instrumentation",
+  "fullName": "newrelic/newrelic-gradle-verify-instrumentation",
+  "slug": "newrelic-gradle-verify-instrumentation",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Gradle Verify Instrumentation",
+  "supportUrl": "https://discuss.newrelic.com/tags/javaagent",
+  "githubUrl": "https://github.com/newrelic/newrelic-gradle-verify-instrumentation",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-gradle-verify-instrumentation",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-gradle-verify-instrumentation/blob/main/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "",
+  "description": "Gradle 5.6+ plugin for verifying instrumentation modules for the New Relic Java agent.",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Java",
+  "projectTags": [
+    "agent"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Gradle Verify Instrumentation",
+    "url": "https://github.com/newrelic/newrelic-gradle-verify-instrumentation"
+  }
+}

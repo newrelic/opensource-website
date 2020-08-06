@@ -7,15 +7,21 @@
     "type": "Organization"
   },
   "title": "New Relic OpenTracing Tracer Plugin",
-  "supportUrl": null,
+  "supportUrl": "https://discuss.newrelic.com/tags/javaagent",
   "githubUrl": "https://github.com/newrelic/newrelic-tracer-java",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-tracer-java",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-tracer-java/blob/main/CONTRIBUTING.md",
   "iconUrl": null,
   "shortDescription": "Tracer Plugin for Java",
   "description": "Tracer Plugin for the Java SpecialAgent which provides automatic OpenTracing-based instrumentation for 3rd-party Java libraries",
   "ossCategory": "community-project",
   "primaryLanguage": "Java",
-  "projectTags": ["lib", "opentelemetry"],
+  "projectTags": [
+    "lib",
+    "opentelemetry",
+    "exporter"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic OpenTracing Tracer Plugin",
