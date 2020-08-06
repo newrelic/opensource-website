@@ -5,8 +5,8 @@ import { mockMediaQueryList } from 'use-media/lib/useMedia';
 
 expect.addSnapshotSerializer(createSerializer(emotion));
 
-global.matchMedia = jest.fn().mockImplementation(media => ({
+global.matchMedia = jest.fn().mockImplementation((media) => ({
   ...mockMediaQueryList,
   media,
-  match: false
+  match: false,
 }));

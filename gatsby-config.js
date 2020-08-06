@@ -17,7 +17,7 @@ module.exports = {
         layout: {
           // 1180px (width) + 28px (padding) * 2 (left/right side)
           maxWidth: '1236px',
-          contentPadding: '28px'
+          contentPadding: '28px',
         },
         newrelic: {
           // Keyed by process.env.NODE_ENV
