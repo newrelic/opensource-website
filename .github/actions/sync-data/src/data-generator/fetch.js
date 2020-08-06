@@ -15,8 +15,8 @@ const octokit = new Octokit({
     // eslint-disable-next-line no-console
     warn: console.warn,
     // eslint-disable-next-line no-console
-    error: console.error
-  }
+    error: console.error,
+  },
 });
 
 /*
@@ -135,15 +135,15 @@ const octokit = new Octokit({
  * start_page - Beginning page
  * exclude_archived - Whether or not to filter out archived repositories (repos.listForOrg does not offer a way to exclude these from the response)
  */
-const organizationRepositoryIterator = function({
+const organizationRepositoryIterator = function ({
   pages = 1,
   org = DEFAULT_ORG,
   type = 'public',
   per_page = REPOS_PER_PAGE,
-  start_page = 1
+  start_page = 1,
   // excludeArchived = true
 }) {
-  return function() {
+  return function () {
     const MAX_PAGES_ALLOWED = 100;
 
     let isFirstPage = true;
@@ -155,20 +155,20 @@ const organizationRepositoryIterator = function({
     // How best do we initialize this for the first page?
     let pagesToGet = pages === 0 ? MAX_PAGES_ALLOWED : pages;
 
-    const hasMore = function() {
+    const hasMore = function () {
       return pagesToGet > 0;
     };
 
-    const getCurrentPage = function() {
+    const getCurrentPage = function () {
       return currentPage;
     };
 
-    const firstPage = async function() {
+    const firstPage = async function () {
       const firstPage = await fetchOrganizationRepositoryPage({
         org,
         type,
         per_page,
-        page: startPage
+        page: startPage,
       });
       // prettyPrintJson(Object.keys(firstPage.data));
 
@@ -188,7 +188,7 @@ const organizationRepositoryIterator = function({
       return firstPage;
     };
 
-    const next = function() {
+    const next = function () {
       let nextPage = false;
 
       if (hasMore()) {
@@ -205,7 +205,7 @@ const organizationRepositoryIterator = function({
               org,
               type,
               per_page,
-              page: currentPage
+              page: currentPage,
             });
         }
 
@@ -221,23 +221,23 @@ const organizationRepositoryIterator = function({
     return {
       hasMore,
       next,
-      getCurrentPage
+      getCurrentPage,
     };
   };
 };
 
-const fetchOrganizationRepositoryPage = async function({
+const fetchOrganizationRepositoryPage = async function ({
   org,
   type,
   per_page,
-  page
+  page,
 }) {
   try {
     const response = await octokit.repos.listForOrg({
       org,
       type,
       per_page,
-      page
+      page,
     });
 
     const { /* status, url, headers, */ data } = response;
@@ -253,16 +253,16 @@ const fetchOrganizationRepositoryPage = async function({
   }
 };
 
-const fetchRepo = async function({ options }) {
+const fetchRepo = async function ({ options }) {
   const { org: owner, repo } = options;
 
   return octokit.repos.get({
     owner,
-    repo
+    repo,
   });
 };
 
 module.exports = {
   organizationRepositoryIterator,
-  fetchRepo
+  fetchRepo,
 };

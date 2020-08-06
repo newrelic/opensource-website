@@ -15,10 +15,7 @@
   "description": "Optional native module for collecting low-level Node & V8 metrics",
   "ossCategory": "community-project",
   "primaryLanguage": "C++",
-  "projectTags": [
-    "agent",
-    "exporter"
-  ],
+  "projectTags": ["agent", "exporter"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Node Agent Native Metrics",

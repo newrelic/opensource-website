@@ -6,7 +6,7 @@ const githubUrl = () => {
     host: 'https://github.com',
     org: 'newrelic',
     repo: 'opensource-website',
-    defaultBranch: 'develop'
+    defaultBranch: 'develop',
   };
 
   const { host, org, repo, defaultBranch } = options;
@@ -16,7 +16,7 @@ const githubUrl = () => {
 
 const editLinksMap = {
   '/projects/(.*)': `src/data/project-main-content/$match.mdx`,
-  '^/$': `src/pages/index.js`
+  '^/$': `src/pages/index.js`,
 };
 
 const getEditLinkFromPath = ({ path }) => {
@@ -50,7 +50,7 @@ const getEditLinkFromPath = ({ path }) => {
   }
 };
 
-module.exports = params => {
+module.exports = (params) => {
   const { node, actions } = params;
   const { createNodeField } = actions;
   const { path, componentPath } = node;
@@ -63,7 +63,7 @@ module.exports = params => {
     }
     const githubBaseUrl = githubUrl();
     const mappedEditLink = getEditLinkFromPath({
-      path
+      path,
     });
 
     const sourceFilePath = componentPath.replace(`${cwd}/`, '');
@@ -75,7 +75,7 @@ module.exports = params => {
     createNodeField({
       node,
       name: `contentEditLink`,
-      value: fullUrl
+      value: fullUrl,
     });
   }
 };

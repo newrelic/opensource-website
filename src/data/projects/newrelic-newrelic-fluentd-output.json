@@ -15,9 +15,7 @@
   "description": "A Fluentd output plugin that sends logs to New Relic",
   "ossCategory": "community-project",
   "primaryLanguage": "Ruby",
-  "projectTags": [
-    "logging"
-  ],
+  "projectTags": ["logging"],
   "acceptsContributions": true,
   "website": {
     "title": "Fluentd Output Plugin for New Relic Logs",

@@ -15,9 +15,7 @@
   "description": "AWS Serverless application that sends log data from CloudWatch Logs to New Relic Infrastructure - Cloud Integrations.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Python",
-  "projectTags": [
-    "logging"
-  ],
+  "projectTags": ["logging"],
   "acceptsContributions": true,
   "website": {
     "title": "aws log-ingestion",

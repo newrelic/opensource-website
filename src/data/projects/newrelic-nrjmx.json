@@ -15,10 +15,7 @@
   "description": "Command line tool to connect to a JMX server and retrieve the MBeans it exposes",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Java",
-  "projectTags": [
-    "tools",
-    "cli"
-  ],
+  "projectTags": ["tools", "cli"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic JMX",

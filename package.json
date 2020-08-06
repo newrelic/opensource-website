@@ -2,12 +2,12 @@
   "name": "opensource-website",
   "private": true,
   "description": "Data, code, and automation for opensource.newrelic.com",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "author": "Open Source Team at New Relic <opensource@newrelic.com>",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
-    "@newrelic/gatsby-theme-newrelic": "^1.1.9",
+    "@newrelic/gatsby-theme-newrelic": "^1.5.1",
     "date-fns": "^2.14.0",
     "feather-icons": "^4.28.0",
     "gatsby": "^2.24.8",
@@ -52,7 +52,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.0.1",
     "jest-emotion": "^10.0.32",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.5",
     "react-test-renderer": "^16.13.1"
   },
   "keywords": [

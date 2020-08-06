@@ -15,9 +15,7 @@
   "description": "Azure EventHub data to New Relic Logs",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "C#",
-  "projectTags": [
-    "logging"
-  ],
+  "projectTags": ["logging"],
   "acceptsContributions": true,
   "website": {
     "title": "newrelic azure-logs-integration",

@@ -1,3 +1,16 @@
+# [1.8.0](https://github.com/newrelic/opensource-website/compare/v1.7.1...v1.8.0) (2020-08-06)
+
+
+### Bug Fixes
+
+* use GlobalHeader from theme ([eeed75f](https://github.com/newrelic/opensource-website/commit/eeed75fdd4c7df9aa8b62f5fd06bf083154d15a9))
+* use min-height for layout container to avoid hidden global header ([272a4ee](https://github.com/newrelic/opensource-website/commit/272a4ee3b74a4fc6a4cfaaec4284d0e0fb64ab29))
+
+
+### Features
+
+* added serch functionality from theme ([da74d61](https://github.com/newrelic/opensource-website/commit/da74d610e95aa8831eb8036233d92d07aa8c0d3b))
+
 ## [1.7.1](https://github.com/newrelic/opensource-website/compare/v1.7.0...v1.7.1) (2020-08-03)
 
 

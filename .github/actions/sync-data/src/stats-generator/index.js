@@ -21,7 +21,7 @@ async function generateStatsForOrgs({ organizations, paginationLimit = 5 }) {
 
   log.info(
     `Generating stats for orgs: [${organizations
-      .map(o => `${o.org}`)
+      .map((o) => `${o.org}`)
       .join(',')}]`
   );
 
@@ -32,7 +32,7 @@ async function generateStatsForOrgs({ organizations, paginationLimit = 5 }) {
     log.magenta(`Fetching all repos for org: ${org}`);
     const { repos } = await getAllReposForOrg(github)({
       org,
-      paginationLimit
+      paginationLimit,
     });
 
     log.magenta(`Number of fetched repos: ${repos.length}`);
@@ -72,7 +72,7 @@ async function getProjectsAndExclusions() {
 
   const projectFiles = await fsp.readdir(outputDir);
   const projects = await Promise.all(
-    projectFiles.map(file => getProjectFullName(file, outputDir))
+    projectFiles.map((file) => getProjectFullName(file, outputDir))
   );
 
   log.info(
@@ -90,13 +90,13 @@ async function getProjectsAndExclusions() {
  */
 async function generateDiff(results) {
   const projectList = await getProjectsAndExclusions();
-  const repos = results.map(r => r.nameWithOwner);
-  const missingProjects = repos.filter(r => !projectList.includes(r));
+  const repos = results.map((r) => r.nameWithOwner);
+  const missingProjects = repos.filter((r) => !projectList.includes(r));
 
   // also filter on EXCLUDED_PROJECTS since that's included in projectList, but
   // we don't want stats for those
   const projectsWhereNoStatsGenerated = projectList.filter(
-    p => !repos.includes(p) && !EXCLUDED_PROJECTS.includes(p)
+    (p) => !repos.includes(p) && !EXCLUDED_PROJECTS.includes(p)
   );
 
   return { missingProjects, projectsWhereNoStatsGenerated };
@@ -114,7 +114,7 @@ async function script() {
   // Get all stats data for newrelic and newrelic-experimental orgs
   const results = await generateStatsForOrgs({
     organizations: ORG_REPOS,
-    paginationLimit: PAGINATION_LIMIT
+    paginationLimit: PAGINATION_LIMIT,
   });
   log.info(`Total fetched repos: ${results.length}`);
 
@@ -143,5 +143,5 @@ async function script() {
 }
 
 module.exports = {
-  script
+  script,
 };

@@ -41,27 +41,27 @@ export const query = graphql`
 
 const InstrumentationPage = ({ data }) => {
   // console.debug(data);
-  const allProjects = data.allProjects.edges.map(project => {
+  const allProjects = data.allProjects.edges.map((project) => {
     const p = project.node;
 
     p.title = p.title.replace(/New Relic/, '');
     return p;
   });
 
-  const exporters = allProjects.filter(p =>
-    p.projectTags.find(t => t.slug === 'exporter')
+  const exporters = allProjects.filter((p) =>
+    p.projectTags.find((t) => t.slug === 'exporter')
   );
-  const nris = allProjects.filter(p =>
-    p.projectTags.find(t => t.slug === 'nri')
+  const nris = allProjects.filter((p) =>
+    p.projectTags.find((t) => t.slug === 'nri')
   );
-  const sdks = allProjects.filter(p =>
-    p.projectTags.find(t => t.slug === 'sdk')
+  const sdks = allProjects.filter((p) =>
+    p.projectTags.find((t) => t.slug === 'sdk')
   );
-  const clis = allProjects.filter(p =>
-    p.projectTags.find(t => t.slug === 'cli')
+  const clis = allProjects.filter((p) =>
+    p.projectTags.find((t) => t.slug === 'cli')
   );
-  const agents = allProjects.filter(p =>
-    p.projectTags.find(t => t.slug === 'agent')
+  const agents = allProjects.filter((p) =>
+    p.projectTags.find((t) => t.slug === 'agent')
   );
   // const opentelemetry = allProjects.filter(p => p.projectTags.find(t => t.slug === 'opentelemetry'));
 
@@ -88,7 +88,7 @@ const InstrumentationPage = ({ data }) => {
           </p>
         </header>
         <div className={styles.collectionListing}>
-          {agents.map(project => {
+          {agents.map((project) => {
             return (
               <SimpleProjectModule
                 key={project.id}
@@ -109,7 +109,7 @@ const InstrumentationPage = ({ data }) => {
           </p>
         </header>
         <div className={styles.collectionListing}>
-          {exporters.map(project => {
+          {exporters.map((project) => {
             return (
               <SimpleProjectModule
                 key={project.id}
@@ -131,7 +131,7 @@ const InstrumentationPage = ({ data }) => {
           </p>
         </header>
         <div className={styles.collectionListing}>
-          {nris.map(project => {
+          {nris.map((project) => {
             return (
               <SimpleProjectModule
                 key={project.id}
@@ -150,7 +150,7 @@ const InstrumentationPage = ({ data }) => {
           </p>
         </header>
         <div className={styles.collectionListing}>
-          {sdks.map(project => {
+          {sdks.map((project) => {
             return (
               <SimpleProjectModule
                 key={project.id}
@@ -169,7 +169,7 @@ const InstrumentationPage = ({ data }) => {
           </p>
         </header>
         <div className={styles.collectionListing}>
-          {clis.map(project => {
+          {clis.map((project) => {
             return (
               <SimpleProjectModule
                 key={project.id}
@@ -185,7 +185,7 @@ const InstrumentationPage = ({ data }) => {
 };
 
 InstrumentationPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 export default InstrumentationPage;

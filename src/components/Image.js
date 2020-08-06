@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
  *
  * If currentSrc is null or if we get an error when loading currentSrc utilize the provided fallbackSrc
  */
-const Image = props => {
+const Image = (props) => {
   const [currentSrc, setCurrentSrc] = useState(props.src);
   const [errored, setErrored] = useState(false);
 
@@ -46,7 +46,7 @@ const Image = props => {
 
 Image.propTypes = {
   src: PropTypes.string,
-  fallbackSrc: PropTypes.string.isRequired
+  fallbackSrc: PropTypes.string.isRequired,
 };
 
 export default Image;

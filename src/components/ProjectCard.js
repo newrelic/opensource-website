@@ -49,7 +49,7 @@ const ProjectCard = ({ project: p, darkMode }) => {
 
 ProjectCard.propTypes = {
   project: PropTypes.object,
-  darkMode: PropTypes.object
+  darkMode: PropTypes.object,
 };
 
 export default withDarkMode(ProjectCard);

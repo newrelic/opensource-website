@@ -11,7 +11,7 @@ async function fetchAllPages(
     // it takes query results and returns array
     resultSelector,
     // eslint-disable-next-line no-unused-vars
-    onPageFetchComplete = nodesFetched => {}
+    onPageFetchComplete = (nodesFetched) => {},
   }
 ) {
   let endCursor = null; // used to track pagination through the results
@@ -37,7 +37,7 @@ async function fetchAllPages(
 
     onPageFetchComplete(nodes.length);
 
-    log.debug(nodes.map(d => `id: ${d.id} ${d.nameWithOwner}`).join('\n '));
+    log.debug(nodes.map((d) => `id: ${d.id} ${d.nameWithOwner}`).join('\n '));
 
     results = [...results, ...nodes];
     // log.json(results)
@@ -48,7 +48,7 @@ async function fetchAllPages(
     // last page results could be handy to fetch properties that are located
     // at different path than provided by results selector
     // lastPageProps: apiResponse,
-    results
+    results,
   };
 }
 

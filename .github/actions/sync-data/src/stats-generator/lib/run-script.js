@@ -5,7 +5,7 @@ process.env.NODE_ENV = 'script';
 
 const log = require('./log');
 
-const runScript = async scriptFunc => {
+const runScript = async (scriptFunc) => {
   try {
     await scriptFunc();
     log.green('Script exited.');

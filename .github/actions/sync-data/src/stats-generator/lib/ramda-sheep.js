@@ -55,5 +55,5 @@ module.exports = {
   memoize,
   findMaxBy,
   updateBy,
-  includesAny
+  includesAny,
 };

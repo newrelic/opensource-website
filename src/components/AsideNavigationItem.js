@@ -43,7 +43,7 @@ AsideNavigationItem.propTypes = {
   label: PropTypes.string,
   subLabel: PropTypes.string,
   to: PropTypes.string,
-  darkMode: PropTypes.object
+  darkMode: PropTypes.object,
 };
 
 export default withDarkMode(AsideNavigationItem);

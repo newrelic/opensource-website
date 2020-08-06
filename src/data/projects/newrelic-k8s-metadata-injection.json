@@ -15,10 +15,7 @@
   "description": "Kubernetes metadata injection for New Relic APM to make a linkage between APM and Infrastructure data.",
   "ossCategory": "community-project",
   "primaryLanguage": "Go",
-  "projectTags": [
-    "exporter",
-    "k8"
-  ],
+  "projectTags": ["exporter", "k8"],
   "acceptsContributions": true,
   "website": {
     "title": "Kubernetes Metadata Injection",

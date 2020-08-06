@@ -17,9 +17,7 @@
   "description": "Gradle 5.6+ plugin for verifying instrumentation modules for the New Relic Java agent.",
   "ossCategory": "community-project",
   "primaryLanguage": "Java",
-  "projectTags": [
-    "agent"
-  ],
+  "projectTags": ["agent"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Gradle Verify Instrumentation",

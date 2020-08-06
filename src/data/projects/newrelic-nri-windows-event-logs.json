@@ -15,10 +15,7 @@
   "description": "Pipes Windows PowerShell Get-EventLog entries to New Relic",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "PowerShell",
-  "projectTags": [
-    "nri",
-    "exporter"
-  ],
+  "projectTags": ["nri", "exporter"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Windows Event Logs Integration",
