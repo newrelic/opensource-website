@@ -78,13 +78,13 @@ function generateDescription(name) {
 const CollectionPage = ({ data }) => {
   const allData = Object.entries(data);
   const allCollections = allData
-    .filter(c => c[0] !== 'sitePage')
-    .map(c => {
+    .filter((c) => c[0] !== 'sitePage')
+    .map((c) => {
       return {
         name: c[0],
         size: c[1].edges.length,
-        projects: c[1].edges.filter((e, i) => i < 4).map(e => e.node),
-        description: generateDescription(c[0])
+        projects: c[1].edges.filter((e, i) => i < 4).map((e) => e.node),
+        description: generateDescription(c[0]),
       };
     });
 
@@ -100,7 +100,7 @@ const CollectionPage = ({ data }) => {
         className={styles.pageHeading}
       />
 
-      {allCollections.map(collection => {
+      {allCollections.map((collection) => {
         return (
           <>
             <div className={styles.collectionListingContainer}>
@@ -128,7 +128,7 @@ const CollectionPage = ({ data }) => {
                 </a>
               </header>
               <div className={styles.collectionListing}>
-                {collection.projects.map(project => (
+                {collection.projects.map((project) => (
                   <SimpleProjectModule
                     key={project.id}
                     data={project}
@@ -145,7 +145,7 @@ const CollectionPage = ({ data }) => {
 };
 
 CollectionPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 export default CollectionPage;

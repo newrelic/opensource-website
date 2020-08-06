@@ -17,8 +17,9 @@ const HomepageCollection = ({ projects }) => {
       </p>
 
       <div
-        className={`${styles.projectsContainer} ${projectsHovered &&
-          styles.projectsHovered}`}
+        className={`${styles.projectsContainer} ${
+          projectsHovered && styles.projectsHovered
+        }`}
         onMouseOver={() => {
           setProjectsHovered(true);
         }}
@@ -45,7 +46,7 @@ const HomepageCollection = ({ projects }) => {
             Explore open source instrumentation
           </span>
         </Button>
-        {projects.map(project => {
+        {projects.map((project) => {
           const link = project.permalink.replace(
             'https://opensource.newrelic.com',
             ''
@@ -65,7 +66,7 @@ const HomepageCollection = ({ projects }) => {
 };
 
 HomepageCollection.propTypes = {
-  projects: PropTypes.array
+  projects: PropTypes.array,
 };
 
 export default HomepageCollection;

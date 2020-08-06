@@ -58,8 +58,9 @@ const createOctokit = ({ org, accessToken, tokenType = 'token', cacheKey }) => {
         // retry twice
         if (options.request.retryCount < 2) {
           log.warn(
-            `Retrying after ${retryAfter} seconds, retry attempt=${options
-              .request.retryCount + 1}`
+            `Retrying after ${retryAfter} seconds, retry attempt=${
+              options.request.retryCount + 1
+            }`
           );
           // Return true to automatically retry the request after retryAfter seconds
           return true;
@@ -72,15 +73,15 @@ const createOctokit = ({ org, accessToken, tokenType = 'token', cacheKey }) => {
         log.warn(`Abuse detected for request ${options.method} ${options.url}`);
         log.json(options);
         return true;
-      }
+      },
     },
     log: {
       // eslint-disable-next-line no-unused-vars
       debug: (operation, payload) => {},
       info: log.info,
       warn: log.warn,
-      error: log.error
-    }
+      error: log.error,
+    },
   });
 };
 
@@ -105,7 +106,7 @@ async function createGithubClient(org, cacheKey, accessToken) {
   const octokit = createOctokit({
     org,
     accessToken: githubAccessToken,
-    cacheKey
+    cacheKey,
   });
 
   addGraphQL(octokit, org);
@@ -118,7 +119,7 @@ function createGithubUserClient(org, userAccessToken) {
     org,
     accessToken: userAccessToken,
     // it makes sense to set locks on token level, so we control concurrency per user
-    cacheKey: userAccessToken
+    cacheKey: userAccessToken,
   });
 
   addGraphQL(octokit, org);
@@ -128,5 +129,5 @@ function createGithubUserClient(org, userAccessToken) {
 module.exports = {
   createGithubClient,
   createGithubUserClient,
-  createOctokit
+  createOctokit,
 };

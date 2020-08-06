@@ -6,7 +6,7 @@ const { distanceInWords } = require('date-fns');
 const {
   removeNewLines,
   removeTabsAndSpaces,
-  removeEscapedCharacters
+  removeEscapedCharacters,
 } = require('../lib/utils');
 const log = require('../lib/log');
 
@@ -29,7 +29,7 @@ class GraphQLError extends Error {
   }
 }
 
-const getQueryName = query =>
+const getQueryName = (query) =>
   R.path([1], query.match(/[query|mutation] \s*(\w+)/m)) || 'unknown name';
 
 const QUERY_COST_THRESHOLD = 50;
@@ -120,13 +120,13 @@ const graphql = (octokit, org, { operationType }) => async (
         // enable Checks (Check Suites)
         'application/vnd.github.antiope-preview+json',
       'content-type': 'application/json',
-      ...headers
+      ...headers,
     },
     method: 'POST',
     url: '/graphql',
 
     query: query.query,
-    variables: query.variables
+    variables: query.variables,
   });
 
   if (resp.status !== 200) {
@@ -142,7 +142,7 @@ const graphql = (octokit, org, { operationType }) => async (
       org,
       data,
       query: cleanedUpQuery,
-      elapsedMs
+      elapsedMs,
     });
   } else if (operationType === 'mutation') {
     logMutationInfo({ org, mutation: cleanedUpQuery, elapsedMs });

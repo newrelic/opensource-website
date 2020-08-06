@@ -4,7 +4,7 @@ const R = require('ramda');
 // hashes string first, allows to map strings to colors
 // useful in certain UI aspects when color should be the same
 // given some string, but we don't know strings upfront to define it
-const stringToColor = str => {
+const stringToColor = (str) => {
   if (!str) {
     return '#000000';
   }
@@ -21,9 +21,9 @@ const stringToColor = str => {
   return colour;
 };
 
-const removeNewLines = x => (x ? R.replace(/(\r\n|\n|\r)/gm, '', x) : x);
-const removeTabsAndSpaces = x => (x ? R.replace(/[ \t]+/g, ' ', x) : x);
-const removeEscapedCharacters = x =>
+const removeNewLines = (x) => (x ? R.replace(/(\r\n|\n|\r)/gm, '', x) : x);
+const removeTabsAndSpaces = (x) => (x ? R.replace(/[ \t]+/g, ' ', x) : x);
+const removeEscapedCharacters = (x) =>
   x ? R.replace(/( |\\t|\\n)/g, ' ', x) : x;
 
 const rnd = (min, max) => {
@@ -37,5 +37,5 @@ module.exports = {
   removeNewLines,
   removeTabsAndSpaces,
   stringToColor,
-  rnd
+  rnd,
 };

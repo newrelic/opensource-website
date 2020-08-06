@@ -15,6 +15,6 @@ function tryJSONStringify(obj) {
   }
 }
 
-const toJson = obj => tryJSONStringify(obj) || stringify(obj);
+const toJson = (obj) => tryJSONStringify(obj) || stringify(obj);
 
 module.exports = toJson;

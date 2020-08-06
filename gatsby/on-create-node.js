@@ -2,8 +2,8 @@
 
 const { v4: uuidv4 } = require('uuid');
 
-const isMdx = type => type === 'Mdx';
-const isProject = type => type === 'Projects';
+const isMdx = (type) => type === 'Mdx';
+const isProject = (type) => type === 'Projects';
 
 const slugFromAbsoluteFilePath = (rootDir, fileAbsolutePath) => {
   // Directory
@@ -41,7 +41,7 @@ const createProjectMainContent = ({ node, actions }) => {
   );
 
   const fieldData = {
-    slug
+    slug,
   };
 
   createNode({
@@ -53,12 +53,12 @@ const createProjectMainContent = ({ node, actions }) => {
     children: [],
     internal: {
       type: `ProjectMainContent`,
-      contentDigest: node.internal.contentDigest // We can safely reuse this hash since it's content-based
-    }
+      contentDigest: node.internal.contentDigest, // We can safely reuse this hash since it's content-based
+    },
   });
 };
 
-module.exports = params => {
+module.exports = (params) => {
   const { node } = params;
 
   if (isProject(node.internal.type)) {

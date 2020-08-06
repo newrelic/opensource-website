@@ -17,10 +17,7 @@
   "description": "Gradle plugin for generating compatibility documents (lists of supported software versions) from instrumentation modules.",
   "ossCategory": "community-project",
   "primaryLanguage": "Java",
-  "projectTags": [
-    "docs",
-    "agent"
-  ],
+  "projectTags": ["docs", "agent"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Gradle Compatibility Doc Plugin",

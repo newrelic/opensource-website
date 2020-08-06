@@ -37,7 +37,7 @@ export const query = graphql`
 
 const NerdpackPage = ({ data }) => {
   // console.debug(data);
-  const allProjects = data.allProjects.edges.map(project => {
+  const allProjects = data.allProjects.edges.map((project) => {
     const p = project.node;
     p.title = p.title.startsWith('New Relic One')
       ? p.title.substring('New Relic One'.length)
@@ -45,10 +45,10 @@ const NerdpackPage = ({ data }) => {
     return p;
   });
   const catalogProjects = allProjects.filter(
-    p => p.ossCategory.slug === 'new-relic-one-catalog-project'
+    (p) => p.ossCategory.slug === 'new-relic-one-catalog-project'
   );
   const otherProjects = allProjects.filter(
-    p => p.ossCategory.slug !== 'new-relic-one-catalog-project'
+    (p) => p.ossCategory.slug !== 'new-relic-one-catalog-project'
   );
 
   return (
@@ -107,7 +107,7 @@ const NerdpackPage = ({ data }) => {
           </p>
         </header>
         <div className={styles.collectionListing}>
-          {catalogProjects.map(project => {
+          {catalogProjects.map((project) => {
             return (
               <SimpleProjectModule
                 key={project.id}
@@ -129,7 +129,7 @@ const NerdpackPage = ({ data }) => {
           </p>
         </header>
         <div className={styles.collectionListing}>
-          {otherProjects.map(project => {
+          {otherProjects.map((project) => {
             return (
               <SimpleProjectModule
                 key={project.id}
@@ -145,7 +145,7 @@ const NerdpackPage = ({ data }) => {
 };
 
 NerdpackPage.propTypes = {
-  data: PropTypes.object
+  data: PropTypes.object,
 };
 
 export default NerdpackPage;

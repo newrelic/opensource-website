@@ -9,7 +9,7 @@ class CookieApprovalDialog extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      cookieSet: Cookies.get('newrelic-gdpr-consent') !== undefined
+      cookieSet: Cookies.get('newrelic-gdpr-consent') !== undefined,
     };
     this.writeCookies = this.writeCookies.bind(this);
   }
@@ -89,7 +89,7 @@ class CookieApprovalDialog extends React.Component {
 
 CookieApprovalDialog.propTypes = {
   className: PropTypes.string,
-  darkMode: PropTypes.object
+  darkMode: PropTypes.object,
 };
 
 export default withDarkMode(CookieApprovalDialog);
