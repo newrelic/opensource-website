@@ -8,15 +8,29 @@
     "name": "v3.0.0",
     "date": null
   },
-  "commits": 56,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 2,
+  "commits": 88,
+  "lastSixMonthsCommitTotal": 34,
+  "contributors": 4,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 398399,
+      "login": "nijotz",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
+      "htmlUrl": "https://github.com/nijotz",
+      "contributions": 6
+    },
+    {
+      "id": 54335840,
+      "login": "carlonewrelic",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/54335840?v=4",
+      "htmlUrl": "https://github.com/carlonewrelic",
+      "contributions": 14
+    },
     {
       "id": 11223178,
       "login": "michaelgoin",
@@ -41,11 +55,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }
