@@ -257,18 +257,20 @@ div.exists-in-active-mobile-menu {
 
   .mobile-menu-button {
     background-image: url('../images/icon-menu-light.svg');
-    
-    div.mobile-menu-active & {
+  }
+
+  div.mobile-menu-active {
+    .mobile-menu-button {
       background-image: url('../images/icon-menu-close-light.svg');
+    }
+
+    .header-dark-mode-toggle svg {
+      fill: transparent;
+      stroke: var(--color-neutrals-800);
     }
   }
 
   .primary-header-nav-link svg {
     display: none;
-  }
-
-  .mobile-menu-active .header-dark-mode-toggle svg {
-    fill: transparent;
-    stroke: var(--color-neutrals-800);
   }
 }
