@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 21
+    "open": 20
   },
-  "releases": 47,
+  "releases": 48,
   "latestRelease": {
-    "name": "v1.8.0",
-    "date": "2020-08-06T22:53:55Z"
+    "name": "v1.8.1",
+    "date": "2020-08-10T12:01:42Z"
   },
-  "commits": 1408,
-  "lastSixMonthsCommitTotal": 1408,
-  "contributors": 43,
+  "commits": 1411,
+  "lastSixMonthsCommitTotal": 1411,
+  "contributors": 44,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -69,6 +69,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 20293876,
+      "login": "tyreer",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/20293876?v=4",
+      "htmlUrl": "https://github.com/tyreer",
+      "contributions": 1
+    },
     {
       "id": 7401258,
       "login": "tbradellis",
@@ -368,7 +375,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 352
+      "contributions": 354
     }
   ],
   "languages": [
