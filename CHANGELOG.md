@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/newrelic/opensource-website/compare/v1.8.0...v1.8.1) (2020-08-10)
+
+
+### Bug Fixes
+
+* ensure dark mode mobile button shows close icon ([#595](https://github.com/newrelic/opensource-website/issues/595)) ([2725889](https://github.com/newrelic/opensource-website/commit/27258893fb344473fd1c9af81c86f5e9c5579fec))
+
 # [1.8.0](https://github.com/newrelic/opensource-website/compare/v1.7.1...v1.8.0) (2020-08-06)
 
 
