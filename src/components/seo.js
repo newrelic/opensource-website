@@ -73,6 +73,24 @@ function SEO({ description, lang, meta, title }) {
           'data-type': 'enum',
           content: 'opensource',
         },
+        {
+          name: 'title',
+          class: 'swiftype',
+          'data-type': 'string',
+          content: title,
+        },
+        {
+          name: 'info',
+          class: 'swiftype',
+          'data-type': 'string',
+          content: description,
+        },
+        {
+          name: 'document_type',
+          class: 'swiftype',
+          'data-type': 'enum',
+          content: 'page',
+        },
       ].concat(meta)}
     />
   );

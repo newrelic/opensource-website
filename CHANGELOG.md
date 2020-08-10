@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/newrelic/opensource-website/compare/v1.8.1...v1.8.2) (2020-08-10)
+
+
+### Bug Fixes
+
+* add title and info meta tags for swiftype to index ([717cbdc](https://github.com/newrelic/opensource-website/commit/717cbdc35320353c11d45bda2a4b36bde3768111))
+
 ## [1.8.1](https://github.com/newrelic/opensource-website/compare/v1.8.0...v1.8.1) (2020-08-10)
 
 
