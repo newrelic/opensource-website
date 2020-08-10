@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/dropwizard-metrics-newrelic",
   "issues": {
-    "open": 7
+    "open": 8
   },
   "releases": 3,
   "latestRelease": {
@@ -12,7 +12,7 @@
   "lastSixMonthsCommitTotal": 38,
   "contributors": 7,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -49,6 +49,23 @@
       },
       "number": 58,
       "createdBy": "John Watson"
+    },
+    {
+      "id": "MDU6SXNzdWU2NzYyOTU1MTU=",
+      "title": "Version mismatch in the README",
+      "url": "https://github.com/newrelic/dropwizard-metrics-newrelic/issues/76",
+      "createdAt": "2020-08-10T17:24:47Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jchambers",
+        "id": "MDQ6VXNlcjMxMzUy",
+        "email": "",
+        "name": "Jon Chambers"
+      },
+      "number": 76,
+      "createdBy": "Jon Chambers"
     }
   ],
   "cachedContributors": [
