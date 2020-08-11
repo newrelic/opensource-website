@@ -3,16 +3,16 @@
   "issues": {
     "open": 5
   },
-  "releases": 3,
+  "releases": 5,
   "latestRelease": {
-    "name": "v0.6.8",
-    "date": "2020-07-24T17:08:01Z"
+    "name": "v0.7.0",
+    "date": "2020-08-11T03:00:50Z"
   },
-  "commits": 129,
-  "lastSixMonthsCommitTotal": 80,
+  "commits": 135,
+  "lastSixMonthsCommitTotal": 86,
   "contributors": 8,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -39,13 +39,6 @@
       "contributions": 2
     },
     {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 2
-    },
-    {
       "id": 6722433,
       "login": "jbeveland27",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
@@ -53,11 +46,18 @@
       "contributions": 2
     },
     {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 4
+    },
+    {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 4
+      "contributions": 6
     },
     {
       "id": 812989,
@@ -71,7 +71,7 @@
       "login": "Kav91",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 100
+      "contributions": 102
     }
   ],
   "languages": [
