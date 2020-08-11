@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Data Collection Agents Page Renders correctly 1`] = `
-.emotion-31 {
+.emotion-33 {
   background-color: var(--color-neutrals-100);
   overflow: hidden;
   position: -webkit-sticky;
@@ -11,21 +11,21 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   position: static;
 }
 
-.dark-mode .emotion-31 {
+.dark-mode .emotion-33 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-31 a {
+.emotion-33 a {
   border-bottom: none;
 }
 
 @media screen and (max-width:480px) {
-  .emotion-31 {
+  .emotion-33 {
     display: none;
   }
 }
 
-.emotion-30 {
+.emotion-32 {
   height: 30px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -120,7 +120,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   color: var(--color-dark-700);
 }
 
-.emotion-29 {
+.emotion-31 {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -134,14 +134,43 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-29 > li {
+.emotion-31 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
   color: var(--secondary-text-color);
 }
 
+.emotion-29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .emotion-28 {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  width: 0.875rem;
+  height: 0.875rem;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: var(--secondary-text-color);
+}
+
+.emotion-28:hover {
+  color: var(--secondary-text-hover-color);
+}
+
+.emotion-30 {
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -156,7 +185,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   color: var(--secondary-text-color);
 }
 
-.emotion-28:hover {
+.emotion-30:hover {
   color: var(--secondary-text-hover-color);
 }
 
@@ -164,11 +193,11 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   className="layout-container collectionPage"
 >
   <div
-    className=" emotion-31"
+    className=" emotion-33"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-30"
+      className="emotion-32"
     >
       <nav
         className="emotion-27"
@@ -276,11 +305,35 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-29"
+        className="emotion-31"
       >
         <li>
+          <a
+            className="emotion-29"
+            href="?q="
+          >
+            <svg
+              className="emotion-28"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </a>
+        </li>
+        <li>
           <svg
-            className="emotion-28"
+            className="emotion-30"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -537,7 +590,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.8.2
+          1.8.3
         </small>
       </div>
     </section>

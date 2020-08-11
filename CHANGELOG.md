@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/newrelic/opensource-website/compare/v1.8.2...v1.8.3) (2020-08-11)
+
+
+### Bug Fixes
+
+* enable search in global header ([b0da8a9](https://github.com/newrelic/opensource-website/commit/b0da8a9bfed7b535196c8f036a22213e1afe6af3))
+
 ## [1.8.2](https://github.com/newrelic/opensource-website/compare/v1.8.1...v1.8.2) (2020-08-10)
 
 
