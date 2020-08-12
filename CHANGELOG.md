@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/newrelic/opensource-website/compare/v1.8.3...v1.8.4) (2020-08-12)
+
+
+### Bug Fixes
+
+* update OS category images ([#8](https://github.com/newrelic/opensource-website/issues/8)) ([c6e8b67](https://github.com/newrelic/opensource-website/commit/c6e8b6739d7ba5a97ea252908a0e85fc616b7bf0))
+
 ## [1.8.3](https://github.com/newrelic/opensource-website/compare/v1.8.2...v1.8.3) (2020-08-11)
 
 
