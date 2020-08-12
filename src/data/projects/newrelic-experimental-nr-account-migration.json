@@ -1,0 +1,24 @@
+{
+  "name": "nr-account-migration",
+  "fullName": "newrelic-experimental/nr-account-migration",
+  "slug": "newrelic-experimental-nr-account-migration",
+  "owner": {
+    "login": "newrelic-experimental",
+    "type": "Organization"
+  },
+  "title": "nr-account-migration",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic-experimental/nr-account-migration",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/nr-account-migration",
+  "iconUrl": null,
+  "shortDescription": "Python scripts for bulk migrating New Relic entities and configurations from one account to another. ",
+  "description": "Python scripts that can migrate monitors, alert policies, conditions , configs and dashboards. Also includes useful utility scripts for fetching and storing new relic configs.",
+  "ossCategory": "new-relic-experimental",
+  "primaryLanguage": "python",
+  "projectTags": ["tools"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Account Migration",
+    "url": "https://github.com/newrelic-experimental/nr-account-migration"
+  }
+}
