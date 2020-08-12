@@ -8,14 +8,32 @@
     "name": "6.12.0.367",
     "date": "2020-07-14T14:42:56Z"
   },
-  "commits": 14439,
-  "lastSixMonthsCommitTotal": 1001,
+  "commits": 14440,
+  "lastSixMonthsCommitTotal": 1002,
   "contributors": 100,
   "pullRequests": {
     "open": 8
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2NDI4ODUzNDM=",
+      "title": "net instrumentation can cause \"stack level too deep\" with 3rd party gems",
+      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/347",
+      "createdAt": "2020-06-22T08:55:56Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "MathieuDerelle",
+        "id": "MDQ6VXNlcjE2Mjg2MDIz",
+        "email": "",
+        "name": "Mathieu Derelle"
+      },
+      "number": 347,
+      "createdBy": "Mathieu Derelle"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 254393,
@@ -687,7 +705,7 @@
       "login": "mwlang",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/18387?v=4",
       "htmlUrl": "https://github.com/mwlang",
-      "contributions": 768
+      "contributions": 769
     },
     {
       "id": 2513372,
