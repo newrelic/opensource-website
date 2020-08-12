@@ -1,34 +1,34 @@
 {
   "projectFullName": "newrelic/nr1-deployment-analyzer",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 5,
+  "releases": 6,
   "latestRelease": {
-    "name": "v0.3.2",
-    "date": "2020-06-03T13:17:20Z"
+    "name": "v0.3.3",
+    "date": "2020-08-12T01:14:47Z"
   },
-  "commits": 45,
-  "lastSixMonthsCommitTotal": 14,
-  "contributors": 8,
+  "commits": 49,
+  "lastSixMonthsCommitTotal": 18,
+  "contributors": 9,
   "pullRequests": {
-    "open": 6
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 1
-    },
-    {
       "id": 17086744,
       "login": "sarabartell",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/17086744?v=4",
       "htmlUrl": "https://github.com/sarabartell",
+      "contributions": 1
+    },
+    {
+      "id": 5214156,
+      "login": "norbertsuski",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/5214156?v=4",
+      "htmlUrl": "https://github.com/norbertsuski",
       "contributions": 1
     },
     {
@@ -39,11 +39,18 @@
       "contributions": 2
     },
     {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 2
+    },
+    {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 2
+      "contributions": 3
     },
     {
       "id": 812989,
