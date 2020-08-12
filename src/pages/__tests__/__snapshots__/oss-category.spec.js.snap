@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`OSS Category Page Renders correctly 1`] = `
-.emotion-33 {
+.emotion-32 {
   background-color: var(--color-neutrals-100);
   overflow: hidden;
   position: -webkit-sticky;
@@ -11,21 +11,21 @@ exports[`OSS Category Page Renders correctly 1`] = `
   position: static;
 }
 
-.dark-mode .emotion-33 {
+.dark-mode .emotion-32 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-33 a {
+.emotion-32 a {
   border-bottom: none;
 }
 
 @media screen and (max-width:480px) {
-  .emotion-33 {
+  .emotion-32 {
     display: none;
   }
 }
 
-.emotion-32 {
+.emotion-31 {
   height: 30px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -120,7 +120,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   color: var(--color-dark-700);
 }
 
-.emotion-31 {
+.emotion-30 {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -134,22 +134,11 @@ exports[`OSS Category Page Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-31 > li {
+.emotion-30 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
   color: var(--secondary-text-color);
-}
-
-.emotion-29 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .emotion-28 {
@@ -170,7 +159,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-30 {
+.emotion-29 {
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -185,11 +174,11 @@ exports[`OSS Category Page Renders correctly 1`] = `
   color: var(--secondary-text-color);
 }
 
-.emotion-30:hover {
+.emotion-29:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-34 {
+.emotion-33 {
   margin-bottom: 1rem;
 }
 
@@ -197,11 +186,11 @@ exports[`OSS Category Page Renders correctly 1`] = `
   className="layout-container undefined"
 >
   <div
-    className=" emotion-33"
+    className=" emotion-32"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-32"
+      className="emotion-31"
     >
       <nav
         className="emotion-27"
@@ -309,35 +298,31 @@ exports[`OSS Category Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-31"
+        className="emotion-30"
       >
         <li>
-          <a
-            className="emotion-29"
-            href="?q="
+          <svg
+            className="emotion-28"
+            onClick={[Function]}
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              className="emotion-28"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="11"
-                cy="11"
-                r="8"
-              />
-              <line
-                x1="21"
-                x2="16.65"
-                y1="21"
-                y2="16.65"
-              />
-            </svg>
-          </a>
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
         </li>
         <li>
           <svg
-            className="emotion-30"
+            className="emotion-29"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -454,7 +439,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
             Categories
           </h4>
           <ul
-            className="categorySidebarList emotion-34"
+            className="categorySidebarList emotion-33"
           >
             <li
               className="categorySidebarItem"
@@ -960,7 +945,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.8.3
+          1.8.4
         </small>
       </div>
     </section>

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Adopt OpenJDK Renders correctly 1`] = `
-.emotion-33 {
+.emotion-32 {
   background-color: var(--color-neutrals-100);
   overflow: hidden;
   position: -webkit-sticky;
@@ -11,21 +11,21 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   position: static;
 }
 
-.dark-mode .emotion-33 {
+.dark-mode .emotion-32 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-33 a {
+.emotion-32 a {
   border-bottom: none;
 }
 
 @media screen and (max-width:480px) {
-  .emotion-33 {
+  .emotion-32 {
     display: none;
   }
 }
 
-.emotion-32 {
+.emotion-31 {
   height: 30px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -120,7 +120,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   color: var(--color-dark-700);
 }
 
-.emotion-31 {
+.emotion-30 {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -134,22 +134,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-31 > li {
+.emotion-30 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
   color: var(--secondary-text-color);
-}
-
-.emotion-29 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .emotion-28 {
@@ -170,7 +159,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-30 {
+.emotion-29 {
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -185,15 +174,15 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   color: var(--secondary-text-color);
 }
 
-.emotion-30:hover {
+.emotion-29:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-39 {
+.emotion-38 {
   margin-bottom: 1rem;
 }
 
-.emotion-34 {
+.emotion-33 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -220,13 +209,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background-color: var(--color-brand-800);
 }
 
-.dark-mode .emotion-34 {
+.dark-mode .emotion-33 {
   color: var(--primary-background-color);
   background-color: var(--color-brand-400);
   border-color: var(--color-brand-400);
 }
 
-.emotion-37 {
+.emotion-36 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -253,15 +242,15 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background-color: transparent;
 }
 
-.dark-mode .emotion-37 {
+.dark-mode .emotion-36 {
   color: var(--color-brand-400);
 }
 
-.dark-mode .emotion-37 {
+.dark-mode .emotion-36 {
   border-color: transparent;
 }
 
-.emotion-36 {
+.emotion-35 {
   margin-right: 0.5rem;
 }
 
@@ -269,11 +258,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   className="layout-container projectPageLayout"
 >
   <div
-    className=" emotion-33"
+    className=" emotion-32"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-32"
+      className="emotion-31"
     >
       <nav
         className="emotion-27"
@@ -381,35 +370,31 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-31"
+        className="emotion-30"
       >
         <li>
-          <a
-            className="emotion-29"
-            href="?q="
+          <svg
+            className="emotion-28"
+            onClick={[Function]}
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              className="emotion-28"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="11"
-                cy="11"
-                r="8"
-              />
-              <line
-                x1="21"
-                x2="16.65"
-                y1="21"
-                y2="16.65"
-              />
-            </svg>
-          </a>
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
         </li>
         <li>
           <svg
-            className="emotion-30"
+            className="emotion-29"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -558,13 +543,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons emotion-39"
+            className="callToActionButtons emotion-38"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="emotion-34 emotion-35"
+                className="emotion-33 emotion-34"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -572,13 +557,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-37 emotion-35"
+                className="emotion-36 emotion-34"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-36"
+                  className="emotion-35"
                   src="test-file-stub"
                 />
                 GitHub
@@ -693,7 +678,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.8.3
+          1.8.4
         </small>
       </div>
     </section>
@@ -702,7 +687,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 `;
 
 exports[`Open Telemetry Page Renders correctly 1`] = `
-.emotion-33 {
+.emotion-32 {
   background-color: var(--color-neutrals-100);
   overflow: hidden;
   position: -webkit-sticky;
@@ -712,21 +697,21 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   position: static;
 }
 
-.dark-mode .emotion-33 {
+.dark-mode .emotion-32 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-33 a {
+.emotion-32 a {
   border-bottom: none;
 }
 
 @media screen and (max-width:480px) {
-  .emotion-33 {
+  .emotion-32 {
     display: none;
   }
 }
 
-.emotion-32 {
+.emotion-31 {
   height: 30px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -821,7 +806,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   color: var(--color-dark-700);
 }
 
-.emotion-31 {
+.emotion-30 {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -835,22 +820,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-31 > li {
+.emotion-30 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
   color: var(--secondary-text-color);
-}
-
-.emotion-29 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .emotion-28 {
@@ -871,7 +845,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-30 {
+.emotion-29 {
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -886,15 +860,15 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   color: var(--secondary-text-color);
 }
 
-.emotion-30:hover {
+.emotion-29:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-39 {
+.emotion-38 {
   margin-bottom: 1rem;
 }
 
-.emotion-34 {
+.emotion-33 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -921,13 +895,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background-color: var(--color-brand-800);
 }
 
-.dark-mode .emotion-34 {
+.dark-mode .emotion-33 {
   color: var(--primary-background-color);
   background-color: var(--color-brand-400);
   border-color: var(--color-brand-400);
 }
 
-.emotion-37 {
+.emotion-36 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -954,15 +928,15 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background-color: transparent;
 }
 
-.dark-mode .emotion-37 {
+.dark-mode .emotion-36 {
   color: var(--color-brand-400);
 }
 
-.dark-mode .emotion-37 {
+.dark-mode .emotion-36 {
   border-color: transparent;
 }
 
-.emotion-36 {
+.emotion-35 {
   margin-right: 0.5rem;
 }
 
@@ -970,11 +944,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   className="layout-container projectPageLayout"
 >
   <div
-    className=" emotion-33"
+    className=" emotion-32"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-32"
+      className="emotion-31"
     >
       <nav
         className="emotion-27"
@@ -1082,35 +1056,31 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-31"
+        className="emotion-30"
       >
         <li>
-          <a
-            className="emotion-29"
-            href="?q="
+          <svg
+            className="emotion-28"
+            onClick={[Function]}
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              className="emotion-28"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="11"
-                cy="11"
-                r="8"
-              />
-              <line
-                x1="21"
-                x2="16.65"
-                y1="21"
-                y2="16.65"
-              />
-            </svg>
-          </a>
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
         </li>
         <li>
           <svg
-            className="emotion-30"
+            className="emotion-29"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1259,13 +1229,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons emotion-39"
+            className="callToActionButtons emotion-38"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="emotion-34 emotion-35"
+                className="emotion-33 emotion-34"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -1273,13 +1243,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-37 emotion-35"
+                className="emotion-36 emotion-34"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-36"
+                  className="emotion-35"
                   src="test-file-stub"
                 />
                 GitHub
@@ -1394,7 +1364,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.8.3
+          1.8.4
         </small>
       </div>
     </section>
@@ -1403,7 +1373,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 `;
 
 exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
-.emotion-33 {
+.emotion-32 {
   background-color: var(--color-neutrals-100);
   overflow: hidden;
   position: -webkit-sticky;
@@ -1413,21 +1383,21 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   position: static;
 }
 
-.dark-mode .emotion-33 {
+.dark-mode .emotion-32 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-33 a {
+.emotion-32 a {
   border-bottom: none;
 }
 
 @media screen and (max-width:480px) {
-  .emotion-33 {
+  .emotion-32 {
     display: none;
   }
 }
 
-.emotion-32 {
+.emotion-31 {
   height: 30px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1522,7 +1492,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: var(--color-dark-700);
 }
 
-.emotion-31 {
+.emotion-30 {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -1536,22 +1506,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-31 > li {
+.emotion-30 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
   color: var(--secondary-text-color);
-}
-
-.emotion-29 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .emotion-28 {
@@ -1572,7 +1531,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-30 {
+.emotion-29 {
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -1587,15 +1546,15 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: var(--secondary-text-color);
 }
 
-.emotion-30:hover {
+.emotion-29:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-39 {
+.emotion-38 {
   margin-bottom: 1rem;
 }
 
-.emotion-34 {
+.emotion-33 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1622,13 +1581,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--color-brand-800);
 }
 
-.dark-mode .emotion-34 {
+.dark-mode .emotion-33 {
   color: var(--primary-background-color);
   background-color: var(--color-brand-400);
   border-color: var(--color-brand-400);
 }
 
-.emotion-37 {
+.emotion-36 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1655,19 +1614,19 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: transparent;
 }
 
-.dark-mode .emotion-37 {
+.dark-mode .emotion-36 {
   color: var(--color-brand-400);
 }
 
-.dark-mode .emotion-37 {
+.dark-mode .emotion-36 {
   border-color: transparent;
 }
 
-.emotion-36 {
+.emotion-35 {
   margin-right: 0.5rem;
 }
 
-.emotion-42 {
+.emotion-41 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1694,7 +1653,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--color-neutrals-100);
 }
 
-.dark-mode .emotion-42 {
+.dark-mode .emotion-41 {
   color: var(--color-white);
   border-color: var(--color-dark-100);
   background-color: var(--color-dark-100);
@@ -1704,11 +1663,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   className="layout-container projectPageLayout"
 >
   <div
-    className=" emotion-33"
+    className=" emotion-32"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-32"
+      className="emotion-31"
     >
       <nav
         className="emotion-27"
@@ -1816,35 +1775,31 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-31"
+        className="emotion-30"
       >
         <li>
-          <a
-            className="emotion-29"
-            href="?q="
+          <svg
+            className="emotion-28"
+            onClick={[Function]}
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              className="emotion-28"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="11"
-                cy="11"
-                r="8"
-              />
-              <line
-                x1="21"
-                x2="16.65"
-                y1="21"
-                y2="16.65"
-              />
-            </svg>
-          </a>
+            <circle
+              cx="11"
+              cy="11"
+              r="8"
+            />
+            <line
+              x1="21"
+              x2="16.65"
+              y1="21"
+              y2="16.65"
+            />
+          </svg>
         </li>
         <li>
           <svg
-            className="emotion-30"
+            className="emotion-29"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2038,13 +1993,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons emotion-39"
+            className="callToActionButtons emotion-38"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="emotion-34 emotion-35"
+                className="emotion-33 emotion-34"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -2052,13 +2007,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-37 emotion-35"
+                className="emotion-36 emotion-34"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-36"
+                  className="emotion-35"
                   src="test-file-stub"
                 />
                 GitHub
@@ -2335,7 +2290,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.8.3
+          1.8.4
         </small>
       </div>
     </section>
@@ -2377,14 +2332,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         className="ctaContainer"
       >
         <button
-          className="approvalButton emotion-34 emotion-35"
+          className="approvalButton emotion-33 emotion-34"
           onClick={[Function]}
           type="button"
         >
           Yes
         </button>
         <button
-          className="ignoreButton emotion-42 emotion-35"
+          className="ignoreButton emotion-41 emotion-34"
           onClick={[Function]}
           type="button"
         >
