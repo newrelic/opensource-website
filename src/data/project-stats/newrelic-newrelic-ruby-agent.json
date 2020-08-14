@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-ruby-agent",
   "issues": {
-    "open": 15
+    "open": 26
   },
   "releases": 360,
   "latestRelease": {
     "name": "6.12.0.367",
     "date": "2020-07-14T14:42:56Z"
   },
-  "commits": 14447,
-  "lastSixMonthsCommitTotal": 983,
+  "commits": 14449,
+  "lastSixMonthsCommitTotal": 985,
   "contributors": 100,
   "pullRequests": {
-    "open": 8
+    "open": 9
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -32,6 +32,40 @@
       },
       "number": 347,
       "createdBy": "Mathieu Derelle"
+    },
+    {
+      "id": "MDU6SXNzdWU2Nzg3Nzg5OTA=",
+      "title": "Update excon instrumentation",
+      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/390",
+      "createdAt": "2020-08-13T22:51:42Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "rachelleahklein",
+        "id": "MDQ6VXNlcjEwODIyODYx",
+        "email": "",
+        "name": "Rachel Klein"
+      },
+      "number": 390,
+      "createdBy": "Rachel Klein"
+    },
+    {
+      "id": "MDU6SXNzdWU2Nzg3ODAyMTc=",
+      "title": "Update dalli instrumentation",
+      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/392",
+      "createdAt": "2020-08-13T22:55:12Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "rachelleahklein",
+        "id": "MDQ6VXNlcjEwODIyODYx",
+        "email": "",
+        "name": "Rachel Klein"
+      },
+      "number": 392,
+      "createdBy": "Rachel Klein"
     }
   ],
   "cachedContributors": [
@@ -635,7 +669,7 @@
       "login": "tannalynn",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/11799492?v=4",
       "htmlUrl": "https://github.com/tannalynn",
-      "contributions": 116
+      "contributions": 117
     },
     {
       "id": 1577272,
