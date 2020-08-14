@@ -3,14 +3,14 @@
   "issues": {
     "open": 2
   },
-  "releases": 3,
+  "releases": 11,
   "latestRelease": {
-    "name": "v0.3",
-    "date": null
+    "name": "v1.0.7",
+    "date": "2020-08-14T00:05:33Z"
   },
-  "commits": 55,
-  "lastSixMonthsCommitTotal": 55,
-  "contributors": 2,
+  "commits": 109,
+  "lastSixMonthsCommitTotal": 109,
+  "contributors": 3,
   "pullRequests": {
     "open": 0
   },
@@ -25,11 +25,18 @@
       "contributions": 2
     },
     {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 8
+    },
+    {
       "id": 8731013,
       "login": "prototypicalpro",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/8731013?v=4",
       "htmlUrl": "https://github.com/prototypicalpro",
-      "contributions": 44
+      "contributions": 70
     }
   ],
   "languages": [
