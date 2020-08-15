@@ -3,6 +3,7 @@
 }
 
 .primary-header-container {
+  position: relative;
   box-sizing: border-box;
   padding: 20px 0;
   display: flex;
@@ -145,7 +146,7 @@ div.exists-in-active-mobile-menu {
     position: absolute;
     top: 0;
     right: 0;
-    bottom: -500px;
+    bottom: -100vh;
     left: 0;
     z-index: 1000;
     background-color: var(--color-background);
