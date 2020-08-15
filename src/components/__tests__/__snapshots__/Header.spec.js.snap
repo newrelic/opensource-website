@@ -9,21 +9,20 @@ Array [
   position: sticky;
   top: 0;
   z-index: 80;
-  position: static;
+  z-index: 1000000;
 }
 
 .dark-mode .emotion-32 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-32 a {
-  border-bottom: none;
+.emotion-32 ul {
+  line-height: 14px;
+  font-size: 16px;
 }
 
-@media screen and (max-width:480px) {
-  .emotion-32 {
-    display: none;
-  }
+.emotion-32 a {
+  border-bottom: none;
 }
 
 .emotion-31 {

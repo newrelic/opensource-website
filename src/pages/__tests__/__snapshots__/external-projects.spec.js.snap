@@ -8,21 +8,20 @@ exports[`External Projects Page Renders correctly 1`] = `
   position: sticky;
   top: 0;
   z-index: 80;
-  position: static;
+  z-index: 1000000;
 }
 
 .dark-mode .emotion-34 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-34 a {
-  border-bottom: none;
+.emotion-34 ul {
+  line-height: 14px;
+  font-size: 16px;
 }
 
-@media screen and (max-width:480px) {
-  .emotion-34 {
-    display: none;
-  }
+.emotion-34 a {
+  border-bottom: none;
 }
 
 .emotion-33 {
