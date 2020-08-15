@@ -1,6 +1,5 @@
 .collection-page {
   height: auto;
-  overflow: hidden;
   position: relative;
 }
 
@@ -28,7 +27,7 @@
     position: absolute;
     left: 0;
     content: "";
-    height: 10000px;
+    height: 100vh;
     background-color: var(--color-neutrals-100);
     width: 100%;
     transform: skewY(-2deg) translateY(-70px);
