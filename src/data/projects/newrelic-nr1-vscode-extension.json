@@ -1,0 +1,24 @@
+{
+  "name": "nr1-vscode-extension",
+  "fullName": "newrelic/nr1-vscode-extension",
+  "slug": "newrelic-nr1-vscode-extension",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "NR1 VSCode Extension",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/nr1-vscode-extension",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-vscode-extension",
+  "iconUrl": null,
+  "shortDescription": "Build and deploy New Relic apps directly from VS Code",
+  "description": "Build and deploy New Relic apps directly from VS Code",
+  "ossCategory": "community-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": ["dev-toolkit", "tools"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "Visual Studio Marketplace",
+    "url": "https://marketplace.visualstudio.com/items?itemName=new-relic.nr1"
+  }
+}

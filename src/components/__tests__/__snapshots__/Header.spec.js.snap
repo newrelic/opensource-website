@@ -2,7 +2,7 @@
 
 exports[`Header renders correctly 1`] = `
 Array [
-  .emotion-32 {
+  .emotion-33 {
   background-color: var(--color-neutrals-100);
   overflow: hidden;
   position: -webkit-sticky;
@@ -12,21 +12,21 @@ Array [
   position: static;
 }
 
-.dark-mode .emotion-32 {
+.dark-mode .emotion-33 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-32 a {
+.emotion-33 a {
   border-bottom: none;
 }
 
 @media screen and (max-width:480px) {
-  .emotion-32 {
+  .emotion-33 {
     display: none;
   }
 }
 
-.emotion-31 {
+.emotion-32 {
   height: 30px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -121,7 +121,7 @@ Array [
   color: var(--color-dark-700);
 }
 
-.emotion-30 {
+.emotion-31 {
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -135,11 +135,22 @@ Array [
   align-items: center;
 }
 
-.emotion-30 > li {
+.emotion-31 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
   color: var(--secondary-text-color);
+}
+
+.emotion-29 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .emotion-28 {
@@ -160,7 +171,7 @@ Array [
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-29 {
+.emotion-30 {
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -175,16 +186,16 @@ Array [
   color: var(--secondary-text-color);
 }
 
-.emotion-29:hover {
+.emotion-30:hover {
   color: var(--secondary-text-hover-color);
 }
 
 <div
-    className=" emotion-32"
+    className=" emotion-33"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-31"
+      className="emotion-32"
     >
       <nav
         className="emotion-27"
@@ -292,31 +303,35 @@ Array [
         </ul>
       </nav>
       <ul
-        className="emotion-30"
+        className="emotion-31"
       >
         <li>
-          <svg
-            className="emotion-28"
-            onClick={[Function]}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+          <a
+            className="emotion-29"
+            href="?q="
           >
-            <circle
-              cx="11"
-              cy="11"
-              r="8"
-            />
-            <line
-              x1="21"
-              x2="16.65"
-              y1="21"
-              y2="16.65"
-            />
-          </svg>
+            <svg
+              className="emotion-28"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </a>
         </li>
         <li>
           <svg
-            className="emotion-29"
+            className="emotion-30"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"

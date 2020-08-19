@@ -1,0 +1,24 @@
+{
+  "name": "repolinter-action",
+  "fullName": "newrelic/repolinter-action",
+  "slug": "newrelic-repolinter-actionn",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "Repolinter Action",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/repolinter-action",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/repolinter-action",
+  "iconUrl": null,
+  "shortDescription": "Run Repolinter in your CI pipeline",
+  "description": "This action runs Repolinter on your repository. Optionally you can also configure this tool to create GitHub issues with the Repolinter output.",
+  "ossCategory": "new-relic-experimental",
+  "primaryLanguage": "TypeScript",
+  "projectTags": ["tools", "ci", "github-action", "open-source-management"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "Repolinter Action",
+    "url": "https://github.com/newrelic/repolinter-action"
+  }
+}
