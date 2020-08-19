@@ -139,13 +139,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   height: 1rem;
 }
 
-<<<<<<< HEAD
 .emotion-27 {
   max-width: 1236px;
-=======
-.emotion-31 {
-  margin: 0;
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   padding: 0;
   margin: 0 auto;
 }
@@ -163,7 +158,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   height: calc(100vh - 6rem);
 }
 
-<<<<<<< HEAD
 .emotion-26 .rc-pagination {
   font-family: 'Arial';
   -webkit-user-select: none;
@@ -186,38 +180,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 
 .emotion-26 .rc-pagination > li {
   list-style: none;
-=======
-.emotion-31 > li {
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  margin-left: 1rem;
-  color: var(--secondary-text-color);
-}
-
-.emotion-29 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.emotion-28 {
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  width: 0.875rem;
-  height: 0.875rem;
-  cursor: pointer;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  color: var(--secondary-text-color);
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
 }
 
 .emotion-26 .rc-pagination-total-text {
@@ -229,7 +191,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   margin: 0 8px 0 0;
 }
 
-<<<<<<< HEAD
 .emotion-26 .rc-pagination:after {
   content: ' ';
   display: block;
@@ -240,16 +201,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .rc-pagination-item {
-=======
-.emotion-30 {
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  width: 0.875rem;
-  height: 0.875rem;
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   cursor: pointer;
   border-radius: 6px;
   min-width: 28px;
@@ -425,7 +376,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   text-align: center;
 }
 
-<<<<<<< HEAD
 .emotion-26 .rc-pagination-prev a:after {
   content: '\\2039';
   display: block;
@@ -522,35 +472,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   font-weight: 500;
   text-align: center;
   touch-action: manipulation;
-=======
-.emotion-30:hover {
-  color: var(--secondary-text-hover-color);
-}
-
-.emotion-39 {
-  margin-bottom: 1rem;
-}
-
-.emotion-34 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
@@ -574,7 +495,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   border-color: #d9d9d9;
 }
 
-<<<<<<< HEAD
 .emotion-26 .rc-pagination-options-quick-jumper button:hover,
 .emotion-26 .rc-pagination-options-quick-jumper button:active,
 .emotion-26 .rc-pagination-options-quick-jumper button:focus {
@@ -623,33 +543,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   font-weight: 500;
   text-align: center;
   touch-action: manipulation;
-=======
-.dark-mode .emotion-34 {
-  color: var(--primary-background-color);
-  background-color: var(--color-brand-400);
-  border-color: var(--color-brand-400);
-}
-
-.emotion-37 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   cursor: pointer;
   background-image: none;
   border: 1px solid transparent;
@@ -673,7 +566,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   border-color: #d9d9d9;
 }
 
-<<<<<<< HEAD
 .emotion-26 .rc-pagination-simple .rc-pagination-simple-pager button:hover,
 .emotion-26 .rc-pagination-simple .rc-pagination-simple-pager button:active,
 .emotion-26 .rc-pagination-simple .rc-pagination-simple-pager button:focus {
@@ -691,18 +583,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 
 .emotion-26 html {
   box-sizing: border-box;
-=======
-.dark-mode .emotion-37 {
-  color: var(--color-brand-400);
-}
-
-.dark-mode .emotion-37 {
-  border-color: transparent;
-}
-
-.emotion-36 {
-  margin-right: 0.5rem;
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
 }
 
 .emotion-26 *,
@@ -1958,19 +1838,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   className="layout-container projectPageLayout"
 >
   <div
-<<<<<<< HEAD
     className=" emotion-65"
     data-swiftype-index={false}
   >
     <div
       className="emotion-64"
-=======
-    className=" emotion-33"
-    data-swiftype-index={false}
-  >
-    <div
-      className="emotion-32"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
     >
       <div
         className="emotion-28"
@@ -2177,7 +2049,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-<<<<<<< HEAD
         className="emotion-63"
       >
         <li>
@@ -2187,17 +2058,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           >
             <svg
               className="emotion-57"
-=======
-        className="emotion-31"
-      >
-        <li>
-          <a
-            className="emotion-29"
-            href="?q="
-          >
-            <svg
-              className="emotion-28"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2217,11 +2077,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         </li>
         <li>
           <svg
-<<<<<<< HEAD
             className="emotion-59"
-=======
-            className="emotion-30"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2386,21 +2242,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-<<<<<<< HEAD
             className="callToActionButtons emotion-71"
-=======
-            className="callToActionButtons emotion-39"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-<<<<<<< HEAD
                 className="emotion-66 emotion-61"
-=======
-                className="emotion-34 emotion-35"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -2408,21 +2256,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
                 View Website
               </a>
               <a
-<<<<<<< HEAD
                 className="emotion-69 emotion-61"
-=======
-                className="emotion-37 emotion-35"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-<<<<<<< HEAD
                   className="emotion-68"
-=======
-                  className="emotion-36"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
                   src="test-file-stub"
                 />
                 GitHub
@@ -2546,7 +2386,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 `;
 
 exports[`Open Telemetry Page Renders correctly 1`] = `
-<<<<<<< HEAD
 .emotion-65 {
   background-color: var(--color-neutrals-100);
   overflow: hidden;
@@ -3626,10 +3465,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   border-radius: 4px;
   box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.1);
   overflow-wrap: break-word;
-=======
-.emotion-33 {
-  background-color: var(--color-neutrals-100);
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   overflow: hidden;
 }
 
@@ -4028,7 +3863,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   transform: none;
 }
 
-<<<<<<< HEAD
 .emotion-26 .sui-select__dropdown-indicator {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4056,24 +3890,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-select__option {
-=======
-.dark-mode .emotion-33 {
-  background-color: var(--color-dark-100);
-}
-
-.emotion-33 a {
-  border-bottom: none;
-}
-
-@media screen and (max-width:480px) {
-  .emotion-33 {
-    display: none;
-  }
-}
-
-.emotion-32 {
-  height: 30px;
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4195,11 +4011,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   color: var(--color-dark-700);
 }
 
-<<<<<<< HEAD
 .emotion-63 {
-=======
-.emotion-31 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -4213,25 +4025,17 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: center;
 }
 
-<<<<<<< HEAD
 .emotion-63 > li {
-=======
-.emotion-31 > li {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
   color: var(--secondary-text-color);
 }
 
-<<<<<<< HEAD
 .emotion-58 {
   color: var(--secondary-text-color);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-=======
-.emotion-29 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4242,15 +4046,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: center;
 }
 
-<<<<<<< HEAD
 .emotion-58:hover {
   color: var(--secondary-text-hover-color);
 }
 
 .emotion-57 {
-=======
-.emotion-28 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -4262,11 +4062,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 .emotion-59 {
-=======
-.emotion-30 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -4282,7 +4078,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   transition: all 0.2s ease-out;
 }
 
-<<<<<<< HEAD
 .emotion-59:hover {
   color: var(--secondary-text-hover-color);
 }
@@ -4343,17 +4138,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-66 {
-=======
-.emotion-30:hover {
-  color: var(--secondary-text-hover-color);
-}
-
-.emotion-39 {
-  margin-bottom: 1rem;
-}
-
-.emotion-34 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -4389,22 +4173,12 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   transform: translate3d(0,-1px,0);
 }
 
-<<<<<<< HEAD
 .emotion-66:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
 .emotion-69 {
-=======
-.dark-mode .emotion-34 {
-  color: var(--primary-background-color);
-  background-color: var(--color-brand-400);
-  border-color: var(--color-brand-400);
-}
-
-.emotion-37 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -4431,7 +4205,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   white-space: nowrap;
 }
 
-<<<<<<< HEAD
 .emotion-69:hover {
   -webkit-transform: translate3d(0,-1px,0);
   -ms-transform: translate3d(0,-1px,0);
@@ -4443,17 +4216,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-68 {
-=======
-.dark-mode .emotion-37 {
-  color: var(--color-brand-400);
-}
-
-.dark-mode .emotion-37 {
-  border-color: transparent;
-}
-
-.emotion-36 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   margin-right: 0.5rem;
 }
 
@@ -4461,19 +4223,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   className="layout-container projectPageLayout"
 >
   <div
-<<<<<<< HEAD
     className=" emotion-65"
     data-swiftype-index={false}
   >
     <div
       className="emotion-64"
-=======
-    className=" emotion-33"
-    data-swiftype-index={false}
-  >
-    <div
-      className="emotion-32"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
     >
       <div
         className="emotion-28"
@@ -4680,7 +4434,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-<<<<<<< HEAD
         className="emotion-63"
       >
         <li>
@@ -4690,17 +4443,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           >
             <svg
               className="emotion-57"
-=======
-        className="emotion-31"
-      >
-        <li>
-          <a
-            className="emotion-29"
-            href="?q="
-          >
-            <svg
-              className="emotion-28"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -4720,11 +4462,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         </li>
         <li>
           <svg
-<<<<<<< HEAD
             className="emotion-59"
-=======
-            className="emotion-30"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -4889,21 +4627,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-<<<<<<< HEAD
             className="callToActionButtons emotion-71"
-=======
-            className="callToActionButtons emotion-39"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-<<<<<<< HEAD
                 className="emotion-66 emotion-61"
-=======
-                className="emotion-34 emotion-35"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -4911,21 +4641,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
                 View Website
               </a>
               <a
-<<<<<<< HEAD
                 className="emotion-69 emotion-61"
-=======
-                className="emotion-37 emotion-35"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-<<<<<<< HEAD
                   className="emotion-68"
-=======
-                  className="emotion-36"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
                   src="test-file-stub"
                 />
                 GitHub
@@ -5049,18 +4771,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 `;
 
 exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
-<<<<<<< HEAD
 .emotion-72 {
-=======
-.emotion-33 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   background-color: var(--color-neutrals-100);
   overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 80;
-<<<<<<< HEAD
   z-index: 1000000;
 }
 
@@ -6496,27 +6213,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--tertiary-background-color);
   border: 1px solid #a6a6a6;
   border-radius: 4px;
-=======
-  position: static;
-}
-
-.dark-mode .emotion-33 {
-  background-color: var(--color-dark-100);
-}
-
-.emotion-33 a {
-  border-bottom: none;
-}
-
-@media screen and (max-width:480px) {
-  .emotion-33 {
-    display: none;
-  }
-}
-
-.emotion-32 {
-  height: 30px;
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6700,11 +6396,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: var(--color-dark-700);
 }
 
-<<<<<<< HEAD
 .emotion-70 {
-=======
-.emotion-31 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -6718,25 +6410,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
 }
 
-<<<<<<< HEAD
 .emotion-70 > li {
-=======
-.emotion-31 > li {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
   color: var(--secondary-text-color);
 }
 
-<<<<<<< HEAD
 .emotion-65 {
   color: var(--secondary-text-color);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-=======
-.emotion-29 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6747,15 +6431,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
 }
 
-<<<<<<< HEAD
 .emotion-65:hover {
   color: var(--secondary-text-hover-color);
 }
 
 .emotion-64 {
-=======
-.emotion-28 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -6767,15 +6447,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 .emotion-66 {
-=======
-.emotion-28:hover {
-  color: var(--secondary-text-hover-color);
-}
-
-.emotion-30 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -6791,7 +6463,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   transition: all 0.2s ease-out;
 }
 
-<<<<<<< HEAD
 .emotion-66:hover {
   color: var(--secondary-text-hover-color);
 }
@@ -6852,17 +6523,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-73 {
-=======
-.emotion-30:hover {
-  color: var(--secondary-text-hover-color);
-}
-
-.emotion-39 {
-  margin-bottom: 1rem;
-}
-
-.emotion-34 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -6898,22 +6558,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   transform: translate3d(0,-1px,0);
 }
 
-<<<<<<< HEAD
 .emotion-73:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
 .emotion-76 {
-=======
-.dark-mode .emotion-34 {
-  color: var(--primary-background-color);
-  background-color: var(--color-brand-400);
-  border-color: var(--color-brand-400);
-}
-
-.emotion-37 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -6940,7 +6590,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   white-space: nowrap;
 }
 
-<<<<<<< HEAD
 .emotion-76:hover {
   -webkit-transform: translate3d(0,-1px,0);
   -ms-transform: translate3d(0,-1px,0);
@@ -7002,21 +6651,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-81 {
-=======
-.dark-mode .emotion-37 {
-  color: var(--color-brand-400);
-}
-
-.dark-mode .emotion-37 {
-  border-color: transparent;
-}
-
-.emotion-36 {
-  margin-right: 0.5rem;
-}
-
-.emotion-42 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -7046,7 +6680,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--color-neutrals-100);
 }
 
-<<<<<<< HEAD
 .emotion-81:hover {
   -webkit-transform: translate3d(0,-1px,0);
   -ms-transform: translate3d(0,-1px,0);
@@ -7066,31 +6699,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 .dark-mode .emotion-81:hover {
   color: var(--color-brand-200);
   background-color: rgba(112,204,210,0.17);
-=======
-.dark-mode .emotion-42 {
-  color: var(--color-white);
-  border-color: var(--color-dark-100);
-  background-color: var(--color-dark-100);
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
 }
 
 <div
   className="layout-container projectPageLayout"
 >
   <div
-<<<<<<< HEAD
     className=" emotion-72"
     data-swiftype-index={false}
   >
     <div
       className="emotion-71"
-=======
-    className=" emotion-33"
-    data-swiftype-index={false}
-  >
-    <div
-      className="emotion-32"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
     >
       <div
         className="emotion-35"
@@ -7355,7 +6974,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-<<<<<<< HEAD
         className="emotion-70"
       >
         <li>
@@ -7365,17 +6983,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           >
             <svg
               className="emotion-64"
-=======
-        className="emotion-31"
-      >
-        <li>
-          <a
-            className="emotion-29"
-            href="?q="
-          >
-            <svg
-              className="emotion-28"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -7395,11 +7002,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </li>
         <li>
           <svg
-<<<<<<< HEAD
             className="emotion-66"
-=======
-            className="emotion-30"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -7609,21 +7212,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-<<<<<<< HEAD
             className="callToActionButtons emotion-78"
-=======
-            className="callToActionButtons emotion-39"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-<<<<<<< HEAD
                 className="emotion-73 emotion-68"
-=======
-                className="emotion-34 emotion-35"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -7631,21 +7226,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                 View Website
               </a>
               <a
-<<<<<<< HEAD
                 className="emotion-76 emotion-68"
-=======
-                className="emotion-37 emotion-35"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-<<<<<<< HEAD
                   className="emotion-75"
-=======
-                  className="emotion-36"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
                   src="test-file-stub"
                 />
                 GitHub
@@ -7964,22 +7551,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         className="ctaContainer"
       >
         <button
-<<<<<<< HEAD
           className="approvalButton emotion-73 emotion-68"
-=======
-          className="approvalButton emotion-34 emotion-35"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
           onClick={[Function]}
           type="button"
         >
           Yes
         </button>
         <button
-<<<<<<< HEAD
           className="ignoreButton emotion-81 emotion-68"
-=======
-          className="ignoreButton emotion-42 emotion-35"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
           onClick={[Function]}
           type="button"
         >

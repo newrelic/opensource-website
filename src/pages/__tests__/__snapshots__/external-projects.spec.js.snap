@@ -1166,7 +1166,6 @@ exports[`External Projects Page Renders correctly 1`] = `
   vertical-align: bottom;
 }
 
-<<<<<<< HEAD
 .emotion-26 .sui-result__license {
   font-size: 12px;
   color: #999999;
@@ -1444,24 +1443,6 @@ exports[`External Projects Page Renders correctly 1`] = `
   background-color: var(--tertiary-background-color);
   border: 1px solid #a6a6a6;
   border-radius: 4px;
-=======
-.dark-mode .emotion-35 {
-  background-color: var(--color-dark-100);
-}
-
-.emotion-35 a {
-  border-bottom: none;
-}
-
-@media screen and (max-width:480px) {
-  .emotion-35 {
-    display: none;
-  }
-}
-
-.emotion-34 {
-  height: 30px;
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1645,11 +1626,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   color: var(--color-dark-700);
 }
 
-<<<<<<< HEAD
 .emotion-63 {
-=======
-.emotion-33 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -1663,11 +1640,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   align-items: center;
 }
 
-<<<<<<< HEAD
 .emotion-63 > li {
-=======
-.emotion-33 > li {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
@@ -1704,11 +1677,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 .emotion-59 {
-=======
-.emotion-32 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -1724,11 +1693,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   transition: all 0.2s ease-out;
 }
 
-<<<<<<< HEAD
 .emotion-59:hover {
-=======
-.emotion-32:hover {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   color: var(--secondary-text-hover-color);
 }
 
@@ -1787,19 +1752,11 @@ exports[`External Projects Page Renders correctly 1`] = `
   className="layout-container undefined"
 >
   <div
-<<<<<<< HEAD
     className=" emotion-65"
     data-swiftype-index={false}
   >
     <div
       className="emotion-64"
-=======
-    className=" emotion-35"
-    data-swiftype-index={false}
-  >
-    <div
-      className="emotion-34"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
     >
       <div
         className="emotion-28"
@@ -2006,11 +1963,7 @@ exports[`External Projects Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-<<<<<<< HEAD
         className="emotion-63"
-=======
-        className="emotion-33"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
       >
         <li>
           <a
@@ -2037,37 +1990,8 @@ exports[`External Projects Page Renders correctly 1`] = `
           </a>
         </li>
         <li>
-<<<<<<< HEAD
           <svg
             className="emotion-59"
-=======
-          <a
-            className="emotion-29"
-            href="?q="
-          >
-            <svg
-              className="emotion-28"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="11"
-                cy="11"
-                r="8"
-              />
-              <line
-                x1="21"
-                x2="16.65"
-                y1="21"
-                y2="16.65"
-              />
-            </svg>
-          </a>
-        </li>
-        <li>
-          <svg
-            className="emotion-32"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"

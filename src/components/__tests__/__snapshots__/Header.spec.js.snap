@@ -2,11 +2,7 @@
 
 exports[`Header renders correctly 1`] = `
 Array [
-<<<<<<< HEAD
   .emotion-65 {
-=======
-  .emotion-33 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   background-color: var(--color-neutrals-100);
   overflow: hidden;
   position: -webkit-sticky;
@@ -1129,7 +1125,6 @@ Array [
   align-items: center;
 }
 
-<<<<<<< HEAD
 .emotion-26 .sui-result__title {
   font-size: inherit;
   font-weight: 400;
@@ -1449,24 +1444,6 @@ Array [
   background-color: var(--tertiary-background-color);
   border: 1px solid #a6a6a6;
   border-radius: 4px;
-=======
-.dark-mode .emotion-33 {
-  background-color: var(--color-dark-100);
-}
-
-.emotion-33 a {
-  border-bottom: none;
-}
-
-@media screen and (max-width:480px) {
-  .emotion-33 {
-    display: none;
-  }
-}
-
-.emotion-32 {
-  height: 30px;
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1650,11 +1627,7 @@ Array [
   color: var(--color-dark-700);
 }
 
-<<<<<<< HEAD
 .emotion-63 {
-=======
-.emotion-31 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -1668,25 +1641,17 @@ Array [
   align-items: center;
 }
 
-<<<<<<< HEAD
 .emotion-63 > li {
-=======
-.emotion-31 > li {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   margin-left: 1rem;
   color: var(--secondary-text-color);
 }
 
-<<<<<<< HEAD
 .emotion-58 {
   color: var(--secondary-text-color);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-=======
-.emotion-29 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1697,15 +1662,11 @@ Array [
   align-items: center;
 }
 
-<<<<<<< HEAD
 .emotion-58:hover {
   color: var(--secondary-text-hover-color);
 }
 
 .emotion-57 {
-=======
-.emotion-28 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -1717,11 +1678,7 @@ Array [
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 .emotion-59 {
-=======
-.emotion-30 {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -1737,11 +1694,7 @@ Array [
   transition: all 0.2s ease-out;
 }
 
-<<<<<<< HEAD
 .emotion-59:hover {
-=======
-.emotion-30:hover {
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
   color: var(--secondary-text-hover-color);
 }
 
@@ -1797,19 +1750,11 @@ Array [
 }
 
 <div
-<<<<<<< HEAD
     className=" emotion-65"
     data-swiftype-index={false}
   >
     <div
       className="emotion-64"
-=======
-    className=" emotion-33"
-    data-swiftype-index={false}
-  >
-    <div
-      className="emotion-32"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
     >
       <div
         className="emotion-28"
@@ -2016,7 +1961,6 @@ Array [
         </ul>
       </nav>
       <ul
-<<<<<<< HEAD
         className="emotion-63"
       >
         <li>
@@ -2026,17 +1970,6 @@ Array [
           >
             <svg
               className="emotion-57"
-=======
-        className="emotion-31"
-      >
-        <li>
-          <a
-            className="emotion-29"
-            href="?q="
-          >
-            <svg
-              className="emotion-28"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2056,11 +1989,7 @@ Array [
         </li>
         <li>
           <svg
-<<<<<<< HEAD
             className="emotion-59"
-=======
-            className="emotion-30"
->>>>>>> b61bcd7f034ce46a961d06edd8828a5c1905eab7
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
