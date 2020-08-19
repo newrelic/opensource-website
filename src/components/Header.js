@@ -53,7 +53,7 @@ const Header = ({ hasHeaderBg, editLink }) => {
             border-bottom: none;
           }
 
-          z-index: 1000000;
+          z-index: 700;
         `}
       />
       <header

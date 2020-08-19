@@ -83,7 +83,7 @@ a.primary-header-nav-link {
 
 div.exists-in-active-mobile-menu {
   position: relative;
-  z-index: 10000;
+  z-index: 500;
   background-color: var(--color-neutrals-100);
 }
 
@@ -131,7 +131,7 @@ div.exists-in-active-mobile-menu {
     width: 160px;
     height: 34px;
     background-size: 160px 34px;
-    z-index: 10000;
+    z-index: 500;
   }
 
   .primary-header-nav-links {
@@ -148,7 +148,7 @@ div.exists-in-active-mobile-menu {
     right: 0;
     bottom: -100vh;
     left: 0;
-    z-index: 1000;
+    z-index: 400;
     background-color: var(--color-background);
 
     .mobile-menu-button {
