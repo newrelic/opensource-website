@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 55,
+  "lastSixMonthsCommitTotal": 55,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +20,22 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
+    },
+    {
+      "id": 30831476,
+      "login": "thezackm",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/30831476?v=4",
+      "htmlUrl": "https://github.com/thezackm",
+      "contributions": 53
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
