@@ -44,15 +44,16 @@ const Header = ({ hasHeaderBg, editLink }) => {
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
         editUrl={editLink}
         css={css`
-          position: static;
+          ul {
+            line-height: 14px;
+            font-size: 16px;
+          }
 
           a {
             border-bottom: none;
           }
 
-          @media screen and (max-width: 480px) {
-            display: none;
-          }
+          z-index: 700;
         `}
       />
       <header
