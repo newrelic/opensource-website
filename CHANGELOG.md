@@ -1,3 +1,10 @@
+## [1.8.6](https://github.com/newrelic/opensource-website/compare/v1.8.5...v1.8.6) (2020-08-20)
+
+
+### Bug Fixes
+
+* bump gatsby-theme-newrelic version ([f8ab1bb](https://github.com/newrelic/opensource-website/commit/f8ab1bb7f52594da81b75b14241c1a22a5e00d61))
+
 ## [1.8.5](https://github.com/newrelic/opensource-website/compare/v1.8.4...v1.8.5) (2020-08-19)
 
 
