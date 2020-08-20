@@ -3,16 +3,16 @@
   "issues": {
     "open": 21
   },
-  "releases": 51,
+  "releases": 52,
   "latestRelease": {
-    "name": "v1.8.4",
-    "date": "2020-08-12T12:36:07Z"
+    "name": "v1.8.5",
+    "date": "2020-08-19T22:29:17Z"
   },
-  "commits": 1493,
-  "lastSixMonthsCommitTotal": 1493,
+  "commits": 1507,
+  "lastSixMonthsCommitTotal": 1507,
   "contributors": 48,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -69,13 +69,6 @@
     }
   ],
   "cachedContributors": [
-    {
-      "id": 20293876,
-      "login": "tyreer",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/20293876?v=4",
-      "htmlUrl": "https://github.com/tyreer",
-      "contributions": 1
-    },
     {
       "id": 7401258,
       "login": "tbradellis",
@@ -350,6 +343,13 @@
       "contributions": 9
     },
     {
+      "id": 20293876,
+      "login": "tyreer",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/20293876?v=4",
+      "htmlUrl": "https://github.com/tyreer",
+      "contributions": 11
+    },
+    {
       "id": 11223178,
       "login": "michaelgoin",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
@@ -403,7 +403,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 413
+      "contributions": 415
     }
   ],
   "languages": [
