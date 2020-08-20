@@ -40,7 +40,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-28 {
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   top: 0;
   left: 0;
@@ -2377,7 +2377,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.8.4
+          1.8.5
         </small>
       </div>
     </section>
@@ -2425,7 +2425,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-28 {
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   top: 0;
   left: 0;
@@ -4762,7 +4762,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.8.4
+          1.8.5
         </small>
       </div>
     </section>
@@ -4810,7 +4810,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-35 {
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   top: 0;
   left: 0;
@@ -7509,7 +7509,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.8.4
+          1.8.5
         </small>
       </div>
     </section>

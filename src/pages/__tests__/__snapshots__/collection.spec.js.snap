@@ -40,7 +40,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-28 {
-  z-index: 100;
+  z-index: 1000;
   position: fixed;
   top: 0;
   left: 0;
@@ -2264,7 +2264,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           className="version footerMeta"
         >
           Version 
-          1.8.4
+          1.8.5
         </small>
       </div>
     </section>
