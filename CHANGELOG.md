@@ -1,3 +1,20 @@
+## [1.8.6](https://github.com/newrelic/opensource-website/compare/v1.8.5...v1.8.6) (2020-08-20)
+
+
+### Bug Fixes
+
+* bump gatsby-theme-newrelic version ([f8ab1bb](https://github.com/newrelic/opensource-website/commit/f8ab1bb7f52594da81b75b14241c1a22a5e00d61))
+
+## [1.8.5](https://github.com/newrelic/opensource-website/compare/v1.8.4...v1.8.5) (2020-08-19)
+
+
+### Bug Fixes
+
+* adapt mobile site-specific nav to coordinate with additional of mobile GlobalHeader ([3b46f45](https://github.com/newrelic/opensource-website/commit/3b46f455adb6d96794deb52c93501f0ce03a8b64))
+* adapt the collection module styles to accomodate a mobile GlobalHeader ([16f614f](https://github.com/newrelic/opensource-website/commit/16f614f8d7caa999e1b7213b831d419d106d90d9))
+* add style overrides for GlobalHeader specific to the open-source styling context. Remove hiding of GlobalHeader on mobile/narrow views and remove the static position overrride to meet requirement that GlobalHeader behave as on other sites ([53c2a54](https://github.com/newrelic/opensource-website/commit/53c2a54c52cb2e17998cbcc708855967985345b0))
+* update Jets snapshots related to enabling GlobalHeader on mobile views ([7ff7b7f](https://github.com/newrelic/opensource-website/commit/7ff7b7fd3fcff3242d0b82aa87debfc6442aadbb))
+
 ## [1.8.4](https://github.com/newrelic/opensource-website/compare/v1.8.3...v1.8.4) (2020-08-12)
 
 

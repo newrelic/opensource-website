@@ -56,7 +56,7 @@
     position: absolute;
     top: -1px;
     left: 0;
-    z-index: 1000;
+    z-index: 400;
     background-image: url('../images/home-collection-mask.png');
   }
 
@@ -73,7 +73,7 @@
   flex-shrink: 0;
   margin-right: 20px;
   position: relative;
-  z-index: 100;
+  z-index: 300;
   box-shadow: 0px 0.913195px 0.802504px rgba(4, 22, 22, 0.00562291), 0px 2.19453px 1.92853px rgba(4, 22, 22, 0.00807786), 0px 4.13211px 3.63125px rgba(4, 22, 22, 0.01), 0px 7.37098px 6.47753px rgba(4, 22, 22, 0.0119221), 0px 13.7866px 12.1155px rgba(4, 22, 22, 0.0143771), 0px 33px 29px rgba(4, 22, 22, 0.02);
   pointer-events: none;
 
@@ -89,7 +89,7 @@
 }
 
 .cta-button {
-  z-index: 1000;
+  z-index: 400;
   position: absolute;
   left: 50%;
   transform: translate(-50%, 40px);

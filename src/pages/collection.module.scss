@@ -1,6 +1,5 @@
 .collection-page {
   height: auto;
-  overflow: hidden;
   position: relative;
 }
 
@@ -28,7 +27,7 @@
     position: absolute;
     left: 0;
     content: "";
-    height: 10000px;
+    height: 100vh;
     background-color: var(--color-neutrals-100);
     width: 100%;
     transform: skewY(-2deg) translateY(-70px);
@@ -105,7 +104,7 @@
       position: absolute;
       top: -1px;
       right: -9px;
-      z-index: 1000; 
+      z-index: 400; 
       background: linear-gradient(270deg, var(--color-neutrals-100) 34.6%, rgba(244, 245, 245, 0) 78.29%);
     }
   }
