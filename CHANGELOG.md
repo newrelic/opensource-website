@@ -1,3 +1,10 @@
+## [1.8.7](https://github.com/newrelic/opensource-website/compare/v1.8.6...v1.8.7) (2020-08-20)
+
+
+### Bug Fixes
+
+* ensure header has backdrop that goes the full browser viewport ([d7638f8](https://github.com/newrelic/opensource-website/commit/d7638f85b47357347bb143c531e08f08af118571))
+
 ## [1.8.6](https://github.com/newrelic/opensource-website/compare/v1.8.5...v1.8.6) (2020-08-20)
 
 
