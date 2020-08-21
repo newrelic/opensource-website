@@ -1,21 +1,73 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 13
+    "open": 27
   },
   "releases": 44,
   "latestRelease": {
     "name": "v8.31.0",
     "date": null
   },
-  "commits": 127,
-  "lastSixMonthsCommitTotal": 96,
+  "commits": 129,
+  "lastSixMonthsCommitTotal": 98,
   "contributors": 10,
   "pullRequests": {
     "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2ODMwODAxMjg=",
+      "title": "appsettings.json file not found for .NET Core app hosted in Windows Service or InProcess IIS",
+      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/116",
+      "createdAt": "2020-08-20T20:36:28Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "lspangler584",
+        "id": "MDQ6VXNlcjIwMjY3OTc1",
+        "email": "",
+        "name": null
+      },
+      "number": 116,
+      "createdBy": "lspangler584"
+    },
+    {
+      "id": "MDU6SXNzdWU2ODMxMjkyNDk=",
+      "title": "Reduce string allocations in BrowserMonitoringWriter",
+      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/117",
+      "createdAt": "2020-08-20T22:16:35Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "lspangler584",
+        "id": "MDQ6VXNlcjIwMjY3OTc1",
+        "email": "",
+        "name": null
+      },
+      "number": 117,
+      "createdBy": "lspangler584"
+    },
+    {
+      "id": "MDU6SXNzdWU2ODMxNTIwOTE=",
+      "title": "InstrumentationWatcher can cause ThreadAbortException",
+      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/122",
+      "createdAt": "2020-08-20T23:20:15Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "lspangler584",
+        "id": "MDQ6VXNlcjIwMjY3OTc1",
+        "email": "",
+        "name": null
+      },
+      "number": 122,
+      "createdBy": "lspangler584"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 188129,
@@ -46,18 +98,18 @@
       "contributions": 2
     },
     {
-      "id": 4761745,
-      "login": "elucus",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/4761745?v=4",
-      "htmlUrl": "https://github.com/elucus",
-      "contributions": 3
-    },
-    {
       "id": 3676547,
       "login": "alanwest",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/3676547?v=4",
       "htmlUrl": "https://github.com/alanwest",
       "contributions": 3
+    },
+    {
+      "id": 4761745,
+      "login": "elucus",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/4761745?v=4",
+      "htmlUrl": "https://github.com/elucus",
+      "contributions": 4
     },
     {
       "id": 45495992,
@@ -71,7 +123,7 @@
       "login": "nr-ahemsath",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/57361211?v=4",
       "htmlUrl": "https://github.com/nr-ahemsath",
-      "contributions": 11
+      "contributions": 12
     },
     {
       "id": 56414817,
