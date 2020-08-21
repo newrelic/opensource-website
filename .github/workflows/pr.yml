@@ -45,10 +45,89 @@ jobs:
             exit 1
           fi
 
+  job-check-project-tags:
+    name: Check Project Tags
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Cache node_modules
+        id: cache-node
+        uses: actions/cache@v2
+        env:
+          cache-name: node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ env.cache-name }}-
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Get Changed Files
+        id: getfile
+        run: |
+          PROJECT_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep "src/data/projects" || true)
+
+          if [ -z "$PROJECT_FILES" ]; then
+            echo "No project json files detected."
+          else
+            echo ::set-env name=PROJECT_FILES::$PROJECT_FILES
+          fi
+
+      - name: Run Project Tags Check
+        if: env.PROJECT_FILES != ''
+        uses: actions/github-script@v2
+        with:
+          script: |
+            const projectTags = require(`${process.env.GITHUB_WORKSPACE}/src/data/project-tags/project-tags.json`).map(t => t.slug);
+
+            const modifiedProjectFiles = process.env.PROJECT_FILES ? process.env.PROJECT_FILES.split(' ') : null
+            let errors = []
+
+            // Check all modified project json files
+            if (modifiedProjectFiles) {
+              modifiedProjectFiles.map(f => {
+                const projectJson = require(`${process.env.GITHUB_WORKSPACE}/${f}`)
+                console.log(projectJson)
+
+                // Check tags
+                let invalidTags = []
+                if ( projectJson.projectTags ) {
+                  projectJson.projectTags.map(pt => {
+                    if (!projectTags.includes(pt)) {
+                      invalidTags.push(pt);
+                    }
+                  })
+
+                  // Collect invalidTags into errors
+                  if (invalidTags.length > 0) {
+                    errors.push({file: f, invalidTags: invalidTags})
+                  }
+                }
+              })
+
+              // Set Error Annotation for Results
+              if (errors.length > 0) {
+                core.setFailed(
+                `There are errors with the <projectTags> mapping. For more info, visit https://github.com/newrelic/opensource-website/wiki/Contributing-Project-Data#note-about-projectTags. 
+                Errors: ${JSON.stringify(errors, null, 2)}`)
+              }
+            }
+
   job-eslint:
     name: eslint
     runs-on: ubuntu-latest
-    needs: job-checkout-and-build
+    needs: [job-checkout-and-build, job-check-project-tags]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
@@ -94,7 +173,7 @@ jobs:
   job-test:
     name: Jest
     runs-on: ubuntu-latest
-    needs: job-checkout-and-build
+    needs: [job-checkout-and-build, job-check-project-tags]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
