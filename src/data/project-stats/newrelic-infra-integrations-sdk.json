@@ -8,11 +8,11 @@
     "name": "v3.6.4",
     "date": "2020-04-24T12:34:47Z"
   },
-  "commits": 653,
-  "lastSixMonthsCommitTotal": 24,
-  "contributors": 20,
+  "commits": 657,
+  "lastSixMonthsCommitTotal": 28,
+  "contributors": 21,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -85,6 +85,13 @@
       "login": "vvydier",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/466745?v=4",
       "htmlUrl": "https://github.com/vvydier",
+      "contributions": 3
+    },
+    {
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
       "contributions": 3
     },
     {
@@ -172,11 +179,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTEz",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "http://choosealicense.com/licenses/mit/",
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
     "featured": true,
-    "key": "mit"
+    "key": "apache-2.0"
   }
 }
