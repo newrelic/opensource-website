@@ -17,6 +17,10 @@ The JSON file contains the base information about the project detail pages, as w
 
 **Template:** `examples/projects.json`
 
+### Note about projectTags
+
+The Project metadata file contains a `projectTags` field that _must_ match the available Project Tags located in [src/data/project-tags/project-tags.json](https://github.com/newrelic/opensource-website/blob/develop/src/data/project-tags/project-tags.json). Also, don't include your project `language` as a tag; filtering on languages isn't meant to be facilitated by the `projectTags` field. If your project should warrant a new `tag`, please include an update to [src/data/project-tags/project-tags.json](https://github.com/newrelic/opensource-website/blob/develop/src/data/project-tags/project-tags.json) in your Pull Request.
+
 ## 2. Project metadata (MDX)
 
 This MDX file contains the markdown and optional React components that populate the left-hand column of a project detail page.
