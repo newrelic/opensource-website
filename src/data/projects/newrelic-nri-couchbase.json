@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Monitoring for Apache Couchbase clusters",
   "description": "Capture critical performance metrics and inventory reported by Apache Couchbase clusters",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri"],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Couchbase Integration",

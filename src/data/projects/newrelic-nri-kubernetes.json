@@ -15,9 +15,13 @@
   "iconUrl": null,
   "shortDescription": "Monitoring for Kubernetes.",
   "description": "Instruments the container orchestration layer by reporting metrics from Kubernetes objects. It gives you visibility about Kubernetes namespaces, deployments, replica sets, nodes, pods, and containers",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri", "infrastructure", "k8"],
+  "projectTags": [
+    "nri",
+    "infrastructure",
+    "k8"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Integration for Kubernetes ",

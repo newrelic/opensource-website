@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Application-agnostic, all-in-one New Relic integration",
   "description": "Instrument any application that exposes metrics over a standard protocol with New Relic",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri"],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Flex",

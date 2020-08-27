@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Extensions for common .NET logging frameworks",
   "description": "Extensions supporting New Relic Logging (Logs In Context)",
-  "ossCategory": "example-code",
+  "ossCategory": "community-plus",
   "primaryLanguage": "C#",
-  "projectTags": ["logging"],
+  "projectTags": [
+    "logging"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Logging Extensions for .NET",

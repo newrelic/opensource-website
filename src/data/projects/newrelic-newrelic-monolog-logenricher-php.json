@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Integrate PHP Monolog to New Relic Logs",
   "description": "Monolog components to enable New Relic Logs",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "PHP",
-  "projectTags": ["logging"],
+  "projectTags": [
+    "logging"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "Monolog for New Relic Logs",

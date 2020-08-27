@@ -15,9 +15,11 @@
   "iconUrl": null,
   "shortDescription": "Automated instrumentation for .NET",
   "description": "The official New Relic agent for .NET",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": ".NET",
-  "projectTags": ["agent"],
+  "projectTags": [
+    "agent"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic .NET Agent",

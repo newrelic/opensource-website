@@ -15,9 +15,13 @@
   "iconUrl": null,
   "shortDescription": "Router for Kubernetes Events.",
   "description": "Event router for the Kubernetes project. The event router serves as an active watcher of event resource in the Kubernetes system, which takes those events and pushes them to a list of configured sinks.",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri", "infrastructure", "k8"],
+  "projectTags": [
+    "nri",
+    "infrastructure",
+    "k8"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Integration for Kubernetes Events ",

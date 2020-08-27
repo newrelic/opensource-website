@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Monitoring for Microsoft SQL Server databases",
   "description": "Capture critical performance metrics and inventory reported by Microsoft SQL Server databases",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri"],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Microsoft SQL Server Integration",
