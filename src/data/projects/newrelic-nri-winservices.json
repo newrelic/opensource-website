@@ -1,0 +1,26 @@
+{
+  "name": "nri-winservices",
+  "fullName": "newrelic/nri-winservices",
+  "slug": "newrelic-nri-winservices",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Windows Services integration",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
+  "githubUrl": "https://github.com/newrelic/nri-winservices",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-winservices",
+  "defaultBranch": "master",
+  "contributingGuideUrl": "https://github.com/newrelic/nri-winservices/blob/master/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "Windows services Integration for New Relic Infrastructure",
+  "description": "New Relic's Windows Services integration collects data from the services running on your Windows hosts into our platform. You can check the state, status, and start mode of each service, find out which hosts are running a service, add services to workloads, set up alerts for services, and more.",
+  "ossCategory": "community-plus",
+  "primaryLanguage": "Go",
+  "projectTags": ["nri"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Windows Services integration",
+    "url": "https://github.com/newrelic/nri-winservices"
+  }
+}
