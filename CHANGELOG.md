@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/newrelic/opensource-website/compare/v1.9.0...v1.9.1) (2020-08-28)
+
+
+### Bug Fixes
+
+* update OSS category for some repositories ([8807208](https://github.com/newrelic/opensource-website/commit/8807208d032dfe971308a532e220869ce3e2c1a9))
+
 # [1.9.0](https://github.com/newrelic/opensource-website/compare/v1.8.7...v1.9.0) (2020-08-21)
 
 
