@@ -1,0 +1,26 @@
+{
+  "name": "nri-statsd",
+  "fullName": "newrelic/nri-statsd",
+  "slug": "newrelic-nri-statsd",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic StatsD Integration",
+  "supportUrl": "https://discuss.newrelic.com/c/support-products-agents/new-relic-infrastructure",
+  "githubUrl": "https://github.com/newrelic/nri-statsd",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-statsd",
+  "defaultBranch": "master",
+  "contributingGuideUrl": "https://github.com/newrelic/nri-statsd/blob/master/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "Easily get StatsD data into New Relic",
+  "description": "The StatsD integration lets you easily get StatsD data into New Relic. You can also add any arbitrary tags (key-value pairs) to your data. Once your data are in New Relic, you can query your data and create custom charts and dashboards.",
+  "ossCategory": "community-plus",
+  "primaryLanguage": "Shell",
+  "projectTags": ["nri"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic StatsD Integration",
+    "url": "https://github.com/newrelic/nri-statsd"
+  }
+}

@@ -13,9 +13,12 @@
   "iconUrl": null,
   "shortDescription": "Generate compatible certificates",
   "description": "Generate certificate suitable for use with any Kubernetes Mutating Webhook.",
-  "ossCategory": "example-code",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Shell",
-  "projectTags": ["k8", "tools"],
+  "projectTags": [
+    "k8",
+    "tools"
+  ],
   "acceptsContributions": false,
   "website": {
     "title": "Kubernetes Webhook Certificate Manager",

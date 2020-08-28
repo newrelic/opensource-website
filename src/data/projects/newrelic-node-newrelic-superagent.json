@@ -13,9 +13,13 @@
   "iconUrl": null,
   "shortDescription": "Node Agent instumentation for SuperAgent",
   "description": "SuperAgent instrumentation for New Relic's Node Agent",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "JavaScript",
-  "projectTags": ["agent", "exporter", "lib"],
+  "projectTags": [
+    "agent",
+    "exporter",
+    "lib"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic SuperAgent (Node)",

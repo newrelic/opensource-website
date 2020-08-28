@@ -6,13 +6,10 @@
     "title": "New Relic Java agent",
     "url": "https://github.com/newrelic/newrelic-java-agent"
   },
-
   "githubUrl": "https://github.com/newrelic/newrelic-java-agent",
   "contributingGuideUrl": "https://github.com/newrelic/newrelic-java-agent/blob/main/CONTRIBUTING.md",
-
   "fullName": "newrelic/newrelic-java-agent",
   "slug": "newrelic-newrelic-java-agent",
-
   "owner": {
     "login": "newrelic",
     "type": "Organization"
@@ -22,9 +19,10 @@
   "defaultBranch": "main",
   "iconUrl": null,
   "description": "The New Relic Java agent monitors your applications to help you improve the customer experience and make data-driven business decisions.",
-
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Java",
-  "projectTags": ["agent"],
+  "projectTags": [
+    "agent"
+  ],
   "acceptsContributions": true
 }

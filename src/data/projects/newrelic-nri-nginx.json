@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Monitoring for Nginx web servers",
   "description": "Capture critical performance metrics and inventory reported by Nginx web servers",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri"],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Nginx Integration",

@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Report status and metrics for Memcached services",
   "description": "Capture critical performance metrics and status by memcached services",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri"],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure Memcached Integration",

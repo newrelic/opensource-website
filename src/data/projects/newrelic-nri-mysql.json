@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Monitoring for MySQL databases",
   "description": "Capture critical performance metrics and inventory reported by MySQL databases",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri"],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure MySQL Integration",

@@ -15,9 +15,11 @@
   "iconUrl": null,
   "shortDescription": "The official New Relic agent for Golang",
   "description": "Allows you to monitor your Go applications with New Relic",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["agent"],
+  "projectTags": [
+    "agent"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Go Agent",

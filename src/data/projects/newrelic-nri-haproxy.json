@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "New Relic Infrastructure Integration for HAProxy",
   "description": "Reports status and metrics for HAProxy service",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri"],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Infrastructure HAProxy Integration",

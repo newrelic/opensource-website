@@ -13,13 +13,17 @@
   "iconUrl": null,
   "shortDescription": "Node Agent instumentation for MySQL",
   "description": "MySQL instrumentation for New Relic's Node Agent",
-  "ossCategory": "new-relic-experimental",
+  "ossCategory": "community-plus",
   "primaryLanguage": "JavaScript",
-  "projectTags": ["agent", "exporter", "lib"],
+  "projectTags": [
+    "agent",
+    "exporter",
+    "lib"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic MySQL (Node)",
     "url": "https://github.com/newrelic/node-newrelic-mysql"
-	},
-	"defaultBranch": "main"
+  },
+  "defaultBranch": "main"
 }

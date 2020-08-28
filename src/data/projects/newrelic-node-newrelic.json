@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Automated instrumentation for Node.js",
   "description": "New Relic Node.js Agent",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "JavaScript",
-  "projectTags": ["agent"],
+  "projectTags": [
+    "agent"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Node Agent",
