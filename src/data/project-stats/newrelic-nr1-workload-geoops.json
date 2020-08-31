@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nr1-workload-geoops",
   "issues": {
-    "open": 12
+    "open": 11
   },
   "releases": 27,
   "latestRelease": {
@@ -9,13 +9,47 @@
     "date": "2020-08-27T20:29:43Z"
   },
   "commits": 529,
-  "lastSixMonthsCommitTotal": 395,
+  "lastSixMonthsCommitTotal": 392,
   "contributors": 12,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU1NDUyMjgwODE=",
+      "title": "List locations that are either favorited or visible on the map",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/9",
+      "createdAt": "2020-01-04T02:04:01Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "",
+        "name": "Joel Worrall"
+      },
+      "number": 9,
+      "createdBy": "Joel Worrall"
+    },
+    {
+      "id": "MDU6SXNzdWU1NDUyMzUzNjQ=",
+      "title": "On a zoom out, display regions and rollup statuses w/in those regions",
+      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/13",
+      "createdAt": "2020-01-04T03:32:20Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "",
+        "name": "Joel Worrall"
+      },
+      "number": 13,
+      "createdBy": "Joel Worrall"
+    },
     {
       "id": "MDU6SXNzdWU1NDUyMzYzMjQ=",
       "title": "Branded markers on the map",
@@ -32,40 +66,6 @@
       },
       "number": 19,
       "createdBy": "Joel Worrall"
-    },
-    {
-      "id": "MDU6SXNzdWU1NjExNjk0MTk=",
-      "title": "Mutating Tags with Mapping Data",
-      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/30",
-      "createdAt": "2020-02-06T17:46:02Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "jbeveland27",
-        "id": "MDQ6VXNlcjY3MjI0MzM=",
-        "email": "",
-        "name": "Justin Eveland"
-      },
-      "number": 30,
-      "createdBy": "Justin Eveland"
-    },
-    {
-      "id": "MDU6SXNzdWU1ODI1NjQzNjc=",
-      "title": "Create documentation on data formats",
-      "url": "https://github.com/newrelic/nr1-workload-geoops/issues/39",
-      "createdAt": "2020-03-16T19:56:26Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "danielgolden",
-        "id": "MDQ6VXNlcjgxMjk4OQ==",
-        "email": "",
-        "name": "Daniel Golden"
-      },
-      "number": 39,
-      "createdBy": "Daniel Golden"
     }
   ],
   "cachedContributors": [
