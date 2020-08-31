@@ -89,29 +89,38 @@ jobs:
         uses: actions/github-script@v2
         with:
           script: |
+            const fs = require('fs');
             const projectTags = require(`${process.env.GITHUB_WORKSPACE}/src/data/project-tags/project-tags.json`).map(t => t.slug);
 
             const modifiedProjectFiles = process.env.PROJECT_FILES ? process.env.PROJECT_FILES.split(' ') : null
+            console.log(`Detected Project Files: ${JSON.stringify(modifiedProjectFiles, null, 2)}`)
             let errors = []
 
             // Check all modified project json files
             if (modifiedProjectFiles) {
-              modifiedProjectFiles.map(f => {
-                const projectJson = require(`${process.env.GITHUB_WORKSPACE}/${f}`)
-                console.log(projectJson)
+              modifiedProjectFiles.forEach(f => {
+                const fileName = `${process.env.GITHUB_WORKSPACE}/${f}`;
+                const exists = fs.existsSync(fileName)
 
-                // Check tags
-                let invalidTags = []
-                if ( projectJson.projectTags ) {
-                  projectJson.projectTags.map(pt => {
-                    if (!projectTags.includes(pt)) {
-                      invalidTags.push(pt);
+                if (!exists) {
+                  console.log(`INFO:: File not found: ${fileName}`)
+                } else {
+                  const projectJson = require(`${process.env.GITHUB_WORKSPACE}/${f}`)
+                  console.log(projectJson)
+
+                  // Check tags
+                  let invalidTags = []
+                  if ( projectJson.projectTags ) {
+                    projectJson.projectTags.map(pt => {
+                      if (!projectTags.includes(pt)) {
+                        invalidTags.push(pt);
+                      }
+                    })
+
+                    // Collect invalidTags into errors
+                    if (invalidTags.length > 0) {
+                      errors.push({file: f, invalidTags: invalidTags})
                     }
-                  })
-
-                  // Collect invalidTags into errors
-                  if (invalidTags.length > 0) {
-                    errors.push({file: f, invalidTags: invalidTags})
                   }
                 }
               })
