@@ -13,9 +13,12 @@
   "iconUrl": null,
   "shortDescription": "AWS SDK for Node",
   "description": "New Relic's official AWS-SDK package instrumentation for use with the Node Agent",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "JavaScript",
-  "projectTags": ["sdk", "agent"],
+  "projectTags": [
+    "sdk",
+    "agent"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic AWS SDK (Node)",

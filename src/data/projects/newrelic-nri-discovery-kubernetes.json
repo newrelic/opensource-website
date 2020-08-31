@@ -13,9 +13,11 @@
   "iconUrl": null,
   "shortDescription": "Automatically discover containers running inside Kubernetes",
   "description": "New Relic Infrastructure integration for auto-discovery of Kubernetes containers",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri"],
+  "projectTags": [
+    "nri"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Kubernetes Auto-Discovery",

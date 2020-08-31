@@ -13,9 +13,12 @@
   "iconUrl": null,
   "shortDescription": "Send Prometheus metrics to New Relic",
   "description": "Fetch metrics in the Prometheus metrics inside or outside Kubernetes and send them to New Relic",
-  "ossCategory": "community-project",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": ["nri", "opentelemetry"],
+  "projectTags": [
+    "nri",
+    "opentelemetry"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Prometheus OpenMetrics Integration",

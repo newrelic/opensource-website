@@ -1,3 +1,17 @@
+## [1.9.1](https://github.com/newrelic/opensource-website/compare/v1.9.0...v1.9.1) (2020-08-28)
+
+
+### Bug Fixes
+
+* update OSS category for some repositories ([8807208](https://github.com/newrelic/opensource-website/commit/8807208d032dfe971308a532e220869ce3e2c1a9))
+
+# [1.9.0](https://github.com/newrelic/opensource-website/compare/v1.8.7...v1.9.0) (2020-08-21)
+
+
+### Features
+
+* add check for project tags ([#622](https://github.com/newrelic/opensource-website/issues/622)) ([50711c2](https://github.com/newrelic/opensource-website/commit/50711c2a945e045ad32e633296136cdbd34b6eda))
+
 ## [1.8.7](https://github.com/newrelic/opensource-website/compare/v1.8.6...v1.8.7) (2020-08-20)
 
 
