@@ -1,0 +1,24 @@
+{
+  "name": "nr1-integrations-manager",
+  "fullName": "newrelic/nr1-integrations-manager",
+  "slug": "newrelic-nr1-integrations-manager",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic One Integrations Manager",
+  "supportUrl": "https://discuss.newrelic.com/t/flex-manager-nerdpack/83346",
+  "githubUrl": "https://github.com/newrelic/nr1-integrations-manager",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-integrations-manager",
+  "iconUrl": "https://github.com/newrelic/nr1-integrations-manager/blob/master/icon.png?raw=true",
+  "shortDescription": "Manage New Relic Infrastructure integrations",
+  "description": "Reduce the effort to create, manage and deploy Integrations",
+  "ossCategory": "new-relic-one-catalog-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": ["nr1-app"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic One Integrations Manager",
+    "url": "https://github.com/newrelic/nr1-integrations-manager"
+  }
+}

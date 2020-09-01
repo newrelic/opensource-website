@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/newrelic/opensource-website/compare/v1.9.1...v1.9.2) (2020-08-31)
+
+
+### Bug Fixes
+
+* add check to see if file exists before require ([#631](https://github.com/newrelic/opensource-website/issues/631)) ([27487d5](https://github.com/newrelic/opensource-website/commit/27487d5c48bb0898f2b0db061f197c174794f714))
+
 ## [1.9.1](https://github.com/newrelic/opensource-website/compare/v1.9.0...v1.9.1) (2020-08-28)
 
 
