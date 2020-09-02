@@ -1,55 +1,21 @@
 {
   "projectFullName": "newrelic/nr1-datalyzer",
   "issues": {
-    "open": 3
+    "open": 1
   },
-  "releases": 10,
+  "releases": 11,
   "latestRelease": {
-    "name": "v0.6.2",
-    "date": "2020-08-24T16:28:22Z"
+    "name": "v0.7.0",
+    "date": "2020-09-02T03:40:12Z"
   },
-  "commits": 180,
-  "lastSixMonthsCommitTotal": 47,
-  "contributors": 12,
+  "commits": 190,
+  "lastSixMonthsCommitTotal": 57,
+  "contributors": 14,
   "pullRequests": {
-    "open": 3
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU0ODc1NTcwNTc=",
-      "title": "Helpful inline docs",
-      "url": "https://github.com/newrelic/nr1-datalyzer/issues/7",
-      "createdAt": "2019-08-30T15:55:44Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "mattbaker",
-        "id": "MDQ6VXNlcjU1NDYy",
-        "email": "",
-        "name": "Matt Baker"
-      },
-      "number": 7,
-      "createdBy": "Matt Baker"
-    },
-    {
-      "id": "MDU6SXNzdWU0OTEyMDAwMTY=",
-      "title": "Add a heatmap view as alternative to facet table",
-      "url": "https://github.com/newrelic/nr1-datalyzer/issues/11",
-      "createdAt": "2019-09-09T16:29:04Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "cirne",
-        "id": "MDQ6VXNlcjMwNTE0",
-        "email": "",
-        "name": "Lew Cirne"
-      },
-      "number": 11,
-      "createdBy": "Lew Cirne"
-    },
     {
       "id": "MDU6SXNzdWU1MTQ3NTkzMzk=",
       "title": "Save event type and account id in url state",
@@ -69,6 +35,20 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 8731013,
+      "login": "prototypicalpro",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/8731013?v=4",
+      "htmlUrl": "https://github.com/prototypicalpro",
+      "contributions": 1
+    },
+    {
+      "id": 5214156,
+      "login": "norbertsuski",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/5214156?v=4",
+      "htmlUrl": "https://github.com/norbertsuski",
+      "contributions": 1
+    },
     {
       "id": 12318362,
       "login": "lindsayculver",
@@ -105,13 +85,6 @@
       "contributions": 3
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 4
-    },
-    {
       "id": 6864939,
       "login": "jrhinehart",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/6864939?v=4",
@@ -124,6 +97,13 @@
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 7
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 8
     },
     {
       "id": 812989,
@@ -144,7 +124,7 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 25
+      "contributions": 26
     },
     {
       "id": 30514,
