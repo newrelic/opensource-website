@@ -3,16 +3,16 @@
   "issues": {
     "open": 10
   },
-  "releases": 27,
+  "releases": 28,
   "latestRelease": {
-    "name": "v1.5.1",
-    "date": "2020-08-27T20:29:43Z"
+    "name": "v1.5.2",
+    "date": "2020-09-02T21:02:33Z"
   },
-  "commits": 529,
-  "lastSixMonthsCommitTotal": 392,
+  "commits": 533,
+  "lastSixMonthsCommitTotal": 381,
   "contributors": 12,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -130,14 +130,14 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 38
+      "contributions": 40
     },
     {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 97
+      "contributions": 98
     },
     {
       "id": 197140,
@@ -166,31 +166,7 @@
       "color": "#563d7c"
     }
   ],
-  "screenshots": [
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/screenshots/screenshot_01.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/screenshots/screenshot_02.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/screenshots/screenshot_03.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/screenshots/screenshot_04.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/all-maps.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/create-a-map.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/define-locations.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/detail-panel-legend.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/docs-header.svg",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/file-upload.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/fresh-map-legend.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/launcher.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/locations-mapped.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/map-empty-state.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/marker-popover.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/no-locations-mapped.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/review-data.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/assets/documentation-images/settings-popover.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/catalog/screenshots/.gitkeep",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/catalog/screenshots/nr1-workload-geoops-1.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/catalog/screenshots/nr1-workload-geoops-2.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/catalog/screenshots/nr1-workload-geoops-3.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workload-geoops/master/catalog/screenshots/nr1-workload-geoops-4.png"
-  ],
+  "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",
