@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/infrastructure-bundle",
   "issues": {
-    "open": 0
+    "open": 1
   },
-  "releases": 20,
+  "releases": 21,
   "latestRelease": {
-    "name": "1.5.0",
-    "date": "2020-08-24T12:55:14Z"
+    "name": "1.5.1",
+    "date": "2020-09-03T15:30:00Z"
   },
-  "commits": 77,
-  "lastSixMonthsCommitTotal": 46,
-  "contributors": 7,
+  "commits": 88,
+  "lastSixMonthsCommitTotal": 57,
+  "contributors": 8,
   "pullRequests": {
-    "open": 3
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
     {
       "id": 7886905,
       "login": "fryckbos",
@@ -64,7 +71,7 @@
       "login": "carlosroman",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
       "htmlUrl": "https://github.com/carlosroman",
-      "contributions": 25
+      "contributions": 35
     }
   ],
   "languages": [
