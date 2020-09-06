@@ -1,16 +1,16 @@
 {
-  "projectFullName": "newrelic/newrelic-dotnet-buildpack-tile",
+  "projectFullName": "newrelic/newrelic-service-broker-tile",
   "issues": {
-    "open": 3
+    "open": 2
   },
-  "releases": 5,
+  "releases": 3,
   "latestRelease": {
-    "name": "v1.1.6",
+    "name": "v1.12.27",
     "date": null
   },
-  "commits": 23,
-  "lastSixMonthsCommitTotal": 6,
-  "contributors": 1,
+  "commits": 52,
+  "lastSixMonthsCommitTotal": 1,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -18,23 +18,25 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 1749572,
+      "login": "tmartin14",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/1749572?v=4",
+      "htmlUrl": "https://github.com/tmartin14",
+      "contributions": 3
+    },
+    {
       "id": 4672940,
       "login": "shahramk",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/4672940?v=4",
       "htmlUrl": "https://github.com/shahramk",
-      "contributions": 23
+      "contributions": 33
     }
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxOTA=",
-      "name": "Go",
-      "color": "#00ADD8"
+      "id": "MDg6TGFuZ3VhZ2UxNTg=",
+      "name": "Java",
+      "color": "#b07219"
     }
   ],
   "screenshots": [],
