@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nr1-cloud-optimize",
   "issues": {
-    "open": 7
+    "open": 6
   },
   "releases": 12,
   "latestRelease": {
@@ -15,7 +15,59 @@
     "open": 3
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2NjYxOTQwODY=",
+      "title": "Export optimization candidates to CSV",
+      "url": "https://github.com/newrelic/nr1-cloud-optimize/issues/56",
+      "createdAt": "2020-07-27T10:49:36Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "crshanks",
+        "id": "MDQ6VXNlcjQ0NTcxOTA2",
+        "email": "",
+        "name": "Craig Shanks"
+      },
+      "number": 56,
+      "createdBy": "Craig Shanks"
+    },
+    {
+      "id": "MDU6SXNzdWU2ODIxMzY4OTA=",
+      "title": "Add discount multiplier configuration setting",
+      "url": "https://github.com/newrelic/nr1-cloud-optimize/issues/61",
+      "createdAt": "2020-08-19T19:53:33Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "iamfuzz",
+        "id": "MDQ6VXNlcjIyMTAyMg==",
+        "email": "",
+        "name": null
+      },
+      "number": 61,
+      "createdBy": "iamfuzz"
+    },
+    {
+      "id": "MDU6SXNzdWU2ODIxNDExMjA=",
+      "title": "Show Name tag from AWS instead of hostname",
+      "url": "https://github.com/newrelic/nr1-cloud-optimize/issues/62",
+      "createdAt": "2020-08-19T20:01:29Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "iamfuzz",
+        "id": "MDQ6VXNlcjIyMTAyMg==",
+        "email": "",
+        "name": null
+      },
+      "number": 62,
+      "createdBy": "iamfuzz"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 37779995,
