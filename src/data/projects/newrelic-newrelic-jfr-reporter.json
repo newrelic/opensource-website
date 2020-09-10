@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-jfr-reporter",
+  "fullName": "newrelic/newrelic-jfr-reporter",
+  "slug": "newrelic-newrelic-jfr-reporter",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic JFR Reporter Extension",
+  "supportUrl": "https://discuss.newrelic.com/tags/javaagent",
+  "githubUrl": "https://github.com/newrelic/newrelic-jfr-reporter",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-jfr-reporter",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-jfr-reporter/blob/main/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "New Relic JFR Reporter Extension",
+  "description": "Java agent extension to send JFR data to MELT endpoints via telemetry SDK",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Java",
+  "projectTags": ["agent", "exporter", "opentelemetry"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic JFR Reporter Extension",
+    "url": "https://github.com/newrelic/newrelic-jfr-reporter"
+  }
+}
