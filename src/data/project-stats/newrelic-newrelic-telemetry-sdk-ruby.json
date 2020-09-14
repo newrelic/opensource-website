@@ -5,22 +5,15 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 3,
-  "lastSixMonthsCommitTotal": 3,
+  "commits": 11,
+  "lastSixMonthsCommitTotal": 11,
   "contributors": 3,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 10822861,
-      "login": "rachelleahklein",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/10822861?v=4",
-      "htmlUrl": "https://github.com/rachelleahklein",
-      "contributions": 1
-    },
     {
       "id": 18387,
       "login": "mwlang",
@@ -34,9 +27,22 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
+    },
+    {
+      "id": 10822861,
+      "login": "rachelleahklein",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/10822861?v=4",
+      "htmlUrl": "https://github.com/rachelleahklein",
+      "contributions": 6
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
