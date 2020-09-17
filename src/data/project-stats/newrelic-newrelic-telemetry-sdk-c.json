@@ -3,13 +3,16 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 35,
-  "lastSixMonthsCommitTotal": 35,
-  "contributors": 5,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v0.1.0",
+    "date": "2020-09-16T23:06:21Z"
+  },
+  "commits": 42,
+  "lastSixMonthsCommitTotal": 42,
+  "contributors": 6,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -29,11 +32,18 @@
       "contributions": 1
     },
     {
+      "id": 5200550,
+      "login": "kneitinger",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/5200550?v=4",
+      "htmlUrl": "https://github.com/kneitinger",
+      "contributions": 4
+    },
+    {
       "id": 28364881,
       "login": "Fahmy-Mohammed",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/28364881?v=4",
       "htmlUrl": "https://github.com/Fahmy-Mohammed",
-      "contributions": 7
+      "contributions": 8
     },
     {
       "id": 306384,
