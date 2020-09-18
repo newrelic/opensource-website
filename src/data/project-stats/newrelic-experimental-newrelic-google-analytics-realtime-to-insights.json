@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 6,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +20,22 @@
       "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
       "htmlUrl": "https://github.com/devfreddy",
       "contributions": 1
+    },
+    {
+      "id": 10816343,
+      "login": "CharlieWinters",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/10816343?v=4",
+      "htmlUrl": "https://github.com/CharlieWinters",
+      "contributions": 4
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
