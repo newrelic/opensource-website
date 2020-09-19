@@ -257,7 +257,9 @@ div.exists-in-active-mobile-menu {
 
   a.primary-header-nav-link {
     color: var(--color-neutrals-700);
-  
+      svg{
+        stroke: var(--color-neutrals-700);
+      }
     &:hover {
       color: var(--color-neutral-800);
     }
