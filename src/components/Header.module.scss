@@ -50,6 +50,9 @@ a.primary-header-nav-link {
   color: var(--color-neutrals-900);
   border: none;
   transition: color .05s ease-out;
+  svg {
+    display:none;
+  }
 
   &:hover {
     color: var(--color-brand-900);
@@ -184,6 +187,11 @@ div.exists-in-active-mobile-menu {
       align-items: center;
       font-size: 24px;
       font-weight: 400;
+    }
+    a.primary-header-nav-link {
+      svg {
+        display:block;
+      }
     }
   }
 
