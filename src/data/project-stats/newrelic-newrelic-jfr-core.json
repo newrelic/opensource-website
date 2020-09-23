@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-jfr-core",
   "issues": {
-    "open": 10
+    "open": 11
   },
   "releases": 3,
   "latestRelease": {
@@ -15,7 +15,25 @@
     "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3MDc0ODYxOTI=",
+      "title": "Eliminate usages of telemetry-sdk deprecated methods",
+      "url": "https://github.com/newrelic/newrelic-jfr-core/issues/80",
+      "createdAt": "2020-09-23T15:53:48Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "breedx-nr",
+        "id": "MDQ6VXNlcjU0MDg1MTkw",
+        "email": "",
+        "name": "Jason Plumb"
+      },
+      "number": 80,
+      "createdBy": "Jason Plumb"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 58010132,
