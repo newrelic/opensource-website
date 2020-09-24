@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic-experimental/nr1-wall-status-board",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 1,
   "latestRelease": {
     "name": "v1.0.0",
     "date": "2020-06-08T18:46:23Z"
   },
-  "commits": 47,
-  "lastSixMonthsCommitTotal": 45,
-  "contributors": 7,
+  "commits": 50,
+  "lastSixMonthsCommitTotal": 48,
+  "contributors": 8,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -29,6 +29,13 @@
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 1
+    },
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
     },
     {
@@ -50,7 +57,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 4
+      "contributions": 5
     },
     {
       "id": 10984551,
@@ -74,9 +81,9 @@
       "color": "#f1e05a"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [],
