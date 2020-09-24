@@ -3,11 +3,14 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 2,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 1,
+  "releases": 1,
+  "latestRelease": {
+    "name": "1.1.0",
+    "date": "2020-09-24T15:33:58Z"
+  },
+  "commits": 10,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -19,7 +22,14 @@
       "login": "sschwartzman",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/3536684?v=4",
       "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 2
+      "contributions": 3
+    },
+    {
+      "id": 47748673,
+      "login": "eklos2",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/47748673?v=4",
+      "htmlUrl": "https://github.com/eklos2",
+      "contributions": 4
     }
   ],
   "languages": [
