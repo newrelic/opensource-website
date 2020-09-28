@@ -1,0 +1,23 @@
+{
+  "name": "node-openwhisk-newrelic",
+  "fullName": "adobe/node-openwhisk-newrelic",
+  "slug": "adobe-node-openwhisk-newrelic",
+  "owner": {
+    "login": "adobe",
+    "type": "Organization"
+  },
+  "title": "Node OpenWhisk New Relic",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/adobe/node-openwhisk-newrelic",
+  "permalink": "https://opensource.newrelic.com/projects/adobe/node-openwhisk-newrelic",
+  "iconUrl": null,
+  "shortDescription": "Apache OpenWhisk to New Relic",
+  "description": "Library for gathering metrics from Apache OpenWhisk actions and sending them to New Relic.",
+  "ossCategory": "tbd",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [ "agent" ],
+  "website": {
+    "title": "Node OpenWhisk New Relic",
+    "url": "https://github.com/adobe/node-openwhisk-newrelic"
+  }
+}
