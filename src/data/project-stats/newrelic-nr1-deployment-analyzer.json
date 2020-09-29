@@ -3,20 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 8,
+  "releases": 9,
   "latestRelease": {
-    "name": "v0.3.5",
-    "date": "2020-09-03T16:13:58Z"
+    "name": "v0.3.6",
+    "date": "2020-09-29T04:15:31Z"
   },
-  "commits": 62,
-  "lastSixMonthsCommitTotal": 25,
-  "contributors": 10,
+  "commits": 66,
+  "lastSixMonthsCommitTotal": 29,
+  "contributors": 11,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
+    },
     {
       "id": 17086744,
       "login": "sarabartell",
@@ -71,7 +78,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 7
+      "contributions": 9
     },
     {
       "id": 13043208,
