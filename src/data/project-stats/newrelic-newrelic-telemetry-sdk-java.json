@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-java",
   "issues": {
-    "open": 9
+    "open": 8
   },
   "releases": 10,
   "latestRelease": {
     "name": "v0.7.0",
     "date": "2020-07-27T18:43:45Z"
   },
-  "commits": 678,
-  "lastSixMonthsCommitTotal": 278,
+  "commits": 681,
+  "lastSixMonthsCommitTotal": 281,
   "contributors": 18,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -48,23 +48,6 @@
         "name": "Jason Plumb"
       },
       "number": 172,
-      "createdBy": "Jason Plumb"
-    },
-    {
-      "id": "MDU6SXNzdWU2OTI0NzY1OTc=",
-      "title": "Default ingest endpoint for events is incorrect",
-      "url": "https://github.com/newrelic/newrelic-telemetry-sdk-java/issues/224",
-      "createdAt": "2020-09-03T22:56:08Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "breedx-nr",
-        "id": "MDQ6VXNlcjU0MDg1MTkw",
-        "email": "",
-        "name": "Jason Plumb"
-      },
-      "number": 224,
       "createdBy": "Jason Plumb"
     }
   ],
@@ -193,7 +176,7 @@
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 184
+      "contributions": 186
     }
   ],
   "languages": [
