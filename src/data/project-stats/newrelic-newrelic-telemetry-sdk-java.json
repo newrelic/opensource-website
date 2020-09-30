@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-java",
   "issues": {
-    "open": 8
+    "open": 9
   },
   "releases": 11,
   "latestRelease": {
     "name": "v0.8.0",
-    "date": "2020-09-29T22:41:20Z"
+    "date": "2020-09-30T17:58:57Z"
   },
-  "commits": 685,
-  "lastSixMonthsCommitTotal": 285,
+  "commits": 693,
+  "lastSixMonthsCommitTotal": 288,
   "contributors": 18,
   "pullRequests": {
     "open": 1
@@ -48,6 +48,23 @@
         "name": "Jason Plumb"
       },
       "number": 172,
+      "createdBy": "Jason Plumb"
+    },
+    {
+      "id": "MDU6SXNzdWU3MTIxNjY3NjM=",
+      "title": "Clean up javadocs warnings",
+      "url": "https://github.com/newrelic/newrelic-telemetry-sdk-java/issues/231",
+      "createdAt": "2020-09-30T18:15:42Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "breedx-nr",
+        "id": "MDQ6VXNlcjU0MDg1MTkw",
+        "email": "",
+        "name": "Jason Plumb"
+      },
+      "number": 231,
       "createdBy": "Jason Plumb"
     }
   ],
@@ -176,7 +193,7 @@
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 188
+      "contributions": 194
     }
   ],
   "languages": [
