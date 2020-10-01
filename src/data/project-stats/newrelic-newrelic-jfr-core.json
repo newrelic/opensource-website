@@ -1,39 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-jfr-core",
   "issues": {
-    "open": 9
+    "open": 7
   },
-  "releases": 3,
+  "releases": 4,
   "latestRelease": {
-    "name": "v0.4.0",
-    "date": "2020-09-22T00:23:47Z"
+    "name": "v0.5.0",
+    "date": "2020-09-30T23:43:21Z"
   },
-  "commits": 178,
-  "lastSixMonthsCommitTotal": 178,
+  "commits": 186,
+  "lastSixMonthsCommitTotal": 186,
   "contributors": 6,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU3MDc0ODYxOTI=",
-      "title": "Eliminate usages of telemetry-sdk deprecated methods",
-      "url": "https://github.com/newrelic/newrelic-jfr-core/issues/80",
-      "createdAt": "2020-09-23T15:53:48Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "breedx-nr",
-        "id": "MDQ6VXNlcjU0MDg1MTkw",
-        "email": "",
-        "name": "Jason Plumb"
-      },
-      "number": 80,
-      "createdBy": "Jason Plumb"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 58010132,
@@ -75,7 +57,7 @@
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 95
+      "contributions": 100
     }
   ],
   "languages": [
