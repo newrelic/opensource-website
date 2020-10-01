@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-java",
   "issues": {
-    "open": 8
+    "open": 11
   },
   "releases": 11,
   "latestRelease": {
     "name": "v0.8.0",
     "date": "2020-09-30T17:58:57Z"
   },
-  "commits": 695,
-  "lastSixMonthsCommitTotal": 277,
+  "commits": 700,
+  "lastSixMonthsCommitTotal": 282,
   "contributors": 19,
   "pullRequests": {
     "open": 1
@@ -56,7 +56,7 @@
       "url": "https://github.com/newrelic/newrelic-telemetry-sdk-java/issues/231",
       "createdAt": "2020-09-30T18:15:42Z",
       "comments": {
-        "totalCount": 5
+        "totalCount": 7
       },
       "author": {
         "login": "breedx-nr",
@@ -81,13 +81,6 @@
       "login": "wpoch",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/308915?v=4",
       "htmlUrl": "https://github.com/wpoch",
-      "contributions": 1
-    },
-    {
-      "id": 2014377,
-      "login": "uaihebert",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/2014377?v=4",
-      "htmlUrl": "https://github.com/uaihebert",
       "contributions": 1
     },
     {
@@ -131,6 +124,13 @@
       "avatarUrl": "https://avatars1.githubusercontent.com/u/3496648?v=4",
       "htmlUrl": "https://github.com/jasonjkeller",
       "contributions": 3
+    },
+    {
+      "id": 2014377,
+      "login": "uaihebert",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2014377?v=4",
+      "htmlUrl": "https://github.com/uaihebert",
+      "contributions": 4
     },
     {
       "id": 23264568,
