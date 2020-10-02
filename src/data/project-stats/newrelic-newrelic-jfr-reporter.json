@@ -3,10 +3,13 @@
   "issues": {
     "open": 3
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 262,
-  "lastSixMonthsCommitTotal": 51,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v0.3.0",
+    "date": "2020-10-01T22:40:52Z"
+  },
+  "commits": 269,
+  "lastSixMonthsCommitTotal": 58,
   "contributors": 7,
   "pullRequests": {
     "open": 1
@@ -61,7 +64,7 @@
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 89
+      "contributions": 93
     }
   ],
   "languages": [
