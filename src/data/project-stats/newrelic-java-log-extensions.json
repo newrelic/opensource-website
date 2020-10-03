@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/java-log-extensions",
   "issues": {
-    "open": 2
+    "open": 3
   },
   "releases": 3,
   "latestRelease": {
@@ -15,7 +15,25 @@
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3MTM3NzkwMTA=",
+      "title": "Use singleton JsonFactory instance",
+      "url": "https://github.com/newrelic/java-log-extensions/issues/31",
+      "createdAt": "2020-10-02T17:18:15Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "pontello",
+        "id": "MDQ6VXNlcjIzNDE5MjQ=",
+        "email": "",
+        "name": "Nilson Pontello"
+      },
+      "number": 31,
+      "createdBy": "Nilson Pontello"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 929261,
