@@ -5,11 +5,11 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 6,
-  "lastSixMonthsCommitTotal": 6,
+  "commits": 10,
+  "lastSixMonthsCommitTotal": 10,
   "contributors": 1,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,7 +22,13 @@
       "contributions": 4
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
