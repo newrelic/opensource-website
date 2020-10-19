@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nri-elasticsearch",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 23,
+  "releases": 25,
   "latestRelease": {
-    "name": "v4.3.1",
-    "date": "2020-06-19T15:09:03Z"
+    "name": "v4.3.3",
+    "date": "2020-10-19T19:16:13Z"
   },
-  "commits": 210,
-  "lastSixMonthsCommitTotal": 18,
-  "contributors": 10,
+  "commits": 219,
+  "lastSixMonthsCommitTotal": 27,
+  "contributors": 11,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
     {
       "id": 21689211,
       "login": "msahota14",
@@ -85,7 +92,7 @@
       "login": "camdencheek",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/12631702?v=4",
       "htmlUrl": "https://github.com/camdencheek",
-      "contributions": 21
+      "contributions": 28
     }
   ],
   "languages": [
