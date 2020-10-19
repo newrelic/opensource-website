@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-redis",
   "issues": {
-    "open": 9
+    "open": 5
   },
-  "releases": 10,
+  "releases": 11,
   "latestRelease": {
-    "name": "v1.5.1",
-    "date": "2020-08-25T08:10:05Z"
+    "name": "v1.6.0",
+    "date": "2020-10-19T15:49:30Z"
   },
-  "commits": 99,
-  "lastSixMonthsCommitTotal": 24,
-  "contributors": 15,
+  "commits": 101,
+  "lastSixMonthsCommitTotal": 26,
+  "contributors": 16,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -57,6 +57,13 @@
       "login": "chelarua",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/11226795?v=4",
       "htmlUrl": "https://github.com/chelarua",
+      "contributions": 2
+    },
+    {
+      "id": 3969485,
+      "login": "brushknight",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/3969485?v=4",
+      "htmlUrl": "https://github.com/brushknight",
       "contributions": 2
     },
     {
@@ -138,6 +145,16 @@
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
       "name": "Dockerfile",
       "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
     }
   ],
   "screenshots": [],
