@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-go",
   "issues": {
-    "open": 1
+    "open": 2
   },
   "releases": 1,
   "latestRelease": {
@@ -15,7 +15,25 @@
     "open": 3
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3MjY4MTg4MDc=",
+      "title": "Update documentation to help new users with how to use this exporter",
+      "url": "https://github.com/newrelic/opentelemetry-exporter-go/issues/32",
+      "createdAt": "2020-10-21T19:52:20Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jodeev",
+        "id": "MDQ6VXNlcjQ4OTY1Nzc2",
+        "email": "",
+        "name": "Jodee Varney"
+      },
+      "number": 32,
+      "createdBy": "Jodee Varney"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 21367523,
