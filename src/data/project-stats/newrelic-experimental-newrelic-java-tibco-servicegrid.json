@@ -1,12 +1,15 @@
 {
   "projectFullName": "newrelic-experimental/newrelic-java-tibco-servicegrid",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 26,
-  "lastSixMonthsCommitTotal": 26,
+  "releases": 1,
+  "latestRelease": {
+    "name": "1.0",
+    "date": "2020-10-22T11:47:07Z"
+  },
+  "commits": 30,
+  "lastSixMonthsCommitTotal": 30,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -26,7 +29,7 @@
       "login": "dhilpipre",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/8822859?v=4",
       "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 22
+      "contributions": 26
     }
   ],
   "languages": [
