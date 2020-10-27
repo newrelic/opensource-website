@@ -1,0 +1,28 @@
+{
+  "name": "newrelic-php-agent",
+  "fullName": "newrelic/newrelic-php-agent",
+  "slug": "newrelic-newrelic-php-agent",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic PHP Agent",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/newrelic-php-agent",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-php-agent",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-php-agent/blob/main/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "Automated instrumentation for PHP",
+  "description": "The official New Relic agent for PHP",
+  "ossCategory": "community-plus",
+  "primaryLanguage": "PHP",
+  "projectTags": [
+    "agent"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic PHP Agent",
+    "url": "https://github.com/newrelic/newrelic-php-agent"
+  }
+}
