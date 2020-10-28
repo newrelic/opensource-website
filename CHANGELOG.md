@@ -1,3 +1,10 @@
+## [1.9.3](https://github.com/newrelic/opensource-website/compare/v1.9.2...v1.9.3) (2020-10-28)
+
+
+### Bug Fixes
+
+* Trigger new patch release ([8c6f35d](https://github.com/newrelic/opensource-website/commit/8c6f35de64a56b3867b0019ca67159af70d191fd))
+
 ## [1.9.2](https://github.com/newrelic/opensource-website/compare/v1.9.1...v1.9.2) (2020-08-31)
 
 
