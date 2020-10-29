@@ -86,6 +86,9 @@ export const projectFields = graphql`
       mdx: parent {
         ... on Mdx {
           compiledMdx: body
+          fields {
+            fileRelativePath
+          }
         }
       }
     }
