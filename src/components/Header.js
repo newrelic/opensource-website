@@ -11,7 +11,7 @@ import { GlobalHeader, Logo } from '@newrelic/gatsby-theme-newrelic';
 
 import styles from './Header.module.scss';
 
-const Header = ({ hasHeaderBg, editLink }) => {
+const Header = ({ hasHeaderBg }) => {
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
 
   const renderNavLinks = () => {
@@ -100,7 +100,6 @@ const Header = ({ hasHeaderBg, editLink }) => {
 
 Header.propTypes = {
   hasHeaderBg: PropTypes.bool,
-  editLink: PropTypes.string,
 };
 
 export default Header;
