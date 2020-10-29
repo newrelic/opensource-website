@@ -13,9 +13,13 @@ import data from './fixtures/collection';
 
 const source = createMemorySource('/');
 const history = createHistory(source);
+const pageContext = { fileRelativePath: 'src/pages/collection.js' };
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
+    allMdx: {
+      nodes: [],
+    },
     site: {
       siteMetadata: {
         title: 'New Relic Open Source',
@@ -34,7 +38,7 @@ describe('Data Collection Agents Page', () => {
   it('Renders correctly', () => {
     const tree = TestRenderer.create(
       <LocationProvider history={history}>
-        <CollectionPage data={data} />
+        <CollectionPage data={data} pageContext={pageContext} />
       </LocationProvider>
     ).toJSON();
     expect(tree).toMatchSnapshot();
