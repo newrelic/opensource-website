@@ -58,9 +58,9 @@ module.exports = (params) => {
 
   if (node.internal.type === 'SitePage') {
     if (!path || !componentPath) {
-      // console.log(JSON.stringify(node, null, 2));
       return;
     }
+
     const githubBaseUrl = githubUrl();
     const mappedEditLink = getEditLinkFromPath({
       path,
@@ -70,7 +70,6 @@ module.exports = (params) => {
     const editLink = !mappedEditLink ? sourceFilePath : mappedEditLink;
 
     const fullUrl = [githubBaseUrl, editLink].join('/');
-    // console.log(fullUrl);
 
     createNodeField({
       node,
