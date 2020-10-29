@@ -128,31 +128,6 @@ select {
 
 /*-- Base styles --*/
 
-.layout-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-.layout-container-main {
-  width: 100%;
-  max-width: 980px;
-  margin: 0 auto;
-  flex-grow: 1;
-  flex-shrink: 0; // because nested flexbox elements in safari are buggy
-
-  &.full-width {
-    max-width: 1180px;
-  }
-
-  & > hr {
-    height: 2px;
-    margin: 36px 0;
-    background-color: var(--color-neutrals-200);
-    border: none;
-  }
-}
-
 .primary-content {
   display: flex;
   justify-content: space-between;
