@@ -30,9 +30,6 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $pagePath } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -100,7 +97,6 @@ const ExternalProjectPage = ({ data }) => {
   };
 
   const project = get(data, 'project.nodes[0]', false);
-  const contentEditLink = get(data, 'sitePage.nodes[0].fields.contentEditLink');
   const subProjects = get(project, 'subProjects', false);
 
   if (!project) {
@@ -108,12 +104,16 @@ const ExternalProjectPage = ({ data }) => {
   }
 
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
+  const fileRelativePath = get(
+    project,
+    'mainContent.mdx.fields.fileRelativePath'
+  );
 
   return (
     <Layout
       hasHeaderBg
       className={styles.projectPageLayout}
-      editLink={contentEditLink}
+      editLink={fileRelativePath}
     >
       <SEO title={project.title} />
       <PageHeading
