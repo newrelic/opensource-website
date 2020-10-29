@@ -78,7 +78,7 @@ describe('HomePage Explore Projects', () => {
   it('renders correctly', () => {
     const testRenderer = TestRenderer.create(
       <LocationProvider history={history}>
-        <HomePage pageContext={pageContext} pageContext={pageContext} />
+        <HomePage pageContext={pageContext} />
       </LocationProvider>
     );
     const testInstance = testRenderer.root;
