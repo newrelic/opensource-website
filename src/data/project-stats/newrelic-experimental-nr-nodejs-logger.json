@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 6,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +20,22 @@
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 1
+    },
+    {
+      "id": 54076100,
+      "login": "sdewitt-newrelic",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/54076100?v=4",
+      "htmlUrl": "https://github.com/sdewitt-newrelic",
+      "contributions": 5
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
