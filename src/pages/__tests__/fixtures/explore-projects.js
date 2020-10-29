@@ -52,6 +52,13 @@ export default {
             title: 'aws log-ingestion',
             url: 'https://github.com/newrelic/aws-log-ingestion',
           },
+          mainContent: {
+            mdx: {
+              fields: {
+                fileRelativePath: 'src/pages/code-of-conduct.mdx',
+              },
+            },
+          },
         },
       },
       {
@@ -810,10 +817,6 @@ export default {
   sitePage: {
     nodes: [
       {
-        fields: {
-          contentEditLink:
-            'https://github.com/newrelic/opensource-website/tree/develop/src/pages/code-of-conduct.mdx',
-        },
         componentPath:
           '/Users/mfrederick/Desktop/NewRelic/github.newrelic/opensource-website/src/pages/code-of-conduct.mdx',
         path: '/code-of-conduct/',
