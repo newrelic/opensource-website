@@ -55,7 +55,7 @@ const SubProjects = ({ projects }) => {
               <div className={styles.subProjectCallToAction}>
                 <Button
                   as="a"
-                  variant={Button.VARIANT.PLAIN}
+                  variant={Button.VARIANT.LINK}
                   href={p.githubUrl}
                   target="__blank"
                   css={css`
@@ -152,7 +152,7 @@ const ExternalProjectPage = ({ data }) => {
                 </Button>
                 <Button
                   as="a"
-                  variant={Button.VARIANT.PLAIN}
+                  variant={Button.VARIANT.LINK}
                   href={project.githubUrl}
                   rel="noopener noreferrer"
                   css={css`

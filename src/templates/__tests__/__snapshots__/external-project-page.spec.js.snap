@@ -1909,12 +1909,18 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  color: var(--link-color);
+  background: transparent;
 }
 
 .emotion-98:hover {
   -webkit-transform: translate3d(0,-1px,0);
   -ms-transform: translate3d(0,-1px,0);
   transform: translate3d(0,-1px,0);
+}
+
+.emotion-98:hover {
+  color: var(--link-hover-color);
 }
 
 .dark-mode .emotion-98 {
@@ -4695,12 +4701,18 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  color: var(--link-color);
+  background: transparent;
 }
 
 .emotion-98:hover {
   -webkit-transform: translate3d(0,-1px,0);
   -ms-transform: translate3d(0,-1px,0);
   transform: translate3d(0,-1px,0);
+}
+
+.emotion-98:hover {
+  color: var(--link-hover-color);
 }
 
 .dark-mode .emotion-98 {
@@ -7481,12 +7493,18 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  color: var(--link-color);
+  background: transparent;
 }
 
 .emotion-105:hover {
   -webkit-transform: translate3d(0,-1px,0);
   -ms-transform: translate3d(0,-1px,0);
   transform: translate3d(0,-1px,0);
+}
+
+.emotion-105:hover {
+  color: var(--link-hover-color);
 }
 
 .dark-mode .emotion-105 {
