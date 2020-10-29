@@ -1,21 +1,56 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-java",
   "issues": {
-    "open": 7
+    "open": 9
   },
   "releases": 10,
   "latestRelease": {
     "name": "v0.8.1",
     "date": "2020-09-10T17:24:34Z"
   },
-  "commits": 251,
-  "lastSixMonthsCommitTotal": 159,
+  "commits": 256,
+  "lastSixMonthsCommitTotal": 164,
   "contributors": 10,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3MzE3OTc3NjY=",
+      "title": "Change mocked Properties object in tests to just be a simple Properties instance.",
+      "url": "https://github.com/newrelic/opentelemetry-exporter-java/issues/112",
+      "createdAt": "2020-10-28T21:18:05Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "breedx-nr",
+        "id": "MDQ6VXNlcjU0MDg1MTkw",
+        "email": "",
+        "name": "Jason Plumb"
+      },
+      "number": 112,
+      "createdBy": "Jason Plumb"
+    },
+    {
+      "id": "MDU6SXNzdWU3MzE4MjQ2ODY=",
+      "title": "update documentation for system properties",
+      "url": "https://github.com/newrelic/opentelemetry-exporter-java/issues/113",
+      "createdAt": "2020-10-28T22:09:48Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "XiXiaPdx",
+        "id": "MDQ6VXNlcjI0NDgyNDAx",
+        "email": "",
+        "name": "Xi Xia"
+      },
+      "number": 113,
+      "createdBy": "Xi Xia"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 7992384,
@@ -71,14 +106,14 @@
       "login": "XiXiaPdx",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/24482401?v=4",
       "htmlUrl": "https://github.com/XiXiaPdx",
-      "contributions": 17
+      "contributions": 19
     },
     {
       "id": 54085190,
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 29
+      "contributions": 30
     },
     {
       "id": 858731,
