@@ -150,9 +150,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-edit-content-links',
-    },
-    {
       resolve: 'gatsby-plugin-gdpr-tracking',
       options: {
         // logging to the console, if debug is true
