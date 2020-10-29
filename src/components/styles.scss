@@ -69,13 +69,6 @@ p {
   }
 }
 
-a {
-  // tried hard to find a way to avoid using a hardcoded color value
-  // here but Sass doesn't let me use color operations with css
-  // custom properties :/
-  border-bottom: 1px dotted rgba(#005054, 0.4);
-}
-
 ul {
   font-size: 14px;
   line-height: 22px;
