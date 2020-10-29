@@ -9,6 +9,7 @@ module.exports = {
     author: `@newrelic`,
     repository: 'https://github.com/newrelic/opensource-website',
     siteUrl: 'https://opensource.newrelic.com',
+    branch: 'develop',
   },
   plugins: [
     {
