@@ -40,9 +40,7 @@ const Header = ({ hasHeaderBg, editLink }) => {
         />
       </Helmet>
       <GlobalHeader
-        search
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
-        editUrl={editLink}
         css={css`
           ul {
             line-height: 14px;
