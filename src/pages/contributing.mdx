@@ -1,5 +1,4 @@
 import { graphql } from 'gatsby';
-import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
@@ -9,9 +8,6 @@ export const query = graphql`
   query ContributingQuery($path: String) {
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -19,8 +15,8 @@ export const query = graphql`
   }
 `;
 
-export default ({ children, data }) => (
-  <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
+export default ({ children, data, pageContext }) => (
+  <Layout fullWidth editLink={pageContext.fileRelativePath}>
       <SEO title="Contributing to a New Relic Open Source Project" />
       <PageHeading
         title="Contributing to a New Relic Open Source Project"
@@ -86,4 +82,3 @@ Once you've committed your changes to your fork, you can now issue a [**Pull Req
 Finally, if you've not contributed to a New Relic open source project before, we're going to prompt you to electronically sign our [**Contributor License Agreement (CLA)**](/cla), highlighting that you're freely providing code for the benefit of the open source project and community.
 
 ![cla](/images/cla.png "cla")
-

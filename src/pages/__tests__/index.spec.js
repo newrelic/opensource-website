@@ -14,9 +14,13 @@ import HomePageInternalProjects from '../../components/HomePageInternalProjects'
 
 const source = createMemorySource('/');
 const history = createHistory(source);
+const pageContext = { fileRelativePath: 'src/pages/index.js' };
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
+    allMdx: {
+      nodes: [],
+    },
     site: {
       siteMetadata: {
         title: 'New Relic Open Source',
@@ -35,7 +39,7 @@ describe('HomePage', () => {
   it('Renders correctly', () => {
     const tree = TestRenderer.create(
       <LocationProvider history={history}>
-        <HomePage />
+        <HomePage pageContext={pageContext} />
       </LocationProvider>
     ).toJSON();
     expect(tree).toMatchSnapshot();
@@ -46,7 +50,7 @@ describe('HomePage Hero Header', () => {
   it('Displays the correct title', () => {
     const { getByTestId } = render(
       <LocationProvider history={history}>
-        <HomePage />
+        <HomePage pageContext={pageContext} />
       </LocationProvider>
     );
     const expectation = getByTestId('homepageHeroHeading');
@@ -60,7 +64,7 @@ describe('HomePage Projects We Support', () => {
   it('Renders correctly', () => {
     const testRenderer = TestRenderer.create(
       <LocationProvider history={history}>
-        <HomePage />
+        <HomePage pageContext={pageContext} />
       </LocationProvider>
     );
     const testInstance = testRenderer.root;
@@ -74,7 +78,7 @@ describe('HomePage Explore Projects', () => {
   it('renders correctly', () => {
     const testRenderer = TestRenderer.create(
       <LocationProvider history={history}>
-        <HomePage />
+        <HomePage pageContext={pageContext} />
       </LocationProvider>
     );
     const testInstance = testRenderer.root;

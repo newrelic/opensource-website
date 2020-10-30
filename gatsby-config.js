@@ -9,6 +9,7 @@ module.exports = {
     author: `@newrelic`,
     repository: 'https://github.com/newrelic/opensource-website',
     siteUrl: 'https://opensource.newrelic.com',
+    branch: 'develop',
   },
   plugins: [
     {
@@ -147,9 +148,6 @@ module.exports = {
         // remarkPlugins: [require(`gatsby-remark-copy-linked-files`)],
         extensions: [`.mdx`, `.md`],
       },
-    },
-    {
-      resolve: 'gatsby-plugin-edit-content-links',
     },
     {
       resolve: 'gatsby-plugin-gdpr-tracking',

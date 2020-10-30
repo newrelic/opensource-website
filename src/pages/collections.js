@@ -54,9 +54,6 @@ export const query = graphql`
 
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -75,7 +72,7 @@ function generateDescription(name) {
   }
 }
 
-const CollectionPage = ({ data }) => {
+const CollectionPage = ({ data, pageContext }) => {
   const allData = Object.entries(data);
   const allCollections = allData
     .filter((c) => c[0] !== 'sitePage')
@@ -92,6 +89,7 @@ const CollectionPage = ({ data }) => {
     <Layout
       fullWidth
       className={`${styles.collectionPage} ${styles.collectionsPage}`}
+      editLink={pageContext.fileRelativePath}
     >
       <SEO title="Open source projects to which New Relic contributes" />
       <PageHeading
@@ -146,6 +144,7 @@ const CollectionPage = ({ data }) => {
 
 CollectionPage.propTypes = {
   data: PropTypes.object,
+  pageContext: PropTypes.object,
 };
 
 export default CollectionPage;
