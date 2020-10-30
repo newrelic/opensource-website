@@ -16,6 +16,9 @@ const history = createHistory(source);
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
+    allMdx: {
+      nodes: [],
+    },
     site: {
       siteMetadata: {
         title: 'New Relic Open Source',

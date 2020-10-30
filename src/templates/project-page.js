@@ -36,6 +36,12 @@ import withDarkMode from '../components/withDarkMode';
 
 export const query = graphql`
   query NewRelicProjects($slug: String, $pagePath: String) {
+    site {
+      siteMetadata {
+        repository
+        branch
+      }
+    }
     project: allProjects(
       filter: { slug: { eq: $slug }, projectType: { eq: "newrelic" } }
     ) {
@@ -45,9 +51,6 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $pagePath } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -64,7 +67,6 @@ const ProjectPage = (props) => {
 
   const project = get(data, 'project.nodes[0]', false);
   // console.debug(project);
-  const contentEditLink = get(data, 'sitePage.nodes[0].fields.contentEditLink');
 
   if (!project) {
     return renderNotFound();
@@ -86,9 +88,20 @@ const ProjectPage = (props) => {
     },
   ];
 
+  const {
+    site: {
+      siteMetadata: { branch, repository },
+    },
+  } = data;
   const mainContent = get(project, 'mainContent.mdx.compiledMdx', false);
   const supportUrl = get(project, 'supportUrl', false);
   const ossCategory = get(project, 'ossCategory', false);
+  const fileRelativePath = get(
+    project,
+    'mainContent.mdx.fields.fileRelativePath'
+  );
+
+  const contentEditUrl = `${repository}/blob/${branch}/${fileRelativePath}`;
 
   const [screenshotModalActive, setScreenshotModalActive] = useState(false);
   const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(0);
@@ -236,25 +249,23 @@ const ProjectPage = (props) => {
           />
           View Repo
         </Button>
-        {contentEditLink && (
-          <Button
-            as="a"
-            variant={Button.VARIANT.PLAIN}
-            href={contentEditLink}
-            target="__blank"
-            rel="noopener noreferrer"
-            css={css`
-              .dark-mode & {
-                border-color: transparent;
-              }
-            `}
-          >
-            <span className={styles.buttonIcon}>
-              <Edit color="currentColor" size={16} />
-            </span>
-            Edit page
-          </Button>
-        )}
+        <Button
+          as="a"
+          variant={Button.VARIANT.PLAIN}
+          href={contentEditUrl}
+          target="__blank"
+          rel="noopener noreferrer"
+          css={css`
+            .dark-mode & {
+              border-color: transparent;
+            }
+          `}
+        >
+          <span className={styles.buttonIcon}>
+            <Edit color="currentColor" size={16} />
+          </span>
+          Edit page
+        </Button>
       </div>
     );
   };
@@ -263,7 +274,7 @@ const ProjectPage = (props) => {
     <Layout
       hasHeaderBg
       className={styles.projectPageLayout}
-      editLink={contentEditLink}
+      editLink={fileRelativePath}
     >
       <SEO title={project.title} description={project.description} />
       <PageHeading

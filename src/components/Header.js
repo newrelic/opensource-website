@@ -7,11 +7,11 @@ import { Helmet } from 'react-helmet';
 import { ChevronRight } from 'react-feather';
 import DarkModeToggle from './DarkModeToggle';
 
-import { GlobalHeader } from '@newrelic/gatsby-theme-newrelic';
+import { GlobalHeader, Logo } from '@newrelic/gatsby-theme-newrelic';
 
 import styles from './Header.module.scss';
 
-const Header = ({ hasHeaderBg, editLink }) => {
+const Header = ({ hasHeaderBg }) => {
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
 
   const renderNavLinks = () => {
@@ -40,9 +40,7 @@ const Header = ({ hasHeaderBg, editLink }) => {
         />
       </Helmet>
       <GlobalHeader
-        search
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
-        editUrl={editLink}
         css={css`
           ul {
             line-height: 14px;
@@ -61,9 +59,20 @@ const Header = ({ hasHeaderBg, editLink }) => {
           hasHeaderBg ? styles.hasHeaderBg : ''
         } ${mobileMenuActive ? styles.parentOfActiveMobileMenu : ''}`}
       >
-        <a href="/" className={styles.primaryHeaderLogo}>
-          New Relic Open Source
-        </a>
+        <Link
+          to="/"
+          css={css`
+            display: block;
+            width: 257px;
+
+            @media screen and (max-width: 724px) {
+              width: 160px;
+              z-index: 500;
+            }
+          `}
+        >
+          <Logo width="100%" />
+        </Link>
 
         <ul className={styles.primaryHeaderNavLinks}>{renderNavLinks()}</ul>
 
@@ -91,7 +100,6 @@ const Header = ({ hasHeaderBg, editLink }) => {
 
 Header.propTypes = {
   hasHeaderBg: PropTypes.bool,
-  editLink: PropTypes.string,
 };
 
 export default Header;

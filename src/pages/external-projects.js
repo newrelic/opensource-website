@@ -53,9 +53,6 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -63,7 +60,7 @@ export const query = graphql`
   }
 `;
 
-const ExternalProjectsPage = ({ data }) => {
+const ExternalProjectsPage = ({ data, pageContext }) => {
   const openTelemetry = get(data, 'openTelemetry.nodes[0]');
   const w3cDistributedTracingWg = get(data, 'w3cDistributedTracingWg.nodes[0]');
   const adoptOpenJdk = get(data, 'adoptOpenJdk.nodes[0]');
@@ -87,10 +84,7 @@ const ExternalProjectsPage = ({ data }) => {
   });
 
   return (
-    <Layout
-      fullWidth
-      editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
-    >
+    <Layout fullWidth editLink={pageContext.fileRelativePath}>
       <SEO title="Open source projects to which New Relic contributes" />
       <PageHeading
         title="Projects we support"
@@ -157,6 +151,7 @@ const ExternalProjectsPage = ({ data }) => {
 
 ExternalProjectsPage.propTypes = {
   data: PropTypes.object,
+  pageContext: PropTypes.object,
 };
 
 export default ExternalProjectsPage;
