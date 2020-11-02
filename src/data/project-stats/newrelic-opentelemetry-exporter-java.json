@@ -1,73 +1,21 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-java",
   "issues": {
-    "open": 11
+    "open": 8
   },
   "releases": 11,
   "latestRelease": {
     "name": "v0.9.0",
     "date": "2020-10-29T21:04:27Z"
   },
-  "commits": 260,
-  "lastSixMonthsCommitTotal": 168,
-  "contributors": 10,
+  "commits": 272,
+  "lastSixMonthsCommitTotal": 180,
+  "contributors": 11,
   "pullRequests": {
-    "open": 4
+    "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU3MzE3OTc3NjY=",
-      "title": "Change mocked Properties object in tests to just be a simple Properties instance.",
-      "url": "https://github.com/newrelic/opentelemetry-exporter-java/issues/112",
-      "createdAt": "2020-10-28T21:18:05Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "breedx-nr",
-        "id": "MDQ6VXNlcjU0MDg1MTkw",
-        "email": "",
-        "name": "Jason Plumb"
-      },
-      "number": 112,
-      "createdBy": "Jason Plumb"
-    },
-    {
-      "id": "MDU6SXNzdWU3MzE4MjQ2ODY=",
-      "title": "update documentation for system properties",
-      "url": "https://github.com/newrelic/opentelemetry-exporter-java/issues/113",
-      "createdAt": "2020-10-28T22:09:48Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "XiXiaPdx",
-        "id": "MDQ6VXNlcjI0NDgyNDAx",
-        "email": "",
-        "name": "Xi Xia"
-      },
-      "number": 113,
-      "createdBy": "Xi Xia"
-    },
-    {
-      "id": "MDU6SXNzdWU3MzI2NzA3MDA=",
-      "title": "Log a message at debug when SpanBatch is empty.",
-      "url": "https://github.com/newrelic/opentelemetry-exporter-java/issues/116",
-      "createdAt": "2020-10-29T21:19:43Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "breedx-nr",
-        "id": "MDQ6VXNlcjU0MDg1MTkw",
-        "email": "",
-        "name": "Jason Plumb"
-      },
-      "number": 116,
-      "createdBy": "Jason Plumb"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 7992384,
@@ -112,6 +60,13 @@
       "contributions": 2
     },
     {
+      "id": 7796156,
+      "login": "dengliming",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/7796156?v=4",
+      "htmlUrl": "https://github.com/dengliming",
+      "contributions": 4
+    },
+    {
       "id": 3150353,
       "login": "cmouli84",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/3150353?v=4",
@@ -130,7 +85,7 @@
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 32
+      "contributions": 35
     },
     {
       "id": 858731,
