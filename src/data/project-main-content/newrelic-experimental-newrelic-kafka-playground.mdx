@@ -1,0 +1,22 @@
+---
+path: "/projects/newrelic-experimental/newrelic-kafka-playground"
+date: "11/05/2020"
+title: "New Relic Kafka Playground"
+---
+
+
+This project contains a set of Terraform configurations and Ansible playbooks that will deploy to AWS a complete Kafka cluster (including Zookeeper), as well as a set of producer and consumer applications running in a Docker Swarm cluster.   It is fully configured and instrumented with New Relic.
+
+You'll see how New Relic provides observability into Kafka clusters as well as producer and consumer applications in a simulation of a real-world asynchronous messaging scenario.  It is completely configurable and extensible, allowing you to scale your cluster size and to modify/redeploy the applications to experiment with the features of the New Relic platform and how they relate to messages passed via Kafka streams.
+
+## Features
+- Instruments Kafka with the [New Relic Kafka On-Host Integration](https://docs.newrelic.com/docs/integrations/host-integrations/host-integrations-list/kafka-monitoring-integration)
+- All hosts and containers are instrumented with the [New Relic Infrastructure Agent](https://docs.newrelic.com/docs/infrastructure)
+- [Logs](https://newrelic.com/products/logs) collected from both the Kafka brokers as well as the producer and consumer applications.
+- The applications are instrumented with [New Relic APM](https://docs.newrelic.com/docs/apm)
+- [Distributed Tracing](https://docs.newrelic.com/docs/understand-dependencies/distributed-tracing/get-started/introduction-distributed-tracing) has been enabled between producers and consumers
+- [Logs in Context](https://docs.newrelic.com/docs/logs/enable-log-management-new-relic/configure-logs-context/configure-logs-context-apm-agents) for all logs emitted by the producers and consumers.
+
+## Getting Started
+
+Go to the [Project dcoumentation](https://github.com/newrelic-experimental/newrelic-kafka-playground) for setup and usage details.
