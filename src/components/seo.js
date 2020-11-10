@@ -92,9 +92,9 @@ function SEO({ description, lang, meta, title }) {
           content: 'page',
         },
         {
-          name: 'google-site-verification', 
-          content: 'He_vizRXYX_mUhwBe3BmyaMxNnVRAZbq_Jtm2A0e4WY'
-        }
+          name: 'google-site-verification',
+          content: 'He_vizRXYX_mUhwBe3BmyaMxNnVRAZbq_Jtm2A0e4WY',
+        },
       ].concat(meta)}
     />
   );
