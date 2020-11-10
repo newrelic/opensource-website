@@ -1,13 +1,16 @@
 {
   "projectFullName": "newrelic-experimental/nr1-cards-for-observability",
   "issues": {
-    "open": 12
+    "open": 13
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 24,
-  "lastSixMonthsCommitTotal": 24,
-  "contributors": 1,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.0",
+    "date": "2020-11-09T23:19:55Z"
+  },
+  "commits": 28,
+  "lastSixMonthsCommitTotal": 28,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -15,11 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 1
+    },
+    {
       "id": 6021115,
       "login": "amit-y",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/6021115?v=4",
       "htmlUrl": "https://github.com/amit-y",
-      "contributions": 17
+      "contributions": 19
     }
   ],
   "languages": [
