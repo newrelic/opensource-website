@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/micrometer-registry-newrelic",
   "issues": {
-    "open": 7
+    "open": 8
   },
   "releases": 6,
   "latestRelease": {
@@ -15,7 +15,25 @@
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3Mzk0Njk0MzA=",
+      "title": "Confirm registry can use NR License Key to send metrics and events to respective endpoints?",
+      "url": "https://github.com/newrelic/micrometer-registry-newrelic/issues/112",
+      "createdAt": "2020-11-10T00:28:57Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "XiXiaPdx",
+        "id": "MDQ6VXNlcjI0NDgyNDAx",
+        "email": "",
+        "name": "Xi Xia"
+      },
+      "number": 112,
+      "createdBy": "Xi Xia"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 662836,
