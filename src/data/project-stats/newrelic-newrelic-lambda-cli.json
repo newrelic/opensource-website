@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-cli",
   "issues": {
-    "open": 5
+    "open": 6
   },
-  "releases": 32,
+  "releases": 36,
   "latestRelease": {
-    "name": "v0.2.6",
-    "date": "2020-09-08T19:10:34Z"
+    "name": "v0.3.3",
+    "date": "2020-11-11T16:48:25Z"
   },
-  "commits": 305,
-  "lastSixMonthsCommitTotal": 17,
+  "commits": 318,
+  "lastSixMonthsCommitTotal": 23,
   "contributors": 13,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 61292402,
-      "login": "keegoid-nr",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/61292402?v=4",
-      "htmlUrl": "https://github.com/keegoid-nr",
-      "contributions": 1
-    },
     {
       "id": 657586,
       "login": "igoratron",
@@ -32,10 +25,10 @@
       "contributions": 1
     },
     {
-      "id": 11327,
-      "login": "mrickard",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/11327?v=4",
-      "htmlUrl": "https://github.com/mrickard",
+      "id": 61292402,
+      "login": "keegoid-nr",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/61292402?v=4",
+      "htmlUrl": "https://github.com/keegoid-nr",
       "contributions": 2
     },
     {
@@ -74,6 +67,13 @@
       "contributions": 4
     },
     {
+      "id": 11327,
+      "login": "mrickard",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/11327?v=4",
+      "htmlUrl": "https://github.com/mrickard",
+      "contributions": 5
+    },
+    {
       "id": 3925334,
       "login": "salvatorious",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/3925334?v=4",
@@ -88,10 +88,10 @@
       "contributions": 19
     },
     {
-      "id": 2054195,
-      "login": "ardias",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
-      "htmlUrl": "https://github.com/ardias",
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
       "contributions": 32
     },
     {
@@ -106,7 +106,7 @@
       "login": "kolanos",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/17498?v=4",
       "htmlUrl": "https://github.com/kolanos",
-      "contributions": 101
+      "contributions": 108
     }
   ],
   "languages": [

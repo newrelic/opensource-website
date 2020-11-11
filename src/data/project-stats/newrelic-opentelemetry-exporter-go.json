@@ -1,27 +1,52 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-go",
   "issues": {
-    "open": 1
+    "open": 3
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "v0.1.0",
-    "date": "2019-12-30T23:27:13Z"
+    "name": "v0.13.0",
+    "date": "2020-10-29T23:27:15Z"
   },
-  "commits": 68,
-  "lastSixMonthsCommitTotal": 33,
-  "contributors": 8,
+  "commits": 78,
+  "lastSixMonthsCommitTotal": 29,
+  "contributors": 11,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3MjY4MTg4MDc=",
+      "title": "Update documentation to help new users with how to use this exporter",
+      "url": "https://github.com/newrelic/opentelemetry-exporter-go/issues/32",
+      "createdAt": "2020-10-21T19:52:20Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jodeev",
+        "id": "MDQ6VXNlcjQ4OTY1Nzc2",
+        "email": "",
+        "name": "Jodee Varney"
+      },
+      "number": 32,
+      "createdBy": "Jodee Varney"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 21367523,
       "login": "subvocal",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/21367523?v=4",
       "htmlUrl": "https://github.com/subvocal",
+      "contributions": 1
+    },
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
     },
     {
@@ -53,10 +78,24 @@
       "contributions": 1
     },
     {
+      "id": 42678939,
+      "login": "bradleycamacho",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/42678939?v=4",
+      "htmlUrl": "https://github.com/bradleycamacho",
+      "contributions": 1
+    },
+    {
       "id": 9435570,
       "login": "zuluecho9",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/9435570?v=4",
       "htmlUrl": "https://github.com/zuluecho9",
+      "contributions": 3
+    },
+    {
+      "id": 13123145,
+      "login": "RichVanderwal",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/13123145?v=4",
+      "htmlUrl": "https://github.com/RichVanderwal",
       "contributions": 3
     },
     {
@@ -71,7 +110,7 @@
       "login": "MrAlias",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/5543599?v=4",
       "htmlUrl": "https://github.com/MrAlias",
-      "contributions": 13
+      "contributions": 18
     }
   ],
   "languages": [

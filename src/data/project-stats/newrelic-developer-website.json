@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/developer-website",
   "issues": {
-    "open": 66
+    "open": 58
   },
-  "releases": 64,
+  "releases": 80,
   "latestRelease": {
-    "name": "v1.20.4",
-    "date": "2020-09-11T17:51:37Z"
+    "name": "v1.30.0",
+    "date": "2020-11-10T15:46:34Z"
   },
-  "commits": 2797,
-  "lastSixMonthsCommitTotal": 2797,
-  "contributors": 40,
+  "commits": 3374,
+  "lastSixMonthsCommitTotal": 3240,
+  "contributors": 43,
   "pullRequests": {
-    "open": 8
+    "open": 10
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -84,13 +84,6 @@
       "contributions": 1
     },
     {
-      "id": 2952843,
-      "login": "roadlittledawn",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2952843?v=4",
-      "htmlUrl": "https://github.com/roadlittledawn",
-      "contributions": 1
-    },
-    {
       "id": 4978846,
       "login": "rajatagarwal",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/4978846?v=4",
@@ -112,24 +105,10 @@
       "contributions": 1
     },
     {
-      "id": 1663955,
-      "login": "mbazhlekova",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1663955?v=4",
-      "htmlUrl": "https://github.com/mbazhlekova",
-      "contributions": 1
-    },
-    {
       "id": 558327,
       "login": "maju6406",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/558327?v=4",
       "htmlUrl": "https://github.com/maju6406",
-      "contributions": 1
-    },
-    {
-      "id": 1987319,
-      "login": "idirouhab",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1987319?v=4",
-      "htmlUrl": "https://github.com/idirouhab",
       "contributions": 1
     },
     {
@@ -140,10 +119,24 @@
       "contributions": 1
     },
     {
+      "id": 197140,
+      "login": "devfreddy",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
+      "htmlUrl": "https://github.com/devfreddy",
+      "contributions": 1
+    },
+    {
       "id": 67129743,
       "login": "dbarnesbrownNR",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/67129743?v=4",
       "htmlUrl": "https://github.com/dbarnesbrownNR",
+      "contributions": 1
+    },
+    {
+      "id": 8172556,
+      "login": "cdanielsen",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/8172556?v=4",
+      "htmlUrl": "https://github.com/cdanielsen",
       "contributions": 1
     },
     {
@@ -182,6 +175,13 @@
       "contributions": 2
     },
     {
+      "id": 2952843,
+      "login": "roadlittledawn",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/2952843?v=4",
+      "htmlUrl": "https://github.com/roadlittledawn",
+      "contributions": 2
+    },
+    {
       "id": 413389,
       "login": "ctrombley",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
@@ -189,11 +189,18 @@
       "contributions": 2
     },
     {
-      "id": 8672090,
-      "login": "alexronquillo",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/8672090?v=4",
-      "htmlUrl": "https://github.com/alexronquillo",
-      "contributions": 2
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 3
+    },
+    {
+      "id": 1663955,
+      "login": "mbazhlekova",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1663955?v=4",
+      "htmlUrl": "https://github.com/mbazhlekova",
+      "contributions": 3
     },
     {
       "id": 42678939,
@@ -207,7 +214,7 @@
       "login": "paperclypse",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/7992384?v=4",
       "htmlUrl": "https://github.com/paperclypse",
-      "contributions": 4
+      "contributions": 5
     },
     {
       "id": 812989,
@@ -215,6 +222,20 @@
       "avatarUrl": "https://avatars2.githubusercontent.com/u/812989?v=4",
       "htmlUrl": "https://github.com/danielgolden",
       "contributions": 9
+    },
+    {
+      "id": 8672090,
+      "login": "alexronquillo",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/8672090?v=4",
+      "htmlUrl": "https://github.com/alexronquillo",
+      "contributions": 9
+    },
+    {
+      "id": 1987319,
+      "login": "idirouhab",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1987319?v=4",
+      "htmlUrl": "https://github.com/idirouhab",
+      "contributions": 11
     },
     {
       "id": 270746,
@@ -235,7 +256,14 @@
       "login": "veextee",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6426523?v=4",
       "htmlUrl": "https://github.com/veextee",
-      "contributions": 13
+      "contributions": 15
+    },
+    {
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
+      "contributions": 17
     },
     {
       "id": 522116,
@@ -266,20 +294,6 @@
       "contributions": 38
     },
     {
-      "id": 1773616,
-      "login": "theletterf",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
-      "htmlUrl": "https://github.com/theletterf",
-      "contributions": 44
-    },
-    {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 45
-    },
-    {
       "id": 18040274,
       "login": "rhetoric101",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/18040274?v=4",
@@ -287,46 +301,53 @@
       "contributions": 48
     },
     {
-      "id": 13562672,
-      "login": "jaesius",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/13562672?v=4",
-      "htmlUrl": "https://github.com/jaesius",
-      "contributions": 50
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 70
     },
     {
       "id": 3023056,
       "login": "timglaser",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/3023056?v=4",
       "htmlUrl": "https://github.com/timglaser",
-      "contributions": 74
+      "contributions": 75
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 102
+      "id": 13562672,
+      "login": "jaesius",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/13562672?v=4",
+      "htmlUrl": "https://github.com/jaesius",
+      "contributions": 84
     },
     {
       "id": 38332422,
       "login": "caylahamann",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/38332422?v=4",
       "htmlUrl": "https://github.com/caylahamann",
-      "contributions": 113
-    },
-    {
-      "id": 1395158,
-      "login": "jpvajda",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1395158?v=4",
-      "htmlUrl": "https://github.com/jpvajda",
-      "contributions": 126
+      "contributions": 120
     },
     {
       "id": 58010132,
       "login": "mmfred",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/58010132?v=4",
       "htmlUrl": "https://github.com/mmfred",
-      "contributions": 127
+      "contributions": 130
+    },
+    {
+      "id": 1395158,
+      "login": "jpvajda",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1395158?v=4",
+      "htmlUrl": "https://github.com/jpvajda",
+      "contributions": 147
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 154
     },
     {
       "id": 39655074,
@@ -340,14 +361,14 @@
       "login": "zstix",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/1946433?v=4",
       "htmlUrl": "https://github.com/zstix",
-      "contributions": 288
+      "contributions": 291
     },
     {
       "id": 565661,
       "login": "jerelmiller",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/565661?v=4",
       "htmlUrl": "https://github.com/jerelmiller",
-      "contributions": 760
+      "contributions": 1025
     }
   ],
   "languages": [

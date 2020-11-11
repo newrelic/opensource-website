@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic-experimental/nr1-multi-account-query",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 1,
   "latestRelease": {
     "name": "v1.0.0",
     "date": "2020-06-08T17:16:18Z"
   },
-  "commits": 12,
-  "lastSixMonthsCommitTotal": 12,
-  "contributors": 5,
+  "commits": 20,
+  "lastSixMonthsCommitTotal": 11,
+  "contributors": 6,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,10 +25,10 @@
       "contributions": 1
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
     },
     {
@@ -46,11 +46,18 @@
       "contributions": 2
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 3
+    },
+    {
       "id": 55132258,
       "login": "jsbnr",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/55132258?v=4",
       "htmlUrl": "https://github.com/jsbnr",
-      "contributions": 7
+      "contributions": 8
     }
   ],
   "languages": [
@@ -60,9 +67,9 @@
       "color": "#f1e05a"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [],

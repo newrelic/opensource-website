@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/nri-redis",
   "issues": {
-    "open": 5
+    "open": 4
   },
-  "releases": 10,
+  "releases": 11,
   "latestRelease": {
-    "name": "v1.5.1",
-    "date": "2020-08-25T08:10:05Z"
+    "name": "v1.6.0",
+    "date": "2020-10-27T14:23:37Z"
   },
-  "commits": 99,
-  "lastSixMonthsCommitTotal": 24,
-  "contributors": 16,
+  "commits": 134,
+  "lastSixMonthsCommitTotal": 59,
+  "contributors": 17,
   "pullRequests": {
     "open": 1
   },
@@ -39,13 +39,6 @@
       "contributions": 1
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 1
-    },
-    {
       "id": 717815,
       "login": "carlosroman",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
@@ -53,17 +46,31 @@
       "contributions": 1
     },
     {
-      "id": 11226795,
-      "login": "chelarua",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/11226795?v=4",
-      "htmlUrl": "https://github.com/chelarua",
-      "contributions": 2
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 1
     },
     {
       "id": 2054195,
       "login": "ardias",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
       "htmlUrl": "https://github.com/ardias",
+      "contributions": 1
+    },
+    {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 2
+    },
+    {
+      "id": 11226795,
+      "login": "chelarua",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/11226795?v=4",
+      "htmlUrl": "https://github.com/chelarua",
       "contributions": 2
     },
     {
@@ -102,11 +109,11 @@
       "contributions": 5
     },
     {
-      "id": 1773616,
-      "login": "theletterf",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
-      "htmlUrl": "https://github.com/theletterf",
-      "contributions": 9
+      "id": 3969485,
+      "login": "brushknight",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/3969485?v=4",
+      "htmlUrl": "https://github.com/brushknight",
+      "contributions": 6
     },
     {
       "id": 947112,
@@ -145,6 +152,16 @@
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
       "name": "Dockerfile",
       "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
     }
   ],
   "screenshots": [],

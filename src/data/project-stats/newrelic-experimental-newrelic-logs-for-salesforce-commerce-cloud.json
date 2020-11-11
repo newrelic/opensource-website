@@ -5,11 +5,11 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
+  "commits": 6,
+  "lastSixMonthsCommitTotal": 6,
   "contributors": 1,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -19,10 +19,21 @@
       "login": "sschwartzman",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/3536684?v=4",
       "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 1
+      "contributions": 6
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",

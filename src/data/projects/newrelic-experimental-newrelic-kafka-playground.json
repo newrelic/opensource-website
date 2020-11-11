@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-kafka-playground",
+  "fullName": "newrelic-experimental/newrelic-kafka-playground",
+  "slug": "newrelic-experimental-newrelic-kafka-playground",
+  "owner": {
+    "login": "newrelic-experimental",
+    "type": "Organization"
+  },
+  "title": "New Relic Kafka Playground",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic-experimental/newrelic-kafka-playground",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/newrelic-kafka-playground",
+  "defaultBranch": "main",
+  "contributingGuideUrl": null,
+  "iconUrl": null,
+  "shortDescription": "Deploys a fully-instrumented Kafka cluster in your AWS account",
+  "description": "Using standard configuration management tools, deploy a full Kafka cluster to AWS, complete with producer and consumer applications.  Instrumented end-to-end with New Relic.",
+  "ossCategory": "new-relic-experimental",
+  "primaryLanguage": "Java",
+  "projectTags": ["tools", "infrastructure", "terraform"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Kafka Playground",
+    "url": "https://github.com/newrelic-experimental/newrelic-kafka-playground"
+  }
+}

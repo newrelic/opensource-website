@@ -3,16 +3,16 @@
   "issues": {
     "open": 11
   },
-  "releases": 10,
+  "releases": 12,
   "latestRelease": {
-    "name": "v0.7.0",
-    "date": "2020-07-27T18:43:45Z"
+    "name": "v0.9.0",
+    "date": "2020-10-21T22:30:03Z"
   },
-  "commits": 674,
-  "lastSixMonthsCommitTotal": 286,
-  "contributors": 18,
+  "commits": 740,
+  "lastSixMonthsCommitTotal": 257,
+  "contributors": 20,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -49,38 +49,21 @@
       },
       "number": 172,
       "createdBy": "Jason Plumb"
-    },
-    {
-      "id": "MDU6SXNzdWU2OTI0NzY1OTc=",
-      "title": "Default ingest endpoint for events is incorrect",
-      "url": "https://github.com/newrelic/newrelic-telemetry-sdk-java/issues/224",
-      "createdAt": "2020-09-03T22:56:08Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "breedx-nr",
-        "id": "MDQ6VXNlcjU0MDg1MTkw",
-        "email": "",
-        "name": "Jason Plumb"
-      },
-      "number": 224,
-      "createdBy": "Jason Plumb"
     }
   ],
   "cachedContributors": [
-    {
-      "id": 907624,
-      "login": "ysb33r",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/907624?v=4",
-      "htmlUrl": "https://github.com/ysb33r",
-      "contributions": 1
-    },
     {
       "id": 308915,
       "login": "wpoch",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/308915?v=4",
       "htmlUrl": "https://github.com/wpoch",
+      "contributions": 1
+    },
+    {
+      "id": 7992384,
+      "login": "paperclypse",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/7992384?v=4",
+      "htmlUrl": "https://github.com/paperclypse",
       "contributions": 1
     },
     {
@@ -123,7 +106,14 @@
       "login": "jasonjkeller",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/3496648?v=4",
       "htmlUrl": "https://github.com/jasonjkeller",
-      "contributions": 3
+      "contributions": 4
+    },
+    {
+      "id": 2014377,
+      "login": "uaihebert",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2014377?v=4",
+      "htmlUrl": "https://github.com/uaihebert",
+      "contributions": 6
     },
     {
       "id": 23264568,
@@ -147,10 +137,10 @@
       "contributions": 9
     },
     {
-      "id": 24482401,
-      "login": "XiXiaPdx",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/24482401?v=4",
-      "htmlUrl": "https://github.com/XiXiaPdx",
+      "id": 907624,
+      "login": "ysb33r",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/907624?v=4",
+      "htmlUrl": "https://github.com/ysb33r",
       "contributions": 11
     },
     {
@@ -158,7 +148,14 @@
       "login": "tbradellis",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/7401258?v=4",
       "htmlUrl": "https://github.com/tbradellis",
-      "contributions": 13
+      "contributions": 15
+    },
+    {
+      "id": 24482401,
+      "login": "XiXiaPdx",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/24482401?v=4",
+      "htmlUrl": "https://github.com/XiXiaPdx",
+      "contributions": 15
     },
     {
       "id": 49817386,
@@ -193,7 +190,7 @@
       "login": "breedx-nr",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
       "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 184
+      "contributions": 205
     }
   ],
   "languages": [

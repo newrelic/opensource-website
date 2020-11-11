@@ -1,26 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-ruby",
   "issues": {
-    "open": 13
+    "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 13,
-  "lastSixMonthsCommitTotal": 13,
-  "contributors": 3,
+  "releases": 1,
+  "latestRelease": {
+    "name": "0.1.0",
+    "date": "2020-10-30T20:37:21Z"
+  },
+  "commits": 170,
+  "lastSixMonthsCommitTotal": 170,
+  "contributors": 4,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 18387,
-      "login": "mwlang",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/18387?v=4",
-      "htmlUrl": "https://github.com/mwlang",
-      "contributions": 1
-    },
     {
       "id": 43244625,
       "login": "melissaklein24",
@@ -29,11 +25,25 @@
       "contributions": 1
     },
     {
-      "id": 10822861,
-      "login": "rachelleahklein",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/10822861?v=4",
-      "htmlUrl": "https://github.com/rachelleahklein",
-      "contributions": 7
+      "id": 69914680,
+      "login": "angelatan2",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/69914680?v=4",
+      "htmlUrl": "https://github.com/angelatan2",
+      "contributions": 1
+    },
+    {
+      "id": 18387,
+      "login": "mwlang",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/18387?v=4",
+      "htmlUrl": "https://github.com/mwlang",
+      "contributions": 35
+    },
+    {
+      "id": 11799492,
+      "login": "tannalynn",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/11799492?v=4",
+      "htmlUrl": "https://github.com/tannalynn",
+      "contributions": 53
     }
   ],
   "languages": [
@@ -41,6 +51,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDE=",
       "name": "Ruby",
       "color": "#701516"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
     }
   ],
   "screenshots": [],

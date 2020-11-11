@@ -1,0 +1,162 @@
+{
+  "projectFullName": "newrelic/newrelic-diagnostics-cli",
+  "issues": {
+    "open": 12
+  },
+  "releases": 1,
+  "latestRelease": {
+    "name": "build/31",
+    "date": "2020-11-02T21:31:58Z"
+  },
+  "commits": 134,
+  "lastSixMonthsCommitTotal": 134,
+  "contributors": 5,
+  "pullRequests": {
+    "open": 3
+  },
+  "searchCategory": "good first issue",
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3MzY1NzczNjI=",
+      "title": "NET log directory from config file not detected",
+      "url": "https://github.com/newrelic/newrelic-diagnostics-cli/issues/23",
+      "createdAt": "2020-11-05T03:21:43Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "uturunku1",
+        "id": "MDQ6VXNlcjIxMjI1NDEw",
+        "email": "",
+        "name": "Luces Huayhuaca"
+      },
+      "number": 23,
+      "createdBy": "Luces Huayhuaca"
+    },
+    {
+      "id": "MDU6SXNzdWU3MzY1ODM4ODc=",
+      "title": "nrdiag should provide info level error logging if value passed to proxy arg is invalid",
+      "url": "https://github.com/newrelic/newrelic-diagnostics-cli/issues/24",
+      "createdAt": "2020-11-05T03:38:39Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "uturunku1",
+        "id": "MDQ6VXNlcjIxMjI1NDEw",
+        "email": "",
+        "name": "Luces Huayhuaca"
+      },
+      "number": 24,
+      "createdBy": "Luces Huayhuaca"
+    },
+    {
+      "id": "MDU6SXNzdWU3MzY1OTUyMDI=",
+      "title": "False positive for the Java/Env/Process",
+      "url": "https://github.com/newrelic/newrelic-diagnostics-cli/issues/28",
+      "createdAt": "2020-11-05T04:12:01Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "uturunku1",
+        "id": "MDQ6VXNlcjIxMjI1NDEw",
+        "email": "",
+        "name": "Luces Huayhuaca"
+      },
+      "number": 28,
+      "createdBy": "Luces Huayhuaca"
+    }
+  ],
+  "cachedContributors": [
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
+    {
+      "id": 34964885,
+      "login": "MikeBLambert",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/34964885?v=4",
+      "htmlUrl": "https://github.com/MikeBLambert",
+      "contributions": 1
+    },
+    {
+      "id": 19716792,
+      "login": "njvrzm",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/19716792?v=4",
+      "htmlUrl": "https://github.com/njvrzm",
+      "contributions": 2
+    },
+    {
+      "id": 21225410,
+      "login": "uturunku1",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/21225410?v=4",
+      "htmlUrl": "https://github.com/uturunku1",
+      "contributions": 3
+    },
+    {
+      "id": 13170292,
+      "login": "GabrielSamp",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/13170292?v=4",
+      "htmlUrl": "https://github.com/GabrielSamp",
+      "contributions": 5
+    }
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNTg=",
+      "name": "Java",
+      "color": "#b07219"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0NjM=",
+      "name": "Batchfile",
+      "color": "#C1F12E"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNTY=",
+      "name": "Objective-C",
+      "color": "#438eff"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzNzE=",
+      "name": "Swift",
+      "color": "#ffac45"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
+    }
+  ],
+  "screenshots": [],
+  "license": null
+}

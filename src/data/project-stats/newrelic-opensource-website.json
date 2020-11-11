@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 25
+    "open": 26
   },
-  "releases": 57,
+  "releases": 59,
   "latestRelease": {
-    "name": "v1.9.2",
-    "date": "2020-08-31T22:03:57Z"
+    "name": "v1.9.4",
+    "date": "2020-10-30T18:43:59Z"
   },
-  "commits": 1715,
-  "lastSixMonthsCommitTotal": 1715,
-  "contributors": 51,
+  "commits": 2077,
+  "lastSixMonthsCommitTotal": 1763,
+  "contributors": 55,
   "pullRequests": {
-    "open": 3
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -22,7 +22,7 @@
       "url": "https://github.com/newrelic/opensource-website/issues/368",
       "createdAt": "2020-05-12T15:47:51Z",
       "comments": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "author": {
         "login": "danielgolden",
@@ -102,6 +102,13 @@
       "login": "njvrzm",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/19716792?v=4",
       "htmlUrl": "https://github.com/njvrzm",
+      "contributions": 1
+    },
+    {
+      "id": 398399,
+      "login": "nijotz",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
+      "htmlUrl": "https://github.com/nijotz",
       "contributions": 1
     },
     {
@@ -217,6 +224,13 @@
       "contributions": 1
     },
     {
+      "id": 71456800,
+      "login": "azeazasloper",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/71456800?v=4",
+      "htmlUrl": "https://github.com/azeazasloper",
+      "contributions": 1
+    },
+    {
       "id": 39402771,
       "login": "adiosspandit",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/39402771?v=4",
@@ -287,6 +301,13 @@
       "contributions": 2
     },
     {
+      "id": 38332422,
+      "login": "caylahamann",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/38332422?v=4",
+      "htmlUrl": "https://github.com/caylahamann",
+      "contributions": 2
+    },
+    {
       "id": 32520944,
       "login": "astormnewrelic",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/32520944?v=4",
@@ -305,6 +326,13 @@
       "login": "alejandrodnm",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/5297542?v=4",
       "htmlUrl": "https://github.com/alejandrodnm",
+      "contributions": 2
+    },
+    {
+      "id": 28364881,
+      "login": "Fahmy-Mohammed",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/28364881?v=4",
+      "htmlUrl": "https://github.com/Fahmy-Mohammed",
       "contributions": 2
     },
     {
@@ -354,7 +382,7 @@
       "login": "jasonjkeller",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/3496648?v=4",
       "htmlUrl": "https://github.com/jasonjkeller",
-      "contributions": 6
+      "contributions": 7
     },
     {
       "id": 8813505,
@@ -385,18 +413,18 @@
       "contributions": 28
     },
     {
-      "id": 565661,
-      "login": "jerelmiller",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/565661?v=4",
-      "htmlUrl": "https://github.com/jerelmiller",
-      "contributions": 61
-    },
-    {
       "id": 6722433,
       "login": "jbeveland27",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 88
+    },
+    {
+      "id": 565661,
+      "login": "jerelmiller",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/565661?v=4",
+      "htmlUrl": "https://github.com/jerelmiller",
+      "contributions": 89
     },
     {
       "id": 197140,
@@ -417,14 +445,14 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 319
+      "contributions": 320
     },
     {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 601
+      "contributions": 921
     }
   ],
   "languages": [

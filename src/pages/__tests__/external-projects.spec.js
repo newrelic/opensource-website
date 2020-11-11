@@ -13,9 +13,13 @@ import data from './fixtures/external-projects';
 
 const source = createMemorySource('/');
 const history = createHistory(source);
+const pageContext = { fileRelativePath: 'src/pages/external-projects.js' };
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
+    allMdx: {
+      nodes: [],
+    },
     site: {
       siteMetadata: {
         title: 'New Relic Open Source',
@@ -34,7 +38,7 @@ describe('External Projects Page', () => {
   it('Renders correctly', () => {
     const tree = TestRenderer.create(
       <LocationProvider history={history}>
-        <ExternalProjectsPage data={data} />
+        <ExternalProjectsPage data={data} pageContext={pageContext} />
       </LocationProvider>
     ).toJSON();
 

@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-telemetry-sdk-c",
+  "fullName": "newrelic/newrelic-telemetry-sdk-c",
+  "slug": "newrelic-newrelic-telemetry-sdk-c",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Telemetry SDK (C)",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/newrelic-telemetry-sdk-c",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-telemetry-sdk-c",
+  "defaultBranch": "main",
+  "contributingGuideUrl": null,
+  "iconUrl": null,
+  "shortDescription": "New Relic Telemetry SDK for C",
+  "description": "C library for sending telemetry data to New Relic",
+  "ossCategory": "community-project",
+  "primaryLanguage": "C",
+  "projectTags": ["opentelemetry", "sdk"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Telemetry SDK (C)",
+    "url": "https://github.com/newrelic/newrelic-telemetry-sdk-c"
+  }
+}

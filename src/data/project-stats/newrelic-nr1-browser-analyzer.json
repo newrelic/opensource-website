@@ -3,13 +3,13 @@
   "issues": {
     "open": 3
   },
-  "releases": 13,
+  "releases": 14,
   "latestRelease": {
-    "name": "v1.3.5",
-    "date": "2020-09-18T17:53:24Z"
+    "name": "v1.3.6",
+    "date": "2020-11-10T14:27:46Z"
   },
-  "commits": 164,
-  "lastSixMonthsCommitTotal": 82,
+  "commits": 172,
+  "lastSixMonthsCommitTotal": 61,
   "contributors": 14,
   "pullRequests": {
     "open": 0
@@ -22,13 +22,6 @@
       "login": "ryanv94",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/37779995?v=4",
       "htmlUrl": "https://github.com/ryanv94",
-      "contributions": 1
-    },
-    {
-      "id": 8731013,
-      "login": "prototypicalpro",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/8731013?v=4",
-      "htmlUrl": "https://github.com/prototypicalpro",
       "contributions": 1
     },
     {
@@ -60,6 +53,13 @@
       "contributions": 2
     },
     {
+      "id": 8731013,
+      "login": "prototypicalpro",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/8731013?v=4",
+      "htmlUrl": "https://github.com/prototypicalpro",
+      "contributions": 3
+    },
+    {
       "id": 55203603,
       "login": "austin-schaefer",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/55203603?v=4",
@@ -85,7 +85,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 9
+      "contributions": 10
     },
     {
       "id": 812989,
@@ -95,13 +95,6 @@
       "contributions": 12
     },
     {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 20
-    },
-    {
       "id": 197140,
       "login": "devfreddy",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/197140?v=4",
@@ -109,11 +102,18 @@
       "contributions": 20
     },
     {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 21
+    },
+    {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 43
+      "contributions": 45
     }
   ],
   "languages": [

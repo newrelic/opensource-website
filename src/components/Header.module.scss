@@ -19,17 +19,6 @@
   }
 }
 
-.primary-header-logo {
-  display: block;
-  width: 247px;
-  height: 53px;
-  background-image: url('../images/logo.svg');
-  border: grey;
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
 .primary-header-nav-links {
   display: flex;
   list-style-type: none;
@@ -49,7 +38,7 @@
 a.primary-header-nav-link {
   color: var(--color-neutrals-900);
   border: none;
-  transition: color .05s ease-out;
+  transition: color 0.05s ease-out;
   svg {
     display:none;
   }
@@ -88,7 +77,7 @@ div.exists-in-active-mobile-menu {
   background-color: var(--color-neutrals-100);
 }
 
-.has-header-bg{
+.has-header-bg {
   &:after {
     content: '';
     position: absolute;
@@ -98,7 +87,12 @@ div.exists-in-active-mobile-menu {
     left: 0;
     transform: skewY(-2.75deg);
     z-index: -1;
-    background: linear-gradient(280.65deg, rgba(255, 255, 255, 0.52) 1.64%, rgba(255, 255, 255, 0) 99.19%), var(--color-neutrals-100);
+    background: linear-gradient(
+        280.65deg,
+        rgba(255, 255, 255, 0.52) 1.64%,
+        rgba(255, 255, 255, 0) 99.19%
+      ),
+      var(--color-neutrals-100);
   }
 }
 
@@ -128,13 +122,6 @@ div.exists-in-active-mobile-menu {
     display: none;
   }
 
-  .primary-header-logo {
-    width: 160px;
-    height: 34px;
-    background-size: 160px 34px;
-    z-index: 500;
-  }
-
   .primary-header-nav-links {
     display: none;
   }
@@ -161,7 +148,6 @@ div.exists-in-active-mobile-menu {
       right: 30px;
       background-image: url('../images/icon-menu-close.svg');
     }
-    
 
     .primary-header-mobile-nav-links {
       display: block;
@@ -202,11 +188,6 @@ div.exists-in-active-mobile-menu {
 }
 
 @media screen and (max-width: 480px) {
-  .primary-header-logo {
-    position: static;
-    top: 0;
-  }
-
   .mobile-menu-active {
     .mobile-menu-button {
       top: 21px;
@@ -219,12 +200,12 @@ div.exists-in-active-mobile-menu {
         fill: var(--color-brand-800);
       }
     }
-    
+
     .primary-header-mobile-nav-links {
       margin-top: 59px;
     }
   }
-  
+
   .has-header-bg:after {
     top: -180px;
     transform: skewY(-3deg);
@@ -245,13 +226,13 @@ div.exists-in-active-mobile-menu {
 // Dark mode
 // ==============================================================
 :global(.dark-mode) {
-  .primary-header-logo {
-    background-image: url('../images/logo-light.svg');
-  }
-
-  .has-header-bg{
+  .has-header-bg {
     &:after {
-      background: linear-gradient(280.65deg, var(--color-neutrals-100) 1.64%, #22343a);
+      background: linear-gradient(
+        280.65deg,
+        var(--color-neutrals-100) 1.64%,
+        #22343a
+      );
     }
   }
 

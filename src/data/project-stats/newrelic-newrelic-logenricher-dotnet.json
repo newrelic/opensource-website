@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/newrelic-logenricher-dotnet",
   "issues": {
-    "open": 2
+    "open": 4
   },
-  "releases": 8,
+  "releases": 9,
   "latestRelease": {
-    "name": "Serilog_v1.0.1",
-    "date": "2020-03-03T18:04:18Z"
+    "name": "Log4Net_v1.0.2",
+    "date": "2020-10-28T23:26:25Z"
   },
-  "commits": 195,
-  "lastSixMonthsCommitTotal": 14,
-  "contributors": 8,
+  "commits": 203,
+  "lastSixMonthsCommitTotal": 22,
+  "contributors": 11,
   "pullRequests": {
     "open": 1
   },
@@ -32,10 +32,31 @@
       "contributions": 1
     },
     {
+      "id": 5260112,
+      "login": "ltines",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/5260112?v=4",
+      "htmlUrl": "https://github.com/ltines",
+      "contributions": 1
+    },
+    {
       "id": 20267975,
       "login": "lspangler584",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/20267975?v=4",
       "htmlUrl": "https://github.com/lspangler584",
+      "contributions": 1
+    },
+    {
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
+      "contributions": 1
+    },
+    {
+      "id": 69914680,
+      "login": "angelatan2",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/69914680?v=4",
+      "htmlUrl": "https://github.com/angelatan2",
       "contributions": 1
     },
     {
@@ -50,7 +71,7 @@
       "login": "jaffinito",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/6098021?v=4",
       "htmlUrl": "https://github.com/jaffinito",
-      "contributions": 19
+      "contributions": 20
     },
     {
       "id": 56414817,
@@ -71,7 +92,7 @@
       "login": "nr-ahemsath",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/57361211?v=4",
       "htmlUrl": "https://github.com/nr-ahemsath",
-      "contributions": 77
+      "contributions": 81
     }
   ],
   "languages": [

@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-ruby-agent",
   "issues": {
-    "open": 28
+    "open": 42
   },
-  "releases": 362,
+  "releases": 364,
   "latestRelease": {
-    "name": "6.13.0",
-    "date": "2020-09-09T23:20:02Z"
+    "name": "6.13.1",
+    "date": "2020-09-25T21:34:55Z"
   },
-  "commits": 14517,
-  "lastSixMonthsCommitTotal": 989,
+  "commits": 14548,
+  "lastSixMonthsCommitTotal": 875,
   "contributors": 100,
   "pullRequests": {
     "open": 3
@@ -22,7 +22,7 @@
       "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/347",
       "createdAt": "2020-06-22T08:55:56Z",
       "comments": {
-        "totalCount": 1
+        "totalCount": 5
       },
       "author": {
         "login": "MathieuDerelle",
@@ -98,6 +98,13 @@
       "contributions": 1
     },
     {
+      "id": 7865781,
+      "login": "tomgilligan",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/7865781?v=4",
+      "htmlUrl": "https://github.com/tomgilligan",
+      "contributions": 1
+    },
+    {
       "id": 1024789,
       "login": "thaim",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/1024789?v=4",
@@ -105,10 +112,10 @@
       "contributions": 1
     },
     {
-      "id": 1039403,
-      "login": "rafavalerio",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/1039403?v=4",
-      "htmlUrl": "https://github.com/rafavalerio",
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
     },
     {
@@ -182,13 +189,6 @@
       "contributions": 1
     },
     {
-      "id": 241633,
-      "login": "dmeremyanin",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/241633?v=4",
-      "htmlUrl": "https://github.com/dmeremyanin",
-      "contributions": 1
-    },
-    {
       "id": 5115928,
       "login": "danascheider",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/5115928?v=4",
@@ -214,13 +214,6 @@
       "login": "bpaquet",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/337117?v=4",
       "htmlUrl": "https://github.com/bpaquet",
-      "contributions": 1
-    },
-    {
-      "id": 47330,
-      "login": "andreacfm",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/47330?v=4",
-      "htmlUrl": "https://github.com/andreacfm",
       "contributions": 1
     },
     {
@@ -312,6 +305,13 @@
       "login": "rdokov",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/4725264?v=4",
       "htmlUrl": "https://github.com/rdokov",
+      "contributions": 2
+    },
+    {
+      "id": 4361134,
+      "login": "pocke",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/4361134?v=4",
+      "htmlUrl": "https://github.com/pocke",
       "contributions": 2
     },
     {
@@ -511,6 +511,13 @@
       "contributions": 3
     },
     {
+      "id": 69914680,
+      "login": "angelatan2",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/69914680?v=4",
+      "htmlUrl": "https://github.com/angelatan2",
+      "contributions": 3
+    },
+    {
       "id": 4761745,
       "login": "elucus",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/4761745?v=4",
@@ -669,7 +676,7 @@
       "login": "tannalynn",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/11799492?v=4",
       "htmlUrl": "https://github.com/tannalynn",
-      "contributions": 128
+      "contributions": 132
     },
     {
       "id": 1577272,
@@ -698,13 +705,6 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/3170392?v=4",
       "htmlUrl": "https://github.com/justinfoote",
       "contributions": 252
-    },
-    {
-      "id": 10822861,
-      "login": "rachelleahklein",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/10822861?v=4",
-      "htmlUrl": "https://github.com/rachelleahklein",
-      "contributions": 358
     },
     {
       "id": 40875,
@@ -739,7 +739,7 @@
       "login": "mwlang",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/18387?v=4",
       "htmlUrl": "https://github.com/mwlang",
-      "contributions": 790
+      "contributions": 800
     },
     {
       "id": 2513372,

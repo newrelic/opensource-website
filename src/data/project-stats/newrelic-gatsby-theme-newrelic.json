@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/gatsby-theme-newrelic",
   "issues": {
-    "open": 2
+    "open": 3
   },
-  "releases": 44,
+  "releases": 56,
   "latestRelease": {
-    "name": "v1.9.4",
+    "name": "v1.15.1",
     "date": null
   },
-  "commits": 513,
-  "lastSixMonthsCommitTotal": 513,
-  "contributors": 7,
+  "commits": 706,
+  "lastSixMonthsCommitTotal": 706,
+  "contributors": 9,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
+    },
     {
       "id": 6722433,
       "login": "jbeveland27",
@@ -29,7 +36,14 @@
       "login": "djsauble",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/186715?v=4",
       "htmlUrl": "https://github.com/djsauble",
-      "contributions": 2
+      "contributions": 3
+    },
+    {
+      "id": 2952843,
+      "login": "roadlittledawn",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/2952843?v=4",
+      "htmlUrl": "https://github.com/roadlittledawn",
+      "contributions": 16
     },
     {
       "id": 39655074,
@@ -50,21 +64,21 @@
       "login": "caylahamann",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/38332422?v=4",
       "htmlUrl": "https://github.com/caylahamann",
-      "contributions": 39
+      "contributions": 61
     },
     {
       "id": 1946433,
       "login": "zstix",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/1946433?v=4",
       "htmlUrl": "https://github.com/zstix",
-      "contributions": 54
+      "contributions": 68
     },
     {
       "id": 565661,
       "login": "jerelmiller",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/565661?v=4",
       "htmlUrl": "https://github.com/jerelmiller",
-      "contributions": 257
+      "contributions": 367
     }
   ],
   "languages": [

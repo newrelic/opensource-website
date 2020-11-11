@@ -5,11 +5,11 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 10,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 3,
+  "commits": 14,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,10 +22,24 @@
       "contributions": 1
     },
     {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
+    {
       "id": 506085,
       "login": "juliangiuca",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/506085?v=4",
       "htmlUrl": "https://github.com/juliangiuca",
+      "contributions": 1
+    },
+    {
+      "id": 62337995,
+      "login": "jodstrcil",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/62337995?v=4",
+      "htmlUrl": "https://github.com/jodstrcil",
       "contributions": 1
     },
     {
@@ -38,5 +52,12 @@
   ],
   "languages": [],
   "screenshots": [],
-  "license": null
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }

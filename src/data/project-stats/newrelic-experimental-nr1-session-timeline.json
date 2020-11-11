@@ -1,34 +1,27 @@
 {
   "projectFullName": "newrelic-experimental/nr1-session-timeline",
   "issues": {
-    "open": 0
+    "open": 2
   },
-  "releases": 2,
+  "releases": 3,
   "latestRelease": {
-    "name": "v1.19.7",
-    "date": "2020-06-08T18:53:25Z"
+    "name": "v1.19.8",
+    "date": "2020-09-21T18:08:04Z"
   },
-  "commits": 30,
-  "lastSixMonthsCommitTotal": 30,
-  "contributors": 4,
+  "commits": 43,
+  "lastSixMonthsCommitTotal": 18,
+  "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 1
-    },
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
     },
     {
@@ -39,11 +32,25 @@
       "contributions": 1
     },
     {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 2
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 5
+    },
+    {
       "id": 1786630,
       "login": "aso1124",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/1786630?v=4",
       "htmlUrl": "https://github.com/aso1124",
-      "contributions": 27
+      "contributions": 31
     }
   ],
   "languages": [
@@ -53,9 +60,9 @@
       "color": "#f1e05a"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [

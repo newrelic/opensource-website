@@ -41,7 +41,7 @@ const headers = [
 
 marked.setOptions({ gfm: true });
 
-const OssCategoryPage = ({ data }) => {
+const OssCategoryPage = ({ data, pageContext }) => {
   const categories = get(data, 'allOssCategory.nodes', []);
 
   const categoryNavList = categories
@@ -86,7 +86,7 @@ const OssCategoryPage = ({ data }) => {
     });
 
   return (
-    <Layout>
+    <Layout editLink={pageContext.fileRelativePath}>
       <SEO title="New Relic Open Source Categories" />
       <PageHeading
         title="New Relic Open Source Categories"
@@ -122,6 +122,7 @@ const OssCategoryPage = ({ data }) => {
 
 OssCategoryPage.propTypes = {
   data: PropTypes.object,
+  pageContext: PropTypes.object,
 };
 
 export default OssCategoryPage;

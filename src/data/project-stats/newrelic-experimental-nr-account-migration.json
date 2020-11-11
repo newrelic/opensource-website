@@ -1,19 +1,29 @@
 {
   "projectFullName": "newrelic-experimental/nr-account-migration",
   "issues": {
-    "open": 0
+    "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 4,
-  "lastSixMonthsCommitTotal": 4,
-  "contributors": 2,
+  "releases": 2,
+  "latestRelease": {
+    "name": "1.0.1",
+    "date": "2020-10-08T18:11:18Z"
+  },
+  "commits": 10,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 3,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
     {
       "id": 929261,
       "login": "tangollama",
@@ -26,7 +36,7 @@
       "login": "adiosspandit",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/39402771?v=4",
       "htmlUrl": "https://github.com/adiosspandit",
-      "contributions": 2
+      "contributions": 7
     }
   ],
   "languages": [

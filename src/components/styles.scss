@@ -69,13 +69,6 @@ p {
   }
 }
 
-a {
-  // tried hard to find a way to avoid using a hardcoded color value
-  // here but Sass doesn't let me use color operations with css
-  // custom properties :/
-  border-bottom: 1px dotted rgba(#005054, 0.4);
-}
-
 ul {
   font-size: 14px;
   line-height: 22px;
@@ -134,31 +127,6 @@ select {
 }
 
 /*-- Base styles --*/
-
-.layout-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-.layout-container-main {
-  width: 100%;
-  max-width: 980px;
-  margin: 0 auto;
-  flex-grow: 1;
-  flex-shrink: 0; // because nested flexbox elements in safari are buggy
-
-  &.full-width {
-    max-width: 1180px;
-  }
-
-  & > hr {
-    height: 2px;
-    margin: 36px 0;
-    background-color: var(--color-neutrals-200);
-    border: none;
-  }
-}
 
 .primary-content {
   display: flex;
@@ -354,10 +322,6 @@ select {
 // Dark mode
 // ==============================================================
 .dark-mode {
-  a {
-    border-color: rgba(#69b9bd, 0.4);
-  }
-
   .button {
     background-color: var(--color-neutrals-800);
   }

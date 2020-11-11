@@ -1,3 +1,19 @@
+## [1.9.4](https://github.com/newrelic/opensource-website/compare/v1.9.3...v1.9.4) (2020-10-30)
+
+
+### Bug Fixes
+
+* shadow logo component for the gatsby theme ([c4ceb18](https://github.com/newrelic/opensource-website/commit/c4ceb187811056b1d9296c2ba9c4bd258eef1e93))
+* upgrade @newrelic/gatsby-theme-newrelic ([467eece](https://github.com/newrelic/opensource-website/commit/467eece5215d88c2eff88b62da7a7f24a445f938))
+* upgrade @newrelic/gatsby-theme-newrelic, gatsby, gatsby-plugin-mdx and add missing peer deps ([ac9bca6](https://github.com/newrelic/opensource-website/commit/ac9bca644a4a8f98ca0d8db88454d873cb393b46))
+
+## [1.9.3](https://github.com/newrelic/opensource-website/compare/v1.9.2...v1.9.3) (2020-10-28)
+
+
+### Bug Fixes
+
+* Trigger new patch release ([8c6f35d](https://github.com/newrelic/opensource-website/commit/8c6f35de64a56b3867b0019ca67159af70d191fd))
+
 ## [1.9.2](https://github.com/newrelic/opensource-website/compare/v1.9.1...v1.9.2) (2020-08-31)
 
 

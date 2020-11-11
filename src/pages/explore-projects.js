@@ -49,9 +49,6 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -61,7 +58,7 @@ export const query = graphql`
 
 const ExploreProjectsPage = (props) => {
   const [projectsToShow, setProjectsToShow] = useState(23);
-  const { data, darkMode } = props;
+  const { data, darkMode, pageContext } = props;
 
   const allProjects = get(data, 'allProjects.edges', []).map((p) => p.node);
   const allLanguages = get(data, 'allLanguages.group', []);
@@ -158,7 +155,7 @@ const ExploreProjectsPage = (props) => {
     <Layout
       fullWidth
       mainClassName={styles.exploreProjectsLayout}
-      editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
+      editLink={pageContext.fileRelativePath}
     >
       <SEO title="New Relic open source projects" />
       <PageHeading
@@ -231,5 +228,6 @@ const ExploreProjectsPage = (props) => {
 ExploreProjectsPage.propTypes = {
   data: PropTypes.object,
   darkMode: PropTypes.object,
+  pageContext: PropTypes.object,
 };
 export default withDarkMode(ExploreProjectsPage);

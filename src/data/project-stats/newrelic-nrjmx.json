@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nrjmx",
   "issues": {
-    "open": 1
+    "open": 4
   },
-  "releases": 19,
+  "releases": 21,
   "latestRelease": {
-    "name": "v1.5.3",
-    "date": "2020-09-14T13:33:43Z"
+    "name": "v1.6.1",
+    "date": "2020-11-06T17:12:49Z"
   },
-  "commits": 164,
-  "lastSixMonthsCommitTotal": 3,
+  "commits": 171,
+  "lastSixMonthsCommitTotal": 10,
   "contributors": 15,
   "pullRequests": {
-    "open": 5
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,13 +22,6 @@
       "login": "xino12",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/1876430?v=4",
       "htmlUrl": "https://github.com/xino12",
-      "contributions": 1
-    },
-    {
-      "id": 1773616,
-      "login": "theletterf",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
-      "htmlUrl": "https://github.com/theletterf",
       "contributions": 1
     },
     {
@@ -53,13 +46,6 @@
       "contributions": 1
     },
     {
-      "id": 717815,
-      "login": "carlosroman",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
-      "htmlUrl": "https://github.com/carlosroman",
-      "contributions": 1
-    },
-    {
       "id": 5297542,
       "login": "alejandrodnm",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/5297542?v=4",
@@ -67,10 +53,17 @@
       "contributions": 1
     },
     {
-      "id": 2054195,
-      "login": "ardias",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
-      "htmlUrl": "https://github.com/ardias",
+      "id": 907624,
+      "login": "ysb33r",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/907624?v=4",
+      "htmlUrl": "https://github.com/ysb33r",
+      "contributions": 2
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
       "contributions": 2
     },
     {
@@ -81,17 +74,24 @@
       "contributions": 4
     },
     {
-      "id": 12631702,
-      "login": "camdencheek",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/12631702?v=4",
-      "htmlUrl": "https://github.com/camdencheek",
-      "contributions": 4
+      "id": 717815,
+      "login": "carlosroman",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
+      "htmlUrl": "https://github.com/carlosroman",
+      "contributions": 6
     },
     {
       "id": 466745,
       "login": "vvydier",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/466745?v=4",
       "htmlUrl": "https://github.com/vvydier",
+      "contributions": 7
+    },
+    {
+      "id": 12631702,
+      "login": "camdencheek",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/12631702?v=4",
+      "htmlUrl": "https://github.com/camdencheek",
       "contributions": 7
     },
     {
@@ -148,6 +148,11 @@
       "id": "MDg6TGFuZ3VhZ2UyNjQ=",
       "name": "PowerShell",
       "color": "#012456"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNzI=",
+      "name": "Kotlin",
+      "color": "#F18E33"
     }
   ],
   "screenshots": [],
