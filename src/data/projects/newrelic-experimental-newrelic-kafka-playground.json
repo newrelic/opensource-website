@@ -15,7 +15,7 @@
   "iconUrl": null,
   "shortDescription": "Deploys a fully-instrumented Kafka cluster in your AWS account",
   "description": "Using standard configuration management tools, deploy a full Kafka cluster to AWS, complete with producer and consumer applications.  Instrumented end-to-end with New Relic.",
-  "ossCategory": "community-project",
+  "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Java",
   "projectTags": ["tools", "infrastructure", "terraform"],
   "acceptsContributions": true,
