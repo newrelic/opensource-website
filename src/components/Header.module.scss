@@ -39,7 +39,9 @@ a.primary-header-nav-link {
   color: var(--color-neutrals-900);
   border: none;
   transition: color 0.05s ease-out;
-
+  svg {
+    display:none;
+  }
   &:hover {
     color: var(--color-brand-900);
   }
@@ -171,12 +173,18 @@ div.exists-in-active-mobile-menu {
       font-size: 24px;
       font-weight: 400;
     }
+    a.primary-header-nav-link {
+      svg {
+        display:block;
+      }
+    }
   }
 
   .has-header-bg:after {
     top: -150px;
     transform: skewY(-1.75deg);
-  }
+  } 
+
 }
 
 @media screen and (max-width: 480px) {
@@ -230,7 +238,9 @@ div.exists-in-active-mobile-menu {
 
   a.primary-header-nav-link {
     color: var(--color-neutrals-700);
-
+    svg {
+      stroke: var(--color-neutrals-700);
+    }
     &:hover {
       color: var(--color-neutral-800);
     }
