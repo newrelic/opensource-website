@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nri-discovery-kubernetes",
   "issues": {
-    "open": 5
+    "open": 6
   },
   "releases": 7,
   "latestRelease": {
     "name": "v1.2.0",
     "date": "2020-06-02T08:35:29Z"
   },
-  "commits": 22,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 3,
+  "commits": 23,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 5,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
     {
       "id": 15685307,
       "login": "cristianciutea",
@@ -37,6 +44,13 @@
       "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
       "htmlUrl": "https://github.com/ardias",
       "contributions": 4
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 8
     }
   ],
   "languages": [
