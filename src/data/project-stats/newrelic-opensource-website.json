@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 27
+    "open": 26
   },
   "releases": 59,
   "latestRelease": {
     "name": "v1.9.4",
     "date": "2020-10-30T18:43:59Z"
   },
-  "commits": 2110,
-  "lastSixMonthsCommitTotal": 1765,
+  "commits": 2111,
+  "lastSixMonthsCommitTotal": 1766,
   "contributors": 57,
   "pullRequests": {
     "open": 1
@@ -51,21 +51,21 @@
       "createdBy": "Joel Worrall"
     },
     {
-      "id": "MDU6SXNzdWU2NjM5ODk4NzI=",
-      "title": "On mobile, the global nav (top 40ish pixels) experience is different from developer.newrelic.com",
-      "url": "https://github.com/newrelic/opensource-website/issues/556",
-      "createdAt": "2020-07-22T19:14:34Z",
+      "id": "MDU6SXNzdWU2NDA1ODQwOTg=",
+      "title": "Error: Unexpected token e in JSON at position 1",
+      "url": "https://github.com/newrelic/opensource-website/issues/463",
+      "createdAt": "2020-06-17T16:35:44Z",
       "comments": {
         "totalCount": 0
       },
       "author": {
-        "login": "tangollama",
-        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "login": "devfreddy",
+        "id": "MDQ6VXNlcjE5NzE0MA==",
         "email": "",
-        "name": "Joel Worrall"
+        "name": "Michael Frederick"
       },
-      "number": 556,
-      "createdBy": "Joel Worrall"
+      "number": 463,
+      "createdBy": "Michael Frederick"
     }
   ],
   "cachedContributors": [
@@ -466,7 +466,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 928
+      "contributions": 929
     }
   ],
   "languages": [
