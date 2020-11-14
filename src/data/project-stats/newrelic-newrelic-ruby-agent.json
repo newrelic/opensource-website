@@ -1,38 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-ruby-agent",
   "issues": {
-    "open": 43
+    "open": 39
   },
-  "releases": 364,
+  "releases": 365,
   "latestRelease": {
-    "name": "6.13.1",
-    "date": "2020-09-25T21:34:55Z"
+    "name": "6.14.0-pre",
+    "date": null
   },
-  "commits": 14549,
-  "lastSixMonthsCommitTotal": 868,
+  "commits": 14563,
+  "lastSixMonthsCommitTotal": 882,
   "contributors": 100,
   "pullRequests": {
-    "open": 5
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2NDI4ODUzNDM=",
-      "title": "net instrumentation can cause \"stack level too deep\" with 3rd party gems",
-      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/347",
-      "createdAt": "2020-06-22T08:55:56Z",
-      "comments": {
-        "totalCount": 5
-      },
-      "author": {
-        "login": "MathieuDerelle",
-        "id": "MDQ6VXNlcjE2Mjg2MDIz",
-        "email": "",
-        "name": "Mathieu Derelle"
-      },
-      "number": 347,
-      "createdBy": "Mathieu Derelle"
-    },
     {
       "id": "MDU6SXNzdWU2Nzg3Nzg5OTA=",
       "title": "Update excon instrumentation",
@@ -65,6 +48,23 @@
         "name": "Rachel Klein"
       },
       "number": 392,
+      "createdBy": "Rachel Klein"
+    },
+    {
+      "id": "MDU6SXNzdWU2Nzg3ODA3MDc=",
+      "title": "Update mongo instrumentation",
+      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/393",
+      "createdAt": "2020-08-13T22:56:30Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "rachelleahklein",
+        "id": "MDQ6VXNlcjEwODIyODYx",
+        "email": "",
+        "name": "Rachel Klein"
+      },
+      "number": 393,
       "createdBy": "Rachel Klein"
     }
   ],
@@ -676,7 +676,7 @@
       "login": "tannalynn",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/11799492?v=4",
       "htmlUrl": "https://github.com/tannalynn",
-      "contributions": 133
+      "contributions": 144
     },
     {
       "id": 1577272,
@@ -739,7 +739,7 @@
       "login": "mwlang",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/18387?v=4",
       "htmlUrl": "https://github.com/mwlang",
-      "contributions": 800
+      "contributions": 801
     },
     {
       "id": 2513372,
