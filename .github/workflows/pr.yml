@@ -81,7 +81,7 @@ jobs:
           if [ -z "$PROJECT_FILES" ]; then
             echo "No project json files detected."
           else
-            echo ::set-env name=PROJECT_FILES::$PROJECT_FILES
+            echo name=PROJECT_FILES::$PROJECT_FILES >>$GITHUB_ENV
           fi
 
       - name: Run Project Tags Check
@@ -128,7 +128,7 @@ jobs:
               // Set Error Annotation for Results
               if (errors.length > 0) {
                 core.setFailed(
-                `There are errors with the <projectTags> mapping. For more info, visit https://github.com/newrelic/opensource-website/wiki/Contributing-Project-Data#note-about-projectTags. 
+                `There are errors with the <projectTags> mapping. For more info, visit https://github.com/newrelic/opensource-website/wiki/Contributing-Project-Data#note-about-projectTags.
                 Errors: ${JSON.stringify(errors, null, 2)}`)
               }
             }
