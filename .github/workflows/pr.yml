@@ -81,7 +81,9 @@ jobs:
           if [ -z "$PROJECT_FILES" ]; then
             echo "No project json files detected."
           else
-            echo name=PROJECT_FILES::$PROJECT_FILES >>$GITHUB_ENV
+            echo "PROJECT_FILES<<EOF" >> $GITHUB_ENV
+            echo $PROJECT_FILES >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
           fi
 
       - name: Run Project Tags Check
