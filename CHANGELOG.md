@@ -1,3 +1,10 @@
+## [1.9.5](https://github.com/newrelic/opensource-website/compare/v1.9.4...v1.9.5) (2020-11-20)
+
+
+### Bug Fixes
+
+* support multi-line env var ([e574c36](https://github.com/newrelic/opensource-website/commit/e574c361e93424c6671525490d5cfae3c5f4136b))
+
 ## [1.9.4](https://github.com/newrelic/opensource-website/compare/v1.9.3...v1.9.4) (2020-10-30)
 
 
