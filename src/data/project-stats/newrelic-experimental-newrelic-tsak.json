@@ -3,10 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 44,
-  "lastSixMonthsCommitTotal": 44,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v0.1-alpha",
+    "date": "2020-11-20T23:55:37Z"
+  },
+  "commits": 46,
+  "lastSixMonthsCommitTotal": 46,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -26,7 +29,7 @@
       "login": "vulogov",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/2127420?v=4",
       "htmlUrl": "https://github.com/vulogov",
-      "contributions": 41
+      "contributions": 43
     }
   ],
   "languages": [
