@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-diagnostics-cli",
   "issues": {
-    "open": 12
+    "open": 10
   },
   "releases": 1,
   "latestRelease": {
@@ -34,23 +34,6 @@
       "createdBy": "Luces Huayhuaca"
     },
     {
-      "id": "MDU6SXNzdWU3MzY1ODM4ODc=",
-      "title": "nrdiag should provide info level error logging if value passed to proxy arg is invalid",
-      "url": "https://github.com/newrelic/newrelic-diagnostics-cli/issues/24",
-      "createdAt": "2020-11-05T03:38:39Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "uturunku1",
-        "id": "MDQ6VXNlcjIxMjI1NDEw",
-        "email": "",
-        "name": "Luces Huayhuaca"
-      },
-      "number": 24,
-      "createdBy": "Luces Huayhuaca"
-    },
-    {
       "id": "MDU6SXNzdWU3MzY1OTUyMDI=",
       "title": "False positive for the Java/Env/Process",
       "url": "https://github.com/newrelic/newrelic-diagnostics-cli/issues/28",
@@ -65,6 +48,23 @@
         "name": "Luces Huayhuaca"
       },
       "number": 28,
+      "createdBy": "Luces Huayhuaca"
+    },
+    {
+      "id": "MDU6SXNzdWU3MzY1OTY2MjA=",
+      "title": "Add a URL to Java/env/process",
+      "url": "https://github.com/newrelic/newrelic-diagnostics-cli/issues/29",
+      "createdAt": "2020-11-05T04:15:57Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "uturunku1",
+        "id": "MDQ6VXNlcjIxMjI1NDEw",
+        "email": "",
+        "name": "Luces Huayhuaca"
+      },
+      "number": 29,
       "createdBy": "Luces Huayhuaca"
     }
   ],
