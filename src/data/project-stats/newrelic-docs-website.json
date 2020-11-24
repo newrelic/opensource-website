@@ -1,18 +1,53 @@
 {
   "projectFullName": "newrelic/docs-website",
   "issues": {
-    "open": 54
+    "open": 67
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 823,
-  "lastSixMonthsCommitTotal": 823,
+  "commits": 828,
+  "lastSixMonthsCommitTotal": 828,
   "contributors": 7,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3NDkyMDQyMjQ=",
+      "title": "Add Docker instructions for stopping infrastructure agent",
+      "url": "https://github.com/newrelic/docs-website/issues/309",
+      "createdAt": "2020-11-23T23:33:51Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "austin-schaefer",
+        "id": "MDQ6VXNlcjU1MjAzNjAz",
+        "email": "",
+        "name": "Austin Schaefer"
+      },
+      "number": 309,
+      "createdBy": "Austin Schaefer"
+    },
+    {
+      "id": "MDU6SXNzdWU3NDkyMDUxNzk=",
+      "title": "Alerts (Webhook Payload): Improve JSON example",
+      "url": "https://github.com/newrelic/docs-website/issues/310",
+      "createdAt": "2020-11-23T23:36:16Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "austin-schaefer",
+        "id": "MDQ6VXNlcjU1MjAzNjAz",
+        "email": "",
+        "name": "Austin Schaefer"
+      },
+      "number": 310,
+      "createdBy": "Austin Schaefer"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 197140,
@@ -26,7 +61,7 @@
       "login": "austin-schaefer",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/55203603?v=4",
       "htmlUrl": "https://github.com/austin-schaefer",
-      "contributions": 1
+      "contributions": 5
     },
     {
       "id": 1395158,
