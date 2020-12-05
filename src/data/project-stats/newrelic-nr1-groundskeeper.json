@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nr1-groundskeeper",
   "issues": {
-    "open": 3
+    "open": 4
   },
   "releases": 13,
   "latestRelease": {
@@ -9,7 +9,7 @@
     "date": "2020-09-03T18:23:34Z"
   },
   "commits": 103,
-  "lastSixMonthsCommitTotal": 10,
+  "lastSixMonthsCommitTotal": 8,
   "contributors": 8,
   "pullRequests": {
     "open": 3
@@ -17,21 +17,21 @@
   "searchCategory": "good first issue",
   "cachedIssues": [
     {
-      "id": "MDU6SXNzdWU1NDA2MTQ1ODY=",
-      "title": "Extend groundskeeper to track infrastructure agents",
-      "url": "https://github.com/newrelic/nr1-groundskeeper/issues/9",
-      "createdAt": "2019-12-19T22:34:45Z",
+      "id": "MDU6SXNzdWU3NTc0ODkwMzk=",
+      "title": "Chore: Replace deprecated Dropdown components with Select",
+      "url": "https://github.com/newrelic/nr1-groundskeeper/issues/52",
+      "createdAt": "2020-12-05T00:23:27Z",
       "comments": {
-        "totalCount": 3
+        "totalCount": 0
       },
       "author": {
-        "login": "xrismck",
-        "id": "MDQ6VXNlcjE1NjYyNDg1",
+        "login": "fightingmonk",
+        "id": "MDQ6VXNlcjQ4MjY3MQ==",
         "email": "",
-        "name": "Chris McKenna"
+        "name": "Jonathan Karon"
       },
-      "number": 9,
-      "createdBy": "Chris McKenna"
+      "number": 52,
+      "createdBy": "Jonathan Karon"
     }
   ],
   "cachedContributors": [
