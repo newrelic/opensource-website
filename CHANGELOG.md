@@ -1,3 +1,13 @@
+## [1.9.6](https://github.com/newrelic/opensource-website/compare/v1.9.5...v1.9.6) (2020-12-08)
+
+
+### Bug Fixes
+
+* upgrade @newrelic/gatsby-theme-newrelic ([5181e64](https://github.com/newrelic/opensource-website/commit/5181e64bb79387efb82189e2ae79f739902b195b))
+* upgrade gatsby-plugin-manifest ([9894060](https://github.com/newrelic/opensource-website/commit/98940609d5c8de1f213361ce7769fd0d7801777c))
+* upgrade gatsby-plugin-sharp ([5a82bd8](https://github.com/newrelic/opensource-website/commit/5a82bd85e8149abe4fa44ebf6b91526d6e5ed1d0))
+* use the CookieConsentDialog from the theme ([a0b992a](https://github.com/newrelic/opensource-website/commit/a0b992af586d945213e7ec4b160e2dfd603df343))
+
 ## [1.9.5](https://github.com/newrelic/opensource-website/compare/v1.9.4...v1.9.5) (2020-11-20)
 
 
