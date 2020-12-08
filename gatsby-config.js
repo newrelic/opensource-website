@@ -150,24 +150,5 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
-    {
-      resolve: 'gatsby-plugin-gdpr-tracking',
-      options: {
-        // logging to the console, if debug is true
-        debug: false,
-        googleAnalytics: {
-          // The property ID; the tracking code won't be generated without it.
-          trackingId: 'UA-3047412-33',
-          // Defines it google analytics should be started with out the cookie consent
-          autoStart: false, // <--- default
-          // Setting this parameter is optional
-          anonymize: true, // <--- default
-          // Name of the cookie, that enables the tracking if it is true
-          controlCookieName: 'newrelic-gdpr-consent', // <--- default
-          cookieFlags: 'secure;samesite=none', // <--- default
-        },
-        environments: ['production', 'development'],
-      },
-    },
   ],
 };
