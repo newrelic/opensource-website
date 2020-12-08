@@ -1,38 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 63
+    "open": 61
   },
   "releases": 50,
   "latestRelease": {
     "name": "v8.35.0",
     "date": "2020-11-10T22:25:12Z"
   },
-  "commits": 235,
-  "lastSixMonthsCommitTotal": 200,
+  "commits": 237,
+  "lastSixMonthsCommitTotal": 202,
   "contributors": 13,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2ODMwODAxMjg=",
-      "title": "appsettings.json file not found for .NET Core app hosted in Windows Service or InProcess IIS",
-      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/116",
-      "createdAt": "2020-08-20T20:36:28Z",
-      "comments": {
-        "totalCount": 3
-      },
-      "author": {
-        "login": "lspangler584",
-        "id": "MDQ6VXNlcjIwMjY3OTc1",
-        "email": "",
-        "name": null
-      },
-      "number": 116,
-      "createdBy": "lspangler584"
-    },
     {
       "id": "MDU6SXNzdWU2ODMxMjkyNDk=",
       "title": "Reduce string allocations in BrowserMonitoringWriter",
@@ -65,6 +48,23 @@
         "name": null
       },
       "number": 122,
+      "createdBy": "lspangler584"
+    },
+    {
+      "id": "MDU6SXNzdWU2ODM2NDY3NzU=",
+      "title": "Stop using Exceptions for flow control",
+      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/131",
+      "createdAt": "2020-08-21T15:36:21Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "lspangler584",
+        "id": "MDQ6VXNlcjIwMjY3OTc1",
+        "email": "",
+        "name": null
+      },
+      "number": 131,
       "createdBy": "lspangler584"
     }
   ],
@@ -130,7 +130,7 @@
       "login": "lspangler584",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/20267975?v=4",
       "htmlUrl": "https://github.com/lspangler584",
-      "contributions": 22
+      "contributions": 23
     },
     {
       "id": 6098021,
@@ -158,7 +158,7 @@
       "login": "nr-ahemsath",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/57361211?v=4",
       "htmlUrl": "https://github.com/nr-ahemsath",
-      "contributions": 43
+      "contributions": 44
     }
   ],
   "languages": [
