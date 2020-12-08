@@ -1,38 +1,21 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 26
+    "open": 23
   },
   "releases": 61,
   "latestRelease": {
     "name": "v1.9.6",
     "date": "2020-12-08T06:28:20Z"
   },
-  "commits": 2285,
-  "lastSixMonthsCommitTotal": 1633,
+  "commits": 2286,
+  "lastSixMonthsCommitTotal": 1634,
   "contributors": 57,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MTY3NjQ3MTM=",
-      "title": "Add \"swooshes\" from mockups into the site",
-      "url": "https://github.com/newrelic/opensource-website/issues/368",
-      "createdAt": "2020-05-12T15:47:51Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "danielgolden",
-        "id": "MDQ6VXNlcjgxMjk4OQ==",
-        "email": "",
-        "name": "Daniel Golden"
-      },
-      "number": 368,
-      "createdBy": "Daniel Golden"
-    },
     {
       "id": "MDU6SXNzdWU2Mjg4Nzg4ODA=",
       "title": "Provide a one-click starring experience",
@@ -66,6 +49,23 @@
       },
       "number": 463,
       "createdBy": "Michael Frederick"
+    },
+    {
+      "id": "MDU6SXNzdWU2NjM5ODk4NzI=",
+      "title": "On mobile, the global nav (top 40ish pixels) experience is different from developer.newrelic.com",
+      "url": "https://github.com/newrelic/opensource-website/issues/556",
+      "createdAt": "2020-07-22T19:14:34Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "tangollama",
+        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "email": "",
+        "name": "Joel Worrall"
+      },
+      "number": 556,
+      "createdBy": "Joel Worrall"
     }
   ],
   "cachedContributors": [
@@ -466,7 +466,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 1084
+      "contributions": 1085
     }
   ],
   "languages": [
