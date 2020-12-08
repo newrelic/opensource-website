@@ -15,6 +15,7 @@ module.exports = {
     {
       resolve: '@newrelic/gatsby-theme-newrelic',
       options: {
+        gaTrackingId: 'UA-3047412-33',
         layout: {
           // 1180px (width) + 28px (padding) * 2 (left/right side)
           maxWidth: '1236px',
