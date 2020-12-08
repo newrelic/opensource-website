@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Adopt OpenJDK Renders correctly 1`] = `
-.emotion-132 {
+.emotion-141 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -38,7 +38,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-71 {
-  height: 36px;
+  height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -143,13 +143,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-22 {
+  width: 1rem;
+  height: 1rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1rem;
-  height: 1rem;
 }
 
 .emotion-27 {
@@ -811,10 +811,10 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-multi-checkbox-facet__option-label {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -840,7 +840,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 .emotion-26 .sui-multi-checkbox-facet__option-count {
   color: #888888;
   font-size: 0.85em;
-  margin-left: 24px;
+  margin: 0 20px 0 5px;
 }
 
 .emotion-26 .sui-facet-view-more {
@@ -1682,13 +1682,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-58 {
+  width: 1em;
+  height: 1em;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1em;
-  height: 1em;
   stroke: var(--primary-text-color);
   height: var(--icon-size);
   width: var(--icon-size);
@@ -1720,13 +1720,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-64 {
+  width: 0.875rem;
+  height: 0.875rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 0.875rem;
-  height: 0.875rem;
   cursor: pointer;
   display: block;
   cursor: pointer;
@@ -2039,13 +2039,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-123 {
+  width: 1em;
+  height: 1em;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1em;
-  height: 1em;
   margin-right: 0.5rem;
 }
 
@@ -2118,8 +2118,206 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   white-space: nowrap;
 }
 
+.emotion-140 {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+  background-color: rgba(28,42,47,0.92);
+  box-shadow: 0px -0.249053px 4.26158px rgba(12,48,57,0.0421718),0px -0.598509px 10.2412px rgba(12,48,57,0.0605839),0px -1.12694px 19.2832px rgba(12,48,57,0.075),0px -2.01027px 34.3 979px rgba(12,48,57,0.0894161),0px -3.75998px 64.3375px rgba(12,48,57,0.107828),0px -9px 154px rgba(12,48,57,0.15);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.dark-mode .emotion-140 {
+  background-color: rgba(15,25,28,0.92);
+  box-shadow: 0 -1px 0 rgba(55,72,78,0.4);
+}
+
+.emotion-139 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 1180px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 1.125rem 0;
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-139 {
+    width: 100%;
+    padding: 1.125rem 1.75rem;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .emotion-139 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-132 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 2px;
+  line-height: 21px;
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-132 {
+    margin-bottom: 0.375rem;
+  }
+}
+
+.emotion-133 {
+  margin: 0 0 0px;
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--accent-text-color);
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-133 {
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-133 {
+    margin-bottom: 1rem;
+  }
+}
+
+.emotion-138 {
+  margin-left: 1rem;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.emotion-134 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  color: var(--color-white);
+  background-color: var(--color-brand-600);
+  margin-right: 10px;
+  padding: 0.625rem 1.75rem;
+}
+
+.emotion-134:hover {
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+}
+
+.emotion-134:hover {
+  color: var(--color-white);
+  background-color: var(--color-brand-500);
+}
+
+@media screen and (max-width:480px) {
+  .emotion-134 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.emotion-136 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  color: var(--color-neutrals-700);
+  background-color: var(--color-neutrals-100);
+  padding: 0.625rem 1rem;
+}
+
+.emotion-136:hover {
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+}
+
+.emotion-136:hover {
+  color: var(--color-brand-600);
+  background: rgba(112,204,210,0.17);
+}
+
+.dark-mode .emotion-136 {
+  color: var(--color-dark-700);
+  background-color: var(--color-dark-200);
+}
+
+.dark-mode .emotion-136:hover {
+  color: var(--color-brand-200);
+  background-color: rgba(112,204,210,0.17);
+}
+
+@media screen and (max-width:480px) {
+  .emotion-136 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
 <div
-  className="projectPageLayout emotion-132"
+  className="projectPageLayout emotion-141"
 >
   <div
     className=" emotion-72"
@@ -2363,7 +2561,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
               className="emotion-59 emotion-60"
               onChange={[Function]}
               onKeyDown={[Function]}
-              placeholder="Search"
+              placeholder="Search Docs, Developer, Open Source"
               size="small"
               type="text"
               value=""
@@ -2751,6 +2949,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="emotion-128"
         >
           <a
+            href="https://newrelic.com/about/careers"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Careers
+          </a>
+          <a
             href="https://newrelic.com/termsandconditions/terms"
             rel="noopener noreferrer"
             target="_blank"
@@ -2789,11 +2994,67 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
       </div>
     </div>
   </footer>
+  <div
+    className="emotion-140"
+  >
+    <div
+      className="emotion-139"
+    >
+      <div>
+        <h4
+          className="emotion-132"
+        >
+          This site uses cookies
+           
+          <span
+            aria-label="Cookie emoji"
+            role="img"
+          >
+            🍪
+          </span>
+        </h4>
+        <p
+          className="emotion-133"
+        >
+          We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more
+           
+          <a
+            href="https://newrelic.com/termsandconditions/cookie-policy"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            here
+          </a>
+          . If you consent to our cookies, please click 
+          <strong>
+            Yes
+          </strong>
+          .
+        </p>
+      </div>
+      <div
+        className="emotion-138"
+      >
+        <button
+          className="emotion-134 emotion-68"
+          onClick={[Function]}
+        >
+          Yes
+        </button>
+        <button
+          className="emotion-136 emotion-68"
+          onClick={[Function]}
+        >
+          No
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`Open Telemetry Page Renders correctly 1`] = `
-.emotion-132 {
+.emotion-141 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2830,7 +3091,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-71 {
-  height: 36px;
+  height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2935,13 +3196,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-22 {
+  width: 1rem;
+  height: 1rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1rem;
-  height: 1rem;
 }
 
 .emotion-27 {
@@ -3603,10 +3864,10 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-multi-checkbox-facet__option-label {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -3632,7 +3893,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 .emotion-26 .sui-multi-checkbox-facet__option-count {
   color: #888888;
   font-size: 0.85em;
-  margin-left: 24px;
+  margin: 0 20px 0 5px;
 }
 
 .emotion-26 .sui-facet-view-more {
@@ -4474,13 +4735,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-58 {
+  width: 1em;
+  height: 1em;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1em;
-  height: 1em;
   stroke: var(--primary-text-color);
   height: var(--icon-size);
   width: var(--icon-size);
@@ -4512,13 +4773,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-64 {
+  width: 0.875rem;
+  height: 0.875rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 0.875rem;
-  height: 0.875rem;
   cursor: pointer;
   display: block;
   cursor: pointer;
@@ -4831,13 +5092,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-123 {
+  width: 1em;
+  height: 1em;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1em;
-  height: 1em;
   margin-right: 0.5rem;
 }
 
@@ -4910,8 +5171,206 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   white-space: nowrap;
 }
 
+.emotion-140 {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+  background-color: rgba(28,42,47,0.92);
+  box-shadow: 0px -0.249053px 4.26158px rgba(12,48,57,0.0421718),0px -0.598509px 10.2412px rgba(12,48,57,0.0605839),0px -1.12694px 19.2832px rgba(12,48,57,0.075),0px -2.01027px 34.3 979px rgba(12,48,57,0.0894161),0px -3.75998px 64.3375px rgba(12,48,57,0.107828),0px -9px 154px rgba(12,48,57,0.15);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.dark-mode .emotion-140 {
+  background-color: rgba(15,25,28,0.92);
+  box-shadow: 0 -1px 0 rgba(55,72,78,0.4);
+}
+
+.emotion-139 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 1180px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 1.125rem 0;
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-139 {
+    width: 100%;
+    padding: 1.125rem 1.75rem;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .emotion-139 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-132 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 2px;
+  line-height: 21px;
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-132 {
+    margin-bottom: 0.375rem;
+  }
+}
+
+.emotion-133 {
+  margin: 0 0 0px;
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--accent-text-color);
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-133 {
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-133 {
+    margin-bottom: 1rem;
+  }
+}
+
+.emotion-138 {
+  margin-left: 1rem;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.emotion-134 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  color: var(--color-white);
+  background-color: var(--color-brand-600);
+  margin-right: 10px;
+  padding: 0.625rem 1.75rem;
+}
+
+.emotion-134:hover {
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+}
+
+.emotion-134:hover {
+  color: var(--color-white);
+  background-color: var(--color-brand-500);
+}
+
+@media screen and (max-width:480px) {
+  .emotion-134 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.emotion-136 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  color: var(--color-neutrals-700);
+  background-color: var(--color-neutrals-100);
+  padding: 0.625rem 1rem;
+}
+
+.emotion-136:hover {
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+}
+
+.emotion-136:hover {
+  color: var(--color-brand-600);
+  background: rgba(112,204,210,0.17);
+}
+
+.dark-mode .emotion-136 {
+  color: var(--color-dark-700);
+  background-color: var(--color-dark-200);
+}
+
+.dark-mode .emotion-136:hover {
+  color: var(--color-brand-200);
+  background-color: rgba(112,204,210,0.17);
+}
+
+@media screen and (max-width:480px) {
+  .emotion-136 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
 <div
-  className="projectPageLayout emotion-132"
+  className="projectPageLayout emotion-141"
 >
   <div
     className=" emotion-72"
@@ -5155,7 +5614,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
               className="emotion-59 emotion-60"
               onChange={[Function]}
               onKeyDown={[Function]}
-              placeholder="Search"
+              placeholder="Search Docs, Developer, Open Source"
               size="small"
               type="text"
               value=""
@@ -5543,6 +6002,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="emotion-128"
         >
           <a
+            href="https://newrelic.com/about/careers"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Careers
+          </a>
+          <a
             href="https://newrelic.com/termsandconditions/terms"
             rel="noopener noreferrer"
             target="_blank"
@@ -5581,11 +6047,67 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
       </div>
     </div>
   </footer>
+  <div
+    className="emotion-140"
+  >
+    <div
+      className="emotion-139"
+    >
+      <div>
+        <h4
+          className="emotion-132"
+        >
+          This site uses cookies
+           
+          <span
+            aria-label="Cookie emoji"
+            role="img"
+          >
+            🍪
+          </span>
+        </h4>
+        <p
+          className="emotion-133"
+        >
+          We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more
+           
+          <a
+            href="https://newrelic.com/termsandconditions/cookie-policy"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            here
+          </a>
+          . If you consent to our cookies, please click 
+          <strong>
+            Yes
+          </strong>
+          .
+        </p>
+      </div>
+      <div
+        className="emotion-138"
+      >
+        <button
+          className="emotion-134 emotion-68"
+          onClick={[Function]}
+        >
+          Yes
+        </button>
+        <button
+          className="emotion-136 emotion-68"
+          onClick={[Function]}
+        >
+          No
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 `;
 
 exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
-.emotion-143 {
+.emotion-148 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5622,7 +6144,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-78 {
-  height: 36px;
+  height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5727,13 +6249,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-22 {
+  width: 1rem;
+  height: 1rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1rem;
-  height: 1rem;
 }
 
 .emotion-34 {
@@ -6395,10 +6917,10 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-33 .sui-multi-checkbox-facet__option-label {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -6424,7 +6946,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 .emotion-33 .sui-multi-checkbox-facet__option-count {
   color: #888888;
   font-size: 0.85em;
-  margin-left: 24px;
+  margin: 0 20px 0 5px;
 }
 
 .emotion-33 .sui-facet-view-more {
@@ -7266,13 +7788,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-27 {
+  width: 1em;
+  height: 1em;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1em;
-  height: 1em;
   stroke: var(--primary-text-color);
   height: var(--icon-size);
   width: var(--icon-size);
@@ -7304,13 +7826,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-71 {
+  width: 0.875rem;
+  height: 0.875rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 0.875rem;
-  height: 0.875rem;
   cursor: pointer;
   display: block;
   cursor: pointer;
@@ -7623,13 +8145,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-130 {
+  width: 1em;
+  height: 1em;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1em;
-  height: 1em;
   margin-right: 0.5rem;
 }
 
@@ -7702,6 +8224,204 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   white-space: nowrap;
 }
 
+.emotion-147 {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 10000;
+  background-color: rgba(28,42,47,0.92);
+  box-shadow: 0px -0.249053px 4.26158px rgba(12,48,57,0.0421718),0px -0.598509px 10.2412px rgba(12,48,57,0.0605839),0px -1.12694px 19.2832px rgba(12,48,57,0.075),0px -2.01027px 34.3 979px rgba(12,48,57,0.0894161),0px -3.75998px 64.3375px rgba(12,48,57,0.107828),0px -9px 154px rgba(12,48,57,0.15);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.dark-mode .emotion-147 {
+  background-color: rgba(15,25,28,0.92);
+  box-shadow: 0 -1px 0 rgba(55,72,78,0.4);
+}
+
+.emotion-146 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 1180px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 1.125rem 0;
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-146 {
+    width: 100%;
+    padding: 1.125rem 1.75rem;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .emotion-146 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: flex-start;
+    -webkit-box-align: flex-start;
+    -ms-flex-align: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.emotion-139 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 2px;
+  line-height: 21px;
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-139 {
+    margin-bottom: 0.375rem;
+  }
+}
+
+.emotion-140 {
+  margin: 0 0 0px;
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--accent-text-color);
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-140 {
+    line-height: 19px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .emotion-140 {
+    margin-bottom: 1rem;
+  }
+}
+
+.emotion-145 {
+  margin-left: 1rem;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.emotion-141 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  color: var(--color-white);
+  background-color: var(--color-brand-600);
+  margin-right: 10px;
+  padding: 0.625rem 1.75rem;
+}
+
+.emotion-141:hover {
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+}
+
+.emotion-141:hover {
+  color: var(--color-white);
+  background-color: var(--color-brand-500);
+}
+
+@media screen and (max-width:480px) {
+  .emotion-141 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.emotion-143 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  color: var(--color-neutrals-700);
+  background-color: var(--color-neutrals-100);
+  padding: 0.625rem 1rem;
+}
+
+.emotion-143:hover {
+  -webkit-transform: translate3d(0,-1px,0);
+  -ms-transform: translate3d(0,-1px,0);
+  transform: translate3d(0,-1px,0);
+}
+
+.emotion-143:hover {
+  color: var(--color-brand-600);
+  background: rgba(112,204,210,0.17);
+}
+
+.dark-mode .emotion-143 {
+  color: var(--color-dark-700);
+  background-color: var(--color-dark-200);
+}
+
+.dark-mode .emotion-143:hover {
+  color: var(--color-brand-200);
+  background-color: rgba(112,204,210,0.17);
+}
+
+@media screen and (max-width:480px) {
+  .emotion-143 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+}
+
 .emotion-32 .sui-search-box__text-input {
   border: none;
   padding: 0;
@@ -7732,57 +8452,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
 }
 
-.emotion-141 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-neutrals-700);
-  background-color: var(--color-neutrals-100);
-}
-
-.emotion-141:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-141:hover {
-  color: var(--color-brand-600);
-  background: rgba(112,204,210,0.17);
-}
-
-.dark-mode .emotion-141 {
-  color: var(--color-dark-700);
-  background-color: var(--color-dark-200);
-}
-
-.dark-mode .emotion-141:hover {
-  color: var(--color-brand-200);
-  background-color: rgba(112,204,210,0.17);
-}
-
 <div
-  className="projectPageLayout emotion-143"
+  className="projectPageLayout emotion-148"
 >
   <div
     className=" emotion-79"
@@ -7935,7 +8606,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                       onChange={[Function]}
                       onFocus={[Function]}
                       onKeyDown={[Function]}
-                      placeholder="Search"
+                      placeholder="Search Docs, Developer, Open Source"
                       size="large"
                       type="text"
                       value=""
@@ -8084,7 +8755,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
               className="emotion-66 emotion-29"
               onChange={[Function]}
               onKeyDown={[Function]}
-              placeholder="Search"
+              placeholder="Search Docs, Developer, Open Source"
               size="small"
               type="text"
               value=""
@@ -8679,6 +9350,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="emotion-135"
         >
           <a
+            href="https://newrelic.com/about/careers"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Careers
+          </a>
+          <a
             href="https://newrelic.com/termsandconditions/terms"
             rel="noopener noreferrer"
             target="_blank"
@@ -8718,32 +9396,37 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </footer>
   <div
-    className="container "
+    className="emotion-147"
   >
     <div
-      className="content"
+      className="emotion-146"
     >
-      <div
-        className="primaryContent"
-      >
+      <div>
         <h4
-          className="heading"
+          className="emotion-139"
         >
-          This site uses cookies 🍪
+          This site uses cookies
+           
+          <span
+            aria-label="Cookie emoji"
+            role="img"
+          >
+            🍪
+          </span>
         </h4>
         <p
-          className="description"
+          className="emotion-140"
         >
           We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more
            
           <a
             href="https://newrelic.com/termsandconditions/cookie-policy"
-            target="__blank"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             here
           </a>
-          . If you consent to our cookies, please click
-           
+          . If you consent to our cookies, please click 
           <strong>
             Yes
           </strong>
@@ -8751,19 +9434,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </p>
       </div>
       <div
-        className="ctaContainer"
+        className="emotion-145"
       >
         <button
-          className="approvalButton emotion-102 emotion-75"
+          className="emotion-141 emotion-75"
           onClick={[Function]}
-          type="button"
         >
           Yes
         </button>
         <button
-          className="ignoreButton emotion-141 emotion-75"
+          className="emotion-143 emotion-75"
           onClick={[Function]}
-          type="button"
         >
           No
         </button>
