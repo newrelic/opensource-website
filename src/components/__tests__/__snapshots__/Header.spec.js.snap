@@ -26,7 +26,7 @@ Array [
 }
 
 .emotion-71 {
-  height: 36px;
+  height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -131,13 +131,13 @@ Array [
 }
 
 .emotion-22 {
+  width: 1rem;
+  height: 1rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1rem;
-  height: 1rem;
 }
 
 .emotion-27 {
@@ -799,10 +799,10 @@ Array [
 }
 
 .emotion-26 .sui-multi-checkbox-facet__option-label {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -828,7 +828,7 @@ Array [
 .emotion-26 .sui-multi-checkbox-facet__option-count {
   color: #888888;
   font-size: 0.85em;
-  margin-left: 24px;
+  margin: 0 20px 0 5px;
 }
 
 .emotion-26 .sui-facet-view-more {
@@ -1670,13 +1670,13 @@ Array [
 }
 
 .emotion-58 {
+  width: 1em;
+  height: 1em;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 1em;
-  height: 1em;
   stroke: var(--primary-text-color);
   height: var(--icon-size);
   width: var(--icon-size);
@@ -1708,13 +1708,13 @@ Array [
 }
 
 .emotion-64 {
+  width: 0.875rem;
+  height: 0.875rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  width: 0.875rem;
-  height: 0.875rem;
   cursor: pointer;
   display: block;
   cursor: pointer;
@@ -2035,7 +2035,7 @@ Array [
               className="emotion-59 emotion-60"
               onChange={[Function]}
               onKeyDown={[Function]}
-              placeholder="Search"
+              placeholder="Search Docs, Developer, Open Source"
               size="small"
               type="text"
               value=""
