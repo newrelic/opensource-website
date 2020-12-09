@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 46
+    "open": 45
   },
-  "releases": 81,
+  "releases": 82,
   "latestRelease": {
-    "name": "v2.13.5",
-    "date": "2020-11-13T20:10:45Z"
+    "name": "v2.14.0",
+    "date": "2020-12-09T20:04:39Z"
   },
-  "commits": 1303,
-  "lastSixMonthsCommitTotal": 492,
+  "commits": 1309,
+  "lastSixMonthsCommitTotal": 494,
   "contributors": 62,
   "pullRequests": {
-    "open": 7
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -480,7 +480,7 @@
       "login": "renovate-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
       "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 74
+      "contributions": 75
     },
     {
       "id": 29264964,
@@ -501,7 +501,7 @@
       "login": "ctrombley",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
       "htmlUrl": "https://github.com/ctrombley",
-      "contributions": 203
+      "contributions": 205
     }
   ],
   "languages": [
