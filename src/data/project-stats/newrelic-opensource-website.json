@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 22
+    "open": 21
   },
   "releases": 61,
   "latestRelease": {
     "name": "v1.9.6",
     "date": "2020-12-08T06:28:20Z"
   },
-  "commits": 2322,
-  "lastSixMonthsCommitTotal": 1623,
+  "commits": 2325,
+  "lastSixMonthsCommitTotal": 1626,
   "contributors": 57,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -22,7 +22,7 @@
       "url": "https://github.com/newrelic/opensource-website/issues/415",
       "createdAt": "2020-06-02T03:50:05Z",
       "comments": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "author": {
         "login": "tangollama",
@@ -39,7 +39,7 @@
       "url": "https://github.com/newrelic/opensource-website/issues/463",
       "createdAt": "2020-06-17T16:35:44Z",
       "comments": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "author": {
         "login": "devfreddy",
@@ -56,7 +56,7 @@
       "url": "https://github.com/newrelic/opensource-website/issues/556",
       "createdAt": "2020-07-22T19:14:34Z",
       "comments": {
-        "totalCount": 0
+        "totalCount": 1
       },
       "author": {
         "login": "tangollama",
@@ -371,17 +371,17 @@
       "contributions": 4
     },
     {
-      "id": 1395158,
-      "login": "jpvajda",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1395158?v=4",
-      "htmlUrl": "https://github.com/jpvajda",
-      "contributions": 5
-    },
-    {
       "id": 8731013,
       "login": "prototypicalpro",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/8731013?v=4",
       "htmlUrl": "https://github.com/prototypicalpro",
+      "contributions": 6
+    },
+    {
+      "id": 1395158,
+      "login": "jpvajda",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1395158?v=4",
+      "htmlUrl": "https://github.com/jpvajda",
       "contributions": 6
     },
     {
@@ -466,7 +466,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 1121
+      "contributions": 1122
     }
   ],
   "languages": [
