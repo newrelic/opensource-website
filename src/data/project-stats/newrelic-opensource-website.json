@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/opensource-website",
   "issues": {
-    "open": 22
+    "open": 20
   },
   "releases": 61,
   "latestRelease": {
     "name": "v1.9.6",
     "date": "2020-12-08T06:28:20Z"
   },
-  "commits": 2342,
-  "lastSixMonthsCommitTotal": 1526,
+  "commits": 2343,
+  "lastSixMonthsCommitTotal": 1523,
   "contributors": 57,
   "pullRequests": {
     "open": 0
@@ -51,21 +51,21 @@
       "createdBy": "Michael Frederick"
     },
     {
-      "id": "MDU6SXNzdWU2NjM5ODk4NzI=",
-      "title": "On mobile, the global nav (top 40ish pixels) experience is different from developer.newrelic.com",
-      "url": "https://github.com/newrelic/opensource-website/issues/556",
-      "createdAt": "2020-07-22T19:14:34Z",
+      "id": "MDU6SXNzdWU2ODczOTEwNjk=",
+      "title": "Fix URLs in sitemap.xml that redirect to pages with trailing slash",
+      "url": "https://github.com/newrelic/opensource-website/issues/624",
+      "createdAt": "2020-08-27T16:47:24Z",
       "comments": {
         "totalCount": 1
       },
       "author": {
-        "login": "tangollama",
-        "id": "MDQ6VXNlcjkyOTI2MQ==",
+        "login": "roadlittledawn",
+        "id": "MDQ6VXNlcjI5NTI4NDM=",
         "email": "",
-        "name": "Joel Worrall"
+        "name": "Clinton"
       },
-      "number": 556,
-      "createdBy": "Joel Worrall"
+      "number": 624,
+      "createdBy": "Clinton"
     }
   ],
   "cachedContributors": [
@@ -466,7 +466,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 1139
+      "contributions": 1140
     }
   ],
   "languages": [
