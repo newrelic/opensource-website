@@ -8,14 +8,32 @@
     "name": "v9.15.0.293",
     "date": null
   },
-  "commits": 47,
-  "lastSixMonthsCommitTotal": 47,
+  "commits": 48,
+  "lastSixMonthsCommitTotal": 48,
   "contributors": 9,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3NjAyMDEwNzg=",
+      "title": "Guzzle 6 Middleware pushed multiple times, reaching max recursion",
+      "url": "https://github.com/newrelic/newrelic-php-agent/issues/48",
+      "createdAt": "2020-12-09T10:24:10Z",
+      "comments": {
+        "totalCount": 2
+      },
+      "author": {
+        "login": "Starfox64",
+        "id": "MDQ6VXNlcjE1MzA3MjA=",
+        "email": "",
+        "name": "Starfox64"
+      },
+      "number": 48,
+      "createdBy": "Starfox64"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 929261,
@@ -71,7 +89,7 @@
       "login": "joshuabenuck",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/306384?v=4",
       "htmlUrl": "https://github.com/joshuabenuck",
-      "contributions": 10
+      "contributions": 11
     },
     {
       "id": 5200550,
