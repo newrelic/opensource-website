@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-jfr-core",
   "issues": {
-    "open": 14
+    "open": 11
   },
   "releases": 5,
   "latestRelease": {
     "name": "v1.0.0",
     "date": "2020-11-03T17:02:04Z"
   },
-  "commits": 235,
-  "lastSixMonthsCommitTotal": 134,
-  "contributors": 12,
+  "commits": 243,
+  "lastSixMonthsCommitTotal": 142,
+  "contributors": 14,
   "pullRequests": {
-    "open": 6
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -44,6 +44,20 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 2
+    },
+    {
+      "id": 34418638,
+      "login": "jack-berg",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/34418638?v=4",
+      "htmlUrl": "https://github.com/jack-berg",
+      "contributions": 2
+    },
+    {
+      "id": 907624,
+      "login": "ysb33r",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/907624?v=4",
+      "htmlUrl": "https://github.com/ysb33r",
+      "contributions": 3
     },
     {
       "id": 1462042,
@@ -85,7 +99,7 @@
       "login": "gfuller1",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/58712431?v=4",
       "htmlUrl": "https://github.com/gfuller1",
-      "contributions": 5
+      "contributions": 6
     },
     {
       "id": 81539,
@@ -112,6 +126,11 @@
       "id": "MDg6TGFuZ3VhZ2UyNzI=",
       "name": "Kotlin",
       "color": "#F18E33"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
