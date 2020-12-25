@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/developer-website",
   "issues": {
-    "open": 43
+    "open": 34
   },
   "releases": 89,
   "latestRelease": {
@@ -9,47 +9,13 @@
     "date": "2020-12-18T19:49:15Z"
   },
   "commits": 3577,
-  "lastSixMonthsCommitTotal": 2331,
+  "lastSixMonthsCommitTotal": 2330,
   "contributors": 46,
   "pullRequests": {
     "open": 7
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2NDExMDA5ODA=",
-      "title": "Animated GIFs are not supported",
-      "url": "https://github.com/newrelic/developer-website/issues/179",
-      "createdAt": "2020-06-18T10:38:52Z",
-      "comments": {
-        "totalCount": 2
-      },
-      "author": {
-        "login": "theletterf",
-        "id": "MDQ6VXNlcjE3NzM2MTY=",
-        "email": "",
-        "name": "Fabrizio Ferri-Benedetti"
-      },
-      "number": 179,
-      "createdBy": "Fabrizio Ferri-Benedetti"
-    },
-    {
-      "id": "MDU6SXNzdWU2NDM0NDU2NzI=",
-      "title": "Add space between final step and general text.",
-      "url": "https://github.com/newrelic/developer-website/issues/219",
-      "createdAt": "2020-06-23T00:42:21Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "rhetoric101",
-        "id": "MDQ6VXNlcjE4MDQwMjc0",
-        "email": "",
-        "name": "Rob Siebens"
-      },
-      "number": 219,
-      "createdBy": "Rob Siebens"
-    },
     {
       "id": "MDU6SXNzdWU2NDQwODAzNjI=",
       "title": "Automatic code formatting is a bit too aggressive",
@@ -66,6 +32,40 @@
       },
       "number": 222,
       "createdBy": "Jerel Miller"
+    },
+    {
+      "id": "MDU6SXNzdWU2NTg0MzY3Nzg=",
+      "title": "Be consistent with how we document the PlatformStateContext objects for platformUrlState and platformState",
+      "url": "https://github.com/newrelic/developer-website/issues/452",
+      "createdAt": "2020-07-16T18:14:35Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "jpvajda",
+        "id": "MDQ6VXNlcjEzOTUxNTg=",
+        "email": "",
+        "name": "John P Vajda"
+      },
+      "number": 452,
+      "createdBy": "John P Vajda"
+    },
+    {
+      "id": "MDU6SXNzdWU2NTg1Nzk0Mzg=",
+      "title": "Make How To Guides for elements common to applications, like a a navigation bar, etc",
+      "url": "https://github.com/newrelic/developer-website/issues/453",
+      "createdAt": "2020-07-16T21:18:43Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "jpvajda",
+        "id": "MDQ6VXNlcjEzOTUxNTg=",
+        "email": "",
+        "name": "John P Vajda"
+      },
+      "number": 453,
+      "createdBy": "John P Vajda"
     }
   ],
   "cachedContributors": [
