@@ -3,13 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "v0.1-alpha",
-    "date": "2020-11-20T23:55:37Z"
+    "name": "0.3",
+    "date": "2020-12-30T06:17:29Z"
   },
-  "commits": 71,
-  "lastSixMonthsCommitTotal": 71,
+  "commits": 143,
+  "lastSixMonthsCommitTotal": 143,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -29,7 +29,7 @@
       "login": "vulogov",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/2127420?v=4",
       "htmlUrl": "https://github.com/vulogov",
-      "contributions": 65
+      "contributions": 135
     }
   ],
   "languages": [
@@ -42,6 +42,11 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
