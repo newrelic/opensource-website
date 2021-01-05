@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 2,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 1,
+  "commits": 3,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 17014899,
+      "login": "preddy-newrelic",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/17014899?v=4",
+      "htmlUrl": "https://github.com/preddy-newrelic",
+      "contributions": 1
+    },
     {
       "id": 3536684,
       "login": "sschwartzman",
@@ -22,7 +29,23 @@
       "contributions": 2
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
