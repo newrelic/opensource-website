@@ -3,10 +3,13 @@
   "issues": {
     "open": 7
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 48,
-  "lastSixMonthsCommitTotal": 48,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.0",
+    "date": "2021-01-04T21:39:46Z"
+  },
+  "commits": 50,
+  "lastSixMonthsCommitTotal": 50,
   "contributors": 4,
   "pullRequests": {
     "open": 0
@@ -40,7 +43,7 @@
       "login": "fightingmonk",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/482671?v=4",
       "htmlUrl": "https://github.com/fightingmonk",
-      "contributions": 14
+      "contributions": 15
     }
   ],
   "languages": [
