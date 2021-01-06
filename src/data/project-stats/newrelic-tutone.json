@@ -1,21 +1,39 @@
 {
   "projectFullName": "newrelic/tutone",
   "issues": {
-    "open": 4
+    "open": 5
   },
   "releases": 15,
   "latestRelease": {
     "name": "v0.5.0",
     "date": "2021-01-04T19:32:12Z"
   },
-  "commits": 360,
-  "lastSixMonthsCommitTotal": 346,
+  "commits": 362,
+  "lastSixMonthsCommitTotal": 348,
   "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3ODA3MjUwNTI=",
+      "title": "Update tool dep management",
+      "url": "https://github.com/newrelic/tutone/issues/137",
+      "createdAt": "2021-01-06T17:31:48Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jthurman42",
+        "id": "MDQ6VXNlcjQ1NTQxOQ==",
+        "email": "",
+        "name": "Jonathan Thurman"
+      },
+      "number": 137,
+      "createdBy": "Jonathan Thurman"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 7197435,
@@ -29,7 +47,7 @@
       "login": "renovate-bot",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/25180681?v=4",
       "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 30
+      "contributions": 31
     },
     {
       "id": 2590905,
