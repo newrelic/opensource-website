@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-jfr-core",
   "issues": {
-    "open": 14
+    "open": 12
   },
   "releases": 5,
   "latestRelease": {
     "name": "v1.0.0",
     "date": "2020-11-03T17:02:04Z"
   },
-  "commits": 243,
-  "lastSixMonthsCommitTotal": 133,
+  "commits": 253,
+  "lastSixMonthsCommitTotal": 143,
   "contributors": 14,
   "pullRequests": {
-    "open": 5
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -46,13 +46,6 @@
       "contributions": 2
     },
     {
-      "id": 34418638,
-      "login": "jack-berg",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/34418638?v=4",
-      "htmlUrl": "https://github.com/jack-berg",
-      "contributions": 2
-    },
-    {
       "id": 907624,
       "login": "ysb33r",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/907624?v=4",
@@ -81,13 +74,6 @@
       "contributions": 3
     },
     {
-      "id": 24482401,
-      "login": "XiXiaPdx",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/24482401?v=4",
-      "htmlUrl": "https://github.com/XiXiaPdx",
-      "contributions": 3
-    },
-    {
       "id": 42678939,
       "login": "bradleycamacho",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/42678939?v=4",
@@ -95,11 +81,25 @@
       "contributions": 4
     },
     {
+      "id": 24482401,
+      "login": "XiXiaPdx",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/24482401?v=4",
+      "htmlUrl": "https://github.com/XiXiaPdx",
+      "contributions": 5
+    },
+    {
       "id": 58712431,
       "login": "gfuller1",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/58712431?v=4",
       "htmlUrl": "https://github.com/gfuller1",
       "contributions": 6
+    },
+    {
+      "id": 34418638,
+      "login": "jack-berg",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/34418638?v=4",
+      "htmlUrl": "https://github.com/jack-berg",
+      "contributions": 8
     },
     {
       "id": 81539,
@@ -126,11 +126,6 @@
       "id": "MDg6TGFuZ3VhZ2UyNzI=",
       "name": "Kotlin",
       "color": "#F18E33"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
     }
   ],
   "screenshots": [],
