@@ -1,29 +1,40 @@
 {
   "projectFullName": "newrelic/nri-prometheus",
   "issues": {
-    "open": 14
+    "open": 20
   },
-  "releases": 12,
+  "releases": 19,
   "latestRelease": {
-    "name": "v2.0.1",
-    "date": "2020-08-12T13:43:13Z"
+    "name": "v2.4.0",
+    "date": "2021-01-11T16:16:49Z"
   },
-  "commits": 61,
-  "lastSixMonthsCommitTotal": 29,
-  "contributors": 13,
+  "commits": 105,
+  "lastSixMonthsCommitTotal": 60,
+  "contributors": 15,
   "pullRequests": {
     "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
-  "cachedContributors": [
+  "cachedIssues": [
     {
-      "id": 1773616,
-      "login": "theletterf",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
-      "htmlUrl": "https://github.com/theletterf",
-      "contributions": 1
-    },
+      "id": "MDU6SXNzdWU3MDIwMTcyNjI=",
+      "title": "Make HarvestTimeout configurable",
+      "url": "https://github.com/newrelic/nri-prometheus/issues/81",
+      "createdAt": "2020-09-15T15:10:21Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "paologallinaharbur",
+        "id": "MDQ6VXNlcjQzMzM1NzUw",
+        "email": "",
+        "name": "PaoloGallina"
+      },
+      "number": 81,
+      "createdBy": "PaoloGallina"
+    }
+  ],
+  "cachedContributors": [
     {
       "id": 929261,
       "login": "tangollama",
@@ -53,10 +64,10 @@
       "contributions": 1
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
+      "id": 6677058,
+      "login": "bruecktech",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/6677058?v=4",
+      "htmlUrl": "https://github.com/bruecktech",
       "contributions": 1
     },
     {
@@ -67,20 +78,6 @@
       "contributions": 3
     },
     {
-      "id": 2054195,
-      "login": "ardias",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
-      "htmlUrl": "https://github.com/ardias",
-      "contributions": 3
-    },
-    {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 5
-    },
-    {
       "id": 717815,
       "login": "carlosroman",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
@@ -88,11 +85,18 @@
       "contributions": 5
     },
     {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 5
+    },
+    {
       "id": 503802,
       "login": "jorik",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/503802?v=4",
       "htmlUrl": "https://github.com/jorik",
-      "contributions": 7
+      "contributions": 8
     },
     {
       "id": 159076,
@@ -100,6 +104,34 @@
       "avatarUrl": "https://avatars1.githubusercontent.com/u/159076?v=4",
       "htmlUrl": "https://github.com/douglascamata",
       "contributions": 9
+    },
+    {
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
+      "contributions": 10
+    },
+    {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 10
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 13
+    },
+    {
+      "id": 2054195,
+      "login": "ardias",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
+      "htmlUrl": "https://github.com/ardias",
+      "contributions": 13
     },
     {
       "id": 5297542,
@@ -124,6 +156,21 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MzE=",
+      "name": "Smarty",
+      "color": null
     }
   ],
   "screenshots": [],

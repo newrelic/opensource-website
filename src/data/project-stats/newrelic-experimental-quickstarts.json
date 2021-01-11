@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 54,
-  "lastSixMonthsCommitTotal": 54,
-  "contributors": 4,
+  "commits": 177,
+  "lastSixMonthsCommitTotal": 125,
+  "contributors": 6,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
     {
       "id": 929261,
       "login": "tangollama",
@@ -29,6 +36,13 @@
       "contributions": 2
     },
     {
+      "id": 3629903,
+      "login": "danifitz",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/3629903?v=4",
+      "htmlUrl": "https://github.com/danifitz",
+      "contributions": 4
+    },
+    {
       "id": 30831476,
       "login": "thezackm",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/30831476?v=4",
@@ -40,7 +54,7 @@
       "login": "kidk",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/184273?v=4",
       "htmlUrl": "https://github.com/kidk",
-      "contributions": 37
+      "contributions": 148
     }
   ],
   "languages": [
@@ -60,9 +74,9 @@
       "color": "#e34c26"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [],

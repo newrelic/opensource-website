@@ -1,19 +1,61 @@
 {
   "projectFullName": "newrelic/docs-website",
   "issues": {
-    "open": 19
+    "open": 72
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 42,
-  "lastSixMonthsCommitTotal": 42,
-  "contributors": 5,
+  "commits": 1463,
+  "lastSixMonthsCommitTotal": 1463,
+  "contributors": 10,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3NDkyMDQyMjQ=",
+      "title": "Add Docker instructions for stopping infrastructure agent",
+      "url": "https://github.com/newrelic/docs-website/issues/309",
+      "createdAt": "2020-11-23T23:33:51Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "austin-schaefer",
+        "id": "MDQ6VXNlcjU1MjAzNjAz",
+        "email": "",
+        "name": "Austin Schaefer"
+      },
+      "number": 309,
+      "createdBy": "Austin Schaefer"
+    },
+    {
+      "id": "MDU6SXNzdWU3NDkyMDUxNzk=",
+      "title": "Alerts (Webhook Payload): Improve JSON example",
+      "url": "https://github.com/newrelic/docs-website/issues/310",
+      "createdAt": "2020-11-23T23:36:16Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "austin-schaefer",
+        "id": "MDQ6VXNlcjU1MjAzNjAz",
+        "email": "",
+        "name": "Austin Schaefer"
+      },
+      "number": 310,
+      "createdBy": "Austin Schaefer"
+    }
+  ],
   "cachedContributors": [
+    {
+      "id": 6151131,
+      "login": "mrjameshamilton",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/6151131?v=4",
+      "htmlUrl": "https://github.com/mrjameshamilton",
+      "contributions": 1
+    },
     {
       "id": 197140,
       "login": "devfreddy",
@@ -22,32 +64,60 @@
       "contributions": 1
     },
     {
-      "id": 1946433,
-      "login": "zstix",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1946433?v=4",
-      "htmlUrl": "https://github.com/zstix",
-      "contributions": 3
+      "id": 58010132,
+      "login": "mmfred",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/58010132?v=4",
+      "htmlUrl": "https://github.com/mmfred",
+      "contributions": 2
     },
     {
-      "id": 2952843,
-      "login": "roadlittledawn",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2952843?v=4",
-      "htmlUrl": "https://github.com/roadlittledawn",
-      "contributions": 6
+      "id": 55203603,
+      "login": "austin-schaefer",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/55203603?v=4",
+      "htmlUrl": "https://github.com/austin-schaefer",
+      "contributions": 8
+    },
+    {
+      "id": 7992384,
+      "login": "paperclypse",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/7992384?v=4",
+      "htmlUrl": "https://github.com/paperclypse",
+      "contributions": 21
+    },
+    {
+      "id": 1395158,
+      "login": "jpvajda",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1395158?v=4",
+      "htmlUrl": "https://github.com/jpvajda",
+      "contributions": 26
     },
     {
       "id": 38332422,
       "login": "caylahamann",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/38332422?v=4",
       "htmlUrl": "https://github.com/caylahamann",
-      "contributions": 8
+      "contributions": 68
+    },
+    {
+      "id": 1946433,
+      "login": "zstix",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1946433?v=4",
+      "htmlUrl": "https://github.com/zstix",
+      "contributions": 149
+    },
+    {
+      "id": 2952843,
+      "login": "roadlittledawn",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/2952843?v=4",
+      "htmlUrl": "https://github.com/roadlittledawn",
+      "contributions": 152
     },
     {
       "id": 565661,
       "login": "jerelmiller",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/565661?v=4",
       "htmlUrl": "https://github.com/jerelmiller",
-      "contributions": 13
+      "contributions": 778
     }
   ],
   "languages": [
@@ -59,11 +129,11 @@
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTI=",
-    "name": "Apache License 2.0",
-    "spdxId": "Apache-2.0",
-    "url": "http://choosealicense.com/licenses/apache-2.0/",
-    "featured": true,
-    "key": "apache-2.0"
+    "id": "MDc6TGljZW5zZTA=",
+    "name": "Other",
+    "spdxId": "NOASSERTION",
+    "url": "http://choosealicense.com/licenses/other/",
+    "featured": false,
+    "key": "other"
   }
 }

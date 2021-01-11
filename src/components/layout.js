@@ -1,19 +1,15 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from 'react';
 import PropTypes from 'prop-types';
+import { css } from '@emotion/core';
 import { Helmet } from 'react-helmet';
 
 import Header from './Header';
-import Footer from './Footer';
 import './styles.scss';
 import favicon from '../images/favicon.svg';
-import CookieApprovalDialog from './CookieApprovalDialog';
+import {
+  GlobalFooter,
+  CookieConsentDialog,
+} from '@newrelic/gatsby-theme-newrelic';
 
 const Layout = ({
   children,
@@ -24,20 +20,46 @@ const Layout = ({
   editLink,
 }) => {
   return (
-    <div className={`layout-container ${className}`}>
+    <div
+      className={className}
+      css={css`
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        overflow: hidden;
+        position: relative;
+      `}
+    >
       <Helmet>
         <link rel="icon" href={favicon} />
       </Helmet>
       <Header hasHeaderBg={hasHeaderBg} editLink={editLink} />
       <main
-        className={`layout-container-main ${fullWidth ? `full-width` : ''} ${
-          mainClassName && mainClassName
-        }`}
+        className={mainClassName}
+        css={css`
+          width: 100%;
+          max-width: 980px;
+          margin: 0 auto;
+          flex-grow: 1;
+          flex-shrink: 0; // because nested flexbox elements in safari are buggy
+
+          & > hr {
+            height: 2px;
+            margin: 36px 0;
+            background-color: var(--color-neutrals-200);
+            border: none;
+          }
+
+          ${fullWidth &&
+          css`
+            max-width: 1180px;
+          `}
+        `}
       >
         {children}
       </main>
-      <Footer editLink={editLink} />
-      <CookieApprovalDialog />
+      <GlobalFooter fileRelativePath={editLink} />
+      <CookieConsentDialog />
     </div>
   );
 };

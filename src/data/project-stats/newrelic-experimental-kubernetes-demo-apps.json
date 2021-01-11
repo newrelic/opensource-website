@@ -1,19 +1,26 @@
 {
   "projectFullName": "newrelic-experimental/kubernetes-demo-apps",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 12,
-  "lastSixMonthsCommitTotal": 12,
-  "contributors": 2,
+  "commits": 52,
+  "lastSixMonthsCommitTotal": 52,
+  "contributors": 4,
   "pullRequests": {
-    "open": 0
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
     {
       "id": 812989,
       "login": "danielgolden",
@@ -26,7 +33,14 @@
       "login": "kidk",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/184273?v=4",
       "htmlUrl": "https://github.com/kidk",
-      "contributions": 6
+      "contributions": 15
+    },
+    {
+      "id": 45029322,
+      "login": "polfliet",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/45029322?v=4",
+      "htmlUrl": "https://github.com/polfliet",
+      "contributions": 29
     }
   ],
   "languages": [
@@ -41,14 +55,14 @@
       "color": "#f1e05a"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2U0MTc=",
-      "name": "HTML",
-      "color": "#e34c26"
-    },
-    {
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1NjU=",
+      "name": "Pug",
+      "color": "#a86454"
     }
   ],
   "screenshots": [],

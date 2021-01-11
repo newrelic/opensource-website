@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql, Link } from 'gatsby';
-import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
@@ -25,9 +24,6 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -35,7 +31,7 @@ export const query = graphql`
   }
 `;
 
-const NerdpackPage = ({ data }) => {
+const NerdpackPage = ({ data, pageContext }) => {
   // console.debug(data);
   const allProjects = data.allProjects.edges.map((project) => {
     const p = project.node;
@@ -55,7 +51,7 @@ const NerdpackPage = ({ data }) => {
     <Layout
       fullWidth
       className={styles.collectionPage}
-      editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
+      editLink={pageContext.fileRelativePath}
     >
       <SEO title="Open source New Relic One applications" />
       <PageHeading
@@ -146,6 +142,7 @@ const NerdpackPage = ({ data }) => {
 
 NerdpackPage.propTypes = {
   data: PropTypes.object,
+  pageContext: PropTypes.object,
 };
 
 export default NerdpackPage;

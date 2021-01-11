@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/repolinter-action",
   "issues": {
-    "open": 0
+    "open": 1
   },
-  "releases": 19,
+  "releases": 26,
   "latestRelease": {
-    "name": "v1.5.0",
-    "date": "2020-09-10T17:04:53Z"
+    "name": "v1.6.5",
+    "date": "2020-12-29T17:24:49Z"
   },
-  "commits": 172,
-  "lastSixMonthsCommitTotal": 172,
+  "commits": 229,
+  "lastSixMonthsCommitTotal": 229,
   "contributors": 3,
   "pullRequests": {
     "open": 0
@@ -29,14 +29,14 @@
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 16
+      "contributions": 23
     },
     {
       "id": 8731013,
       "login": "prototypicalpro",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/8731013?v=4",
       "htmlUrl": "https://github.com/prototypicalpro",
-      "contributions": 99
+      "contributions": 138
     }
   ],
   "languages": [
@@ -49,6 +49,16 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
     }
   ],
   "screenshots": [],

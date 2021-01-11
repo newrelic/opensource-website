@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-layers",
   "issues": {
-    "open": 0
+    "open": 2
   },
-  "releases": 36,
+  "releases": 63,
   "latestRelease": {
-    "name": "v6.12.1_nodejs",
-    "date": "2020-06-29T16:15:14Z"
+    "name": "v7.1.0_nodejs",
+    "date": "2020-12-08T18:43:38Z"
   },
-  "commits": 78,
-  "lastSixMonthsCommitTotal": 8,
-  "contributors": 5,
+  "commits": 96,
+  "lastSixMonthsCommitTotal": 18,
+  "contributors": 6,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
     {
       "id": 13562672,
       "login": "jaesius",
@@ -25,18 +32,18 @@
       "contributions": 1
     },
     {
-      "id": 585473,
-      "login": "MattWhelan",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/585473?v=4",
-      "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 1
-    },
-    {
       "id": 73207,
       "login": "ewindisch",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/73207?v=4",
       "htmlUrl": "https://github.com/ewindisch",
       "contributions": 2
+    },
+    {
+      "id": 585473,
+      "login": "MattWhelan",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/585473?v=4",
+      "htmlUrl": "https://github.com/MattWhelan",
+      "contributions": 5
     },
     {
       "id": 11327,
@@ -50,7 +57,7 @@
       "login": "kolanos",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/17498?v=4",
       "htmlUrl": "https://github.com/kolanos",
-      "contributions": 41
+      "contributions": 45
     }
   ],
   "languages": [

@@ -1,38 +1,21 @@
 {
   "projectFullName": "newrelic/nr1-cloud-optimize",
   "issues": {
-    "open": 6
+    "open": 7
   },
-  "releases": 12,
+  "releases": 16,
   "latestRelease": {
-    "name": "v2.1.4",
-    "date": "2020-09-02T20:29:07Z"
+    "name": "v2.5.0",
+    "date": "2020-11-25T14:52:23Z"
   },
-  "commits": 158,
-  "lastSixMonthsCommitTotal": 64,
+  "commits": 171,
+  "lastSixMonthsCommitTotal": 34,
   "contributors": 16,
   "pullRequests": {
-    "open": 3
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2NjYxOTQwODY=",
-      "title": "Export optimization candidates to CSV",
-      "url": "https://github.com/newrelic/nr1-cloud-optimize/issues/56",
-      "createdAt": "2020-07-27T10:49:36Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "crshanks",
-        "id": "MDQ6VXNlcjQ0NTcxOTA2",
-        "email": "",
-        "name": "Craig Shanks"
-      },
-      "number": 56,
-      "createdBy": "Craig Shanks"
-    },
     {
       "id": "MDU6SXNzdWU2ODIxMzY4OTA=",
       "title": "Add discount multiplier configuration setting",
@@ -144,14 +127,7 @@
       "login": "jbeveland27",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 6
-    },
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 9
+      "contributions": 8
     },
     {
       "id": 929261,
@@ -175,11 +151,18 @@
       "contributions": 12
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 14
+    },
+    {
       "id": 13043208,
       "login": "Kav91",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 61
+      "contributions": 65
     }
   ],
   "languages": [
@@ -192,6 +175,11 @@
       "id": "MDg6TGFuZ3VhZ2UzMDg=",
       "name": "CSS",
       "color": "#563d7c"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [

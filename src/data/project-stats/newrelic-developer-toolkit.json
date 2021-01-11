@@ -1,18 +1,53 @@
 {
   "projectFullName": "newrelic/developer-toolkit",
   "issues": {
-    "open": 6
+    "open": 7
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 92,
-  "lastSixMonthsCommitTotal": 43,
-  "contributors": 5,
+  "commits": 96,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 6,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2MjA1NTQ5MDY=",
+      "title": "NRQL doc for developer.newrelic.com",
+      "url": "https://github.com/newrelic/developer-toolkit/issues/21",
+      "createdAt": "2020-05-18T22:55:33Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "mmfred",
+        "id": "MDQ6VXNlcjU4MDEwMTMy",
+        "email": "",
+        "name": null
+      },
+      "number": 21,
+      "createdBy": "mmfred"
+    },
+    {
+      "id": "MDU6SXNzdWU2MjA1NTg1Nzg=",
+      "title": "NerdGraph doc for developer.newrelic.com",
+      "url": "https://github.com/newrelic/developer-toolkit/issues/22",
+      "createdAt": "2020-05-18T23:05:48Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "mmfred",
+        "id": "MDQ6VXNlcjU4MDEwMTMy",
+        "email": "",
+        "name": null
+      },
+      "number": 22,
+      "createdBy": "mmfred"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 2590905,
@@ -22,10 +57,10 @@
       "contributions": 2
     },
     {
-      "id": 413389,
-      "login": "ctrombley",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
-      "htmlUrl": "https://github.com/ctrombley",
+      "id": 54412777,
+      "login": "carynbaudouxgit",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/54412777?v=4",
+      "htmlUrl": "https://github.com/carynbaudouxgit",
       "contributions": 2
     },
     {
@@ -34,6 +69,13 @@
       "avatarUrl": "https://avatars1.githubusercontent.com/u/522116?v=4",
       "htmlUrl": "https://github.com/markweitzel",
       "contributions": 3
+    },
+    {
+      "id": 413389,
+      "login": "ctrombley",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/413389?v=4",
+      "htmlUrl": "https://github.com/ctrombley",
+      "contributions": 4
     },
     {
       "id": 7197435,

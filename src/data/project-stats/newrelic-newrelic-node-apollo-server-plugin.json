@@ -1,15 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-node-apollo-server-plugin",
   "issues": {
-    "open": 15
+    "open": 9
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 7,
-  "lastSixMonthsCommitTotal": 7,
-  "contributors": 2,
+  "releases": 3,
+  "latestRelease": {
+    "name": "v0.1.2",
+    "date": null
+  },
+  "commits": 124,
+  "lastSixMonthsCommitTotal": 124,
+  "contributors": 6,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,11 +25,39 @@
       "contributions": 1
     },
     {
+      "id": 8594759,
+      "login": "MightySCollins",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/8594759?v=4",
+      "htmlUrl": "https://github.com/MightySCollins",
+      "contributions": 1
+    },
+    {
+      "id": 32520944,
+      "login": "astormnewrelic",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/32520944?v=4",
+      "htmlUrl": "https://github.com/astormnewrelic",
+      "contributions": 3
+    },
+    {
+      "id": 398399,
+      "login": "nijotz",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/398399?v=4",
+      "htmlUrl": "https://github.com/nijotz",
+      "contributions": 9
+    },
+    {
       "id": 11223178,
       "login": "michaelgoin",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 4
+      "contributions": 37
+    },
+    {
+      "id": 54335840,
+      "login": "carlo-808",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/54335840?v=4",
+      "htmlUrl": "https://github.com/carlo-808",
+      "contributions": 38
     }
   ],
   "languages": [

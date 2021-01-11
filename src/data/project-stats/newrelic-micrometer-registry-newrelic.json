@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/micrometer-registry-newrelic",
   "issues": {
-    "open": 7
+    "open": 8
   },
-  "releases": 4,
+  "releases": 6,
   "latestRelease": {
-    "name": "v0.4.0",
-    "date": "2020-01-09T23:23:42Z"
+    "name": "v0.6.0",
+    "date": "2020-10-27T20:49:08Z"
   },
-  "commits": 158,
-  "lastSixMonthsCommitTotal": 44,
-  "contributors": 12,
+  "commits": 169,
+  "lastSixMonthsCommitTotal": 29,
+  "contributors": 13,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
     {
       "id": 662836,
       "login": "jeemar",
@@ -32,18 +39,18 @@
       "contributions": 1
     },
     {
+      "id": 808713,
+      "login": "ebullient",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/808713?v=4",
+      "htmlUrl": "https://github.com/ebullient",
+      "contributions": 1
+    },
+    {
       "id": 165260,
       "login": "SereneAnt",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/165260?v=4",
       "htmlUrl": "https://github.com/SereneAnt",
       "contributions": 1
-    },
-    {
-      "id": 7834445,
-      "login": "vsanna",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/7834445?v=4",
-      "htmlUrl": "https://github.com/vsanna",
-      "contributions": 2
     },
     {
       "id": 58712431,
@@ -71,7 +78,7 @@
       "login": "jasonjkeller",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/3496648?v=4",
       "htmlUrl": "https://github.com/jasonjkeller",
-      "contributions": 7
+      "contributions": 8
     },
     {
       "id": 24482401,
@@ -88,18 +95,18 @@
       "contributions": 13
     },
     {
-      "id": 54085190,
-      "login": "breedx-nr",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
-      "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 26
-    },
-    {
       "id": 858731,
       "login": "jkwatson",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/858731?v=4",
       "htmlUrl": "https://github.com/jkwatson",
       "contributions": 27
+    },
+    {
+      "id": 54085190,
+      "login": "breedx-nr",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
+      "htmlUrl": "https://github.com/breedx-nr",
+      "contributions": 29
     }
   ],
   "languages": [

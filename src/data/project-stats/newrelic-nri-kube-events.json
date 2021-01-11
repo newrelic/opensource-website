@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nri-kube-events",
   "issues": {
-    "open": 2
+    "open": 4
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "v1.3.0",
-    "date": "2020-07-21T14:13:25Z"
+    "name": "v1.3.2",
+    "date": "2020-11-30T18:17:08Z"
   },
-  "commits": 6,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 2,
+  "commits": 12,
+  "lastSixMonthsCommitTotal": 11,
+  "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
+      "contributions": 1
+    },
     {
       "id": 59606623,
       "login": "mfuentes-newrelic",
@@ -25,11 +32,25 @@
       "contributions": 1
     },
     {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 1
+    },
+    {
       "id": 503802,
       "login": "jorik",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/503802?v=4",
       "htmlUrl": "https://github.com/jorik",
       "contributions": 3
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 4
     }
   ],
   "languages": [

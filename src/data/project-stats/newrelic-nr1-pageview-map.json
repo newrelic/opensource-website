@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nr1-pageview-map",
   "issues": {
-    "open": 0
+    "open": 3
   },
   "releases": 10,
   "latestRelease": {
     "name": "v1.4.2",
     "date": "2020-09-02T02:43:53Z"
   },
-  "commits": 167,
-  "lastSixMonthsCommitTotal": 46,
+  "commits": 169,
+  "lastSixMonthsCommitTotal": 17,
   "contributors": 11,
   "pullRequests": {
-    "open": 0
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -30,13 +30,6 @@
       "avatarUrl": "https://avatars2.githubusercontent.com/u/712701?v=4",
       "htmlUrl": "https://github.com/adamlukaszczyk",
       "contributions": 1
-    },
-    {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 2
     },
     {
       "id": 38174486,
@@ -64,6 +57,13 @@
       "login": "snyk-bot",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 4
+    },
+    {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 4
     },
     {
@@ -102,9 +102,9 @@
       "color": "#f1e05a"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [

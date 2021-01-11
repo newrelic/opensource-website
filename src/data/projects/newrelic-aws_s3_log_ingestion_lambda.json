@@ -15,7 +15,7 @@
   "iconUrl": null,
   "shortDescription": "AWS s3 log ingestion",
   "description": "s3-log-ingestion-lambda is an AWS Serverless application that sends log data from an S3 bucket of your choice to New Relic.",
-  "ossCategory": "Community",
+  "ossCategory": "community-plus",
   "primaryLanguage": "Python",
   "projectTags": ["logging"],
   "acceptsContributions": true,

@@ -1,5 +1,4 @@
 import { graphql } from 'gatsby';
-import { get } from 'lodash';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
@@ -8,9 +7,6 @@ export const query = graphql`
   query StandardsQuery($path: String) {
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -18,8 +14,8 @@ export const query = graphql`
   }
 `;
 
-export default ({ children, data }) => (
-  <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
+export default ({ children, data, pageContext }) => (
+  <Layout fullWidth editLink={pageContext.fileRelativePath}>
       <SEO title="Contributing to a New Relic Open Source Project" />
       <PageHeading
       title="New Relic Open Source Standards"
@@ -46,4 +42,3 @@ Read our [**Code of Conduct**](/code-of-conduct) to understand how we operate in
 ### [Code of Conduct Reporting Guide](/code-of-conduct-reporting)
 
 Review our guidance and expectations on [**reporting Code of Conduct**](/code-of-conduct-reporting) incidents.
-

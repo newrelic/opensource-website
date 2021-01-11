@@ -91,6 +91,10 @@ function SEO({ description, lang, meta, title }) {
           'data-type': 'enum',
           content: 'page',
         },
+        {
+          name: 'google-site-verification',
+          content: 'He_vizRXYX_mUhwBe3BmyaMxNnVRAZbq_Jtm2A0e4WY',
+        },
       ].concat(meta)}
     />
   );

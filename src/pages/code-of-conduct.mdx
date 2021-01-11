@@ -8,9 +8,6 @@ export const query = graphql`
   query CoCQuery($path: String) {
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -18,8 +15,8 @@ export const query = graphql`
   }
 `;
 
-export default ({ children, data }) => (
-  <Layout fullWidth editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}>
+export default ({ children, data, pageContext }) => (
+  <Layout fullWidth editLink={pageContext.fileRelativePath}>
       <SEO title="New Relic Open Source Community Code of Conduct" />
       <PageHeading
         title="New Relic Open Source Community Code of Conduct"

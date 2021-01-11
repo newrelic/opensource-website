@@ -1,38 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-ruby-agent",
   "issues": {
-    "open": 27
+    "open": 40
   },
-  "releases": 362,
+  "releases": 366,
   "latestRelease": {
-    "name": "6.13.0",
-    "date": "2020-09-09T23:20:02Z"
+    "name": "6.14.0",
+    "date": "2020-11-20T19:51:49Z"
   },
-  "commits": 14480,
-  "lastSixMonthsCommitTotal": 964,
+  "commits": 14595,
+  "lastSixMonthsCommitTotal": 721,
   "contributors": 100,
   "pullRequests": {
-    "open": 3
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2NDI4ODUzNDM=",
-      "title": "net instrumentation can cause \"stack level too deep\" with 3rd party gems",
-      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/347",
-      "createdAt": "2020-06-22T08:55:56Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "MathieuDerelle",
-        "id": "MDQ6VXNlcjE2Mjg2MDIz",
-        "email": "",
-        "name": "Mathieu Derelle"
-      },
-      "number": 347,
-      "createdBy": "Mathieu Derelle"
-    },
     {
       "id": "MDU6SXNzdWU2Nzg3Nzg5OTA=",
       "title": "Update excon instrumentation",
@@ -66,6 +49,23 @@
       },
       "number": 392,
       "createdBy": "Rachel Klein"
+    },
+    {
+      "id": "MDU6SXNzdWU2Nzg3ODA3MDc=",
+      "title": "Update mongo instrumentation",
+      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/393",
+      "createdAt": "2020-08-13T22:56:30Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "rachelleahklein",
+        "id": "MDQ6VXNlcjEwODIyODYx",
+        "email": "",
+        "name": "Rachel Klein"
+      },
+      "number": 393,
+      "createdBy": "Rachel Klein"
     }
   ],
   "cachedContributors": [
@@ -98,6 +98,13 @@
       "contributions": 1
     },
     {
+      "id": 7865781,
+      "login": "tomgilligan",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/7865781?v=4",
+      "htmlUrl": "https://github.com/tomgilligan",
+      "contributions": 1
+    },
+    {
       "id": 1024789,
       "login": "thaim",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/1024789?v=4",
@@ -105,10 +112,10 @@
       "contributions": 1
     },
     {
-      "id": 1039403,
-      "login": "rafavalerio",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/1039403?v=4",
-      "htmlUrl": "https://github.com/rafavalerio",
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
     },
     {
@@ -154,17 +161,17 @@
       "contributions": 1
     },
     {
+      "id": 444656,
+      "login": "liaden",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/444656?v=4",
+      "htmlUrl": "https://github.com/liaden",
+      "contributions": 1
+    },
+    {
       "id": 209729,
       "login": "kevingriffin",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/209729?v=4",
       "htmlUrl": "https://github.com/kevingriffin",
-      "contributions": 1
-    },
-    {
-      "id": 4415912,
-      "login": "jrmhaig",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/4415912?v=4",
-      "htmlUrl": "https://github.com/jrmhaig",
       "contributions": 1
     },
     {
@@ -179,13 +186,6 @@
       "login": "jacobbednarz",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/283234?v=4",
       "htmlUrl": "https://github.com/jacobbednarz",
-      "contributions": 1
-    },
-    {
-      "id": 241633,
-      "login": "dmeremyanin",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/241633?v=4",
-      "htmlUrl": "https://github.com/dmeremyanin",
       "contributions": 1
     },
     {
@@ -214,13 +214,6 @@
       "login": "bpaquet",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/337117?v=4",
       "htmlUrl": "https://github.com/bpaquet",
-      "contributions": 1
-    },
-    {
-      "id": 47330,
-      "login": "andreacfm",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/47330?v=4",
-      "htmlUrl": "https://github.com/andreacfm",
       "contributions": 1
     },
     {
@@ -312,6 +305,13 @@
       "login": "rdokov",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/4725264?v=4",
       "htmlUrl": "https://github.com/rdokov",
+      "contributions": 2
+    },
+    {
+      "id": 4361134,
+      "login": "pocke",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/4361134?v=4",
+      "htmlUrl": "https://github.com/pocke",
       "contributions": 2
     },
     {
@@ -511,6 +511,13 @@
       "contributions": 3
     },
     {
+      "id": 69914680,
+      "login": "angelatan2",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/69914680?v=4",
+      "htmlUrl": "https://github.com/angelatan2",
+      "contributions": 3
+    },
+    {
       "id": 4761745,
       "login": "elucus",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/4761745?v=4",
@@ -665,18 +672,18 @@
       "contributions": 92
     },
     {
-      "id": 11799492,
-      "login": "tannalynn",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/11799492?v=4",
-      "htmlUrl": "https://github.com/tannalynn",
-      "contributions": 121
-    },
-    {
       "id": 1577272,
       "login": "rsaul",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/1577272?v=4",
       "htmlUrl": "https://github.com/rsaul",
       "contributions": 144
+    },
+    {
+      "id": 11799492,
+      "login": "tannalynn",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/11799492?v=4",
+      "htmlUrl": "https://github.com/tannalynn",
+      "contributions": 162
     },
     {
       "id": 933055,
@@ -698,13 +705,6 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/3170392?v=4",
       "htmlUrl": "https://github.com/justinfoote",
       "contributions": 252
-    },
-    {
-      "id": 10822861,
-      "login": "rachelleahklein",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/10822861?v=4",
-      "htmlUrl": "https://github.com/rachelleahklein",
-      "contributions": 356
     },
     {
       "id": 40875,
@@ -739,7 +739,7 @@
       "login": "mwlang",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/18387?v=4",
       "htmlUrl": "https://github.com/mwlang",
-      "contributions": 775
+      "contributions": 809
     },
     {
       "id": 2513372,
@@ -795,6 +795,11 @@
       "id": "MDg6TGFuZ3VhZ2U1NTc=",
       "name": "Haml",
       "color": "#ece2a9"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
     }
   ],
   "screenshots": [],

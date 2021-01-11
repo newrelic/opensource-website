@@ -72,9 +72,6 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        fields {
-          contentEditLink
-        }
         componentPath
         path
       }
@@ -96,7 +93,7 @@ function sortByStats(a, b) {
     : -1;
 }
 
-const HomePage = ({ data }) => {
+const HomePage = ({ data, pageContext }) => {
   const [heroVideoActive, setHeroVideoActive] = useState(false);
 
   const instrumentationProjects = get(data, 'instrumentation.edges', [])
@@ -167,10 +164,7 @@ const HomePage = ({ data }) => {
   };
 
   return (
-    <Layout
-      fullWidth
-      editLink={get(data, 'sitePage.nodes[0].fields.contentEditLink')}
-    >
+    <Layout fullWidth editLink={pageContext.fileRelativePath}>
       <Helmet>
         <html className={heroVideoActive && styles.heroVideoActive} />
       </Helmet>
@@ -241,6 +235,7 @@ const HomePage = ({ data }) => {
 
 HomePage.propTypes = {
   data: PropTypes.object,
+  pageContext: PropTypes.object,
 };
 
 export default HomePage;

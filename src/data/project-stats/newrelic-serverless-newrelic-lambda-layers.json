@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/serverless-newrelic-lambda-layers",
   "issues": {
-    "open": 1
+    "open": 3
   },
-  "releases": 22,
+  "releases": 30,
   "latestRelease": {
-    "name": "v0.2.0",
-    "date": "2020-09-08T18:57:46Z"
+    "name": "v0.4.1",
+    "date": "2020-12-17T18:40:32Z"
   },
-  "commits": 132,
-  "lastSixMonthsCommitTotal": 30,
-  "contributors": 7,
+  "commits": 176,
+  "lastSixMonthsCommitTotal": 67,
+  "contributors": 8,
   "pullRequests": {
     "open": 0
   },
@@ -29,6 +29,13 @@
       "login": "justinrcs",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/39594334?v=4",
       "htmlUrl": "https://github.com/justinrcs",
+      "contributions": 1
+    },
+    {
+      "id": 585473,
+      "login": "MattWhelan",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/585473?v=4",
+      "htmlUrl": "https://github.com/MattWhelan",
       "contributions": 1
     },
     {
@@ -57,14 +64,14 @@
       "login": "mrickard",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/11327?v=4",
       "htmlUrl": "https://github.com/mrickard",
-      "contributions": 17
+      "contributions": 31
     },
     {
       "id": 17498,
       "login": "kolanos",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/17498?v=4",
       "htmlUrl": "https://github.com/kolanos",
-      "contributions": 45
+      "contributions": 49
     }
   ],
   "languages": [

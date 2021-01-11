@@ -1,18 +1,53 @@
 {
   "projectFullName": "newrelic/nr1-workshop",
   "issues": {
-    "open": 4
+    "open": 6
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 257,
-  "lastSixMonthsCommitTotal": 7,
-  "contributors": 25,
+  "commits": 259,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 26,
   "pullRequests": {
-    "open": 36
+    "open": 55
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU3NzExMzg0NDM=",
+      "title": "Missing command in setup step",
+      "url": "https://github.com/newrelic/nr1-workshop/issues/148",
+      "createdAt": "2020-12-18T20:03:01Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jaesius",
+        "id": "MDQ6VXNlcjEzNTYyNjcy",
+        "email": "",
+        "name": "Jemiah Sius"
+      },
+      "number": 148,
+      "createdBy": "Jemiah Sius"
+    },
+    {
+      "id": "MDU6SXNzdWU3NzIyNjE5MjE=",
+      "title": "Setup: Viewing your app screenshots",
+      "url": "https://github.com/newrelic/nr1-workshop/issues/149",
+      "createdAt": "2020-12-21T15:42:38Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jaesius",
+        "id": "MDQ6VXNlcjEzNTYyNjcy",
+        "email": "",
+        "name": "Jemiah Sius"
+      },
+      "number": 149,
+      "createdBy": "Jemiah Sius"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 9435570,
@@ -82,6 +117,13 @@
       "login": "ddarwin",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/7143309?v=4",
       "htmlUrl": "https://github.com/ddarwin",
+      "contributions": 1
+    },
+    {
+      "id": 8672090,
+      "login": "alexronquillo",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/8672090?v=4",
+      "htmlUrl": "https://github.com/alexronquillo",
       "contributions": 1
     },
     {
@@ -200,6 +242,11 @@
       "id": "MDg6TGFuZ3VhZ2UzMDg=",
       "name": "CSS",
       "color": "#563d7c"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [
@@ -278,7 +325,8 @@
     "https://raw.githubusercontent.com/newrelic/nr1-workshop/master/screenshots/setup_screen02.png",
     "https://raw.githubusercontent.com/newrelic/nr1-workshop/master/screenshots/setup_screen03.png",
     "https://raw.githubusercontent.com/newrelic/nr1-workshop/master/screenshots/setup_screen04.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-workshop/master/screenshots/setup_screen05.png"
+    "https://raw.githubusercontent.com/newrelic/nr1-workshop/master/screenshots/setup_screen05.png",
+    "https://raw.githubusercontent.com/newrelic/nr1-workshop/master/screenshots/setup_screen06.png"
   ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",

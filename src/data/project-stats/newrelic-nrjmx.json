@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nrjmx",
   "issues": {
-    "open": 1
-  },
-  "releases": 18,
-  "latestRelease": {
-    "name": "v1.5.2",
-    "date": "2019-11-18T07:44:41Z"
-  },
-  "commits": 163,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 14,
-  "pullRequests": {
     "open": 5
+  },
+  "releases": 22,
+  "latestRelease": {
+    "name": "v1.6.2",
+    "date": "2020-12-01T10:19:53Z"
+  },
+  "commits": 177,
+  "lastSixMonthsCommitTotal": 16,
+  "contributors": 15,
+  "pullRequests": {
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,13 +22,6 @@
       "login": "xino12",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/1876430?v=4",
       "htmlUrl": "https://github.com/xino12",
-      "contributions": 1
-    },
-    {
-      "id": 1773616,
-      "login": "theletterf",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
-      "htmlUrl": "https://github.com/theletterf",
       "contributions": 1
     },
     {
@@ -60,10 +53,17 @@
       "contributions": 1
     },
     {
-      "id": 2054195,
-      "login": "ardias",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
-      "htmlUrl": "https://github.com/ardias",
+      "id": 907624,
+      "login": "ysb33r",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/907624?v=4",
+      "htmlUrl": "https://github.com/ysb33r",
+      "contributions": 2
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
       "contributions": 2
     },
     {
@@ -109,6 +109,13 @@
       "contributions": 10
     },
     {
+      "id": 717815,
+      "login": "carlosroman",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/717815?v=4",
+      "htmlUrl": "https://github.com/carlosroman",
+      "contributions": 12
+    },
+    {
       "id": 939550,
       "login": "mariomac",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/939550?v=4",
@@ -141,6 +148,16 @@
       "id": "MDg6TGFuZ3VhZ2UyNjQ=",
       "name": "PowerShell",
       "color": "#012456"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNzI=",
+      "name": "Kotlin",
+      "color": "#F18E33"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
     }
   ],
   "screenshots": [],

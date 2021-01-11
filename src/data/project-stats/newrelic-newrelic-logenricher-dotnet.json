@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-logenricher-dotnet",
   "issues": {
-    "open": 2
+    "open": 4
   },
-  "releases": 8,
+  "releases": 12,
   "latestRelease": {
-    "name": "Serilog_v1.0.1",
-    "date": "2020-03-03T18:04:18Z"
+    "name": "NLog_v1.1.0",
+    "date": null
   },
-  "commits": 187,
-  "lastSixMonthsCommitTotal": 6,
-  "contributors": 7,
+  "commits": 207,
+  "lastSixMonthsCommitTotal": 26,
+  "contributors": 11,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
     {
       "id": 8731013,
       "login": "prototypicalpro",
@@ -25,10 +32,31 @@
       "contributions": 1
     },
     {
+      "id": 5260112,
+      "login": "ltines",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/5260112?v=4",
+      "htmlUrl": "https://github.com/ltines",
+      "contributions": 1
+    },
+    {
       "id": 20267975,
       "login": "lspangler584",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/20267975?v=4",
       "htmlUrl": "https://github.com/lspangler584",
+      "contributions": 1
+    },
+    {
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
+      "contributions": 1
+    },
+    {
+      "id": 69914680,
+      "login": "angelatan2",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/69914680?v=4",
+      "htmlUrl": "https://github.com/angelatan2",
       "contributions": 1
     },
     {
@@ -43,14 +71,7 @@
       "login": "jaffinito",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/6098021?v=4",
       "htmlUrl": "https://github.com/jaffinito",
-      "contributions": 18
-    },
-    {
-      "id": 56414817,
-      "login": "vuqtran88",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/56414817?v=4",
-      "htmlUrl": "https://github.com/vuqtran88",
-      "contributions": 21
+      "contributions": 20
     },
     {
       "id": 3522458,
@@ -60,11 +81,18 @@
       "contributions": 21
     },
     {
+      "id": 56414817,
+      "login": "vuqtran88",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/56414817?v=4",
+      "htmlUrl": "https://github.com/vuqtran88",
+      "contributions": 22
+    },
+    {
       "id": 57361211,
       "login": "nr-ahemsath",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/57361211?v=4",
       "htmlUrl": "https://github.com/nr-ahemsath",
-      "contributions": 71
+      "contributions": 84
     }
   ],
   "languages": [

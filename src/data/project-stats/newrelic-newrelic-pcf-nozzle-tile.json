@@ -3,65 +3,47 @@
   "issues": {
     "open": 1
   },
-  "releases": 23,
+  "releases": 25,
   "latestRelease": {
-    "name": "v2.5.14",
-    "date": "2020-09-09T16:27:42Z"
+    "name": "v2.6.0",
+    "date": "2020-11-26T10:01:36Z"
   },
-  "commits": 71,
-  "lastSixMonthsCommitTotal": 22,
+  "commits": 82,
+  "lastSixMonthsCommitTotal": 27,
   "contributors": 5,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MTQyMDAzNTA=",
-      "title": "Misconfiguration in Insights authentication log fload",
-      "url": "https://github.com/newrelic/newrelic-pcf-nozzle-tile/issues/19",
-      "createdAt": "2020-05-07T16:48:26Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "paologallinaharbur",
-        "id": "MDQ6VXNlcjQzMzM1NzUw",
-        "email": "",
-        "name": "PaoloGallina"
-      },
-      "number": 19,
-      "createdBy": "PaoloGallina"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 2054195,
+      "login": "ardias",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/2054195?v=4",
+      "htmlUrl": "https://github.com/ardias",
+      "contributions": 1
+    },
     {
       "id": 45947764,
       "login": "bpeckNR",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/45947764?v=4",
       "htmlUrl": "https://github.com/bpeckNR",
-      "contributions": 4
+      "contributions": 7
     },
     {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 7
-    },
-    {
-      "id": 1773616,
-      "login": "theletterf",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
-      "htmlUrl": "https://github.com/theletterf",
-      "contributions": 8
+      "contributions": 9
     },
     {
       "id": 5143130,
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 8
+      "contributions": 10
     },
     {
       "id": 4672940,

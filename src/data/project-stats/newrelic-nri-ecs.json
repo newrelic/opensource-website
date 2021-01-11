@@ -1,22 +1,36 @@
 {
   "projectFullName": "newrelic/nri-ecs",
   "issues": {
-    "open": 2
+    "open": 3
   },
-  "releases": 2,
+  "releases": 4,
   "latestRelease": {
-    "name": "v1.1.0",
-    "date": "2020-08-24T12:46:53Z"
+    "name": "v1.1.2",
+    "date": "2020-12-31T11:18:41Z"
   },
-  "commits": 10,
-  "lastSixMonthsCommitTotal": 10,
-  "contributors": 4,
+  "commits": 17,
+  "lastSixMonthsCommitTotal": 17,
+  "contributors": 7,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 1
+    },
     {
       "id": 59606623,
       "login": "mfuentes-newrelic",
@@ -32,11 +46,11 @@
       "contributions": 1
     },
     {
-      "id": 1773616,
-      "login": "theletterf",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/1773616?v=4",
-      "htmlUrl": "https://github.com/theletterf",
-      "contributions": 3
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 1
     },
     {
       "id": 5297542,
@@ -44,6 +58,13 @@
       "avatarUrl": "https://avatars3.githubusercontent.com/u/5297542?v=4",
       "htmlUrl": "https://github.com/alejandrodnm",
       "contributions": 3
+    },
+    {
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
+      "contributions": 4
     }
   ],
   "languages": [
@@ -66,6 +87,11 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
+      "name": "HCL",
+      "color": null
     }
   ],
   "screenshots": [],

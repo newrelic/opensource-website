@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/newrelic-infinite-tracing-protobuf-java",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "v3.1",
-    "date": "2020-07-21T22:54:04Z"
+    "name": "v3.2",
+    "date": "2020-10-02T21:18:38Z"
   },
-  "commits": 5,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 2,
+  "commits": 25,
+  "lastSixMonthsCommitTotal": 24,
+  "contributors": 6,
   "pullRequests": {
     "open": 0
   },
@@ -18,11 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 7992384,
+      "login": "paperclypse",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/7992384?v=4",
+      "htmlUrl": "https://github.com/paperclypse",
+      "contributions": 2
+    },
+    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 1
+      "contributions": 2
     },
     {
       "id": 49817386,
@@ -30,6 +37,27 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/49817386?v=4",
       "htmlUrl": "https://github.com/jeffalder",
       "contributions": 2
+    },
+    {
+      "id": 3496648,
+      "login": "jasonjkeller",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/3496648?v=4",
+      "htmlUrl": "https://github.com/jasonjkeller",
+      "contributions": 3
+    },
+    {
+      "id": 54085190,
+      "login": "breedx-nr",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/54085190?v=4",
+      "htmlUrl": "https://github.com/breedx-nr",
+      "contributions": 4
+    },
+    {
+      "id": 42678939,
+      "login": "bradleycamacho",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/42678939?v=4",
+      "htmlUrl": "https://github.com/bradleycamacho",
+      "contributions": 4
     }
   ],
   "languages": [

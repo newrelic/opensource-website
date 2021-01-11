@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nr1-apdex-optimizer",
   "issues": {
-    "open": 2
+    "open": 1
   },
-  "releases": 10,
+  "releases": 11,
   "latestRelease": {
-    "name": "v1.2.3",
-    "date": "2020-06-05T04:17:19Z"
+    "name": "v1.2.4",
+    "date": "2020-12-11T18:16:46Z"
   },
-  "commits": 34,
+  "commits": 45,
   "lastSixMonthsCommitTotal": 11,
   "contributors": 5,
   "pullRequests": {
-    "open": 2
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,13 +22,6 @@
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/32174276?v=4",
       "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 1
-    },
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
       "contributions": 1
     },
     {
@@ -46,11 +39,18 @@
       "contributions": 2
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 4
+    },
+    {
       "id": 44571906,
       "login": "crshanks",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/44571906?v=4",
       "htmlUrl": "https://github.com/crshanks",
-      "contributions": 23
+      "contributions": 27
     }
   ],
   "languages": [
@@ -60,9 +60,9 @@
       "color": "#f1e05a"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [

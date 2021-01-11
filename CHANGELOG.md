@@ -1,3 +1,36 @@
+## [1.9.6](https://github.com/newrelic/opensource-website/compare/v1.9.5...v1.9.6) (2020-12-08)
+
+
+### Bug Fixes
+
+* upgrade @newrelic/gatsby-theme-newrelic ([5181e64](https://github.com/newrelic/opensource-website/commit/5181e64bb79387efb82189e2ae79f739902b195b))
+* upgrade gatsby-plugin-manifest ([9894060](https://github.com/newrelic/opensource-website/commit/98940609d5c8de1f213361ce7769fd0d7801777c))
+* upgrade gatsby-plugin-sharp ([5a82bd8](https://github.com/newrelic/opensource-website/commit/5a82bd85e8149abe4fa44ebf6b91526d6e5ed1d0))
+* use the CookieConsentDialog from the theme ([a0b992a](https://github.com/newrelic/opensource-website/commit/a0b992af586d945213e7ec4b160e2dfd603df343))
+
+## [1.9.5](https://github.com/newrelic/opensource-website/compare/v1.9.4...v1.9.5) (2020-11-20)
+
+
+### Bug Fixes
+
+* support multi-line env var ([e574c36](https://github.com/newrelic/opensource-website/commit/e574c361e93424c6671525490d5cfae3c5f4136b))
+
+## [1.9.4](https://github.com/newrelic/opensource-website/compare/v1.9.3...v1.9.4) (2020-10-30)
+
+
+### Bug Fixes
+
+* shadow logo component for the gatsby theme ([c4ceb18](https://github.com/newrelic/opensource-website/commit/c4ceb187811056b1d9296c2ba9c4bd258eef1e93))
+* upgrade @newrelic/gatsby-theme-newrelic ([467eece](https://github.com/newrelic/opensource-website/commit/467eece5215d88c2eff88b62da7a7f24a445f938))
+* upgrade @newrelic/gatsby-theme-newrelic, gatsby, gatsby-plugin-mdx and add missing peer deps ([ac9bca6](https://github.com/newrelic/opensource-website/commit/ac9bca644a4a8f98ca0d8db88454d873cb393b46))
+
+## [1.9.3](https://github.com/newrelic/opensource-website/compare/v1.9.2...v1.9.3) (2020-10-28)
+
+
+### Bug Fixes
+
+* Trigger new patch release ([8c6f35d](https://github.com/newrelic/opensource-website/commit/8c6f35de64a56b3867b0019ca67159af70d191fd))
+
 ## [1.9.2](https://github.com/newrelic/opensource-website/compare/v1.9.1...v1.9.2) (2020-08-31)
 
 
