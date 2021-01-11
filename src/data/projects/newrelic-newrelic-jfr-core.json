@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-jfr-core",
+  "fullName": "newrelic/newrelic-jfr-core",
+  "slug": "newrelic-newrelic-jfr-core",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic JFR Core",
+  "supportUrl": "https://discuss.newrelic.com/tags/javaagent",
+  "githubUrl": "https://github.com/newrelic/newrelic-jfr-core",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-jfr-core",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-jfr-core/blob/main/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "New Relic JFR Core",
+  "description": "JFR library that adapts JFR events to the New Relic Telemetry SDK\n\n",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Java",
+  "projectTags": ["agent", "exporter", "opentelemetry"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "JFR library that adapts JFR events to the New Relic Telemetry SDK\n\n",
+    "url": "https://github.com/newrelic/newrelic-jfr-core"
+  }
+}
