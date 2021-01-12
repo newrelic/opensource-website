@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-opentelemetry-integration-java",
+  "fullName": "newrelic/newrelic-opentelemetry-integration-java",
+  "slug": "newrelic-newrelic-opentelemetry-integration-java",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic OpenTelemetry Integration",
+  "supportUrl": "https://discuss.newrelic.com/tags/javaagent",
+  "githubUrl": "https://github.com/newrelic/newrelic-opentelemetry-integration-java",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-opentelemetry-integration-java",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-opentelemetry-integration-java/blob/main/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "New Relic OpenTelemetry Integration",
+  "description": "New Relic OpenTelemetry Java agent distribution.",
+  "ossCategory": "community-project",
+  "primaryLanguage": "Java",
+  "projectTags": ["agent", "exporter", "opentelemetry"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic OpenTelemetry Java agent distribution.",
+    "url": "https://github.com/newrelic/newrelic-opentelemetry-integration-java"
+  }
+}
