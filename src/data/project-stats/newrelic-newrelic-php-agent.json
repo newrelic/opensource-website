@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-php-agent",
   "issues": {
-    "open": 22
+    "open": 21
   },
   "releases": 2,
   "latestRelease": {
     "name": "v9.15.0.293",
     "date": null
   },
-  "commits": 51,
-  "lastSixMonthsCommitTotal": 51,
+  "commits": 47,
+  "lastSixMonthsCommitTotal": 47,
   "contributors": 9,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -36,17 +36,17 @@
   ],
   "cachedContributors": [
     {
+      "id": 306384,
+      "login": "joshuabenuck",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/306384?v=4",
+      "htmlUrl": "https://github.com/joshuabenuck",
+      "contributions": 12
+    },
+    {
       "id": 18040274,
       "login": "rhetoric101",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/18040274?v=4",
       "htmlUrl": "https://github.com/rhetoric101",
-      "contributions": 1
-    },
-    {
-      "id": 1904430,
-      "login": "TysonAndre",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/1904430?v=4",
-      "htmlUrl": "https://github.com/TysonAndre",
       "contributions": 1
     },
     {
@@ -57,18 +57,18 @@
       "contributions": 1
     },
     {
+      "id": 1904430,
+      "login": "TysonAndre",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/1904430?v=4",
+      "htmlUrl": "https://github.com/TysonAndre",
+      "contributions": 1
+    },
+    {
       "id": 43715151,
       "login": "zsistla",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/43715151?v=4",
       "htmlUrl": "https://github.com/zsistla",
-      "contributions": 4
-    },
-    {
-      "id": 306384,
-      "login": "joshuabenuck",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/306384?v=4",
-      "htmlUrl": "https://github.com/joshuabenuck",
-      "contributions": 12
+      "contributions": 3
     },
     {
       "id": 28364881,
@@ -96,7 +96,7 @@
       "login": "kneitinger",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/5200550?v=4",
       "htmlUrl": "https://github.com/kneitinger",
-      "contributions": 18
+      "contributions": 16
     }
   ],
   "languages": [
