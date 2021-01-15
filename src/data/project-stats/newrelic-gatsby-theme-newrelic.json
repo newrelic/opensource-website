@@ -3,13 +3,13 @@
   "issues": {
     "open": 5
   },
-  "releases": 75,
+  "releases": 76,
   "latestRelease": {
-    "name": "v1.23.1",
+    "name": "v1.23.2",
     "date": null
   },
-  "commits": 905,
-  "lastSixMonthsCommitTotal": 884,
+  "commits": 926,
+  "lastSixMonthsCommitTotal": 902,
   "contributors": 10,
   "pullRequests": {
     "open": 0
@@ -17,20 +17,6 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 1395158,
-      "login": "jpvajda",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1395158?v=4",
-      "htmlUrl": "https://github.com/jpvajda",
-      "contributions": 4
-    },
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 30
-    },
     {
       "id": 2952843,
       "login": "roadlittledawn",
@@ -46,6 +32,20 @@
       "contributions": 1
     },
     {
+      "id": 1395158,
+      "login": "jpvajda",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1395158?v=4",
+      "htmlUrl": "https://github.com/jpvajda",
+      "contributions": 4
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 30
+    },
+    {
       "id": 186715,
       "login": "djsauble",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/186715?v=4",
@@ -53,18 +53,18 @@
       "contributions": 3
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 1
-    },
-    {
       "id": 39655074,
       "login": "LizBaker",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/39655074?v=4",
       "htmlUrl": "https://github.com/LizBaker",
       "contributions": 28
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
     },
     {
       "id": 38332422,
@@ -78,7 +78,7 @@
       "login": "jerelmiller",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/565661?v=4",
       "htmlUrl": "https://github.com/jerelmiller",
-      "contributions": 467
+      "contributions": 487
     },
     {
       "id": 1946433,
