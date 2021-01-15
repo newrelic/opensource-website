@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-kubernetes-operator",
   "issues": {
-    "open": 20
+    "open": 19
   },
   "releases": 7,
   "latestRelease": {
     "name": "v0.0.7",
     "date": "2020-10-15T18:28:03Z"
   },
-  "commits": 372,
-  "lastSixMonthsCommitTotal": 43,
+  "commits": 377,
+  "lastSixMonthsCommitTotal": 48,
   "contributors": 16,
   "pullRequests": {
     "open": 5
@@ -36,6 +36,13 @@
   ],
   "cachedContributors": [
     {
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 22
+    },
+    {
       "id": 28904930,
       "login": "jemisonf",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/28904930?v=4",
@@ -43,18 +50,11 @@
       "contributions": 1
     },
     {
-      "id": 30441101,
-      "login": "sethp-nr",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/30441101?v=4",
-      "htmlUrl": "https://github.com/sethp-nr",
-      "contributions": 9
-    },
-    {
-      "id": 2590905,
-      "login": "sanderblue",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/2590905?v=4",
-      "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 22
+      "id": 1902623,
+      "login": "trutx",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1902623?v=4",
+      "htmlUrl": "https://github.com/trutx",
+      "contributions": 2
     },
     {
       "id": 413389,
@@ -92,11 +92,11 @@
       "contributions": 21
     },
     {
-      "id": 1902623,
-      "login": "trutx",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1902623?v=4",
-      "htmlUrl": "https://github.com/trutx",
-      "contributions": 2
+      "id": 30441101,
+      "login": "sethp-nr",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/30441101?v=4",
+      "htmlUrl": "https://github.com/sethp-nr",
+      "contributions": 9
     },
     {
       "id": 723533,
@@ -124,7 +124,7 @@
       "login": "thande",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/7946679?v=4",
       "htmlUrl": "https://github.com/thande",
-      "contributions": 103
+      "contributions": 107
     },
     {
       "id": 6836095,
