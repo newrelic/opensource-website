@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/elixir_agent",
   "issues": {
-    "open": 8
+    "open": 6
   },
-  "releases": 82,
+  "releases": 83,
   "latestRelease": {
-    "name": "v1.22.3",
-    "date": "2020-12-14T22:34:28Z"
+    "name": "v1.22.4",
+    "date": "2021-01-16T06:43:57Z"
   },
-  "commits": 594,
-  "lastSixMonthsCommitTotal": 69,
-  "contributors": 16,
+  "commits": 613,
+  "lastSixMonthsCommitTotal": 88,
+  "contributors": 17,
   "pullRequests": {
-    "open": 7
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,6 +25,13 @@
       "contributions": 3
     },
     {
+      "id": 6687220,
+      "login": "emeryotopalik",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/6687220?v=4",
+      "htmlUrl": "https://github.com/emeryotopalik",
+      "contributions": 1
+    },
+    {
       "id": 5297542,
       "login": "alejandrodnm",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/5297542?v=4",
@@ -32,17 +39,17 @@
       "contributions": 1
     },
     {
-      "id": 1231659,
-      "login": "sb8244",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1231659?v=4",
-      "htmlUrl": "https://github.com/sb8244",
-      "contributions": 2
+      "id": 151912,
+      "login": "barthez",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/151912?v=4",
+      "htmlUrl": "https://github.com/barthez",
+      "contributions": 1
     },
     {
-      "id": 6687220,
-      "login": "emeryotopalik",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/6687220?v=4",
-      "htmlUrl": "https://github.com/emeryotopalik",
+      "id": 565,
+      "login": "tomtaylor",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/565?v=4",
+      "htmlUrl": "https://github.com/tomtaylor",
       "contributions": 1
     },
     {
@@ -78,7 +85,7 @@
       "login": "mopp",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/1330045?v=4",
       "htmlUrl": "https://github.com/mopp",
-      "contributions": 1
+      "contributions": 2
     },
     {
       "id": 1883109,
@@ -88,11 +95,11 @@
       "contributions": 2
     },
     {
-      "id": 151912,
-      "login": "barthez",
-      "avatarUrl": "https://avatars2.githubusercontent.com/u/151912?v=4",
-      "htmlUrl": "https://github.com/barthez",
-      "contributions": 1
+      "id": 1231659,
+      "login": "sb8244",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1231659?v=4",
+      "htmlUrl": "https://github.com/sb8244",
+      "contributions": 2
     },
     {
       "id": 32940,
@@ -127,7 +134,7 @@
       "login": "binaryseed",
       "avatarUrl": "https://avatars1.githubusercontent.com/u/39946?v=4",
       "htmlUrl": "https://github.com/binaryseed",
-      "contributions": 416
+      "contributions": 428
     }
   ],
   "languages": [
