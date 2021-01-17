@@ -17,10 +17,7 @@
   "description": "Collects metrics from ECS clusters and containers in AWS.",
   "ossCategory": "community-plus",
   "primaryLanguage": "Go",
-  "projectTags": [
-    "nri",
-    "infrastructure"
-  ],
+  "projectTags": ["nri"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Integration for Amazon ECS",
