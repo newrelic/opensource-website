@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nri-mysql",
   "issues": {
-    "open": 8
+    "open": 6
   },
   "releases": 10,
   "latestRelease": {
     "name": "v1.4.0",
     "date": "2019-11-22T10:48:37Z"
   },
-  "commits": 141,
-  "lastSixMonthsCommitTotal": 13,
-  "contributors": 12,
+  "commits": 142,
+  "lastSixMonthsCommitTotal": 14,
+  "contributors": 14,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 7886905,
+      "login": "fryckbos",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/7886905?v=4",
+      "htmlUrl": "https://github.com/fryckbos",
+      "contributions": 5
+    },
     {
       "id": 13438133,
       "login": "matiasburni",
@@ -67,11 +74,11 @@
       "contributions": 2
     },
     {
-      "id": 7886905,
-      "login": "fryckbos",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/7886905?v=4",
-      "htmlUrl": "https://github.com/fryckbos",
-      "contributions": 5
+      "id": 3969485,
+      "login": "brushknight",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/3969485?v=4",
+      "htmlUrl": "https://github.com/brushknight",
+      "contributions": 1
     },
     {
       "id": 939550,
@@ -100,6 +107,13 @@
       "avatarUrl": "https://avatars0.githubusercontent.com/u/1876430?v=4",
       "htmlUrl": "https://github.com/xino12",
       "contributions": 6
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 1
     }
   ],
   "languages": [
@@ -117,6 +131,16 @@
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
       "name": "Dockerfile",
       "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
     }
   ],
   "screenshots": [],
