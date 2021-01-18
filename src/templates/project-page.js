@@ -411,7 +411,7 @@ const ProjectPage = (props) => {
             {ossCategory && (
               <div className={styles.callToActionCategorySpecification}>
                 <h5 className={styles.callToActionCategory}>
-                  <Link to="/oss-category" rel="noopener noreferrer">
+                  <Link to="/oss-category/" rel="noopener noreferrer">
                     {project.ossCategory.title}
                   </Link>
                 </h5>
