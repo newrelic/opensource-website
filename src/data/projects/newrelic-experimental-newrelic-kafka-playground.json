@@ -17,7 +17,7 @@
   "description": "Using standard configuration management tools, deploy a full Kafka cluster to AWS, complete with producer and consumer applications.  Instrumented end-to-end with New Relic.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Java",
-  "projectTags": ["tools", "infrastructure", "terraform"],
+  "projectTags": ["tools", "nri", "terraform"],
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Kafka Playground",
