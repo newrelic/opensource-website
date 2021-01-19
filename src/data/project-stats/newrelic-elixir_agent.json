@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/elixir_agent",
   "issues": {
-    "open": 8
+    "open": 6
   },
-  "releases": 83,
+  "releases": 84,
   "latestRelease": {
-    "name": "v1.22.4",
-    "date": "2021-01-16T06:43:57Z"
+    "name": "v1.22.5",
+    "date": "2021-01-19T06:28:08Z"
   },
-  "commits": 615,
-  "lastSixMonthsCommitTotal": 90,
+  "commits": 619,
+  "lastSixMonthsCommitTotal": 94,
   "contributors": 17,
   "pullRequests": {
     "open": 4
@@ -25,6 +25,13 @@
       "contributions": 3
     },
     {
+      "id": 101555,
+      "login": "ethangunderson",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/101555?v=4",
+      "htmlUrl": "https://github.com/ethangunderson",
+      "contributions": 1
+    },
+    {
       "id": 151912,
       "login": "barthez",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/151912?v=4",
@@ -32,10 +39,10 @@
       "contributions": 1
     },
     {
-      "id": 101555,
-      "login": "ethangunderson",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/101555?v=4",
-      "htmlUrl": "https://github.com/ethangunderson",
+      "id": 6687220,
+      "login": "emeryotopalik",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/6687220?v=4",
+      "htmlUrl": "https://github.com/emeryotopalik",
       "contributions": 1
     },
     {
@@ -44,13 +51,6 @@
       "avatarUrl": "https://avatars2.githubusercontent.com/u/565?v=4",
       "htmlUrl": "https://github.com/tomtaylor",
       "contributions": 1
-    },
-    {
-      "id": 39946,
-      "login": "binaryseed",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/39946?v=4",
-      "htmlUrl": "https://github.com/binaryseed",
-      "contributions": 429
     },
     {
       "id": 3910832,
@@ -130,11 +130,11 @@
       "contributions": 1
     },
     {
-      "id": 6687220,
-      "login": "emeryotopalik",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/6687220?v=4",
-      "htmlUrl": "https://github.com/emeryotopalik",
-      "contributions": 1
+      "id": 39946,
+      "login": "binaryseed",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/39946?v=4",
+      "htmlUrl": "https://github.com/binaryseed",
+      "contributions": 432
     }
   ],
   "languages": [
