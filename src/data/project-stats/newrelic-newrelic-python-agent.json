@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-python-agent",
   "issues": {
-    "open": 6
+    "open": 8
   },
-  "releases": 33,
+  "releases": 34,
   "latestRelease": {
-    "name": "v5.24.0.153",
-    "date": "2020-12-22T20:17:24Z"
+    "name": "v6.0.0.154",
+    "date": "2021-01-20T18:42:20Z"
   },
-  "commits": 171,
-  "lastSixMonthsCommitTotal": 140,
+  "commits": 172,
+  "lastSixMonthsCommitTotal": 141,
   "contributors": 9,
   "pullRequests": {
     "open": 1
@@ -18,11 +18,11 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 1413267,
-      "login": "stianjensen",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/1413267?v=4",
-      "htmlUrl": "https://github.com/stianjensen",
-      "contributions": 1
+      "id": 67169383,
+      "login": "newrelic-opensource",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/67169383?v=4",
+      "htmlUrl": "https://github.com/newrelic-opensource",
+      "contributions": 30
     },
     {
       "id": 578029,
@@ -32,11 +32,11 @@
       "contributions": 1
     },
     {
-      "id": 67169383,
-      "login": "newrelic-opensource",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/67169383?v=4",
-      "htmlUrl": "https://github.com/newrelic-opensource",
-      "contributions": 30
+      "id": 44993916,
+      "login": "k2mahajan",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/44993916?v=4",
+      "htmlUrl": "https://github.com/k2mahajan",
+      "contributions": 1
     },
     {
       "id": 11214426,
@@ -53,10 +53,10 @@
       "contributions": 1
     },
     {
-      "id": 44993916,
-      "login": "k2mahajan",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/44993916?v=4",
-      "htmlUrl": "https://github.com/k2mahajan",
+      "id": 1413267,
+      "login": "stianjensen",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1413267?v=4",
+      "htmlUrl": "https://github.com/stianjensen",
       "contributions": 1
     },
     {
@@ -78,7 +78,7 @@
       "login": "a-feld",
       "avatarUrl": "https://avatars2.githubusercontent.com/u/6374032?v=4",
       "htmlUrl": "https://github.com/a-feld",
-      "contributions": 59
+      "contributions": 60
     }
   ],
   "languages": [

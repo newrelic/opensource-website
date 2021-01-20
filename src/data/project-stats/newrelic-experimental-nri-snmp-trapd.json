@@ -3,10 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 3,
-  "lastSixMonthsCommitTotal": 3,
+  "releases": 1,
+  "latestRelease": {
+    "name": "1.0.0",
+    "date": "2021-01-20T18:02:48Z"
+  },
+  "commits": 4,
+  "lastSixMonthsCommitTotal": 4,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -26,7 +29,7 @@
       "login": "preddy-newrelic",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/17014899?v=4",
       "htmlUrl": "https://github.com/preddy-newrelic",
-      "contributions": 1
+      "contributions": 2
     }
   ],
   "languages": [
