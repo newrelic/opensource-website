@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/developer-website",
   "issues": {
-    "open": 17
+    "open": 20
   },
   "releases": 92,
   "latestRelease": {
     "name": "v1.32.1",
     "date": "2021-01-21T00:38:59Z"
   },
-  "commits": 3610,
-  "lastSixMonthsCommitTotal": 1691,
+  "commits": 3612,
+  "lastSixMonthsCommitTotal": 1693,
   "contributors": 46,
   "pullRequests": {
     "open": 2
@@ -51,12 +51,12 @@
       "createdBy": "John P Vajda"
     },
     {
-      "id": "MDU6SXNzdWU2NzUzMzIyMTg=",
-      "title": "Search Tag + Results Feature",
-      "url": "https://github.com/newrelic/developer-website/issues/566",
-      "createdAt": "2020-08-07T23:02:46Z",
+      "id": "MDU6SXNzdWU2NTg1Nzk0Mzg=",
+      "title": "Make How To Guides for elements common to applications, like a a navigation bar, etc",
+      "url": "https://github.com/newrelic/developer-website/issues/453",
+      "createdAt": "2020-07-16T21:18:43Z",
       "comments": {
-        "totalCount": 2
+        "totalCount": 3
       },
       "author": {
         "login": "jpvajda",
@@ -64,7 +64,7 @@
         "email": "",
         "name": "John P Vajda"
       },
-      "number": 566,
+      "number": 453,
       "createdBy": "John P Vajda"
     }
   ],
@@ -75,13 +75,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/57272374?v=4",
       "htmlUrl": "https://github.com/thtmnisamnstr",
       "contributions": 1
-    },
-    {
-      "id": 270746,
-      "login": "thejonanshow",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/270746?v=4",
-      "htmlUrl": "https://github.com/thejonanshow",
-      "contributions": 12
     },
     {
       "id": 812989,
@@ -95,13 +88,6 @@
       "login": "abuchanan-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46462340?v=4",
       "htmlUrl": "https://github.com/abuchanan-nr",
-      "contributions": 1
-    },
-    {
-      "id": 55203603,
-      "login": "austin-schaefer",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
-      "htmlUrl": "https://github.com/austin-schaefer",
       "contributions": 1
     },
     {
@@ -133,11 +119,18 @@
       "contributions": 1
     },
     {
-      "id": 1187068,
-      "login": "tariqahmed",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1187068?v=4",
-      "htmlUrl": "https://github.com/tariqahmed",
+      "id": 55203603,
+      "login": "austin-schaefer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
+      "htmlUrl": "https://github.com/austin-schaefer",
       "contributions": 1
+    },
+    {
+      "id": 1395158,
+      "login": "jpvajda",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1395158?v=4",
+      "htmlUrl": "https://github.com/jpvajda",
+      "contributions": 163
     },
     {
       "id": 8172556,
@@ -154,11 +147,18 @@
       "contributions": 1
     },
     {
-      "id": 558327,
-      "login": "maju6406",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/558327?v=4",
-      "htmlUrl": "https://github.com/maju6406",
-      "contributions": 1
+      "id": 1773616,
+      "login": "theletterf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1773616?v=4",
+      "htmlUrl": "https://github.com/theletterf",
+      "contributions": 17
+    },
+    {
+      "id": 270746,
+      "login": "thejonanshow",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/270746?v=4",
+      "htmlUrl": "https://github.com/thejonanshow",
+      "contributions": 12
     },
     {
       "id": 1987319,
@@ -194,13 +194,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/70902571?v=4",
       "htmlUrl": "https://github.com/acuestanewrelic",
       "contributions": 1
-    },
-    {
-      "id": 1663955,
-      "login": "mbazhlekova",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1663955?v=4",
-      "htmlUrl": "https://github.com/mbazhlekova",
-      "contributions": 3
     },
     {
       "id": 66321197,
@@ -252,6 +245,13 @@
       "contributions": 13
     },
     {
+      "id": 186715,
+      "login": "djsauble",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186715?v=4",
+      "htmlUrl": "https://github.com/djsauble",
+      "contributions": 26
+    },
+    {
       "id": 565661,
       "login": "jerelmiller",
       "avatarUrl": "https://avatars.githubusercontent.com/u/565661?v=4",
@@ -273,11 +273,11 @@
       "contributions": 2
     },
     {
-      "id": 1773616,
-      "login": "theletterf",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1773616?v=4",
-      "htmlUrl": "https://github.com/theletterf",
-      "contributions": 17
+      "id": 1663955,
+      "login": "mbazhlekova",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1663955?v=4",
+      "htmlUrl": "https://github.com/mbazhlekova",
+      "contributions": 3
     },
     {
       "id": 55004296,
@@ -357,11 +357,11 @@
       "contributions": 297
     },
     {
-      "id": 186715,
-      "login": "djsauble",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/186715?v=4",
-      "htmlUrl": "https://github.com/djsauble",
-      "contributions": 26
+      "id": 558327,
+      "login": "maju6406",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/558327?v=4",
+      "htmlUrl": "https://github.com/maju6406",
+      "contributions": 1
     },
     {
       "id": 13562672,
@@ -371,11 +371,11 @@
       "contributions": 85
     },
     {
-      "id": 1395158,
-      "login": "jpvajda",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1395158?v=4",
-      "htmlUrl": "https://github.com/jpvajda",
-      "contributions": 162
+      "id": 1187068,
+      "login": "tariqahmed",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1187068?v=4",
+      "htmlUrl": "https://github.com/tariqahmed",
+      "contributions": 1
     },
     {
       "id": 6426523,
