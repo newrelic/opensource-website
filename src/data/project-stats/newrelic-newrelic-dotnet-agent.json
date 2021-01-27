@@ -1,12 +1,12 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 58
+    "open": 59
   },
-  "releases": 52,
+  "releases": 53,
   "latestRelease": {
-    "name": "v8.37.0",
-    "date": "2020-12-31T19:22:12Z"
+    "name": "v8.38.0",
+    "date": "2021-01-26T01:29:04Z"
   },
   "commits": 264,
   "lastSixMonthsCommitTotal": 161,
@@ -70,18 +70,11 @@
   ],
   "cachedContributors": [
     {
-      "id": 4761745,
-      "login": "elucus",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
-      "htmlUrl": "https://github.com/elucus",
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
       "contributions": 4
-    },
-    {
-      "id": 3522458,
-      "login": "jifeingo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
-      "htmlUrl": "https://github.com/jifeingo",
-      "contributions": 38
     },
     {
       "id": 3676547,
@@ -89,6 +82,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/3676547?v=4",
       "htmlUrl": "https://github.com/alanwest",
       "contributions": 5
+    },
+    {
+      "id": 3522458,
+      "login": "jifeingo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
+      "htmlUrl": "https://github.com/jifeingo",
+      "contributions": 38
     },
     {
       "id": 20267975,
@@ -105,10 +105,10 @@
       "contributions": 1
     },
     {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
+      "id": 4761745,
+      "login": "elucus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
+      "htmlUrl": "https://github.com/elucus",
       "contributions": 4
     },
     {
