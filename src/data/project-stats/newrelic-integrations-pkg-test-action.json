@@ -3,11 +3,14 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.0",
+    "date": "2021-01-28T16:08:09Z"
+  },
+  "commits": 3,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +23,27 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
       "htmlUrl": "https://github.com/devfreddy",
       "contributions": 1
+    },
+    {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 1
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
