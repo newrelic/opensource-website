@@ -9,30 +9,13 @@
     "date": "2021-01-27T20:15:25Z"
   },
   "commits": 3632,
-  "lastSixMonthsCommitTotal": 1696,
+  "lastSixMonthsCommitTotal": 1694,
   "contributors": 47,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2NDQwODAzNjI=",
-      "title": "Automatic code formatting is a bit too aggressive",
-      "url": "https://github.com/newrelic/developer-website/issues/222",
-      "createdAt": "2020-06-23T19:11:44Z",
-      "comments": {
-        "totalCount": 3
-      },
-      "author": {
-        "login": "jerelmiller",
-        "id": "MDQ6VXNlcjU2NTY2MQ==",
-        "email": "",
-        "name": "Jerel Miller"
-      },
-      "number": 222,
-      "createdBy": "Jerel Miller"
-    },
     {
       "id": "MDU6SXNzdWU2NTg0MzY3Nzg=",
       "title": "Be consistent with how we document the PlatformStateContext objects for platformUrlState and platformState",
@@ -66,6 +49,23 @@
       },
       "number": 453,
       "createdBy": "John P Vajda"
+    },
+    {
+      "id": "MDU6SXNzdWU2NzUzMzIyMTg=",
+      "title": "Search Tag + Results Feature",
+      "url": "https://github.com/newrelic/developer-website/issues/566",
+      "createdAt": "2020-08-07T23:02:46Z",
+      "comments": {
+        "totalCount": 2
+      },
+      "author": {
+        "login": "jpvajda",
+        "id": "MDQ6VXNlcjEzOTUxNTg=",
+        "email": "",
+        "name": "John P Vajda"
+      },
+      "number": 566,
+      "createdBy": "John P Vajda"
     }
   ],
   "cachedContributors": [
@@ -84,13 +84,6 @@
       "contributions": 12
     },
     {
-      "id": 558327,
-      "login": "maju6406",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/558327?v=4",
-      "htmlUrl": "https://github.com/maju6406",
-      "contributions": 1
-    },
-    {
       "id": 46462340,
       "login": "abuchanan-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46462340?v=4",
@@ -98,18 +91,18 @@
       "contributions": 1
     },
     {
-      "id": 20293876,
-      "login": "tyreer",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/20293876?v=4",
-      "htmlUrl": "https://github.com/tyreer",
-      "contributions": 2
+      "id": 7992384,
+      "login": "paperclypse",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7992384?v=4",
+      "htmlUrl": "https://github.com/paperclypse",
+      "contributions": 5
     },
     {
-      "id": 42678939,
-      "login": "bradleycamacho",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/42678939?v=4",
-      "htmlUrl": "https://github.com/bradleycamacho",
-      "contributions": 3
+      "id": 55203603,
+      "login": "austin-schaefer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
+      "htmlUrl": "https://github.com/austin-schaefer",
+      "contributions": 1
     },
     {
       "id": 929261,
@@ -126,6 +119,13 @@
       "contributions": 159
     },
     {
+      "id": 42678939,
+      "login": "bradleycamacho",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42678939?v=4",
+      "htmlUrl": "https://github.com/bradleycamacho",
+      "contributions": 3
+    },
+    {
       "id": 4978846,
       "login": "rajatagarwal",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4978846?v=4",
@@ -133,11 +133,11 @@
       "contributions": 1
     },
     {
-      "id": 55203603,
-      "login": "austin-schaefer",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
-      "htmlUrl": "https://github.com/austin-schaefer",
-      "contributions": 1
+      "id": 812989,
+      "login": "danielgolden",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
+      "htmlUrl": "https://github.com/danielgolden",
+      "contributions": 9
     },
     {
       "id": 8172556,
@@ -159,20 +159,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/1395158?v=4",
       "htmlUrl": "https://github.com/jpvajda",
       "contributions": 163
-    },
-    {
-      "id": 39946,
-      "login": "binaryseed",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39946?v=4",
-      "htmlUrl": "https://github.com/binaryseed",
-      "contributions": 1
-    },
-    {
-      "id": 1987319,
-      "login": "idirouhab",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1987319?v=4",
-      "htmlUrl": "https://github.com/idirouhab",
-      "contributions": 11
     },
     {
       "id": 70179303,
@@ -266,6 +252,13 @@
       "contributions": 13
     },
     {
+      "id": 186715,
+      "login": "djsauble",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186715?v=4",
+      "htmlUrl": "https://github.com/djsauble",
+      "contributions": 26
+    },
+    {
       "id": 565661,
       "login": "jerelmiller",
       "avatarUrl": "https://avatars.githubusercontent.com/u/565661?v=4",
@@ -315,11 +308,18 @@
       "contributions": 48
     },
     {
-      "id": 7992384,
-      "login": "paperclypse",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7992384?v=4",
-      "htmlUrl": "https://github.com/paperclypse",
-      "contributions": 5
+      "id": 20293876,
+      "login": "tyreer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20293876?v=4",
+      "htmlUrl": "https://github.com/tyreer",
+      "contributions": 2
+    },
+    {
+      "id": 1987319,
+      "login": "idirouhab",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1987319?v=4",
+      "htmlUrl": "https://github.com/idirouhab",
+      "contributions": 11
     },
     {
       "id": 1261626,
@@ -350,11 +350,11 @@
       "contributions": 81
     },
     {
-      "id": 812989,
-      "login": "danielgolden",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
-      "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 9
+      "id": 39946,
+      "login": "binaryseed",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39946?v=4",
+      "htmlUrl": "https://github.com/binaryseed",
+      "contributions": 1
     },
     {
       "id": 1946433,
@@ -364,11 +364,11 @@
       "contributions": 297
     },
     {
-      "id": 186715,
-      "login": "djsauble",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/186715?v=4",
-      "htmlUrl": "https://github.com/djsauble",
-      "contributions": 26
+      "id": 558327,
+      "login": "maju6406",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/558327?v=4",
+      "htmlUrl": "https://github.com/maju6406",
+      "contributions": 1
     },
     {
       "id": 13562672,
