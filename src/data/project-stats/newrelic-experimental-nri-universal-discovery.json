@@ -1,15 +1,15 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-java-elasticsearch",
+  "projectFullName": "newrelic-experimental/nri-universal-discovery",
   "issues": {
     "open": 0
   },
-  "releases": 1,
+  "releases": 4,
   "latestRelease": {
-    "name": "1.0",
-    "date": "2020-12-31T23:27:55Z"
+    "name": "v0.4.2",
+    "date": "2021-01-28T11:26:21Z"
   },
-  "commits": 5,
-  "lastSixMonthsCommitTotal": 5,
+  "commits": 53,
+  "lastSixMonthsCommitTotal": 53,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -18,30 +18,35 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 8822859,
-      "login": "dhilpipre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
-      "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 4
-    },
-    {
       "id": 3536684,
       "login": "sschwartzman",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
       "htmlUrl": "https://github.com/sschwartzman",
       "contributions": 1
+    },
+    {
+      "id": 13043208,
+      "login": "Kav91",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
+      "htmlUrl": "https://github.com/Kav91",
+      "contributions": 51
     }
   ],
   "languages": [
     {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNDk=",
+      "name": "Rust",
+      "color": "#dea584"
+    },
+    {
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxNTg=",
-      "name": "Java",
-      "color": "#b07219"
     }
   ],
   "screenshots": [],

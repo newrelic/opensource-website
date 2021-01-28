@@ -8,22 +8,15 @@
     "name": "v1.0.8",
     "date": null
   },
-  "commits": 22,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 3,
+  "commits": 24,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 4,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 4672940,
-      "login": "shahramk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4672940?v=4",
-      "htmlUrl": "https://github.com/shahramk",
-      "contributions": 15
-    },
     {
       "id": 7143309,
       "login": "ddarwin",
@@ -32,11 +25,25 @@
       "contributions": 4
     },
     {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 1
+    },
+    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
+    },
+    {
+      "id": 4672940,
+      "login": "shahramk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4672940?v=4",
+      "htmlUrl": "https://github.com/shahramk",
+      "contributions": 15
     }
   ],
   "languages": [
@@ -44,11 +51,6 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
     },
     {
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
@@ -59,6 +61,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDU=",
       "name": "Python",
       "color": "#3572A5"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [
