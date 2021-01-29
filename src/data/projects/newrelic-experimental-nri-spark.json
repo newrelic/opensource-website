@@ -1,0 +1,27 @@
+{
+  "name": "nri-spark",
+  "fullName": "newrelic-experimental/nri-spark",
+  "slug": "newrelic-experimental-nri-spark",
+  "owner": {
+    "login": "newrelic-experimental",
+    "type": "Organization"
+  },
+  "title": "nri-spark",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic-experimental/nri-spark",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/nri-spark",
+  "iconUrl": null,
+  "shortDescription": "This New Relic standalone integration polls the Apache Spark REST API for metrics and pushes them into New Relic using Metrics API It uses the New Relic Telemetry sdk for go",
+  "description": "This New Relic standalone integration polls the Apache Spark REST API for metrics and pushes them into New Relic using Metrics API It uses the New Relic Telemetry sdk for go",
+  "ossCategory": "experimental",
+  "primaryLanguage": "Go",
+  "projectTags": [
+    "nrlabs",
+    "nri"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "nri-spark",
+    "url": "https://github.com/newrelic-experimental/nri-spark"
+  }
+}

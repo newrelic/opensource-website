@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-java-transaction-listener-service",
+  "fullName": "newrelic-experimental/newrelic-java-transaction-listener-service",
+  "slug": "newrelic-experimental-newrelic-java-transaction-listener-service",
+  "owner": {
+    "login": "newrelic-experimental",
+    "type": "Organization"
+  },
+  "title": "newrelic-java-transaction-listener-service",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic-experimental/newrelic-java-transaction-listener-service",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/newrelic-java-transaction-listener-service",
+  "iconUrl": null,
+  "shortDescription": "This lightweight Java Agent extension listens for Java Agent configChanged and transactionFinished events. It adds the labels from the Agent's configuration yml file to each completed Agent transac\u2026",
+  "description": "This lightweight Java Agent extension listens for Java Agent configChanged and transactionFinished events. It adds the labels from the Agent's configuration yml file to each completed Agent transaction subject to the Rules below. The labels are read on startup and on configChanged events.The added labels appear in every Transaction Trace as user attributes.",
+  "ossCategory": "experimental",
+  "primaryLanguage": "Java",
+  "projectTags": [
+    "nrlabs"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "newrelic-java-transaction-listener-service",
+    "url": "https://github.com/newrelic-experimental/newrelic-java-transaction-listener-service"
+  }
+}
