@@ -1,0 +1,27 @@
+{
+  "name": "nri-snmp-trapd",
+  "fullName": "newrelic-experimental/nri-snmp-trapd",
+  "slug": "newrelic-experimental-nri-snmp-trapd",
+  "owner": {
+    "login": "newrelic-experimental",
+    "type": "Organization"
+  },
+  "title": "New Relic integration for SNMP traps",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic-experimental/nri-snmp-trapd",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/nri-snmp-trapd",
+  "iconUrl": null,
+  "shortDescription": "SNMP trapd on-host integration for New Relic Infrastructure",
+  "description": "SNMP trapd on-host integration for New Relic Infrastructure",
+  "ossCategory": "new-relic-experimental",
+  "primaryLanguage": "Go",
+  "projectTags": [
+    "nrlabs",
+    "nri"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic integration for SNMP traps",
+    "url": "https://github.com/newrelic-experimental/nri-snmp-trapd"
+  }
+}

@@ -6,7 +6,7 @@
     "login": "newrelic",
     "type": "Organization"
   },
-  "title": "New Relic Infrastructure Port Monitor Integration",
+  "title": "New Relic integration for Port Monitoring",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic/nri-port-monitor",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/nri-port-monitor",
@@ -15,10 +15,10 @@
   "description": "Reports up or down status for a network (TCP, UDP, etc.) port",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "Go",
-  "projectTags": ["nri"],
+  "projectTags": ["nri","network","nrlabs"],
   "acceptsContributions": true,
   "website": {
-    "title": "New Relic Infrastructure Port Monitor Integration",
+    "title": "New Relic integration for Port Monitoring",
     "url": "https://github.com/newrelic/nri-port-monitor"
   }
 }
