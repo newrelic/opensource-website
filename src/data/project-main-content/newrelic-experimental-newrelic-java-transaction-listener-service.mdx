@@ -1,0 +1,21 @@
+---
+path: "/projects/newrelic-experimental/newrelic-java-transaction-listener-service"
+date: "01/29/2021"
+title: "New Relic Java Agent - Transaction Listener Service"
+projectConfig: "/src/data/projects/newrelic-experimental-newrelic-java-transaction-listener-service.json"
+---
+
+<!-- Imports must occur at the top of the file -->
+import { Link } from 'gatsby';
+
+This lightweight Java Agent extension listens for Java Agent configChanged and transactionFinished events. It adds the labels from the Agent's configuration yml file to each completed Agent transac…
+
+<Link to="https://github.com/newrelic-experimental/newrelic-java-transaction-listener-service">Installation Instructions</Link>
+
+## Features
+
+This lightweight Java Agent extension listens for Java Agent configChanged and transactionFinished events. It adds the labels from the Agent's configuration yml file to each completed Agent transaction subject to the Rules below. The labels are read on startup and on configChanged events.The added labels appear in every Transaction Trace as user attributes.
+
+## Getting Started
+
+Please visit the [README](https://github.com/newrelic-experimental/newrelic-java-transaction-listener-service#readme) for setup and usage details.
