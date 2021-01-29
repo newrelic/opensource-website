@@ -1,3 +1,16 @@
+## [1.9.7](https://github.com/newrelic/opensource-website/compare/v1.9.6...v1.9.7) (2021-01-29)
+
+
+### Bug Fixes
+
+* ossCategory in new projects/json files ([6a297f3](https://github.com/newrelic/opensource-website/commit/6a297f3f072e147aa07cb8ff095a6cdcb1f37b76))
+
+
+### Reverts
+
+* Revert "Mother Lode Take 2" ([2422cd9](https://github.com/newrelic/opensource-website/commit/2422cd979ab277b38aca5d97ea220ad102a93377))
+* Revert "Mother Lode! (rough drafts produced by script)" ([0519a1c](https://github.com/newrelic/opensource-website/commit/0519a1cc175eea113bd1d0511ea33cef4b4889af))
+
 ## [1.9.6](https://github.com/newrelic/opensource-website/compare/v1.9.5...v1.9.6) (2020-12-08)
 
 
