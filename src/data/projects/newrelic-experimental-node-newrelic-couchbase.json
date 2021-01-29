@@ -6,7 +6,7 @@
     "login": "newrelic-experimental",
     "type": "Organization"
   },
-  "title": "Node New Relic Couchbase",
+  "title": "New Relic JavaScript Instrumentation for Couchbase",
   "supportUrl": null,
   "githubUrl": "https://github.com/newrelic-experimental/node-newrelic-couchbase",
   "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/node-newrelic-couchbase",
@@ -15,10 +15,10 @@
   "description": "Instrumentation package for New Relic Node.JS agent to monitor backend calls to Couchbase.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": ["exporter"],
+  "projectTags": ["instrumentation", "nrlabs"],
   "acceptsContributions": true,
   "website": {
-    "title": "Node New Relic Couchbase",
+    "title": "New Relic JavaScript Instrumentation for Couchbase",
     "url": "https://github.com/newrelic-experimental/node-newrelic-couchbase"
   }
 }

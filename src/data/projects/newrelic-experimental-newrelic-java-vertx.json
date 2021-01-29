@@ -1,0 +1,27 @@
+{
+  "name": "newrelic-java-vertx",
+  "fullName": "newrelic-experimental/newrelic-java-vertx",
+  "slug": "newrelic-experimental-newrelic-java-vertx",
+  "owner": {
+    "login": "newrelic-experimental",
+    "type": "Organization"
+  },
+  "title": "New Relic Java Instrumentation for Vert.x Event Bus",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic-experimental/newrelic-java-vertx",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/newrelic-java-vertx",
+  "iconUrl": null,
+  "shortDescription": "Provides instrumentation for Vertx EventBus and Verticles",
+  "description": "Provides instrumentation for Vertx EventBus and Verticles",
+  "ossCategory": "new-relic-experimental",
+  "primaryLanguage": "Java",
+  "projectTags": [
+    "nrlabs",
+    "instrumentation"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Java Instrumentation for Vert.x Event Bus",
+    "url": "https://github.com/newrelic-experimental/newrelic-java-vertx"
+  }
+}
