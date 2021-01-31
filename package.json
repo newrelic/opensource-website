@@ -68,7 +68,7 @@
     "build": "gatsby build",
     "build:production": "GATSBY_NEWRELIC_ENV=production npm run build",
     "build:staging": "GATSBY_NEWRELIC_ENV=staging gatsby build",
-    "develop": "npm run clean && gatsby develop",
+    "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "GATSBY_NEWRELIC_ENV=development npm run develop",
     "serve": "gatsby serve",
