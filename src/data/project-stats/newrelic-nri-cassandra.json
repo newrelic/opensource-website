@@ -1,42 +1,35 @@
 {
   "projectFullName": "newrelic/nri-cassandra",
   "issues": {
-    "open": 6
+    "open": 4
   },
   "releases": 15,
   "latestRelease": {
     "name": "v9.9.9",
     "date": "2021-01-29T16:25:26Z"
   },
-  "commits": 99,
-  "lastSixMonthsCommitTotal": 19,
-  "contributors": 17,
+  "commits": 112,
+  "lastSixMonthsCommitTotal": 32,
+  "contributors": 19,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 1
-    },
-    {
-      "id": 13697136,
-      "login": "adamvialpando",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13697136?v=4",
-      "htmlUrl": "https://github.com/adamvialpando",
-      "contributions": 1
-    },
-    {
-      "id": 4612272,
-      "login": "Noly",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
-      "htmlUrl": "https://github.com/Noly",
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
       "contributions": 3
+    },
+    {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 2
     },
     {
       "id": 1300852,
@@ -46,11 +39,25 @@
       "contributions": 2
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 2
+      "id": 4612272,
+      "login": "Noly",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
+      "htmlUrl": "https://github.com/Noly",
+      "contributions": 3
+    },
+    {
+      "id": 13697136,
+      "login": "adamvialpando",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13697136?v=4",
+      "htmlUrl": "https://github.com/adamvialpando",
+      "contributions": 1
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 1
     },
     {
       "id": 929261,
@@ -135,6 +142,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/67997?v=4",
       "htmlUrl": "https://github.com/toffer",
       "contributions": 2
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 9
     }
   ],
   "languages": [
@@ -152,6 +166,16 @@
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
       "name": "Dockerfile",
       "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
     }
   ],
   "screenshots": [],
