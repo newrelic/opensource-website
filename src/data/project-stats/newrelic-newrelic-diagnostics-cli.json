@@ -1,38 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-diagnostics-cli",
   "issues": {
-    "open": 9
+    "open": 5
   },
   "releases": 2,
   "latestRelease": {
     "name": "v.1.12_32",
     "date": "2021-01-11T19:45:57Z"
   },
-  "commits": 303,
-  "lastSixMonthsCommitTotal": 303,
-  "contributors": 8,
+  "commits": 319,
+  "lastSixMonthsCommitTotal": 319,
+  "contributors": 9,
   "pullRequests": {
-    "open": 4
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU3MzY1NzczNjI=",
-      "title": "NET log directory from config file not detected",
-      "url": "https://github.com/newrelic/newrelic-diagnostics-cli/issues/23",
-      "createdAt": "2020-11-05T03:21:43Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "uturunku1",
-        "id": "MDQ6VXNlcjIxMjI1NDEw",
-        "email": "",
-        "name": "Luces Huayhuaca"
-      },
-      "number": 23,
-      "createdBy": "Luces Huayhuaca"
-    },
     {
       "id": "MDU6SXNzdWU3MzY1OTY2MjA=",
       "title": "Add a URL to Java/env/process",
@@ -52,6 +35,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 77851771,
+      "login": "brianyangNR",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77851771?v=4",
+      "htmlUrl": "https://github.com/brianyangNR",
+      "contributions": 1
+    },
     {
       "id": 13170292,
       "login": "GabrielSamp",
@@ -74,13 +64,6 @@
       "contributions": 1
     },
     {
-      "id": 21225410,
-      "login": "uturunku1",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/21225410?v=4",
-      "htmlUrl": "https://github.com/uturunku1",
-      "contributions": 7
-    },
-    {
       "id": 19716792,
       "login": "njvrzm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19716792?v=4",
@@ -88,11 +71,18 @@
       "contributions": 2
     },
     {
-      "id": 77851771,
-      "login": "brianyangNR",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/77851771?v=4",
-      "htmlUrl": "https://github.com/brianyangNR",
-      "contributions": 1
+      "id": 32469854,
+      "login": "CherylFrankenfield",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32469854?v=4",
+      "htmlUrl": "https://github.com/CherylFrankenfield",
+      "contributions": 2
+    },
+    {
+      "id": 21225410,
+      "login": "uturunku1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21225410?v=4",
+      "htmlUrl": "https://github.com/uturunku1",
+      "contributions": 8
     },
     {
       "id": 34964885,
