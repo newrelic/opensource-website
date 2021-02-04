@@ -1,35 +1,42 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-java-httpservlet-transaction-namer",
+  "projectFullName": "newrelic-experimental/newrelic-java-guidewire",
   "issues": {
-    "open": 1
+    "open": 0
   },
   "releases": 1,
   "latestRelease": {
-    "name": "2.1",
-    "date": "2020-10-01T01:13:47Z"
+    "name": "1.6",
+    "date": "2021-02-04T14:14:24Z"
   },
-  "commits": 6,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 2,
+  "commits": 15,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 3,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 45947764,
+      "login": "bpeckNR",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45947764?v=4",
+      "htmlUrl": "https://github.com/bpeckNR",
+      "contributions": 3
+    },
+    {
       "id": 3536684,
       "login": "sschwartzman",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
       "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 3
+      "contributions": 4
     },
     {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 2
+      "id": 17014899,
+      "login": "preddy-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17014899?v=4",
+      "htmlUrl": "https://github.com/preddy-newrelic",
+      "contributions": 6
     }
   ],
   "languages": [
