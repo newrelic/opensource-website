@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-python-agent",
   "issues": {
-    "open": 7
+    "open": 6
   },
   "releases": 35,
   "latestRelease": {
     "name": "v6.0.1.155",
     "date": "2021-01-21T18:50:46Z"
   },
-  "commits": 185,
-  "lastSixMonthsCommitTotal": 135,
+  "commits": 186,
+  "lastSixMonthsCommitTotal": 136,
   "contributors": 9,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 67169383,
-      "login": "newrelic-opensource",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/67169383?v=4",
-      "htmlUrl": "https://github.com/newrelic-opensource",
-      "contributions": 30
-    },
     {
       "id": 44993916,
       "login": "k2mahajan",
@@ -39,11 +32,18 @@
       "contributions": 1
     },
     {
-      "id": 6374032,
-      "login": "a-feld",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6374032?v=4",
-      "htmlUrl": "https://github.com/a-feld",
-      "contributions": 60
+      "id": 67169383,
+      "login": "newrelic-opensource",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67169383?v=4",
+      "htmlUrl": "https://github.com/newrelic-opensource",
+      "contributions": 30
+    },
+    {
+      "id": 11214426,
+      "login": "TimPansino",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
+      "htmlUrl": "https://github.com/TimPansino",
+      "contributions": 55
     },
     {
       "id": 929261,
@@ -74,11 +74,11 @@
       "contributions": 13
     },
     {
-      "id": 11214426,
-      "login": "TimPansino",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
-      "htmlUrl": "https://github.com/TimPansino",
-      "contributions": 54
+      "id": 6374032,
+      "login": "a-feld",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6374032?v=4",
+      "htmlUrl": "https://github.com/a-feld",
+      "contributions": 60
     }
   ],
   "languages": [
