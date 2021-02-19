@@ -3,14 +3,14 @@
   "issues": {
     "open": 5
   },
-  "releases": 89,
+  "releases": 90,
   "latestRelease": {
-    "name": "v1.31.0",
+    "name": "v1.31.1",
     "date": null
   },
-  "commits": 1302,
-  "lastSixMonthsCommitTotal": 909,
-  "contributors": 10,
+  "commits": 1306,
+  "lastSixMonthsCommitTotal": 910,
+  "contributors": 11,
   "pullRequests": {
     "open": 0
   },
@@ -32,11 +32,32 @@
       "contributions": 30
     },
     {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
+    },
+    {
+      "id": 55203603,
+      "login": "austin-schaefer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
+      "htmlUrl": "https://github.com/austin-schaefer",
+      "contributions": 1
+    },
+    {
       "id": 6722433,
       "login": "jbeveland27",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 1
+    },
+    {
+      "id": 1946433,
+      "login": "zstix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1946433?v=4",
+      "htmlUrl": "https://github.com/zstix",
+      "contributions": 114
     },
     {
       "id": 2952843,
@@ -46,13 +67,6 @@
       "contributions": 29
     },
     {
-      "id": 39655074,
-      "login": "LizBaker",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
-      "htmlUrl": "https://github.com/LizBaker",
-      "contributions": 28
-    },
-    {
       "id": 186715,
       "login": "djsauble",
       "avatarUrl": "https://avatars.githubusercontent.com/u/186715?v=4",
@@ -60,32 +74,25 @@
       "contributions": 3
     },
     {
+      "id": 565661,
+      "login": "jerelmiller",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/565661?v=4",
+      "htmlUrl": "https://github.com/jerelmiller",
+      "contributions": 796
+    },
+    {
+      "id": 39655074,
+      "login": "LizBaker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
+      "htmlUrl": "https://github.com/LizBaker",
+      "contributions": 28
+    },
+    {
       "id": 38332422,
       "login": "caylahamann",
       "avatarUrl": "https://avatars.githubusercontent.com/u/38332422?v=4",
       "htmlUrl": "https://github.com/caylahamann",
       "contributions": 88
-    },
-    {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 1
-    },
-    {
-      "id": 565661,
-      "login": "jerelmiller",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/565661?v=4",
-      "htmlUrl": "https://github.com/jerelmiller",
-      "contributions": 795
-    },
-    {
-      "id": 1946433,
-      "login": "zstix",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1946433?v=4",
-      "htmlUrl": "https://github.com/zstix",
-      "contributions": 114
     }
   ],
   "languages": [
