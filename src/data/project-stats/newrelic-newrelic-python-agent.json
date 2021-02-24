@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-python-agent",
   "issues": {
-    "open": 6
+    "open": 5
   },
-  "releases": 35,
+  "releases": 271,
   "latestRelease": {
     "name": "v6.0.1.155",
     "date": "2021-01-21T18:50:46Z"
   },
-  "commits": 188,
-  "lastSixMonthsCommitTotal": 127,
+  "commits": 191,
+  "lastSixMonthsCommitTotal": 128,
   "contributors": 10,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 67169383,
-      "login": "newrelic-opensource",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/67169383?v=4",
-      "htmlUrl": "https://github.com/newrelic-opensource",
-      "contributions": 30
-    },
     {
       "id": 6374032,
       "login": "a-feld",
@@ -44,6 +37,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/1413267?v=4",
       "htmlUrl": "https://github.com/stianjensen",
       "contributions": 1
+    },
+    {
+      "id": 67169383,
+      "login": "newrelic-opensource",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67169383?v=4",
+      "htmlUrl": "https://github.com/newrelic-opensource",
+      "contributions": 30
     },
     {
       "id": 929261,
@@ -85,7 +85,7 @@
       "login": "TimPansino",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
       "htmlUrl": "https://github.com/TimPansino",
-      "contributions": 56
+      "contributions": 59
     }
   ],
   "languages": [
