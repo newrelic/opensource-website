@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-go",
   "issues": {
-    "open": 10
+    "open": 9
   },
   "releases": 4,
   "latestRelease": {
@@ -16,23 +16,6 @@
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU3MjY4MTg4MDc=",
-      "title": "Update documentation to help new users with how to use this exporter",
-      "url": "https://github.com/newrelic/opentelemetry-exporter-go/issues/32",
-      "createdAt": "2020-10-21T19:52:20Z",
-      "comments": {
-        "totalCount": 3
-      },
-      "author": {
-        "login": "jodeev",
-        "id": "MDQ6VXNlcjQ4OTY1Nzc2",
-        "email": "",
-        "name": "Jodee Varney"
-      },
-      "number": 32,
-      "createdBy": "Jodee Varney"
-    },
     {
       "id": "MDU6SXNzdWU4MDI1NDI3MjU=",
       "title": "Simplify EU configuration in Quick Start Guide",
@@ -52,6 +35,20 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 48965776,
+      "login": "jodeev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48965776?v=4",
+      "htmlUrl": "https://github.com/jodeev",
+      "contributions": 1
+    },
+    {
+      "id": 21367523,
+      "login": "subvocal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21367523?v=4",
+      "htmlUrl": "https://github.com/subvocal",
+      "contributions": 1
+    },
     {
       "id": 33581864,
       "login": "1pkg",
@@ -88,24 +85,10 @@
       "contributions": 1
     },
     {
-      "id": 48965776,
-      "login": "jodeev",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/48965776?v=4",
-      "htmlUrl": "https://github.com/jodeev",
-      "contributions": 1
-    },
-    {
       "id": 1342804,
       "login": "lykkin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1342804?v=4",
       "htmlUrl": "https://github.com/lykkin",
-      "contributions": 1
-    },
-    {
-      "id": 21367523,
-      "login": "subvocal",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/21367523?v=4",
-      "htmlUrl": "https://github.com/subvocal",
       "contributions": 1
     },
     {
