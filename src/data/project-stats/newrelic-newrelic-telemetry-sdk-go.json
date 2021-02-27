@@ -1,28 +1,35 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-go",
   "issues": {
-    "open": 8
+    "open": 7
   },
   "releases": 6,
   "latestRelease": {
     "name": "v0.5.1",
     "date": "2020-12-17T01:45:17Z"
   },
-  "commits": 56,
-  "lastSixMonthsCommitTotal": 28,
-  "contributors": 10,
+  "commits": 112,
+  "lastSixMonthsCommitTotal": 84,
+  "contributors": 13,
   "pullRequests": {
-    "open": 5
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 13123145,
-      "login": "RichVanderwal",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13123145?v=4",
-      "htmlUrl": "https://github.com/RichVanderwal",
-      "contributions": 3
+      "id": 1424545,
+      "login": "georlav",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1424545?v=4",
+      "htmlUrl": "https://github.com/georlav",
+      "contributions": 1
+    },
+    {
+      "id": 6374032,
+      "login": "a-feld",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6374032?v=4",
+      "htmlUrl": "https://github.com/a-feld",
+      "contributions": 15
     },
     {
       "id": 52758187,
@@ -30,27 +37,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/52758187?v=4",
       "htmlUrl": "https://github.com/newrelic-eheinlein",
       "contributions": 1
-    },
-    {
-      "id": 10852,
-      "login": "areina",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/10852?v=4",
-      "htmlUrl": "https://github.com/areina",
-      "contributions": 2
-    },
-    {
-      "id": 1462042,
-      "login": "rvanderwal-newrelic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1462042?v=4",
-      "htmlUrl": "https://github.com/rvanderwal-newrelic",
-      "contributions": 6
-    },
-    {
-      "id": 3170392,
-      "login": "justinfoote",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3170392?v=4",
-      "htmlUrl": "https://github.com/justinfoote",
-      "contributions": 6
     },
     {
       "id": 5143130,
@@ -74,11 +60,46 @@
       "contributions": 1
     },
     {
-      "id": 1424545,
-      "login": "georlav",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1424545?v=4",
-      "htmlUrl": "https://github.com/georlav",
-      "contributions": 1
+      "id": 10852,
+      "login": "areina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10852?v=4",
+      "htmlUrl": "https://github.com/areina",
+      "contributions": 2
+    },
+    {
+      "id": 3676547,
+      "login": "alanwest",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3676547?v=4",
+      "htmlUrl": "https://github.com/alanwest",
+      "contributions": 3
+    },
+    {
+      "id": 13123145,
+      "login": "RichVanderwal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13123145?v=4",
+      "htmlUrl": "https://github.com/RichVanderwal",
+      "contributions": 3
+    },
+    {
+      "id": 1462042,
+      "login": "rvanderwal-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1462042?v=4",
+      "htmlUrl": "https://github.com/rvanderwal-newrelic",
+      "contributions": 6
+    },
+    {
+      "id": 3170392,
+      "login": "justinfoote",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3170392?v=4",
+      "htmlUrl": "https://github.com/justinfoote",
+      "contributions": 6
+    },
+    {
+      "id": 45495992,
+      "login": "nrcventura",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45495992?v=4",
+      "htmlUrl": "https://github.com/nrcventura",
+      "contributions": 36
     },
     {
       "id": 5543599,
