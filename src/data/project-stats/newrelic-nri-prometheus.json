@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nri-prometheus",
   "issues": {
-    "open": 18
+    "open": 17
   },
   "releases": 20,
   "latestRelease": {
@@ -9,13 +9,30 @@
     "date": "2021-02-25T13:51:30Z"
   },
   "commits": 109,
-  "lastSixMonthsCommitTotal": 53,
+  "lastSixMonthsCommitTotal": 52,
   "contributors": 15,
   "pullRequests": {
     "open": 6
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU1MTM2MDU1ODk=",
+      "title": "EMITTERS=stdout logs some default struct format",
+      "url": "https://github.com/newrelic/nri-prometheus/issues/25",
+      "createdAt": "2019-10-28T23:10:35Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "roblg",
+        "id": "MDQ6VXNlcjc3NzEzOA==",
+        "email": "",
+        "name": "Robert Gay"
+      },
+      "number": 25,
+      "createdBy": "Robert Gay"
+    },
     {
       "id": "MDU6SXNzdWU3MDIwMTcyNjI=",
       "title": "Make HarvestTimeout configurable",
