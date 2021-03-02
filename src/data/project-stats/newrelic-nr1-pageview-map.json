@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/nr1-pageview-map",
   "issues": {
-    "open": 4
+    "open": 3
   },
-  "releases": 10,
+  "releases": 11,
   "latestRelease": {
-    "name": "v1.4.2",
-    "date": "2020-09-02T02:43:53Z"
+    "name": "v1.4.3",
+    "date": "2021-03-02T00:17:51Z"
   },
-  "commits": 183,
-  "lastSixMonthsCommitTotal": 22,
+  "commits": 184,
+  "lastSixMonthsCommitTotal": 20,
   "contributors": 11,
   "pullRequests": {
     "open": 3
@@ -23,13 +23,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/712701?v=4",
       "htmlUrl": "https://github.com/adamlukaszczyk",
       "contributions": 1
-    },
-    {
-      "id": 197140,
-      "login": "devfreddy",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
-      "htmlUrl": "https://github.com/devfreddy",
-      "contributions": 13
     },
     {
       "id": 66321197,
@@ -46,6 +39,13 @@
       "contributions": 1
     },
     {
+      "id": 24775098,
+      "login": "madecki",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24775098?v=4",
+      "htmlUrl": "https://github.com/madecki",
+      "contributions": 5
+    },
+    {
       "id": 38174486,
       "login": "dulcineapena1",
       "avatarUrl": "https://avatars.githubusercontent.com/u/38174486?v=4",
@@ -60,11 +60,11 @@
       "contributions": 3
     },
     {
-      "id": 24775098,
-      "login": "madecki",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/24775098?v=4",
-      "htmlUrl": "https://github.com/madecki",
-      "contributions": 5
+      "id": 197140,
+      "login": "devfreddy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
+      "htmlUrl": "https://github.com/devfreddy",
+      "contributions": 13
     },
     {
       "id": 929261,
@@ -107,9 +107,7 @@
       "color": "#c6538c"
     }
   ],
-  "screenshots": [
-    "https://raw.githubusercontent.com/newrelic/nr1-pageview-map/master/catalog/screenshots/screenshot_01.png"
-  ],
+  "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",
