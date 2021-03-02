@@ -1,0 +1,24 @@
+{
+  "name": "nr1-quickstarts",
+  "fullName": "newrelic/nr1-quickstarts",
+  "slug": "newrelic-nr1-quickstarts",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic One Quickstarts",
+  "supportUrl": "https://github.com/newrelic/nr1-quickstarts/discussions",
+  "githubUrl": "https://github.com/newrelic/nr1-quickstarts",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/nr1-quickstarts",
+  "iconUrl": "https://raw.githubusercontent.com/newrelic/nr1-quickstarts/main/icon.png?raw=true",
+  "shortDescription": "New Relic One dashboard, alert and synthetics library",
+  "description": "Rich set of dashboards, alerts and synthetics ready to be imported into your New Relic account.",
+  "ossCategory": "new-relic-one-catalog-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": ["nr1-app"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic One Quickstarts",
+    "url": "https://github.com/newrelic/nr1-quickstarts"
+  }
+}
