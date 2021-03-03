@@ -1,49 +1,35 @@
 {
   "projectFullName": "newrelic/newrelic-python-agent",
   "issues": {
-    "open": 10
+    "open": 9
   },
   "releases": 272,
   "latestRelease": {
     "name": "v6.2.0.156",
     "date": "2021-02-25T21:11:20Z"
   },
-  "commits": 192,
-  "lastSixMonthsCommitTotal": 126,
-  "contributors": 10,
+  "commits": 194,
+  "lastSixMonthsCommitTotal": 128,
+  "contributors": 11,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 67169383,
-      "login": "newrelic-opensource",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/67169383?v=4",
-      "htmlUrl": "https://github.com/newrelic-opensource",
-      "contributions": 30
-    },
-    {
-      "id": 578029,
-      "login": "sigvef",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/578029?v=4",
-      "htmlUrl": "https://github.com/sigvef",
-      "contributions": 1
-    },
-    {
-      "id": 1413267,
-      "login": "stianjensen",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1413267?v=4",
-      "htmlUrl": "https://github.com/stianjensen",
-      "contributions": 1
-    },
-    {
-      "id": 11214426,
-      "login": "TimPansino",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
-      "htmlUrl": "https://github.com/TimPansino",
+      "id": 6374032,
+      "login": "a-feld",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6374032?v=4",
+      "htmlUrl": "https://github.com/a-feld",
       "contributions": 60
+    },
+    {
+      "id": 44993916,
+      "login": "k2mahajan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44993916?v=4",
+      "htmlUrl": "https://github.com/k2mahajan",
+      "contributions": 1
     },
     {
       "id": 929261,
@@ -60,13 +46,6 @@
       "contributions": 1
     },
     {
-      "id": 44993916,
-      "login": "k2mahajan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/44993916?v=4",
-      "htmlUrl": "https://github.com/k2mahajan",
-      "contributions": 1
-    },
-    {
       "id": 19895951,
       "login": "umaannamalai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19895951?v=4",
@@ -74,18 +53,46 @@
       "contributions": 24
     },
     {
+      "id": 11214426,
+      "login": "TimPansino",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
+      "htmlUrl": "https://github.com/TimPansino",
+      "contributions": 61
+    },
+    {
+      "id": 578029,
+      "login": "sigvef",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/578029?v=4",
+      "htmlUrl": "https://github.com/sigvef",
+      "contributions": 1
+    },
+    {
+      "id": 67169383,
+      "login": "newrelic-opensource",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67169383?v=4",
+      "htmlUrl": "https://github.com/newrelic-opensource",
+      "contributions": 30
+    },
+    {
+      "id": 238952,
+      "login": "chrislawlor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/238952?v=4",
+      "htmlUrl": "https://github.com/chrislawlor",
+      "contributions": 1
+    },
+    {
+      "id": 1413267,
+      "login": "stianjensen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1413267?v=4",
+      "htmlUrl": "https://github.com/stianjensen",
+      "contributions": 1
+    },
+    {
       "id": 58118921,
       "login": "carrieedwards",
       "avatarUrl": "https://avatars.githubusercontent.com/u/58118921?v=4",
       "htmlUrl": "https://github.com/carrieedwards",
       "contributions": 13
-    },
-    {
-      "id": 6374032,
-      "login": "a-feld",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6374032?v=4",
-      "htmlUrl": "https://github.com/a-feld",
-      "contributions": 60
     }
   ],
   "languages": [
