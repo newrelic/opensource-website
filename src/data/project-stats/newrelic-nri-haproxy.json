@@ -1,35 +1,35 @@
 {
   "projectFullName": "newrelic/nri-haproxy",
   "issues": {
-    "open": 1
+    "open": 0
   },
   "releases": 10,
   "latestRelease": {
-    "name": "v0.0.1",
-    "date": "2021-01-19T14:21:12Z"
+    "name": "v2.2.0",
+    "date": "2021-03-03T12:01:04Z"
   },
-  "commits": 98,
-  "lastSixMonthsCommitTotal": 11,
-  "contributors": 12,
+  "commits": 100,
+  "lastSixMonthsCommitTotal": 13,
+  "contributors": 13,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 7886905,
-      "login": "fryckbos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
-      "htmlUrl": "https://github.com/fryckbos",
-      "contributions": 3
-    },
     {
       "id": 7229810,
       "login": "zackkendra",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7229810?v=4",
       "htmlUrl": "https://github.com/zackkendra",
       "contributions": 1
+    },
+    {
+      "id": 7886905,
+      "login": "fryckbos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
+      "htmlUrl": "https://github.com/fryckbos",
+      "contributions": 3
     },
     {
       "id": 929261,
@@ -81,6 +81,13 @@
       "contributions": 3
     },
     {
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
+      "contributions": 1
+    },
+    {
       "id": 2465371,
       "login": "ping-identity",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2465371?v=4",
@@ -99,7 +106,7 @@
       "login": "arvdias",
       "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
       "htmlUrl": "https://github.com/arvdias",
-      "contributions": 2
+      "contributions": 3
     }
   ],
   "languages": [
