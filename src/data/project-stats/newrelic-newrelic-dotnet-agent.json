@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 59
+    "open": 60
   },
-  "releases": 56,
+  "releases": 57,
   "latestRelease": {
-    "name": "AwsLambdaOpenTracer_v1.2.0",
-    "date": null
+    "name": "AwsLambdaOpenTracer_v1.2.1",
+    "date": "2021-03-05T00:01:48Z"
   },
-  "commits": 276,
-  "lastSixMonthsCommitTotal": 124,
+  "commits": 279,
+  "lastSixMonthsCommitTotal": 127,
   "contributors": 14,
   "pullRequests": {
     "open": 1
@@ -70,6 +70,13 @@
   ],
   "cachedContributors": [
     {
+      "id": 3522458,
+      "login": "jifeingo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
+      "htmlUrl": "https://github.com/jifeingo",
+      "contributions": 38
+    },
+    {
       "id": 4761745,
       "login": "elucus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
@@ -77,18 +84,11 @@
       "contributions": 4
     },
     {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
-      "contributions": 5
-    },
-    {
       "id": 69914680,
       "login": "angelatan2",
       "avatarUrl": "https://avatars.githubusercontent.com/u/69914680?v=4",
       "htmlUrl": "https://github.com/angelatan2",
-      "contributions": 3
+      "contributions": 5
     },
     {
       "id": 20267975,
@@ -105,11 +105,11 @@
       "contributions": 1
     },
     {
-      "id": 3522458,
-      "login": "jifeingo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
-      "htmlUrl": "https://github.com/jifeingo",
-      "contributions": 38
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
+      "contributions": 5
     },
     {
       "id": 58010132,
@@ -130,7 +130,7 @@
       "login": "jaffinito",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6098021?v=4",
       "htmlUrl": "https://github.com/jaffinito",
-      "contributions": 28
+      "contributions": 29
     },
     {
       "id": 30146,
