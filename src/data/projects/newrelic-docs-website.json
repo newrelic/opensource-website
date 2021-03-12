@@ -1,0 +1,26 @@
+{
+  "name": "docs-website",
+  "fullName": "newrelic/docs-website",
+  "slug": "newrelic-docs-website",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Docs Website",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/docs-website",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/docs-website",
+  "defaultBranch": "main",
+  "contributingGuideUrl": "https://github.com/newrelic/docs-website/blob/develop/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "Source code for the New Relic documentation site",
+  "description": "a Gatsby powered open source documentation site for all of New Relic's products.",
+  "ossCategory": "community-project",
+  "primaryLanguage": "JavaScript",
+  "projectTags": ["docs"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Docs Website",
+    "url": "docs.newrelic.com"
+  }
+}
