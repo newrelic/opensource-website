@@ -27,6 +27,6 @@ This MDX file contains the markdown and optional React components that populate 
 
 **File format:** `src/data/project-main-content/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].mdx`
 
-**Example:** `src/data/project-main-content/newrelic-nr1-github.mdx`
+**Example:** [src/data/project-main-content/newrelic-nr1-github.mdx](https://github.com/newrelic/opensource-website/blob/develop/src/data/project-main-content/newrelic-nr1-github.mdx)
 
-**Template:** `examples/project-main-content.mdx`
+**Template:** [examples/project-main-content.mdx](https://github.com/newrelic/opensource-website/blob/develop/examples/project-main-content.mdx)
