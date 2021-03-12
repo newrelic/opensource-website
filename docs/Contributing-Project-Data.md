@@ -13,9 +13,9 @@ The JSON file contains the base information about the project detail pages, as w
 
 **File format:** `src/data/projects/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].json`
 
-**Example:** `src/data/projects/newrelic-nr1-github.json`
+**Example:** [src/data/projects/newrelic-nr1-github.json](https://github.com/newrelic/opensource-website/blob/develop/src/data/projects/newrelic-nr1-github.json)
 
-**Template:** `examples/projects.json`
+**Template:** [examples/projects.json](https://github.com/newrelic/opensource-website/blob/develop/examples/projects.json)
 
 ### Note about projectTags
 
