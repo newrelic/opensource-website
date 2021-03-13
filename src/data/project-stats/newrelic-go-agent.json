@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/go-agent",
   "issues": {
-    "open": 43
+    "open": 44
   },
   "releases": 100,
   "latestRelease": {
@@ -15,7 +15,25 @@
     "open": 6
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU4MzA1NDg3NzI=",
+      "title": "Infinite Tracing: Allow testing \"flaky\" and \"flaky_code\" options using agent configuration",
+      "url": "https://github.com/newrelic/go-agent/issues/277",
+      "createdAt": "2021-03-12T22:05:37Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "RichVanderwal",
+        "id": "MDQ6VXNlcjEzMTIzMTQ1",
+        "email": "",
+        "name": "Rich Vanderwal"
+      },
+      "number": 277,
+      "createdBy": "Rich Vanderwal"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 7244569,
