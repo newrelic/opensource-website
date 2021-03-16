@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Tue Mar 16 2021 16:30:55 GMT+0000 (Coordinated Universal Time)",
+  "lastUpdated": "Tue Mar 16 2021 23:23:05 GMT+0000 (Coordinated Universal Time)",
   "projectName": "opensource-website",
   "projectUrl": "https://github.com/newrelic/opensource-website",
   "includeDev": true,
@@ -130,15 +130,15 @@
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
     },
-    "gatsby-plugin-mdx@1.2.52": {
+    "gatsby-plugin-mdx@1.10.0": {
       "name": "gatsby-plugin-mdx",
-      "version": "1.2.52",
-      "range": "^1.2.52",
+      "version": "1.10.0",
+      "range": "^1.10.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v1.2.52",
+      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v1.10.0",
       "licenseFile": "node_modules/gatsby-plugin-mdx/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v1.2.52/LICENSE",
+      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v1.10.0/LICENSE",
       "licenseTextSource": "file"
     },
     "gatsby-plugin-offline@3.2.7": {
@@ -293,6 +293,19 @@
       "versionedRepoUrl": "https://github.com/lodash/lodash/tree/v4.17.20",
       "licenseFile": "node_modules/lodash/LICENSE",
       "licenseUrl": "https://github.com/lodash/lodash/blob/v4.17.20/LICENSE",
+      "licenseTextSource": "file",
+      "publisher": "John-David Dalton",
+      "email": "john.david.dalton@gmail.com"
+    },
+    "lodash@4.17.21": {
+      "name": "lodash",
+      "version": "4.17.21",
+      "range": "^4.17.20",
+      "licenses": "MIT",
+      "repoUrl": "https://github.com/lodash/lodash",
+      "versionedRepoUrl": "https://github.com/lodash/lodash/tree/v4.17.21",
+      "licenseFile": "node_modules/gatsby-plugin-mdx/node_modules/lodash/LICENSE",
+      "licenseUrl": "https://github.com/lodash/lodash/blob/v4.17.21/LICENSE",
       "licenseTextSource": "file",
       "publisher": "John-David Dalton",
       "email": "john.david.dalton@gmail.com"
