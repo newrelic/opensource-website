@@ -1,3 +1,11 @@
+## [1.9.9](https://github.com/newrelic/opensource-website/compare/v1.9.8...v1.9.9) (2021-03-16)
+
+
+### Bug Fixes
+
+* upgrade @mdx-js/react from 1.6.19 to 1.6.22 ([f9ef09c](https://github.com/newrelic/opensource-website/commit/f9ef09c88c3ef4bec0e8071bb2aabae18176afcf))
+* upgrade date-fns from 2.14.0 to 2.17.0 ([0ed4e04](https://github.com/newrelic/opensource-website/commit/0ed4e0400526c8e653340647a62be84cd92994be))
+
 ## [1.9.8](https://github.com/newrelic/opensource-website/compare/v1.9.7...v1.9.8) (2021-03-15)
 
 
