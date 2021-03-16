@@ -13,9 +13,9 @@ The JSON file contains the base information about the project detail pages, as w
 
 **File format:** `src/data/projects/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].json`
 
-**Example:** `src/data/projects/newrelic-nr1-github.json`
+**Example:** [src/data/projects/newrelic-nr1-github.json](https://github.com/newrelic/opensource-website/blob/develop/src/data/projects/newrelic-nr1-github.json)
 
-**Template:** `examples/projects.json`
+**Template:** [examples/projects.json](https://github.com/newrelic/opensource-website/blob/develop/examples/projects.json)
 
 ### Note about projectTags
 
@@ -27,6 +27,6 @@ This MDX file contains the markdown and optional React components that populate 
 
 **File format:** `src/data/project-main-content/[GITHUB_ORG_NAME]-[GITHUB_REPO_NAME].mdx`
 
-**Example:** `src/data/project-main-content/newrelic-nr1-github.mdx`
+**Example:** [src/data/project-main-content/newrelic-nr1-github.mdx](https://github.com/newrelic/opensource-website/blob/develop/src/data/project-main-content/newrelic-nr1-github.mdx)
 
-**Template:** `examples/project-main-content.mdx`
+**Template:** [examples/project-main-content.mdx](https://github.com/newrelic/opensource-website/blob/develop/examples/project-main-content.mdx)

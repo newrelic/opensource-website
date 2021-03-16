@@ -1,3 +1,12 @@
+## [1.9.8](https://github.com/newrelic/opensource-website/compare/v1.9.7...v1.9.8) (2021-03-15)
+
+
+### Bug Fixes
+
+* upgrade @emotion/core from 10.0.28 to 10.1.1 ([0b74301](https://github.com/newrelic/opensource-website/commit/0b74301be35cf346899b238f356960764367ff79))
+* upgrade @splitsoftware/splitio-react from 1.2.1 to 1.2.4 ([1624121](https://github.com/newrelic/opensource-website/commit/1624121562e2d4ac850a6841764ccb3a0b6fbd15))
+* upgrade lodash from 4.17.15 to 4.17.20 ([c5cf2bb](https://github.com/newrelic/opensource-website/commit/c5cf2bbbce224f5b746b0a06af9dc9508495ab15))
+
 ## [1.9.7](https://github.com/newrelic/opensource-website/compare/v1.9.6...v1.9.7) (2021-01-29)
 
 
