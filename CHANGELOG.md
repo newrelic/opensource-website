@@ -1,3 +1,10 @@
+## [1.9.11](https://github.com/newrelic/opensource-website/compare/v1.9.10...v1.9.11) (2021-03-17)
+
+
+### Bug Fixes
+
+* upgrade multiple dependencies with Snyk ([da67974](https://github.com/newrelic/opensource-website/commit/da67974e000d52e7000915c90b2c61fff1106dc7))
+
 ## [1.9.10](https://github.com/newrelic/opensource-website/compare/v1.9.9...v1.9.10) (2021-03-16)
 
 
