@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/newrelic/opensource-website/compare/v1.9.11...v1.10.0) (2021-03-18)
+
+
+### Features
+
+* add visualization project tag ([4a9e34b](https://github.com/newrelic/opensource-website/commit/4a9e34b04fc7dbd56e7b2072f5e82b345adcc88b))
+
 ## [1.9.11](https://github.com/newrelic/opensource-website/compare/v1.9.10...v1.9.11) (2021-03-17)
 
 
