@@ -164,15 +164,16 @@ class ProjectSearch extends Component {
       {}
     );
 
-    return mergeWith({ ...mappedParams }, filterValues, function (
-      value,
-      srcValue
-    ) {
-      if (value === '') {
-        return srcValue;
+    return mergeWith(
+      { ...mappedParams },
+      filterValues,
+      function (value, srcValue) {
+        if (value === '') {
+          return srcValue;
+        }
+        return value;
       }
-      return value;
-    });
+    );
   };
 
   updateSearchQuery = ({ searchQuery = false }) => {

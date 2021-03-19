@@ -59,7 +59,7 @@ New Relic Domains:
 
 ### Local Development
 
-To run, execute `npm start` from the root of this repository.
+To run, execute `yarn start` from the root of this repository.
 
 Should you want New Relic Browser instrumentation while developing locally, you will need to add an additional configuration option to `gatsby-config.js` for the `gatsby-plugin-newrelic` plugin.
 
