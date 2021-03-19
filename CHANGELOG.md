@@ -1,3 +1,12 @@
+## [1.10.2](https://github.com/newrelic/opensource-website/compare/v1.10.1...v1.10.2) (2021-03-19)
+
+
+### Bug Fixes
+
+* dont open relative links in a new tab ([33739eb](https://github.com/newrelic/opensource-website/commit/33739eba29bc50e3909b5ea858b50292f0bceb2d))
+* update @newrelic/gatsby-theme-newrelic ([af5636b](https://github.com/newrelic/opensource-website/commit/af5636b435ca10dd9cfed57e9b63312946997fef))
+* update gatsby, @mdx-js/react, @mdx-js/mdx, gatsby-plugin-mdx, gatsby-plugin-sharp, gatsby-remark-copy-linked-files, gatsby-remark-images, gatsby-source-filesystem, gatsby-transformer-json, react, react-dom, babel-preset-gatsby ([7927210](https://github.com/newrelic/opensource-website/commit/79272108e23c9608ef45f6e93035d902575d7a74))
+
 ## [1.10.1](https://github.com/newrelic/opensource-website/compare/v1.10.0...v1.10.1) (2021-03-19)
 
 
