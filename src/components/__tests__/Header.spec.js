@@ -6,16 +6,49 @@ import {
   createHistory,
   createMemorySource,
 } from '@reach/router';
+import LocaleProvider from '@newrelic/gatsby-theme-newrelic/src/components/LocaleProvider';
+import themeTranslations from '@newrelic/gatsby-theme-newrelic/src/i18n/translations/en.json';
+import i18n from 'i18next';
+import { I18nextProvider } from 'react-i18next';
 
 import Header from '../Header';
 
 const source = createMemorySource('/');
 const history = createHistory(source);
 
+const THEME_NAMESPACE = 'gatsby-theme-newrelic';
+
+const initI18n = () => {
+  i18n.init({
+    lng: 'en',
+    resources: {
+      en: {
+        [THEME_NAMESPACE]: themeTranslations,
+      },
+    },
+    defaultNS: 'translation',
+    initImmediate: false,
+    fallbackLng: 'en',
+    ns: [THEME_NAMESPACE, 'translation'],
+    interpolation: {
+      escapeValue: false,
+    },
+    react: {
+      useSuspense: false,
+    },
+  });
+};
+
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
     allMdx: {
       nodes: [],
+    },
+    allLocale: {
+      nodes: [{ name: 'English', isDefault: true }],
+    },
+    newRelicThemeConfig: {
+      forceTrailingSlashes: false,
     },
     site: {
       siteMetadata: {
@@ -33,11 +66,17 @@ beforeEach(() => {
 
 describe('Header', () => {
   it('renders correctly', () => {
+    initI18n();
+
     const tree = renderer
       .create(
-        <LocationProvider history={history}>
-          <Header />
-        </LocationProvider>
+        <I18nextProvider i18n={i18n}>
+          <LocaleProvider i18n={i18n}>
+            <LocationProvider history={history}>
+              <Header />
+            </LocationProvider>
+          </LocaleProvider>
+        </I18nextProvider>
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
