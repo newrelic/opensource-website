@@ -17,7 +17,9 @@
   "description": "This is an example Nerdpack with a Visualization that was built during the NerdLog session the last week of February 2021.",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": ["visualization"],
+  "projectTags": [
+    "visualizations"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "Nerd Log Demo Visualization",
