@@ -3,16 +3,16 @@
   "issues": {
     "open": 2
   },
-  "releases": 5,
+  "releases": 7,
   "latestRelease": {
-    "name": "v0.9.10",
-    "date": "2020-09-03T16:21:23Z"
+    "name": "v0.9.12",
+    "date": "2021-03-04T18:34:32Z"
   },
-  "commits": 108,
-  "lastSixMonthsCommitTotal": 16,
+  "commits": 137,
+  "lastSixMonthsCommitTotal": 32,
   "contributors": 9,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -29,7 +29,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 10
+      "contributions": 13
     },
     {
       "id": 8731013,
@@ -43,7 +43,7 @@
       "login": "jake-codes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53268450?v=4",
       "htmlUrl": "https://github.com/jake-codes",
-      "contributions": 30
+      "contributions": 51
     },
     {
       "id": 32174276,
@@ -60,18 +60,18 @@
       "contributions": 1
     },
     {
-      "id": 12127,
-      "login": "WardCunningham",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12127?v=4",
-      "htmlUrl": "https://github.com/WardCunningham",
-      "contributions": 1
-    },
-    {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
       "contributions": 6
+    },
+    {
+      "id": 12127,
+      "login": "WardCunningham",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12127?v=4",
+      "htmlUrl": "https://github.com/WardCunningham",
+      "contributions": 1
     },
     {
       "id": 6722433,
@@ -93,10 +93,7 @@
       "color": "#c6538c"
     }
   ],
-  "screenshots": [
-    "https://raw.githubusercontent.com/newrelic/nr1-metrics-aggregator/master/catalog/screenshots/nr1-metrics-aggregator-1.png",
-    "https://raw.githubusercontent.com/newrelic/nr1-metrics-aggregator/master/catalog/screenshots/nr1-metrics-aggregator-2.png"
-  ],
+  "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",

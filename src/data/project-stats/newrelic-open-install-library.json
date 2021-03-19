@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/open-install-library",
   "issues": {
-    "open": 34
+    "open": 26
   },
-  "releases": 27,
+  "releases": 66,
   "latestRelease": {
-    "name": "v0.27-alpha",
-    "date": "2021-01-26T06:00:10Z"
+    "name": "v0.46.20",
+    "date": null
   },
-  "commits": 656,
-  "lastSixMonthsCommitTotal": 656,
-  "contributors": 8,
+  "commits": 899,
+  "lastSixMonthsCommitTotal": 899,
+  "contributors": 11,
   "pullRequests": {
-    "open": 7
+    "open": 11
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,25 +25,25 @@
       "contributions": 2
     },
     {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 79
+      "id": 6098021,
+      "login": "jaffinito",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6098021?v=4",
+      "htmlUrl": "https://github.com/jaffinito",
+      "contributions": 3
     },
     {
       "id": 37123078,
       "login": "setamyDG",
       "avatarUrl": "https://avatars.githubusercontent.com/u/37123078?v=4",
       "htmlUrl": "https://github.com/setamyDG",
-      "contributions": 103
+      "contributions": 111
     },
     {
       "id": 197140,
       "login": "devfreddy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
       "htmlUrl": "https://github.com/devfreddy",
-      "contributions": 22
+      "contributions": 25
     },
     {
       "id": 929261,
@@ -53,25 +53,46 @@
       "contributions": 2
     },
     {
+      "id": 29264964,
+      "login": "zlesnr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29264964?v=4",
+      "htmlUrl": "https://github.com/zlesnr",
+      "contributions": 16
+    },
+    {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 164
+    },
+    {
+      "id": 4481921,
+      "login": "gabeobrien",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4481921?v=4",
+      "htmlUrl": "https://github.com/gabeobrien",
+      "contributions": 4
+    },
+    {
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 2
+    },
+    {
       "id": 52407257,
       "login": "JakubKotkowiak",
       "avatarUrl": "https://avatars.githubusercontent.com/u/52407257?v=4",
       "htmlUrl": "https://github.com/JakubKotkowiak",
-      "contributions": 160
+      "contributions": 169
     },
     {
       "id": 38018054,
       "login": "Julien4218",
       "avatarUrl": "https://avatars.githubusercontent.com/u/38018054?v=4",
       "htmlUrl": "https://github.com/Julien4218",
-      "contributions": 183
-    },
-    {
-      "id": 29264964,
-      "login": "zlesnr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/29264964?v=4",
-      "htmlUrl": "https://github.com/zlesnr",
-      "contributions": 8
+      "contributions": 257
     }
   ],
   "languages": [
@@ -84,6 +105,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
+      "name": "HCL",
+      "color": null
     }
   ],
   "screenshots": [],

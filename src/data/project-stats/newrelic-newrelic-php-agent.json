@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-php-agent",
   "issues": {
-    "open": 26
+    "open": 37
   },
   "releases": 3,
   "latestRelease": {
     "name": "v9.16.0.295",
     "date": null
   },
-  "commits": 50,
-  "lastSixMonthsCommitTotal": 50,
+  "commits": 52,
+  "lastSixMonthsCommitTotal": 52,
   "contributors": 9,
   "pullRequests": {
-    "open": 3
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -22,7 +22,7 @@
       "url": "https://github.com/newrelic/newrelic-php-agent/issues/48",
       "createdAt": "2020-12-09T10:24:10Z",
       "comments": {
-        "totalCount": 2
+        "totalCount": 3
       },
       "author": {
         "login": "Starfox64",
@@ -35,13 +35,6 @@
     }
   ],
   "cachedContributors": [
-    {
-      "id": 18040274,
-      "login": "rhetoric101",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18040274?v=4",
-      "htmlUrl": "https://github.com/rhetoric101",
-      "contributions": 1
-    },
     {
       "id": 306384,
       "login": "joshuabenuck",
@@ -57,6 +50,13 @@
       "contributions": 1
     },
     {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
+    {
       "id": 1904430,
       "login": "TysonAndre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1904430?v=4",
@@ -64,10 +64,10 @@
       "contributions": 1
     },
     {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
+      "id": 18040274,
+      "login": "rhetoric101",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18040274?v=4",
+      "htmlUrl": "https://github.com/rhetoric101",
       "contributions": 1
     },
     {
@@ -82,7 +82,7 @@
       "login": "zsistla",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43715151?v=4",
       "htmlUrl": "https://github.com/zsistla",
-      "contributions": 5
+      "contributions": 7
     },
     {
       "id": 6722433,

@@ -30,13 +30,13 @@ module.exports = {
             */
             production: {
               instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
-              accountId: '10175106',
+              accountId: '10956800',
               trustKey: '1',
-              agentID: '21547964',
-              licenseKey: '23448da482',
-              applicationID: '21547964',
-              beacon: 'staging-bam.nr-data.net',
-              errorBeacon: 'staging-bam.nr-data.net',
+              agentID: '30713728',
+              licenseKey: 'NRJS-649173eb1a7b28cd6ab',
+              applicationID: '30713728',
+              beacon: 'staging-bam-cell.nr-data.net',
+              errorBeacon: 'staging-bam-cell.nr-data.net',
             },
             // Our "staging" site (on AWS Amplify) named after the branch it comes from "develop"
 
@@ -46,13 +46,13 @@ module.exports = {
             */
             staging: {
               instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
-              accountId: '10175106',
+              accountId: '10956800',
               trustKey: '1',
-              agentID: '21548202',
-              licenseKey: '23448da482',
-              applicationID: '21548202',
-              beacon: 'staging-bam.nr-data.net',
-              errorBeacon: 'staging-bam.nr-data.net',
+              agentID: '30713728',
+              licenseKey: 'NRJS-649173eb1a7b28cd6ab',
+              applicationID: '30713728',
+              beacon: 'staging-bam-cell.nr-data.net',
+              errorBeacon: 'staging-bam-cell.nr-data.net',
             },
 
             // For local development, uncomment and replace information

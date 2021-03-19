@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/nri-winservices",
   "issues": {
-    "open": 6
+    "open": 5
   },
-  "releases": 2,
+  "releases": 3,
   "latestRelease": {
-    "name": "v0.1.0-beta",
-    "date": "2020-06-17T16:36:29Z"
+    "name": "v0.2.0-beta",
+    "date": "2021-02-19T12:39:41Z"
   },
-  "commits": 86,
-  "lastSixMonthsCommitTotal": 15,
-  "contributors": 5,
+  "commits": 89,
+  "lastSixMonthsCommitTotal": 9,
+  "contributors": 6,
   "pullRequests": {
     "open": 2
   },
@@ -25,18 +25,25 @@
       "contributions": 1
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 25
-    },
-    {
       "id": 969721,
       "login": "roobre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
       "htmlUrl": "https://github.com/roobre",
       "contributions": 2
+    },
+    {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 26
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
     },
     {
       "id": 43335750,
@@ -46,10 +53,10 @@
       "contributions": 28
     },
     {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
+      "id": 39911991,
+      "login": "davidbrota",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39911991?v=4",
+      "htmlUrl": "https://github.com/davidbrota",
       "contributions": 1
     }
   ],

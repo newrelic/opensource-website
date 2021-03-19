@@ -1,60 +1,46 @@
 {
   "projectFullName": "newrelic/tutone",
   "issues": {
-    "open": 6
+    "open": 2
   },
-  "releases": 16,
+  "releases": 17,
   "latestRelease": {
-    "name": "v0.6.0",
-    "date": "2021-01-27T20:04:25Z"
+    "name": "v0.6.1",
+    "date": "2021-02-12T00:07:33Z"
   },
-  "commits": 372,
-  "lastSixMonthsCommitTotal": 260,
+  "commits": 397,
+  "lastSixMonthsCommitTotal": 190,
   "contributors": 6,
   "pullRequests": {
-    "open": 0
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
     {
-      "id": "MDU6SXNzdWU3ODA3MjUwNTI=",
-      "title": "Update tool dep management",
-      "url": "https://github.com/newrelic/tutone/issues/137",
-      "createdAt": "2021-01-06T17:31:48Z",
+      "id": "MDU6SXNzdWU2OTIyNzU2NTI=",
+      "title": "Lang specific formatting should be done outside of the schema.",
+      "url": "https://github.com/newrelic/tutone/issues/66",
+      "createdAt": "2020-09-03T19:56:16Z",
       "comments": {
         "totalCount": 0
       },
       "author": {
-        "login": "jthurman42",
-        "id": "MDQ6VXNlcjQ1NTQxOQ==",
+        "login": "zlesnr",
+        "id": "MDQ6VXNlcjI5MjY0OTY0",
         "email": "",
-        "name": "Jonathan Thurman"
+        "name": "Zach Leslie"
       },
-      "number": 137,
-      "createdBy": "Jonathan Thurman"
+      "number": 66,
+      "createdBy": "Zach Leslie"
     }
   ],
   "cachedContributors": [
-    {
-      "id": 7197435,
-      "login": "SowmyaJujjuri",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7197435?v=4",
-      "htmlUrl": "https://github.com/SowmyaJujjuri",
-      "contributions": 2
-    },
     {
       "id": 455419,
       "login": "jthurman42",
       "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
       "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 52
-    },
-    {
-      "id": 7471617,
-      "login": "Tarliton",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7471617?v=4",
-      "htmlUrl": "https://github.com/Tarliton",
-      "contributions": 1
+      "contributions": 60
     },
     {
       "id": 29264964,
@@ -64,6 +50,13 @@
       "contributions": 125
     },
     {
+      "id": 7471617,
+      "login": "Tarliton",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7471617?v=4",
+      "htmlUrl": "https://github.com/Tarliton",
+      "contributions": 1
+    },
+    {
       "id": 2590905,
       "login": "sanderblue",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2590905?v=4",
@@ -71,11 +64,18 @@
       "contributions": 39
     },
     {
+      "id": 7197435,
+      "login": "SowmyaJujjuri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7197435?v=4",
+      "htmlUrl": "https://github.com/SowmyaJujjuri",
+      "contributions": 2
+    },
+    {
       "id": 25180681,
       "login": "renovate-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25180681?v=4",
       "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 32
+      "contributions": 38
     }
   ],
   "languages": [

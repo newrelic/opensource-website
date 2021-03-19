@@ -1,12 +1,12 @@
 {
   "projectFullName": "newrelic/demo-nodetron",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 130,
-  "lastSixMonthsCommitTotal": 130,
+  "commits": 159,
+  "lastSixMonthsCommitTotal": 48,
   "contributors": 7,
   "pullRequests": {
     "open": 1
@@ -14,13 +14,6 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 812989,
-      "login": "danielgolden",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
-      "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 4
-    },
     {
       "id": 70179215,
       "login": "nr-kkenney",
@@ -33,7 +26,14 @@
       "login": "aswanson-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
       "htmlUrl": "https://github.com/aswanson-nr",
-      "contributions": 2
+      "contributions": 26
+    },
+    {
+      "id": 812989,
+      "login": "danielgolden",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
+      "htmlUrl": "https://github.com/danielgolden",
+      "contributions": 4
     },
     {
       "id": 8731013,
@@ -89,6 +89,11 @@
       "id": "MDg6TGFuZ3VhZ2UzMDg=",
       "name": "CSS",
       "color": "#563d7c"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
     }
   ],
   "screenshots": [],

@@ -3,14 +3,14 @@
   "issues": {
     "open": 2
   },
-  "releases": 69,
+  "releases": 84,
   "latestRelease": {
-    "name": "v7.1.0.1_nodejs",
-    "date": "2021-01-25T22:50:13Z"
+    "name": "v1.2.2.2_extension",
+    "date": "2021-03-12T18:06:23Z"
   },
-  "commits": 100,
-  "lastSixMonthsCommitTotal": 22,
-  "contributors": 6,
+  "commits": 109,
+  "lastSixMonthsCommitTotal": 29,
+  "contributors": 7,
   "pullRequests": {
     "open": 0
   },
@@ -18,18 +18,25 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 28942544,
+      "login": "katiewest820",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28942544?v=4",
+      "htmlUrl": "https://github.com/katiewest820",
+      "contributions": 1
+    },
+    {
+      "id": 73207,
+      "login": "ewindisch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73207?v=4",
+      "htmlUrl": "https://github.com/ewindisch",
+      "contributions": 2
+    },
+    {
       "id": 13562672,
       "login": "jaesius",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
       "htmlUrl": "https://github.com/jaesius",
       "contributions": 1
-    },
-    {
-      "id": 11327,
-      "login": "mrickard",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
-      "htmlUrl": "https://github.com/mrickard",
-      "contributions": 21
     },
     {
       "id": 43244625,
@@ -43,21 +50,21 @@
       "login": "kolanos",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
       "htmlUrl": "https://github.com/kolanos",
-      "contributions": 46
+      "contributions": 50
+    },
+    {
+      "id": 11327,
+      "login": "mrickard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
+      "htmlUrl": "https://github.com/mrickard",
+      "contributions": 21
     },
     {
       "id": 585473,
       "login": "MattWhelan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
       "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 5
-    },
-    {
-      "id": 73207,
-      "login": "ewindisch",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73207?v=4",
-      "htmlUrl": "https://github.com/ewindisch",
-      "contributions": 2
+      "contributions": 6
     }
   ],
   "languages": [
