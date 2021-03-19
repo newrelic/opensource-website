@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Adopt OpenJDK Renders correctly 1`] = `
-.emotion-141 {
+.emotion-144 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,9 +14,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-72 {
+.emotion-87 {
   background-color: var(--color-neutrals-100);
-  overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -24,20 +23,20 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   z-index: 700;
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-87 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-72 ul {
+.emotion-87 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-72 a {
+.emotion-87 a {
   border-bottom: none;
 }
 
-.emotion-71 {
+.emotion-86 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -47,9 +46,9 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  max-width: 1236px;
+  max-width: var(--site-max-width);
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
 }
 
 .emotion-28 {
@@ -90,7 +89,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-24 {
-  max-width: 1236px;
+  max-width: var(--site-max-width);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -104,7 +103,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
   height: 100%;
 }
 
@@ -153,8 +152,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-27 {
-  max-width: 1236px;
-  padding: 0;
+  max-width: var(--site-max-width);
+  padding: 0 var(--site-content-padding);
   margin: 0 auto;
 }
 
@@ -172,7 +171,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .rc-pagination {
-  font-family: 'Arial';
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -721,7 +719,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-search-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: red;
@@ -742,7 +739,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-search-error.no-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   margin: auto;
@@ -762,7 +758,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-facet {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -1073,7 +1068,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 .emotion-26 .sui-paging-info {
   margin: 1rem 0;
   color: var(--primary-text-color);
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 12px;
@@ -1081,19 +1075,19 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-result {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
   list-style: none;
-  padding: 24px 0;
+  padding: 0;
   -webkit-text-decoration: none;
   text-decoration: none;
   display: block;
   background: transparent;
-  border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.1);
   overflow-wrap: break-word;
   overflow: hidden;
+  margin: 0;
+}
+
+.emotion-26 .sui-result:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .emotion-26 .sui-result a {
@@ -1135,6 +1129,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .emotion-26 .sui-result__title {
@@ -1151,7 +1146,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-result__key {
-  font-family: monospace;
+  font-family: var(--code-font);
   font-weight: 400;
   font-size: 14px;
   -webkit-flex: 0 1 50%;
@@ -1204,7 +1199,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 
 .emotion-26 .sui-result__details {
   list-style: none;
-  padding: 12px 24px;
   padding-left: 0;
 }
 
@@ -1218,7 +1212,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-results-per-page {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: #4a4b4b;
@@ -1263,7 +1256,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
 }
 
 .emotion-26 .sui-search-box__submit {
@@ -1419,7 +1411,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-sorting {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   display: inline-block;
@@ -1436,7 +1427,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-select {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 0.875rem;
@@ -1548,7 +1538,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background: var(--tertiary-background-color);
 }
 
-.emotion-56 {
+.emotion-68 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1563,7 +1553,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 @media screen and (max-width:800px) {
-  .emotion-56::after {
+  .emotion-68::after {
     content: '';
     position: absolute;
     right: 0;
@@ -1573,8 +1563,19 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     background: linear-gradient( to right,rgba(244,245,245,0),var(--color-neutrals-100) );
   }
 
-  .dark-mode .emotion-56::after {
+  .dark-mode .emotion-68::after {
     background: linear-gradient( to right,rgba(34,53,60,0),var(--color-dark-100) );
+  }
+}
+
+@media screen and (max-width:545px) {
+  .emotion-68 {
+    overflow: visible;
+  }
+
+  .emotion-68::after {
+    background: none !important;
+    width: 0 !important;
   }
 }
 
@@ -1590,7 +1591,147 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   margin-right: 1rem;
 }
 
-.emotion-55 {
+@media screen and (max-width:545px) {
+  .emotion-50 {
+    display: none;
+  }
+}
+
+.emotion-62 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  position: relative;
+  display: none;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-62 {
+    display: block;
+  }
+}
+
+.emotion-54 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.emotion-54:hover {
+  color: var(--link-hover-color);
+}
+
+.emotion-53 {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: none;
+}
+
+.emotion-51 {
+  fill: #008c99;
+}
+
+.emotion-52 {
+  fill: #70ccd3;
+}
+
+.emotion-61 {
+  --arrow-size: 5px;
+  --arrow-offset: 0.5rem;
+  --background-color: white;
+  --text-color: var(--color-neutrals-900);
+  position: absolute;
+  top: calc(100% + var(--arrow-size));
+  display: none;
+  background: var(--background-color);
+  border-radius: 0.25rem;
+  z-index: 1000;
+  padding: 0.5rem;
+  box-shadow: 0 3px 8px 0 rgba(22,38,59,0.2);
+}
+
+.dark-mode .emotion-61 {
+  --text-color: var(--color-dark-900);
+  --background-color: var(--color-dark-050);
+}
+
+.emotion-61::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(-1 * var(--arrow-size));
+  border-left: var(--arrow-size) solid transparent;
+  border-right: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid var(--background-color);
+  width: 0;
+  height: 0;
+  z-index: 1000;
+  left: var(--arrow-offset);
+}
+
+.emotion-60 {
+  max-height: 20rem;
+  min-width: 100px;
+  overflow-y: auto;
+}
+
+.emotion-56 {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: var(--text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-56:hover {
+  color: var(--text-color);
+  cursor: pointer;
+  background: var(--color-neutrals-200);
+  border-radius: 0.25rem;
+}
+
+.dark-mode .emotion-56:hover {
+  background: var(--color-dark-200);
+}
+
+.emotion-67 {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -1606,13 +1747,20 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-55 > li {
+.emotion-67 > li {
+  margin: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
-.emotion-51 {
+@media screen and (max-width:545px) {
+  .emotion-67 {
+    display: none;
+  }
+}
+
+.emotion-63 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1627,19 +1775,21 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   font-size: 0.6875rem;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
-.emotion-51:hover {
-  background-color: var(--color-neutrals-200);
+.emotion-63:hover {
+  background-color: var(--color-neutrals-300);
   color: var(--color-neutrals-700);
 }
 
-.dark-mode .emotion-51:hover {
-  background-color: var(--color-dark-200);
+.dark-mode .emotion-63:hover {
+  background-color: var(--color-dark-300);
   color: var(--color-dark-700);
 }
 
-.emotion-70 {
+.emotion-85 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -1657,50 +1807,108 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-70 > li {
+.emotion-85 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-70 > li:not(:first-of-type) {
-  margin-left: 1rem;
+.emotion-85 > li:not(:first-of-type) {
+  margin-left: 0.5rem;
 }
 
-.emotion-63 {
+@media screen and (max-width:760px) {
+  .emotion-85 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+}
+
+.emotion-75 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.emotion-61 {
-  position: relative;
-  width: 100%;
-  --icon-size: 0.75rem;
-  min-width: 150px;
-  max-width: 350px;
+@media screen and (max-width:760px) {
+  .emotion-75 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
 }
 
-.emotion-58 {
-  width: 1em;
-  height: 1em;
+.emotion-70 {
+  color: var(--secondary-text-color);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+
+.emotion-70:hover {
+  color: var(--secondary-text-hover-color);
+}
+
+@media screen and (max-width:760px) {
+  .emotion-70 {
+    display: block;
+  }
+}
+
+.emotion-69 {
+  width: 0.875rem;
+  height: 0.875rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: var(--primary-text-color);
-  height: var(--icon-size);
-  width: var(--icon-size);
+  display: block;
+  cursor: pointer;
+}
+
+.emotion-74 {
+  --horizontal-spacing: 0.5rem;
+  position: relative;
+  width: 100%;
+  box-shadow: var(--shadow-1);
+  --icon-size: 0.75rem;
+  min-width: 150px;
+  max-width: 350px;
+}
+
+@media screen and (max-width:760px) {
+  .emotion-74 {
+    display: none;
+  }
+}
+
+.emotion-71 {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   position: absolute;
-  left: 1rem;
+  left: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
-.emotion-59 {
+.emotion-72 {
   width: 100%;
   border: 1px solid var(--border-color);
   border-radius: 4px;
@@ -1709,17 +1917,40 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
+  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
   font-size: 0.75rem;
-  padding: 0.25rem calc(1.5rem + var(--icon-size));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
-.emotion-59:focus {
+.emotion-72:focus {
   outline: none;
   border: 1px solid rgba(0,126,138,0.6);
   box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
 }
 
-.emotion-64 {
+.emotion-73 {
+  position: absolute;
+  right: var(--horizontal-spacing);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: 1px solid var(--border-color);
+  line-height: 1;
+  text-align: center;
+  background: var(--color-neutrals-100);
+  border-radius: 0.125rem;
+  font-size: 0.675rem;
+  padding: 0.0625rem 0.3125rem;
+}
+
+.dark-mode .emotion-73 {
+  background: var(--color-dark-200);
+}
+
+.emotion-76 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -1735,11 +1966,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.emotion-64:hover {
+.emotion-76:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-66 {
+.emotion-81 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1750,20 +1981,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-65 {
-  font-size: 0.675rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.emotion-69 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-67 {
+.emotion-79 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1787,6 +2005,77 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.emotion-79:hover {
+  color: var(--link-hover-color);
+}
+
+@media screen and (max-width:545px) {
+  .emotion-77 {
+    display: none;
+  }
+}
+
+.emotion-78 {
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: none;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-78 {
+    display: block;
+  }
+}
+
+.emotion-84 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-82 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-brand-600);
   font-size: 0.625rem;
@@ -1794,35 +2083,29 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   border-radius: 0.125rem;
 }
 
-.emotion-67:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-67:hover {
+.emotion-82:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
-.emotion-94 {
+.emotion-109 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width:724px) {
-  .emotion-94 {
+  .emotion-109 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-93 {
+.emotion-108 {
   fill: none;
   width: 100%;
 }
 
-.emotion-101 {
+.emotion-116 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -1835,18 +2118,18 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-101 > hr {
+.emotion-116 > hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-100 {
+.emotion-115 {
   margin-bottom: 1rem;
 }
 
-.emotion-95 {
+.emotion-110 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1870,22 +2153,18 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-brand-600);
 }
 
-.emotion-95:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-95:hover {
+.emotion-110:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
-.emotion-98 {
+.emotion-113 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1909,43 +2188,39 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--link-color);
   background: transparent;
 }
 
-.emotion-98:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-98:hover {
+.emotion-113:hover {
   color: var(--link-hover-color);
 }
 
-.dark-mode .emotion-98 {
+.dark-mode .emotion-113 {
   border-color: transparent;
 }
 
-.emotion-97 {
+.emotion-112 {
   margin-right: 0.5rem;
 }
 
-.emotion-131 {
+.emotion-143 {
   color: var(--secondary-text-color);
   background-color: var(--color-neutrals-050);
   z-index: 1;
 }
 
-.dark-mode .emotion-131 {
+.dark-mode .emotion-143 {
   background-color: var(--color-dark-050);
 }
 
-.emotion-131 a {
+.emotion-143 a {
   color: currentColor;
 }
 
-.emotion-126 {
+.emotion-138 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -1959,13 +2234,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
-  max-width: 1236px;
+  padding: 1rem var(--site-content-padding);
+  max-width: var(--site-max-width);
   margin: 0 auto;
 }
 
 @media screen and (max-width:550px) {
-  .emotion-126 {
+  .emotion-138 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -1976,88 +2251,27 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   }
 }
 
-.emotion-122 {
+.emotion-137 {
   fill: none;
   width: 150px;
   display: block;
 }
 
 @media screen and (max-width:550px) {
-  .emotion-122 {
+  .emotion-137 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-124 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-neutrals-700);
-  border: 1px solid var(--border-color);
-  background-color: transparent;
-  font-size: 0.75rem;
-}
-
-.emotion-124:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-124:hover {
-  color: var(--color-brand-600);
-  border-color: var(--color-brand-500);
-}
-
-.dark-mode .emotion-124 {
-  color: var(--color-dark-700);
-}
-
-.dark-mode .emotion-124:hover {
-  color: var(--color-brand-200);
-  border-color: rgba(112,204,210,0.17);
-}
-
-.emotion-123 {
-  width: 1em;
-  height: 1em;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  margin-right: 0.5rem;
-}
-
-.emotion-130 {
+.emotion-142 {
   background-color: rgba(0,0,0,0.05);
 }
 
-.dark-mode .emotion-130 {
+.dark-mode .emotion-142 {
   background-color: rgba(0,0,0,0.2);
 }
 
-.emotion-129 {
+.emotion-141 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -2070,13 +2284,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: grid;
   grid-template-columns: auto auto;
   grid-template-areas: 'copyright legal';
-  padding: 0.5rem;
-  max-width: 1236px;
+  padding: 0.5rem var(--site-content-padding);
+  max-width: var(--site-max-width);
   margin: 0 auto;
 }
 
 @media screen and (max-width:760px) {
-  .emotion-129 {
+  .emotion-141 {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -2088,7 +2302,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   }
 }
 
-.emotion-127 {
+.emotion-139 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
@@ -2098,7 +2312,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   letter-spacing: 0.1rem;
 }
 
-.emotion-128 {
+.emotion-140 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2113,218 +2327,20 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-128 a {
+.emotion-140 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
-.emotion-140 {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  z-index: 10000;
-  background-color: rgba(28,42,47,0.92);
-  box-shadow: 0px -0.249053px 4.26158px rgba(12,48,57,0.0421718),0px -0.598509px 10.2412px rgba(12,48,57,0.0605839),0px -1.12694px 19.2832px rgba(12,48,57,0.075),0px -2.01027px 34.3 979px rgba(12,48,57,0.0894161),0px -3.75998px 64.3375px rgba(12,48,57,0.107828),0px -9px 154px rgba(12,48,57,0.15);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-}
-
-.dark-mode .emotion-140 {
-  background-color: rgba(15,25,28,0.92);
-  box-shadow: 0 -1px 0 rgba(55,72,78,0.4);
-}
-
-.emotion-139 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 1180px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 1.125rem 0;
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-139 {
-    width: 100%;
-    padding: 1.125rem 1.75rem;
-  }
-}
-
-@media screen and (max-width:480px) {
-  .emotion-139 {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: flex-start;
-    -webkit-box-align: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
-  }
-}
-
-.emotion-132 {
-  color: #fff;
-  margin-top: 0;
-  margin-bottom: 2px;
-  line-height: 21px;
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-132 {
-    margin-bottom: 0.375rem;
-  }
-}
-
-.emotion-133 {
-  margin: 0 0 0px;
-  font-size: 13px;
-  line-height: 21px;
-  color: var(--accent-text-color);
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-133 {
-    line-height: 19px;
-  }
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-133 {
-    margin-bottom: 1rem;
-  }
-}
-
-.emotion-138 {
-  margin-left: 1rem;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-}
-
-.emotion-134 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-white);
-  background-color: var(--color-brand-600);
-  margin-right: 10px;
-  padding: 0.625rem 1.75rem;
-}
-
-.emotion-134:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-134:hover {
-  color: var(--color-white);
-  background-color: var(--color-brand-500);
-}
-
-@media screen and (max-width:480px) {
-  .emotion-134 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-}
-
-.emotion-136 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-neutrals-700);
-  background-color: var(--color-neutrals-100);
-  padding: 0.625rem 1rem;
-}
-
-.emotion-136:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-136:hover {
-  color: var(--color-brand-600);
-  background: rgba(112,204,210,0.17);
-}
-
-.dark-mode .emotion-136 {
-  color: var(--color-dark-700);
-  background-color: var(--color-dark-200);
-}
-
-.dark-mode .emotion-136:hover {
-  color: var(--color-brand-200);
-  background-color: rgba(112,204,210,0.17);
-}
-
-@media screen and (max-width:480px) {
-  .emotion-136 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-}
-
 <div
-  className="projectPageLayout emotion-141"
+  className="projectPageLayout emotion-144"
 >
   <div
-    className=" emotion-72"
+    className=" emotion-87"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-71"
+      className="emotion-86"
     >
       <div
         className="emotion-28"
@@ -2426,11 +2442,12 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         </div>
       </div>
       <nav
-        className="emotion-56"
+        className="emotion-68"
       >
         <a
           className="emotion-50"
           href="https://newrelic.com/"
+          onClick={[Function]}
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -2485,13 +2502,82 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
             />
           </svg>
         </a>
+        <div
+          className="emotion-62"
+        >
+          <button
+            className="emotion-54 emotion-55"
+            onClick={[Function]}
+            size="extraSmall"
+          >
+            <svg
+              className="emotion-53"
+              viewBox="0 0 18 15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                className="emotion-51"
+                d="M17.159 5.6486C16.3489 1.92142 11.8784 -0.271419 7.17568 0.751833C2.47296 1.77403 -0.682686 5.62527 0.127433 9.3514C0.937552 13.0786 5.40805 15.2714 10.1108 14.2482C14.8135 13.226 17.9691 9.37578 17.159 5.6486ZM8.64322 10.9356C6.74517 10.9356 5.20764 9.39699 5.20764 7.5C5.20764 5.603 6.74623 4.06441 8.64322 4.06441C10.5402 4.06441 12.0788 5.60194 12.0788 7.5C12.0788 9.39805 10.5402 10.9356 8.64322 10.9356Z"
+              />
+              <path
+                className="emotion-52"
+                d="M9.40328 2.69022C6.6792 2.69022 4.47046 4.89896 4.47046 7.62303C4.47046 10.3471 6.6792 12.5559 9.40328 12.5559C12.1284 12.5559 14.3372 10.3471 14.3372 7.62303C14.3361 4.89896 12.1274 2.69022 9.40328 2.69022ZM8.64299 10.5009C6.98564 10.5009 5.64216 9.15738 5.64216 7.50003C5.64216 5.84268 6.98564 4.4992 8.64299 4.4992C10.3003 4.4992 11.6438 5.84268 11.6438 7.50003C11.6438 9.15738 10.3003 10.5009 8.64299 10.5009Z"
+              />
+            </svg>
+          </button>
+          <div
+            className="emotion-61"
+          >
+            <div
+              className="emotion-60"
+            >
+              <a
+                className="emotion-56"
+                href="https://docs.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Docs
+              </a>
+              <a
+                className="emotion-56"
+                href="https://developer.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Developer
+              </a>
+              <a
+                className="emotion-56"
+                href="https://opensource.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Open Source
+              </a>
+              <a
+                className="emotion-56"
+                href="https://discuss.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Community
+              </a>
+            </div>
+          </div>
+        </div>
         <ul
-          className="emotion-55"
+          className="emotion-67"
         >
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://docs.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -2500,8 +2586,9 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://developer.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -2510,8 +2597,9 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://opensource.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -2520,8 +2608,9 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://discuss.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -2531,17 +2620,38 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-70"
+        className="emotion-85"
       >
         <li
-          className="emotion-63"
+          className="emotion-75"
         >
-          <div
-            className="emotion-61 emotion-62"
-            size="small"
+          <a
+            className="emotion-70"
+            href="?q="
           >
             <svg
-              className="emotion-57 emotion-58"
+              className="emotion-69"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </a>
+          <div
+            className="emotion-74"
+          >
+            <svg
+              className="emotion-71"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2558,20 +2668,26 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-59 emotion-60"
+              className="emotion-72"
+              onBlur={[Function]}
               onChange={[Function]}
+              onFocus={[Function]}
               onKeyDown={[Function]}
               placeholder="Search Docs, Developer, Open Source"
-              size="small"
               type="text"
               value=""
             />
             
+            <span
+              className="emotion-73"
+            >
+              /
+            </span>
           </div>
         </li>
         <li>
           <svg
-            className="emotion-64"
+            className="emotion-76"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2582,30 +2698,56 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </svg>
         </li>
         <li
-          className="emotion-66"
+          className="emotion-81"
         >
           <a
-            className="emotion-65"
+            className="emotion-79 emotion-55"
             href="https://one.newrelic.com"
+            onClick={[Function]}
             rel="noopener noreferrer"
+            size="extraSmall"
             target="_blank"
+            variant="link"
           >
-            Log in
+            <span
+              className="emotion-77"
+            >
+              Log in
+            </span>
+            <svg
+              className="emotion-78"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"
+              />
+              <polyline
+                points="10 17 15 12 10 7"
+              />
+              <line
+                x1="15"
+                x2="3"
+                y1="12"
+                y2="12"
+              />
+            </svg>
           </a>
         </li>
         <li
-          className="emotion-69"
+          className="emotion-84"
         >
           <a
-            className="emotion-67 emotion-68"
+            className="emotion-82 emotion-55"
             href="https://newrelic.com/signup"
+            onClick={[Function]}
             rel="noopener noreferrer"
             size="extraSmall"
             target="_blank"
             variant="primary"
           >
             <span>
-              Sign up
+              Free account
             </span>
           </a>
         </li>
@@ -2616,11 +2758,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     className="primaryHeaderContainer hasHeaderBg "
   >
     <a
-      className="emotion-94"
+      className="emotion-109"
       href="/"
     >
       <svg
-        className="emotion-93"
+        className="emotion-108"
         viewBox="0 0 79 15"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -2770,7 +2912,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-101"
+    className="emotion-116"
   >
     <div
       className="primary-content"
@@ -2817,13 +2959,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons emotion-100"
+            className="callToActionButtons emotion-115"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="emotion-95 emotion-68"
+                className="emotion-110 emotion-55"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -2831,13 +2973,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-98 emotion-68"
+                className="emotion-113 emotion-55"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-97"
+                  className="emotion-112"
                   src="test-file-stub"
                 />
                 GitHub
@@ -2852,17 +2994,17 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-131"
+    className="emotion-143"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-126"
+      className="emotion-138"
     >
       <a
         href="/"
       >
         <svg
-          className="emotion-122"
+          className="emotion-137"
           viewBox="0 0 79 15"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -2912,44 +3054,25 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           />
         </svg>
       </a>
-      <div>
-        <a
-          className="emotion-124 emotion-68"
-          href="undefined/issues/new/choose"
-          rel="noopener noreferrer"
-          size="small"
-          target="_blank"
-          variant="outline"
-        >
-          <svg
-            className="emotion-123"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-            />
-          </svg>
-          Create an issue
-        </a>
-      </div>
+      <div />
     </div>
     <div
-      className="emotion-130"
+      className="emotion-142"
     >
       <div
-        className="emotion-129"
+        className="emotion-141"
       >
         <div
-          className="emotion-127"
+          className="emotion-139"
         >
-          Copyright © 2020 New Relic Inc.
+          Copyright © 2021 New Relic Inc.
         </div>
         <div
-          className="emotion-128"
+          className="emotion-140"
         >
           <a
             href="https://newrelic.com/about/careers"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2957,6 +3080,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/terms"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2964,6 +3088,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/dmca"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2971,6 +3096,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/services-notices"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2978,6 +3104,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/cookie-policy"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2985,6 +3112,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/uk-slavery-act"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2994,67 +3122,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
       </div>
     </div>
   </footer>
-  <div
-    className="emotion-140"
-  >
-    <div
-      className="emotion-139"
-    >
-      <div>
-        <h4
-          className="emotion-132"
-        >
-          This site uses cookies
-           
-          <span
-            aria-label="Cookie emoji"
-            role="img"
-          >
-            🍪
-          </span>
-        </h4>
-        <p
-          className="emotion-133"
-        >
-          We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more
-           
-          <a
-            href="https://newrelic.com/termsandconditions/cookie-policy"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            here
-          </a>
-          . If you consent to our cookies, please click 
-          <strong>
-            Yes
-          </strong>
-          .
-        </p>
-      </div>
-      <div
-        className="emotion-138"
-      >
-        <button
-          className="emotion-134 emotion-68"
-          onClick={[Function]}
-        >
-          Yes
-        </button>
-        <button
-          className="emotion-136 emotion-68"
-          onClick={[Function]}
-        >
-          No
-        </button>
-      </div>
-    </div>
-  </div>
 </div>
 `;
 
 exports[`Open Telemetry Page Renders correctly 1`] = `
-.emotion-141 {
+.emotion-144 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3067,9 +3139,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-72 {
+.emotion-87 {
   background-color: var(--color-neutrals-100);
-  overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -3077,20 +3148,20 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   z-index: 700;
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-87 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-72 ul {
+.emotion-87 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-72 a {
+.emotion-87 a {
   border-bottom: none;
 }
 
-.emotion-71 {
+.emotion-86 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -3100,9 +3171,9 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  max-width: 1236px;
+  max-width: var(--site-max-width);
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
 }
 
 .emotion-28 {
@@ -3143,7 +3214,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-24 {
-  max-width: 1236px;
+  max-width: var(--site-max-width);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3157,7 +3228,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
   height: 100%;
 }
 
@@ -3206,8 +3277,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-27 {
-  max-width: 1236px;
-  padding: 0;
+  max-width: var(--site-max-width);
+  padding: 0 var(--site-content-padding);
   margin: 0 auto;
 }
 
@@ -3225,7 +3296,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .rc-pagination {
-  font-family: 'Arial';
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -3774,7 +3844,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-search-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: red;
@@ -3795,7 +3864,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-search-error.no-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   margin: auto;
@@ -3815,7 +3883,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-facet {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -4126,7 +4193,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 .emotion-26 .sui-paging-info {
   margin: 1rem 0;
   color: var(--primary-text-color);
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 12px;
@@ -4134,19 +4200,19 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-result {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
   list-style: none;
-  padding: 24px 0;
+  padding: 0;
   -webkit-text-decoration: none;
   text-decoration: none;
   display: block;
   background: transparent;
-  border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.1);
   overflow-wrap: break-word;
   overflow: hidden;
+  margin: 0;
+}
+
+.emotion-26 .sui-result:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .emotion-26 .sui-result a {
@@ -4188,6 +4254,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .emotion-26 .sui-result__title {
@@ -4204,7 +4271,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-result__key {
-  font-family: monospace;
+  font-family: var(--code-font);
   font-weight: 400;
   font-size: 14px;
   -webkit-flex: 0 1 50%;
@@ -4257,7 +4324,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 
 .emotion-26 .sui-result__details {
   list-style: none;
-  padding: 12px 24px;
   padding-left: 0;
 }
 
@@ -4271,7 +4337,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-results-per-page {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: #4a4b4b;
@@ -4316,7 +4381,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
 }
 
 .emotion-26 .sui-search-box__submit {
@@ -4472,7 +4536,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-sorting {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   display: inline-block;
@@ -4489,7 +4552,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-select {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 0.875rem;
@@ -4601,7 +4663,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background: var(--tertiary-background-color);
 }
 
-.emotion-56 {
+.emotion-68 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4616,7 +4678,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width:800px) {
-  .emotion-56::after {
+  .emotion-68::after {
     content: '';
     position: absolute;
     right: 0;
@@ -4626,8 +4688,19 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     background: linear-gradient( to right,rgba(244,245,245,0),var(--color-neutrals-100) );
   }
 
-  .dark-mode .emotion-56::after {
+  .dark-mode .emotion-68::after {
     background: linear-gradient( to right,rgba(34,53,60,0),var(--color-dark-100) );
+  }
+}
+
+@media screen and (max-width:545px) {
+  .emotion-68 {
+    overflow: visible;
+  }
+
+  .emotion-68::after {
+    background: none !important;
+    width: 0 !important;
   }
 }
 
@@ -4643,7 +4716,147 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   margin-right: 1rem;
 }
 
-.emotion-55 {
+@media screen and (max-width:545px) {
+  .emotion-50 {
+    display: none;
+  }
+}
+
+.emotion-62 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  position: relative;
+  display: none;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-62 {
+    display: block;
+  }
+}
+
+.emotion-54 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.emotion-54:hover {
+  color: var(--link-hover-color);
+}
+
+.emotion-53 {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: none;
+}
+
+.emotion-51 {
+  fill: #008c99;
+}
+
+.emotion-52 {
+  fill: #70ccd3;
+}
+
+.emotion-61 {
+  --arrow-size: 5px;
+  --arrow-offset: 0.5rem;
+  --background-color: white;
+  --text-color: var(--color-neutrals-900);
+  position: absolute;
+  top: calc(100% + var(--arrow-size));
+  display: none;
+  background: var(--background-color);
+  border-radius: 0.25rem;
+  z-index: 1000;
+  padding: 0.5rem;
+  box-shadow: 0 3px 8px 0 rgba(22,38,59,0.2);
+}
+
+.dark-mode .emotion-61 {
+  --text-color: var(--color-dark-900);
+  --background-color: var(--color-dark-050);
+}
+
+.emotion-61::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(-1 * var(--arrow-size));
+  border-left: var(--arrow-size) solid transparent;
+  border-right: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid var(--background-color);
+  width: 0;
+  height: 0;
+  z-index: 1000;
+  left: var(--arrow-offset);
+}
+
+.emotion-60 {
+  max-height: 20rem;
+  min-width: 100px;
+  overflow-y: auto;
+}
+
+.emotion-56 {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: var(--text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-56:hover {
+  color: var(--text-color);
+  cursor: pointer;
+  background: var(--color-neutrals-200);
+  border-radius: 0.25rem;
+}
+
+.dark-mode .emotion-56:hover {
+  background: var(--color-dark-200);
+}
+
+.emotion-67 {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -4659,13 +4872,20 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-55 > li {
+.emotion-67 > li {
+  margin: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
-.emotion-51 {
+@media screen and (max-width:545px) {
+  .emotion-67 {
+    display: none;
+  }
+}
+
+.emotion-63 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4680,19 +4900,21 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   font-size: 0.6875rem;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
-.emotion-51:hover {
-  background-color: var(--color-neutrals-200);
+.emotion-63:hover {
+  background-color: var(--color-neutrals-300);
   color: var(--color-neutrals-700);
 }
 
-.dark-mode .emotion-51:hover {
-  background-color: var(--color-dark-200);
+.dark-mode .emotion-63:hover {
+  background-color: var(--color-dark-300);
   color: var(--color-dark-700);
 }
 
-.emotion-70 {
+.emotion-85 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -4710,50 +4932,108 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-70 > li {
+.emotion-85 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-70 > li:not(:first-of-type) {
-  margin-left: 1rem;
+.emotion-85 > li:not(:first-of-type) {
+  margin-left: 0.5rem;
 }
 
-.emotion-63 {
+@media screen and (max-width:760px) {
+  .emotion-85 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+}
+
+.emotion-75 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.emotion-61 {
-  position: relative;
-  width: 100%;
-  --icon-size: 0.75rem;
-  min-width: 150px;
-  max-width: 350px;
+@media screen and (max-width:760px) {
+  .emotion-75 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
 }
 
-.emotion-58 {
-  width: 1em;
-  height: 1em;
+.emotion-70 {
+  color: var(--secondary-text-color);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+
+.emotion-70:hover {
+  color: var(--secondary-text-hover-color);
+}
+
+@media screen and (max-width:760px) {
+  .emotion-70 {
+    display: block;
+  }
+}
+
+.emotion-69 {
+  width: 0.875rem;
+  height: 0.875rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: var(--primary-text-color);
-  height: var(--icon-size);
-  width: var(--icon-size);
+  display: block;
+  cursor: pointer;
+}
+
+.emotion-74 {
+  --horizontal-spacing: 0.5rem;
+  position: relative;
+  width: 100%;
+  box-shadow: var(--shadow-1);
+  --icon-size: 0.75rem;
+  min-width: 150px;
+  max-width: 350px;
+}
+
+@media screen and (max-width:760px) {
+  .emotion-74 {
+    display: none;
+  }
+}
+
+.emotion-71 {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   position: absolute;
-  left: 1rem;
+  left: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
-.emotion-59 {
+.emotion-72 {
   width: 100%;
   border: 1px solid var(--border-color);
   border-radius: 4px;
@@ -4762,17 +5042,40 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
+  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
   font-size: 0.75rem;
-  padding: 0.25rem calc(1.5rem + var(--icon-size));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
-.emotion-59:focus {
+.emotion-72:focus {
   outline: none;
   border: 1px solid rgba(0,126,138,0.6);
   box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
 }
 
-.emotion-64 {
+.emotion-73 {
+  position: absolute;
+  right: var(--horizontal-spacing);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: 1px solid var(--border-color);
+  line-height: 1;
+  text-align: center;
+  background: var(--color-neutrals-100);
+  border-radius: 0.125rem;
+  font-size: 0.675rem;
+  padding: 0.0625rem 0.3125rem;
+}
+
+.dark-mode .emotion-73 {
+  background: var(--color-dark-200);
+}
+
+.emotion-76 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -4788,11 +5091,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.emotion-64:hover {
+.emotion-76:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-66 {
+.emotion-81 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4803,20 +5106,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-65 {
-  font-size: 0.675rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.emotion-69 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-67 {
+.emotion-79 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -4840,6 +5130,77 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.emotion-79:hover {
+  color: var(--link-hover-color);
+}
+
+@media screen and (max-width:545px) {
+  .emotion-77 {
+    display: none;
+  }
+}
+
+.emotion-78 {
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: none;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-78 {
+    display: block;
+  }
+}
+
+.emotion-84 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-82 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-brand-600);
   font-size: 0.625rem;
@@ -4847,35 +5208,29 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   border-radius: 0.125rem;
 }
 
-.emotion-67:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-67:hover {
+.emotion-82:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
-.emotion-94 {
+.emotion-109 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width:724px) {
-  .emotion-94 {
+  .emotion-109 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-93 {
+.emotion-108 {
   fill: none;
   width: 100%;
 }
 
-.emotion-101 {
+.emotion-116 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -4888,18 +5243,18 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-101 > hr {
+.emotion-116 > hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-100 {
+.emotion-115 {
   margin-bottom: 1rem;
 }
 
-.emotion-95 {
+.emotion-110 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -4923,22 +5278,18 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-brand-600);
 }
 
-.emotion-95:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-95:hover {
+.emotion-110:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
-.emotion-98 {
+.emotion-113 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -4962,43 +5313,39 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--link-color);
   background: transparent;
 }
 
-.emotion-98:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-98:hover {
+.emotion-113:hover {
   color: var(--link-hover-color);
 }
 
-.dark-mode .emotion-98 {
+.dark-mode .emotion-113 {
   border-color: transparent;
 }
 
-.emotion-97 {
+.emotion-112 {
   margin-right: 0.5rem;
 }
 
-.emotion-131 {
+.emotion-143 {
   color: var(--secondary-text-color);
   background-color: var(--color-neutrals-050);
   z-index: 1;
 }
 
-.dark-mode .emotion-131 {
+.dark-mode .emotion-143 {
   background-color: var(--color-dark-050);
 }
 
-.emotion-131 a {
+.emotion-143 a {
   color: currentColor;
 }
 
-.emotion-126 {
+.emotion-138 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -5012,13 +5359,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
-  max-width: 1236px;
+  padding: 1rem var(--site-content-padding);
+  max-width: var(--site-max-width);
   margin: 0 auto;
 }
 
 @media screen and (max-width:550px) {
-  .emotion-126 {
+  .emotion-138 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -5029,88 +5376,27 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   }
 }
 
-.emotion-122 {
+.emotion-137 {
   fill: none;
   width: 150px;
   display: block;
 }
 
 @media screen and (max-width:550px) {
-  .emotion-122 {
+  .emotion-137 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-124 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-neutrals-700);
-  border: 1px solid var(--border-color);
-  background-color: transparent;
-  font-size: 0.75rem;
-}
-
-.emotion-124:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-124:hover {
-  color: var(--color-brand-600);
-  border-color: var(--color-brand-500);
-}
-
-.dark-mode .emotion-124 {
-  color: var(--color-dark-700);
-}
-
-.dark-mode .emotion-124:hover {
-  color: var(--color-brand-200);
-  border-color: rgba(112,204,210,0.17);
-}
-
-.emotion-123 {
-  width: 1em;
-  height: 1em;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  margin-right: 0.5rem;
-}
-
-.emotion-130 {
+.emotion-142 {
   background-color: rgba(0,0,0,0.05);
 }
 
-.dark-mode .emotion-130 {
+.dark-mode .emotion-142 {
   background-color: rgba(0,0,0,0.2);
 }
 
-.emotion-129 {
+.emotion-141 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -5123,13 +5409,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: grid;
   grid-template-columns: auto auto;
   grid-template-areas: 'copyright legal';
-  padding: 0.5rem;
-  max-width: 1236px;
+  padding: 0.5rem var(--site-content-padding);
+  max-width: var(--site-max-width);
   margin: 0 auto;
 }
 
 @media screen and (max-width:760px) {
-  .emotion-129 {
+  .emotion-141 {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -5141,7 +5427,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   }
 }
 
-.emotion-127 {
+.emotion-139 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
@@ -5151,7 +5437,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   letter-spacing: 0.1rem;
 }
 
-.emotion-128 {
+.emotion-140 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5166,218 +5452,20 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-128 a {
+.emotion-140 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
-.emotion-140 {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  z-index: 10000;
-  background-color: rgba(28,42,47,0.92);
-  box-shadow: 0px -0.249053px 4.26158px rgba(12,48,57,0.0421718),0px -0.598509px 10.2412px rgba(12,48,57,0.0605839),0px -1.12694px 19.2832px rgba(12,48,57,0.075),0px -2.01027px 34.3 979px rgba(12,48,57,0.0894161),0px -3.75998px 64.3375px rgba(12,48,57,0.107828),0px -9px 154px rgba(12,48,57,0.15);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-}
-
-.dark-mode .emotion-140 {
-  background-color: rgba(15,25,28,0.92);
-  box-shadow: 0 -1px 0 rgba(55,72,78,0.4);
-}
-
-.emotion-139 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 1180px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 1.125rem 0;
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-139 {
-    width: 100%;
-    padding: 1.125rem 1.75rem;
-  }
-}
-
-@media screen and (max-width:480px) {
-  .emotion-139 {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: flex-start;
-    -webkit-box-align: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
-  }
-}
-
-.emotion-132 {
-  color: #fff;
-  margin-top: 0;
-  margin-bottom: 2px;
-  line-height: 21px;
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-132 {
-    margin-bottom: 0.375rem;
-  }
-}
-
-.emotion-133 {
-  margin: 0 0 0px;
-  font-size: 13px;
-  line-height: 21px;
-  color: var(--accent-text-color);
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-133 {
-    line-height: 19px;
-  }
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-133 {
-    margin-bottom: 1rem;
-  }
-}
-
-.emotion-138 {
-  margin-left: 1rem;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-}
-
-.emotion-134 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-white);
-  background-color: var(--color-brand-600);
-  margin-right: 10px;
-  padding: 0.625rem 1.75rem;
-}
-
-.emotion-134:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-134:hover {
-  color: var(--color-white);
-  background-color: var(--color-brand-500);
-}
-
-@media screen and (max-width:480px) {
-  .emotion-134 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-}
-
-.emotion-136 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-neutrals-700);
-  background-color: var(--color-neutrals-100);
-  padding: 0.625rem 1rem;
-}
-
-.emotion-136:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-136:hover {
-  color: var(--color-brand-600);
-  background: rgba(112,204,210,0.17);
-}
-
-.dark-mode .emotion-136 {
-  color: var(--color-dark-700);
-  background-color: var(--color-dark-200);
-}
-
-.dark-mode .emotion-136:hover {
-  color: var(--color-brand-200);
-  background-color: rgba(112,204,210,0.17);
-}
-
-@media screen and (max-width:480px) {
-  .emotion-136 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-}
-
 <div
-  className="projectPageLayout emotion-141"
+  className="projectPageLayout emotion-144"
 >
   <div
-    className=" emotion-72"
+    className=" emotion-87"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-71"
+      className="emotion-86"
     >
       <div
         className="emotion-28"
@@ -5479,11 +5567,12 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         </div>
       </div>
       <nav
-        className="emotion-56"
+        className="emotion-68"
       >
         <a
           className="emotion-50"
           href="https://newrelic.com/"
+          onClick={[Function]}
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -5538,13 +5627,82 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
             />
           </svg>
         </a>
+        <div
+          className="emotion-62"
+        >
+          <button
+            className="emotion-54 emotion-55"
+            onClick={[Function]}
+            size="extraSmall"
+          >
+            <svg
+              className="emotion-53"
+              viewBox="0 0 18 15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                className="emotion-51"
+                d="M17.159 5.6486C16.3489 1.92142 11.8784 -0.271419 7.17568 0.751833C2.47296 1.77403 -0.682686 5.62527 0.127433 9.3514C0.937552 13.0786 5.40805 15.2714 10.1108 14.2482C14.8135 13.226 17.9691 9.37578 17.159 5.6486ZM8.64322 10.9356C6.74517 10.9356 5.20764 9.39699 5.20764 7.5C5.20764 5.603 6.74623 4.06441 8.64322 4.06441C10.5402 4.06441 12.0788 5.60194 12.0788 7.5C12.0788 9.39805 10.5402 10.9356 8.64322 10.9356Z"
+              />
+              <path
+                className="emotion-52"
+                d="M9.40328 2.69022C6.6792 2.69022 4.47046 4.89896 4.47046 7.62303C4.47046 10.3471 6.6792 12.5559 9.40328 12.5559C12.1284 12.5559 14.3372 10.3471 14.3372 7.62303C14.3361 4.89896 12.1274 2.69022 9.40328 2.69022ZM8.64299 10.5009C6.98564 10.5009 5.64216 9.15738 5.64216 7.50003C5.64216 5.84268 6.98564 4.4992 8.64299 4.4992C10.3003 4.4992 11.6438 5.84268 11.6438 7.50003C11.6438 9.15738 10.3003 10.5009 8.64299 10.5009Z"
+              />
+            </svg>
+          </button>
+          <div
+            className="emotion-61"
+          >
+            <div
+              className="emotion-60"
+            >
+              <a
+                className="emotion-56"
+                href="https://docs.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Docs
+              </a>
+              <a
+                className="emotion-56"
+                href="https://developer.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Developer
+              </a>
+              <a
+                className="emotion-56"
+                href="https://opensource.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Open Source
+              </a>
+              <a
+                className="emotion-56"
+                href="https://discuss.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Community
+              </a>
+            </div>
+          </div>
+        </div>
         <ul
-          className="emotion-55"
+          className="emotion-67"
         >
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://docs.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -5553,8 +5711,9 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://developer.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -5563,8 +5722,9 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://opensource.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -5573,8 +5733,9 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://discuss.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -5584,17 +5745,38 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-70"
+        className="emotion-85"
       >
         <li
-          className="emotion-63"
+          className="emotion-75"
         >
-          <div
-            className="emotion-61 emotion-62"
-            size="small"
+          <a
+            className="emotion-70"
+            href="?q="
           >
             <svg
-              className="emotion-57 emotion-58"
+              className="emotion-69"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </a>
+          <div
+            className="emotion-74"
+          >
+            <svg
+              className="emotion-71"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -5611,20 +5793,26 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-59 emotion-60"
+              className="emotion-72"
+              onBlur={[Function]}
               onChange={[Function]}
+              onFocus={[Function]}
               onKeyDown={[Function]}
               placeholder="Search Docs, Developer, Open Source"
-              size="small"
               type="text"
               value=""
             />
             
+            <span
+              className="emotion-73"
+            >
+              /
+            </span>
           </div>
         </li>
         <li>
           <svg
-            className="emotion-64"
+            className="emotion-76"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -5635,30 +5823,56 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </svg>
         </li>
         <li
-          className="emotion-66"
+          className="emotion-81"
         >
           <a
-            className="emotion-65"
+            className="emotion-79 emotion-55"
             href="https://one.newrelic.com"
+            onClick={[Function]}
             rel="noopener noreferrer"
+            size="extraSmall"
             target="_blank"
+            variant="link"
           >
-            Log in
+            <span
+              className="emotion-77"
+            >
+              Log in
+            </span>
+            <svg
+              className="emotion-78"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"
+              />
+              <polyline
+                points="10 17 15 12 10 7"
+              />
+              <line
+                x1="15"
+                x2="3"
+                y1="12"
+                y2="12"
+              />
+            </svg>
           </a>
         </li>
         <li
-          className="emotion-69"
+          className="emotion-84"
         >
           <a
-            className="emotion-67 emotion-68"
+            className="emotion-82 emotion-55"
             href="https://newrelic.com/signup"
+            onClick={[Function]}
             rel="noopener noreferrer"
             size="extraSmall"
             target="_blank"
             variant="primary"
           >
             <span>
-              Sign up
+              Free account
             </span>
           </a>
         </li>
@@ -5669,11 +5883,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     className="primaryHeaderContainer hasHeaderBg "
   >
     <a
-      className="emotion-94"
+      className="emotion-109"
       href="/"
     >
       <svg
-        className="emotion-93"
+        className="emotion-108"
         viewBox="0 0 79 15"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -5823,7 +6037,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-101"
+    className="emotion-116"
   >
     <div
       className="primary-content"
@@ -5870,13 +6084,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons emotion-100"
+            className="callToActionButtons emotion-115"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="emotion-95 emotion-68"
+                className="emotion-110 emotion-55"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -5884,13 +6098,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-98 emotion-68"
+                className="emotion-113 emotion-55"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-97"
+                  className="emotion-112"
                   src="test-file-stub"
                 />
                 GitHub
@@ -5905,17 +6119,17 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-131"
+    className="emotion-143"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-126"
+      className="emotion-138"
     >
       <a
         href="/"
       >
         <svg
-          className="emotion-122"
+          className="emotion-137"
           viewBox="0 0 79 15"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -5965,44 +6179,25 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           />
         </svg>
       </a>
-      <div>
-        <a
-          className="emotion-124 emotion-68"
-          href="undefined/issues/new/choose"
-          rel="noopener noreferrer"
-          size="small"
-          target="_blank"
-          variant="outline"
-        >
-          <svg
-            className="emotion-123"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-            />
-          </svg>
-          Create an issue
-        </a>
-      </div>
+      <div />
     </div>
     <div
-      className="emotion-130"
+      className="emotion-142"
     >
       <div
-        className="emotion-129"
+        className="emotion-141"
       >
         <div
-          className="emotion-127"
+          className="emotion-139"
         >
-          Copyright © 2020 New Relic Inc.
+          Copyright © 2021 New Relic Inc.
         </div>
         <div
-          className="emotion-128"
+          className="emotion-140"
         >
           <a
             href="https://newrelic.com/about/careers"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -6010,6 +6205,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/terms"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -6017,6 +6213,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/dmca"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -6024,6 +6221,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/services-notices"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -6031,6 +6229,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/cookie-policy"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -6038,6 +6237,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/uk-slavery-act"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -6047,67 +6247,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
       </div>
     </div>
   </footer>
-  <div
-    className="emotion-140"
-  >
-    <div
-      className="emotion-139"
-    >
-      <div>
-        <h4
-          className="emotion-132"
-        >
-          This site uses cookies
-           
-          <span
-            aria-label="Cookie emoji"
-            role="img"
-          >
-            🍪
-          </span>
-        </h4>
-        <p
-          className="emotion-133"
-        >
-          We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more
-           
-          <a
-            href="https://newrelic.com/termsandconditions/cookie-policy"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            here
-          </a>
-          . If you consent to our cookies, please click 
-          <strong>
-            Yes
-          </strong>
-          .
-        </p>
-      </div>
-      <div
-        className="emotion-138"
-      >
-        <button
-          className="emotion-134 emotion-68"
-          onClick={[Function]}
-        >
-          Yes
-        </button>
-        <button
-          className="emotion-136 emotion-68"
-          onClick={[Function]}
-        >
-          No
-        </button>
-      </div>
-    </div>
-  </div>
 </div>
 `;
 
 exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
-.emotion-148 {
+.emotion-157 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6120,9 +6264,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-79 {
+.emotion-91 {
   background-color: var(--color-neutrals-100);
-  overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -6130,20 +6273,20 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   z-index: 700;
 }
 
-.dark-mode .emotion-79 {
+.dark-mode .emotion-91 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-79 ul {
+.emotion-91 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-79 a {
+.emotion-91 a {
   border-bottom: none;
 }
 
-.emotion-78 {
+.emotion-90 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -6153,12 +6296,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  max-width: 1236px;
+  max-width: var(--site-max-width);
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
 }
 
-.emotion-35 {
+.emotion-32 {
   z-index: 1000;
   position: fixed;
   top: 0;
@@ -6196,7 +6339,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-24 {
-  max-width: 1236px;
+  max-width: var(--site-max-width);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6210,7 +6353,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
   height: 100%;
 }
 
@@ -6258,13 +6401,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   stroke-linejoin: round;
 }
 
-.emotion-34 {
-  max-width: 1236px;
-  padding: 0;
+.emotion-31 {
+  max-width: var(--site-max-width);
+  padding: 0 var(--site-content-padding);
   margin: 0 auto;
 }
 
-.emotion-33 {
+.emotion-30 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6277,8 +6420,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   height: calc(100vh - 6rem);
 }
 
-.emotion-33 .rc-pagination {
-  font-family: 'Arial';
+.emotion-30 .rc-pagination {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -6297,11 +6439,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-self: center;
 }
 
-.emotion-33 .rc-pagination > li {
+.emotion-30 .rc-pagination > li {
   list-style: none;
 }
 
-.emotion-33 .rc-pagination-total-text {
+.emotion-30 .rc-pagination-total-text {
   float: left;
   height: 30px;
   line-height: 30px;
@@ -6310,7 +6452,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin: 0 8px 0 0;
 }
 
-.emotion-33 .rc-pagination:after {
+.emotion-30 .rc-pagination:after {
   content: ' ';
   display: block;
   height: 0;
@@ -6319,7 +6461,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   visibility: hidden;
 }
 
-.emotion-33 .rc-pagination-item {
+.emotion-30 .rc-pagination-item {
   cursor: pointer;
   border-radius: 6px;
   min-width: 28px;
@@ -6333,72 +6475,72 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin: 0rem 1rem;
 }
 
-.emotion-33 .rc-pagination-item a {
+.emotion-30 .rc-pagination-item a {
   -webkit-text-decoration: none;
   text-decoration: none;
   color: var(--link-color);
 }
 
-.emotion-33 .rc-pagination-item:hover {
+.emotion-30 .rc-pagination-item:hover {
   border-color: #2db7f5;
   background: var(--tertiary-background-color);
 }
 
-.emotion-33 .rc-pagination-item:hover a {
+.emotion-30 .rc-pagination-item:hover a {
   color: var(--link-color);
 }
 
-.emotion-33 .rc-pagination-item-disabled {
+.emotion-30 .rc-pagination-item-disabled {
   cursor: not-allowed;
 }
 
-.emotion-33 .rc-pagination-item-disabled:hover {
+.emotion-30 .rc-pagination-item-disabled:hover {
   border-color: #d9d9d9;
 }
 
-.emotion-33 .rc-pagination-item-disabled:hover a {
+.emotion-30 .rc-pagination-item-disabled:hover a {
   color: #d9d9d9;
 }
 
-.emotion-33 .rc-pagination-item-active {
+.emotion-30 .rc-pagination-item-active {
   background-color: #2db7f5;
   border-color: #2db7f5;
 }
 
-.emotion-33 .rc-pagination-item-active a {
+.emotion-30 .rc-pagination-item-active a {
   color: #fff;
 }
 
-.emotion-33 .rc-pagination-item-active:hover a {
+.emotion-30 .rc-pagination-item-active:hover a {
   color: #fff;
 }
 
-.emotion-33 .rc-pagination-next:hover {
+.emotion-30 .rc-pagination-next:hover {
   background: var(--tertiary-background-color);
 }
 
-.emotion-33 .rc-pagination-next:hover a {
+.emotion-30 .rc-pagination-next:hover a {
   color: var(--link-color);
 }
 
-.emotion-33 .rc-pagination-jump-next:hover {
+.emotion-30 .rc-pagination-jump-next:hover {
   background: var(--tertiary-background-color);
 }
 
-.emotion-33 .rc-pagination-jump-prev:hover {
+.emotion-30 .rc-pagination-jump-prev:hover {
   background: var(--tertiary-background-color);
 }
 
-.emotion-33 .rc-pagination-prev:hover {
+.emotion-30 .rc-pagination-prev:hover {
   background: var(--tertiary-background-color);
 }
 
-.emotion-33 .rc-pagination-prev:hover a {
+.emotion-30 .rc-pagination-prev:hover a {
   color: var(--link-color);
 }
 
-.emotion-33 .rc-pagination-jump-prev:after,
-.emotion-33 .rc-pagination-jump-next:after {
+.emotion-30 .rc-pagination-jump-prev:after,
+.emotion-30 .rc-pagination-jump-next:after {
   content: '\\2022\\2022\\2022';
   display: block;
   -webkit-letter-spacing: 2px;
@@ -6410,26 +6552,26 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin-top: 1px;
 }
 
-.emotion-33 .rc-pagination-jump-prev:hover:after,
-.emotion-33 .rc-pagination-jump-next:hover:after {
+.emotion-30 .rc-pagination-jump-prev:hover:after,
+.emotion-30 .rc-pagination-jump-next:hover:after {
   color: var(--link-color) !important;
 }
 
-.emotion-33 .rc-pagination-jump-prev:hover:after {
+.emotion-30 .rc-pagination-jump-prev:hover:after {
   content: '\\AB';
 }
 
-.emotion-33 .rc-pagination-jump-next:hover:after {
+.emotion-30 .rc-pagination-jump-next:hover:after {
   content: '\\BB';
 }
 
-.emotion-33 .rc-pagination-jump-prev-custom-icon,
-.emotion-33 .rc-pagination-jump-next-custom-icon {
+.emotion-30 .rc-pagination-jump-prev-custom-icon,
+.emotion-30 .rc-pagination-jump-next-custom-icon {
   position: relative;
 }
 
-.emotion-33 .rc-pagination-jump-prev-custom-icon:after,
-.emotion-33 .rc-pagination-jump-next-custom-icon:after {
+.emotion-30 .rc-pagination-jump-prev-custom-icon:after,
+.emotion-30 .rc-pagination-jump-next-custom-icon:after {
   position: absolute;
   top: 0;
   right: 0;
@@ -6450,39 +6592,39 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin-top: 1px;
 }
 
-.emotion-33 .rc-pagination-jump-prev-custom-icon .custom-icon-jump-prev,
-.emotion-33 .rc-pagination-jump-next-custom-icon .custom-icon-jump-prev,
-.emotion-33 .rc-pagination-jump-prev-custom-icon .custom-icon-jump-next,
-.emotion-33 .rc-pagination-jump-next-custom-icon .custom-icon-jump-next {
+.emotion-30 .rc-pagination-jump-prev-custom-icon .custom-icon-jump-prev,
+.emotion-30 .rc-pagination-jump-next-custom-icon .custom-icon-jump-prev,
+.emotion-30 .rc-pagination-jump-prev-custom-icon .custom-icon-jump-next,
+.emotion-30 .rc-pagination-jump-next-custom-icon .custom-icon-jump-next {
   opacity: 0;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
-.emotion-33 .rc-pagination-jump-prev-custom-icon:hover:after,
-.emotion-33 .rc-pagination-jump-next-custom-icon:hover:after {
+.emotion-30 .rc-pagination-jump-prev-custom-icon:hover:after,
+.emotion-30 .rc-pagination-jump-next-custom-icon:hover:after {
   opacity: 0;
   color: #ccc;
 }
 
-.emotion-33 .rc-pagination-jump-prev-custom-icon:hover .custom-icon-jump-prev,
-.emotion-33 .rc-pagination-jump-next-custom-icon:hover .custom-icon-jump-prev,
-.emotion-33 .rc-pagination-jump-prev-custom-icon:hover .custom-icon-jump-next,
-.emotion-33 .rc-pagination-jump-next-custom-icon:hover .custom-icon-jump-next {
+.emotion-30 .rc-pagination-jump-prev-custom-icon:hover .custom-icon-jump-prev,
+.emotion-30 .rc-pagination-jump-next-custom-icon:hover .custom-icon-jump-prev,
+.emotion-30 .rc-pagination-jump-prev-custom-icon:hover .custom-icon-jump-next,
+.emotion-30 .rc-pagination-jump-next-custom-icon:hover .custom-icon-jump-next {
   opacity: 1;
   color: #2db7f5;
 }
 
-.emotion-33 .rc-pagination-prev,
-.emotion-33 .rc-pagination-jump-prev,
-.emotion-33 .rc-pagination-jump-next {
+.emotion-30 .rc-pagination-prev,
+.emotion-30 .rc-pagination-jump-prev,
+.emotion-30 .rc-pagination-jump-next {
   margin-right: 8px;
 }
 
-.emotion-33 .rc-pagination-prev,
-.emotion-33 .rc-pagination-next,
-.emotion-33 .rc-pagination-jump-prev,
-.emotion-33 .rc-pagination-jump-next {
+.emotion-30 .rc-pagination-prev,
+.emotion-30 .rc-pagination-next,
+.emotion-30 .rc-pagination-jump-prev,
+.emotion-30 .rc-pagination-jump-next {
   cursor: pointer;
   color: #666;
   font-size: 10px;
@@ -6495,81 +6637,81 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   text-align: center;
 }
 
-.emotion-33 .rc-pagination-prev a:after {
+.emotion-30 .rc-pagination-prev a:after {
   content: '\\2039';
   display: block;
 }
 
-.emotion-33 .rc-pagination-next a:after {
+.emotion-30 .rc-pagination-next a:after {
   content: '\\203A';
   display: block;
 }
 
-.emotion-33 .rc-pagination-prev,
-.emotion-33 .rc-pagination-next {
+.emotion-30 .rc-pagination-prev,
+.emotion-30 .rc-pagination-next {
   border: 1px solid #d9d9d9;
   font-size: 18px;
 }
 
-.emotion-33 .rc-pagination-prev a,
-.emotion-33 .rc-pagination-next a {
+.emotion-30 .rc-pagination-prev a,
+.emotion-30 .rc-pagination-next a {
   color: #666;
 }
 
-.emotion-33 .rc-pagination-prev a:after,
-.emotion-33 .rc-pagination-next a:after {
+.emotion-30 .rc-pagination-prev a:after,
+.emotion-30 .rc-pagination-next a:after {
   margin-top: -1px;
 }
 
-.emotion-33 .rc-pagination-disabled {
+.emotion-30 .rc-pagination-disabled {
   cursor: not-allowed;
 }
 
-.emotion-33 .rc-pagination-disabled a {
+.emotion-30 .rc-pagination-disabled a {
   color: #ccc;
 }
 
-.emotion-33 .rc-pagination-disabled .rc-pagination-item,
-.emotion-33 .rc-pagination-disabled .rc-pagination-prev,
-.emotion-33 .rc-pagination-disabled .rc-pagination-next {
+.emotion-30 .rc-pagination-disabled .rc-pagination-item,
+.emotion-30 .rc-pagination-disabled .rc-pagination-prev,
+.emotion-30 .rc-pagination-disabled .rc-pagination-next {
   cursor: not-allowed;
 }
 
-.emotion-33 .rc-pagination-disabled .rc-pagination-item:hover,
-.emotion-33 .rc-pagination-disabled .rc-pagination-prev:hover,
-.emotion-33 .rc-pagination-disabled .rc-pagination-next:hover {
+.emotion-30 .rc-pagination-disabled .rc-pagination-item:hover,
+.emotion-30 .rc-pagination-disabled .rc-pagination-prev:hover,
+.emotion-30 .rc-pagination-disabled .rc-pagination-next:hover {
   border-color: #d9d9d9;
 }
 
-.emotion-33 .rc-pagination-disabled .rc-pagination-item:hover a,
-.emotion-33 .rc-pagination-disabled .rc-pagination-prev:hover a,
-.emotion-33 .rc-pagination-disabled .rc-pagination-next:hover a {
+.emotion-30 .rc-pagination-disabled .rc-pagination-item:hover a,
+.emotion-30 .rc-pagination-disabled .rc-pagination-prev:hover a,
+.emotion-30 .rc-pagination-disabled .rc-pagination-next:hover a {
   color: #d9d9d9;
 }
 
-.emotion-33 .rc-pagination-disabled .rc-pagination-jump-prev,
-.emotion-33 .rc-pagination-disabled .rc-pagination-jump-next {
+.emotion-30 .rc-pagination-disabled .rc-pagination-jump-prev,
+.emotion-30 .rc-pagination-disabled .rc-pagination-jump-next {
   pointer-events: none;
 }
 
-.emotion-33 .rc-pagination-options {
+.emotion-30 .rc-pagination-options {
   float: left;
   margin-left: 15px;
 }
 
-.emotion-33 .rc-pagination-options-size-changer {
+.emotion-30 .rc-pagination-options-size-changer {
   float: left;
   width: 80px;
 }
 
-.emotion-33 .rc-pagination-options-quick-jumper {
+.emotion-30 .rc-pagination-options-quick-jumper {
   float: left;
   margin-left: 16px;
   height: 28px;
   line-height: 28px;
 }
 
-.emotion-33 .rc-pagination-options-quick-jumper input {
+.emotion-30 .rc-pagination-options-quick-jumper input {
   margin: 0 8px;
   box-sizing: border-box;
   background-color: #fff;
@@ -6581,11 +6723,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   height: 28px;
 }
 
-.emotion-33 .rc-pagination-options-quick-jumper input:hover {
+.emotion-30 .rc-pagination-options-quick-jumper input:hover {
   border-color: #2db7f5;
 }
 
-.emotion-33 .rc-pagination-options-quick-jumper button {
+.emotion-30 .rc-pagination-options-quick-jumper button {
   display: inline-block;
   margin: 0 8px;
   font-weight: 500;
@@ -6614,16 +6756,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border-color: #d9d9d9;
 }
 
-.emotion-33 .rc-pagination-options-quick-jumper button:hover,
-.emotion-33 .rc-pagination-options-quick-jumper button:active,
-.emotion-33 .rc-pagination-options-quick-jumper button:focus {
+.emotion-30 .rc-pagination-options-quick-jumper button:hover,
+.emotion-30 .rc-pagination-options-quick-jumper button:active,
+.emotion-30 .rc-pagination-options-quick-jumper button:focus {
   color: #2db7f5;
   background-color: #fff;
   border-color: #2db7f5;
 }
 
-.emotion-33 .rc-pagination-simple .rc-pagination-prev,
-.emotion-33 .rc-pagination-simple .rc-pagination-next {
+.emotion-30 .rc-pagination-simple .rc-pagination-prev,
+.emotion-30 .rc-pagination-simple .rc-pagination-next {
   border: none;
   height: 24px;
   line-height: 24px;
@@ -6631,17 +6773,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   font-size: 18px;
 }
 
-.emotion-33 .rc-pagination-simple .rc-pagination-simple-pager {
+.emotion-30 .rc-pagination-simple .rc-pagination-simple-pager {
   float: left;
   margin-right: 8px;
   list-style: none;
 }
 
-.emotion-33 .rc-pagination-simple .rc-pagination-simple-pager .rc-pagination-slash {
+.emotion-30 .rc-pagination-simple .rc-pagination-simple-pager .rc-pagination-slash {
   margin: 0 10px;
 }
 
-.emotion-33 .rc-pagination-simple .rc-pagination-simple-pager input {
+.emotion-30 .rc-pagination-simple .rc-pagination-simple-pager input {
   margin: 0 8px;
   box-sizing: border-box;
   background-color: #fff;
@@ -6652,11 +6794,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   min-height: 20px;
 }
 
-.emotion-33 .rc-pagination-simple .rc-pagination-simple-pager input:hover {
+.emotion-30 .rc-pagination-simple .rc-pagination-simple-pager input:hover {
   border-color: #2db7f5;
 }
 
-.emotion-33 .rc-pagination-simple .rc-pagination-simple-pager button {
+.emotion-30 .rc-pagination-simple .rc-pagination-simple-pager button {
   display: inline-block;
   margin: 0 8px;
   font-weight: 500;
@@ -6685,32 +6827,32 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border-color: #d9d9d9;
 }
 
-.emotion-33 .rc-pagination-simple .rc-pagination-simple-pager button:hover,
-.emotion-33 .rc-pagination-simple .rc-pagination-simple-pager button:active,
-.emotion-33 .rc-pagination-simple .rc-pagination-simple-pager button:focus {
+.emotion-30 .rc-pagination-simple .rc-pagination-simple-pager button:hover,
+.emotion-30 .rc-pagination-simple .rc-pagination-simple-pager button:active,
+.emotion-30 .rc-pagination-simple .rc-pagination-simple-pager button:focus {
   color: #2db7f5;
   background-color: #fff;
   border-color: #2db7f5;
 }
 
 @media only screen and (max-width:1024px) {
-  .emotion-33 .rc-pagination-item-after-jump-prev,
-  .emotion-33 .rc-pagination-item-before-jump-next {
+  .emotion-30 .rc-pagination-item-after-jump-prev,
+  .emotion-30 .rc-pagination-item-before-jump-next {
     display: none;
   }
 }
 
-.emotion-33 html {
+.emotion-30 html {
   box-sizing: border-box;
 }
 
-.emotion-33 *,
-.emotion-33 *:before,
-.emotion-33 *:after {
+.emotion-30 *,
+.emotion-30 *:before,
+.emotion-30 *:after {
   box-sizing: inherit;
 }
 
-.emotion-33 .sui-layout {
+.emotion-30 .sui-layout {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -6721,16 +6863,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex-direction: column;
 }
 
-.emotion-33 .sui-layout-header {
+.emotion-30 .sui-layout-header {
   padding: 32px 24px;
   border-bottom: 1px solid #eeeeee;
 }
 
-.emotion-33 .sui-layout-body {
+.emotion-30 .sui-layout-body {
   background: #fcfcfc;
 }
 
-.emotion-33 .sui-layout-body:after {
+.emotion-30 .sui-layout-body:after {
   content: '';
   height: 80px;
   width: 100%;
@@ -6742,12 +6884,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media (max-width:800px) {
-  .emotion-33 .sui-layout-body:after {
+  .emotion-30 .sui-layout-body:after {
     display: none;
   }
 }
 
-.emotion-33 .sui-layout-body__inner {
+.emotion-30 .sui-layout-body__inner {
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
@@ -6759,25 +6901,25 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media (max-width:800px) {
-  .emotion-33 .sui-layout-body__inner {
+  .emotion-30 .sui-layout-body__inner {
     display: block;
     padding: 0 15px;
   }
 }
 
-.emotion-33 .sui-layout-main {
+.emotion-30 .sui-layout-main {
   width: 76%;
   padding: 32px 0 32px 32px;
 }
 
 @media (max-width:800px) {
-  .emotion-33 .sui-layout-main {
+  .emotion-30 .sui-layout-main {
     width: 100%;
     padding-left: 0;
   }
 }
 
-.emotion-33 .sui-layout-main-header {
+.emotion-30 .sui-layout-main-header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6793,7 +6935,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-33 .sui-layout-main-header__inner {
+.emotion-30 .sui-layout-main-header__inner {
   font-size: 12px;
   color: #4a4b4b;
   display: -webkit-box;
@@ -6811,7 +6953,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   width: 100%;
 }
 
-.emotion-33 .sui-layout-main-footer {
+.emotion-30 .sui-layout-main-footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6826,8 +6968,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   justify-content: space-around;
 }
 
-.emotion-33 .sui-search-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+.emotion-30 .sui-search-error {
   line-height: 1.5;
   font-weight: 400;
   color: red;
@@ -6847,8 +6988,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   height: calc(100vh - 180px);
 }
 
-.emotion-33 .sui-search-error.no-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+.emotion-30 .sui-search-error.no-error {
   line-height: 1.5;
   font-weight: 400;
   margin: auto;
@@ -6867,8 +7007,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   height: calc(100vh - 180px);
 }
 
-.emotion-33 .sui-facet {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+.emotion-30 .sui-facet {
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -6876,15 +7015,15 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border: 0;
 }
 
-.emotion-33 .sui-facet + .sui-facet {
+.emotion-30 .sui-facet + .sui-facet {
   margin-top: 32px;
 }
 
-.emotion-33 .sui-sorting + .sui-facet {
+.emotion-30 .sui-sorting + .sui-facet {
   margin-top: 32px;
 }
 
-.emotion-33 .sui-facet__title {
+.emotion-30 .sui-facet__title {
   text-transform: uppercase;
   font-size: 12px;
   color: #8b9bad;
@@ -6895,14 +7034,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding: 0;
 }
 
-.emotion-33 .sui-facet__list {
+.emotion-30 .sui-facet__list {
   line-height: 1.5;
   font-size: 13px;
   margin: 8px 0;
   padding: 0;
 }
 
-.emotion-33 .sui-facet__count {
+.emotion-30 .sui-facet__count {
   color: #888888;
   font-size: 0.85em;
   margin-left: 20px;
@@ -6910,13 +7049,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding-top: 2px;
 }
 
-.emotion-33 .sui-multi-checkbox-facet {
+.emotion-30 .sui-multi-checkbox-facet {
   color: var(--link-color);
   font-size: 13px;
   margin: 8px 0;
 }
 
-.emotion-33 .sui-multi-checkbox-facet__option-label {
+.emotion-30 .sui-multi-checkbox-facet__option-label {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -6932,24 +7071,24 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   cursor: pointer;
 }
 
-.emotion-33 .sui-multi-checkbox-facet__option-input-wrapper {
+.emotion-30 .sui-multi-checkbox-facet__option-input-wrapper {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.emotion-33 .sui-multi-checkbox-facet__checkbox {
+.emotion-30 .sui-multi-checkbox-facet__checkbox {
   margin-right: 8px;
   cursor: pointer;
 }
 
-.emotion-33 .sui-multi-checkbox-facet__option-count {
+.emotion-30 .sui-multi-checkbox-facet__option-count {
   color: #888888;
   font-size: 0.85em;
   margin: 0 20px 0 5px;
 }
 
-.emotion-33 .sui-facet-view-more {
+.emotion-30 .sui-facet-view-more {
   display: block;
   cursor: pointer;
   color: var(--link-color);
@@ -6962,17 +7101,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background: unset;
 }
 
-.emotion-33 .sui-facet-view-more:hover,
-.emotion-33 .sui-facet-view-more:focus {
+.emotion-30 .sui-facet-view-more:hover,
+.emotion-30 .sui-facet-view-more:focus {
   background-color: var(--tertiary-background-color);
   outline: 4px solid var(--tertiary-background-color);
 }
 
-.emotion-33 .sui-facet-search {
+.emotion-30 .sui-facet-search {
   margin: 6px 0px 0px 0px;
 }
 
-.emotion-33 .sui-facet-search__text-input {
+.emotion-30 .sui-facet-search__text-input {
   width: 100%;
   height: 100%;
   padding: 6px;
@@ -6983,17 +7122,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   outline: none;
 }
 
-.emotion-33 .sui-facet-search__text-input:focus {
+.emotion-30 .sui-facet-search__text-input:focus {
   border: 1px solid var(--link-color);
 }
 
-.emotion-33 .sui-boolean-facet {
+.emotion-30 .sui-boolean-facet {
   color: var(--link-color);
   font-size: 13px;
   margin: 8px 0;
 }
 
-.emotion-33 .sui-boolean-facet__option-label {
+.emotion-30 .sui-boolean-facet__option-label {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7009,31 +7148,31 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   cursor: pointer;
 }
 
-.emotion-33 .sui-boolean-facet__option-input-wrapper {
+.emotion-30 .sui-boolean-facet__option-input-wrapper {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.emotion-33 .sui-boolean-facet__checkbox {
+.emotion-30 .sui-boolean-facet__checkbox {
   margin-right: 8px;
   cursor: pointer;
 }
 
-.emotion-33 .sui-boolean-facet__option-count {
+.emotion-30 .sui-boolean-facet__option-count {
   color: #888888;
   font-size: 0.85em;
   margin-left: 24px;
 }
 
-.emotion-33 .sui-single-option-facet {
+.emotion-30 .sui-single-option-facet {
   font-size: 13px;
   margin: 8px 0;
   padding: 0;
   list-style: none;
 }
 
-.emotion-33 .sui-single-option-facet__item {
+.emotion-30 .sui-single-option-facet__item {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7044,7 +7183,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   justify-content: space-between;
 }
 
-.emotion-33 .sui-single-option-facet__link {
+.emotion-30 .sui-single-option-facet__link {
   color: var(--link-color);
   position: relative;
   -webkit-text-decoration: none;
@@ -7054,7 +7193,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   font-weight: bold;
 }
 
-.emotion-33 .sui-single-option-facet__link:after {
+.emotion-30 .sui-single-option-facet__link:after {
   content: '';
   opacity: 0;
   position: absolute;
@@ -7066,158 +7205,157 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   pointer-events: none;
 }
 
-.emotion-33 .sui-single-option-facet__link:focus {
+.emotion-30 .sui-single-option-facet__link:focus {
   color: var(--link-color);
   font-weight: bold;
   outline: none;
 }
 
-.emotion-33 .sui-single-option-facet__link:hover {
+.emotion-30 .sui-single-option-facet__link:hover {
   color: var(--link-color);
   font-weight: bold;
 }
 
-.emotion-33 .sui-single-option-facet__link:hover:after {
+.emotion-30 .sui-single-option-facet__link:hover:after {
   opacity: 1;
 }
 
-.emotion-33 .sui-single-option-facet__selected {
+.emotion-30 .sui-single-option-facet__selected {
   font-weight: 900;
   list-style: none;
 }
 
-.emotion-33 .sui-single-option-facet__selected a {
+.emotion-30 .sui-single-option-facet__selected a {
   font-weight: 100;
   padding: 0 2px;
 }
 
-.emotion-33 .sui-single-option-facet__remove {
+.emotion-30 .sui-single-option-facet__remove {
   color: #666;
   margin-left: 10px;
 }
 
-.emotion-33 .sui-paging > li {
+.emotion-30 .sui-paging > li {
   border: none;
   background: transparent;
   outline: none;
 }
 
-.emotion-33 .sui-paging .rc-pagination-disabled a {
+.emotion-30 .sui-paging .rc-pagination-disabled a {
   color: #ccc;
   opacity: 0.5;
 }
 
-.emotion-33 .sui-paging .rc-pagination-item a {
+.emotion-30 .sui-paging .rc-pagination-item a {
   color: var(--link-color);
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-33 .sui-paging .rc-pagination-item:hover {
+.emotion-30 .sui-paging .rc-pagination-item:hover {
   background: var(--tertiary-background-color);
 }
 
-.emotion-33 .sui-paging .rc-pagination-item:hover a {
+.emotion-30 .sui-paging .rc-pagination-item:hover a {
   color: var(--link-color);
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-33 .sui-paging .rc-pagination-item-active a {
+.emotion-30 .sui-paging .rc-pagination-item-active a {
   color: var(--link-color);
   font-weight: 700;
 }
 
-.emotion-33 .sui-paging .rc-pagination-item-active:hover {
+.emotion-30 .sui-paging .rc-pagination-item-active:hover {
   background: transparent;
   cursor: not-allowed;
 }
 
-.emotion-33 .sui-paging .rc-pagination-item-active:hover a {
+.emotion-30 .sui-paging .rc-pagination-item-active:hover a {
   color: var(--link-color);
   cursor: not-allowed;
 }
 
-.emotion-33 .sui-paging .rc-pagination-next:hover {
+.emotion-30 .sui-paging .rc-pagination-next:hover {
   background: var(--tertiary-background-color);
 }
 
-.emotion-33 .sui-paging .rc-pagination-next:hover a {
+.emotion-30 .sui-paging .rc-pagination-next:hover a {
   color: var(--link-color);
 }
 
-.emotion-33 .sui-paging .rc-pagination-jump-next:hover {
+.emotion-30 .sui-paging .rc-pagination-jump-next:hover {
   background: var(--tertiary-background-color);
 }
 
-.emotion-33 .sui-paging .rc-pagination-jump-next:hover a {
+.emotion-30 .sui-paging .rc-pagination-jump-next:hover a {
   color: var(--link-color);
 }
 
-.emotion-33 .sui-paging .rc-pagination-jump-next:hover:after {
+.emotion-30 .sui-paging .rc-pagination-jump-next:hover:after {
   color: var(--link-color);
   content: '\\BB';
   font-size: 16px;
   line-height: 1.5;
 }
 
-.emotion-33 .sui-paging .rc-pagination-jump-prev:hover {
+.emotion-30 .sui-paging .rc-pagination-jump-prev:hover {
   background: var(--tertiary-background-color);
 }
 
-.emotion-33 .sui-paging .rc-pagination-jump-prev:hover a {
+.emotion-30 .sui-paging .rc-pagination-jump-prev:hover a {
   color: var(--link-color);
 }
 
-.emotion-33 .sui-paging .rc-pagination-jump-prev:hover:after {
+.emotion-30 .sui-paging .rc-pagination-jump-prev:hover:after {
   color: var(--link-color);
   content: '\\AB';
   font-size: 16px;
   line-height: 1.5;
 }
 
-.emotion-33 .sui-paging-info {
+.emotion-30 .sui-paging-info {
   margin: 1rem 0;
   color: var(--primary-text-color);
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 12px;
   display: inline-block;
 }
 
-.emotion-33 .sui-result {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+.emotion-30 .sui-result {
   list-style: none;
-  padding: 24px 0;
+  padding: 0;
   -webkit-text-decoration: none;
   text-decoration: none;
   display: block;
   background: transparent;
-  border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.1);
   overflow-wrap: break-word;
   overflow: hidden;
+  margin: 0;
 }
 
-.emotion-33 .sui-result a {
+.emotion-30 .sui-result:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.emotion-30 .sui-result a {
   color: var(--link-color);
 }
 
-.emotion-33 .sui-result + .sui-result {
+.emotion-30 .sui-result + .sui-result {
   margin-top: 0;
 }
 
-.emotion-33 .sui-result em {
+.emotion-30 .sui-result em {
   position: relative;
   color: var(--link-color);
   font-weight: 700;
   font-style: inherit;
 }
 
-.emotion-33 .sui-result em:after {
+.emotion-30 .sui-result em:after {
   content: '';
   position: absolute;
   top: -3px;
@@ -7228,7 +7366,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   pointer-events: none;
 }
 
-.emotion-33 .sui-result__header {
+.emotion-30 .sui-result__header {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7241,23 +7379,24 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
-.emotion-33 .sui-result__title {
+.emotion-30 .sui-result__title {
   font-size: inherit;
   font-weight: 400;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-33 .sui-result__title-link {
+.emotion-30 .sui-result__title-link {
   color: var(--link-color);
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-33 .sui-result__key {
-  font-family: monospace;
+.emotion-30 .sui-result__key {
+  font-family: var(--code-font);
   font-weight: 400;
   font-size: 14px;
   -webkit-flex: 0 1 50%;
@@ -7266,26 +7405,26 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: #777777;
 }
 
-.emotion-33 .sui-result__key:before {
+.emotion-30 .sui-result__key:before {
   content: '';
 }
 
-.emotion-33 .sui-result__key:after {
+.emotion-30 .sui-result__key:after {
   content: '": ';
 }
 
-.emotion-33 .sui-result__value {
+.emotion-30 .sui-result__value {
   font-weight: 400;
   font-size: 14px;
 }
 
-.emotion-33 .sui-result__version {
+.emotion-30 .sui-result__version {
   font-size: 12px;
   display: inline;
   vertical-align: bottom;
 }
 
-.emotion-33 .sui-result__license {
+.emotion-30 .sui-result__license {
   font-size: 12px;
   color: #999999;
   display: inline-block;
@@ -7295,7 +7434,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding: 4px 4px 3px 4px;
 }
 
-.emotion-33 .sui-result__body {
+.emotion-30 .sui-result__body {
   line-height: 1.5;
   margin-top: 0;
   display: -webkit-box;
@@ -7304,17 +7443,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: flex;
 }
 
-.emotion-33 .sui-result__body p {
+.emotion-30 .sui-result__body p {
   margin: 0;
 }
 
-.emotion-33 .sui-result__details {
+.emotion-30 .sui-result__details {
   list-style: none;
-  padding: 12px 24px;
   padding-left: 0;
 }
 
-.emotion-33 .sui-results-container {
+.emotion-30 .sui-results-container {
   padding: 0;
   list-style: none;
   overflow-y: auto;
@@ -7323,8 +7461,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-33 .sui-results-per-page {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+.emotion-30 .sui-results-per-page {
   line-height: 1.5;
   font-weight: 400;
   color: #4a4b4b;
@@ -7340,22 +7477,22 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   height: 100%;
 }
 
-.emotion-33 .sui-results-per-page__label {
+.emotion-30 .sui-results-per-page__label {
   margin-right: 8px;
 }
 
-.emotion-33 .sui-results-per-page .sui-select__control {
+.emotion-30 .sui-results-per-page .sui-select__control {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.emotion-33 .sui-results-per-page .sui-select__control input {
+.emotion-30 .sui-results-per-page .sui-select__control input {
   position: absolute;
 }
 
-.emotion-33 .sui-search-box {
+.emotion-30 .sui-search-box {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7369,10 +7506,9 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
 }
 
-.emotion-33 .sui-search-box__submit {
+.emotion-30 .sui-search-box__submit {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
@@ -7389,16 +7525,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border-radius: 4px;
 }
 
-.emotion-33 .sui-search-box__submit:hover {
+.emotion-30 .sui-search-box__submit:hover {
   box-shadow: rgba(0,0,0,0.3) 0px 0px 0px 1px inset,rgba(59,69,79,0.3) 0px 2px 4px;
   background: linear-gradient(#3cabff,#4063f0) #3d84f7;
 }
 
-.emotion-33 .live-filtering .sui-search-box__submit {
+.emotion-30 .live-filtering .sui-search-box__submit {
   display: none;
 }
 
-.emotion-33 .sui-search-box__wrapper {
+.emotion-30 .sui-search-box__wrapper {
   width: 100%;
   height: 100%;
   outline: none;
@@ -7417,7 +7553,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-33 .sui-search-box__text-input {
+.emotion-30 .sui-search-box__text-input {
   border-radius: 4px;
   border: none;
   padding: 0;
@@ -7428,7 +7564,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   width: 100%;
 }
 
-.emotion-33 .sui-search-box__text-input:focus {
+.emotion-30 .sui-search-box__text-input:focus {
   box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
   border-top: 1px solid var(--link-color);
   border-left: 1px solid var(--link-color);
@@ -7436,11 +7572,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border-bottom: 1px solidvar(--link-color);
 }
 
-.emotion-33 .autocomplete .sui-search-box__text-input {
+.emotion-30 .autocomplete .sui-search-box__text-input {
   box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
 }
 
-.emotion-33 .sui-search-box__autocomplete-container {
+.emotion-30 .sui-search-box__autocomplete-container {
   display: none;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -7464,7 +7600,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border-bottom-right-radius: 4px;
 }
 
-.emotion-33 .autocomplete .sui-search-box__autocomplete-container {
+.emotion-30 .autocomplete .sui-search-box__autocomplete-container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7472,7 +7608,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   z-index: 1;
 }
 
-.emotion-33 .sui-search-box__autocomplete-container ul {
+.emotion-30 .sui-search-box__autocomplete-container ul {
   list-style: none;
   margin: 0;
   padding: 0 0 24px 0;
@@ -7480,11 +7616,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border-radius: 3px;
 }
 
-.emotion-33 .sui-search-box__autocomplete-container ul:last-child {
+.emotion-30 .sui-search-box__autocomplete-container ul:last-child {
   padding: 0;
 }
 
-.emotion-33 .sui-search-box__autocomplete-container li {
+.emotion-30 .sui-search-box__autocomplete-container li {
   margin: 0 12px;
   font-size: 0.9em;
   padding: 4px 12px;
@@ -7492,28 +7628,28 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   cursor: default;
 }
 
-.emotion-33 .sui-search-box__autocomplete-container li em {
+.emotion-30 .sui-search-box__autocomplete-container li em {
   font-style: normal;
   background: #edf0fd;
 }
 
-.emotion-33 .sui-search-box__autocomplete-container li:hover {
+.emotion-30 .sui-search-box__autocomplete-container li:hover {
   background: var(--link-color);
 }
 
-.emotion-33 .sui-search-box__autocomplete-container li:hover em {
+.emotion-30 .sui-search-box__autocomplete-container li:hover em {
   background: transparent;
 }
 
-.emotion-33 .sui-search-box__autocomplete-container li[aria-selected='true'] {
+.emotion-30 .sui-search-box__autocomplete-container li[aria-selected='true'] {
   background: var(--link-color);
 }
 
-.emotion-33 .sui-search-box__autocomplete-container li[aria-selected='true'] em {
+.emotion-30 .sui-search-box__autocomplete-container li[aria-selected='true'] em {
   background: transparent;
 }
 
-.emotion-33 .sui-search-box__section-title {
+.emotion-30 .sui-search-box__section-title {
   font-size: 0.7em;
   -webkit-letter-spacing: 1px;
   -moz-letter-spacing: 1px;
@@ -7524,15 +7660,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   text-transform: uppercase;
 }
 
-.emotion-33 .sui-sorting {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+.emotion-30 .sui-sorting {
   line-height: 1.5;
   font-weight: 400;
   display: inline-block;
   width: 100%;
 }
 
-.emotion-33 .sui-sorting__label {
+.emotion-30 .sui-sorting__label {
   font-size: 12px;
   text-transform: uppercase;
   -webkit-letter-spacing: 1px;
@@ -7541,8 +7676,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   letter-spacing: 1px;
 }
 
-.emotion-33 .sui-select {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+.emotion-30 .sui-select {
   line-height: 1.5;
   font-weight: 400;
   font-size: 0.875rem;
@@ -7550,15 +7684,15 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   width: 100%;
 }
 
-.emotion-33 .sui-select--inline {
+.emotion-30 .sui-select--inline {
   margin-top: 0;
 }
 
-.emotion-33 .sui-select--is-disabled {
+.emotion-30 .sui-select--is-disabled {
   opacity: 0.5;
 }
 
-.emotion-33 .sui-select__control {
+.emotion-30 .sui-select__control {
   background-color: var(--tertiary-background-color);
   border: 1px solid #a6a6a6;
   border-radius: 4px;
@@ -7576,20 +7710,20 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   justify-content: space-between;
 }
 
-.emotion-33 .sui-select__control--is-focused {
+.emotion-30 .sui-select__control--is-focused {
   border: 1px solid var(--link-color);
 }
 
-.emotion-33 .sui-select__value-container {
+.emotion-30 .sui-select__value-container {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.emotion-33 .sui-select__value-container--has-value {
+.emotion-30 .sui-select__value-container--has-value {
   font-weight: 700;
 }
 
-.emotion-33 .sui-select__placeholder {
+.emotion-30 .sui-select__placeholder {
   white-space: nowrap;
   position: static;
   -webkit-transform: none;
@@ -7597,7 +7731,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   transform: none;
 }
 
-.emotion-33 .sui-select__dropdown-indicator {
+.emotion-30 .sui-select__dropdown-indicator {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7614,16 +7748,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   justify-content: center;
 }
 
-.emotion-33 .sui-select__option-count {
+.emotion-30 .sui-select__option-count {
   color: #888888;
   font-size: 0.8em;
 }
 
-.emotion-33 .sui-select__option-label {
+.emotion-30 .sui-select__option-label {
   color: var(--link-color);
 }
 
-.emotion-33 .sui-select__option {
+.emotion-30 .sui-select__option {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7641,20 +7775,20 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   cursor: pointer;
 }
 
-.emotion-33 .sui-select__option--is-selected {
+.emotion-30 .sui-select__option--is-selected {
   background: #ffffff;
   font-weight: 700;
 }
 
-.emotion-33 .sui-select__option--is-selected .sui-search-select__option-label {
+.emotion-30 .sui-select__option--is-selected .sui-search-select__option-label {
   position: relative;
 }
 
-.emotion-33 .sui-select__option:hover {
+.emotion-30 .sui-select__option:hover {
   background: var(--tertiary-background-color);
 }
 
-.emotion-63 {
+.emotion-72 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7669,7 +7803,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width:800px) {
-  .emotion-63::after {
+  .emotion-72::after {
     content: '';
     position: absolute;
     right: 0;
@@ -7679,12 +7813,23 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     background: linear-gradient( to right,rgba(244,245,245,0),var(--color-neutrals-100) );
   }
 
-  .dark-mode .emotion-63::after {
+  .dark-mode .emotion-72::after {
     background: linear-gradient( to right,rgba(34,53,60,0),var(--color-dark-100) );
   }
 }
 
-.emotion-57 {
+@media screen and (max-width:545px) {
+  .emotion-72 {
+    overflow: visible;
+  }
+
+  .emotion-72::after {
+    background: none !important;
+    width: 0 !important;
+  }
+}
+
+.emotion-54 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7696,7 +7841,147 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin-right: 1rem;
 }
 
-.emotion-62 {
+@media screen and (max-width:545px) {
+  .emotion-54 {
+    display: none;
+  }
+}
+
+.emotion-66 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  position: relative;
+  display: none;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-66 {
+    display: block;
+  }
+}
+
+.emotion-58 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.emotion-58:hover {
+  color: var(--link-hover-color);
+}
+
+.emotion-57 {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: none;
+}
+
+.emotion-55 {
+  fill: #008c99;
+}
+
+.emotion-56 {
+  fill: #70ccd3;
+}
+
+.emotion-65 {
+  --arrow-size: 5px;
+  --arrow-offset: 0.5rem;
+  --background-color: white;
+  --text-color: var(--color-neutrals-900);
+  position: absolute;
+  top: calc(100% + var(--arrow-size));
+  display: none;
+  background: var(--background-color);
+  border-radius: 0.25rem;
+  z-index: 1000;
+  padding: 0.5rem;
+  box-shadow: 0 3px 8px 0 rgba(22,38,59,0.2);
+}
+
+.dark-mode .emotion-65 {
+  --text-color: var(--color-dark-900);
+  --background-color: var(--color-dark-050);
+}
+
+.emotion-65::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(-1 * var(--arrow-size));
+  border-left: var(--arrow-size) solid transparent;
+  border-right: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid var(--background-color);
+  width: 0;
+  height: 0;
+  z-index: 1000;
+  left: var(--arrow-offset);
+}
+
+.emotion-64 {
+  max-height: 20rem;
+  min-width: 100px;
+  overflow-y: auto;
+}
+
+.emotion-60 {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: var(--text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-60:hover {
+  color: var(--text-color);
+  cursor: pointer;
+  background: var(--color-neutrals-200);
+  border-radius: 0.25rem;
+}
+
+.dark-mode .emotion-60:hover {
+  background: var(--color-dark-200);
+}
+
+.emotion-71 {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -7712,13 +7997,20 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-62 > li {
+.emotion-71 > li {
+  margin: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
-.emotion-58 {
+@media screen and (max-width:545px) {
+  .emotion-71 {
+    display: none;
+  }
+}
+
+.emotion-67 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7733,19 +8025,21 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   font-size: 0.6875rem;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
-.emotion-58:hover {
-  background-color: var(--color-neutrals-200);
+.emotion-67:hover {
+  background-color: var(--color-neutrals-300);
   color: var(--color-neutrals-700);
 }
 
-.dark-mode .emotion-58:hover {
-  background-color: var(--color-dark-200);
+.dark-mode .emotion-67:hover {
+  background-color: var(--color-dark-300);
   color: var(--color-dark-700);
 }
 
-.emotion-77 {
+.emotion-89 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -7763,50 +8057,108 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-77 > li {
+.emotion-89 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-77 > li:not(:first-of-type) {
-  margin-left: 1rem;
+.emotion-89 > li:not(:first-of-type) {
+  margin-left: 0.5rem;
 }
 
-.emotion-70 {
+@media screen and (max-width:760px) {
+  .emotion-89 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+}
+
+.emotion-79 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.emotion-68 {
-  position: relative;
-  width: 100%;
-  --icon-size: 0.75rem;
-  min-width: 150px;
-  max-width: 350px;
+@media screen and (max-width:760px) {
+  .emotion-79 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
 }
 
-.emotion-27 {
-  width: 1em;
-  height: 1em;
+.emotion-74 {
+  color: var(--secondary-text-color);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+
+.emotion-74:hover {
+  color: var(--secondary-text-hover-color);
+}
+
+@media screen and (max-width:760px) {
+  .emotion-74 {
+    display: block;
+  }
+}
+
+.emotion-73 {
+  width: 0.875rem;
+  height: 0.875rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: var(--primary-text-color);
-  height: var(--icon-size);
-  width: var(--icon-size);
+  display: block;
+  cursor: pointer;
+}
+
+.emotion-78 {
+  --horizontal-spacing: 0.5rem;
+  position: relative;
+  width: 100%;
+  box-shadow: var(--shadow-1);
+  --icon-size: 0.75rem;
+  min-width: 150px;
+  max-width: 350px;
+}
+
+@media screen and (max-width:760px) {
+  .emotion-78 {
+    display: none;
+  }
+}
+
+.emotion-75 {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   position: absolute;
-  left: 1rem;
+  left: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
-.emotion-66 {
+.emotion-76 {
   width: 100%;
   border: 1px solid var(--border-color);
   border-radius: 4px;
@@ -7815,17 +8167,40 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
+  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
   font-size: 0.75rem;
-  padding: 0.25rem calc(1.5rem + var(--icon-size));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
-.emotion-66:focus {
+.emotion-76:focus {
   outline: none;
   border: 1px solid rgba(0,126,138,0.6);
   box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
 }
 
-.emotion-71 {
+.emotion-77 {
+  position: absolute;
+  right: var(--horizontal-spacing);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: 1px solid var(--border-color);
+  line-height: 1;
+  text-align: center;
+  background: var(--color-neutrals-100);
+  border-radius: 0.125rem;
+  font-size: 0.675rem;
+  padding: 0.0625rem 0.3125rem;
+}
+
+.dark-mode .emotion-77 {
+  background: var(--color-dark-200);
+}
+
+.emotion-80 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -7841,11 +8216,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.emotion-71:hover {
+.emotion-80:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-73 {
+.emotion-85 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7856,20 +8231,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-72 {
-  font-size: 0.675rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.emotion-76 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-74 {
+.emotion-83 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -7893,6 +8255,77 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.emotion-83:hover {
+  color: var(--link-hover-color);
+}
+
+@media screen and (max-width:545px) {
+  .emotion-81 {
+    display: none;
+  }
+}
+
+.emotion-82 {
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: none;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-82 {
+    display: block;
+  }
+}
+
+.emotion-88 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-86 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-brand-600);
   font-size: 0.625rem;
@@ -7900,35 +8333,29 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border-radius: 0.125rem;
 }
 
-.emotion-74:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-74:hover {
+.emotion-86:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
-.emotion-101 {
+.emotion-113 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width:724px) {
-  .emotion-101 {
+  .emotion-113 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-100 {
+.emotion-112 {
   fill: none;
   width: 100%;
 }
 
-.emotion-108 {
+.emotion-120 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -7941,18 +8368,18 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-108 > hr {
+.emotion-120 > hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-107 {
+.emotion-119 {
   margin-bottom: 1rem;
 }
 
-.emotion-102 {
+.emotion-114 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -7976,22 +8403,18 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-brand-600);
 }
 
-.emotion-102:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-102:hover {
+.emotion-114:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
-.emotion-105 {
+.emotion-117 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -8015,43 +8438,39 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--link-color);
   background: transparent;
 }
 
-.emotion-105:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-105:hover {
+.emotion-117:hover {
   color: var(--link-hover-color);
 }
 
-.dark-mode .emotion-105 {
+.dark-mode .emotion-117 {
   border-color: transparent;
 }
 
-.emotion-104 {
+.emotion-116 {
   margin-right: 0.5rem;
 }
 
-.emotion-138 {
+.emotion-147 {
   color: var(--secondary-text-color);
   background-color: var(--color-neutrals-050);
   z-index: 1;
 }
 
-.dark-mode .emotion-138 {
+.dark-mode .emotion-147 {
   background-color: var(--color-dark-050);
 }
 
-.emotion-138 a {
+.emotion-147 a {
   color: currentColor;
 }
 
-.emotion-133 {
+.emotion-142 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -8065,13 +8484,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
-  max-width: 1236px;
+  padding: 1rem var(--site-content-padding);
+  max-width: var(--site-max-width);
   margin: 0 auto;
 }
 
 @media screen and (max-width:550px) {
-  .emotion-133 {
+  .emotion-142 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -8082,88 +8501,27 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-129 {
+.emotion-141 {
   fill: none;
   width: 150px;
   display: block;
 }
 
 @media screen and (max-width:550px) {
-  .emotion-129 {
+  .emotion-141 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-131 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-neutrals-700);
-  border: 1px solid var(--border-color);
-  background-color: transparent;
-  font-size: 0.75rem;
-}
-
-.emotion-131:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-131:hover {
-  color: var(--color-brand-600);
-  border-color: var(--color-brand-500);
-}
-
-.dark-mode .emotion-131 {
-  color: var(--color-dark-700);
-}
-
-.dark-mode .emotion-131:hover {
-  color: var(--color-brand-200);
-  border-color: rgba(112,204,210,0.17);
-}
-
-.emotion-130 {
-  width: 1em;
-  height: 1em;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  margin-right: 0.5rem;
-}
-
-.emotion-137 {
+.emotion-146 {
   background-color: rgba(0,0,0,0.05);
 }
 
-.dark-mode .emotion-137 {
+.dark-mode .emotion-146 {
   background-color: rgba(0,0,0,0.2);
 }
 
-.emotion-136 {
+.emotion-145 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -8176,13 +8534,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: grid;
   grid-template-columns: auto auto;
   grid-template-areas: 'copyright legal';
-  padding: 0.5rem;
-  max-width: 1236px;
+  padding: 0.5rem var(--site-content-padding);
+  max-width: var(--site-max-width);
   margin: 0 auto;
 }
 
 @media screen and (max-width:760px) {
-  .emotion-136 {
+  .emotion-145 {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -8194,7 +8552,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-134 {
+.emotion-143 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
@@ -8204,7 +8562,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   letter-spacing: 0.1rem;
 }
 
-.emotion-135 {
+.emotion-144 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8219,15 +8577,68 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-135 a {
+.emotion-144 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
-.emotion-147 {
+.emotion-29 .sui-search-box__text-input {
+  border: none;
+  padding: 0;
+}
+
+.emotion-28 {
+  --horizontal-spacing: 1rem;
+  position: relative;
   width: 100%;
+  box-shadow: var(--shadow-1);
+  --icon-size: 1.5rem;
+}
+
+.emotion-26 {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  position: absolute;
+  left: var(--horizontal-spacing);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-27 {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--primary-background-color);
+  color: var(--primary-text-color);
+  -webkit-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+  line-height: 1;
+  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.emotion-27:focus {
+  outline: none;
+  border: 1px solid rgba(0,126,138,0.6);
+  box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
+}
+
+.emotion-156 {
   position: fixed;
   bottom: 0;
+  left: 0;
+  right: 0;
   z-index: 10000;
   background-color: rgba(28,42,47,0.92);
   box-shadow: 0px -0.249053px 4.26158px rgba(12,48,57,0.0421718),0px -0.598509px 10.2412px rgba(12,48,57,0.0605839),0px -1.12694px 19.2832px rgba(12,48,57,0.075),0px -2.01027px 34.3 979px rgba(12,48,57,0.0894161),0px -3.75998px 64.3375px rgba(12,48,57,0.107828),0px -9px 154px rgba(12,48,57,0.15);
@@ -8235,12 +8646,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   backdrop-filter: blur(5px);
 }
 
-.dark-mode .emotion-147 {
+.dark-mode .emotion-156 {
   background-color: rgba(15,25,28,0.92);
   box-shadow: 0 -1px 0 rgba(55,72,78,0.4);
 }
 
-.emotion-146 {
+.emotion-155 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8260,14 +8671,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width:1200px) {
-  .emotion-146 {
+  .emotion-155 {
     width: 100%;
     padding: 1.125rem 1.75rem;
   }
 }
 
 @media screen and (max-width:480px) {
-  .emotion-146 {
+  .emotion-155 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -8278,7 +8689,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-139 {
+.emotion-148 {
   color: #fff;
   margin-top: 0;
   margin-bottom: 2px;
@@ -8286,12 +8697,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width:1200px) {
-  .emotion-139 {
+  .emotion-148 {
     margin-bottom: 0.375rem;
   }
 }
 
-.emotion-140 {
+.emotion-149 {
   margin: 0 0 0px;
   font-size: 13px;
   line-height: 21px;
@@ -8299,25 +8710,25 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width:1200px) {
-  .emotion-140 {
+  .emotion-149 {
     line-height: 19px;
   }
 }
 
 @media screen and (max-width:1200px) {
-  .emotion-140 {
+  .emotion-149 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-145 {
+.emotion-154 {
   margin-left: 1rem;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
 
-.emotion-141 {
+.emotion-150 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -8341,31 +8752,27 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-brand-600);
   margin-right: 10px;
   padding: 0.625rem 1.75rem;
 }
 
-.emotion-141:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-141:hover {
+.emotion-150:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
 @media screen and (max-width:480px) {
-  .emotion-141 {
+  .emotion-150 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 }
 
-.emotion-143 {
+.emotion-152 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -8389,81 +8796,47 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-neutrals-700);
   background-color: var(--color-neutrals-100);
   padding: 0.625rem 1rem;
 }
 
-.emotion-143:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-143:hover {
+.emotion-152:hover {
   color: var(--color-brand-600);
   background: rgba(112,204,210,0.17);
 }
 
-.dark-mode .emotion-143 {
+.dark-mode .emotion-152 {
   color: var(--color-dark-700);
   background-color: var(--color-dark-200);
 }
 
-.dark-mode .emotion-143:hover {
+.dark-mode .emotion-152:hover {
   color: var(--color-brand-200);
   background-color: rgba(112,204,210,0.17);
 }
 
 @media screen and (max-width:480px) {
-  .emotion-143 {
+  .emotion-152 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 }
 
-.emotion-32 .sui-search-box__text-input {
-  border: none;
-  padding: 0;
-}
-
-.emotion-30 {
-  position: relative;
-  width: 100%;
-  --icon-size: 1.5rem;
-}
-
-.emotion-28 {
-  width: 100%;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  background: var(--primary-background-color);
-  color: var(--primary-text-color);
-  -webkit-transition: 0.15s ease-out;
-  transition: 0.15s ease-out;
-  line-height: 1;
-  font-size: 1.25rem;
-  padding: 1rem calc(1.5rem + var(--icon-size));
-}
-
-.emotion-28:focus {
-  outline: none;
-  border: 1px solid rgba(0,126,138,0.6);
-  box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
-}
-
 <div
-  className="projectPageLayout emotion-148"
+  className="projectPageLayout emotion-157"
 >
   <div
-    className=" emotion-79"
+    className=" emotion-91"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-78"
+      className="emotion-90"
     >
       <div
-        className="emotion-35"
+        className="emotion-32"
       >
         <div
           className="emotion-25"
@@ -8554,10 +8927,10 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </div>
         </div>
         <div
-          className="emotion-34"
+          className="emotion-31"
         >
           <div
-            className="emotion-33"
+            className="emotion-30"
           >
             <form
               aria-expanded={false}
@@ -8571,14 +8944,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                 className="sui-search-box"
               >
                 <div
-                  className="sui-search-box__wrapper emotion-32"
+                  className="sui-search-box__wrapper emotion-29"
                 >
                   <div
-                    className="sui-search-box__text-input  emotion-30 emotion-31"
-                    size="large"
+                    className="sui-search-box__text-input  emotion-28"
                   >
                     <svg
-                      className="emotion-26 emotion-27"
+                      className="emotion-26"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -8600,14 +8972,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                       aria-controls={null}
                       aria-labelledby="downshift-1-label"
                       autoComplete="off"
-                      className="emotion-28 emotion-29"
+                      className="emotion-27"
                       id="downshift-1-input"
                       onBlur={[Function]}
                       onChange={[Function]}
                       onFocus={[Function]}
                       onKeyDown={[Function]}
                       placeholder="Search Docs, Developer, Open Source"
-                      size="large"
                       type="text"
                       value=""
                     />
@@ -8620,11 +8991,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </div>
       </div>
       <nav
-        className="emotion-63"
+        className="emotion-72"
       >
         <a
-          className="emotion-57"
+          className="emotion-54"
           href="https://newrelic.com/"
+          onClick={[Function]}
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -8679,13 +9051,82 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
             />
           </svg>
         </a>
+        <div
+          className="emotion-66"
+        >
+          <button
+            className="emotion-58 emotion-59"
+            onClick={[Function]}
+            size="extraSmall"
+          >
+            <svg
+              className="emotion-57"
+              viewBox="0 0 18 15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                className="emotion-55"
+                d="M17.159 5.6486C16.3489 1.92142 11.8784 -0.271419 7.17568 0.751833C2.47296 1.77403 -0.682686 5.62527 0.127433 9.3514C0.937552 13.0786 5.40805 15.2714 10.1108 14.2482C14.8135 13.226 17.9691 9.37578 17.159 5.6486ZM8.64322 10.9356C6.74517 10.9356 5.20764 9.39699 5.20764 7.5C5.20764 5.603 6.74623 4.06441 8.64322 4.06441C10.5402 4.06441 12.0788 5.60194 12.0788 7.5C12.0788 9.39805 10.5402 10.9356 8.64322 10.9356Z"
+              />
+              <path
+                className="emotion-56"
+                d="M9.40328 2.69022C6.6792 2.69022 4.47046 4.89896 4.47046 7.62303C4.47046 10.3471 6.6792 12.5559 9.40328 12.5559C12.1284 12.5559 14.3372 10.3471 14.3372 7.62303C14.3361 4.89896 12.1274 2.69022 9.40328 2.69022ZM8.64299 10.5009C6.98564 10.5009 5.64216 9.15738 5.64216 7.50003C5.64216 5.84268 6.98564 4.4992 8.64299 4.4992C10.3003 4.4992 11.6438 5.84268 11.6438 7.50003C11.6438 9.15738 10.3003 10.5009 8.64299 10.5009Z"
+              />
+            </svg>
+          </button>
+          <div
+            className="emotion-65"
+          >
+            <div
+              className="emotion-64"
+            >
+              <a
+                className="emotion-60"
+                href="https://docs.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Docs
+              </a>
+              <a
+                className="emotion-60"
+                href="https://developer.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Developer
+              </a>
+              <a
+                className="emotion-60"
+                href="https://opensource.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Open Source
+              </a>
+              <a
+                className="emotion-60"
+                href="https://discuss.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Community
+              </a>
+            </div>
+          </div>
+        </div>
         <ul
-          className="emotion-62"
+          className="emotion-71"
         >
           <li>
             <a
-              className="emotion-58"
+              className="emotion-67"
               href="https://docs.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -8694,8 +9135,9 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-58"
+              className="emotion-67"
               href="https://developer.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -8704,8 +9146,9 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-58"
+              className="emotion-67"
               href="https://opensource.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -8714,8 +9157,9 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-58"
+              className="emotion-67"
               href="https://discuss.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -8725,17 +9169,38 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-77"
+        className="emotion-89"
       >
         <li
-          className="emotion-70"
+          className="emotion-79"
         >
-          <div
-            className="emotion-68 emotion-31"
-            size="small"
+          <a
+            className="emotion-74"
+            href="?q="
           >
             <svg
-              className="emotion-26 emotion-27"
+              className="emotion-73"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </a>
+          <div
+            className="emotion-78"
+          >
+            <svg
+              className="emotion-75"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -8752,20 +9217,26 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-66 emotion-29"
+              className="emotion-76"
+              onBlur={[Function]}
               onChange={[Function]}
+              onFocus={[Function]}
               onKeyDown={[Function]}
               placeholder="Search Docs, Developer, Open Source"
-              size="small"
               type="text"
               value=""
             />
             
+            <span
+              className="emotion-77"
+            >
+              /
+            </span>
           </div>
         </li>
         <li>
           <svg
-            className="emotion-71"
+            className="emotion-80"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -8776,30 +9247,56 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </svg>
         </li>
         <li
-          className="emotion-73"
+          className="emotion-85"
         >
           <a
-            className="emotion-72"
+            className="emotion-83 emotion-59"
             href="https://one.newrelic.com"
+            onClick={[Function]}
             rel="noopener noreferrer"
+            size="extraSmall"
             target="_blank"
+            variant="link"
           >
-            Log in
+            <span
+              className="emotion-81"
+            >
+              Log in
+            </span>
+            <svg
+              className="emotion-82"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"
+              />
+              <polyline
+                points="10 17 15 12 10 7"
+              />
+              <line
+                x1="15"
+                x2="3"
+                y1="12"
+                y2="12"
+              />
+            </svg>
           </a>
         </li>
         <li
-          className="emotion-76"
+          className="emotion-88"
         >
           <a
-            className="emotion-74 emotion-75"
+            className="emotion-86 emotion-59"
             href="https://newrelic.com/signup"
+            onClick={[Function]}
             rel="noopener noreferrer"
             size="extraSmall"
             target="_blank"
             variant="primary"
           >
             <span>
-              Sign up
+              Free account
             </span>
           </a>
         </li>
@@ -8810,11 +9307,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     className="primaryHeaderContainer hasHeaderBg "
   >
     <a
-      className="emotion-101"
+      className="emotion-113"
       href="/"
     >
       <svg
-        className="emotion-100"
+        className="emotion-112"
         viewBox="0 0 79 15"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -8984,7 +9481,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-108"
+    className="emotion-120"
   >
     <div
       className="pageHeadingContainer hasSeparator   hasIcon  "
@@ -9056,13 +9553,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           className="callToActionContainer"
         >
           <div
-            className="callToActionButtons emotion-107"
+            className="callToActionButtons emotion-119"
           >
             <div
               className="callToActionButtonsContainer"
             >
               <a
-                className="emotion-102 emotion-75"
+                className="emotion-114 emotion-59"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -9070,13 +9567,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-105 emotion-75"
+                className="emotion-117 emotion-59"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-104"
+                  className="emotion-116"
                   src="test-file-stub"
                 />
                 GitHub
@@ -9253,17 +9750,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-138"
+    className="emotion-147"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-133"
+      className="emotion-142"
     >
       <a
         href="/"
       >
         <svg
-          className="emotion-129"
+          className="emotion-141"
           viewBox="0 0 79 15"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -9313,44 +9810,25 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </svg>
       </a>
-      <div>
-        <a
-          className="emotion-131 emotion-75"
-          href="undefined/issues/new/choose"
-          rel="noopener noreferrer"
-          size="small"
-          target="_blank"
-          variant="outline"
-        >
-          <svg
-            className="emotion-130"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-            />
-          </svg>
-          Create an issue
-        </a>
-      </div>
+      <div />
     </div>
     <div
-      className="emotion-137"
+      className="emotion-146"
     >
       <div
-        className="emotion-136"
+        className="emotion-145"
       >
         <div
-          className="emotion-134"
+          className="emotion-143"
         >
-          Copyright © 2020 New Relic Inc.
+          Copyright © 2021 New Relic Inc.
         </div>
         <div
-          className="emotion-135"
+          className="emotion-144"
         >
           <a
             href="https://newrelic.com/about/careers"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -9358,6 +9836,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/terms"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -9365,6 +9844,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/dmca"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -9372,6 +9852,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/services-notices"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -9379,6 +9860,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/cookie-policy"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -9386,6 +9868,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/uk-slavery-act"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -9396,14 +9879,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </footer>
   <div
-    className="emotion-147"
+    className="emotion-156"
   >
     <div
-      className="emotion-146"
+      className="emotion-155"
     >
       <div>
         <h4
-          className="emotion-139"
+          className="emotion-148"
         >
           This site uses cookies
            
@@ -9415,12 +9898,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </span>
         </h4>
         <p
-          className="emotion-140"
+          className="emotion-149"
         >
-          We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more
-           
+          We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more 
           <a
             href="https://newrelic.com/termsandconditions/cookie-policy"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -9434,16 +9917,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </p>
       </div>
       <div
-        className="emotion-145"
+        className="emotion-154"
       >
         <button
-          className="emotion-141 emotion-75"
+          className="emotion-150 emotion-59"
           onClick={[Function]}
         >
           Yes
         </button>
         <button
-          className="emotion-143 emotion-75"
+          className="emotion-152 emotion-59"
           onClick={[Function]}
         >
           No
