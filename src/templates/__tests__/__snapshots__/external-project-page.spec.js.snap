@@ -6251,7 +6251,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 `;
 
 exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
-.emotion-157 {
+.emotion-163 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8355,7 +8355,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   width: 100%;
 }
 
-.emotion-120 {
+.emotion-126 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -8368,7 +8368,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-120 > hr {
+.emotion-126 > hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
@@ -8456,21 +8456,21 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin-right: 0.5rem;
 }
 
-.emotion-147 {
+.emotion-153 {
   color: var(--secondary-text-color);
   background-color: var(--color-neutrals-050);
   z-index: 1;
 }
 
-.dark-mode .emotion-147 {
+.dark-mode .emotion-153 {
   background-color: var(--color-dark-050);
 }
 
-.emotion-147 a {
+.emotion-153 a {
   color: currentColor;
 }
 
-.emotion-142 {
+.emotion-148 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -8490,7 +8490,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width:550px) {
-  .emotion-142 {
+  .emotion-148 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -8501,27 +8501,27 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-141 {
+.emotion-147 {
   fill: none;
   width: 150px;
   display: block;
 }
 
 @media screen and (max-width:550px) {
-  .emotion-141 {
+  .emotion-147 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-146 {
+.emotion-152 {
   background-color: rgba(0,0,0,0.05);
 }
 
-.dark-mode .emotion-146 {
+.dark-mode .emotion-152 {
   background-color: rgba(0,0,0,0.2);
 }
 
-.emotion-145 {
+.emotion-151 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -8540,7 +8540,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width:760px) {
-  .emotion-145 {
+  .emotion-151 {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -8552,7 +8552,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-143 {
+.emotion-149 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
@@ -8562,7 +8562,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   letter-spacing: 0.1rem;
 }
 
-.emotion-144 {
+.emotion-150 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8577,7 +8577,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-144 a {
+.emotion-150 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
@@ -8634,7 +8634,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
 }
 
-.emotion-156 {
+.emotion-120 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-162 {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -8646,12 +8651,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   backdrop-filter: blur(5px);
 }
 
-.dark-mode .emotion-156 {
+.dark-mode .emotion-162 {
   background-color: rgba(15,25,28,0.92);
   box-shadow: 0 -1px 0 rgba(55,72,78,0.4);
 }
 
-.emotion-155 {
+.emotion-161 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -8671,14 +8676,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width:1200px) {
-  .emotion-155 {
+  .emotion-161 {
     width: 100%;
     padding: 1.125rem 1.75rem;
   }
 }
 
 @media screen and (max-width:480px) {
-  .emotion-155 {
+  .emotion-161 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -8689,7 +8694,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-148 {
+.emotion-154 {
   color: #fff;
   margin-top: 0;
   margin-bottom: 2px;
@@ -8697,12 +8702,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width:1200px) {
-  .emotion-148 {
+  .emotion-154 {
     margin-bottom: 0.375rem;
   }
 }
 
-.emotion-149 {
+.emotion-155 {
   margin: 0 0 0px;
   font-size: 13px;
   line-height: 21px;
@@ -8710,25 +8715,25 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width:1200px) {
-  .emotion-149 {
+  .emotion-155 {
     line-height: 19px;
   }
 }
 
 @media screen and (max-width:1200px) {
-  .emotion-149 {
+  .emotion-155 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-154 {
+.emotion-160 {
   margin-left: 1rem;
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
 
-.emotion-150 {
+.emotion-156 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -8760,19 +8765,19 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding: 0.625rem 1.75rem;
 }
 
-.emotion-150:hover {
+.emotion-156:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
 @media screen and (max-width:480px) {
-  .emotion-150 {
+  .emotion-156 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 }
 
-.emotion-152 {
+.emotion-158 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -8803,30 +8808,30 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding: 0.625rem 1rem;
 }
 
-.emotion-152:hover {
+.emotion-158:hover {
   color: var(--color-brand-600);
   background: rgba(112,204,210,0.17);
 }
 
-.dark-mode .emotion-152 {
+.dark-mode .emotion-158 {
   color: var(--color-dark-700);
   background-color: var(--color-dark-200);
 }
 
-.dark-mode .emotion-152:hover {
+.dark-mode .emotion-158:hover {
   color: var(--color-brand-200);
   background-color: rgba(112,204,210,0.17);
 }
 
 @media screen and (max-width:480px) {
-  .emotion-152 {
+  .emotion-158 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
 }
 
 <div
-  className="projectPageLayout emotion-157"
+  className="projectPageLayout emotion-163"
 >
   <div
     className=" emotion-91"
@@ -9481,7 +9486,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-120"
+    className="emotion-126"
   >
     <div
       className="pageHeadingContainer hasSeparator   hasIcon  "
@@ -9585,7 +9590,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           Involved from New Relic
         </h4>
         <a
-          className="itemContainer "
+          className="itemContainer  emotion-120"
           href="https://github.com/kittylyst"
           target="__blank"
         >
@@ -9612,7 +9617,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="itemContainer "
+          className="itemContainer  emotion-120"
           href="https://github.com/breedx-nr"
           target="__blank"
         >
@@ -9639,7 +9644,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="itemContainer "
+          className="itemContainer  emotion-120"
           href="https://github.com/jasonrclark"
           target="__blank"
         >
@@ -9666,7 +9671,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="itemContainer "
+          className="itemContainer  emotion-120"
           href="https://github.com/tmancill"
           target="__blank"
         >
@@ -9693,7 +9698,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="itemContainer "
+          className="itemContainer  emotion-120"
           href="https://github.com/cameronhotchkies"
           target="__blank"
         >
@@ -9720,7 +9725,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="itemContainer "
+          className="itemContainer  emotion-120"
           href="https://github.com/rvanderwal-newrelic"
           target="__blank"
         >
@@ -9750,17 +9755,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-147"
+    className="emotion-153"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-142"
+      className="emotion-148"
     >
       <a
         href="/"
       >
         <svg
-          className="emotion-141"
+          className="emotion-147"
           viewBox="0 0 79 15"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -9813,18 +9818,18 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
       <div />
     </div>
     <div
-      className="emotion-146"
+      className="emotion-152"
     >
       <div
-        className="emotion-145"
+        className="emotion-151"
       >
         <div
-          className="emotion-143"
+          className="emotion-149"
         >
           Copyright © 2021 New Relic Inc.
         </div>
         <div
-          className="emotion-144"
+          className="emotion-150"
         >
           <a
             href="https://newrelic.com/about/careers"
@@ -9879,14 +9884,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </footer>
   <div
-    className="emotion-156"
+    className="emotion-162"
   >
     <div
-      className="emotion-155"
+      className="emotion-161"
     >
       <div>
         <h4
-          className="emotion-148"
+          className="emotion-154"
         >
           This site uses cookies
            
@@ -9898,7 +9903,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </span>
         </h4>
         <p
-          className="emotion-149"
+          className="emotion-155"
         >
           We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more 
           <a
@@ -9917,16 +9922,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </p>
       </div>
       <div
-        className="emotion-154"
+        className="emotion-160"
       >
         <button
-          className="emotion-150 emotion-59"
+          className="emotion-156 emotion-59"
           onClick={[Function]}
         >
           Yes
         </button>
         <button
-          className="emotion-152 emotion-59"
+          className="emotion-158 emotion-59"
           onClick={[Function]}
         >
           No
