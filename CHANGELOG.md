@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/newrelic/opensource-website/compare/v1.10.2...v1.10.3) (2021-03-19)
+
+
+### Bug Fixes
+
+* **tags:** update project tags to match json file ([b56cb74](https://github.com/newrelic/opensource-website/commit/b56cb74a444cdebcdc45f3061cc12a3e18121167))
+
 ## [1.10.2](https://github.com/newrelic/opensource-website/compare/v1.10.1...v1.10.2) (2021-03-19)
 
 
