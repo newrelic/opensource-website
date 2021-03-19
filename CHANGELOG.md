@@ -1,3 +1,11 @@
+## [1.10.1](https://github.com/newrelic/opensource-website/compare/v1.10.0...v1.10.1) (2021-03-19)
+
+
+### Bug Fixes
+
+* upgrade prism-react-renderer from 1.1.1 to 1.2.0 ([d3b0142](https://github.com/newrelic/opensource-website/commit/d3b0142e90e029984548e6f607fcac4efb0a5010))
+* upgrade react-live from 2.2.2 to 2.2.3 ([ad137b9](https://github.com/newrelic/opensource-website/commit/ad137b90d6d482d6a1f0bb2bb7ba259236e46e70))
+
 # [1.10.0](https://github.com/newrelic/opensource-website/compare/v1.9.11...v1.10.0) (2021-03-18)
 
 
