@@ -1,3 +1,49 @@
+## [1.10.4](https://github.com/newrelic/opensource-website/compare/v1.10.3...v1.10.4) (2021-03-22)
+
+
+### Bug Fixes
+
+* upgrade @mdx-js/mdx from 1.6.19 to 1.6.22 ([f629d2b](https://github.com/newrelic/opensource-website/commit/f629d2be9bd49bb81703371f6286f0c8162d782c))
+* upgrade lodash from 4.17.20 to 4.17.21 ([b76f456](https://github.com/newrelic/opensource-website/commit/b76f4562ae6ecb8b2c604567e5d717d1c248cf9a))
+
+## [1.10.3](https://github.com/newrelic/opensource-website/compare/v1.10.2...v1.10.3) (2021-03-19)
+
+
+### Bug Fixes
+
+* **tags:** update project tags to match json file ([b56cb74](https://github.com/newrelic/opensource-website/commit/b56cb74a444cdebcdc45f3061cc12a3e18121167))
+
+## [1.10.2](https://github.com/newrelic/opensource-website/compare/v1.10.1...v1.10.2) (2021-03-19)
+
+
+### Bug Fixes
+
+* dont open relative links in a new tab ([33739eb](https://github.com/newrelic/opensource-website/commit/33739eba29bc50e3909b5ea858b50292f0bceb2d))
+* update @newrelic/gatsby-theme-newrelic ([af5636b](https://github.com/newrelic/opensource-website/commit/af5636b435ca10dd9cfed57e9b63312946997fef))
+* update gatsby, @mdx-js/react, @mdx-js/mdx, gatsby-plugin-mdx, gatsby-plugin-sharp, gatsby-remark-copy-linked-files, gatsby-remark-images, gatsby-source-filesystem, gatsby-transformer-json, react, react-dom, babel-preset-gatsby ([7927210](https://github.com/newrelic/opensource-website/commit/79272108e23c9608ef45f6e93035d902575d7a74))
+
+## [1.10.1](https://github.com/newrelic/opensource-website/compare/v1.10.0...v1.10.1) (2021-03-19)
+
+
+### Bug Fixes
+
+* upgrade prism-react-renderer from 1.1.1 to 1.2.0 ([d3b0142](https://github.com/newrelic/opensource-website/commit/d3b0142e90e029984548e6f607fcac4efb0a5010))
+* upgrade react-live from 2.2.2 to 2.2.3 ([ad137b9](https://github.com/newrelic/opensource-website/commit/ad137b90d6d482d6a1f0bb2bb7ba259236e46e70))
+
+# [1.10.0](https://github.com/newrelic/opensource-website/compare/v1.9.11...v1.10.0) (2021-03-18)
+
+
+### Features
+
+* add visualization project tag ([4a9e34b](https://github.com/newrelic/opensource-website/commit/4a9e34b04fc7dbd56e7b2072f5e82b345adcc88b))
+
+## [1.9.11](https://github.com/newrelic/opensource-website/compare/v1.9.10...v1.9.11) (2021-03-17)
+
+
+### Bug Fixes
+
+* upgrade multiple dependencies with Snyk ([da67974](https://github.com/newrelic/opensource-website/commit/da67974e000d52e7000915c90b2c61fff1106dc7))
+
 ## [1.9.10](https://github.com/newrelic/opensource-website/compare/v1.9.9...v1.9.10) (2021-03-16)
 
 

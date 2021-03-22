@@ -2,9 +2,8 @@
 
 exports[`Header renders correctly 1`] = `
 Array [
-  .emotion-72 {
+  .emotion-87 {
   background-color: var(--color-neutrals-100);
-  overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -12,20 +11,20 @@ Array [
   z-index: 700;
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-87 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-72 ul {
+.emotion-87 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-72 a {
+.emotion-87 a {
   border-bottom: none;
 }
 
-.emotion-71 {
+.emotion-86 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -35,9 +34,9 @@ Array [
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  max-width: 1180px;
+  max-width: var(--site-max-width);
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
 }
 
 .emotion-28 {
@@ -78,7 +77,7 @@ Array [
 }
 
 .emotion-24 {
-  max-width: 1180px;
+  max-width: var(--site-max-width);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -92,7 +91,7 @@ Array [
   -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
   height: 100%;
 }
 
@@ -141,8 +140,8 @@ Array [
 }
 
 .emotion-27 {
-  max-width: 1180px;
-  padding: 0;
+  max-width: var(--site-max-width);
+  padding: 0 var(--site-content-padding);
   margin: 0 auto;
 }
 
@@ -160,7 +159,6 @@ Array [
 }
 
 .emotion-26 .rc-pagination {
-  font-family: 'Arial';
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -709,7 +707,6 @@ Array [
 }
 
 .emotion-26 .sui-search-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: red;
@@ -730,7 +727,6 @@ Array [
 }
 
 .emotion-26 .sui-search-error.no-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   margin: auto;
@@ -750,7 +746,6 @@ Array [
 }
 
 .emotion-26 .sui-facet {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -1061,7 +1056,6 @@ Array [
 .emotion-26 .sui-paging-info {
   margin: 1rem 0;
   color: var(--primary-text-color);
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 12px;
@@ -1069,19 +1063,19 @@ Array [
 }
 
 .emotion-26 .sui-result {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
   list-style: none;
-  padding: 24px 0;
+  padding: 0;
   -webkit-text-decoration: none;
   text-decoration: none;
   display: block;
   background: transparent;
-  border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.1);
   overflow-wrap: break-word;
   overflow: hidden;
+  margin: 0;
+}
+
+.emotion-26 .sui-result:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .emotion-26 .sui-result a {
@@ -1123,6 +1117,7 @@ Array [
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .emotion-26 .sui-result__title {
@@ -1139,7 +1134,7 @@ Array [
 }
 
 .emotion-26 .sui-result__key {
-  font-family: monospace;
+  font-family: var(--code-font);
   font-weight: 400;
   font-size: 14px;
   -webkit-flex: 0 1 50%;
@@ -1192,7 +1187,6 @@ Array [
 
 .emotion-26 .sui-result__details {
   list-style: none;
-  padding: 12px 24px;
   padding-left: 0;
 }
 
@@ -1206,7 +1200,6 @@ Array [
 }
 
 .emotion-26 .sui-results-per-page {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: #4a4b4b;
@@ -1251,7 +1244,6 @@ Array [
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
 }
 
 .emotion-26 .sui-search-box__submit {
@@ -1407,7 +1399,6 @@ Array [
 }
 
 .emotion-26 .sui-sorting {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   display: inline-block;
@@ -1424,7 +1415,6 @@ Array [
 }
 
 .emotion-26 .sui-select {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 0.875rem;
@@ -1536,7 +1526,7 @@ Array [
   background: var(--tertiary-background-color);
 }
 
-.emotion-56 {
+.emotion-68 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1551,7 +1541,7 @@ Array [
 }
 
 @media screen and (max-width:800px) {
-  .emotion-56::after {
+  .emotion-68::after {
     content: '';
     position: absolute;
     right: 0;
@@ -1561,8 +1551,19 @@ Array [
     background: linear-gradient( to right,rgba(244,245,245,0),var(--color-neutrals-100) );
   }
 
-  .dark-mode .emotion-56::after {
+  .dark-mode .emotion-68::after {
     background: linear-gradient( to right,rgba(34,53,60,0),var(--color-dark-100) );
+  }
+}
+
+@media screen and (max-width:545px) {
+  .emotion-68 {
+    overflow: visible;
+  }
+
+  .emotion-68::after {
+    background: none !important;
+    width: 0 !important;
   }
 }
 
@@ -1578,180 +1579,32 @@ Array [
   margin-right: 1rem;
 }
 
-.emotion-55 {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+@media screen and (max-width:545px) {
+  .emotion-50 {
+    display: none;
+  }
+}
+
+.emotion-62 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  list-style-type: none;
-  white-space: nowrap;
-  overflow-x: auto;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   position: relative;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  display: none;
 }
 
-.emotion-55 > li {
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
+@media screen and (max-width:545px) {
+  .emotion-62 {
+    display: block;
+  }
 }
 
-.emotion-51 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  height: 100%;
-  padding: 0.25rem 9px;
-  color: var(--secondary-text-color);
-  font-size: 0.6875rem;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-
-.emotion-51:hover {
-  background-color: var(--color-neutrals-200);
-  color: var(--color-neutrals-700);
-}
-
-.dark-mode .emotion-51:hover {
-  background-color: var(--color-dark-200);
-  color: var(--color-dark-700);
-}
-
-.emotion-70 {
-  margin: 0;
-  margin-left: 1rem;
-  padding: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-70 > li {
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  color: var(--secondary-text-color);
-}
-
-.emotion-70 > li:not(:first-of-type) {
-  margin-left: 1rem;
-}
-
-.emotion-63 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-.emotion-61 {
-  position: relative;
-  width: 100%;
-  --icon-size: 0.75rem;
-  min-width: 150px;
-  max-width: 350px;
-}
-
-.emotion-58 {
-  width: 1em;
-  height: 1em;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke: var(--primary-text-color);
-  height: var(--icon-size);
-  width: var(--icon-size);
-  position: absolute;
-  left: 1rem;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.emotion-59 {
-  width: 100%;
-  border: 1px solid var(--border-color);
-  border-radius: 4px;
-  background: var(--primary-background-color);
-  color: var(--primary-text-color);
-  -webkit-transition: 0.15s ease-out;
-  transition: 0.15s ease-out;
-  line-height: 1;
-  font-size: 0.75rem;
-  padding: 0.25rem calc(1.5rem + var(--icon-size));
-}
-
-.emotion-59:focus {
-  outline: none;
-  border: 1px solid rgba(0,126,138,0.6);
-  box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
-}
-
-.emotion-64 {
-  width: 0.875rem;
-  height: 0.875rem;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  cursor: pointer;
-  display: block;
-  cursor: pointer;
-  color: var(--secondary-text-color);
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-}
-
-.emotion-64:hover {
-  color: var(--secondary-text-hover-color);
-}
-
-.emotion-66 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.emotion-65 {
-  font-size: 0.675rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.emotion-69 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-67 {
+.emotion-54 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1775,6 +1628,442 @@ Array [
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.emotion-54:hover {
+  color: var(--link-hover-color);
+}
+
+.emotion-53 {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: none;
+}
+
+.emotion-51 {
+  fill: #008c99;
+}
+
+.emotion-52 {
+  fill: #70ccd3;
+}
+
+.emotion-61 {
+  --arrow-size: 5px;
+  --arrow-offset: 0.5rem;
+  --background-color: white;
+  --text-color: var(--color-neutrals-900);
+  position: absolute;
+  top: calc(100% + var(--arrow-size));
+  display: none;
+  background: var(--background-color);
+  border-radius: 0.25rem;
+  z-index: 1000;
+  padding: 0.5rem;
+  box-shadow: 0 3px 8px 0 rgba(22,38,59,0.2);
+}
+
+.dark-mode .emotion-61 {
+  --text-color: var(--color-dark-900);
+  --background-color: var(--color-dark-050);
+}
+
+.emotion-61::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(-1 * var(--arrow-size));
+  border-left: var(--arrow-size) solid transparent;
+  border-right: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid var(--background-color);
+  width: 0;
+  height: 0;
+  z-index: 1000;
+  left: var(--arrow-offset);
+}
+
+.emotion-60 {
+  max-height: 20rem;
+  min-width: 100px;
+  overflow-y: auto;
+}
+
+.emotion-56 {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: var(--text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-56:hover {
+  color: var(--text-color);
+  cursor: pointer;
+  background: var(--color-neutrals-200);
+  border-radius: 0.25rem;
+}
+
+.dark-mode .emotion-56:hover {
+  background: var(--color-dark-200);
+}
+
+.emotion-67 {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  white-space: nowrap;
+  overflow-x: auto;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.emotion-67 > li {
+  margin: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-67 {
+    display: none;
+  }
+}
+
+.emotion-63 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  padding: 0.25rem 9px;
+  color: var(--secondary-text-color);
+  font-size: 0.6875rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-63:hover {
+  background-color: var(--color-neutrals-300);
+  color: var(--color-neutrals-700);
+}
+
+.dark-mode .emotion-63:hover {
+  background-color: var(--color-dark-300);
+  color: var(--color-dark-700);
+}
+
+.emotion-85 {
+  margin: 0;
+  margin-left: 1rem;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-85 > li {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: var(--secondary-text-color);
+}
+
+.emotion-85 > li:not(:first-of-type) {
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width:760px) {
+  .emotion-85 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+}
+
+.emotion-75 {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media screen and (max-width:760px) {
+  .emotion-75 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+}
+
+.emotion-70 {
+  color: var(--secondary-text-color);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+
+.emotion-70:hover {
+  color: var(--secondary-text-hover-color);
+}
+
+@media screen and (max-width:760px) {
+  .emotion-70 {
+    display: block;
+  }
+}
+
+.emotion-69 {
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: block;
+  cursor: pointer;
+}
+
+.emotion-74 {
+  --horizontal-spacing: 0.5rem;
+  position: relative;
+  width: 100%;
+  box-shadow: var(--shadow-1);
+  --icon-size: 0.75rem;
+  min-width: 150px;
+  max-width: 350px;
+}
+
+@media screen and (max-width:760px) {
+  .emotion-74 {
+    display: none;
+  }
+}
+
+.emotion-71 {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  position: absolute;
+  left: var(--horizontal-spacing);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-72 {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--primary-background-color);
+  color: var(--primary-text-color);
+  -webkit-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+  line-height: 1;
+  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  font-size: 0.75rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.emotion-72:focus {
+  outline: none;
+  border: 1px solid rgba(0,126,138,0.6);
+  box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
+}
+
+.emotion-73 {
+  position: absolute;
+  right: var(--horizontal-spacing);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: 1px solid var(--border-color);
+  line-height: 1;
+  text-align: center;
+  background: var(--color-neutrals-100);
+  border-radius: 0.125rem;
+  font-size: 0.675rem;
+  padding: 0.0625rem 0.3125rem;
+}
+
+.dark-mode .emotion-73 {
+  background: var(--color-dark-200);
+}
+
+.emotion-76 {
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  cursor: pointer;
+  display: block;
+  cursor: pointer;
+  color: var(--secondary-text-color);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.emotion-76:hover {
+  color: var(--secondary-text-hover-color);
+}
+
+.emotion-81 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.emotion-79 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.emotion-79:hover {
+  color: var(--link-hover-color);
+}
+
+@media screen and (max-width:545px) {
+  .emotion-77 {
+    display: none;
+  }
+}
+
+.emotion-78 {
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: none;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-78 {
+    display: block;
+  }
+}
+
+.emotion-84 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-82 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-brand-600);
   font-size: 0.625rem;
@@ -1782,23 +2071,17 @@ Array [
   border-radius: 0.125rem;
 }
 
-.emotion-67:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-67:hover {
+.emotion-82:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
 <div
-    className=" emotion-72"
+    className=" emotion-87"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-71"
+      className="emotion-86"
     >
       <div
         className="emotion-28"
@@ -1900,11 +2183,12 @@ Array [
         </div>
       </div>
       <nav
-        className="emotion-56"
+        className="emotion-68"
       >
         <a
           className="emotion-50"
           href="https://newrelic.com/"
+          onClick={[Function]}
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -1959,13 +2243,82 @@ Array [
             />
           </svg>
         </a>
+        <div
+          className="emotion-62"
+        >
+          <button
+            className="emotion-54 emotion-55"
+            onClick={[Function]}
+            size="extraSmall"
+          >
+            <svg
+              className="emotion-53"
+              viewBox="0 0 18 15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                className="emotion-51"
+                d="M17.159 5.6486C16.3489 1.92142 11.8784 -0.271419 7.17568 0.751833C2.47296 1.77403 -0.682686 5.62527 0.127433 9.3514C0.937552 13.0786 5.40805 15.2714 10.1108 14.2482C14.8135 13.226 17.9691 9.37578 17.159 5.6486ZM8.64322 10.9356C6.74517 10.9356 5.20764 9.39699 5.20764 7.5C5.20764 5.603 6.74623 4.06441 8.64322 4.06441C10.5402 4.06441 12.0788 5.60194 12.0788 7.5C12.0788 9.39805 10.5402 10.9356 8.64322 10.9356Z"
+              />
+              <path
+                className="emotion-52"
+                d="M9.40328 2.69022C6.6792 2.69022 4.47046 4.89896 4.47046 7.62303C4.47046 10.3471 6.6792 12.5559 9.40328 12.5559C12.1284 12.5559 14.3372 10.3471 14.3372 7.62303C14.3361 4.89896 12.1274 2.69022 9.40328 2.69022ZM8.64299 10.5009C6.98564 10.5009 5.64216 9.15738 5.64216 7.50003C5.64216 5.84268 6.98564 4.4992 8.64299 4.4992C10.3003 4.4992 11.6438 5.84268 11.6438 7.50003C11.6438 9.15738 10.3003 10.5009 8.64299 10.5009Z"
+              />
+            </svg>
+          </button>
+          <div
+            className="emotion-61"
+          >
+            <div
+              className="emotion-60"
+            >
+              <a
+                className="emotion-56"
+                href="https://docs.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Docs
+              </a>
+              <a
+                className="emotion-56"
+                href="https://developer.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Developer
+              </a>
+              <a
+                className="emotion-56"
+                href="https://opensource.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Open Source
+              </a>
+              <a
+                className="emotion-56"
+                href="https://discuss.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Community
+              </a>
+            </div>
+          </div>
+        </div>
         <ul
-          className="emotion-55"
+          className="emotion-67"
         >
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://docs.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -1974,8 +2327,9 @@ Array [
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://developer.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -1984,8 +2338,9 @@ Array [
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://opensource.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -1994,8 +2349,9 @@ Array [
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://discuss.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -2005,17 +2361,38 @@ Array [
         </ul>
       </nav>
       <ul
-        className="emotion-70"
+        className="emotion-85"
       >
         <li
-          className="emotion-63"
+          className="emotion-75"
         >
-          <div
-            className="emotion-61 emotion-62"
-            size="small"
+          <a
+            className="emotion-70"
+            href="?q="
           >
             <svg
-              className="emotion-57 emotion-58"
+              className="emotion-69"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </a>
+          <div
+            className="emotion-74"
+          >
+            <svg
+              className="emotion-71"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2032,20 +2409,26 @@ Array [
               />
             </svg>
             <input
-              className="emotion-59 emotion-60"
+              className="emotion-72"
+              onBlur={[Function]}
               onChange={[Function]}
+              onFocus={[Function]}
               onKeyDown={[Function]}
               placeholder="Search Docs, Developer, Open Source"
-              size="small"
               type="text"
               value=""
             />
             
+            <span
+              className="emotion-73"
+            >
+              /
+            </span>
           </div>
         </li>
         <li>
           <svg
-            className="emotion-64"
+            className="emotion-76"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2056,30 +2439,56 @@ Array [
           </svg>
         </li>
         <li
-          className="emotion-66"
+          className="emotion-81"
         >
           <a
-            className="emotion-65"
+            className="emotion-79 emotion-55"
             href="https://one.newrelic.com"
+            onClick={[Function]}
             rel="noopener noreferrer"
+            size="extraSmall"
             target="_blank"
+            variant="link"
           >
-            Log in
+            <span
+              className="emotion-77"
+            >
+              Log in
+            </span>
+            <svg
+              className="emotion-78"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"
+              />
+              <polyline
+                points="10 17 15 12 10 7"
+              />
+              <line
+                x1="15"
+                x2="3"
+                y1="12"
+                y2="12"
+              />
+            </svg>
           </a>
         </li>
         <li
-          className="emotion-69"
+          className="emotion-84"
         >
           <a
-            className="emotion-67 emotion-68"
+            className="emotion-82 emotion-55"
             href="https://newrelic.com/signup"
+            onClick={[Function]}
             rel="noopener noreferrer"
             size="extraSmall"
             target="_blank"
             variant="primary"
           >
             <span>
-              Sign up
+              Free account
             </span>
           </a>
         </li>
