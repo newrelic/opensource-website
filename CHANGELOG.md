@@ -1,3 +1,12 @@
+## [1.10.5](https://github.com/newrelic/opensource-website/compare/v1.10.4...v1.10.5) (2021-03-22)
+
+
+### Bug Fixes
+
+* package.json & package-lock.json to reduce vulnerabilities ([f0ceabb](https://github.com/newrelic/opensource-website/commit/f0ceabb712610db60bc385c31e9de0cf21a62bef))
+* upgrade react-feather from 2.0.8 to 2.0.9 ([b00a07d](https://github.com/newrelic/opensource-website/commit/b00a07d27be6663f34fb7566e6bcc4ecfae9749d))
+* upgrade unist-util-visit from 2.0.2 to 2.0.3 ([fdb7f19](https://github.com/newrelic/opensource-website/commit/fdb7f19265d065c0787f2c4af1e762dc4b0ba616))
+
 ## [1.10.4](https://github.com/newrelic/opensource-website/compare/v1.10.3...v1.10.4) (2021-03-22)
 
 
