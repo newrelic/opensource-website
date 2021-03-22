@@ -7,6 +7,10 @@ import {
   createHistory,
   createMemorySource,
 } from '@reach/router';
+import LocaleProvider from '@newrelic/gatsby-theme-newrelic/src/components/LocaleProvider';
+import themeTranslations from '@newrelic/gatsby-theme-newrelic/src/i18n/translations/en.json';
+import i18n from 'i18next';
+import { I18nextProvider } from 'react-i18next';
 
 import CollectionPage from '../collection';
 import data from './fixtures/collection';
@@ -15,10 +19,39 @@ const source = createMemorySource('/');
 const history = createHistory(source);
 const pageContext = { fileRelativePath: 'src/pages/collection.js' };
 
+const THEME_NAMESPACE = 'gatsby-theme-newrelic';
+
+const initI18n = () => {
+  i18n.init({
+    lng: 'en',
+    resources: {
+      en: {
+        [THEME_NAMESPACE]: themeTranslations,
+      },
+    },
+    defaultNS: 'translation',
+    initImmediate: false,
+    fallbackLng: 'en',
+    ns: [THEME_NAMESPACE, 'translation'],
+    interpolation: {
+      escapeValue: false,
+    },
+    react: {
+      useSuspense: false,
+    },
+  });
+};
+
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => ({
     allMdx: {
       nodes: [],
+    },
+    allLocale: {
+      nodes: [{ name: 'English', isDefault: true }],
+    },
+    newRelicThemeConfig: {
+      forceTrailingSlashes: false,
     },
     site: {
       siteMetadata: {
@@ -36,10 +69,16 @@ beforeEach(() => {
 
 describe('Data Collection Agents Page', () => {
   it('Renders correctly', () => {
+    initI18n();
+
     const tree = TestRenderer.create(
-      <LocationProvider history={history}>
-        <CollectionPage data={data} pageContext={pageContext} />
-      </LocationProvider>
+      <I18nextProvider i18n={i18n}>
+        <LocaleProvider i18n={i18n}>
+          <LocationProvider history={history}>
+            <CollectionPage data={data} pageContext={pageContext} />
+          </LocationProvider>
+        </LocaleProvider>
+      </I18nextProvider>
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });

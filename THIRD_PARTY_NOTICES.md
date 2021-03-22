@@ -31,11 +31,11 @@ code, the source code can be found at [https://github.com/newrelic/opensource-we
 * [gatsby-remark-copy-linked-files](#gatsby-remark-copy-linked-files)
 * [gatsby-remark-images](#gatsby-remark-images)
 * [gatsby-source-filesystem](#gatsby-source-filesystem)
-* [gatsby-source-filesystem](#gatsby-source-filesystem)
 * [gatsby-transformer-json](#gatsby-transformer-json)
 * [gatsby](#gatsby)
 * [js-cookie](#js-cookie)
 * [js-search](#js-search)
+* [lodash](#lodash)
 * [lodash](#lodash)
 * [marked](#marked)
 * [node-sass](#node-sass)
@@ -462,7 +462,7 @@ SOFTWARE.
 
 ### gatsby-image
 
-This product includes source derived from [gatsby-image](https://github.com/gatsbyjs/gatsby) ([v2.4.5](https://github.com/gatsbyjs/gatsby/tree/v2.4.5)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.4.5/LICENSE):
+This product includes source derived from [gatsby-image](https://github.com/gatsbyjs/gatsby) ([v2.11.0](https://github.com/gatsbyjs/gatsby/tree/v2.11.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.11.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -492,7 +492,7 @@ SOFTWARE.
 
 ### gatsby-plugin-manifest
 
-This product includes source derived from [gatsby-plugin-manifest](https://github.com/gatsbyjs/gatsby) ([v2.8.0](https://github.com/gatsbyjs/gatsby/tree/v2.8.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.8.0/LICENSE):
+This product includes source derived from [gatsby-plugin-manifest](https://github.com/gatsbyjs/gatsby) ([v2.12.0](https://github.com/gatsbyjs/gatsby/tree/v2.12.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.12.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -522,7 +522,7 @@ SOFTWARE.
 
 ### gatsby-plugin-mdx
 
-This product includes source derived from [gatsby-plugin-mdx](https://github.com/gatsbyjs/gatsby) ([v1.2.52](https://github.com/gatsbyjs/gatsby/tree/v1.2.52)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v1.2.52/LICENSE):
+This product includes source derived from [gatsby-plugin-mdx](https://github.com/gatsbyjs/gatsby) ([v1.10.0](https://github.com/gatsbyjs/gatsby/tree/v1.10.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v1.10.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -552,7 +552,7 @@ SOFTWARE.
 
 ### gatsby-plugin-offline
 
-This product includes source derived from [gatsby-plugin-offline](https://github.com/gatsbyjs/gatsby) ([v3.2.7](https://github.com/gatsbyjs/gatsby/tree/v3.2.7)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v3.2.7/LICENSE):
+This product includes source derived from [gatsby-plugin-offline](https://github.com/gatsbyjs/gatsby) ([v3.10.1](https://github.com/gatsbyjs/gatsby/tree/v3.10.1)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v3.10.1/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -582,7 +582,7 @@ SOFTWARE.
 
 ### gatsby-plugin-sass
 
-This product includes source derived from [gatsby-plugin-sass](https://github.com/gatsbyjs/gatsby) ([v2.3.2](https://github.com/gatsbyjs/gatsby/tree/v2.3.2)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.3.2/LICENSE):
+This product includes source derived from [gatsby-plugin-sass](https://github.com/gatsbyjs/gatsby) ([v2.8.0](https://github.com/gatsbyjs/gatsby/tree/v2.8.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.8.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -612,7 +612,7 @@ SOFTWARE.
 
 ### gatsby-plugin-sharp
 
-This product includes source derived from [gatsby-plugin-sharp](https://github.com/gatsbyjs/gatsby) ([v2.10.1](https://github.com/gatsbyjs/gatsby/tree/v2.10.1)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.10.1/LICENSE):
+This product includes source derived from [gatsby-plugin-sharp](https://github.com/gatsbyjs/gatsby) ([v2.14.1](https://github.com/gatsbyjs/gatsby/tree/v2.14.1)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.14.1/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -642,7 +642,7 @@ SOFTWARE.
 
 ### gatsby-remark-copy-linked-files
 
-This product includes source derived from [gatsby-remark-copy-linked-files](https://github.com/gatsbyjs/gatsby) ([v2.3.3](https://github.com/gatsbyjs/gatsby/tree/v2.3.3)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.3.3/LICENSE):
+This product includes source derived from [gatsby-remark-copy-linked-files](https://github.com/gatsbyjs/gatsby) ([v2.10.0](https://github.com/gatsbyjs/gatsby/tree/v2.10.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.10.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -672,7 +672,7 @@ SOFTWARE.
 
 ### gatsby-remark-images
 
-This product includes source derived from [gatsby-remark-images](https://github.com/gatsbyjs/gatsby) ([v3.3.8](https://github.com/gatsbyjs/gatsby/tree/v3.3.8)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v3.3.8/LICENSE):
+This product includes source derived from [gatsby-remark-images](https://github.com/gatsbyjs/gatsby) ([v3.11.0](https://github.com/gatsbyjs/gatsby/tree/v3.11.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v3.11.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -702,37 +702,7 @@ SOFTWARE.
 
 ### gatsby-source-filesystem
 
-This product includes source derived from [gatsby-source-filesystem](https://github.com/gatsbyjs/gatsby) ([v2.3.8](https://github.com/gatsbyjs/gatsby/tree/v2.3.8)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.3.8/LICENSE):
-
-```
-The MIT License (MIT)
-
-Copyright (c) 2015 Gatsbyjs
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-
-```
-
-### gatsby-source-filesystem
-
-This product includes source derived from [gatsby-source-filesystem](https://github.com/gatsbyjs/gatsby) ([v2.7.0](https://github.com/gatsbyjs/gatsby/tree/v2.7.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.7.0/LICENSE):
+This product includes source derived from [gatsby-source-filesystem](https://github.com/gatsbyjs/gatsby) ([v2.11.0](https://github.com/gatsbyjs/gatsby/tree/v2.11.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.11.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -762,7 +732,7 @@ SOFTWARE.
 
 ### gatsby-transformer-json
 
-This product includes source derived from [gatsby-transformer-json](https://github.com/gatsbyjs/gatsby) ([v2.4.3](https://github.com/gatsbyjs/gatsby/tree/v2.4.3)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.4.3/LICENSE):
+This product includes source derived from [gatsby-transformer-json](https://github.com/gatsbyjs/gatsby) ([v2.11.0](https://github.com/gatsbyjs/gatsby/tree/v2.11.0)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.11.0/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -792,7 +762,7 @@ SOFTWARE.
 
 ### gatsby
 
-This product includes source derived from [gatsby](https://github.com/gatsbyjs/gatsby) ([v2.24.91](https://github.com/gatsbyjs/gatsby/tree/v2.24.91)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.24.91/LICENSE):
+This product includes source derived from [gatsby](https://github.com/gatsbyjs/gatsby) ([v2.32.4](https://github.com/gatsbyjs/gatsby/tree/v2.32.4)), distributed under the [MIT License](https://github.com/gatsbyjs/gatsby/blob/v2.32.4/LICENSE):
 
 ```
 The MIT License (MIT)
@@ -932,6 +902,61 @@ terms above.
 
 ```
 
+### lodash
+
+This product includes source derived from [lodash](https://github.com/lodash/lodash) ([v4.17.21](https://github.com/lodash/lodash/tree/v4.17.21)), distributed under the [MIT License](https://github.com/lodash/lodash/blob/v4.17.21/LICENSE):
+
+```
+Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+
+Based on Underscore.js, copyright Jeremy Ashkenas,
+DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>
+
+This software consists of voluntary contributions made by many
+individuals. For exact contribution history, see the revision history
+available at https://github.com/lodash/lodash
+
+The following license applies to all parts of this software except as
+documented below:
+
+====
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+====
+
+Copyright and related rights for sample code are waived via CC0. Sample
+code is defined as all source code displayed within the prose of the
+documentation.
+
+CC0: http://creativecommons.org/publicdomain/zero/1.0/
+
+====
+
+Files located in the node_modules and vendor directories are externally
+maintained libraries used by this software which have their own
+licenses; we recommend you read them, as their terms may differ from the
+terms above.
+
+```
+
 ### marked
 
 This product includes source derived from [marked](https://github.com/markedjs/marked) ([v1.1.1](https://github.com/markedjs/marked/tree/v1.1.1)), distributed under the [MIT License](https://github.com/markedjs/marked/blob/v1.1.1/LICENSE.md):
@@ -1013,7 +1038,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ### prism-react-renderer
 
-This product includes source derived from [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) ([v1.1.1](https://github.com/FormidableLabs/prism-react-renderer/tree/v1.1.1)), distributed under the [MIT License](https://github.com/FormidableLabs/prism-react-renderer/blob/v1.1.1/LICENSE):
+This product includes source derived from [prism-react-renderer](https://github.com/FormidableLabs/prism-react-renderer) ([v1.2.0](https://github.com/FormidableLabs/prism-react-renderer/tree/v1.2.0)), distributed under the [MIT License](https://github.com/FormidableLabs/prism-react-renderer/blob/v1.2.0/LICENSE):
 
 ```
 MIT License
@@ -1185,7 +1210,7 @@ SOFTWARE.
 
 ### react-live
 
-This product includes source derived from [react-live](https://github.com/philpl/react-live) ([v2.2.2](https://github.com/philpl/react-live/tree/v2.2.2)), distributed under the [MIT License](https://github.com/philpl/react-live/blob/v2.2.2/LICENSE):
+This product includes source derived from [react-live](https://github.com/philpl/react-live) ([v2.2.3](https://github.com/philpl/react-live/tree/v2.2.3)), distributed under the [MIT License](https://github.com/philpl/react-live/blob/v2.2.3/LICENSE):
 
 ```
 The MIT License (MIT)

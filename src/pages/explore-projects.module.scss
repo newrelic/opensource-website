@@ -109,6 +109,7 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: all .08s var(--ease-out-quad);
+  text-decoration: none;
 
   &:hover {
     transform: translateY(-2px);
