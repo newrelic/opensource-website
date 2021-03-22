@@ -3,28 +3,17 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 
-export const query = graphql`
-  query StandardsQuery($path: String) {
-    sitePage: allSitePage(filter: { path: { eq: $path } }) {
-      nodes {
-        componentPath
-        path
-      }
-    }
-  }
-`;
-
-export default ({ children, data, pageContext }) => (
+export default ({ children, pageContext }) => (
   <Layout fullWidth editLink={pageContext.fileRelativePath}>
-      <SEO title="Contributing to a New Relic Open Source Project" />
-      <PageHeading
+    <SEO title="Contributing to a New Relic Open Source Project" />
+    <PageHeading
       title="New Relic Open Source Standards"
       subheader="Guidance for how we implement New Relic core values in open source"
     />
-      <div className="primary-content">
-        <main>{children}</main>
-      </div>
-    </Layout>
+    <div className="primary-content">
+      <main>{children}</main>
+    </div>
+  </Layout>
 );
 
 ## [Open Source Categories](/oss-category)

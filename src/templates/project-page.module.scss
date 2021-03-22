@@ -80,6 +80,7 @@
 .repo-stat-label {
   color: var(--color-neutrals-700);
   border: none;
+  text-decoration: none;
 
   &:hover {
     color: var(--color-brand-800);
@@ -470,4 +471,3 @@ p.call-to-action-description {
     background-color: var(--color-neutrals-200);
   }
 }
-

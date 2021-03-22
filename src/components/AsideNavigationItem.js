@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Image from './Image';
+import { css } from '@emotion/core';
 
 import styles from './AsideNavigationItem.module.scss';
 import chevronIcon from '../images/icon-chevron-right.svg';
@@ -16,6 +17,9 @@ const AsideNavigationItem = ({ icon, label, subLabel, to, darkMode }) => {
       className={`${styles.itemContainer} ${
         subLabel ? styles.hasSublabel : ''
       }`}
+      css={css`
+        text-decoration: none;
+      `}
     >
       <Image
         src={icon}
