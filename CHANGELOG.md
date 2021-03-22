@@ -1,3 +1,11 @@
+## [1.10.4](https://github.com/newrelic/opensource-website/compare/v1.10.3...v1.10.4) (2021-03-22)
+
+
+### Bug Fixes
+
+* upgrade @mdx-js/mdx from 1.6.19 to 1.6.22 ([f629d2b](https://github.com/newrelic/opensource-website/commit/f629d2be9bd49bb81703371f6286f0c8162d782c))
+* upgrade lodash from 4.17.20 to 4.17.21 ([b76f456](https://github.com/newrelic/opensource-website/commit/b76f4562ae6ecb8b2c604567e5d717d1c248cf9a))
+
 ## [1.10.3](https://github.com/newrelic/opensource-website/compare/v1.10.2...v1.10.3) (2021-03-19)
 
 
