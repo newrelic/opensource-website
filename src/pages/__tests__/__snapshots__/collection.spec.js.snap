@@ -14,9 +14,8 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-72 {
+.emotion-87 {
   background-color: var(--color-neutrals-100);
-  overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -24,20 +23,20 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   z-index: 700;
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-87 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-72 ul {
+.emotion-87 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-72 a {
+.emotion-87 a {
   border-bottom: none;
 }
 
-.emotion-71 {
+.emotion-86 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -47,9 +46,9 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  max-width: 1236px;
+  max-width: var(--site-max-width);
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
 }
 
 .emotion-28 {
@@ -90,7 +89,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-24 {
-  max-width: 1236px;
+  max-width: var(--site-max-width);
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -104,7 +103,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 var(--site-content-padding);
   height: 100%;
 }
 
@@ -153,8 +152,8 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-27 {
-  max-width: 1236px;
-  padding: 0;
+  max-width: var(--site-max-width);
+  padding: 0 var(--site-content-padding);
   margin: 0 auto;
 }
 
@@ -172,7 +171,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-26 .rc-pagination {
-  font-family: 'Arial';
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -721,7 +719,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-search-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: red;
@@ -742,7 +739,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-search-error.no-error {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   margin: auto;
@@ -762,7 +758,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-facet {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   margin: 0;
@@ -1073,7 +1068,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 .emotion-26 .sui-paging-info {
   margin: 1rem 0;
   color: var(--primary-text-color);
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 12px;
@@ -1081,19 +1075,19 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-result {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
   list-style: none;
-  padding: 24px 0;
+  padding: 0;
   -webkit-text-decoration: none;
   text-decoration: none;
   display: block;
   background: transparent;
-  border-radius: 4px;
-  box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.1);
   overflow-wrap: break-word;
   overflow: hidden;
+  margin: 0;
+}
+
+.emotion-26 .sui-result:not(:last-child) {
+  margin-bottom: 2rem;
 }
 
 .emotion-26 .sui-result a {
@@ -1135,6 +1129,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .emotion-26 .sui-result__title {
@@ -1151,7 +1146,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-result__key {
-  font-family: monospace;
+  font-family: var(--code-font);
   font-weight: 400;
   font-size: 14px;
   -webkit-flex: 0 1 50%;
@@ -1204,7 +1199,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 
 .emotion-26 .sui-result__details {
   list-style: none;
-  padding: 12px 24px;
   padding-left: 0;
 }
 
@@ -1218,7 +1212,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-results-per-page {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: #4a4b4b;
@@ -1263,7 +1256,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   -webkit-box-align: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
 }
 
 .emotion-26 .sui-search-box__submit {
@@ -1419,7 +1411,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-sorting {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   display: inline-block;
@@ -1436,7 +1427,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-select {
-  font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-size: 0.875rem;
@@ -1548,7 +1538,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   background: var(--tertiary-background-color);
 }
 
-.emotion-56 {
+.emotion-68 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1563,7 +1553,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width:800px) {
-  .emotion-56::after {
+  .emotion-68::after {
     content: '';
     position: absolute;
     right: 0;
@@ -1573,8 +1563,19 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
     background: linear-gradient( to right,rgba(244,245,245,0),var(--color-neutrals-100) );
   }
 
-  .dark-mode .emotion-56::after {
+  .dark-mode .emotion-68::after {
     background: linear-gradient( to right,rgba(34,53,60,0),var(--color-dark-100) );
+  }
+}
+
+@media screen and (max-width:545px) {
+  .emotion-68 {
+    overflow: visible;
+  }
+
+  .emotion-68::after {
+    background: none !important;
+    width: 0 !important;
   }
 }
 
@@ -1590,7 +1591,147 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   margin-right: 1rem;
 }
 
-.emotion-55 {
+@media screen and (max-width:545px) {
+  .emotion-50 {
+    display: none;
+  }
+}
+
+.emotion-62 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  position: relative;
+  display: none;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-62 {
+    display: block;
+  }
+}
+
+.emotion-54 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.emotion-54:hover {
+  color: var(--link-hover-color);
+}
+
+.emotion-53 {
+  width: 1.125rem;
+  height: 1.125rem;
+  fill: none;
+}
+
+.emotion-51 {
+  fill: #008c99;
+}
+
+.emotion-52 {
+  fill: #70ccd3;
+}
+
+.emotion-61 {
+  --arrow-size: 5px;
+  --arrow-offset: 0.5rem;
+  --background-color: white;
+  --text-color: var(--color-neutrals-900);
+  position: absolute;
+  top: calc(100% + var(--arrow-size));
+  display: none;
+  background: var(--background-color);
+  border-radius: 0.25rem;
+  z-index: 1000;
+  padding: 0.5rem;
+  box-shadow: 0 3px 8px 0 rgba(22,38,59,0.2);
+}
+
+.dark-mode .emotion-61 {
+  --text-color: var(--color-dark-900);
+  --background-color: var(--color-dark-050);
+}
+
+.emotion-61::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(-1 * var(--arrow-size));
+  border-left: var(--arrow-size) solid transparent;
+  border-right: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid var(--background-color);
+  width: 0;
+  height: 0;
+  z-index: 1000;
+  left: var(--arrow-offset);
+}
+
+.emotion-60 {
+  max-height: 20rem;
+  min-width: 100px;
+  overflow-y: auto;
+}
+
+.emotion-56 {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: var(--text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-56:hover {
+  color: var(--text-color);
+  cursor: pointer;
+  background: var(--color-neutrals-200);
+  border-radius: 0.25rem;
+}
+
+.dark-mode .emotion-56:hover {
+  background: var(--color-dark-200);
+}
+
+.emotion-67 {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -1606,13 +1747,20 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-55 > li {
+.emotion-67 > li {
+  margin: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
-.emotion-51 {
+@media screen and (max-width:545px) {
+  .emotion-67 {
+    display: none;
+  }
+}
+
+.emotion-63 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1627,19 +1775,21 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   font-size: 0.6875rem;
   -webkit-transition: 0.2s;
   transition: 0.2s;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
-.emotion-51:hover {
-  background-color: var(--color-neutrals-200);
+.emotion-63:hover {
+  background-color: var(--color-neutrals-300);
   color: var(--color-neutrals-700);
 }
 
-.dark-mode .emotion-51:hover {
-  background-color: var(--color-dark-200);
+.dark-mode .emotion-63:hover {
+  background-color: var(--color-dark-300);
   color: var(--color-dark-700);
 }
 
-.emotion-70 {
+.emotion-85 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -1657,50 +1807,108 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-70 > li {
+.emotion-85 > li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-70 > li:not(:first-of-type) {
-  margin-left: 1rem;
+.emotion-85 > li:not(:first-of-type) {
+  margin-left: 0.5rem;
 }
 
-.emotion-63 {
+@media screen and (max-width:760px) {
+  .emotion-85 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
+}
+
+.emotion-75 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.emotion-61 {
-  position: relative;
-  width: 100%;
-  --icon-size: 0.75rem;
-  min-width: 150px;
-  max-width: 350px;
+@media screen and (max-width:760px) {
+  .emotion-75 {
+    -webkit-flex: unset;
+    -ms-flex: unset;
+    flex: unset;
+  }
 }
 
-.emotion-58 {
-  width: 1em;
-  height: 1em;
+.emotion-70 {
+  color: var(--secondary-text-color);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: none;
+}
+
+.emotion-70:hover {
+  color: var(--secondary-text-hover-color);
+}
+
+@media screen and (max-width:760px) {
+  .emotion-70 {
+    display: block;
+  }
+}
+
+.emotion-69 {
+  width: 0.875rem;
+  height: 0.875rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: var(--primary-text-color);
-  height: var(--icon-size);
-  width: var(--icon-size);
+  display: block;
+  cursor: pointer;
+}
+
+.emotion-74 {
+  --horizontal-spacing: 0.5rem;
+  position: relative;
+  width: 100%;
+  box-shadow: var(--shadow-1);
+  --icon-size: 0.75rem;
+  min-width: 150px;
+  max-width: 350px;
+}
+
+@media screen and (max-width:760px) {
+  .emotion-74 {
+    display: none;
+  }
+}
+
+.emotion-71 {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   position: absolute;
-  left: 1rem;
+  left: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
-.emotion-59 {
+.emotion-72 {
   width: 100%;
   border: 1px solid var(--border-color);
   border-radius: 4px;
@@ -1709,17 +1917,40 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
+  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
   font-size: 0.75rem;
-  padding: 0.25rem calc(1.5rem + var(--icon-size));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
-.emotion-59:focus {
+.emotion-72:focus {
   outline: none;
   border: 1px solid rgba(0,126,138,0.6);
   box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
 }
 
-.emotion-64 {
+.emotion-73 {
+  position: absolute;
+  right: var(--horizontal-spacing);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: 1px solid var(--border-color);
+  line-height: 1;
+  text-align: center;
+  background: var(--color-neutrals-100);
+  border-radius: 0.125rem;
+  font-size: 0.675rem;
+  padding: 0.0625rem 0.3125rem;
+}
+
+.dark-mode .emotion-73 {
+  background: var(--color-dark-200);
+}
+
+.emotion-76 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -1735,11 +1966,11 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.emotion-64:hover {
+.emotion-76:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-66 {
+.emotion-81 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1750,20 +1981,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-65 {
-  font-size: 0.675rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.emotion-69 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-67 {
+.emotion-79 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1787,6 +2005,77 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   -webkit-transition: all 0.15s ease-out;
   transition: all 0.15s ease-out;
   white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.emotion-79:hover {
+  color: var(--link-hover-color);
+}
+
+@media screen and (max-width:545px) {
+  .emotion-77 {
+    display: none;
+  }
+}
+
+.emotion-78 {
+  width: 0.875rem;
+  height: 0.875rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  display: none;
+}
+
+@media screen and (max-width:545px) {
+  .emotion-78 {
+    display: block;
+  }
+}
+
+.emotion-84 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-82 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   color: var(--color-white);
   background-color: var(--color-brand-600);
   font-size: 0.625rem;
@@ -1794,35 +2083,29 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   border-radius: 0.125rem;
 }
 
-.emotion-67:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-67:hover {
+.emotion-82:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
-.emotion-94 {
+.emotion-109 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width:724px) {
-  .emotion-94 {
+  .emotion-109 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-93 {
+.emotion-108 {
   fill: none;
   width: 100%;
 }
 
-.emotion-95 {
+.emotion-110 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -1836,28 +2119,28 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   max-width: 1180px;
 }
 
-.emotion-95 > hr {
+.emotion-110 > hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-128 {
+.emotion-137 {
   color: var(--secondary-text-color);
   background-color: var(--color-neutrals-050);
   z-index: 1;
 }
 
-.dark-mode .emotion-128 {
+.dark-mode .emotion-137 {
   background-color: var(--color-dark-050);
 }
 
-.emotion-128 a {
+.emotion-137 a {
   color: currentColor;
 }
 
-.emotion-123 {
+.emotion-132 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -1871,13 +2154,13 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 1rem;
-  max-width: 1236px;
+  padding: 1rem var(--site-content-padding);
+  max-width: var(--site-max-width);
   margin: 0 auto;
 }
 
 @media screen and (max-width:550px) {
-  .emotion-123 {
+  .emotion-132 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -1888,139 +2171,27 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   }
 }
 
-.emotion-116 {
+.emotion-131 {
   fill: none;
   width: 150px;
   display: block;
 }
 
 @media screen and (max-width:550px) {
-  .emotion-116 {
+  .emotion-131 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-118 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-neutrals-700);
-  border: 1px solid var(--border-color);
-  background-color: transparent;
-  font-size: 0.75rem;
-  margin-right: 1rem;
-}
-
-.emotion-118:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-118:hover {
-  color: var(--color-brand-600);
-  border-color: var(--color-brand-500);
-}
-
-.dark-mode .emotion-118 {
-  color: var(--color-dark-700);
-}
-
-.dark-mode .emotion-118:hover {
-  color: var(--color-brand-200);
-  border-color: rgba(112,204,210,0.17);
-}
-
-.emotion-117 {
-  width: 1em;
-  height: 1em;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  margin-right: 0.5rem;
-}
-
-.emotion-121 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-neutrals-700);
-  border: 1px solid var(--border-color);
-  background-color: transparent;
-  font-size: 0.75rem;
-}
-
-.emotion-121:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-121:hover {
-  color: var(--color-brand-600);
-  border-color: var(--color-brand-500);
-}
-
-.dark-mode .emotion-121 {
-  color: var(--color-dark-700);
-}
-
-.dark-mode .emotion-121:hover {
-  color: var(--color-brand-200);
-  border-color: rgba(112,204,210,0.17);
-}
-
-.emotion-127 {
+.emotion-136 {
   background-color: rgba(0,0,0,0.05);
 }
 
-.dark-mode .emotion-127 {
+.dark-mode .emotion-136 {
   background-color: rgba(0,0,0,0.2);
 }
 
-.emotion-126 {
+.emotion-135 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -2033,13 +2204,13 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   display: grid;
   grid-template-columns: auto auto;
   grid-template-areas: 'copyright legal';
-  padding: 0.5rem;
-  max-width: 1236px;
+  padding: 0.5rem var(--site-content-padding);
+  max-width: var(--site-max-width);
   margin: 0 auto;
 }
 
 @media screen and (max-width:760px) {
-  .emotion-126 {
+  .emotion-135 {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -2051,7 +2222,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   }
 }
 
-.emotion-124 {
+.emotion-133 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
@@ -2061,7 +2232,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   letter-spacing: 0.1rem;
 }
 
-.emotion-125 {
+.emotion-134 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2076,218 +2247,20 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-125 a {
+.emotion-134 a {
   margin-left: 0.75rem;
   white-space: nowrap;
-}
-
-.emotion-137 {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  z-index: 10000;
-  background-color: rgba(28,42,47,0.92);
-  box-shadow: 0px -0.249053px 4.26158px rgba(12,48,57,0.0421718),0px -0.598509px 10.2412px rgba(12,48,57,0.0605839),0px -1.12694px 19.2832px rgba(12,48,57,0.075),0px -2.01027px 34.3 979px rgba(12,48,57,0.0894161),0px -3.75998px 64.3375px rgba(12,48,57,0.107828),0px -9px 154px rgba(12,48,57,0.15);
-  -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
-}
-
-.dark-mode .emotion-137 {
-  background-color: rgba(15,25,28,0.92);
-  box-shadow: 0 -1px 0 rgba(55,72,78,0.4);
-}
-
-.emotion-136 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 1180px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 1.125rem 0;
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-136 {
-    width: 100%;
-    padding: 1.125rem 1.75rem;
-  }
-}
-
-@media screen and (max-width:480px) {
-  .emotion-136 {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-align-items: flex-start;
-    -webkit-box-align: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
-  }
-}
-
-.emotion-129 {
-  color: #fff;
-  margin-top: 0;
-  margin-bottom: 2px;
-  line-height: 21px;
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-129 {
-    margin-bottom: 0.375rem;
-  }
-}
-
-.emotion-130 {
-  margin: 0 0 0px;
-  font-size: 13px;
-  line-height: 21px;
-  color: var(--accent-text-color);
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-130 {
-    line-height: 19px;
-  }
-}
-
-@media screen and (max-width:1200px) {
-  .emotion-130 {
-    margin-bottom: 1rem;
-  }
-}
-
-.emotion-135 {
-  margin-left: 1rem;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-}
-
-.emotion-131 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-white);
-  background-color: var(--color-brand-600);
-  margin-right: 10px;
-  padding: 0.625rem 1.75rem;
-}
-
-.emotion-131:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-131:hover {
-  color: var(--color-white);
-  background-color: var(--color-brand-500);
-}
-
-@media screen and (max-width:480px) {
-  .emotion-131 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-}
-
-.emotion-133 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  color: var(--color-neutrals-700);
-  background-color: var(--color-neutrals-100);
-  padding: 0.625rem 1rem;
-}
-
-.emotion-133:hover {
-  -webkit-transform: translate3d(0,-1px,0);
-  -ms-transform: translate3d(0,-1px,0);
-  transform: translate3d(0,-1px,0);
-}
-
-.emotion-133:hover {
-  color: var(--color-brand-600);
-  background: rgba(112,204,210,0.17);
-}
-
-.dark-mode .emotion-133 {
-  color: var(--color-dark-700);
-  background-color: var(--color-dark-200);
-}
-
-.dark-mode .emotion-133:hover {
-  color: var(--color-brand-200);
-  background-color: rgba(112,204,210,0.17);
-}
-
-@media screen and (max-width:480px) {
-  .emotion-133 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
 }
 
 <div
   className="collectionPage emotion-138"
 >
   <div
-    className=" emotion-72"
+    className=" emotion-87"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-71"
+      className="emotion-86"
     >
       <div
         className="emotion-28"
@@ -2389,11 +2362,12 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         </div>
       </div>
       <nav
-        className="emotion-56"
+        className="emotion-68"
       >
         <a
           className="emotion-50"
           href="https://newrelic.com/"
+          onClick={[Function]}
           rel="noopener noreferrer"
           target="_blank"
         >
@@ -2448,13 +2422,82 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
             />
           </svg>
         </a>
+        <div
+          className="emotion-62"
+        >
+          <button
+            className="emotion-54 emotion-55"
+            onClick={[Function]}
+            size="extraSmall"
+          >
+            <svg
+              className="emotion-53"
+              viewBox="0 0 18 15"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                className="emotion-51"
+                d="M17.159 5.6486C16.3489 1.92142 11.8784 -0.271419 7.17568 0.751833C2.47296 1.77403 -0.682686 5.62527 0.127433 9.3514C0.937552 13.0786 5.40805 15.2714 10.1108 14.2482C14.8135 13.226 17.9691 9.37578 17.159 5.6486ZM8.64322 10.9356C6.74517 10.9356 5.20764 9.39699 5.20764 7.5C5.20764 5.603 6.74623 4.06441 8.64322 4.06441C10.5402 4.06441 12.0788 5.60194 12.0788 7.5C12.0788 9.39805 10.5402 10.9356 8.64322 10.9356Z"
+              />
+              <path
+                className="emotion-52"
+                d="M9.40328 2.69022C6.6792 2.69022 4.47046 4.89896 4.47046 7.62303C4.47046 10.3471 6.6792 12.5559 9.40328 12.5559C12.1284 12.5559 14.3372 10.3471 14.3372 7.62303C14.3361 4.89896 12.1274 2.69022 9.40328 2.69022ZM8.64299 10.5009C6.98564 10.5009 5.64216 9.15738 5.64216 7.50003C5.64216 5.84268 6.98564 4.4992 8.64299 4.4992C10.3003 4.4992 11.6438 5.84268 11.6438 7.50003C11.6438 9.15738 10.3003 10.5009 8.64299 10.5009Z"
+              />
+            </svg>
+          </button>
+          <div
+            className="emotion-61"
+          >
+            <div
+              className="emotion-60"
+            >
+              <a
+                className="emotion-56"
+                href="https://docs.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Docs
+              </a>
+              <a
+                className="emotion-56"
+                href="https://developer.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Developer
+              </a>
+              <a
+                className="emotion-56"
+                href="https://opensource.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Open Source
+              </a>
+              <a
+                className="emotion-56"
+                href="https://discuss.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Community
+              </a>
+            </div>
+          </div>
+        </div>
         <ul
-          className="emotion-55"
+          className="emotion-67"
         >
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://docs.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -2463,8 +2506,9 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://developer.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -2473,8 +2517,9 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://opensource.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -2483,8 +2528,9 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-51"
+              className="emotion-63"
               href="https://discuss.newrelic.com/"
+              onClick={[Function]}
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -2494,17 +2540,38 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-70"
+        className="emotion-85"
       >
         <li
-          className="emotion-63"
+          className="emotion-75"
         >
-          <div
-            className="emotion-61 emotion-62"
-            size="small"
+          <a
+            className="emotion-70"
+            href="?q="
           >
             <svg
-              className="emotion-57 emotion-58"
+              className="emotion-69"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
+          </a>
+          <div
+            className="emotion-74"
+          >
+            <svg
+              className="emotion-71"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2521,20 +2588,26 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-59 emotion-60"
+              className="emotion-72"
+              onBlur={[Function]}
               onChange={[Function]}
+              onFocus={[Function]}
               onKeyDown={[Function]}
               placeholder="Search Docs, Developer, Open Source"
-              size="small"
               type="text"
               value=""
             />
             
+            <span
+              className="emotion-73"
+            >
+              /
+            </span>
           </div>
         </li>
         <li>
           <svg
-            className="emotion-64"
+            className="emotion-76"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2545,30 +2618,56 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </svg>
         </li>
         <li
-          className="emotion-66"
+          className="emotion-81"
         >
           <a
-            className="emotion-65"
+            className="emotion-79 emotion-55"
             href="https://one.newrelic.com"
+            onClick={[Function]}
             rel="noopener noreferrer"
+            size="extraSmall"
             target="_blank"
+            variant="link"
           >
-            Log in
+            <span
+              className="emotion-77"
+            >
+              Log in
+            </span>
+            <svg
+              className="emotion-78"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"
+              />
+              <polyline
+                points="10 17 15 12 10 7"
+              />
+              <line
+                x1="15"
+                x2="3"
+                y1="12"
+                y2="12"
+              />
+            </svg>
           </a>
         </li>
         <li
-          className="emotion-69"
+          className="emotion-84"
         >
           <a
-            className="emotion-67 emotion-68"
+            className="emotion-82 emotion-55"
             href="https://newrelic.com/signup"
+            onClick={[Function]}
             rel="noopener noreferrer"
             size="extraSmall"
             target="_blank"
             variant="primary"
           >
             <span>
-              Sign up
+              Free account
             </span>
           </a>
         </li>
@@ -2579,11 +2678,11 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
     className="primaryHeaderContainer  "
   >
     <a
-      className="emotion-94"
+      className="emotion-109"
       href="/"
     >
       <svg
-        className="emotion-93"
+        className="emotion-108"
         viewBox="0 0 79 15"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -2733,7 +2832,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-95"
+    className="emotion-110"
   >
     <div
       className="featuredVideoContainer"
@@ -2788,17 +2887,17 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-128"
+    className="emotion-137"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-123"
+      className="emotion-132"
     >
       <a
         href="/"
       >
         <svg
-          className="emotion-116"
+          className="emotion-131"
           viewBox="0 0 79 15"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -2848,66 +2947,25 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           />
         </svg>
       </a>
-      <div>
-        <a
-          className="emotion-118 emotion-68"
-          href="undefined/blob/undefined/src/pages/collection.js"
-          rel="noopener noreferrer"
-          size="small"
-          target="_blank"
-          variant="outline"
-        >
-          <svg
-            className="emotion-117"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"
-            />
-            <path
-              d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"
-            />
-          </svg>
-          Edit this page
-        </a>
-        <a
-          className="emotion-121 emotion-68"
-          href="undefined/issues/new/choose"
-          rel="noopener noreferrer"
-          size="small"
-          target="_blank"
-          variant="outline"
-        >
-          <svg
-            className="emotion-117"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-            />
-          </svg>
-          Create an issue
-        </a>
-      </div>
+      <div />
     </div>
     <div
-      className="emotion-127"
+      className="emotion-136"
     >
       <div
-        className="emotion-126"
+        className="emotion-135"
       >
         <div
-          className="emotion-124"
+          className="emotion-133"
         >
-          Copyright © 2020 New Relic Inc.
+          Copyright © 2021 New Relic Inc.
         </div>
         <div
-          className="emotion-125"
+          className="emotion-134"
         >
           <a
             href="https://newrelic.com/about/careers"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2915,6 +2973,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/terms"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2922,6 +2981,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/dmca"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2929,6 +2989,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/services-notices"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2936,6 +2997,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/cookie-policy"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2943,6 +3005,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </a>
           <a
             href="https://newrelic.com/termsandconditions/uk-slavery-act"
+            onClick={[Function]}
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -2952,61 +3015,5 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
       </div>
     </div>
   </footer>
-  <div
-    className="emotion-137"
-  >
-    <div
-      className="emotion-136"
-    >
-      <div>
-        <h4
-          className="emotion-129"
-        >
-          This site uses cookies
-           
-          <span
-            aria-label="Cookie emoji"
-            role="img"
-          >
-            🍪
-          </span>
-        </h4>
-        <p
-          className="emotion-130"
-        >
-          We use cookies and other similar technologies ("Cookies") on our websites and services to enhance your experience and to provide you with relevant content. By using our websites and services you are agreeing to the use of cookies. You can read more
-           
-          <a
-            href="https://newrelic.com/termsandconditions/cookie-policy"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            here
-          </a>
-          . If you consent to our cookies, please click 
-          <strong>
-            Yes
-          </strong>
-          .
-        </p>
-      </div>
-      <div
-        className="emotion-135"
-      >
-        <button
-          className="emotion-131 emotion-68"
-          onClick={[Function]}
-        >
-          Yes
-        </button>
-        <button
-          className="emotion-133 emotion-68"
-          onClick={[Function]}
-        >
-          No
-        </button>
-      </div>
-    </div>
-  </div>
 </div>
 `;

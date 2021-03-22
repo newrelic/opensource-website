@@ -39,6 +39,7 @@ a.primary-header-nav-link {
   color: var(--color-neutrals-900);
   border: none;
   transition: color 0.05s ease-out;
+  text-decoration: none;
   svg {
     display:none;
   }
@@ -183,7 +184,7 @@ div.exists-in-active-mobile-menu {
   .has-header-bg:after {
     top: -150px;
     transform: skewY(-1.75deg);
-  } 
+  }
 
 }
 

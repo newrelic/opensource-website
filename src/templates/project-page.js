@@ -114,6 +114,9 @@ const ProjectPage = (props) => {
           key={issue.id}
           className={styles.projectPageIssue}
           rel="noopener noreferrer"
+          css={css`
+            text-decoration: none;
+          `}
         >
           <div className={styles.projectPageIssueHeader}>
             <img
@@ -208,6 +211,9 @@ const ProjectPage = (props) => {
           <a
             className={styles.tagLink}
             href={`/explore-projects/?tag=${tag.title}`}
+            css={css`
+              text-decoration: none;
+            `}
           >
             {tag.title}
           </a>

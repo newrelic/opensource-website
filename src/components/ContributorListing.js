@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { css } from '@emotion/core';
 
 import styles from './ContributorListing.module.scss';
 
@@ -29,6 +30,9 @@ const ContributorListing = ({ contributors, project }) => {
                   className={styles.contributorNameLink}
                   target="__blank"
                   rel="noopener noreferrer"
+                  css={css`
+                    text-decoration: none;
+                  `}
                 >
                   {contributor.login}
                 </a>
@@ -38,6 +42,9 @@ const ContributorListing = ({ contributors, project }) => {
                   href={`${project.githubUrl}/graphs/contributors`}
                   rel="noopener noreferrer"
                   target="__blank"
+                  css={css`
+                    text-decoration: none;
+                  `}
                 >
                   {contributor.contributions} commits
                 </a>

@@ -17,11 +17,7 @@
   position: relative;
   z-index:100;
   font-size: 24px;
-  font-family: var(--secondary-font-family);
   text-align: center;
-  line-height: 25px;
-  margin-bottom: 4px;
-  font-weight: 400;
 }
 
 .description {
@@ -80,12 +76,12 @@
   &:last-child {
     margin-right: 0;
   }
-  
+
   .projects-hovered & {
     filter: blur(4px);
     animation-play-state: paused;
     opacity: .6;
-  }  
+  }
 }
 
 .cta-button {
@@ -97,7 +93,7 @@
   box-shadow: 0px 1.85406px 2.60122px rgba(5, 35, 39, 0.0562291), 0px 4.45557px 6.2511px rgba(5, 35, 39, 0.0807786), 0px 8.38944px 11.7703px rgba(5, 35, 39, 0.1), 0px 14.9653px 20.9961px rgba(5, 35, 39, 0.119221), 0px 27.991px 39.271px rgba(5, 35, 39, 0.143771);
   opacity: 0;
   pointer-events: none;
-  
+
   .projects-hovered & {
     opacity: 1;
     pointer-events: inherit;
@@ -107,7 +103,7 @@
     &:hover {
       transform: translate(-50%, 34px);
     }
-    
+
     &:active {
       transform: translate(-50%, 36px);
     }
@@ -122,7 +118,7 @@
   .projects-container:before,
   .projects-container:after {
     display: none;
-  }    
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -133,13 +129,13 @@
   .project h4 {
     max-width: 19ch;
     white-space: nowrap;
-  }   
+  }
 }
 
 @media screen and (max-width: 480px) {
   .project {
     animation-duration: 30s;
-  }    
+  }
 }
 
 // ==============================================================
@@ -152,13 +148,13 @@
   }
 
   .projects-container {
-  
+
     &:before,
     &:after {
       top: -10px;
       background-image: url('../images/home-collection-mask-dark.png');
     }
-  
+
     &:after {
       top: -15px;
       left: inherit;

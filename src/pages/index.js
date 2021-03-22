@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { css } from '@emotion/core';
 import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
 import { Helmet } from 'react-helmet';
@@ -173,8 +174,13 @@ const HomePage = ({ data, pageContext }) => {
       <div className={styles.heroContainer}>
         <div className={styles.homepageHeroCopy}>
           <h2
-            className={styles.homepageHeroHeading}
             data-testid="homepageHeroHeading"
+            css={css`
+              font-size: 40px;
+              line-height: 110%;
+              font-weight: 600;
+              color: var(--color-neutrals-900);
+            `}
           >
             Open standards.
             <br /> Open instrumentation.
