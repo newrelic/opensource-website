@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/newrelic/opensource-website/compare/v1.10.5...v1.11.0) (2021-03-23)
+
+
+### Features
+
+* add nrql status widget project (custom viz) ([ed35bfb](https://github.com/newrelic/opensource-website/commit/ed35bfb628ff03ba8066095f6368fe98bbdba375))
+
 ## [1.10.5](https://github.com/newrelic/opensource-website/compare/v1.10.4...v1.10.5) (2021-03-22)
 
 
