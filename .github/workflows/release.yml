@@ -29,16 +29,16 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.npm
+          path: ~/.yarn
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Gatsby Build
-        run: npm run build:production
+        run: yarn run build:production
 
   job-generate-third-party-notices:
     runs-on: ubuntu-latest
@@ -62,17 +62,17 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.npm
+          path: ~/.yarn
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install Dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Install OSS CLI
         run: |
-          sudo npm install -g @newrelic/newrelic-oss-cli
+          sudo yarn install -g @newrelic/newrelic-oss-cli
 
       - name: Generate Third Party Notices
         id: generate-notices
@@ -133,13 +133,13 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.npm
+          path: ~/.yarn
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Release
         env:

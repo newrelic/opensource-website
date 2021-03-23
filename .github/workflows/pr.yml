@@ -26,20 +26,20 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.npm
+          path: ~/.yarn
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Gatsby Build
         run: |
           if [ '${{ github.base_ref }}' = 'develop' ]; then
-            npm run build:staging
+            yarn run build:staging
           elif [ '${{ github.base_ref }}' = 'master' ]; then
-            npm run build:production
+            yarn run build:production
           else
             echo "::error::Pull Request opened on unsupported branch. Exiting."
             exit 1
@@ -65,13 +65,13 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.npm
+          path: ~/.yarn
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Get Changed Files
         id: getfile
@@ -154,18 +154,18 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.npm
+          path: ~/.yarn
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install Dependencies
-        run: npm ci
+        run: yarn install --frozen-lockfile
 
       - name: Run eslint-check and generate report
         id: eslint-check
         run: |
-          npm run eslint-check -- --output-file eslint_report.json --format json
+          yarn run eslint-check -- --output-file eslint_report.json --format json
         continue-on-error: true
 
       - name: Annotate Lint Results
@@ -200,13 +200,13 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.npm
+          path: ~/.yarn
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
       - name: Install dependencies
-        run: npm ci
+        run:  yarn install --frozen-lockfile
 
       - name: Run Jest
-        run: npm run test
+        run: yarn run test

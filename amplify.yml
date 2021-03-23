@@ -4,14 +4,14 @@ frontend:
     preBuild:
       commands:
         - nvm use $VERSION_NODE_12
-        - npm ci
+        -  yarn install --frozen-lockfile
     build:
       commands:
         - |
           if [ "${AWS_BRANCH}" = "master" ]; then
-            npm run build:production;
+            yarn run build:production;
           else
-            npm run build:staging;
+            yarn run build:production;
           fi
   artifacts:
     baseDirectory: public
