@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/newrelic/opensource-website/compare/v1.11.0...v1.11.1) (2021-03-23)
+
+
+### Bug Fixes
+
+* resolved install OSS CLI failure ([f589ccf](https://github.com/newrelic/opensource-website/commit/f589ccf891fdd57658699f8ccf5827953fa7c1d6))
+
 # [1.11.0](https://github.com/newrelic/opensource-website/compare/v1.10.5...v1.11.0) (2021-03-23)
 
 
