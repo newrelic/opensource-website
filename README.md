@@ -24,18 +24,18 @@ This project is distributed under the [Apache 2 license](LICENSE).
 
 ## Getting started
 
-1. Ensure that you have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [NPM](https://www.npmjs.com/get-npm) installed. If you're unsure whether you have one or both of them installed, run the following commands. (If you have them installed, these commands return a version number; if not, the commands aren't recognized.)
+1. Ensure that you have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [YARN](https://classic.yarnpkg.com/en/docs/getting-started) installed. If you're unsure whether you have one or both of them installed, run the following commands. (If you have them installed, these commands return a version number; if not, the commands aren't recognized.)
 
 ```bash
 git --version
-npm -v
+yarn -v
 ```
 
 2. Execute the following command to clone this repository and run the code locally against your New Relic data:
 
 ```bash
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 Open [http://localhost:8000/](http://localhost:8000/) in your preferred, modern browser.

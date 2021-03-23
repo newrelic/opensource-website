@@ -1,3 +1,34 @@
+## [1.11.1](https://github.com/newrelic/opensource-website/compare/v1.11.0...v1.11.1) (2021-03-23)
+
+
+### Bug Fixes
+
+* resolved install OSS CLI failure ([f589ccf](https://github.com/newrelic/opensource-website/commit/f589ccf891fdd57658699f8ccf5827953fa7c1d6))
+
+# [1.11.0](https://github.com/newrelic/opensource-website/compare/v1.10.5...v1.11.0) (2021-03-23)
+
+
+### Features
+
+* add nrql status widget project (custom viz) ([ed35bfb](https://github.com/newrelic/opensource-website/commit/ed35bfb628ff03ba8066095f6368fe98bbdba375))
+
+## [1.10.5](https://github.com/newrelic/opensource-website/compare/v1.10.4...v1.10.5) (2021-03-22)
+
+
+### Bug Fixes
+
+* package.json & package-lock.json to reduce vulnerabilities ([f0ceabb](https://github.com/newrelic/opensource-website/commit/f0ceabb712610db60bc385c31e9de0cf21a62bef))
+* upgrade react-feather from 2.0.8 to 2.0.9 ([b00a07d](https://github.com/newrelic/opensource-website/commit/b00a07d27be6663f34fb7566e6bcc4ecfae9749d))
+* upgrade unist-util-visit from 2.0.2 to 2.0.3 ([fdb7f19](https://github.com/newrelic/opensource-website/commit/fdb7f19265d065c0787f2c4af1e762dc4b0ba616))
+
+## [1.10.4](https://github.com/newrelic/opensource-website/compare/v1.10.3...v1.10.4) (2021-03-22)
+
+
+### Bug Fixes
+
+* upgrade @mdx-js/mdx from 1.6.19 to 1.6.22 ([f629d2b](https://github.com/newrelic/opensource-website/commit/f629d2be9bd49bb81703371f6286f0c8162d782c))
+* upgrade lodash from 4.17.20 to 4.17.21 ([b76f456](https://github.com/newrelic/opensource-website/commit/b76f4562ae6ecb8b2c604567e5d717d1c248cf9a))
+
 ## [1.10.3](https://github.com/newrelic/opensource-website/compare/v1.10.2...v1.10.3) (2021-03-19)
 
 
