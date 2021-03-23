@@ -17,7 +17,9 @@
   "description": "NewRelic nr1 funnel visualization, based on funnel-graph.js",
   "ossCategory": "new-relic-experimental",
   "primaryLanguage": "JavaScript",
-  "projectTags": ["visualization"],
+  "projectTags": [
+    "visualizations"
+  ],
   "acceptsContributions": true,
   "website": {
     "title": "nr1-funnelz",
