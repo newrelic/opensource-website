@@ -72,7 +72,7 @@ jobs:
 
       - name: Install OSS CLI
         run: |
-          sudo yarn install -g @newrelic/newrelic-oss-cli
+          sudo yarn global add @newrelic/newrelic-oss-cli
 
       - name: Generate Third Party Notices
         id: generate-notices
