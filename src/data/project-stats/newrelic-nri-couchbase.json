@@ -1,28 +1,35 @@
 {
   "projectFullName": "newrelic/nri-couchbase",
   "issues": {
-    "open": 2
+    "open": 1
   },
-  "releases": 20,
+  "releases": 21,
   "latestRelease": {
-    "name": "v0.0.1",
-    "date": "2021-01-18T10:09:06Z"
+    "name": "v2.3.8",
+    "date": "2021-03-24T13:06:09Z"
   },
-  "commits": 137,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 11,
+  "commits": 139,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 13,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 7555235,
-      "login": "jportasa",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7555235?v=4",
-      "htmlUrl": "https://github.com/jportasa",
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
       "contributions": 1
+    },
+    {
+      "id": 7229810,
+      "login": "zackkendra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7229810?v=4",
+      "htmlUrl": "https://github.com/zackkendra",
+      "contributions": 2
     },
     {
       "id": 939550,
@@ -32,18 +39,11 @@
       "contributions": 3
     },
     {
-      "id": 7886905,
-      "login": "fryckbos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
-      "htmlUrl": "https://github.com/fryckbos",
-      "contributions": 3
-    },
-    {
-      "id": 7229810,
-      "login": "zackkendra",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7229810?v=4",
-      "htmlUrl": "https://github.com/zackkendra",
-      "contributions": 2
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 1
     },
     {
       "id": 929261,
@@ -74,6 +74,27 @@
       "contributions": 3
     },
     {
+      "id": 717815,
+      "login": "carlosroman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/717815?v=4",
+      "htmlUrl": "https://github.com/carlosroman",
+      "contributions": 1
+    },
+    {
+      "id": 7555235,
+      "login": "jportasa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7555235?v=4",
+      "htmlUrl": "https://github.com/jportasa",
+      "contributions": 1
+    },
+    {
+      "id": 7886905,
+      "login": "fryckbos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
+      "htmlUrl": "https://github.com/fryckbos",
+      "contributions": 3
+    },
+    {
       "id": 12631702,
       "login": "camdencheek",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12631702?v=4",
@@ -85,13 +106,6 @@
       "login": "Kav91",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 1
-    },
-    {
-      "id": 717815,
-      "login": "carlosroman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/717815?v=4",
-      "htmlUrl": "https://github.com/carlosroman",
       "contributions": 1
     }
   ],
