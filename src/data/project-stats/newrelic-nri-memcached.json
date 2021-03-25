@@ -1,35 +1,35 @@
 {
   "projectFullName": "newrelic/nri-memcached",
   "issues": {
-    "open": 2
+    "open": 1
   },
   "releases": 12,
   "latestRelease": {
-    "name": "v0.0.1",
-    "date": "2021-01-19T10:59:43Z"
+    "name": "v2.1.3",
+    "date": "2021-03-25T09:11:34Z"
   },
-  "commits": 87,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 11,
+  "commits": 90,
+  "lastSixMonthsCommitTotal": 5,
+  "contributors": 13,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 7555235,
-      "login": "jportasa",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7555235?v=4",
-      "htmlUrl": "https://github.com/jportasa",
-      "contributions": 1
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 2
     },
     {
-      "id": 7886905,
-      "login": "fryckbos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
-      "htmlUrl": "https://github.com/fryckbos",
-      "contributions": 4
+      "id": 13438133,
+      "login": "matiasburni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
+      "htmlUrl": "https://github.com/matiasburni",
+      "contributions": 2
     },
     {
       "id": 7229810,
@@ -44,6 +44,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/939550?v=4",
       "htmlUrl": "https://github.com/mariomac",
       "contributions": 2
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 1
     },
     {
       "id": 1753943,
@@ -74,11 +81,25 @@
       "contributions": 1
     },
     {
-      "id": 13438133,
-      "login": "matiasburni",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
-      "htmlUrl": "https://github.com/matiasburni",
-      "contributions": 2
+      "id": 717815,
+      "login": "carlosroman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/717815?v=4",
+      "htmlUrl": "https://github.com/carlosroman",
+      "contributions": 1
+    },
+    {
+      "id": 7555235,
+      "login": "jportasa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7555235?v=4",
+      "htmlUrl": "https://github.com/jportasa",
+      "contributions": 1
+    },
+    {
+      "id": 7886905,
+      "login": "fryckbos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
+      "htmlUrl": "https://github.com/fryckbos",
+      "contributions": 4
     },
     {
       "id": 12631702,
@@ -86,13 +107,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/12631702?v=4",
       "htmlUrl": "https://github.com/camdencheek",
       "contributions": 41
-    },
-    {
-      "id": 717815,
-      "login": "carlosroman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/717815?v=4",
-      "htmlUrl": "https://github.com/carlosroman",
-      "contributions": 1
     }
   ],
   "languages": [
