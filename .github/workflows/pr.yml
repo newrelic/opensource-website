@@ -26,8 +26,8 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.yarn.lock
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/node_modules') }}
+          path: '**/node_modules'
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
@@ -65,8 +65,8 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.yarn.lock
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/node_modules') }}
+          path: '**/node_modules'
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
@@ -154,8 +154,8 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.yarn.lock
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/node_modules') }}
+          path: '**/node_modules'
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
@@ -200,8 +200,8 @@ jobs:
         env:
           cache-name: node-modules
         with:
-          path: ~/.yarn.lock
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/node_modules') }}
+          path: '**/node_modules'
+          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-${{ env.cache-name }}-
 
