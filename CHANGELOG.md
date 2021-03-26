@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/newrelic/opensource-website/compare/v1.11.1...v1.11.2) (2021-03-26)
+
+
+### Bug Fixes
+
+* package.json to reduce vulnerabilities ([81489ee](https://github.com/newrelic/opensource-website/commit/81489ee156d93609f22d629d2d36fe76f23948d5))
+
 ## [1.11.1](https://github.com/newrelic/opensource-website/compare/v1.11.0...v1.11.1) (2021-03-23)
 
 
