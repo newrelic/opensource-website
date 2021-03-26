@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/demo-simulator",
   "issues": {
-    "open": 2
+    "open": 3
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 27,
-  "lastSixMonthsCommitTotal": 25,
+  "commits": 30,
+  "lastSixMonthsCommitTotal": 28,
   "contributors": 4,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -40,7 +40,7 @@
       "login": "aswanson-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
       "htmlUrl": "https://github.com/aswanson-nr",
-      "contributions": 10
+      "contributions": 12
     }
   ],
   "languages": [
@@ -68,6 +68,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDE=",
       "name": "Ruby",
       "color": "#701516"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
     }
   ],
   "screenshots": [],
