@@ -1,16 +1,13 @@
 {
-  "projectFullName": "newrelic/video-theplatform-js",
+  "projectFullName": "newrelic/video-agent-android",
   "issues": {
     "open": 0
   },
-  "releases": 8,
-  "latestRelease": {
-    "name": "v0.3.0",
-    "date": null
-  },
-  "commits": 51,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 3,
+  "releases": 0,
+  "latestRelease": null,
+  "commits": 274,
+  "lastSixMonthsCommitTotal": 72,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -22,38 +19,26 @@
       "login": "adwetzelnr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8813505?v=4",
       "htmlUrl": "https://github.com/adwetzelnr",
-      "contributions": 8
+      "contributions": 1
     },
     {
       "id": 6130000,
       "login": "asllop",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6130000?v=4",
       "htmlUrl": "https://github.com/asllop",
-      "contributions": 4
-    },
-    {
-      "id": 14294477,
-      "login": "jaguilar87",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/14294477?v=4",
-      "htmlUrl": "https://github.com/jaguilar87",
-      "contributions": 33
+      "contributions": 123
     }
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2UxNDA=",
-      "name": "JavaScript",
-      "color": "#f1e05a"
+      "id": "MDg6TGFuZ3VhZ2UxNTg=",
+      "name": "Java",
+      "color": "#b07219"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2U1MzU=",
-      "name": "Dockerfile",
-      "color": "#384d54"
+      "id": "MDg6TGFuZ3VhZ2UyNzI=",
+      "name": "Kotlin",
+      "color": "#F18E33"
     }
   ],
   "screenshots": [],
