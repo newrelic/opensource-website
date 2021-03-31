@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 20,
+  "lastSixMonthsCommitTotal": 20,
+  "contributors": 2,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 59443662,
+      "login": "DominikMarciniszyn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59443662?v=4",
+      "htmlUrl": "https://github.com/DominikMarciniszyn",
+      "contributions": 18
+    },
     {
       "id": 13562672,
       "login": "jaesius",
@@ -22,7 +29,18 @@
       "contributions": 1
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyODc=",
+      "name": "TypeScript",
+      "color": "#2b7489"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
