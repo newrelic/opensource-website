@@ -1,0 +1,24 @@
+{
+  "name": "video-exoplayer-android",
+  "fullName": "newrelic/video-exoplayer-android",
+  "slug": "newrelic-video-exoplayer-android",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic ExoPlayer Agent for Android Mobile, Fire, and Android TV",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/video-agent-android",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/video-exoplayer-android",
+  "iconUrl": "https://user-images.githubusercontent.com/8813505/113346085-672a2e00-9301-11eb-84a6-c6d55adc3608.png",
+  "shortDescription": "Instrument ExoPlayer for Android",
+  "description": "New Relic instrumentation for Android on Android Mobile, Fire, and Android TV.  Includes support for IMA.",
+  "ossCategory": "new-relic-experimental",
+  "projectTags": ["agent", "video"],
+  "primaryLanguage": "Java",
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic ExoPlayer Agent for Android",
+    "url": "https://github.com/newrelic/video-agent-android"
+  }
+}
