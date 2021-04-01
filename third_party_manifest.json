@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "Fri Mar 19 2021 00:22:38 GMT+0000 (Coordinated Universal Time)",
+  "lastUpdated": "Fri Mar 26 2021 22:53:56 GMT+0000 (Coordinated Universal Time)",
   "projectName": "opensource-website",
   "projectUrl": "https://github.com/newrelic/opensource-website",
   "includeDev": true,
@@ -28,15 +28,15 @@
       "licenseUrl": "https://github.com/emotion-js/emotion/tree/master/packages/styled/blob/v10.0.27/LICENSE",
       "licenseTextSource": "file"
     },
-    "@mdx-js/mdx@1.6.19": {
+    "@mdx-js/mdx@1.6.22": {
       "name": "@mdx-js/mdx",
-      "version": "1.6.19",
-      "range": "^1.6.19",
+      "version": "1.6.22",
+      "range": "^1.6.22",
       "licenses": "MIT",
       "repoUrl": "https://github.com/mdx-js/mdx",
-      "versionedRepoUrl": "https://github.com/mdx-js/mdx/tree/v1.6.19",
+      "versionedRepoUrl": "https://github.com/mdx-js/mdx/tree/v1.6.22",
       "licenseFile": "node_modules/@mdx-js/mdx/license",
-      "licenseUrl": "https://github.com/mdx-js/mdx/blob/v1.6.19/license",
+      "licenseUrl": "https://github.com/mdx-js/mdx/blob/v1.6.22/license",
       "licenseTextSource": "file",
       "publisher": "John Otander",
       "email": "johnotander@gmail.com",
@@ -56,15 +56,15 @@
       "email": "johnotander@gmail.com",
       "url": "http://johnotander.com"
     },
-    "@newrelic/gatsby-theme-newrelic@1.16.3": {
+    "@newrelic/gatsby-theme-newrelic@1.37.0": {
       "name": "@newrelic/gatsby-theme-newrelic",
-      "version": "1.16.3",
-      "range": "^1.16.3",
+      "version": "1.37.0",
+      "range": "^1.36.1",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/newrelic/gatsby-theme-newrelic",
-      "versionedRepoUrl": "https://github.com/newrelic/gatsby-theme-newrelic/tree/v1.16.3",
+      "versionedRepoUrl": "https://github.com/newrelic/gatsby-theme-newrelic/tree/v1.37.0",
       "licenseFile": "node_modules/@newrelic/gatsby-theme-newrelic/LICENSE",
-      "licenseUrl": "https://github.com/newrelic/gatsby-theme-newrelic/blob/v1.16.3/LICENSE",
+      "licenseUrl": "https://github.com/newrelic/gatsby-theme-newrelic/blob/v1.37.0/LICENSE",
       "licenseTextSource": "file"
     },
     "@splitsoftware/splitio-react@1.2.4": {
@@ -79,15 +79,15 @@
       "licenseTextSource": "file",
       "publisher": "Split Software"
     },
-    "date-fns@2.17.0": {
+    "date-fns@2.19.0": {
       "name": "date-fns",
-      "version": "2.17.0",
+      "version": "2.19.0",
       "range": "^2.17.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/date-fns/date-fns",
-      "versionedRepoUrl": "https://github.com/date-fns/date-fns/tree/v2.17.0",
+      "versionedRepoUrl": "https://github.com/date-fns/date-fns/tree/v2.19.0",
       "licenseFile": "node_modules/date-fns/LICENSE.md",
-      "licenseUrl": "https://github.com/date-fns/date-fns/blob/v2.17.0/LICENSE.md",
+      "licenseUrl": "https://github.com/date-fns/date-fns/blob/v2.19.0/LICENSE.md",
       "licenseTextSource": "file"
     },
     "feather-icons@4.28.0": {
@@ -117,39 +117,39 @@
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
     },
-    "gatsby-plugin-manifest@2.12.0": {
+    "gatsby-plugin-manifest@2.12.1": {
       "name": "gatsby-plugin-manifest",
-      "version": "2.12.0",
+      "version": "2.12.1",
       "range": "^2.12.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v2.12.0",
+      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v2.12.1",
       "licenseFile": "node_modules/gatsby-plugin-manifest/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v2.12.0/LICENSE",
+      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v2.12.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
     },
-    "gatsby-plugin-mdx@1.10.0": {
+    "gatsby-plugin-mdx@1.10.1": {
       "name": "gatsby-plugin-mdx",
-      "version": "1.10.0",
+      "version": "1.10.1",
       "range": "^1.10.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v1.10.0",
+      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v1.10.1",
       "licenseFile": "node_modules/gatsby-plugin-mdx/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v1.10.0/LICENSE",
+      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v1.10.1/LICENSE",
       "licenseTextSource": "file"
     },
-    "gatsby-plugin-offline@3.10.1": {
+    "gatsby-plugin-offline@3.10.2": {
       "name": "gatsby-plugin-offline",
-      "version": "3.10.1",
+      "version": "3.10.2",
       "range": "^3.10.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v3.10.1",
+      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v3.10.2",
       "licenseFile": "node_modules/gatsby-plugin-offline/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v3.10.1/LICENSE",
+      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v3.10.2/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
@@ -167,15 +167,15 @@
       "publisher": "Daniel Farrell",
       "email": "daniel@mobelux.com"
     },
-    "gatsby-plugin-sharp@2.14.1": {
+    "gatsby-plugin-sharp@2.14.3": {
       "name": "gatsby-plugin-sharp",
-      "version": "2.14.1",
+      "version": "2.14.3",
       "range": "^2.14.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v2.14.1",
+      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v2.14.3",
       "licenseFile": "node_modules/gatsby-plugin-sharp/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v2.14.1/LICENSE",
+      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v2.14.3/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
@@ -193,28 +193,28 @@
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
     },
-    "gatsby-remark-images@3.11.0": {
+    "gatsby-remark-images@3.11.1": {
       "name": "gatsby-remark-images",
-      "version": "3.11.0",
+      "version": "3.11.1",
       "range": "^3.11.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v3.11.0",
+      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v3.11.1",
       "licenseFile": "node_modules/gatsby-remark-images/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v3.11.0/LICENSE",
+      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v3.11.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
     },
-    "gatsby-source-filesystem@2.11.0": {
+    "gatsby-source-filesystem@2.11.1": {
       "name": "gatsby-source-filesystem",
-      "version": "2.11.0",
+      "version": "2.11.1",
       "range": "^2.11.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v2.11.0",
+      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v2.11.1",
       "licenseFile": "node_modules/gatsby-source-filesystem/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v2.11.0/LICENSE",
+      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v2.11.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
@@ -232,15 +232,15 @@
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
     },
-    "gatsby@2.32.4": {
+    "gatsby@2.32.11": {
       "name": "gatsby",
-      "version": "2.32.4",
-      "range": "^2.32.4",
+      "version": "2.32.11",
+      "range": "^2.32.8",
       "licenses": "MIT",
       "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v2.32.4",
+      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v2.32.11",
       "licenseFile": "node_modules/gatsby/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v2.32.4/LICENSE",
+      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v2.32.11/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Kyle Mathews",
       "email": "mathews.kyle@gmail.com"
@@ -271,19 +271,6 @@
       "email": "briandavidvaughn@gmail.com",
       "url": "https://github.com/bvaughn/"
     },
-    "lodash@4.17.20": {
-      "name": "lodash",
-      "version": "4.17.20",
-      "range": "^4.17.20",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/lodash/lodash",
-      "versionedRepoUrl": "https://github.com/lodash/lodash/tree/v4.17.20",
-      "licenseFile": "node_modules/lodash/LICENSE",
-      "licenseUrl": "https://github.com/lodash/lodash/blob/v4.17.20/LICENSE",
-      "licenseTextSource": "file",
-      "publisher": "John-David Dalton",
-      "email": "john.david.dalton@gmail.com"
-    },
     "lodash@4.17.21": {
       "name": "lodash",
       "version": "4.17.21",
@@ -297,15 +284,15 @@
       "publisher": "John-David Dalton",
       "email": "john.david.dalton@gmail.com"
     },
-    "marked@1.1.1": {
+    "marked@2.0.1": {
       "name": "marked",
-      "version": "1.1.1",
-      "range": "^1.1.1",
+      "version": "2.0.1",
+      "range": "^2.0.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/markedjs/marked",
-      "versionedRepoUrl": "https://github.com/markedjs/marked/tree/v1.1.1",
+      "versionedRepoUrl": "https://github.com/markedjs/marked/tree/v2.0.1",
       "licenseFile": "node_modules/marked/LICENSE.md",
-      "licenseUrl": "https://github.com/markedjs/marked/blob/v1.1.1/LICENSE.md",
+      "licenseUrl": "https://github.com/markedjs/marked/blob/v2.0.1/LICENSE.md",
       "licenseTextSource": "file",
       "publisher": "Christopher Jeffrey"
     },
@@ -345,26 +332,26 @@
       "licenseUrl": "https://github.com/facebook/prop-types/blob/v15.7.2/LICENSE",
       "licenseTextSource": "file"
     },
-    "react-dom@16.13.1": {
+    "react-dom@16.14.0": {
       "name": "react-dom",
-      "version": "16.13.1",
-      "range": "^16.12.0",
+      "version": "16.14.0",
+      "range": "^16.14.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/facebook/react",
-      "versionedRepoUrl": "https://github.com/facebook/react/tree/v16.13.1",
+      "versionedRepoUrl": "https://github.com/facebook/react/tree/v16.14.0",
       "licenseFile": "node_modules/react-dom/LICENSE",
-      "licenseUrl": "https://github.com/facebook/react/blob/v16.13.1/LICENSE",
+      "licenseUrl": "https://github.com/facebook/react/blob/v16.14.0/LICENSE",
       "licenseTextSource": "file"
     },
-    "react-feather@2.0.8": {
+    "react-feather@2.0.9": {
       "name": "react-feather",
-      "version": "2.0.8",
+      "version": "2.0.9",
       "range": "^2.0.8",
       "licenses": "MIT",
       "repoUrl": "https://github.com/feathericons/react-feather",
-      "versionedRepoUrl": "https://github.com/feathericons/react-feather/tree/v2.0.8",
+      "versionedRepoUrl": "https://github.com/feathericons/react-feather/tree/v2.0.9",
       "licenseFile": "node_modules/react-feather/LICENSE",
-      "licenseUrl": "https://github.com/feathericons/react-feather/blob/v2.0.8/LICENSE",
+      "licenseUrl": "https://github.com/feathericons/react-feather/blob/v2.0.9/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Carmelo Pullara"
     },
@@ -420,30 +407,16 @@
       "publisher": "Ari Autio",
       "email": "ari.autio@iki.fi"
     },
-    "react@16.13.1": {
+    "react@16.14.0": {
       "name": "react",
-      "version": "16.13.1",
-      "range": "^16.12.0",
+      "version": "16.14.0",
+      "range": "^16.14.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/facebook/react",
-      "versionedRepoUrl": "https://github.com/facebook/react/tree/v16.13.1",
+      "versionedRepoUrl": "https://github.com/facebook/react/tree/v16.14.0",
       "licenseFile": "node_modules/react/LICENSE",
-      "licenseUrl": "https://github.com/facebook/react/blob/v16.13.1/LICENSE",
+      "licenseUrl": "https://github.com/facebook/react/blob/v16.14.0/LICENSE",
       "licenseTextSource": "file"
-    },
-    "unist-util-visit@2.0.2": {
-      "name": "unist-util-visit",
-      "version": "2.0.2",
-      "range": "^2.0.2",
-      "licenses": "MIT",
-      "repoUrl": "https://github.com/syntax-tree/unist-util-visit",
-      "versionedRepoUrl": "https://github.com/syntax-tree/unist-util-visit/tree/v2.0.2",
-      "licenseFile": "node_modules/unist-util-visit/license",
-      "licenseUrl": "https://github.com/syntax-tree/unist-util-visit/blob/v2.0.2/license",
-      "licenseTextSource": "file",
-      "publisher": "Titus Wormer",
-      "email": "tituswormer@gmail.com",
-      "url": "https://wooorm.com"
     },
     "unist-util-visit@2.0.3": {
       "name": "unist-util-visit",
@@ -484,15 +457,15 @@
     }
   },
   "devDependencies": {
-    "@newrelic/eslint-plugin-newrelic@0.3.0": {
+    "@newrelic/eslint-plugin-newrelic@0.3.1": {
       "name": "@newrelic/eslint-plugin-newrelic",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "range": "^0.3.0",
       "licenses": "Apache-2.0",
       "repoUrl": "https://github.com/NewRelic/eslint-plugin-newrelic",
-      "versionedRepoUrl": "https://github.com/NewRelic/eslint-plugin-newrelic/tree/v0.3.0",
+      "versionedRepoUrl": "https://github.com/NewRelic/eslint-plugin-newrelic/tree/v0.3.1",
       "licenseFile": "node_modules/@newrelic/eslint-plugin-newrelic/LICENSE",
-      "licenseUrl": "https://github.com/NewRelic/eslint-plugin-newrelic/blob/v0.3.0/LICENSE",
+      "licenseUrl": "https://github.com/NewRelic/eslint-plugin-newrelic/blob/v0.3.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "New Relic"
     },
@@ -522,67 +495,67 @@
       "publisher": "Pierre Vanduynslager",
       "url": "https://github.com/pvdlg"
     },
-    "@testing-library/jest-dom@5.8.0": {
+    "@testing-library/jest-dom@5.11.9": {
       "name": "@testing-library/jest-dom",
-      "version": "5.8.0",
+      "version": "5.11.9",
       "range": "^5.8.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/testing-library/jest-dom",
-      "versionedRepoUrl": "https://github.com/testing-library/jest-dom/tree/v5.8.0",
+      "versionedRepoUrl": "https://github.com/testing-library/jest-dom/tree/v5.11.9",
       "licenseFile": "node_modules/@testing-library/jest-dom/LICENSE",
-      "licenseUrl": "https://github.com/testing-library/jest-dom/blob/v5.8.0/LICENSE",
+      "licenseUrl": "https://github.com/testing-library/jest-dom/blob/v5.11.9/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Ernesto Garcia",
       "email": "gnapse@gmail.com",
       "url": "http://gnapse.github.io"
     },
-    "@testing-library/react@10.0.4": {
+    "@testing-library/react@10.4.9": {
       "name": "@testing-library/react",
-      "version": "10.0.4",
+      "version": "10.4.9",
       "range": "^10.0.4",
       "licenses": "MIT",
       "repoUrl": "https://github.com/testing-library/react-testing-library",
-      "versionedRepoUrl": "https://github.com/testing-library/react-testing-library/tree/v10.0.4",
+      "versionedRepoUrl": "https://github.com/testing-library/react-testing-library/tree/v10.4.9",
       "licenseFile": "node_modules/@testing-library/react/LICENSE",
-      "licenseUrl": "https://github.com/testing-library/react-testing-library/blob/v10.0.4/LICENSE",
+      "licenseUrl": "https://github.com/testing-library/react-testing-library/blob/v10.4.9/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Kent C. Dodds",
       "email": "me@kentcdodds.com",
       "url": "https://kentcdodds.com"
     },
-    "babel-jest@26.0.1": {
+    "babel-jest@26.6.3": {
       "name": "babel-jest",
-      "version": "26.0.1",
-      "range": "^26.0.1",
+      "version": "26.6.3",
+      "range": "^26.6.3",
       "licenses": "MIT",
       "repoUrl": "https://github.com/facebook/jest",
-      "versionedRepoUrl": "https://github.com/facebook/jest/tree/v26.0.1",
+      "versionedRepoUrl": "https://github.com/facebook/jest/tree/v26.6.3",
       "licenseFile": "node_modules/babel-jest/LICENSE",
-      "licenseUrl": "https://github.com/facebook/jest/blob/v26.0.1/LICENSE",
+      "licenseUrl": "https://github.com/facebook/jest/blob/v26.6.3/LICENSE",
       "licenseTextSource": "file"
     },
-    "babel-preset-gatsby@0.4.7": {
+    "babel-preset-gatsby@0.4.12": {
       "name": "babel-preset-gatsby",
-      "version": "0.4.7",
+      "version": "0.4.12",
       "range": "^0.4.7",
       "licenses": "MIT",
       "repoUrl": "https://github.com/gatsbyjs/gatsby",
-      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v0.4.7",
+      "versionedRepoUrl": "https://github.com/gatsbyjs/gatsby/tree/v0.4.12",
       "licenseFile": "node_modules/babel-preset-gatsby/LICENSE",
-      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v0.4.7/LICENSE",
+      "licenseUrl": "https://github.com/gatsbyjs/gatsby/blob/v0.4.12/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Philipp Spiess",
       "email": "hello@philippspiess.com"
     },
-    "eslint@7.2.0": {
+    "eslint@7.22.0": {
       "name": "eslint",
-      "version": "7.2.0",
+      "version": "7.22.0",
       "range": "^7.2.0",
       "licenses": "MIT",
       "repoUrl": "https://github.com/eslint/eslint",
-      "versionedRepoUrl": "https://github.com/eslint/eslint/tree/v7.2.0",
+      "versionedRepoUrl": "https://github.com/eslint/eslint/tree/v7.22.0",
       "licenseFile": "node_modules/eslint/LICENSE",
-      "licenseUrl": "https://github.com/eslint/eslint/blob/v7.2.0/LICENSE",
+      "licenseUrl": "https://github.com/eslint/eslint/blob/v7.22.0/LICENSE",
       "licenseTextSource": "file",
       "publisher": "Nicholas C. Zakas",
       "email": "nicholas+npm@nczconsulting.com"
@@ -613,38 +586,38 @@
       "licenseTextSource": "file",
       "publisher": "Kye Hohenberger"
     },
-    "jest@26.0.1": {
+    "jest@26.6.3": {
       "name": "jest",
-      "version": "26.0.1",
+      "version": "26.6.3",
       "range": "^26.0.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/facebook/jest",
-      "versionedRepoUrl": "https://github.com/facebook/jest/tree/v26.0.1",
+      "versionedRepoUrl": "https://github.com/facebook/jest/tree/v26.6.3",
       "licenseFile": "node_modules/jest/LICENSE",
-      "licenseUrl": "https://github.com/facebook/jest/blob/v26.0.1/LICENSE",
+      "licenseUrl": "https://github.com/facebook/jest/blob/v26.6.3/LICENSE",
       "licenseTextSource": "file"
     },
-    "prettier@2.0.5": {
+    "prettier@2.2.1": {
       "name": "prettier",
-      "version": "2.0.5",
+      "version": "2.2.1",
       "range": "^2.0.5",
       "licenses": "MIT",
       "repoUrl": "https://github.com/prettier/prettier",
-      "versionedRepoUrl": "https://github.com/prettier/prettier/tree/v2.0.5",
+      "versionedRepoUrl": "https://github.com/prettier/prettier/tree/v2.2.1",
       "licenseFile": "node_modules/prettier/LICENSE",
-      "licenseUrl": "https://github.com/prettier/prettier/blob/v2.0.5/LICENSE",
+      "licenseUrl": "https://github.com/prettier/prettier/blob/v2.2.1/LICENSE",
       "licenseTextSource": "file",
       "publisher": "James Long"
     },
-    "react-test-renderer@16.13.1": {
+    "react-test-renderer@16.14.0": {
       "name": "react-test-renderer",
-      "version": "16.13.1",
+      "version": "16.14.0",
       "range": "^16.13.1",
       "licenses": "MIT",
       "repoUrl": "https://github.com/facebook/react",
-      "versionedRepoUrl": "https://github.com/facebook/react/tree/v16.13.1",
+      "versionedRepoUrl": "https://github.com/facebook/react/tree/v16.14.0",
       "licenseFile": "node_modules/react-test-renderer/LICENSE",
-      "licenseUrl": "https://github.com/facebook/react/blob/v16.13.1/LICENSE",
+      "licenseUrl": "https://github.com/facebook/react/blob/v16.14.0/LICENSE",
       "licenseTextSource": "file"
     }
   }

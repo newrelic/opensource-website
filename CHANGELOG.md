@@ -1,3 +1,17 @@
+# [1.12.0](https://github.com/newrelic/opensource-website/compare/v1.11.2...v1.12.0) (2021-04-01)
+
+
+### Features
+
+* **logo:** update logo in header/footer ([d8fb95d](https://github.com/newrelic/opensource-website/commit/d8fb95d990967db80d4247e477c00f8ad99e812f))
+
+## [1.11.2](https://github.com/newrelic/opensource-website/compare/v1.11.1...v1.11.2) (2021-03-26)
+
+
+### Bug Fixes
+
+* package.json to reduce vulnerabilities ([81489ee](https://github.com/newrelic/opensource-website/commit/81489ee156d93609f22d629d2d36fe76f23948d5))
+
 ## [1.11.1](https://github.com/newrelic/opensource-website/compare/v1.11.0...v1.11.1) (2021-03-23)
 
 
