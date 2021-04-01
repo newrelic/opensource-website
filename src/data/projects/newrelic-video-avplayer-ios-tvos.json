@@ -1,0 +1,24 @@
+{
+  "name": "video-avplayer-ios-tvos",
+  "fullName": "newrelic/video-avplayer-ios-tvos",
+  "slug": "newrelic-video-avplayer-ios-tvos",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic AVPlayer Agent for iOS and tvOS",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/video-agent-iOS",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/video-avplayer-ios-tvos",
+  "iconUrl": "https://user-images.githubusercontent.com/8813505/113341142-d0f30980-92fa-11eb-9666-4c16ff3b54f4.png",
+  "shortDescription": "Instrument AVPlayer on iOS and tvOS",
+  "description": "New Relic instrumentation for AVPlayer on iOS and tvOS.  Includes support for IMA.",
+  "ossCategory": "new-relic-experimental",
+  "projectTags": ["agent", "video"],
+  "primaryLanguage": "ObjectiveC",
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic AVPlayer Agent for iOS and tvOS",
+    "url": "https://github.com/newrelic/video-agent-iOS"
+  }
+}
