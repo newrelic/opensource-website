@@ -15,9 +15,7 @@ module.exports = {
     {
       resolve: '@newrelic/gatsby-theme-newrelic',
       options: {
-        gaTrackingId: 'UA-3047412-33',
         layout: {
-          // 1180px (width) + 28px (padding) * 2 (left/right side)
           maxWidth: '1236px',
           contentPadding: '28px',
         },
@@ -64,6 +62,20 @@ module.exports = {
             //   licenseKey: '',
             //   applicationID: ''
             // }
+          },
+        },
+        tessen: {
+          product: 'OSS',
+          subproduct: 'TOSS',
+          segmentWriteKey: 'AEfP8c1VSuFxhMdk3jYFQrYQV9sHbUXx',
+          trackPageViews: true,
+          pageView: {
+            name: 'pageView',
+            category: 'DocPageView',
+            getProperties: ({ location, env }) => ({
+              path: location.pathname,
+              env: env === 'production' ? 'prod' : env,
+            }),
           },
         },
       },
