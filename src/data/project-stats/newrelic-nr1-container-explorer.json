@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nr1-container-explorer",
   "issues": {
-    "open": 6
+    "open": 5
   },
-  "releases": 16,
+  "releases": 17,
   "latestRelease": {
-    "name": "v0.9.2",
-    "date": "2021-02-17T22:51:14Z"
+    "name": "v0.9.3",
+    "date": "2021-04-02T22:07:27Z"
   },
-  "commits": 161,
-  "lastSixMonthsCommitTotal": 8,
-  "contributors": 11,
+  "commits": 164,
+  "lastSixMonthsCommitTotal": 11,
+  "contributors": 12,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 70179303,
+      "login": "aswanson-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
+      "htmlUrl": "https://github.com/aswanson-nr",
+      "contributions": 1
+    },
     {
       "id": 1395158,
       "login": "jpvajda",
@@ -29,7 +36,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 5
+      "contributions": 6
     },
     {
       "id": 3828366,
