@@ -3,11 +3,14 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v0.0.1",
+    "date": "2021-04-05T21:25:59Z"
+  },
+  "commits": 2,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +23,27 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
       "htmlUrl": "https://github.com/sschwartzman",
       "contributions": 1
+    },
+    {
+      "id": 20245790,
+      "login": "msummers-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20245790?v=4",
+      "htmlUrl": "https://github.com/msummers-nr",
+      "contributions": 1
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U0NDA=",
+      "name": "CMake",
+      "color": null
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDI=",
+      "name": "C++",
+      "color": "#f34b7d"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",

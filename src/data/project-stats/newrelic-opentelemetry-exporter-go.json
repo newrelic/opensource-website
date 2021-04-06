@@ -1,46 +1,28 @@
 {
   "projectFullName": "newrelic/opentelemetry-exporter-go",
   "issues": {
-    "open": 9
+    "open": 6
   },
   "releases": 5,
   "latestRelease": {
     "name": "v0.17.0",
     "date": "2021-03-04T23:38:01Z"
   },
-  "commits": 135,
-  "lastSixMonthsCommitTotal": 65,
+  "commits": 139,
+  "lastSixMonthsCommitTotal": 69,
   "contributors": 15,
   "pullRequests": {
-    "open": 2
+    "open": 4
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU4MDI1NDI3MjU=",
-      "title": "Simplify EU configuration in Quick Start Guide",
-      "url": "https://github.com/newrelic/opentelemetry-exporter-go/issues/61",
-      "createdAt": "2021-02-05T23:36:51Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "RichVanderwal",
-        "id": "MDQ6VXNlcjEzMTIzMTQ1",
-        "email": "",
-        "name": "Rich Vanderwal"
-      },
-      "number": 61,
-      "createdBy": "Rich Vanderwal"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 21367523,
-      "login": "subvocal",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/21367523?v=4",
-      "htmlUrl": "https://github.com/subvocal",
-      "contributions": 1
+      "id": 52758187,
+      "login": "newrelic-eheinlein",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52758187?v=4",
+      "htmlUrl": "https://github.com/newrelic-eheinlein",
+      "contributions": 5
     },
     {
       "id": 33581864,
@@ -50,11 +32,11 @@
       "contributions": 1
     },
     {
-      "id": 52758187,
-      "login": "newrelic-eheinlein",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52758187?v=4",
-      "htmlUrl": "https://github.com/newrelic-eheinlein",
-      "contributions": 5
+      "id": 21367523,
+      "login": "subvocal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21367523?v=4",
+      "htmlUrl": "https://github.com/subvocal",
+      "contributions": 1
     },
     {
       "id": 10250446,
@@ -124,7 +106,7 @@
       "login": "RichVanderwal",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13123145?v=4",
       "htmlUrl": "https://github.com/RichVanderwal",
-      "contributions": 21
+      "contributions": 23
     },
     {
       "id": 24503508,
