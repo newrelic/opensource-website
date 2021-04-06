@@ -1,12 +1,12 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-java-osb-11g",
+  "projectFullName": "newrelic/nr-querypack",
   "issues": {
     "open": 0
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 3,
-  "lastSixMonthsCommitTotal": 2,
+  "commits": 8,
+  "lastSixMonthsCommitTotal": 8,
   "contributors": 3,
   "pullRequests": {
     "open": 1
@@ -15,18 +15,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 41585091,
-      "login": "hsinghkalsi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/41585091?v=4",
-      "htmlUrl": "https://github.com/hsinghkalsi",
+      "id": 4933147,
+      "login": "martinkuba",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4933147?v=4",
+      "htmlUrl": "https://github.com/martinkuba",
       "contributions": 1
     },
     {
-      "id": 8822859,
-      "login": "dhilpipre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
-      "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 1
+      "id": 4779220,
+      "login": "aubreymasten",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4779220?v=4",
+      "htmlUrl": "https://github.com/aubreymasten",
+      "contributions": 5
     },
     {
       "id": 43244625,
@@ -38,14 +38,9 @@
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2UxNTg=",
-      "name": "Java",
-      "color": "#b07219"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
     }
   ],
   "screenshots": [],
