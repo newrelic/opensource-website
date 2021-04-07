@@ -67,7 +67,7 @@ module.exports = {
         tessen: {
           product: 'OSS',
           subproduct: 'TOSS',
-          segmentWriteKey: 'AEfP8c1VSuFxhMdk3jYFQrYQV9sHbUXx',
+          segmentWriteKey: 'FoEoyHDGF4dDczR4Vt12vuysG1Rl4n8z',
           trackPageViews: true,
           pageView: {
             name: 'pageView',
