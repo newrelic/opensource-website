@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nri-kube-events",
   "issues": {
-    "open": 5
+    "open": 6
   },
   "releases": 4,
   "latestRelease": {
@@ -15,7 +15,25 @@
     "open": 3
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU4NTQ2MjQ2NDg=",
+      "title": "[CI/CD] Integration Version is no set automatically",
+      "url": "https://github.com/newrelic/nri-kube-events/issues/26",
+      "createdAt": "2021-04-09T15:24:02Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "paologallinaharbur",
+        "id": "MDQ6VXNlcjQzMzM1NzUw",
+        "email": "",
+        "name": "PaoloGallina"
+      },
+      "number": 26,
+      "createdBy": "PaoloGallina"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 59606623,
@@ -25,18 +43,18 @@
       "contributions": 1
     },
     {
-      "id": 503802,
-      "login": "jorik",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
-      "htmlUrl": "https://github.com/jorik",
-      "contributions": 3
-    },
-    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
+    },
+    {
+      "id": 503802,
+      "login": "jorik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
+      "htmlUrl": "https://github.com/jorik",
+      "contributions": 3
     },
     {
       "id": 43335750,
