@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 69
+    "open": 68
   },
   "releases": 59,
   "latestRelease": {
@@ -34,23 +34,6 @@
       "createdBy": "lspangler584"
     },
     {
-      "id": "MDU6SXNzdWU2ODMxNTIwOTE=",
-      "title": "InstrumentationWatcher can cause ThreadAbortException",
-      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/122",
-      "createdAt": "2020-08-20T23:20:15Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "lspangler584",
-        "id": "MDQ6VXNlcjIwMjY3OTc1",
-        "email": "",
-        "name": null
-      },
-      "number": 122,
-      "createdBy": "lspangler584"
-    },
-    {
       "id": "MDU6SXNzdWU2ODM2NDY3NzU=",
       "title": "Stop using Exceptions for flow control",
       "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/131",
@@ -65,6 +48,23 @@
         "name": null
       },
       "number": 131,
+      "createdBy": "lspangler584"
+    },
+    {
+      "id": "MDU6SXNzdWU2ODM3MzUyODA=",
+      "title": "Add Lambda Example",
+      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/134",
+      "createdAt": "2020-08-21T18:21:31Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "lspangler584",
+        "id": "MDQ6VXNlcjIwMjY3OTc1",
+        "email": "",
+        "name": null
+      },
+      "number": 134,
       "createdBy": "lspangler584"
     }
   ],
