@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic-experimental/entity-synthesis-definitions",
   "issues": {
-    "open": 5
+    "open": 4
   },
   "releases": 22,
   "latestRelease": {
     "name": "2.7.0",
     "date": "2021-04-12T14:35:55Z"
   },
-  "commits": 170,
-  "lastSixMonthsCommitTotal": 170,
+  "commits": 175,
+  "lastSixMonthsCommitTotal": 175,
   "contributors": 31,
   "pullRequests": {
-    "open": 16
+    "open": 11
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -74,18 +74,11 @@
       "contributions": 4
     },
     {
-      "id": 976883,
-      "login": "jlegoff",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
-      "htmlUrl": "https://github.com/jlegoff",
-      "contributions": 3
-    },
-    {
       "id": 15843395,
       "login": "IreneMLC",
       "avatarUrl": "https://avatars.githubusercontent.com/u/15843395?v=4",
       "htmlUrl": "https://github.com/IreneMLC",
-      "contributions": 41
+      "contributions": 43
     },
     {
       "id": 43244625,
@@ -93,6 +86,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
+    },
+    {
+      "id": 976883,
+      "login": "jlegoff",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
+      "htmlUrl": "https://github.com/jlegoff",
+      "contributions": 3
     },
     {
       "id": 877369,
@@ -155,7 +155,7 @@
       "login": "naxhh",
       "avatarUrl": "https://avatars.githubusercontent.com/u/944635?v=4",
       "htmlUrl": "https://github.com/naxhh",
-      "contributions": 22
+      "contributions": 23
     },
     {
       "id": 79025418,
@@ -200,6 +200,13 @@
       "contributions": 1
     },
     {
+      "id": 76217151,
+      "login": "flisflis",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76217151?v=4",
+      "htmlUrl": "https://github.com/flisflis",
+      "contributions": 6
+    },
+    {
       "id": 37779995,
       "login": "ryanv94",
       "avatarUrl": "https://avatars.githubusercontent.com/u/37779995?v=4",
@@ -214,25 +221,18 @@
       "contributions": 1
     },
     {
+      "id": 30831476,
+      "login": "thezackm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30831476?v=4",
+      "htmlUrl": "https://github.com/thezackm",
+      "contributions": 7
+    },
+    {
       "id": 1479942,
       "login": "dfernandeza",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1479942?v=4",
       "htmlUrl": "https://github.com/dfernandeza",
       "contributions": 1
-    },
-    {
-      "id": 30831476,
-      "login": "thezackm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/30831476?v=4",
-      "htmlUrl": "https://github.com/thezackm",
-      "contributions": 5
-    },
-    {
-      "id": 76217151,
-      "login": "flisflis",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/76217151?v=4",
-      "htmlUrl": "https://github.com/flisflis",
-      "contributions": 6
     }
   ],
   "languages": [
@@ -240,6 +240,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
     }
   ],
   "screenshots": [],
