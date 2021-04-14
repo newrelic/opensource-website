@@ -3,11 +3,14 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "releases": 1,
+  "latestRelease": {
+    "name": "1.0",
+    "date": "2021-03-30T21:06:32Z"
+  },
+  "commits": 5,
+  "lastSixMonthsCommitTotal": 5,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,6 +23,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
       "htmlUrl": "https://github.com/sschwartzman",
       "contributions": 1
+    },
+    {
+      "id": 8822859,
+      "login": "dhilpipre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
+      "htmlUrl": "https://github.com/dhilpipre",
+      "contributions": 4
     }
   ],
   "languages": [
@@ -27,6 +37,11 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNTg=",
+      "name": "Java",
+      "color": "#b07219"
     }
   ],
   "screenshots": [],
