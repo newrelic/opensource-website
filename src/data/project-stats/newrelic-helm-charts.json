@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/helm-charts",
   "issues": {
-    "open": 38
+    "open": 39
   },
   "releases": 171,
   "latestRelease": {
@@ -32,6 +32,23 @@
       },
       "number": 304,
       "createdBy": "PaoloGallina"
+    },
+    {
+      "id": "MDU6SXNzdWU4NTgwODcwNzQ=",
+      "title": "[newrelic-infrastructure] document how to use integrations_config to configure integrations",
+      "url": "https://github.com/newrelic/helm-charts/issues/322",
+      "createdAt": "2021-04-14T17:00:22Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "roobre",
+        "id": "MDQ6VXNlcjk2OTcyMQ==",
+        "email": "",
+        "name": "Roberto Santalla"
+      },
+      "number": 322,
+      "createdBy": "Roberto Santalla"
     }
   ],
   "cachedContributors": [
