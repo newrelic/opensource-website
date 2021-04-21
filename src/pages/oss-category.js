@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { get } from 'lodash';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import marked from 'marked';
 
 import Layout from '../components/layout';
@@ -14,7 +14,7 @@ import nr1catalog from '../images/categories/New_Relic_One_Catalog_Project.png';
 import example from '../images/categories/Example_Code.png';
 import experimental from '../images/categories/Experimental.png';
 import archived from '../images/categories/Archived.png';
-import styles from './oss-category.module.scss';
+import * as styles from './oss-category.module.scss';
 
 export const query = graphql`
   query OssCategory {
@@ -93,7 +93,7 @@ const OssCategoryPage = ({ data, pageContext }) => {
         subheader="Every public repository in the New Relic and New Relic Experimental GitHub organizations leverages one of the following categories"
       />
       <div className="primary-content">
-        <aside className={`primary-content-aside ${styles.aside}`}>
+        <aside className="primary-content-aside">
           <div className={styles.categoriesNavigation}>
             <h4>Categories</h4>
             <ul

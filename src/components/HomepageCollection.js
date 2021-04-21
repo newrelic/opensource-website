@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Button } from '@newrelic/gatsby-theme-newrelic';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
-import styles from './HomepageCollection.module.scss';
+import * as styles from './HomepageCollection.module.scss';
 import SimpleProjectModule from './SimpleProjectModule';
 
 const HomepageCollection = ({ projects }) => {
@@ -42,9 +42,7 @@ const HomepageCollection = ({ projects }) => {
             }
           `}
         >
-          <span className={styles.subProjectCallToActionLabel}>
-            Explore open source instrumentation
-          </span>
+          <span>Explore open source instrumentation</span>
         </Button>
         {projects.map((project) => {
           const link = project.permalink.replace(

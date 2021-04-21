@@ -1,19 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProjectSearchInput Renders correctly 1`] = `
-<div
-  className="searchSection"
->
-  <div
-    className="searchContainer"
-  >
+<div>
+  <div>
     <img
       alt="search icon"
-      className="searchIcon"
       src="test-file-stub"
     />
     <input
-      className="searchInput"
       onChange={[Function]}
       placeholder="Search for a project"
       type="text"
@@ -21,10 +15,9 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
     />
   </div>
   <div
-    className="searchFilters mobileFiltersHidden"
+    className="undefined undefined"
   >
     <span
-      className="showFiltersButton"
       onClick={[Function]}
     >
       Show filters
@@ -45,7 +38,6 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
       </svg>
     </span>
     <select
-      className="searchFilter"
       onChange={[Function]}
       value=""
     >
@@ -57,7 +49,6 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
       </option>
     </select>
     <select
-      className="searchFilter"
       onChange={[Function]}
       value=""
     >
@@ -69,7 +60,6 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
       </option>
     </select>
     <select
-      className="searchFilter"
       onChange={[Function]}
       value=""
     >

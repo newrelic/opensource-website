@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Filter } from 'react-feather';
 
 import searchIcon from '../images/icon-search.svg';
-import styles from './ProjectSearchInput.module.scss';
+import * as styles from './ProjectSearchInput.module.scss';
 
 const ProjectSearchInput = ({
   searchQueryValue,

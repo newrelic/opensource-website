@@ -44,7 +44,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: var(--site-max-width);
   margin: 0 auto;
@@ -62,10 +61,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background-color: var(--primary-background-color);
   opacity: 0;
   -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
   -ms-transform: scale(1.04);
   transform: scale(1.04);
-  -webkit-transition: 0.5s cubic-bezier(0.215,0.61,0.355,1);
-  transition: 0.5s cubic-bezier(0.215,0.61,0.355,1);
+  -webkit-transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   visibility: hidden;
 }
 
@@ -77,8 +77,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   top: 0;
   left: 0;
   right: 0;
-  -webkit-transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
-  transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   padding: 0.25rem 0;
   height: 30px;
 }
@@ -96,7 +96,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -189,7 +188,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-self: center;
 }
 
-.emotion-26 .rc-pagination > li {
+.emotion-26 .rc-pagination>li {
   list-style: none;
 }
 
@@ -293,9 +292,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 .emotion-26 .rc-pagination-jump-next:after {
   content: '\\2022\\2022\\2022';
   display: block;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
   letter-spacing: 2px;
   color: #ccc;
   font-size: 12px;
@@ -304,7 +300,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 
 .emotion-26 .rc-pagination-jump-prev:hover:after,
 .emotion-26 .rc-pagination-jump-next:hover:after {
-  color: var(--link-color) !important;
+  color: var(--link-color)!important;
 }
 
 .emotion-26 .rc-pagination-jump-prev:hover:after {
@@ -333,9 +329,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   content: '\\2022\\2022\\2022';
   opacity: 1;
   display: block;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
   letter-spacing: 2px;
   color: #ccc;
   font-size: 12px;
@@ -498,10 +491,10 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
-  transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   position: relative;
-  color: rgba(0,0,0,0.65);
+  color: rgba(0, 0, 0, 0.65);
   background-color: #fff;
   border-color: #d9d9d9;
 }
@@ -569,10 +562,10 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
-  transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   position: relative;
-  color: rgba(0,0,0,0.65);
+  color: rgba(0, 0, 0, 0.65);
   background-color: #fff;
   border-color: #d9d9d9;
 }
@@ -585,7 +578,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   border-color: #2db7f5;
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
   .emotion-26 .rc-pagination-item-after-jump-prev,
   .emotion-26 .rc-pagination-item-before-jump-next {
     display: none;
@@ -628,12 +621,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   width: 100%;
   display: block;
   position: relative;
-  background: linear-gradient(to bottom,#fcfcfc 0%,#ffffff 100%);
-  -webkit-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc',endColorstr='#ffffff',GradientType=0 );
+  background: linear-gradient(to bottom, #fcfcfc 0%, #ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc',endColorstr='#ffffff',GradientType=0 );
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .emotion-26 .sui-layout-body:after {
     display: none;
   }
@@ -650,7 +642,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   padding: 0 24px;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .emotion-26 .sui-layout-body__inner {
     display: block;
     padding: 0 15px;
@@ -662,7 +654,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   padding: 32px 0 32px 32px;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .emotion-26 .sui-layout-main {
     width: 100%;
     padding-left: 0;
@@ -677,7 +669,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   width: 100%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -694,7 +685,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -713,8 +703,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
 }
 
@@ -728,8 +718,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -747,8 +737,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -765,11 +755,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   border: 0;
 }
 
-.emotion-26 .sui-facet + .sui-facet {
+.emotion-26 .sui-facet+.sui-facet {
   margin-top: 32px;
 }
 
-.emotion-26 .sui-sorting + .sui-facet {
+.emotion-26 .sui-sorting+.sui-facet {
   margin-top: 32px;
 }
 
@@ -777,9 +767,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   text-transform: uppercase;
   font-size: 12px;
   color: #8b9bad;
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
   letter-spacing: 1px;
   padding: 0;
 }
@@ -816,7 +803,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: pointer;
 }
@@ -893,7 +879,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: pointer;
 }
@@ -929,7 +914,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -951,7 +935,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   left: -5px;
   width: calc(100% + 10px);
   height: calc(100% + 2px);
-  background: rgba(37,139,248,0.08);
+  background: rgba(37, 139, 248, 0.08);
   pointer-events: none;
 }
 
@@ -985,7 +969,9 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   margin-left: 10px;
 }
 
-.emotion-26 .sui-paging > li {
+
+
+.emotion-26 .sui-paging>li {
   border: none;
   background: transparent;
   outline: none;
@@ -1094,7 +1080,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   color: var(--link-color);
 }
 
-.emotion-26 .sui-result + .sui-result {
+.emotion-26 .sui-result+.sui-result {
   margin-top: 0;
 }
 
@@ -1123,7 +1109,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -1249,8 +1234,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: flex;
   position: relative;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: stretch;
   -webkit-box-align: stretch;
@@ -1266,18 +1251,18 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   font-size: 14px;
   padding: 16px;
   margin-left: 10px;
-  text-shadow: rgba(0,0,0,0.05) 0px 1px 2px;
+  text-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
   color: white;
   border: none;
-  box-shadow: rgba(0,0,0,0.05) 0px 0px 0px 1px inset,rgba(59,69,79,0.05) 0px 1px 0px;
-  background: linear-gradient(#2da0fa,#3158ee) #2f7cf4;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset,rgba(59, 69, 79, 0.05) 0px 1px 0px;
+  background: linear-gradient(#2da0fa, #3158ee) #2f7cf4;
   cursor: pointer;
   border-radius: 4px;
 }
 
 .emotion-26 .sui-search-box__submit:hover {
-  box-shadow: rgba(0,0,0,0.3) 0px 0px 0px 1px inset,rgba(59,69,79,0.3) 0px 2px 4px;
-  background: linear-gradient(#3cabff,#4063f0) #3d84f7;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px inset,rgba(59, 69, 79, 0.3) 0px 2px 4px;
+  background: linear-gradient(#3cabff, #4063f0) #3d84f7;
 }
 
 .emotion-26 .live-filtering .sui-search-box__submit {
@@ -1315,7 +1300,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-search-box__text-input:focus {
-  box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
+  box-shadow: rgba(59, 69, 79, 0.3) 0px 2px 4px;
   border-top: 1px solid var(--link-color);
   border-left: 1px solid var(--link-color);
   border-right: 1px solid var(--link-color);
@@ -1323,7 +1308,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 .emotion-26 .autocomplete .sui-search-box__text-input {
-  box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
+  box-shadow: rgba(59, 69, 79, 0.3) 0px 2px 4px;
 }
 
 .emotion-26 .sui-search-box__autocomplete-container {
@@ -1339,7 +1324,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   line-height: 1.5;
   background: transparent;
   position: absolute;
-  box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
+  box-shadow: rgba(59, 69, 79, 0.3) 0px 2px 4px;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
@@ -1401,9 +1386,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 
 .emotion-26 .sui-search-box__section-title {
   font-size: 0.7em;
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
   letter-spacing: 1px;
   font-weight: normal;
   padding: 0 0 4px 24px;
@@ -1420,9 +1402,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 .emotion-26 .sui-sorting__label {
   font-size: 12px;
   text-transform: uppercase;
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
   letter-spacing: 1px;
 }
 
@@ -1456,7 +1435,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: stretch;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -1477,6 +1455,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   white-space: nowrap;
   position: static;
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -1493,8 +1472,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
@@ -1514,7 +1493,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -1552,7 +1530,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   position: relative;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .emotion-68::after {
     content: '';
     position: absolute;
@@ -1560,22 +1538,30 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     height: 100%;
     width: 2rem;
     pointer-events: none;
-    background: linear-gradient( to right,rgba(244,245,245,0),var(--color-neutrals-100) );
+    background: linear-gradient(
+                    to right,
+                    rgba(244,245,245,0),
+                    var(--color-neutrals-100)
+                  );
   }
 
   .dark-mode .emotion-68::after {
-    background: linear-gradient( to right,rgba(34,53,60,0),var(--color-dark-100) );
+    background: linear-gradient(
+                      to right,
+                      rgba(34,53,60,0),
+                      var(--color-dark-100)
+                    );
   }
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-68 {
     overflow: visible;
   }
 
   .emotion-68::after {
-    background: none !important;
-    width: 0 !important;
+    background: none!important;
+    width: 0!important;
   }
 }
 
@@ -1591,7 +1577,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   margin-right: 1rem;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-50 {
     display: none;
   }
@@ -1603,14 +1589,14 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   position: relative;
   display: none;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-62 {
     display: block;
   }
@@ -1626,8 +1612,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -1681,7 +1667,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   border-radius: 0.25rem;
   z-index: 1000;
   padding: 0.5rem;
-  box-shadow: 0 3px 8px 0 rgba(22,38,59,0.2);
+  box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
 .dark-mode .emotion-61 {
@@ -1747,14 +1733,14 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-67 > li {
+.emotion-67 >li {
   margin: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-67 {
     display: none;
   }
@@ -1807,17 +1793,17 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-85 > li {
+.emotion-85 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-85 > li:not(:first-of-type) {
+.emotion-85 >li:not(:first-of-type) {
   margin-left: 0.5rem;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-85 {
     -webkit-flex: unset;
     -ms-flex: unset;
@@ -1831,7 +1817,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   flex: 1;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-75 {
     -webkit-flex: unset;
     -ms-flex: unset;
@@ -1858,7 +1844,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   color: var(--secondary-text-hover-color);
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-70 {
     display: block;
   }
@@ -1886,7 +1872,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   max-width: 350px;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-74 {
     display: none;
   }
@@ -1904,6 +1890,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   left: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -1917,8 +1904,12 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
-  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
-  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-left: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
+  padding-right: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
   font-size: 0.75rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1926,8 +1917,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 
 .emotion-72:focus {
   outline: none;
-  border: 1px solid rgba(0,126,138,0.6);
-  box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
+  border: 1px solid rgba(0, 126, 138, 0.6);
+  box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
 .emotion-73 {
@@ -1935,6 +1926,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   right: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   border: 1px solid var(--border-color);
@@ -1991,8 +1983,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -2020,7 +2012,9 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   color: var(--link-hover-color);
 }
 
-@media screen and (max-width:545px) {
+
+
+@media screen and (max-width: 545px) {
   .emotion-77 {
     display: none;
   }
@@ -2037,7 +2031,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: none;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-78 {
     display: block;
   }
@@ -2060,8 +2054,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -2093,7 +2087,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   width: 257px;
 }
 
-@media screen and (max-width:724px) {
+@media screen and (max-width: 724px) {
   .emotion-109 {
     width: 160px;
     z-index: 500;
@@ -2118,7 +2112,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-116 > hr {
+.emotion-116>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
@@ -2139,8 +2133,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -2174,8 +2168,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -2228,7 +2222,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2239,14 +2232,14 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   margin: 0 auto;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .emotion-138 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
   }
 }
@@ -2257,18 +2250,18 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: block;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .emotion-137 {
     margin-bottom: 1rem;
   }
 }
 
 .emotion-142 {
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .dark-mode .emotion-142 {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .emotion-141 {
@@ -2279,7 +2272,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   display: grid;
   grid-template-columns: auto auto;
@@ -2289,11 +2281,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   margin: 0 auto;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-141 {
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
     text-align: center;
     grid-template-columns: auto;
@@ -2306,9 +2298,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
-  -webkit-letter-spacing: 0.1rem;
-  -moz-letter-spacing: 0.1rem;
-  -ms-letter-spacing: 0.1rem;
   letter-spacing: 0.1rem;
 }
 
@@ -2317,12 +2306,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   grid-area: legal;
 }
@@ -2333,7 +2323,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 <div
-  className="projectPageLayout emotion-144"
+  className="emotion-144"
 >
   <div
     className=" emotion-87"
@@ -2755,7 +2745,8 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     </div>
   </div>
   <header
-    className="primaryHeaderContainer hasHeaderBg "
+    className="undefined 
+        undefined"
   >
     <a
       className="emotion-109"
@@ -2812,44 +2803,30 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         />
       </svg>
     </a>
-    <ul
-      className="primaryHeaderNavLinks"
-    >
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+    <ul>
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/external-projects"
         >
           External Projects
         </a>
       </li>
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/collections"
         >
           Highlighted Projects
         </a>
       </li>
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/explore-projects"
         >
           New Relic Projects
         </a>
       </li>
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/standards"
         >
           Standards
@@ -2857,52 +2834,37 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
       </li>
     </ul>
     <div
-      className="primaryHeaderMobileNav "
+      className="undefined "
     >
       <button
-        className="mobileMenuButton"
         onClick={[Function]}
       >
         Menu
       </button>
-      <ul
-        className="primaryHeaderMobileNavLinks"
-      >
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+      <ul>
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/external-projects"
           >
             External Projects
           </a>
         </li>
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/collections"
           >
             Highlighted Projects
           </a>
         </li>
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/explore-projects"
           >
             New Relic Projects
           </a>
         </li>
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/standards"
           >
             Standards
@@ -2918,7 +2880,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
       className="primary-content"
     >
       <main
-        className="primary-content-main primaryContentMain"
+        className="primary-content-main undefined"
       >
         <h2>
           How New Relic is Involved
@@ -2955,15 +2917,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
       <aside
         className="primary-content-aside"
       >
-        <div
-          className="callToActionContainer"
-        >
+        <div>
           <div
-            className="callToActionButtons emotion-115"
+            className="emotion-115"
           >
-            <div
-              className="callToActionButtonsContainer"
-            >
+            <div>
               <a
                 className="emotion-110 emotion-55"
                 href="https://github.com/AdoptOpenJDK"
@@ -3169,7 +3127,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: var(--site-max-width);
   margin: 0 auto;
@@ -3187,10 +3144,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background-color: var(--primary-background-color);
   opacity: 0;
   -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
   -ms-transform: scale(1.04);
   transform: scale(1.04);
-  -webkit-transition: 0.5s cubic-bezier(0.215,0.61,0.355,1);
-  transition: 0.5s cubic-bezier(0.215,0.61,0.355,1);
+  -webkit-transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   visibility: hidden;
 }
 
@@ -3202,8 +3160,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   top: 0;
   left: 0;
   right: 0;
-  -webkit-transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
-  transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   padding: 0.25rem 0;
   height: 30px;
 }
@@ -3221,7 +3179,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -3314,7 +3271,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-self: center;
 }
 
-.emotion-26 .rc-pagination > li {
+.emotion-26 .rc-pagination>li {
   list-style: none;
 }
 
@@ -3418,9 +3375,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 .emotion-26 .rc-pagination-jump-next:after {
   content: '\\2022\\2022\\2022';
   display: block;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
   letter-spacing: 2px;
   color: #ccc;
   font-size: 12px;
@@ -3429,7 +3383,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 
 .emotion-26 .rc-pagination-jump-prev:hover:after,
 .emotion-26 .rc-pagination-jump-next:hover:after {
-  color: var(--link-color) !important;
+  color: var(--link-color)!important;
 }
 
 .emotion-26 .rc-pagination-jump-prev:hover:after {
@@ -3458,9 +3412,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   content: '\\2022\\2022\\2022';
   opacity: 1;
   display: block;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
   letter-spacing: 2px;
   color: #ccc;
   font-size: 12px;
@@ -3623,10 +3574,10 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
-  transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   position: relative;
-  color: rgba(0,0,0,0.65);
+  color: rgba(0, 0, 0, 0.65);
   background-color: #fff;
   border-color: #d9d9d9;
 }
@@ -3694,10 +3645,10 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
-  transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   position: relative;
-  color: rgba(0,0,0,0.65);
+  color: rgba(0, 0, 0, 0.65);
   background-color: #fff;
   border-color: #d9d9d9;
 }
@@ -3710,7 +3661,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   border-color: #2db7f5;
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
   .emotion-26 .rc-pagination-item-after-jump-prev,
   .emotion-26 .rc-pagination-item-before-jump-next {
     display: none;
@@ -3753,12 +3704,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   width: 100%;
   display: block;
   position: relative;
-  background: linear-gradient(to bottom,#fcfcfc 0%,#ffffff 100%);
-  -webkit-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc',endColorstr='#ffffff',GradientType=0 );
+  background: linear-gradient(to bottom, #fcfcfc 0%, #ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc',endColorstr='#ffffff',GradientType=0 );
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .emotion-26 .sui-layout-body:after {
     display: none;
   }
@@ -3775,7 +3725,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   padding: 0 24px;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .emotion-26 .sui-layout-body__inner {
     display: block;
     padding: 0 15px;
@@ -3787,7 +3737,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   padding: 32px 0 32px 32px;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .emotion-26 .sui-layout-main {
     width: 100%;
     padding-left: 0;
@@ -3802,7 +3752,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   width: 100%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -3819,7 +3768,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -3838,8 +3786,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
 }
 
@@ -3853,8 +3801,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -3872,8 +3820,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -3890,11 +3838,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   border: 0;
 }
 
-.emotion-26 .sui-facet + .sui-facet {
+.emotion-26 .sui-facet+.sui-facet {
   margin-top: 32px;
 }
 
-.emotion-26 .sui-sorting + .sui-facet {
+.emotion-26 .sui-sorting+.sui-facet {
   margin-top: 32px;
 }
 
@@ -3902,9 +3850,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   text-transform: uppercase;
   font-size: 12px;
   color: #8b9bad;
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
   letter-spacing: 1px;
   padding: 0;
 }
@@ -3941,7 +3886,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: pointer;
 }
@@ -4018,7 +3962,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: pointer;
 }
@@ -4054,7 +3997,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -4076,7 +4018,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   left: -5px;
   width: calc(100% + 10px);
   height: calc(100% + 2px);
-  background: rgba(37,139,248,0.08);
+  background: rgba(37, 139, 248, 0.08);
   pointer-events: none;
 }
 
@@ -4110,7 +4052,9 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   margin-left: 10px;
 }
 
-.emotion-26 .sui-paging > li {
+
+
+.emotion-26 .sui-paging>li {
   border: none;
   background: transparent;
   outline: none;
@@ -4219,7 +4163,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   color: var(--link-color);
 }
 
-.emotion-26 .sui-result + .sui-result {
+.emotion-26 .sui-result+.sui-result {
   margin-top: 0;
 }
 
@@ -4248,7 +4192,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -4374,8 +4317,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: flex;
   position: relative;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: stretch;
   -webkit-box-align: stretch;
@@ -4391,18 +4334,18 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   font-size: 14px;
   padding: 16px;
   margin-left: 10px;
-  text-shadow: rgba(0,0,0,0.05) 0px 1px 2px;
+  text-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
   color: white;
   border: none;
-  box-shadow: rgba(0,0,0,0.05) 0px 0px 0px 1px inset,rgba(59,69,79,0.05) 0px 1px 0px;
-  background: linear-gradient(#2da0fa,#3158ee) #2f7cf4;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset,rgba(59, 69, 79, 0.05) 0px 1px 0px;
+  background: linear-gradient(#2da0fa, #3158ee) #2f7cf4;
   cursor: pointer;
   border-radius: 4px;
 }
 
 .emotion-26 .sui-search-box__submit:hover {
-  box-shadow: rgba(0,0,0,0.3) 0px 0px 0px 1px inset,rgba(59,69,79,0.3) 0px 2px 4px;
-  background: linear-gradient(#3cabff,#4063f0) #3d84f7;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px inset,rgba(59, 69, 79, 0.3) 0px 2px 4px;
+  background: linear-gradient(#3cabff, #4063f0) #3d84f7;
 }
 
 .emotion-26 .live-filtering .sui-search-box__submit {
@@ -4440,7 +4383,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .sui-search-box__text-input:focus {
-  box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
+  box-shadow: rgba(59, 69, 79, 0.3) 0px 2px 4px;
   border-top: 1px solid var(--link-color);
   border-left: 1px solid var(--link-color);
   border-right: 1px solid var(--link-color);
@@ -4448,7 +4391,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 .emotion-26 .autocomplete .sui-search-box__text-input {
-  box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
+  box-shadow: rgba(59, 69, 79, 0.3) 0px 2px 4px;
 }
 
 .emotion-26 .sui-search-box__autocomplete-container {
@@ -4464,7 +4407,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   line-height: 1.5;
   background: transparent;
   position: absolute;
-  box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
+  box-shadow: rgba(59, 69, 79, 0.3) 0px 2px 4px;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
@@ -4526,9 +4469,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 
 .emotion-26 .sui-search-box__section-title {
   font-size: 0.7em;
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
   letter-spacing: 1px;
   font-weight: normal;
   padding: 0 0 4px 24px;
@@ -4545,9 +4485,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 .emotion-26 .sui-sorting__label {
   font-size: 12px;
   text-transform: uppercase;
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
   letter-spacing: 1px;
 }
 
@@ -4581,7 +4518,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: stretch;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -4602,6 +4538,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   white-space: nowrap;
   position: static;
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -4618,8 +4555,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
@@ -4639,7 +4576,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -4677,7 +4613,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   position: relative;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .emotion-68::after {
     content: '';
     position: absolute;
@@ -4685,22 +4621,30 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     height: 100%;
     width: 2rem;
     pointer-events: none;
-    background: linear-gradient( to right,rgba(244,245,245,0),var(--color-neutrals-100) );
+    background: linear-gradient(
+                    to right,
+                    rgba(244,245,245,0),
+                    var(--color-neutrals-100)
+                  );
   }
 
   .dark-mode .emotion-68::after {
-    background: linear-gradient( to right,rgba(34,53,60,0),var(--color-dark-100) );
+    background: linear-gradient(
+                      to right,
+                      rgba(34,53,60,0),
+                      var(--color-dark-100)
+                    );
   }
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-68 {
     overflow: visible;
   }
 
   .emotion-68::after {
-    background: none !important;
-    width: 0 !important;
+    background: none!important;
+    width: 0!important;
   }
 }
 
@@ -4716,7 +4660,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   margin-right: 1rem;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-50 {
     display: none;
   }
@@ -4728,14 +4672,14 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   position: relative;
   display: none;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-62 {
     display: block;
   }
@@ -4751,8 +4695,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -4806,7 +4750,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   border-radius: 0.25rem;
   z-index: 1000;
   padding: 0.5rem;
-  box-shadow: 0 3px 8px 0 rgba(22,38,59,0.2);
+  box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
 .dark-mode .emotion-61 {
@@ -4872,14 +4816,14 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-67 > li {
+.emotion-67 >li {
   margin: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-67 {
     display: none;
   }
@@ -4932,17 +4876,17 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-85 > li {
+.emotion-85 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-85 > li:not(:first-of-type) {
+.emotion-85 >li:not(:first-of-type) {
   margin-left: 0.5rem;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-85 {
     -webkit-flex: unset;
     -ms-flex: unset;
@@ -4956,7 +4900,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   flex: 1;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-75 {
     -webkit-flex: unset;
     -ms-flex: unset;
@@ -4983,7 +4927,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   color: var(--secondary-text-hover-color);
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-70 {
     display: block;
   }
@@ -5011,7 +4955,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   max-width: 350px;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-74 {
     display: none;
   }
@@ -5029,6 +4973,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   left: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -5042,8 +4987,12 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
-  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
-  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-left: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
+  padding-right: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
   font-size: 0.75rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -5051,8 +5000,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 
 .emotion-72:focus {
   outline: none;
-  border: 1px solid rgba(0,126,138,0.6);
-  box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
+  border: 1px solid rgba(0, 126, 138, 0.6);
+  box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
 .emotion-73 {
@@ -5060,6 +5009,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   right: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   border: 1px solid var(--border-color);
@@ -5116,8 +5066,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -5145,7 +5095,9 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   color: var(--link-hover-color);
 }
 
-@media screen and (max-width:545px) {
+
+
+@media screen and (max-width: 545px) {
   .emotion-77 {
     display: none;
   }
@@ -5162,7 +5114,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: none;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-78 {
     display: block;
   }
@@ -5185,8 +5137,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -5218,7 +5170,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   width: 257px;
 }
 
-@media screen and (max-width:724px) {
+@media screen and (max-width: 724px) {
   .emotion-109 {
     width: 160px;
     z-index: 500;
@@ -5243,7 +5195,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-116 > hr {
+.emotion-116>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
@@ -5264,8 +5216,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -5299,8 +5251,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -5353,7 +5305,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   display: -webkit-box;
   display: -webkit-flex;
@@ -5364,14 +5315,14 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   margin: 0 auto;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .emotion-138 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
   }
 }
@@ -5382,18 +5333,18 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: block;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .emotion-137 {
     margin-bottom: 1rem;
   }
 }
 
 .emotion-142 {
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .dark-mode .emotion-142 {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .emotion-141 {
@@ -5404,7 +5355,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   display: grid;
   grid-template-columns: auto auto;
@@ -5414,11 +5364,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   margin: 0 auto;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-141 {
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
     text-align: center;
     grid-template-columns: auto;
@@ -5431,9 +5381,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
-  -webkit-letter-spacing: 0.1rem;
-  -moz-letter-spacing: 0.1rem;
-  -ms-letter-spacing: 0.1rem;
   letter-spacing: 0.1rem;
 }
 
@@ -5442,12 +5389,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   grid-area: legal;
 }
@@ -5458,7 +5406,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 <div
-  className="projectPageLayout emotion-144"
+  className="emotion-144"
 >
   <div
     className=" emotion-87"
@@ -5880,7 +5828,8 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     </div>
   </div>
   <header
-    className="primaryHeaderContainer hasHeaderBg "
+    className="undefined 
+        undefined"
   >
     <a
       className="emotion-109"
@@ -5937,44 +5886,30 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         />
       </svg>
     </a>
-    <ul
-      className="primaryHeaderNavLinks"
-    >
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+    <ul>
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/external-projects"
         >
           External Projects
         </a>
       </li>
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/collections"
         >
           Highlighted Projects
         </a>
       </li>
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/explore-projects"
         >
           New Relic Projects
         </a>
       </li>
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/standards"
         >
           Standards
@@ -5982,52 +5917,37 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
       </li>
     </ul>
     <div
-      className="primaryHeaderMobileNav "
+      className="undefined "
     >
       <button
-        className="mobileMenuButton"
         onClick={[Function]}
       >
         Menu
       </button>
-      <ul
-        className="primaryHeaderMobileNavLinks"
-      >
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+      <ul>
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/external-projects"
           >
             External Projects
           </a>
         </li>
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/collections"
           >
             Highlighted Projects
           </a>
         </li>
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/explore-projects"
           >
             New Relic Projects
           </a>
         </li>
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/standards"
           >
             Standards
@@ -6043,7 +5963,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
       className="primary-content"
     >
       <main
-        className="primary-content-main primaryContentMain"
+        className="primary-content-main undefined"
       >
         <h2>
           How New Relic is Involved
@@ -6080,15 +6000,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
       <aside
         className="primary-content-aside"
       >
-        <div
-          className="callToActionContainer"
-        >
+        <div>
           <div
-            className="callToActionButtons emotion-115"
+            className="emotion-115"
           >
-            <div
-              className="callToActionButtonsContainer"
-            >
+            <div>
               <a
                 className="emotion-110 emotion-55"
                 href="https://github.com/AdoptOpenJDK"
@@ -6294,7 +6210,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   max-width: var(--site-max-width);
   margin: 0 auto;
@@ -6312,10 +6227,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--primary-background-color);
   opacity: 0;
   -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
   -ms-transform: scale(1.04);
   transform: scale(1.04);
-  -webkit-transition: 0.5s cubic-bezier(0.215,0.61,0.355,1);
-  transition: 0.5s cubic-bezier(0.215,0.61,0.355,1);
+  -webkit-transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   visibility: hidden;
 }
 
@@ -6327,8 +6243,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   top: 0;
   left: 0;
   right: 0;
-  -webkit-transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
-  transition: 0.3s cubic-bezier(0.075,0.82,0.165,1);
+  -webkit-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
   padding: 0.25rem 0;
   height: 30px;
 }
@@ -6346,7 +6262,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -6439,7 +6354,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-self: center;
 }
 
-.emotion-30 .rc-pagination > li {
+.emotion-30 .rc-pagination>li {
   list-style: none;
 }
 
@@ -6543,9 +6458,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 .emotion-30 .rc-pagination-jump-next:after {
   content: '\\2022\\2022\\2022';
   display: block;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
   letter-spacing: 2px;
   color: #ccc;
   font-size: 12px;
@@ -6554,7 +6466,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 
 .emotion-30 .rc-pagination-jump-prev:hover:after,
 .emotion-30 .rc-pagination-jump-next:hover:after {
-  color: var(--link-color) !important;
+  color: var(--link-color)!important;
 }
 
 .emotion-30 .rc-pagination-jump-prev:hover:after {
@@ -6583,9 +6495,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   content: '\\2022\\2022\\2022';
   opacity: 1;
   display: block;
-  -webkit-letter-spacing: 2px;
-  -moz-letter-spacing: 2px;
-  -ms-letter-spacing: 2px;
   letter-spacing: 2px;
   color: #ccc;
   font-size: 12px;
@@ -6748,10 +6657,10 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
-  transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   position: relative;
-  color: rgba(0,0,0,0.65);
+  color: rgba(0, 0, 0, 0.65);
   background-color: #fff;
   border-color: #d9d9d9;
 }
@@ -6819,10 +6728,10 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  -webkit-transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
-  transition: all 0.3s cubic-bezier(0.645,0.045,0.355,1);
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   position: relative;
-  color: rgba(0,0,0,0.65);
+  color: rgba(0, 0, 0, 0.65);
   background-color: #fff;
   border-color: #d9d9d9;
 }
@@ -6835,7 +6744,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border-color: #2db7f5;
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1024px) {
   .emotion-30 .rc-pagination-item-after-jump-prev,
   .emotion-30 .rc-pagination-item-before-jump-next {
     display: none;
@@ -6878,12 +6787,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   width: 100%;
   display: block;
   position: relative;
-  background: linear-gradient(to bottom,#fcfcfc 0%,#ffffff 100%);
-  -webkit-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc',endColorstr='#ffffff',GradientType=0 );
+  background: linear-gradient(to bottom, #fcfcfc 0%, #ffffff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc',endColorstr='#ffffff',GradientType=0 );
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .emotion-30 .sui-layout-body:after {
     display: none;
   }
@@ -6900,7 +6808,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding: 0 24px;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .emotion-30 .sui-layout-body__inner {
     display: block;
     padding: 0 15px;
@@ -6912,7 +6820,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding: 32px 0 32px 32px;
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .emotion-30 .sui-layout-main {
     width: 100%;
     padding-left: 0;
@@ -6927,7 +6835,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   width: 100%;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -6944,7 +6851,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -6963,8 +6869,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: space-around;
-  -webkit-justify-content: space-around;
   -ms-flex-pack: space-around;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
 }
 
@@ -6978,8 +6884,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -6997,8 +6903,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -7015,11 +6921,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border: 0;
 }
 
-.emotion-30 .sui-facet + .sui-facet {
+.emotion-30 .sui-facet+.sui-facet {
   margin-top: 32px;
 }
 
-.emotion-30 .sui-sorting + .sui-facet {
+.emotion-30 .sui-sorting+.sui-facet {
   margin-top: 32px;
 }
 
@@ -7027,9 +6933,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   text-transform: uppercase;
   font-size: 12px;
   color: #8b9bad;
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
   letter-spacing: 1px;
   padding: 0;
 }
@@ -7066,7 +6969,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: pointer;
 }
@@ -7143,7 +7045,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   cursor: pointer;
 }
@@ -7179,7 +7080,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -7201,7 +7101,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   left: -5px;
   width: calc(100% + 10px);
   height: calc(100% + 2px);
-  background: rgba(37,139,248,0.08);
+  background: rgba(37, 139, 248, 0.08);
   pointer-events: none;
 }
 
@@ -7235,7 +7135,9 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin-left: 10px;
 }
 
-.emotion-30 .sui-paging > li {
+
+
+.emotion-30 .sui-paging>li {
   border: none;
   background: transparent;
   outline: none;
@@ -7344,7 +7246,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: var(--link-color);
 }
 
-.emotion-30 .sui-result + .sui-result {
+.emotion-30 .sui-result+.sui-result {
   margin-top: 0;
 }
 
@@ -7373,7 +7275,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -7499,8 +7400,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: flex;
   position: relative;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   -webkit-align-items: stretch;
   -webkit-box-align: stretch;
@@ -7516,18 +7417,18 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   font-size: 14px;
   padding: 16px;
   margin-left: 10px;
-  text-shadow: rgba(0,0,0,0.05) 0px 1px 2px;
+  text-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
   color: white;
   border: none;
-  box-shadow: rgba(0,0,0,0.05) 0px 0px 0px 1px inset,rgba(59,69,79,0.05) 0px 1px 0px;
-  background: linear-gradient(#2da0fa,#3158ee) #2f7cf4;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px inset,rgba(59, 69, 79, 0.05) 0px 1px 0px;
+  background: linear-gradient(#2da0fa, #3158ee) #2f7cf4;
   cursor: pointer;
   border-radius: 4px;
 }
 
 .emotion-30 .sui-search-box__submit:hover {
-  box-shadow: rgba(0,0,0,0.3) 0px 0px 0px 1px inset,rgba(59,69,79,0.3) 0px 2px 4px;
-  background: linear-gradient(#3cabff,#4063f0) #3d84f7;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 0px 1px inset,rgba(59, 69, 79, 0.3) 0px 2px 4px;
+  background: linear-gradient(#3cabff, #4063f0) #3d84f7;
 }
 
 .emotion-30 .live-filtering .sui-search-box__submit {
@@ -7565,7 +7466,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-30 .sui-search-box__text-input:focus {
-  box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
+  box-shadow: rgba(59, 69, 79, 0.3) 0px 2px 4px;
   border-top: 1px solid var(--link-color);
   border-left: 1px solid var(--link-color);
   border-right: 1px solid var(--link-color);
@@ -7573,7 +7474,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 .emotion-30 .autocomplete .sui-search-box__text-input {
-  box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
+  box-shadow: rgba(59, 69, 79, 0.3) 0px 2px 4px;
 }
 
 .emotion-30 .sui-search-box__autocomplete-container {
@@ -7589,7 +7490,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   line-height: 1.5;
   background: transparent;
   position: absolute;
-  box-shadow: rgba(59,69,79,0.3) 0px 2px 4px;
+  box-shadow: rgba(59, 69, 79, 0.3) 0px 2px 4px;
   border-top: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
@@ -7651,9 +7552,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 
 .emotion-30 .sui-search-box__section-title {
   font-size: 0.7em;
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
   letter-spacing: 1px;
   font-weight: normal;
   padding: 0 0 4px 24px;
@@ -7670,9 +7568,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 .emotion-30 .sui-sorting__label {
   font-size: 12px;
   text-transform: uppercase;
-  -webkit-letter-spacing: 1px;
-  -moz-letter-spacing: 1px;
-  -ms-letter-spacing: 1px;
   letter-spacing: 1px;
 }
 
@@ -7706,7 +7601,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: stretch;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -7727,6 +7621,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   white-space: nowrap;
   position: static;
   -webkit-transform: none;
+  -moz-transform: none;
   -ms-transform: none;
   transform: none;
 }
@@ -7743,8 +7638,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
@@ -7764,7 +7659,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -7802,7 +7696,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   position: relative;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .emotion-72::after {
     content: '';
     position: absolute;
@@ -7810,22 +7704,30 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     height: 100%;
     width: 2rem;
     pointer-events: none;
-    background: linear-gradient( to right,rgba(244,245,245,0),var(--color-neutrals-100) );
+    background: linear-gradient(
+                    to right,
+                    rgba(244,245,245,0),
+                    var(--color-neutrals-100)
+                  );
   }
 
   .dark-mode .emotion-72::after {
-    background: linear-gradient( to right,rgba(34,53,60,0),var(--color-dark-100) );
+    background: linear-gradient(
+                      to right,
+                      rgba(34,53,60,0),
+                      var(--color-dark-100)
+                    );
   }
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-72 {
     overflow: visible;
   }
 
   .emotion-72::after {
-    background: none !important;
-    width: 0 !important;
+    background: none!important;
+    width: 0!important;
   }
 }
 
@@ -7841,7 +7743,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin-right: 1rem;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-54 {
     display: none;
   }
@@ -7853,14 +7755,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
   justify-content: flex-start;
   position: relative;
   display: none;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-66 {
     display: block;
   }
@@ -7876,8 +7778,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -7931,7 +7833,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   border-radius: 0.25rem;
   z-index: 1000;
   padding: 0.5rem;
-  box-shadow: 0 3px 8px 0 rgba(22,38,59,0.2);
+  box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
 .dark-mode .emotion-65 {
@@ -7997,14 +7899,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-71 > li {
+.emotion-71 >li {
   margin: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-71 {
     display: none;
   }
@@ -8057,17 +7959,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-89 > li {
+.emotion-89 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-89 > li:not(:first-of-type) {
+.emotion-89 >li:not(:first-of-type) {
   margin-left: 0.5rem;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-89 {
     -webkit-flex: unset;
     -ms-flex: unset;
@@ -8081,7 +7983,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex: 1;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-79 {
     -webkit-flex: unset;
     -ms-flex: unset;
@@ -8108,7 +8010,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: var(--secondary-text-hover-color);
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-74 {
     display: block;
   }
@@ -8136,7 +8038,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   max-width: 350px;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-78 {
     display: none;
   }
@@ -8154,6 +8056,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   left: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -8167,8 +8070,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
-  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
-  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-left: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
+  padding-right: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
   font-size: 0.75rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -8176,8 +8083,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 
 .emotion-76:focus {
   outline: none;
-  border: 1px solid rgba(0,126,138,0.6);
-  box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
+  border: 1px solid rgba(0, 126, 138, 0.6);
+  box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
 .emotion-77 {
@@ -8185,6 +8092,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   right: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   border: 1px solid var(--border-color);
@@ -8241,8 +8149,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -8270,7 +8178,9 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: var(--link-hover-color);
 }
 
-@media screen and (max-width:545px) {
+
+
+@media screen and (max-width: 545px) {
   .emotion-81 {
     display: none;
   }
@@ -8287,7 +8197,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: none;
 }
 
-@media screen and (max-width:545px) {
+@media screen and (max-width: 545px) {
   .emotion-82 {
     display: block;
   }
@@ -8310,8 +8220,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -8343,7 +8253,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   width: 257px;
 }
 
-@media screen and (max-width:724px) {
+@media screen and (max-width: 724px) {
   .emotion-113 {
     width: 160px;
     z-index: 500;
@@ -8368,7 +8278,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-126 > hr {
+.emotion-126>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
@@ -8389,8 +8299,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -8424,8 +8334,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -8478,7 +8388,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   display: -webkit-box;
   display: -webkit-flex;
@@ -8489,14 +8398,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin: 0 auto;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .emotion-148 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
   }
 }
@@ -8507,18 +8416,18 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: block;
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width: 550px) {
   .emotion-147 {
     margin-bottom: 1rem;
   }
 }
 
 .emotion-152 {
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .dark-mode .emotion-152 {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .emotion-151 {
@@ -8529,7 +8438,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   display: grid;
   grid-template-columns: auto auto;
@@ -8539,11 +8447,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin: 0 auto;
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .emotion-151 {
     -webkit-box-pack: center;
-    -webkit-justify-content: center;
     -ms-flex-pack: center;
+    -webkit-justify-content: center;
     justify-content: center;
     text-align: center;
     grid-template-columns: auto;
@@ -8556,9 +8464,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
-  -webkit-letter-spacing: 0.1rem;
-  -moz-letter-spacing: 0.1rem;
-  -ms-letter-spacing: 0.1rem;
   letter-spacing: 0.1rem;
 }
 
@@ -8567,12 +8472,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   grid-area: legal;
 }
@@ -8581,6 +8487,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   margin-left: 0.75rem;
   white-space: nowrap;
 }
+
+
 
 .emotion-29 .sui-search-box__text-input {
   border: none;
@@ -8607,6 +8515,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   left: var(--horizontal-spacing);
   top: 50%;
   -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -8620,8 +8529,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
-  padding-left: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
-  padding-right: calc( var(--horizontal-spacing) + 0.5rem + var(--icon-size) );
+  padding-left: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
+  padding-right: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
   font-size: 1.25rem;
   font-weight: 500;
   padding-top: 0.75rem;
@@ -8630,8 +8543,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 
 .emotion-27:focus {
   outline: none;
-  border: 1px solid rgba(0,126,138,0.6);
-  box-shadow: 0 0 0 4px rgba(0,126,138,0.1);
+  border: 1px solid rgba(0, 126, 138, 0.6);
+  box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
 .emotion-120 {
@@ -8645,15 +8558,15 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   left: 0;
   right: 0;
   z-index: 10000;
-  background-color: rgba(28,42,47,0.92);
-  box-shadow: 0px -0.249053px 4.26158px rgba(12,48,57,0.0421718),0px -0.598509px 10.2412px rgba(12,48,57,0.0605839),0px -1.12694px 19.2832px rgba(12,48,57,0.075),0px -2.01027px 34.3 979px rgba(12,48,57,0.0894161),0px -3.75998px 64.3375px rgba(12,48,57,0.107828),0px -9px 154px rgba(12,48,57,0.15);
+  background-color: rgba(28, 42, 47, 0.92);
+  box-shadow: 0px -0.249053px 4.26158px rgba(12, 48, 57, 0.0421718),0px -0.598509px 10.2412px rgba(12, 48, 57, 0.0605839),0px -1.12694px 19.2832px rgba(12, 48, 57, 0.075),0px -2.01027px 34.3 979px rgba(12, 48, 57, 0.0894161),0px -3.75998px 64.3375px rgba(12, 48, 57, 0.107828),0px -9px 154px rgba(12, 48, 57, 0.15);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
 
 .dark-mode .emotion-162 {
-  background-color: rgba(15,25,28,0.92);
-  box-shadow: 0 -1px 0 rgba(55,72,78,0.4);
+  background-color: rgba(15, 25, 28, 0.92);
+  box-shadow: 0 -1px 0 rgba(55, 72, 78, 0.4);
 }
 
 .emotion-161 {
@@ -8663,7 +8576,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: flex;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -8675,14 +8587,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding: 1.125rem 0;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .emotion-161 {
     width: 100%;
     padding: 1.125rem 1.75rem;
   }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .emotion-161 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
@@ -8701,7 +8613,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   line-height: 21px;
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .emotion-154 {
     margin-bottom: 0.375rem;
   }
@@ -8714,13 +8626,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: var(--accent-text-color);
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .emotion-155 {
     line-height: 19px;
   }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .emotion-155 {
     margin-bottom: 1rem;
   }
@@ -8743,8 +8655,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -8770,7 +8682,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--color-brand-500);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .emotion-156 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -8787,8 +8699,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
@@ -8823,7 +8735,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: rgba(112,204,210,0.17);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .emotion-158 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -8831,7 +8743,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 <div
-  className="projectPageLayout emotion-163"
+  className="emotion-163"
 >
   <div
     className=" emotion-91"
@@ -9309,7 +9221,8 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </div>
   <header
-    className="primaryHeaderContainer hasHeaderBg "
+    className="undefined 
+        undefined"
   >
     <a
       className="emotion-113"
@@ -9366,44 +9279,30 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         />
       </svg>
     </a>
-    <ul
-      className="primaryHeaderNavLinks"
-    >
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+    <ul>
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/external-projects"
         >
           External Projects
         </a>
       </li>
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/collections"
         >
           Highlighted Projects
         </a>
       </li>
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/explore-projects"
         >
           New Relic Projects
         </a>
       </li>
-      <li
-        className="primaryHeaderNavLinkItem"
-      >
+      <li>
         <a
-          className="primaryHeaderNavLink"
           href="/standards"
         >
           Standards
@@ -9411,10 +9310,10 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
       </li>
     </ul>
     <div
-      className="primaryHeaderMobileNav "
+      className="undefined "
     >
       <div
-        className="dark-mode-toggle headerDarkModeToggle"
+        className="dark-mode-toggle undefined"
       >
         <svg
           fill="none"
@@ -9434,49 +9333,34 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </svg>
       </div>
       <button
-        className="mobileMenuButton"
         onClick={[Function]}
       >
         Menu
       </button>
-      <ul
-        className="primaryHeaderMobileNavLinks"
-      >
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+      <ul>
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/external-projects"
           >
             External Projects
           </a>
         </li>
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/collections"
           >
             Highlighted Projects
           </a>
         </li>
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/explore-projects"
           >
             New Relic Projects
           </a>
         </li>
-        <li
-          className="primaryHeaderNavLinkItem"
-        >
+        <li>
           <a
-            className="primaryHeaderNavLink"
             href="/standards"
           >
             Standards
@@ -9489,26 +9373,20 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     className="emotion-126"
   >
     <div
-      className="pageHeadingContainer hasSeparator   hasIcon  "
+      className="undefined undefined   undefined 
+      "
     >
-      <div
-        className="pageHeadingIconContainer"
-      >
+      <div>
         <img
           alt="Icon for Adopt OpenJDK"
-          className="pageHeadingIcon"
           onError={[Function]}
           src="../images/adopt-open-jdk-icon.jpg"
         />
       </div>
-      <h1
-        className="pageTitle"
-      >
+      <h1>
         Adopt OpenJDK
       </h1>
-      <p
-        className="pageSubheader"
-      >
+      <p>
         The Community and code behind the Build Farm which produces high quality, FREE OpenJDK (Java) binaries.
       </p>
       
@@ -9517,7 +9395,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
       className="primary-content"
     >
       <main
-        className="primary-content-main primaryContentMain"
+        className="primary-content-main undefined"
       >
         <h2>
           How New Relic is Involved
@@ -9554,15 +9432,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
       <aside
         className="primary-content-aside"
       >
-        <div
-          className="callToActionContainer"
-        >
+        <div>
           <div
-            className="callToActionButtons emotion-119"
+            className="emotion-119"
           >
-            <div
-              className="callToActionButtonsContainer"
-            >
+            <div>
               <a
                 className="emotion-114 emotion-59"
                 href="https://github.com/AdoptOpenJDK"
@@ -9590,164 +9464,128 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           Involved from New Relic
         </h4>
         <a
-          className="itemContainer  emotion-120"
+          className="undefined  emotion-120"
           href="https://github.com/kittylyst"
           target="__blank"
         >
           <img
             alt="Icon for Ben Evans"
-            className="itemIcon"
             onError={[Function]}
             src="https://avatars0.githubusercontent.com/u/81539?s=88&u=ec037a0a4945011f224bf734faf54fd99fd1c8d8&v=4"
           />
-          <div
-            className="itemCopy"
-          >
-            <span
-              className="itemName"
-            >
+          <div>
+            <span>
               Ben Evans
             </span>
             
           </div>
           <img
             alt="arrow pointing right"
-            className="itemChevron"
             src="test-file-stub"
           />
         </a>
         <a
-          className="itemContainer  emotion-120"
+          className="undefined  emotion-120"
           href="https://github.com/breedx-nr"
           target="__blank"
         >
           <img
             alt="Icon for Jason Plumb"
-            className="itemIcon"
             onError={[Function]}
             src="https://avatars1.githubusercontent.com/u/54085190?s=460&u=b8812ef576c38434643500d5c57e79164cc4ee7d&v=4"
           />
-          <div
-            className="itemCopy"
-          >
-            <span
-              className="itemName"
-            >
+          <div>
+            <span>
               Jason Plumb
             </span>
             
           </div>
           <img
             alt="arrow pointing right"
-            className="itemChevron"
             src="test-file-stub"
           />
         </a>
         <a
-          className="itemContainer  emotion-120"
+          className="undefined  emotion-120"
           href="https://github.com/jasonrclark"
           target="__blank"
         >
           <img
             alt="Icon for Jason Clark"
-            className="itemIcon"
             onError={[Function]}
             src="https://avatars0.githubusercontent.com/u/130504?s=460&v=4"
           />
-          <div
-            className="itemCopy"
-          >
-            <span
-              className="itemName"
-            >
+          <div>
+            <span>
               Jason Clark
             </span>
             
           </div>
           <img
             alt="arrow pointing right"
-            className="itemChevron"
             src="test-file-stub"
           />
         </a>
         <a
-          className="itemContainer  emotion-120"
+          className="undefined  emotion-120"
           href="https://github.com/tmancill"
           target="__blank"
         >
           <img
             alt="Icon for Tony Mancill"
-            className="itemIcon"
             onError={[Function]}
             src="https://avatars2.githubusercontent.com/u/1195611?s=460&v=4"
           />
-          <div
-            className="itemCopy"
-          >
-            <span
-              className="itemName"
-            >
+          <div>
+            <span>
               Tony Mancill
             </span>
             
           </div>
           <img
             alt="arrow pointing right"
-            className="itemChevron"
             src="test-file-stub"
           />
         </a>
         <a
-          className="itemContainer  emotion-120"
+          className="undefined  emotion-120"
           href="https://github.com/cameronhotchkies"
           target="__blank"
         >
           <img
             alt="Icon for Cameron Hotchkies"
-            className="itemIcon"
             onError={[Function]}
             src="https://avatars3.githubusercontent.com/u/1108009?s=460&u=83cf85d93292fb59d04aeebb7b58a784930172a7&v=4"
           />
-          <div
-            className="itemCopy"
-          >
-            <span
-              className="itemName"
-            >
+          <div>
+            <span>
               Cameron Hotchkies
             </span>
             
           </div>
           <img
             alt="arrow pointing right"
-            className="itemChevron"
             src="test-file-stub"
           />
         </a>
         <a
-          className="itemContainer  emotion-120"
+          className="undefined  emotion-120"
           href="https://github.com/rvanderwal-newrelic"
           target="__blank"
         >
           <img
             alt="Icon for Rich Vanderwal"
-            className="itemIcon"
             onError={[Function]}
             src="https://avatars1.githubusercontent.com/u/1462042?s=460&u=91b3cd118aad9ce2be981483e9fc033e3c094077&v=4"
           />
-          <div
-            className="itemCopy"
-          >
-            <span
-              className="itemName"
-            >
+          <div>
+            <span>
               Rich Vanderwal
             </span>
             
           </div>
           <img
             alt="arrow pointing right"
-            className="itemChevron"
             src="test-file-stub"
           />
         </a>

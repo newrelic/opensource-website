@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Image from './Image';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
-import styles from './AsideNavigationItem.module.scss';
+import * as styles from './AsideNavigationItem.module.scss';
 import chevronIcon from '../images/icon-chevron-right.svg';
 import avatarPlaceholder from '../images/avatar-placeholder.png';
 import avatarPlaceholderLight from '../images/avatar-placeholder-light.png';
@@ -33,11 +33,7 @@ const AsideNavigationItem = ({ icon, label, subLabel, to, darkMode }) => {
         <span className={styles.itemName}>{label}</span>
         {subLabel && <span className={styles.itemSublabel}>{subLabel}</span>}
       </div>
-      <img
-        className={styles.itemChevron}
-        src={chevronIcon}
-        alt="arrow pointing right"
-      />
+      <img src={chevronIcon} alt="arrow pointing right" />
     </a>
   );
 };

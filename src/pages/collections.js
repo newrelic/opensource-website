@@ -8,7 +8,7 @@ import SimpleProjectModule from '../components/SimpleProjectModule';
 import { startCase } from 'lodash';
 import { ChevronRight } from 'react-feather';
 
-import styles from './collection.module.scss';
+import * as styles from './collection.module.scss';
 
 export const query = graphql`
   query allCollections($path: String) {
