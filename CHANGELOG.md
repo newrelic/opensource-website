@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/newrelic/opensource-website/compare/v1.13.0...v1.13.1) (2021-04-21)
+
+
+### Bug Fixes
+
+* update node version in workflows ([be96601](https://github.com/newrelic/opensource-website/commit/be96601a80d11fcc3516d47787d6da9ffe9803b9))
+
 # [1.13.0](https://github.com/newrelic/opensource-website/compare/v1.12.0...v1.13.0) (2021-04-05)
 
 
