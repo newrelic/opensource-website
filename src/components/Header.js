@@ -1,5 +1,5 @@
 import { Link } from 'gatsby';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import React, { useState } from 'react';
 import navLinks from '../data/navigation.json';
 import PropTypes from 'prop-types';
@@ -9,7 +9,7 @@ import DarkModeToggle from './DarkModeToggle';
 
 import { GlobalHeader, Logo } from '@newrelic/gatsby-theme-newrelic';
 
-import styles from './Header.module.scss';
+import * as styles from './Header.module.scss';
 
 const Header = ({ hasHeaderBg }) => {
   const [mobileMenuActive, setMobileMenuActive] = useState(false);
@@ -55,9 +55,8 @@ const Header = ({ hasHeaderBg }) => {
         `}
       />
       <header
-        className={`${styles.primaryHeaderContainer} ${
-          hasHeaderBg ? styles.hasHeaderBg : ''
-        } ${mobileMenuActive ? styles.parentOfActiveMobileMenu : ''}`}
+        className={`${styles.primaryHeaderContainer} 
+        ${hasHeaderBg ? styles.hasHeaderBg : ''}`}
       >
         <Link
           to="/"

@@ -7,7 +7,7 @@ import Image from './Image';
 import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
-import styles from '../pages/explore-projects.module.scss';
+import * as styles from '../pages/explore-projects.module.scss';
 import withDarkMode from './withDarkMode';
 
 const ProjectCard = ({ project: p, darkMode }) => {
@@ -15,7 +15,7 @@ const ProjectCard = ({ project: p, darkMode }) => {
 
   return (
     <Link className={styles.projectContainer} key={p.id} to={link}>
-      <div className={`${styles.projectPrimaryContent}`}>
+      <div>
         <header className={styles.projectHeader}>
           <Image
             src={p.iconUrl}

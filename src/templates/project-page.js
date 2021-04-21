@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import { Button } from '@newrelic/gatsby-theme-newrelic';
 import { graphql, Link } from 'gatsby';
 import { format } from 'date-fns';
@@ -14,7 +14,7 @@ import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 import ProjectMainContent from '../components/ProjectMainContent';
 import ContributorListing from '../components/ContributorListing';
-import styles from './project-page.module.scss';
+import * as styles from './project-page.module.scss';
 
 import openIssueIcon from '../images/icon-open-issue.svg';
 import chatIcon from '../images/icon-chat.svg';
@@ -209,7 +209,6 @@ const ProjectPage = (props) => {
       return (
         <li className={styles.sidebarTagListTag} key={tag.title}>
           <a
-            className={styles.tagLink}
             href={`/explore-projects/?tag=${tag.title}`}
             css={css`
               text-decoration: none;
@@ -293,7 +292,7 @@ const ProjectPage = (props) => {
         hasSeparator
         callToAction={() => renderCallsToAction(true)}
       />
-      <div className={`primary-content ${styles.primaryContent}`}>
+      <div className="primary-content">
         <main className={`primary-content-main ${styles.primaryContentMain}`}>
           {mainContent && (
             <ProjectMainContent
@@ -400,7 +399,7 @@ const ProjectPage = (props) => {
         <aside
           className={`primary-content-aside ${styles.primaryContentAside}`}
         >
-          <div className={styles.callToActionContainer}>
+          <div>
             <div className={styles.callToActionButtons}>
               {renderCallsToAction()}
               {project.stats &&
@@ -486,9 +485,7 @@ const ProjectPage = (props) => {
             <>
               <h4>Repo stats</h4>
               <ul className={styles.repoStats}>
-                <li
-                  className={`${styles.repoStat} + ${styles.repoStatContributors}`}
-                >
+                <li className={styles.repoStat}>
                   <img
                     src={
                       darkMode.value ? contributorLightIcon : contributorIcon
@@ -508,7 +505,7 @@ const ProjectPage = (props) => {
                     Contributors
                   </a>
                 </li>
-                <li className={`${styles.repoStat} ${styles.repoStatReleases}`}>
+                <li className={styles.repoStat}>
                   <img
                     src={darkMode.value ? tagLightIcon : tagIcon}
                     alt="release icon"
@@ -526,7 +523,7 @@ const ProjectPage = (props) => {
                     Releases
                   </a>
                 </li>
-                <li className={`${styles.repoStat} ${styles.repoStatCommits}`}>
+                <li className={styles.repoStat}>
                   <img
                     src={darkMode.value ? commitLightIcon : commitIcon}
                     alt="commit icon"
@@ -544,9 +541,7 @@ const ProjectPage = (props) => {
                     Commits
                   </a>
                 </li>
-                <li
-                  className={`${styles.repoStat} ${styles.repoStatPullRequests}`}
-                >
+                <li className={styles.repoStat}>
                   <img
                     src={darkMode.value ? prLightIcon : prIcon}
                     alt="pull request icon"
@@ -564,7 +559,7 @@ const ProjectPage = (props) => {
                     Open Pull Requests
                   </a>
                 </li>
-                <li className={`${styles.repoStat} ${styles.repoStatIssues}`}>
+                <li className={styles.repoStat}>
                   <img
                     src={
                       darkMode.value ? openIssueLightIcon : openIssueGreyIcon

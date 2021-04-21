@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
 import { Helmet } from 'react-helmet';
@@ -10,7 +10,7 @@ import SEO from '../components/seo';
 import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
 import HomepageCollection from '../components/HomepageCollection';
-import styles from './home-page.module.scss';
+import * as styles from './home-page.module.scss';
 
 import videoPlaceholder from '../images/video-placeholder-1.jpg';
 import playButton from '../images/button-play.svg';
@@ -120,7 +120,6 @@ const HomePage = ({ data, pageContext }) => {
         <div className={styles.responsiveVideoContainer}>
           <div className={`responsive-video ${styles.responsiveVideo}`}>
             <iframe
-              className={styles.heroVideoIframe}
               width="1000"
               height="562.704471"
               src="https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true"
@@ -149,7 +148,6 @@ const HomePage = ({ data, pageContext }) => {
           <img src={playButton} className={styles.playButton} />
           <div className={styles.iframeContainer}>
             <iframe
-              className={styles.heroVideoIframe}
               width="1000"
               height="562.704471"
               src={`https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true${

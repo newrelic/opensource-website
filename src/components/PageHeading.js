@@ -6,7 +6,7 @@ import Image from './Image';
 import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
-import styles from './PageHeading.module.scss';
+import * as styles from './PageHeading.module.scss';
 import withDarkMode from './withDarkMode';
 
 const PageHeading = (props) => {
@@ -67,12 +67,11 @@ const PageHeading = (props) => {
         props.hasSeparator ? styles.hasSeparator : ''
       } ${props.blogMeta ? styles.blogPostHeader : ''} ${
         !hasIcon && props.hasSeparator ? styles.hasSeparatorWithoutIcon : ''
-      } ${props.icon ? styles.hasIcon : ''} ${
-        props.callToAction ? styles.hasCallToAction : ''
-      } ${props.className ? props.className : ''}`}
+      } ${props.icon ? styles.hasIcon : ''} 
+      ${props.className ? props.className : ''}`}
     >
       {hasIcon && props.showIcon && (
-        <div className={styles.pageHeadingIconContainer}>
+        <div>
           <Image
             src={props.icon}
             fallbackSrc={

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SimpleProjectModule from './SimpleProjectModule';
 
-import styles from './HomePageInternalProjects.module.scss';
+import * as styles from './HomePageInternalProjects.module.scss';
 
 const HomePageInternalProjects = ({ data }) => {
   const projects = data;
