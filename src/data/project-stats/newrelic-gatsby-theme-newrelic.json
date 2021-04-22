@@ -3,34 +3,20 @@
   "issues": {
     "open": 11
   },
-  "releases": 106,
+  "releases": 110,
   "latestRelease": {
-    "name": "v1.38.0",
+    "name": "v2.0.0",
     "date": null
   },
-  "commits": 1473,
-  "lastSixMonthsCommitTotal": 947,
-  "contributors": 12,
+  "commits": 1513,
+  "lastSixMonthsCommitTotal": 986,
+  "contributors": 13,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 186715,
-      "login": "djsauble",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/186715?v=4",
-      "htmlUrl": "https://github.com/djsauble",
-      "contributions": 3
-    },
-    {
-      "id": 55203603,
-      "login": "austin-schaefer",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
-      "htmlUrl": "https://github.com/austin-schaefer",
-      "contributions": 2
-    },
     {
       "id": 1395158,
       "login": "jpvajda",
@@ -46,25 +32,25 @@
       "contributions": 30
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
+      "id": 70179303,
+      "login": "aswanson-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
+      "htmlUrl": "https://github.com/aswanson-nr",
+      "contributions": 9
+    },
+    {
+      "id": 55203603,
+      "login": "austin-schaefer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
+      "htmlUrl": "https://github.com/austin-schaefer",
       "contributions": 2
     },
     {
-      "id": 1946433,
-      "login": "zstix",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1946433?v=4",
-      "htmlUrl": "https://github.com/zstix",
-      "contributions": 118
-    },
-    {
-      "id": 2069584,
-      "login": "AubreyHewes",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2069584?v=4",
-      "htmlUrl": "https://github.com/AubreyHewes",
-      "contributions": 4
+      "id": 39655074,
+      "login": "LizBaker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
+      "htmlUrl": "https://github.com/LizBaker",
+      "contributions": 33
     },
     {
       "id": 6722433,
@@ -74,18 +60,32 @@
       "contributions": 1
     },
     {
-      "id": 38332422,
-      "login": "caylahamann",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/38332422?v=4",
-      "htmlUrl": "https://github.com/caylahamann",
-      "contributions": 117
+      "id": 1946433,
+      "login": "zstix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1946433?v=4",
+      "htmlUrl": "https://github.com/zstix",
+      "contributions": 118
     },
     {
-      "id": 39655074,
-      "login": "LizBaker",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
-      "htmlUrl": "https://github.com/LizBaker",
-      "contributions": 32
+      "id": 2952843,
+      "login": "roadlittledawn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2952843?v=4",
+      "htmlUrl": "https://github.com/roadlittledawn",
+      "contributions": 64
+    },
+    {
+      "id": 2069584,
+      "login": "AubreyHewes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2069584?v=4",
+      "htmlUrl": "https://github.com/AubreyHewes",
+      "contributions": 4
+    },
+    {
+      "id": 186715,
+      "login": "djsauble",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186715?v=4",
+      "htmlUrl": "https://github.com/djsauble",
+      "contributions": 3
     },
     {
       "id": 565661,
@@ -95,11 +95,18 @@
       "contributions": 858
     },
     {
-      "id": 2952843,
-      "login": "roadlittledawn",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2952843?v=4",
-      "htmlUrl": "https://github.com/roadlittledawn",
-      "contributions": 41
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 2
+    },
+    {
+      "id": 38332422,
+      "login": "caylahamann",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38332422?v=4",
+      "htmlUrl": "https://github.com/caylahamann",
+      "contributions": 117
     }
   ],
   "languages": [

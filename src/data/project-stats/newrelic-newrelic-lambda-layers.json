@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-layers",
   "issues": {
-    "open": 3
+    "open": 2
   },
-  "releases": 89,
+  "releases": 92,
   "latestRelease": {
-    "name": "v7.3.1_nodejs",
-    "date": "2021-04-14T20:18:32Z"
+    "name": "v7.3.1.1_nodejs",
+    "date": "2021-04-19T22:09:31Z"
   },
-  "commits": 111,
-  "lastSixMonthsCommitTotal": 27,
+  "commits": 113,
+  "lastSixMonthsCommitTotal": 29,
   "contributors": 7,
   "pullRequests": {
     "open": 0
@@ -18,11 +18,11 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 17498,
-      "login": "kolanos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
-      "htmlUrl": "https://github.com/kolanos",
-      "contributions": 51
+      "id": 13562672,
+      "login": "jaesius",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
+      "htmlUrl": "https://github.com/jaesius",
+      "contributions": 1
     },
     {
       "id": 28942544,
@@ -32,25 +32,25 @@
       "contributions": 1
     },
     {
-      "id": 13562672,
-      "login": "jaesius",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
-      "htmlUrl": "https://github.com/jaesius",
-      "contributions": 1
-    },
-    {
-      "id": 585473,
-      "login": "MattWhelan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
-      "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 6
-    },
-    {
       "id": 73207,
       "login": "ewindisch",
       "avatarUrl": "https://avatars.githubusercontent.com/u/73207?v=4",
       "htmlUrl": "https://github.com/ewindisch",
       "contributions": 2
+    },
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 2
+    },
+    {
+      "id": 17498,
+      "login": "kolanos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
+      "htmlUrl": "https://github.com/kolanos",
+      "contributions": 51
     },
     {
       "id": 11327,
@@ -60,11 +60,11 @@
       "contributions": 21
     },
     {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 2
+      "id": 585473,
+      "login": "MattWhelan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
+      "htmlUrl": "https://github.com/MattWhelan",
+      "contributions": 7
     }
   ],
   "languages": [
