@@ -1,3 +1,10 @@
+## [1.13.2](https://github.com/newrelic/opensource-website/compare/v1.13.1...v1.13.2) (2021-04-26)
+
+
+### Bug Fixes
+
+* referrer field not being sent on sign up ([57145d4](https://github.com/newrelic/opensource-website/commit/57145d41d58dcce7e995ad1a652a3082927a5c14))
+
 ## [1.13.1](https://github.com/newrelic/opensource-website/compare/v1.13.0...v1.13.1) (2021-04-21)
 
 
