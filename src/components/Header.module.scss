@@ -133,7 +133,7 @@ div.exists-in-active-mobile-menu {
 
   .mobile-menu-active {
     position: absolute;
-    top: 0;
+    top: 35px;
     right: 0;
     bottom: -100vh;
     left: 0;
@@ -154,7 +154,7 @@ div.exists-in-active-mobile-menu {
       display: block;
       list-style-type: none;
       border-top: 1px dotted var(--color-neutrals-300);
-      margin-top: 88px;
+      margin-top: 188px;
       padding: 10px 28px;
       line-height: 50px;
     }
