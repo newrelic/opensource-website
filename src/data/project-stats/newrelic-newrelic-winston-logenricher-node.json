@@ -1,39 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-winston-logenricher-node",
   "issues": {
-    "open": 4
+    "open": 3
   },
   "releases": 3,
   "latestRelease": {
     "name": "v1.0.0",
     "date": null
   },
-  "commits": 97,
-  "lastSixMonthsCommitTotal": 20,
-  "contributors": 8,
+  "commits": 99,
+  "lastSixMonthsCommitTotal": 22,
+  "contributors": 9,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU3ODUzNDYyOTg=",
-      "title": "Update Node Agent dev dependency to latest version",
-      "url": "https://github.com/newrelic/newrelic-winston-logenricher-node/issues/46",
-      "createdAt": "2021-01-13T18:42:44Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "carlo-808",
-        "id": "MDQ6VXNlcjU0MzM1ODQw",
-        "email": "",
-        "name": null
-      },
-      "number": 46,
-      "createdBy": "carlo-808"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 32520944,
@@ -76,6 +58,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
       "contributions": 24
+    },
+    {
+      "id": 1874937,
+      "login": "bizob2828",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
+      "htmlUrl": "https://github.com/bizob2828",
+      "contributions": 1
     },
     {
       "id": 54335840,
