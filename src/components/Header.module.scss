@@ -190,6 +190,8 @@ div.exists-in-active-mobile-menu {
 
 @media screen and (max-width: 480px) {
   .mobile-menu-active {
+    top: 35px;
+    
     .mobile-menu-button {
       top: 21px;
     }
