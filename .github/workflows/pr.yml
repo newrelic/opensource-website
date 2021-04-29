@@ -4,9 +4,9 @@ on:
   pull_request:
     branches:
       - develop
-      - master
+      - main
   repository_dispatch:
-    types: [pull-request-develop, pull-request-master]
+    types: [pull-request-develop, pull-request-main]
 
 jobs:
   job-checkout-and-build:
@@ -38,7 +38,7 @@ jobs:
         run: |
           if [ '${{ github.base_ref }}' = 'develop' ]; then
             yarn run build:staging
-          elif [ '${{ github.base_ref }}' = 'master' ]; then
+          elif [ '${{ github.base_ref }}' = 'main' ]; then
             yarn run build:production
           else
             echo "::error::Pull Request opened on unsupported branch. Exiting."

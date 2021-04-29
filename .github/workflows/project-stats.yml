@@ -39,15 +39,15 @@ jobs:
           git add src/data
           git commit -m "chore(stats): updated project stats files"
 
-          # Push to both develop and master here rather than using github-push-action
+          # Push to both develop and main here rather than using github-push-action
           echo "Pushing to develop"
           git push origin develop
           CHERRYCOMMIT=`git log -n1 | head -n1 | cut -c8-`
 
-          echo "Pushing to master"
-          git checkout master
+          echo "Pushing to main"
+          git checkout main
           git cherry-pick $CHERRYCOMMIT
-          git push origin master
+          git push origin main
 
       # - name: Push Commit
       #   uses: ad-m/github-push-action@v0.6.0
@@ -85,7 +85,7 @@ jobs:
         run: |
           if [ '${{ github.ref }}' = 'refs/heads/develop' ]; then
             yarn run build:staging
-          elif [ '${{ github.ref }}' = 'refs/heads/master' ]; then
+          elif [ '${{ github.ref }}' = 'refs/heads/main' ]; then
             yarn run build:production
           else
             echo "::error::Running on unsupported branch. Exiting."
