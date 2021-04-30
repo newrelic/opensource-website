@@ -1,7 +1,7 @@
 This project is made up of a few components:
 
 - React code, components, and page templates built primarily in [MDX](https://mdxjs.com/)
-- Static [data](https://github.com/newrelic/opensource-website/tree/master/src/data) for each open source project listed and promoted on the site, including:
+- Static [data](https://github.com/newrelic/opensource-website/tree/main/src/data) for each open source project listed and promoted on the site, including:
   - `project metadata` in the data/projects directory
   - `project stats` in the data/project-stats directory
   - `markdown content` in the data/project-main-content directory

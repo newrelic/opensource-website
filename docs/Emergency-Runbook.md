@@ -23,7 +23,7 @@ First, determine the desired previous build:
 Steps to redeploy in Amplify:
 
 1. Log into the Amplify Console via nr-prod okta.
-2. Select the `opensource-website` app. Under `Frontend environments`, select `master`.
+2. Select the `opensource-website` app. Under `Frontend environments`, select `main`.
    ![Amplify Console](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_03.png)
 3. Click the `View build history` button to see all the previous builds that have run.
 4. Find the appropriate build corresponding to the release you located from the repo releases. This is the build to roll back to. Click `Build #xxx` to select that build. In this case, you'd select `Build #10`.
@@ -39,7 +39,7 @@ Note: When building the site, Gatsby coerces anything you've set in `NODE_ENV` t
 
 ### Production
 
-Corresponds to the [`master`](https://github.com/newrelic/opensource-website/master/develop) branch
+Corresponds to the [`main`](https://github.com/newrelic/opensource-website/main/develop) branch
 
 New Relic Domains: [https://opensource.newrelic.com](https://opensource.newrelic.com)
 

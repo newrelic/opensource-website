@@ -351,7 +351,7 @@ const ProjectPage = (props) => {
                   href={
                     project.contributingGuideUrl ||
                     `${project.githubUrl}/blob/${
-                      project.defaultBranch || 'master'
+                      project.defaultBranch || 'main'
                     }/CONTRIBUTING.md`
                   }
                   target="__blank"
