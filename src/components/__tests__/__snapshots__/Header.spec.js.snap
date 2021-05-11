@@ -2,7 +2,16 @@
 
 exports[`Header renders correctly 1`] = `
 Array [
-  .emotion-87 {
+  @keyframes animation-0 {
+  to {
+    -webkit-transform: rotate(1turn);
+    -moz-transform: rotate(1turn);
+    -ms-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+.emotion-86 {
   background-color: var(--color-neutrals-100);
   position: -webkit-sticky;
   position: sticky;
@@ -11,20 +20,20 @@ Array [
   z-index: 700;
 }
 
-.dark-mode .emotion-87 {
+.dark-mode .emotion-86 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-87 ul {
+.emotion-86 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-87 a {
+.emotion-86 a {
   border-bottom: none;
 }
 
-.emotion-86 {
+.emotion-85 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -1763,7 +1772,7 @@ Array [
   color: var(--color-dark-700);
 }
 
-.emotion-85 {
+.emotion-84 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -1781,18 +1790,18 @@ Array [
   flex: 1;
 }
 
-.emotion-85 >li {
+.emotion-84 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-85 >li:not(:first-of-type) {
+.emotion-84 >li:not(:first-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-85 {
+  .emotion-84 {
     -webkit-flex: unset;
     -ms-flex: unset;
     flex: unset;
@@ -2025,7 +2034,7 @@ Array [
   }
 }
 
-.emotion-84 {
+.emotion-83 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2033,49 +2042,35 @@ Array [
 }
 
 .emotion-82 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  color: var(--color-white);
-  background-color: var(--color-brand-600);
-  font-size: 0.625rem;
-  padding: 0.375rem 0.625rem;
-  border-radius: 0.125rem;
+  --spinner-size: 1rem;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 
-.emotion-82:hover {
-  color: var(--color-white);
-  background-color: var(--color-brand-500);
+.emotion-82:after {
+  -webkit-animation: animation-0 0.5s linear infinite;
+  animation: animation-0 0.5s linear infinite;
+  border-radius: 50%;
+  border-right: 1px solid transparent;
+  border-top: 1px solid;
+  content: '';
+  left: calc(50% + 1px);
+  margin-left: calc(var(--spinner-size) / 2 * -1);
+  margin-top: calc(var(--spinner-size) / 2 * -1);
+  position: absolute;
+  top: calc(50% + 1px);
+  width: var(--spinner-size);
+  height: var(--spinner-size);
 }
 
 <div
-    className=" emotion-87"
+    className=" emotion-86"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-86"
+      className="emotion-85"
     >
       <div
         className="emotion-28"
@@ -2355,7 +2350,7 @@ Array [
         </ul>
       </nav>
       <ul
-        className="emotion-85"
+        className="emotion-84"
       >
         <li
           className="emotion-75"
@@ -2470,21 +2465,13 @@ Array [
           </a>
         </li>
         <li
-          className="emotion-84"
+          className="emotion-83"
         >
-          <a
-            className="emotion-82 emotion-55"
-            href="https://newrelic.com/signup"
-            onClick={[Function]}
-            rel="noopener"
-            size="extraSmall"
-            target="_blank"
-            variant="primary"
-          >
-            <span>
-              Free account
-            </span>
-          </a>
+          <div
+            aria-busy={true}
+            aria-label="Loading"
+            className="emotion-82"
+          />
         </li>
       </ul>
     </div>
