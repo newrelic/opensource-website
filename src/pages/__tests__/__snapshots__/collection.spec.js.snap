@@ -10,7 +10,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   }
 }
 
-.emotion-137 {
+.emotion-139 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -23,7 +23,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-86 {
+.emotion-88 {
   background-color: var(--color-neutrals-100);
   position: -webkit-sticky;
   position: sticky;
@@ -32,20 +32,20 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   z-index: 700;
 }
 
-.dark-mode .emotion-86 {
+.dark-mode .emotion-88 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-86 ul {
+.emotion-88 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-86 a {
+.emotion-88 a {
   border-bottom: none;
 }
 
-.emotion-85 {
+.emotion-87 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -1525,7 +1525,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   background: var(--tertiary-background-color);
 }
 
-.emotion-68 {
+.emotion-70 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1540,7 +1540,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 800px) {
-  .emotion-68::after {
+  .emotion-70::after {
     content: '';
     position: absolute;
     right: 0;
@@ -1554,7 +1554,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
                   );
   }
 
-  .dark-mode .emotion-68::after {
+  .dark-mode .emotion-70::after {
     background: linear-gradient(
                       to right,
                       rgba(34,53,60,0),
@@ -1564,11 +1564,11 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 545px) {
-  .emotion-68 {
+  .emotion-70 {
     overflow: visible;
   }
 
-  .emotion-68::after {
+  .emotion-70::after {
     background: none!important;
     width: 0!important;
   }
@@ -1592,7 +1592,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   }
 }
 
-.emotion-62 {
+.emotion-63 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1606,7 +1606,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 545px) {
-  .emotion-62 {
+  .emotion-63 {
     display: block;
   }
 }
@@ -1664,7 +1664,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   fill: #70ccd3;
 }
 
-.emotion-61 {
+.emotion-62 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   --background-color: white;
@@ -1679,12 +1679,12 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-61 {
+.dark-mode .emotion-62 {
   --text-color: var(--color-dark-900);
   --background-color: var(--color-dark-050);
 }
 
-.emotion-61::before {
+.emotion-62::before {
   content: '';
   position: absolute;
   display: block;
@@ -1698,7 +1698,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-60 {
+.emotion-61 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
@@ -1726,7 +1726,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   background: var(--color-dark-200);
 }
 
-.emotion-67 {
+.emotion-69 {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -1742,7 +1742,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-67 >li {
+.emotion-69 >li {
   margin: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -1750,12 +1750,12 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 545px) {
-  .emotion-67 {
+  .emotion-69 {
     display: none;
   }
 }
 
-.emotion-63 {
+.emotion-64 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1774,17 +1774,17 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-63:hover {
+.emotion-64:hover {
   background-color: var(--color-neutrals-300);
   color: var(--color-neutrals-700);
 }
 
-.dark-mode .emotion-63:hover {
+.dark-mode .emotion-64:hover {
   background-color: var(--color-dark-300);
   color: var(--color-dark-700);
 }
 
-.emotion-84 {
+.emotion-86 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -1802,39 +1802,39 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-84 >li {
+.emotion-86 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-84 >li:not(:first-of-type) {
+.emotion-86 >li:not(:first-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-84 {
+  .emotion-86 {
     -webkit-flex: unset;
     -ms-flex: unset;
     flex: unset;
   }
 }
 
-.emotion-75 {
+.emotion-77 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-75 {
+  .emotion-77 {
     -webkit-flex: unset;
     -ms-flex: unset;
     flex: unset;
   }
 }
 
-.emotion-70 {
+.emotion-72 {
   color: var(--secondary-text-color);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -1849,17 +1849,17 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   display: none;
 }
 
-.emotion-70:hover {
+.emotion-72:hover {
   color: var(--secondary-text-hover-color);
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-70 {
+  .emotion-72 {
     display: block;
   }
 }
 
-.emotion-69 {
+.emotion-71 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -1871,7 +1871,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   cursor: pointer;
 }
 
-.emotion-74 {
+.emotion-76 {
   --horizontal-spacing: 0.5rem;
   position: relative;
   width: 100%;
@@ -1882,12 +1882,12 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-74 {
+  .emotion-76 {
     display: none;
   }
 }
 
-.emotion-71 {
+.emotion-73 {
   width: 0.75rem;
   height: 0.75rem;
   fill: none;
@@ -1904,7 +1904,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-72 {
+.emotion-74 {
   width: 100%;
   border: 1px solid var(--border-color);
   border-radius: 4px;
@@ -1924,13 +1924,13 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   padding-bottom: 0.25rem;
 }
 
-.emotion-72:focus {
+.emotion-74:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-73 {
+.emotion-75 {
   position: absolute;
   right: var(--horizontal-spacing);
   top: 50%;
@@ -1947,11 +1947,11 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   padding: 0.0625rem 0.3125rem;
 }
 
-.dark-mode .emotion-73 {
+.dark-mode .emotion-75 {
   background: var(--color-dark-200);
 }
 
-.emotion-76 {
+.emotion-78 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -1967,11 +1967,11 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.emotion-76:hover {
+.emotion-78:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-81 {
+.emotion-83 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1982,7 +1982,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-79 {
+.emotion-81 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2017,19 +2017,19 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   white-space: nowrap;
 }
 
-.emotion-79:hover {
+.emotion-81:hover {
   color: var(--link-hover-color);
 }
 
 
 
 @media screen and (max-width: 545px) {
-  .emotion-77 {
+  .emotion-79 {
     display: none;
   }
 }
 
-.emotion-78 {
+.emotion-80 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -2041,19 +2041,19 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 545px) {
-  .emotion-78 {
+  .emotion-80 {
     display: block;
   }
 }
 
-.emotion-83 {
+.emotion-85 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.emotion-82 {
+.emotion-84 {
   --spinner-size: 1rem;
   display: inline-block;
   position: relative;
@@ -2061,7 +2061,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   width: 100%;
 }
 
-.emotion-82:after {
+.emotion-84:after {
   -webkit-animation: animation-0 0.5s linear infinite;
   animation: animation-0 0.5s linear infinite;
   border-radius: 50%;
@@ -2077,24 +2077,24 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   height: var(--spinner-size);
 }
 
-.emotion-108 {
+.emotion-110 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-108 {
+  .emotion-110 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-107 {
+.emotion-109 {
   fill: none;
   width: 100%;
 }
 
-.emotion-109 {
+.emotion-111 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -2108,28 +2108,28 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   max-width: 1180px;
 }
 
-.emotion-109>hr {
+.emotion-111>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-136 {
+.emotion-138 {
   color: var(--secondary-text-color);
   background-color: var(--color-neutrals-050);
   z-index: 1;
 }
 
-.dark-mode .emotion-136 {
+.dark-mode .emotion-138 {
   background-color: var(--color-dark-050);
 }
 
-.emotion-136 a {
+.emotion-138 a {
   color: currentColor;
 }
 
-.emotion-131 {
+.emotion-133 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -2148,7 +2148,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 550px) {
-  .emotion-131 {
+  .emotion-133 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -2159,27 +2159,27 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   }
 }
 
-.emotion-130 {
+.emotion-132 {
   fill: none;
   width: 150px;
   display: block;
 }
 
 @media screen and (max-width: 550px) {
-  .emotion-130 {
+  .emotion-132 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-135 {
+.emotion-137 {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.dark-mode .emotion-135 {
+.dark-mode .emotion-137 {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.emotion-134 {
+.emotion-136 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -2197,7 +2197,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-134 {
+  .emotion-136 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -2209,14 +2209,14 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   }
 }
 
-.emotion-132 {
+.emotion-134 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-133 {
+.emotion-135 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2232,20 +2232,20 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-133 a {
+.emotion-135 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
 <div
-  className="emotion-137"
+  className="emotion-139"
 >
   <div
-    className=" emotion-86"
+    className=" emotion-88"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-85"
+      className="emotion-87"
     >
       <div
         className="emotion-28"
@@ -2347,7 +2347,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         </div>
       </div>
       <nav
-        className="emotion-68"
+        className="emotion-70"
       >
         <a
           className="emotion-50"
@@ -2408,7 +2408,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </svg>
         </a>
         <div
-          className="emotion-62"
+          className="emotion-63"
         >
           <button
             className="emotion-54 emotion-55"
@@ -2431,10 +2431,10 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
             </svg>
           </button>
           <div
-            className="emotion-61"
+            className="emotion-62"
           >
             <div
-              className="emotion-60"
+              className="emotion-61"
             >
               <a
                 className="emotion-56"
@@ -2472,15 +2472,24 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
               >
                 Community
               </a>
+              <a
+                className="emotion-56"
+                href="https://learn.newrelic.com/"
+                onClick={[Function]}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Learn
+              </a>
             </div>
           </div>
         </div>
         <ul
-          className="emotion-67"
+          className="emotion-69"
         >
           <li>
             <a
-              className="emotion-63"
+              className="emotion-64"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener noreferrer"
@@ -2491,7 +2500,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-63"
+              className="emotion-64"
               href="https://developer.newrelic.com/"
               onClick={[Function]}
               rel="noopener noreferrer"
@@ -2502,7 +2511,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-63"
+              className="emotion-64"
               href="https://opensource.newrelic.com/"
               onClick={[Function]}
               rel="noopener noreferrer"
@@ -2513,7 +2522,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-63"
+              className="emotion-64"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener noreferrer"
@@ -2522,38 +2531,28 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
               Community
             </a>
           </li>
+          <li>
+            <a
+              className="emotion-64"
+              href="https://learn.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Learn
+            </a>
+          </li>
         </ul>
       </nav>
       <ul
-        className="emotion-84"
+        className="emotion-86"
       >
         <li
-          className="emotion-75"
+          className="emotion-77"
         >
           <a
-            className="emotion-70"
+            className="emotion-72"
             href="?q="
-          >
-            <svg
-              className="emotion-69"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="11"
-                cy="11"
-                r="8"
-              />
-              <line
-                x1="21"
-                x2="16.65"
-                y1="21"
-                y2="16.65"
-              />
-            </svg>
-          </a>
-          <div
-            className="emotion-74"
           >
             <svg
               className="emotion-71"
@@ -2572,8 +2571,29 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
                 y2="16.65"
               />
             </svg>
+          </a>
+          <div
+            className="emotion-76"
+          >
+            <svg
+              className="emotion-73"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
             <input
-              className="emotion-72"
+              className="emotion-74"
               onBlur={[Function]}
               onChange={[Function]}
               onFocus={[Function]}
@@ -2584,7 +2604,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
             />
             
             <span
-              className="emotion-73"
+              className="emotion-75"
             >
               /
             </span>
@@ -2592,7 +2612,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         </li>
         <li>
           <svg
-            className="emotion-76"
+            className="emotion-78"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -2603,24 +2623,22 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </svg>
         </li>
         <li
-          className="emotion-81"
+          className="emotion-83"
         >
           <a
-            className="emotion-79 emotion-55"
+            className="emotion-81 emotion-55"
             href="https://one.newrelic.com"
             onClick={[Function]}
             rel="noopener noreferrer"
-            size="extraSmall"
             target="_blank"
-            variant="link"
           >
             <span
-              className="emotion-77"
+              className="emotion-79"
             >
               Log in
             </span>
             <svg
-              className="emotion-78"
+              className="emotion-80"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2640,12 +2658,12 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="emotion-83"
+          className="emotion-85"
         >
           <div
             aria-busy={true}
             aria-label="Loading"
-            className="emotion-82"
+            className="emotion-84"
           />
         </li>
       </ul>
@@ -2656,11 +2674,11 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         "
   >
     <a
-      className="emotion-108"
+      className="emotion-110"
       href="/"
     >
       <svg
-        className="emotion-107"
+        className="emotion-109"
         viewBox="0 0 79 15"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -2781,7 +2799,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-109"
+    className="emotion-111"
   >
     <div>
       <div
@@ -2818,17 +2836,17 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-136"
+    className="emotion-138"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-131"
+      className="emotion-133"
     >
       <a
         href="/"
       >
         <svg
-          className="emotion-130"
+          className="emotion-132"
           viewBox="0 0 79 15"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -2881,18 +2899,18 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
       <div />
     </div>
     <div
-      className="emotion-135"
+      className="emotion-137"
     >
       <div
-        className="emotion-134"
+        className="emotion-136"
       >
         <div
-          className="emotion-132"
+          className="emotion-134"
         >
           Copyright © 2021 New Relic Inc.
         </div>
         <div
-          className="emotion-133"
+          className="emotion-135"
         >
           <a
             href="https://newrelic.com/about/careers"

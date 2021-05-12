@@ -64,6 +64,7 @@ jobs:
 
           echo "Pushing to main"
           git checkout main
+          git pull --ff-only origin main
           git cherry-pick $CHERRYCOMMIT
           git push origin main
 
@@ -79,10 +80,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               branch: 'develop',
-              required_status_checks: {
-                strict: false,
-                contexts: ['Gatsby Build']
-              },
+              required_status_checks: null,
               restrictions: {
                 users: [],
                 teams: []
