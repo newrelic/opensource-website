@@ -27,6 +27,24 @@ jobs:
           github-token: ${{ secrets.NEWRELIC_BOT_TOKEN }} # must have push access to repos for stats queries to work
           project-stats: true
 
+      - name: Temporarily disable branch protection
+        id: disable-branch-protection
+        uses: actions/github-script@v1
+        with:
+          github-token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+          previews: luke-cage-preview
+          script: |
+            const result = await github.repos.updateBranchProtection({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              branch: 'develop',
+              required_status_checks: null,
+              restrictions: null,
+              enforce_admins: null,
+              required_pull_request_reviews: null
+            })
+            console.log("Result:", result)
+
       - name: Commit data files
         run: |
           git config --local user.email "${{ env.THIRD_PARTY_GIT_AUTHOR_EMAIL }}"
@@ -39,21 +57,41 @@ jobs:
           git add src/data
           git commit -m "chore(stats): updated project stats files"
 
-          # Push to both develop and master here rather than using github-push-action
+          # Push to both develop and main here rather than using github-push-action
           echo "Pushing to develop"
           git push origin develop
           CHERRYCOMMIT=`git log -n1 | head -n1 | cut -c8-`
 
-          echo "Pushing to master"
-          git checkout master
+          echo "Pushing to main"
+          git checkout main
+          git pull --ff-only origin main
           git cherry-pick $CHERRYCOMMIT
-          git push origin master
+          git push origin main
 
-      # - name: Push Commit
-      #   uses: ad-m/github-push-action@v0.6.0
-      #   with:
-      #     github_token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
-      #     branch: ${{ github.ref }} #pushes to the branch that kicked off the job
+      - name: Re-enable branch protection
+        id: enable-branch-protection
+        if: always()
+        uses: actions/github-script@v1
+        with:
+          github-token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+          previews: luke-cage-preview
+          script: |
+            const result = await github.repos.updateBranchProtection({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              branch: 'develop',
+              required_status_checks: null,
+              restrictions: {
+                users: [],
+                teams: []
+              },
+              enforce_admins: true,
+              required_pull_request_reviews: {
+                dismiss_stale_reviews: true,
+                required_approving_review_count: 1
+              }
+            })
+            console.log("Result:", result)
 
   job-checkout-and-build:
     runs-on: ubuntu-latest
@@ -85,7 +123,7 @@ jobs:
         run: |
           if [ '${{ github.ref }}' = 'refs/heads/develop' ]; then
             yarn run build:staging
-          elif [ '${{ github.ref }}' = 'refs/heads/master' ]; then
+          elif [ '${{ github.ref }}' = 'refs/heads/main' ]; then
             yarn run build:production
           else
             echo "::error::Running on unsupported branch. Exiting."

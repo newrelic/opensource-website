@@ -1,3 +1,19 @@
+# [1.14.0](https://github.com/newrelic/opensource-website/compare/v1.13.2...v1.14.0) (2021-05-12)
+
+
+### Bug Fixes
+
+* add `git pull main` to project stats workflow ([c59bba9](https://github.com/newrelic/opensource-website/commit/c59bba99a12b55c6e5aa8a80209d0f402d1808b7))
+* add branch protection handling in workflows ([8dfcc93](https://github.com/newrelic/opensource-website/commit/8dfcc93ee9c980dcd14410c8bf10333efdf8cb3a))
+* properly fix workflow syntax ([5452595](https://github.com/newrelic/opensource-website/commit/545259598d647deaac9987c0d9db1c03195265b0))
+* remove required status checks ([acd3b36](https://github.com/newrelic/opensource-website/commit/acd3b363af9ac3cee143ad061f67480031d0d816))
+* yaml formatting in workflow ([0fadccd](https://github.com/newrelic/opensource-website/commit/0fadccdee3cb7adcb24bb810777605d9724c215a))
+
+
+### Features
+
+* Update theme to include A/B testing button ([4398139](https://github.com/newrelic/opensource-website/commit/4398139b33d2fdfb32736ec0420c1056b5ea5f53))
+
 ## [1.13.2](https://github.com/newrelic/opensource-website/compare/v1.13.1...v1.13.2) (2021-04-26)
 
 

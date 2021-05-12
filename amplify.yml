@@ -8,7 +8,7 @@ frontend:
     build:
       commands:
         - |
-          if [ "${AWS_BRANCH}" = "master" ]; then
+          if [ "${AWS_BRANCH}" = "main" ]; then
             yarn run build:production;
           else
             yarn run build:production;

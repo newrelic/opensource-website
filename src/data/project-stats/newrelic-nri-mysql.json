@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/nri-mysql",
   "issues": {
-    "open": 5
+    "open": 6
   },
-  "releases": 12,
+  "releases": 13,
   "latestRelease": {
-    "name": "v1.5.1",
-    "date": "2021-03-25T12:58:18Z"
+    "name": "v1.6.0",
+    "date": "2021-05-05T15:31:11Z"
   },
-  "commits": 157,
-  "lastSixMonthsCommitTotal": 16,
-  "contributors": 16,
+  "commits": 160,
+  "lastSixMonthsCommitTotal": 19,
+  "contributors": 17,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 7886905,
-      "login": "fryckbos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
-      "htmlUrl": "https://github.com/fryckbos",
-      "contributions": 5
-    },
     {
       "id": 3969485,
       "login": "brushknight",
@@ -32,11 +25,18 @@
       "contributions": 1
     },
     {
-      "id": 13438133,
-      "login": "matiasburni",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
-      "htmlUrl": "https://github.com/matiasburni",
-      "contributions": 2
+      "id": 7886905,
+      "login": "fryckbos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
+      "htmlUrl": "https://github.com/fryckbos",
+      "contributions": 5
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 1
     },
     {
       "id": 2054195,
@@ -46,11 +46,11 @@
       "contributions": 2
     },
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 1
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 2
     },
     {
       "id": 929261,
@@ -67,13 +67,6 @@
       "contributions": 5
     },
     {
-      "id": 5297542,
-      "login": "alejandrodnm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
-      "htmlUrl": "https://github.com/alejandrodnm",
-      "contributions": 15
-    },
-    {
       "id": 11226795,
       "login": "chelarua",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11226795?v=4",
@@ -81,11 +74,25 @@
       "contributions": 2
     },
     {
+      "id": 5297542,
+      "login": "alejandrodnm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
+      "htmlUrl": "https://github.com/alejandrodnm",
+      "contributions": 15
+    },
+    {
+      "id": 13438133,
+      "login": "matiasburni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
+      "htmlUrl": "https://github.com/matiasburni",
+      "contributions": 2
+    },
+    {
       "id": 969721,
       "login": "roobre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
       "htmlUrl": "https://github.com/roobre",
-      "contributions": 2
+      "contributions": 3
     },
     {
       "id": 3049176,

@@ -1,7 +1,7 @@
 # Contributing
 
 Contributions are always welcome. Before contributing please read the
-[code of conduct](./CODE_OF_CONDUCT.md) and [search the issue tracker](issues); your issue may have already been discussed or fixed in `master`. To contribute,
+[code of conduct](./CODE_OF_CONDUCT.md) and [search the issue tracker](issues); your issue may have already been discussed or fixed in `main`. To contribute,
 [fork](https://help.github.com/articles/fork-a-repo/) this repository, commit your changes, and [send a Pull Request](https://help.github.com/articles/using-pull-requests/).
 
 Note that our [code of conduct](./CODE_OF_CONDUCT.md) applies to all platforms and venues related to this project; please follow it in all your interactions with the project and its participants.
@@ -17,6 +17,14 @@ Before submitting an Issue, please search for similar ones in the
 1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
 2. Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
 3. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+
+### Branch Protection
+
+The `develop` and `main` branches have "Branch Protection" enabled in Github. In order to merge a pull request into `develop`, you must have (at least) one approval. 
+
+You can review full Branch Protection details [here](https://docs.google.com/document/d/1O1SGS0i3OmPfvPhylpFe1CTMkE20889iAOF_cMFJ344/edit#heading=h.m3dmygv9cd7h), and check out a visual representation of the workflow below:
+
+![](src/images/OSS_site_branch_protection_workflow.png)
 
 ## Contributor License Agreement
 

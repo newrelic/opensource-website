@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/infrastructure-agent",
   "issues": {
-    "open": 64
+    "open": 48
   },
-  "releases": 24,
+  "releases": 38,
   "latestRelease": {
-    "name": "1.17.0",
-    "date": "2021-04-23T12:30:45Z"
+    "name": "1.18.12",
+    "date": "2021-05-11T09:27:34Z"
   },
-  "commits": 206,
-  "lastSixMonthsCommitTotal": 86,
-  "contributors": 20,
+  "commits": 222,
+  "lastSixMonthsCommitTotal": 82,
+  "contributors": 22,
   "pullRequests": {
     "open": 14
   },
@@ -18,25 +18,25 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 6243832,
+      "login": "jsubirat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6243832?v=4",
+      "htmlUrl": "https://github.com/jsubirat",
+      "contributions": 4
+    },
+    {
       "id": 1300852,
       "login": "varas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
       "htmlUrl": "https://github.com/varas",
-      "contributions": 79
+      "contributions": 87
     },
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 3
-    },
-    {
-      "id": 62337995,
-      "login": "jodstrcil",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/62337995?v=4",
-      "htmlUrl": "https://github.com/jodstrcil",
-      "contributions": 4
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
     },
     {
       "id": 20245790,
@@ -46,11 +46,11 @@
       "contributions": 1
     },
     {
-      "id": 4612272,
-      "login": "Noly",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
-      "htmlUrl": "https://github.com/Noly",
-      "contributions": 21
+      "id": 15685307,
+      "login": "cristianciutea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
+      "htmlUrl": "https://github.com/cristianciutea",
+      "contributions": 14
     },
     {
       "id": 2054195,
@@ -60,10 +60,10 @@
       "contributions": 3
     },
     {
-      "id": 976883,
-      "login": "jlegoff",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
-      "htmlUrl": "https://github.com/jlegoff",
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
       "contributions": 1
     },
     {
@@ -74,11 +74,11 @@
       "contributions": 1
     },
     {
-      "id": 15685307,
-      "login": "cristianciutea",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
-      "htmlUrl": "https://github.com/cristianciutea",
-      "contributions": 13
+      "id": 62337995,
+      "login": "jodstrcil",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62337995?v=4",
+      "htmlUrl": "https://github.com/jodstrcil",
+      "contributions": 4
     },
     {
       "id": 159076,
@@ -88,25 +88,39 @@
       "contributions": 2
     },
     {
-      "id": 6243832,
-      "login": "jsubirat",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6243832?v=4",
-      "htmlUrl": "https://github.com/jsubirat",
-      "contributions": 4
-    },
-    {
-      "id": 969721,
-      "login": "roobre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
-      "htmlUrl": "https://github.com/roobre",
-      "contributions": 2
-    },
-    {
       "id": 5297542,
       "login": "alejandrodnm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
       "htmlUrl": "https://github.com/alejandrodnm",
       "contributions": 1
+    },
+    {
+      "id": 3380451,
+      "login": "rubenruizdegauna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
+      "htmlUrl": "https://github.com/rubenruizdegauna",
+      "contributions": 2
+    },
+    {
+      "id": 4612272,
+      "login": "Noly",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
+      "htmlUrl": "https://github.com/Noly",
+      "contributions": 21
+    },
+    {
+      "id": 976883,
+      "login": "jlegoff",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
+      "htmlUrl": "https://github.com/jlegoff",
+      "contributions": 1
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 3
     },
     {
       "id": 717815,
@@ -120,14 +134,14 @@
       "login": "brushknight",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3969485?v=4",
       "htmlUrl": "https://github.com/brushknight",
-      "contributions": 12
+      "contributions": 16
     },
     {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 1
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
+      "contributions": 2
     },
     {
       "id": 22507783,
@@ -183,6 +197,11 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U3ODY=",
+      "name": "Jinja",
+      "color": "#a52a22"
     }
   ],
   "screenshots": [],

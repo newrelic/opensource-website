@@ -3,16 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 8,
+  "releases": 12,
   "latestRelease": {
-    "name": "v0.9.13",
-    "date": "2021-03-25T18:12:16Z"
+    "name": "v0.9.17",
+    "date": "2021-05-07T18:24:56Z"
   },
-  "commits": 143,
-  "lastSixMonthsCommitTotal": 37,
-  "contributors": 10,
+  "commits": 162,
+  "lastSixMonthsCommitTotal": 56,
+  "contributors": 11,
   "pullRequests": {
-    "open": 5
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,18 +25,18 @@
       "contributions": 1
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 21
+    },
+    {
       "id": 13436647,
       "login": "psimkins",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13436647?v=4",
       "htmlUrl": "https://github.com/psimkins",
       "contributions": 2
-    },
-    {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 3
     },
     {
       "id": 8731013,
@@ -46,11 +46,11 @@
       "contributions": 1
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 14
+      "id": 12127,
+      "login": "WardCunningham",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12127?v=4",
+      "htmlUrl": "https://github.com/WardCunningham",
+      "contributions": 1
     },
     {
       "id": 53268450,
@@ -74,11 +74,18 @@
       "contributions": 6
     },
     {
-      "id": 12127,
-      "login": "WardCunningham",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12127?v=4",
-      "htmlUrl": "https://github.com/WardCunningham",
-      "contributions": 1
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 3
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 5
     },
     {
       "id": 6722433,

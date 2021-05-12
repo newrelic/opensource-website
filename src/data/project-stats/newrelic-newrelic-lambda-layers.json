@@ -3,27 +3,20 @@
   "issues": {
     "open": 2
   },
-  "releases": 92,
+  "releases": 94,
   "latestRelease": {
-    "name": "v7.3.1.1_nodejs",
-    "date": "2021-04-19T22:09:31Z"
+    "name": "v7.4.0_nodejs",
+    "date": "2021-04-29T17:26:31Z"
   },
-  "commits": 113,
-  "lastSixMonthsCommitTotal": 29,
+  "commits": 123,
+  "lastSixMonthsCommitTotal": 38,
   "contributors": 7,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 28942544,
-      "login": "katiewest820",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/28942544?v=4",
-      "htmlUrl": "https://github.com/katiewest820",
-      "contributions": 1
-    },
     {
       "id": 11327,
       "login": "mrickard",
@@ -60,6 +53,13 @@
       "contributions": 2
     },
     {
+      "id": 28942544,
+      "login": "katiewest820",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28942544?v=4",
+      "htmlUrl": "https://github.com/katiewest820",
+      "contributions": 9
+    },
+    {
       "id": 585473,
       "login": "MattWhelan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
@@ -82,6 +82,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNTg=",
+      "name": "Java",
+      "color": "#b07219"
     }
   ],
   "screenshots": [],

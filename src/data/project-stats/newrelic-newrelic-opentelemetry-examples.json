@@ -1,13 +1,13 @@
 {
   "projectFullName": "newrelic/newrelic-opentelemetry-examples",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 29,
-  "lastSixMonthsCommitTotal": 29,
-  "contributors": 3,
+  "commits": 64,
+  "lastSixMonthsCommitTotal": 64,
+  "contributors": 4,
   "pullRequests": {
     "open": 0
   },
@@ -15,18 +15,11 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 3676547,
-      "login": "alanwest",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3676547?v=4",
-      "htmlUrl": "https://github.com/alanwest",
-      "contributions": 1
-    },
-    {
       "id": 34418638,
       "login": "jack-berg",
       "avatarUrl": "https://avatars.githubusercontent.com/u/34418638?v=4",
       "htmlUrl": "https://github.com/jack-berg",
-      "contributions": 19
+      "contributions": 32
     },
     {
       "id": 43244625,
@@ -34,6 +27,20 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
+    },
+    {
+      "id": 3676547,
+      "login": "alanwest",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3676547?v=4",
+      "htmlUrl": "https://github.com/alanwest",
+      "contributions": 3
+    },
+    {
+      "id": 18580583,
+      "login": "DanStadlerNewRelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18580583?v=4",
+      "htmlUrl": "https://github.com/DanStadlerNewRelic",
+      "contributions": 3
     }
   ],
   "languages": [
@@ -46,6 +53,11 @@
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
       "name": "Dockerfile",
       "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
     }
   ],
   "screenshots": [],
