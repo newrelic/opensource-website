@@ -1,3 +1,10 @@
+## [1.14.1](https://github.com/newrelic/opensource-website/compare/v1.14.0...v1.14.1) (2021-05-12)
+
+
+### Bug Fixes
+
+* Bump theme to 2.2.3 ([a35846d](https://github.com/newrelic/opensource-website/commit/a35846d71dee2e3f704d9014c06e8ec8778e3153))
+
 # [1.14.0](https://github.com/newrelic/opensource-website/compare/v1.13.2...v1.14.0) (2021-05-12)
 
 
