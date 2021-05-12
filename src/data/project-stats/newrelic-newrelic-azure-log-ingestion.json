@@ -3,10 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 50,
-  "lastSixMonthsCommitTotal": 50,
+  "releases": 2,
+  "latestRelease": {
+    "name": "v0.0.2",
+    "date": "2021-05-11T19:57:01Z"
+  },
+  "commits": 75,
+  "lastSixMonthsCommitTotal": 75,
   "contributors": 5,
   "pullRequests": {
     "open": 0
@@ -33,21 +36,21 @@
       "login": "kolanos",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
       "htmlUrl": "https://github.com/kolanos",
-      "contributions": 15
+      "contributions": 26
     },
     {
       "id": 585473,
       "login": "MattWhelan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
       "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 6
+      "contributions": 10
     },
     {
       "id": 11327,
       "login": "mrickard",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
       "htmlUrl": "https://github.com/mrickard",
-      "contributions": 3
+      "contributions": 9
     }
   ],
   "languages": [

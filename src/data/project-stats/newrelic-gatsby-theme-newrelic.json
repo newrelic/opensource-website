@@ -1,46 +1,28 @@
 {
   "projectFullName": "newrelic/gatsby-theme-newrelic",
   "issues": {
-    "open": 12
+    "open": 11
   },
-  "releases": 112,
+  "releases": 116,
   "latestRelease": {
-    "name": "v2.0.2",
+    "name": "v2.2.2",
     "date": null
   },
-  "commits": 1517,
-  "lastSixMonthsCommitTotal": 922,
-  "contributors": 13,
+  "commits": 1547,
+  "lastSixMonthsCommitTotal": 839,
+  "contributors": 14,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU4NjU0Mzk4NzE=",
-      "title": "Document our branch protection rules for each site",
-      "url": "https://github.com/newrelic/gatsby-theme-newrelic/issues/367",
-      "createdAt": "2021-04-22T20:29:19Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "jpvajda",
-        "id": "MDQ6VXNlcjEzOTUxNTg=",
-        "email": "",
-        "name": "John P Vajda"
-      },
-      "number": 367,
-      "createdBy": "John P Vajda"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 1395158,
       "login": "jpvajda",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1395158?v=4",
       "htmlUrl": "https://github.com/jpvajda",
-      "contributions": 23
+      "contributions": 24
     },
     {
       "id": 66321197,
@@ -48,6 +30,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
       "contributions": 30
+    },
+    {
+      "id": 70179215,
+      "login": "nr-kkenney",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
+      "htmlUrl": "https://github.com/nr-kkenney",
+      "contributions": 1
     },
     {
       "id": 6722433,
@@ -61,7 +50,7 @@
       "login": "aswanson-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
       "htmlUrl": "https://github.com/aswanson-nr",
-      "contributions": 10
+      "contributions": 12
     },
     {
       "id": 55203603,
@@ -75,21 +64,21 @@
       "login": "LizBaker",
       "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
       "htmlUrl": "https://github.com/LizBaker",
-      "contributions": 34
+      "contributions": 36
     },
     {
       "id": 1946433,
       "login": "zstix",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1946433?v=4",
       "htmlUrl": "https://github.com/zstix",
-      "contributions": 118
+      "contributions": 126
     },
     {
       "id": 2952843,
       "login": "roadlittledawn",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2952843?v=4",
       "htmlUrl": "https://github.com/roadlittledawn",
-      "contributions": 64
+      "contributions": 68
     },
     {
       "id": 2069584,
@@ -110,7 +99,7 @@
       "login": "jerelmiller",
       "avatarUrl": "https://avatars.githubusercontent.com/u/565661?v=4",
       "htmlUrl": "https://github.com/jerelmiller",
-      "contributions": 858
+      "contributions": 859
     },
     {
       "id": 19733683,

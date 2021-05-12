@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/nri-rabbitmq",
   "issues": {
-    "open": 1
+    "open": 2
   },
-  "releases": 26,
+  "releases": 27,
   "latestRelease": {
-    "name": "v2.2.4",
-    "date": "2021-03-30T08:11:37Z"
+    "name": "v2.3.0",
+    "date": "2021-05-10T17:56:47Z"
   },
-  "commits": 145,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 19,
+  "commits": 153,
+  "lastSixMonthsCommitTotal": 11,
+  "contributors": 21,
   "pullRequests": {
     "open": 0
   },
@@ -25,24 +25,24 @@
       "contributions": 1
     },
     {
-      "id": 13438133,
-      "login": "matiasburni",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
-      "htmlUrl": "https://github.com/matiasburni",
+      "id": 15685307,
+      "login": "cristianciutea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
+      "htmlUrl": "https://github.com/cristianciutea",
+      "contributions": 3
+    },
+    {
+      "id": 3638421,
+      "login": "alvarocabanas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
+      "htmlUrl": "https://github.com/alvarocabanas",
       "contributions": 1
     },
     {
-      "id": 7886905,
-      "login": "fryckbos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
-      "htmlUrl": "https://github.com/fryckbos",
-      "contributions": 4
-    },
-    {
-      "id": 9002169,
-      "login": "bpschmitt",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/9002169?v=4",
-      "htmlUrl": "https://github.com/bpschmitt",
+      "id": 7555235,
+      "login": "jportasa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7555235?v=4",
+      "htmlUrl": "https://github.com/jportasa",
       "contributions": 1
     },
     {
@@ -74,10 +74,10 @@
       "contributions": 1
     },
     {
-      "id": 2340253,
-      "login": "dbethke",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2340253?v=4",
-      "htmlUrl": "https://github.com/dbethke",
+      "id": 55132258,
+      "login": "jsbnr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55132258?v=4",
+      "htmlUrl": "https://github.com/jsbnr",
       "contributions": 1
     },
     {
@@ -88,32 +88,25 @@
       "contributions": 3
     },
     {
+      "id": 9002169,
+      "login": "bpschmitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9002169?v=4",
+      "htmlUrl": "https://github.com/bpschmitt",
+      "contributions": 1
+    },
+    {
+      "id": 13438133,
+      "login": "matiasburni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
+      "htmlUrl": "https://github.com/matiasburni",
+      "contributions": 1
+    },
+    {
       "id": 11226795,
       "login": "chelarua",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11226795?v=4",
       "htmlUrl": "https://github.com/chelarua",
       "contributions": 3
-    },
-    {
-      "id": 7555235,
-      "login": "jportasa",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7555235?v=4",
-      "htmlUrl": "https://github.com/jportasa",
-      "contributions": 1
-    },
-    {
-      "id": 15685307,
-      "login": "cristianciutea",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
-      "htmlUrl": "https://github.com/cristianciutea",
-      "contributions": 3
-    },
-    {
-      "id": 2235616,
-      "login": "rhullah",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2235616?v=4",
-      "htmlUrl": "https://github.com/rhullah",
-      "contributions": 1
     },
     {
       "id": 939550,
@@ -123,6 +116,27 @@
       "contributions": 1
     },
     {
+      "id": 2235616,
+      "login": "rhullah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2235616?v=4",
+      "htmlUrl": "https://github.com/rhullah",
+      "contributions": 1
+    },
+    {
+      "id": 7886905,
+      "login": "fryckbos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
+      "htmlUrl": "https://github.com/fryckbos",
+      "contributions": 4
+    },
+    {
+      "id": 12560219,
+      "login": "ivancorrales",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12560219?v=4",
+      "htmlUrl": "https://github.com/ivancorrales",
+      "contributions": 7
+    },
+    {
       "id": 3957880,
       "login": "drryu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3957880?v=4",
@@ -130,10 +144,10 @@
       "contributions": 1
     },
     {
-      "id": 55132258,
-      "login": "jsbnr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55132258?v=4",
-      "htmlUrl": "https://github.com/jsbnr",
+      "id": 2340253,
+      "login": "dbethke",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2340253?v=4",
+      "htmlUrl": "https://github.com/dbethke",
       "contributions": 1
     },
     {
