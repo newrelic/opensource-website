@@ -3,6 +3,11 @@ const _ = require('lodash');
 const remarkExternalLinks = require('./plugins/remark-external-link-icon');
 
 module.exports = {
+  flags: {
+    DEV_SSR: true,
+    PRESERVE_WEBPACK_CACHE: true,
+    PRESERVE_FILE_DOWNLOAD_CACHE: true,
+  },
   siteMetadata: {
     title: `New Relic Open Source`,
     description: `New Relic's open source website makes it easy for you to explore the projects we're maintaining as well as our involvement in open standards.`,
