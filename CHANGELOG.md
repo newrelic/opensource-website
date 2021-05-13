@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/newrelic/opensource-website/compare/v1.14.1...v1.15.0) (2021-05-13)
+
+
+### Features
+
+* adding feature flags to improve build times ([af2d2c5](https://github.com/newrelic/opensource-website/commit/af2d2c5525491fc19127ebbca38183633809d370))
+
 ## [1.14.1](https://github.com/newrelic/opensource-website/compare/v1.14.0...v1.14.1) (2021-05-12)
 
 
