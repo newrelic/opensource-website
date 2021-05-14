@@ -19,7 +19,7 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        componentPath
+        component
         path
       }
     }

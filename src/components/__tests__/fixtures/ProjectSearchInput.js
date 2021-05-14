@@ -793,7 +793,7 @@ export default {
             contentEditLink:
               'https://github.com/newrelic/opensource-website/tree/develop/src/pages/code-of-conduct.mdx',
           },
-          componentPath:
+          component:
             '/Users/mfrederick/Desktop/NewRelic/github.newrelic/opensource-website/src/pages/code-of-conduct.mdx',
           path: '/code-of-conduct/',
         },
