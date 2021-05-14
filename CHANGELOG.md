@@ -1,3 +1,10 @@
+## [1.15.1](https://github.com/newrelic/opensource-website/compare/v1.15.0...v1.15.1) (2021-05-14)
+
+
+### Bug Fixes
+
+* Swap componentPath for component in allSitePage queries ([87a7d30](https://github.com/newrelic/opensource-website/commit/87a7d30f37792426cff30a1a7f7f08e7d36ba881))
+
 # [1.15.0](https://github.com/newrelic/opensource-website/compare/v1.14.1...v1.15.0) (2021-05-13)
 
 
