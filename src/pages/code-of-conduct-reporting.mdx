@@ -7,7 +7,7 @@ export const query = graphql`
   query CoCRQuery($path: String) {
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        componentPath
+        component
         path
       }
     }
@@ -16,15 +16,15 @@ export const query = graphql`
 
 export default ({ children, data, pageContext }) => (
   <Layout fullWidth editLink={pageContext.fileRelativePath}>
-      <SEO title="New Relic Open Source Community Code of Conduct - Reporting Guide" />
-      <PageHeading
-        title="New Relic Open Source Community Code of Conduct - Reporting Guide"
-        hasSeparator
-      />
-      <div className="primary-content">
-        <main>{children}</main>
-      </div>
-    </Layout>
+    <SEO title="New Relic Open Source Community Code of Conduct - Reporting Guide" />
+    <PageHeading
+      title="New Relic Open Source Community Code of Conduct - Reporting Guide"
+      hasSeparator
+    />
+    <div className="primary-content">
+      <main>{children}</main>
+    </div>
+  </Layout>
 );
 
 If you believe someone is violating the [Code of Conduct](/code-of-conduct), we ask that you report it to the New Relic Open Source Steering Committee by emailing [opensource@newrelic.com](mailto:opensource@newrelic.com). All reports will be kept confidential to the extent possible.
@@ -57,4 +57,13 @@ In potentially harmful situations, such as ongoing harassment or threats to anyo
 
 We encourage New Relic employees to report any misconduct they may experience to Human Resources or to any senior manager through the reporting process outlined in our anti-harassment policy and training.
 
-<sub><sup>Modified from original. Original text courtesy of <a href="https://www.djangoproject.com/conduct/reporting/">Django Project's Reporting Guide</a> and <a href="https://opensource.google/conduct/">Google Community Gidelines</a>.</sup></sub>
+<sub>
+  <sup>
+    Modified from original. Original text courtesy of{' '}
+    <a href="https://www.djangoproject.com/conduct/reporting/">
+      Django Project's Reporting Guide
+    </a>{' '}
+    and{' '}
+    <a href="https://opensource.google/conduct/">Google Community Gidelines</a>.
+  </sup>
+</sub>
