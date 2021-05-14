@@ -30,7 +30,7 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $pagePath } }) {
       nodes {
-        componentPath
+        component
         path
       }
     }

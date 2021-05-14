@@ -1,3 +1,17 @@
+## [1.15.1](https://github.com/newrelic/opensource-website/compare/v1.15.0...v1.15.1) (2021-05-14)
+
+
+### Bug Fixes
+
+* Swap componentPath for component in allSitePage queries ([87a7d30](https://github.com/newrelic/opensource-website/commit/87a7d30f37792426cff30a1a7f7f08e7d36ba881))
+
+# [1.15.0](https://github.com/newrelic/opensource-website/compare/v1.14.1...v1.15.0) (2021-05-13)
+
+
+### Features
+
+* adding feature flags to improve build times ([af2d2c5](https://github.com/newrelic/opensource-website/commit/af2d2c5525491fc19127ebbca38183633809d370))
+
 ## [1.14.1](https://github.com/newrelic/opensource-website/compare/v1.14.0...v1.14.1) (2021-05-12)
 
 

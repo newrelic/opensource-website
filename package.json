@@ -2,7 +2,7 @@
   "name": "opensource-website",
   "private": true,
   "description": "Data, code, and automation for opensource.newrelic.com",
-  "version": "1.14.1",
+  "version": "1.15.1",
   "author": "Open Source Team at New Relic <opensource@newrelic.com>",
   "dependencies": {
     "@emotion/react": "^11.1.5",
@@ -13,7 +13,7 @@
     "@splitsoftware/splitio-react": "^1.2.4",
     "date-fns": "^2.17.0",
     "feather-icons": "^4.28.0",
-    "gatsby": "^3.3.0",
+    "gatsby": "^3.5.0",
     "gatsby-image": "^2.11.0",
     "gatsby-plugin-manifest": "^3.3.0",
     "gatsby-plugin-mdx": "^2.3.0",
