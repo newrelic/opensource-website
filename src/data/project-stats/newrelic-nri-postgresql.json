@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/nri-postgresql",
   "issues": {
-    "open": 4
+    "open": 3
   },
   "releases": 38,
   "latestRelease": {
     "name": "v2.7.0",
     "date": "2021-05-10T18:32:32Z"
   },
-  "commits": 207,
-  "lastSixMonthsCommitTotal": 10,
+  "commits": 208,
+  "lastSixMonthsCommitTotal": 11,
   "contributors": 18,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 7886905,
-      "login": "fryckbos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
-      "htmlUrl": "https://github.com/fryckbos",
-      "contributions": 4
-    },
     {
       "id": 3638421,
       "login": "alvarocabanas",
@@ -32,11 +25,18 @@
       "contributions": 1
     },
     {
-      "id": 13438133,
-      "login": "matiasburni",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
-      "htmlUrl": "https://github.com/matiasburni",
-      "contributions": 2
+      "id": 11226795,
+      "login": "chelarua",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11226795?v=4",
+      "htmlUrl": "https://github.com/chelarua",
+      "contributions": 1
+    },
+    {
+      "id": 939550,
+      "login": "mariomac",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/939550?v=4",
+      "htmlUrl": "https://github.com/mariomac",
+      "contributions": 3
     },
     {
       "id": 2054195,
@@ -81,11 +81,11 @@
       "contributions": 3
     },
     {
-      "id": 11226795,
-      "login": "chelarua",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11226795?v=4",
-      "htmlUrl": "https://github.com/chelarua",
-      "contributions": 1
+      "id": 13438133,
+      "login": "matiasburni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
+      "htmlUrl": "https://github.com/matiasburni",
+      "contributions": 2
     },
     {
       "id": 7555235,
@@ -95,11 +95,11 @@
       "contributions": 1
     },
     {
-      "id": 939550,
-      "login": "mariomac",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/939550?v=4",
-      "htmlUrl": "https://github.com/mariomac",
-      "contributions": 3
+      "id": 7886905,
+      "login": "fryckbos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
+      "htmlUrl": "https://github.com/fryckbos",
+      "contributions": 4
     },
     {
       "id": 969721,
