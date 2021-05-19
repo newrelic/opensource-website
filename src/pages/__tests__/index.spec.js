@@ -11,6 +11,7 @@ import LocaleProvider from '@newrelic/gatsby-theme-newrelic/src/components/Local
 import themeTranslations from '@newrelic/gatsby-theme-newrelic/src/i18n/translations/en.json';
 import i18n from 'i18next';
 import { I18nextProvider } from 'react-i18next';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 import HomePage from '../index';
 import HomePageHighlights from '../../components/HomePageHighlights';
@@ -21,6 +22,8 @@ const history = createHistory(source);
 const pageContext = { fileRelativePath: 'src/pages/index.js' };
 
 const THEME_NAMESPACE = 'gatsby-theme-newrelic';
+
+const queryClient = new QueryClient();
 
 const initI18n = () => {
   i18n.init({
@@ -75,9 +78,11 @@ describe('HomePage', () => {
     const tree = TestRenderer.create(
       <I18nextProvider i18n={i18n}>
         <LocaleProvider i18n={i18n}>
-          <LocationProvider history={history}>
-            <HomePage pageContext={pageContext} />
-          </LocationProvider>
+          <QueryClientProvider client={queryClient}>
+            <LocationProvider history={history}>
+              <HomePage pageContext={pageContext} />
+            </LocationProvider>
+          </QueryClientProvider>
         </LocaleProvider>
       </I18nextProvider>
     ).toJSON();
@@ -92,9 +97,11 @@ describe('HomePage Hero Header', () => {
     const { getByTestId } = render(
       <I18nextProvider i18n={i18n}>
         <LocaleProvider i18n={i18n}>
-          <LocationProvider history={history}>
-            <HomePage pageContext={pageContext} />
-          </LocationProvider>
+          <QueryClientProvider client={queryClient}>
+            <LocationProvider history={history}>
+              <HomePage pageContext={pageContext} />
+            </LocationProvider>
+          </QueryClientProvider>
         </LocaleProvider>
       </I18nextProvider>
     );
@@ -112,9 +119,11 @@ describe('HomePage Projects We Support', () => {
     const testRenderer = TestRenderer.create(
       <I18nextProvider i18n={i18n}>
         <LocaleProvider i18n={i18n}>
-          <LocationProvider history={history}>
-            <HomePage pageContext={pageContext} />
-          </LocationProvider>
+          <QueryClientProvider client={queryClient}>
+            <LocationProvider history={history}>
+              <HomePage pageContext={pageContext} />
+            </LocationProvider>
+          </QueryClientProvider>
         </LocaleProvider>
       </I18nextProvider>
     );
@@ -132,9 +141,11 @@ describe('HomePage Explore Projects', () => {
     const testRenderer = TestRenderer.create(
       <I18nextProvider i18n={i18n}>
         <LocaleProvider i18n={i18n}>
-          <LocationProvider history={history}>
-            <HomePage pageContext={pageContext} />
-          </LocationProvider>
+          <QueryClientProvider client={queryClient}>
+            <LocationProvider history={history}>
+              <HomePage pageContext={pageContext} />
+            </LocationProvider>
+          </QueryClientProvider>
         </LocaleProvider>
       </I18nextProvider>
     );

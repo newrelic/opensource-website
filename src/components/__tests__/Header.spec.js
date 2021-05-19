@@ -10,6 +10,7 @@ import LocaleProvider from '@newrelic/gatsby-theme-newrelic/src/components/Local
 import themeTranslations from '@newrelic/gatsby-theme-newrelic/src/i18n/translations/en.json';
 import i18n from 'i18next';
 import { I18nextProvider } from 'react-i18next';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 import Header from '../Header';
 
@@ -17,6 +18,8 @@ const source = createMemorySource('/');
 const history = createHistory(source);
 
 const THEME_NAMESPACE = 'gatsby-theme-newrelic';
+
+const queryClient = new QueryClient();
 
 const initI18n = () => {
   i18n.init({
@@ -72,9 +75,11 @@ describe('Header', () => {
       .create(
         <I18nextProvider i18n={i18n}>
           <LocaleProvider i18n={i18n}>
-            <LocationProvider history={history}>
-              <Header />
-            </LocationProvider>
+            <QueryClientProvider client={queryClient}>
+              <LocationProvider history={history}>
+                <Header />
+              </LocationProvider>
+            </QueryClientProvider>
           </LocaleProvider>
         </I18nextProvider>
       )
