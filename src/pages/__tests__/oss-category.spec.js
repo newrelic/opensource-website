@@ -11,6 +11,7 @@ import LocaleProvider from '@newrelic/gatsby-theme-newrelic/src/components/Local
 import themeTranslations from '@newrelic/gatsby-theme-newrelic/src/i18n/translations/en.json';
 import i18n from 'i18next';
 import { I18nextProvider } from 'react-i18next';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 import OssCategoryPage from '../oss-category';
 import data from './fixtures/oss-category';
@@ -20,6 +21,8 @@ const history = createHistory(source);
 const pageContext = { fileRelativePath: 'src/pages/oss-category.js' };
 
 const THEME_NAMESPACE = 'gatsby-theme-newrelic';
+
+const queryClient = new QueryClient();
 
 const initI18n = () => {
   i18n.init({
@@ -74,9 +77,11 @@ describe('OSS Category Page', () => {
     const tree = TestRenderer.create(
       <I18nextProvider i18n={i18n}>
         <LocaleProvider i18n={i18n}>
-          <LocationProvider history={history}>
-            <OssCategoryPage data={data} pageContext={pageContext} />
-          </LocationProvider>
+          <QueryClientProvider client={queryClient}>
+            <LocationProvider history={history}>
+              <OssCategoryPage data={data} pageContext={pageContext} />
+            </LocationProvider>
+          </QueryClientProvider>
         </LocaleProvider>
       </I18nextProvider>
     ).toJSON();
