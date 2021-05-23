@@ -1,0 +1,24 @@
+{
+  "name": "video-html5-js",
+  "fullName": "newrelic/video-html5-js",
+  "slug": "newrelic-video-html5-js",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic HTML5 Player JS Tracker",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/video-html5-js",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/video-html5-js",
+  "iconUrl": null,
+  "shortDescription": "Instrument the HTML5 video player (<video> element)",
+  "description": "Instrument the HTML5 video player (<video> element) to calculate KPIs like Exit Before Video Start and Video Start Time.",
+  "ossCategory": "new-relic-experimental",
+  "projectTags": ["agent", "video"],
+  "primaryLanguage": "JavaScript",
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic html5 Web Tracker",
+    "url": "https://github.com/newrelic/video-html5-js"
+  }
+}
