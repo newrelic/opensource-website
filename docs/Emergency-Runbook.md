@@ -1,6 +1,6 @@
 # Emergency Runbook -- opensource.newrelic.com
 
-This site is hosted on [Gatsby Cloud](https://www.gatsbyjs.com/). It is maintained and supported by New Relic's Developer Enablement team. If you have any questions or comments, please reach out to <developer-enablement@newrelic.com>.
+This site is hosted on [Gatsby Cloud](https://www.gatsbyjs.com/products/cloud/). It is maintained and supported by New Relic's Developer Enablement team. If you have any questions or comments, please reach out to <developer-enablement@newrelic.com>.
 
 ## Alerts
 
