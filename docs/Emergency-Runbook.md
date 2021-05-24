@@ -16,19 +16,19 @@ First, determine the desired previous build:
 
 1. Navigate to the [Releases](https://github.com/newrelic/opensource-website/releases) tab in the opensource-website repo.
 2. Determine which release to rollback to. Typically, this should be `latest_release - 1`. However, you might need to go back further. Click the commit hash (in this case, `12f5187`).
-   ![Releases](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_01.png)
+   ![Releases](./images/screenshot_01.png)
 3. Use this commit message/hash value to locate the corresponding build in the Gatsby Cloud UI.
-   ![Commits](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_02.png)
+   ![Commits](./images/screenshot_02.png)
 
 Steps to redeploy in Gatsby Cloud:
 
 1. Log into Gatsby Cloud using your GitHub login. 
 2. Select the `opensource-website` site, main branch.
-   ![Opensource Sites](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_05.png)
+   ![Opensource Sites](./images/screenshot_05.png)
 3. Click the `View production history` button to see all the previous builds that have run.
 4. Find the appropriate build corresponding to the release you located from the repo releases. This is the build to roll back to. Click `Publish` to select that build for deployment.
-   ![Builds](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_06.png)
-5. That should produce a pop up. Uncheck `Disable automatic deploys` and click `Publish`. ![Publish Pop Up](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_07.png)
+   ![Builds](./images/screenshot_06.png)
+5. That should produce a pop up. Uncheck `Disable automatic deploys` and click `Publish`. ![Publish Pop Up](./images/screenshot_07.png)
 6. Notify the hero in [#help-deven-websites](https://newrelic.slack.com/archives/C01R2TB8BUZ) of the rollback so we can address the underlying issue.
 
 ## Environments
