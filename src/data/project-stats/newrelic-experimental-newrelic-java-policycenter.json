@@ -1,12 +1,15 @@
 {
   "projectFullName": "newrelic-experimental/newrelic-java-policycenter",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 4,
-  "lastSixMonthsCommitTotal": 4,
+  "releases": 1,
+  "latestRelease": {
+    "name": "2.0.0",
+    "date": "2021-05-25T02:04:29Z"
+  },
+  "commits": 6,
+  "lastSixMonthsCommitTotal": 6,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -26,7 +29,7 @@
       "login": "psomareddy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17014899?v=4",
       "htmlUrl": "https://github.com/psomareddy",
-      "contributions": 3
+      "contributions": 5
     }
   ],
   "languages": [
