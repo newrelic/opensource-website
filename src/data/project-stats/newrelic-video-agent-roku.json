@@ -3,27 +3,20 @@
   "issues": {
     "open": 0
   },
-  "releases": 13,
+  "releases": 14,
   "latestRelease": {
-    "name": "1.3.0",
+    "name": "1.3.1",
     "date": null
   },
-  "commits": 347,
-  "lastSixMonthsCommitTotal": 60,
+  "commits": 370,
+  "lastSixMonthsCommitTotal": 83,
   "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 56542619,
-      "login": "bchelkowskidazn",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/56542619?v=4",
-      "htmlUrl": "https://github.com/bchelkowskidazn",
-      "contributions": 3
-    },
     {
       "id": 8813505,
       "login": "adwetzelnr",
@@ -43,7 +36,14 @@
       "login": "asllop",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6130000?v=4",
       "htmlUrl": "https://github.com/asllop",
-      "contributions": 179
+      "contributions": 201
+    },
+    {
+      "id": 56542619,
+      "login": "bchelkowskidazn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56542619?v=4",
+      "htmlUrl": "https://github.com/bchelkowskidazn",
+      "contributions": 3
     },
     {
       "id": 11152170,
@@ -58,6 +58,11 @@
       "id": "MDg6TGFuZ3VhZ2UzMzU=",
       "name": "Brightscript",
       "color": null
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
