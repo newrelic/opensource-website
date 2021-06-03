@@ -1,3 +1,10 @@
+## [1.15.2](https://github.com/newrelic/opensource-website/compare/v1.15.1...v1.15.2) (2021-06-03)
+
+
+### Bug Fixes
+
+* bump theme to version that handles blocked cookies ([48730fc](https://github.com/newrelic/opensource-website/commit/48730fcf9618a8c26b2310c3daf5ab2762f0c2a5))
+
 ## [1.15.1](https://github.com/newrelic/opensource-website/compare/v1.15.0...v1.15.1) (2021-05-14)
 
 
