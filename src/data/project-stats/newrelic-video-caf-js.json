@@ -1,16 +1,16 @@
 {
-  "projectFullName": "newrelic/video-theplatform-js",
+  "projectFullName": "newrelic/video-caf-js",
   "issues": {
     "open": 0
   },
-  "releases": 8,
+  "releases": 5,
   "latestRelease": {
-    "name": "v0.3.0",
-    "date": null
+    "name": "0.5.0",
+    "date": "2021-06-08T11:39:21Z"
   },
-  "commits": 52,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 3,
+  "commits": 46,
+  "lastSixMonthsCommitTotal": 24,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -18,25 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 14294477,
-      "login": "jaguilar87",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/14294477?v=4",
-      "htmlUrl": "https://github.com/jaguilar87",
-      "contributions": 33
-    },
-    {
       "id": 6130000,
       "login": "asllop",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6130000?v=4",
       "htmlUrl": "https://github.com/asllop",
-      "contributions": 5
+      "contributions": 29
     },
     {
-      "id": 8813505,
-      "login": "adwetzelnr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8813505?v=4",
-      "htmlUrl": "https://github.com/adwetzelnr",
-      "contributions": 8
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
     }
   ],
   "languages": [
@@ -49,11 +42,6 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2U1MzU=",
-      "name": "Dockerfile",
-      "color": "#384d54"
     }
   ],
   "screenshots": [],
