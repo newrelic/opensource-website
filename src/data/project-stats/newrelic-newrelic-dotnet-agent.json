@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 79
+    "open": 85
   },
-  "releases": 60,
+  "releases": 61,
   "latestRelease": {
-    "name": "v8.39.2",
-    "date": "2021-04-12T22:34:01Z"
+    "name": "v8.40.0",
+    "date": "2021-06-08T01:32:41Z"
   },
   "commits": 329,
-  "lastSixMonthsCommitTotal": 92,
+  "lastSixMonthsCommitTotal": 90,
   "contributors": 16,
   "pullRequests": {
     "open": 0
@@ -70,18 +70,18 @@
   ],
   "cachedContributors": [
     {
+      "id": 654808,
+      "login": "tehbio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/654808?v=4",
+      "htmlUrl": "https://github.com/tehbio",
+      "contributions": 7
+    },
+    {
       "id": 4761745,
       "login": "elucus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
       "htmlUrl": "https://github.com/elucus",
       "contributions": 4
-    },
-    {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
-      "contributions": 5
     },
     {
       "id": 69914680,
@@ -119,11 +119,11 @@
       "contributions": 1
     },
     {
-      "id": 654808,
-      "login": "tehbio",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/654808?v=4",
-      "htmlUrl": "https://github.com/tehbio",
-      "contributions": 7
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
+      "contributions": 5
     },
     {
       "id": 58010132,
