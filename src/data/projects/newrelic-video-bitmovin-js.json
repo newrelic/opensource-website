@@ -1,0 +1,24 @@
+{
+  "name": "video-bitmovin-js",
+  "fullName": "newrelic/video-bitmovin-js",
+  "slug": "newrelic-video-bitmovin-js",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Bitmovin Player JS Tracker",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/video-bitmovin-js",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/video-bitmovin-js",
+  "iconUrl": null,
+  "shortDescription": "Instrument the Bitmovin video player",
+  "description": "Instrument the Bitmovin video player to calculate KPIs like Exit Before Video Start and Video Start Time.",
+  "ossCategory": "new-relic-experimental",
+  "projectTags": ["agent", "video"],
+  "primaryLanguage": "JavaScript",
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic bitmovin Web Tracker",
+    "url": "https://github.com/newrelic/video-bitmovin-js"
+  }
+}

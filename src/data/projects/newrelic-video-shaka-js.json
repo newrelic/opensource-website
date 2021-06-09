@@ -1,0 +1,24 @@
+{
+  "name": "video-shaka-js",
+  "fullName": "newrelic/video-shaka-js",
+  "slug": "newrelic-video-shaka-js",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Shaka Player JS Tracker",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/video-shaka-js",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/video-shaka-js",
+  "iconUrl": null,
+  "shortDescription": "Instrument the Shaka video player",
+  "description": "Instrument the Shaka video player to calculate KPIs like Exit Before Video Start and Video Start Time.",
+  "ossCategory": "new-relic-experimental",
+  "projectTags": ["agent", "video"],
+  "primaryLanguage": "JavaScript",
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Shaka Web Tracker",
+    "url": "https://github.com/newrelic/video-shaka-js"
+  }
+}

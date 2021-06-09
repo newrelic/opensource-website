@@ -1,0 +1,24 @@
+{
+  "name": "video-ooyala-js",
+  "fullName": "newrelic/video-ooyala-js",
+  "slug": "newrelic-video-ooyala-js",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Ooyala Player JS Tracker",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/video-ooyala-js",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/video-ooyala-js",
+  "iconUrl": null,
+  "shortDescription": "Instrument the Ooyala video player",
+  "description": "Instrument the Ooyala video player to calculate KPIs like Exit Before Video Start and Video Start Time.",
+  "ossCategory": "new-relic-experimental",
+  "projectTags": ["agent", "video"],
+  "primaryLanguage": "JavaScript",
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Ooyala Web Tracker",
+    "url": "https://github.com/newrelic/video-ooyala-js"
+  }
+}

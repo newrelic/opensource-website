@@ -1,0 +1,24 @@
+{
+  "name": "video-reactplayer-js",
+  "fullName": "newrelic/video-reactplayer-js",
+  "slug": "newrelic-video-reactplayer-js",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic React Player Player JS Tracker",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/video-reactplayer-js",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/video-reactplayer-js",
+  "iconUrl": null,
+  "shortDescription": "Instrument the React Player video player",
+  "description": "Instrument the React Player video player to calculate KPIs like Exit Before Video Start and Video Start Time.",
+  "ossCategory": "new-relic-experimental",
+  "projectTags": ["agent", "video"],
+  "primaryLanguage": "JavaScript",
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic React Player Web Tracker",
+    "url": "https://github.com/newrelic/video-reactplayer-js"
+  }
+}
