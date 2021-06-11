@@ -1,3 +1,10 @@
+## [1.15.3](https://github.com/newrelic/opensource-website/compare/v1.15.2...v1.15.3) (2021-06-11)
+
+
+### Bug Fixes
+
+* upgrade gatsby-theme-newrelic ([bb458b2](https://github.com/newrelic/opensource-website/commit/bb458b244c52f468dd86584626bcc77e2cf54511))
+
 ## [1.15.2](https://github.com/newrelic/opensource-website/compare/v1.15.1...v1.15.2) (2021-06-03)
 
 
