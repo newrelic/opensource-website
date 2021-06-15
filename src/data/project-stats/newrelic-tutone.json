@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/tutone",
   "issues": {
-    "open": 2
+    "open": 3
   },
-  "releases": 17,
+  "releases": 18,
   "latestRelease": {
-    "name": "v0.6.1",
-    "date": "2021-02-12T00:07:33Z"
+    "name": "v0.7.0",
+    "date": "2021-06-14T20:33:50Z"
   },
-  "commits": 406,
-  "lastSixMonthsCommitTotal": 91,
+  "commits": 417,
+  "lastSixMonthsCommitTotal": 89,
   "contributors": 7,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -32,6 +32,23 @@
       },
       "number": 66,
       "createdBy": "Zach Leslie"
+    },
+    {
+      "id": "MDU6SXNzdWU5MjA4MjI1NTg=",
+      "title": "Mutation match based on wildcard or regexp",
+      "url": "https://github.com/newrelic/tutone/issues/174",
+      "createdAt": "2021-06-14T22:27:52Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jthurman42",
+        "id": "MDQ6VXNlcjQ1NTQxOQ==",
+        "email": "",
+        "name": "Jonathan Thurman"
+      },
+      "number": 174,
+      "createdBy": "Jonathan Thurman"
     }
   ],
   "cachedContributors": [
@@ -40,7 +57,7 @@
       "login": "jthurman42",
       "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
       "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 62
+      "contributions": 71
     },
     {
       "id": 7197435,
