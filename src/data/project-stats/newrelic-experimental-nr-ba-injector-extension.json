@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 5,
+  "lastSixMonthsCommitTotal": 5,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 24296585,
+      "login": "metal-messiah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24296585?v=4",
+      "htmlUrl": "https://github.com/metal-messiah",
+      "contributions": 3
+    },
     {
       "id": 43244625,
       "login": "melissaklein24",
@@ -22,7 +29,23 @@
       "contributions": 1
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzMDg=",
+      "name": "CSS",
+      "color": "#563d7c"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MTc=",
+      "name": "HTML",
+      "color": "#e34c26"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
