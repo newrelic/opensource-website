@@ -1,36 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-python-agent",
   "issues": {
-    "open": 13
+    "open": 9
   },
-  "releases": 274,
+  "releases": 275,
   "latestRelease": {
-    "name": "v6.4.1.158",
-    "date": "2021-06-07T20:40:11Z"
+    "name": "v6.4.2.159",
+    "date": "2021-06-22T20:09:18Z"
   },
-  "commits": 228,
-  "lastSixMonthsCommitTotal": 81,
+  "commits": 230,
+  "lastSixMonthsCommitTotal": 82,
   "contributors": 14,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 1413267,
-      "login": "stianjensen",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1413267?v=4",
-      "htmlUrl": "https://github.com/stianjensen",
-      "contributions": 1
-    },
-    {
-      "id": 6374032,
-      "login": "a-feld",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6374032?v=4",
-      "htmlUrl": "https://github.com/a-feld",
-      "contributions": 62
-    },
     {
       "id": 238952,
       "login": "chrislawlor",
@@ -44,6 +30,20 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/44993916?v=4",
       "htmlUrl": "https://github.com/k2mahajan",
       "contributions": 1
+    },
+    {
+      "id": 42199516,
+      "login": "qvik-olli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42199516?v=4",
+      "htmlUrl": "https://github.com/qvik-olli",
+      "contributions": 1
+    },
+    {
+      "id": 11214426,
+      "login": "TimPansino",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
+      "htmlUrl": "https://github.com/TimPansino",
+      "contributions": 85
     },
     {
       "id": 929261,
@@ -64,14 +64,14 @@
       "login": "umaannamalai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19895951?v=4",
       "htmlUrl": "https://github.com/umaannamalai",
-      "contributions": 35
+      "contributions": 36
     },
     {
-      "id": 11214426,
-      "login": "TimPansino",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
-      "htmlUrl": "https://github.com/TimPansino",
-      "contributions": 84
+      "id": 6374032,
+      "login": "a-feld",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6374032?v=4",
+      "htmlUrl": "https://github.com/a-feld",
+      "contributions": 62
     },
     {
       "id": 578029,
@@ -95,10 +95,10 @@
       "contributions": 1
     },
     {
-      "id": 42199516,
-      "login": "qvik-olli",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/42199516?v=4",
-      "htmlUrl": "https://github.com/qvik-olli",
+      "id": 1413267,
+      "login": "stianjensen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1413267?v=4",
+      "htmlUrl": "https://github.com/stianjensen",
       "contributions": 1
     },
     {
