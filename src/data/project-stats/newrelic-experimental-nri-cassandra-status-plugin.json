@@ -1,34 +1,27 @@
 {
-  "projectFullName": "newrelic-experimental/nri-snmp-trapd",
+  "projectFullName": "newrelic-experimental/nri-cassandra-status-plugin",
   "issues": {
-    "open": 1
+    "open": 0
   },
   "releases": 1,
   "latestRelease": {
     "name": "1.0.0",
-    "date": "2021-01-20T18:02:48Z"
+    "date": "2021-06-24T12:18:32Z"
   },
-  "commits": 13,
-  "lastSixMonthsCommitTotal": 11,
-  "contributors": 3,
+  "commits": 3,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 2,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 2581608,
-      "login": "harrykimpel",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2581608?v=4",
-      "htmlUrl": "https://github.com/harrykimpel",
-      "contributions": 6
-    },
-    {
-      "id": 3536684,
-      "login": "sschwartzman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
-      "htmlUrl": "https://github.com/sschwartzman",
+      "id": 41585091,
+      "login": "hsinghkalsi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41585091?v=4",
+      "htmlUrl": "https://github.com/hsinghkalsi",
       "contributions": 2
     },
     {
@@ -36,7 +29,7 @@
       "login": "psomareddy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17014899?v=4",
       "htmlUrl": "https://github.com/psomareddy",
-      "contributions": 2
+      "contributions": 1
     }
   ],
   "languages": [
@@ -49,11 +42,6 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
-      "name": "PowerShell",
-      "color": "#012456"
     }
   ],
   "screenshots": [],
