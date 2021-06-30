@@ -1,22 +1,43 @@
 {
   "projectFullName": "newrelic/infrastructure-agent-chef",
   "issues": {
-    "open": 13
+    "open": 11
   },
   "releases": 18,
   "latestRelease": {
     "name": "0.11.0",
     "date": "2019-07-04T07:39:12Z"
   },
-  "commits": 131,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 13,
+  "commits": 133,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 14,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 2497895,
+      "login": "dlanner",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2497895?v=4",
+      "htmlUrl": "https://github.com/dlanner",
+      "contributions": 4
+    },
+    {
+      "id": 181060,
+      "login": "bsharitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181060?v=4",
+      "htmlUrl": "https://github.com/bsharitt",
+      "contributions": 2
+    },
+    {
+      "id": 640347,
+      "login": "angusiguess",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/640347?v=4",
+      "htmlUrl": "https://github.com/angusiguess",
+      "contributions": 1
+    },
     {
       "id": 39911991,
       "login": "davidbrota",
@@ -32,32 +53,11 @@
       "contributions": 1
     },
     {
-      "id": 640347,
-      "login": "angusiguess",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/640347?v=4",
-      "htmlUrl": "https://github.com/angusiguess",
-      "contributions": 1
-    },
-    {
       "id": 7150978,
       "login": "rsluzhynskyy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7150978?v=4",
       "htmlUrl": "https://github.com/rsluzhynskyy",
       "contributions": 3
-    },
-    {
-      "id": 181060,
-      "login": "bsharitt",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/181060?v=4",
-      "htmlUrl": "https://github.com/bsharitt",
-      "contributions": 2
-    },
-    {
-      "id": 5935,
-      "login": "chaupt",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5935?v=4",
-      "htmlUrl": "https://github.com/chaupt",
-      "contributions": 8
     },
     {
       "id": 5297542,
@@ -95,11 +95,18 @@
       "contributions": 2
     },
     {
-      "id": 2497895,
-      "login": "dlanner",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2497895?v=4",
-      "htmlUrl": "https://github.com/dlanner",
-      "contributions": 4
+      "id": 46314449,
+      "login": "zelaskov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46314449?v=4",
+      "htmlUrl": "https://github.com/zelaskov",
+      "contributions": 1
+    },
+    {
+      "id": 5935,
+      "login": "chaupt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5935?v=4",
+      "htmlUrl": "https://github.com/chaupt",
+      "contributions": 8
     },
     {
       "id": 1653499,
