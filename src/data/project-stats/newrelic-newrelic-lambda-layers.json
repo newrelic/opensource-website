@@ -3,13 +3,13 @@
   "issues": {
     "open": 2
   },
-  "releases": 108,
+  "releases": 112,
   "latestRelease": {
-    "name": "v7.5.1_nodejs",
-    "date": "2021-06-07T16:25:28Z"
+    "name": "v7.5.1.1_nodejs",
+    "date": "2021-07-01T18:44:05Z"
   },
-  "commits": 126,
-  "lastSixMonthsCommitTotal": 31,
+  "commits": 130,
+  "lastSixMonthsCommitTotal": 35,
   "contributors": 7,
   "pullRequests": {
     "open": 0
@@ -18,18 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 11327,
+      "login": "mrickard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
+      "htmlUrl": "https://github.com/mrickard",
+      "contributions": 22
+    },
+    {
       "id": 13562672,
       "login": "jaesius",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
       "htmlUrl": "https://github.com/jaesius",
       "contributions": 1
-    },
-    {
-      "id": 73207,
-      "login": "ewindisch",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73207?v=4",
-      "htmlUrl": "https://github.com/ewindisch",
-      "contributions": 2
     },
     {
       "id": 43244625,
@@ -46,11 +46,11 @@
       "contributions": 53
     },
     {
-      "id": 11327,
-      "login": "mrickard",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
-      "htmlUrl": "https://github.com/mrickard",
-      "contributions": 22
+      "id": 73207,
+      "login": "ewindisch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73207?v=4",
+      "htmlUrl": "https://github.com/ewindisch",
+      "contributions": 2
     },
     {
       "id": 28942544,
@@ -64,7 +64,7 @@
       "login": "MattWhelan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
       "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 7
+      "contributions": 9
     }
   ],
   "languages": [
