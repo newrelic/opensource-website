@@ -1,6 +1,140 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProjectSearchInput Renders correctly 1`] = `
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.emotion-1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--color-neutrals-700);
+  background-color: var(--color-neutrals-100);
+}
+
+.emotion-1:hover {
+  color: var(--color-brand-600);
+  background: rgba(112,204,210,0.17);
+}
+
+.dark-mode .emotion-1 {
+  color: var(--color-dark-700);
+  background-color: var(--color-dark-200);
+}
+
+.dark-mode .emotion-1:hover {
+  color: var(--color-brand-200);
+  background-color: rgba(112,204,210,0.17);
+}
+
+.emotion-0 {
+  width: 1em;
+  height: 1em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  margin-left: 0.25rem;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.emotion-5 {
+  --arrow-size: 5px;
+  --arrow-offset: 0.5rem;
+  --background-color: white;
+  --text-color: var(--color-neutrals-900);
+  position: absolute;
+  top: calc(100% + var(--arrow-size));
+  display: none;
+  background: var(--background-color);
+  border-radius: 0.25rem;
+  z-index: 1000;
+  padding: 0.5rem;
+  box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
+}
+
+.dark-mode .emotion-5 {
+  --text-color: var(--color-dark-900);
+  --background-color: var(--color-dark-050);
+}
+
+.emotion-5::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: calc(-1 * var(--arrow-size));
+  border-left: var(--arrow-size) solid transparent;
+  border-right: var(--arrow-size) solid transparent;
+  border-bottom: var(--arrow-size) solid var(--background-color);
+  width: 0;
+  height: 0;
+  z-index: 1000;
+  left: var(--arrow-offset);
+}
+
+.emotion-4 {
+  max-height: 20rem;
+  min-width: 100px;
+  overflow-y: auto;
+}
+
+.emotion-3 {
+  display: block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  color: var(--text-color);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-3:hover {
+  color: var(--text-color);
+  cursor: pointer;
+  background: var(--color-neutrals-200);
+  border-radius: 0.25rem;
+}
+
+.dark-mode .emotion-3:hover {
+  background: var(--color-dark-200);
+}
+
 <div>
   <div>
     <img
@@ -37,39 +171,105 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         />
       </svg>
     </span>
-    <select
-      onChange={[Function]}
-      value=""
+    <div
+      className="emotion-6"
     >
-      <option
-        label="All Categories"
-        value=""
+      <button
+        className="emotion-1 emotion-2"
+        onClick={[Function]}
       >
-        All categories
-      </option>
-    </select>
-    <select
-      onChange={[Function]}
-      value=""
+        All Categories
+        <svg
+          className="emotion-0"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polyline
+            points="6 9 12 15 18 9"
+          />
+        </svg>
+      </button>
+      <div
+        className="emotion-5"
+      >
+        <div
+          className="emotion-4"
+        >
+          <div
+            className="emotion-3"
+            onClick={[Function]}
+          >
+            All Categories
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-6"
     >
-      <option
-        label="All Project Tags"
-        value=""
+      <button
+        className="emotion-1 emotion-2"
+        onClick={[Function]}
       >
         All Project Tags
-      </option>
-    </select>
-    <select
-      onChange={[Function]}
-      value=""
-    >
-      <option
-        label="All Language Types"
-        value=""
+        <svg
+          className="emotion-0"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polyline
+            points="6 9 12 15 18 9"
+          />
+        </svg>
+      </button>
+      <div
+        className="emotion-5"
       >
-        All language types
-      </option>
-    </select>
+        <div
+          className="emotion-4"
+        >
+          <div
+            className="emotion-3"
+            onClick={[Function]}
+          >
+            All Project Tags
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="emotion-6"
+    >
+      <button
+        className="emotion-1 emotion-2"
+        onClick={[Function]}
+      >
+        All Language Types
+        <svg
+          className="emotion-0"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <polyline
+            points="6 9 12 15 18 9"
+          />
+        </svg>
+      </button>
+      <div
+        className="emotion-5"
+      >
+        <div
+          className="emotion-4"
+        >
+          <div
+            className="emotion-3"
+            onClick={[Function]}
+          >
+            All Language Types
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
