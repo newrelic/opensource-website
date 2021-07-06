@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/infrastructure-agent",
   "issues": {
-    "open": 73
+    "open": 72
   },
   "releases": 38,
   "latestRelease": {
     "name": "1.20.14",
     "date": "2021-06-30T15:02:49Z"
   },
-  "commits": 294,
-  "lastSixMonthsCommitTotal": 116,
+  "commits": 295,
+  "lastSixMonthsCommitTotal": 117,
   "contributors": 28,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -23,27 +23,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
       "contributions": 7
-    },
-    {
-      "id": 5297542,
-      "login": "alejandrodnm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
-      "htmlUrl": "https://github.com/alejandrodnm",
-      "contributions": 1
-    },
-    {
-      "id": 46498444,
-      "login": "lchapman4",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/46498444?v=4",
-      "htmlUrl": "https://github.com/lchapman4",
-      "contributions": 1
-    },
-    {
-      "id": 20245790,
-      "login": "msummers-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/20245790?v=4",
-      "htmlUrl": "https://github.com/msummers-nr",
-      "contributions": 1
     },
     {
       "id": 15685307,
@@ -60,10 +39,10 @@
       "contributions": 4
     },
     {
-      "id": 976883,
-      "login": "jlegoff",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
-      "htmlUrl": "https://github.com/jlegoff",
+      "id": 20245790,
+      "login": "msummers-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20245790?v=4",
+      "htmlUrl": "https://github.com/msummers-nr",
       "contributions": 1
     },
     {
@@ -71,6 +50,27 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
+    {
+      "id": 5297542,
+      "login": "alejandrodnm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
+      "htmlUrl": "https://github.com/alejandrodnm",
+      "contributions": 1
+    },
+    {
+      "id": 1300852,
+      "login": "varas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
+      "htmlUrl": "https://github.com/varas",
+      "contributions": 123
+    },
+    {
+      "id": 46498444,
+      "login": "lchapman4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46498444?v=4",
+      "htmlUrl": "https://github.com/lchapman4",
       "contributions": 1
     },
     {
@@ -88,11 +88,11 @@
       "contributions": 2
     },
     {
-      "id": 1300852,
-      "login": "varas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
-      "htmlUrl": "https://github.com/varas",
-      "contributions": 122
+      "id": 976883,
+      "login": "jlegoff",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
+      "htmlUrl": "https://github.com/jlegoff",
+      "contributions": 1
     },
     {
       "id": 3380451,
