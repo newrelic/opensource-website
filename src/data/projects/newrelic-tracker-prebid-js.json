@@ -1,0 +1,26 @@
+{
+  "name": "tracker-prebid-js",
+  "fullName": "newrelic/tracker-prebid-js",
+  "slug": "newrelic-tracker-prebid-js",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Prebid Tracker",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/tracker-prebid-js",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/tracker-prebid-js",
+  "defaultBranch": "master",
+  "contributingGuideUrl": "https://github.com/newrelic/tracker-prebid-js/blob/master/CONTRIBUTING.md",
+  "iconUrl": null,
+  "shortDescription": "New Relic monitoring for Prebid",
+  "description": "Extend New Relic Browser + SPA Agent to monitor Prebid auctions and slots.",
+  "ossCategory": "new-relic-experimental",
+  "primaryLanguage": "JavaScript",
+  "projectTags": ["browser", "instrumentation"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Prebid Tracker",
+    "url": "https://github.com/newrelic/tracker-prebid-js"
+  }
+}
