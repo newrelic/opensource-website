@@ -1,12 +1,15 @@
 {
-  "projectFullName": "newrelic/newrelic-ocoe-launch-pad",
+  "projectFullName": "newrelic/nr1-status-widgets",
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 13,
-  "lastSixMonthsCommitTotal": 4,
+  "releases": 7,
+  "latestRelease": {
+    "name": "v2.3.0",
+    "date": "2021-07-12T17:16:47Z"
+  },
+  "commits": 36,
+  "lastSixMonthsCommitTotal": 36,
   "contributors": 3,
   "pullRequests": {
     "open": 0
@@ -15,18 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 55132258,
-      "login": "jsbnr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55132258?v=4",
-      "htmlUrl": "https://github.com/jsbnr",
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
       "contributions": 8
     },
     {
-      "id": 16081795,
-      "login": "sskilbred",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/16081795?v=4",
-      "htmlUrl": "https://github.com/sskilbred",
-      "contributions": 1
+      "id": 13043208,
+      "login": "Kav91",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
+      "htmlUrl": "https://github.com/Kav91",
+      "contributions": 13
     },
     {
       "id": 43244625,
@@ -38,14 +41,14 @@
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2U1MzU=",
-      "name": "Dockerfile",
-      "color": "#384d54"
-    },
-    {
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [],
