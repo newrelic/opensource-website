@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Filter } from 'react-feather';
+import { Dropdown, Button } from '@newrelic/gatsby-theme-newrelic';
 
 import searchIcon from '../images/icon-search.svg';
 import * as styles from './ProjectSearchInput.module.scss';
@@ -15,14 +16,26 @@ const ProjectSearchInput = ({
   const { allLanguages, allCategories, allProjectTags } = filterOptions;
   const [mobileFiltersHidden, setMobileFiltersHidden] = useState(true);
 
-  const onCategoryChange = (e) =>
-    onFilterChange({ field: 'ossCategory', value: e.target.value });
+  const onCategoryChange = (e) => {
+    onFilterChange({
+      field: 'ossCategory',
+      value: e.target.innerText === 'All Categories' ? '' : e.target.innerText,
+    });
+  };
 
   const onProjectTagChange = (e) =>
-    onFilterChange({ field: 'projectTag', value: e.target.value });
+    onFilterChange({
+      field: 'projectTag',
+      value:
+        e.target.innerText === 'All Project Tags' ? '' : e.target.innerText,
+    });
 
   const onLanguageTypeChange = (e) =>
-    onFilterChange({ field: 'languageType', value: e.target.value });
+    onFilterChange({
+      field: 'languageType',
+      value:
+        e.target.innerText === 'All Language Types' ? '' : e.target.innerText,
+    });
 
   return (
     <div className={styles.searchSection}>
@@ -50,66 +63,77 @@ const ProjectSearchInput = ({
           Show filters
           <Filter color="#007e8a" size={12} />
         </span>
-        <select
+
+        <Dropdown
           className={styles.searchFilter}
-          onChange={onCategoryChange}
           value={filterValues.ossCategory}
         >
-          <option label="All Categories" value="">
-            All categories
-          </option>
-          {allCategories.options.map((c) => {
-            return (
-              <option
-                key={c.fieldValue}
-                label={c.fieldValue}
-                value={c.fieldValue}
-              >
-                {c.fieldValue}
-              </option>
-            );
-          })}
-        </select>
-        <select
+          <Dropdown.Toggle variant={Button.VARIANT.NORMAL}>
+            {filterValues.ossCategory || 'All Categories'}
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.MenuItem onClick={onCategoryChange}>
+              All Categories
+            </Dropdown.MenuItem>
+            {allCategories.options.map((c) => {
+              return (
+                <Dropdown.MenuItem
+                  key={c.fieldValue}
+                  onClick={onCategoryChange}
+                >
+                  {c.fieldValue}
+                </Dropdown.MenuItem>
+              );
+            })}
+          </Dropdown.Menu>
+        </Dropdown>
+
+        <Dropdown
           className={styles.searchFilter}
-          onChange={onProjectTagChange}
           value={filterValues.projectTag}
         >
-          <option label="All Project Tags" value="">
-            All Project Tags
-          </option>
-          {allProjectTags.options.map((c) => {
-            return (
-              <option
-                key={c.fieldValue}
-                label={c.fieldValue}
-                value={c.fieldValue}
-              >
-                {c.fieldValue}
-              </option>
-            );
-          })}
-        </select>
-        <select
+          <Dropdown.Toggle variant={Button.VARIANT.NORMAL}>
+            {filterValues.projectTag || 'All Project Tags'}
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.MenuItem onClick={onProjectTagChange}>
+              All Project Tags
+            </Dropdown.MenuItem>
+            {allProjectTags.options.map((c) => {
+              return (
+                <Dropdown.MenuItem
+                  key={c.fieldValue}
+                  onClick={onProjectTagChange}
+                >
+                  {c.fieldValue}
+                </Dropdown.MenuItem>
+              );
+            })}
+          </Dropdown.Menu>
+        </Dropdown>
+        <Dropdown
           className={styles.searchFilter}
-          onChange={onLanguageTypeChange}
           value={filterValues.languageType}
         >
-          <option label="All Language Types" value="">
-            All language types
-          </option>
-          {allLanguages.options.map((c) => {
-            return (
-              <option
-                key={c.fieldValue}
-                label={c.fieldValue}
-                value={c.fieldValue}
-              >
-                {c.fieldValue}
-              </option>
-            );
-          })}
-        </select>
+          <Dropdown.Toggle variant={Button.VARIANT.NORMAL}>
+            {filterValues.languageType || 'All Language Types'}
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.MenuItem onClick={onLanguageTypeChange}>
+              All Language Types
+            </Dropdown.MenuItem>
+            {allLanguages.options.map((c) => {
+              return (
+                <Dropdown.MenuItem
+                  key={c.fieldValue}
+                  onClick={onLanguageTypeChange}
+                >
+                  {c.fieldValue}
+                </Dropdown.MenuItem>
+              );
+            })}
+          </Dropdown.Menu>
+        </Dropdown>
       </div>
     </div>
   );
