@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/fluent-bit-package",
   "issues": {
-    "open": 0
+    "open": 1
   },
-  "releases": 10,
+  "releases": 13,
   "latestRelease": {
-    "name": "1.7.4",
-    "date": "2021-06-22T08:45:04Z"
+    "name": "1.8.1",
+    "date": "2021-07-13T10:38:30Z"
   },
-  "commits": 33,
-  "lastSixMonthsCommitTotal": 28,
-  "contributors": 4,
+  "commits": 44,
+  "lastSixMonthsCommitTotal": 39,
+  "contributors": 5,
   "pullRequests": {
     "open": 0
   },
@@ -22,7 +22,7 @@
       "login": "tejunior",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7537725?v=4",
       "htmlUrl": "https://github.com/tejunior",
-      "contributions": 13
+      "contributions": 14
     },
     {
       "id": 15685307,
@@ -32,21 +32,34 @@
       "contributions": 2
     },
     {
-      "id": 62337995,
-      "login": "jodstrcil",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/62337995?v=4",
-      "htmlUrl": "https://github.com/jodstrcil",
-      "contributions": 10
-    },
-    {
       "id": 812989,
       "login": "danielgolden",
       "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
       "htmlUrl": "https://github.com/danielgolden",
       "contributions": 2
+    },
+    {
+      "id": 62337995,
+      "login": "jodstrcil",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62337995?v=4",
+      "htmlUrl": "https://github.com/jodstrcil",
+      "contributions": 11
+    },
+    {
+      "id": 4612272,
+      "login": "Noly",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
+      "htmlUrl": "https://github.com/Noly",
+      "contributions": 8
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",

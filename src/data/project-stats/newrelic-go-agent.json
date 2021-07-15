@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/go-agent",
   "issues": {
-    "open": 51
+    "open": 46
   },
-  "releases": 131,
+  "releases": 134,
   "latestRelease": {
-    "name": "v3/integrations/nrstan/v1.1.1",
-    "date": "2021-06-07T22:23:40Z"
+    "name": "v3.14.0",
+    "date": "2021-07-12T20:22:00Z"
   },
-  "commits": 2099,
-  "lastSixMonthsCommitTotal": 72,
-  "contributors": 36,
+  "commits": 2128,
+  "lastSixMonthsCommitTotal": 85,
+  "contributors": 37,
   "pullRequests": {
-    "open": 9
+    "open": 10
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -43,11 +43,11 @@
       "contributions": 1
     },
     {
-      "id": 48965776,
-      "login": "jodeev",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/48965776?v=4",
-      "htmlUrl": "https://github.com/jodeev",
-      "contributions": 9
+      "id": 590773,
+      "login": "flaviotruzzi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/590773?v=4",
+      "htmlUrl": "https://github.com/flaviotruzzi",
+      "contributions": 1
     },
     {
       "id": 4304849,
@@ -64,11 +64,11 @@
       "contributions": 147
     },
     {
-      "id": 590773,
-      "login": "flaviotruzzi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/590773?v=4",
-      "htmlUrl": "https://github.com/flaviotruzzi",
-      "contributions": 1
+      "id": 982820,
+      "login": "benweint",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/982820?v=4",
+      "htmlUrl": "https://github.com/benweint",
+      "contributions": 2
     },
     {
       "id": 5743678,
@@ -85,18 +85,18 @@
       "contributions": 1
     },
     {
-      "id": 52978576,
-      "login": "Miriam-R",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52978576?v=4",
-      "htmlUrl": "https://github.com/Miriam-R",
+      "id": 704945,
+      "login": "alfred-landrum",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/704945?v=4",
+      "htmlUrl": "https://github.com/alfred-landrum",
       "contributions": 1
     },
     {
-      "id": 76975199,
-      "login": "nr-swilloughby",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/76975199?v=4",
-      "htmlUrl": "https://github.com/nr-swilloughby",
-      "contributions": 11
+      "id": 1667247,
+      "login": "bearcherian",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1667247?v=4",
+      "htmlUrl": "https://github.com/bearcherian",
+      "contributions": 2
     },
     {
       "id": 15305011,
@@ -120,25 +120,25 @@
       "contributions": 1
     },
     {
-      "id": 704945,
-      "login": "alfred-landrum",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/704945?v=4",
-      "htmlUrl": "https://github.com/alfred-landrum",
-      "contributions": 1
+      "id": 76975199,
+      "login": "nr-swilloughby",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76975199?v=4",
+      "htmlUrl": "https://github.com/nr-swilloughby",
+      "contributions": 29
     },
     {
-      "id": 1667247,
-      "login": "bearcherian",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1667247?v=4",
-      "htmlUrl": "https://github.com/bearcherian",
-      "contributions": 2
+      "id": 52978576,
+      "login": "Miriam-R",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52978576?v=4",
+      "htmlUrl": "https://github.com/Miriam-R",
+      "contributions": 1
     },
     {
       "id": 13123145,
       "login": "RichVanderwal",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13123145?v=4",
       "htmlUrl": "https://github.com/RichVanderwal",
-      "contributions": 22
+      "contributions": 23
     },
     {
       "id": 3920286,
@@ -190,11 +190,11 @@
       "contributions": 1
     },
     {
-      "id": 982820,
-      "login": "benweint",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/982820?v=4",
-      "htmlUrl": "https://github.com/benweint",
-      "contributions": 2
+      "id": 48965776,
+      "login": "jodeev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48965776?v=4",
+      "htmlUrl": "https://github.com/jodeev",
+      "contributions": 9
     },
     {
       "id": 12864641,
@@ -257,6 +257,13 @@
       "login": "lvxv",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5800970?v=4",
       "htmlUrl": "https://github.com/lvxv",
+      "contributions": 1
+    },
+    {
+      "id": 28936242,
+      "login": "nc-wittj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28936242?v=4",
+      "htmlUrl": "https://github.com/nc-wittj",
       "contributions": 1
     },
     {

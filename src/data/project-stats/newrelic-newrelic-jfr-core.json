@@ -3,27 +3,20 @@
   "issues": {
     "open": 12
   },
-  "releases": 8,
+  "releases": 9,
   "latestRelease": {
-    "name": "v1.3.0",
-    "date": "2021-06-01T14:42:03Z"
+    "name": "v1.4.0",
+    "date": "2021-07-02T00:19:03Z"
   },
-  "commits": 383,
-  "lastSixMonthsCommitTotal": 135,
+  "commits": 385,
+  "lastSixMonthsCommitTotal": 121,
   "contributors": 16,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 42678939,
-      "login": "bradleycamacho",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/42678939?v=4",
-      "htmlUrl": "https://github.com/bradleycamacho",
-      "contributions": 4
-    },
     {
       "id": 34418638,
       "login": "jack-berg",
@@ -37,6 +30,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/3496648?v=4",
       "htmlUrl": "https://github.com/jasonjkeller",
       "contributions": 44
+    },
+    {
+      "id": 42678939,
+      "login": "bradleycamacho",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42678939?v=4",
+      "htmlUrl": "https://github.com/bradleycamacho",
+      "contributions": 4
     },
     {
       "id": 842717,
@@ -106,7 +106,7 @@
       "login": "meiao",
       "avatarUrl": "https://avatars.githubusercontent.com/u/292463?v=4",
       "htmlUrl": "https://github.com/meiao",
-      "contributions": 1
+      "contributions": 2
     },
     {
       "id": 24482401,
@@ -127,7 +127,7 @@
       "login": "kittylyst",
       "avatarUrl": "https://avatars.githubusercontent.com/u/81539?v=4",
       "htmlUrl": "https://github.com/kittylyst",
-      "contributions": 44
+      "contributions": 45
     }
   ],
   "languages": [

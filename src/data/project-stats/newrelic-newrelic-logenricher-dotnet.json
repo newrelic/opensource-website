@@ -1,14 +1,14 @@
 {
   "projectFullName": "newrelic/newrelic-logenricher-dotnet",
   "issues": {
-    "open": 5
+    "open": 4
   },
-  "releases": 13,
+  "releases": 14,
   "latestRelease": {
-    "name": "Log4Net_v1.1.1",
-    "date": "2021-02-08T23:41:04Z"
+    "name": "NLog_v1.2.0",
+    "date": null
   },
-  "commits": 210,
+  "commits": 212,
   "lastSixMonthsCommitTotal": 5,
   "contributors": 11,
   "pullRequests": {
@@ -18,10 +18,10 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
+      "id": 5260112,
+      "login": "ltines",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5260112?v=4",
+      "htmlUrl": "https://github.com/ltines",
       "contributions": 1
     },
     {
@@ -32,10 +32,10 @@
       "contributions": 2
     },
     {
-      "id": 5260112,
-      "login": "ltines",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5260112?v=4",
-      "htmlUrl": "https://github.com/ltines",
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
       "contributions": 1
     },
     {
@@ -78,7 +78,7 @@
       "login": "jaffinito",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6098021?v=4",
       "htmlUrl": "https://github.com/jaffinito",
-      "contributions": 20
+      "contributions": 22
     },
     {
       "id": 57361211,
