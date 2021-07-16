@@ -1,0 +1,26 @@
+{
+  "name": "tracker-google-publisher-tags-js",
+  "fullName": "newrelic/tracker-google-publisher-tags-js",
+  "slug": "newrelic-tracker-google-publisher-tags-js",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic GPT Tracker",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/tracker-google-publisher-tags-js",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/tracker-google-publisher-tags-js",
+  "defaultBranch": "master",
+  "contributingGuideUrl": "https://github.com/newrelic/tracker-google-publisher-tags-js/blob/master/CONTRIBUTING.md",
+  "iconUrl": "https://github.com/newrelic/tracker-google-publisher-tags-js/blob/main/icon.png?raw=true",
+  "shortDescription": "Tracker for Google Publisher Tags",
+  "description": "Extend New Relic Browser + SPA Agent to monitor Google Publisher Tags slots data",
+  "ossCategory": "newrelic-experimental",
+  "primaryLanguage": "JavaScript",
+  "projectTags": ["browser", "instrumentation"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic GPT Tracker",
+    "url": "https://github.com/newrelic/tracker-google-publisher-tags-js"
+  }
+}
