@@ -1,35 +1,35 @@
 {
   "projectFullName": "newrelic/newrelic-snowflake-integration",
   "issues": {
-    "open": 5
+    "open": 4
   },
-  "releases": 6,
+  "releases": 7,
   "latestRelease": {
-    "name": "v0.1.6",
-    "date": "2021-06-24T13:45:27Z"
+    "name": "v0.1.7",
+    "date": "2021-07-16T09:50:18Z"
   },
-  "commits": 64,
-  "lastSixMonthsCommitTotal": 28,
-  "contributors": 3,
+  "commits": 68,
+  "lastSixMonthsCommitTotal": 32,
+  "contributors": 4,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 6328360,
-      "login": "matewilk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6328360?v=4",
-      "htmlUrl": "https://github.com/matewilk",
-      "contributions": 15
-    },
-    {
       "id": 3629903,
       "login": "danifitz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3629903?v=4",
       "htmlUrl": "https://github.com/danifitz",
-      "contributions": 43
+      "contributions": 44
+    },
+    {
+      "id": 56379645,
+      "login": "nedl86",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56379645?v=4",
+      "htmlUrl": "https://github.com/nedl86",
+      "contributions": 1
     },
     {
       "id": 43244625,
@@ -37,6 +37,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
+    },
+    {
+      "id": 6328360,
+      "login": "matewilk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6328360?v=4",
+      "htmlUrl": "https://github.com/matewilk",
+      "contributions": 15
     }
   ],
   "languages": [
