@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/gatsby-plugin-newrelic",
   "issues": {
-    "open": 5
+    "open": 6
   },
   "releases": 5,
   "latestRelease": {
@@ -15,7 +15,59 @@
     "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU5NDYyOTA0MTg=",
+      "title": "update NPM for Gatsby Plugin New Relic",
+      "url": "https://github.com/newrelic/gatsby-plugin-newrelic/issues/25",
+      "createdAt": "2021-07-16T13:22:00Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jpvajda",
+        "id": "MDQ6VXNlcjEzOTUxNTg=",
+        "email": "",
+        "name": "John P Vajda"
+      },
+      "number": 25,
+      "createdBy": "John P Vajda"
+    },
+    {
+      "id": "MDU6SXNzdWU5NDYyOTM3ODY=",
+      "title": "Update critical dependencies on Gatsby Plugin New Relic",
+      "url": "https://github.com/newrelic/gatsby-plugin-newrelic/issues/26",
+      "createdAt": "2021-07-16T13:26:11Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jpvajda",
+        "id": "MDQ6VXNlcjEzOTUxNTg=",
+        "email": "",
+        "name": "John P Vajda"
+      },
+      "number": 26,
+      "createdBy": "John P Vajda"
+    },
+    {
+      "id": "MDU6SXNzdWU5NDc4NjE5NjI=",
+      "title": "Set Browser Agent to load via CDN so it always uses the latest version",
+      "url": "https://github.com/newrelic/gatsby-plugin-newrelic/issues/27",
+      "createdAt": "2021-07-19T17:15:49Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "rudouglas",
+        "id": "MDQ6VXNlcjE3MTIyNTQz",
+        "email": "",
+        "name": "Ruairi Douglas"
+      },
+      "number": 27,
+      "createdBy": "Ruairi Douglas"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 197140,
