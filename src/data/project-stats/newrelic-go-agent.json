@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/go-agent",
   "issues": {
-    "open": 45
+    "open": 46
   },
   "releases": 136,
   "latestRelease": {
@@ -32,6 +32,23 @@
       },
       "number": 277,
       "createdBy": "Rich Vanderwal"
+    },
+    {
+      "id": "MDU6SXNzdWU5NTE4MTMwNzc=",
+      "title": "Change \"go get\" command for new customers",
+      "url": "https://github.com/newrelic/go-agent/issues/350",
+      "createdAt": "2021-07-23T18:35:49Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "RichVanderwal",
+        "id": "MDQ6VXNlcjEzMTIzMTQ1",
+        "email": "",
+        "name": "Rich Vanderwal"
+      },
+      "number": 350,
+      "createdBy": "Rich Vanderwal"
     }
   ],
   "cachedContributors": [
@@ -43,11 +60,11 @@
       "contributions": 1
     },
     {
-      "id": 13732144,
-      "login": "tkivisik",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13732144?v=4",
-      "htmlUrl": "https://github.com/tkivisik",
-      "contributions": 1
+      "id": 1667247,
+      "login": "bearcherian",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1667247?v=4",
+      "htmlUrl": "https://github.com/bearcherian",
+      "contributions": 2
     },
     {
       "id": 4304849,
@@ -64,11 +81,11 @@
       "contributions": 147
     },
     {
-      "id": 3723686,
-      "login": "TylerConlee",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3723686?v=4",
-      "htmlUrl": "https://github.com/TylerConlee",
-      "contributions": 12
+      "id": 982820,
+      "login": "benweint",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/982820?v=4",
+      "htmlUrl": "https://github.com/benweint",
+      "contributions": 2
     },
     {
       "id": 5743678,
@@ -85,10 +102,10 @@
       "contributions": 1
     },
     {
-      "id": 52978576,
-      "login": "Miriam-R",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52978576?v=4",
-      "htmlUrl": "https://github.com/Miriam-R",
+      "id": 704945,
+      "login": "alfred-landrum",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/704945?v=4",
+      "htmlUrl": "https://github.com/alfred-landrum",
       "contributions": 1
     },
     {
@@ -113,24 +130,24 @@
       "contributions": 1
     },
     {
-      "id": 6454794,
-      "login": "AncientToaster",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6454794?v=4",
-      "htmlUrl": "https://github.com/AncientToaster",
+      "id": 12864641,
+      "login": "odannyc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12864641?v=4",
+      "htmlUrl": "https://github.com/odannyc",
       "contributions": 1
     },
     {
-      "id": 76975199,
-      "login": "nr-swilloughby",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/76975199?v=4",
-      "htmlUrl": "https://github.com/nr-swilloughby",
-      "contributions": 34
+      "id": 13123145,
+      "login": "RichVanderwal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13123145?v=4",
+      "htmlUrl": "https://github.com/RichVanderwal",
+      "contributions": 23
     },
     {
-      "id": 590773,
-      "login": "flaviotruzzi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/590773?v=4",
-      "htmlUrl": "https://github.com/flaviotruzzi",
+      "id": 13732144,
+      "login": "tkivisik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13732144?v=4",
+      "htmlUrl": "https://github.com/tkivisik",
       "contributions": 1
     },
     {
@@ -190,31 +207,31 @@
       "contributions": 1
     },
     {
-      "id": 982820,
-      "login": "benweint",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/982820?v=4",
-      "htmlUrl": "https://github.com/benweint",
-      "contributions": 2
+      "id": 585473,
+      "login": "MattWhelan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
+      "htmlUrl": "https://github.com/MattWhelan",
+      "contributions": 1
     },
     {
-      "id": 1667247,
-      "login": "bearcherian",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1667247?v=4",
-      "htmlUrl": "https://github.com/bearcherian",
-      "contributions": 2
+      "id": 3723686,
+      "login": "TylerConlee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3723686?v=4",
+      "htmlUrl": "https://github.com/TylerConlee",
+      "contributions": 12
     },
     {
-      "id": 13123145,
-      "login": "RichVanderwal",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13123145?v=4",
-      "htmlUrl": "https://github.com/RichVanderwal",
-      "contributions": 23
+      "id": 6454794,
+      "login": "AncientToaster",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6454794?v=4",
+      "htmlUrl": "https://github.com/AncientToaster",
+      "contributions": 1
     },
     {
-      "id": 12864641,
-      "login": "odannyc",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12864641?v=4",
-      "htmlUrl": "https://github.com/odannyc",
+      "id": 590773,
+      "login": "flaviotruzzi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/590773?v=4",
+      "htmlUrl": "https://github.com/flaviotruzzi",
       "contributions": 1
     },
     {
@@ -225,10 +242,10 @@
       "contributions": 1
     },
     {
-      "id": 704945,
-      "login": "alfred-landrum",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/704945?v=4",
-      "htmlUrl": "https://github.com/alfred-landrum",
+      "id": 52978576,
+      "login": "Miriam-R",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52978576?v=4",
+      "htmlUrl": "https://github.com/Miriam-R",
       "contributions": 1
     },
     {
@@ -274,11 +291,11 @@
       "contributions": 1
     },
     {
-      "id": 585473,
-      "login": "MattWhelan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
-      "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 1
+      "id": 76975199,
+      "login": "nr-swilloughby",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76975199?v=4",
+      "htmlUrl": "https://github.com/nr-swilloughby",
+      "contributions": 34
     },
     {
       "id": 1462042,
