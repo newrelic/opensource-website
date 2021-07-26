@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import useDarkMode from 'use-dark-mode';
+import isLocalStorageAvailable from '../utils/isLocalStorageAvailable';
 
 const withDarkMode = (ComponentToWrap) => (props) => {
   const [isClient, setIsClient] = useState(false);
   React.useEffect(() => {
     setIsClient(true);
   }, []);
-
-  const darkModeStatus = isClient ? localStorage.getItem('darkMode') : false;
-  const darkMode = useDarkMode(darkModeStatus);
+  const isDarkDefault = false;
+  const checkLocalStorage = isLocalStorageAvailable();
+  const darkModeOptions = checkLocalStorage ? {} : { storageProvider: false };
+  const darkMode = useDarkMode(isDarkDefault, darkModeOptions);
 
   if (!isClient) {
     return null;
