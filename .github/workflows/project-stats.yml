@@ -129,31 +129,3 @@ jobs:
             echo "::error::Running on unsupported branch. Exiting."
             exit 1
           fi
-
-#############################################################################################################
-## Note: Removing the webhook-driven deployment (for now) in favor of utilizing auto-builds on Amplify
-#############################################################################################################
-# job-deploy-staging:
-#   runs-on: ubuntu-latest
-#   needs: [job-sync-project-data, job-checkout-and-build]
-#   env:
-#     STAGING_WEBHOOK: ${{ secrets.AMPLIFY_STAGING_WEBHOOK }}
-#   steps:
-#     - name: Call Amplify Staging Deploy
-#       run: |
-#         echo "Calling Amplify staging webhook"
-#         curl --silent --show-error --output /dev/null -X POST $STAGING_WEBHOOK -H "Content-Type:application/json"
-#         echo "**OUTPUT SUPPRESSED**"
-#         echo "Webhook call complete"
-# job-deploy-prod:
-#   runs-on: ubuntu-latest
-#   needs: [job-sync-project-data, job-checkout-and-build]
-#   env:
-#     PROD_WEBHOOK: ${{ secrets.AMPLIFY_PROD_WEBHOOK }}
-#   steps:
-#     - name: Call Amplify Prod Deploy
-#       run: |
-#         echo "Calling Amplify prod webhook"
-#         curl --silent --show-error --output /dev/null -X POST $PROD_WEBHOOK -H "Content-Type:application/json"
-#         echo "**OUTPUT SUPPRESSED**"
-#         echo "Webhook call complete"
