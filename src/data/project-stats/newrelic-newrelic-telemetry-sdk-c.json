@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-telemetry-sdk-c",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 1,
   "latestRelease": {
@@ -15,7 +15,25 @@
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU5NzMxODc3OTI=",
+      "title": "Fix example link the API documentation",
+      "url": "https://github.com/newrelic/newrelic-telemetry-sdk-c/issues/45",
+      "createdAt": "2021-08-18T01:20:05Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "Fahmy-Mohammed",
+        "id": "MDQ6VXNlcjI4MzY0ODgx",
+        "email": "",
+        "name": "Fahmy Mohammed"
+      },
+      "number": 45,
+      "createdBy": "Fahmy Mohammed"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 1672581,
