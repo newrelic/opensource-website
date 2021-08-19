@@ -1,21 +1,39 @@
 {
   "projectFullName": "newrelic/newrelic-winston-logenricher-node",
   "issues": {
-    "open": 3
+    "open": 2
   },
   "releases": 4,
   "latestRelease": {
     "name": "v2.0.0",
     "date": null
   },
-  "commits": 117,
-  "lastSixMonthsCommitTotal": 20,
+  "commits": 120,
+  "lastSixMonthsCommitTotal": 23,
   "contributors": 9,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU2NzIxNzA0MTM=",
+      "title": "Add TypeScript typings",
+      "url": "https://github.com/newrelic/newrelic-winston-logenricher-node/issues/30",
+      "createdAt": "2020-08-03T15:47:09Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "felix-lunii",
+        "id": "MDQ6VXNlcjQ5Njg1NzAw",
+        "email": "",
+        "name": null
+      },
+      "number": 30,
+      "createdBy": "felix-lunii"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 32520944,
@@ -64,7 +82,7 @@
       "login": "bizob2828",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
       "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 8
+      "contributions": 10
     },
     {
       "id": 54335840,
