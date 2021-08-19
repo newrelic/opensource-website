@@ -1,6 +1,6 @@
 # Emergency Runbook -- opensource.newrelic.com
 
-This site is hosted on [AWS Amplify](https://aws.amazon.com/amplify/) by New Relic's OpenSource team and is maintained and supported by New Relic's developer experience team. If you have any questions or comments, please reach out to opensource@newrelic.com.
+This site is hosted on [Gatsby Cloud](https://www.gatsbyjs.com/products/cloud/). It is maintained and supported by New Relic's Developer Enablement team. If you have any questions or comments, please reach out to <developer-enablement@newrelic.com>.
 
 ## Alerts
 
@@ -10,26 +10,26 @@ To diagnose a particular alert, we've started a [Common Issues](#Common-Issues)
 
 ## Rollback a release
 
-Use the Amplify Console UI to select a previous build and redeploy that build.
+Use the Gatsby Cloud UI to select a previous build and redeploy that build.
 
 First, determine the desired previous build:
 
 1. Navigate to the [Releases](https://github.com/newrelic/opensource-website/releases) tab in the opensource-website repo.
 2. Determine which release to rollback to. Typically, this should be `latest_release - 1`. However, you might need to go back further. Click the commit hash (in this case, `12f5187`).
-   ![Releases](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_01.png)
-3. Use this commit message/hash value to locate the corresponding build in the Amplify Console.
-   ![Commits](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_02.png)
+   ![Releases](./images/screenshot_01.png)
+3. Use this commit message/hash value to locate the corresponding build in the Gatsby Cloud UI.
+   ![Commits](./images/screenshot_02.png)
 
-Steps to redeploy in Amplify:
+Steps to redeploy in Gatsby Cloud:
 
-1. Log into the Amplify Console via nr-prod okta.
-2. Select the `opensource-website` app. Under `Frontend environments`, select `main`.
-   ![Amplify Console](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_03.png)
-3. Click the `View build history` button to see all the previous builds that have run.
-4. Find the appropriate build corresponding to the release you located from the repo releases. This is the build to roll back to. Click `Build #xxx` to select that build. In this case, you'd select `Build #10`.
-   ![Builds](https://github.com/newrelic/opensource-website/blob/develop/docs/images/screenshot_04.png)
-5. Click `Redeploy this version`. Validate once the deploy is finished.
-6. Notify [The Open Source Team](https://newrelic.slack.com/archives/GNR5YH7HP) and the [@hero in #help-opensource](https://newrelic.slack.com/archives/C2XN6HL2G) of the rollback so we can address the underlying issue.
+1. Log into Gatsby Cloud using your GitHub login. 
+2. Select the `opensource-website` site, main branch.
+   ![Opensource Sites](./images/screenshot_05.png)
+3. Click the `View production history` button to see all the previous builds that have run.
+4. Find the appropriate build corresponding to the release you located from the repo releases. This is the build to roll back to. Click `Publish` to select that build for deployment.
+   ![Builds](./images/screenshot_06.png)
+5. That should produce a pop up. Uncheck `Disable automatic deploys` and click `Publish`. ![Publish Pop Up](./images/screenshot_07.png)
+6. Notify the hero in [#help-deven-websites](https://newrelic.slack.com/archives/C01R2TB8BUZ) of the rollback so we can address the underlying issue.
 
 ## Environments
 
@@ -49,7 +49,7 @@ New Relic Domains: [https://opensource.newrelic.com](https://opensource.newrelic
 
 Corresponds to the [`develop`](https://github.com/newrelic/opensource-website/tree/develop) branch
 
-Amplify Domain: [https://develop.d2pwh5nf8rvczf.amplifyapp.com/](https://develop.d2pwh5nf8rvczf.amplifyapp.com/)
+Gatsby Cloud Domain: [https://opensourcewebsitedevelop.gatsbyjs.io/](https://opensourcewebsitedevelop.gatsbyjs.io/)
 New Relic Domains:
 
 - [https://beta-opensource.newrelic-external.com](https://beta-opensource.newrelic-external.com)
@@ -75,5 +75,4 @@ No issues yet!
 
 ## Help/Support Channels
 
-- [The Open Source Team](https://newrelic.slack.com/archives/GNR5YH7HP)
-- [@hero in #help-opensource](https://newrelic.slack.com/archives/C2XN6HL2G)
+- [@hero in #help-deven-websites](https://newrelic.slack.com/archives/C01R2TB8BUZ)
