@@ -3,10 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 16,
-  "lastSixMonthsCommitTotal": 4,
+  "releases": 1,
+  "latestRelease": {
+    "name": "1.0",
+    "date": "2021-08-19T13:55:40Z"
+  },
+  "commits": 18,
+  "lastSixMonthsCommitTotal": 6,
   "contributors": 3,
   "pullRequests": {
     "open": 0
@@ -26,7 +29,7 @@
       "login": "dhilpipre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
       "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 11
+      "contributions": 12
     },
     {
       "id": 43244625,
@@ -41,6 +44,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
       "color": "#b07219"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
