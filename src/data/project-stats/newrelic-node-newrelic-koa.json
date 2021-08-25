@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/node-newrelic-koa",
   "issues": {
-    "open": 2
+    "open": 1
   },
   "releases": 15,
   "latestRelease": {
     "name": "v6.0.1",
     "date": "2021-07-20T20:47:03Z"
   },
-  "commits": 273,
-  "lastSixMonthsCommitTotal": 35,
+  "commits": 275,
+  "lastSixMonthsCommitTotal": 37,
   "contributors": 16,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,20 +25,6 @@
       "contributions": 1
     },
     {
-      "id": 158937,
-      "login": "jgeurts",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/158937?v=4",
-      "htmlUrl": "https://github.com/jgeurts",
-      "contributions": 2
-    },
-    {
-      "id": 58010132,
-      "login": "mmfred",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/58010132?v=4",
-      "htmlUrl": "https://github.com/mmfred",
-      "contributions": 1
-    },
-    {
       "id": 1342804,
       "login": "lykkin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1342804?v=4",
@@ -46,11 +32,11 @@
       "contributions": 20
     },
     {
-      "id": 7945073,
-      "login": "psvet",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7945073?v=4",
-      "htmlUrl": "https://github.com/psvet",
-      "contributions": 6
+      "id": 158937,
+      "login": "jgeurts",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/158937?v=4",
+      "htmlUrl": "https://github.com/jgeurts",
+      "contributions": 2
     },
     {
       "id": 196199,
@@ -74,11 +60,18 @@
       "contributions": 1
     },
     {
+      "id": 58010132,
+      "login": "mmfred",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58010132?v=4",
+      "htmlUrl": "https://github.com/mmfred",
+      "contributions": 1
+    },
+    {
       "id": 1874937,
       "login": "bizob2828",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
       "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 16
+      "contributions": 17
     },
     {
       "id": 54335840,
@@ -128,6 +121,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
       "contributions": 25
+    },
+    {
+      "id": 7945073,
+      "login": "psvet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7945073?v=4",
+      "htmlUrl": "https://github.com/psvet",
+      "contributions": 6
     }
   ],
   "languages": [
@@ -135,6 +135,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
