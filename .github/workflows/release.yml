@@ -12,37 +12,8 @@ env:
   THIRD_PARTY_GIT_AUTHOR_NAME: nr-opensource-bot
 
 jobs:
-  job-checkout-and-build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12
-
-      - name: Cache node_modules
-        id: cache-node
-        uses: actions/cache@v2
-        env:
-          cache-name: node-modules
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ env.cache-name }}-
-
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Gatsby Build
-        run: yarn run build:production
-
   job-generate-third-party-notices:
     runs-on: ubuntu-latest
-    needs: job-checkout-and-build
     steps:
       # Checkout fetch-depth: 2 because there's a check to see if package.json
       # was updated, and need at least 2 commits for the check to function properly
@@ -54,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 10.x
+          node-version: 12
 
       - name: Download Cached Deps
         id: cache-node-modules
@@ -113,7 +84,7 @@ jobs:
 
   job-generate-release:
     runs-on: ubuntu-latest
-    needs: [job-checkout-and-build, job-generate-third-party-notices]
+    needs: [job-generate-third-party-notices]
     steps:
       # Checkout ref: develop because previous job potentially committed third_party_notices and
       # we need to checkout latest to pick up that commit
@@ -141,6 +112,24 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
+      - name: Temporarily disable branch protection
+        id: disable-branch-protection
+        uses: actions/github-script@v1
+        with:
+          github-token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+          previews: luke-cage-preview
+          script: |
+            const result = await github.repos.updateBranchProtection({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              branch: 'develop',
+              required_status_checks: null,
+              restrictions: null,
+              enforce_admins: null,
+              required_pull_request_reviews: null
+            })
+            console.log("Result:", result)
+
       - name: Release
         env:
           # Use nr-opensource-bot for authoring commits done by
@@ -151,3 +140,30 @@ jobs:
           GIT_COMMITTER_EMAIL: "opensource+bot@newrelic.com"
           GITHUB_TOKEN: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
         run: npx semantic-release
+
+      - name: Re-enable branch protection
+        id: enable-branch-protection
+        if: always()
+        uses: actions/github-script@v1
+        with:
+          github-token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+          previews: luke-cage-preview
+          script: |
+            const result = await github.repos.updateBranchProtection({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              branch: 'develop',
+              required_status_checks: null,
+              restrictions: {
+                users: [],
+                teams: []
+              },
+              enforce_admins: true,
+              required_pull_request_reviews: {
+                dismiss_stale_reviews: true,
+                required_approving_review_count: 1
+              }
+            })
+            console.log("Result:", result)
+
+

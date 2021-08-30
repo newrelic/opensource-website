@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/serverless-newrelic-lambda-layers",
   "issues": {
-    "open": 5
+    "open": 3
   },
-  "releases": 36,
+  "releases": 39,
   "latestRelease": {
-    "name": "v1.1.15",
-    "date": "2021-03-05T20:12:59Z"
+    "name": "v1.1.8",
+    "date": "2021-07-09T21:06:42Z"
   },
-  "commits": 216,
-  "lastSixMonthsCommitTotal": 78,
-  "contributors": 10,
+  "commits": 262,
+  "lastSixMonthsCommitTotal": 83,
+  "contributors": 11,
   "pullRequests": {
     "open": 1
   },
@@ -18,39 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 17498,
-      "login": "kolanos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
-      "htmlUrl": "https://github.com/kolanos",
-      "contributions": 49
-    },
-    {
-      "id": 585473,
-      "login": "MattWhelan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
-      "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 2
-    },
-    {
-      "id": 11327,
-      "login": "mrickard",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
-      "htmlUrl": "https://github.com/mrickard",
-      "contributions": 49
-    },
-    {
-      "id": 15141492,
-      "login": "bobomoirang",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15141492?v=4",
-      "htmlUrl": "https://github.com/bobomoirang",
+      "id": 3392699,
+      "login": "smurfpandey",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3392699?v=4",
+      "htmlUrl": "https://github.com/smurfpandey",
       "contributions": 1
     },
     {
-      "id": 28942544,
-      "login": "katiewest820",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/28942544?v=4",
-      "htmlUrl": "https://github.com/katiewest820",
-      "contributions": 4
+      "id": 658915,
+      "login": "CalMlynarczyk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/658915?v=4",
+      "htmlUrl": "https://github.com/CalMlynarczyk",
+      "contributions": 1
     },
     {
       "id": 25364049,
@@ -60,11 +39,39 @@
       "contributions": 3
     },
     {
+      "id": 17498,
+      "login": "kolanos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
+      "htmlUrl": "https://github.com/kolanos",
+      "contributions": 49
+    },
+    {
       "id": 2106178,
       "login": "kamaz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2106178?v=4",
       "htmlUrl": "https://github.com/kamaz",
       "contributions": 13
+    },
+    {
+      "id": 11327,
+      "login": "mrickard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
+      "htmlUrl": "https://github.com/mrickard",
+      "contributions": 55
+    },
+    {
+      "id": 39594334,
+      "login": "justinrcs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39594334?v=4",
+      "htmlUrl": "https://github.com/justinrcs",
+      "contributions": 1
+    },
+    {
+      "id": 28942544,
+      "login": "katiewest820",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28942544?v=4",
+      "htmlUrl": "https://github.com/katiewest820",
+      "contributions": 8
     },
     {
       "id": 22907372,
@@ -74,18 +81,18 @@
       "contributions": 2
     },
     {
-      "id": 3392699,
-      "login": "smurfpandey",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3392699?v=4",
-      "htmlUrl": "https://github.com/smurfpandey",
+      "id": 15141492,
+      "login": "bobomoirang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15141492?v=4",
+      "htmlUrl": "https://github.com/bobomoirang",
       "contributions": 1
     },
     {
-      "id": 39594334,
-      "login": "justinrcs",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39594334?v=4",
-      "htmlUrl": "https://github.com/justinrcs",
-      "contributions": 1
+      "id": 585473,
+      "login": "MattWhelan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
+      "htmlUrl": "https://github.com/MattWhelan",
+      "contributions": 2
     }
   ],
   "languages": [

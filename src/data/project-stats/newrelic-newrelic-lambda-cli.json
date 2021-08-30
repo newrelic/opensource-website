@@ -1,35 +1,35 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-cli",
   "issues": {
-    "open": 7
+    "open": 5
   },
-  "releases": 54,
+  "releases": 57,
   "latestRelease": {
-    "name": "v0.5.5",
-    "date": "2021-02-25T22:46:16Z"
+    "name": "v0.6.2",
+    "date": "2021-05-18T01:22:10Z"
   },
-  "commits": 357,
-  "lastSixMonthsCommitTotal": 52,
-  "contributors": 14,
+  "commits": 367,
+  "lastSixMonthsCommitTotal": 18,
+  "contributors": 16,
   "pullRequests": {
-    "open": 0
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 28942544,
+      "login": "katiewest820",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28942544?v=4",
+      "htmlUrl": "https://github.com/katiewest820",
+      "contributions": 7
+    },
     {
       "id": 61292402,
       "login": "keegoid-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/61292402?v=4",
       "htmlUrl": "https://github.com/keegoid-nr",
       "contributions": 3
-    },
-    {
-      "id": 585473,
-      "login": "MattWhelan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
-      "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 28
     },
     {
       "id": 4206754,
@@ -39,6 +39,13 @@
       "contributions": 2
     },
     {
+      "id": 17498,
+      "login": "kolanos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
+      "htmlUrl": "https://github.com/kolanos",
+      "contributions": 133
+    },
+    {
       "id": 7001514,
       "login": "bmcfeely",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7001514?v=4",
@@ -46,18 +53,18 @@
       "contributions": 2
     },
     {
-      "id": 73207,
-      "login": "ewindisch",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73207?v=4",
-      "htmlUrl": "https://github.com/ewindisch",
-      "contributions": 67
+      "id": 11327,
+      "login": "mrickard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
+      "htmlUrl": "https://github.com/mrickard",
+      "contributions": 5
     },
     {
-      "id": 13453208,
-      "login": "ismferd",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13453208?v=4",
-      "htmlUrl": "https://github.com/ismferd",
-      "contributions": 2
+      "id": 585473,
+      "login": "MattWhelan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
+      "htmlUrl": "https://github.com/MattWhelan",
+      "contributions": 28
     },
     {
       "id": 8593135,
@@ -67,17 +74,10 @@
       "contributions": 2
     },
     {
-      "id": 17498,
-      "login": "kolanos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
-      "htmlUrl": "https://github.com/kolanos",
-      "contributions": 130
-    },
-    {
-      "id": 657586,
-      "login": "igoratron",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/657586?v=4",
-      "htmlUrl": "https://github.com/igoratron",
+      "id": 284537,
+      "login": "HiDAl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/284537?v=4",
+      "htmlUrl": "https://github.com/HiDAl",
       "contributions": 1
     },
     {
@@ -88,20 +88,6 @@
       "contributions": 2
     },
     {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 32
-    },
-    {
-      "id": 11327,
-      "login": "mrickard",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
-      "htmlUrl": "https://github.com/mrickard",
-      "contributions": 5
-    },
-    {
       "id": 3925334,
       "login": "salvatorious",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3925334?v=4",
@@ -109,11 +95,39 @@
       "contributions": 14
     },
     {
+      "id": 73207,
+      "login": "ewindisch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73207?v=4",
+      "htmlUrl": "https://github.com/ewindisch",
+      "contributions": 67
+    },
+    {
       "id": 55114125,
       "login": "hmacdonald-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/55114125?v=4",
       "htmlUrl": "https://github.com/hmacdonald-nr",
       "contributions": 4
+    },
+    {
+      "id": 657586,
+      "login": "igoratron",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/657586?v=4",
+      "htmlUrl": "https://github.com/igoratron",
+      "contributions": 1
+    },
+    {
+      "id": 13453208,
+      "login": "ismferd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13453208?v=4",
+      "htmlUrl": "https://github.com/ismferd",
+      "contributions": 2
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 32
     }
   ],
   "languages": [

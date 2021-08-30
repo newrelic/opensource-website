@@ -1,36 +1,22 @@
 {
   "projectFullName": "newrelic/nr1-alerts-los-migrator",
   "issues": {
-    "open": 5
+    "open": 3
   },
   "releases": 12,
   "latestRelease": {
     "name": "v1.2.8",
     "date": "2021-03-29T14:23:41Z"
   },
-  "commits": 54,
+  "commits": 56,
   "lastSixMonthsCommitTotal": 15,
-  "contributors": 6,
+  "contributors": 7,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
-      "contributions": 1
-    },
-    {
-      "id": 1786630,
-      "login": "aso1124",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
-      "htmlUrl": "https://github.com/aso1124",
-      "contributions": 17
-    },
     {
       "id": 1395158,
       "login": "jpvajda",
@@ -46,11 +32,25 @@
       "contributions": 13
     },
     {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 4
+      "id": 1786630,
+      "login": "aso1124",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
+      "htmlUrl": "https://github.com/aso1124",
+      "contributions": 17
+    },
+    {
+      "id": 70179303,
+      "login": "aswanson-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
+      "htmlUrl": "https://github.com/aswanson-nr",
+      "contributions": 1
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
     },
     {
       "id": 19733683,
@@ -58,6 +58,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
       "contributions": 2
+    },
+    {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 4
     }
   ],
   "languages": [

@@ -9,7 +9,7 @@
     "date": "2020-10-02T21:18:38Z"
   },
   "commits": 25,
-  "lastSixMonthsCommitTotal": 11,
+  "lastSixMonthsCommitTotal": 0,
   "contributors": 6,
   "pullRequests": {
     "open": 0
@@ -18,25 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 49817386,
+      "login": "jeffalder",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49817386?v=4",
+      "htmlUrl": "https://github.com/jeffalder",
+      "contributions": 2
+    },
+    {
       "id": 7992384,
       "login": "paperclypse",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7992384?v=4",
       "htmlUrl": "https://github.com/paperclypse",
       "contributions": 2
-    },
-    {
-      "id": 42678939,
-      "login": "bradleycamacho",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/42678939?v=4",
-      "htmlUrl": "https://github.com/bradleycamacho",
-      "contributions": 4
-    },
-    {
-      "id": 54085190,
-      "login": "breedx-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/54085190?v=4",
-      "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 4
     },
     {
       "id": 43244625,
@@ -53,18 +46,25 @@
       "contributions": 3
     },
     {
-      "id": 49817386,
-      "login": "jeffalder",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/49817386?v=4",
-      "htmlUrl": "https://github.com/jeffalder",
-      "contributions": 2
+      "id": 42678939,
+      "login": "bradleycamacho",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42678939?v=4",
+      "htmlUrl": "https://github.com/bradleycamacho",
+      "contributions": 4
+    },
+    {
+      "id": 54085190,
+      "login": "breedx-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54085190?v=4",
+      "htmlUrl": "https://github.com/breedx-nr",
+      "contributions": 4
     }
   ],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2UyNzI=",
       "name": "Kotlin",
-      "color": "#F18E33"
+      "color": "#A97BFF"
     }
   ],
   "screenshots": [],

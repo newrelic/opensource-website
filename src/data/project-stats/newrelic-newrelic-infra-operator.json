@@ -1,0 +1,90 @@
+{
+  "projectFullName": "newrelic/newrelic-infra-operator",
+  "issues": {
+    "open": 17
+  },
+  "releases": 4,
+  "latestRelease": {
+    "name": "v0.4.0",
+    "date": "2021-05-19T12:47:16Z"
+  },
+  "commits": 60,
+  "lastSixMonthsCommitTotal": 60,
+  "contributors": 4,
+  "pullRequests": {
+    "open": 4
+  },
+  "searchCategory": "good first issue",
+  "cachedIssues": [],
+  "cachedContributors": [
+    {
+      "id": 16539896,
+      "login": "invidian",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16539896?v=4",
+      "htmlUrl": "https://github.com/invidian",
+      "contributions": 43
+    },
+    {
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
+      "contributions": 5
+    },
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 20
+    }
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U3NDY=",
+      "name": "Starlark",
+      "color": "#76d275"
+    }
+  ],
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
+}

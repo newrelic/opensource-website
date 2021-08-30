@@ -1,28 +1,35 @@
 {
   "projectFullName": "newrelic/nr1-observability-maps",
   "issues": {
-    "open": 13
+    "open": 9
   },
-  "releases": 11,
+  "releases": 22,
   "latestRelease": {
-    "name": "v0.10.1",
-    "date": "2021-02-24T21:48:32Z"
+    "name": "v0.15.1",
+    "date": "2021-07-07T06:49:52Z"
   },
-  "commits": 162,
-  "lastSixMonthsCommitTotal": 19,
-  "contributors": 9,
+  "commits": 193,
+  "lastSixMonthsCommitTotal": 46,
+  "contributors": 10,
   "pullRequests": {
-    "open": 4
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 812989,
-      "login": "danielgolden",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
-      "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 11
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 32
+    },
+    {
+      "id": 70179215,
+      "login": "nr-kkenney",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
+      "htmlUrl": "https://github.com/nr-kkenney",
+      "contributions": 2
     },
     {
       "id": 58010132,
@@ -30,27 +37,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/58010132?v=4",
       "htmlUrl": "https://github.com/mmfred",
       "contributions": 1
-    },
-    {
-      "id": 13043208,
-      "login": "Kav91",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
-      "htmlUrl": "https://github.com/Kav91",
-      "contributions": 108
-    },
-    {
-      "id": 8731013,
-      "login": "prototypicalpro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
-      "htmlUrl": "https://github.com/prototypicalpro",
-      "contributions": 1
-    },
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 17
     },
     {
       "id": 11946809,
@@ -67,6 +53,20 @@
       "contributions": 4
     },
     {
+      "id": 8731013,
+      "login": "prototypicalpro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
+      "htmlUrl": "https://github.com/prototypicalpro",
+      "contributions": 1
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 4
+    },
+    {
       "id": 6722433,
       "login": "jbeveland27",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
@@ -74,11 +74,18 @@
       "contributions": 6
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 1
+      "id": 812989,
+      "login": "danielgolden",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
+      "htmlUrl": "https://github.com/danielgolden",
+      "contributions": 11
+    },
+    {
+      "id": 13043208,
+      "login": "Kav91",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
+      "htmlUrl": "https://github.com/Kav91",
+      "contributions": 116
     }
   ],
   "languages": [

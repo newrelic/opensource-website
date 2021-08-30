@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
-import styles from './ContributorListing.module.scss';
+import * as styles from './ContributorListing.module.scss';
 
 const ContributorListing = ({ contributors, project }) => {
   const renderContributorItems = () => {

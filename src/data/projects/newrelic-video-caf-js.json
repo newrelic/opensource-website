@@ -1,0 +1,27 @@
+{
+	"name": "video-caf-js",
+	"fullName": "newrelic/video-caf-js",
+	"slug": "newrelic-video-caf-js",
+	"owner": {
+	  "login": "newrelic",
+	  "type": "Organization"
+	},
+	"title": "New Relic CAF Tracker",
+	"supportUrl": null,
+	"githubUrl": "https://github.com/newrelic/video-caf-js",
+	"permalink": "https://opensource.newrelic.com/projects/newrelic/video-caf-js",
+  "defaultBranch": "master",
+  "contributingGuideUrl": "https://github.com/newrelic/video-caf-js/blob/master/CONTRIBUTING.md",
+	"iconUrl": null,
+	"shortDescription": "Instrument CAF receivers",
+	"description": "Instrument the CAF receivers to calculate KPIs like Exit Before Video Start and Video Start Time.",
+	"ossCategory": "new-relic-experimental",
+	"projectTags": ["lib", "video"],
+	"primaryLanguage": "JavaScript",
+	"acceptsContributions": true,
+	"website": {
+	  "title": "New Relic CAF Tracker",
+	  "url": "https://github.com/newrelic/video-caf-js"
+	}
+      }
+      

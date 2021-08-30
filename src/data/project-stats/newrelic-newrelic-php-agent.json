@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-php-agent",
   "issues": {
-    "open": 33
+    "open": 26
   },
-  "releases": 3,
+  "releases": 5,
   "latestRelease": {
-    "name": "v9.16.0.295",
+    "name": "v9.17.1.301",
     "date": null
   },
-  "commits": 52,
-  "lastSixMonthsCommitTotal": 47,
+  "commits": 93,
+  "lastSixMonthsCommitTotal": 46,
   "contributors": 9,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -36,11 +36,39 @@
   ],
   "cachedContributors": [
     {
-      "id": 5200550,
-      "login": "kneitinger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5200550?v=4",
-      "htmlUrl": "https://github.com/kneitinger",
-      "contributions": 16
+      "id": 306384,
+      "login": "joshuabenuck",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306384?v=4",
+      "htmlUrl": "https://github.com/joshuabenuck",
+      "contributions": 22
+    },
+    {
+      "id": 18040274,
+      "login": "rhetoric101",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18040274?v=4",
+      "htmlUrl": "https://github.com/rhetoric101",
+      "contributions": 1
+    },
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
+    {
+      "id": 43715151,
+      "login": "zsistla",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43715151?v=4",
+      "htmlUrl": "https://github.com/zsistla",
+      "contributions": 18
+    },
+    {
+      "id": 1904430,
+      "login": "TysonAndre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1904430?v=4",
+      "htmlUrl": "https://github.com/TysonAndre",
+      "contributions": 1
     },
     {
       "id": 929261,
@@ -57,46 +85,18 @@
       "contributions": 1
     },
     {
-      "id": 43715151,
-      "login": "zsistla",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43715151?v=4",
-      "htmlUrl": "https://github.com/zsistla",
-      "contributions": 7
-    },
-    {
-      "id": 306384,
-      "login": "joshuabenuck",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/306384?v=4",
-      "htmlUrl": "https://github.com/joshuabenuck",
-      "contributions": 13
-    },
-    {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 1
-    },
-    {
-      "id": 1904430,
-      "login": "TysonAndre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1904430?v=4",
-      "htmlUrl": "https://github.com/TysonAndre",
-      "contributions": 1
-    },
-    {
       "id": 28364881,
       "login": "Fahmy-Mohammed",
       "avatarUrl": "https://avatars.githubusercontent.com/u/28364881?v=4",
       "htmlUrl": "https://github.com/Fahmy-Mohammed",
-      "contributions": 3
+      "contributions": 21
     },
     {
-      "id": 18040274,
-      "login": "rhetoric101",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18040274?v=4",
-      "htmlUrl": "https://github.com/rhetoric101",
-      "contributions": 1
+      "id": 5200550,
+      "login": "kneitinger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5200550?v=4",
+      "htmlUrl": "https://github.com/kneitinger",
+      "contributions": 18
     }
   ],
   "languages": [
@@ -128,7 +128,7 @@
     {
       "id": "MDg6TGFuZ3VhZ2UyODQ=",
       "name": "Awk",
-      "color": null
+      "color": "#c30e9b"
     },
     {
       "id": "MDg6TGFuZ3VhZ2UxOTA=",

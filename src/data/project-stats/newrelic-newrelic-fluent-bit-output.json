@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-fluent-bit-output",
   "issues": {
-    "open": 4
+    "open": 5
   },
-  "releases": 15,
+  "releases": 20,
   "latestRelease": {
-    "name": "v1.4.6",
-    "date": "2021-01-11T18:24:21Z"
+    "name": "v1.6.1",
+    "date": "2021-07-13T11:51:21Z"
   },
-  "commits": 80,
-  "lastSixMonthsCommitTotal": 17,
-  "contributors": 9,
+  "commits": 90,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 11,
   "pullRequests": {
     "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 7886905,
-      "login": "fryckbos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
-      "htmlUrl": "https://github.com/fryckbos",
-      "contributions": 1
-    },
     {
       "id": 7537725,
       "login": "tejunior",
@@ -32,10 +25,10 @@
       "contributions": 3
     },
     {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
+      "id": 317362,
+      "login": "danybmx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
+      "htmlUrl": "https://github.com/danybmx",
       "contributions": 1
     },
     {
@@ -46,11 +39,39 @@
       "contributions": 2
     },
     {
+      "id": 4612272,
+      "login": "Noly",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
+      "htmlUrl": "https://github.com/Noly",
+      "contributions": 2
+    },
+    {
       "id": 59101374,
       "login": "mshamota-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/59101374?v=4",
       "htmlUrl": "https://github.com/mshamota-nr",
       "contributions": 5
+    },
+    {
+      "id": 62337995,
+      "login": "jodstrcil",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62337995?v=4",
+      "htmlUrl": "https://github.com/jodstrcil",
+      "contributions": 4
+    },
+    {
+      "id": 7886905,
+      "login": "fryckbos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
+      "htmlUrl": "https://github.com/fryckbos",
+      "contributions": 1
+    },
+    {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 2
     },
     {
       "id": 7001514,
@@ -67,18 +88,11 @@
       "contributions": 1
     },
     {
-      "id": 62337995,
-      "login": "jodstrcil",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/62337995?v=4",
-      "htmlUrl": "https://github.com/jodstrcil",
-      "contributions": 1
-    },
-    {
       "id": 6243832,
       "login": "jsubirat",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6243832?v=4",
       "htmlUrl": "https://github.com/jsubirat",
-      "contributions": 36
+      "contributions": 39
     }
   ],
   "languages": [

@@ -1,5 +1,5 @@
 import { createSerializer } from 'jest-emotion';
-import * as emotion from '@emotion/core';
+import * as emotion from '@emotion/react';
 import '@testing-library/jest-dom/extend-expect';
 import { mockMediaQueryList } from 'use-media/lib/useMedia';
 

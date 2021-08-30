@@ -3,6 +3,11 @@ const _ = require('lodash');
 const remarkExternalLinks = require('./plugins/remark-external-link-icon');
 
 module.exports = {
+  flags: {
+    DEV_SSR: true,
+    PRESERVE_WEBPACK_CACHE: true,
+    PRESERVE_FILE_DOWNLOAD_CACHE: true,
+  },
   siteMetadata: {
     title: `New Relic Open Source`,
     description: `New Relic's open source website makes it easy for you to explore the projects we're maintaining as well as our involvement in open standards.`,
@@ -77,6 +82,19 @@ module.exports = {
               env: env === 'production' ? 'prod' : env,
             }),
           },
+        },
+        splitio: {
+          // Mocked features only used when in localhost mode
+          // https://help.split.io/hc/en-us/articles/360020448791-JavaScript-SDK#localhost-mode
+          features: {
+            free_account_button_color: {
+              treatment: 'off',
+            },
+          },
+          core: {
+            authorizationKey: process.env.SPLITIO_AUTH_KEY || 'localhost',
+          },
+          debug: false,
         },
       },
     },
@@ -160,6 +178,12 @@ module.exports = {
         ],
         // remarkPlugins: [require(`gatsby-remark-copy-linked-files`)],
         extensions: [`.mdx`, `.md`],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-gatsby-cloud',
+      options: {
+        allPageHeaders: ['Referrer-Policy: no-referrer-when-downgrade'],
       },
     },
   ],

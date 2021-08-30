@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/nri-perfmon",
   "issues": {
-    "open": 2
+    "open": 0
   },
   "releases": 13,
   "latestRelease": {
     "name": "0.6.1",
     "date": "2020-12-09T03:50:46Z"
   },
-  "commits": 168,
-  "lastSixMonthsCommitTotal": 16,
-  "contributors": 4,
+  "commits": 175,
+  "lastSixMonthsCommitTotal": 7,
+  "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 3536684,
-      "login": "sschwartzman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
-      "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 133
-    },
     {
       "id": 1215492,
       "login": "brunotag",
@@ -39,11 +32,25 @@
       "contributions": 6
     },
     {
+      "id": 754009,
+      "login": "halocameo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/754009?v=4",
+      "htmlUrl": "https://github.com/halocameo",
+      "contributions": 1
+    },
+    {
       "id": 13701055,
       "login": "anwittin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13701055?v=4",
       "htmlUrl": "https://github.com/anwittin",
       "contributions": 2
+    },
+    {
+      "id": 3536684,
+      "login": "sschwartzman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
+      "htmlUrl": "https://github.com/sschwartzman",
+      "contributions": 138
     }
   ],
   "languages": [

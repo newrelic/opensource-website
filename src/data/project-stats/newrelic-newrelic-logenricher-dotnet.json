@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-logenricher-dotnet",
   "issues": {
-    "open": 5
+    "open": 4
   },
-  "releases": 13,
+  "releases": 14,
   "latestRelease": {
-    "name": "Log4Net_v1.1.1",
-    "date": "2021-02-08T23:41:04Z"
+    "name": "NLog_v1.2.0",
+    "date": null
   },
-  "commits": 210,
-  "lastSixMonthsCommitTotal": 12,
+  "commits": 212,
+  "lastSixMonthsCommitTotal": 5,
   "contributors": 11,
   "pullRequests": {
     "open": 0
@@ -18,10 +18,38 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 5260112,
+      "login": "ltines",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5260112?v=4",
+      "htmlUrl": "https://github.com/ltines",
+      "contributions": 1
+    },
+    {
+      "id": 4761745,
+      "login": "elucus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
+      "htmlUrl": "https://github.com/elucus",
+      "contributions": 2
+    },
+    {
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
+      "contributions": 1
+    },
+    {
       "id": 20267975,
       "login": "lspangler584",
       "avatarUrl": "https://avatars.githubusercontent.com/u/20267975?v=4",
       "htmlUrl": "https://github.com/lspangler584",
+      "contributions": 1
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
     },
     {
@@ -30,6 +58,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
       "htmlUrl": "https://github.com/prototypicalpro",
       "contributions": 1
+    },
+    {
+      "id": 3522458,
+      "login": "jifeingo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
+      "htmlUrl": "https://github.com/jifeingo",
+      "contributions": 21
     },
     {
       "id": 69914680,
@@ -43,49 +78,7 @@
       "login": "jaffinito",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6098021?v=4",
       "htmlUrl": "https://github.com/jaffinito",
-      "contributions": 20
-    },
-    {
-      "id": 56414817,
-      "login": "vuqtran88",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/56414817?v=4",
-      "htmlUrl": "https://github.com/vuqtran88",
       "contributions": 22
-    },
-    {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
-      "contributions": 1
-    },
-    {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
-      "contributions": 1
-    },
-    {
-      "id": 4761745,
-      "login": "elucus",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
-      "htmlUrl": "https://github.com/elucus",
-      "contributions": 2
-    },
-    {
-      "id": 5260112,
-      "login": "ltines",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5260112?v=4",
-      "htmlUrl": "https://github.com/ltines",
-      "contributions": 1
-    },
-    {
-      "id": 3522458,
-      "login": "jifeingo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
-      "htmlUrl": "https://github.com/jifeingo",
-      "contributions": 21
     },
     {
       "id": 57361211,
@@ -93,6 +86,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/57361211?v=4",
       "htmlUrl": "https://github.com/nr-ahemsath",
       "contributions": 87
+    },
+    {
+      "id": 56414817,
+      "login": "vuqtran88",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56414817?v=4",
+      "htmlUrl": "https://github.com/vuqtran88",
+      "contributions": 22
     }
   ],
   "languages": [

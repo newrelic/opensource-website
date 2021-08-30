@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'gatsby';
 
-import styles from './SimpleProjectModule.module.scss';
+import * as styles from './SimpleProjectModule.module.scss';
 import withDarkMode from './withDarkMode';
 import Image from './Image';
 import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
@@ -25,7 +25,7 @@ const SimpleProjectModule = ({ data: project, className, darkMode }) => {
         alt={`Icon for ${project.title}`}
         className={styles.projectIcon}
       />
-      <div className={styles.projectMeta}>
+      <div>
         <h4 className={styles.projectTitle}>{project.title}</h4>
         <p className={styles.projectDescription}>{project.shortDescription}</p>
       </div>

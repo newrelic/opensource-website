@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/micrometer-registry-newrelic",
   "issues": {
-    "open": 12
+    "open": 14
   },
-  "releases": 7,
+  "releases": 8,
   "latestRelease": {
-    "name": "v0.7.0",
-    "date": "2021-02-18T19:13:43Z"
+    "name": "v0.8.0",
+    "date": "2021-06-10T00:31:51Z"
   },
-  "commits": 178,
-  "lastSixMonthsCommitTotal": 18,
-  "contributors": 13,
+  "commits": 187,
+  "lastSixMonthsCommitTotal": 15,
+  "contributors": 15,
   "pullRequests": {
     "open": 0
   },
@@ -18,11 +18,11 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 808713,
-      "login": "ebullient",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/808713?v=4",
-      "htmlUrl": "https://github.com/ebullient",
-      "contributions": 1
+      "id": 9435570,
+      "login": "zuluecho9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9435570?v=4",
+      "htmlUrl": "https://github.com/zuluecho9",
+      "contributions": 2
     },
     {
       "id": 1074766,
@@ -32,11 +32,25 @@
       "contributions": 1
     },
     {
-      "id": 23264568,
-      "login": "juholgado",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/23264568?v=4",
-      "htmlUrl": "https://github.com/juholgado",
-      "contributions": 13
+      "id": 808713,
+      "login": "ebullient",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/808713?v=4",
+      "htmlUrl": "https://github.com/ebullient",
+      "contributions": 1
+    },
+    {
+      "id": 46032291,
+      "login": "grahamfuller1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46032291?v=4",
+      "htmlUrl": "https://github.com/grahamfuller1",
+      "contributions": 1
+    },
+    {
+      "id": 210691,
+      "login": "0x006EA1E5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/210691?v=4",
+      "htmlUrl": "https://github.com/0x006EA1E5",
+      "contributions": 1
     },
     {
       "id": 858731,
@@ -92,7 +106,7 @@
       "login": "XiXiaPdx",
       "avatarUrl": "https://avatars.githubusercontent.com/u/24482401?v=4",
       "htmlUrl": "https://github.com/XiXiaPdx",
-      "contributions": 12
+      "contributions": 16
     },
     {
       "id": 662836,
@@ -102,18 +116,18 @@
       "contributions": 1
     },
     {
-      "id": 46032291,
-      "login": "grahamfuller1",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/46032291?v=4",
-      "htmlUrl": "https://github.com/grahamfuller1",
-      "contributions": 1
+      "id": 23264568,
+      "login": "juholgado",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23264568?v=4",
+      "htmlUrl": "https://github.com/juholgado",
+      "contributions": 13
     }
   ],
   "languages": [
     {
       "id": "MDg6TGFuZ3VhZ2UyNzI=",
       "name": "Kotlin",
-      "color": "#F18E33"
+      "color": "#A97BFF"
     },
     {
       "id": "MDg6TGFuZ3VhZ2UxMzk=",

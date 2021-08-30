@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import { get } from 'lodash';
 import { Button } from '@newrelic/gatsby-theme-newrelic';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
 import ProjectMainContent from '../components/ProjectMainContent';
 import AsideNavigationItem from '../components/AsideNavigationItem';
-import styles from './external-project-page.module.scss';
+import * as styles from './external-project-page.module.scss';
 
 import iconGitHubGreen from '../images/icon-github-green.svg';
 import iconGitHub from '../images/icon-github.svg';
@@ -30,7 +30,7 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $pagePath } }) {
       nodes {
-        componentPath
+        component
         path
       }
     }
@@ -75,9 +75,7 @@ const SubProjects = ({ projects }) => {
                     src={iconGitHub}
                     alt="GitHub Logo"
                   />
-                  <span className={styles.subProjectCallToActionLabel}>
-                    View Repo
-                  </span>
+                  <span>View Repo</span>
                 </Button>
               </div>
             )}
@@ -131,7 +129,7 @@ const ExternalProjectPage = ({ data }) => {
           {subProjects && <SubProjects projects={subProjects} />}
         </main>
         <aside className="primary-content-aside">
-          <div className={styles.callToActionContainer}>
+          <div>
             <div
               css={css`
                 margin-bottom: 1rem;

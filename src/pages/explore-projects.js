@@ -18,7 +18,7 @@ import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg'
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 import searchIcon from '../images/icon-search.svg';
 
-import styles from './explore-projects.module.scss';
+import * as styles from './explore-projects.module.scss';
 
 export const query = graphql`
   query ExploreProjects($path: String) {
@@ -49,7 +49,7 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        componentPath
+        component
         path
       }
     }
@@ -89,7 +89,7 @@ const ExploreProjectsPage = (props) => {
             alt={`Icon for ${p.title}`}
             className={styles.featuredProjectIcon}
           />
-          <div className={styles.featuredProjectPrimaryContent}>
+          <div>
             <h4 className={styles.featuredProjectTitle}>{p.title}</h4>
             <p className={styles.featuredProjectDescription}>
               {p.description

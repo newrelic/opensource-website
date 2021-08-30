@@ -1,28 +1,28 @@
 {
   "projectFullName": "newrelic/infrastructure-bundle",
   "issues": {
-    "open": 4
+    "open": 5
   },
-  "releases": 33,
+  "releases": 37,
   "latestRelease": {
-    "name": "2.4.1",
-    "date": "2021-04-14T13:53:56Z"
+    "name": "2.6.2",
+    "date": "2021-07-08T15:54:57Z"
   },
-  "commits": 116,
-  "lastSixMonthsCommitTotal": 28,
-  "contributors": 11,
+  "commits": 168,
+  "lastSixMonthsCommitTotal": 66,
+  "contributors": 14,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 2
+      "id": 1300852,
+      "login": "varas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
+      "htmlUrl": "https://github.com/varas",
+      "contributions": 22
     },
     {
       "id": 7886905,
@@ -32,24 +32,17 @@
       "contributions": 1
     },
     {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 2
+    },
+    {
       "id": 2054195,
       "login": "ardias",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2054195?v=4",
       "htmlUrl": "https://github.com/ardias",
-      "contributions": 1
-    },
-    {
-      "id": 717815,
-      "login": "carlosroman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/717815?v=4",
-      "htmlUrl": "https://github.com/carlosroman",
-      "contributions": 36
-    },
-    {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
       "contributions": 1
     },
     {
@@ -58,13 +51,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
       "htmlUrl": "https://github.com/Noly",
       "contributions": 2
-    },
-    {
-      "id": 969721,
-      "login": "roobre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
-      "htmlUrl": "https://github.com/roobre",
-      "contributions": 1
     },
     {
       "id": 929261,
@@ -81,6 +67,20 @@
       "contributions": 5
     },
     {
+      "id": 3638421,
+      "login": "alvarocabanas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
+      "htmlUrl": "https://github.com/alvarocabanas",
+      "contributions": 1
+    },
+    {
+      "id": 717815,
+      "login": "carlosroman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/717815?v=4",
+      "htmlUrl": "https://github.com/carlosroman",
+      "contributions": 36
+    },
+    {
       "id": 3969485,
       "login": "brushknight",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3969485?v=4",
@@ -88,11 +88,32 @@
       "contributions": 1
     },
     {
-      "id": 1300852,
-      "login": "varas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
-      "htmlUrl": "https://github.com/varas",
-      "contributions": 20
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
+      "contributions": 35
+    },
+    {
+      "id": 12560219,
+      "login": "ivancorrales",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12560219?v=4",
+      "htmlUrl": "https://github.com/ivancorrales",
+      "contributions": 6
+    },
+    {
+      "id": 16539896,
+      "login": "invidian",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16539896?v=4",
+      "htmlUrl": "https://github.com/invidian",
+      "contributions": 4
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 1
     }
   ],
   "languages": [

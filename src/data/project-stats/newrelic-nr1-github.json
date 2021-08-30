@@ -1,35 +1,49 @@
 {
   "projectFullName": "newrelic/nr1-github",
   "issues": {
-    "open": 6
+    "open": 4
   },
-  "releases": 14,
+  "releases": 22,
   "latestRelease": {
-    "name": "v0.6.7",
-    "date": "2021-03-25T22:22:45Z"
+    "name": "v0.6.15",
+    "date": "2021-06-21T09:08:28Z"
   },
-  "commits": 162,
-  "lastSixMonthsCommitTotal": 20,
-  "contributors": 14,
+  "commits": 215,
+  "lastSixMonthsCommitTotal": 63,
+  "contributors": 17,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 13562672,
+      "login": "jaesius",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
+      "htmlUrl": "https://github.com/jaesius",
+      "contributions": 1
+    },
+    {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 8
+      "contributions": 17
     },
     {
-      "id": 197140,
-      "login": "devfreddy",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
-      "htmlUrl": "https://github.com/devfreddy",
-      "contributions": 16
+      "id": 70179215,
+      "login": "nr-kkenney",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
+      "htmlUrl": "https://github.com/nr-kkenney",
+      "contributions": 2
+    },
+    {
+      "id": 39655074,
+      "login": "LizBaker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
+      "htmlUrl": "https://github.com/LizBaker",
+      "contributions": 5
     },
     {
       "id": 455419,
@@ -53,25 +67,11 @@
       "contributions": 4
     },
     {
-      "id": 30514,
-      "login": "cirne",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/30514?v=4",
-      "htmlUrl": "https://github.com/cirne",
-      "contributions": 23
-    },
-    {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 9
-    },
-    {
-      "id": 13562672,
-      "login": "jaesius",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
-      "htmlUrl": "https://github.com/jaesius",
-      "contributions": 1
+      "id": 197140,
+      "login": "devfreddy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
+      "htmlUrl": "https://github.com/devfreddy",
+      "contributions": 16
     },
     {
       "id": 8731013,
@@ -81,10 +81,31 @@
       "contributions": 3
     },
     {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 9
+    },
+    {
+      "id": 30514,
+      "login": "cirne",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30514?v=4",
+      "htmlUrl": "https://github.com/cirne",
+      "contributions": 23
+    },
+    {
       "id": 12318362,
       "login": "lindsayculver",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12318362?v=4",
       "htmlUrl": "https://github.com/lindsayculver",
+      "contributions": 1
+    },
+    {
+      "id": 70179303,
+      "login": "aswanson-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
+      "htmlUrl": "https://github.com/aswanson-nr",
       "contributions": 1
     },
     {
@@ -95,11 +116,11 @@
       "contributions": 4
     },
     {
-      "id": 39655074,
-      "login": "LizBaker",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
-      "htmlUrl": "https://github.com/LizBaker",
-      "contributions": 5
+      "id": 17122543,
+      "login": "rudouglas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
+      "htmlUrl": "https://github.com/rudouglas",
+      "contributions": 32
     },
     {
       "id": 812989,

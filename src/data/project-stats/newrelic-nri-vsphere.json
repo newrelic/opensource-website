@@ -1,22 +1,36 @@
 {
   "projectFullName": "newrelic/nri-vsphere",
   "issues": {
-    "open": 6
+    "open": 7
   },
   "releases": 8,
   "latestRelease": {
     "name": "v1.2.1",
     "date": "2021-03-24T12:04:55Z"
   },
-  "commits": 94,
-  "lastSixMonthsCommitTotal": 9,
-  "contributors": 11,
+  "commits": 96,
+  "lastSixMonthsCommitTotal": 8,
+  "contributors": 12,
   "pullRequests": {
-    "open": 0
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 482671,
+      "login": "fightingmonk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/482671?v=4",
+      "htmlUrl": "https://github.com/fightingmonk",
+      "contributions": 1
+    },
+    {
+      "id": 2054195,
+      "login": "ardias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2054195?v=4",
+      "htmlUrl": "https://github.com/ardias",
+      "contributions": 7
+    },
     {
       "id": 5143130,
       "login": "gsanchezgavier",
@@ -25,11 +39,11 @@
       "contributions": 29
     },
     {
-      "id": 13043208,
-      "login": "Kav91",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
-      "htmlUrl": "https://github.com/Kav91",
-      "contributions": 4
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
     },
     {
       "id": 1773616,
@@ -39,10 +53,17 @@
       "contributions": 1
     },
     {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
+      "id": 3380451,
+      "login": "rubenruizdegauna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
+      "htmlUrl": "https://github.com/rubenruizdegauna",
+      "contributions": 1
+    },
+    {
+      "id": 7555235,
+      "login": "jportasa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7555235?v=4",
+      "htmlUrl": "https://github.com/jportasa",
       "contributions": 1
     },
     {
@@ -53,25 +74,11 @@
       "contributions": 4
     },
     {
-      "id": 2054195,
-      "login": "ardias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2054195?v=4",
-      "htmlUrl": "https://github.com/ardias",
-      "contributions": 7
-    },
-    {
-      "id": 482671,
-      "login": "fightingmonk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/482671?v=4",
-      "htmlUrl": "https://github.com/fightingmonk",
-      "contributions": 1
-    },
-    {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 3
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 31
     },
     {
       "id": 39911991,
@@ -81,18 +88,18 @@
       "contributions": 2
     },
     {
-      "id": 7555235,
-      "login": "jportasa",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7555235?v=4",
-      "htmlUrl": "https://github.com/jportasa",
-      "contributions": 1
+      "id": 13043208,
+      "login": "Kav91",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
+      "htmlUrl": "https://github.com/Kav91",
+      "contributions": 4
     },
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 31
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 3
     }
   ],
   "languages": [

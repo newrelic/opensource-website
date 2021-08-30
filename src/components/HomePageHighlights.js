@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ProjectModule from './ProjectModule';
 
-import styles from './HomePageHighlights.module.scss';
+import * as styles from './HomePageHighlights.module.scss';
 
 const HomePageHighlights = ({ data }) => {
   const projects = data;

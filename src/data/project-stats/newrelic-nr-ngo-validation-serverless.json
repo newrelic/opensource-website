@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/nr-ngo-validation-serverless",
   "issues": {
-    "open": 1
+    "open": 2
   },
-  "releases": 23,
+  "releases": 27,
   "latestRelease": {
-    "name": "v1.0.14",
+    "name": "v1.0.19",
     "date": null
   },
-  "commits": 283,
-  "lastSixMonthsCommitTotal": 217,
+  "commits": 299,
+  "lastSixMonthsCommitTotal": 111,
   "contributors": 4,
   "pullRequests": {
     "open": 0
@@ -18,20 +18,6 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 5214156,
-      "login": "norbertsuski",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5214156?v=4",
-      "htmlUrl": "https://github.com/norbertsuski",
-      "contributions": 23
-    },
-    {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
-      "contributions": 2
-    },
-    {
       "id": 29930229,
       "login": "mattshandera",
       "avatarUrl": "https://avatars.githubusercontent.com/u/29930229?v=4",
@@ -39,11 +25,25 @@
       "contributions": 4
     },
     {
+      "id": 5214156,
+      "login": "norbertsuski",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5214156?v=4",
+      "htmlUrl": "https://github.com/norbertsuski",
+      "contributions": 23
+    },
+    {
       "id": 59443662,
       "login": "DominikMarciniszyn",
       "avatarUrl": "https://avatars.githubusercontent.com/u/59443662?v=4",
       "htmlUrl": "https://github.com/DominikMarciniszyn",
-      "contributions": 194
+      "contributions": 208
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 2
     }
   ],
   "languages": [

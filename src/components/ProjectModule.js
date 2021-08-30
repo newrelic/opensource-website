@@ -5,7 +5,7 @@ import Image from './Image';
 import withDarkMode from './withDarkMode';
 import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
-import styles from './ProjectModule.module.scss';
+import * as styles from './ProjectModule.module.scss';
 
 const ProjectModule = ({ data, row, darkMode }) => {
   const project = data;

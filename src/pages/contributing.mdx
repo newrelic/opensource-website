@@ -2,13 +2,13 @@ import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import PageHeading from '../components/PageHeading';
-import styles from './collection.module.scss';
+import * as styles from './collection.module.scss';
 
 export const query = graphql`
   query ContributingQuery($path: String) {
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        componentPath
+        component
         path
       }
     }
@@ -17,29 +17,29 @@ export const query = graphql`
 
 export default ({ children, data, pageContext }) => (
   <Layout fullWidth editLink={pageContext.fileRelativePath}>
-      <SEO title="Contributing to a New Relic Open Source Project" />
-      <PageHeading
-        title="Contributing to a New Relic Open Source Project"
+    <SEO title="Contributing to a New Relic Open Source Project" />
+    <PageHeading
+      title="Contributing to a New Relic Open Source Project"
       subheader="Demonstrating a standard fork-and-pull-request code contribution workflow"
-      />
-      <div className="primary-content">
-        <main>{children}</main>
-      </div>
-    </Layout>
+    />
+    <div className="primary-content">
+      <main>{children}</main>
+    </div>
+  </Layout>
 );
 
 <div className={styles.featuredVideoContainer}>
-        <div className="responsive-video">
-          <iframe
-            width="1000"
-            height="562.704471"
-            src="https://fast.wistia.net/embed/iframe/ypgdkgysmo?videoFoam=true"
-            frameBorder="0"
-            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
-            placeholder=""
-          />
-        </div>
-      </div>
+  <div className="responsive-video">
+    <iframe
+      width="1000"
+      height="562.704471"
+      src="https://fast.wistia.net/embed/iframe/ypgdkgysmo?videoFoam=true"
+      frameBorder="0"
+      allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
+      placeholder=""
+    />
+  </div>
+</div>
 
 For those newer to open source contribution at New Relic, the following points encapsulate the major steps and issues. For command line description of this workflow, [**consult this documentation**](https://gist.github.com/tangollama/5d9d63fef0ed4498fb5fbb057bb5983d).
 
@@ -47,7 +47,7 @@ For those newer to open source contribution at New Relic, the following points e
 
 Instead of requiring write access to the repository, a [**fork**](https://help.github.com/en/enterprise/2.13/user/articles/fork-a-repo) allows you the ability to modify code and contribute changes via a [**pull request**](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
-![fork](/images/fork_repository.png "Click the fork button in GitHub")
+![fork](/images/fork_repository.png 'Click the fork button in GitHub')
 
 Navigate to the repository in GitHub and click the **Fork** button.
 
@@ -55,13 +55,13 @@ Navigate to the repository in GitHub and click the **Fork** button.
 
 Now that you have a copy of the repository, implement changes against your forked copy of the code but executing the `clone` command, and modify your copy of the code.
 
-![your fork](/images/your_fork.png "Your fork on GitHub")
+![your fork](/images/your_fork.png 'Your fork on GitHub')
 
 ### Commit message guidance
 
 As you `commit` changes to your **fork**, you want to ensure that your commit messages are human-readable, relevant, descriptive, and follow a standard methodology so that tooling can automate the creation of **changelogs**.
 
-![conventional commit messages](/images/commit_message.png "Commit messages following Conventional Commit standards")
+![conventional commit messages](/images/commit_message.png 'Commit messages following Conventional Commit standards')
 
 To support that objective, New Relic open source projects seek to follow the [Conventional Commit specification](https://www.conventionalcommits.org/en/v1.0.0-beta.2/#specification) for `git` commit messages.
 
@@ -74,11 +74,10 @@ To support that objective, New Relic open source projects seek to follow the [Co
 
 Once you've committed your changes to your fork, you can now issue a [**Pull Request**](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) back to the New Relic project.
 
-![create a pull request](/images/pull_request.png "create a pull request")
-
+![create a pull request](/images/pull_request.png 'create a pull request')
 
 ## Step 4: Accept the New Relic CLA (Contributor License Agreement)
 
 Finally, if you've not contributed to a New Relic open source project before, we're going to prompt you to electronically sign our [**Contributor License Agreement (CLA)**](/cla), highlighting that you're freely providing code for the benefit of the open source project and community.
 
-![cla](/images/cla.png "cla")
+![cla](/images/cla.png 'cla')

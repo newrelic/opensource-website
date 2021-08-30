@@ -1,67 +1,32 @@
 {
   "projectFullName": "newrelic/developer-toolkit",
   "issues": {
-    "open": 7
+    "open": 5
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 96,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 6,
+  "commits": 98,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 5,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MjA1NTQ5MDY=",
-      "title": "NRQL doc for developer.newrelic.com",
-      "url": "https://github.com/newrelic/developer-toolkit/issues/21",
-      "createdAt": "2020-05-18T22:55:33Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "mmfred",
-        "id": "MDQ6VXNlcjU4MDEwMTMy",
-        "email": "",
-        "name": null
-      },
-      "number": 21,
-      "createdBy": "mmfred"
-    },
-    {
-      "id": "MDU6SXNzdWU2MjA1NTg1Nzg=",
-      "title": "NerdGraph doc for developer.newrelic.com",
-      "url": "https://github.com/newrelic/developer-toolkit/issues/22",
-      "createdAt": "2020-05-18T23:05:48Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "mmfred",
-        "id": "MDQ6VXNlcjU4MDEwMTMy",
-        "email": "",
-        "name": null
-      },
-      "number": 22,
-      "createdBy": "mmfred"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 2590905,
-      "login": "sanderblue",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2590905?v=4",
-      "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 2
-    },
     {
       "id": 54412777,
       "login": "carynbaudouxgit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/54412777?v=4",
       "htmlUrl": "https://github.com/carynbaudouxgit",
       "contributions": 2
+    },
+    {
+      "id": 7197435,
+      "login": "SowmyaJujjuri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7197435?v=4",
+      "htmlUrl": "https://github.com/SowmyaJujjuri",
+      "contributions": 5
     },
     {
       "id": 455419,
@@ -78,18 +43,11 @@
       "contributions": 4
     },
     {
-      "id": 522116,
-      "login": "markweitzel",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/522116?v=4",
-      "htmlUrl": "https://github.com/markweitzel",
-      "contributions": 3
-    },
-    {
-      "id": 7197435,
-      "login": "SowmyaJujjuri",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7197435?v=4",
-      "htmlUrl": "https://github.com/SowmyaJujjuri",
-      "contributions": 5
+      "id": 2590905,
+      "login": "sanderblue",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2590905?v=4",
+      "htmlUrl": "https://github.com/sanderblue",
+      "contributions": 2
     }
   ],
   "languages": [

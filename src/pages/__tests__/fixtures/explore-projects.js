@@ -817,7 +817,7 @@ export default {
   sitePage: {
     nodes: [
       {
-        componentPath:
+        component:
           '/Users/mfrederick/Desktop/NewRelic/github.newrelic/opensource-website/src/pages/code-of-conduct.mdx',
         path: '/code-of-conduct/',
       },

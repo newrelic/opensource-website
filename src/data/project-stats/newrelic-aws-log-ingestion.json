@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/aws-log-ingestion",
   "issues": {
-    "open": 10
+    "open": 11
   },
   "releases": 4,
   "latestRelease": {
     "name": "v2.4.1",
     "date": "2020-12-17T23:38:40Z"
   },
-  "commits": 46,
-  "lastSixMonthsCommitTotal": 7,
-  "contributors": 12,
+  "commits": 50,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 13,
   "pullRequests": {
-    "open": 5
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,17 +25,31 @@
       "contributions": 1
     },
     {
+      "id": 1410846,
+      "login": "javimb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1410846?v=4",
+      "htmlUrl": "https://github.com/javimb",
+      "contributions": 4
+    },
+    {
+      "id": 41185214,
+      "login": "jotanavarro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41185214?v=4",
+      "htmlUrl": "https://github.com/jotanavarro",
+      "contributions": 1
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 3
+    },
+    {
       "id": 66844,
       "login": "morganchristiansson",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66844?v=4",
       "htmlUrl": "https://github.com/morganchristiansson",
-      "contributions": 1
-    },
-    {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
     },
     {
@@ -46,34 +60,6 @@
       "contributions": 4
     },
     {
-      "id": 1410846,
-      "login": "javimb",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1410846?v=4",
-      "htmlUrl": "https://github.com/javimb",
-      "contributions": 4
-    },
-    {
-      "id": 428243,
-      "login": "aitorciki",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/428243?v=4",
-      "htmlUrl": "https://github.com/aitorciki",
-      "contributions": 1
-    },
-    {
-      "id": 585473,
-      "login": "MattWhelan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
-      "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 16
-    },
-    {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 3
-    },
-    {
       "id": 50879555,
       "login": "Ephesoft-Stitus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50879555?v=4",
@@ -81,10 +67,17 @@
       "contributions": 1
     },
     {
-      "id": 41185214,
-      "login": "jotanavarro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/41185214?v=4",
-      "htmlUrl": "https://github.com/jotanavarro",
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
+    {
+      "id": 428243,
+      "login": "aitorciki",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/428243?v=4",
+      "htmlUrl": "https://github.com/aitorciki",
       "contributions": 1
     },
     {
@@ -99,6 +92,20 @@
       "login": "jlegoff",
       "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
       "htmlUrl": "https://github.com/jlegoff",
+      "contributions": 1
+    },
+    {
+      "id": 585473,
+      "login": "MattWhelan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
+      "htmlUrl": "https://github.com/MattWhelan",
+      "contributions": 17
+    },
+    {
+      "id": 6243832,
+      "login": "jsubirat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6243832?v=4",
+      "htmlUrl": "https://github.com/jsubirat",
       "contributions": 1
     }
   ],

@@ -5,7 +5,7 @@ import { navigate } from 'gatsby';
 import { get, mergeWith, invert } from 'lodash';
 import * as JsSearch from 'js-search';
 
-import styles from './ProjectSearch.module.scss';
+import * as styles from './ProjectSearch.module.scss';
 import { isEmptyObject } from '../utils';
 import withUrlParams from './withUrlParams';
 import ProjectSearchInput from './ProjectSearchInput';
@@ -287,7 +287,7 @@ class ProjectSearch extends Component {
     const { filterOptions, children } = this.props;
     return (
       <div className={styles.searchContainer}>
-        <form onSubmit={this.handleSubmit} className={styles.searchFrom}>
+        <form onSubmit={this.handleSubmit}>
           <ProjectSearchInput
             searchQueryValue={searchQuery}
             onSearchQueryChange={this.updateSearchQuery}

@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/tutone",
   "issues": {
-    "open": 2
+    "open": 3
   },
-  "releases": 17,
+  "releases": 20,
   "latestRelease": {
-    "name": "v0.6.1",
-    "date": "2021-02-12T00:07:33Z"
+    "name": "v0.8.1",
+    "date": "2021-06-15T23:00:09Z"
   },
-  "commits": 397,
-  "lastSixMonthsCommitTotal": 150,
-  "contributors": 6,
+  "commits": 444,
+  "lastSixMonthsCommitTotal": 82,
+  "contributors": 7,
   "pullRequests": {
-    "open": 4
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -36,32 +36,39 @@
   ],
   "cachedContributors": [
     {
-      "id": 25180681,
-      "login": "renovate-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/25180681?v=4",
-      "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 38
+      "id": 455419,
+      "login": "jthurman42",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
+      "htmlUrl": "https://github.com/jthurman42",
+      "contributions": 76
     },
     {
-      "id": 29264964,
-      "login": "zlesnr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/29264964?v=4",
-      "htmlUrl": "https://github.com/zlesnr",
-      "contributions": 125
+      "id": 7197435,
+      "login": "SowmyaJujjuri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7197435?v=4",
+      "htmlUrl": "https://github.com/SowmyaJujjuri",
+      "contributions": 2
+    },
+    {
+      "id": 413389,
+      "login": "ctrombley",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/413389?v=4",
+      "htmlUrl": "https://github.com/ctrombley",
+      "contributions": 1
     },
     {
       "id": 2590905,
       "login": "sanderblue",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2590905?v=4",
       "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 39
+      "contributions": 41
     },
     {
-      "id": 455419,
-      "login": "jthurman42",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
-      "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 60
+      "id": 25180681,
+      "login": "renovate-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25180681?v=4",
+      "htmlUrl": "https://github.com/renovate-bot",
+      "contributions": 46
     },
     {
       "id": 7471617,
@@ -71,11 +78,11 @@
       "contributions": 1
     },
     {
-      "id": 7197435,
-      "login": "SowmyaJujjuri",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7197435?v=4",
-      "htmlUrl": "https://github.com/SowmyaJujjuri",
-      "contributions": 2
+      "id": 29264964,
+      "login": "zlesnr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29264964?v=4",
+      "htmlUrl": "https://github.com/zlesnr",
+      "contributions": 127
     }
   ],
   "languages": [

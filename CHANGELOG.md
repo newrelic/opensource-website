@@ -1,3 +1,75 @@
+## [1.15.4](https://github.com/newrelic/opensource-website/compare/v1.15.3...v1.15.4) (2021-08-19)
+
+
+### Bug Fixes
+
+* add gatsby cloud plugin and referrer policy setting ([2044221](https://github.com/newrelic/opensource-website/commit/2044221186cd7bcd0e6f5cc6b1ddf2893a8771d1))
+
+## [1.15.3](https://github.com/newrelic/opensource-website/compare/v1.15.2...v1.15.3) (2021-06-11)
+
+
+### Bug Fixes
+
+* upgrade gatsby-theme-newrelic ([bb458b2](https://github.com/newrelic/opensource-website/commit/bb458b244c52f468dd86584626bcc77e2cf54511))
+
+## [1.15.2](https://github.com/newrelic/opensource-website/compare/v1.15.1...v1.15.2) (2021-06-03)
+
+
+### Bug Fixes
+
+* bump theme to version that handles blocked cookies ([48730fc](https://github.com/newrelic/opensource-website/commit/48730fcf9618a8c26b2310c3daf5ab2762f0c2a5))
+
+## [1.15.1](https://github.com/newrelic/opensource-website/compare/v1.15.0...v1.15.1) (2021-05-14)
+
+
+### Bug Fixes
+
+* Swap componentPath for component in allSitePage queries ([87a7d30](https://github.com/newrelic/opensource-website/commit/87a7d30f37792426cff30a1a7f7f08e7d36ba881))
+
+# [1.15.0](https://github.com/newrelic/opensource-website/compare/v1.14.1...v1.15.0) (2021-05-13)
+
+
+### Features
+
+* adding feature flags to improve build times ([af2d2c5](https://github.com/newrelic/opensource-website/commit/af2d2c5525491fc19127ebbca38183633809d370))
+
+## [1.14.1](https://github.com/newrelic/opensource-website/compare/v1.14.0...v1.14.1) (2021-05-12)
+
+
+### Bug Fixes
+
+* Bump theme to 2.2.3 ([a35846d](https://github.com/newrelic/opensource-website/commit/a35846d71dee2e3f704d9014c06e8ec8778e3153))
+
+# [1.14.0](https://github.com/newrelic/opensource-website/compare/v1.13.2...v1.14.0) (2021-05-12)
+
+
+### Bug Fixes
+
+* add `git pull main` to project stats workflow ([c59bba9](https://github.com/newrelic/opensource-website/commit/c59bba99a12b55c6e5aa8a80209d0f402d1808b7))
+* add branch protection handling in workflows ([8dfcc93](https://github.com/newrelic/opensource-website/commit/8dfcc93ee9c980dcd14410c8bf10333efdf8cb3a))
+* properly fix workflow syntax ([5452595](https://github.com/newrelic/opensource-website/commit/545259598d647deaac9987c0d9db1c03195265b0))
+* remove required status checks ([acd3b36](https://github.com/newrelic/opensource-website/commit/acd3b363af9ac3cee143ad061f67480031d0d816))
+* yaml formatting in workflow ([0fadccd](https://github.com/newrelic/opensource-website/commit/0fadccdee3cb7adcb24bb810777605d9724c215a))
+
+
+### Features
+
+* Update theme to include A/B testing button ([4398139](https://github.com/newrelic/opensource-website/commit/4398139b33d2fdfb32736ec0420c1056b5ea5f53))
+
+## [1.13.2](https://github.com/newrelic/opensource-website/compare/v1.13.1...v1.13.2) (2021-04-26)
+
+
+### Bug Fixes
+
+* referrer field not being sent on sign up ([57145d4](https://github.com/newrelic/opensource-website/commit/57145d41d58dcce7e995ad1a652a3082927a5c14))
+
+## [1.13.1](https://github.com/newrelic/opensource-website/compare/v1.13.0...v1.13.1) (2021-04-21)
+
+
+### Bug Fixes
+
+* update node version in workflows ([be96601](https://github.com/newrelic/opensource-website/commit/be96601a80d11fcc3516d47787d6da9ffe9803b9))
+
 # [1.13.0](https://github.com/newrelic/opensource-website/compare/v1.12.0...v1.13.0) (2021-04-05)
 
 

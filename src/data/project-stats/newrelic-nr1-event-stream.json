@@ -3,20 +3,48 @@
   "issues": {
     "open": 3
   },
-  "releases": 11,
+  "releases": 12,
   "latestRelease": {
-    "name": "v1.4.2",
-    "date": "2020-09-03T17:30:52Z"
+    "name": "v1.4.3",
+    "date": "2021-05-07T18:20:06Z"
   },
-  "commits": 122,
-  "lastSixMonthsCommitTotal": 3,
+  "commits": 130,
+  "lastSixMonthsCommitTotal": 10,
   "contributors": 11,
   "pullRequests": {
-    "open": 5
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 197140,
+      "login": "devfreddy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
+      "htmlUrl": "https://github.com/devfreddy",
+      "contributions": 9
+    },
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 14
+    },
+    {
+      "id": 8731013,
+      "login": "prototypicalpro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
+      "htmlUrl": "https://github.com/prototypicalpro",
+      "contributions": 1
+    },
+    {
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 6
+    },
     {
       "id": 812989,
       "login": "danielgolden",
@@ -39,18 +67,11 @@
       "contributions": 1
     },
     {
-      "id": 13043208,
-      "login": "Kav91",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
-      "htmlUrl": "https://github.com/Kav91",
-      "contributions": 50
-    },
-    {
-      "id": 8731013,
-      "login": "prototypicalpro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
-      "htmlUrl": "https://github.com/prototypicalpro",
-      "contributions": 1
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 5
     },
     {
       "id": 6722433,
@@ -60,25 +81,11 @@
       "contributions": 9
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 12
-    },
-    {
-      "id": 197140,
-      "login": "devfreddy",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
-      "htmlUrl": "https://github.com/devfreddy",
-      "contributions": 9
-    },
-    {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 6
+      "id": 13043208,
+      "login": "Kav91",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
+      "htmlUrl": "https://github.com/Kav91",
+      "contributions": 50
     },
     {
       "id": 37779995,
@@ -86,13 +93,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/37779995?v=4",
       "htmlUrl": "https://github.com/ryanv94",
       "contributions": 1
-    },
-    {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 2
     }
   ],
   "languages": [

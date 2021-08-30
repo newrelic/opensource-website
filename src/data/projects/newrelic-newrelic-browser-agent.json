@@ -1,0 +1,28 @@
+{
+  "name": "newrelic-browser-agent",
+  "fullName": "newrelic/newrelic-browser-agent",
+  "slug": "newrelic-newrelic-browser-agent",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Browser Agent",
+  "supportUrl": "https://discuss.newrelic.com/c/full-stack-observability/browser",
+  "githubUrl": "https://github.com/newrelic/newrelic-browser-agent",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-browser-agent",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-browser-agent/blob/main/CONTRIBUTING.md#contributing", 
+  "iconUrl": null,
+  "shortDescription": "The New Relic Browser Agent",
+  "description": "The official New Relic agent for browser applications",
+  "ossCategory": "community-plus",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [
+    "agent"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Browser Agent",
+    "url": "https://github.com/newrelic/newrelic-browser-agent"
+  },
+  "defaultBranch": "main"
+}

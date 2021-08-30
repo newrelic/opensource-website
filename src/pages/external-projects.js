@@ -8,7 +8,7 @@ import PageHeading from '../components/PageHeading';
 import ProjectModule from '../components/ProjectModule';
 import { Button } from '@newrelic/gatsby-theme-newrelic';
 
-import styles from './external-projects.module.scss';
+import * as styles from './external-projects.module.scss';
 
 export const query = graphql`
   query ExternalProjectsQuery($path: String) {
@@ -53,7 +53,7 @@ export const query = graphql`
     }
     sitePage: allSitePage(filter: { path: { eq: $path } }) {
       nodes {
-        componentPath
+        component
         path
       }
     }
@@ -96,7 +96,7 @@ const ExternalProjectsPage = ({ data, pageContext }) => {
         ))}
       </div>
       {otherProjects && otherProjects.length > 0 && (
-        <div className={`primary-content, ${styles.primaryContent}`}>
+        <div className="primary-content">
           <main className={styles.moreProjects}>
             <div className={styles.moreProjectsHeaderSection}>
               <h4 className={styles.moreProjectsHeaderSectionTitle}>
@@ -119,7 +119,7 @@ const ExternalProjectsPage = ({ data, pageContext }) => {
                       className={styles.projectListingItemImage}
                       src="http://placehold.jp/150x150.png"
                     />
-                    <div className={styles.projectListingItemCopy}>
+                    <div>
                       <h5 className={styles.projectListingItemName}>
                         {project.title}
                       </h5>

@@ -5,11 +5,11 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 165,
-  "lastSixMonthsCommitTotal": 51,
-  "contributors": 7,
+  "commits": 168,
+  "lastSixMonthsCommitTotal": 42,
+  "contributors": 6,
   "pullRequests": {
-    "open": 1
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,32 +22,11 @@
       "contributions": 4
     },
     {
-      "id": 522116,
-      "login": "markweitzel",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/522116?v=4",
-      "htmlUrl": "https://github.com/markweitzel",
-      "contributions": 2
-    },
-    {
       "id": 70179215,
       "login": "nr-kkenney",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
       "htmlUrl": "https://github.com/nr-kkenney",
       "contributions": 2
-    },
-    {
-      "id": 8731013,
-      "login": "prototypicalpro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
-      "htmlUrl": "https://github.com/prototypicalpro",
-      "contributions": 43
-    },
-    {
-      "id": 38018054,
-      "login": "Julien4218",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/38018054?v=4",
-      "htmlUrl": "https://github.com/Julien4218",
-      "contributions": 14
     },
     {
       "id": 70179303,
@@ -57,11 +36,25 @@
       "contributions": 26
     },
     {
+      "id": 8731013,
+      "login": "prototypicalpro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
+      "htmlUrl": "https://github.com/prototypicalpro",
+      "contributions": 43
+    },
+    {
       "id": 19733683,
       "login": "snyk-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
       "contributions": 8
+    },
+    {
+      "id": 38018054,
+      "login": "Julien4218",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38018054?v=4",
+      "htmlUrl": "https://github.com/Julien4218",
+      "contributions": 16
     }
   ],
   "languages": [
@@ -94,6 +87,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDE=",
       "name": "Ruby",
       "color": "#701516"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U3ODY=",
+      "name": "Jinja",
+      "color": "#a52a22"
     }
   ],
   "screenshots": [],
