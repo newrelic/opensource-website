@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-java-agent",
   "issues": {
-    "open": 83
+    "open": 84
   },
   "releases": 13,
   "latestRelease": {
@@ -12,18 +12,29 @@
   "lastSixMonthsCommitTotal": 271,
   "contributors": 25,
   "pullRequests": {
-    "open": 11
+    "open": 12
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
-  "cachedContributors": [
+  "cachedIssues": [
     {
-      "id": 1627067,
-      "login": "sdaubin",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1627067?v=4",
-      "htmlUrl": "https://github.com/sdaubin",
-      "contributions": 5
-    },
+      "id": "MDU6SXNzdWU5ODc5MDY0MjQ=",
+      "title": "Add test for maybeSetGraphQLAttributes method",
+      "url": "https://github.com/newrelic/newrelic-java-agent/issues/403",
+      "createdAt": "2021-09-03T15:50:57Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "XiXiaPdx",
+        "id": "MDQ6VXNlcjI0NDgyNDAx",
+        "email": "",
+        "name": "Xi Xia"
+      },
+      "number": 403,
+      "createdBy": "Xi Xia"
+    }
+  ],
+  "cachedContributors": [
     {
       "id": 513280,
       "login": "Stephan202",
@@ -53,18 +64,18 @@
       "contributions": 65
     },
     {
-      "id": 25208879,
-      "login": "veklov",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/25208879?v=4",
-      "htmlUrl": "https://github.com/veklov",
-      "contributions": 7
+      "id": 1627067,
+      "login": "sdaubin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1627067?v=4",
+      "htmlUrl": "https://github.com/sdaubin",
+      "contributions": 5
     },
     {
-      "id": 42678939,
-      "login": "bradleycamacho",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/42678939?v=4",
-      "htmlUrl": "https://github.com/bradleycamacho",
-      "contributions": 2
+      "id": 34418638,
+      "login": "jack-berg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34418638?v=4",
+      "htmlUrl": "https://github.com/jack-berg",
+      "contributions": 20
     },
     {
       "id": 929261,
@@ -74,11 +85,11 @@
       "contributions": 1
     },
     {
-      "id": 2817215,
-      "login": "richard-gibson",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2817215?v=4",
-      "htmlUrl": "https://github.com/richard-gibson",
-      "contributions": 8
+      "id": 23452451,
+      "login": "nathankooij",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23452451?v=4",
+      "htmlUrl": "https://github.com/nathankooij",
+      "contributions": 3
     },
     {
       "id": 3496648,
@@ -88,11 +99,18 @@
       "contributions": 63
     },
     {
-      "id": 7401258,
-      "login": "tbradellis",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7401258?v=4",
-      "htmlUrl": "https://github.com/tbradellis",
-      "contributions": 4
+      "id": 2817215,
+      "login": "richard-gibson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2817215?v=4",
+      "htmlUrl": "https://github.com/richard-gibson",
+      "contributions": 8
+    },
+    {
+      "id": 42678939,
+      "login": "bradleycamacho",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42678939?v=4",
+      "htmlUrl": "https://github.com/bradleycamacho",
+      "contributions": 2
     },
     {
       "id": 43244625,
@@ -116,11 +134,11 @@
       "contributions": 3
     },
     {
-      "id": 34418638,
-      "login": "jack-berg",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/34418638?v=4",
-      "htmlUrl": "https://github.com/jack-berg",
-      "contributions": 20
+      "id": 25208879,
+      "login": "veklov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25208879?v=4",
+      "htmlUrl": "https://github.com/veklov",
+      "contributions": 7
     },
     {
       "id": 7992384,
@@ -151,11 +169,11 @@
       "contributions": 35
     },
     {
-      "id": 23452451,
-      "login": "nathankooij",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/23452451?v=4",
-      "htmlUrl": "https://github.com/nathankooij",
-      "contributions": 3
+      "id": 7401258,
+      "login": "tbradellis",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7401258?v=4",
+      "htmlUrl": "https://github.com/tbradellis",
+      "contributions": 4
     },
     {
       "id": 54085190,
