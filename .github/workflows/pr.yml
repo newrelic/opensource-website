@@ -9,42 +9,6 @@ on:
     types: [pull-request-develop, pull-request-main]
 
 jobs:
-  job-checkout-and-build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v2
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12
-
-      - name: Cache node_modules
-        id: cache-node
-        uses: actions/cache@v2
-        env:
-          cache-name: node-modules
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ env.cache-name }}-
-
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Gatsby Build
-        run: |
-          if [ '${{ github.base_ref }}' = 'develop' ]; then
-            yarn run build:staging
-          elif [ '${{ github.base_ref }}' = 'main' ]; then
-            yarn run build:production
-          else
-            echo "::error::Pull Request opened on unsupported branch. Exiting."
-            exit 1
-          fi
-
   job-check-project-tags:
     name: Check Project Tags
     runs-on: ubuntu-latest
@@ -138,7 +102,7 @@ jobs:
   job-eslint:
     name: eslint
     runs-on: ubuntu-latest
-    needs: [job-checkout-and-build, job-check-project-tags]
+    needs: [job-check-project-tags]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
@@ -184,7 +148,7 @@ jobs:
   job-test:
     name: Jest
     runs-on: ubuntu-latest
-    needs: [job-checkout-and-build, job-check-project-tags]
+    needs: [job-check-project-tags]
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
