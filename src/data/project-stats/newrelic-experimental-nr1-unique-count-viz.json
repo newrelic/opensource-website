@@ -1,13 +1,13 @@
 {
   "projectFullName": "newrelic-experimental/nr1-unique-count-viz",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 13,
+  "lastSixMonthsCommitTotal": 13,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +20,27 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 1
+    },
+    {
+      "id": 15201509,
+      "login": "aschmid13",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15201509?v=4",
+      "htmlUrl": "https://github.com/aschmid13",
+      "contributions": 6
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
