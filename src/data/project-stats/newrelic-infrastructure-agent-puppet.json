@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/infrastructure-agent-puppet",
   "issues": {
-    "open": 9
+    "open": 4
   },
   "releases": 23,
   "latestRelease": {
     "name": "0.12.0",
     "date": "2021-08-27T08:32:21Z"
   },
-  "commits": 180,
-  "lastSixMonthsCommitTotal": 54,
+  "commits": 201,
+  "lastSixMonthsCommitTotal": 75,
   "contributors": 28,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,11 +25,11 @@
       "contributions": 1
     },
     {
-      "id": 1796577,
-      "login": "ramonPires",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1796577?v=4",
-      "htmlUrl": "https://github.com/ramonPires",
-      "contributions": 2
+      "id": 98873,
+      "login": "lboynton",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/98873?v=4",
+      "htmlUrl": "https://github.com/lboynton",
+      "contributions": 1
     },
     {
       "id": 2957750,
@@ -39,11 +39,11 @@
       "contributions": 2
     },
     {
-      "id": 5935,
-      "login": "chaupt",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5935?v=4",
-      "htmlUrl": "https://github.com/chaupt",
-      "contributions": 3
+      "id": 37343621,
+      "login": "els-bernalj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37343621?v=4",
+      "htmlUrl": "https://github.com/els-bernalj",
+      "contributions": 2
     },
     {
       "id": 22596,
@@ -53,18 +53,18 @@
       "contributions": 11
     },
     {
+      "id": 42580929,
+      "login": "zeljkostjepanovic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42580929?v=4",
+      "htmlUrl": "https://github.com/zeljkostjepanovic",
+      "contributions": 2
+    },
+    {
       "id": 1300852,
       "login": "varas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
       "htmlUrl": "https://github.com/varas",
       "contributions": 3
-    },
-    {
-      "id": 2538971,
-      "login": "imehdihosseini",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2538971?v=4",
-      "htmlUrl": "https://github.com/imehdihosseini",
-      "contributions": 4
     },
     {
       "id": 6640829,
@@ -74,17 +74,17 @@
       "contributions": 1
     },
     {
-      "id": 98873,
-      "login": "lboynton",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/98873?v=4",
-      "htmlUrl": "https://github.com/lboynton",
-      "contributions": 1
+      "id": 52407257,
+      "login": "JakubKotkowiak",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52407257?v=4",
+      "htmlUrl": "https://github.com/JakubKotkowiak",
+      "contributions": 31
     },
     {
-      "id": 42580929,
-      "login": "zeljkostjepanovic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/42580929?v=4",
-      "htmlUrl": "https://github.com/zeljkostjepanovic",
+      "id": 1796577,
+      "login": "ramonPires",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1796577?v=4",
+      "htmlUrl": "https://github.com/ramonPires",
       "contributions": 2
     },
     {
@@ -179,11 +179,11 @@
       "contributions": 1
     },
     {
-      "id": 52407257,
-      "login": "JakubKotkowiak",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52407257?v=4",
-      "htmlUrl": "https://github.com/JakubKotkowiak",
-      "contributions": 15
+      "id": 2538971,
+      "login": "imehdihosseini",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2538971?v=4",
+      "htmlUrl": "https://github.com/imehdihosseini",
+      "contributions": 4
     },
     {
       "id": 19955251,
@@ -197,7 +197,7 @@
       "login": "zelaskov",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46314449?v=4",
       "htmlUrl": "https://github.com/zelaskov",
-      "contributions": 8
+      "contributions": 12
     },
     {
       "id": 1876430,
@@ -207,11 +207,11 @@
       "contributions": 1
     },
     {
-      "id": 37343621,
-      "login": "els-bernalj",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/37343621?v=4",
-      "htmlUrl": "https://github.com/els-bernalj",
-      "contributions": 2
+      "id": 5935,
+      "login": "chaupt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5935?v=4",
+      "htmlUrl": "https://github.com/chaupt",
+      "contributions": 3
     }
   ],
   "languages": [
@@ -229,6 +229,11 @@
       "id": "MDg6TGFuZ3VhZ2U0MTc=",
       "name": "HTML",
       "color": "#e34c26"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
