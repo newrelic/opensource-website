@@ -6,7 +6,10 @@ import { Helmet } from 'react-helmet';
 import Header from './Header';
 import './styles.scss';
 import favicon from '../images/favicon.svg';
-import { GlobalFooter } from '@newrelic/gatsby-theme-newrelic';
+import {
+  CookieConsentDialog,
+  GlobalFooter,
+} from '@newrelic/gatsby-theme-newrelic';
 
 const Layout = ({
   children,
@@ -56,6 +59,7 @@ const Layout = ({
         {children}
       </main>
       <GlobalFooter fileRelativePath={editLink} />
+      <CookieConsentDialog />
     </div>
   );
 };
