@@ -630,7 +630,7 @@ Array [
           className="emotion-21"
           href="https://newrelic.com/"
           onClick={[Function]}
-          rel="noopener noreferrer"
+          rel="noopener"
           target="_blank"
         >
           <svg
@@ -717,7 +717,7 @@ Array [
                 className="emotion-27"
                 href="https://docs.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Docs
@@ -726,7 +726,7 @@ Array [
                 className="emotion-27"
                 href="https://developer.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Developer
@@ -735,7 +735,7 @@ Array [
                 className="emotion-27"
                 href="https://opensource.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Open Source
@@ -744,7 +744,7 @@ Array [
                 className="emotion-27"
                 href="https://discuss.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Community
@@ -753,7 +753,7 @@ Array [
                 className="emotion-27"
                 href="https://learn.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Learn
@@ -769,7 +769,7 @@ Array [
               className="emotion-35"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
               Docs
@@ -780,10 +780,10 @@ Array [
               className="emotion-35"
               href="https://developer.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
-              Developers
+              Developer
             </a>
           </li>
           <li>
@@ -791,7 +791,7 @@ Array [
               className="emotion-35"
               href="https://opensource.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
               Open Source
@@ -802,7 +802,7 @@ Array [
               className="emotion-35"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
               Community
@@ -813,7 +813,7 @@ Array [
               className="emotion-35"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
               Learn
@@ -903,7 +903,7 @@ Array [
             className="emotion-52 emotion-26"
             href="https://one.newrelic.com"
             onClick={[Function]}
-            rel="noopener noreferrer"
+            rel="noopener"
             size="extraSmall"
             target="_blank"
             variant="link"

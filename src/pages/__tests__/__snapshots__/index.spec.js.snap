@@ -855,7 +855,7 @@ exports[`HomePage Renders correctly 1`] = `
           className="emotion-21"
           href="https://newrelic.com/"
           onClick={[Function]}
-          rel="noopener noreferrer"
+          rel="noopener"
           target="_blank"
         >
           <svg
@@ -942,7 +942,7 @@ exports[`HomePage Renders correctly 1`] = `
                 className="emotion-27"
                 href="https://docs.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Docs
@@ -951,7 +951,7 @@ exports[`HomePage Renders correctly 1`] = `
                 className="emotion-27"
                 href="https://developer.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Developer
@@ -960,7 +960,7 @@ exports[`HomePage Renders correctly 1`] = `
                 className="emotion-27"
                 href="https://opensource.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Open Source
@@ -969,7 +969,7 @@ exports[`HomePage Renders correctly 1`] = `
                 className="emotion-27"
                 href="https://discuss.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Community
@@ -978,7 +978,7 @@ exports[`HomePage Renders correctly 1`] = `
                 className="emotion-27"
                 href="https://learn.newrelic.com/"
                 onClick={[Function]}
-                rel="noopener noreferrer"
+                rel="noopener"
                 target="_blank"
               >
                 Learn
@@ -994,7 +994,7 @@ exports[`HomePage Renders correctly 1`] = `
               className="emotion-35"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
               Docs
@@ -1005,10 +1005,10 @@ exports[`HomePage Renders correctly 1`] = `
               className="emotion-35"
               href="https://developer.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
-              Developers
+              Developer
             </a>
           </li>
           <li>
@@ -1016,7 +1016,7 @@ exports[`HomePage Renders correctly 1`] = `
               className="emotion-35"
               href="https://opensource.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
               Open Source
@@ -1027,7 +1027,7 @@ exports[`HomePage Renders correctly 1`] = `
               className="emotion-35"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
               Community
@@ -1038,7 +1038,7 @@ exports[`HomePage Renders correctly 1`] = `
               className="emotion-35"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
-              rel="noopener noreferrer"
+              rel="noopener"
               target="_blank"
             >
               Learn
@@ -1128,7 +1128,7 @@ exports[`HomePage Renders correctly 1`] = `
             className="emotion-52 emotion-26"
             href="https://one.newrelic.com"
             onClick={[Function]}
-            rel="noopener noreferrer"
+            rel="noopener"
             size="extraSmall"
             target="_blank"
             variant="link"
@@ -1536,7 +1536,7 @@ exports[`HomePage Renders correctly 1`] = `
           <a
             href="https://newrelic.com/about/careers"
             onClick={[Function]}
-            rel="noopener noreferrer"
+            rel="noopener"
             target="_blank"
           >
             Careers
@@ -1544,7 +1544,7 @@ exports[`HomePage Renders correctly 1`] = `
           <a
             href="https://newrelic.com/termsandconditions/terms"
             onClick={[Function]}
-            rel="noopener noreferrer"
+            rel="noopener"
             target="_blank"
           >
             Terms of Service
@@ -1552,7 +1552,7 @@ exports[`HomePage Renders correctly 1`] = `
           <a
             href="https://newrelic.com/termsandconditions/dmca"
             onClick={[Function]}
-            rel="noopener noreferrer"
+            rel="noopener"
             target="_blank"
           >
             DCMA Policy
@@ -1560,7 +1560,7 @@ exports[`HomePage Renders correctly 1`] = `
           <a
             href="https://newrelic.com/termsandconditions/services-notices"
             onClick={[Function]}
-            rel="noopener noreferrer"
+            rel="noopener"
             target="_blank"
           >
             Privacy Notice
@@ -1568,7 +1568,7 @@ exports[`HomePage Renders correctly 1`] = `
           <a
             href="https://newrelic.com/termsandconditions/cookie-policy"
             onClick={[Function]}
-            rel="noopener noreferrer"
+            rel="noopener"
             target="_blank"
           >
             Cookie Policy
@@ -1576,7 +1576,7 @@ exports[`HomePage Renders correctly 1`] = `
           <a
             href="https://newrelic.com/termsandconditions/uk-slavery-act"
             onClick={[Function]}
-            rel="noopener noreferrer"
+            rel="noopener"
             target="_blank"
           >
             UK Slavery Act
