@@ -1,13 +1,13 @@
 {
-  "projectFullName": "newrelic/fluentbit-examples",
+  "projectFullName": "newrelic-experimental/gatsby-build-newrelic",
   "issues": {
-    "open": 0
+    "open": 7
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 11,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 3,
+  "commits": 5,
+  "lastSixMonthsCommitTotal": 5,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -15,11 +15,11 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 55508447,
-      "login": "mculmone",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55508447?v=4",
-      "htmlUrl": "https://github.com/mculmone",
-      "contributions": 7
+      "id": 17122543,
+      "login": "rudouglas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
+      "htmlUrl": "https://github.com/rudouglas",
+      "contributions": 4
     },
     {
       "id": 43244625,
@@ -27,16 +27,15 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
-    },
-    {
-      "id": 62337995,
-      "login": "jodstrcil",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/62337995?v=4",
-      "htmlUrl": "https://github.com/jodstrcil",
-      "contributions": 1
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
