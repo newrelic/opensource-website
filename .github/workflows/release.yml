@@ -96,18 +96,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12
-
-      - name: Cache node_modules
-        id: cache-node
-        uses: actions/cache@v2
-        env:
-          cache-name: node-modules
-        with:
-          path: '**/node_modules'
-          key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-${{ env.cache-name }}-
+          node-version: 14
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -139,7 +128,7 @@ jobs:
           GIT_COMMITTER_NAME: "nr-opensource-bot"
           GIT_COMMITTER_EMAIL: "opensource+bot@newrelic.com"
           GITHUB_TOKEN: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
-        run: npx semantic-release
+        run: npx semantic-release@^18.0.0
 
       - name: Re-enable branch protection
         id: enable-branch-protection
