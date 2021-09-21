@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-observability-packs",
   "issues": {
-    "open": 39
+    "open": 36
   },
-  "releases": 39,
+  "releases": 41,
   "latestRelease": {
-    "name": "v0.24.1",
-    "date": "2021-09-20T08:18:36Z"
+    "name": "v0.26.0",
+    "date": "2021-09-20T21:29:14Z"
   },
-  "commits": 549,
-  "lastSixMonthsCommitTotal": 549,
+  "commits": 565,
+  "lastSixMonthsCommitTotal": 565,
   "contributors": 20,
   "pullRequests": {
-    "open": 19
+    "open": 16
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -39,38 +39,31 @@
       "contributions": 40
     },
     {
-      "id": 12112563,
-      "login": "JuliaNocera",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12112563?v=4",
-      "htmlUrl": "https://github.com/JuliaNocera",
+      "id": 90790184,
+      "login": "aliandersonsn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90790184?v=4",
+      "htmlUrl": "https://github.com/aliandersonsn",
       "contributions": 1
-    },
-    {
-      "id": 2952843,
-      "login": "roadlittledawn",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2952843?v=4",
-      "htmlUrl": "https://github.com/roadlittledawn",
-      "contributions": 7
-    },
-    {
-      "id": 184273,
-      "login": "kidk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/184273?v=4",
-      "htmlUrl": "https://github.com/kidk",
-      "contributions": 74
     },
     {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 48
+      "contributions": 50
     },
     {
-      "id": 90790184,
-      "login": "aliandersonsn",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/90790184?v=4",
-      "htmlUrl": "https://github.com/aliandersonsn",
+      "id": 39655074,
+      "login": "LizBaker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
+      "htmlUrl": "https://github.com/LizBaker",
+      "contributions": 17
+    },
+    {
+      "id": 12112563,
+      "login": "JuliaNocera",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12112563?v=4",
+      "htmlUrl": "https://github.com/JuliaNocera",
       "contributions": 1
     },
     {
@@ -102,6 +95,20 @@
       "contributions": 66
     },
     {
+      "id": 1395158,
+      "login": "jpvajda",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1395158?v=4",
+      "htmlUrl": "https://github.com/jpvajda",
+      "contributions": 39
+    },
+    {
+      "id": 2952843,
+      "login": "roadlittledawn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2952843?v=4",
+      "htmlUrl": "https://github.com/roadlittledawn",
+      "contributions": 7
+    },
+    {
       "id": 70179303,
       "login": "aswanson-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
@@ -109,18 +116,11 @@
       "contributions": 48
     },
     {
-      "id": 1395158,
-      "login": "jpvajda",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1395158?v=4",
-      "htmlUrl": "https://github.com/jpvajda",
-      "contributions": 33
-    },
-    {
-      "id": 45029322,
-      "login": "polfliet",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/45029322?v=4",
-      "htmlUrl": "https://github.com/polfliet",
-      "contributions": 33
+      "id": 184273,
+      "login": "kidk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/184273?v=4",
+      "htmlUrl": "https://github.com/kidk",
+      "contributions": 75
     },
     {
       "id": 30831476,
@@ -144,18 +144,18 @@
       "contributions": 5
     },
     {
-      "id": 39655074,
-      "login": "LizBaker",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
-      "htmlUrl": "https://github.com/LizBaker",
-      "contributions": 13
-    },
-    {
       "id": 17122543,
       "login": "rudouglas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
       "htmlUrl": "https://github.com/rudouglas",
       "contributions": 11
+    },
+    {
+      "id": 45029322,
+      "login": "polfliet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45029322?v=4",
+      "htmlUrl": "https://github.com/polfliet",
+      "contributions": 33
     }
   ],
   "languages": [
