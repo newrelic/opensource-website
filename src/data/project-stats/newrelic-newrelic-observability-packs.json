@@ -1,28 +1,42 @@
 {
   "projectFullName": "newrelic/newrelic-observability-packs",
   "issues": {
-    "open": 35
+    "open": 34
   },
-  "releases": 43,
+  "releases": 46,
   "latestRelease": {
-    "name": "v0.27.0",
-    "date": "2021-09-21T22:51:20Z"
+    "name": "v0.28.2",
+    "date": "2021-09-22T10:02:31Z"
   },
-  "commits": 594,
-  "lastSixMonthsCommitTotal": 594,
+  "commits": 645,
+  "lastSixMonthsCommitTotal": 645,
   "contributors": 21,
   "pullRequests": {
-    "open": 21
+    "open": 17
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 52407257,
+      "login": "JakubKotkowiak",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52407257?v=4",
+      "htmlUrl": "https://github.com/JakubKotkowiak",
+      "contributions": 18
+    },
+    {
       "id": 90790184,
       "login": "aliandersonsn",
       "avatarUrl": "https://avatars.githubusercontent.com/u/90790184?v=4",
       "htmlUrl": "https://github.com/aliandersonsn",
-      "contributions": 1
+      "contributions": 6
+    },
+    {
+      "id": 17122543,
+      "login": "rudouglas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
+      "htmlUrl": "https://github.com/rudouglas",
+      "contributions": 16
     },
     {
       "id": 2952843,
@@ -37,13 +51,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/184273?v=4",
       "htmlUrl": "https://github.com/kidk",
       "contributions": 75
-    },
-    {
-      "id": 17122543,
-      "login": "rudouglas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
-      "htmlUrl": "https://github.com/rudouglas",
-      "contributions": 16
     },
     {
       "id": 65783020,
@@ -64,14 +71,7 @@
       "login": "bradleycamacho",
       "avatarUrl": "https://avatars.githubusercontent.com/u/42678939?v=4",
       "htmlUrl": "https://github.com/bradleycamacho",
-      "contributions": 7
-    },
-    {
-      "id": 52407257,
-      "login": "JakubKotkowiak",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52407257?v=4",
-      "htmlUrl": "https://github.com/JakubKotkowiak",
-      "contributions": 18
+      "contributions": 20
     },
     {
       "id": 6722433,
@@ -79,6 +79,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 70
+    },
+    {
+      "id": 70179303,
+      "login": "aswanson-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
+      "htmlUrl": "https://github.com/aswanson-nr",
+      "contributions": 49
     },
     {
       "id": 6130000,
@@ -92,7 +99,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 53
+      "contributions": 57
     },
     {
       "id": 70179215,
@@ -100,13 +107,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
       "htmlUrl": "https://github.com/nr-kkenney",
       "contributions": 40
-    },
-    {
-      "id": 70179303,
-      "login": "aswanson-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
-      "htmlUrl": "https://github.com/aswanson-nr",
-      "contributions": 49
     },
     {
       "id": 1946433,
@@ -134,7 +134,7 @@
       "login": "polfliet",
       "avatarUrl": "https://avatars.githubusercontent.com/u/45029322?v=4",
       "htmlUrl": "https://github.com/polfliet",
-      "contributions": 34
+      "contributions": 50
     },
     {
       "id": 30831476,
@@ -155,7 +155,7 @@
       "login": "hsinghkalsi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/41585091?v=4",
       "htmlUrl": "https://github.com/hsinghkalsi",
-      "contributions": 5
+      "contributions": 9
     },
     {
       "id": 39655074,
