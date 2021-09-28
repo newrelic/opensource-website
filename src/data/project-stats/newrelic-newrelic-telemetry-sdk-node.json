@@ -3,16 +3,16 @@
   "issues": {
     "open": 0
   },
-  "releases": 6,
+  "releases": 7,
   "latestRelease": {
-    "name": "v0.4.2",
+    "name": "v0.5.0",
     "date": null
   },
-  "commits": 184,
-  "lastSixMonthsCommitTotal": 46,
-  "contributors": 12,
+  "commits": 195,
+  "lastSixMonthsCommitTotal": 57,
+  "contributors": 13,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -32,13 +32,6 @@
       "contributions": 1
     },
     {
-      "id": 585473,
-      "login": "MattWhelan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
-      "htmlUrl": "https://github.com/MattWhelan",
-      "contributions": 4
-    },
-    {
       "id": 17498,
       "login": "kolanos",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
@@ -46,11 +39,11 @@
       "contributions": 5
     },
     {
-      "id": 1342804,
-      "login": "lykkin",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1342804?v=4",
-      "htmlUrl": "https://github.com/lykkin",
-      "contributions": 5
+      "id": 585473,
+      "login": "MattWhelan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
+      "htmlUrl": "https://github.com/MattWhelan",
+      "contributions": 4
     },
     {
       "id": 11327,
@@ -65,6 +58,20 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/54335840?v=4",
       "htmlUrl": "https://github.com/carlo-808",
       "contributions": 35
+    },
+    {
+      "id": 1874937,
+      "login": "bizob2828",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
+      "htmlUrl": "https://github.com/bizob2828",
+      "contributions": 5
+    },
+    {
+      "id": 1342804,
+      "login": "lykkin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1342804?v=4",
+      "htmlUrl": "https://github.com/lykkin",
+      "contributions": 5
     },
     {
       "id": 6722433,
@@ -99,7 +106,7 @@
       "login": "michaelgoin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 33
+      "contributions": 36
     }
   ],
   "languages": [
@@ -107,6 +114,11 @@
       "id": "MDg6TGFuZ3VhZ2UyODc=",
       "name": "TypeScript",
       "color": "#2b7489"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
