@@ -8,8 +8,8 @@
     "name": "1.0",
     "date": "2021-02-22T18:36:06Z"
   },
-  "commits": 8,
-  "lastSixMonthsCommitTotal": 3,
+  "commits": 11,
+  "lastSixMonthsCommitTotal": 6,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -18,18 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 8822859,
+      "login": "dhilpipre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
+      "htmlUrl": "https://github.com/dhilpipre",
+      "contributions": 8
+    },
+    {
       "id": 3536684,
       "login": "sschwartzman",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
       "htmlUrl": "https://github.com/sschwartzman",
       "contributions": 1
-    },
-    {
-      "id": 8822859,
-      "login": "dhilpipre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
-      "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 6
     }
   ],
   "languages": [
@@ -42,6 +42,21 @@
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
       "color": "#b07219"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MTc=",
+      "name": "HTML",
+      "color": "#e34c26"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzMDg=",
+      "name": "CSS",
+      "color": "#563d7c"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
     }
   ],
   "screenshots": [],
