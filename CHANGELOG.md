@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/newrelic/opensource-website/compare/v1.15.4...v1.16.0) (2021-09-29)
+
+
+### Features
+
+* **quickstarts:** replacing old quickstarts project with new ([df83291](https://github.com/newrelic/opensource-website/commit/df83291aaedb9cfd7618d333f46a5960d7cb864a))
+
 ## [1.15.4](https://github.com/newrelic/opensource-website/compare/v1.15.3...v1.15.4) (2021-08-19)
 
 
