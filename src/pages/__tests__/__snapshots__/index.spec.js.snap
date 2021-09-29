@@ -10,7 +10,7 @@ exports[`HomePage Renders correctly 1`] = `
   }
 }
 
-.emotion-113 {
+.emotion-115 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -23,7 +23,7 @@ exports[`HomePage Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-59 {
+.emotion-61 {
   background-color: var(--color-neutrals-100);
   position: -webkit-sticky;
   position: sticky;
@@ -32,20 +32,20 @@ exports[`HomePage Renders correctly 1`] = `
   z-index: 700;
 }
 
-.dark-mode .emotion-59 {
+.dark-mode .emotion-61 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-59 ul {
+.emotion-61 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-59 a {
+.emotion-61 a {
   border-bottom: none;
 }
 
-.emotion-58 {
+.emotion-60 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -59,7 +59,7 @@ exports[`HomePage Renders correctly 1`] = `
   padding: 0 var(--site-content-padding);
 }
 
-.emotion-41 {
+.emotion-43 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -74,7 +74,7 @@ exports[`HomePage Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 800px) {
-  .emotion-41::after {
+  .emotion-43::after {
     content: '';
     position: absolute;
     right: 0;
@@ -88,7 +88,7 @@ exports[`HomePage Renders correctly 1`] = `
                   );
   }
 
-  .dark-mode .emotion-41::after {
+  .dark-mode .emotion-43::after {
     background: linear-gradient(
                       to right,
                       rgba(34,53,60,0),
@@ -98,11 +98,11 @@ exports[`HomePage Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 545px) {
-  .emotion-41 {
+  .emotion-43 {
     overflow: visible;
   }
 
-  .emotion-41::after {
+  .emotion-43::after {
     background: none!important;
     width: 0!important;
   }
@@ -143,7 +143,7 @@ exports[`HomePage Renders correctly 1`] = `
   fill: #70ccd3;
 }
 
-.emotion-34 {
+.emotion-35 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -157,7 +157,7 @@ exports[`HomePage Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 545px) {
-  .emotion-34 {
+  .emotion-35 {
     display: block;
   }
 }
@@ -215,7 +215,7 @@ exports[`HomePage Renders correctly 1`] = `
   fill: #70ccd3;
 }
 
-.emotion-33 {
+.emotion-34 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   --background-color: white;
@@ -230,12 +230,12 @@ exports[`HomePage Renders correctly 1`] = `
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-33 {
+.dark-mode .emotion-34 {
   --text-color: var(--color-dark-900);
   --background-color: var(--color-dark-050);
 }
 
-.emotion-33::before {
+.emotion-34::before {
   content: '';
   position: absolute;
   display: block;
@@ -249,7 +249,7 @@ exports[`HomePage Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-32 {
+.emotion-33 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
@@ -277,7 +277,7 @@ exports[`HomePage Renders correctly 1`] = `
   background: var(--color-dark-200);
 }
 
-.emotion-40 {
+.emotion-42 {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -293,7 +293,7 @@ exports[`HomePage Renders correctly 1`] = `
   -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-.emotion-40 >li {
+.emotion-42 >li {
   margin: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -301,12 +301,12 @@ exports[`HomePage Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 545px) {
-  .emotion-40 {
+  .emotion-42 {
     display: none;
   }
 }
 
-.emotion-35 {
+.emotion-36 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -325,17 +325,17 @@ exports[`HomePage Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-35:hover {
+.emotion-36:hover {
   background-color: var(--color-neutrals-300);
   color: var(--color-neutrals-700);
 }
 
-.dark-mode .emotion-35:hover {
+.dark-mode .emotion-36:hover {
   background-color: var(--color-dark-300);
   color: var(--color-dark-700);
 }
 
-.emotion-57 {
+.emotion-59 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -353,39 +353,39 @@ exports[`HomePage Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-57 >li {
+.emotion-59 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-57 >li:not(:first-of-type) {
+.emotion-59 >li:not(:first-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-57 {
+  .emotion-59 {
     -webkit-flex: unset;
     -ms-flex: unset;
     flex: unset;
   }
 }
 
-.emotion-48 {
+.emotion-50 {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-48 {
+  .emotion-50 {
     -webkit-flex: unset;
     -ms-flex: unset;
     flex: unset;
   }
 }
 
-.emotion-43 {
+.emotion-45 {
   color: var(--secondary-text-color);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -400,17 +400,17 @@ exports[`HomePage Renders correctly 1`] = `
   display: none;
 }
 
-.emotion-43:hover {
+.emotion-45:hover {
   color: var(--secondary-text-hover-color);
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-43 {
+  .emotion-45 {
     display: block;
   }
 }
 
-.emotion-42 {
+.emotion-44 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -422,7 +422,7 @@ exports[`HomePage Renders correctly 1`] = `
   cursor: pointer;
 }
 
-.emotion-47 {
+.emotion-49 {
   --horizontal-spacing: 0.5rem;
   position: relative;
   width: 100%;
@@ -433,12 +433,12 @@ exports[`HomePage Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-47 {
+  .emotion-49 {
     display: none;
   }
 }
 
-.emotion-44 {
+.emotion-46 {
   width: 0.75rem;
   height: 0.75rem;
   fill: none;
@@ -455,7 +455,7 @@ exports[`HomePage Renders correctly 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-45 {
+.emotion-47 {
   width: 100%;
   border: 1px solid var(--border-color);
   border-radius: 4px;
@@ -475,13 +475,13 @@ exports[`HomePage Renders correctly 1`] = `
   padding-bottom: 0.25rem;
 }
 
-.emotion-45:focus {
+.emotion-47:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-46 {
+.emotion-48 {
   position: absolute;
   right: var(--horizontal-spacing);
   top: 50%;
@@ -498,11 +498,11 @@ exports[`HomePage Renders correctly 1`] = `
   padding: 0.0625rem 0.3125rem;
 }
 
-.dark-mode .emotion-46 {
+.dark-mode .emotion-48 {
   background: var(--color-dark-200);
 }
 
-.emotion-49 {
+.emotion-51 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -518,11 +518,11 @@ exports[`HomePage Renders correctly 1`] = `
   transition: all 0.2s ease-out;
 }
 
-.emotion-49:hover {
+.emotion-51:hover {
   color: var(--secondary-text-hover-color);
 }
 
-.emotion-54 {
+.emotion-56 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -533,7 +533,7 @@ exports[`HomePage Renders correctly 1`] = `
   align-items: center;
 }
 
-.emotion-52 {
+.emotion-54 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -568,19 +568,19 @@ exports[`HomePage Renders correctly 1`] = `
   white-space: nowrap;
 }
 
-.emotion-52:hover {
+.emotion-54:hover {
   color: var(--link-hover-color);
 }
 
 
 
 @media screen and (max-width: 545px) {
-  .emotion-50 {
+  .emotion-52 {
     display: none;
   }
 }
 
-.emotion-51 {
+.emotion-53 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -592,19 +592,19 @@ exports[`HomePage Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 545px) {
-  .emotion-51 {
+  .emotion-53 {
     display: block;
   }
 }
 
-.emotion-56 {
+.emotion-58 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.emotion-55 {
+.emotion-57 {
   --spinner-size: 1rem;
   display: inline-block;
   position: relative;
@@ -612,7 +612,7 @@ exports[`HomePage Renders correctly 1`] = `
   width: 100%;
 }
 
-.emotion-55:after {
+.emotion-57:after {
   -webkit-animation: animation-0 0.5s linear infinite;
   animation: animation-0 0.5s linear infinite;
   border-radius: 50%;
@@ -628,24 +628,24 @@ exports[`HomePage Renders correctly 1`] = `
   height: var(--spinner-size);
 }
 
-.emotion-81 {
+.emotion-83 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-81 {
+  .emotion-83 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-80 {
+.emotion-82 {
   fill: none;
   width: 100%;
 }
 
-.emotion-85 {
+.emotion-87 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -659,21 +659,21 @@ exports[`HomePage Renders correctly 1`] = `
   max-width: 1180px;
 }
 
-.emotion-85>hr {
+.emotion-87>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-82 {
+.emotion-84 {
   font-size: 40px;
   line-height: 110%;
   font-weight: 600;
   color: var(--color-neutrals-900);
 }
 
-.emotion-83 {
+.emotion-85 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -703,34 +703,34 @@ exports[`HomePage Renders correctly 1`] = `
   background-color: var(--color-brand-600);
 }
 
-.emotion-83:hover {
+.emotion-85:hover {
   color: var(--color-white);
   background-color: var(--color-brand-500);
 }
 
-.dark-mode .emotion-83 {
+.dark-mode .emotion-85 {
   border-color: transparent;
 }
 
-.emotion-83.emotion-83.emotion-83:after {
+.emotion-85.emotion-85.emotion-85:after {
   display: none;
 }
 
-.emotion-112 {
+.emotion-114 {
   color: var(--secondary-text-color);
   background-color: var(--color-neutrals-050);
   z-index: 1;
 }
 
-.dark-mode .emotion-112 {
+.dark-mode .emotion-114 {
   background-color: var(--color-dark-050);
 }
 
-.emotion-112 a {
+.emotion-114 a {
   color: currentColor;
 }
 
-.emotion-107 {
+.emotion-109 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -749,7 +749,7 @@ exports[`HomePage Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 550px) {
-  .emotion-107 {
+  .emotion-109 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -760,27 +760,27 @@ exports[`HomePage Renders correctly 1`] = `
   }
 }
 
-.emotion-106 {
+.emotion-108 {
   fill: none;
   width: 150px;
   display: block;
 }
 
 @media screen and (max-width: 550px) {
-  .emotion-106 {
+  .emotion-108 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-111 {
+.emotion-113 {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.dark-mode .emotion-111 {
+.dark-mode .emotion-113 {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.emotion-110 {
+.emotion-112 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -798,7 +798,7 @@ exports[`HomePage Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-110 {
+  .emotion-112 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -810,14 +810,14 @@ exports[`HomePage Renders correctly 1`] = `
   }
 }
 
-.emotion-108 {
+.emotion-110 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-109 {
+.emotion-111 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -833,23 +833,23 @@ exports[`HomePage Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-109 a {
+.emotion-111 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
 <div
-  className="emotion-113"
+  className="emotion-115"
 >
   <div
-    className=" emotion-59"
+    className=" emotion-61"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-58"
+      className="emotion-60"
     >
       <nav
-        className="emotion-41"
+        className="emotion-43"
       >
         <a
           className="emotion-21"
@@ -910,7 +910,7 @@ exports[`HomePage Renders correctly 1`] = `
           </svg>
         </a>
         <div
-          className="emotion-34"
+          className="emotion-35"
         >
           <button
             className="emotion-25 emotion-26"
@@ -933,10 +933,10 @@ exports[`HomePage Renders correctly 1`] = `
             </svg>
           </button>
           <div
-            className="emotion-33"
+            className="emotion-34"
           >
             <div
-              className="emotion-32"
+              className="emotion-33"
             >
               <a
                 className="emotion-27"
@@ -983,15 +983,24 @@ exports[`HomePage Renders correctly 1`] = `
               >
                 Learn
               </a>
+              <a
+                className="emotion-27"
+                href="https://developer.newrelic.com/instant-observability"
+                onClick={[Function]}
+                rel="noopener"
+                target="_blank"
+              >
+                Instant Observability
+              </a>
             </div>
           </div>
         </div>
         <ul
-          className="emotion-40"
+          className="emotion-42"
         >
           <li>
             <a
-              className="emotion-35"
+              className="emotion-36"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1002,7 +1011,7 @@ exports[`HomePage Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-35"
+              className="emotion-36"
               href="https://developer.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1013,7 +1022,7 @@ exports[`HomePage Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-35"
+              className="emotion-36"
               href="https://opensource.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1024,7 +1033,7 @@ exports[`HomePage Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-35"
+              className="emotion-36"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1035,7 +1044,7 @@ exports[`HomePage Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-35"
+              className="emotion-36"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1044,38 +1053,28 @@ exports[`HomePage Renders correctly 1`] = `
               Learn
             </a>
           </li>
+          <li>
+            <a
+              className="emotion-36"
+              href="https://developer.newrelic.com/instant-observability"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Instant Observability
+            </a>
+          </li>
         </ul>
       </nav>
       <ul
-        className="emotion-57"
+        className="emotion-59"
       >
         <li
-          className="emotion-48"
+          className="emotion-50"
         >
           <a
-            className="emotion-43"
+            className="emotion-45"
             href="?q="
-          >
-            <svg
-              className="emotion-42"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="11"
-                cy="11"
-                r="8"
-              />
-              <line
-                x1="21"
-                x2="16.65"
-                y1="21"
-                y2="16.65"
-              />
-            </svg>
-          </a>
-          <div
-            className="emotion-47"
           >
             <svg
               className="emotion-44"
@@ -1094,8 +1093,29 @@ exports[`HomePage Renders correctly 1`] = `
                 y2="16.65"
               />
             </svg>
+          </a>
+          <div
+            className="emotion-49"
+          >
+            <svg
+              className="emotion-46"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
+              />
+              <line
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
+              />
+            </svg>
             <input
-              className="emotion-45"
+              className="emotion-47"
               onBlur={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
@@ -1103,7 +1123,7 @@ exports[`HomePage Renders correctly 1`] = `
               type="text"
             />
             <span
-              className="emotion-46"
+              className="emotion-48"
             >
               /
             </span>
@@ -1111,7 +1131,7 @@ exports[`HomePage Renders correctly 1`] = `
         </li>
         <li>
           <svg
-            className="emotion-49"
+            className="emotion-51"
             onClick={[Function]}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
@@ -1122,10 +1142,10 @@ exports[`HomePage Renders correctly 1`] = `
           </svg>
         </li>
         <li
-          className="emotion-54"
+          className="emotion-56"
         >
           <a
-            className="emotion-52 emotion-26"
+            className="emotion-54 emotion-26"
             href="https://one.newrelic.com"
             onClick={[Function]}
             rel="noopener"
@@ -1134,12 +1154,12 @@ exports[`HomePage Renders correctly 1`] = `
             variant="link"
           >
             <span
-              className="emotion-50"
+              className="emotion-52"
             >
               Log in
             </span>
             <svg
-              className="emotion-51"
+              className="emotion-53"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1159,12 +1179,12 @@ exports[`HomePage Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="emotion-56"
+          className="emotion-58"
         >
           <div
             aria-busy={true}
             aria-label="Loading"
-            className="emotion-55"
+            className="emotion-57"
           />
         </li>
       </ul>
@@ -1175,11 +1195,11 @@ exports[`HomePage Renders correctly 1`] = `
         "
   >
     <a
-      className="emotion-81"
+      className="emotion-83"
       href="/"
     >
       <svg
-        className="emotion-80"
+        className="emotion-82"
         viewBox="0 0 79 15"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1300,12 +1320,12 @@ exports[`HomePage Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-85"
+    className="emotion-87"
   >
     <div>
       <div>
         <h2
-          className="emotion-82"
+          className="emotion-84"
           data-testid="homepageHeroHeading"
         >
           Open standards.
@@ -1418,7 +1438,7 @@ exports[`HomePage Renders correctly 1`] = `
         onMouseOver={[Function]}
       >
         <a
-          className="emotion-83 emotion-26"
+          className="emotion-85 emotion-26"
           href="/instrumentation"
         >
           <span>
@@ -1457,17 +1477,17 @@ exports[`HomePage Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-112"
+    className="emotion-114"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-107"
+      className="emotion-109"
     >
       <a
         href="/"
       >
         <svg
-          className="emotion-106"
+          className="emotion-108"
           viewBox="0 0 79 15"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -1520,18 +1540,18 @@ exports[`HomePage Renders correctly 1`] = `
       <div />
     </div>
     <div
-      className="emotion-111"
+      className="emotion-113"
     >
       <div
-        className="emotion-110"
+        className="emotion-112"
       >
         <div
-          className="emotion-108"
+          className="emotion-110"
         >
           Copyright © 2021 New Relic Inc.
         </div>
         <div
-          className="emotion-109"
+          className="emotion-111"
         >
           <a
             href="https://newrelic.com/about/careers"
