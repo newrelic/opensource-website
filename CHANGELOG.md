@@ -1,3 +1,11 @@
+# [1.17.0](https://github.com/newrelic/opensource-website/compare/v1.16.0...v1.17.0) (2021-09-29)
+
+
+### Features
+
+* bump theme ([3318319](https://github.com/newrelic/opensource-website/commit/331831935cfbbb50c1f61de2f44346f85a161093))
+* update snapshots ([be4aad7](https://github.com/newrelic/opensource-website/commit/be4aad762ffc3f1c72699d1716385cc2ae02c868))
+
 # [1.16.0](https://github.com/newrelic/opensource-website/compare/v1.15.4...v1.16.0) (2021-09-29)
 
 
