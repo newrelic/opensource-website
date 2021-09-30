@@ -1,5 +1,6 @@
 // https://www.gatsbyjs.org/docs/actions/#createPage
 const path = require(`path`);
+const externalRedirects = require('../src/data/external-redirects.json');
 
 const getProjectComponent = (projectType) => {
   if (projectType === 'external') {
@@ -51,6 +52,21 @@ const createProjectPages = async ({ graphql, actions }) => {
   });
 };
 
+const createExternalRedirects = async ({ actions }) => {
+  const { createRedirect } = actions;
+  externalRedirects.forEach(({ toUrl, fromPaths }) => {
+    fromPaths.forEach((path) => {
+      createRedirect({
+        fromPath: path,
+        toPath: toUrl,
+        isPermanent: true,
+        redirectInBrowser: true,
+      });
+    });
+  });
+};
+
 module.exports = async (params) => {
   await createProjectPages(params);
+  await createExternalRedirects(params);
 };
