@@ -15,7 +15,7 @@ const getProjectComponent = (projectType) => {
 };
 
 const createProjectPages = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
   const result = await graphql(`
     query AllProjects {
       allProjects {
@@ -25,6 +25,7 @@ const createProjectPages = async ({ graphql, actions }) => {
             name
             slug
             fullName
+            redirects
             permalink
             projectType
           }
@@ -34,9 +35,33 @@ const createProjectPages = async ({ graphql, actions }) => {
   `);
   const pages = result.data.allProjects.edges;
 
+  const appendTrailingSlash = (pathname) =>
+    pathname.endsWith('/') ? pathname : `${pathname}/`;
+
   pages.forEach(({ node }) => {
     const component = getProjectComponent(node.projectType);
     const path = `/projects/${node.fullName}`;
+    if (node.redirects) {
+      node.redirects.map((redirect) => {
+        // Create redirects for paths with and without a trailing slash
+        const pathWithTrailingSlash = appendTrailingSlash(redirect);
+        const pathWithoutTrailingSlash = pathWithTrailingSlash.slice(0, -1);
+
+        createRedirect({
+          fromPath: pathWithTrailingSlash,
+          toPath: path,
+          redirectInBrowser: true,
+          isPermanent: true,
+        });
+
+        createRedirect({
+          fromPath: pathWithoutTrailingSlash,
+          toPath: path,
+          redirectInBrowser: true,
+          isPermanent: true,
+        });
+      });
+    }
     createPage({
       path, // projects/{org/user}/{repository-foo-name}, ex. projects/newrelic/nr1-workload-geoops
       component,
