@@ -42,7 +42,7 @@ const createProjectPages = async ({ graphql, actions }) => {
     const component = getProjectComponent(node.projectType);
     const path = `/projects/${node.fullName}`;
     if (node.redirects) {
-      node.redirects.map((redirect) => {
+      node.redirects.forEach((redirect) => {
         // Create redirects for paths with and without a trailing slash
         const pathWithTrailingSlash = appendTrailingSlash(redirect);
         const pathWithoutTrailingSlash = pathWithTrailingSlash.slice(0, -1);
