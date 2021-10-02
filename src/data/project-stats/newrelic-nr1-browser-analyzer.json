@@ -3,47 +3,40 @@
   "issues": {
     "open": 3
   },
-  "releases": 15,
+  "releases": 16,
   "latestRelease": {
-    "name": "v1.3.7",
-    "date": "2021-02-02T20:39:01Z"
+    "name": "v1.4.0",
+    "date": "2021-10-01T20:18:31Z"
   },
-  "commits": 190,
-  "lastSixMonthsCommitTotal": 8,
-  "contributors": 15,
+  "commits": 194,
+  "lastSixMonthsCommitTotal": 12,
+  "contributors": 17,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 32174276,
-      "login": "semantic-release-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/32174276?v=4",
-      "htmlUrl": "https://github.com/semantic-release-bot",
-      "contributions": 4
-    },
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 11
-    },
-    {
-      "id": 26434192,
-      "login": "Tirslo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/26434192?v=4",
-      "htmlUrl": "https://github.com/Tirslo",
+      "id": 70179303,
+      "login": "aswanson-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
+      "htmlUrl": "https://github.com/aswanson-nr",
       "contributions": 1
     },
     {
-      "id": 3023056,
-      "login": "timglaser",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3023056?v=4",
-      "htmlUrl": "https://github.com/timglaser",
-      "contributions": 2
+      "id": 17122543,
+      "login": "rudouglas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
+      "htmlUrl": "https://github.com/rudouglas",
+      "contributions": 1
+    },
+    {
+      "id": 55203603,
+      "login": "austin-schaefer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
+      "htmlUrl": "https://github.com/austin-schaefer",
+      "contributions": 3
     },
     {
       "id": 197140,
@@ -53,17 +46,24 @@
       "contributions": 20
     },
     {
+      "id": 3023056,
+      "login": "timglaser",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3023056?v=4",
+      "htmlUrl": "https://github.com/timglaser",
+      "contributions": 2
+    },
+    {
+      "id": 26434192,
+      "login": "Tirslo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26434192?v=4",
+      "htmlUrl": "https://github.com/Tirslo",
+      "contributions": 1
+    },
+    {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
-      "contributions": 3
-    },
-    {
-      "id": 55203603,
-      "login": "austin-schaefer",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
-      "htmlUrl": "https://github.com/austin-schaefer",
       "contributions": 3
     },
     {
@@ -81,6 +81,20 @@
       "contributions": 2
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 12
+    },
+    {
+      "id": 12318362,
+      "login": "lindsayculver",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12318362?v=4",
+      "htmlUrl": "https://github.com/lindsayculver",
+      "contributions": 1
+    },
+    {
       "id": 37779995,
       "login": "ryanv94",
       "avatarUrl": "https://avatars.githubusercontent.com/u/37779995?v=4",
@@ -95,11 +109,11 @@
       "contributions": 23
     },
     {
-      "id": 12318362,
-      "login": "lindsayculver",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12318362?v=4",
-      "htmlUrl": "https://github.com/lindsayculver",
-      "contributions": 1
+      "id": 32174276,
+      "login": "semantic-release-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32174276?v=4",
+      "htmlUrl": "https://github.com/semantic-release-bot",
+      "contributions": 4
     },
     {
       "id": 19733683,
