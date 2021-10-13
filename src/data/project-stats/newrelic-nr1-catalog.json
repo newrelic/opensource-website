@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nr1-catalog",
   "issues": {
-    "open": 9
+    "open": 10
   },
   "releases": 0,
   "latestRelease": null,
@@ -29,6 +29,23 @@
       },
       "number": 36,
       "createdBy": "Joel Worrall"
+    },
+    {
+      "id": "I_kwDODoEFEM49DbQB",
+      "title": "[3rd Party Apps] Upgrade all app repos to `Node 14`",
+      "url": "https://github.com/newrelic/nr1-catalog/issues/297",
+      "createdAt": "2021-10-12T20:18:22Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jpvajda",
+        "id": "MDQ6VXNlcjEzOTUxNTg=",
+        "email": "",
+        "name": "John P Vajda"
+      },
+      "number": 297,
+      "createdBy": "John P Vajda"
     }
   ],
   "cachedContributors": [

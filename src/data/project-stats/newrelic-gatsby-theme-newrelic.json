@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/gatsby-theme-newrelic",
   "issues": {
-    "open": 15
+    "open": 18
   },
   "releases": 141,
   "latestRelease": {
@@ -9,7 +9,7 @@
     "date": null
   },
   "commits": 1961,
-  "lastSixMonthsCommitTotal": 276,
+  "lastSixMonthsCommitTotal": 274,
   "contributors": 16,
   "pullRequests": {
     "open": 0
@@ -49,6 +49,23 @@
       },
       "number": 426,
       "createdBy": "alexronquillo"
+    },
+    {
+      "id": "I_kwDOEJCuWM49DaP8",
+      "title": "[Docs / Dev / OSS] external links should be highlighted with the external link icon",
+      "url": "https://github.com/newrelic/gatsby-theme-newrelic/issues/497",
+      "createdAt": "2021-10-12T20:16:07Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "jpvajda",
+        "id": "MDQ6VXNlcjEzOTUxNTg=",
+        "email": "",
+        "name": "John P Vajda"
+      },
+      "number": 497,
+      "createdBy": "John P Vajda"
     }
   ],
   "cachedContributors": [
