@@ -1,24 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import SimpleProjectModule from './SimpleProjectModule';
+import SimpleSponsorModule from './SimpleSponsorModule';
 
 import * as styles from './HomePageInternalProjects.module.scss';
 
-const HomePageInternalProjects = ({ data }) => {
+const GithubSponsors = ({ data }) => {
   const projects = data;
 
   return (
     <div className={styles.featuredInternalProjects}>
       {projects.map((project) => {
-        const link = project.permalink.replace(
+        const link = project.url.replace(
           'https://opensource.newrelic.com',
           ''
         );
         return (
-          <SimpleProjectModule
-            data={project}
-            key={project.slug}
-            projectLink={link}
+          <SimpleSponsorModule
+             data={project}
+             key={project.name}
+             projectLink={link}
           />
         );
       })}
@@ -29,8 +29,8 @@ const HomePageInternalProjects = ({ data }) => {
 
 
 
-HomePageInternalProjects.propTypes = {
+GithubSponsors.propTypes = {
   data: PropTypes.array,
 };
 
-export default HomePageInternalProjects;
+export default GithubSponsors;

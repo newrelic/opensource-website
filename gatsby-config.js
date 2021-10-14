@@ -188,5 +188,41 @@ module.exports = {
         allPageHeaders: ['Referrer-Policy: no-referrer-when-downgrade'],
       },
     },
+    // Github API for sponsorship section on homepage
+    {
+      resolve: `gatsby-source-github-api`,
+      options: {
+        typeName: "GitHub",
+        fieldName: "github",
+        url: "https://api.github.com/graphql",
+        // token: required by the GitHub API
+        token: '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',
+        // GraphQLquery: defaults to a search query
+        graphQLQuery: `
+        query{
+          organization(login: "newrelic") {
+            sponsoring(last: 100, orderBy: {field: LOGIN, direction: ASC}) {
+              nodes {
+                ... on User {
+                  name
+                  avatarUrl
+                  login
+                  url
+                  bio
+                }
+                ... on Organization {
+                  name
+                  avatarUrl
+                  login
+                  url
+                  description
+                }
+              }
+              totalCount
+            }
+          }
+        }`
+      }
+    }
   ],
 };
