@@ -1,28 +1,46 @@
 {
   "projectFullName": "newrelic/kafka-connect-newrelic",
   "issues": {
-    "open": 3
+    "open": 4
   },
-  "releases": 3,
+  "releases": 4,
   "latestRelease": {
-    "name": "v2.1.0",
-    "date": "2021-10-12T00:31:01Z"
+    "name": "v2.2.0",
+    "date": "2021-10-14T12:40:13Z"
   },
-  "commits": 111,
-  "lastSixMonthsCommitTotal": 68,
+  "commits": 113,
+  "lastSixMonthsCommitTotal": 69,
   "contributors": 9,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOECJbOM49LH9P",
+      "title": "Check for metric type names",
+      "url": "https://github.com/newrelic/kafka-connect-newrelic/issues/37",
+      "createdAt": "2021-10-14T12:16:29Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "ericmittelhammer",
+        "id": "MDQ6VXNlcjEwODIxMTI=",
+        "email": "",
+        "name": "Eric Mittelhammer"
+      },
+      "number": 37,
+      "createdBy": "Eric Mittelhammer"
+    }
+  ],
   "cachedContributors": [
     {
-      "id": 156743,
-      "login": "defconx",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/156743?v=4",
-      "htmlUrl": "https://github.com/defconx",
-      "contributions": 4
+      "id": 8333200,
+      "login": "JimHagan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8333200?v=4",
+      "htmlUrl": "https://github.com/JimHagan",
+      "contributions": 2
     },
     {
       "id": 30939429,
@@ -32,11 +50,11 @@
       "contributions": 1
     },
     {
-      "id": 8333200,
-      "login": "JimHagan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8333200?v=4",
-      "htmlUrl": "https://github.com/JimHagan",
-      "contributions": 2
+      "id": 22718932,
+      "login": "benzhang94",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22718932?v=4",
+      "htmlUrl": "https://github.com/benzhang94",
+      "contributions": 1
     },
     {
       "id": 43244625,
@@ -46,11 +64,11 @@
       "contributions": 3
     },
     {
-      "id": 22718932,
-      "login": "benzhang94",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/22718932?v=4",
-      "htmlUrl": "https://github.com/benzhang94",
-      "contributions": 1
+      "id": 156743,
+      "login": "defconx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/156743?v=4",
+      "htmlUrl": "https://github.com/defconx",
+      "contributions": 4
     },
     {
       "id": 627905,
@@ -71,7 +89,7 @@
       "login": "ericmittelhammer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1082112?v=4",
       "htmlUrl": "https://github.com/ericmittelhammer",
-      "contributions": 37
+      "contributions": 38
     },
     {
       "id": 18580583,
