@@ -334,8 +334,7 @@ export default {
           version: null,
           website: {
             title: 'New Relic Java Agent API Javadocs',
-            url:
-              'http://newrelic.github.io/java-agent-api/javadoc/index.html?com/newrelic/api/agent/package-summary.htmli',
+            url: 'http://newrelic.github.io/java-agent-api/javadoc/index.html?com/newrelic/api/agent/package-summary.htmli',
           },
         },
       },

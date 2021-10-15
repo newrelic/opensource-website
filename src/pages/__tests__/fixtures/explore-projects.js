@@ -110,8 +110,7 @@ export default {
           version: null,
           website: {
             title: 'Absinthe Schema Stitching Example',
-            url:
-              'https://github.com/newrelic/absinthe-schema-stitching-example',
+            url: 'https://github.com/newrelic/absinthe-schema-stitching-example',
           },
         },
       },
@@ -160,8 +159,7 @@ export default {
           version: null,
           website: {
             title: 'Code Pipeline Webinar Demo App',
-            url:
-              'https://github.com/newrelic/best-practices-for-measuring-your-code-pipeline',
+            url: 'https://github.com/newrelic/best-practices-for-measuring-your-code-pipeline',
           },
         },
       },
