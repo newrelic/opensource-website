@@ -1,39 +1,25 @@
 {
-  "projectFullName": "newrelic-experimental/nr1-mountpointutilization",
+  "projectFullName": "newrelic/one-core-table-creator",
   "issues": {
     "open": 0
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 32,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 3,
+  "commits": 22,
+  "lastSixMonthsCommitTotal": 22,
+  "contributors": 1,
   "pullRequests": {
-    "open": 9
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
-      "contributions": 1
-    },
-    {
       "id": 812989,
       "login": "danielgolden",
       "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
       "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 1
-    },
-    {
-      "id": 47863580,
-      "login": "cah-zack-mutchler",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/47863580?v=4",
-      "htmlUrl": "https://github.com/cah-zack-mutchler",
-      "contributions": 18
+      "contributions": 21
     }
   ],
   "languages": [
@@ -41,6 +27,16 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyODc=",
+      "name": "TypeScript",
+      "color": "#2b7489"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MTc=",
+      "name": "HTML",
+      "color": "#e34c26"
     },
     {
       "id": "MDg6TGFuZ3VhZ2UzMDg=",
