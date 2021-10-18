@@ -196,7 +196,7 @@ module.exports = {
         fieldName: "github",
         url: "https://api.github.com/graphql",
         // token: required by the GitHub API
-        token: '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',
+        token: process.env.GITHUB_API_TOKEN,
         // GraphQLquery: defaults to a search query
         graphQLQuery: `
         query{
