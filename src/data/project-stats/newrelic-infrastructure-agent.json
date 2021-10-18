@@ -1,12 +1,12 @@
 {
   "projectFullName": "newrelic/infrastructure-agent",
   "issues": {
-    "open": 69
+    "open": 68
   },
-  "releases": 43,
+  "releases": 44,
   "latestRelease": {
-    "name": "1.20.9",
-    "date": "2021-10-15T11:16:05Z"
+    "name": "1.20.10",
+    "date": "2021-09-22T16:18:08Z"
   },
   "commits": 356,
   "lastSixMonthsCommitTotal": 153,
@@ -18,18 +18,25 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 976883,
-      "login": "jlegoff",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
-      "htmlUrl": "https://github.com/jlegoff",
+      "id": 7537725,
+      "login": "tejunior",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7537725?v=4",
+      "htmlUrl": "https://github.com/tejunior",
       "contributions": 1
     },
     {
-      "id": 3380451,
-      "login": "rubenruizdegauna",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
-      "htmlUrl": "https://github.com/rubenruizdegauna",
-      "contributions": 38
+      "id": 13966363,
+      "login": "carlossscastro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13966363?v=4",
+      "htmlUrl": "https://github.com/carlossscastro",
+      "contributions": 2
+    },
+    {
+      "id": 8731013,
+      "login": "prototypicalpro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
+      "htmlUrl": "https://github.com/prototypicalpro",
+      "contributions": 1
     },
     {
       "id": 20245790,
@@ -39,17 +46,10 @@
       "contributions": 1
     },
     {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
-      "contributions": 1
-    },
-    {
-      "id": 5297542,
-      "login": "alejandrodnm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
-      "htmlUrl": "https://github.com/alejandrodnm",
+      "id": 46498444,
+      "login": "lchapman4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46498444?v=4",
+      "htmlUrl": "https://github.com/lchapman4",
       "contributions": 1
     },
     {
@@ -60,10 +60,10 @@
       "contributions": 139
     },
     {
-      "id": 46498444,
-      "login": "lchapman4",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/46498444?v=4",
-      "htmlUrl": "https://github.com/lchapman4",
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
     },
     {
@@ -81,18 +81,18 @@
       "contributions": 2
     },
     {
-      "id": 15685307,
-      "login": "cristianciutea",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
-      "htmlUrl": "https://github.com/cristianciutea",
-      "contributions": 24
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 8
     },
     {
-      "id": 4612272,
-      "login": "noly",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
-      "htmlUrl": "https://github.com/noly",
-      "contributions": 23
+      "id": 976883,
+      "login": "jlegoff",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
+      "htmlUrl": "https://github.com/jlegoff",
+      "contributions": 1
     },
     {
       "id": 3638421,
@@ -102,11 +102,11 @@
       "contributions": 2
     },
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 5
+      "id": 5297542,
+      "login": "alejandrodnm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
+      "htmlUrl": "https://github.com/alejandrodnm",
+      "contributions": 1
     },
     {
       "id": 3969485,
@@ -130,11 +130,11 @@
       "contributions": 1
     },
     {
-      "id": 7537725,
-      "login": "tejunior",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7537725?v=4",
-      "htmlUrl": "https://github.com/tejunior",
-      "contributions": 1
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 5
     },
     {
       "id": 22507783,
@@ -158,18 +158,18 @@
       "contributions": 3
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 8
+      "id": 4612272,
+      "login": "noly",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
+      "htmlUrl": "https://github.com/noly",
+      "contributions": 23
     },
     {
-      "id": 8731013,
-      "login": "prototypicalpro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
-      "htmlUrl": "https://github.com/prototypicalpro",
-      "contributions": 1
+      "id": 15685307,
+      "login": "cristianciutea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
+      "htmlUrl": "https://github.com/cristianciutea",
+      "contributions": 25
     },
     {
       "id": 6243832,
@@ -179,11 +179,11 @@
       "contributions": 4
     },
     {
-      "id": 13966363,
-      "login": "carlossscastro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13966363?v=4",
-      "htmlUrl": "https://github.com/carlossscastro",
-      "contributions": 2
+      "id": 3380451,
+      "login": "rubenruizdegauna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
+      "htmlUrl": "https://github.com/rubenruizdegauna",
+      "contributions": 38
     },
     {
       "id": 717815,
