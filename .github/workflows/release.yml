@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 16
 
       - name: Download Cached Deps
         id: cache-node-modules
@@ -123,10 +123,10 @@ jobs:
         env:
           # Use nr-opensource-bot for authoring commits done by
           # semantic-release (rather than using @semantic-release-bot)
-          GIT_AUTHOR_NAME: "nr-opensource-bot"
-          GIT_AUTHOR_EMAIL: "opensource+bot@newrelic.com"
-          GIT_COMMITTER_NAME: "nr-opensource-bot"
-          GIT_COMMITTER_EMAIL: "opensource+bot@newrelic.com"
+          GIT_AUTHOR_NAME: 'nr-opensource-bot'
+          GIT_AUTHOR_EMAIL: 'opensource+bot@newrelic.com'
+          GIT_COMMITTER_NAME: 'nr-opensource-bot'
+          GIT_COMMITTER_EMAIL: 'opensource+bot@newrelic.com'
           GITHUB_TOKEN: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
         run: npx semantic-release@^18.0.0
 
@@ -154,5 +154,3 @@ jobs:
               }
             })
             console.log("Result:", result)
-
-
