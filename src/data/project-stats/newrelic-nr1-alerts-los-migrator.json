@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nr1-alerts-los-migrator",
   "issues": {
-    "open": 3
+    "open": 4
   },
   "releases": 12,
   "latestRelease": {
     "name": "v1.2.8",
     "date": "2021-03-29T14:23:41Z"
   },
-  "commits": 56,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 7,
+  "commits": 58,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 8,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 5770861,
+      "login": "MichelLosier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5770861?v=4",
+      "htmlUrl": "https://github.com/MichelLosier",
+      "contributions": 1
+    },
     {
       "id": 1395158,
       "login": "jpvajda",
@@ -32,11 +39,11 @@
       "contributions": 13
     },
     {
-      "id": 1786630,
-      "login": "aso1124",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
-      "htmlUrl": "https://github.com/aso1124",
-      "contributions": 17
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 4
     },
     {
       "id": 70179303,
@@ -60,11 +67,11 @@
       "contributions": 2
     },
     {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 4
+      "id": 1786630,
+      "login": "aso1124",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
+      "htmlUrl": "https://github.com/aso1124",
+      "contributions": 17
     }
   ],
   "languages": [
