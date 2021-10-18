@@ -3,20 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 9,
+  "releases": 10,
   "latestRelease": {
-    "name": "v1.4.0",
-    "date": "2021-10-04T22:37:18Z"
+    "name": "v1.5.0",
+    "date": "2021-10-18T15:52:51Z"
   },
-  "commits": 147,
-  "lastSixMonthsCommitTotal": 6,
-  "contributors": 16,
+  "commits": 150,
+  "lastSixMonthsCommitTotal": 9,
+  "contributors": 17,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 5770861,
+      "login": "MichelLosier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5770861?v=4",
+      "htmlUrl": "https://github.com/MichelLosier",
+      "contributions": 1
+    },
     {
       "id": 1395158,
       "login": "jpvajda",
@@ -29,14 +36,21 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 10
+      "contributions": 11
     },
     {
-      "id": 8731013,
-      "login": "prototypicalpro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
-      "htmlUrl": "https://github.com/prototypicalpro",
-      "contributions": 1
+      "id": 8429820,
+      "login": "courtneyphillips",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8429820?v=4",
+      "htmlUrl": "https://github.com/courtneyphillips",
+      "contributions": 40
+    },
+    {
+      "id": 17122543,
+      "login": "rudouglas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
+      "htmlUrl": "https://github.com/rudouglas",
+      "contributions": 2
     },
     {
       "id": 6722433,
@@ -46,18 +60,11 @@
       "contributions": 4
     },
     {
-      "id": 6836095,
-      "login": "kaojiri",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6836095?v=4",
-      "htmlUrl": "https://github.com/kaojiri",
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
-    },
-    {
-      "id": 17122543,
-      "login": "rudouglas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
-      "htmlUrl": "https://github.com/rudouglas",
-      "contributions": 2
     },
     {
       "id": 66958286,
@@ -102,18 +109,18 @@
       "contributions": 2
     },
     {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
+      "id": 8731013,
+      "login": "prototypicalpro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
+      "htmlUrl": "https://github.com/prototypicalpro",
       "contributions": 1
     },
     {
-      "id": 8429820,
-      "login": "courtneyphillips",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8429820?v=4",
-      "htmlUrl": "https://github.com/courtneyphillips",
-      "contributions": 40
+      "id": 6836095,
+      "login": "kaojiri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6836095?v=4",
+      "htmlUrl": "https://github.com/kaojiri",
+      "contributions": 1
     },
     {
       "id": 19733683,
