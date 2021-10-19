@@ -1,39 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-winston-logenricher-node",
   "issues": {
-    "open": 2
+    "open": 1
   },
   "releases": 4,
   "latestRelease": {
     "name": "v2.0.0",
     "date": null
   },
-  "commits": 125,
-  "lastSixMonthsCommitTotal": 28,
-  "contributors": 8,
+  "commits": 140,
+  "lastSixMonthsCommitTotal": 43,
+  "contributors": 9,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2NzIxNzA0MTM=",
-      "title": "Add TypeScript typings",
-      "url": "https://github.com/newrelic/newrelic-winston-logenricher-node/issues/30",
-      "createdAt": "2020-08-03T15:47:09Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "felix-lunii",
-        "id": "MDQ6VXNlcjQ5Njg1NzAw",
-        "email": "",
-        "name": null
-      },
-      "number": 30,
-      "createdBy": "felix-lunii"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 32520944,
@@ -41,13 +23,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/32520944?v=4",
       "htmlUrl": "https://github.com/astormnewrelic",
       "contributions": 1
-    },
-    {
-      "id": 7992384,
-      "login": "paperclypse",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7992384?v=4",
-      "htmlUrl": "https://github.com/paperclypse",
-      "contributions": 2
     },
     {
       "id": 398399,
@@ -64,6 +39,20 @@
       "contributions": 10
     },
     {
+      "id": 883103,
+      "login": "garbados",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/883103?v=4",
+      "htmlUrl": "https://github.com/garbados",
+      "contributions": 9
+    },
+    {
+      "id": 7992384,
+      "login": "paperclypse",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7992384?v=4",
+      "htmlUrl": "https://github.com/paperclypse",
+      "contributions": 2
+    },
+    {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
@@ -75,7 +64,7 @@
       "login": "michaelgoin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 30
+      "contributions": 34
     },
     {
       "id": 1874937,
@@ -102,6 +91,11 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyODc=",
+      "name": "TypeScript",
+      "color": "#2b7489"
     }
   ],
   "screenshots": [],
