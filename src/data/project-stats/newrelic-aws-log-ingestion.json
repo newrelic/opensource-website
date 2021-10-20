@@ -3,16 +3,16 @@
   "issues": {
     "open": 11
   },
-  "releases": 5,
+  "releases": 6,
   "latestRelease": {
-    "name": "v2.5.0",
-    "date": "2021-09-30T19:17:13Z"
+    "name": "v2.6.0",
+    "date": "2021-10-20T15:13:39Z"
   },
-  "commits": 54,
-  "lastSixMonthsCommitTotal": 4,
-  "contributors": 15,
+  "commits": 59,
+  "lastSixMonthsCommitTotal": 9,
+  "contributors": 16,
   "pullRequests": {
-    "open": 8
+    "open": 6
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -32,38 +32,10 @@
       "contributions": 4
     },
     {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
-      "contributions": 1
-    },
-    {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 3
-    },
-    {
       "id": 66844,
       "login": "morganchristiansson",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66844?v=4",
       "htmlUrl": "https://github.com/morganchristiansson",
-      "contributions": 1
-    },
-    {
-      "id": 17498,
-      "login": "kolanos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
-      "htmlUrl": "https://github.com/kolanos",
-      "contributions": 4
-    },
-    {
-      "id": 41185214,
-      "login": "jotanavarro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/41185214?v=4",
-      "htmlUrl": "https://github.com/jotanavarro",
       "contributions": 1
     },
     {
@@ -74,10 +46,38 @@
       "contributions": 1
     },
     {
+      "id": 6026537,
+      "login": "WilliamABradley",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6026537?v=4",
+      "htmlUrl": "https://github.com/WilliamABradley",
+      "contributions": 1
+    },
+    {
+      "id": 17498,
+      "login": "kolanos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17498?v=4",
+      "htmlUrl": "https://github.com/kolanos",
+      "contributions": 4
+    },
+    {
       "id": 11327,
       "login": "mrickard",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
       "htmlUrl": "https://github.com/mrickard",
+      "contributions": 2
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 3
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
     },
     {
@@ -85,6 +85,13 @@
       "login": "aitorciki",
       "avatarUrl": "https://avatars.githubusercontent.com/u/428243?v=4",
       "htmlUrl": "https://github.com/aitorciki",
+      "contributions": 1
+    },
+    {
+      "id": 50879555,
+      "login": "Ephesoft-Stitus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50879555?v=4",
+      "htmlUrl": "https://github.com/Ephesoft-Stitus",
       "contributions": 1
     },
     {
@@ -102,10 +109,10 @@
       "contributions": 1
     },
     {
-      "id": 50879555,
-      "login": "Ephesoft-Stitus",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/50879555?v=4",
-      "htmlUrl": "https://github.com/Ephesoft-Stitus",
+      "id": 41185214,
+      "login": "jotanavarro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41185214?v=4",
+      "htmlUrl": "https://github.com/jotanavarro",
       "contributions": 1
     },
     {
@@ -133,6 +140,16 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
+      "name": "HCL",
+      "color": null
     }
   ],
   "screenshots": [],
