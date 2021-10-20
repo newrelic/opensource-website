@@ -2,16 +2,7 @@
 
 exports[`Header renders correctly 1`] = `
 Array [
-  @keyframes animation-0 {
-  to {
-    -webkit-transform: rotate(1turn);
-    -moz-transform: rotate(1turn);
-    -ms-transform: rotate(1turn);
-    transform: rotate(1turn);
-  }
-}
-
-.emotion-61 {
+  .emotion-62 {
   background-color: var(--color-neutrals-100);
   position: -webkit-sticky;
   position: sticky;
@@ -20,20 +11,20 @@ Array [
   z-index: 700;
 }
 
-.dark-mode .emotion-61 {
+.dark-mode .emotion-62 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-61 ul {
+.emotion-62 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-61 a {
+.emotion-62 a {
   border-bottom: none;
 }
 
-.emotion-60 {
+.emotion-61 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -323,7 +314,7 @@ Array [
   color: var(--color-dark-700);
 }
 
-.emotion-59 {
+.emotion-60 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -341,18 +332,18 @@ Array [
   flex: 1;
 }
 
-.emotion-59 >li {
+.emotion-60 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-59 >li:not(:first-of-type) {
+.emotion-60 >li:not(:first-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-59 {
+  .emotion-60 {
     -webkit-flex: unset;
     -ms-flex: unset;
     flex: unset;
@@ -585,7 +576,7 @@ Array [
   }
 }
 
-.emotion-58 {
+.emotion-59 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -593,35 +584,49 @@ Array [
 }
 
 .emotion-57 {
-  --spinner-size: 1rem;
-  display: inline-block;
-  position: relative;
-  height: 100%;
-  width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--color-brand-600);
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
 }
 
-.emotion-57:after {
-  -webkit-animation: animation-0 0.5s linear infinite;
-  animation: animation-0 0.5s linear infinite;
-  border-radius: 50%;
-  border-right: 1px solid transparent;
-  border-top: 1px solid;
-  content: '';
-  left: calc(50% + 1px);
-  margin-left: calc(var(--spinner-size) / 2 * -1);
-  margin-top: calc(var(--spinner-size) / 2 * -1);
-  position: absolute;
-  top: calc(50% + 1px);
-  width: var(--spinner-size);
-  height: var(--spinner-size);
+.emotion-57:hover {
+  color: var(--color-white);
+  background-color: var(--color-brand-500);
 }
 
 <div
-    className=" emotion-61"
+    className=" emotion-62"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-60"
+      className="emotion-61"
     >
       <nav
         className="emotion-43"
@@ -842,7 +847,7 @@ Array [
         </ul>
       </nav>
       <ul
-        className="emotion-59"
+        className="emotion-60"
       >
         <li
           className="emotion-50"
@@ -954,13 +959,21 @@ Array [
           </a>
         </li>
         <li
-          className="emotion-58"
+          className="emotion-59"
         >
-          <div
-            aria-busy={true}
-            aria-label="Loading"
-            className="emotion-57"
-          />
+          <a
+            className="emotion-57 emotion-26"
+            href="https://newrelic.com/signup"
+            onClick={[Function]}
+            rel="noopener"
+            size="extraSmall"
+            target="_blank"
+            variant="primary"
+          >
+            <span>
+              Free account
+            </span>
+          </a>
         </li>
       </ul>
     </div>
