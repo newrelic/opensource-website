@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/nr1-catalog",
   "issues": {
-    "open": 38
+    "open": 39
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 736,
-  "lastSixMonthsCommitTotal": 205,
+  "commits": 748,
+  "lastSixMonthsCommitTotal": 217,
   "contributors": 20,
   "pullRequests": {
-    "open": 4
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -46,6 +46,23 @@
       },
       "number": 297,
       "createdBy": "John P Vajda"
+    },
+    {
+      "id": "I_kwDODoEFEM49mU8S",
+      "title": "[3rd-Party Apps] Some PR's are failing from the catalog manager",
+      "url": "https://github.com/newrelic/nr1-catalog/issues/367",
+      "createdAt": "2021-10-22T11:03:55Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "rudouglas",
+        "id": "MDQ6VXNlcjE3MTIyNTQz",
+        "email": "",
+        "name": "Ruairi Douglas"
+      },
+      "number": 367,
+      "createdBy": "Ruairi Douglas"
     }
   ],
   "cachedContributors": [
@@ -57,11 +74,11 @@
       "contributions": 1
     },
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 124
+      "id": 1395158,
+      "login": "jpvajda",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1395158?v=4",
+      "htmlUrl": "https://github.com/jpvajda",
+      "contributions": 2
     },
     {
       "id": 58010132,
@@ -71,11 +88,11 @@
       "contributions": 4
     },
     {
-      "id": 1395158,
-      "login": "jpvajda",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1395158?v=4",
-      "htmlUrl": "https://github.com/jpvajda",
-      "contributions": 2
+      "id": 13562672,
+      "login": "jaesius",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
+      "htmlUrl": "https://github.com/jaesius",
+      "contributions": 7
     },
     {
       "id": 55132258,
@@ -85,6 +102,13 @@
       "contributions": 1
     },
     {
+      "id": 38332422,
+      "login": "caylahamann",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38332422?v=4",
+      "htmlUrl": "https://github.com/caylahamann",
+      "contributions": 7
+    },
+    {
       "id": 929261,
       "login": "tangollama",
       "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
@@ -92,18 +116,11 @@
       "contributions": 15
     },
     {
-      "id": 197140,
-      "login": "devfreddy",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
-      "htmlUrl": "https://github.com/devfreddy",
-      "contributions": 1
-    },
-    {
-      "id": 1786630,
-      "login": "aso1124",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
-      "htmlUrl": "https://github.com/aso1124",
-      "contributions": 1
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 128
     },
     {
       "id": 184273,
@@ -113,18 +130,11 @@
       "contributions": 1
     },
     {
-      "id": 13562672,
-      "login": "jaesius",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
-      "htmlUrl": "https://github.com/jaesius",
-      "contributions": 7
-    },
-    {
-      "id": 38332422,
-      "login": "caylahamann",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/38332422?v=4",
-      "htmlUrl": "https://github.com/caylahamann",
-      "contributions": 7
+      "id": 197140,
+      "login": "devfreddy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
+      "htmlUrl": "https://github.com/devfreddy",
+      "contributions": 1
     },
     {
       "id": 23487424,
@@ -132,6 +142,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/23487424?v=4",
       "htmlUrl": "https://github.com/jospdeleon",
       "contributions": 8
+    },
+    {
+      "id": 1786630,
+      "login": "aso1124",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
+      "htmlUrl": "https://github.com/aso1124",
+      "contributions": 1
     },
     {
       "id": 6722433,
