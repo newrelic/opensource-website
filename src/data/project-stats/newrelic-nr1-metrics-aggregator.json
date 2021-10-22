@@ -3,16 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 18,
+  "releases": 19,
   "latestRelease": {
-    "name": "v0.11.1",
-    "date": "2021-10-21T16:16:07Z"
+    "name": "v0.11.2",
+    "date": "2021-10-21T20:26:59Z"
   },
-  "commits": 191,
-  "lastSixMonthsCommitTotal": 43,
+  "commits": 199,
+  "lastSixMonthsCommitTotal": 51,
   "contributors": 13,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,18 +25,18 @@
       "contributions": 1
     },
     {
-      "id": 61722762,
-      "login": "brammerl",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/61722762?v=4",
-      "htmlUrl": "https://github.com/brammerl",
-      "contributions": 2
-    },
-    {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 28
+      "contributions": 29
+    },
+    {
+      "id": 12127,
+      "login": "WardCunningham",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12127?v=4",
+      "htmlUrl": "https://github.com/WardCunningham",
+      "contributions": 1
     },
     {
       "id": 8731013,
@@ -74,31 +74,10 @@
       "contributions": 6
     },
     {
-      "id": 12127,
-      "login": "WardCunningham",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12127?v=4",
-      "htmlUrl": "https://github.com/WardCunningham",
-      "contributions": 1
-    },
-    {
       "id": 17122543,
       "login": "rudouglas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
       "htmlUrl": "https://github.com/rudouglas",
-      "contributions": 2
-    },
-    {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 9
-    },
-    {
-      "id": 13436647,
-      "login": "psimkins",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13436647?v=4",
-      "htmlUrl": "https://github.com/psimkins",
       "contributions": 2
     },
     {
@@ -107,6 +86,27 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
       "contributions": 7
+    },
+    {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 14
+    },
+    {
+      "id": 61722762,
+      "login": "brammerl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61722762?v=4",
+      "htmlUrl": "https://github.com/brammerl",
+      "contributions": 2
+    },
+    {
+      "id": 13436647,
+      "login": "psimkins",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13436647?v=4",
+      "htmlUrl": "https://github.com/psimkins",
+      "contributions": 2
     }
   ],
   "languages": [
