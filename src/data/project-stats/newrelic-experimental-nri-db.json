@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "v2.0.0",
-    "date": "2021-05-06T21:07:54Z"
+    "name": "v2.1.0",
+    "date": "2021-10-27T13:32:08Z"
   },
-  "commits": 3,
-  "lastSixMonthsCommitTotal": 1,
+  "commits": 8,
+  "lastSixMonthsCommitTotal": 6,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -22,7 +22,7 @@
       "login": "sdewitt-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/54076100?v=4",
       "htmlUrl": "https://github.com/sdewitt-newrelic",
-      "contributions": 2
+      "contributions": 5
     },
     {
       "id": 3536684,
@@ -37,6 +37,21 @@
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
       "color": "#b07219"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MzE=",
+      "name": "Smarty",
+      "color": "#f0c040"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
