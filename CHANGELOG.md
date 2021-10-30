@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/newrelic/opensource-website/compare/v1.17.0...v1.18.0) (2021-10-15)
+
+
+### Features
+
+* Upgrade to node 16 ([8ec2b9e](https://github.com/newrelic/opensource-website/commit/8ec2b9e18d338f3ff9f2b0dbb11853450c91e89c))
+
 # [1.17.0](https://github.com/newrelic/opensource-website/compare/v1.16.0...v1.17.0) (2021-09-29)
 
 

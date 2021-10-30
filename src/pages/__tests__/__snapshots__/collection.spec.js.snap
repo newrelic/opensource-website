@@ -1,16 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Data Collection Agents Page Renders correctly 1`] = `
-@keyframes animation-0 {
-  to {
-    -webkit-transform: rotate(1turn);
-    -moz-transform: rotate(1turn);
-    -ms-transform: rotate(1turn);
-    transform: rotate(1turn);
-  }
-}
-
-.emotion-112 {
+.emotion-113 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -23,7 +14,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-61 {
+.emotion-62 {
   background-color: var(--color-neutrals-100);
   position: -webkit-sticky;
   position: sticky;
@@ -32,20 +23,20 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   z-index: 700;
 }
 
-.dark-mode .emotion-61 {
+.dark-mode .emotion-62 {
   background-color: var(--color-dark-100);
 }
 
-.emotion-61 ul {
+.emotion-62 ul {
   line-height: 14px;
   font-size: 16px;
 }
 
-.emotion-61 a {
+.emotion-62 a {
   border-bottom: none;
 }
 
-.emotion-60 {
+.emotion-61 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -335,7 +326,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   color: var(--color-dark-700);
 }
 
-.emotion-59 {
+.emotion-60 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -353,18 +344,18 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-59 >li {
+.emotion-60 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
   color: var(--secondary-text-color);
 }
 
-.emotion-59 >li:not(:first-of-type) {
+.emotion-60 >li:not(:first-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-59 {
+  .emotion-60 {
     -webkit-flex: unset;
     -ms-flex: unset;
     flex: unset;
@@ -597,7 +588,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   }
 }
 
-.emotion-58 {
+.emotion-59 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -605,47 +596,61 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 .emotion-57 {
-  --spinner-size: 1rem;
-  display: inline-block;
-  position: relative;
-  height: 100%;
-  width: 100%;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--color-brand-600);
+  font-size: 0.625rem;
+  padding: 0.375rem 0.625rem;
+  border-radius: 0.125rem;
 }
 
-.emotion-57:after {
-  -webkit-animation: animation-0 0.5s linear infinite;
-  animation: animation-0 0.5s linear infinite;
-  border-radius: 50%;
-  border-right: 1px solid transparent;
-  border-top: 1px solid;
-  content: '';
-  left: calc(50% + 1px);
-  margin-left: calc(var(--spinner-size) / 2 * -1);
-  margin-top: calc(var(--spinner-size) / 2 * -1);
-  position: absolute;
-  top: calc(50% + 1px);
-  width: var(--spinner-size);
-  height: var(--spinner-size);
+.emotion-57:hover {
+  color: var(--color-white);
+  background-color: var(--color-brand-500);
 }
 
-.emotion-83 {
+.emotion-84 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-83 {
+  .emotion-84 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-82 {
+.emotion-83 {
   fill: none;
   width: 100%;
 }
 
-.emotion-84 {
+.emotion-85 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -659,28 +664,28 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   max-width: 1180px;
 }
 
-.emotion-84>hr {
+.emotion-85>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-111 {
+.emotion-112 {
   color: var(--secondary-text-color);
   background-color: var(--color-neutrals-050);
   z-index: 1;
 }
 
-.dark-mode .emotion-111 {
+.dark-mode .emotion-112 {
   background-color: var(--color-dark-050);
 }
 
-.emotion-111 a {
+.emotion-112 a {
   color: currentColor;
 }
 
-.emotion-106 {
+.emotion-107 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -699,7 +704,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 550px) {
-  .emotion-106 {
+  .emotion-107 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
@@ -710,27 +715,27 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   }
 }
 
-.emotion-105 {
+.emotion-106 {
   fill: none;
   width: 150px;
   display: block;
 }
 
 @media screen and (max-width: 550px) {
-  .emotion-105 {
+  .emotion-106 {
     margin-bottom: 1rem;
   }
 }
 
-.emotion-110 {
+.emotion-111 {
   background-color: rgba(0, 0, 0, 0.05);
 }
 
-.dark-mode .emotion-110 {
+.dark-mode .emotion-111 {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-.emotion-109 {
+.emotion-110 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -748,7 +753,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-109 {
+  .emotion-110 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -760,14 +765,14 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   }
 }
 
-.emotion-107 {
+.emotion-108 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-108 {
+.emotion-109 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -783,20 +788,20 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-108 a {
+.emotion-109 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
 <div
-  className="emotion-112"
+  className="emotion-113"
 >
   <div
-    className=" emotion-61"
+    className=" emotion-62"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-60"
+      className="emotion-61"
     >
       <nav
         className="emotion-43"
@@ -1017,7 +1022,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-59"
+        className="emotion-60"
       >
         <li
           className="emotion-50"
@@ -1129,13 +1134,21 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
           </a>
         </li>
         <li
-          className="emotion-58"
+          className="emotion-59"
         >
-          <div
-            aria-busy={true}
-            aria-label="Loading"
-            className="emotion-57"
-          />
+          <a
+            className="emotion-57 emotion-26"
+            href="https://newrelic.com/signup"
+            onClick={[Function]}
+            rel="noopener"
+            size="extraSmall"
+            target="_blank"
+            variant="primary"
+          >
+            <span>
+              Free account
+            </span>
+          </a>
         </li>
       </ul>
     </div>
@@ -1145,11 +1158,11 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
         "
   >
     <a
-      className="emotion-83"
+      className="emotion-84"
       href="/"
     >
       <svg
-        className="emotion-82"
+        className="emotion-83"
         viewBox="0 0 79 15"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1270,7 +1283,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-84"
+    className="emotion-85"
   >
     <div>
       <div
@@ -1307,17 +1320,18 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-111"
+    className="emotion-112"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-106"
+      className="emotion-107"
     >
       <a
         href="/"
+        onClick={[Function]}
       >
         <svg
-          className="emotion-105"
+          className="emotion-106"
           viewBox="0 0 79 15"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -1370,18 +1384,18 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
       <div />
     </div>
     <div
-      className="emotion-110"
+      className="emotion-111"
     >
       <div
-        className="emotion-109"
+        className="emotion-110"
       >
         <div
-          className="emotion-107"
+          className="emotion-108"
         >
           Copyright © 2021 New Relic Inc.
         </div>
         <div
-          className="emotion-108"
+          className="emotion-109"
         >
           <a
             href="https://newrelic.com/about/careers"
