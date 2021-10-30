@@ -3,16 +3,16 @@
   "issues": {
     "open": 7
   },
-  "releases": 7,
+  "releases": 8,
   "latestRelease": {
-    "name": "v.1.1.0",
-    "date": null
+    "name": "v1.1.1",
+    "date": "2021-10-29T20:28:08Z"
   },
-  "commits": 487,
-  "lastSixMonthsCommitTotal": 0,
+  "commits": 595,
+  "lastSixMonthsCommitTotal": 38,
   "contributors": 7,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -23,6 +23,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/197140?v=4",
       "htmlUrl": "https://github.com/devfreddy",
       "contributions": 35
+    },
+    {
+      "id": 812989,
+      "login": "danielgolden",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
+      "htmlUrl": "https://github.com/danielgolden",
+      "contributions": 38
     },
     {
       "id": 6722433,
@@ -50,21 +57,14 @@
       "login": "aso1124",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
       "htmlUrl": "https://github.com/aso1124",
-      "contributions": 260
-    },
-    {
-      "id": 812989,
-      "login": "danielgolden",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
-      "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 38
+      "contributions": 315
     },
     {
       "id": 6021115,
       "login": "amit-y",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6021115?v=4",
       "htmlUrl": "https://github.com/amit-y",
-      "contributions": 2
+      "contributions": 20
     }
   ],
   "languages": [
@@ -79,10 +79,7 @@
       "color": "#c6538c"
     }
   ],
-  "screenshots": [
-    "https://raw.githubusercontent.com/newrelic/nr1-mande/master/screenshots/.gitkeep",
-    "https://raw.githubusercontent.com/newrelic/nr1-mande/master/screenshots/screenshot01.png"
-  ],
+  "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",
