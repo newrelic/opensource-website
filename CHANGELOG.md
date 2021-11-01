@@ -1,3 +1,10 @@
+## [1.18.1](https://github.com/newrelic/opensource-website/compare/v1.18.0...v1.18.1) (2021-11-01)
+
+
+### Bug Fixes
+
+* remove joel ([540af14](https://github.com/newrelic/opensource-website/commit/540af14704d617188cf092e4cf96733451714b54))
+
 # [1.18.0](https://github.com/newrelic/opensource-website/compare/v1.17.0...v1.18.0) (2021-10-15)
 
 
