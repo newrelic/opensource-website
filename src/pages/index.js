@@ -1,20 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { css } from '@emotion/react';
 import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
-import { Helmet } from 'react-helmet';
-
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
 import HomepageCollection from '../components/HomepageCollection';
 import * as styles from './home-page.module.scss';
-
-import videoPlaceholder from '../images/video-placeholder-1.jpg';
-import playButton from '../images/button-play.svg';
-import closeIcon from '../images/icon-close.svg';
 
 export const query = graphql`
   query HomePageQuery($path: String) {
@@ -95,8 +89,6 @@ function sortByStats(a, b) {
 }
 
 const HomePage = ({ data, pageContext }) => {
-  const [heroVideoActive, setHeroVideoActive] = useState(false);
-
   const instrumentationProjects = get(data, 'instrumentation.edges', [])
     .map((i) => i.node)
     .sort(sortByStats)
@@ -114,60 +106,8 @@ const HomePage = ({ data, pageContext }) => {
     .sort(sortByStats)
     .slice(0, 8);
 
-  const renderHeroVideo = () => {
-    return (
-      <>
-        <div className={styles.responsiveVideoContainer}>
-          <div className={`responsive-video ${styles.responsiveVideo}`}>
-            <iframe
-              width="1000"
-              height="562.704471"
-              src="https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true"
-              frameBorder="0"
-              allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
-              placeholder=""
-            />
-          </div>
-        </div>
-        <div
-          className={`${styles.homepageHeroVideo}`}
-          style={{ backgroundImage: `url(${videoPlaceholder})` }}
-          onClick={() => {
-            setHeroVideoActive(true);
-          }}
-        >
-          <img
-            src={closeIcon}
-            alt="close icon"
-            className={styles.modalCloseButton}
-            onClick={() => {
-              setHeroVideoActive(false);
-            }}
-          />
-
-          <img src={playButton} className={styles.playButton} />
-          <div className={styles.iframeContainer}>
-            <iframe
-              width="1000"
-              height="562.704471"
-              src={`https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true${
-                heroVideoActive ? `&autoplay=1` : ''
-              }`}
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
-            />
-          </div>
-        </div>
-      </>
-    );
-  };
-
   return (
     <Layout fullWidth editLink={pageContext.fileRelativePath}>
-      <Helmet>
-        <html className={heroVideoActive && styles.heroVideoActive} />
-      </Helmet>
-
       <SEO title="Home" />
       <div className={styles.heroContainer}>
         <div className={styles.homepageHeroCopy}>
@@ -207,14 +147,7 @@ const HomePage = ({ data, pageContext }) => {
             .
           </p>
         </div>
-        {renderHeroVideo()}
       </div>
-      <div
-        className={styles.videoModalOverlay}
-        onClick={() => {
-          setHeroVideoActive(false);
-        }}
-      />
 
       <HomepageCollection projects={instrumentationProjects} />
 
