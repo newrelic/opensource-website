@@ -3,13 +3,13 @@
   "issues": {
     "open": 11
   },
-  "releases": 26,
+  "releases": 27,
   "latestRelease": {
-    "name": "v0.18.0",
-    "date": "2021-11-05T23:26:26Z"
+    "name": "v0.19.0",
+    "date": "2021-11-08T03:21:37Z"
   },
-  "commits": 206,
-  "lastSixMonthsCommitTotal": 27,
+  "commits": 208,
+  "lastSixMonthsCommitTotal": 29,
   "contributors": 12,
   "pullRequests": {
     "open": 0
@@ -18,25 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 11946809,
-      "login": "khpeet",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11946809?v=4",
-      "htmlUrl": "https://github.com/khpeet",
-      "contributions": 1
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 4
     },
     {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 36
-    },
-    {
-      "id": 70179215,
-      "login": "nr-kkenney",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
-      "htmlUrl": "https://github.com/nr-kkenney",
-      "contributions": 2
+      "contributions": 37
     },
     {
       "id": 58010132,
@@ -46,17 +39,24 @@
       "contributions": 1
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 4
+      "id": 70179215,
+      "login": "nr-kkenney",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
+      "htmlUrl": "https://github.com/nr-kkenney",
+      "contributions": 2
     },
     {
       "id": 8731013,
       "login": "prototypicalpro",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8731013?v=4",
       "htmlUrl": "https://github.com/prototypicalpro",
+      "contributions": 1
+    },
+    {
+      "id": 11946809,
+      "login": "khpeet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11946809?v=4",
+      "htmlUrl": "https://github.com/khpeet",
       "contributions": 1
     },
     {
@@ -99,7 +99,7 @@
       "login": "Kav91",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 116
+      "contributions": 117
     }
   ],
   "languages": [
