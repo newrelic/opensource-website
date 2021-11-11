@@ -25,10 +25,6 @@ const HomePageInternalProjects = ({ data }) => {
     </div>
   );
 };
-
-
-
-
 HomePageInternalProjects.propTypes = {
   data: PropTypes.array,
 };

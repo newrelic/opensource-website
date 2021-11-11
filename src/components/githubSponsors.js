@@ -10,24 +10,18 @@ const GithubSponsors = ({ data }) => {
   return (
     <div className={styles.featuredInternalProjects}>
       {projects.map((project) => {
-        const link = project.url.replace(
-          'https://opensource.newrelic.com',
-          ''
-        );
+        const link = project.url.replace('https://opensource.newrelic.com', '');
         return (
           <SimpleSponsorModule
-             data={project}
-             key={project.name}
-             projectLink={link}
+            data={project}
+            key={project.name}
+            projectLink={link}
           />
         );
       })}
     </div>
   );
 };
-
-
-
 
 GithubSponsors.propTypes = {
   data: PropTypes.array,

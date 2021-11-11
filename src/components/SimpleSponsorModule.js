@@ -10,7 +10,7 @@ import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg'
 import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 
 const SimpleSponsorModule = ({ data: project, className, darkMode }) => {
-   const link = project.url.replace('https://opensource.newrelic.com', '');
+  const link = project.url.replace('https://opensource.newrelic.com', '');
 
   return (
     <Link
@@ -25,10 +25,13 @@ const SimpleSponsorModule = ({ data: project, className, darkMode }) => {
         }
         alt={`Icon for ${project.name}`}
         className={styles.projectIcon}
-       /> 
+      />
       <div>
         <h4 className={styles.projectTitle}>{project.name}</h4>
-    <p className={styles.projectDescription}>{project.bio}{project.description}</p>
+        <p className={styles.projectDescription}>
+          {project.bio}
+          {project.description}
+        </p>
       </div>
     </Link>
   );
