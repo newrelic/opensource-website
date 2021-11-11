@@ -1387,51 +1387,7 @@ exports[`HomePage Renders correctly 1`] = `
           .
         </p>
       </div>
-      <div>
-        <div
-          className="responsive-video undefined"
-        >
-          <iframe
-            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
-            frameBorder="0"
-            height="562.704471"
-            placeholder=""
-            src="https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true"
-            width="1000"
-          />
-        </div>
-      </div>
-      <div
-        className="undefined"
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "url(test-file-stub)",
-          }
-        }
-      >
-        <img
-          alt="close icon"
-          onClick={[Function]}
-          src="test-file-stub"
-        />
-        <img
-          src="test-file-stub"
-        />
-        <div>
-          <iframe
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; showinfo; modestbranding"
-            frameBorder="0"
-            height="562.704471"
-            src="https://fast.wistia.net/embed/iframe/qc7gkrlltt?videoFoam=true"
-            width="1000"
-          />
-        </div>
-      </div>
     </div>
-    <div
-      onClick={[Function]}
-    />
     <div>
       <h4>
         Instrumentation projects
