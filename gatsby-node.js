@@ -8,7 +8,6 @@
  * https://www.gatsbyjs.org/docs/node-apis/#createSchemaCustomization
  */
 exports.createSchemaCustomization = require('./gatsby/create-schema-customization');
-
 /**
  * https://www.gatsbyjs.org/docs/node-apis/#onCreateNode
  */

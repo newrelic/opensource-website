@@ -105,7 +105,7 @@ module.exports = {
       options: {
         name: `data`,
         path: `${__dirname}/src/data`,
-        ignore: [`**/\.*`], // ignore files starting with a dot
+        ignore: [`**/.*`], // ignore files starting with a dot
       },
     },
     {
@@ -186,6 +186,42 @@ module.exports = {
       resolve: 'gatsby-plugin-gatsby-cloud',
       options: {
         allPageHeaders: ['Referrer-Policy: no-referrer-when-downgrade'],
+      },
+    },
+    // Github API for sponsorship section on homepage
+    {
+      resolve: `gatsby-source-github-api`,
+      options: {
+        typeName: `GitHub`,
+        fieldName: `github`,
+        url: `https://api.github.com/graphql`,
+        // token: required by the GitHub API
+        token: process.env.GITHUB_API_TOKEN,
+        // GraphQLquery: defaults to a search query
+        graphQLQuery: `
+        query{
+          organization(login: "newrelic") {
+            sponsoring(last: 100, orderBy: {field: LOGIN, direction: ASC}) {
+              nodes {
+                ... on User {
+                  name
+                  avatarUrl
+                  login
+                  url
+                  bio
+                }
+                ... on Organization {
+                  name
+                  avatarUrl
+                  login
+                  url
+                  description
+                }
+              }
+              totalCount
+            }
+          }
+        }`,
       },
     },
   ],

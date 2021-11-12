@@ -7,6 +7,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import HomePageHighlights from '../components/HomePageHighlights';
 import HomePageInternalProjects from '../components/HomePageInternalProjects';
+import GithubSponsors from '../components/githubSponsors';
 import HomepageCollection from '../components/HomepageCollection';
 import * as styles from './home-page.module.scss';
 
@@ -71,6 +72,25 @@ export const query = graphql`
         path
       }
     }
+    gd: githubData {
+      rawResult {
+        data {
+          organization {
+            sponsoring {
+              totalCount
+              nodes {
+                avatarUrl
+                name
+                url
+                bio
+                description
+                login
+              }
+            }
+          }
+        }
+      }
+    }
   }
 `;
 
@@ -93,6 +113,15 @@ const HomePage = ({ data, pageContext }) => {
     .map((i) => i.node)
     .sort(sortByStats)
     .slice(0, 5);
+
+  const sponsorsProgram = get(
+    data,
+    'gd.rawResult.data.organization.sponsoring.nodes',
+    []
+  )
+    // Can get up to 100 results in ascending order, this randomizes the array and then picks the first 8
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 8);
 
   const externalProjects = [
     get(data, 'openTelemetry.nodes[0]'),
@@ -163,8 +192,20 @@ const HomePage = ({ data, pageContext }) => {
             or <Link to="/explore-projects">view all projects</Link>.
           </p>
         </div>
-
         <HomePageInternalProjects data={internalProjects} />
+      </div>
+
+      <div className={styles.featuredInternalProjectsContainer}>
+        <div className={styles.featuredInternalProjectsSection}>
+          <h3 className={styles.featuredInternalProjectsSectionTitle}>
+            Projects we sponsor
+          </h3>
+          <p className={styles.featuredInternalProjectsSectionDescription}>
+            New Relic supports 50+ organizations and developers. Find out more{' '}
+            <Link to="https://github.com/orgs/newrelic/sponsoring"> here</Link>.
+          </p>
+        </div>
+        <GithubSponsors data={sponsorsProgram} />
       </div>
     </Layout>
   );
