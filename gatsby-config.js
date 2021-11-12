@@ -105,7 +105,7 @@ module.exports = {
       options: {
         name: `data`,
         path: `${__dirname}/src/data`,
-        ignore: [`**/\.*`], // ignore files starting with a dot
+        ignore: [`**/.*`], // ignore files starting with a dot
       },
     },
     {
@@ -192,9 +192,9 @@ module.exports = {
     {
       resolve: `gatsby-source-github-api`,
       options: {
-        typeName: "GitHub",
-        fieldName: "github",
-        url: "https://api.github.com/graphql",
+        typeName: `GitHub`,
+        fieldName: `github`,
+        url: `https://api.github.com/graphql`,
         // token: required by the GitHub API
         token: process.env.GITHUB_API_TOKEN,
         // GraphQLquery: defaults to a search query
@@ -221,8 +221,8 @@ module.exports = {
               totalCount
             }
           }
-        }`
-      }
-    }
+        }`,
+      },
+    },
   ],
 };
