@@ -194,7 +194,7 @@ module.exports = {
       options: {
         NR_LICENSE_KEY: process.env.NEW_RELIC_LICENSE_KEY,
         NR_ACCOUNT_ID: process.env.NEW_RELIC_ACCOUNT_ID,
-        SITE_NAME: process.env.SITE_NAME,
+        SITE_NAME: 'opensource.newrelic.com',
         collectTraces: true,
         collectLogs: true,
         collectMetrics: true,
