@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nri-kubernetes",
   "issues": {
-    "open": 52
+    "open": 53
   },
   "releases": 28,
   "latestRelease": {
@@ -15,15 +15,26 @@
     "open": 5
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
-  "cachedContributors": [
+  "cachedIssues": [
     {
-      "id": 1083296,
-      "login": "smoya",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1083296?v=4",
-      "htmlUrl": "https://github.com/smoya",
-      "contributions": 1
-    },
+      "id": "I_kwDOELKjF84871fO",
+      "title": "Scrape metrics using protobuf when possible",
+      "url": "https://github.com/newrelic/nri-kubernetes/issues/234",
+      "createdAt": "2021-10-11T06:35:59Z",
+      "comments": {
+        "totalCount": 5
+      },
+      "author": {
+        "login": "invidian",
+        "id": "MDQ6VXNlcjE2NTM5ODk2",
+        "email": "",
+        "name": "Mateusz Gozdek"
+      },
+      "number": 234,
+      "createdBy": "Mateusz Gozdek"
+    }
+  ],
+  "cachedContributors": [
     {
       "id": 503802,
       "login": "jorik",
@@ -39,10 +50,10 @@
       "contributions": 1
     },
     {
-      "id": 1479942,
-      "login": "dfernandeza",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1479942?v=4",
-      "htmlUrl": "https://github.com/dfernandeza",
+      "id": 1083296,
+      "login": "smoya",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1083296?v=4",
+      "htmlUrl": "https://github.com/smoya",
       "contributions": 1
     },
     {
@@ -64,6 +75,13 @@
       "login": "tangollama",
       "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
+      "contributions": 1
+    },
+    {
+      "id": 1479942,
+      "login": "dfernandeza",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1479942?v=4",
+      "htmlUrl": "https://github.com/dfernandeza",
       "contributions": 1
     },
     {
