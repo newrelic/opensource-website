@@ -5,11 +5,11 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 16,
-  "lastSixMonthsCommitTotal": 16,
-  "contributors": 1,
+  "commits": 20,
+  "lastSixMonthsCommitTotal": 20,
+  "contributors": 2,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -20,6 +20,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/8672090?v=4",
       "htmlUrl": "https://github.com/alexronquillo",
       "contributions": 16
+    },
+    {
+      "id": 65086728,
+      "login": "pnvnd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65086728?v=4",
+      "htmlUrl": "https://github.com/pnvnd",
+      "contributions": 3
     }
   ],
   "languages": [
@@ -27,6 +34,11 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNjQ=",
+      "name": "PowerShell",
+      "color": "#012456"
     }
   ],
   "screenshots": [],
