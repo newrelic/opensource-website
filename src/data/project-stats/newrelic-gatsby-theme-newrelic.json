@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/gatsby-theme-newrelic",
   "issues": {
-    "open": 27
+    "open": 26
   },
   "releases": 152,
   "latestRelease": {
     "name": "v3.4.2",
     "date": null
   },
-  "commits": 2064,
-  "lastSixMonthsCommitTotal": 257,
+  "commits": 2072,
+  "lastSixMonthsCommitTotal": 265,
   "contributors": 19,
   "pullRequests": {
-    "open": 6
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -51,21 +51,21 @@
       "createdBy": "alexronquillo"
     },
     {
-      "id": "I_kwDOEJCuWM49WsZ9",
-      "title": "[Theme] The component/hook documentation is not up to date",
-      "url": "https://github.com/newrelic/gatsby-theme-newrelic/issues/504",
-      "createdAt": "2021-10-18T16:47:59Z",
+      "id": "I_kwDOEJCuWM4-KdxZ",
+      "title": "[Theme] Instrument links in related resources so we can measure clicks",
+      "url": "https://github.com/newrelic/gatsby-theme-newrelic/issues/538",
+      "createdAt": "2021-11-02T23:16:40Z",
       "comments": {
-        "totalCount": 1
+        "totalCount": 2
       },
       "author": {
-        "login": "rudouglas",
-        "id": "MDQ6VXNlcjE3MTIyNTQz",
+        "login": "jpvajda",
+        "id": "MDQ6VXNlcjEzOTUxNTg=",
         "email": "",
-        "name": "Ruairi Douglas"
+        "name": "John P Vajda"
       },
-      "number": 504,
-      "createdBy": "Ruairi Douglas"
+      "number": 538,
+      "createdBy": "John P Vajda"
     }
   ],
   "cachedContributors": [
@@ -91,11 +91,11 @@
       "contributions": 22
     },
     {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 1
+      "id": 70179303,
+      "login": "aswanson-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
+      "htmlUrl": "https://github.com/aswanson-nr",
+      "contributions": 17
     },
     {
       "id": 19733683,
@@ -133,18 +133,18 @@
       "contributions": 150
     },
     {
-      "id": 70179303,
-      "login": "aswanson-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
-      "htmlUrl": "https://github.com/aswanson-nr",
-      "contributions": 17
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 1
     },
     {
       "id": 26727669,
       "login": "clarkmcadoo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/26727669?v=4",
       "htmlUrl": "https://github.com/clarkmcadoo",
-      "contributions": 2
+      "contributions": 9
     },
     {
       "id": 2952843,
