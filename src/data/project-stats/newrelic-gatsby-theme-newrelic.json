@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/gatsby-theme-newrelic",
   "issues": {
-    "open": 26
+    "open": 24
   },
   "releases": 152,
   "latestRelease": {
     "name": "v3.4.2",
     "date": null
   },
-  "commits": 2072,
-  "lastSixMonthsCommitTotal": 265,
+  "commits": 2089,
+  "lastSixMonthsCommitTotal": 282,
   "contributors": 19,
   "pullRequests": {
     "open": 5
@@ -49,23 +49,6 @@
       },
       "number": 426,
       "createdBy": "alexronquillo"
-    },
-    {
-      "id": "I_kwDOEJCuWM4-KdxZ",
-      "title": "[Theme] Instrument links in related resources so we can measure clicks",
-      "url": "https://github.com/newrelic/gatsby-theme-newrelic/issues/538",
-      "createdAt": "2021-11-02T23:16:40Z",
-      "comments": {
-        "totalCount": 2
-      },
-      "author": {
-        "login": "jpvajda",
-        "id": "MDQ6VXNlcjEzOTUxNTg=",
-        "email": "",
-        "name": "John P Vajda"
-      },
-      "number": 538,
-      "createdBy": "John P Vajda"
     }
   ],
   "cachedContributors": [
@@ -84,17 +67,38 @@
       "contributions": 122
     },
     {
-      "id": 55247916,
-      "login": "x8a",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55247916?v=4",
-      "htmlUrl": "https://github.com/x8a",
-      "contributions": 5
-    },
-    {
       "id": 186715,
       "login": "djsauble",
       "avatarUrl": "https://avatars.githubusercontent.com/u/186715?v=4",
       "htmlUrl": "https://github.com/djsauble",
+      "contributions": 3
+    },
+    {
+      "id": 70179215,
+      "login": "nr-kkenney",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
+      "htmlUrl": "https://github.com/nr-kkenney",
+      "contributions": 31
+    },
+    {
+      "id": 17122543,
+      "login": "rudouglas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
+      "htmlUrl": "https://github.com/rudouglas",
+      "contributions": 32
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 2
+    },
+    {
+      "id": 55203603,
+      "login": "austin-schaefer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
+      "htmlUrl": "https://github.com/austin-schaefer",
       "contributions": 3
     },
     {
@@ -105,27 +109,6 @@
       "contributions": 1
     },
     {
-      "id": 70179215,
-      "login": "nr-kkenney",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
-      "htmlUrl": "https://github.com/nr-kkenney",
-      "contributions": 22
-    },
-    {
-      "id": 17122543,
-      "login": "rudouglas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
-      "htmlUrl": "https://github.com/rudouglas",
-      "contributions": 30
-    },
-    {
-      "id": 55203603,
-      "login": "austin-schaefer",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
-      "htmlUrl": "https://github.com/austin-schaefer",
-      "contributions": 3
-    },
-    {
       "id": 1946433,
       "login": "zstix",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1946433?v=4",
@@ -133,11 +116,11 @@
       "contributions": 150
     },
     {
-      "id": 39655074,
-      "login": "LizBaker",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
-      "htmlUrl": "https://github.com/LizBaker",
-      "contributions": 55
+      "id": 55247916,
+      "login": "x8a",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55247916?v=4",
+      "htmlUrl": "https://github.com/x8a",
+      "contributions": 5
     },
     {
       "id": 26727669,
@@ -175,11 +158,11 @@
       "contributions": 916
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 2
+      "id": 39655074,
+      "login": "LizBaker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
+      "htmlUrl": "https://github.com/LizBaker",
+      "contributions": 55
     },
     {
       "id": 38332422,
@@ -200,7 +183,7 @@
       "login": "tabathadelane",
       "avatarUrl": "https://avatars.githubusercontent.com/u/47728020?v=4",
       "htmlUrl": "https://github.com/tabathadelane",
-      "contributions": 8
+      "contributions": 10
     }
   ],
   "languages": [
