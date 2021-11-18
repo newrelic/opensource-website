@@ -77,12 +77,8 @@ module.exports = {
           segmentWriteKey: 'FoEoyHDGF4dDczR4Vt12vuysG1Rl4n8z',
           trackPageViews: true,
           pageView: {
-            name: 'pageView',
-            category: 'DocPageView',
-            getProperties: ({ location, env }) => ({
-              path: location.pathname,
-              env: env === 'production' ? 'prod' : env,
-            }),
+            eventName: 'pageView',
+            category: 'OssPageView',
           },
         },
         splitio: {
