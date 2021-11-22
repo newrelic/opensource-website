@@ -15,6 +15,7 @@
     "dotenv": "^10.0.0",
     "feather-icons": "^4.28.0",
     "gatsby": "^3.8.0",
+    "gatsby-build-newrelic": "1.1.16",
     "gatsby-image": "^3.8.0",
     "gatsby-plugin-gatsby-cloud": "^3.0.0",
     "gatsby-plugin-manifest": "^3.8.0",
@@ -79,7 +80,8 @@
     "test:watch": "yarn test -- --watch",
     "test:update": "yarn test -- --update-snapshot",
     "eslint-check": "eslint src/ gatsby/",
-    "eslint-fix": "eslint src/ gatsby/ --fix"
+    "eslint-fix": "eslint src/ gatsby/ --fix",
+    "gatsby build": "--open-tracing-config-file ./node_modules/gatsby-build-newrelic/zipkin-local.js --graphql-tracing"
   },
   "repository": {
     "type": "git",
