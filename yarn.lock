@@ -7042,10 +7042,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-build-newrelic@1.1.14:
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/gatsby-build-newrelic/-/gatsby-build-newrelic-1.1.14.tgz#dfe275f25d591bd0f3ef1b39fc37d7f10f7d784e"
-  integrity sha512-F3yq+2EsOPAH7gP/dZQuXkAKJssw0qDnktYwAFAV68pdKYGdrQ+AIyG43sKwwfFYtgkkb5n/K6BGlLCqttD9Xg==
+gatsby-build-newrelic@1.1.15:
+  version "1.1.15"
+  resolved "https://registry.yarnpkg.com/gatsby-build-newrelic/-/gatsby-build-newrelic-1.1.15.tgz#c46a79016757693c4cfd2029f875fecf8e2945a4"
+  integrity sha512-XmDSd9GLf1oPvn9192VS/d2rjr9PMr4oLxmRZZ8+hPwHQs53jMp4JRQqHiLfWAdltAXjdsVw0D4LVk3Akztvtw==
   dependencies:
     cross-env "^7.0.3"
     fast-glob "^3.2.5"
