@@ -77,12 +77,8 @@ module.exports = {
           segmentWriteKey: 'FoEoyHDGF4dDczR4Vt12vuysG1Rl4n8z',
           trackPageViews: true,
           pageView: {
-            name: 'pageView',
-            category: 'DocPageView',
-            getProperties: ({ location, env }) => ({
-              path: location.pathname,
-              env: env === 'production' ? 'prod' : env,
-            }),
+            eventName: 'pageView',
+            category: 'OssPageView',
           },
         },
         splitio: {
@@ -188,6 +184,23 @@ module.exports = {
         allPageHeaders: ['Referrer-Policy: no-referrer-when-downgrade'],
       },
     },
+
+    {
+      resolve: `gatsby-build-newrelic`,
+      options: {
+        NR_LICENSE_KEY: process.env.NEW_RELIC_LICENSE_KEY,
+        NR_ACCOUNT_ID: process.env.NEW_RELIC_ACCOUNT_ID,
+        SITE_NAME: 'opensource.newrelic.com',
+        collectTraces: true,
+        collectLogs: true,
+        collectMetrics: true,
+        staging: true,
+        customTags: {
+          featureFlag: process.env.FEATURE_FLAG,
+        },
+      },
+    },
+
     // Github API for sponsorship section on homepage
     {
       resolve: `gatsby-source-github-api`,

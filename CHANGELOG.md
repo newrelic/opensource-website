@@ -1,3 +1,18 @@
+# [1.19.0](https://github.com/newrelic/opensource-website/compare/v1.18.1...v1.19.0) (2021-11-23)
+
+
+### Bug Fixes
+
+* build ([10740d3](https://github.com/newrelic/opensource-website/commit/10740d3cb13d6901ee4b638aebbc4df91c9001e2))
+* metrics ([8f5bb1e](https://github.com/newrelic/opensource-website/commit/8f5bb1e0d12e8d94b3618f55579b530db2003a5d))
+* plugin issue ([1f533e9](https://github.com/newrelic/opensource-website/commit/1f533e99b78dddbe7d0d66fb9e7409dbc1e4a230))
+* update with new plugin version ([6160646](https://github.com/newrelic/opensource-website/commit/61606463f972d3d05dcb9337c5829a0f8e1cee4c))
+
+
+### Features
+
+* added gatsby-build-newrelic ([936f8fe](https://github.com/newrelic/opensource-website/commit/936f8fec0edbd0f7dd4b17a90dc60662c990a11d))
+
 ## [1.18.1](https://github.com/newrelic/opensource-website/compare/v1.18.0...v1.18.1) (2021-11-01)
 
 

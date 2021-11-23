@@ -61,7 +61,7 @@ New Relic Domains:
 
 To run, execute `yarn start` from the root of this repository.
 
-Should you want New Relic Browser instrumentation while developing locally, you will need to add an additional configuration option to `gatsby-config.js` for the `gatsby-plugin-newrelic` plugin.
+Should you want Tessen instrumentation while developing locally, you will need to add an additional configuration option to `gatsby-config.js` for the `gatsby-plugin-newrelic` plugin.
 
 ## Architecture
 
