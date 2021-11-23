@@ -74,6 +74,22 @@ jobs:
           else
             echo "No change in package.json, not regenerating third-party notices"
           fi
+      - name: Temporarily disable branch protection
+        id: disable-branch-protection
+        uses: actions/github-script@v1
+        with:
+          github-token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+          previews: luke-cage-preview
+          script: |
+            const result = await github.repos.updateBranchProtection({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              branch: 'develop',
+              restrictions: null,
+              enforce_admins: null,
+              required_pull_request_reviews: null
+            })
+            console.log("Result:", result)
 
       - name: Push Commit
         if: steps.generate-notices.outputs.commit == 'true'
@@ -81,6 +97,30 @@ jobs:
         with:
           github_token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
           branch: develop
+
+      - name: Re-enable branch protection
+        id: enable-branch-protection
+        if: always()
+        uses: actions/github-script@v1
+        with:
+          github-token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+          previews: luke-cage-preview
+          script: |
+            const result = await github.repos.updateBranchProtection({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              branch: 'develop',
+              restrictions: {
+                users: [],
+                teams: ['developer-enablement']
+              },
+              enforce_admins: true,
+              required_pull_request_reviews: {
+                dismiss_stale_reviews: true,
+                required_approving_review_count: 1
+              }
+            })
+            console.log("Result:", result)
 
   job-generate-release:
     runs-on: ubuntu-latest
