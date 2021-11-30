@@ -133,7 +133,7 @@ div.exists-in-active-mobile-menu {
 
   .mobile-menu-active {
     position: absolute;
-    top: 0;
+    top: var(--global-header-height);
     right: 0;
     bottom: -100vh;
     left: 0;
@@ -145,7 +145,7 @@ div.exists-in-active-mobile-menu {
       height: 20.5px;
       background-size: 20.51px 20.51px;
       position: absolute;
-      top: 50px;
+      top: 18px;
       right: 30px;
       background-image: url('../images/icon-menu-close.svg');
     }
@@ -190,12 +190,6 @@ div.exists-in-active-mobile-menu {
 
 @media screen and (max-width: 480px) {
   .mobile-menu-active {
-    top: 35px;
-    
-    .mobile-menu-button {
-      top: 21px;
-    }
-
     .header-dark-mode-toggle {
       display: block;
 

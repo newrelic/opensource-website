@@ -1,3 +1,18 @@
+# [1.20.0](https://github.com/newrelic/opensource-website/compare/v1.19.0...v1.20.0) (2021-11-30)
+
+
+### Bug Fixes
+
+* enable/disable branch protection ([8097c76](https://github.com/newrelic/opensource-website/commit/8097c7601ae8cc7566abfd0094518e47fd82b2fd))
+* include required_status_checks for branch protection ([90f42e5](https://github.com/newrelic/opensource-website/commit/90f42e55235bbb567dfab6d1d03ba3aeb92853aa))
+* update branch protection api calls ([1db8b82](https://github.com/newrelic/opensource-website/commit/1db8b82fb3731e4762a35574bac85801d514a9a8))
+
+
+### Features
+
+* update header css to handle redesign ([5fb112d](https://github.com/newrelic/opensource-website/commit/5fb112d96a642accba48fbe1642b677a686a47cc))
+* update theme to pull in new header ([15dd462](https://github.com/newrelic/opensource-website/commit/15dd4625420933a0a678b30579dcbf2835e25f42))
+
 # [1.19.0](https://github.com/newrelic/opensource-website/compare/v1.18.1...v1.19.0) (2021-11-23)
 
 
