@@ -21,20 +21,17 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   position: sticky;
   top: 0;
   z-index: 80;
-  z-index: 700;
 }
 
 .dark-mode .emotion-78 {
   background-color: var(--color-dark-300);
 }
 
-.emotion-78 ul {
-  line-height: 14px;
-  font-size: 16px;
-}
-
-.emotion-78 a {
-  border-bottom: none;
+.dark-mode .emotion-78 {
+  --color-neutrals-050: #fafbfb;
+  --color-neutrals-100: #f4f5f5;
+  --color-neutrals-500: #b9bdbd;
+  --color-neutrals-600: #8e9494;
 }
 
 .emotion-77 {
@@ -1639,20 +1636,17 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   position: sticky;
   top: 0;
   z-index: 80;
-  z-index: 700;
 }
 
 .dark-mode .emotion-78 {
   background-color: var(--color-dark-300);
 }
 
-.emotion-78 ul {
-  line-height: 14px;
-  font-size: 16px;
-}
-
-.emotion-78 a {
-  border-bottom: none;
+.dark-mode .emotion-78 {
+  --color-neutrals-050: #fafbfb;
+  --color-neutrals-100: #f4f5f5;
+  --color-neutrals-500: #b9bdbd;
+  --color-neutrals-600: #8e9494;
 }
 
 .emotion-77 {
@@ -3257,20 +3251,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   position: sticky;
   top: 0;
   z-index: 80;
-  z-index: 700;
 }
 
 .dark-mode .emotion-78 {
   background-color: var(--color-dark-300);
 }
 
-.emotion-78 ul {
-  line-height: 14px;
-  font-size: 16px;
-}
-
-.emotion-78 a {
-  border-bottom: none;
+.dark-mode .emotion-78 {
+  --color-neutrals-050: #fafbfb;
+  --color-neutrals-100: #f4f5f5;
+  --color-neutrals-500: #b9bdbd;
+  --color-neutrals-600: #8e9494;
 }
 
 .emotion-77 {
@@ -4611,26 +4602,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     <div
       className="undefined "
     >
-      <div
-        className="dark-mode-toggle undefined"
-      >
-        <svg
-          fill="none"
-          height={15}
-          onClick={[Function]}
-          stroke="#000d0d"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          viewBox="0 0 24 24"
-          width={15}
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
-          />
-        </svg>
-      </div>
       <button
         onClick={[Function]}
       >

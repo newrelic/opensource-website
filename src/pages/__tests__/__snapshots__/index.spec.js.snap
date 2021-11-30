@@ -21,20 +21,17 @@ exports[`HomePage Renders correctly 1`] = `
   position: sticky;
   top: 0;
   z-index: 80;
-  z-index: 700;
 }
 
 .dark-mode .emotion-78 {
   background-color: var(--color-dark-300);
 }
 
-.emotion-78 ul {
-  line-height: 14px;
-  font-size: 16px;
-}
-
-.emotion-78 a {
-  border-bottom: none;
+.dark-mode .emotion-78 {
+  --color-neutrals-050: #fafbfb;
+  --color-neutrals-100: #f4f5f5;
+  --color-neutrals-500: #b9bdbd;
+  --color-neutrals-600: #8e9494;
 }
 
 .emotion-77 {
