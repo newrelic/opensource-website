@@ -111,6 +111,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               branch: 'develop',
+              required_status_checks: null,
               restrictions: {
                 users: [],
                 teams: ['developer-enablement']
