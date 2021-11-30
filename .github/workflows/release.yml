@@ -87,7 +87,8 @@ jobs:
               branch: 'develop',
               restrictions: null,
               enforce_admins: null,
-              required_pull_request_reviews: null
+              required_pull_request_reviews: null,
+              required_status_checks: null
             })
             console.log("Result:", result)
 
