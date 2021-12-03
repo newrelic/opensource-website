@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/gatsby-theme-newrelic",
   "issues": {
-    "open": 26
+    "open": 25
   },
   "releases": 159,
   "latestRelease": {
@@ -9,30 +9,13 @@
     "date": null
   },
   "commits": 2132,
-  "lastSixMonthsCommitTotal": 286,
+  "lastSixMonthsCommitTotal": 283,
   "contributors": 20,
   "pullRequests": {
     "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU4MzkyMjYyNDY=",
-      "title": "Header improvements: Bigger search",
-      "url": "https://github.com/newrelic/gatsby-theme-newrelic/issues/333",
-      "createdAt": "2021-03-24T00:19:36Z",
-      "comments": {
-        "totalCount": 3
-      },
-      "author": {
-        "login": "austin-schaefer",
-        "id": "MDQ6VXNlcjU1MjAzNjAz",
-        "email": "",
-        "name": "Austin Schaefer"
-      },
-      "number": 333,
-      "createdBy": "Austin Schaefer"
-    },
     {
       "id": "MDU6SXNzdWU5NDQ2MjQ0MDU=",
       "title": "Don't copy line numbers from codeblocks",
@@ -67,18 +50,18 @@
       "contributions": 122
     },
     {
+      "id": 70179215,
+      "login": "nr-kkenney",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
+      "htmlUrl": "https://github.com/nr-kkenney",
+      "contributions": 35
+    },
+    {
       "id": 17122543,
       "login": "rudouglas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
       "htmlUrl": "https://github.com/rudouglas",
       "contributions": 36
-    },
-    {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 1
     },
     {
       "id": 186715,
@@ -95,18 +78,18 @@
       "contributions": 10
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 2
-    },
-    {
       "id": 55203603,
       "login": "austin-schaefer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/55203603?v=4",
       "htmlUrl": "https://github.com/austin-schaefer",
       "contributions": 3
+    },
+    {
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 1
     },
     {
       "id": 1946433,
@@ -116,11 +99,11 @@
       "contributions": 151
     },
     {
-      "id": 70179215,
-      "login": "nr-kkenney",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/70179215?v=4",
-      "htmlUrl": "https://github.com/nr-kkenney",
-      "contributions": 35
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 2
     },
     {
       "id": 26727669,
