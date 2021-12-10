@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 78
+    "open": 65
   },
   "releases": 69,
   "latestRelease": {
@@ -15,59 +15,7 @@
     "open": 3
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2ODMxMjkyNDk=",
-      "title": "Reduce string allocations in BrowserMonitoringWriter",
-      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/117",
-      "createdAt": "2020-08-20T22:16:35Z",
-      "comments": {
-        "totalCount": 2
-      },
-      "author": {
-        "login": "lspangler584",
-        "id": "MDQ6VXNlcjIwMjY3OTc1",
-        "email": "",
-        "name": null
-      },
-      "number": 117,
-      "createdBy": "lspangler584"
-    },
-    {
-      "id": "MDU6SXNzdWU2ODM2NDY3NzU=",
-      "title": "Stop using Exceptions for flow control",
-      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/131",
-      "createdAt": "2020-08-21T15:36:21Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "lspangler584",
-        "id": "MDQ6VXNlcjIwMjY3OTc1",
-        "email": "",
-        "name": null
-      },
-      "number": 131,
-      "createdBy": "lspangler584"
-    },
-    {
-      "id": "MDU6SXNzdWU2ODM3MzUyODA=",
-      "title": "Add Lambda Example",
-      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/134",
-      "createdAt": "2020-08-21T18:21:31Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "lspangler584",
-        "id": "MDQ6VXNlcjIwMjY3OTc1",
-        "email": "",
-        "name": null
-      },
-      "number": 134,
-      "createdBy": "lspangler584"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 3522458,
@@ -77,11 +25,18 @@
       "contributions": 38
     },
     {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
-      "contributions": 5
+      "id": 654808,
+      "login": "tehbio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/654808?v=4",
+      "htmlUrl": "https://github.com/tehbio",
+      "contributions": 25
+    },
+    {
+      "id": 4761745,
+      "login": "elucus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
+      "htmlUrl": "https://github.com/elucus",
+      "contributions": 4
     },
     {
       "id": 3676547,
@@ -89,13 +44,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/3676547?v=4",
       "htmlUrl": "https://github.com/alanwest",
       "contributions": 5
-    },
-    {
-      "id": 654808,
-      "login": "tehbio",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/654808?v=4",
-      "htmlUrl": "https://github.com/tehbio",
-      "contributions": 25
     },
     {
       "id": 20267975,
@@ -112,11 +60,11 @@
       "contributions": 1
     },
     {
-      "id": 4761745,
-      "login": "elucus",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
-      "htmlUrl": "https://github.com/elucus",
-      "contributions": 4
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
+      "contributions": 5
     },
     {
       "id": 58010132,
