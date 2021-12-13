@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 63
+    "open": 62
   },
   "releases": 69,
   "latestRelease": {
     "name": "v9.2.0",
     "date": "2021-11-17T22:26:15Z"
   },
-  "commits": 481,
-  "lastSixMonthsCommitTotal": 149,
+  "commits": 482,
+  "lastSixMonthsCommitTotal": 150,
   "contributors": 17,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 654808,
-      "login": "tehbio",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/654808?v=4",
-      "htmlUrl": "https://github.com/tehbio",
-      "contributions": 25
-    },
     {
       "id": 188129,
       "login": "bgrainger",
@@ -32,18 +25,25 @@
       "contributions": 5
     },
     {
+      "id": 654808,
+      "login": "tehbio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/654808?v=4",
+      "htmlUrl": "https://github.com/tehbio",
+      "contributions": 25
+    },
+    {
+      "id": 4761745,
+      "login": "elucus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
+      "htmlUrl": "https://github.com/elucus",
+      "contributions": 4
+    },
+    {
       "id": 69914680,
       "login": "angelatan2",
       "avatarUrl": "https://avatars.githubusercontent.com/u/69914680?v=4",
       "htmlUrl": "https://github.com/angelatan2",
       "contributions": 18
-    },
-    {
-      "id": 3522458,
-      "login": "jifeingo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
-      "htmlUrl": "https://github.com/jifeingo",
-      "contributions": 38
     },
     {
       "id": 20267975,
@@ -60,11 +60,11 @@
       "contributions": 1
     },
     {
-      "id": 4761745,
-      "login": "elucus",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
-      "htmlUrl": "https://github.com/elucus",
-      "contributions": 4
+      "id": 3522458,
+      "login": "jifeingo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
+      "htmlUrl": "https://github.com/jifeingo",
+      "contributions": 38
     },
     {
       "id": 58010132,
@@ -106,7 +106,7 @@
       "login": "nr-ahemsath",
       "avatarUrl": "https://avatars.githubusercontent.com/u/57361211?v=4",
       "htmlUrl": "https://github.com/nr-ahemsath",
-      "contributions": 80
+      "contributions": 81
     },
     {
       "id": 56414817,
