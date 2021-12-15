@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/newrelic/opensource-website/compare/v1.20.0...v1.20.1) (2021-12-15)
+
+
+### Bug Fixes
+
+* add long description ([fb57779](https://github.com/newrelic/opensource-website/commit/fb57779a0344dfc60d108f425f2678295a27f1b1))
+
 # [1.20.0](https://github.com/newrelic/opensource-website/compare/v1.19.0...v1.20.0) (2021-11-30)
 
 
