@@ -1,0 +1,26 @@
+{
+  "name": "New Relic Security Plugin for Pixie",
+  "fullName": "newrelic-experimental/nr-pixie-security-plugin",
+  "slug": "newrelic-experimental-nr-pixie-security-plugin",
+  "owner": {
+    "login": "newrelic-experimental-nr",
+    "type": "Organization"
+  },
+  "title": "New Relic Security Plugin for Pixie",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic-experimental/nr-pixie-security-plugin",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic-experimental/nr-pixie-security-plugin",
+  "defaultBranch": "main",
+  "contributingGuideUrl": null,
+  "iconUrl": "https://github.com/newrelic-experimental/nr-pixie-security-plugin/blob/main/icon.png?raw=true",
+  "shortDescription": "Identifies security issues in Pixie data and sends them to New Relic.",
+  "description": "Identifies sql injection and cross site scripting attacks in Pixie data and sends them to New Relic.",
+  "ossCategory": "example-code",
+  "primaryLanguage": "Python",
+  "projectTags": ["tools", "security", "observability"],
+  "acceptsContributions": false,
+  "website": {
+    "title": "New Relic Security Plugin for Pixie",
+    "url": "https://github.com/newrelic-experimental/nr-pixie-security-plugin"
+  }
+}
