@@ -3,20 +3,34 @@
   "issues": {
     "open": 3
   },
-  "releases": 26,
+  "releases": 27,
   "latestRelease": {
-    "name": "v1.7.3",
-    "date": "2021-10-04T10:38:16Z"
+    "name": "v2.0.0",
+    "date": "2021-12-20T15:41:05Z"
   },
-  "commits": 231,
-  "lastSixMonthsCommitTotal": 67,
-  "contributors": 17,
+  "commits": 353,
+  "lastSixMonthsCommitTotal": 189,
+  "contributors": 19,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 3380451,
+      "login": "rubenruizdegauna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
+      "htmlUrl": "https://github.com/rubenruizdegauna",
+      "contributions": 2
+    },
+    {
+      "id": 11877763,
+      "login": "cpheps",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11877763?v=4",
+      "htmlUrl": "https://github.com/cpheps",
+      "contributions": 2
+    },
     {
       "id": 717815,
       "login": "carlosroman",
@@ -32,25 +46,11 @@
       "contributions": 1
     },
     {
-      "id": 79498,
-      "login": "davidgit",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
-      "htmlUrl": "https://github.com/davidgit",
-      "contributions": 1
-    },
-    {
       "id": 3969485,
       "login": "brushknight",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3969485?v=4",
       "htmlUrl": "https://github.com/brushknight",
       "contributions": 1
-    },
-    {
-      "id": 10852,
-      "login": "areina",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/10852?v=4",
-      "htmlUrl": "https://github.com/areina",
-      "contributions": 7
     },
     {
       "id": 1300852,
@@ -60,11 +60,18 @@
       "contributions": 8
     },
     {
+      "id": 79498,
+      "login": "davidgit",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
+      "htmlUrl": "https://github.com/davidgit",
+      "contributions": 1
+    },
+    {
       "id": 15685307,
       "login": "cristianciutea",
       "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
       "htmlUrl": "https://github.com/cristianciutea",
-      "contributions": 64
+      "contributions": 153
     },
     {
       "id": 8822859,
@@ -81,11 +88,11 @@
       "contributions": 1
     },
     {
-      "id": 3380451,
-      "login": "rubenruizdegauna",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
-      "htmlUrl": "https://github.com/rubenruizdegauna",
-      "contributions": 2
+      "id": 10852,
+      "login": "areina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10852?v=4",
+      "htmlUrl": "https://github.com/areina",
+      "contributions": 7
     },
     {
       "id": 939550,
@@ -107,6 +114,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/6081083?v=4",
       "htmlUrl": "https://github.com/jaloren",
       "contributions": 1
+    },
+    {
+      "id": 33873530,
+      "login": "rogercoll",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
+      "htmlUrl": "https://github.com/rogercoll",
+      "contributions": 12
     },
     {
       "id": 947112,
@@ -167,6 +181,16 @@
       "id": "MDg6TGFuZ3VhZ2U0MDM=",
       "name": "Makefile",
       "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDU=",
+      "name": "Thrift",
+      "color": "#D12127"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
     }
   ],
   "screenshots": [],
