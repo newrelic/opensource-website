@@ -1,19 +1,17 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      fallback: {
+        http: false,
+        https: false,
+        zlib: false,
+      },
+    },
+  });
+};
 
-/**
- * https://www.gatsbyjs.org/docs/node-apis/#createSchemaCustomization
- */
 exports.createSchemaCustomization = require('./gatsby/create-schema-customization');
-/**
- * https://www.gatsbyjs.org/docs/node-apis/#onCreateNode
- */
+
 exports.onCreateNode = require(`./gatsby/on-create-node`);
 
-/**
- * https://www.gatsbyjs.org/docs/node-apis/#createPages
- */
 exports.createPages = require('./gatsby/create-pages');
