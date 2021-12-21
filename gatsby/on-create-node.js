@@ -25,7 +25,7 @@ const slugFromAbsoluteFilePath = (rootDir, fileAbsolutePath) => {
 };
 
 const createProjectMainContent = ({ node, actions }) => {
-  const { createNodeField } = actions;
+  const { createNode } = actions;
   const projectMainContentDir = 'src/data/project-main-content/';
   const isMainContent =
     node.fileAbsolutePath.indexOf(projectMainContentDir) >= 0;
@@ -40,12 +40,12 @@ const createProjectMainContent = ({ node, actions }) => {
     fileAbsolutePath
   );
 
-  const fieldData = {
+  const createNodeField = {
     slug,
   };
 
-  createNodeField({
-    ...fieldData,
+  createNode({
+    ...createNodeField,
 
     // Required fields.
     id: uuidv4(),
