@@ -5,7 +5,6 @@ import navLinks from '../data/navigation.json';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { ChevronRight } from 'react-feather';
-import DarkModeToggle from './DarkModeToggle';
 
 import { GlobalHeader, Logo } from '@newrelic/gatsby-theme-newrelic';
 
@@ -42,16 +41,14 @@ const Header = ({ hasHeaderBg }) => {
       <GlobalHeader
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
         css={css`
-          ul {
-            line-height: 14px;
-            font-size: 16px;
+          .dark-mode & {
+            /* The header does not change color with the rest of the theme 
+            * This locks those color values specifically for the header. */
+            --color-neutrals-050: #fafbfb;
+            --color-neutrals-100: #f4f5f5;
+            --color-neutrals-500: #b9bdbd;
+            --color-neutrals-600: #8e9494;
           }
-
-          a {
-            border-bottom: none;
-          }
-
-          z-index: 700;
         `}
       />
       <header
@@ -80,7 +77,6 @@ const Header = ({ hasHeaderBg }) => {
             mobileMenuActive ? styles.mobileMenuActive : ''
           }`}
         >
-          <DarkModeToggle className={styles.headerDarkModeToggle} />
           <button
             className={styles.mobileMenuButton}
             onClick={() => setMobileMenuActive(!mobileMenuActive)}

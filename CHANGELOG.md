@@ -1,3 +1,40 @@
+## [1.20.1](https://github.com/newrelic/opensource-website/compare/v1.20.0...v1.20.1) (2021-12-15)
+
+
+### Bug Fixes
+
+* add long description ([fb57779](https://github.com/newrelic/opensource-website/commit/fb57779a0344dfc60d108f425f2678295a27f1b1))
+
+# [1.20.0](https://github.com/newrelic/opensource-website/compare/v1.19.0...v1.20.0) (2021-11-30)
+
+
+### Bug Fixes
+
+* enable/disable branch protection ([8097c76](https://github.com/newrelic/opensource-website/commit/8097c7601ae8cc7566abfd0094518e47fd82b2fd))
+* include required_status_checks for branch protection ([90f42e5](https://github.com/newrelic/opensource-website/commit/90f42e55235bbb567dfab6d1d03ba3aeb92853aa))
+* update branch protection api calls ([1db8b82](https://github.com/newrelic/opensource-website/commit/1db8b82fb3731e4762a35574bac85801d514a9a8))
+
+
+### Features
+
+* update header css to handle redesign ([5fb112d](https://github.com/newrelic/opensource-website/commit/5fb112d96a642accba48fbe1642b677a686a47cc))
+* update theme to pull in new header ([15dd462](https://github.com/newrelic/opensource-website/commit/15dd4625420933a0a678b30579dcbf2835e25f42))
+
+# [1.19.0](https://github.com/newrelic/opensource-website/compare/v1.18.1...v1.19.0) (2021-11-23)
+
+
+### Bug Fixes
+
+* build ([10740d3](https://github.com/newrelic/opensource-website/commit/10740d3cb13d6901ee4b638aebbc4df91c9001e2))
+* metrics ([8f5bb1e](https://github.com/newrelic/opensource-website/commit/8f5bb1e0d12e8d94b3618f55579b530db2003a5d))
+* plugin issue ([1f533e9](https://github.com/newrelic/opensource-website/commit/1f533e99b78dddbe7d0d66fb9e7409dbc1e4a230))
+* update with new plugin version ([6160646](https://github.com/newrelic/opensource-website/commit/61606463f972d3d05dcb9337c5829a0f8e1cee4c))
+
+
+### Features
+
+* added gatsby-build-newrelic ([936f8fe](https://github.com/newrelic/opensource-website/commit/936f8fec0edbd0f7dd4b17a90dc60662c990a11d))
+
 ## [1.18.1](https://github.com/newrelic/opensource-website/compare/v1.18.0...v1.18.1) (2021-11-01)
 
 
