@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 21,
+  "lastSixMonthsCommitTotal": 21,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 9002169,
+      "login": "bpschmitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9002169?v=4",
+      "htmlUrl": "https://github.com/bpschmitt",
+      "contributions": 20
+    },
     {
       "id": 43244625,
       "login": "melissaklein24",
@@ -22,7 +29,13 @@
       "contributions": 1
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
+      "name": "HCL",
+      "color": null
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
