@@ -1,15 +1,15 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-java-JDBC-ExecuteBatch",
+  "projectFullName": "newrelic-experimental/apigee-distributed-tracing",
   "issues": {
     "open": 0
   },
   "releases": 1,
   "latestRelease": {
-    "name": "1.0",
-    "date": "2021-04-28T18:21:39Z"
+    "name": "v0.9.0",
+    "date": "2022-01-01T15:58:44Z"
   },
-  "commits": 7,
-  "lastSixMonthsCommitTotal": 1,
+  "commits": 8,
+  "lastSixMonthsCommitTotal": 8,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -18,30 +18,25 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 8822859,
-      "login": "dhilpipre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
-      "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 5
-    },
-    {
       "id": 41585091,
       "login": "hsinghkalsi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/41585091?v=4",
       "htmlUrl": "https://github.com/hsinghkalsi",
       "contributions": 1
+    },
+    {
+      "id": 20245790,
+      "login": "msummers-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20245790?v=4",
+      "htmlUrl": "https://github.com/msummers-nr",
+      "contributions": 7
     }
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxNTg=",
-      "name": "Java",
-      "color": "#b07219"
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
     }
   ],
   "screenshots": [],
