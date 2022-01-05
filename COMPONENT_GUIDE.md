@@ -23,5 +23,5 @@ token is undefined
 ```
 
 - You can either ignore this message, or if you want to generate the projects in this component add a personal github API token that has read access for testing purposes.
-- Just set a local environment variable called: `GITHUB_API_TOKEN` with your API token.
+- Just set a local environment variable called: `GITHUB_API_TOKEN` with your API token to be used in the [gatsby-config.js](./gatsby-config.js)
 - See the [Gatsby documentation](https://www.gatsbyjs.com/docs/how-to/local-development/environment-variables/) on how this is done.
