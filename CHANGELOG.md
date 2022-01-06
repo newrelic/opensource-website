@@ -1,3 +1,11 @@
+## [1.20.2](https://github.com/newrelic/opensource-website/compare/v1.20.1...v1.20.2) (2022-01-06)
+
+
+### Bug Fixes
+
+* removed gh sponsor code ([65e4198](https://github.com/newrelic/opensource-website/commit/65e4198d98efd00ee5b49fe1689a0e5947546d26))
+* updated tests ([59082b6](https://github.com/newrelic/opensource-website/commit/59082b68586af98a63ecfe0e252c31c617b08443))
+
 ## [1.20.1](https://github.com/newrelic/opensource-website/compare/v1.20.0...v1.20.1) (2021-12-15)
 
 
