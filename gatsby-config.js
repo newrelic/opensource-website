@@ -215,8 +215,7 @@ module.exports = {
         query{
           organization(login: "newrelic") {
             sponsoring(last: 100, orderBy: {field: LOGIN, direction: ASC}) {
-              edges {
-              node {
+              nodes {
                 ... on User {
                   name
                   avatarUrl
@@ -232,7 +231,6 @@ module.exports = {
                   description
                 }
               }
-            }
               totalCount
             }
           }
