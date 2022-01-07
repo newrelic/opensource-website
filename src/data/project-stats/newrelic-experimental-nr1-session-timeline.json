@@ -3,13 +3,13 @@
   "issues": {
     "open": 13
   },
-  "releases": 6,
+  "releases": 7,
   "latestRelease": {
-    "name": "v1.21.1",
-    "date": null
+    "name": "v2.0.0",
+    "date": "2022-01-07T19:46:18Z"
   },
-  "commits": 69,
-  "lastSixMonthsCommitTotal": 16,
+  "commits": 156,
+  "lastSixMonthsCommitTotal": 90,
   "contributors": 5,
   "pullRequests": {
     "open": 0
@@ -18,25 +18,25 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 2
+      "id": 1786630,
+      "login": "aso1124",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
+      "htmlUrl": "https://github.com/aso1124",
+      "contributions": 109
     },
     {
       "id": 66321197,
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 13
+      "contributions": 14
     },
     {
-      "id": 1786630,
-      "login": "aso1124",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
-      "htmlUrl": "https://github.com/aso1124",
-      "contributions": 40
+      "id": 6722433,
+      "login": "jbeveland27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
+      "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 2
     },
     {
       "id": 43244625,
@@ -65,10 +65,7 @@
       "color": "#c6538c"
     }
   ],
-  "screenshots": [
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-session-timeline/master/screenshots/demo.gif",
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-session-timeline/master/screenshots/session-timeline.png"
-  ],
+  "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",
