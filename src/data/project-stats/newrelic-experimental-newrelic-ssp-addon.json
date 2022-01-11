@@ -1,13 +1,13 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-xamarin-binding",
+  "projectFullName": "newrelic-experimental/newrelic-ssp-addon",
   "issues": {
-    "open": 3
+    "open": 0
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 14,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 3,
+  "commits": 4,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -15,25 +15,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 9002169,
+      "login": "bpschmitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9002169?v=4",
+      "htmlUrl": "https://github.com/bpschmitt",
+      "contributions": 3
+    },
+    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
-    },
-    {
-      "id": 3536684,
-      "login": "sschwartzman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
-      "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 3
-    },
-    {
-      "id": 466745,
-      "login": "vvydier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/466745?v=4",
-      "htmlUrl": "https://github.com/vvydier",
-      "contributions": 8
     }
   ],
   "languages": [
@@ -43,9 +36,9 @@
       "color": "#427819"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UyMzI=",
-      "name": "C#",
-      "color": "#178600"
+      "id": "MDg6TGFuZ3VhZ2UyODc=",
+      "name": "TypeScript",
+      "color": "#2b7489"
     }
   ],
   "screenshots": [],
