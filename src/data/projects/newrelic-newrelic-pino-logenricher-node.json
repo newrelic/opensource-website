@@ -1,0 +1,27 @@
+{
+  "name": "newrelic-pino-logenricher-node",
+  "fullName": "newrelic/newrelic-pino-logenricher-node",
+  "slug": "newrelic-newrelic-pino-logenricher-node",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Pino Log Enricher",
+  "supportUrl": "https://discuss.newrelic.com/t/node-log-enrichers-logs-in-context/88806",
+  "githubUrl": "https://github.com/newrelic/newrelic-node-log-extensions",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-pino-logenricher-node",
+  "iconUrl": null,
+  "shortDescription": "Log Enricher for the New Relic Node Agent",
+  "description": "New Relic's Pino log enricher for use with the Node Agent",
+  "ossCategory": "community-plus",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [
+    "logging",
+    "exporter"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Pino Log Enricher",
+    "url": "https://github.com/newrelic/newrelic-node-log-extensions/tree/main/packages/pino-log-enricher"
+  }
+}
