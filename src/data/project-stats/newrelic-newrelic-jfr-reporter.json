@@ -1,42 +1,35 @@
 {
   "projectFullName": "newrelic/newrelic-jfr-reporter",
   "issues": {
-    "open": 3
+    "open": 2
   },
   "releases": 1,
   "latestRelease": {
     "name": "v0.3.0",
     "date": "2020-10-01T22:40:52Z"
   },
-  "commits": 279,
-  "lastSixMonthsCommitTotal": 28,
+  "commits": 281,
+  "lastSixMonthsCommitTotal": 2,
   "contributors": 8,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 54085190,
-      "login": "breedx-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/54085190?v=4",
-      "htmlUrl": "https://github.com/breedx-nr",
-      "contributions": 95
-    },
-    {
-      "id": 34418638,
-      "login": "jack-berg",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/34418638?v=4",
-      "htmlUrl": "https://github.com/jack-berg",
-      "contributions": 1
-    },
     {
       "id": 3496648,
       "login": "jasonjkeller",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3496648?v=4",
       "htmlUrl": "https://github.com/jasonjkeller",
       "contributions": 62
+    },
+    {
+      "id": 54085190,
+      "login": "breedx-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54085190?v=4",
+      "htmlUrl": "https://github.com/breedx-nr",
+      "contributions": 95
     },
     {
       "id": 842717,
@@ -46,11 +39,11 @@
       "contributions": 5
     },
     {
-      "id": 81539,
-      "login": "kittylyst",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/81539?v=4",
-      "htmlUrl": "https://github.com/kittylyst",
-      "contributions": 3
+      "id": 34418638,
+      "login": "jack-berg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34418638?v=4",
+      "htmlUrl": "https://github.com/jack-berg",
+      "contributions": 1
     },
     {
       "id": 49817386,
@@ -58,6 +51,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/49817386?v=4",
       "htmlUrl": "https://github.com/jeffalder",
       "contributions": 15
+    },
+    {
+      "id": 75396063,
+      "login": "kford-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/75396063?v=4",
+      "htmlUrl": "https://github.com/kford-newrelic",
+      "contributions": 1
     },
     {
       "id": 24482401,
@@ -78,7 +78,7 @@
     {
       "id": "MDg6TGFuZ3VhZ2UyNzI=",
       "name": "Kotlin",
-      "color": "#F18E33"
+      "color": "#A97BFF"
     },
     {
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
