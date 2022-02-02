@@ -1,12 +1,12 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-netlify-plugin",
+  "projectFullName": "newrelic-experimental/nr1-sql-plans",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 7,
-  "lastSixMonthsCommitTotal": 7,
+  "commits": 11,
+  "lastSixMonthsCommitTotal": 11,
   "contributors": 1,
   "pullRequests": {
     "open": 0
@@ -15,11 +15,11 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 97928,
-      "login": "aaronbassett",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/97928?v=4",
-      "htmlUrl": "https://github.com/aaronbassett",
-      "contributions": 7
+      "id": 6021115,
+      "login": "amit-y",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6021115?v=4",
+      "htmlUrl": "https://github.com/amit-y",
+      "contributions": 11
     }
   ],
   "languages": [
@@ -27,6 +27,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [],

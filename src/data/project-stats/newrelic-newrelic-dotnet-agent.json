@@ -1,22 +1,36 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 69
+    "open": 71
   },
   "releases": 73,
   "latestRelease": {
     "name": "v9.5.0",
     "date": "2022-01-31T23:13:21Z"
   },
-  "commits": 503,
-  "lastSixMonthsCommitTotal": 130,
+  "commits": 505,
+  "lastSixMonthsCommitTotal": 125,
   "contributors": 20,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 4761745,
+      "login": "elucus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
+      "htmlUrl": "https://github.com/elucus",
+      "contributions": 4
+    },
+    {
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
+      "contributions": 5
+    },
     {
       "id": 3676547,
       "login": "alanwest",
@@ -30,20 +44,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
       "htmlUrl": "https://github.com/jifeingo",
       "contributions": 38
-    },
-    {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
-      "contributions": 5
-    },
-    {
-      "id": 4761745,
-      "login": "elucus",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
-      "htmlUrl": "https://github.com/elucus",
-      "contributions": 4
     },
     {
       "id": 20267975,
@@ -113,7 +113,7 @@
       "login": "nr-ahemsath",
       "avatarUrl": "https://avatars.githubusercontent.com/u/57361211?v=4",
       "htmlUrl": "https://github.com/nr-ahemsath",
-      "contributions": 92
+      "contributions": 94
     },
     {
       "id": 9950081,
