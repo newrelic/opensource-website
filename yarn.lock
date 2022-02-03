@@ -7014,10 +7014,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-gatsby-build-newrelic@1.1.16:
-  version "1.1.16"
-  resolved "https://registry.yarnpkg.com/gatsby-build-newrelic/-/gatsby-build-newrelic-1.1.16.tgz#18ac2c062ebbef0a41949dc1a8850124b7a10521"
-  integrity sha512-LO93XNvwqC6L15cq4YhSbZwgeaY6rAsFX8TYpruktcfoyhvmIrCfruJmIxBif6hmsPPaLT1tKzTZs7h4X6VlTw==
+gatsby-build-newrelic@1.1.17:
+  version "1.1.17"
+  resolved "https://registry.yarnpkg.com/gatsby-build-newrelic/-/gatsby-build-newrelic-1.1.17.tgz#332e9d57d102d68a93d52bdc12002043be8d6d92"
+  integrity sha512-5ruptBMQysYsomIkgdyN+gotJo8Kju41eYzl6q+m5l5O3qi2IwCNZUzMOOnARzIvCDr4xFQ9lOGCNGoT2QVLNw==
   dependencies:
     cross-env "^7.0.3"
     fast-glob "^3.2.5"
@@ -7026,7 +7026,7 @@ gatsby-build-newrelic@1.1.16:
     node-fetch "^2.6.1"
     uuid "3.4.0"
     winston "^3.3.3"
-    winston-to-newrelic-logs "^1.0.10"
+    winston-to-newrelic-logs "^1.0.11"
     zipkin "^0.22.0"
     zipkin-javascript-opentracing "^3.0.0"
     zipkin-transport-http "^0.22.0"
@@ -16446,10 +16446,10 @@ wildcard@^2.0.0:
   resolved "https://registry.yarnpkg.com/wildcard/-/wildcard-2.0.0.tgz#a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec"
   integrity sha512-JcKqAHLPxcdb9KM49dufGXn2x3ssnfjbcaQdLlfZsL9rH9wgDQjUtDxbo8NE0F6SFvydeu1VhZe7hZuHsB2/pw==
 
-winston-to-newrelic-logs@^1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/winston-to-newrelic-logs/-/winston-to-newrelic-logs-1.0.10.tgz#2b0255b6f1dc2797f27e99f75e98b8a804cd5111"
-  integrity sha512-jeazR6OscWhAmt5iAAYHEbTY5lrpRsRO7PhidPhxylaGk14X19xKCKYjRl2CS787m7gok8xr2a5iX2N8d6vR0A==
+winston-to-newrelic-logs@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/winston-to-newrelic-logs/-/winston-to-newrelic-logs-1.0.11.tgz#edc5cb98ca6198140764feaa2e5d5f23ff3dea36"
+  integrity sha512-JILyGg6fSR6bPXRyXAO0DZR6PYLn+jHiUFoiefurQkNqrMbrZGWCsBcnPEv5wGVghYRrXOxqbJMv+PiSeLxtkQ==
   dependencies:
     axios "^0.21.1"
     winston "^3.0.0"

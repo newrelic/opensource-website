@@ -14,7 +14,7 @@
     "date-fns": "^2.17.0",
     "feather-icons": "^4.28.0",
     "gatsby": "^3.8.0",
-    "gatsby-build-newrelic": "1.1.16",
+    "gatsby-build-newrelic": "1.1.17",
     "gatsby-image": "^3.8.0",
     "gatsby-plugin-gatsby-cloud": "^3.0.0",
     "gatsby-plugin-manifest": "^3.8.0",
@@ -66,7 +66,7 @@
   ],
   "license": "Apache-2",
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build --open-tracing-config-file ./node_modules/gatsby-build-newrelic/zipkin-local.js --graphql-tracing",
     "build:production": "GATSBY_NEWRELIC_ENV=production yarn build",
     "build:staging": "GATSBY_NEWRELIC_ENV=staging yarn build",
     "develop": "yarn clean && GATSBY_NEWRELIC_ENV=production gatsby develop",
