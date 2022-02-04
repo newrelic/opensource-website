@@ -3,10 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 21,
-  "lastSixMonthsCommitTotal": 18,
+  "releases": 2,
+  "latestRelease": {
+    "name": "v1.1",
+    "date": "2022-02-04T02:50:00Z"
+  },
+  "commits": 22,
+  "lastSixMonthsCommitTotal": 19,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -26,7 +29,7 @@
       "login": "yzhuge",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13228413?v=4",
       "htmlUrl": "https://github.com/yzhuge",
-      "contributions": 20
+      "contributions": 21
     }
   ],
   "languages": [
