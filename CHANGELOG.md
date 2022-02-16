@@ -1,3 +1,14 @@
+## [1.20.3](https://github.com/newrelic/opensource-website/compare/v1.20.2...v1.20.3) (2022-02-14)
+
+
+### Bug Fixes
+
+* remove changes from snapshot ([fcd5249](https://github.com/newrelic/opensource-website/commit/fcd5249a8effa1c2d0b7ac69271368e6dbd8247b))
+* update IO url across site ([bb5a7a8](https://github.com/newrelic/opensource-website/commit/bb5a7a82d4677715a33ca1e8ba3b6720b4ac0da4))
+* update test snapshots ([e0d9f64](https://github.com/newrelic/opensource-website/commit/e0d9f648a83528ef7b8d8298bf0dff2a12a8a05b))
+* update theme to 5.0.1 to get new Global Header ([e600626](https://github.com/newrelic/opensource-website/commit/e600626d80dff1b0571c143deedc4c73f18cd4ac))
+* update yarn.lock ([9bfc5ac](https://github.com/newrelic/opensource-website/commit/9bfc5ac97c757442979c3e85527df8b9584c37dd))
+
 ## [1.20.2](https://github.com/newrelic/opensource-website/compare/v1.20.1...v1.20.2) (2022-01-06)
 
 
