@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic-experimental/caos-ansible-roles",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
+  "commits": 2,
+  "lastSixMonthsCommitTotal": 2,
   "contributors": 1,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -19,10 +19,17 @@
       "login": "rogercoll",
       "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
       "htmlUrl": "https://github.com/rogercoll",
-      "contributions": 1
+      "contributions": 2
     }
   ],
   "languages": [],
   "screenshots": [],
-  "license": null
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }
