@@ -8,7 +8,7 @@
   },
   "title": "New Relic Winston Log Enricher",
   "supportUrl": "https://discuss.newrelic.com/t/node-log-enrichers-logs-in-context/88806",
-  "githubUrl": "https://github.com/newrelic/newrelic-winston-logenricher-node",
+  "githubUrl": "https://github.com/newrelic/newrelic-node-log-extensions",
   "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-winston-logenricher-node",
   "iconUrl": null,
   "shortDescription": "Log Enricher for the New Relic Node Agent",
@@ -22,6 +22,6 @@
   "acceptsContributions": true,
   "website": {
     "title": "New Relic Winston Log Enricher",
-    "url": "https://github.com/newrelic/newrelic-winston-logenricher-node"
+    "url": "https://github.com/newrelic/newrelic-node-log-extensions/tree/main/packages/winston-log-enricher"
   }
 }
