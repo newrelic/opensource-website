@@ -5,11 +5,11 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 2,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 1,
+  "commits": 4,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 2,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -19,10 +19,23 @@
       "login": "rogercoll",
       "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
       "htmlUrl": "https://github.com/rogercoll",
-      "contributions": 2
+      "contributions": 3
+    },
+    {
+      "id": 3380451,
+      "login": "rubenruizdegauna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
+      "htmlUrl": "https://github.com/rubenruizdegauna",
+      "contributions": 1
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U3ODY=",
+      "name": "Jinja",
+      "color": "#a52a22"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
