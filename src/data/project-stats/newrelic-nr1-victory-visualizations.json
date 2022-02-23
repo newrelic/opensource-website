@@ -3,27 +3,20 @@
   "issues": {
     "open": 2
   },
-  "releases": 28,
+  "releases": 29,
   "latestRelease": {
-    "name": "v1.7.0",
-    "date": "2021-11-05T21:19:33Z"
+    "name": "v1.7.1",
+    "date": "2022-02-23T19:57:10Z"
   },
-  "commits": 519,
-  "lastSixMonthsCommitTotal": 30,
-  "contributors": 10,
+  "commits": 522,
+  "lastSixMonthsCommitTotal": 33,
+  "contributors": 11,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 30
-    },
     {
       "id": 20293876,
       "login": "tyreer",
@@ -32,24 +25,24 @@
       "contributions": 50
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 31
+    },
+    {
+      "id": 39152388,
+      "login": "kkaiyang94",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39152388?v=4",
+      "htmlUrl": "https://github.com/kkaiyang94",
+      "contributions": 19
+    },
+    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 1
-    },
-    {
-      "id": 52055037,
-      "login": "kat-star",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52055037?v=4",
-      "htmlUrl": "https://github.com/kat-star",
-      "contributions": 10
-    },
-    {
-      "id": 5770861,
-      "login": "MichelLosier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5770861?v=4",
-      "htmlUrl": "https://github.com/MichelLosier",
       "contributions": 1
     },
     {
@@ -60,18 +53,25 @@
       "contributions": 77
     },
     {
+      "id": 52055037,
+      "login": "kat-star",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52055037?v=4",
+      "htmlUrl": "https://github.com/kat-star",
+      "contributions": 10
+    },
+    {
+      "id": 47728020,
+      "login": "tabathadelane",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47728020?v=4",
+      "htmlUrl": "https://github.com/tabathadelane",
+      "contributions": 1
+    },
+    {
       "id": 565661,
       "login": "jerelmiller",
       "avatarUrl": "https://avatars.githubusercontent.com/u/565661?v=4",
       "htmlUrl": "https://github.com/jerelmiller",
       "contributions": 44
-    },
-    {
-      "id": 12112563,
-      "login": "JuliaNocera",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12112563?v=4",
-      "htmlUrl": "https://github.com/JuliaNocera",
-      "contributions": 35
     },
     {
       "id": 38332422,
@@ -81,11 +81,18 @@
       "contributions": 126
     },
     {
-      "id": 39152388,
-      "login": "kkaiyang94",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39152388?v=4",
-      "htmlUrl": "https://github.com/kkaiyang94",
-      "contributions": 19
+      "id": 12112563,
+      "login": "JuliaNocera",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12112563?v=4",
+      "htmlUrl": "https://github.com/JuliaNocera",
+      "contributions": 35
+    },
+    {
+      "id": 5770861,
+      "login": "MichelLosier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5770861?v=4",
+      "htmlUrl": "https://github.com/MichelLosier",
+      "contributions": 1
     }
   ],
   "languages": [
