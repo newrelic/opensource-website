@@ -9,13 +9,31 @@
     "date": null
   },
   "commits": 170,
-  "lastSixMonthsCommitTotal": 46,
+  "lastSixMonthsCommitTotal": 45,
   "contributors": 11,
   "pullRequests": {
     "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOGa5oL85D0jMe",
+      "title": "Make winston dep be a peer-dep",
+      "url": "https://github.com/newrelic/newrelic-node-log-extensions/issues/14",
+      "createdAt": "2022-02-14T21:11:43Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "michaelgoin",
+        "id": "MDQ6VXNlcjExMjIzMTc4",
+        "email": "",
+        "name": "Michael Goin"
+      },
+      "number": 14,
+      "createdBy": "Michael Goin"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 32520944,
