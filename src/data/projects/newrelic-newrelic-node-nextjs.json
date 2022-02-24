@@ -1,0 +1,29 @@
+{
+  "name": "newrelic-node-nextjs",
+  "fullName": "newrelic/newrelic-node-nextjs",
+  "slug": "newrelic-newrelic-node-nextjs",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Next.js(Node.js)",
+  "supportUrl": "https://discuss.newrelic.com/tags/c/telemetry-data-platform/agents/nodeagent",
+  "githubUrl": "https://github.com/newrelic/newrelic-node-nextjs",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-node-nextjs",
+  "iconUrl": null,
+  "shortDescription": "Node.js Agent instumentation for Next.js",
+  "description": "Next.js framework instrumentation for New Relic's Node.js Agent",
+  "ossCategory": "community-plus",
+  "primaryLanguage": "JavaScript",
+  "projectTags": [
+    "agent",
+    "exporter",
+    "lib"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Next.js(Node.js)",
+    "url": "https://github.com/newrelic/newrelic-node-nextjs"
+  },
+  "defaultBranch": "main"
+}
