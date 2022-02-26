@@ -1,29 +1,22 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-java-http4s",
+  "projectFullName": "newrelic-experimental/newrelic-java-micronaut-http",
   "issues": {
     "open": 0
   },
   "releases": 1,
   "latestRelease": {
     "name": "1.0",
-    "date": "2021-01-29T14:52:58Z"
+    "date": "2022-02-25T19:37:08Z"
   },
-  "commits": 10,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 3,
+  "commits": 5,
+  "lastSixMonthsCommitTotal": 5,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 8822859,
-      "login": "dhilpipre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
-      "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 7
-    },
     {
       "id": 41585091,
       "login": "hsinghkalsi",
@@ -32,11 +25,11 @@
       "contributions": 1
     },
     {
-      "id": 3536684,
-      "login": "sschwartzman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
-      "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 1
+      "id": 8822859,
+      "login": "dhilpipre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
+      "htmlUrl": "https://github.com/dhilpipre",
+      "contributions": 4
     }
   ],
   "languages": [
@@ -49,11 +42,6 @@
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
       "color": "#b07219"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxNjk=",
-      "name": "Scala",
-      "color": "#c22d40"
     }
   ],
   "screenshots": [],
