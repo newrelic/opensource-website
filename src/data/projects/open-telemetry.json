@@ -37,29 +37,17 @@
   "relatedProjects": ["newrelic-newrelic-java-agent-ansible-role"],
   "team": [
     {
-      "name": "John Watson",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/858731?s=460&v=4",
-      "role": "Java Maintainer",
-      "githubUrl": "https://github.com/jkwatson"
-    },
-    {
-      "name": "Tyler Yahn",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/5543599?s=460&u=f34eb596f4aeb4bff9eb2d57975df03f724a7968&v=4",
-      "role": "Go Maintainer",
-      "githubUrl": "https://github.com/MrAlias"
-    },
-    {
-      "name": "Johannes Tax",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/16337442?s=460&u=a85de161008fedf3539c622c2163090036e02e69&v=4",
-      "role": "C++ Approver",
-      "githubUrl": "https://github.com/pyohannes"
-    },
-    {
       "name": "Alan West",
       "avatarUrl": "https://avatars0.githubusercontent.com/u/3676547?s=460&u=e51a590905c98e54c0ce86cb024f14f0836d0792&v=4",
-      "role": ".NET",
+      "role": ".NET maintainer",
       "githubUrl": "https://github.com/alanwest"
     },
+    {
+      "name": "Chris Ventura",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45495992?s=64&v=4",
+      "role": "Java Maintainer, Metrics Approver",
+      "githubUrl": "https://github.com/nrcventura"
+    }
     {
       "name": "Erik Lucus",
       "avatarUrl": "https://avatars3.githubusercontent.com/u/4761745?s=460&v=4",
@@ -67,40 +55,40 @@
       "githubUrl": "https://github.com/elucus"
     },
     {
-      "name": "Bryan Clement",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/1342804?s=460&v=4",
-      "role": "C++",
-      "githubUrl": "https://github.com/lykkin"
-    },
+      "name": "Jack Berg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34418638?s=64&v=4",
+      "role": "Java Maintainer, Metrics Approver",
+      "githubUrl": "https://github.com/jack-berg"
+    }
     {
-      "name": "Michael Lang",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/18387?s=460&v=4",
-      "role": "Ruby",
-      "githubUrl": "https://github.com/mwlang"
-    },
+      "name": "Svetlana Brennan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?s=64&v=4",
+      "role": "JavaScript",
+      "githubUrl": "https://github.com/svetlanabrennan"
+    }
     {
-      "name": "Jason Plumb",
-      "avatarUrl": "https://avatars1.githubusercontent.com/u/54085190?s=460&u=b8812ef576c38434643500d5c57e79164cc4ee7d&v=4",
-      "role": "Java",
-      "githubUrl": "https://github.com/breedx-nr"
-    },
+      "name": "Martin Kuba",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4933147?s=64&v=4",
+      "role": "Client Instrumentation",
+      "githubUrl": "https://github.com/martinkuba"
+    }
     {
-      "name": "Abhi Arora",
-      "avatarUrl": "https://avatars0.githubusercontent.com/u/779638?s=460&u=84c03a03b1c5ccdf6d28e0e74f670679a92c87df&v=4",
-      "role": "Java",
-      "githubUrl": "https://github.com/abhihub"
-    },
+      "name": "Tyler Helmuth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12352919?s=64&v=4",
+      "role": "Collector, Python",
+      "githubUrl": "https://github.com/TylerHelmuth"
+    }
     {
-      "name": "Vince Foley",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/39946?s=460&v=4",
-      "role": "Erlang",
-      "githubUrl": "https://github.com/binaryseed"
-    },
+      "name": "Reese Lee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48657837?s=64&v=4",
+      "role": "OpenTelemetry",
+      "githubUrl": "https://github.com/reese-lee"
+    }
     {
-      "name": "Victor Soares",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/21367523?s=460&u=3583c3abb055f9c127101ba2cc4589e17aefb847&v=4",
-      "role": "",
-      "githubUrl": "https://github.com/victorNewRelic"
+      "name": "Sharr Creeden",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36242226?s=64&v=4",
+      "role": "OpenTelemetry",
+      "githubUrl": "https://github.com/sharrmander"
     }
   ]
 }
