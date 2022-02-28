@@ -1,3 +1,10 @@
+## [1.20.4](https://github.com/newrelic/opensource-website/compare/v1.20.3...v1.20.4) (2022-02-28)
+
+
+### Bug Fixes
+
+* updated support link for all Node.js agent modules ([c79ae45](https://github.com/newrelic/opensource-website/commit/c79ae45f968b93685767255e4c026a5582787838))
+
 ## [1.20.3](https://github.com/newrelic/opensource-website/compare/v1.20.2...v1.20.3) (2022-02-14)
 
 
