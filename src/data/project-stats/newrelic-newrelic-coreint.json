@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-coreint",
   "issues": {
-    "open": 44
+    "open": 45
   },
   "releases": 0,
   "latestRelease": null,
@@ -12,7 +12,25 @@
     "open": 2
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOFJqhi85Eb6At",
+      "title": "Add proxy support to HPA metric adapter",
+      "url": "https://github.com/newrelic/newrelic-coreint/issues/297",
+      "createdAt": "2022-02-23T14:28:06Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "davidgit",
+        "id": "MDQ6VXNlcjc5NDk4",
+        "email": "",
+        "name": "David Gay i Tello"
+      },
+      "number": 297,
+      "createdBy": "David Gay i Tello"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 969721,
