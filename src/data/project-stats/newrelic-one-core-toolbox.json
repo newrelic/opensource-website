@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/one-core-toolbox",
   "issues": {
-    "open": 8
+    "open": 16
   },
   "releases": 0,
   "latestRelease": null,
@@ -12,7 +12,59 @@
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOGMq7xs5Ftfyl",
+      "title": "Link the \"how to fix\" buttons to the design tokens documentation",
+      "url": "https://github.com/newrelic/one-core-toolbox/issues/12",
+      "createdAt": "2022-03-15T11:34:52Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "danielgolden",
+        "id": "MDQ6VXNlcjgxMjk4OQ==",
+        "email": "",
+        "name": "Daniel Golden"
+      },
+      "number": 12,
+      "createdBy": "Daniel Golden"
+    },
+    {
+      "id": "I_kwDOGMq7xs5FtiNY",
+      "title": "Consider grouping color issues by color",
+      "url": "https://github.com/newrelic/one-core-toolbox/issues/16",
+      "createdAt": "2022-03-15T11:45:31Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "danielgolden",
+        "id": "MDQ6VXNlcjgxMjk4OQ==",
+        "email": "",
+        "name": "Daniel Golden"
+      },
+      "number": 16,
+      "createdBy": "Daniel Golden"
+    },
+    {
+      "id": "I_kwDOGMq7xs5FtjHc",
+      "title": "Fix bug where part of menu popover is hidden",
+      "url": "https://github.com/newrelic/one-core-toolbox/issues/17",
+      "createdAt": "2022-03-15T11:49:21Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "danielgolden",
+        "id": "MDQ6VXNlcjgxMjk4OQ==",
+        "email": "",
+        "name": "Daniel Golden"
+      },
+      "number": 17,
+      "createdBy": "Daniel Golden"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 812989,

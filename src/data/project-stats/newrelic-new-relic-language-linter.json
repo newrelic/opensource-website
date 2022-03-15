@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/new-relic-language-linter",
   "issues": {
-    "open": 11
+    "open": 13
   },
   "releases": 0,
   "latestRelease": null,
@@ -12,7 +12,25 @@
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOGtash85FtgEQ",
+      "title": "Fix typo in \"dicitonary\"",
+      "url": "https://github.com/newrelic/new-relic-language-linter/issues/24",
+      "createdAt": "2022-03-15T11:36:04Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "danielgolden",
+        "id": "MDQ6VXNlcjgxMjk4OQ==",
+        "email": "",
+        "name": "Daniel Golden"
+      },
+      "number": 24,
+      "createdBy": "Daniel Golden"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 812989,
