@@ -9,13 +9,30 @@
     "date": "2022-01-18T10:42:12Z"
   },
   "commits": 99,
-  "lastSixMonthsCommitTotal": 73,
+  "lastSixMonthsCommitTotal": 71,
   "contributors": 5,
   "pullRequests": {
     "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
+    {
+      "id": "I_kwDOGGT_-c4_BV0Y",
+      "title": "Avoid pod restart on external metrics configmap update",
+      "url": "https://github.com/newrelic/newrelic-k8s-metrics-adapter/issues/32",
+      "createdAt": "2021-11-18T12:45:44Z",
+      "comments": {
+        "totalCount": 2
+      },
+      "author": {
+        "login": "mohanchazz",
+        "id": "MDQ6VXNlcjQwMzAwNTY2",
+        "email": "",
+        "name": "Mohankumar Ramamoorthy"
+      },
+      "number": 32,
+      "createdBy": "Mohankumar Ramamoorthy"
+    },
     {
       "id": "I_kwDOGGT_-c5Aja0U",
       "title": "Test and document Proxy",
