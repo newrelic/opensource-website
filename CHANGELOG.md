@@ -1,3 +1,10 @@
+## [1.20.5](https://github.com/newrelic/opensource-website/compare/v1.20.4...v1.20.5) (2022-03-16)
+
+
+### Bug Fixes
+
+* move to `sass` package ([5ceab58](https://github.com/newrelic/opensource-website/commit/5ceab580fcedd9341b023177039d67102928bcee))
+
 ## [1.20.4](https://github.com/newrelic/opensource-website/compare/v1.20.3...v1.20.4) (2022-02-28)
 
 
