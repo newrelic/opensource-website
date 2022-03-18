@@ -5,21 +5,28 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 19,
-  "lastSixMonthsCommitTotal": 19,
-  "contributors": 1,
+  "commits": 29,
+  "lastSixMonthsCommitTotal": 29,
+  "contributors": 2,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 13892277,
+      "login": "bencgreenberg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13892277?v=4",
+      "htmlUrl": "https://github.com/bencgreenberg",
+      "contributions": 3
+    },
+    {
       "id": 44537285,
       "login": "pachicodes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/44537285?v=4",
       "htmlUrl": "https://github.com/pachicodes",
-      "contributions": 18
+      "contributions": 22
     }
   ],
   "languages": [
@@ -27,6 +34,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
