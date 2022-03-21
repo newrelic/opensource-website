@@ -1,12 +1,12 @@
 {
   "projectFullName": "newrelic/one-core-toolbox",
   "issues": {
-    "open": 12
+    "open": 13
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 123,
-  "lastSixMonthsCommitTotal": 123,
+  "commits": 125,
+  "lastSixMonthsCommitTotal": 125,
   "contributors": 1,
   "pullRequests": {
     "open": 0
@@ -29,6 +29,23 @@
       },
       "number": 16,
       "createdBy": "Daniel Golden"
+    },
+    {
+      "id": "I_kwDOGMq7xs5GDmzC",
+      "title": "Add node.setRelaunchData() on all nodes that have been modified by the color linter",
+      "url": "https://github.com/newrelic/one-core-toolbox/issues/22",
+      "createdAt": "2022-03-21T12:59:24Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "danielgolden",
+        "id": "MDQ6VXNlcjgxMjk4OQ==",
+        "email": "",
+        "name": "Daniel Golden"
+      },
+      "number": 22,
+      "createdBy": "Daniel Golden"
     }
   ],
   "cachedContributors": [
@@ -37,7 +54,7 @@
       "login": "danielgolden",
       "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
       "htmlUrl": "https://github.com/danielgolden",
-      "contributions": 117
+      "contributions": 119
     }
   ],
   "languages": [
