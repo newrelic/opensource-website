@@ -114,7 +114,7 @@ jobs:
               required_status_checks: null,
               restrictions: {
                 users: [],
-                teams: ['developer-enablement']
+                teams: ['docs-engineering']
               },
               enforce_admins: true,
               required_pull_request_reviews: {

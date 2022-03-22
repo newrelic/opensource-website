@@ -1,6 +1,6 @@
 # Emergency Runbook -- opensource.newrelic.com
 
-This site is hosted on [Gatsby Cloud](https://www.gatsbyjs.com/products/cloud/). It is maintained and supported by New Relic's Developer Enablement team. If you have any questions or comments, please reach out to <developer-enablement@newrelic.com>.
+This site is hosted on [Gatsby Cloud](https://www.gatsbyjs.com/products/cloud/). It is maintained and supported by New Relic's Docs Engineering team. If you have any questions or comments, please reach out to <docs-engineering@newrelic.com>.
 
 ## Alerts
 
@@ -22,7 +22,7 @@ First, determine the desired previous build:
 
 Steps to redeploy in Gatsby Cloud:
 
-1. Log into Gatsby Cloud using your GitHub login. 
+1. Log into Gatsby Cloud using your GitHub login.
 2. Select the `opensource-website` site, main branch.
    ![Opensource Sites](./images/screenshot_05.png)
 3. Click the `View production history` button to see all the previous builds that have run.
