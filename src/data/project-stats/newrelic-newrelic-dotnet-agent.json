@@ -3,27 +3,20 @@
   "issues": {
     "open": 77
   },
-  "releases": 77,
+  "releases": 78,
   "latestRelease": {
-    "name": "v9.6.1",
-    "date": "2022-03-15T16:58:58Z"
+    "name": "experimental-lock-contention-build",
+    "date": null
   },
   "commits": 523,
   "lastSixMonthsCommitTotal": 119,
   "contributors": 21,
   "pullRequests": {
-    "open": 2
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 654808,
-      "login": "tehbio",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/654808?v=4",
-      "htmlUrl": "https://github.com/tehbio",
-      "contributions": 27
-    },
     {
       "id": 4761745,
       "login": "elucus",
@@ -32,17 +25,24 @@
       "contributions": 4
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 1
+      "id": 3522458,
+      "login": "jifeingo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
+      "htmlUrl": "https://github.com/jifeingo",
+      "contributions": 38
     },
     {
       "id": 3676547,
       "login": "alanwest",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3676547?v=4",
       "htmlUrl": "https://github.com/alanwest",
+      "contributions": 5
+    },
+    {
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
       "contributions": 5
     },
     {
@@ -60,18 +60,18 @@
       "contributions": 1
     },
     {
-      "id": 3522458,
-      "login": "jifeingo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
-      "htmlUrl": "https://github.com/jifeingo",
-      "contributions": 38
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
     },
     {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
-      "contributions": 5
+      "id": 654808,
+      "login": "tehbio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/654808?v=4",
+      "htmlUrl": "https://github.com/tehbio",
+      "contributions": 27
     },
     {
       "id": 58010132,
