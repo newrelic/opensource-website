@@ -1,15 +1,15 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-java-jmx-harvester",
+  "projectFullName": "newrelic-experimental/nr1-drop-rule-explorer",
   "issues": {
     "open": 0
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 7,
-  "lastSixMonthsCommitTotal": 3,
+  "commits": 10,
+  "lastSixMonthsCommitTotal": 10,
   "contributors": 2,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -19,21 +19,26 @@
       "login": "hsinghkalsi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/41585091?v=4",
       "htmlUrl": "https://github.com/hsinghkalsi",
-      "contributions": 2
+      "contributions": 1
     },
     {
-      "id": 4061375,
-      "login": "ricegi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4061375?v=4",
-      "htmlUrl": "https://github.com/ricegi",
-      "contributions": 5
+      "id": 55132258,
+      "login": "jsbnr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55132258?v=4",
+      "htmlUrl": "https://github.com/jsbnr",
+      "contributions": 9
     }
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2UxNTg=",
-      "name": "Java",
-      "color": "#b07219"
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [],
