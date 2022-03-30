@@ -1,12 +1,15 @@
 {
-  "projectFullName": "newrelic/new-relic-extension-pack",
+  "projectFullName": "newrelic-experimental/newrelic-eks-blueprints-addon",
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 26,
-  "lastSixMonthsCommitTotal": 0,
+  "releases": 8,
+  "latestRelease": {
+    "name": "v1.0.4",
+    "date": null
+  },
+  "commits": 35,
+  "lastSixMonthsCommitTotal": 35,
   "contributors": 3,
   "pullRequests": {
     "open": 0
@@ -15,11 +18,11 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 1395158,
-      "login": "jpvajda",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1395158?v=4",
-      "htmlUrl": "https://github.com/jpvajda",
-      "contributions": 15
+      "id": 9002169,
+      "login": "bpschmitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9002169?v=4",
+      "htmlUrl": "https://github.com/bpschmitt",
+      "contributions": 18
     },
     {
       "id": 43244625,
@@ -29,14 +32,19 @@
       "contributions": 1
     },
     {
-      "id": 3752614,
-      "login": "tanben",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3752614?v=4",
-      "htmlUrl": "https://github.com/tanben",
-      "contributions": 1
+      "id": 1874937,
+      "login": "bizob2828",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
+      "htmlUrl": "https://github.com/bizob2828",
+      "contributions": 7
     }
   ],
   "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
+    },
     {
       "id": "MDg6TGFuZ3VhZ2UyODc=",
       "name": "TypeScript",
