@@ -1,39 +1,21 @@
 {
   "projectFullName": "newrelic/nri-kube-events",
   "issues": {
-    "open": 8
+    "open": 7
   },
-  "releases": 7,
+  "releases": 8,
   "latestRelease": {
-    "name": "v1.7.0",
-    "date": "2022-01-18T10:41:28Z"
+    "name": "v1.8.0",
+    "date": "2022-04-05T16:22:36Z"
   },
-  "commits": 50,
-  "lastSixMonthsCommitTotal": 11,
+  "commits": 52,
+  "lastSixMonthsCommitTotal": 13,
   "contributors": 12,
   "pullRequests": {
-    "open": 5
+    "open": 3
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU4NTQ2MjQ2NDg=",
-      "title": "[CI/CD] Integration Version is no set automatically",
-      "url": "https://github.com/newrelic/nri-kube-events/issues/26",
-      "createdAt": "2021-04-09T15:24:02Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "paologallinaharbur",
-        "id": "MDQ6VXNlcjQzMzM1NzUw",
-        "email": "",
-        "name": "PaoloGallina"
-      },
-      "number": 26,
-      "createdBy": "PaoloGallina"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 53659978,
@@ -57,11 +39,11 @@
       "contributions": 2
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 1
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 8
     },
     {
       "id": 43244625,
@@ -78,11 +60,11 @@
       "contributions": 1
     },
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 7
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 1
     },
     {
       "id": 929261,
@@ -135,6 +117,11 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U3NzY=",
+      "name": "Mustache",
+      "color": "#724b3b"
     }
   ],
   "screenshots": [],
