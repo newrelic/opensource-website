@@ -8,11 +8,11 @@
     "name": "v1.7.1",
     "date": "2022-04-04T10:40:30Z"
   },
-  "commits": 120,
-  "lastSixMonthsCommitTotal": 13,
+  "commits": 122,
+  "lastSixMonthsCommitTotal": 15,
   "contributors": 18,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -32,18 +32,18 @@
       "contributions": 2
     },
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 2
-    },
-    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
+    },
+    {
+      "id": 159076,
+      "login": "douglascamata",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/159076?v=4",
+      "htmlUrl": "https://github.com/douglascamata",
+      "contributions": 9
     },
     {
       "id": 1684801,
@@ -53,11 +53,11 @@
       "contributions": 1
     },
     {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 1
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 4
     },
     {
       "id": 5143130,
@@ -137,11 +137,11 @@
       "contributions": 14
     },
     {
-      "id": 159076,
-      "login": "douglascamata",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/159076?v=4",
-      "htmlUrl": "https://github.com/douglascamata",
-      "contributions": 9
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 1
     }
   ],
   "languages": [
@@ -164,6 +164,11 @@
       "id": "MDg6TGFuZ3VhZ2U0MDM=",
       "name": "Makefile",
       "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U3NzY=",
+      "name": "Mustache",
+      "color": "#724b3b"
     }
   ],
   "screenshots": [],
