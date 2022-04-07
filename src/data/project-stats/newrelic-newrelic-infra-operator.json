@@ -3,13 +3,13 @@
   "issues": {
     "open": 22
   },
-  "releases": 5,
+  "releases": 6,
   "latestRelease": {
-    "name": "v0.5.0",
-    "date": "2021-09-20T14:52:45Z"
+    "name": "v0.6.0",
+    "date": "2022-04-07T12:29:18Z"
   },
-  "commits": 78,
-  "lastSixMonthsCommitTotal": 14,
+  "commits": 79,
+  "lastSixMonthsCommitTotal": 15,
   "contributors": 6,
   "pullRequests": {
     "open": 2
@@ -18,10 +18,10 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
       "contributions": 1
     },
     {
@@ -32,6 +32,13 @@
       "contributions": 44
     },
     {
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
+    },
+    {
       "id": 969721,
       "login": "roobre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
@@ -39,18 +46,11 @@
       "contributions": 5
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 1
-    },
-    {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 21
+      "contributions": 22
     },
     {
       "id": 19733683,
@@ -90,6 +90,11 @@
       "id": "MDg6TGFuZ3VhZ2U3NDY=",
       "name": "Starlark",
       "color": "#76d275"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U3NzY=",
+      "name": "Mustache",
+      "color": "#724b3b"
     }
   ],
   "screenshots": [],
