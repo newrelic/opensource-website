@@ -3,16 +3,16 @@
   "issues": {
     "open": 10
   },
-  "releases": 5,
+  "releases": 6,
   "latestRelease": {
-    "name": "newrelic-k8s-metrics-adapter-0.6.0",
-    "date": "2022-04-07T15:32:33Z"
+    "name": "newrelic-k8s-metrics-adapter-0.7.0",
+    "date": "2022-04-11T10:03:34Z"
   },
-  "commits": 106,
-  "lastSixMonthsCommitTotal": 11,
+  "commits": 107,
+  "lastSixMonthsCommitTotal": 12,
   "contributors": 7,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -53,6 +53,13 @@
   ],
   "cachedContributors": [
     {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 11
+    },
+    {
       "id": 16539896,
       "login": "invidian",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16539896?v=4",
@@ -65,13 +72,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
       "htmlUrl": "https://github.com/marcsanmi",
       "contributions": 1
-    },
-    {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 11
     },
     {
       "id": 43335750,
@@ -92,7 +92,7 @@
       "login": "alvarocabanas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
       "htmlUrl": "https://github.com/alvarocabanas",
-      "contributions": 2
+      "contributions": 3
     },
     {
       "id": 53659978,
