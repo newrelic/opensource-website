@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 77
+    "open": 75
   },
   "releases": 81,
   "latestRelease": {
     "name": "v9.7.1",
     "date": "2022-04-13T07:45:05Z"
   },
-  "commits": 538,
-  "lastSixMonthsCommitTotal": 112,
+  "commits": 539,
+  "lastSixMonthsCommitTotal": 113,
   "contributors": 21,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 3522458,
-      "login": "jifeingo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
-      "htmlUrl": "https://github.com/jifeingo",
-      "contributions": 38
-    },
     {
       "id": 3676547,
       "login": "alanwest",
@@ -37,6 +30,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
       "htmlUrl": "https://github.com/elucus",
       "contributions": 4
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
     },
     {
       "id": 654808,
@@ -67,18 +67,11 @@
       "contributions": 31
     },
     {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
-      "contributions": 5
-    },
-    {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 1
+      "id": 3522458,
+      "login": "jifeingo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
+      "htmlUrl": "https://github.com/jifeingo",
+      "contributions": 38
     },
     {
       "id": 58010132,
@@ -86,6 +79,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/58010132?v=4",
       "htmlUrl": "https://github.com/mmfred",
       "contributions": 2
+    },
+    {
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
+      "contributions": 5
     },
     {
       "id": 69914680,
@@ -106,7 +106,7 @@
       "login": "jaffinito",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6098021?v=4",
       "htmlUrl": "https://github.com/jaffinito",
-      "contributions": 129
+      "contributions": 130
     },
     {
       "id": 30146,
