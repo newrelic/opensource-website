@@ -1,13 +1,13 @@
 {
-  "projectFullName": "newrelic-experimental/nr-nodejs-logger",
+  "projectFullName": "newrelic-experimental/nr1-gaps",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 10,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 2,
+  "commits": 2,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 1,
   "pullRequests": {
     "open": 0
   },
@@ -15,18 +15,11 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
+      "id": 13043208,
+      "login": "Kav91",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
+      "htmlUrl": "https://github.com/Kav91",
       "contributions": 1
-    },
-    {
-      "id": 54076100,
-      "login": "sdewitt-newrelic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/54076100?v=4",
-      "htmlUrl": "https://github.com/sdewitt-newrelic",
-      "contributions": 9
     }
   ],
   "languages": [
@@ -36,7 +29,10 @@
       "color": "#f1e05a"
     }
   ],
-  "screenshots": [],
+  "screenshots": [
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-gaps/master/catalog/screenshots/screenshot1.png",
+    "https://raw.githubusercontent.com/newrelic-experimental/nr1-gaps/master/catalog/screenshots/screenshot2.png"
+  ],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",
