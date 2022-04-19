@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-prometheus",
   "issues": {
-    "open": 17
+    "open": 19
   },
   "releases": 34,
   "latestRelease": {
     "name": "nri-prometheus-1.14.0",
     "date": "2022-04-13T08:09:35Z"
   },
-  "commits": 170,
-  "lastSixMonthsCommitTotal": 23,
+  "commits": 171,
+  "lastSixMonthsCommitTotal": 24,
   "contributors": 21,
   "pullRequests": {
-    "open": 12
+    "open": 11
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -32,6 +32,23 @@
       },
       "number": 81,
       "createdBy": "PaoloGallina"
+    },
+    {
+      "id": "I_kwDODF6SMM5IAlOo",
+      "title": "Status of `prometheusScrape` in `nri-prometheus` chart",
+      "url": "https://github.com/newrelic/nri-prometheus/issues/281",
+      "createdAt": "2021-12-06T15:44:21Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "danielgblanco",
+        "id": "MDQ6VXNlcjQxNTg3MzQ=",
+        "email": "",
+        "name": "Daniel Gomez Blanco"
+      },
+      "number": 281,
+      "createdBy": "Daniel Gomez Blanco"
     }
   ],
   "cachedContributors": [
@@ -40,6 +57,13 @@
       "login": "jlegoff",
       "avatarUrl": "https://avatars.githubusercontent.com/u/976883?v=4",
       "htmlUrl": "https://github.com/jlegoff",
+      "contributions": 1
+    },
+    {
+      "id": 1444638,
+      "login": "vihangm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
+      "htmlUrl": "https://github.com/vihangm",
       "contributions": 1
     },
     {
@@ -57,18 +81,11 @@
       "contributions": 1
     },
     {
-      "id": 5297542,
-      "login": "alejandrodnm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
-      "htmlUrl": "https://github.com/alejandrodnm",
-      "contributions": 22
-    },
-    {
-      "id": 13438133,
-      "login": "matiasburni",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
-      "htmlUrl": "https://github.com/matiasburni",
-      "contributions": 1
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 5
     },
     {
       "id": 2054195,
@@ -82,7 +99,7 @@
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 16
+      "contributions": 17
     },
     {
       "id": 929261,
@@ -92,18 +109,11 @@
       "contributions": 1
     },
     {
-      "id": 1444638,
-      "login": "vihangm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
-      "htmlUrl": "https://github.com/vihangm",
+      "id": 13438133,
+      "login": "matiasburni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
+      "htmlUrl": "https://github.com/matiasburni",
       "contributions": 1
-    },
-    {
-      "id": 53659978,
-      "login": "kang-makes",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
-      "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 2
     },
     {
       "id": 19733683,
@@ -111,6 +121,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
       "contributions": 1
+    },
+    {
+      "id": 5297542,
+      "login": "alejandrodnm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
+      "htmlUrl": "https://github.com/alejandrodnm",
+      "contributions": 22
     },
     {
       "id": 3638421,
@@ -176,11 +193,11 @@
       "contributions": 3
     },
     {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 5
+      "id": 53659978,
+      "login": "kang-makes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
+      "htmlUrl": "https://github.com/kang-makes",
+      "contributions": 2
     }
   ],
   "languages": [
