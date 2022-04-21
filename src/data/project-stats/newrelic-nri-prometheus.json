@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-prometheus",
   "issues": {
-    "open": 19
+    "open": 16
   },
-  "releases": 34,
+  "releases": 35,
   "latestRelease": {
-    "name": "nri-prometheus-1.14.0",
-    "date": "2022-04-13T08:09:35Z"
+    "name": "nri-prometheus-2.1.0",
+    "date": "2022-04-21T14:14:33Z"
   },
-  "commits": 172,
-  "lastSixMonthsCommitTotal": 25,
+  "commits": 174,
+  "lastSixMonthsCommitTotal": 27,
   "contributors": 21,
   "pullRequests": {
-    "open": 11
+    "open": 9
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -32,23 +32,6 @@
       },
       "number": 81,
       "createdBy": "PaoloGallina"
-    },
-    {
-      "id": "I_kwDODF6SMM5IAlOo",
-      "title": "Status of `prometheusScrape` in `nri-prometheus` chart",
-      "url": "https://github.com/newrelic/nri-prometheus/issues/281",
-      "createdAt": "2021-12-06T15:44:21Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "danielgblanco",
-        "id": "MDQ6VXNlcjQxNTg3MzQ=",
-        "email": "",
-        "name": "Daniel Gomez Blanco"
-      },
-      "number": 281,
-      "createdBy": "Daniel Gomez Blanco"
     }
   ],
   "cachedContributors": [
@@ -60,11 +43,11 @@
       "contributions": 1
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 18
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
     },
     {
       "id": 16539896,
@@ -81,18 +64,18 @@
       "contributions": 1
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
+      "id": 1444638,
+      "login": "vihangm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
+      "htmlUrl": "https://github.com/vihangm",
       "contributions": 1
     },
     {
-      "id": 13438133,
-      "login": "matiasburni",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
-      "htmlUrl": "https://github.com/matiasburni",
-      "contributions": 1
+      "id": 53659978,
+      "login": "kang-makes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
+      "htmlUrl": "https://github.com/kang-makes",
+      "contributions": 2
     },
     {
       "id": 2054195,
@@ -109,18 +92,18 @@
       "contributions": 1
     },
     {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 5
+      "id": 3638421,
+      "login": "alvarocabanas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
+      "htmlUrl": "https://github.com/alvarocabanas",
+      "contributions": 3
     },
     {
-      "id": 1444638,
-      "login": "vihangm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
-      "htmlUrl": "https://github.com/vihangm",
-      "contributions": 1
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 19
     },
     {
       "id": 5297542,
@@ -130,11 +113,11 @@
       "contributions": 22
     },
     {
-      "id": 3638421,
-      "login": "alvarocabanas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
-      "htmlUrl": "https://github.com/alvarocabanas",
-      "contributions": 3
+      "id": 13438133,
+      "login": "matiasburni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
+      "htmlUrl": "https://github.com/matiasburni",
+      "contributions": 1
     },
     {
       "id": 717815,
@@ -193,11 +176,11 @@
       "contributions": 3
     },
     {
-      "id": 53659978,
-      "login": "kang-makes",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
-      "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 2
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 5
     }
   ],
   "languages": [
