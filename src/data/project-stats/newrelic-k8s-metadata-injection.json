@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/k8s-metadata-injection",
   "issues": {
-    "open": 4
+    "open": 3
   },
-  "releases": 19,
+  "releases": 20,
   "latestRelease": {
-    "name": "nri-metadata-injection-2.2.1",
-    "date": "2022-04-13T08:10:39Z"
+    "name": "nri-metadata-injection-3.0.0",
+    "date": "2022-04-22T06:00:41Z"
   },
-  "commits": 129,
-  "lastSixMonthsCommitTotal": 20,
+  "commits": 130,
+  "lastSixMonthsCommitTotal": 21,
   "contributors": 19,
   "pullRequests": {
-    "open": 6
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -32,24 +32,17 @@
       "contributions": 2
     },
     {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 1
+      "id": 1083296,
+      "login": "smoya",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1083296?v=4",
+      "htmlUrl": "https://github.com/smoya",
+      "contributions": 19
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 1
-    },
-    {
-      "id": 1684801,
-      "login": "cvpinhe",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1684801?v=4",
-      "htmlUrl": "https://github.com/cvpinhe",
+      "id": 53659978,
+      "login": "kang-makes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
+      "htmlUrl": "https://github.com/kang-makes",
       "contributions": 1
     },
     {
@@ -57,7 +50,7 @@
       "login": "sigilioso",
       "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
       "htmlUrl": "https://github.com/sigilioso",
-      "contributions": 1
+      "contributions": 2
     },
     {
       "id": 43335750,
@@ -74,18 +67,11 @@
       "contributions": 1
     },
     {
-      "id": 1083296,
-      "login": "smoya",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1083296?v=4",
-      "htmlUrl": "https://github.com/smoya",
-      "contributions": 19
-    },
-    {
-      "id": 159076,
-      "login": "douglascamata",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/159076?v=4",
-      "htmlUrl": "https://github.com/douglascamata",
-      "contributions": 9
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 1
     },
     {
       "id": 5297542,
@@ -95,11 +81,25 @@
       "contributions": 12
     },
     {
+      "id": 1684801,
+      "login": "cvpinhe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1684801?v=4",
+      "htmlUrl": "https://github.com/cvpinhe",
+      "contributions": 1
+    },
+    {
       "id": 969721,
       "login": "roobre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
       "htmlUrl": "https://github.com/roobre",
       "contributions": 7
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 1
     },
     {
       "id": 488391,
@@ -144,11 +144,11 @@
       "contributions": 14
     },
     {
-      "id": 53659978,
-      "login": "kang-makes",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
-      "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 1
+      "id": 159076,
+      "login": "douglascamata",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/159076?v=4",
+      "htmlUrl": "https://github.com/douglascamata",
+      "contributions": 9
     }
   ],
   "languages": [
