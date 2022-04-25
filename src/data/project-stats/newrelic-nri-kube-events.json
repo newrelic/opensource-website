@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-kube-events",
   "issues": {
-    "open": 5
+    "open": 4
   },
   "releases": 9,
   "latestRelease": {
     "name": "nri-kube-events-1.14.0",
     "date": "2022-04-07T11:58:59Z"
   },
-  "commits": 55,
-  "lastSixMonthsCommitTotal": 15,
+  "commits": 56,
+  "lastSixMonthsCommitTotal": 16,
   "contributors": 13,
   "pullRequests": {
-    "open": 6
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -43,7 +43,7 @@
       "login": "marcsanmi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
       "htmlUrl": "https://github.com/marcsanmi",
-      "contributions": 1
+      "contributions": 2
     },
     {
       "id": 43244625,
@@ -124,11 +124,6 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2U3NzY=",
-      "name": "Mustache",
-      "color": "#724b3b"
     }
   ],
   "screenshots": [],
