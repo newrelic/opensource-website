@@ -1,15 +1,15 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-java-mule-4",
+  "projectFullName": "newrelic-experimental/newrelic-java-oracle-r2dbc",
   "issues": {
     "open": 0
   },
-  "releases": 2,
+  "releases": 1,
   "latestRelease": {
-    "name": "v2.0",
-    "date": "2021-08-30T20:47:45Z"
+    "name": "1.0",
+    "date": "2022-04-25T15:41:37Z"
   },
-  "commits": 55,
-  "lastSixMonthsCommitTotal": 2,
+  "commits": 3,
+  "lastSixMonthsCommitTotal": 3,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -18,18 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 41585091,
+      "login": "hsinghkalsi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41585091?v=4",
+      "htmlUrl": "https://github.com/hsinghkalsi",
+      "contributions": 1
+    },
+    {
       "id": 8822859,
       "login": "dhilpipre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
       "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 46
-    },
-    {
-      "id": 3536684,
-      "login": "sschwartzman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
-      "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 1
+      "contributions": 2
     }
   ],
   "languages": [
