@@ -3,16 +3,16 @@
   "issues": {
     "open": 4
   },
-  "releases": 10,
+  "releases": 11,
   "latestRelease": {
-    "name": "nri-kube-events-2.1.0",
-    "date": "2022-04-25T13:09:41Z"
+    "name": "nri-kube-events-2.2.0",
+    "date": "2022-04-27T06:26:20Z"
   },
-  "commits": 58,
-  "lastSixMonthsCommitTotal": 18,
+  "commits": 59,
+  "lastSixMonthsCommitTotal": 19,
   "contributors": 13,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -43,20 +43,13 @@
       "login": "marcsanmi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
       "htmlUrl": "https://github.com/marcsanmi",
-      "contributions": 4
+      "contributions": 5
     },
     {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 1
-    },
-    {
-      "id": 79498,
-      "login": "davidgit",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
-      "htmlUrl": "https://github.com/davidgit",
       "contributions": 1
     },
     {
@@ -67,10 +60,10 @@
       "contributions": 9
     },
     {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
+      "id": 79498,
+      "login": "davidgit",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
+      "htmlUrl": "https://github.com/davidgit",
       "contributions": 1
     },
     {
@@ -78,6 +71,13 @@
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 1
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
     },
     {
@@ -124,6 +124,16 @@
       "id": "MDg6TGFuZ3VhZ2UxOTA=",
       "name": "Go",
       "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U3NzY=",
+      "name": "Mustache",
+      "color": "#724b3b"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MzE=",
+      "name": "Smarty",
+      "color": "#f0c040"
     }
   ],
   "screenshots": [],
