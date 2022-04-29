@@ -1,13 +1,13 @@
 {
-  "projectFullName": "newrelic/newrelic-ocoe-launch-pad",
+  "projectFullName": "newrelic-experimental/nr-synthetics-config-drift-detector",
   "issues": {
     "open": 0
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 13,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 3,
+  "commits": 5,
+  "lastSixMonthsCommitTotal": 5,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -15,33 +15,21 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 41585091,
+      "login": "hsinghkalsi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41585091?v=4",
+      "htmlUrl": "https://github.com/hsinghkalsi",
+      "contributions": 1
+    },
+    {
       "id": 55132258,
       "login": "jsbnr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/55132258?v=4",
       "htmlUrl": "https://github.com/jsbnr",
-      "contributions": 8
-    },
-    {
-      "id": 16081795,
-      "login": "sskilbred",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/16081795?v=4",
-      "htmlUrl": "https://github.com/sskilbred",
-      "contributions": 1
-    },
-    {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 1
+      "contributions": 4
     }
   ],
   "languages": [
-    {
-      "id": "MDg6TGFuZ3VhZ2U1MzU=",
-      "name": "Dockerfile",
-      "color": "#384d54"
-    },
     {
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
