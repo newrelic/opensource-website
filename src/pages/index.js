@@ -35,6 +35,16 @@ export const query = graphql`
         }
       }
     }
+    pixie: allProjects(
+      filter: {
+        slug: { eq: "pixie" }
+        projectType: { eq: "external" }
+      }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
     openTelemetry: allProjects(
       filter: {
         slug: { eq: "open-telemetry" }
