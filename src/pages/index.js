@@ -105,6 +105,7 @@ const HomePage = ({ data, pageContext }) => {
     .slice(0, 5);
 
   const externalProjects = [
+    get(data, 'pixie.nodes[0]'),
     get(data, 'openTelemetry.nodes[0]'),
     get(data, 'w3cDistributedTracingWg.nodes[0]'),
     get(data, 'adoptOpenJdk.nodes[0]'),
