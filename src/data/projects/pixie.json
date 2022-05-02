@@ -1,0 +1,54 @@
+{
+  "name": "pixie",
+  "fullName": "pixie",
+  "slug": "pixie",
+  "owner": {
+    "login": "pixie",
+    "type": "Organization"
+  },
+  "title": "Pixie",
+  "supportUrl": "",
+  "isParentProject": true,
+  "githubUrl": "https://github.com/pixie-io/pixie",
+  "permalink": "https://opensource.newrelic.com/projects/pixie",
+  "iconUrl": "../images/pixie.png",
+  "shortDescription": "Pixie is an open source observability tool for Kubernetes applications.",
+  "description": "Pixie is an open source observability tool for Kubernetes applications.",
+  "ossCategory": null,
+  "projectTags": ["pixie"],
+  "acceptsContributions": false,
+  "website": {
+    "title": "Pixie",
+    "url": "https://px.dev/"
+  },
+  "version": "",
+  "projectType": "external",
+  "subProjects": [],
+  "relatedProjects": [],
+  "team": [
+    {
+      "name": "Zain Asgar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2660846?v=4",
+      "role": "Pixie Maintainer",
+      "githubUrl": "https://github.com/zasgar"
+    },
+    {
+      "name": "Michelle Nguyen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1484035?v=4",
+      "role": "Pixie Maintainer",
+      "githubUrl": "https://github.com/aimichelle"
+    },
+    {
+      "name": "Natalie Serrino",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5460125?v=4",
+      "role": "Pixie Maintainer",
+      "githubUrl": "https://github.com/nserrino"
+    },
+    {
+      "name": "Omid Azizi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16814284?v=4",
+      "role": "Pixie Maintainer",
+      "githubUrl": "https://github.com/oazizi000"
+    }
+  ]
+}
