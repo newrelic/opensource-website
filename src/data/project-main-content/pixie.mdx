@@ -7,17 +7,21 @@ projectConfig: "src/data/projects/pixie.json"
 
 ## What is Pixie?
 
-Pixie is an open source observability tool for Kubernetes applications. [Pixie uses eBPF](https://docs.px.dev/about-pixie/pixie-ebpf/) to automatically capture telemetry data without the need for manual instrumentation.
+Pixie is an open source observability tool for Kubernetes applications. Use Pixie to:
 
-Developers can use Pixie to view the high-level state of their cluster (service maps, cluster resources, application traffic) and also drill-down into more detailed views (pod state, flame graphs, individual full body application requests).
+* Monitor your network ([tutorial](https://docs.px.dev/tutorials/pixie-101/network-monitoring))
+* Inspect the health of your infrastructure ([tutorial](https://docs.px.dev/tutorials/pixie-101/infra-health))
+* See service maps and service LET metrics ([tutorial](https://docs.px.dev/tutorials/pixie-101/service-performance))
+* View individual full-body application requests ([tutorial](https://docs.px.dev/tutorials/pixie-101/request-tracing))
+* Continuously profile your applications ([tutorial](https://docs.px.dev/tutorials/pixie-101/profiler))
 
 Pixie's main features include:
 
-* **Auto-telemetry**: Pixie uses eBPF to automatically collect telemetry data such as full-body requests, resource and network metrics, application profiles, and [more](https://docs.px.dev/about-pixie/data-sources).
+* **Auto-telemetry**: [Pixie uses eBPF](https://docs.px.dev/about-pixie/pixie-ebpf/) automatically collect telemetry data.
 
-* **In-cluster edge compute**: Pixie collects, stores and queries all telemetry data locally in the cluster. Pixie uses less than 5% of cluster CPU, and in most cases less than 2%.
+* **In-cluster edge compute**: Pixie stores and queries all telemetry data locally in your cluster.
 
-* **Scriptability**: [PxL](https://docs.px.dev/reference/pxl/), Pixie’s flexible Pythonic query language, can be used across Pixie’s UI, CLI, and client APIs. Pixie provides a set of [community scripts](https://github.com/pixie-io/pixie/tree/main/src/pxl_scripts) for [common use cases](https://docs.px.dev/tutorials/pixie-101).
+* **Scriptability**: Pixie’s flexible query language, can be used across Pixie’s UI, CLI, and client APIs. Pixie provides a set of [community scripts](https://github.com/pixie-io/pixie/tree/main/src/pxl_scripts) for common use cases.
 
 For more information, check out Pixie's [documentation](https://docs.px.dev/).
 
