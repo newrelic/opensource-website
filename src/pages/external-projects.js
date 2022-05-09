@@ -22,10 +22,7 @@ export const query = graphql`
       }
     }
     pixie: allProjects(
-      filter: {
-        slug: { eq: "pixie" }
-        projectType: { eq: "external" }
-      }
+      filter: { slug: { eq: "pixie" }, projectType: { eq: "external" } }
     ) {
       nodes {
         ...projectFields
