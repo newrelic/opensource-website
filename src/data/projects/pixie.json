@@ -1,0 +1,102 @@
+{
+  "name": "pixie",
+  "fullName": "pixie",
+  "slug": "pixie",
+  "owner": {
+    "login": "pixie",
+    "type": "Organization"
+  },
+  "title": "Pixie",
+  "supportUrl": "",
+  "isParentProject": true,
+  "githubUrl": "https://github.com/pixie-io/pixie",
+  "permalink": "https://opensource.newrelic.com/projects/pixie",
+  "iconUrl": "../images/pixie.png",
+  "shortDescription": "Pixie is an open source observability tool for Kubernetes applications.",
+  "description": "Pixie is an open source observability tool for Kubernetes applications.",
+  "ossCategory": null,
+  "projectTags": ["pixie"],
+  "acceptsContributions": false,
+  "website": {
+    "title": "Pixie",
+    "url": "https://px.dev/"
+  },
+  "version": "",
+  "projectType": "external",
+  "subProjects": [],
+  "relatedProjects": [],
+  "team": [
+    {
+      "name": "Zain Asgar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2660846?v=4",
+      "role": "Maintainer",
+      "githubUrl": "https://github.com/zasgar"
+    },
+    {
+      "name": "Michelle Nguyen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1484035?v=4",
+      "role": "Maintainer",
+      "githubUrl": "https://github.com/aimichelle"
+    },
+    {
+      "name": "Natalie Serrino",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5460125?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/nserrino"
+    },
+    {
+      "name": "Omid Azizi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16814284?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/oazizi000"
+    },
+    {
+      "name": "Phillip Kuznetsov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5456019?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/philkuz"
+    },
+    {
+      "name": "Yaxiong Zhao",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49417456?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/yzhao1012"
+    },
+    {
+      "name": "Vihang Mehta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/vihangm"
+    },
+    {
+      "name": "Nick Lanam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/314133?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/NickLanam"
+    },
+    {
+      "name": "James Bartlett",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10334089?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/JamesMBartlett"
+    },
+    {
+      "name": "Pete Stevenson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/809015?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/etep"
+    },
+    {
+      "name": "Ryan Cheng",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22607368?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/chengruizhe"
+    },
+    {
+      "name": "Hannah Troisi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
+      "role": "Contributor",
+      "githubUrl": "https://github.com/htroisi"
+    }
+  ]
+}

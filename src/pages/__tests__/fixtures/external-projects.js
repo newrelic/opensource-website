@@ -268,6 +268,123 @@ export default {
           },
         },
       },
+      {
+        node: {
+          id: '2a382f8b-b5b4-5e70-bbb5-4bc5edb2edfb',
+          acceptsContributions: false,
+          name: 'pixie',
+          title: 'Pixie',
+          fullName: 'pixie',
+          slug: 'pixie',
+          isParentProject: true,
+          stats: null,
+          githubUrl: 'https://github.com/pixie-io/pixie',
+          defaultBranch: null,
+          contributingGuideUrl: null,
+          iconUrl: '../images/pixie.png',
+          description:
+            'Pixie is an open source observability tool for Kubernetes applications.',
+          ossCategory: null,
+          owner: {
+            login: 'pixie',
+            type: 'Organization',
+          },
+          permalink: 'https://opensource.newrelic.com/projects/pixie',
+          primaryLanguage: null,
+          shortDescription:
+            'Pixie is an open source observability tool for Kubernetes applications.',
+          supportUrl: '',
+          projectTags: [
+            {
+              title: 'Pixie',
+              slug: 'pixie',
+            },
+          ],
+          team: [
+            {
+              name: 'Zain Asgar',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/2660846?v=4',
+              githubUrl: 'https://github.com/zasgar',
+              role: 'Maintainer',
+            },
+            {
+              name: 'Michelle Nguyen',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/1484035?v=4',
+              githubUrl: 'https://github.com/aimichelle',
+              role: 'Maintainer',
+            },
+            {
+              name: 'Natalie Serrino',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/5460125?v=4',
+              githubUrl: 'https://github.com/nserrino',
+              role: 'Contributor',
+            },
+            {
+              name: 'Omid Azizi',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/16814284?v=4',
+              githubUrl: 'https://github.com/oazizi000',
+              role: 'Contributor',
+            },
+            {
+              name: 'Phillip Kuznetsov',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/5456019?v=4',
+              githubUrl: 'https://github.com/philkuz',
+              role: 'Contributor',
+            },
+            {
+              name: 'Yaxiong Zhao',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/49417456?v=4',
+              githubUrl: 'https://github.com/yzhao1012',
+              role: 'Contributor',
+            },
+            {
+              name: 'Vihang Mehta',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/1444638?v=4',
+              githubUrl: 'https://github.com/vihangm',
+              role: 'Contributor',
+            },
+            {
+              name: 'Nick Lanam',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/314133?v=4',
+              githubUrl: 'https://github.com/NickLanam',
+              role: 'Contributor',
+            },
+            {
+              name: 'James Bartlett',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/10334089?v=4',
+              githubUrl: 'https://github.com/JamesMBartlett',
+              role: 'Contributor',
+            },
+            {
+              name: 'Pete Stevenson',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/809015?v=4',
+              githubUrl: 'https://github.com/etep',
+              role: 'Contributor',
+            },
+            {
+              name: 'Ryan Cheng',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/22607368?v=4',
+              githubUrl: 'https://github.com/chengruizhe',
+              role: 'Contributor',
+            },
+            {
+              name: 'Hannah Troisi',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/66266496?v=4',
+              githubUrl: 'https://github.com/htroisi',
+              role: 'Contributor',
+            },
+          ],
+          website: {
+            url: 'https://px.dev/',
+          },
+          mainContent: {
+            mdx: {
+              compiledMdx:
+                'var _excluded = ["components"];\n\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  "path": "/projects/pixie",\n  "date": "05/02/2022",\n  "title": "Pixie",\n  "projectConfig": "src/data/projects/pixie.json"\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = "wrapper";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, _excluded);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: "MDXLayout"\n  }), mdx("h2", null, "What is Pixie?"), mdx("p", null, mdx("a", {\n    parentName: "p",\n    "href": "https://docs.px.dev/about-pixie/pixie-ebpf/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Pixie uses eBPF"), " automatically collect telemetry data. Use Pixie to:"), mdx("ul", null, mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/network-monitoring",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Monitor your network")), mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/infra-health",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Inspect the health of your infrastructure")), mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/service-performance",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "See service maps and service LET metrics")), mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/request-tracing",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "View individual full-body application requests")), mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/profiler",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Continuously profile your applications"))), mdx("p", null, "For more information, check out Pixie\'s ", mdx("a", {\n    parentName: "p",\n    "href": "https://docs.px.dev/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "documentation"), "."), mdx("h2", null, "How is New Relic Involved?"), mdx("p", null, "Pixie was contributed by New Relic to the ", mdx("a", {\n    parentName: "p",\n    "href": "https://www.cncf.io/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Cloud Native Computing Foundation (CNCF)"), " as a ", mdx("a", {\n    parentName: "p",\n    "href": "https://www.cncf.io/sandbox-projects/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Sandbox project"), " in June 2021. New Relic is a CNCF ", mdx("a", {\n    parentName: "p",\n    "href": "https://www.cncf.io/about/members/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Platinum Member"), "."));\n}\n;\nMDXContent.isMDXComponent = true;',
+            },
+          },
+        },
+      },
     ],
   },
   openTelemetry: {
@@ -538,6 +655,125 @@ export default {
           mdx: {
             compiledMdx:
               'function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsx mdx */\nvar _frontmatter = {\n  "path": "/projects/adopt-open-jdk",\n  "date": "05/01/2020",\n  "title": "Adopt OpenJDK",\n  "projectConfig": "src/data/projects/adopt-open-jdk.json"\n};\n\nvar makeShortcode = function makeShortcode(name) {\n  return function MDXDefaultShortcode(props) {\n    console.warn("Component " + name + " was not imported, exported, or provided by MDXProvider as global scope");\n    return mdx("div", props);\n  };\n};\n\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = "wrapper";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, ["components"]);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: "MDXLayout"\n  }), mdx("h2", null, "How New Relic is Involved"), mdx("p", null, "New Relic is a sponsor of ", mdx("a", _extends({\n    parentName: "p"\n  }, {\n    "href": "https://adoptopenjdk.net",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }), "AdoptOpenJDK"), " and participates in technical work related to the project, including:"), mdx("ul", null, mdx("li", {\n    parentName: "ul"\n  }, "Performance Regression testing"), mdx("li", {\n    parentName: "ul"\n  }, "Java Flight Recorder (JFR) and Java Mission Control (JMC)"), mdx("li", {\n    parentName: "ul"\n  }, "Beta testing"), mdx("li", {\n    parentName: "ul"\n  }, "Build tooling")), mdx("p", null, "We also use Adopt\'s binaries extensively in our own JVM-based services and recommend them as the preferred upgrade path from Oracle\'s binaries."));\n}\n;\nMDXContent.isMDXComponent = true;',
+          },
+        },
+      },
+    ],
+  },
+  pixie: {
+    nodes: [
+      {
+        id: '2a382f8b-b5b4-5e70-bbb5-4bc5edb2edfb',
+        acceptsContributions: false,
+        name: 'pixie',
+        title: 'Pixie',
+        fullName: 'pixie',
+        slug: 'pixie',
+        isParentProject: true,
+        stats: null,
+        githubUrl: 'https://github.com/pixie-io/pixie',
+        defaultBranch: null,
+        contributingGuideUrl: null,
+        iconUrl: '../images/pixie.png',
+        description:
+          'Pixie is an open source observability tool for Kubernetes applications.',
+        ossCategory: null,
+        owner: {
+          login: 'pixie',
+          type: 'Organization',
+        },
+        permalink: 'https://opensource.newrelic.com/projects/pixie',
+        primaryLanguage: null,
+        shortDescription:
+          'Pixie is an open source observability tool for Kubernetes applications.',
+        supportUrl: '',
+        projectTags: [
+          {
+            title: 'Pixie',
+            slug: 'pixie',
+          },
+        ],
+        team: [
+          {
+            name: 'Zain Asgar',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/2660846?v=4',
+            githubUrl: 'https://github.com/zasgar',
+            role: 'Maintainer',
+          },
+          {
+            name: 'Michelle Nguyen',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/1484035?v=4',
+            githubUrl: 'https://github.com/aimichelle',
+            role: 'Maintainer',
+          },
+          {
+            name: 'Natalie Serrino',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/5460125?v=4',
+            githubUrl: 'https://github.com/nserrino',
+            role: 'Contributor',
+          },
+          {
+            name: 'Omid Azizi',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/16814284?v=4',
+            githubUrl: 'https://github.com/oazizi000',
+            role: 'Contributor',
+          },
+          {
+            name: 'Phillip Kuznetsov',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/5456019?v=4',
+            githubUrl: 'https://github.com/philkuz',
+            role: 'Contributor',
+          },
+          {
+            name: 'Yaxiong Zhao',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/49417456?v=4',
+            githubUrl: 'https://github.com/yzhao1012',
+            role: 'Contributor',
+          },
+          {
+            name: 'Vihang Mehta',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/1444638?v=4',
+            githubUrl: 'https://github.com/vihangm',
+            role: 'Contributor',
+          },
+          {
+            name: 'Nick Lanam',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/314133?v=4',
+            githubUrl: 'https://github.com/NickLanam',
+            role: 'Contributor',
+          },
+          {
+            name: 'James Bartlett',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/10334089?v=4',
+            githubUrl: 'https://github.com/JamesMBartlett',
+            role: 'Contributor',
+          },
+          {
+            name: 'Pete Stevenson',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/809015?v=4',
+            githubUrl: 'https://github.com/etep',
+            role: 'Contributor',
+          },
+          {
+            name: 'Ryan Cheng',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/22607368?v=4',
+            githubUrl: 'https://github.com/chengruizhe',
+            role: 'Contributor',
+          },
+          {
+            name: 'Hannah Troisi',
+            avatarUrl: 'https://avatars.githubusercontent.com/u/66266496?v=4',
+            githubUrl: 'https://github.com/htroisi',
+            role: 'Contributor',
+          },
+        ],
+        website: {
+          url: 'https://px.dev/',
+        },
+        mainContent: {
+          mdx: {
+            compiledMdx:
+              'var _excluded = ["components"];\n\nfunction _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }\n\nfunction _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }\n\nfunction _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }\n\n/* @jsxRuntime classic */\n\n/* @jsx mdx */\nvar _frontmatter = {\n  "path": "/projects/pixie",\n  "date": "05/02/2022",\n  "title": "Pixie",\n  "projectConfig": "src/data/projects/pixie.json"\n};\nvar layoutProps = {\n  _frontmatter: _frontmatter\n};\nvar MDXLayout = "wrapper";\nreturn function MDXContent(_ref) {\n  var components = _ref.components,\n      props = _objectWithoutProperties(_ref, _excluded);\n\n  return mdx(MDXLayout, _extends({}, layoutProps, props, {\n    components: components,\n    mdxType: "MDXLayout"\n  }), mdx("h2", null, "What is Pixie?"), mdx("p", null, mdx("a", {\n    parentName: "p",\n    "href": "https://docs.px.dev/about-pixie/pixie-ebpf/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Pixie uses eBPF"), " automatically collect telemetry data. Use Pixie to:"), mdx("ul", null, mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/network-monitoring",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Monitor your network")), mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/infra-health",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Inspect the health of your infrastructure")), mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/service-performance",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "See service maps and service LET metrics")), mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/request-tracing",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "View individual full-body application requests")), mdx("li", {\n    parentName: "ul"\n  }, mdx("a", {\n    parentName: "li",\n    "href": "https://docs.px.dev/tutorials/pixie-101/profiler",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Continuously profile your applications"))), mdx("p", null, "For more information, check out Pixie\'s ", mdx("a", {\n    parentName: "p",\n    "href": "https://docs.px.dev/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "documentation"), "."), mdx("h2", null, "How is New Relic Involved?"), mdx("p", null, "Pixie was contributed by New Relic to the ", mdx("a", {\n    parentName: "p",\n    "href": "https://www.cncf.io/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Cloud Native Computing Foundation (CNCF)"), " as a ", mdx("a", {\n    parentName: "p",\n    "href": "https://www.cncf.io/sandbox-projects/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Sandbox project"), " in June 2021. New Relic is a CNCF ", mdx("a", {\n    parentName: "p",\n    "href": "https://www.cncf.io/about/members/",\n    "target": "__blank",\n    "rel": "noopener noreferrer"\n  }, "Platinum Member"), "."));\n}\n;\nMDXContent.isMDXComponent = true;',
           },
         },
       },

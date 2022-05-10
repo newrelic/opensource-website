@@ -1,3 +1,17 @@
+## [1.20.6](https://github.com/newrelic/opensource-website/compare/v1.20.5...v1.20.6) (2022-05-10)
+
+
+### Bug Fixes
+
+* adding pixie to set of project tags ([f0d52d8](https://github.com/newrelic/opensource-website/commit/f0d52d8b386b0c87acb2e3beb14d0e64822e18e9))
+
+## [1.20.5](https://github.com/newrelic/opensource-website/compare/v1.20.4...v1.20.5) (2022-03-16)
+
+
+### Bug Fixes
+
+* move to `sass` package ([5ceab58](https://github.com/newrelic/opensource-website/commit/5ceab580fcedd9341b023177039d67102928bcee))
+
 ## [1.20.4](https://github.com/newrelic/opensource-website/compare/v1.20.3...v1.20.4) (2022-02-28)
 
 
