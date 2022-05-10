@@ -21,6 +21,13 @@ export const query = graphql`
         }
       }
     }
+    pixie: allProjects(
+      filter: { slug: { eq: "pixie" }, projectType: { eq: "external" } }
+    ) {
+      nodes {
+        ...projectFields
+      }
+    }
     openTelemetry: allProjects(
       filter: {
         slug: { eq: "open-telemetry" }
@@ -61,10 +68,12 @@ export const query = graphql`
 `;
 
 const ExternalProjectsPage = ({ data, pageContext }) => {
+  const pixie = get(data, 'pixie.nodes[0]');
   const openTelemetry = get(data, 'openTelemetry.nodes[0]');
   const w3cDistributedTracingWg = get(data, 'w3cDistributedTracingWg.nodes[0]');
   const adoptOpenJdk = get(data, 'adoptOpenJdk.nodes[0]');
   const externalProjects = [
+    pixie,
     openTelemetry,
     w3cDistributedTracingWg,
     adoptOpenJdk,
@@ -74,6 +83,7 @@ const ExternalProjectsPage = ({ data, pageContext }) => {
   );
   const otherProjects = otherProjectsData.filter((project) => {
     if (
+      project.fullName === pixie.fullName ||
       project.fullName === openTelemetry.fullName ||
       project.fullName === w3cDistributedTracingWg.fullName ||
       project.fullName === adoptOpenJdk.fullName
