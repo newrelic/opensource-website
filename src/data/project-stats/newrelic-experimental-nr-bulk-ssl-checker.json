@@ -1,13 +1,13 @@
 {
-  "projectFullName": "newrelic-experimental/talisker",
+  "projectFullName": "newrelic-experimental/nr-bulk-ssl-checker",
   "issues": {
     "open": 0
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 5,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 2,
+  "commits": 8,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 1,
   "pullRequests": {
     "open": 0
   },
@@ -19,14 +19,7 @@
       "login": "jsbnr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/55132258?v=4",
       "htmlUrl": "https://github.com/jsbnr",
-      "contributions": 4
-    },
-    {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 1
+      "contributions": 5
     }
   ],
   "languages": [
@@ -47,12 +40,5 @@
     }
   ],
   "screenshots": [],
-  "license": {
-    "id": "MDc6TGljZW5zZTI=",
-    "name": "Apache License 2.0",
-    "spdxId": "Apache-2.0",
-    "url": "http://choosealicense.com/licenses/apache-2.0/",
-    "featured": true,
-    "key": "apache-2.0"
-  }
+  "license": null
 }
