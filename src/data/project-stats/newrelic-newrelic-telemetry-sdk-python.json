@@ -15,7 +15,25 @@
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "MDU6SXNzdWU0ODUzNjc4MjQ=",
+      "title": "Add a retry strategy for urllib3.",
+      "url": "https://github.com/newrelic/newrelic-telemetry-sdk-python/issues/2",
+      "createdAt": "2019-08-26T18:09:57Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "a-feld",
+        "id": "MDQ6VXNlcjYzNzQwMzI=",
+        "email": "",
+        "name": "Allan Feldman"
+      },
+      "number": 2,
+      "createdBy": "Allan Feldman"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 9435570,
