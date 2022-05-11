@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-k8s-metrics-adapter",
   "issues": {
-    "open": 8
+    "open": 6
   },
   "releases": 11,
   "latestRelease": {
@@ -15,56 +15,21 @@
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "I_kwDOGGT_-c4_BV0Y",
-      "title": "Avoid pod restart on external metrics configmap update",
-      "url": "https://github.com/newrelic/newrelic-k8s-metrics-adapter/issues/32",
-      "createdAt": "2021-11-18T12:45:44Z",
-      "comments": {
-        "totalCount": 2
-      },
-      "author": {
-        "login": "mohanchazz",
-        "id": "MDQ6VXNlcjQwMzAwNTY2",
-        "email": "",
-        "name": "Mohankumar Ramamoorthy"
-      },
-      "number": 32,
-      "createdBy": "Mohankumar Ramamoorthy"
-    },
-    {
-      "id": "I_kwDOGGT_-c5Aja0U",
-      "title": "Test and document Proxy",
-      "url": "https://github.com/newrelic/newrelic-k8s-metrics-adapter/issues/33",
-      "createdAt": "2021-12-17T08:55:16Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "paologallinaharbur",
-        "id": "MDQ6VXNlcjQzMzM1NzUw",
-        "email": "",
-        "name": "PaoloGallina"
-      },
-      "number": 33,
-      "createdBy": "PaoloGallina"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 11
-    },
     {
       "id": 16539896,
       "login": "invidian",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16539896?v=4",
       "htmlUrl": "https://github.com/invidian",
       "contributions": 47
+    },
+    {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 11
     },
     {
       "id": 8235696,

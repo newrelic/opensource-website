@@ -1,28 +1,28 @@
 {
   "projectFullName": "newrelic/nri-kube-events",
   "issues": {
-    "open": 2
+    "open": 1
   },
-  "releases": 14,
+  "releases": 15,
   "latestRelease": {
-    "name": "v1.8.1",
-    "date": "2022-05-05T13:58:56Z"
+    "name": "nri-kube-events-2.2.3",
+    "date": "2022-05-11T11:17:40Z"
   },
-  "commits": 64,
-  "lastSixMonthsCommitTotal": 23,
+  "commits": 65,
+  "lastSixMonthsCommitTotal": 24,
   "contributors": 13,
   "pullRequests": {
-    "open": 6
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 10
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 1
     },
     {
       "id": 16539896,
@@ -39,18 +39,18 @@
       "contributions": 1
     },
     {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 1
-    },
-    {
       "id": 5143130,
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
       "contributions": 1
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 10
     },
     {
       "id": 929261,
