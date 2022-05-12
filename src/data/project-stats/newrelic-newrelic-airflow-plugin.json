@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-airflow-plugin",
   "issues": {
-    "open": 11
+    "open": 10
   },
   "releases": 5,
   "latestRelease": {
@@ -16,23 +16,6 @@
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU1MTk1MDM4NTA=",
-      "title": "Verify correctness of generated metrics.",
-      "url": "https://github.com/newrelic/newrelic-airflow-plugin/issues/1",
-      "createdAt": "2019-11-07T20:48:26Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "BrandonTheBuilder",
-        "id": "MDQ6VXNlcjEzODgxNDg3",
-        "email": "",
-        "name": "Loren Arthur"
-      },
-      "number": 1,
-      "createdBy": "Loren Arthur"
-    },
     {
       "id": "MDU6SXNzdWU1MTk1NTM5NzY=",
       "title": "Read plugin configuration from airflow.cfg",
@@ -53,17 +36,17 @@
   ],
   "cachedContributors": [
     {
-      "id": 6374032,
-      "login": "a-feld",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6374032?v=4",
-      "htmlUrl": "https://github.com/a-feld",
-      "contributions": 3
-    },
-    {
       "id": 2586758,
       "login": "mrbungie",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2586758?v=4",
       "htmlUrl": "https://github.com/mrbungie",
+      "contributions": 3
+    },
+    {
+      "id": 6374032,
+      "login": "a-feld",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6374032?v=4",
+      "htmlUrl": "https://github.com/a-feld",
       "contributions": 3
     },
     {
