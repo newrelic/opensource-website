@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`External Projects Page Renders correctly 1`] = `
-.emotion-113 {
+.emotion-104 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,26 +14,23 @@ exports[`External Projects Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-62 {
-  background-color: var(--color-neutrals-100);
+.emotion-76 {
+  background-color: var(--system-text-primary-light);
+  box-shadow: var(--shadow-2);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 80;
 }
 
-.dark-mode .emotion-62 {
-  background-color: var(--color-dark-100);
-}
-
-.dark-mode .emotion-62 {
+.dark-mode .emotion-76 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-61 {
+.emotion-75 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -47,7 +44,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   padding: 0 var(--site-content-padding);
 }
 
-.emotion-43 {
+.emotion-57 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -61,41 +58,6 @@ exports[`External Projects Page Renders correctly 1`] = `
   position: relative;
 }
 
-@media screen and (max-width: 800px) {
-  .emotion-43::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    height: 100%;
-    width: 2rem;
-    pointer-events: none;
-    background: linear-gradient(
-                    to right,
-                    rgba(244,245,245,0),
-                    var(--color-neutrals-100)
-                  );
-  }
-
-  .dark-mode .emotion-43::after {
-    background: linear-gradient(
-                      to right,
-                      rgba(34,53,60,0),
-                      var(--color-dark-100)
-                    );
-  }
-}
-
-@media screen and (max-width: 545px) {
-  .emotion-43 {
-    overflow: visible;
-  }
-
-  .emotion-43::after {
-    background: none!important;
-    width: 0!important;
-  }
-}
-
 .emotion-21 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -105,10 +67,9 @@ exports[`External Projects Page Renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-right: 1rem;
 }
 
-@media screen and (max-width: 545px) {
+@media screen and (max-width: 1070px) {
   .emotion-21 {
     display: none;
   }
@@ -116,22 +77,18 @@ exports[`External Projects Page Renders correctly 1`] = `
 
 .emotion-20 {
   fill: none;
-  width: 79px;
+  width: 150px;
+}
+
+.emotion-20 .text-color {
+  fill: var(--color-white);
 }
 
 .emotion-0 {
-  fill: var(--heading-text-color);
+  fill: var(--primary-text-color);
 }
 
-.emotion-18 {
-  fill: #008c99;
-}
-
-.emotion-19 {
-  fill: #70ccd3;
-}
-
-.emotion-35 {
+.emotion-51 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -144,13 +101,13 @@ exports[`External Projects Page Renders correctly 1`] = `
   display: none;
 }
 
-@media screen and (max-width: 545px) {
-  .emotion-35 {
+@media screen and (max-width: 1070px) {
+  .emotion-51 {
     display: block;
   }
 }
 
-.emotion-25 {
+.emotion-43 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -165,7 +122,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 3px;
   font-family: var(--primary-font-family);
   line-height: 1;
@@ -185,45 +142,24 @@ exports[`External Projects Page Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-25:hover {
-  color: var(--link-hover-color);
-}
-
-.emotion-24 {
-  width: 1.125rem;
-  height: 1.125rem;
-  fill: none;
-}
-
-.emotion-22 {
-  fill: #008c99;
-}
-
-.emotion-23 {
-  fill: #70ccd3;
-}
-
-.emotion-34 {
+.emotion-50 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
-  --background-color: white;
-  --text-color: var(--color-neutrals-900);
   position: absolute;
   top: calc(100% + var(--arrow-size));
   display: none;
-  background: var(--background-color);
+  background: var(--secondary-background-color);
   border-radius: 0.25rem;
   z-index: 1000;
   padding: 0.5rem;
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-34 {
-  --text-color: var(--color-dark-900);
-  --background-color: var(--color-dark-050);
+.dark-mode .emotion-50 {
+  background-color: var(--primary-hover-color);
 }
 
-.emotion-34::before {
+.emotion-50::before {
   content: '';
   position: absolute;
   display: block;
@@ -237,13 +173,13 @@ exports[`External Projects Page Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-33 {
+.emotion-49 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
 }
 
-.emotion-27 {
+.emotion-45 {
   display: block;
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
@@ -254,18 +190,18 @@ exports[`External Projects Page Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-27:hover {
+.emotion-45:hover {
   color: var(--text-color);
   cursor: pointer;
-  background: var(--color-neutrals-200);
+  background: var(--primary-hover-color);
   border-radius: 0.25rem;
 }
 
-.dark-mode .emotion-27:hover {
-  background: var(--color-dark-200);
+.dark-mode .emotion-45:hover {
+  background-color: var(--system-border-regular-dark);
 }
 
-.emotion-42 {
+.emotion-56 {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -275,26 +211,35 @@ exports[`External Projects Page Renders correctly 1`] = `
   display: flex;
   list-style-type: none;
   white-space: nowrap;
-  overflow-x: auto;
   position: relative;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: -ms-autohiding-scrollbar;
+  margin-left: 60px;
 }
 
-.emotion-42 >li {
-  margin: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
+
+
+.emotion-56 li >a {
+  font-size: 18px;
 }
 
-@media screen and (max-width: 545px) {
-  .emotion-42 {
+
+
+.emotion-56 li:first-child >a {
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  .emotion-56 {
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .emotion-56 {
     display: none;
   }
 }
 
-.emotion-36 {
+.emotion-52 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -304,26 +249,22 @@ exports[`External Projects Page Renders correctly 1`] = `
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  padding: 0.25rem 9px;
-  color: var(--secondary-text-color);
-  font-size: 0.6875rem;
+  padding: 0.25rem 0.5625rem;
+  color: var(--system-text-primary-dark);
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-weight: 400;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
-.emotion-36:hover {
-  background-color: var(--color-neutrals-300);
-  color: var(--color-neutrals-700);
+.emotion-52:hover {
+  color: var(--system-text-secondary-dark);
 }
 
-.dark-mode .emotion-36:hover {
-  background-color: var(--color-dark-300);
-  color: var(--color-dark-700);
-}
-
-.emotion-60 {
+.emotion-74 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -336,99 +277,67 @@ exports[`External Projects Page Renders correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+  background: var(--system-text-primary-light);
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.emotion-60 >li {
+.emotion-74 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
-  color: var(--secondary-text-color);
 }
 
-.emotion-60 >li:not(:first-of-type) {
+.emotion-74 >li:not(:first-of-type) .emotion-74 >li:not(:last-of-type) {
   margin-left: 0.5rem;
 }
 
-@media screen and (max-width: 760px) {
-  .emotion-60 {
-    -webkit-flex: unset;
-    -ms-flex: unset;
-    flex: unset;
-  }
-}
-
-.emotion-50 {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-}
-
-@media screen and (max-width: 760px) {
-  .emotion-50 {
-    -webkit-flex: unset;
-    -ms-flex: unset;
-    flex: unset;
-  }
-}
-
-.emotion-45 {
-  color: var(--secondary-text-color);
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: none;
-}
-
-.emotion-45:hover {
-  color: var(--secondary-text-hover-color);
-}
-
-@media screen and (max-width: 760px) {
-  .emotion-45 {
-    display: block;
-  }
-}
-
-.emotion-44 {
-  width: 0.875rem;
-  height: 0.875rem;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  display: block;
-  cursor: pointer;
-}
-
-.emotion-49 {
-  --horizontal-spacing: 0.5rem;
-  position: relative;
+.emotion-61 {
+  margin: 0rem 1rem;
   width: 100%;
-  box-shadow: var(--shadow-1);
-  --icon-size: 0.75rem;
-  min-width: 150px;
-  max-width: 350px;
+  max-width: 320px;
+  margin-right: 1rem;
 }
 
-@media screen and (max-width: 760px) {
-  .emotion-49 {
+@media screen and (max-width: 930px) {
+  .emotion-61 {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: ) {
+  .emotion-61 {
     display: none;
   }
 }
 
-.emotion-46 {
-  width: 0.75rem;
-  height: 0.75rem;
+.emotion-60 {
+  --horizontal-spacing: 1rem;
+  position: relative;
+  width: 100%;
+  --icon-size: 1rem;
+  --icon-size: 1.5rem;
+  min-width: 150px;
+  max-width: 450px;
+}
+
+.emotion-60 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.emotion-60 input {
+  border: none;
+  height: 40px;
+}
+
+.emotion-58 {
+  width: 0.875rem;
+  height: 0.875rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -443,56 +352,68 @@ exports[`External Projects Page Renders correctly 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-47 {
+.emotion-59 {
   width: 100%;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--primary-text-color);
   border-radius: 4px;
-  background: var(--primary-background-color);
-  color: var(--primary-text-color);
+  background: var(--secondary-background-color);
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
+  color: var(--primary-text-color);
   padding-left: calc(
               var(--horizontal-spacing) + 0.5rem + var(--icon-size)
             );
   padding-right: calc(
               var(--horizontal-spacing) + 0.5rem + var(--icon-size)
             );
-  font-size: 0.75rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
+  font-size: 0.875rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.emotion-47:focus {
+.emotion-59:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-48 {
-  position: absolute;
-  right: var(--horizontal-spacing);
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  border: 1px solid var(--border-color);
-  line-height: 1;
-  text-align: center;
-  background: var(--color-neutrals-100);
-  border-radius: 0.125rem;
-  font-size: 0.675rem;
-  padding: 0.0625rem 0.3125rem;
+.emotion-67 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
-.dark-mode .emotion-48 {
-  background: var(--color-dark-200);
+.emotion-63 {
+  color: var(--system-text-primary-dark);
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  padding-right: 1rem;
+  display: none;
 }
 
-.emotion-51 {
-  width: 0.875rem;
-  height: 0.875rem;
+@media screen and (max-width: ) {
+  .emotion-63 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: ) {
+  .emotion-63 {
+    padding-right: 0.25rem;
+  }
+}
+
+.emotion-62 {
+  width: 1.5rem;
+  height: 1.5rem;
   fill: none;
   stroke: currentColor;
   stroke-width: 2;
@@ -500,28 +421,9 @@ exports[`External Projects Page Renders correctly 1`] = `
   stroke-linejoin: round;
   cursor: pointer;
   display: block;
-  cursor: pointer;
-  color: var(--secondary-text-color);
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
 }
 
-.emotion-51:hover {
-  color: var(--secondary-text-hover-color);
-}
-
-.emotion-56 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.emotion-54 {
+.emotion-65 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -536,7 +438,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 3px;
   font-family: var(--primary-font-family);
   line-height: 1;
@@ -552,47 +454,48 @@ exports[`External Projects Page Renders correctly 1`] = `
   font-size: 0.625rem;
   padding: 0.375rem 0.625rem;
   border-radius: 0.125rem;
-  font-weight: 600;
-  white-space: nowrap;
 }
 
-.emotion-54:hover {
-  color: var(--link-hover-color);
-}
-
-
-
-@media screen and (max-width: 545px) {
-  .emotion-52 {
-    display: none;
+@media screen and (max-width: 450px) {
+  .emotion-65 {
+    padding: 0;
   }
 }
 
-.emotion-53 {
-  width: 0.875rem;
-  height: 0.875rem;
-  fill: none;
+.emotion-64 {
+  width: 27px;
+  height: 27px;
   stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  display: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  color: var(--system-text-primary-dark);
 }
 
-@media screen and (max-width: 545px) {
-  .emotion-53 {
-    display: block;
+.emotion-64 path {
+  fill: currentColor;
+}
+
+@media screen and (max-width: ) {
+  .emotion-64 {
+    margin: 0;
   }
 }
 
-.emotion-59 {
+.emotion-72 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-align-items: right;
+  -webkit-box-align: right;
+  -ms-flex-align: right;
+  align-items: right;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
-.emotion-57 {
+.emotion-68 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -607,7 +510,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 3px;
   font-family: var(--primary-font-family);
   line-height: 1;
@@ -618,36 +521,85 @@ exports[`External Projects Page Renders correctly 1`] = `
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: var(--color-white);
-  background-color: var(--color-brand-600);
-  font-size: 0.625rem;
-  padding: 0.375rem 0.625rem;
-  border-radius: 0.125rem;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  font-size: 18px;
 }
 
-.emotion-57:hover {
-  color: var(--color-white);
-  background-color: var(--color-brand-500);
+.emotion-68 span {
+  color: var(--system-text-primary-dark);
 }
 
-.emotion-84 {
+@media screen and (max-width: ) {
+  .emotion-68 {
+    display: none;
+  }
+}
+
+.emotion-70 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.75rem;
+  padding-right: 0;
+  font-size: 18px;
+}
+
+.emotion-70 span {
+  color: var(--brand-button-primary-accent);
+}
+
+.emotion-73 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-98 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-84 {
+  .emotion-98 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-83 {
+.emotion-97 {
   fill: none;
   width: 100%;
 }
 
-.emotion-85 {
+.emotion-99 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -661,78 +613,25 @@ exports[`External Projects Page Renders correctly 1`] = `
   max-width: 1180px;
 }
 
-.emotion-85>hr {
+.emotion-99>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-112 {
-  color: var(--secondary-text-color);
-  background-color: var(--color-neutrals-050);
+.emotion-103 {
+  color: var(--system-text-primary-dark);
+  background-color: var(--system-text-primary-light);
   z-index: 1;
 }
 
-.dark-mode .emotion-112 {
-  background-color: var(--color-dark-050);
+.emotion-103 a {
+  color: var(--system-text-primary-dark);
+  border-color: var(--system-text-primary-dark);
 }
 
-.emotion-112 a {
-  color: currentColor;
-}
-
-.emotion-107 {
-  font-size: 0.75rem;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 1rem var(--site-content-padding);
-  max-width: var(--site-max-width);
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 550px) {
-  .emotion-107 {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-  }
-}
-
-.emotion-106 {
-  fill: none;
-  width: 150px;
-  display: block;
-}
-
-@media screen and (max-width: 550px) {
-  .emotion-106 {
-    margin-bottom: 1rem;
-  }
-}
-
-.emotion-111 {
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-.dark-mode .emotion-111 {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.emotion-110 {
+.emotion-102 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -750,7 +649,7 @@ exports[`External Projects Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-110 {
+  .emotion-102 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -762,14 +661,14 @@ exports[`External Projects Page Renders correctly 1`] = `
   }
 }
 
-.emotion-108 {
+.emotion-100 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-109 {
+.emotion-101 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -785,23 +684,23 @@ exports[`External Projects Page Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-109 a {
+.emotion-101 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
 <div
-  className="emotion-113"
+  className="emotion-104"
 >
   <div
-    className=" emotion-62"
+    className=" emotion-76"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-61"
+      className="emotion-75"
     >
       <nav
-        className="emotion-43"
+        className="emotion-57"
       >
         <a
           className="emotion-21"
@@ -812,86 +711,138 @@ exports[`External Projects Page Renders correctly 1`] = `
         >
           <svg
             className="emotion-20"
-            viewBox="0 0 79 15"
+            viewBox="0 0 179 30"
             xmlns="http://www.w3.org/2000/svg"
           >
+            <g
+              clipPath="url(#clip0_3277_23032)"
+            >
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
+              />
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
+              />
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
+              />
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
+              />
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
+              />
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
+              />
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
+              />
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
+              />
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
+              />
+            </g>
             <path
-              className="emotion-0 emotion-1"
-              d="M27.3532 11.5262L25.2123 7.0377C24.7012 5.97415 24.1763 4.77276 23.9971 4.20652L23.9558 4.24788C24.0247 5.04845 24.0385 6.05686 24.0523 6.89879L24.1074 11.5252H22.5466V1.97021H24.3418L26.6618 6.63794C27.104 7.52123 27.5176 8.6537 27.6427 9.09587L27.684 9.05451C27.6427 8.57099 27.5462 7.20418 27.5462 6.33362L27.5186 1.97021H29.0243V11.5262H27.3532Z"
+              d="M23.2043 11.0778V20.9232L14.6196 25.8469V32.0005L28.5741 24.001V8L23.2043 11.0778Z"
+              fill="#00AC69"
             />
             <path
-              className="emotion-0 emotion-1"
-              d="M31.8682 8.44694V8.55722C31.8682 9.52427 32.2277 10.5454 33.5945 10.5454C34.2434 10.5454 34.8096 10.3111 35.3345 9.85511L35.9283 10.7808C35.1967 11.4022 34.3537 11.7065 33.4153 11.7065C31.4409 11.7065 30.1981 10.2846 30.1981 8.04718C30.1981 6.81822 30.46 6.0028 31.0687 5.3125C31.6349 4.66356 32.3252 4.37302 33.2096 4.37302C33.8999 4.37302 34.535 4.55222 35.1288 5.09088C35.7364 5.64333 36.0407 6.49905 36.0407 8.12883V8.44694H31.8682ZM33.2085 5.51927C32.3528 5.51927 31.883 6.19578 31.883 7.32825H34.465C34.465 6.19578 33.9677 5.51927 33.2085 5.51927Z"
+              d="M14.6209 6.15563L23.2056 11.0773L28.5754 7.9995L14.6209 0L0.666504 7.9995L6.03422 11.0773L14.6209 6.15563Z"
+              fill="#1CE783"
             />
             <path
-              className="emotion-0 emotion-1"
-              d="M44.1176 11.5538H42.6946L41.8388 8.33667C41.6183 7.50853 41.3829 6.4312 41.3829 6.4312H41.3553C41.3553 6.4312 41.245 7.1215 40.8994 8.4056L40.0574 11.5538H38.6355L36.7289 4.636L38.2347 4.42923L38.9939 7.81285C39.1869 8.68235 39.3533 9.64941 39.3533 9.64941H39.3947C39.3947 9.64941 39.5325 8.73749 39.7955 7.7715L40.6936 4.54057H42.1856L42.9724 7.68879C43.2629 8.82126 43.4145 9.67698 43.4145 9.67698H43.4559C43.4559 9.67698 43.6213 8.61343 43.8016 7.79907L44.5194 4.53951H46.0941L44.1176 11.5538Z"
-            />
-            <path
-              className="emotion-0 emotion-1"
-              d="M54.9428 11.5262L54.1147 10.0481C53.4519 8.87425 53.0098 8.21152 52.4849 7.68664C52.3057 7.50744 52.1668 7.41095 51.8635 7.39716V11.5262H50.3037V1.97021H53.2176C55.3585 1.97021 56.3244 3.21296 56.3244 4.7049C56.3244 6.07171 55.4412 7.3293 53.9492 7.3293C54.2949 7.5085 54.9301 8.4342 55.4263 9.23478L56.8355 11.5262H54.9428ZM52.7341 3.25432H51.8635V6.27954H52.6779C53.506 6.27954 53.9482 6.16926 54.2387 5.87872C54.5006 5.61681 54.6671 5.21599 54.6671 4.71868C54.6671 3.75163 54.1422 3.25432 52.7341 3.25432Z"
-            />
-            <path
-              className="emotion-0 emotion-1"
-              d="M58.9203 8.44694V8.55722C58.9203 9.52427 59.2798 10.5454 60.6466 10.5454C61.2955 10.5454 61.8618 10.3111 62.3867 9.85511L62.9805 10.7808C62.2488 11.4022 61.4058 11.7065 60.4674 11.7065C58.493 11.7065 57.2502 10.2846 57.2502 8.04718C57.2502 6.81822 57.5122 6.0028 58.1208 5.3125C58.687 4.66356 59.3773 4.37302 60.2617 4.37302C60.952 4.37302 61.5871 4.55222 62.1809 5.09088C62.7885 5.64333 63.0929 6.49905 63.0929 8.12883V8.44694H58.9203ZM60.2596 5.51927C59.4038 5.51927 58.9341 6.19578 58.9341 7.32825H61.5161C61.5161 6.19578 61.0188 5.51927 60.2596 5.51927Z"
-            />
-            <path
-              className="emotion-0 emotion-1"
-              d="M65.9346 11.6789C64.4013 11.6789 64.4013 10.2983 64.4013 9.70453V3.75164C64.4013 2.79837 64.3599 2.28834 64.2634 1.70832L65.8243 1.36264C65.9346 1.79103 65.9483 2.37105 65.9483 3.2819V9.20616C65.9483 10.1456 65.9897 10.2973 66.1 10.4627C66.1827 10.5868 66.4181 10.6557 66.5973 10.573L66.8454 11.5125C66.5697 11.6238 66.2802 11.6789 65.9346 11.6789Z"
-            />
-            <path
-              className="emotion-0 emotion-1"
-              d="M68.5728 3.5035C68.0204 3.5035 67.592 3.04754 67.592 2.49509C67.592 1.92886 68.0341 1.4729 68.6004 1.4729C69.139 1.4729 69.595 1.91507 69.595 2.49509C69.5939 3.04754 69.138 3.5035 68.5728 3.5035ZM67.8125 11.5262V4.64975L69.3458 4.373V11.5262H67.8125Z"
-            />
-            <path
-              className="emotion-0 emotion-1"
-              d="M73.6954 11.7065C71.7899 11.7065 70.7264 10.3673 70.7264 8.1161C70.7264 5.57547 72.2459 4.36029 73.8057 4.36029C74.5649 4.36029 75.1173 4.53949 75.7387 5.11951L74.9795 6.12792C74.5649 5.75467 74.2065 5.58925 73.8057 5.58925C73.3221 5.58925 72.9213 5.83738 72.7008 6.29334C72.494 6.72172 72.4113 7.37067 72.4113 8.24017C72.4113 9.19343 72.5629 9.80102 72.881 10.1456C73.1016 10.3938 73.4335 10.5465 73.8067 10.5465C74.2903 10.5465 74.76 10.3121 75.2149 9.85616L75.9328 10.7819C75.2976 11.416 74.6349 11.7065 73.6954 11.7065Z"
-            />
-            <path
-              className="emotion-0 emotion-1"
-              d="M77.2286 11.68C76.6687 11.68 76.2085 11.2283 76.2085 10.6546C76.2085 10.0841 76.6687 9.62924 77.2286 9.62924C77.7884 9.62924 78.2486 10.0841 78.2486 10.6546C78.2486 11.2272 77.7874 11.68 77.2286 11.68ZM77.2286 9.83283C76.7928 9.83283 76.4428 10.1965 76.4428 10.6546C76.4428 11.1127 76.7928 11.4817 77.2286 11.4817C77.6644 11.4817 78.0175 11.1127 78.0175 10.6546C78.0164 10.1965 77.6633 9.83283 77.2286 9.83283ZM77.429 11.2219C77.3844 11.1445 77.3654 11.1148 77.3219 11.0321C77.2084 10.8253 77.1734 10.767 77.1321 10.7511C77.1215 10.7458 77.1098 10.7426 77.096 10.7426V11.223H76.8702V10.0725H77.2975C77.5011 10.0725 77.6368 10.2082 77.6368 10.4086C77.6368 10.5825 77.5212 10.7225 77.3802 10.7257C77.4025 10.7447 77.4131 10.7564 77.4269 10.7755C77.4926 10.8582 77.7025 11.2219 77.7025 11.2219H77.429ZM77.3081 10.2739C77.2837 10.2655 77.2339 10.257 77.1787 10.257H77.096V10.5687H77.1734C77.2731 10.5687 77.3166 10.5571 77.3473 10.5295C77.3749 10.5019 77.3919 10.4606 77.3919 10.4139C77.3908 10.3429 77.3632 10.2952 77.3081 10.2739Z"
-            />
-            <path
-              className="emotion-18"
-              d="M17.159 5.6486C16.3489 1.92142 11.8784 -0.271419 7.17568 0.751833C2.47296 1.77403 -0.682686 5.62527 0.127433 9.3514C0.937552 13.0786 5.40805 15.2714 10.1108 14.2482C14.8135 13.226 17.9691 9.37578 17.159 5.6486ZM8.64322 10.9356C6.74517 10.9356 5.20764 9.39699 5.20764 7.5C5.20764 5.603 6.74623 4.06441 8.64322 4.06441C10.5402 4.06441 12.0788 5.60194 12.0788 7.5C12.0788 9.39805 10.5402 10.9356 8.64322 10.9356Z"
-            />
-            <path
-              className="emotion-19"
-              d="M9.40328 2.69022C6.6792 2.69022 4.47046 4.89896 4.47046 7.62303C4.47046 10.3471 6.6792 12.5559 9.40328 12.5559C12.1284 12.5559 14.3372 10.3471 14.3372 7.62303C14.3361 4.89896 12.1274 2.69022 9.40328 2.69022ZM8.64299 10.5009C6.98564 10.5009 5.64216 9.15738 5.64216 7.50003C5.64216 5.84268 6.98564 4.4992 8.64299 4.4992C10.3003 4.4992 11.6438 5.84268 11.6438 7.50003C11.6438 9.15738 10.3003 10.5009 8.64299 10.5009Z"
+              className="text-color emotion-0 emotion-1"
+              d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
             />
           </svg>
         </a>
         <div
-          className="emotion-35"
+          className="emotion-51"
         >
           <button
-            className="emotion-25 emotion-26"
+            className="emotion-43 emotion-44"
             onClick={[Function]}
             size="extraSmall"
           >
             <svg
-              className="emotion-24"
-              viewBox="0 0 18 15"
+              className="emotion-20"
+              viewBox="0 0 179 30"
               xmlns="http://www.w3.org/2000/svg"
             >
+              <g
+                clipPath="url(#clip0_3277_23032)"
+              >
+                <path
+                  className="text-color emotion-0 emotion-1"
+                  d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
+                />
+                <path
+                  className="text-color emotion-0 emotion-1"
+                  d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
+                />
+                <path
+                  className="text-color emotion-0 emotion-1"
+                  d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
+                />
+                <path
+                  className="text-color emotion-0 emotion-1"
+                  d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
+                />
+                <path
+                  className="text-color emotion-0 emotion-1"
+                  d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
+                />
+                <path
+                  className="text-color emotion-0 emotion-1"
+                  d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
+                />
+                <path
+                  className="text-color emotion-0 emotion-1"
+                  d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
+                />
+                <path
+                  className="text-color emotion-0 emotion-1"
+                  d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
+                />
+                <path
+                  className="text-color emotion-0 emotion-1"
+                  d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
+                />
+              </g>
               <path
-                className="emotion-22"
-                d="M17.159 5.6486C16.3489 1.92142 11.8784 -0.271419 7.17568 0.751833C2.47296 1.77403 -0.682686 5.62527 0.127433 9.3514C0.937552 13.0786 5.40805 15.2714 10.1108 14.2482C14.8135 13.226 17.9691 9.37578 17.159 5.6486ZM8.64322 10.9356C6.74517 10.9356 5.20764 9.39699 5.20764 7.5C5.20764 5.603 6.74623 4.06441 8.64322 4.06441C10.5402 4.06441 12.0788 5.60194 12.0788 7.5C12.0788 9.39805 10.5402 10.9356 8.64322 10.9356Z"
+                d="M23.2043 11.0778V20.9232L14.6196 25.8469V32.0005L28.5741 24.001V8L23.2043 11.0778Z"
+                fill="#00AC69"
               />
               <path
-                className="emotion-23"
-                d="M9.40328 2.69022C6.6792 2.69022 4.47046 4.89896 4.47046 7.62303C4.47046 10.3471 6.6792 12.5559 9.40328 12.5559C12.1284 12.5559 14.3372 10.3471 14.3372 7.62303C14.3361 4.89896 12.1274 2.69022 9.40328 2.69022ZM8.64299 10.5009C6.98564 10.5009 5.64216 9.15738 5.64216 7.50003C5.64216 5.84268 6.98564 4.4992 8.64299 4.4992C10.3003 4.4992 11.6438 5.84268 11.6438 7.50003C11.6438 9.15738 10.3003 10.5009 8.64299 10.5009Z"
+                d="M14.6209 6.15563L23.2056 11.0773L28.5754 7.9995L14.6209 0L0.666504 7.9995L6.03422 11.0773L14.6209 6.15563Z"
+                fill="#1CE783"
+              />
+              <path
+                className="text-color emotion-0 emotion-1"
+                d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
               />
             </svg>
           </button>
           <div
-            className="emotion-34"
+            className="emotion-50"
           >
             <div
-              className="emotion-33"
+              className="emotion-49"
             >
               <a
-                className="emotion-27"
+                className="emotion-45"
                 href="https://docs.newrelic.com/"
                 onClick={[Function]}
                 rel="noopener"
@@ -900,7 +851,7 @@ exports[`External Projects Page Renders correctly 1`] = `
                 Docs
               </a>
               <a
-                className="emotion-27"
+                className="emotion-45"
                 href="https://developer.newrelic.com/"
                 onClick={[Function]}
                 rel="noopener"
@@ -909,16 +860,7 @@ exports[`External Projects Page Renders correctly 1`] = `
                 Developer
               </a>
               <a
-                className="emotion-27"
-                href="https://opensource.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Open Source
-              </a>
-              <a
-                className="emotion-27"
+                className="emotion-45"
                 href="https://discuss.newrelic.com/"
                 onClick={[Function]}
                 rel="noopener"
@@ -927,7 +869,7 @@ exports[`External Projects Page Renders correctly 1`] = `
                 Community
               </a>
               <a
-                className="emotion-27"
+                className="emotion-45"
                 href="https://learn.newrelic.com/"
                 onClick={[Function]}
                 rel="noopener"
@@ -935,24 +877,15 @@ exports[`External Projects Page Renders correctly 1`] = `
               >
                 Learn
               </a>
-              <a
-                className="emotion-27"
-                href="https://developer.newrelic.com/instant-observability"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Instant Observability
-              </a>
             </div>
           </div>
         </div>
         <ul
-          className="emotion-42"
+          className="emotion-56"
         >
           <li>
             <a
-              className="emotion-36"
+              className="emotion-52"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -963,7 +896,7 @@ exports[`External Projects Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-36"
+              className="emotion-52"
               href="https://developer.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -974,18 +907,7 @@ exports[`External Projects Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-36"
-              href="https://opensource.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Open Source
-            </a>
-          </li>
-          <li>
-            <a
-              className="emotion-36"
+              className="emotion-52"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -996,7 +918,7 @@ exports[`External Projects Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-36"
+              className="emotion-52"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1005,52 +927,19 @@ exports[`External Projects Page Renders correctly 1`] = `
               Learn
             </a>
           </li>
-          <li>
-            <a
-              className="emotion-36"
-              href="https://developer.newrelic.com/instant-observability"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Instant Observability
-            </a>
-          </li>
         </ul>
       </nav>
       <ul
-        className="emotion-60"
+        className="emotion-74"
       >
         <li
-          className="emotion-50"
+          className="emotion-61"
         >
-          <a
-            className="emotion-45"
-            href="?q="
-          >
-            <svg
-              className="emotion-44"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="11"
-                cy="11"
-                r="8"
-              />
-              <line
-                x1="21"
-                x2="16.65"
-                y1="21"
-                y2="16.65"
-              />
-            </svg>
-          </a>
           <div
-            className="emotion-49"
+            className="emotion-60"
           >
             <svg
-              className="emotion-46"
+              className="emotion-58"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1067,86 +956,137 @@ exports[`External Projects Page Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-47"
+              className="emotion-59"
               onBlur={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
-              placeholder="Search Docs, Developer, Open Source"
+              placeholder="Search docs"
               type="text"
             />
-            <span
-              className="emotion-48"
-            >
-              /
-            </span>
           </div>
         </li>
-        <li>
-          <svg
-            className="emotion-51"
-            onClick={[Function]}
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
-            />
-          </svg>
-        </li>
         <li
-          className="emotion-56"
+          className="emotion-67"
         >
           <a
-            className="emotion-54 emotion-26"
-            href="https://one.newrelic.com"
-            onClick={[Function]}
-            rel="noopener"
-            size="extraSmall"
-            target="_blank"
-            variant="link"
+            className="emotion-63"
+            href="?q="
           >
-            <span
-              className="emotion-52"
-            >
-              Log in
-            </span>
             <svg
-              className="emotion-53"
+              className="emotion-62"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path
-                d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"
-              />
-              <polyline
-                points="10 17 15 12 10 7"
+              <circle
+                cx="11"
+                cy="11"
+                r="8"
               />
               <line
-                x1="15"
-                x2="3"
-                y1="12"
-                y2="12"
+                x1="21"
+                x2="16.65"
+                y1="21"
+                y2="16.65"
               />
             </svg>
           </a>
+          <button
+            className="emotion-65 emotion-44"
+            onClick={[Function]}
+            size="extraSmall"
+          >
+            <svg
+              className="emotion-64"
+              fill="none"
+              viewBox="0 0 27 27"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13.0001 20.0722C14.8758 20.0722 16.6746 19.3271 18.0009 18.0008C19.3272 16.6745 20.0723 14.8757 20.0723 13C20.0723 11.1244 19.3272 9.32553 18.0009 7.99924C16.6746 6.67296 14.8758 5.92786 13.0001 5.92786V13L13.0001 20.0722Z"
+                fill="#F3F4F4"
+              />
+              <circle
+                cx="12.9999"
+                cy="13"
+                r="7.57215"
+                stroke="#F3F4F4"
+              />
+              <line
+                stroke="#F3F4F4"
+                strokeLinecap="round"
+                x1="13.1826"
+                x2="13.1826"
+                y1="0.5"
+                y2="2.76407"
+              />
+              <line
+                stroke="#F3F4F4"
+                strokeLinecap="round"
+                x1="25.6125"
+                x2="23.3485"
+                y1="13.106"
+                y2="13.106"
+              />
+              <line
+                stroke="#F3F4F4"
+                strokeLinecap="round"
+                x1="13.106"
+                x2="13.106"
+                y1="23.3485"
+                y2="25.6126"
+              />
+              <line
+                stroke="#F3F4F4"
+                strokeLinecap="round"
+                x1="22.0242"
+                x2="20.4232"
+                y1="4.26704"
+                y2="5.86798"
+              />
+              <line
+                stroke="#F3F4F4"
+                strokeLinecap="round"
+                x1="21.8998"
+                x2="20.2989"
+                y1="21.9701"
+                y2="20.3692"
+              />
+            </svg>
+          </button>
         </li>
         <li
-          className="emotion-59"
+          className="emotion-72"
         >
           <a
-            className="emotion-57 emotion-26"
+            className="emotion-68 emotion-44"
+            href="https://one.newrelic.com"
+            onClick={[Function]}
+            rel="noopener"
+            size="small"
+            target="_blank"
+            variant="link"
+          >
+            <span>
+              Log in
+            </span>
+          </a>
+          <a
+            className="emotion-70 emotion-44"
             href="https://newrelic.com/signup"
             onClick={[Function]}
             rel="noopener"
-            size="extraSmall"
+            size="small"
             target="_blank"
-            variant="primary"
+            variant="link"
           >
             <span>
               Free account
             </span>
           </a>
         </li>
+        <li
+          className="emotion-73"
+        />
       </ul>
     </div>
   </div>
@@ -1155,57 +1095,65 @@ exports[`External Projects Page Renders correctly 1`] = `
         "
   >
     <a
-      className="emotion-84"
+      className="emotion-98"
       href="/"
     >
       <svg
-        className="emotion-83"
-        viewBox="0 0 79 15"
+        className="emotion-97"
+        viewBox="0 0 179 30"
         xmlns="http://www.w3.org/2000/svg"
       >
+        <g
+          clipPath="url(#clip0_3277_23032)"
+        >
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
+          />
+        </g>
         <path
-          className="emotion-0 emotion-1"
-          d="M27.3532 11.5262L25.2123 7.0377C24.7012 5.97415 24.1763 4.77276 23.9971 4.20652L23.9558 4.24788C24.0247 5.04845 24.0385 6.05686 24.0523 6.89879L24.1074 11.5252H22.5466V1.97021H24.3418L26.6618 6.63794C27.104 7.52123 27.5176 8.6537 27.6427 9.09587L27.684 9.05451C27.6427 8.57099 27.5462 7.20418 27.5462 6.33362L27.5186 1.97021H29.0243V11.5262H27.3532Z"
+          d="M23.2043 11.0778V20.9232L14.6196 25.8469V32.0005L28.5741 24.001V8L23.2043 11.0778Z"
+          fill="#00AC69"
         />
         <path
-          className="emotion-0 emotion-1"
-          d="M31.8682 8.44694V8.55722C31.8682 9.52427 32.2277 10.5454 33.5945 10.5454C34.2434 10.5454 34.8096 10.3111 35.3345 9.85511L35.9283 10.7808C35.1967 11.4022 34.3537 11.7065 33.4153 11.7065C31.4409 11.7065 30.1981 10.2846 30.1981 8.04718C30.1981 6.81822 30.46 6.0028 31.0687 5.3125C31.6349 4.66356 32.3252 4.37302 33.2096 4.37302C33.8999 4.37302 34.535 4.55222 35.1288 5.09088C35.7364 5.64333 36.0407 6.49905 36.0407 8.12883V8.44694H31.8682ZM33.2085 5.51927C32.3528 5.51927 31.883 6.19578 31.883 7.32825H34.465C34.465 6.19578 33.9677 5.51927 33.2085 5.51927Z"
+          d="M14.6209 6.15563L23.2056 11.0773L28.5754 7.9995L14.6209 0L0.666504 7.9995L6.03422 11.0773L14.6209 6.15563Z"
+          fill="#1CE783"
         />
         <path
-          className="emotion-0 emotion-1"
-          d="M44.1176 11.5538H42.6946L41.8388 8.33667C41.6183 7.50853 41.3829 6.4312 41.3829 6.4312H41.3553C41.3553 6.4312 41.245 7.1215 40.8994 8.4056L40.0574 11.5538H38.6355L36.7289 4.636L38.2347 4.42923L38.9939 7.81285C39.1869 8.68235 39.3533 9.64941 39.3533 9.64941H39.3947C39.3947 9.64941 39.5325 8.73749 39.7955 7.7715L40.6936 4.54057H42.1856L42.9724 7.68879C43.2629 8.82126 43.4145 9.67698 43.4145 9.67698H43.4559C43.4559 9.67698 43.6213 8.61343 43.8016 7.79907L44.5194 4.53951H46.0941L44.1176 11.5538Z"
-        />
-        <path
-          className="emotion-0 emotion-1"
-          d="M54.9428 11.5262L54.1147 10.0481C53.4519 8.87425 53.0098 8.21152 52.4849 7.68664C52.3057 7.50744 52.1668 7.41095 51.8635 7.39716V11.5262H50.3037V1.97021H53.2176C55.3585 1.97021 56.3244 3.21296 56.3244 4.7049C56.3244 6.07171 55.4412 7.3293 53.9492 7.3293C54.2949 7.5085 54.9301 8.4342 55.4263 9.23478L56.8355 11.5262H54.9428ZM52.7341 3.25432H51.8635V6.27954H52.6779C53.506 6.27954 53.9482 6.16926 54.2387 5.87872C54.5006 5.61681 54.6671 5.21599 54.6671 4.71868C54.6671 3.75163 54.1422 3.25432 52.7341 3.25432Z"
-        />
-        <path
-          className="emotion-0 emotion-1"
-          d="M58.9203 8.44694V8.55722C58.9203 9.52427 59.2798 10.5454 60.6466 10.5454C61.2955 10.5454 61.8618 10.3111 62.3867 9.85511L62.9805 10.7808C62.2488 11.4022 61.4058 11.7065 60.4674 11.7065C58.493 11.7065 57.2502 10.2846 57.2502 8.04718C57.2502 6.81822 57.5122 6.0028 58.1208 5.3125C58.687 4.66356 59.3773 4.37302 60.2617 4.37302C60.952 4.37302 61.5871 4.55222 62.1809 5.09088C62.7885 5.64333 63.0929 6.49905 63.0929 8.12883V8.44694H58.9203ZM60.2596 5.51927C59.4038 5.51927 58.9341 6.19578 58.9341 7.32825H61.5161C61.5161 6.19578 61.0188 5.51927 60.2596 5.51927Z"
-        />
-        <path
-          className="emotion-0 emotion-1"
-          d="M65.9346 11.6789C64.4013 11.6789 64.4013 10.2983 64.4013 9.70453V3.75164C64.4013 2.79837 64.3599 2.28834 64.2634 1.70832L65.8243 1.36264C65.9346 1.79103 65.9483 2.37105 65.9483 3.2819V9.20616C65.9483 10.1456 65.9897 10.2973 66.1 10.4627C66.1827 10.5868 66.4181 10.6557 66.5973 10.573L66.8454 11.5125C66.5697 11.6238 66.2802 11.6789 65.9346 11.6789Z"
-        />
-        <path
-          className="emotion-0 emotion-1"
-          d="M68.5728 3.5035C68.0204 3.5035 67.592 3.04754 67.592 2.49509C67.592 1.92886 68.0341 1.4729 68.6004 1.4729C69.139 1.4729 69.595 1.91507 69.595 2.49509C69.5939 3.04754 69.138 3.5035 68.5728 3.5035ZM67.8125 11.5262V4.64975L69.3458 4.373V11.5262H67.8125Z"
-        />
-        <path
-          className="emotion-0 emotion-1"
-          d="M73.6954 11.7065C71.7899 11.7065 70.7264 10.3673 70.7264 8.1161C70.7264 5.57547 72.2459 4.36029 73.8057 4.36029C74.5649 4.36029 75.1173 4.53949 75.7387 5.11951L74.9795 6.12792C74.5649 5.75467 74.2065 5.58925 73.8057 5.58925C73.3221 5.58925 72.9213 5.83738 72.7008 6.29334C72.494 6.72172 72.4113 7.37067 72.4113 8.24017C72.4113 9.19343 72.5629 9.80102 72.881 10.1456C73.1016 10.3938 73.4335 10.5465 73.8067 10.5465C74.2903 10.5465 74.76 10.3121 75.2149 9.85616L75.9328 10.7819C75.2976 11.416 74.6349 11.7065 73.6954 11.7065Z"
-        />
-        <path
-          className="emotion-0 emotion-1"
-          d="M77.2286 11.68C76.6687 11.68 76.2085 11.2283 76.2085 10.6546C76.2085 10.0841 76.6687 9.62924 77.2286 9.62924C77.7884 9.62924 78.2486 10.0841 78.2486 10.6546C78.2486 11.2272 77.7874 11.68 77.2286 11.68ZM77.2286 9.83283C76.7928 9.83283 76.4428 10.1965 76.4428 10.6546C76.4428 11.1127 76.7928 11.4817 77.2286 11.4817C77.6644 11.4817 78.0175 11.1127 78.0175 10.6546C78.0164 10.1965 77.6633 9.83283 77.2286 9.83283ZM77.429 11.2219C77.3844 11.1445 77.3654 11.1148 77.3219 11.0321C77.2084 10.8253 77.1734 10.767 77.1321 10.7511C77.1215 10.7458 77.1098 10.7426 77.096 10.7426V11.223H76.8702V10.0725H77.2975C77.5011 10.0725 77.6368 10.2082 77.6368 10.4086C77.6368 10.5825 77.5212 10.7225 77.3802 10.7257C77.4025 10.7447 77.4131 10.7564 77.4269 10.7755C77.4926 10.8582 77.7025 11.2219 77.7025 11.2219H77.429ZM77.3081 10.2739C77.2837 10.2655 77.2339 10.257 77.1787 10.257H77.096V10.5687H77.1734C77.2731 10.5687 77.3166 10.5571 77.3473 10.5295C77.3749 10.5019 77.3919 10.4606 77.3919 10.4139C77.3908 10.3429 77.3632 10.2952 77.3081 10.2739Z"
-        />
-        <path
-          className="emotion-18"
-          d="M17.159 5.6486C16.3489 1.92142 11.8784 -0.271419 7.17568 0.751833C2.47296 1.77403 -0.682686 5.62527 0.127433 9.3514C0.937552 13.0786 5.40805 15.2714 10.1108 14.2482C14.8135 13.226 17.9691 9.37578 17.159 5.6486ZM8.64322 10.9356C6.74517 10.9356 5.20764 9.39699 5.20764 7.5C5.20764 5.603 6.74623 4.06441 8.64322 4.06441C10.5402 4.06441 12.0788 5.60194 12.0788 7.5C12.0788 9.39805 10.5402 10.9356 8.64322 10.9356Z"
-        />
-        <path
-          className="emotion-19"
-          d="M9.40328 2.69022C6.6792 2.69022 4.47046 4.89896 4.47046 7.62303C4.47046 10.3471 6.6792 12.5559 9.40328 12.5559C12.1284 12.5559 14.3372 10.3471 14.3372 7.62303C14.3361 4.89896 12.1274 2.69022 9.40328 2.69022ZM8.64299 10.5009C6.98564 10.5009 5.64216 9.15738 5.64216 7.50003C5.64216 5.84268 6.98564 4.4992 8.64299 4.4992C10.3003 4.4992 11.6438 5.84268 11.6438 7.50003C11.6438 9.15738 10.3003 10.5009 8.64299 10.5009Z"
+          className="text-color emotion-0 emotion-1"
+          d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
         />
       </svg>
     </a>
@@ -1280,87 +1228,25 @@ exports[`External Projects Page Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-85"
+    className="emotion-99"
   >
     <div />
   </main>
   <footer
-    className="emotion-112"
+    className="emotion-103"
     data-swiftype-index={false}
   >
-    <div
-      className="emotion-107"
-    >
-      <a
-        href="/"
-        onClick={[Function]}
-      >
-        <svg
-          className="emotion-106"
-          viewBox="0 0 79 15"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            className="emotion-0 emotion-1"
-            d="M27.3532 11.5262L25.2123 7.0377C24.7012 5.97415 24.1763 4.77276 23.9971 4.20652L23.9558 4.24788C24.0247 5.04845 24.0385 6.05686 24.0523 6.89879L24.1074 11.5252H22.5466V1.97021H24.3418L26.6618 6.63794C27.104 7.52123 27.5176 8.6537 27.6427 9.09587L27.684 9.05451C27.6427 8.57099 27.5462 7.20418 27.5462 6.33362L27.5186 1.97021H29.0243V11.5262H27.3532Z"
-          />
-          <path
-            className="emotion-0 emotion-1"
-            d="M31.8682 8.44694V8.55722C31.8682 9.52427 32.2277 10.5454 33.5945 10.5454C34.2434 10.5454 34.8096 10.3111 35.3345 9.85511L35.9283 10.7808C35.1967 11.4022 34.3537 11.7065 33.4153 11.7065C31.4409 11.7065 30.1981 10.2846 30.1981 8.04718C30.1981 6.81822 30.46 6.0028 31.0687 5.3125C31.6349 4.66356 32.3252 4.37302 33.2096 4.37302C33.8999 4.37302 34.535 4.55222 35.1288 5.09088C35.7364 5.64333 36.0407 6.49905 36.0407 8.12883V8.44694H31.8682ZM33.2085 5.51927C32.3528 5.51927 31.883 6.19578 31.883 7.32825H34.465C34.465 6.19578 33.9677 5.51927 33.2085 5.51927Z"
-          />
-          <path
-            className="emotion-0 emotion-1"
-            d="M44.1176 11.5538H42.6946L41.8388 8.33667C41.6183 7.50853 41.3829 6.4312 41.3829 6.4312H41.3553C41.3553 6.4312 41.245 7.1215 40.8994 8.4056L40.0574 11.5538H38.6355L36.7289 4.636L38.2347 4.42923L38.9939 7.81285C39.1869 8.68235 39.3533 9.64941 39.3533 9.64941H39.3947C39.3947 9.64941 39.5325 8.73749 39.7955 7.7715L40.6936 4.54057H42.1856L42.9724 7.68879C43.2629 8.82126 43.4145 9.67698 43.4145 9.67698H43.4559C43.4559 9.67698 43.6213 8.61343 43.8016 7.79907L44.5194 4.53951H46.0941L44.1176 11.5538Z"
-          />
-          <path
-            className="emotion-0 emotion-1"
-            d="M54.9428 11.5262L54.1147 10.0481C53.4519 8.87425 53.0098 8.21152 52.4849 7.68664C52.3057 7.50744 52.1668 7.41095 51.8635 7.39716V11.5262H50.3037V1.97021H53.2176C55.3585 1.97021 56.3244 3.21296 56.3244 4.7049C56.3244 6.07171 55.4412 7.3293 53.9492 7.3293C54.2949 7.5085 54.9301 8.4342 55.4263 9.23478L56.8355 11.5262H54.9428ZM52.7341 3.25432H51.8635V6.27954H52.6779C53.506 6.27954 53.9482 6.16926 54.2387 5.87872C54.5006 5.61681 54.6671 5.21599 54.6671 4.71868C54.6671 3.75163 54.1422 3.25432 52.7341 3.25432Z"
-          />
-          <path
-            className="emotion-0 emotion-1"
-            d="M58.9203 8.44694V8.55722C58.9203 9.52427 59.2798 10.5454 60.6466 10.5454C61.2955 10.5454 61.8618 10.3111 62.3867 9.85511L62.9805 10.7808C62.2488 11.4022 61.4058 11.7065 60.4674 11.7065C58.493 11.7065 57.2502 10.2846 57.2502 8.04718C57.2502 6.81822 57.5122 6.0028 58.1208 5.3125C58.687 4.66356 59.3773 4.37302 60.2617 4.37302C60.952 4.37302 61.5871 4.55222 62.1809 5.09088C62.7885 5.64333 63.0929 6.49905 63.0929 8.12883V8.44694H58.9203ZM60.2596 5.51927C59.4038 5.51927 58.9341 6.19578 58.9341 7.32825H61.5161C61.5161 6.19578 61.0188 5.51927 60.2596 5.51927Z"
-          />
-          <path
-            className="emotion-0 emotion-1"
-            d="M65.9346 11.6789C64.4013 11.6789 64.4013 10.2983 64.4013 9.70453V3.75164C64.4013 2.79837 64.3599 2.28834 64.2634 1.70832L65.8243 1.36264C65.9346 1.79103 65.9483 2.37105 65.9483 3.2819V9.20616C65.9483 10.1456 65.9897 10.2973 66.1 10.4627C66.1827 10.5868 66.4181 10.6557 66.5973 10.573L66.8454 11.5125C66.5697 11.6238 66.2802 11.6789 65.9346 11.6789Z"
-          />
-          <path
-            className="emotion-0 emotion-1"
-            d="M68.5728 3.5035C68.0204 3.5035 67.592 3.04754 67.592 2.49509C67.592 1.92886 68.0341 1.4729 68.6004 1.4729C69.139 1.4729 69.595 1.91507 69.595 2.49509C69.5939 3.04754 69.138 3.5035 68.5728 3.5035ZM67.8125 11.5262V4.64975L69.3458 4.373V11.5262H67.8125Z"
-          />
-          <path
-            className="emotion-0 emotion-1"
-            d="M73.6954 11.7065C71.7899 11.7065 70.7264 10.3673 70.7264 8.1161C70.7264 5.57547 72.2459 4.36029 73.8057 4.36029C74.5649 4.36029 75.1173 4.53949 75.7387 5.11951L74.9795 6.12792C74.5649 5.75467 74.2065 5.58925 73.8057 5.58925C73.3221 5.58925 72.9213 5.83738 72.7008 6.29334C72.494 6.72172 72.4113 7.37067 72.4113 8.24017C72.4113 9.19343 72.5629 9.80102 72.881 10.1456C73.1016 10.3938 73.4335 10.5465 73.8067 10.5465C74.2903 10.5465 74.76 10.3121 75.2149 9.85616L75.9328 10.7819C75.2976 11.416 74.6349 11.7065 73.6954 11.7065Z"
-          />
-          <path
-            className="emotion-0 emotion-1"
-            d="M77.2286 11.68C76.6687 11.68 76.2085 11.2283 76.2085 10.6546C76.2085 10.0841 76.6687 9.62924 77.2286 9.62924C77.7884 9.62924 78.2486 10.0841 78.2486 10.6546C78.2486 11.2272 77.7874 11.68 77.2286 11.68ZM77.2286 9.83283C76.7928 9.83283 76.4428 10.1965 76.4428 10.6546C76.4428 11.1127 76.7928 11.4817 77.2286 11.4817C77.6644 11.4817 78.0175 11.1127 78.0175 10.6546C78.0164 10.1965 77.6633 9.83283 77.2286 9.83283ZM77.429 11.2219C77.3844 11.1445 77.3654 11.1148 77.3219 11.0321C77.2084 10.8253 77.1734 10.767 77.1321 10.7511C77.1215 10.7458 77.1098 10.7426 77.096 10.7426V11.223H76.8702V10.0725H77.2975C77.5011 10.0725 77.6368 10.2082 77.6368 10.4086C77.6368 10.5825 77.5212 10.7225 77.3802 10.7257C77.4025 10.7447 77.4131 10.7564 77.4269 10.7755C77.4926 10.8582 77.7025 11.2219 77.7025 11.2219H77.429ZM77.3081 10.2739C77.2837 10.2655 77.2339 10.257 77.1787 10.257H77.096V10.5687H77.1734C77.2731 10.5687 77.3166 10.5571 77.3473 10.5295C77.3749 10.5019 77.3919 10.4606 77.3919 10.4139C77.3908 10.3429 77.3632 10.2952 77.3081 10.2739Z"
-          />
-          <path
-            className="emotion-18"
-            d="M17.159 5.6486C16.3489 1.92142 11.8784 -0.271419 7.17568 0.751833C2.47296 1.77403 -0.682686 5.62527 0.127433 9.3514C0.937552 13.0786 5.40805 15.2714 10.1108 14.2482C14.8135 13.226 17.9691 9.37578 17.159 5.6486ZM8.64322 10.9356C6.74517 10.9356 5.20764 9.39699 5.20764 7.5C5.20764 5.603 6.74623 4.06441 8.64322 4.06441C10.5402 4.06441 12.0788 5.60194 12.0788 7.5C12.0788 9.39805 10.5402 10.9356 8.64322 10.9356Z"
-          />
-          <path
-            className="emotion-19"
-            d="M9.40328 2.69022C6.6792 2.69022 4.47046 4.89896 4.47046 7.62303C4.47046 10.3471 6.6792 12.5559 9.40328 12.5559C12.1284 12.5559 14.3372 10.3471 14.3372 7.62303C14.3361 4.89896 12.1274 2.69022 9.40328 2.69022ZM8.64299 10.5009C6.98564 10.5009 5.64216 9.15738 5.64216 7.50003C5.64216 5.84268 6.98564 4.4992 8.64299 4.4992C10.3003 4.4992 11.6438 5.84268 11.6438 7.50003C11.6438 9.15738 10.3003 10.5009 8.64299 10.5009Z"
-          />
-        </svg>
-      </a>
-      <div />
-    </div>
-    <div
-      className="emotion-111"
-    >
+    <div>
       <div
-        className="emotion-110"
+        className="emotion-102"
       >
         <div
-          className="emotion-108"
+          className="emotion-100"
         >
-          Copyright © 2021 New Relic Inc.
+          Copyright © 2022 New Relic Inc.
         </div>
         <div
-          className="emotion-109"
+          className="emotion-101"
         >
           <a
             href="https://newrelic.com/about/careers"
