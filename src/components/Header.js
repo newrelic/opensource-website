@@ -39,6 +39,7 @@ const Header = ({ hasHeaderBg }) => {
         />
       </Helmet>
       <GlobalHeader
+        customStyles={{ navLeftMargin: '60px' }}
         className={mobileMenuActive ? styles.existsInActiveMobileMenu : ''}
         css={css`
           .dark-mode & {
