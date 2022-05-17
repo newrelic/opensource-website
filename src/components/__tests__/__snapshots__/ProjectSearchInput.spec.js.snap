@@ -1,7 +1,58 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProjectSearchInput Renders correctly 1`] = `
-.emotion-6 {
+.emotion-2 {
+  --horizontal-spacing: 1rem;
+  position: relative;
+  width: 100%;
+  --icon-size: 1.5rem;
+}
+
+.emotion-0 {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  position: absolute;
+  left: var(--horizontal-spacing);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-1 {
+  width: 100%;
+  border: 1px solid var(--primary-text-color);
+  border-radius: 4px;
+  background: var(--secondary-background-color);
+  -webkit-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+  line-height: 1;
+  color: var(--primary-text-color);
+  padding-left: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
+  padding-right: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.emotion-1:focus {
+  outline: none;
+  border: 1px solid rgba(0, 126, 138, 0.6);
+  box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
+}
+
+.emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -13,7 +64,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-1 {
+.emotion-4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -28,7 +79,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 3px;
   font-family: var(--primary-font-family);
   line-height: 1;
@@ -39,26 +90,21 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: var(--color-neutrals-700);
-  background-color: var(--color-neutrals-100);
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
 }
 
-.emotion-1:hover {
-  color: var(--color-brand-600);
-  background: rgba(112,204,210,0.17);
+.emotion-4:hover {
+  color: var(--button-text-color);
+  background: var(--color-black);
 }
 
-.dark-mode .emotion-1 {
-  color: var(--color-dark-700);
-  background-color: var(--color-dark-200);
+.dark-mode .emotion-4:hover {
+  color: var(--button-text-color);
+  background: #d0d6d7;
 }
 
-.dark-mode .emotion-1:hover {
-  color: var(--color-brand-200);
-  background-color: rgba(112,204,210,0.17);
-}
-
-.emotion-0 {
+.emotion-3 {
   width: 1em;
   height: 1em;
   fill: none;
@@ -72,27 +118,24 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   transform: rotate(0);
 }
 
-.emotion-5 {
+.emotion-8 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
-  --background-color: white;
-  --text-color: var(--color-neutrals-900);
   position: absolute;
   top: calc(100% + var(--arrow-size));
   display: none;
-  background: var(--background-color);
+  background: var(--secondary-background-color);
   border-radius: 0.25rem;
   z-index: 1000;
   padding: 0.5rem;
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-5 {
-  --text-color: var(--color-dark-900);
-  --background-color: var(--color-dark-050);
+.dark-mode .emotion-8 {
+  background-color: var(--primary-hover-color);
 }
 
-.emotion-5::before {
+.emotion-8::before {
   content: '';
   position: absolute;
   display: block;
@@ -106,13 +149,13 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-4 {
+.emotion-7 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
@@ -123,29 +166,49 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-3:hover {
+.emotion-6:hover {
   color: var(--text-color);
   cursor: pointer;
-  background: var(--color-neutrals-200);
+  background: var(--primary-hover-color);
   border-radius: 0.25rem;
 }
 
-.dark-mode .emotion-3:hover {
-  background: var(--color-dark-200);
+.dark-mode .emotion-6:hover {
+  background-color: var(--system-border-regular-dark);
 }
 
 <div>
-  <div>
-    <img
-      alt="search icon"
-      src="test-file-stub"
-    />
+  <div
+    className="emotion-2"
+  >
+    <svg
+      className="emotion-0"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="11"
+        cy="11"
+        r="8"
+      />
+      <line
+        x1="21"
+        x2="16.65"
+        y1="21"
+        y2="16.65"
+      />
+    </svg>
     <input
+      className="emotion-1"
+      onBlur={[Function]}
       onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
       placeholder="Search for a project"
       type="text"
       value=""
     />
+    
   </div>
   <div
     className="undefined undefined"
@@ -171,15 +234,15 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
       </svg>
     </span>
     <div
-      className="emotion-6"
+      className="emotion-9"
     >
       <button
-        className="emotion-1 emotion-2"
+        className="emotion-4 emotion-5"
         onClick={[Function]}
       >
         All Categories
         <svg
-          className="emotion-0"
+          className="emotion-3"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -189,13 +252,13 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         </svg>
       </button>
       <div
-        className="emotion-5"
+        className="emotion-8"
       >
         <div
-          className="emotion-4"
+          className="emotion-7"
         >
           <div
-            className="emotion-3"
+            className="emotion-6"
             onClick={[Function]}
           >
             All Categories
@@ -204,15 +267,15 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="emotion-6"
+      className="emotion-9"
     >
       <button
-        className="emotion-1 emotion-2"
+        className="emotion-4 emotion-5"
         onClick={[Function]}
       >
         All Project Tags
         <svg
-          className="emotion-0"
+          className="emotion-3"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -222,13 +285,13 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         </svg>
       </button>
       <div
-        className="emotion-5"
+        className="emotion-8"
       >
         <div
-          className="emotion-4"
+          className="emotion-7"
         >
           <div
-            className="emotion-3"
+            className="emotion-6"
             onClick={[Function]}
           >
             All Project Tags
@@ -237,15 +300,15 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="emotion-6"
+      className="emotion-9"
     >
       <button
-        className="emotion-1 emotion-2"
+        className="emotion-4 emotion-5"
         onClick={[Function]}
       >
         All Language Types
         <svg
-          className="emotion-0"
+          className="emotion-3"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -255,13 +318,13 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         </svg>
       </button>
       <div
-        className="emotion-5"
+        className="emotion-8"
       >
         <div
-          className="emotion-4"
+          className="emotion-7"
         >
           <div
-            className="emotion-3"
+            className="emotion-6"
             onClick={[Function]}
           >
             All Language Types

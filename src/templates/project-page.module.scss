@@ -47,7 +47,7 @@
 
 .repo-stat {
   display: flex;
-  border-bottom: 1px solid var(--color-neutrals-100);
+  border-bottom: 1px solid var(--border-color);
   padding: 10px 0;
   font-size: 14px;
 
@@ -443,7 +443,7 @@ p.call-to-action-description {
     &:after {
       background-image: linear-gradient(
         to left,
-        var(--color-background),
+        var(--primary-background-color),
         rgba(28, 42, 47, 0)
       );
     }

@@ -42,7 +42,7 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  border-bottom: 1px dotted var(--color-neutrals-300);
+  border-bottom: 1px dotted var(--border-color);
   margin-bottom: 30px;
 }
 
@@ -71,7 +71,7 @@
     left: 0;
     right: 0;
     z-index: -1;
-    background-color: var(--color-neutrals-100);
+    background-color: var(--border-color);
   }
 }
 
@@ -93,6 +93,15 @@
   color: var(--color-neutrals-600);
 }
 
+:global(.dark-mode) {
+  .featured-internal-projects-container {
+    &:before {
+      background-color: var(--system-background-surface-1-dark);
+
+    }
+  }
+}
+
 .featured-internal-projects-container {
   margin-bottom: 40px;
 
@@ -101,7 +110,7 @@
     left: 0;
     content: '';
     height: 500px;
-    background-color: var(--color-neutrals-100);
+    background-color: var(--primary-hover-color);
     width: 100%;
     transform: skewY(-2deg) translateY(-80px);
     z-index: -1;
