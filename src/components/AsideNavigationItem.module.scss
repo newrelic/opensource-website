@@ -5,7 +5,7 @@
   padding: 8px 10px;
   height: 41px;
   align-items: center;
-  border: 1px solid var(--color-neutrals-300);
+  border: 1px solid var(--border-color);
   box-sizing: border-box;
   box-shadow:
     0px 0.249053px 0.553451px rgba(0, 0, 0, 0.00562291),
@@ -34,7 +34,7 @@
   margin-right: 10px;
   position: relative;
   overflow: hidden;
-  background-color: var(--color-neutrals-400);
+  background-color: var(--secondary-background-color);
   border-radius: 50%;
   flex-shrink: 0;
 }

@@ -24,6 +24,7 @@ module.exports = {
         layout: {
           maxWidth: '1236px',
           contentPadding: '28px',
+          mobileBreakpoint: '760px',
         },
         newrelic: {
           // Keyed by process.env.NODE_ENV
@@ -134,7 +135,7 @@ module.exports = {
         background_color: `#007e8a`,
         theme_color: `#007e8a`,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     {
@@ -183,22 +184,6 @@ module.exports = {
       resolve: 'gatsby-plugin-gatsby-cloud',
       options: {
         allPageHeaders: ['Referrer-Policy: no-referrer-when-downgrade'],
-      },
-    },
-
-    {
-      resolve: `gatsby-build-newrelic`,
-      options: {
-        NR_LICENSE_KEY: process.env.NEW_RELIC_LICENSE_KEY,
-        NR_ACCOUNT_ID: process.env.NEW_RELIC_ACCOUNT_ID,
-        SITE_NAME: 'opensource.newrelic.com',
-        collectTraces: true,
-        collectLogs: true,
-        collectMetrics: true,
-        staging: true,
-        customTags: {
-          featureFlag: process.env.FEATURE_FLAG,
-        },
       },
     },
   ],

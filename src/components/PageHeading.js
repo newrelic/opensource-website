@@ -3,14 +3,11 @@ import PropTypes from 'prop-types';
 import { startCase } from 'lodash';
 import Image from './Image';
 
-import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
-import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
-
 import * as styles from './PageHeading.module.scss';
 import withDarkMode from './withDarkMode';
 
 const PageHeading = (props) => {
-  const { darkMode, project } = props;
+  const { project } = props;
 
   const renderTags = () => {
     const tags = props.tags.map((tag, index) => {
@@ -74,11 +71,6 @@ const PageHeading = (props) => {
         <div>
           <Image
             src={props.icon}
-            fallbackSrc={
-              darkMode.value
-                ? placeholderProjectIconLight
-                : placeholderProjectIcon
-            }
             alt={`Icon for ${props.title}`}
             className={styles.pageHeadingIcon}
           />
@@ -111,7 +103,6 @@ PageHeading.propTypes = {
   hasSeparator: PropTypes.bool,
   blogMeta: PropTypes.string,
   callToAction: PropTypes.func,
-  darkMode: PropTypes.object,
   className: PropTypes.string,
 };
 

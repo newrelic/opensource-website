@@ -13,9 +13,6 @@ import ProjectSearch from '../components/ProjectSearch';
 import ProjectCard from '../components/ProjectCard';
 import Image from '../components/Image';
 import withDarkMode from '../components/withDarkMode';
-
-import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
-import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
 import searchIcon from '../images/icon-search.svg';
 
 import * as styles from './explore-projects.module.scss';
@@ -58,7 +55,7 @@ export const query = graphql`
 
 const ExploreProjectsPage = (props) => {
   const [projectsToShow, setProjectsToShow] = useState(23);
-  const { data, darkMode, pageContext } = props;
+  const { data, pageContext } = props;
 
   const allProjects = get(data, 'allProjects.edges', []).map((p) => p.node);
   const allLanguages = get(data, 'allLanguages.group', []);
@@ -81,11 +78,6 @@ const ExploreProjectsPage = (props) => {
         <div className={styles.featuredProject} key={p.id}>
           <Image
             src={p.iconUrl}
-            fallbackSrc={
-              darkMode.value
-                ? placeholderProjectIconLight
-                : placeholderProjectIcon
-            }
             alt={`Icon for ${p.title}`}
             className={styles.featuredProjectIcon}
           />
@@ -227,7 +219,6 @@ const ExploreProjectsPage = (props) => {
 
 ExploreProjectsPage.propTypes = {
   data: PropTypes.object,
-  darkMode: PropTypes.object,
   pageContext: PropTypes.object,
 };
 export default withDarkMode(ExploreProjectsPage);

@@ -4,13 +4,10 @@ import { Link } from 'gatsby';
 import { get } from 'lodash';
 import Image from './Image';
 
-import placeholderProjectIcon from '../images/page-heading-icon-placeholder.jpg';
-import placeholderProjectIconLight from '../images/page-heading-icon-placeholder-light.png';
-
 import * as styles from '../pages/explore-projects.module.scss';
 import withDarkMode from './withDarkMode';
 
-const ProjectCard = ({ project: p, darkMode }) => {
+const ProjectCard = ({ project: p }) => {
   const link = p.permalink.replace('https://opensource.newrelic.com', '');
 
   return (
@@ -19,11 +16,6 @@ const ProjectCard = ({ project: p, darkMode }) => {
         <header className={styles.projectHeader}>
           <Image
             src={p.iconUrl}
-            fallbackSrc={
-              darkMode.value
-                ? placeholderProjectIconLight
-                : placeholderProjectIcon
-            }
             alt={`Icon for ${p.title}`}
             className={styles.projectIcon}
           />
@@ -49,7 +41,6 @@ const ProjectCard = ({ project: p, darkMode }) => {
 
 ProjectCard.propTypes = {
   project: PropTypes.object,
-  darkMode: PropTypes.object,
 };
 
 export default withDarkMode(ProjectCard);
