@@ -6,7 +6,7 @@
     left: 0;
     content: "";
     height: 360px;
-    background: linear-gradient(0deg, #FFFFFF 23.26%, rgba(255, 255, 255, 0) 95.05%), #F4F5F5;
+    background: linear-gradient(0deg, var(--primary-background-color) 23.26%, rgba(255, 255, 255, 0) 95.05%), var(--primary-hover-color);
     width: 100%;
     transform: skewY(-2deg) translateY(-55px);
     z-index:-1;
@@ -49,17 +49,19 @@
     display: block;
     width: 100px;
     height: 150px;
+    background: linear-gradient( to right, var(--system-background-app-light), rgba(0, 255, 255, 0));
+
     position: absolute;
-    top: -1px;
+    top: -20px;
     left: 0;
     z-index: 400;
-    background-image: url('../images/home-collection-mask.png');
   }
 
   &:after {
+    background: linear-gradient( to left, var(--system-background-app-light), rgba(0, 255, 255, 0));
+
     left: inherit;
     right: 0;
-    transform: rotateY(180deg) translateY(-19px);
   }
 }
 
@@ -144,7 +146,7 @@
 
 :global(.dark-mode) {
   .homepage-collection:before {
-    background: linear-gradient(0deg, rgba(0,0,0, 0) 23.26%, var(--color-neutrals-100));
+    background: linear-gradient(0deg, rgba(0,0,0, 0) 23.26%, var(--system-background-surface-1-dark));
   }
 
   .projects-container {
@@ -152,15 +154,20 @@
     &:before,
     &:after {
       top: -10px;
-      background-image: url('../images/home-collection-mask-dark.png');
     }
 
     &:after {
-      top: -15px;
+      height: 100%;
       left: inherit;
       right: 0;
-      transform: rotateY(180deg) translateY(-19px);
-      filter: brightness(.97);
+      background: linear-gradient( to left, var(--system-background-app-dark), rgba(0, 255, 255, 0));
+    }
+
+    &:before {
+      height: 100%;
+      left: inherit;
+      left: 0;
+      background: linear-gradient( to right, var(--system-background-app-dark), rgba(0, 255, 255, 0));
     }
   }
 }

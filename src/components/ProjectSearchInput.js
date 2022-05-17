@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Filter } from 'react-feather';
-import { Dropdown, Button } from '@newrelic/gatsby-theme-newrelic';
+import { Dropdown, Button, SearchInput } from '@newrelic/gatsby-theme-newrelic';
 
-import searchIcon from '../images/icon-search.svg';
 import * as styles from './ProjectSearchInput.module.scss';
 
 const ProjectSearchInput = ({
@@ -39,18 +38,17 @@ const ProjectSearchInput = ({
 
   return (
     <div className={styles.searchSection}>
-      <div className={styles.searchContainer}>
-        <img src={searchIcon} alt="search icon" className={styles.searchIcon} />
-        <input
-          type="text"
-          value={searchQueryValue}
-          onChange={(e) => {
-            onSearchQueryChange({ searchQuery: e.target.value });
-          }}
-          placeholder="Search for a project"
-          className={styles.searchInput}
-        />
-      </div>
+      <SearchInput
+        className={styles.searchInput}
+        type="text"
+        size={SearchInput.SIZE.LARGE}
+        value={searchQueryValue}
+        onChange={(e) => {
+          onSearchQueryChange({ searchQuery: e.target.value });
+        }}
+        placeholder="Search for a project"
+      />
+
       <div
         className={`${styles.searchFilters} ${
           mobileFiltersHidden ? styles.mobileFiltersHidden : ''

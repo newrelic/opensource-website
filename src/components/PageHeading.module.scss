@@ -8,7 +8,7 @@
   text-align: center;
 
   &.has-separator {
-    border-bottom: 2px dotted var(--color-neutrals-200);
+    border-bottom: 2px dotted var(--border-color);
   }
 
   &.has-separator-without-icon {
@@ -28,7 +28,7 @@
   display: block;
   width: 80px;
   height: 80px;
-  border: 4px solid var(--color-background);
+  border: 4px solid var(--primary-background-color);
   border-radius: 50%;
   overflow: hidden;
   background-color: var(--color-neutrals-400);
