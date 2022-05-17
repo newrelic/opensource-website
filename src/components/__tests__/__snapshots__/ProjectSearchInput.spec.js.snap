@@ -1,7 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ProjectSearchInput Renders correctly 1`] = `
-.emotion-6 {
+.emotion-2 {
+  --horizontal-spacing: 1rem;
+  position: relative;
+  width: 100%;
+  box-shadow: var(--shadow-1);
+  --icon-size: 1.5rem;
+}
+
+.emotion-0 {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  position: absolute;
+  left: var(--horizontal-spacing);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.emotion-1 {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background: var(--primary-background-color);
+  color: var(--primary-text-color);
+  -webkit-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+  line-height: 1;
+  padding-left: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
+  padding-right: calc(
+              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+            );
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.emotion-1:focus {
+  outline: none;
+  border: 1px solid rgba(0, 126, 138, 0.6);
+  box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
+}
+
+.emotion-9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -13,7 +65,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-1 {
+.emotion-4 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -43,22 +95,22 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   background-color: var(--color-neutrals-100);
 }
 
-.emotion-1:hover {
+.emotion-4:hover {
   color: var(--color-brand-600);
   background: rgba(112,204,210,0.17);
 }
 
-.dark-mode .emotion-1 {
+.dark-mode .emotion-4 {
   color: var(--color-dark-700);
   background-color: var(--color-dark-200);
 }
 
-.dark-mode .emotion-1:hover {
+.dark-mode .emotion-4:hover {
   color: var(--color-brand-200);
   background-color: rgba(112,204,210,0.17);
 }
 
-.emotion-0 {
+.emotion-3 {
   width: 1em;
   height: 1em;
   fill: none;
@@ -72,7 +124,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   transform: rotate(0);
 }
 
-.emotion-5 {
+.emotion-8 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   --background-color: white;
@@ -87,12 +139,12 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-5 {
+.dark-mode .emotion-8 {
   --text-color: var(--color-dark-900);
   --background-color: var(--color-dark-050);
 }
 
-.emotion-5::before {
+.emotion-8::before {
   content: '';
   position: absolute;
   display: block;
@@ -106,13 +158,13 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-4 {
+.emotion-7 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
 }
 
-.emotion-3 {
+.emotion-6 {
   display: block;
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
@@ -123,29 +175,49 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-3:hover {
+.emotion-6:hover {
   color: var(--text-color);
   cursor: pointer;
   background: var(--color-neutrals-200);
   border-radius: 0.25rem;
 }
 
-.dark-mode .emotion-3:hover {
+.dark-mode .emotion-6:hover {
   background: var(--color-dark-200);
 }
 
 <div>
-  <div>
-    <img
-      alt="search icon"
-      src="test-file-stub"
-    />
+  <div
+    className="emotion-2"
+  >
+    <svg
+      className="emotion-0"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="11"
+        cy="11"
+        r="8"
+      />
+      <line
+        x1="21"
+        x2="16.65"
+        y1="21"
+        y2="16.65"
+      />
+    </svg>
     <input
+      className="emotion-1"
+      onBlur={[Function]}
       onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
       placeholder="Search for a project"
       type="text"
       value=""
     />
+    
   </div>
   <div
     className="undefined undefined"
@@ -171,15 +243,15 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
       </svg>
     </span>
     <div
-      className="emotion-6"
+      className="emotion-9"
     >
       <button
-        className="emotion-1 emotion-2"
+        className="emotion-4 emotion-5"
         onClick={[Function]}
       >
         All Categories
         <svg
-          className="emotion-0"
+          className="emotion-3"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -189,13 +261,13 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         </svg>
       </button>
       <div
-        className="emotion-5"
+        className="emotion-8"
       >
         <div
-          className="emotion-4"
+          className="emotion-7"
         >
           <div
-            className="emotion-3"
+            className="emotion-6"
             onClick={[Function]}
           >
             All Categories
@@ -204,15 +276,15 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="emotion-6"
+      className="emotion-9"
     >
       <button
-        className="emotion-1 emotion-2"
+        className="emotion-4 emotion-5"
         onClick={[Function]}
       >
         All Project Tags
         <svg
-          className="emotion-0"
+          className="emotion-3"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -222,13 +294,13 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         </svg>
       </button>
       <div
-        className="emotion-5"
+        className="emotion-8"
       >
         <div
-          className="emotion-4"
+          className="emotion-7"
         >
           <div
-            className="emotion-3"
+            className="emotion-6"
             onClick={[Function]}
           >
             All Project Tags
@@ -237,15 +309,15 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
       </div>
     </div>
     <div
-      className="emotion-6"
+      className="emotion-9"
     >
       <button
-        className="emotion-1 emotion-2"
+        className="emotion-4 emotion-5"
         onClick={[Function]}
       >
         All Language Types
         <svg
-          className="emotion-0"
+          className="emotion-3"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -255,13 +327,13 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         </svg>
       </button>
       <div
-        className="emotion-5"
+        className="emotion-8"
       >
         <div
-          className="emotion-4"
+          className="emotion-7"
         >
           <div
-            className="emotion-3"
+            className="emotion-6"
             onClick={[Function]}
           >
             All Language Types
