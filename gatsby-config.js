@@ -24,6 +24,7 @@ module.exports = {
         layout: {
           maxWidth: '1236px',
           contentPadding: '28px',
+          mobileBreakpoint: '760px',
         },
         newrelic: {
           // Keyed by process.env.NODE_ENV
