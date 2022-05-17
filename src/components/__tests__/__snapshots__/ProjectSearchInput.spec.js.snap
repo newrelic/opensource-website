@@ -5,7 +5,6 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   --horizontal-spacing: 1rem;
   position: relative;
   width: 100%;
-  box-shadow: var(--shadow-1);
   --icon-size: 1.5rem;
 }
 
@@ -28,13 +27,13 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
 
 .emotion-1 {
   width: 100%;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--primary-text-color);
   border-radius: 4px;
-  background: var(--primary-background-color);
-  color: var(--primary-text-color);
+  background: var(--secondary-background-color);
   -webkit-transition: 0.15s ease-out;
   transition: 0.15s ease-out;
   line-height: 1;
+  color: var(--primary-text-color);
   padding-left: calc(
               var(--horizontal-spacing) + 0.5rem + var(--icon-size)
             );
@@ -80,7 +79,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   justify-content: center;
   padding: 0.5rem 1rem;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 3px;
   font-family: var(--primary-font-family);
   line-height: 1;
@@ -91,23 +90,18 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
-  color: var(--color-neutrals-700);
-  background-color: var(--color-neutrals-100);
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
 }
 
 .emotion-4:hover {
-  color: var(--color-brand-600);
-  background: rgba(112,204,210,0.17);
-}
-
-.dark-mode .emotion-4 {
-  color: var(--color-dark-700);
-  background-color: var(--color-dark-200);
+  color: var(--button-text-color);
+  background: var(--color-black);
 }
 
 .dark-mode .emotion-4:hover {
-  color: var(--color-brand-200);
-  background-color: rgba(112,204,210,0.17);
+  color: var(--button-text-color);
+  background: #d0d6d7;
 }
 
 .emotion-3 {
@@ -127,12 +121,10 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
 .emotion-8 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
-  --background-color: white;
-  --text-color: var(--color-neutrals-900);
   position: absolute;
   top: calc(100% + var(--arrow-size));
   display: none;
-  background: var(--background-color);
+  background: var(--secondary-background-color);
   border-radius: 0.25rem;
   z-index: 1000;
   padding: 0.5rem;
@@ -140,8 +132,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
 }
 
 .dark-mode .emotion-8 {
-  --text-color: var(--color-dark-900);
-  --background-color: var(--color-dark-050);
+  background-color: var(--primary-hover-color);
 }
 
 .emotion-8::before {
@@ -178,12 +169,12 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
 .emotion-6:hover {
   color: var(--text-color);
   cursor: pointer;
-  background: var(--color-neutrals-200);
+  background: var(--primary-hover-color);
   border-radius: 0.25rem;
 }
 
 .dark-mode .emotion-6:hover {
-  background: var(--color-dark-200);
+  background-color: var(--system-border-regular-dark);
 }
 
 <div>
