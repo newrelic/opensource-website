@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { css } from '@emotion/react';
 import { graphql, Link } from 'gatsby';
 import { get } from 'lodash';
+import { Video } from '@newrelic/gatsby-theme-newrelic';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import HomePageHighlights from '../components/HomePageHighlights';
@@ -154,6 +155,7 @@ const HomePage = ({ data, pageContext }) => {
             </a>
             .
           </p>
+          <Video type="wistia" id="qyk74p7j56" />
         </div>
       </div>
 

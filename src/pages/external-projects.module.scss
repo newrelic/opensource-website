@@ -7,7 +7,7 @@
     left: 0;
     content: '';
     height: 317px;
-    background-color: var(--color-neutrals-100);
+    background-color: var(--primary-hover-color);
     width: 100%;
     transform: skewY(-2deg) translateY(-37px);
     z-index: -1;
@@ -26,7 +26,7 @@
   justify-content: space-between;
   margin-bottom: 20px;
   padding-bottom: 16px;
-  border-bottom: 1px solid var(--color-neutrals-200);
+  border-bottom: 1px solid var(--border-color);
 }
 
 .more-projects-header-section-title {
@@ -51,7 +51,7 @@
   padding: 16px;
   text-align: left;
   border: 1px solid var(--color-neutrals-300);
-  background: var(--color-background);
+  background: var(--primary-background-color);
   box-sizing: border-box;
   box-shadow: 0px 0.249053px 0.553451px rgba(0, 0, 0, 0.00562291),
     0px 0.598509px 1.33002px rgba(0, 0, 0, 0.00807786),
@@ -129,7 +129,6 @@ h5.project-listing-item-name {
 
 :global(.dark-mode) {
   .featured-projects:before {
-    background-color: var(--color-neutrals-050);
-    opacity: 0.5;
+    background-color: var(--system-background-surface-1-dark);
   }
 }

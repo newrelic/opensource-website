@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { Icon } from '@newrelic/gatsby-theme-newrelic';
+import * as styles from '../pages/explore-projects.module.scss';
 
 /*
  * Skip rendering <img> tags server-side, wait until the client-side has rehydrated the application (utilizing useEffect)
@@ -36,11 +38,15 @@ const Image = (props) => {
   }
 
   return (
-    <img
-      src={currentSrc !== null && currentSrc !== '' ? currentSrc : fallbackSrc}
-      onError={onError}
-      {...remainingProps}
-    />
+    <>
+      {currentSrc ? (
+        <img src={currentSrc} onError={onError} {...remainingProps} />
+      ) : (
+        <div {...remainingProps}>
+          <Icon name="fe-box" size="70%" className={styles.fallbackIcon} />
+        </div>
+      )}
+    </>
   );
 };
 

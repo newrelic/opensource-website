@@ -3,12 +3,6 @@
 
 /*-- CSS Variables --*/
 :root {
-  --color-background: #ffffff;
-
-  --color-neutrals-850: #161f1f;
-
-  --footer-text-color: #7da5a8;
-
   /*-- Easing --*/
   --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
   --ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -16,25 +10,6 @@
   --ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
   --ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
-
-  /*-- Dark mode --*/
-  .dark-mode {
-    --color-background: #1c2a2f;
-
-    --color-neutrals-050: #131f23;
-    --color-neutrals-100: #22353c;
-    --color-neutrals-200: #233940;
-    --color-neutrals-300: #2a4249;
-    --color-neutrals-400: #37484e;
-    --color-neutrals-500: #495b5c;
-    --color-neutrals-600: #7c9799;
-    --color-neutrals-700: #a5bbbd;
-    --color-neutrals-800: #cedede;
-    --color-neutrals-900: #e8eaea;
-
-    --color-brand-800: #70ccd3;
-    --color-brand-900: #edffff;
-  }
 }
 
 /*-------------------------*/
@@ -89,7 +64,7 @@ select {
   -webkit-appearance: none;
   font-size: 12px !important;
   line-height: initial !important;
-  background: var(--color-background);
+  background: var(--primary-background-color);
   border: 1px solid var(--color-neutrals-400);
   box-sizing: border-box;
   border-radius: 4px;

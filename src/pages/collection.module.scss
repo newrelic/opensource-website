@@ -28,7 +28,7 @@
     left: 0;
     content: "";
     height: 100vh;
-    background-color: var(--color-neutrals-100);
+    background-color: var(--primary-hover-color);
     width: 100%;
     transform: skewY(-2deg) translateY(-70px);
     z-index:-1;
@@ -41,7 +41,7 @@
   align-items: baseline;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  border-bottom: 1px dotted var(--color-neutrals-400);
+  border-bottom: 1px dotted var(--border-color);
 }
 
 .collection-listing-header-section-heading {
@@ -215,5 +215,11 @@
 
   .collections-page .page-heading {
     margin-bottom: 0px;
+  }
+}
+
+:global(.dark-mode) {
+  .collection-listing-container:before {
+    background-color: var(--system-background-surface-1-dark);
   }
 }

@@ -1,11 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { css } from '@emotion/react';
-import { Helmet } from 'react-helmet';
 
 import Header from './Header';
 import './styles.scss';
-import favicon from '../images/favicon.svg';
 import { GlobalFooter } from '@newrelic/gatsby-theme-newrelic';
 
 const Layout = ({
@@ -27,9 +25,6 @@ const Layout = ({
         position: relative;
       `}
     >
-      <Helmet>
-        <link rel="icon" href={favicon} />
-      </Helmet>
       <Header hasHeaderBg={hasHeaderBg} editLink={editLink} />
       <main
         className={mainClassName}

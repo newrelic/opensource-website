@@ -15,7 +15,7 @@
   align-items: center;
 
   &:not(.has-header-bg) {
-    border-bottom: 1px solid var(--color-neutrals-100);
+    border-bottom: 1px solid var(--border-color);
   }
 }
 
@@ -138,7 +138,7 @@ div.exists-in-active-mobile-menu {
     bottom: -100vh;
     left: 0;
     z-index: 400;
-    background-color: var(--color-background);
+    background-color: var(--primary-background-color);
 
     .mobile-menu-button {
       width: 20.5px;
