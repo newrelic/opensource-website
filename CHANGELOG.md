@@ -1,3 +1,16 @@
+# [1.21.0](https://github.com/newrelic/opensource-website/compare/v1.20.6...v1.21.0) (2022-05-17)
+
+
+### Bug Fixes
+
+* Update node version in release workflow ([32e62da](https://github.com/newrelic/opensource-website/commit/32e62dae076e5c0c8d241bacf80417a5ee2b032e))
+* update snapshot ([e5ddae0](https://github.com/newrelic/opensource-website/commit/e5ddae03ef5e56b722828b80b17000c221f98cf7))
+
+
+### Features
+
+* Update typography and colors ([1d62ea5](https://github.com/newrelic/opensource-website/commit/1d62ea5af94bc92731713c88a92690f68be1072c))
+
 ## [1.20.6](https://github.com/newrelic/opensource-website/compare/v1.20.5...v1.20.6) (2022-05-10)
 
 
