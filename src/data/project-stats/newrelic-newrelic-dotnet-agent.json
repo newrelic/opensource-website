@@ -1,35 +1,28 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 81
+    "open": 80
   },
-  "releases": 82,
+  "releases": 83,
   "latestRelease": {
-    "name": "v9.8.0",
-    "date": "2022-05-05T00:20:27Z"
+    "name": "v9.8.1",
+    "date": "2022-05-19T18:26:43Z"
   },
-  "commits": 553,
+  "commits": 554,
   "lastSixMonthsCommitTotal": 88,
   "contributors": 22,
   "pullRequests": {
-    "open": 7
+    "open": 6
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 4761745,
-      "login": "elucus",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
-      "htmlUrl": "https://github.com/elucus",
-      "contributions": 4
-    },
-    {
-      "id": 69914680,
-      "login": "angelatan2",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/69914680?v=4",
-      "htmlUrl": "https://github.com/angelatan2",
-      "contributions": 21
+      "id": 58010132,
+      "login": "mmfred",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58010132?v=4",
+      "htmlUrl": "https://github.com/mmfred",
+      "contributions": 2
     },
     {
       "id": 188129,
@@ -37,6 +30,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
       "htmlUrl": "https://github.com/bgrainger",
       "contributions": 5
+    },
+    {
+      "id": 69914680,
+      "login": "angelatan2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/69914680?v=4",
+      "htmlUrl": "https://github.com/angelatan2",
+      "contributions": 21
     },
     {
       "id": 20267975,
@@ -53,18 +53,18 @@
       "contributions": 1
     },
     {
-      "id": 3522458,
-      "login": "jifeingo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
-      "htmlUrl": "https://github.com/jifeingo",
-      "contributions": 38
-    },
-    {
       "id": 654808,
       "login": "tehbio",
       "avatarUrl": "https://avatars.githubusercontent.com/u/654808?v=4",
       "htmlUrl": "https://github.com/tehbio",
       "contributions": 27
+    },
+    {
+      "id": 4761745,
+      "login": "elucus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
+      "htmlUrl": "https://github.com/elucus",
+      "contributions": 4
     },
     {
       "id": 19733683,
@@ -74,11 +74,11 @@
       "contributions": 1
     },
     {
-      "id": 58010132,
-      "login": "mmfred",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/58010132?v=4",
-      "htmlUrl": "https://github.com/mmfred",
-      "contributions": 2
+      "id": 3522458,
+      "login": "jifeingo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3522458?v=4",
+      "htmlUrl": "https://github.com/jifeingo",
+      "contributions": 38
     },
     {
       "id": 3676547,
@@ -92,7 +92,7 @@
       "login": "JcolemanNR",
       "avatarUrl": "https://avatars.githubusercontent.com/u/83677148?v=4",
       "htmlUrl": "https://github.com/JcolemanNR",
-      "contributions": 34
+      "contributions": 35
     },
     {
       "id": 271464,
