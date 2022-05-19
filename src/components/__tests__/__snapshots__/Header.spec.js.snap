@@ -376,6 +376,16 @@ Array [
   flex-direction: row;
 }
 
+@media screen and (max-width: 460px) {
+  .emotion-67 {
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    -webkit-justify-content: space-evenly;
+    justify-content: space-evenly;
+  }
+}
+
 .emotion-63 {
   color: var(--system-text-primary-dark);
   -webkit-transition: all 0.2s ease-out;

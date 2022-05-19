@@ -1,3 +1,11 @@
+## [1.21.1](https://github.com/newrelic/opensource-website/compare/v1.21.0...v1.21.1) (2022-05-19)
+
+
+### Bug Fixes
+
+* theme bump to 6.0.2 ([2dfb96b](https://github.com/newrelic/opensource-website/commit/2dfb96be0b3512b39b946ed378aa032709a6c318))
+* update snapshot ([e81ba70](https://github.com/newrelic/opensource-website/commit/e81ba7072e4a004544ee9849b853cd5ba29b25b1))
+
 # [1.21.0](https://github.com/newrelic/opensource-website/compare/v1.20.6...v1.21.0) (2022-05-17)
 
 
