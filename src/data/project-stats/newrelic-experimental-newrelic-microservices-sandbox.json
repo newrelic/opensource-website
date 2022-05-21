@@ -3,17 +3,27 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.0",
+    "date": "2022-05-20T17:15:05Z"
+  },
+  "commits": 2,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 1082112,
+      "login": "ericmittelhammer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1082112?v=4",
+      "htmlUrl": "https://github.com/ericmittelhammer",
+      "contributions": 1
+    },
     {
       "id": 43244625,
       "login": "melissaklein24",
@@ -22,7 +32,43 @@
       "contributions": 1
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MzE=",
+      "name": "Smarty",
+      "color": "#f0c040"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
+      "name": "HCL",
+      "color": null
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
