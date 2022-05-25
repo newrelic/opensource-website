@@ -3,16 +3,16 @@
   "issues": {
     "open": 55
   },
-  "releases": 8,
+  "releases": 13,
   "latestRelease": {
-    "name": "v1216",
-    "date": "2022-04-14T02:40:20Z"
+    "name": "v0.0.7",
+    "date": null
   },
-  "commits": 131,
-  "lastSixMonthsCommitTotal": 27,
+  "commits": 150,
+  "lastSixMonthsCommitTotal": 46,
   "contributors": 6,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -75,6 +75,16 @@
       "id": "MDg6TGFuZ3VhZ2UzMDg=",
       "name": "CSS",
       "color": "#563d7c"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyODc=",
+      "name": "TypeScript",
+      "color": "#2b7489"
     }
   ],
   "screenshots": [],
