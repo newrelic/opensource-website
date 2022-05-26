@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-ruby-agent",
   "issues": {
-    "open": 87
+    "open": 86
   },
   "releases": 399,
   "latestRelease": {
@@ -34,6 +34,23 @@
       "createdBy": "Rachel Klein"
     },
     {
+      "id": "I_kwDOAAESBM5EKj8j",
+      "title": "GitHub Issues should default to having the \"Ruby Engineering Board\" project",
+      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/972",
+      "createdAt": "2022-02-18T19:13:47Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "fallwith",
+        "id": "MDQ6VXNlcjEyMTM5Mg==",
+        "email": "",
+        "name": "James Bunch"
+      },
+      "number": 972,
+      "createdBy": "James Bunch"
+    },
+    {
       "id": "I_kwDOAAESBM5ELboz",
       "title": "Replace calls to empty objects with their constants",
       "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/974",
@@ -49,23 +66,6 @@
       },
       "number": 974,
       "createdBy": "Kayla Reopelle (she/her)"
-    },
-    {
-      "id": "I_kwDOAAESBM5ImEe6",
-      "title": "Introduce version comparison helper method(s)",
-      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/1124",
-      "createdAt": "2022-04-27T22:20:28Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "fallwith",
-        "id": "MDQ6VXNlcjEyMTM5Mg==",
-        "email": "",
-        "name": "James Bunch"
-      },
-      "number": 1124,
-      "createdBy": "James Bunch"
     }
   ],
   "cachedContributors": [
