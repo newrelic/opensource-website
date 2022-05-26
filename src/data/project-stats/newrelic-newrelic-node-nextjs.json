@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-node-nextjs",
   "issues": {
-    "open": 4
+    "open": 5
   },
   "releases": 2,
   "latestRelease": {
@@ -15,14 +15,32 @@
     "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOGyjnmM5KfYfV",
+      "title": "Update injecting browser agent example",
+      "url": "https://github.com/newrelic/newrelic-node-nextjs/issues/62",
+      "createdAt": "2022-05-26T15:47:17Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "bizob2828",
+        "id": "MDQ6VXNlcjE4NzQ5Mzc=",
+        "email": "",
+        "name": "Bob Evans"
+      },
+      "number": 62,
+      "createdBy": "Bob Evans"
+    }
+  ],
   "cachedContributors": [
     {
-      "id": 1428400,
-      "login": "coreyarnold",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1428400?v=4",
-      "htmlUrl": "https://github.com/coreyarnold",
-      "contributions": 1
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 2
     },
     {
       "id": 883103,
@@ -39,11 +57,11 @@
       "contributions": 9
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 2
+      "id": 1428400,
+      "login": "coreyarnold",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1428400?v=4",
+      "htmlUrl": "https://github.com/coreyarnold",
+      "contributions": 1
     },
     {
       "id": 1874937,
