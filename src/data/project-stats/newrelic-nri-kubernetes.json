@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/nri-kubernetes",
   "issues": {
-    "open": 43
+    "open": 40
   },
   "releases": 61,
   "latestRelease": {
     "name": "newrelic-infrastructure-3.5.4",
     "date": "2022-06-08T13:39:14Z"
   },
-  "commits": 384,
-  "lastSixMonthsCommitTotal": 197,
+  "commits": 385,
+  "lastSixMonthsCommitTotal": 198,
   "contributors": 23,
   "pullRequests": {
     "open": 13
@@ -53,18 +53,18 @@
   ],
   "cachedContributors": [
     {
+      "id": 695967,
+      "login": "danielpanzella",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/695967?v=4",
+      "htmlUrl": "https://github.com/danielpanzella",
+      "contributions": 1
+    },
+    {
       "id": 1083296,
       "login": "smoya",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1083296?v=4",
       "htmlUrl": "https://github.com/smoya",
       "contributions": 1
-    },
-    {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 21
     },
     {
       "id": 3420583,
@@ -74,11 +74,11 @@
       "contributions": 1
     },
     {
-      "id": 503802,
-      "login": "jorik",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
-      "htmlUrl": "https://github.com/jorik",
-      "contributions": 13
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 21
     },
     {
       "id": 442627,
@@ -116,11 +116,11 @@
       "contributions": 1
     },
     {
-      "id": 695967,
-      "login": "danielpanzella",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/695967?v=4",
-      "htmlUrl": "https://github.com/danielpanzella",
-      "contributions": 1
+      "id": 503802,
+      "login": "jorik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
+      "htmlUrl": "https://github.com/jorik",
+      "contributions": 13
     },
     {
       "id": 82898004,
@@ -169,7 +169,7 @@
       "login": "alvarocabanas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
       "htmlUrl": "https://github.com/alvarocabanas",
-      "contributions": 5
+      "contributions": 6
     },
     {
       "id": 717815,
