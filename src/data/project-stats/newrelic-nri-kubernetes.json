@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-kubernetes",
   "issues": {
-    "open": 34
+    "open": 33
   },
-  "releases": 64,
+  "releases": 65,
   "latestRelease": {
-    "name": "newrelic-infrastructure-3.6.0",
-    "date": "2022-06-14T08:02:07Z"
+    "name": "newrelic-infrastructure-3.6.1",
+    "date": "2022-06-16T13:45:50Z"
   },
-  "commits": 390,
-  "lastSixMonthsCommitTotal": 201,
+  "commits": 391,
+  "lastSixMonthsCommitTotal": 202,
   "contributors": 23,
   "pullRequests": {
-    "open": 16
+    "open": 15
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -53,11 +53,11 @@
   ],
   "cachedContributors": [
     {
-      "id": 1083296,
-      "login": "smoya",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1083296?v=4",
-      "htmlUrl": "https://github.com/smoya",
-      "contributions": 1
+      "id": 503802,
+      "login": "jorik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
+      "htmlUrl": "https://github.com/jorik",
+      "contributions": 13
     },
     {
       "id": 3420583,
@@ -74,11 +74,18 @@
       "contributions": 6
     },
     {
-      "id": 503802,
-      "login": "jorik",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
-      "htmlUrl": "https://github.com/jorik",
-      "contributions": 13
+      "id": 1083296,
+      "login": "smoya",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1083296?v=4",
+      "htmlUrl": "https://github.com/smoya",
+      "contributions": 1
+    },
+    {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 21
     },
     {
       "id": 929261,
@@ -116,13 +123,6 @@
       "contributions": 1
     },
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 136
-    },
-    {
       "id": 82898004,
       "login": "mangulonr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/82898004?v=4",
@@ -144,11 +144,11 @@
       "contributions": 4
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 21
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 137
     },
     {
       "id": 49699333,
