@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-kubernetes",
   "issues": {
-    "open": 33
+    "open": 32
   },
   "releases": 67,
   "latestRelease": {
     "name": "v3.3.1",
     "date": "2022-06-20T07:29:53Z"
   },
-  "commits": 394,
-  "lastSixMonthsCommitTotal": 205,
+  "commits": 395,
+  "lastSixMonthsCommitTotal": 206,
   "contributors": 23,
   "pullRequests": {
-    "open": 13
+    "open": 12
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -53,24 +53,10 @@
   ],
   "cachedContributors": [
     {
-      "id": 503802,
-      "login": "jorik",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
-      "htmlUrl": "https://github.com/jorik",
-      "contributions": 13
-    },
-    {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 21
-    },
-    {
-      "id": 3420583,
-      "login": "ahoulgrave",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3420583?v=4",
-      "htmlUrl": "https://github.com/ahoulgrave",
+      "id": 695967,
+      "login": "danielpanzella",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/695967?v=4",
+      "htmlUrl": "https://github.com/danielpanzella",
       "contributions": 1
     },
     {
@@ -81,11 +67,25 @@
       "contributions": 16
     },
     {
+      "id": 3420583,
+      "login": "ahoulgrave",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3420583?v=4",
+      "htmlUrl": "https://github.com/ahoulgrave",
+      "contributions": 1
+    },
+    {
       "id": 442627,
       "login": "sigilioso",
       "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
       "htmlUrl": "https://github.com/sigilioso",
       "contributions": 6
+    },
+    {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 21
     },
     {
       "id": 929261,
@@ -116,11 +116,11 @@
       "contributions": 2
     },
     {
-      "id": 695967,
-      "login": "danielpanzella",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/695967?v=4",
-      "htmlUrl": "https://github.com/danielpanzella",
-      "contributions": 1
+      "id": 503802,
+      "login": "jorik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
+      "htmlUrl": "https://github.com/jorik",
+      "contributions": 13
     },
     {
       "id": 82898004,
@@ -190,7 +190,7 @@
       "login": "kang-makes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 14
+      "contributions": 15
     },
     {
       "id": 1083296,
