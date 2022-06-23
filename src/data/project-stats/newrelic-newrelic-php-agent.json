@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-php-agent",
   "issues": {
-    "open": 86
+    "open": 87
   },
   "releases": 11,
   "latestRelease": {
@@ -12,7 +12,7 @@
   "lastSixMonthsCommitTotal": 17,
   "contributors": 14,
   "pullRequests": {
-    "open": 7
+    "open": 6
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -32,16 +32,26 @@
       },
       "number": 48,
       "createdBy": "Starfox64"
+    },
+    {
+      "id": "I_kwDOEgHfPM5MdWXK",
+      "title": "Integrate Cross Agent Test decimal precision",
+      "url": "https://github.com/newrelic/newrelic-php-agent/issues/473",
+      "createdAt": "2022-06-23T18:04:59Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "bduranleau-nr",
+        "id": "U_kgDOBlQn9w",
+        "email": "",
+        "name": null
+      },
+      "number": 473,
+      "createdBy": "bduranleau-nr"
     }
   ],
   "cachedContributors": [
-    {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
-      "contributions": 1
-    },
     {
       "id": 1904430,
       "login": "TysonAndre",
@@ -54,6 +64,13 @@
       "login": "stockalexander",
       "avatarUrl": "https://avatars.githubusercontent.com/u/21207092?v=4",
       "htmlUrl": "https://github.com/stockalexander",
+      "contributions": 1
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
     },
     {
