@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-kubernetes",
   "issues": {
-    "open": 36
+    "open": 35
   },
-  "releases": 67,
+  "releases": 68,
   "latestRelease": {
-    "name": "v3.3.1",
-    "date": "2022-06-20T07:29:53Z"
+    "name": "newrelic-infrastructure-3.6.3",
+    "date": "2022-06-29T07:13:16Z"
   },
-  "commits": 395,
-  "lastSixMonthsCommitTotal": 206,
+  "commits": 396,
+  "lastSixMonthsCommitTotal": 207,
   "contributors": 23,
   "pullRequests": {
-    "open": 15
+    "open": 14
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -74,11 +74,11 @@
       "contributions": 1
     },
     {
-      "id": 695967,
-      "login": "danielpanzella",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/695967?v=4",
-      "htmlUrl": "https://github.com/danielpanzella",
-      "contributions": 1
+      "id": 503802,
+      "login": "jorik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
+      "htmlUrl": "https://github.com/jorik",
+      "contributions": 13
     },
     {
       "id": 929261,
@@ -116,11 +116,11 @@
       "contributions": 2
     },
     {
-      "id": 503802,
-      "login": "jorik",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
-      "htmlUrl": "https://github.com/jorik",
-      "contributions": 13
+      "id": 695967,
+      "login": "danielpanzella",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/695967?v=4",
+      "htmlUrl": "https://github.com/danielpanzella",
+      "contributions": 1
     },
     {
       "id": 82898004,
@@ -148,7 +148,7 @@
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 137
+      "contributions": 138
     },
     {
       "id": 49699333,
