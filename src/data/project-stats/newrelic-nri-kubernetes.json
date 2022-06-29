@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nri-kubernetes",
   "issues": {
-    "open": 35
+    "open": 36
   },
   "releases": 68,
   "latestRelease": {
@@ -49,16 +49,26 @@
       },
       "number": 392,
       "createdBy": "PaoloGallina"
+    },
+    {
+      "id": "I_kwDOELKjF85Mz3XU",
+      "title": "[chart] Old v3 chart is not marked as deprecated in the old index",
+      "url": "https://github.com/newrelic/nri-kubernetes/issues/508",
+      "createdAt": "2022-06-29T12:39:20Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "paologallinaharbur",
+        "id": "MDQ6VXNlcjQzMzM1NzUw",
+        "email": "",
+        "name": "PaoloGallina"
+      },
+      "number": 508,
+      "createdBy": "PaoloGallina"
     }
   ],
   "cachedContributors": [
-    {
-      "id": 1083296,
-      "login": "smoya",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1083296?v=4",
-      "htmlUrl": "https://github.com/smoya",
-      "contributions": 1
-    },
     {
       "id": 3420583,
       "login": "ahoulgrave",
@@ -67,18 +77,18 @@
       "contributions": 1
     },
     {
-      "id": 442627,
-      "login": "sigilioso",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
-      "htmlUrl": "https://github.com/sigilioso",
-      "contributions": 6
+      "id": 695967,
+      "login": "danielpanzella",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/695967?v=4",
+      "htmlUrl": "https://github.com/danielpanzella",
+      "contributions": 1
     },
     {
-      "id": 503802,
-      "login": "jorik",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
-      "htmlUrl": "https://github.com/jorik",
-      "contributions": 13
+      "id": 1083296,
+      "login": "smoya",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1083296?v=4",
+      "htmlUrl": "https://github.com/smoya",
+      "contributions": 1
     },
     {
       "id": 929261,
@@ -95,6 +105,13 @@
       "contributions": 8
     },
     {
+      "id": 442627,
+      "login": "sigilioso",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
+      "htmlUrl": "https://github.com/sigilioso",
+      "contributions": 6
+    },
+    {
       "id": 59606623,
       "login": "mfuentes-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/59606623?v=4",
@@ -109,11 +126,11 @@
       "contributions": 2
     },
     {
-      "id": 695967,
-      "login": "danielpanzella",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/695967?v=4",
-      "htmlUrl": "https://github.com/danielpanzella",
-      "contributions": 1
+      "id": 503802,
+      "login": "jorik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
+      "htmlUrl": "https://github.com/jorik",
+      "contributions": 13
     },
     {
       "id": 43335750,
