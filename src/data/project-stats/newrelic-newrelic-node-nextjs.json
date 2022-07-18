@@ -8,11 +8,11 @@
     "name": "v0.2.0",
     "date": null
   },
-  "commits": 115,
-  "lastSixMonthsCommitTotal": 115,
+  "commits": 119,
+  "lastSixMonthsCommitTotal": 119,
   "contributors": 7,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -32,6 +32,23 @@
       },
       "number": 62,
       "createdBy": "Bob Evans"
+    },
+    {
+      "id": "I_kwDOGyjnmM5NWCmQ",
+      "title": "How to include newrelic in the browser for error handling",
+      "url": "https://github.com/newrelic/newrelic-node-nextjs/issues/74",
+      "createdAt": "2022-07-07T15:16:43Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "siuvdlec",
+        "id": "MDQ6VXNlcjMzMDg0ODY=",
+        "email": "",
+        "name": "Iacopo Pancotti"
+      },
+      "number": 74,
+      "createdBy": "Iacopo Pancotti"
     }
   ],
   "cachedContributors": [
@@ -40,7 +57,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 3
+      "contributions": 4
     },
     {
       "id": 883103,
@@ -54,7 +71,7 @@
       "login": "michaelgoin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 9
+      "contributions": 10
     },
     {
       "id": 6328360,
