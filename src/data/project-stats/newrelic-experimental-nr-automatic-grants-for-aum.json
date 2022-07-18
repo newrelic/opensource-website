@@ -1,16 +1,13 @@
 {
-  "projectFullName": "newrelic-experimental/talisker",
+  "projectFullName": "newrelic-experimental/nr-automatic-grants-for-aum",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 1,
-  "latestRelease": {
-    "name": "0.2.0",
-    "date": "2022-05-23T12:46:39Z"
-  },
+  "releases": 0,
+  "latestRelease": null,
   "commits": 9,
-  "lastSixMonthsCommitTotal": 4,
-  "contributors": 2,
+  "lastSixMonthsCommitTotal": 9,
+  "contributors": 1,
   "pullRequests": {
     "open": 0
   },
@@ -18,35 +15,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 6722433,
-      "login": "jbeveland27",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
-      "htmlUrl": "https://github.com/jbeveland27",
-      "contributions": 1
-    },
-    {
       "id": 55132258,
       "login": "jsbnr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/55132258?v=4",
       "htmlUrl": "https://github.com/jsbnr",
-      "contributions": 5
+      "contributions": 9
     }
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
-      "name": "HCL",
-      "color": null
-    },
-    {
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
     }
   ],
   "screenshots": [],
