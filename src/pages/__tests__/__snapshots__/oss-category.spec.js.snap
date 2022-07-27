@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`OSS Category Page Renders correctly 1`] = `
-.emotion-105 {
+.emotion-110 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,7 +14,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-76 {
+.emotion-78 {
   background-color: var(--system-text-primary-light);
   box-shadow: var(--shadow-2);
   position: -webkit-sticky;
@@ -23,14 +23,14 @@ exports[`OSS Category Page Renders correctly 1`] = `
   z-index: 80;
 }
 
-.dark-mode .emotion-76 {
+.dark-mode .emotion-78 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-75 {
+.emotion-77 {
   height: var(--global-header-height);
   display: -webkit-box;
   display: -webkit-flex;
@@ -44,7 +44,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   padding: 0 var(--site-content-padding);
 }
 
-.emotion-57 {
+.emotion-59 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -58,7 +58,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-21 {
+.emotion-22 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -70,25 +70,33 @@ exports[`OSS Category Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-21 {
+  .emotion-22 {
     display: none;
   }
 }
 
-.emotion-20 {
+.emotion-21 {
   fill: none;
   width: 150px;
 }
 
-.emotion-20 .text-color {
+.emotion-21 .text-color {
   fill: var(--color-white);
+}
+
+
+
+@media screen and (max-width: 460px) {
+  .emotion-18 {
+    display: none;
+  }
 }
 
 .emotion-0 {
   fill: var(--primary-text-color);
 }
 
-.emotion-51 {
+.emotion-53 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -102,12 +110,12 @@ exports[`OSS Category Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-51 {
+  .emotion-53 {
     display: block;
   }
 }
 
-.emotion-43 {
+.emotion-45 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -142,7 +150,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-50 {
+.emotion-52 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   position: absolute;
@@ -155,11 +163,11 @@ exports[`OSS Category Page Renders correctly 1`] = `
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-50 {
+.dark-mode .emotion-52 {
   background-color: var(--primary-hover-color);
 }
 
-.emotion-50::before {
+.emotion-52::before {
   content: '';
   position: absolute;
   display: block;
@@ -173,13 +181,13 @@ exports[`OSS Category Page Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-49 {
+.emotion-51 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
 }
 
-.emotion-45 {
+.emotion-47 {
   display: block;
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
@@ -190,18 +198,18 @@ exports[`OSS Category Page Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-45:hover {
+.emotion-47:hover {
   color: var(--text-color);
   cursor: pointer;
   background: var(--primary-hover-color);
   border-radius: 0.25rem;
 }
 
-.dark-mode .emotion-45:hover {
+.dark-mode .emotion-47:hover {
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-56 {
+.emotion-58 {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -217,29 +225,29 @@ exports[`OSS Category Page Renders correctly 1`] = `
 
 
 
-.emotion-56 li >a {
+.emotion-58 li >a {
   font-size: 18px;
 }
 
 
 
-.emotion-56 li:first-child >a {
+.emotion-58 li:first-of-type >a {
   padding-left: 0px;
 }
 
 @media screen and (max-width: 1200px) {
-  .emotion-56 {
+  .emotion-58 {
     margin-left: 2rem;
   }
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-56 {
+  .emotion-58 {
     display: none;
   }
 }
 
-.emotion-52 {
+.emotion-54 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -260,11 +268,11 @@ exports[`OSS Category Page Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-52:hover {
+.emotion-54:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-74 {
+.emotion-76 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -287,16 +295,16 @@ exports[`OSS Category Page Renders correctly 1`] = `
   flex: 1;
 }
 
-.emotion-74 >li {
+.emotion-76 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-74 >li:not(:first-of-type) .emotion-74 >li:not(:last-of-type) {
+.emotion-76 >li:not(:first-of-type) .emotion-76 >li:not(:last-of-type) {
   margin-left: 0.5rem;
 }
 
-.emotion-61 {
+.emotion-63 {
   margin: 0rem 1rem;
   width: 100%;
   max-width: 320px;
@@ -304,18 +312,18 @@ exports[`OSS Category Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 930px) {
-  .emotion-61 {
+  .emotion-63 {
     margin-right: 1rem;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-61 {
+  .emotion-63 {
     display: none;
   }
 }
 
-.emotion-60 {
+.emotion-62 {
   --horizontal-spacing: 1rem;
   position: relative;
   width: 100%;
@@ -325,17 +333,17 @@ exports[`OSS Category Page Renders correctly 1`] = `
   max-width: 450px;
 }
 
-.emotion-60 svg {
+.emotion-62 svg {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.emotion-60 input {
+.emotion-62 input {
   border: none;
   height: 40px;
 }
 
-.emotion-58 {
+.emotion-60 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -352,7 +360,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-59 {
+.emotion-61 {
   width: 100%;
   border: 1px solid var(--primary-text-color);
   border-radius: 4px;
@@ -362,23 +370,21 @@ exports[`OSS Category Page Renders correctly 1`] = `
   line-height: 1;
   color: var(--primary-text-color);
   padding-left: calc(
-              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
-            );
-  padding-right: calc(
-              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
-            );
+                    var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+                  );
+  padding-right: var(--horizontal-spacing);
   font-size: 0.875rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.emotion-59:focus {
+.emotion-61:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-67 {
+.emotion-69 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -389,7 +395,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 460px) {
-  .emotion-67 {
+  .emotion-69 {
     width: 100%;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
@@ -398,7 +404,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   }
 }
 
-.emotion-63 {
+.emotion-65 {
   color: var(--system-text-primary-dark);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -410,18 +416,18 @@ exports[`OSS Category Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: ) {
-  .emotion-63 {
+  .emotion-65 {
     display: block;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-63 {
+  .emotion-65 {
     padding-right: 0.25rem;
   }
 }
 
-.emotion-62 {
+.emotion-64 {
   width: 1.5rem;
   height: 1.5rem;
   fill: none;
@@ -433,7 +439,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
   display: block;
 }
 
-.emotion-65 {
+.emotion-67 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -467,31 +473,63 @@ exports[`OSS Category Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 450px) {
-  .emotion-65 {
+  .emotion-67 {
     padding: 0;
   }
 }
 
-.emotion-64 {
+.emotion-66 {
   width: 27px;
   height: 27px;
   stroke: currentColor;
   cursor: pointer;
+  -webkit-transition: opacity 250ms;
+  transition: opacity 250ms;
+  transition-timing-function: ease-out;
   font-size: 0.75rem;
   color: var(--system-text-primary-dark);
 }
 
-.emotion-64 path {
+.emotion-66 path {
   fill: currentColor;
 }
 
+.emotion-66 path {
+  -webkit-transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transform-origin: center;
+  transition-timing-function: ease-out;
+}
+
+.dark-mode .emotion-66 {
+  opacity: 0.8;
+  -webkit-transition: opacity 250ms;
+  transition: opacity 250ms;
+  transition-timing-function: ease-out;
+}
+
+.dark-mode .emotion-66 line {
+  stroke-linecap: butt;
+}
+
+.dark-mode .emotion-66 path {
+  -webkit-transform: rotate(0.5turn) translate(3%, 3%);
+  -moz-transform: rotate(0.5turn) translate(3%, 3%);
+  -ms-transform: rotate(0.5turn) translate(3%, 3%);
+  transform: rotate(0.5turn) translate(3%, 3%);
+  transform-origin: center;
+  -webkit-transition: -webkit-transform 250ms;
+  transition: transform 250ms;
+  transition-timing-function: ease-out;
+}
+
 @media screen and (max-width: ) {
-  .emotion-64 {
+  .emotion-66 {
     margin: 0;
   }
 }
 
-.emotion-72 {
+.emotion-74 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -503,49 +541,6 @@ exports[`OSS Category Page Renders correctly 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-}
-
-.emotion-68 {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem;
-  font-weight: 400;
-  border-radius: 3px;
-  font-family: var(--primary-font-family);
-  line-height: 1;
-  cursor: pointer;
-  border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
-  white-space: nowrap;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-  color: var(--link-color);
-  background: transparent;
-  font-size: 0.75rem;
-  white-space: nowrap;
-  font-size: 18px;
-}
-
-.emotion-68 span {
-  color: var(--system-text-primary-dark);
-}
-
-@media screen and (max-width: ) {
-  .emotion-68 {
-    display: none;
-  }
 }
 
 .emotion-70 {
@@ -577,39 +572,89 @@ exports[`OSS Category Page Renders correctly 1`] = `
   color: var(--link-color);
   background: transparent;
   font-size: 0.75rem;
-  padding-right: 0;
+  white-space: nowrap;
   font-size: 18px;
 }
 
 .emotion-70 span {
+  color: var(--system-text-primary-dark);
+}
+
+@media screen and (max-width: ) {
+  .emotion-70 {
+    display: none;
+  }
+}
+
+.emotion-72 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border-radius: 3px;
+  font-family: var(--primary-font-family);
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+  white-space: nowrap;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: var(--link-color);
+  background: transparent;
+  font-size: 0.75rem;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.emotion-72 span {
   color: var(--brand-button-primary-accent);
 }
 
-.emotion-73 {
+.dark-mode .emotion-72 {
+  --color-neutrals-050: #fafbfb;
+  --color-neutrals-100: #f4f5f5;
+  --color-neutrals-500: #b9bdbd;
+  --color-neutrals-600: #8e9494;
+}
+
+.emotion-75 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.emotion-98 {
+.emotion-101 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-98 {
+  .emotion-101 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-97 {
+.emotion-100 {
   fill: none;
   width: 100%;
 }
 
-.emotion-100 {
+.emotion-103 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -622,29 +667,29 @@ exports[`OSS Category Page Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-100>hr {
+.emotion-103>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-99 {
+.emotion-102 {
   margin-bottom: 1rem;
 }
 
-.emotion-104 {
+.emotion-109 {
   color: var(--system-text-primary-dark);
   background-color: var(--system-text-primary-light);
   z-index: 1;
 }
 
-.emotion-104 a {
+.emotion-109 a {
   color: var(--system-text-primary-dark);
   border-color: var(--system-text-primary-dark);
 }
 
-.emotion-103 {
+.emotion-108 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -662,7 +707,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-103 {
+  .emotion-108 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -674,14 +719,28 @@ exports[`OSS Category Page Renders correctly 1`] = `
   }
 }
 
-.emotion-101 {
+.emotion-104 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-102 {
+.emotion-107 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+}
+
+.emotion-105 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -697,37 +756,43 @@ exports[`OSS Category Page Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-102 a {
+.emotion-105 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
+.emotion-106 {
+  font-size: 0.625rem;
+  margin-top: 0.5rem;
+}
+
 <div
-  className="emotion-105"
+  className="emotion-110"
 >
   <div
-    className=" emotion-76"
+    className=" emotion-78"
     data-swiftype-index={false}
   >
     <div
-      className="emotion-75"
+      className="emotion-77"
     >
       <nav
-        className="emotion-57"
+        className="emotion-59"
       >
         <a
-          className="emotion-21"
+          className="emotion-22"
           href="https://newrelic.com/"
           onClick={[Function]}
           rel="noopener"
           target="_blank"
         >
           <svg
-            className="emotion-20"
+            className="emotion-21"
             viewBox="0 0 179 30"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g
+              className="emotion-18"
               clipPath="url(#clip0_3277_23032)"
             >
               <path
@@ -782,19 +847,20 @@ exports[`OSS Category Page Renders correctly 1`] = `
           </svg>
         </a>
         <div
-          className="emotion-51"
+          className="emotion-53"
         >
           <button
-            className="emotion-43 emotion-44"
+            className="emotion-45 emotion-46"
             onClick={[Function]}
             size="extraSmall"
           >
             <svg
-              className="emotion-20"
+              className="emotion-21"
               viewBox="0 0 179 30"
               xmlns="http://www.w3.org/2000/svg"
             >
               <g
+                className="emotion-18"
                 clipPath="url(#clip0_3277_23032)"
               >
                 <path
@@ -849,13 +915,13 @@ exports[`OSS Category Page Renders correctly 1`] = `
             </svg>
           </button>
           <div
-            className="emotion-50"
+            className="emotion-52"
           >
             <div
-              className="emotion-49"
+              className="emotion-51"
             >
               <a
-                className="emotion-45"
+                className="emotion-47"
                 href="https://docs.newrelic.com/"
                 onClick={[Function]}
                 rel="noopener"
@@ -864,7 +930,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
                 Docs
               </a>
               <a
-                className="emotion-45"
+                className="emotion-47"
                 href="https://developer.newrelic.com/"
                 onClick={[Function]}
                 rel="noopener"
@@ -873,7 +939,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
                 Developer
               </a>
               <a
-                className="emotion-45"
+                className="emotion-47"
                 href="https://discuss.newrelic.com/"
                 onClick={[Function]}
                 rel="noopener"
@@ -882,7 +948,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
                 Community
               </a>
               <a
-                className="emotion-45"
+                className="emotion-47"
                 href="https://learn.newrelic.com/"
                 onClick={[Function]}
                 rel="noopener"
@@ -894,11 +960,11 @@ exports[`OSS Category Page Renders correctly 1`] = `
           </div>
         </div>
         <ul
-          className="emotion-56"
+          className="emotion-58"
         >
           <li>
             <a
-              className="emotion-52"
+              className="emotion-54"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -909,7 +975,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-52"
+              className="emotion-54"
               href="https://developer.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -920,7 +986,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-52"
+              className="emotion-54"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -931,7 +997,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-52"
+              className="emotion-54"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -943,16 +1009,16 @@ exports[`OSS Category Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-74"
+        className="emotion-76"
       >
         <li
-          className="emotion-61"
+          className="emotion-63"
         >
           <div
-            className="emotion-60"
+            className="emotion-62"
           >
             <svg
-              className="emotion-58"
+              className="emotion-60"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -969,7 +1035,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-59"
+              className="emotion-61"
               onBlur={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
@@ -979,14 +1045,14 @@ exports[`OSS Category Page Renders correctly 1`] = `
           </div>
         </li>
         <li
-          className="emotion-67"
+          className="emotion-69"
         >
           <a
-            className="emotion-63"
+            className="emotion-65"
             href="?q="
           >
             <svg
-              className="emotion-62"
+              className="emotion-64"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1004,12 +1070,12 @@ exports[`OSS Category Page Renders correctly 1`] = `
             </svg>
           </a>
           <button
-            className="emotion-65 emotion-44"
+            className="emotion-67 emotion-46"
             onClick={[Function]}
             size="extraSmall"
           >
             <svg
-              className="emotion-64"
+              className="emotion-66"
               fill="none"
               viewBox="0 0 27 27"
               xmlns="http://www.w3.org/2000/svg"
@@ -1068,10 +1134,10 @@ exports[`OSS Category Page Renders correctly 1`] = `
           </button>
         </li>
         <li
-          className="emotion-72"
+          className="emotion-74"
         >
           <a
-            className="emotion-68 emotion-44"
+            className="emotion-70 emotion-46"
             href="https://one.newrelic.com"
             onClick={[Function]}
             rel="noopener"
@@ -1083,22 +1149,18 @@ exports[`OSS Category Page Renders correctly 1`] = `
               Log in
             </span>
           </a>
-          <a
-            className="emotion-70 emotion-44"
-            href="https://newrelic.com/signup"
+          <button
+            className=" emotion-72 emotion-46"
             onClick={[Function]}
-            rel="noopener"
             size="small"
-            target="_blank"
-            variant="link"
           >
             <span>
-              Free account
+              Start now
             </span>
-          </a>
+          </button>
         </li>
         <li
-          className="emotion-73"
+          className="emotion-75"
         />
       </ul>
     </div>
@@ -1108,15 +1170,16 @@ exports[`OSS Category Page Renders correctly 1`] = `
         "
   >
     <a
-      className="emotion-98"
+      className="emotion-101"
       href="/"
     >
       <svg
-        className="emotion-97"
+        className="emotion-100"
         viewBox="0 0 179 30"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g
+          className="emotion-18"
           clipPath="url(#clip0_3277_23032)"
         >
           <path
@@ -1241,7 +1304,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-100"
+    className="emotion-103"
   >
     <div
       className="primary-content"
@@ -1254,7 +1317,7 @@ exports[`OSS Category Page Renders correctly 1`] = `
             Categories
           </h4>
           <ul
-            className="emotion-99"
+            className="emotion-102"
           >
             <li>
               <a
@@ -1630,69 +1693,92 @@ exports[`OSS Category Page Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-104"
+    className="emotion-109"
     data-swiftype-index={false}
   >
     <div>
       <div
-        className="emotion-103"
+        className="emotion-108"
       >
         <div
-          className="emotion-101"
+          className="emotion-104"
         >
           Copyright © 2022 New Relic Inc.
         </div>
         <div
-          className="emotion-102"
+          className="emotion-107"
         >
-          <a
-            href="https://newrelic.com/about/careers"
-            onClick={[Function]}
-            rel="noopener"
-            target="_blank"
+          <div
+            className="emotion-105"
           >
-            Careers
-          </a>
-          <a
-            href="https://newrelic.com/termsandconditions/terms"
-            onClick={[Function]}
-            rel="noopener"
-            target="_blank"
+            <a
+              href="https://newrelic.com/about/careers"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Careers
+            </a>
+            <a
+              href="https://newrelic.com/termsandconditions/terms"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Terms of Service
+            </a>
+            <a
+              href="https://newrelic.com/termsandconditions/dmca"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              DCMA Policy
+            </a>
+            <a
+              href="https://newrelic.com/termsandconditions/services-notices"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Privacy Notice
+            </a>
+            <a
+              href="https://newrelic.com/termsandconditions/cookie-policy"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Cookie Policy
+            </a>
+            <a
+              href="https://newrelic.com/termsandconditions/uk-slavery-act"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              UK Slavery Act
+            </a>
+          </div>
+          <p
+            className="emotion-106"
           >
-            Terms of Service
-          </a>
-          <a
-            href="https://newrelic.com/termsandconditions/dmca"
-            onClick={[Function]}
-            rel="noopener"
-            target="_blank"
-          >
-            DCMA Policy
-          </a>
-          <a
-            href="https://newrelic.com/termsandconditions/services-notices"
-            onClick={[Function]}
-            rel="noopener"
-            target="_blank"
-          >
-            Privacy Notice
-          </a>
-          <a
-            href="https://newrelic.com/termsandconditions/cookie-policy"
-            onClick={[Function]}
-            rel="noopener"
-            target="_blank"
-          >
-            Cookie Policy
-          </a>
-          <a
-            href="https://newrelic.com/termsandconditions/uk-slavery-act"
-            onClick={[Function]}
-            rel="noopener"
-            target="_blank"
-          >
-            UK Slavery Act
-          </a>
+            This site is protected by reCAPTCHA and the Google
+             
+            <a
+              href="https://policies.google.com/privacy"
+            >
+              Privacy Policy
+            </a>
+             and
+             
+            <a
+              href="https://policies.google.com/terms"
+            >
+              Terms of Service
+            </a>
+             apply.
+          </p>
         </div>
       </div>
     </div>
