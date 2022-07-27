@@ -35,11 +35,9 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   line-height: 1;
   color: var(--primary-text-color);
   padding-left: calc(
-              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
-            );
-  padding-right: calc(
-              var(--horizontal-spacing) + 0.5rem + var(--icon-size)
-            );
+                    var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+                  );
+  padding-right: var(--horizontal-spacing);
   font-size: 1.25rem;
   font-weight: 500;
   padding-top: 0.75rem;
