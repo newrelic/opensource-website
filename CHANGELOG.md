@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/newrelic/opensource-website/compare/v1.21.1...v1.22.0) (2022-07-27)
+
+
+### Features
+
+* update theme to 6.8.0 ([cfbdf28](https://github.com/newrelic/opensource-website/commit/cfbdf2861df6e397f5539280c32181959bd61f10))
+
 ## [1.21.1](https://github.com/newrelic/opensource-website/compare/v1.21.0...v1.21.1) (2022-05-19)
 
 
