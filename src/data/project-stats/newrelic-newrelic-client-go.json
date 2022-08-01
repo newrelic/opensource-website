@@ -3,16 +3,16 @@
   "issues": {
     "open": 16
   },
-  "releases": 168,
+  "releases": 169,
   "latestRelease": {
-    "name": "v0.88.1",
-    "date": "2022-07-24T14:13:14Z"
+    "name": "v0.89.0",
+    "date": "2022-08-01T17:42:20Z"
   },
-  "commits": 1987,
-  "lastSixMonthsCommitTotal": 213,
+  "commits": 1991,
+  "lastSixMonthsCommitTotal": 215,
   "contributors": 34,
   "pullRequests": {
-    "open": 11
+    "open": 10
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,11 +25,11 @@
       "contributions": 1
     },
     {
-      "id": 25180681,
-      "login": "renovate-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/25180681?v=4",
-      "htmlUrl": "https://github.com/renovate-bot",
-      "contributions": 116
+      "id": 3392839,
+      "login": "luiscamaral",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3392839?v=4",
+      "htmlUrl": "https://github.com/luiscamaral",
+      "contributions": 2
     },
     {
       "id": 20245790,
@@ -53,11 +53,11 @@
       "contributions": 6
     },
     {
-      "id": 13971824,
-      "login": "Fallenstedt",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13971824?v=4",
-      "htmlUrl": "https://github.com/Fallenstedt",
-      "contributions": 6
+      "id": 25180681,
+      "login": "renovate-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25180681?v=4",
+      "htmlUrl": "https://github.com/renovate-bot",
+      "contributions": 116
     },
     {
       "id": 1189212,
@@ -67,39 +67,25 @@
       "contributions": 1
     },
     {
-      "id": 413389,
-      "login": "ctrombley",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/413389?v=4",
-      "htmlUrl": "https://github.com/ctrombley",
-      "contributions": 321
-    },
-    {
-      "id": 7471617,
-      "login": "Tarliton",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7471617?v=4",
-      "htmlUrl": "https://github.com/Tarliton",
-      "contributions": 3
-    },
-    {
-      "id": 3392839,
-      "login": "luiscamaral",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3392839?v=4",
-      "htmlUrl": "https://github.com/luiscamaral",
-      "contributions": 2
-    },
-    {
-      "id": 5140827,
-      "login": "kminehart",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5140827?v=4",
-      "htmlUrl": "https://github.com/kminehart",
-      "contributions": 3
-    },
-    {
       "id": 455419,
       "login": "jthurman42",
       "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
       "htmlUrl": "https://github.com/jthurman42",
       "contributions": 323
+    },
+    {
+      "id": 3991975,
+      "login": "davidji99",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3991975?v=4",
+      "htmlUrl": "https://github.com/davidji99",
+      "contributions": 1
+    },
+    {
+      "id": 13971824,
+      "login": "Fallenstedt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13971824?v=4",
+      "htmlUrl": "https://github.com/Fallenstedt",
+      "contributions": 6
     },
     {
       "id": 32712520,
@@ -130,6 +116,13 @@
       "contributions": 1
     },
     {
+      "id": 26093145,
+      "login": "akane0915",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26093145?v=4",
+      "htmlUrl": "https://github.com/akane0915",
+      "contributions": 3
+    },
+    {
       "id": 723533,
       "login": "RobDay-Reynolds",
       "avatarUrl": "https://avatars.githubusercontent.com/u/723533?v=4",
@@ -137,11 +130,11 @@
       "contributions": 3
     },
     {
-      "id": 17018863,
-      "login": "jaymcgrath",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17018863?v=4",
-      "htmlUrl": "https://github.com/jaymcgrath",
-      "contributions": 5
+      "id": 5140827,
+      "login": "kminehart",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5140827?v=4",
+      "htmlUrl": "https://github.com/kminehart",
+      "contributions": 3
     },
     {
       "id": 2581608,
@@ -151,11 +144,18 @@
       "contributions": 1
     },
     {
-      "id": 3991975,
-      "login": "davidji99",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3991975?v=4",
-      "htmlUrl": "https://github.com/davidji99",
-      "contributions": 1
+      "id": 7471617,
+      "login": "Tarliton",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7471617?v=4",
+      "htmlUrl": "https://github.com/Tarliton",
+      "contributions": 3
+    },
+    {
+      "id": 413389,
+      "login": "ctrombley",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/413389?v=4",
+      "htmlUrl": "https://github.com/ctrombley",
+      "contributions": 321
     },
     {
       "id": 7197435,
@@ -163,13 +163,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/7197435?v=4",
       "htmlUrl": "https://github.com/SowmyaJujjuri",
       "contributions": 8
-    },
-    {
-      "id": 26093145,
-      "login": "akane0915",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/26093145?v=4",
-      "htmlUrl": "https://github.com/akane0915",
-      "contributions": 3
     },
     {
       "id": 143818,
@@ -214,6 +207,13 @@
       "contributions": 5
     },
     {
+      "id": 17018863,
+      "login": "jaymcgrath",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17018863?v=4",
+      "htmlUrl": "https://github.com/jaymcgrath",
+      "contributions": 5
+    },
+    {
       "id": 753159,
       "login": "paul91",
       "avatarUrl": "https://avatars.githubusercontent.com/u/753159?v=4",
@@ -232,7 +232,7 @@
       "login": "sanderblue",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2590905?v=4",
       "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 266
+      "contributions": 268
     },
     {
       "id": 69894591,
@@ -246,7 +246,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 45
+      "contributions": 46
     },
     {
       "id": 29264964,
