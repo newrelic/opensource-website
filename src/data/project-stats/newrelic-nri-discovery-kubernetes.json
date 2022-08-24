@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nri-discovery-kubernetes",
   "issues": {
-    "open": 3
+    "open": 4
   },
   "releases": 11,
   "latestRelease": {
@@ -15,14 +15,32 @@
     "open": 6
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDODXYzcs5QZ2EO",
+      "title": "github.com/newrelic/nri-kubernetes/v2 v2.8.0 dependency",
+      "url": "https://github.com/newrelic/nri-discovery-kubernetes/issues/54",
+      "createdAt": "2022-08-24T06:48:51Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "paologallinaharbur",
+        "id": "MDQ6VXNlcjQzMzM1NzUw",
+        "email": "",
+        "name": "PaoloGallina"
+      },
+      "number": 54,
+      "createdBy": "PaoloGallina"
+    }
+  ],
   "cachedContributors": [
     {
-      "id": 79498,
-      "login": "davidgit",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
-      "htmlUrl": "https://github.com/davidgit",
-      "contributions": 1
+      "id": 2054195,
+      "login": "ardias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2054195?v=4",
+      "htmlUrl": "https://github.com/ardias",
+      "contributions": 4
     },
     {
       "id": 16539896,
@@ -46,11 +64,18 @@
       "contributions": 1
     },
     {
-      "id": 2054195,
-      "login": "ardias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2054195?v=4",
-      "htmlUrl": "https://github.com/ardias",
-      "contributions": 4
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 8
+    },
+    {
+      "id": 79498,
+      "login": "davidgit",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
+      "htmlUrl": "https://github.com/davidgit",
+      "contributions": 1
     },
     {
       "id": 43335750,
@@ -72,13 +97,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
       "htmlUrl": "https://github.com/cristianciutea",
       "contributions": 7
-    },
-    {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 8
     },
     {
       "id": 969721,
