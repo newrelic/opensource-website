@@ -1,60 +1,28 @@
 {
   "projectFullName": "newrelic/nri-cassandra",
   "issues": {
-    "open": 1
+    "open": 0
   },
   "releases": 26,
   "latestRelease": {
     "name": "v2.10.5",
     "date": "2022-08-01T18:16:17Z"
   },
-  "commits": 127,
-  "lastSixMonthsCommitTotal": 6,
-  "contributors": 23,
+  "commits": 128,
+  "lastSixMonthsCommitTotal": 7,
+  "contributors": 24,
   "pullRequests": {
     "open": 3
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "I_kwDOCHjbLc5Nau26",
-      "title": "When hitting the limit emit a single log",
-      "url": "https://github.com/newrelic/nri-cassandra/issues/94",
-      "createdAt": "2022-07-08T10:53:33Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "paologallinaharbur",
-        "id": "MDQ6VXNlcjQzMzM1NzUw",
-        "email": "",
-        "name": "PaoloGallina"
-      },
-      "number": 94,
-      "createdBy": "PaoloGallina"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 1300852,
-      "login": "varas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
-      "htmlUrl": "https://github.com/varas",
-      "contributions": 2
-    },
-    {
-      "id": 3638421,
-      "login": "alvarocabanas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
-      "htmlUrl": "https://github.com/alvarocabanas",
-      "contributions": 3
-    },
-    {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 3
+      "id": 1876430,
+      "login": "xino12",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1876430?v=4",
+      "htmlUrl": "https://github.com/xino12",
+      "contributions": 10
     },
     {
       "id": 4612272,
@@ -64,10 +32,31 @@
       "contributions": 3
     },
     {
-      "id": 46498444,
-      "login": "lchapman4",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/46498444?v=4",
-      "htmlUrl": "https://github.com/lchapman4",
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 4
+    },
+    {
+      "id": 13438133,
+      "login": "matiasburni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
+      "htmlUrl": "https://github.com/matiasburni",
+      "contributions": 2
+    },
+    {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 3
+    },
+    {
+      "id": 929261,
+      "login": "tangollama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
+      "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
     },
     {
@@ -78,11 +67,11 @@
       "contributions": 12
     },
     {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 9
+      "id": 1300852,
+      "login": "varas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
+      "htmlUrl": "https://github.com/varas",
+      "contributions": 2
     },
     {
       "id": 5297542,
@@ -92,13 +81,6 @@
       "contributions": 11
     },
     {
-      "id": 13438133,
-      "login": "matiasburni",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
-      "htmlUrl": "https://github.com/matiasburni",
-      "contributions": 2
-    },
-    {
       "id": 3380451,
       "login": "rubenruizdegauna",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
@@ -106,18 +88,18 @@
       "contributions": 1
     },
     {
-      "id": 939550,
-      "login": "mariomac",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/939550?v=4",
-      "htmlUrl": "https://github.com/mariomac",
-      "contributions": 1
+      "id": 3638421,
+      "login": "alvarocabanas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
+      "htmlUrl": "https://github.com/alvarocabanas",
+      "contributions": 3
     },
     {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 4
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 9
     },
     {
       "id": 717815,
@@ -141,10 +123,10 @@
       "contributions": 3
     },
     {
-      "id": 929261,
-      "login": "tangollama",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
-      "htmlUrl": "https://github.com/tangollama",
+      "id": 8235696,
+      "login": "marcsanmi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
+      "htmlUrl": "https://github.com/marcsanmi",
       "contributions": 1
     },
     {
@@ -155,10 +137,17 @@
       "contributions": 4
     },
     {
-      "id": 13697136,
-      "login": "adamvialpando",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13697136?v=4",
-      "htmlUrl": "https://github.com/adamvialpando",
+      "id": 46498444,
+      "login": "lchapman4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46498444?v=4",
+      "htmlUrl": "https://github.com/lchapman4",
+      "contributions": 1
+    },
+    {
+      "id": 939550,
+      "login": "mariomac",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/939550?v=4",
+      "htmlUrl": "https://github.com/mariomac",
       "contributions": 1
     },
     {
@@ -176,11 +165,11 @@
       "contributions": 7
     },
     {
-      "id": 1876430,
-      "login": "xino12",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1876430?v=4",
-      "htmlUrl": "https://github.com/xino12",
-      "contributions": 10
+      "id": 13697136,
+      "login": "adamvialpando",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13697136?v=4",
+      "htmlUrl": "https://github.com/adamvialpando",
+      "contributions": 1
     },
     {
       "id": 67997,
