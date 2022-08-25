@@ -1,28 +1,35 @@
 {
   "projectFullName": "newrelic/aws_s3_log_ingestion_lambda",
   "issues": {
-    "open": 8
+    "open": 6
   },
-  "releases": 3,
+  "releases": 4,
   "latestRelease": {
-    "name": "v1.1.2",
+    "name": "v1.1.3",
     "date": null
   },
-  "commits": 45,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 6,
+  "commits": 57,
+  "lastSixMonthsCommitTotal": 15,
+  "contributors": 7,
   "pullRequests": {
-    "open": 6
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 41006835,
+      "login": "haihongren",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41006835?v=4",
+      "htmlUrl": "https://github.com/haihongren",
+      "contributions": 4
+    },
+    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 1
+      "contributions": 2
     },
     {
       "id": 17498,
@@ -43,14 +50,14 @@
       "login": "danybmx",
       "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
       "htmlUrl": "https://github.com/danybmx",
-      "contributions": 2
+      "contributions": 4
     },
     {
       "id": 1959072,
       "login": "William-Hill",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1959072?v=4",
       "htmlUrl": "https://github.com/William-Hill",
-      "contributions": 1
+      "contributions": 2
     },
     {
       "id": 6243832,
@@ -65,6 +72,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDU=",
       "name": "Python",
       "color": "#3572A5"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
     }
   ],
   "screenshots": [],
