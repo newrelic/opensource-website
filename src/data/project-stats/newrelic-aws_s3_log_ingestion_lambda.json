@@ -1,21 +1,39 @@
 {
   "projectFullName": "newrelic/aws_s3_log_ingestion_lambda",
   "issues": {
-    "open": 2
+    "open": 3
   },
   "releases": 4,
   "latestRelease": {
     "name": "v1.1.3",
     "date": null
   },
-  "commits": 58,
-  "lastSixMonthsCommitTotal": 16,
-  "contributors": 7,
+  "commits": 64,
+  "lastSixMonthsCommitTotal": 20,
+  "contributors": 8,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOEDDrtc5QEQF7",
+      "title": "NewRelic importing logs from S3 bucket/folder_name path",
+      "url": "https://github.com/newrelic/aws_s3_log_ingestion_lambda/issues/38",
+      "createdAt": "2022-08-18T15:43:06Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "ceballosi",
+        "id": "MDQ6VXNlcjEwNzkwODQ2",
+        "email": "",
+        "name": null
+      },
+      "number": 38,
+      "createdBy": "ceballosi"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 41006835,
@@ -23,6 +41,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/41006835?v=4",
       "htmlUrl": "https://github.com/haihongren",
       "contributions": 4
+    },
+    {
+      "id": 111445983,
+      "login": "reclaim0982",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/111445983?v=4",
+      "htmlUrl": "https://github.com/reclaim0982",
+      "contributions": 2
     },
     {
       "id": 43244625,
@@ -50,7 +75,7 @@
       "login": "danybmx",
       "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
       "htmlUrl": "https://github.com/danybmx",
-      "contributions": 5
+      "contributions": 7
     },
     {
       "id": 1959072,
