@@ -3,16 +3,16 @@
   "issues": {
     "open": 15
   },
-  "releases": 50,
+  "releases": 51,
   "latestRelease": {
-    "name": "nri-prometheus-2.1.10",
-    "date": "2022-08-29T10:32:51Z"
+    "name": "nri-prometheus-2.1.11",
+    "date": "2022-08-30T09:00:14Z"
   },
-  "commits": 201,
-  "lastSixMonthsCommitTotal": 42,
+  "commits": 202,
+  "lastSixMonthsCommitTotal": 43,
   "contributors": 27,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -43,6 +43,13 @@
       "contributions": 1
     },
     {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
+    },
+    {
       "id": 16539896,
       "login": "invidian",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16539896?v=4",
@@ -57,25 +64,18 @@
       "contributions": 1
     },
     {
-      "id": 442627,
-      "login": "sigilioso",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
-      "htmlUrl": "https://github.com/sigilioso",
-      "contributions": 2
-    },
-    {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 1
-    },
-    {
       "id": 1444638,
       "login": "vihangm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
       "htmlUrl": "https://github.com/vihangm",
       "contributions": 1
+    },
+    {
+      "id": 442627,
+      "login": "sigilioso",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
+      "htmlUrl": "https://github.com/sigilioso",
+      "contributions": 2
     },
     {
       "id": 929261,
@@ -96,7 +96,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 1
+      "contributions": 2
     },
     {
       "id": 6677058,
