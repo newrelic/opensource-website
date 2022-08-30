@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-node-apollo-server-plugin",
   "issues": {
-    "open": 12
+    "open": 10
   },
   "releases": 19,
   "latestRelease": {
@@ -9,7 +9,7 @@
     "date": null
   },
   "commits": 401,
-  "lastSixMonthsCommitTotal": 73,
+  "lastSixMonthsCommitTotal": 72,
   "contributors": 15,
   "pullRequests": {
     "open": 0
@@ -32,11 +32,18 @@
       "contributions": 1
     },
     {
-      "id": 379460,
-      "login": "newmind",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/379460?v=4",
-      "htmlUrl": "https://github.com/newmind",
+      "id": 194708,
+      "login": "luads",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/194708?v=4",
+      "htmlUrl": "https://github.com/luads",
       "contributions": 1
+    },
+    {
+      "id": 2903325,
+      "login": "dnalborczyk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2903325?v=4",
+      "htmlUrl": "https://github.com/dnalborczyk",
+      "contributions": 3
     },
     {
       "id": 18576850,
@@ -46,10 +53,17 @@
       "contributions": 1
     },
     {
-      "id": 194708,
-      "login": "luads",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/194708?v=4",
-      "htmlUrl": "https://github.com/luads",
+      "id": 379460,
+      "login": "newmind",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/379460?v=4",
+      "htmlUrl": "https://github.com/newmind",
+      "contributions": 1
+    },
+    {
+      "id": 8594759,
+      "login": "MightySCollins",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8594759?v=4",
+      "htmlUrl": "https://github.com/MightySCollins",
       "contributions": 1
     },
     {
@@ -74,25 +88,11 @@
       "contributions": 3
     },
     {
-      "id": 1874937,
-      "login": "bizob2828",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
-      "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 93
-    },
-    {
       "id": 398399,
       "login": "nijotz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/398399?v=4",
       "htmlUrl": "https://github.com/nijotz",
       "contributions": 9
-    },
-    {
-      "id": 11223178,
-      "login": "michaelgoin",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
-      "htmlUrl": "https://github.com/michaelgoin",
-      "contributions": 78
     },
     {
       "id": 260143,
@@ -109,18 +109,18 @@
       "contributions": 6
     },
     {
-      "id": 2903325,
-      "login": "dnalborczyk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2903325?v=4",
-      "htmlUrl": "https://github.com/dnalborczyk",
-      "contributions": 3
+      "id": 1874937,
+      "login": "bizob2828",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
+      "htmlUrl": "https://github.com/bizob2828",
+      "contributions": 93
     },
     {
-      "id": 8594759,
-      "login": "MightySCollins",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8594759?v=4",
-      "htmlUrl": "https://github.com/MightySCollins",
-      "contributions": 1
+      "id": 11223178,
+      "login": "michaelgoin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
+      "htmlUrl": "https://github.com/michaelgoin",
+      "contributions": 78
     }
   ],
   "languages": [
