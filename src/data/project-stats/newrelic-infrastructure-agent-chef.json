@@ -3,40 +3,26 @@
   "issues": {
     "open": 7
   },
-  "releases": 21,
+  "releases": 22,
   "latestRelease": {
-    "name": "0.12.2",
-    "date": "2022-01-10T13:50:54Z"
+    "name": "0.12.3",
+    "date": "2022-08-31T09:59:28Z"
   },
-  "commits": 263,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 13,
+  "commits": 265,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 14,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 39911991,
-      "login": "davidbrota",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39911991?v=4",
-      "htmlUrl": "https://github.com/davidbrota",
+      "id": 33873530,
+      "login": "rogercoll",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
+      "htmlUrl": "https://github.com/rogercoll",
       "contributions": 2
-    },
-    {
-      "id": 640347,
-      "login": "angusiguess",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/640347?v=4",
-      "htmlUrl": "https://github.com/angusiguess",
-      "contributions": 1
-    },
-    {
-      "id": 2497895,
-      "login": "dlanner",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2497895?v=4",
-      "htmlUrl": "https://github.com/dlanner",
-      "contributions": 4
     },
     {
       "id": 7150978,
@@ -46,11 +32,32 @@
       "contributions": 3
     },
     {
-      "id": 26940822,
-      "login": "schammah",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/26940822?v=4",
-      "htmlUrl": "https://github.com/schammah",
+      "id": 640347,
+      "login": "angusiguess",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/640347?v=4",
+      "htmlUrl": "https://github.com/angusiguess",
       "contributions": 1
+    },
+    {
+      "id": 12255612,
+      "login": "gopisaba",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12255612?v=4",
+      "htmlUrl": "https://github.com/gopisaba",
+      "contributions": 2
+    },
+    {
+      "id": 39911991,
+      "login": "davidbrota",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39911991?v=4",
+      "htmlUrl": "https://github.com/davidbrota",
+      "contributions": 2
+    },
+    {
+      "id": 5935,
+      "login": "chaupt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5935?v=4",
+      "htmlUrl": "https://github.com/chaupt",
+      "contributions": 8
     },
     {
       "id": 5297542,
@@ -74,11 +81,11 @@
       "contributions": 1
     },
     {
-      "id": 12255612,
-      "login": "gopisaba",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12255612?v=4",
-      "htmlUrl": "https://github.com/gopisaba",
-      "contributions": 2
+      "id": 26940822,
+      "login": "schammah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26940822?v=4",
+      "htmlUrl": "https://github.com/schammah",
+      "contributions": 1
     },
     {
       "id": 16387219,
@@ -95,11 +102,11 @@
       "contributions": 1
     },
     {
-      "id": 5935,
-      "login": "chaupt",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5935?v=4",
-      "htmlUrl": "https://github.com/chaupt",
-      "contributions": 8
+      "id": 2497895,
+      "login": "dlanner",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2497895?v=4",
+      "htmlUrl": "https://github.com/dlanner",
+      "contributions": 4
     },
     {
       "id": 1653499,
@@ -119,11 +126,6 @@
       "id": "MDg6TGFuZ3VhZ2U0MTc=",
       "name": "HTML",
       "color": "#e34c26"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
     }
   ],
   "screenshots": [],
