@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nri-discovery-kubernetes",
   "issues": {
-    "open": 4
+    "open": 3
   },
   "releases": 12,
   "latestRelease": {
@@ -15,33 +15,8 @@
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "I_kwDODXYzcs5QZ2EO",
-      "title": "github.com/newrelic/nri-kubernetes/v2 v2.8.0 dependency",
-      "url": "https://github.com/newrelic/nri-discovery-kubernetes/issues/54",
-      "createdAt": "2022-08-24T06:48:51Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "paologallinaharbur",
-        "id": "MDQ6VXNlcjQzMzM1NzUw",
-        "email": "",
-        "name": "PaoloGallina"
-      },
-      "number": 54,
-      "createdBy": "PaoloGallina"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 1
-    },
     {
       "id": 16539896,
       "login": "invidian",
@@ -85,6 +60,13 @@
       "contributions": 7
     },
     {
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
+      "contributions": 5
+    },
+    {
       "id": 717815,
       "login": "carlosroman",
       "avatarUrl": "https://avatars.githubusercontent.com/u/717815?v=4",
@@ -99,11 +81,11 @@
       "contributions": 1
     },
     {
-      "id": 969721,
-      "login": "roobre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
-      "htmlUrl": "https://github.com/roobre",
-      "contributions": 5
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
+      "contributions": 1
     },
     {
       "id": 79498,
