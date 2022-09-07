@@ -1,34 +1,34 @@
 {
   "projectFullName": "newrelic/nri-ecs",
   "issues": {
-    "open": 2
+    "open": 1
   },
-  "releases": 17,
+  "releases": 18,
   "latestRelease": {
-    "name": "v1.9.2",
-    "date": "2022-08-29T12:54:22Z"
+    "name": "v1.9.3",
+    "date": "2022-09-07T15:14:37Z"
   },
-  "commits": 47,
-  "lastSixMonthsCommitTotal": 11,
+  "commits": 49,
+  "lastSixMonthsCommitTotal": 13,
   "contributors": 13,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 73652669,
-      "login": "arvdias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
-      "htmlUrl": "https://github.com/arvdias",
-      "contributions": 1
-    },
-    {
       "id": 27856297,
       "login": "dependabot-preview[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2141?v=4",
       "htmlUrl": "https://github.com/apps/dependabot-preview",
+      "contributions": 1
+    },
+    {
+      "id": 3638421,
+      "login": "alvarocabanas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
+      "htmlUrl": "https://github.com/alvarocabanas",
       "contributions": 1
     },
     {
@@ -39,18 +39,11 @@
       "contributions": 9
     },
     {
-      "id": 13966363,
-      "login": "carlossscastro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13966363?v=4",
-      "htmlUrl": "https://github.com/carlossscastro",
-      "contributions": 1
-    },
-    {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 5
+      "contributions": 6
     },
     {
       "id": 929261,
@@ -74,10 +67,10 @@
       "contributions": 3
     },
     {
-      "id": 3638421,
-      "login": "alvarocabanas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
-      "htmlUrl": "https://github.com/alvarocabanas",
+      "id": 13966363,
+      "login": "carlossscastro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13966363?v=4",
+      "htmlUrl": "https://github.com/carlossscastro",
       "contributions": 1
     },
     {
@@ -85,7 +78,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 8
+      "contributions": 9
     },
     {
       "id": 59606623,
@@ -107,6 +100,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
       "contributions": 2
+    },
+    {
+      "id": 73652669,
+      "login": "arvdias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
+      "htmlUrl": "https://github.com/arvdias",
+      "contributions": 1
     }
   ],
   "languages": [
