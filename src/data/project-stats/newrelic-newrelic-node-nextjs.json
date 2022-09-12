@@ -1,56 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-node-nextjs",
   "issues": {
-    "open": 7
+    "open": 4
   },
   "releases": 4,
   "latestRelease": {
     "name": "v0.3.0",
     "date": null
   },
-  "commits": 131,
-  "lastSixMonthsCommitTotal": 57,
+  "commits": 137,
+  "lastSixMonthsCommitTotal": 63,
   "contributors": 10,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "I_kwDOGyjnmM5KfYfV",
-      "title": "Update injecting browser agent example",
-      "url": "https://github.com/newrelic/newrelic-node-nextjs/issues/62",
-      "createdAt": "2022-05-26T15:47:17Z",
-      "comments": {
-        "totalCount": 10
-      },
-      "author": {
-        "login": "bizob2828",
-        "id": "MDQ6VXNlcjE4NzQ5Mzc=",
-        "email": "",
-        "name": "Bob Evans"
-      },
-      "number": 62,
-      "createdBy": "Bob Evans"
-    },
-    {
-      "id": "I_kwDOGyjnmM5NWCmQ",
-      "title": "How to include newrelic in the browser for error handling",
-      "url": "https://github.com/newrelic/newrelic-node-nextjs/issues/74",
-      "createdAt": "2022-07-07T15:16:43Z",
-      "comments": {
-        "totalCount": 1
-      },
-      "author": {
-        "login": "siuvdlec",
-        "id": "MDQ6VXNlcjMzMDg0ODY=",
-        "email": "",
-        "name": "Iacopo Pancotti"
-      },
-      "number": 74,
-      "createdBy": "Iacopo Pancotti"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 48165493,
@@ -120,7 +85,7 @@
       "login": "bizob2828",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
       "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 54
+      "contributions": 59
     }
   ],
   "languages": [
