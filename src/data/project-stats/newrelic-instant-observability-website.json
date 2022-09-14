@@ -3,16 +3,16 @@
   "issues": {
     "open": 6
   },
-  "releases": 22,
+  "releases": 23,
   "latestRelease": {
-    "name": "v1.12.1",
-    "date": "2022-08-26T21:28:47Z"
+    "name": "v1.12.2",
+    "date": "2022-09-14T16:10:38Z"
   },
-  "commits": 1331,
-  "lastSixMonthsCommitTotal": 1081,
-  "contributors": 17,
+  "commits": 1335,
+  "lastSixMonthsCommitTotal": 1084,
+  "contributors": 18,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -30,6 +30,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
       "contributions": 1
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 2
     },
     {
       "id": 106655516,
@@ -134,7 +141,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 424
+      "contributions": 425
     }
   ],
   "languages": [

@@ -3,14 +3,14 @@
   "issues": {
     "open": 84
   },
-  "releases": 12,
+  "releases": 13,
   "latestRelease": {
-    "name": "v10.0.0.312",
+    "name": "v10.1.0.313",
     "date": null
   },
-  "commits": 142,
-  "lastSixMonthsCommitTotal": 33,
-  "contributors": 17,
+  "commits": 169,
+  "lastSixMonthsCommitTotal": 60,
+  "contributors": 19,
   "pullRequests": {
     "open": 17
   },
@@ -52,6 +52,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 108540135,
+      "login": "hahuja2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108540135?v=4",
+      "htmlUrl": "https://github.com/hahuja2",
+      "contributions": 1
+    },
     {
       "id": 27844771,
       "login": "robertprast",
@@ -116,10 +123,10 @@
       "contributions": 1
     },
     {
-      "id": 106178551,
-      "login": "bduranleau-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/106178551?v=4",
-      "htmlUrl": "https://github.com/bduranleau-nr",
+      "id": 468149,
+      "login": "michael-grunder",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/468149?v=4",
+      "htmlUrl": "https://github.com/michael-grunder",
       "contributions": 2
     },
     {
@@ -130,25 +137,25 @@
       "contributions": 3
     },
     {
+      "id": 106178551,
+      "login": "bduranleau-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106178551?v=4",
+      "htmlUrl": "https://github.com/bduranleau-nr",
+      "contributions": 8
+    },
+    {
       "id": 19822038,
       "login": "ZNeumann",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19822038?v=4",
       "htmlUrl": "https://github.com/ZNeumann",
-      "contributions": 6
+      "contributions": 8
     },
     {
       "id": 98839644,
       "login": "misiekn",
       "avatarUrl": "https://avatars.githubusercontent.com/u/98839644?v=4",
       "htmlUrl": "https://github.com/misiekn",
-      "contributions": 7
-    },
-    {
-      "id": 89205663,
-      "login": "mfulb",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/89205663?v=4",
-      "htmlUrl": "https://github.com/mfulb",
-      "contributions": 12
+      "contributions": 19
     },
     {
       "id": 5200550,
@@ -156,6 +163,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/5200550?v=4",
       "htmlUrl": "https://github.com/kneitinger",
       "contributions": 19
+    },
+    {
+      "id": 89205663,
+      "login": "mfulb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89205663?v=4",
+      "htmlUrl": "https://github.com/mfulb",
+      "contributions": 22
     },
     {
       "id": 28364881,
@@ -169,7 +183,7 @@
       "login": "zsistla",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43715151?v=4",
       "htmlUrl": "https://github.com/zsistla",
-      "contributions": 32
+      "contributions": 34
     }
   ],
   "languages": [
