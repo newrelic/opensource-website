@@ -18,7 +18,7 @@
   "projectTags": ["opentelemetry"],
   "acceptsContributions": false,
   "website": {
-    "title": "Open Telemetry",
+    "title": "OpenTelemetry",
     "url": "https://opentelemetry.io"
   },
   "version": "0.1.0",
@@ -45,20 +45,20 @@
     {
       "name": "Chris Ventura",
       "avatarUrl": "https://avatars.githubusercontent.com/u/45495992?s=64&v=4",
-      "role": "Java Maintainer, Metrics Approver",
+      "role": ".NET Instrumentation maintainer",
       "githubUrl": "https://github.com/nrcventura"
-    },
-    {
-      "name": "Erik Lucus",
-      "avatarUrl": "https://avatars3.githubusercontent.com/u/4761745?s=460&v=4",
-      "role": ".NET",
-      "githubUrl": "https://github.com/elucus"
     },
     {
       "name": "Jack Berg",
       "avatarUrl": "https://avatars.githubusercontent.com/u/34418638?s=64&v=4",
-      "role": "Java Maintainer, Metrics Approver",
+      "role": "Java maintainer, Metrics approver",
       "githubUrl": "https://github.com/jack-berg"
+    },
+    {
+      "name": "Tyler Helmuth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12352919?s=64&v=4",
+      "role": "Helm Charts maintainer, Collector Contrib approver, Collector",
+      "githubUrl": "https://github.com/TylerHelmuth"
     },
     {
       "name": "Svetlana Brennan",
@@ -73,10 +73,16 @@
       "githubUrl": "https://github.com/martinkuba"
     },
     {
-      "name": "Tyler Helmuth",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12352919?s=64&v=4",
-      "role": "Collector, Python",
-      "githubUrl": "https://github.com/TylerHelmuth"
+      "name": "Roger Coll",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
+      "role": "Podman Receiver code owner, Collector Contrib",
+      "githubUrl": "https://github.com/rogercoll"
+    },
+    {
+      "name": "Sharr Creeden",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36242226?s=64&v=4",
+      "role": "End User Working Group",
+      "githubUrl": "https://github.com/sharrmander"
     },
     {
       "name": "Reese Lee",
@@ -85,10 +91,16 @@
       "githubUrl": "https://github.com/reese-lee"
     },
     {
-      "name": "Sharr Creeden",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/36242226?s=64&v=4",
-      "role": "OpenTelemetry",
-      "githubUrl": "https://github.com/sharrmander"
+      "name": "Kirk Haines",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12992?v=4",
+      "role": "Crystal",
+      "githubUrl": "https://github.com/wyhaines"
+    },
+    {
+      "name": "Amber Sistla",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43715151?v=4",
+      "role": "PHP approver",
+      "githubUrl": "https://github.com/zsistla"
     }
   ]
 }
