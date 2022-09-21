@@ -3,16 +3,16 @@
   "issues": {
     "open": 30
   },
-  "releases": 85,
+  "releases": 86,
   "latestRelease": {
-    "name": "newrelic-infrastructure-3.8.8",
-    "date": "2022-09-14T07:39:32Z"
+    "name": "newrelic-infrastructure-3.8.9",
+    "date": "2022-09-20T15:23:14Z"
   },
-  "commits": 420,
-  "lastSixMonthsCommitTotal": 81,
-  "contributors": 25,
+  "commits": 421,
+  "lastSixMonthsCommitTotal": 82,
+  "contributors": 26,
   "pullRequests": {
-    "open": 9
+    "open": 8
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -69,6 +69,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 9002169,
+      "login": "bpschmitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9002169?v=4",
+      "htmlUrl": "https://github.com/bpschmitt",
+      "contributions": 1
+    },
     {
       "id": 695967,
       "login": "danielpanzella",
@@ -210,13 +217,6 @@
       "contributions": 21
     },
     {
-      "id": 53659978,
-      "login": "kang-makes",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
-      "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 26
-    },
-    {
       "id": 5143130,
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
@@ -229,6 +229,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
       "contributions": 26
+    },
+    {
+      "id": 53659978,
+      "login": "kang-makes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
+      "htmlUrl": "https://github.com/kang-makes",
+      "contributions": 27
     },
     {
       "id": 969721,
