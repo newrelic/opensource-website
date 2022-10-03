@@ -3,16 +3,16 @@
   "issues": {
     "open": 28
   },
-  "releases": 88,
+  "releases": 90,
   "latestRelease": {
-    "name": "v2.13.3",
-    "date": "2022-09-27T13:52:57Z"
+    "name": "newrelic-infrastructure-3.8.11",
+    "date": "2022-10-03T11:00:48Z"
   },
-  "commits": 421,
-  "lastSixMonthsCommitTotal": 72,
+  "commits": 423,
+  "lastSixMonthsCommitTotal": 74,
   "contributors": 26,
   "pullRequests": {
-    "open": 10
+    "open": 8
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -182,18 +182,18 @@
       "contributions": 12
     },
     {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 13
-    },
-    {
       "id": 503802,
       "login": "jorik",
       "avatarUrl": "https://avatars.githubusercontent.com/u/503802?v=4",
       "htmlUrl": "https://github.com/jorik",
       "contributions": 13
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 15
     },
     {
       "id": 73652669,
@@ -235,7 +235,7 @@
       "login": "kang-makes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 27
+      "contributions": 29
     },
     {
       "id": 969721,
