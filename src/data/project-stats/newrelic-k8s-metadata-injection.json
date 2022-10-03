@@ -3,20 +3,27 @@
   "issues": {
     "open": 8
   },
-  "releases": 30,
+  "releases": 31,
   "latestRelease": {
-    "name": "v1.7.3",
-    "date": "2022-09-13T13:08:00Z"
+    "name": "nri-metadata-injection-3.0.9",
+    "date": "2022-10-03T08:15:00Z"
   },
-  "commits": 145,
-  "lastSixMonthsCommitTotal": 30,
-  "contributors": 23,
+  "commits": 146,
+  "lastSixMonthsCommitTotal": 31,
+  "contributors": 24,
   "pullRequests": {
-    "open": 9
+    "open": 8
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 8235696,
+      "login": "marcsanmi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
+      "htmlUrl": "https://github.com/marcsanmi",
+      "contributions": 1
+    },
     {
       "id": 25180681,
       "login": "renovate-bot",
