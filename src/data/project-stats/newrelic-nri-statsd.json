@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 11,
+  "releases": 12,
   "latestRelease": {
-    "name": "2.4.0",
-    "date": "2022-06-14T08:35:28Z"
+    "name": "2.4.1",
+    "date": "2022-10-04T07:31:06Z"
   },
-  "commits": 45,
-  "lastSixMonthsCommitTotal": 5,
+  "commits": 47,
+  "lastSixMonthsCommitTotal": 7,
   "contributors": 10,
   "pullRequests": {
     "open": 1
@@ -85,7 +85,7 @@
       "login": "cristianciutea",
       "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
       "htmlUrl": "https://github.com/cristianciutea",
-      "contributions": 8
+      "contributions": 10
     }
   ],
   "languages": [
@@ -98,6 +98,16 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
     }
   ],
   "screenshots": [],
