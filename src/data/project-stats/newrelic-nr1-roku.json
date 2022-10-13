@@ -3,17 +3,27 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 37,
-  "lastSixMonthsCommitTotal": 37,
-  "contributors": 3,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.0",
+    "date": "2022-10-13T17:34:00Z"
+  },
+  "commits": 38,
+  "lastSixMonthsCommitTotal": 38,
+  "contributors": 4,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 1
+    },
     {
       "id": 13043208,
       "login": "Kav91",
