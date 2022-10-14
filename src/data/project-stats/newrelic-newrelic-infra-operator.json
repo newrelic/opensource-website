@@ -3,16 +3,16 @@
   "issues": {
     "open": 20
   },
-  "releases": 16,
+  "releases": 18,
   "latestRelease": {
-    "name": "newrelic-infra-operator-1.0.9",
-    "date": "2022-10-03T08:20:19Z"
+    "name": "v0.7.0",
+    "date": "2022-10-14T11:57:12Z"
   },
-  "commits": 95,
-  "lastSixMonthsCommitTotal": 14,
+  "commits": 99,
+  "lastSixMonthsCommitTotal": 18,
   "contributors": 13,
   "pullRequests": {
-    "open": 8
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -29,13 +29,6 @@
       "login": "snyk-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 1
-    },
-    {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
       "contributions": 1
     },
     {
@@ -74,6 +67,13 @@
       "contributions": 2
     },
     {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 3
+    },
+    {
       "id": 53659978,
       "login": "kang-makes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
@@ -92,7 +92,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 17
+      "contributions": 19
     },
     {
       "id": 43335750,
