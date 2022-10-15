@@ -3,13 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 1,
+  "releases": 3,
   "latestRelease": {
-    "name": "v1.0.0",
-    "date": "2022-10-13T17:34:00Z"
+    "name": "v1.1.0",
+    "date": "2022-10-14T20:51:37Z"
   },
-  "commits": 38,
-  "lastSixMonthsCommitTotal": 38,
+  "commits": 46,
+  "lastSixMonthsCommitTotal": 46,
   "contributors": 4,
   "pullRequests": {
     "open": 0
@@ -18,20 +18,6 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 66321197,
-      "login": "nr-opensource-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
-      "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 1
-    },
-    {
-      "id": 13043208,
-      "login": "Kav91",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
-      "htmlUrl": "https://github.com/Kav91",
-      "contributions": 1
-    },
-    {
       "id": 3828366,
       "login": "cjmccarthy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3828366?v=4",
@@ -39,11 +25,25 @@
       "contributions": 1
     },
     {
+      "id": 66321197,
+      "login": "nr-opensource-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
+      "htmlUrl": "https://github.com/nr-opensource-bot",
+      "contributions": 2
+    },
+    {
+      "id": 13043208,
+      "login": "Kav91",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
+      "htmlUrl": "https://github.com/Kav91",
+      "contributions": 2
+    },
+    {
       "id": 6021115,
       "login": "amit-y",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6021115?v=4",
       "htmlUrl": "https://github.com/amit-y",
-      "contributions": 26
+      "contributions": 29
     }
   ],
   "languages": [
