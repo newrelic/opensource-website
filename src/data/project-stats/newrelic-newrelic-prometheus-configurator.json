@@ -3,20 +3,27 @@
   "issues": {
     "open": 4
   },
-  "releases": 8,
+  "releases": 9,
   "latestRelease": {
-    "name": "newrelic-prometheus-agent-0.0.6",
-    "date": "2022-10-11T12:31:52Z"
+    "name": "newrelic-prometheus-agent-0.1.0",
+    "date": "2022-10-17T13:23:14Z"
   },
-  "commits": 134,
-  "lastSixMonthsCommitTotal": 134,
-  "contributors": 10,
+  "commits": 138,
+  "lastSixMonthsCommitTotal": 138,
+  "contributors": 11,
   "pullRequests": {
-    "open": 2
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 115998732,
+      "login": "newrelic-coreint-team",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
+      "htmlUrl": "https://github.com/newrelic-coreint-team",
+      "contributions": 1
+    },
     {
       "id": 9002169,
       "login": "bpschmitt",
@@ -71,7 +78,7 @@
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 18
+      "contributions": 21
     },
     {
       "id": 5143130,
