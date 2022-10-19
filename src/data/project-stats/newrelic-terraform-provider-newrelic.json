@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 71
+    "open": 70
   },
-  "releases": 168,
+  "releases": 169,
   "latestRelease": {
-    "name": "v3.5.0",
-    "date": "2022-10-14T14:55:59Z"
+    "name": "v3.5.1",
+    "date": "2022-10-19T16:44:22Z"
   },
-  "commits": 3432,
-  "lastSixMonthsCommitTotal": 815,
-  "contributors": 98,
+  "commits": 3451,
+  "lastSixMonthsCommitTotal": 832,
+  "contributors": 99,
   "pullRequests": {
-    "open": 12
+    "open": 9
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 18735471,
+      "login": "kohbis",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18735471?v=4",
+      "htmlUrl": "https://github.com/kohbis",
+      "contributions": 1
+    },
     {
       "id": 135178,
       "login": "mohsen0",
@@ -480,13 +487,6 @@
       "contributions": 3
     },
     {
-      "id": 114168325,
-      "login": "IliaShurygin",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/114168325?v=4",
-      "htmlUrl": "https://github.com/IliaShurygin",
-      "contributions": 4
-    },
-    {
       "id": 65650,
       "login": "founddrama",
       "avatarUrl": "https://avatars.githubusercontent.com/u/65650?v=4",
@@ -506,6 +506,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/2581608?v=4",
       "htmlUrl": "https://github.com/harrykimpel",
       "contributions": 5
+    },
+    {
+      "id": 114168325,
+      "login": "IliaShurygin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/114168325?v=4",
+      "htmlUrl": "https://github.com/IliaShurygin",
+      "contributions": 6
     },
     {
       "id": 14911978,
@@ -550,13 +557,6 @@
       "contributions": 11
     },
     {
-      "id": 107837335,
-      "login": "NSSPKrishna",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/107837335?v=4",
-      "htmlUrl": "https://github.com/NSSPKrishna",
-      "contributions": 12
-    },
-    {
       "id": 287584,
       "login": "radeksimko",
       "avatarUrl": "https://avatars.githubusercontent.com/u/287584?v=4",
@@ -569,6 +569,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/27153?v=4",
       "htmlUrl": "https://github.com/smithclay",
       "contributions": 13
+    },
+    {
+      "id": 107837335,
+      "login": "NSSPKrishna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107837335?v=4",
+      "htmlUrl": "https://github.com/NSSPKrishna",
+      "contributions": 14
     },
     {
       "id": 13971824,
@@ -631,7 +638,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 54
+      "contributions": 55
     },
     {
       "id": 69894591,
@@ -694,7 +701,7 @@
       "login": "mbazhlekova",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1663955?v=4",
       "htmlUrl": "https://github.com/mbazhlekova",
-      "contributions": 241
+      "contributions": 243
     },
     {
       "id": 2590905,
