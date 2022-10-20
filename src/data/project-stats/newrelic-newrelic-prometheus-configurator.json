@@ -3,20 +3,27 @@
   "issues": {
     "open": 4
   },
-  "releases": 10,
+  "releases": 11,
   "latestRelease": {
     "name": "v0.1.0",
     "date": "2022-10-20T07:26:44Z"
   },
-  "commits": 141,
-  "lastSixMonthsCommitTotal": 141,
-  "contributors": 11,
+  "commits": 145,
+  "lastSixMonthsCommitTotal": 145,
+  "contributors": 12,
   "pullRequests": {
     "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 1
+    },
     {
       "id": 9002169,
       "login": "bpschmitt",
@@ -36,7 +43,7 @@
       "login": "newrelic-coreint-team",
       "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
       "htmlUrl": "https://github.com/newrelic-coreint-team",
-      "contributions": 2
+      "contributions": 3
     },
     {
       "id": 79498,
@@ -92,7 +99,7 @@
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 38
+      "contributions": 39
     }
   ],
   "languages": [
