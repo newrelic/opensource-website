@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/kafka-connect-newrelic",
   "issues": {
-    "open": 12
+    "open": 11
   },
-  "releases": 6,
+  "releases": 7,
   "latestRelease": {
-    "name": "v2.3.1",
-    "date": "2022-09-20T18:23:52Z"
+    "name": "v2.3.2",
+    "date": null
   },
-  "commits": 124,
-  "lastSixMonthsCommitTotal": 11,
+  "commits": 132,
+  "lastSixMonthsCommitTotal": 19,
   "contributors": 12,
   "pullRequests": {
-    "open": 4
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -36,13 +36,6 @@
   ],
   "cachedContributors": [
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
-      "contributions": 1
-    },
-    {
       "id": 512881,
       "login": "wulczer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/512881?v=4",
@@ -62,6 +55,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/22718932?v=4",
       "htmlUrl": "https://github.com/benzhang94",
       "contributions": 1
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 2
     },
     {
       "id": 8333200,
@@ -96,7 +96,7 @@
       "login": "benders",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25198?v=4",
       "htmlUrl": "https://github.com/benders",
-      "contributions": 6
+      "contributions": 8
     },
     {
       "id": 18580583,
@@ -110,7 +110,7 @@
       "login": "rahulbats",
       "avatarUrl": "https://avatars.githubusercontent.com/u/627905?v=4",
       "htmlUrl": "https://github.com/rahulbats",
-      "contributions": 18
+      "contributions": 20
     },
     {
       "id": 1082112,
