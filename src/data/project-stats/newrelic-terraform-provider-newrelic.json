@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 68
+    "open": 69
   },
-  "releases": 170,
+  "releases": 171,
   "latestRelease": {
-    "name": "v3.5.2",
-    "date": "2022-10-21T14:42:35Z"
+    "name": "v3.6.0",
+    "date": "2022-10-26T15:29:01Z"
   },
-  "commits": 3469,
-  "lastSixMonthsCommitTotal": 812,
-  "contributors": 99,
+  "commits": 3472,
+  "lastSixMonthsCommitTotal": 814,
+  "contributors": 100,
   "pullRequests": {
     "open": 8
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 83590379,
+      "login": "ikasovitch-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83590379?v=4",
+      "htmlUrl": "https://github.com/ikasovitch-newrelic",
+      "contributions": 1
+    },
     {
       "id": 18735471,
       "login": "kohbis",
@@ -638,7 +645,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 56
+      "contributions": 57
     },
     {
       "id": 69894591,
