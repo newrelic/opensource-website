@@ -8,11 +8,11 @@
     "name": "v3.3.5",
     "date": "2022-07-14T16:05:05Z"
   },
-  "commits": 461,
-  "lastSixMonthsCommitTotal": 42,
-  "contributors": 17,
+  "commits": 478,
+  "lastSixMonthsCommitTotal": 59,
+  "contributors": 18,
   "pullRequests": {
-    "open": 5
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -95,6 +95,13 @@
       "contributions": 3
     },
     {
+      "id": 17410205,
+      "login": "ran-j",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17410205?v=4",
+      "htmlUrl": "https://github.com/ran-j",
+      "contributions": 4
+    },
+    {
       "id": 19733683,
       "login": "snyk-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
@@ -127,14 +134,14 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 73
+      "contributions": 78
     },
     {
       "id": 11327,
       "login": "mrickard",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
       "htmlUrl": "https://github.com/mrickard",
-      "contributions": 122
+      "contributions": 123
     }
   ],
   "languages": [
@@ -147,6 +154,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
