@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-layers",
   "issues": {
-    "open": 8
+    "open": 9
   },
-  "releases": 252,
+  "releases": 253,
   "latestRelease": {
-    "name": "v9.4.0_nodejs",
+    "name": "v9.5.0_nodejs",
     "date": "2022-10-21T16:27:09Z"
   },
-  "commits": 241,
-  "lastSixMonthsCommitTotal": 50,
-  "contributors": 13,
+  "commits": 260,
+  "lastSixMonthsCommitTotal": 69,
+  "contributors": 14,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 10124680,
+      "login": "iamemilio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10124680?v=4",
+      "htmlUrl": "https://github.com/iamemilio",
+      "contributions": 1
+    },
     {
       "id": 1926537,
       "login": "bbeesley",
@@ -30,13 +37,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
       "htmlUrl": "https://github.com/jaesius",
       "contributions": 1
-    },
-    {
-      "id": 3333180,
-      "login": "jmartin4563",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3333180?v=4",
-      "htmlUrl": "https://github.com/jmartin4563",
-      "contributions": 2
     },
     {
       "id": 1874937,
@@ -86,6 +86,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/28942544?v=4",
       "htmlUrl": "https://github.com/katiewest820",
       "contributions": 9
+    },
+    {
+      "id": 3333180,
+      "login": "jmartin4563",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3333180?v=4",
+      "htmlUrl": "https://github.com/jmartin4563",
+      "contributions": 18
     },
     {
       "id": 585473,
