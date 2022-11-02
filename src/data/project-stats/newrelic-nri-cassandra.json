@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/nri-cassandra",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 27,
   "latestRelease": {
     "name": "v2.11.0",
     "date": "2022-09-06T13:19:15Z"
   },
-  "commits": 137,
-  "lastSixMonthsCommitTotal": 13,
+  "commits": 138,
+  "lastSixMonthsCommitTotal": 14,
   "contributors": 27,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 1
-    },
     {
       "id": 46498444,
       "login": "lchapman4",
@@ -86,6 +79,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/939550?v=4",
       "htmlUrl": "https://github.com/mariomac",
       "contributions": 1
+    },
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 2
     },
     {
       "id": 79498,
