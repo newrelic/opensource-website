@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nri-discovery-kubernetes",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 12,
   "latestRelease": {
     "name": "v1.4.2",
     "date": "2022-09-06T11:15:29Z"
   },
-  "commits": 49,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 13,
+  "commits": 50,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 14,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 53659978,
+      "login": "kang-makes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
+      "htmlUrl": "https://github.com/kang-makes",
+      "contributions": 1
+    },
     {
       "id": 442627,
       "login": "sigilioso",
@@ -134,6 +141,16 @@
       "id": "MDg6TGFuZ3VhZ2UyNjQ=",
       "name": "PowerShell",
       "color": "#012456"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MzE=",
+      "name": "Smarty",
+      "color": "#f0c040"
     }
   ],
   "screenshots": [],
