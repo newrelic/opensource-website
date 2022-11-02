@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-cordova-plugin",
   "issues": {
-    "open": 9
+    "open": 2
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 82,
-  "lastSixMonthsCommitTotal": 6,
-  "contributors": 7,
+  "commits": 84,
+  "lastSixMonthsCommitTotal": 8,
+  "contributors": 9,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -41,6 +41,20 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/626480?v=4",
       "htmlUrl": "https://github.com/jopache",
       "contributions": 1
+    },
+    {
+      "id": 89222514,
+      "login": "ndesai-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89222514?v=4",
+      "htmlUrl": "https://github.com/ndesai-newrelic",
+      "contributions": 2
+    },
+    {
+      "id": 105679755,
+      "login": "kthai-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/105679755?v=4",
+      "htmlUrl": "https://github.com/kthai-nr",
+      "contributions": 2
     },
     {
       "id": 84047247,
@@ -76,28 +90,18 @@
       "color": "#438eff"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
-    },
-    {
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
       "color": "#b07219"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxNDU=",
-      "name": "Python",
-      "color": "#3572A5"
     }
   ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTA=",
-    "name": "Other",
-    "spdxId": "NOASSERTION",
-    "url": "http://choosealicense.com/licenses/other/",
-    "featured": false,
-    "key": "other"
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
   }
 }
