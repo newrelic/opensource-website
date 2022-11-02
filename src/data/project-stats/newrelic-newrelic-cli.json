@@ -3,20 +3,27 @@
   "issues": {
     "open": 15
   },
-  "releases": 369,
+  "releases": 370,
   "latestRelease": {
-    "name": "v0.56.1",
-    "date": "2022-10-25T13:32:17Z"
+    "name": "v0.57.0",
+    "date": "2022-11-02T14:15:03Z"
   },
-  "commits": 3598,
-  "lastSixMonthsCommitTotal": 256,
-  "contributors": 34,
+  "commits": 3604,
+  "lastSixMonthsCommitTotal": 262,
+  "contributors": 35,
   "pullRequests": {
-    "open": 9
+    "open": 8
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 804687,
+      "login": "lchenay",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/804687?v=4",
+      "htmlUrl": "https://github.com/lchenay",
+      "contributions": 1
+    },
     {
       "id": 1663955,
       "login": "mbazhlekova",
@@ -165,18 +172,18 @@
       "contributions": 12
     },
     {
-      "id": 90725916,
-      "login": "mbruzina",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/90725916?v=4",
-      "htmlUrl": "https://github.com/mbruzina",
-      "contributions": 15
-    },
-    {
       "id": 89416973,
       "login": "natecanfield822",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89416973?v=4",
       "htmlUrl": "https://github.com/natecanfield822",
       "contributions": 15
+    },
+    {
+      "id": 90725916,
+      "login": "mbruzina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90725916?v=4",
+      "htmlUrl": "https://github.com/mbruzina",
+      "contributions": 16
     },
     {
       "id": 47485486,
@@ -253,7 +260,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 486
+      "contributions": 488
     }
   ],
   "languages": [

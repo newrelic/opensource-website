@@ -3,16 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 3,
-  "latestRelease": {
-    "name": "v1.1.1",
-    "date": "2020-03-30T20:56:21Z"
-  },
+  "releases": 0,
+  "latestRelease": null,
   "commits": 53,
   "lastSixMonthsCommitTotal": 0,
   "contributors": 7,
   "pullRequests": {
-    "open": 35
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -74,21 +71,12 @@
       "color": "#f1e05a"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UzMDg=",
-      "name": "CSS",
-      "color": "#563d7c"
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
-  "screenshots": [
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-igor/master/screenshots/igor-screenshot-add-hosts.png",
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-igor/master/screenshots/igor-screenshot-add-locations.png",
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-igor/master/screenshots/igor-screenshot-detail.png",
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-igor/master/screenshots/igor-screenshot-map-defaults.png",
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-igor/master/screenshots/igor-screenshot-map.png",
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-igor/master/screenshots/igor-screenshot-mapbox-token.png",
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-igor/master/screenshots/igor-screenshot-select-hosts.png",
-    "https://raw.githubusercontent.com/newrelic-experimental/nr1-igor/master/screenshots/igor-screenshot-splash.png"
-  ],
+  "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
     "name": "Apache License 2.0",
