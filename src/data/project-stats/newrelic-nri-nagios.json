@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nri-nagios",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 27,
   "latestRelease": {
     "name": "v2.8.3",
     "date": "2022-07-05T13:16:14Z"
   },
-  "commits": 134,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 18,
+  "commits": 135,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 19,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 1
+    },
     {
       "id": 3380451,
       "login": "rubenruizdegauna",
