@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Adopt OpenJDK Renders correctly 1`] = `
-.emotion-115 {
+.emotion-114 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,37 +14,48 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-78 {
-  background-color: var(--system-text-primary-light);
+.emotion-77 {
+  display: grid;
+  background-color: var(--erno-black);
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  grid-template-rows: 1fr auto;
+  grid-template-areas: 'logo nav';
   box-shadow: var(--shadow-2);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 80;
+  height: var(--global-header-height);
 }
 
-.dark-mode .emotion-78 {
+@media screen and (max-width: 1150px) and (min-width: 1070px) {
+  .emotion-77 {
+    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
+                0,
+                1fr
+              );
+  }
+}
+
+@media screen and (max-width: ) {
+  .emotion-77 {
+    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
+                0,
+                1fr
+              );
+  }
+}
+
+.dark-mode .emotion-77 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-77 {
-  height: var(--global-header-height);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  max-width: var(--site-max-width);
-  margin: 0 auto;
+.emotion-54 {
+  grid-area: logo;
   padding: 0 var(--site-content-padding);
-}
-
-.emotion-59 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -55,7 +66,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: center;
   height: 100%;
   overflow: hidden;
-  position: relative;
 }
 
 .emotion-22 {
@@ -209,45 +219,51 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-58 {
+.emotion-76 {
+  grid-area: nav;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0 var(--site-content-padding);
+  width: 100%;
+  max-width: var(--site-max-width);
+  margin: auto;
+}
+
+.emotion-59 {
   height: 100%;
-  margin: 0;
-  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
   white-space: nowrap;
-  position: relative;
-  margin-left: 60px;
+  padding: 0;
 }
 
 
 
-.emotion-58 li >a {
+.emotion-59 li >a {
   font-size: 18px;
 }
 
 
 
-.emotion-58 li:first-of-type >a {
+.emotion-59 li:first-of-type >a {
   padding-left: 0px;
 }
 
-@media screen and (max-width: 1200px) {
-  .emotion-58 {
-    margin-left: 2rem;
-  }
-}
-
 @media screen and (max-width: 1070px) {
-  .emotion-58 {
+  .emotion-59 {
     display: none;
   }
 }
 
-.emotion-54 {
+.emotion-55 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -268,11 +284,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-54:hover {
+.emotion-55:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-76 {
+.emotion-75 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -289,31 +305,43 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -ms-flex-pack: end;
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
-  background: var(--system-text-primary-light);
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
-.emotion-76 >li {
+.emotion-75 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-76 >li:not(:first-of-type) .emotion-76 >li:not(:last-of-type) {
+.emotion-75 >li:not(:first-of-type) .emotion-75 >li:not(:last-of-type) {
   margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 1070px) {
+  .emotion-75 {
+    width: 100%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+  }
 }
 
 .emotion-63 {
   margin: 0rem 1rem;
   width: 100%;
   max-width: 320px;
-  margin-right: 1rem;
 }
 
 @media screen and (max-width: 930px) {
   .emotion-63 {
     margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .emotion-63 {
+    margin-left: 0;
   }
 }
 
@@ -617,6 +645,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   font-size: 0.75rem;
   font-size: 18px;
   white-space: nowrap;
+  padding-right: 0;
 }
 
 .emotion-72 span {
@@ -630,31 +659,24 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-75 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-101 {
+.emotion-100 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-101 {
+  .emotion-100 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-100 {
+.emotion-99 {
   fill: none;
   width: 100%;
 }
 
-.emotion-108 {
+.emotion-107 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -667,18 +689,18 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-108>hr {
+.emotion-107>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-107 {
+.emotion-106 {
   margin-bottom: 1rem;
 }
 
-.emotion-102 {
+.emotion-101 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -708,12 +730,12 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background-color: var(--brand-button-primary-accent);
 }
 
-.emotion-102:hover {
+.emotion-101:hover {
   color: var(--color-black);
   background-color: var(--brand-button-primary-accent-hover);
 }
 
-.emotion-105 {
+.emotion-104 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -743,26 +765,26 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background: transparent;
 }
 
-.dark-mode .emotion-105 {
+.dark-mode .emotion-104 {
   border-color: transparent;
 }
 
-.emotion-104 {
+.emotion-103 {
   margin-right: 0.5rem;
 }
 
-.emotion-114 {
+.emotion-113 {
   color: var(--system-text-primary-dark);
   background-color: var(--system-text-primary-light);
   z-index: 1;
 }
 
-.emotion-114 a {
+.emotion-113 a {
   color: var(--system-text-primary-dark);
   border-color: var(--system-text-primary-dark);
 }
 
-.emotion-113 {
+.emotion-112 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -780,7 +802,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-113 {
+  .emotion-112 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -792,14 +814,14 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   }
 }
 
-.emotion-109 {
+.emotion-108 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-112 {
+.emotion-111 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -813,7 +835,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: flex-end;
 }
 
-.emotion-110 {
+.emotion-109 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -829,39 +851,105 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-110 a {
+.emotion-109 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
-.emotion-111 {
+
+
+.emotion-110 p {
   font-size: 0.625rem;
-  margin-top: 0.5rem;
 }
 
 <div
-  className="emotion-115"
+  className="emotion-114"
 >
   <div
-    className=" emotion-78"
+    className=" emotion-77"
     data-swiftype-index={false}
   >
-    <div
-      className="emotion-77"
+    <nav
+      className="emotion-54"
     >
-      <nav
-        className="emotion-59"
+      <a
+        className="emotion-22"
+        href="https://newrelic.com/"
+        onClick={[Function]}
+        rel="noopener"
+        target="_blank"
       >
-        <a
-          className="emotion-22"
-          href="https://newrelic.com/"
+        <svg
+          className="emotion-21"
+          viewBox="0 -3 171 36"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            className="emotion-18"
+            clipPath="url(#clip0_3277_23032)"
+          >
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
+            />
+          </g>
+          <path
+            d="M23.2043 11.0778V20.9232L14.6196 25.8469V32.0005L28.5741 24.001V8L23.2043 11.0778Z"
+            fill="#00AC69"
+          />
+          <path
+            d="M14.6209 6.15563L23.2056 11.0773L28.5754 7.9995L14.6209 0L0.666504 7.9995L6.03422 11.0773L14.6209 6.15563Z"
+            fill="#1CE783"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
+          />
+        </svg>
+      </a>
+      <div
+        className="emotion-53"
+      >
+        <button
+          className="emotion-45 emotion-46"
           onClick={[Function]}
-          rel="noopener"
-          target="_blank"
+          size="extraSmall"
         >
           <svg
             className="emotion-21"
-            viewBox="0 0 179 40"
+            viewBox="0 -3 171 36"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g
@@ -918,126 +1006,63 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
               d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
             />
           </svg>
-        </a>
+        </button>
         <div
-          className="emotion-53"
+          className="emotion-52"
         >
-          <button
-            className="emotion-45 emotion-46"
-            onClick={[Function]}
-            size="extraSmall"
-          >
-            <svg
-              className="emotion-21"
-              viewBox="0 0 179 40"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g
-                className="emotion-18"
-                clipPath="url(#clip0_3277_23032)"
-              >
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
-                />
-              </g>
-              <path
-                d="M23.2043 11.0778V20.9232L14.6196 25.8469V32.0005L28.5741 24.001V8L23.2043 11.0778Z"
-                fill="#00AC69"
-              />
-              <path
-                d="M14.6209 6.15563L23.2056 11.0773L28.5754 7.9995L14.6209 0L0.666504 7.9995L6.03422 11.0773L14.6209 6.15563Z"
-                fill="#1CE783"
-              />
-              <path
-                className="text-color emotion-0 emotion-1"
-                d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
-              />
-            </svg>
-          </button>
           <div
-            className="emotion-52"
+            className="emotion-51"
           >
-            <div
-              className="emotion-51"
+            <a
+              className="emotion-47"
+              href="https://docs.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
             >
-              <a
-                className="emotion-47"
-                href="https://docs.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Docs
-              </a>
-              <a
-                className="emotion-47"
-                href="https://developer.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Developer
-              </a>
-              <a
-                className="emotion-47"
-                href="https://discuss.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Community
-              </a>
-              <a
-                className="emotion-47"
-                href="https://learn.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Learn
-              </a>
-            </div>
+              Docs
+            </a>
+            <a
+              className="emotion-47"
+              href="https://developer.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Developer
+            </a>
+            <a
+              className="emotion-47"
+              href="https://discuss.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Community
+            </a>
+            <a
+              className="emotion-47"
+              href="https://learn.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Learn
+            </a>
           </div>
         </div>
+      </div>
+    </nav>
+    <div
+      className="emotion-76"
+    >
+      <nav>
         <ul
-          className="emotion-58"
+          className="emotion-59"
         >
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1048,7 +1073,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://developer.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1059,7 +1084,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1070,7 +1095,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1082,7 +1107,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-76"
+        className="emotion-75"
       >
         <li
           className="emotion-63"
@@ -1222,19 +1247,20 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
               Log in
             </span>
           </a>
-          <button
+          <a
             className=" emotion-72 emotion-46"
+            href="https://newrelic.com/signup"
             onClick={[Function]}
+            rel="noopener"
             size="small"
+            target="_blank"
+            variant="link"
           >
             <span>
               Start now
             </span>
-          </button>
+          </a>
         </li>
-        <li
-          className="emotion-75"
-        />
       </ul>
     </div>
   </div>
@@ -1243,12 +1269,12 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         undefined"
   >
     <a
-      className="emotion-101"
+      className="emotion-100"
       href="/"
     >
       <svg
-        className="emotion-100"
-        viewBox="0 0 179 40"
+        className="emotion-99"
+        viewBox="0 -3 171 36"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g
@@ -1377,7 +1403,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-108"
+    className="emotion-107"
   >
     <div
       className="primary-content"
@@ -1422,11 +1448,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
       >
         <div>
           <div
-            className="emotion-107"
+            className="emotion-106"
           >
             <div>
               <a
-                className="emotion-102 emotion-46"
+                className="emotion-101 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -1434,13 +1460,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-105 emotion-46"
+                className="emotion-104 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-104"
+                  className="emotion-103"
                   src="test-file-stub"
                 />
                 GitHub
@@ -1455,23 +1481,23 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-114"
+    className="emotion-113"
     data-swiftype-index={false}
   >
     <div>
       <div
-        className="emotion-113"
+        className="emotion-112"
       >
         <div
-          className="emotion-109"
+          className="emotion-108"
         >
           Copyright © 2022 New Relic Inc.
         </div>
         <div
-          className="emotion-112"
+          className="emotion-111"
         >
           <div
-            className="emotion-110"
+            className="emotion-109"
           >
             <a
               href="https://newrelic.com/about/careers"
@@ -1522,25 +1548,27 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
               UK Slavery Act
             </a>
           </div>
-          <p
-            className="emotion-111"
+          <div
+            className="emotion-110"
           >
-            This site is protected by reCAPTCHA and the Google
-             
-            <a
-              href="https://policies.google.com/privacy"
-            >
-              Privacy Policy
-            </a>
-             and
-             
-            <a
-              href="https://policies.google.com/terms"
-            >
-              Terms of Service
-            </a>
-             apply.
-          </p>
+            <p>
+              This site is protected by reCAPTCHA and the Google
+               
+              <a
+                href="https://policies.google.com/privacy"
+              >
+                Privacy Policy
+              </a>
+               and
+               
+              <a
+                href="https://policies.google.com/terms"
+              >
+                Terms of Service
+              </a>
+               apply.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -1549,7 +1577,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 `;
 
 exports[`Open Telemetry Page Renders correctly 1`] = `
-.emotion-115 {
+.emotion-114 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1562,37 +1590,48 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-78 {
-  background-color: var(--system-text-primary-light);
+.emotion-77 {
+  display: grid;
+  background-color: var(--erno-black);
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  grid-template-rows: 1fr auto;
+  grid-template-areas: 'logo nav';
   box-shadow: var(--shadow-2);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 80;
+  height: var(--global-header-height);
 }
 
-.dark-mode .emotion-78 {
+@media screen and (max-width: 1150px) and (min-width: 1070px) {
+  .emotion-77 {
+    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
+                0,
+                1fr
+              );
+  }
+}
+
+@media screen and (max-width: ) {
+  .emotion-77 {
+    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
+                0,
+                1fr
+              );
+  }
+}
+
+.dark-mode .emotion-77 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-77 {
-  height: var(--global-header-height);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  max-width: var(--site-max-width);
-  margin: 0 auto;
+.emotion-54 {
+  grid-area: logo;
   padding: 0 var(--site-content-padding);
-}
-
-.emotion-59 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1603,7 +1642,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: center;
   height: 100%;
   overflow: hidden;
-  position: relative;
 }
 
 .emotion-22 {
@@ -1757,45 +1795,51 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-58 {
+.emotion-76 {
+  grid-area: nav;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0 var(--site-content-padding);
+  width: 100%;
+  max-width: var(--site-max-width);
+  margin: auto;
+}
+
+.emotion-59 {
   height: 100%;
-  margin: 0;
-  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
   white-space: nowrap;
-  position: relative;
-  margin-left: 60px;
+  padding: 0;
 }
 
 
 
-.emotion-58 li >a {
+.emotion-59 li >a {
   font-size: 18px;
 }
 
 
 
-.emotion-58 li:first-of-type >a {
+.emotion-59 li:first-of-type >a {
   padding-left: 0px;
 }
 
-@media screen and (max-width: 1200px) {
-  .emotion-58 {
-    margin-left: 2rem;
-  }
-}
-
 @media screen and (max-width: 1070px) {
-  .emotion-58 {
+  .emotion-59 {
     display: none;
   }
 }
 
-.emotion-54 {
+.emotion-55 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1816,11 +1860,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-54:hover {
+.emotion-55:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-76 {
+.emotion-75 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -1837,31 +1881,43 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -ms-flex-pack: end;
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
-  background: var(--system-text-primary-light);
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
-.emotion-76 >li {
+.emotion-75 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-76 >li:not(:first-of-type) .emotion-76 >li:not(:last-of-type) {
+.emotion-75 >li:not(:first-of-type) .emotion-75 >li:not(:last-of-type) {
   margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 1070px) {
+  .emotion-75 {
+    width: 100%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+  }
 }
 
 .emotion-63 {
   margin: 0rem 1rem;
   width: 100%;
   max-width: 320px;
-  margin-right: 1rem;
 }
 
 @media screen and (max-width: 930px) {
   .emotion-63 {
     margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .emotion-63 {
+    margin-left: 0;
   }
 }
 
@@ -2165,6 +2221,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   font-size: 0.75rem;
   font-size: 18px;
   white-space: nowrap;
+  padding-right: 0;
 }
 
 .emotion-72 span {
@@ -2178,31 +2235,24 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-75 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-101 {
+.emotion-100 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-101 {
+  .emotion-100 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-100 {
+.emotion-99 {
   fill: none;
   width: 100%;
 }
 
-.emotion-108 {
+.emotion-107 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -2215,18 +2265,18 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-108>hr {
+.emotion-107>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-107 {
+.emotion-106 {
   margin-bottom: 1rem;
 }
 
-.emotion-102 {
+.emotion-101 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2256,12 +2306,12 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background-color: var(--brand-button-primary-accent);
 }
 
-.emotion-102:hover {
+.emotion-101:hover {
   color: var(--color-black);
   background-color: var(--brand-button-primary-accent-hover);
 }
 
-.emotion-105 {
+.emotion-104 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2291,26 +2341,26 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background: transparent;
 }
 
-.dark-mode .emotion-105 {
+.dark-mode .emotion-104 {
   border-color: transparent;
 }
 
-.emotion-104 {
+.emotion-103 {
   margin-right: 0.5rem;
 }
 
-.emotion-114 {
+.emotion-113 {
   color: var(--system-text-primary-dark);
   background-color: var(--system-text-primary-light);
   z-index: 1;
 }
 
-.emotion-114 a {
+.emotion-113 a {
   color: var(--system-text-primary-dark);
   border-color: var(--system-text-primary-dark);
 }
 
-.emotion-113 {
+.emotion-112 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -2328,7 +2378,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-113 {
+  .emotion-112 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -2340,14 +2390,14 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   }
 }
 
-.emotion-109 {
+.emotion-108 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-112 {
+.emotion-111 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2361,7 +2411,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: flex-end;
 }
 
-.emotion-110 {
+.emotion-109 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2377,39 +2427,105 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-110 a {
+.emotion-109 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
-.emotion-111 {
+
+
+.emotion-110 p {
   font-size: 0.625rem;
-  margin-top: 0.5rem;
 }
 
 <div
-  className="emotion-115"
+  className="emotion-114"
 >
   <div
-    className=" emotion-78"
+    className=" emotion-77"
     data-swiftype-index={false}
   >
-    <div
-      className="emotion-77"
+    <nav
+      className="emotion-54"
     >
-      <nav
-        className="emotion-59"
+      <a
+        className="emotion-22"
+        href="https://newrelic.com/"
+        onClick={[Function]}
+        rel="noopener"
+        target="_blank"
       >
-        <a
-          className="emotion-22"
-          href="https://newrelic.com/"
+        <svg
+          className="emotion-21"
+          viewBox="0 -3 171 36"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            className="emotion-18"
+            clipPath="url(#clip0_3277_23032)"
+          >
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
+            />
+          </g>
+          <path
+            d="M23.2043 11.0778V20.9232L14.6196 25.8469V32.0005L28.5741 24.001V8L23.2043 11.0778Z"
+            fill="#00AC69"
+          />
+          <path
+            d="M14.6209 6.15563L23.2056 11.0773L28.5754 7.9995L14.6209 0L0.666504 7.9995L6.03422 11.0773L14.6209 6.15563Z"
+            fill="#1CE783"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
+          />
+        </svg>
+      </a>
+      <div
+        className="emotion-53"
+      >
+        <button
+          className="emotion-45 emotion-46"
           onClick={[Function]}
-          rel="noopener"
-          target="_blank"
+          size="extraSmall"
         >
           <svg
             className="emotion-21"
-            viewBox="0 0 179 40"
+            viewBox="0 -3 171 36"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g
@@ -2466,126 +2582,63 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
               d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
             />
           </svg>
-        </a>
+        </button>
         <div
-          className="emotion-53"
+          className="emotion-52"
         >
-          <button
-            className="emotion-45 emotion-46"
-            onClick={[Function]}
-            size="extraSmall"
-          >
-            <svg
-              className="emotion-21"
-              viewBox="0 0 179 40"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g
-                className="emotion-18"
-                clipPath="url(#clip0_3277_23032)"
-              >
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
-                />
-              </g>
-              <path
-                d="M23.2043 11.0778V20.9232L14.6196 25.8469V32.0005L28.5741 24.001V8L23.2043 11.0778Z"
-                fill="#00AC69"
-              />
-              <path
-                d="M14.6209 6.15563L23.2056 11.0773L28.5754 7.9995L14.6209 0L0.666504 7.9995L6.03422 11.0773L14.6209 6.15563Z"
-                fill="#1CE783"
-              />
-              <path
-                className="text-color emotion-0 emotion-1"
-                d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
-              />
-            </svg>
-          </button>
           <div
-            className="emotion-52"
+            className="emotion-51"
           >
-            <div
-              className="emotion-51"
+            <a
+              className="emotion-47"
+              href="https://docs.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
             >
-              <a
-                className="emotion-47"
-                href="https://docs.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Docs
-              </a>
-              <a
-                className="emotion-47"
-                href="https://developer.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Developer
-              </a>
-              <a
-                className="emotion-47"
-                href="https://discuss.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Community
-              </a>
-              <a
-                className="emotion-47"
-                href="https://learn.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Learn
-              </a>
-            </div>
+              Docs
+            </a>
+            <a
+              className="emotion-47"
+              href="https://developer.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Developer
+            </a>
+            <a
+              className="emotion-47"
+              href="https://discuss.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Community
+            </a>
+            <a
+              className="emotion-47"
+              href="https://learn.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Learn
+            </a>
           </div>
         </div>
+      </div>
+    </nav>
+    <div
+      className="emotion-76"
+    >
+      <nav>
         <ul
-          className="emotion-58"
+          className="emotion-59"
         >
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -2596,7 +2649,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://developer.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -2607,7 +2660,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -2618,7 +2671,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -2630,7 +2683,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-76"
+        className="emotion-75"
       >
         <li
           className="emotion-63"
@@ -2770,19 +2823,20 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
               Log in
             </span>
           </a>
-          <button
+          <a
             className=" emotion-72 emotion-46"
+            href="https://newrelic.com/signup"
             onClick={[Function]}
+            rel="noopener"
             size="small"
+            target="_blank"
+            variant="link"
           >
             <span>
               Start now
             </span>
-          </button>
+          </a>
         </li>
-        <li
-          className="emotion-75"
-        />
       </ul>
     </div>
   </div>
@@ -2791,12 +2845,12 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         undefined"
   >
     <a
-      className="emotion-101"
+      className="emotion-100"
       href="/"
     >
       <svg
-        className="emotion-100"
-        viewBox="0 0 179 40"
+        className="emotion-99"
+        viewBox="0 -3 171 36"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g
@@ -2925,7 +2979,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-108"
+    className="emotion-107"
   >
     <div
       className="primary-content"
@@ -2970,11 +3024,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
       >
         <div>
           <div
-            className="emotion-107"
+            className="emotion-106"
           >
             <div>
               <a
-                className="emotion-102 emotion-46"
+                className="emotion-101 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -2982,13 +3036,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-105 emotion-46"
+                className="emotion-104 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-104"
+                  className="emotion-103"
                   src="test-file-stub"
                 />
                 GitHub
@@ -3003,23 +3057,23 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-114"
+    className="emotion-113"
     data-swiftype-index={false}
   >
     <div>
       <div
-        className="emotion-113"
+        className="emotion-112"
       >
         <div
-          className="emotion-109"
+          className="emotion-108"
         >
           Copyright © 2022 New Relic Inc.
         </div>
         <div
-          className="emotion-112"
+          className="emotion-111"
         >
           <div
-            className="emotion-110"
+            className="emotion-109"
           >
             <a
               href="https://newrelic.com/about/careers"
@@ -3070,25 +3124,27 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
               UK Slavery Act
             </a>
           </div>
-          <p
-            className="emotion-111"
+          <div
+            className="emotion-110"
           >
-            This site is protected by reCAPTCHA and the Google
-             
-            <a
-              href="https://policies.google.com/privacy"
-            >
-              Privacy Policy
-            </a>
-             and
-             
-            <a
-              href="https://policies.google.com/terms"
-            >
-              Terms of Service
-            </a>
-             apply.
-          </p>
+            <p>
+              This site is protected by reCAPTCHA and the Google
+               
+              <a
+                href="https://policies.google.com/privacy"
+              >
+                Privacy Policy
+              </a>
+               and
+               
+              <a
+                href="https://policies.google.com/terms"
+              >
+                Terms of Service
+              </a>
+               apply.
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -3097,7 +3153,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 `;
 
 exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
-.emotion-121 {
+.emotion-120 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3110,37 +3166,48 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-78 {
-  background-color: var(--system-text-primary-light);
+.emotion-77 {
+  display: grid;
+  background-color: var(--erno-black);
+  grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
+  grid-template-rows: 1fr auto;
+  grid-template-areas: 'logo nav';
   box-shadow: var(--shadow-2);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 80;
+  height: var(--global-header-height);
 }
 
-.dark-mode .emotion-78 {
+@media screen and (max-width: 1150px) and (min-width: 1070px) {
+  .emotion-77 {
+    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
+                0,
+                1fr
+              );
+  }
+}
+
+@media screen and (max-width: ) {
+  .emotion-77 {
+    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
+                0,
+                1fr
+              );
+  }
+}
+
+.dark-mode .emotion-77 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-77 {
-  height: var(--global-header-height);
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
-  max-width: var(--site-max-width);
-  margin: 0 auto;
+.emotion-54 {
+  grid-area: logo;
   padding: 0 var(--site-content-padding);
-}
-
-.emotion-59 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3151,7 +3218,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: center;
   height: 100%;
   overflow: hidden;
-  position: relative;
 }
 
 .emotion-22 {
@@ -3305,45 +3371,51 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-58 {
+.emotion-76 {
+  grid-area: nav;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding: 0 var(--site-content-padding);
+  width: 100%;
+  max-width: var(--site-max-width);
+  margin: auto;
+}
+
+.emotion-59 {
   height: 100%;
-  margin: 0;
-  padding: 0;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
   white-space: nowrap;
-  position: relative;
-  margin-left: 60px;
+  padding: 0;
 }
 
 
 
-.emotion-58 li >a {
+.emotion-59 li >a {
   font-size: 18px;
 }
 
 
 
-.emotion-58 li:first-of-type >a {
+.emotion-59 li:first-of-type >a {
   padding-left: 0px;
 }
 
-@media screen and (max-width: 1200px) {
-  .emotion-58 {
-    margin-left: 2rem;
-  }
-}
-
 @media screen and (max-width: 1070px) {
-  .emotion-58 {
+  .emotion-59 {
     display: none;
   }
 }
 
-.emotion-54 {
+.emotion-55 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3364,11 +3436,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-54:hover {
+.emotion-55:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-76 {
+.emotion-75 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -3385,31 +3457,43 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -ms-flex-pack: end;
   -webkit-justify-content: flex-end;
   justify-content: flex-end;
-  background: var(--system-text-primary-light);
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
 }
 
-.emotion-76 >li {
+.emotion-75 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-76 >li:not(:first-of-type) .emotion-76 >li:not(:last-of-type) {
+.emotion-75 >li:not(:first-of-type) .emotion-75 >li:not(:last-of-type) {
   margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 1070px) {
+  .emotion-75 {
+    width: 100%;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+  }
 }
 
 .emotion-63 {
   margin: 0rem 1rem;
   width: 100%;
   max-width: 320px;
-  margin-right: 1rem;
 }
 
 @media screen and (max-width: 930px) {
   .emotion-63 {
     margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .emotion-63 {
+    margin-left: 0;
   }
 }
 
@@ -3713,6 +3797,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   font-size: 0.75rem;
   font-size: 18px;
   white-space: nowrap;
+  padding-right: 0;
 }
 
 .emotion-72 span {
@@ -3726,31 +3811,24 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-75 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.emotion-101 {
+.emotion-100 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-101 {
+  .emotion-100 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-100 {
+.emotion-99 {
   fill: none;
   width: 100%;
 }
 
-.emotion-114 {
+.emotion-113 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -3763,18 +3841,18 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-114>hr {
+.emotion-113>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-107 {
+.emotion-106 {
   margin-bottom: 1rem;
 }
 
-.emotion-102 {
+.emotion-101 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3804,12 +3882,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--brand-button-primary-accent);
 }
 
-.emotion-102:hover {
+.emotion-101:hover {
   color: var(--color-black);
   background-color: var(--brand-button-primary-accent-hover);
 }
 
-.emotion-105 {
+.emotion-104 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3839,26 +3917,26 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background: transparent;
 }
 
-.dark-mode .emotion-105 {
+.dark-mode .emotion-104 {
   border-color: transparent;
 }
 
-.emotion-104 {
+.emotion-103 {
   margin-right: 0.5rem;
 }
 
-.emotion-120 {
+.emotion-119 {
   color: var(--system-text-primary-dark);
   background-color: var(--system-text-primary-light);
   z-index: 1;
 }
 
-.emotion-120 a {
+.emotion-119 a {
   color: var(--system-text-primary-dark);
   border-color: var(--system-text-primary-dark);
 }
 
-.emotion-119 {
+.emotion-118 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -3876,7 +3954,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-119 {
+  .emotion-118 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -3888,14 +3966,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-115 {
+.emotion-114 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-118 {
+.emotion-117 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3909,7 +3987,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: flex-end;
 }
 
-.emotion-116 {
+.emotion-115 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3925,44 +4003,110 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   grid-area: legal;
 }
 
-.emotion-116 a {
+.emotion-115 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
-.emotion-117 {
+
+
+.emotion-116 p {
   font-size: 0.625rem;
-  margin-top: 0.5rem;
 }
 
-.emotion-108 {
+.emotion-107 {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
 <div
-  className="emotion-121"
+  className="emotion-120"
 >
   <div
-    className=" emotion-78"
+    className=" emotion-77"
     data-swiftype-index={false}
   >
-    <div
-      className="emotion-77"
+    <nav
+      className="emotion-54"
     >
-      <nav
-        className="emotion-59"
+      <a
+        className="emotion-22"
+        href="https://newrelic.com/"
+        onClick={[Function]}
+        rel="noopener"
+        target="_blank"
       >
-        <a
-          className="emotion-22"
-          href="https://newrelic.com/"
+        <svg
+          className="emotion-21"
+          viewBox="0 -3 171 36"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            className="emotion-18"
+            clipPath="url(#clip0_3277_23032)"
+          >
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
+            />
+            <path
+              className="text-color emotion-0 emotion-1"
+              d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
+            />
+          </g>
+          <path
+            d="M23.2043 11.0778V20.9232L14.6196 25.8469V32.0005L28.5741 24.001V8L23.2043 11.0778Z"
+            fill="#00AC69"
+          />
+          <path
+            d="M14.6209 6.15563L23.2056 11.0773L28.5754 7.9995L14.6209 0L0.666504 7.9995L6.03422 11.0773L14.6209 6.15563Z"
+            fill="#1CE783"
+          />
+          <path
+            className="text-color emotion-0 emotion-1"
+            d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
+          />
+        </svg>
+      </a>
+      <div
+        className="emotion-53"
+      >
+        <button
+          className="emotion-45 emotion-46"
           onClick={[Function]}
-          rel="noopener"
-          target="_blank"
+          size="extraSmall"
         >
           <svg
             className="emotion-21"
-            viewBox="0 0 179 40"
+            viewBox="0 -3 171 36"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g
@@ -4019,126 +4163,63 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
               d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
             />
           </svg>
-        </a>
+        </button>
         <div
-          className="emotion-53"
+          className="emotion-52"
         >
-          <button
-            className="emotion-45 emotion-46"
-            onClick={[Function]}
-            size="extraSmall"
-          >
-            <svg
-              className="emotion-21"
-              viewBox="0 0 179 40"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g
-                className="emotion-18"
-                clipPath="url(#clip0_3277_23032)"
-              >
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
-                />
-                <path
-                  className="text-color emotion-0 emotion-1"
-                  d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
-                />
-              </g>
-              <path
-                d="M23.2043 11.0778V20.9232L14.6196 25.8469V32.0005L28.5741 24.001V8L23.2043 11.0778Z"
-                fill="#00AC69"
-              />
-              <path
-                d="M14.6209 6.15563L23.2056 11.0773L28.5754 7.9995L14.6209 0L0.666504 7.9995L6.03422 11.0773L14.6209 6.15563Z"
-                fill="#1CE783"
-              />
-              <path
-                className="text-color emotion-0 emotion-1"
-                d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
-              />
-            </svg>
-          </button>
           <div
-            className="emotion-52"
+            className="emotion-51"
           >
-            <div
-              className="emotion-51"
+            <a
+              className="emotion-47"
+              href="https://docs.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
             >
-              <a
-                className="emotion-47"
-                href="https://docs.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Docs
-              </a>
-              <a
-                className="emotion-47"
-                href="https://developer.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Developer
-              </a>
-              <a
-                className="emotion-47"
-                href="https://discuss.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Community
-              </a>
-              <a
-                className="emotion-47"
-                href="https://learn.newrelic.com/"
-                onClick={[Function]}
-                rel="noopener"
-                target="_blank"
-              >
-                Learn
-              </a>
-            </div>
+              Docs
+            </a>
+            <a
+              className="emotion-47"
+              href="https://developer.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Developer
+            </a>
+            <a
+              className="emotion-47"
+              href="https://discuss.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Community
+            </a>
+            <a
+              className="emotion-47"
+              href="https://learn.newrelic.com/"
+              onClick={[Function]}
+              rel="noopener"
+              target="_blank"
+            >
+              Learn
+            </a>
           </div>
         </div>
+      </div>
+    </nav>
+    <div
+      className="emotion-76"
+    >
+      <nav>
         <ul
-          className="emotion-58"
+          className="emotion-59"
         >
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -4149,7 +4230,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://developer.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -4160,7 +4241,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -4171,7 +4252,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-54"
+              className="emotion-55"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -4183,7 +4264,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-76"
+        className="emotion-75"
       >
         <li
           className="emotion-63"
@@ -4323,19 +4404,20 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
               Log in
             </span>
           </a>
-          <button
+          <a
             className=" emotion-72 emotion-46"
+            href="https://newrelic.com/signup"
             onClick={[Function]}
+            rel="noopener"
             size="small"
+            target="_blank"
+            variant="link"
           >
             <span>
               Start now
             </span>
-          </button>
+          </a>
         </li>
-        <li
-          className="emotion-75"
-        />
       </ul>
     </div>
   </div>
@@ -4344,12 +4426,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         undefined"
   >
     <a
-      className="emotion-101"
+      className="emotion-100"
       href="/"
     >
       <svg
-        className="emotion-100"
-        viewBox="0 0 179 40"
+        className="emotion-99"
+        viewBox="0 -3 171 36"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g
@@ -4478,7 +4560,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-114"
+    className="emotion-113"
   >
     <div
       className="undefined undefined   undefined 
@@ -4542,11 +4624,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
       >
         <div>
           <div
-            className="emotion-107"
+            className="emotion-106"
           >
             <div>
               <a
-                className="emotion-102 emotion-46"
+                className="emotion-101 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -4554,13 +4636,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-105 emotion-46"
+                className="emotion-104 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-104"
+                  className="emotion-103"
                   src="test-file-stub"
                 />
                 GitHub
@@ -4572,7 +4654,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           Involved from New Relic
         </h4>
         <a
-          className="undefined  emotion-108"
+          className="undefined  emotion-107"
           href="https://github.com/kittylyst"
           target="__blank"
         >
@@ -4593,7 +4675,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-108"
+          className="undefined  emotion-107"
           href="https://github.com/breedx-nr"
           target="__blank"
         >
@@ -4614,7 +4696,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-108"
+          className="undefined  emotion-107"
           href="https://github.com/jasonrclark"
           target="__blank"
         >
@@ -4635,7 +4717,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-108"
+          className="undefined  emotion-107"
           href="https://github.com/tmancill"
           target="__blank"
         >
@@ -4656,7 +4738,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-108"
+          className="undefined  emotion-107"
           href="https://github.com/cameronhotchkies"
           target="__blank"
         >
@@ -4677,7 +4759,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-108"
+          className="undefined  emotion-107"
           href="https://github.com/rvanderwal-newrelic"
           target="__blank"
         >
@@ -4701,23 +4783,23 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-120"
+    className="emotion-119"
     data-swiftype-index={false}
   >
     <div>
       <div
-        className="emotion-119"
+        className="emotion-118"
       >
         <div
-          className="emotion-115"
+          className="emotion-114"
         >
           Copyright © 2022 New Relic Inc.
         </div>
         <div
-          className="emotion-118"
+          className="emotion-117"
         >
           <div
-            className="emotion-116"
+            className="emotion-115"
           >
             <a
               href="https://newrelic.com/about/careers"
@@ -4768,25 +4850,27 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
               UK Slavery Act
             </a>
           </div>
-          <p
-            className="emotion-117"
+          <div
+            className="emotion-116"
           >
-            This site is protected by reCAPTCHA and the Google
-             
-            <a
-              href="https://policies.google.com/privacy"
-            >
-              Privacy Policy
-            </a>
-             and
-             
-            <a
-              href="https://policies.google.com/terms"
-            >
-              Terms of Service
-            </a>
-             apply.
-          </p>
+            <p>
+              This site is protected by reCAPTCHA and the Google
+               
+              <a
+                href="https://policies.google.com/privacy"
+              >
+                Privacy Policy
+              </a>
+               and
+               
+              <a
+                href="https://policies.google.com/terms"
+              >
+                Terms of Service
+              </a>
+               apply.
+            </p>
+          </div>
         </div>
       </div>
     </div>
