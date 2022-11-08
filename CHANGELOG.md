@@ -1,3 +1,11 @@
+## [1.22.1](https://github.com/newrelic/opensource-website/compare/v1.22.0...v1.22.1) (2022-11-08)
+
+
+### Bug Fixes
+
+* update snapshops ([2d459ed](https://github.com/newrelic/opensource-website/commit/2d459edb3407e77fad55ccef5df460c92bc23413))
+* update theme to latest version ([b2a2456](https://github.com/newrelic/opensource-website/commit/b2a2456c3dbce54dc68b38a9676609198c254510))
+
 # [1.22.0](https://github.com/newrelic/opensource-website/compare/v1.21.1...v1.22.0) (2022-07-27)
 
 
