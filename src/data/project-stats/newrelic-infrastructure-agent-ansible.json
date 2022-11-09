@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/infrastructure-agent-ansible",
   "issues": {
-    "open": 9
+    "open": 8
   },
-  "releases": 24,
+  "releases": 25,
   "latestRelease": {
-    "name": "0.11.0",
-    "date": "2022-09-05T14:03:41Z"
+    "name": "0.12.0",
+    "date": "2022-11-09T07:16:37Z"
   },
-  "commits": 302,
-  "lastSixMonthsCommitTotal": 9,
-  "contributors": 42,
+  "commits": 303,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 43,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 24866930,
+      "login": "max-franklin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24866930?v=4",
+      "htmlUrl": "https://github.com/max-franklin",
+      "contributions": 1
+    },
     {
       "id": 11976274,
       "login": "ahosie",
@@ -207,13 +214,6 @@
       "contributions": 2
     },
     {
-      "id": 539074,
-      "login": "RulerOf",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/539074?v=4",
-      "htmlUrl": "https://github.com/RulerOf",
-      "contributions": 2
-    },
-    {
       "id": 939550,
       "login": "mariomac",
       "avatarUrl": "https://avatars.githubusercontent.com/u/939550?v=4",
@@ -261,6 +261,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/351038?v=4",
       "htmlUrl": "https://github.com/koenpunt",
       "contributions": 2
+    },
+    {
+      "id": 539074,
+      "login": "RulerOf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/539074?v=4",
+      "htmlUrl": "https://github.com/RulerOf",
+      "contributions": 3
     },
     {
       "id": 5935,
