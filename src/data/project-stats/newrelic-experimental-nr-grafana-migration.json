@@ -1,19 +1,26 @@
 {
   "projectFullName": "newrelic-experimental/nr-grafana-migration",
   "issues": {
-    "open": 3
+    "open": 4
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 31,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 2,
+  "commits": 33,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 3,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 14805373,
+      "login": "smcavallo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14805373?v=4",
+      "htmlUrl": "https://github.com/smcavallo",
+      "contributions": 1
+    },
     {
       "id": 40477042,
       "login": "aminoz007",
@@ -34,6 +41,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDU=",
       "name": "Python",
       "color": "#3572A5"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
     }
   ],
   "screenshots": [],
