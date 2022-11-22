@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-php-agent",
   "issues": {
-    "open": 85
+    "open": 78
   },
   "releases": 15,
   "latestRelease": {
@@ -16,23 +16,6 @@
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU3NjAyMDEwNzg=",
-      "title": "Guzzle 6 Middleware pushed multiple times, reaching max recursion",
-      "url": "https://github.com/newrelic/newrelic-php-agent/issues/48",
-      "createdAt": "2020-12-09T10:24:10Z",
-      "comments": {
-        "totalCount": 3
-      },
-      "author": {
-        "login": "Starfox64",
-        "id": "MDQ6VXNlcjE1MzA3MjA=",
-        "email": "",
-        "name": "Starfox64"
-      },
-      "number": 48,
-      "createdBy": "Starfox64"
-    },
     {
       "id": "I_kwDOEgHfPM5MdWXK",
       "title": "Integrate Cross Agent Test decimal precision",
