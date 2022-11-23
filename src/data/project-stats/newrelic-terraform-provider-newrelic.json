@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 68
+    "open": 67
   },
   "releases": 174,
   "latestRelease": {
     "name": "v3.7.1",
     "date": "2022-11-15T19:45:34Z"
   },
-  "commits": 3554,
-  "lastSixMonthsCommitTotal": 829,
+  "commits": 3588,
+  "lastSixMonthsCommitTotal": 863,
   "contributors": 100,
   "pullRequests": {
-    "open": 16
+    "open": 13
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -606,18 +606,11 @@
       "contributions": 19
     },
     {
-      "id": 107837335,
-      "login": "NSSPKrishna",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/107837335?v=4",
-      "htmlUrl": "https://github.com/NSSPKrishna",
-      "contributions": 22
-    },
-    {
       "id": 29139614,
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 24
+      "contributions": 25
     },
     {
       "id": 4684194,
@@ -625,6 +618,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/4684194?v=4",
       "htmlUrl": "https://github.com/jamesgoodhouse",
       "contributions": 27
+    },
+    {
+      "id": 107837335,
+      "login": "NSSPKrishna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107837335?v=4",
+      "htmlUrl": "https://github.com/NSSPKrishna",
+      "contributions": 30
     },
     {
       "id": 422474,
@@ -715,7 +715,7 @@
       "login": "mbazhlekova",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1663955?v=4",
       "htmlUrl": "https://github.com/mbazhlekova",
-      "contributions": 267
+      "contributions": 268
     }
   ],
   "languages": [
