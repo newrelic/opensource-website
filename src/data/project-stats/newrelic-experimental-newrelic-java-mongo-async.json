@@ -1,12 +1,15 @@
 {
   "projectFullName": "newrelic-experimental/newrelic-java-mongo-async",
   "issues": {
-    "open": 0
+    "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 12,
-  "lastSixMonthsCommitTotal": 2,
+  "releases": 1,
+  "latestRelease": {
+    "name": "1.0",
+    "date": "2022-11-29T19:20:06Z"
+  },
+  "commits": 16,
+  "lastSixMonthsCommitTotal": 6,
   "contributors": 3,
   "pullRequests": {
     "open": 0
@@ -33,7 +36,7 @@
       "login": "dhilpipre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
       "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 9
+      "contributions": 12
     }
   ],
   "languages": [
