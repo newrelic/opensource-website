@@ -3,20 +3,27 @@
   "issues": {
     "open": 33
   },
-  "releases": 537,
+  "releases": 538,
   "latestRelease": {
-    "name": "synthetics-job-manager-1.0.16",
-    "date": "2022-11-29T23:05:22Z"
+    "name": "nri-bundle-5.0.0",
+    "date": "2022-11-30T17:03:19Z"
   },
-  "commits": 602,
-  "lastSixMonthsCommitTotal": 83,
-  "contributors": 92,
+  "commits": 603,
+  "lastSixMonthsCommitTotal": 84,
+  "contributors": 93,
   "pullRequests": {
-    "open": 21
+    "open": 18
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 13966363,
+      "login": "carlossscastro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13966363?v=4",
+      "htmlUrl": "https://github.com/carlossscastro",
+      "contributions": 1
+    },
     {
       "id": 5375090,
       "login": "Nateb1121",
@@ -452,18 +459,18 @@
       "contributions": 4
     },
     {
-      "id": 8235696,
-      "login": "marcsanmi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
-      "htmlUrl": "https://github.com/marcsanmi",
-      "contributions": 4
-    },
-    {
       "id": 630550,
       "login": "mschenk42",
       "avatarUrl": "https://avatars.githubusercontent.com/u/630550?v=4",
       "htmlUrl": "https://github.com/mschenk42",
       "contributions": 4
+    },
+    {
+      "id": 8235696,
+      "login": "marcsanmi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
+      "htmlUrl": "https://github.com/marcsanmi",
+      "contributions": 5
     },
     {
       "id": 95299876,
@@ -501,13 +508,6 @@
       "contributions": 5
     },
     {
-      "id": 442627,
-      "login": "sigilioso",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
-      "htmlUrl": "https://github.com/sigilioso",
-      "contributions": 6
-    },
-    {
       "id": 317362,
       "login": "danybmx",
       "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
@@ -520,6 +520,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/51135822?v=4",
       "htmlUrl": "https://github.com/vkasanneni-nr",
       "contributions": 6
+    },
+    {
+      "id": 442627,
+      "login": "sigilioso",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
+      "htmlUrl": "https://github.com/sigilioso",
+      "contributions": 7
     },
     {
       "id": 1484035,
@@ -659,7 +666,7 @@
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 79
+      "contributions": 80
     }
   ],
   "languages": [
