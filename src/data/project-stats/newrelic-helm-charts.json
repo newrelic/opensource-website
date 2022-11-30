@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/helm-charts",
   "issues": {
-    "open": 34
+    "open": 33
   },
-  "releases": 534,
+  "releases": 537,
   "latestRelease": {
-    "name": "synthetics-job-manager-1.0.14",
-    "date": "2022-11-21T23:35:27Z"
+    "name": "synthetics-job-manager-1.0.16",
+    "date": "2022-11-29T23:05:22Z"
   },
-  "commits": 599,
-  "lastSixMonthsCommitTotal": 80,
-  "contributors": 91,
+  "commits": 602,
+  "lastSixMonthsCommitTotal": 83,
+  "contributors": 92,
   "pullRequests": {
-    "open": 21
+    "open": 20
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 5375090,
+      "login": "Nateb1121",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5375090?v=4",
+      "htmlUrl": "https://github.com/Nateb1121",
+      "contributions": 1
+    },
     {
       "id": 24883189,
       "login": "axilleastr",
@@ -445,13 +452,6 @@
       "contributions": 4
     },
     {
-      "id": 95299876,
-      "login": "kaschaefer-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/95299876?v=4",
-      "htmlUrl": "https://github.com/kaschaefer-nr",
-      "contributions": 4
-    },
-    {
       "id": 8235696,
       "login": "marcsanmi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
@@ -464,6 +464,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/630550?v=4",
       "htmlUrl": "https://github.com/mschenk42",
       "contributions": 4
+    },
+    {
+      "id": 95299876,
+      "login": "kaschaefer-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/95299876?v=4",
+      "htmlUrl": "https://github.com/kaschaefer-nr",
+      "contributions": 5
     },
     {
       "id": 22451525,
@@ -631,7 +638,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 39
+      "contributions": 40
     },
     {
       "id": 53659978,
@@ -652,7 +659,7 @@
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 78
+      "contributions": 79
     }
   ],
   "languages": [
