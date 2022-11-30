@@ -3,20 +3,27 @@
   "issues": {
     "open": 7
   },
-  "releases": 18,
+  "releases": 19,
   "latestRelease": {
-    "name": "newrelic-k8s-metrics-adapter-0.7.12",
-    "date": "2022-10-03T09:29:58Z"
+    "name": "newrelic-k8s-metrics-adapter-1.0.0",
+    "date": "2022-11-30T13:59:58Z"
   },
-  "commits": 128,
-  "lastSixMonthsCommitTotal": 12,
-  "contributors": 13,
+  "commits": 129,
+  "lastSixMonthsCommitTotal": 13,
+  "contributors": 14,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 56414817,
+      "login": "vuqtran88",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56414817?v=4",
+      "htmlUrl": "https://github.com/vuqtran88",
+      "contributions": 1
+    },
     {
       "id": 54716445,
       "login": "nr-security-github",
@@ -78,7 +85,7 @@
       "login": "marcsanmi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
       "htmlUrl": "https://github.com/marcsanmi",
-      "contributions": 6
+      "contributions": 7
     },
     {
       "id": 53659978,

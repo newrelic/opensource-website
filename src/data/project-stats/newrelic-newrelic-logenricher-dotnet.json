@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-logenricher-dotnet",
   "issues": {
-    "open": 4
+    "open": 5
   },
-  "releases": 15,
+  "releases": 16,
   "latestRelease": {
-    "name": "NLog_v1.2.1",
+    "name": "Serilog_v1.1.0",
     "date": null
   },
-  "commits": 214,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 11,
+  "commits": 216,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 12,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 2376888,
+      "login": "NiklasArbin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2376888?v=4",
+      "htmlUrl": "https://github.com/NiklasArbin",
+      "contributions": 1
+    },
     {
       "id": 188129,
       "login": "bgrainger",
@@ -85,7 +92,7 @@
       "login": "jaffinito",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6098021?v=4",
       "htmlUrl": "https://github.com/jaffinito",
-      "contributions": 24
+      "contributions": 25
     },
     {
       "id": 57361211,
