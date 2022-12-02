@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic-experimental/nri-databricks",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 3,
+  "releases": 4,
   "latestRelease": {
-    "name": "v1.0.2",
-    "date": "2022-05-13T13:18:26Z"
+    "name": "v1.0.3",
+    "date": "2022-12-01T13:26:13Z"
   },
-  "commits": 21,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 3,
+  "commits": 24,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 4,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 6328360,
+      "login": "matewilk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6328360?v=4",
+      "htmlUrl": "https://github.com/matewilk",
+      "contributions": 2
+    },
     {
       "id": 41585091,
       "login": "hsinghkalsi",
