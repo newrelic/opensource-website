@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-azure-functions",
   "issues": {
-    "open": 4
+    "open": 5
   },
-  "releases": 5,
+  "releases": 6,
   "latestRelease": {
-    "name": "v1.2.1",
-    "date": "2022-02-02T10:15:50Z"
+    "name": "v2.0.0",
+    "date": "2022-12-05T17:01:01Z"
   },
-  "commits": 161,
-  "lastSixMonthsCommitTotal": 2,
+  "commits": 166,
+  "lastSixMonthsCommitTotal": 7,
   "contributors": 12,
   "pullRequests": {
-    "open": 8
+    "open": 13
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 317362,
-      "login": "danybmx",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
-      "htmlUrl": "https://github.com/danybmx",
-      "contributions": 1
-    },
     {
       "id": 4612272,
       "login": "noly",
@@ -37,6 +30,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 2
+    },
+    {
+      "id": 317362,
+      "login": "danybmx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
+      "htmlUrl": "https://github.com/danybmx",
+      "contributions": 3
     },
     {
       "id": 184273,
@@ -99,7 +99,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 54
+      "contributions": 57
     }
   ],
   "languages": [
