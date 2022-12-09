@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/newrelic-browser-agent",
   "issues": {
-    "open": 38
+    "open": 37
   },
   "releases": 12,
   "latestRelease": {
     "name": "v1221",
     "date": "2022-11-03T18:41:16Z"
   },
-  "commits": 168,
-  "lastSixMonthsCommitTotal": 36,
-  "contributors": 8,
+  "commits": 270,
+  "lastSixMonthsCommitTotal": 138,
+  "contributors": 10,
   "pullRequests": {
     "open": 18
   },
@@ -46,11 +46,25 @@
       "contributions": 2
     },
     {
+      "id": 25965987,
+      "login": "bjfield",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25965987?v=4",
+      "htmlUrl": "https://github.com/bjfield",
+      "contributions": 4
+    },
+    {
+      "id": 3984979,
+      "login": "patrickhousley",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3984979?v=4",
+      "htmlUrl": "https://github.com/patrickhousley",
+      "contributions": 17
+    },
+    {
       "id": 28714891,
       "login": "cwli24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/28714891?v=4",
       "htmlUrl": "https://github.com/cwli24",
-      "contributions": 3
+      "contributions": 39
     },
     {
       "id": 4933147,
@@ -71,7 +85,7 @@
       "login": "metal-messiah",
       "avatarUrl": "https://avatars.githubusercontent.com/u/24296585?v=4",
       "htmlUrl": "https://github.com/metal-messiah",
-      "contributions": 65
+      "contributions": 97
     }
   ],
   "languages": [
