@@ -3,16 +3,16 @@
   "issues": {
     "open": 5
   },
-  "releases": 6,
+  "releases": 7,
   "latestRelease": {
-    "name": "v2.0.0",
-    "date": "2022-12-05T17:01:01Z"
+    "name": "v2.0.1",
+    "date": "2022-12-14T15:18:55Z"
   },
-  "commits": 166,
-  "lastSixMonthsCommitTotal": 5,
+  "commits": 173,
+  "lastSixMonthsCommitTotal": 12,
   "contributors": 12,
   "pullRequests": {
-    "open": 16
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -30,13 +30,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 2
-    },
-    {
-      "id": 317362,
-      "login": "danybmx",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
-      "htmlUrl": "https://github.com/danybmx",
-      "contributions": 3
     },
     {
       "id": 184273,
@@ -74,6 +67,13 @@
       "contributions": 5
     },
     {
+      "id": 317362,
+      "login": "danybmx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
+      "htmlUrl": "https://github.com/danybmx",
+      "contributions": 6
+    },
+    {
       "id": 49699333,
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
@@ -99,7 +99,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 57
+      "contributions": 61
     }
   ],
   "languages": [
