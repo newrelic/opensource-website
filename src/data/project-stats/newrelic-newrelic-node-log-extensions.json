@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-node-log-extensions",
   "issues": {
-    "open": 4
+    "open": 3
   },
-  "releases": 14,
+  "releases": 16,
   "latestRelease": {
-    "name": "@newrelic/winston-enricher@4.0.0",
-    "date": null
+    "name": "@newrelic/winston-enricher@4.0.1",
+    "date": "2022-12-15T17:52:47Z"
   },
-  "commits": 300,
-  "lastSixMonthsCommitTotal": 37,
-  "contributors": 14,
+  "commits": 306,
+  "lastSixMonthsCommitTotal": 43,
+  "contributors": 15,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -51,6 +51,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/32520944?v=4",
       "htmlUrl": "https://github.com/astormnewrelic",
       "contributions": 1
+    },
+    {
+      "id": 1066536,
+      "login": "jmealo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1066536?v=4",
+      "htmlUrl": "https://github.com/jmealo",
+      "contributions": 2
     },
     {
       "id": 7992384,
@@ -113,7 +120,7 @@
       "login": "bizob2828",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
       "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 58
+      "contributions": 60
     }
   ],
   "languages": [
