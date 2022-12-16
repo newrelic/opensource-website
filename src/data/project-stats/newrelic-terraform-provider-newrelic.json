@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 73
+    "open": 72
   },
-  "releases": 176,
+  "releases": 177,
   "latestRelease": {
-    "name": "v3.9.0",
-    "date": "2022-12-06T19:51:43Z"
+    "name": "v3.10.0",
+    "date": "2022-12-16T17:49:13Z"
   },
-  "commits": 3673,
-  "lastSixMonthsCommitTotal": 803,
+  "commits": 3718,
+  "lastSixMonthsCommitTotal": 842,
   "contributors": 100,
   "pullRequests": {
-    "open": 19
+    "open": 14
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -529,13 +529,6 @@
       "contributions": 7
     },
     {
-      "id": 114168325,
-      "login": "IliaShurygin",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/114168325?v=4",
-      "htmlUrl": "https://github.com/IliaShurygin",
-      "contributions": 8
-    },
-    {
       "id": 506296,
       "login": "mikery",
       "avatarUrl": "https://avatars.githubusercontent.com/u/506296?v=4",
@@ -548,6 +541,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/7072575?v=4",
       "htmlUrl": "https://github.com/acondrat",
       "contributions": 8
+    },
+    {
+      "id": 114168325,
+      "login": "IliaShurygin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/114168325?v=4",
+      "htmlUrl": "https://github.com/IliaShurygin",
+      "contributions": 9
     },
     {
       "id": 49533656,
@@ -582,7 +582,7 @@
       "login": "Fallenstedt",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13971824?v=4",
       "htmlUrl": "https://github.com/Fallenstedt",
-      "contributions": 14
+      "contributions": 15
     },
     {
       "id": 3082319,
@@ -620,18 +620,18 @@
       "contributions": 27
     },
     {
-      "id": 107837335,
-      "login": "NSSPKrishna",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/107837335?v=4",
-      "htmlUrl": "https://github.com/NSSPKrishna",
-      "contributions": 31
-    },
-    {
       "id": 422474,
       "login": "paultyng",
       "avatarUrl": "https://avatars.githubusercontent.com/u/422474?v=4",
       "htmlUrl": "https://github.com/paultyng",
       "contributions": 31
+    },
+    {
+      "id": 107837335,
+      "login": "NSSPKrishna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107837335?v=4",
+      "htmlUrl": "https://github.com/NSSPKrishna",
+      "contributions": 35
     },
     {
       "id": 7197435,
@@ -645,7 +645,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 63
+      "contributions": 64
     },
     {
       "id": 69894591,
@@ -715,7 +715,7 @@
       "login": "mbazhlekova",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1663955?v=4",
       "htmlUrl": "https://github.com/mbazhlekova",
-      "contributions": 283
+      "contributions": 289
     }
   ],
   "languages": [
