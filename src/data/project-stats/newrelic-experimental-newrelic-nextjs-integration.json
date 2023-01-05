@@ -5,21 +5,28 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 9,
-  "lastSixMonthsCommitTotal": 6,
-  "contributors": 1,
+  "commits": 11,
+  "lastSixMonthsCommitTotal": 8,
+  "contributors": 2,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 1874937,
+      "login": "bizob2828",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
+      "htmlUrl": "https://github.com/bizob2828",
+      "contributions": 1
+    },
+    {
       "id": 6328360,
       "login": "matewilk",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6328360?v=4",
       "htmlUrl": "https://github.com/matewilk",
-      "contributions": 9
+      "contributions": 11
     }
   ],
   "languages": [
@@ -37,6 +44,16 @@
       "id": "MDg6TGFuZ3VhZ2UzMDg=",
       "name": "CSS",
       "color": "#563d7c"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
