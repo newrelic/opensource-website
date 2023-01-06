@@ -3,27 +3,20 @@
   "issues": {
     "open": 1
   },
-  "releases": 103,
+  "releases": 104,
   "latestRelease": {
-    "name": "v1.22.2",
-    "date": "2023-01-04T21:55:38Z"
+    "name": "v1.22.3",
+    "date": "2023-01-06T18:50:22Z"
   },
-  "commits": 3834,
-  "lastSixMonthsCommitTotal": 17,
+  "commits": 3837,
+  "lastSixMonthsCommitTotal": 20,
   "contributors": 73,
   "pullRequests": {
-    "open": 10
+    "open": 9
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 47728020,
-      "login": "tabathadelane",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/47728020?v=4",
-      "htmlUrl": "https://github.com/tabathadelane",
-      "contributions": 1
-    },
     {
       "id": 13892277,
       "login": "bencgreenberg",
@@ -205,6 +198,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/58010132?v=4",
       "htmlUrl": "https://github.com/mmfred",
       "contributions": 1
+    },
+    {
+      "id": 47728020,
+      "login": "tabathadelane",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47728020?v=4",
+      "htmlUrl": "https://github.com/tabathadelane",
+      "contributions": 2
     },
     {
       "id": 184273,
@@ -526,7 +526,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 2203
+      "contributions": 2204
     }
   ],
   "languages": [
