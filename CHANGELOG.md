@@ -1,3 +1,17 @@
+## [1.22.3](https://github.com/newrelic/opensource-website/compare/v1.22.2...v1.22.3) (2023-01-06)
+
+
+### Bug Fixes
+
+* update snapshot ([44c57eb](https://github.com/newrelic/opensource-website/commit/44c57eb4cd4aa3b3d0717e048eec933de369ab8d))
+
+## [1.22.2](https://github.com/newrelic/opensource-website/compare/v1.22.1...v1.22.2) (2023-01-04)
+
+
+### Bug Fixes
+
+* updated terraform to community plus ([6f7e4c1](https://github.com/newrelic/opensource-website/commit/6f7e4c109fe276c83dce2156c957b9015e5f4509))
+
 ## [1.22.1](https://github.com/newrelic/opensource-website/compare/v1.22.0...v1.22.1) (2022-11-08)
 
 
