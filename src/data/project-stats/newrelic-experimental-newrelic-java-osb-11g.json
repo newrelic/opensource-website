@@ -3,10 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 26,
-  "lastSixMonthsCommitTotal": 1,
+  "releases": 1,
+  "latestRelease": {
+    "name": "1.0",
+    "date": "2023-01-06T16:23:14Z"
+  },
+  "commits": 28,
+  "lastSixMonthsCommitTotal": 3,
   "contributors": 3,
   "pullRequests": {
     "open": 0
@@ -33,7 +36,7 @@
       "login": "dhilpipre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
       "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 20
+      "contributions": 22
     }
   ],
   "languages": [
