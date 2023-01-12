@@ -3,10 +3,13 @@
   "issues": {
     "open": 3
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 96,
-  "lastSixMonthsCommitTotal": 20,
+  "releases": 1,
+  "latestRelease": {
+    "name": "6.0.1",
+    "date": "2023-01-11T20:04:05Z"
+  },
+  "commits": 98,
+  "lastSixMonthsCommitTotal": 22,
   "contributors": 10,
   "pullRequests": {
     "open": 0
@@ -82,7 +85,7 @@
       "login": "kthai-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/105679755?v=4",
       "htmlUrl": "https://github.com/kthai-nr",
-      "contributions": 9
+      "contributions": 10
     }
   ],
   "languages": [
