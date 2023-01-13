@@ -3,20 +3,27 @@
   "issues": {
     "open": 5
   },
-  "releases": 4,
+  "releases": 5,
   "latestRelease": {
-    "name": "0.0.8",
-    "date": "2022-11-10T19:10:14Z"
+    "name": "0.0.9",
+    "date": "2023-01-13T17:14:42Z"
   },
-  "commits": 136,
-  "lastSixMonthsCommitTotal": 58,
-  "contributors": 6,
+  "commits": 164,
+  "lastSixMonthsCommitTotal": 86,
+  "contributors": 8,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 6700793,
+      "login": "wangghon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6700793?v=4",
+      "htmlUrl": "https://github.com/wangghon",
+      "contributions": 1
+    },
     {
       "id": 4053914,
       "login": "jaimeagudo",
@@ -30,6 +37,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/13682115?v=4",
       "htmlUrl": "https://github.com/zmrfzn",
       "contributions": 1
+    },
+    {
+      "id": 6457344,
+      "login": "ryo-rm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6457344?v=4",
+      "htmlUrl": "https://github.com/ryo-rm",
+      "contributions": 2
     },
     {
       "id": 18040274,
@@ -50,14 +64,14 @@
       "login": "kthai-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/105679755?v=4",
       "htmlUrl": "https://github.com/kthai-nr",
-      "contributions": 17
+      "contributions": 30
     },
     {
       "id": 89222514,
       "login": "ndesai-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89222514?v=4",
       "htmlUrl": "https://github.com/ndesai-newrelic",
-      "contributions": 67
+      "contributions": 68
     }
   ],
   "languages": [
@@ -95,6 +109,21 @@
       "id": "MDg6TGFuZ3VhZ2UyODc=",
       "name": "TypeScript",
       "color": "#3178c6"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0NDA=",
+      "name": "CMake",
+      "color": "#DA3434"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDI=",
+      "name": "C++",
+      "color": "#f34b7d"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzNDY=",
+      "name": "Objective-C++",
+      "color": "#6866fb"
     }
   ],
   "screenshots": [],
