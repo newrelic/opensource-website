@@ -1,39 +1,21 @@
 {
   "projectFullName": "newrelic/nr1-groundskeeper",
   "issues": {
-    "open": 8
+    "open": 3
   },
-  "releases": 24,
+  "releases": 25,
   "latestRelease": {
-    "name": "v2.1.0",
-    "date": "2023-01-13T01:45:55Z"
+    "name": "v2.1.1",
+    "date": "2023-01-13T20:05:07Z"
   },
-  "commits": 185,
-  "lastSixMonthsCommitTotal": 47,
+  "commits": 188,
+  "lastSixMonthsCommitTotal": 50,
   "contributors": 14,
   "pullRequests": {
     "open": 3
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU3NTc0ODkwMzk=",
-      "title": "Chore: Replace deprecated Dropdown components with Select",
-      "url": "https://github.com/newrelic/nr1-groundskeeper/issues/52",
-      "createdAt": "2020-12-05T00:23:27Z",
-      "comments": {
-        "totalCount": 0
-      },
-      "author": {
-        "login": "fightingmonk",
-        "id": "MDQ6VXNlcjQ4MjY3MQ==",
-        "email": "",
-        "name": "Jonathan Karon"
-      },
-      "number": 52,
-      "createdBy": "Jonathan Karon"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 5770861,
@@ -110,7 +92,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 13
+      "contributions": 14
     },
     {
       "id": 482671,
@@ -131,7 +113,7 @@
       "login": "amit-y",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6021115?v=4",
       "htmlUrl": "https://github.com/amit-y",
-      "contributions": 25
+      "contributions": 26
     }
   ],
   "languages": [
