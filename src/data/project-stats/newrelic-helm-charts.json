@@ -3,20 +3,27 @@
   "issues": {
     "open": 27
   },
-  "releases": 550,
+  "releases": 552,
   "latestRelease": {
-    "name": "synthetics-job-manager-1.0.22",
-    "date": "2023-01-17T23:21:38Z"
+    "name": "nri-bundle-5.0.3",
+    "date": "2023-01-19T10:30:30Z"
   },
-  "commits": 616,
-  "lastSixMonthsCommitTotal": 79,
-  "contributors": 95,
+  "commits": 618,
+  "lastSixMonthsCommitTotal": 81,
+  "contributors": 96,
   "pullRequests": {
-    "open": 17
+    "open": 16
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 31767257,
+      "login": "YentlFrickx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31767257?v=4",
+      "htmlUrl": "https://github.com/YentlFrickx",
+      "contributions": 1
+    },
     {
       "id": 28584079,
       "login": "joshbranham",
@@ -522,20 +529,6 @@
       "contributions": 6
     },
     {
-      "id": 317362,
-      "login": "danybmx",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
-      "htmlUrl": "https://github.com/danybmx",
-      "contributions": 7
-    },
-    {
-      "id": 8235696,
-      "login": "marcsanmi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
-      "htmlUrl": "https://github.com/marcsanmi",
-      "contributions": 7
-    },
-    {
       "id": 1484035,
       "login": "aimichelle",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1484035?v=4",
@@ -555,6 +548,20 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/4919969?v=4",
       "htmlUrl": "https://github.com/MarcusNoble",
       "contributions": 7
+    },
+    {
+      "id": 317362,
+      "login": "danybmx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/317362?v=4",
+      "htmlUrl": "https://github.com/danybmx",
+      "contributions": 8
+    },
+    {
+      "id": 8235696,
+      "login": "marcsanmi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
+      "htmlUrl": "https://github.com/marcsanmi",
+      "contributions": 8
     },
     {
       "id": 442627,
@@ -659,7 +666,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 40
+      "contributions": 41
     },
     {
       "id": 53659978,
