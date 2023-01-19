@@ -3,17 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 2,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 2,
+  "releases": 1,
+  "latestRelease": {
+    "name": "nr-otel-collector-0.0.1",
+    "date": "2023-01-19T10:37:03Z"
+  },
+  "commits": 3,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 3,
   "pullRequests": {
     "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 33873530,
+      "login": "rogercoll",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
+      "htmlUrl": "https://github.com/rogercoll",
+      "contributions": 1
+    },
     {
       "id": 3380451,
       "login": "rubenruizdegauna",
