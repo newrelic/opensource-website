@@ -5,8 +5,8 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
+  "commits": 3,
+  "lastSixMonthsCommitTotal": 3,
   "contributors": 1,
   "pullRequests": {
     "open": 0
@@ -15,21 +15,27 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 97467528,
-      "login": "CliftonDobrich",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/97467528?v=4",
-      "htmlUrl": "https://github.com/CliftonDobrich",
-      "contributions": 1
+      "id": 94071514,
+      "login": "NRhzhao",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/94071514?v=4",
+      "htmlUrl": "https://github.com/NRhzhao",
+      "contributions": 3
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
+    }
+  ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTI=",
-    "name": "Apache License 2.0",
-    "spdxId": "Apache-2.0",
-    "url": "http://choosealicense.com/licenses/apache-2.0/",
-    "featured": true,
-    "key": "apache-2.0"
+    "id": "MDc6TGljZW5zZTA=",
+    "name": "Other",
+    "spdxId": "NOASSERTION",
+    "url": "http://choosealicense.com/licenses/other/",
+    "featured": false,
+    "key": "other"
   }
 }
