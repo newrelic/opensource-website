@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 4,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +20,37 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/97467528?v=4",
       "htmlUrl": "https://github.com/CliftonDobrich",
       "contributions": 1
+    },
+    {
+      "id": 90725916,
+      "login": "mbruzina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90725916?v=4",
+      "htmlUrl": "https://github.com/mbruzina",
+      "contributions": 3
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNTk=",
+      "name": "Puppet",
+      "color": "#302B6D"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
