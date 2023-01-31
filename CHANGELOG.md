@@ -1,3 +1,12 @@
+# [1.23.0](https://github.com/newrelic/opensource-website/compare/v1.22.3...v1.23.0) (2023-01-31)
+
+
+### Features
+
+* **sonic:** light content change ([50f6c74](https://github.com/newrelic/opensource-website/commit/50f6c748970806c8b350d31f09498c04f38c14c4))
+* **sonic:** updating oss front page ([7892877](https://github.com/newrelic/opensource-website/commit/78928775def8b549857d97c2eae3cea2ccb8fdab))
+* **sonic:** updating snapshot ([d2730e3](https://github.com/newrelic/opensource-website/commit/d2730e3ee235f2bfa0ab80c32edaa4eb24e861ef))
+
 ## [1.22.3](https://github.com/newrelic/opensource-website/compare/v1.22.2...v1.22.3) (2023-01-06)
 
 
