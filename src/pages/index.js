@@ -144,15 +144,16 @@ const HomePage = ({ data, pageContext }) => {
             this site to make it easy for <em>you</em> to explore the{' '}
             <a href="/explore-projects">open source projects</a> we maintain and
             the <a href="/external-projects">open standards projects</a> we
-            participate in. Learn{' '}
+            participate in. To install one of our open-source agents or to get
+            started with one of our 500+ integrations, see the{' '}
             <a
-              href="https://blog.newrelic.com/product-news/announcing-new-relic-open-source/"
+              href="https://docs.newrelic.com/docs/new-relic-solutions/get-started/quick-launch-guide/"
               target="__blank"
               rel="noopener noreferrer"
             >
-              more
-            </a>
-            .
+              Quick launch guide
+            </a>{' '}
+            on the New Relic docs site.
           </p>
         </div>
       </div>
