@@ -145,7 +145,7 @@ const HomePage = ({ data, pageContext }) => {
             <a href="/explore-projects">open source projects</a> we maintain and
             the <a href="/external-projects">open standards projects</a> we
             participate in. To install one of our open-source agents or to get
-            started with one of our 500+ integrations, see the{' '}
+            started with one of our integrations, see the{' '}
             <a
               href="https://docs.newrelic.com/docs/new-relic-solutions/get-started/quick-launch-guide/"
               target="__blank"
