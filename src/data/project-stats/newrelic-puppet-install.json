@@ -3,10 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 24,
-  "lastSixMonthsCommitTotal": 24,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v0.2.0",
+    "date": null
+  },
+  "commits": 29,
+  "lastSixMonthsCommitTotal": 29,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -26,7 +29,7 @@
       "login": "mbruzina",
       "avatarUrl": "https://avatars.githubusercontent.com/u/90725916?v=4",
       "htmlUrl": "https://github.com/mbruzina",
-      "contributions": 22
+      "contributions": 26
     }
   ],
   "languages": [
