@@ -1,15 +1,18 @@
 {
   "projectFullName": "newrelic/ansible-install",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 38,
-  "lastSixMonthsCommitTotal": 38,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v0.1.0",
+    "date": null
+  },
+  "commits": 48,
+  "lastSixMonthsCommitTotal": 48,
   "contributors": 3,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -26,14 +29,14 @@
       "login": "amolero-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/102765645?v=4",
       "htmlUrl": "https://github.com/amolero-nr",
-      "contributions": 3
+      "contributions": 5
     },
     {
       "id": 106628688,
       "login": "rthorn-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/106628688?v=4",
       "htmlUrl": "https://github.com/rthorn-nr",
-      "contributions": 24
+      "contributions": 29
     }
   ],
   "languages": [
