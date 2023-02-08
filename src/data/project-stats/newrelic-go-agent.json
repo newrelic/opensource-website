@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/go-agent",
   "issues": {
-    "open": 72
+    "open": 65
   },
   "releases": 177,
   "latestRelease": {
@@ -16,23 +16,6 @@
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "MDU6SXNzdWU2MzgwNzMwMjI=",
-      "title": "Add support for Expected Errors",
-      "url": "https://github.com/newrelic/go-agent/issues/161",
-      "createdAt": "2020-06-13T01:37:39Z",
-      "comments": {
-        "totalCount": 6
-      },
-      "author": {
-        "login": "jodeev",
-        "id": "MDQ6VXNlcjQ4OTY1Nzc2",
-        "email": "",
-        "name": "Jodee Varney"
-      },
-      "number": 161,
-      "createdBy": "Jodee Varney"
-    },
     {
       "id": "MDU6SXNzdWU4MzA1NDg3NzI=",
       "title": "Infinite Tracing: Allow testing \"flaky\" and \"flaky_code\" options using agent configuration",
