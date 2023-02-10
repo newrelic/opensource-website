@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-python-agent",
   "issues": {
-    "open": 19
+    "open": 18
   },
-  "releases": 306,
+  "releases": 307,
   "latestRelease": {
-    "name": "v8.5.0",
-    "date": "2022-12-07T21:50:37Z"
+    "name": "v8.6.0",
+    "date": "2023-02-09T21:13:29Z"
   },
-  "commits": 457,
-  "lastSixMonthsCommitTotal": 82,
+  "commits": 460,
+  "lastSixMonthsCommitTotal": 85,
   "contributors": 41,
   "pullRequests": {
-    "open": 11
+    "open": 10
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 37929162,
-      "login": "mergify[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/10562?v=4",
-      "htmlUrl": "https://github.com/apps/mergify",
-      "contributions": 1
-    },
     {
       "id": 2351932,
       "login": "pauk-slon",
@@ -235,6 +228,13 @@
       "contributions": 2
     },
     {
+      "id": 37929162,
+      "login": "mergify[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/10562?v=4",
+      "htmlUrl": "https://github.com/apps/mergify",
+      "contributions": 3
+    },
+    {
       "id": 39152388,
       "login": "kkaiyang94",
       "avatarUrl": "https://avatars.githubusercontent.com/u/39152388?v=4",
@@ -295,14 +295,14 @@
       "login": "umaannamalai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19895951?v=4",
       "htmlUrl": "https://github.com/umaannamalai",
-      "contributions": 129
+      "contributions": 130
     },
     {
       "id": 11214426,
       "login": "TimPansino",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
       "htmlUrl": "https://github.com/TimPansino",
-      "contributions": 246
+      "contributions": 247
     }
   ],
   "languages": [
