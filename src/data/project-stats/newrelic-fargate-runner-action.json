@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 8,
-  "lastSixMonthsCommitTotal": 8,
-  "contributors": 3,
+  "commits": 9,
+  "lastSixMonthsCommitTotal": 9,
+  "contributors": 4,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 33873530,
+      "login": "rogercoll",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
+      "htmlUrl": "https://github.com/rogercoll",
+      "contributions": 1
+    },
     {
       "id": 97467528,
       "login": "CliftonDobrich",
@@ -51,6 +58,11 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
+      "name": "HCL",
+      "color": null
     }
   ],
   "screenshots": [],
