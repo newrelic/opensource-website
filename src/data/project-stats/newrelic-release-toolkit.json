@@ -8,11 +8,11 @@
     "name": "v1",
     "date": null
   },
-  "commits": 246,
-  "lastSixMonthsCommitTotal": 179,
+  "commits": 247,
+  "lastSixMonthsCommitTotal": 180,
   "contributors": 9,
   "pullRequests": {
-    "open": 7
+    "open": 6
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -46,18 +46,18 @@
       "contributions": 4
     },
     {
-      "id": 53659978,
-      "login": "kang-makes",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
-      "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 12
-    },
-    {
       "id": 49699333,
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
       "contributions": 12
+    },
+    {
+      "id": 53659978,
+      "login": "kang-makes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
+      "htmlUrl": "https://github.com/kang-makes",
+      "contributions": 13
     },
     {
       "id": 43335750,
@@ -91,6 +91,11 @@
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
       "name": "Dockerfile",
       "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
