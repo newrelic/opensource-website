@@ -3,20 +3,27 @@
   "issues": {
     "open": 0
   },
-  "releases": 87,
+  "releases": 89,
   "latestRelease": {
-    "name": "2.8.40",
-    "date": "2023-02-01T14:21:09Z"
+    "name": "3.0.0",
+    "date": "2023-02-14T13:27:48Z"
   },
-  "commits": 331,
-  "lastSixMonthsCommitTotal": 39,
-  "contributors": 22,
+  "commits": 338,
+  "lastSixMonthsCommitTotal": 46,
+  "contributors": 23,
   "pullRequests": {
-    "open": 7
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 1124593,
+      "login": "darkleaf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1124593?v=4",
+      "htmlUrl": "https://github.com/darkleaf",
+      "contributions": 1
+    },
     {
       "id": 53659978,
       "login": "kang-makes",
@@ -53,13 +60,6 @@
       "contributions": 1
     },
     {
-      "id": 33873530,
-      "login": "rogercoll",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
-      "htmlUrl": "https://github.com/rogercoll",
-      "contributions": 2
-    },
-    {
       "id": 49699333,
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
@@ -72,6 +72,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
       "htmlUrl": "https://github.com/noly",
       "contributions": 2
+    },
+    {
+      "id": 33873530,
+      "login": "rogercoll",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
+      "htmlUrl": "https://github.com/rogercoll",
+      "contributions": 3
     },
     {
       "id": 3638421,
@@ -169,7 +176,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 104
+      "contributions": 109
     }
   ],
   "languages": [
