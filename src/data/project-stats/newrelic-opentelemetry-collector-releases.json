@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/opentelemetry-collector-releases",
   "issues": {
-    "open": 1
+    "open": 0
   },
   "releases": 9,
   "latestRelease": {
     "name": "nr-otel-collector-0.0.10",
     "date": "2023-01-27T13:29:05Z"
   },
-  "commits": 10,
-  "lastSixMonthsCommitTotal": 10,
+  "commits": 11,
+  "lastSixMonthsCommitTotal": 11,
   "contributors": 5,
   "pullRequests": {
-    "open": 3
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -50,7 +50,7 @@
       "login": "rogercoll",
       "avatarUrl": "https://avatars.githubusercontent.com/u/33873530?v=4",
       "htmlUrl": "https://github.com/rogercoll",
-      "contributions": 4
+      "contributions": 5
     }
   ],
   "languages": [
@@ -68,6 +68,11 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
+      "name": "HCL",
+      "color": null
     }
   ],
   "screenshots": [],
