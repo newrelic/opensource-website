@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/gatsby-plugin-newrelic",
   "issues": {
-    "open": 8
+    "open": 7
   },
-  "releases": 12,
+  "releases": 13,
   "latestRelease": {
-    "name": "v2.2.2",
-    "date": "2022-02-09T17:16:23Z"
+    "name": "v2.2.3",
+    "date": "2023-02-15T00:20:20Z"
   },
-  "commits": 99,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 13,
+  "commits": 108,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 15,
   "pullRequests": {
-    "open": 4
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -35,6 +35,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 261395,
+      "login": "lucascaro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/261395?v=4",
+      "htmlUrl": "https://github.com/lucascaro",
+      "contributions": 1
+    },
     {
       "id": 97467528,
       "login": "CliftonDobrich",
@@ -92,6 +99,13 @@
       "contributions": 1
     },
     {
+      "id": 14365008,
+      "login": "sunnyzanchi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14365008?v=4",
+      "htmlUrl": "https://github.com/sunnyzanchi",
+      "contributions": 2
+    },
+    {
       "id": 70179303,
       "login": "aswanson-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
@@ -117,7 +131,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 14
+      "contributions": 15
     },
     {
       "id": 197140,
