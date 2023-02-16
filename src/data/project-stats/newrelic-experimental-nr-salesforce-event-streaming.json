@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "v1.0.2",
-    "date": "2021-07-16T03:52:16Z"
+    "name": "v1.1.0",
+    "date": "2023-02-16T04:54:56Z"
   },
-  "commits": 6,
-  "lastSixMonthsCommitTotal": 0,
+  "commits": 11,
+  "lastSixMonthsCommitTotal": 5,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -29,7 +29,7 @@
       "login": "haihongren",
       "avatarUrl": "https://avatars.githubusercontent.com/u/41006835?v=4",
       "htmlUrl": "https://github.com/haihongren",
-      "contributions": 5
+      "contributions": 9
     }
   ],
   "languages": [
@@ -42,6 +42,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
       "color": "#b07219"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
     }
   ],
   "screenshots": [],
