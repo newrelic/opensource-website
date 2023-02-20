@@ -15,7 +15,7 @@ Every public repository in the `newrelic` and `newrelic-experimental` GitHub org
 
 ## Category: [New Relic Experimental](#category-new-relic-experimental)
 
-[![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
+<a href="https://opensource.newrelic.com/oss-category/#new-relic-experimental"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Experimental.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Experimental.png"><img alt="New Relic Open Source experimental project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Experimental.png"></picture></a>
 
 ### Category Description and Requirements
 
@@ -26,12 +26,12 @@ See [here](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
 **Required:** Copy and paste the following into the **top** of your project's README.
 
 ```markdown
-[![New Relic Experimental header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Experimental.png)](https://opensource.newrelic.com/oss-category/#new-relic-experimental)
+<a href="https://opensource.newrelic.com/oss-category/#new-relic-experimental"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Experimental.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Experimental.png"><img alt="New Relic Open Source experimental project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Experimental.png"></picture></a>
 ```
 
 ## Category: [Community Project](#category-community-project)
 
-[![Community Project header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png)](https://opensource.newrelic.com/oss-category/#community-project)
+<a href="https://opensource.newrelic.com/oss-category/#community-project"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Community_Project.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"><img alt="New Relic Open Source community project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"></picture></a>
 
 ### Category Description and Requirements
 
@@ -42,12 +42,12 @@ See [here](https://opensource.newrelic.com/oss-category/#community-project).
 **Required:** Copy and paste the following into the **top** of your project's README.
 
 ```markdown
-[![Community Project header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png)](https://opensource.newrelic.com/oss-category/#community-project)
+<a href="https://opensource.newrelic.com/oss-category/#community-project"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Community_Project.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"><img alt="New Relic Open Source community project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Project.png"></picture></a>
 ```
 
 ## Category: [Community Plus](#category-community-plus)
 
-[![Community Plus header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png)](https://opensource.newrelic.com/oss-category/#community-plus)
+<a href="https://opensource.newrelic.com/oss-category/#community-plus"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Community_Plus.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png"><img alt="New Relic Open Source community plus project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png"></picture></a>
 
 ### Category Description and Requirements
 
@@ -58,12 +58,12 @@ See [here](https://opensource.newrelic.com/oss-category/#community-plus).
 **Required:** Copy and paste the following into the **top** of your project's README.
 
 ```markdown
-[![Community Plus header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png)](https://opensource.newrelic.com/oss-category/#community-plus)
+<a href="https://opensource.newrelic.com/oss-category/#community-plus"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Community_Plus.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png"><img alt="New Relic Open Source community plus project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Community_Plus.png"></picture></a>
 ```
 
 ## Category: [New Relic One Catalog Project](#category-new-relic-one-catalog-project)
 
-[![New Relic One Catalog Project header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/New_Relic_One_Catalog_Project.png)](https://opensource.newrelic.com/oss-category/#new-relic-one-catalog-project)
+<a href="https://opensource.newrelic.com/oss-category/#new-relic-one-catalog-project"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/New_Relic_One_Catalog_Project.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/New_Relic_One_Catalog_Project.png"><img alt="New Relic Open Source catalog project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/New_Relic_One_Catalog_Project.png"></picture></a>
 
 ### Category Description and Requirements
 
@@ -74,12 +74,12 @@ See [here](https://opensource.newrelic.com/oss-category/#new-relic-one-catalog-p
 **Required:** Copy and paste the following into the **top** of your project's README.
 
 ```markdown
-[![New Relic One Catalog Project header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/New_Relic_One_Catalog_Project.png)](https://opensource.newrelic.com/oss-category/#new-relic-one-catalog-project)
+<a href="https://opensource.newrelic.com/oss-category/#new-relic-one-catalog-project"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/New_Relic_One_Catalog_Project.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/New_Relic_One_Catalog_Project.png"><img alt="New Relic Open Source catalog project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/New_Relic_One_Catalog_Project.png"></picture></a>
 ```
 
 ## Category: [Example Code](#category-example-code)
 
-[![Example Code header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Example_Code.png)](https://opensource.newrelic.com/oss-category/#example-code)
+<a href="https://opensource.newrelic.com/oss-category/#example-code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Example_Code.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Example_Code.png"><img alt="New Relic Open Source example project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Example_Code.png"></picture></a>
 
 ### Category Description and Requirements
 
@@ -90,12 +90,12 @@ See [here](https://opensource.newrelic.com/oss-category/#example-code).
 **Required:** Copy and paste the following into the **top** of your project's README.
 
 ```markdown
-[![Example Code header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Example_Code.png)](https://opensource.newrelic.com/oss-category/#example-code)
+<a href="https://opensource.newrelic.com/oss-category/#example-code"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Example_Code.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Example_Code.png"><img alt="New Relic Open Source example project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Example_Code.png"></picture></a>
 ```
 
 ## Category: [Archived](#category-archived)
 
-[![Archived header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Archived.png)](https://opensource.newrelic.com/oss-category/#archived)
+<a href="https://opensource.newrelic.com/oss-category/#archived"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Archived.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Archived.png"><img alt="New Relic Open Source archived project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Archived.png"></picture></a>
 
 ### Category Description and Requirements
 
@@ -106,5 +106,5 @@ See [here](https://opensource.newrelic.com/oss-category/#archived).
 **Required:** Copy and paste the following into the **top** of your project's README.
 
 ```markdown
-[![Archived header](https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Archived.png)](https://opensource.newrelic.com/oss-category/#archived)
+<a href="https://opensource.newrelic.com/oss-category/#archived"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/dark/Archived.png"><source media="(prefers-color-scheme: light)" srcset="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Archived.png"><img alt="New Relic Open Source archived project banner." src="https://github.com/newrelic/opensource-website/raw/main/src/images/categories/Archived.png"></picture></a>
 ```
