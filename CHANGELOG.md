@@ -1,3 +1,15 @@
+# [1.24.0](https://github.com/newrelic/opensource-website/compare/v1.23.0...v1.24.0) (2023-02-21)
+
+
+### Bug Fixes
+
+* use html code fence ([4fbb5e2](https://github.com/newrelic/opensource-website/commit/4fbb5e297b9d1cf989b8ad247b0f4e6a37217497))
+
+
+### Features
+
+* add light and dark mode repo banner images ([dfb7884](https://github.com/newrelic/opensource-website/commit/dfb7884a19524c405393df24a5286f885b05c2e2))
+
 # [1.23.0](https://github.com/newrelic/opensource-website/compare/v1.22.3...v1.23.0) (2023-01-31)
 
 
