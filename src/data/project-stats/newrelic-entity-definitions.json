@@ -3,34 +3,20 @@
   "issues": {
     "open": 1
   },
-  "releases": 163,
+  "releases": 166,
   "latestRelease": {
-    "name": "3.6.9",
-    "date": "2023-02-21T18:01:51Z"
+    "name": "3.7.0",
+    "date": "2023-02-23T13:34:19Z"
   },
-  "commits": 805,
-  "lastSixMonthsCommitTotal": 158,
+  "commits": 811,
+  "lastSixMonthsCommitTotal": 164,
   "contributors": 100,
   "pullRequests": {
-    "open": 7
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 30607359,
-      "login": "peetk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/30607359?v=4",
-      "htmlUrl": "https://github.com/peetk",
-      "contributions": 1
-    },
-    {
-      "id": 200663,
-      "login": "eknuth",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/200663?v=4",
-      "htmlUrl": "https://github.com/eknuth",
-      "contributions": 1
-    },
     {
       "id": 19733683,
       "login": "snyk-bot",
@@ -177,6 +163,20 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
+    },
+    {
+      "id": 99316285,
+      "login": "pkosanam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99316285?v=4",
+      "htmlUrl": "https://github.com/pkosanam",
+      "contributions": 2
+    },
+    {
+      "id": 30607359,
+      "login": "peetk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30607359?v=4",
+      "htmlUrl": "https://github.com/peetk",
+      "contributions": 2
     },
     {
       "id": 93408113,
@@ -382,13 +382,6 @@
       "contributions": 3
     },
     {
-      "id": 11946809,
-      "login": "khpeet",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11946809?v=4",
-      "htmlUrl": "https://github.com/khpeet",
-      "contributions": 3
-    },
-    {
       "id": 8439728,
       "login": "OscarDCorbalan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8439728?v=4",
@@ -415,6 +408,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/7732950?v=4",
       "htmlUrl": "https://github.com/jfjoly",
       "contributions": 3
+    },
+    {
+      "id": 11946809,
+      "login": "khpeet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11946809?v=4",
+      "htmlUrl": "https://github.com/khpeet",
+      "contributions": 4
     },
     {
       "id": 66266496,
@@ -599,13 +599,6 @@
       "contributions": 11
     },
     {
-      "id": 611147,
-      "login": "otaviocarvalho",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/611147?v=4",
-      "htmlUrl": "https://github.com/otaviocarvalho",
-      "contributions": 15
-    },
-    {
       "id": 76217151,
       "login": "flisflis",
       "avatarUrl": "https://avatars.githubusercontent.com/u/76217151?v=4",
@@ -634,6 +627,13 @@
       "contributions": 20
     },
     {
+      "id": 611147,
+      "login": "otaviocarvalho",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/611147?v=4",
+      "htmlUrl": "https://github.com/otaviocarvalho",
+      "contributions": 21
+    },
+    {
       "id": 97543438,
       "login": "edyu002",
       "avatarUrl": "https://avatars.githubusercontent.com/u/97543438?v=4",
@@ -652,7 +652,7 @@
       "login": "albertoolivan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10919996?v=4",
       "htmlUrl": "https://github.com/albertoolivan",
-      "contributions": 26
+      "contributions": 27
     },
     {
       "id": 5456019,
@@ -666,7 +666,7 @@
       "login": "Mesverrum",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17046211?v=4",
       "htmlUrl": "https://github.com/Mesverrum",
-      "contributions": 33
+      "contributions": 34
     },
     {
       "id": 8296904,
@@ -704,18 +704,18 @@
       "contributions": 61
     },
     {
-      "id": 944635,
-      "login": "naxhh",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/944635?v=4",
-      "htmlUrl": "https://github.com/naxhh",
-      "contributions": 81
-    },
-    {
       "id": 30831476,
       "login": "thezackm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/30831476?v=4",
       "htmlUrl": "https://github.com/thezackm",
       "contributions": 81
+    },
+    {
+      "id": 944635,
+      "login": "naxhh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/944635?v=4",
+      "htmlUrl": "https://github.com/naxhh",
+      "contributions": 82
     }
   ],
   "languages": [
