@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 5,
+  "lastSixMonthsCommitTotal": 5,
+  "contributors": 3,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +20,29 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/97467528?v=4",
       "htmlUrl": "https://github.com/CliftonDobrich",
       "contributions": 1
+    },
+    {
+      "id": 97446848,
+      "login": "ykriger-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97446848?v=4",
+      "htmlUrl": "https://github.com/ykriger-newrelic",
+      "contributions": 2
+    },
+    {
+      "id": 84398037,
+      "login": "smatzkel-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84398037?v=4",
+      "htmlUrl": "https://github.com/smatzkel-newrelic",
+      "contributions": 2
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDU=",
+      "name": "Python",
+      "color": "#3572A5"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
