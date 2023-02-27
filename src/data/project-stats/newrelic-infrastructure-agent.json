@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/infrastructure-agent",
   "issues": {
-    "open": 24
+    "open": 25
   },
-  "releases": 83,
+  "releases": 84,
   "latestRelease": {
-    "name": "1.37.2",
-    "date": "2023-02-15T09:47:42Z"
+    "name": "1.38.0",
+    "date": "2023-02-27T08:02:26Z"
   },
-  "commits": 712,
-  "lastSixMonthsCommitTotal": 141,
-  "contributors": 41,
+  "commits": 713,
+  "lastSixMonthsCommitTotal": 142,
+  "contributors": 42,
   "pullRequests": {
-    "open": 20
+    "open": 19
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 7718157,
+      "login": "jcsobrino",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7718157?v=4",
+      "htmlUrl": "https://github.com/jcsobrino",
+      "contributions": 1
+    },
     {
       "id": 8235696,
       "login": "marcsanmi",
