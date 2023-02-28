@@ -19,7 +19,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          token: ${{ secrets.OPENSOURCE_BOT_TOKEN }}
+          token: ${{ secrets.DEVEX_OPENSOURCE_BOT_TOKEN }}
 
       - name: Sync Data
         uses: ./.github/actions/sync-data
