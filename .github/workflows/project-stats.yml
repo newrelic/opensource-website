@@ -24,7 +24,9 @@ jobs:
       - name: Sync Data
         uses: ./.github/actions/sync-data
         with:
-          github-token: ${{ secrets.OPENSOURCE_BOT_TOKEN }} # must have push access to repos for stats queries to work
+          # runs queries against GitHub API; must have push access to repos for stats queries to work
+          # this token is _only_ used for this GH action
+          github-token: ${{ secrets.OPENSOURCE_STATS_TOKEN }}
           project-stats: true
 
       - name: Commit data files
