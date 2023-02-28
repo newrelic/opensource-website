@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/k8s-metadata-injection",
   "issues": {
-    "open": 7
+    "open": 8
   },
   "releases": 35,
   "latestRelease": {
     "name": "v1.7.5",
     "date": "2022-11-30T14:36:19Z"
   },
-  "commits": 158,
-  "lastSixMonthsCommitTotal": 18,
-  "contributors": 25,
+  "commits": 159,
+  "lastSixMonthsCommitTotal": 19,
+  "contributors": 26,
   "pullRequests": {
-    "open": 13
+    "open": 12
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 125097052,
+      "login": "xqi-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
+      "htmlUrl": "https://github.com/xqi-nr",
+      "contributions": 1
+    },
     {
       "id": 25180681,
       "login": "renovate-bot",
