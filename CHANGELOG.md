@@ -1,3 +1,12 @@
+## [1.24.1](https://github.com/newrelic/opensource-website/compare/v1.24.0...v1.24.1) (2023-02-28)
+
+
+### Bug Fixes
+
+* consolidate on using devex token ([a5d04dd](https://github.com/newrelic/opensource-website/commit/a5d04ddc29cdc2634433d4aebc589bb9a2a47ba1))
+* use single token for running GH action ([1e4d066](https://github.com/newrelic/opensource-website/commit/1e4d06602a1f5721df6f37cda87db0f2f24af124))
+* use specific token ([3ff0721](https://github.com/newrelic/opensource-website/commit/3ff0721ae12a0028489c56fc341c3f61f1054aed))
+
 # [1.24.0](https://github.com/newrelic/opensource-website/compare/v1.23.0...v1.24.0) (2023-02-21)
 
 
