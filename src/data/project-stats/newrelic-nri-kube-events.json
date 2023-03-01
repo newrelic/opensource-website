@@ -8,11 +8,11 @@
     "name": "nri-kube-events-2.3.1",
     "date": "2023-01-19T15:07:12Z"
   },
-  "commits": 82,
-  "lastSixMonthsCommitTotal": 14,
-  "contributors": 18,
+  "commits": 101,
+  "lastSixMonthsCommitTotal": 31,
+  "contributors": 19,
   "pullRequests": {
-    "open": 6
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -95,6 +95,13 @@
       "contributions": 4
     },
     {
+      "id": 1444638,
+      "login": "vihangm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
+      "htmlUrl": "https://github.com/vihangm",
+      "contributions": 5
+    },
+    {
       "id": 29139614,
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
@@ -141,7 +148,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 17
+      "contributions": 31
     }
   ],
   "languages": [
