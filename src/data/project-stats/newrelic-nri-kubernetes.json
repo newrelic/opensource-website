@@ -3,16 +3,16 @@
   "issues": {
     "open": 29
   },
-  "releases": 101,
+  "releases": 103,
   "latestRelease": {
-    "name": "newrelic-infrastructure-3.12.0",
-    "date": "2023-01-19T08:31:40Z"
+    "name": "v3.7.0",
+    "date": "2023-03-02T21:49:53Z"
   },
-  "commits": 464,
-  "lastSixMonthsCommitTotal": 51,
-  "contributors": 33,
+  "commits": 468,
+  "lastSixMonthsCommitTotal": 55,
+  "contributors": 34,
   "pullRequests": {
-    "open": 18
+    "open": 14
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -69,6 +69,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 50715937,
+      "login": "svetlanabrennan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
+      "htmlUrl": "https://github.com/svetlanabrennan",
+      "contributions": 1
+    },
     {
       "id": 125097052,
       "login": "xqi-nr",
@@ -252,18 +259,18 @@
       "contributions": 17
     },
     {
-      "id": 66266496,
-      "login": "htroisi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
-      "htmlUrl": "https://github.com/htroisi",
-      "contributions": 20
-    },
-    {
       "id": 16539896,
       "login": "invidian",
       "avatarUrl": "https://avatars.githubusercontent.com/u/16539896?v=4",
       "htmlUrl": "https://github.com/invidian",
       "contributions": 21
+    },
+    {
+      "id": 66266496,
+      "login": "htroisi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
+      "htmlUrl": "https://github.com/htroisi",
+      "contributions": 24
     },
     {
       "id": 5143130,
@@ -277,7 +284,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 28
+      "contributions": 30
     },
     {
       "id": 53659978,
