@@ -3,13 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 7,
-  "lastSixMonthsCommitTotal": 7,
+  "releases": 1,
+  "latestRelease": {
+    "name": "0.2.0",
+    "date": "2023-03-05T13:22:39Z"
+  },
+  "commits": 9,
+  "lastSixMonthsCommitTotal": 9,
   "contributors": 3,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -33,7 +36,7 @@
       "login": "smatzkel-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/84398037?v=4",
       "htmlUrl": "https://github.com/smatzkel-newrelic",
-      "contributions": 3
+      "contributions": 5
     }
   ],
   "languages": [
