@@ -3,20 +3,27 @@
   "issues": {
     "open": 2
   },
-  "releases": 38,
+  "releases": 39,
   "latestRelease": {
-    "name": "nri-mongodb3-0.0.4",
-    "date": "2023-03-02T10:09:16Z"
+    "name": "nri-aerospike-0.0.1",
+    "date": "2023-03-13T10:27:38Z"
   },
-  "commits": 334,
-  "lastSixMonthsCommitTotal": 128,
-  "contributors": 13,
+  "commits": 336,
+  "lastSixMonthsCommitTotal": 130,
+  "contributors": 14,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 99316285,
+      "login": "pkosanam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99316285?v=4",
+      "htmlUrl": "https://github.com/pkosanam",
+      "contributions": 1
+    },
     {
       "id": 3380451,
       "login": "rubenruizdegauna",

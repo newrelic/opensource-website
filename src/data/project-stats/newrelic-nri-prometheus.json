@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-prometheus",
   "issues": {
-    "open": 1
+    "open": 2
   },
-  "releases": 59,
+  "releases": 60,
   "latestRelease": {
-    "name": "v2.17.0",
-    "date": "2022-12-07T10:48:33Z"
+    "name": "v2.18.0",
+    "date": "2023-03-13T08:33:01Z"
   },
-  "commits": 228,
-  "lastSixMonthsCommitTotal": 24,
+  "commits": 232,
+  "lastSixMonthsCommitTotal": 28,
   "contributors": 30,
   "pullRequests": {
-    "open": 11
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -183,7 +183,7 @@
       "login": "kang-makes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 9
+      "contributions": 11
     },
     {
       "id": 2054195,
@@ -214,18 +214,18 @@
       "contributions": 27
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 39
-    },
-    {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
       "contributions": 40
+    },
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 41
     }
   ],
   "languages": [
