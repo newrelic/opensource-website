@@ -3,20 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 28,
+  "releases": 29,
   "latestRelease": {
-    "name": "v1.9.2",
-    "date": "2023-03-14T21:56:04Z"
+    "name": "nri-kube-events-2.3.2",
+    "date": "2023-03-15T00:49:05Z"
   },
-  "commits": 120,
-  "lastSixMonthsCommitTotal": 47,
-  "contributors": 19,
+  "commits": 122,
+  "lastSixMonthsCommitTotal": 49,
+  "contributors": 21,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 125097052,
+      "login": "xqi-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
+      "htmlUrl": "https://github.com/xqi-nr",
+      "contributions": 1
+    },
     {
       "id": 97467528,
       "login": "CliftonDobrich",
@@ -81,6 +88,13 @@
       "contributions": 1
     },
     {
+      "id": 66266496,
+      "login": "htroisi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
+      "htmlUrl": "https://github.com/htroisi",
+      "contributions": 2
+    },
+    {
       "id": 79498,
       "login": "davidgit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
@@ -141,7 +155,7 @@
       "login": "vihangm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
       "htmlUrl": "https://github.com/vihangm",
-      "contributions": 21
+      "contributions": 22
     },
     {
       "id": 49699333,
