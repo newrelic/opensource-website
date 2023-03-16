@@ -3,16 +3,16 @@
   "issues": {
     "open": 2
   },
-  "releases": 60,
+  "releases": 61,
   "latestRelease": {
-    "name": "v2.18.0",
-    "date": "2023-03-13T08:33:01Z"
+    "name": "nri-prometheus-2.1.16",
+    "date": "2023-03-16T14:07:09Z"
   },
-  "commits": 232,
-  "lastSixMonthsCommitTotal": 27,
+  "commits": 234,
+  "lastSixMonthsCommitTotal": 29,
   "contributors": 30,
   "pullRequests": {
-    "open": 5
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -116,13 +116,6 @@
       "contributions": 3
     },
     {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 3
-    },
-    {
       "id": 442627,
       "login": "sigilioso",
       "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
@@ -142,6 +135,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/10852?v=4",
       "htmlUrl": "https://github.com/areina",
       "contributions": 3
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 4
     },
     {
       "id": 8235696,
@@ -183,7 +183,7 @@
       "login": "kang-makes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 11
+      "contributions": 12
     },
     {
       "id": 2054195,
@@ -225,7 +225,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 41
+      "contributions": 42
     }
   ],
   "languages": [
