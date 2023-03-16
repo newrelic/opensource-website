@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-k8s-metrics-adapter",
   "issues": {
-    "open": 7
+    "open": 5
   },
-  "releases": 20,
+  "releases": 21,
   "latestRelease": {
-    "name": "v0.3.0",
-    "date": "2023-03-02T17:41:11Z"
+    "name": "newrelic-k8s-metrics-adapter-1.1.0",
+    "date": "2023-03-15T19:52:48Z"
   },
-  "commits": 141,
-  "lastSixMonthsCommitTotal": 14,
-  "contributors": 17,
+  "commits": 149,
+  "lastSixMonthsCommitTotal": 22,
+  "contributors": 18,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -95,18 +95,18 @@
       "contributions": 4
     },
     {
+      "id": 1444638,
+      "login": "vihangm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
+      "htmlUrl": "https://github.com/vihangm",
+      "contributions": 5
+    },
+    {
       "id": 8235696,
       "login": "marcsanmi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
       "htmlUrl": "https://github.com/marcsanmi",
       "contributions": 7
-    },
-    {
-      "id": 66266496,
-      "login": "htroisi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
-      "htmlUrl": "https://github.com/htroisi",
-      "contributions": 9
     },
     {
       "id": 53659978,
@@ -121,6 +121,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
       "contributions": 11
+    },
+    {
+      "id": 66266496,
+      "login": "htroisi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
+      "htmlUrl": "https://github.com/htroisi",
+      "contributions": 12
     },
     {
       "id": 43335750,
