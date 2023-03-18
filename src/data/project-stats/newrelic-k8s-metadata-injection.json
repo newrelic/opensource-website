@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/k8s-metadata-injection",
   "issues": {
-    "open": 8
+    "open": 7
   },
-  "releases": 37,
+  "releases": 39,
   "latestRelease": {
-    "name": "v1.8.0",
-    "date": "2023-03-01T00:34:11Z"
+    "name": "v1.9.0",
+    "date": "2023-03-17T22:03:42Z"
   },
-  "commits": 174,
-  "lastSixMonthsCommitTotal": 29,
-  "contributors": 27,
+  "commits": 178,
+  "lastSixMonthsCommitTotal": 33,
+  "contributors": 28,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 318173,
+      "login": "janario",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/318173?v=4",
+      "htmlUrl": "https://github.com/janario",
+      "contributions": 1
+    },
     {
       "id": 25180681,
       "login": "renovate-bot",
@@ -109,13 +116,6 @@
       "contributions": 2
     },
     {
-      "id": 66266496,
-      "login": "htroisi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
-      "htmlUrl": "https://github.com/htroisi",
-      "contributions": 3
-    },
-    {
       "id": 29139614,
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
@@ -149,6 +149,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
       "htmlUrl": "https://github.com/sigilioso",
       "contributions": 6
+    },
+    {
+      "id": 66266496,
+      "login": "htroisi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
+      "htmlUrl": "https://github.com/htroisi",
+      "contributions": 7
     },
     {
       "id": 159076,
