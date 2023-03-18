@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-prometheus",
   "issues": {
-    "open": 2
+    "open": 1
   },
   "releases": 61,
   "latestRelease": {
     "name": "nri-prometheus-2.1.16",
     "date": "2023-03-16T14:07:09Z"
   },
-  "commits": 234,
-  "lastSixMonthsCommitTotal": 29,
-  "contributors": 30,
+  "commits": 237,
+  "lastSixMonthsCommitTotal": 32,
+  "contributors": 31,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -100,6 +100,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
       "htmlUrl": "https://github.com/matiasburni",
       "contributions": 1
+    },
+    {
+      "id": 66266496,
+      "login": "htroisi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
+      "htmlUrl": "https://github.com/htroisi",
+      "contributions": 2
     },
     {
       "id": 19733683,
@@ -225,7 +232,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 42
+      "contributions": 44
     }
   ],
   "languages": [
