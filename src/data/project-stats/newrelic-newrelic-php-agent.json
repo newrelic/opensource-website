@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-php-agent",
   "issues": {
-    "open": 73
+    "open": 72
   },
   "releases": 19,
   "latestRelease": {
     "name": "v10.7.0.319",
     "date": null
   },
-  "commits": 213,
-  "lastSixMonthsCommitTotal": 44,
-  "contributors": 19,
+  "commits": 224,
+  "lastSixMonthsCommitTotal": 55,
+  "contributors": 20,
   "pullRequests": {
-    "open": 16
+    "open": 15
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -35,6 +35,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 90892252,
+      "login": "dejanceltra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90892252?v=4",
+      "htmlUrl": "https://github.com/dejanceltra",
+      "contributions": 1
+    },
     {
       "id": 1428400,
       "login": "coreyarnold",
@@ -124,14 +131,14 @@
       "login": "ZNeumann",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19822038?v=4",
       "htmlUrl": "https://github.com/ZNeumann",
-      "contributions": 12
+      "contributions": 15
     },
     {
       "id": 106178551,
       "login": "bduranleau-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/106178551?v=4",
       "htmlUrl": "https://github.com/bduranleau-nr",
-      "contributions": 14
+      "contributions": 18
     },
     {
       "id": 5200550,
@@ -152,14 +159,7 @@
       "login": "lavarou",
       "avatarUrl": "https://avatars.githubusercontent.com/u/98839644?v=4",
       "htmlUrl": "https://github.com/lavarou",
-      "contributions": 33
-    },
-    {
-      "id": 89205663,
-      "login": "mfulb",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/89205663?v=4",
-      "htmlUrl": "https://github.com/mfulb",
-      "contributions": 39
+      "contributions": 34
     },
     {
       "id": 43715151,
@@ -167,6 +167,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43715151?v=4",
       "htmlUrl": "https://github.com/zsistla",
       "contributions": 40
+    },
+    {
+      "id": 89205663,
+      "login": "mfulb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89205663?v=4",
+      "htmlUrl": "https://github.com/mfulb",
+      "contributions": 41
     }
   ],
   "languages": [
