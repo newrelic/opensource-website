@@ -3,16 +3,16 @@
   "issues": {
     "open": 2
   },
-  "releases": 21,
+  "releases": 23,
   "latestRelease": {
-    "name": "newrelic-prometheus-agent-1.1.0",
-    "date": "2023-01-30T08:02:35Z"
+    "name": "v1.3.0",
+    "date": "2023-03-20T17:29:43Z"
   },
-  "commits": 202,
-  "lastSixMonthsCommitTotal": 97,
+  "commits": 207,
+  "lastSixMonthsCommitTotal": 102,
   "contributors": 16,
   "pullRequests": {
-    "open": 5
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,13 +22,6 @@
       "login": "maxlemieux",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8403155?v=4",
       "htmlUrl": "https://github.com/maxlemieux",
-      "contributions": 1
-    },
-    {
-      "id": 1444638,
-      "login": "vihangm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
-      "htmlUrl": "https://github.com/vihangm",
       "contributions": 1
     },
     {
@@ -51,6 +44,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
       "contributions": 2
+    },
+    {
+      "id": 1444638,
+      "login": "vihangm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
+      "htmlUrl": "https://github.com/vihangm",
+      "contributions": 3
     },
     {
       "id": 66266496,
@@ -92,7 +92,7 @@
       "login": "newrelic-coreint-team",
       "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
       "htmlUrl": "https://github.com/newrelic-coreint-team",
-      "contributions": 13
+      "contributions": 15
     },
     {
       "id": 442627,
@@ -106,7 +106,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 30
+      "contributions": 31
     },
     {
       "id": 43335750,
