@@ -3,16 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 22,
+  "releases": 23,
   "latestRelease": {
-    "name": "v1.9.7",
-    "date": "2022-12-05T15:53:53Z"
+    "name": "v1.9.8",
+    "date": "2023-03-20T08:52:29Z"
   },
-  "commits": 57,
-  "lastSixMonthsCommitTotal": 6,
+  "commits": 60,
+  "lastSixMonthsCommitTotal": 9,
   "contributors": 15,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -64,7 +64,7 @@
       "login": "kang-makes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 2
+      "contributions": 3
     },
     {
       "id": 5297542,
@@ -88,18 +88,18 @@
       "contributions": 4
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 5
-    },
-    {
       "id": 25180681,
       "login": "renovate-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25180681?v=4",
       "htmlUrl": "https://github.com/renovate-bot",
       "contributions": 5
+    },
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 6
     },
     {
       "id": 43335750,
@@ -120,7 +120,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 11
+      "contributions": 12
     }
   ],
   "languages": [
