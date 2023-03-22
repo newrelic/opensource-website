@@ -3,16 +3,16 @@
   "issues": {
     "open": 5
   },
-  "releases": 22,
+  "releases": 23,
   "latestRelease": {
-    "name": "newrelic-k8s-metrics-adapter-1.1.1",
-    "date": "2023-03-17T21:37:54Z"
+    "name": "newrelic-k8s-metrics-adapter-1.1.2",
+    "date": "2023-03-22T00:28:49Z"
   },
-  "commits": 151,
-  "lastSixMonthsCommitTotal": 24,
+  "commits": 153,
+  "lastSixMonthsCommitTotal": 26,
   "contributors": 18,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -81,18 +81,18 @@
       "contributions": 3
     },
     {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 4
-    },
-    {
       "id": 3638421,
       "login": "alvarocabanas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
       "htmlUrl": "https://github.com/alvarocabanas",
       "contributions": 4
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 5
     },
     {
       "id": 1444638,
@@ -127,7 +127,7 @@
       "login": "htroisi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
       "htmlUrl": "https://github.com/htroisi",
-      "contributions": 15
+      "contributions": 16
     },
     {
       "id": 43335750,
