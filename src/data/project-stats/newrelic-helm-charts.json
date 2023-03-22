@@ -3,16 +3,16 @@
   "issues": {
     "open": 30
   },
-  "releases": 564,
+  "releases": 566,
   "latestRelease": {
-    "name": "newrelic-pixie-2.0.6",
-    "date": "2023-03-16T22:26:43Z"
+    "name": "newrelic-logging-1.13.1",
+    "date": "2023-03-21T23:53:03Z"
   },
-  "commits": 641,
-  "lastSixMonthsCommitTotal": 68,
+  "commits": 643,
+  "lastSixMonthsCommitTotal": 69,
   "contributors": 100,
   "pullRequests": {
-    "open": 20
+    "open": 17
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -515,13 +515,6 @@
       "contributions": 5
     },
     {
-      "id": 22451525,
-      "login": "luckslovez",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/22451525?v=4",
-      "htmlUrl": "https://github.com/luckslovez",
-      "contributions": 5
-    },
-    {
       "id": 998499,
       "login": "thilinapiy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/998499?v=4",
@@ -541,6 +534,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/2459231?v=4",
       "htmlUrl": "https://github.com/AdrienKuhn",
       "contributions": 5
+    },
+    {
+      "id": 22451525,
+      "login": "luckslovez",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22451525?v=4",
+      "htmlUrl": "https://github.com/luckslovez",
+      "contributions": 6
     },
     {
       "id": 9002169,
@@ -694,7 +694,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 42
+      "contributions": 43
     },
     {
       "id": 53659978,
