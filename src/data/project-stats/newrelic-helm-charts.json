@@ -3,16 +3,16 @@
   "issues": {
     "open": 30
   },
-  "releases": 566,
+  "releases": 568,
   "latestRelease": {
-    "name": "newrelic-logging-1.13.1",
-    "date": "2023-03-21T23:53:03Z"
+    "name": "synthetics-job-manager-1.0.28",
+    "date": "2023-03-22T20:30:05Z"
   },
-  "commits": 643,
-  "lastSixMonthsCommitTotal": 68,
+  "commits": 645,
+  "lastSixMonthsCommitTotal": 70,
   "contributors": 100,
   "pullRequests": {
-    "open": 17
+    "open": 14
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -494,13 +494,6 @@
       "contributions": 4
     },
     {
-      "id": 96089042,
-      "login": "sadafarshad",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/96089042?v=4",
-      "htmlUrl": "https://github.com/sadafarshad",
-      "contributions": 5
-    },
-    {
       "id": 72999039,
       "login": "sshah-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/72999039?v=4",
@@ -534,6 +527,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/2459231?v=4",
       "htmlUrl": "https://github.com/AdrienKuhn",
       "contributions": 5
+    },
+    {
+      "id": 96089042,
+      "login": "sadafarshad",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96089042?v=4",
+      "htmlUrl": "https://github.com/sadafarshad",
+      "contributions": 6
     },
     {
       "id": 22451525,
@@ -694,7 +694,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 43
+      "contributions": 44
     },
     {
       "id": 53659978,
