@@ -3,16 +3,16 @@
   "issues": {
     "open": 20
   },
-  "releases": 24,
+  "releases": 25,
   "latestRelease": {
-    "name": "newrelic-infra-operator-2.1.1",
-    "date": "2023-03-22T00:24:28Z"
+    "name": "newrelic-infra-operator-2.1.2",
+    "date": "2023-03-28T17:15:57Z"
   },
-  "commits": 136,
-  "lastSixMonthsCommitTotal": 42,
+  "commits": 139,
+  "lastSixMonthsCommitTotal": 45,
   "contributors": 17,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -81,13 +81,6 @@
       "contributions": 4
     },
     {
-      "id": 66266496,
-      "login": "htroisi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
-      "htmlUrl": "https://github.com/htroisi",
-      "contributions": 5
-    },
-    {
       "id": 8235696,
       "login": "marcsanmi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
@@ -109,6 +102,13 @@
       "contributions": 6
     },
     {
+      "id": 66266496,
+      "login": "htroisi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
+      "htmlUrl": "https://github.com/htroisi",
+      "contributions": 7
+    },
+    {
       "id": 969721,
       "login": "roobre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
@@ -127,7 +127,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 38
+      "contributions": 39
     },
     {
       "id": 16539896,
