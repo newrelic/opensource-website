@@ -146,8 +146,9 @@ exports[`HomePage Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -488,8 +489,9 @@ exports[`HomePage Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -592,8 +594,9 @@ exports[`HomePage Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -635,8 +638,9 @@ exports[`HomePage Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -725,8 +729,9 @@ exports[`HomePage Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1210,7 +1215,7 @@ exports[`HomePage Renders correctly 1`] = `
         >
           <a
             className="emotion-70 emotion-46"
-            href="https://one.newrelic.com"
+            href="https://newrelic.com/signup"
             onClick={[Function]}
             rel="noopener"
             size="small"
@@ -1531,7 +1536,7 @@ exports[`HomePage Renders correctly 1`] = `
               rel="noopener"
               target="_blank"
             >
-              DCMA Policy
+              DMCA Policy
             </a>
             <a
               href="https://newrelic.com/termsandconditions/services-notices"
@@ -1559,7 +1564,7 @@ exports[`HomePage Renders correctly 1`] = `
             </a>
           </div>
           <div
-            className="emotion-107"
+            className=" emotion-107"
           >
             <p>
               This site is protected by reCAPTCHA and the Google
