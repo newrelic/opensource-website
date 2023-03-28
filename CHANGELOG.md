@@ -1,3 +1,10 @@
+## [1.24.2](https://github.com/newrelic/opensource-website/compare/v1.24.1...v1.24.2) (2023-03-28)
+
+
+### Bug Fixes
+
+* Update test snapshots ([f205b6f](https://github.com/newrelic/opensource-website/commit/f205b6fecd201e9ae8ee2f133a34df9bac5438c0))
+
 ## [1.24.1](https://github.com/newrelic/opensource-website/compare/v1.24.0...v1.24.1) (2023-02-28)
 
 
