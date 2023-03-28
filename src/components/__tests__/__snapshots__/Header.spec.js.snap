@@ -134,8 +134,9 @@ Array [
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -476,8 +477,9 @@ Array [
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -580,8 +582,9 @@ Array [
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -623,8 +626,9 @@ Array [
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1018,7 +1022,7 @@ Array [
         >
           <a
             className="emotion-70 emotion-46"
-            href="https://one.newrelic.com"
+            href="https://newrelic.com/signup"
             onClick={[Function]}
             rel="noopener"
             size="small"
