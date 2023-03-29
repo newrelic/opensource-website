@@ -1,3 +1,12 @@
+## [1.24.3](https://github.com/newrelic/opensource-website/compare/v1.24.2...v1.24.3) (2023-03-29)
+
+
+### Bug Fixes
+
+* add work around for jest ([9ace54d](https://github.com/newrelic/opensource-website/commit/9ace54deaf56737ba0b0dc8643b96947524bfe8e))
+* Ignore css prop warnings ([532a760](https://github.com/newrelic/opensource-website/commit/532a760df4e93361815652cbe1ad8afbf03a4a97))
+* linting issue, added key attribute to iterated items ([a88d44d](https://github.com/newrelic/opensource-website/commit/a88d44da105859f9057433f613d2cbc39583fa31))
+
 ## [1.24.2](https://github.com/newrelic/opensource-website/compare/v1.24.1...v1.24.2) (2023-03-28)
 
 
