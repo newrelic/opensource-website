@@ -124,6 +124,7 @@ const ExternalProjectsPage = ({ data, pageContext }) => {
                     onClick={() => {
                       location.href = `/projects/${project.fullName}`;
                     }}
+                    key={project.fullName}
                   >
                     <img
                       className={styles.projectListingItemImage}

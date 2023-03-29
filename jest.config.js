@@ -6,6 +6,8 @@ module.exports = {
     '.+\\.(css|styl|less|sass|scss)$': `identity-obj-proxy`,
     '.+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$': `<rootDir>/__mocks__/file-mock.js`,
     '^@reach/router(.*)': '<rootDir>/node_modules/@gatsbyjs/reach-router$1',
+    '^gatsby-core-utils/(.*)$': `gatsby-core-utils/dist/$1`, // Workaround for https://github.com/facebook/jest/issues/9771
+    '^gatsby-page-utils/(.*)$': `gatsby-page-utils/dist/$1`, // Workaround for https://github.com/facebook/jest/issues/9771
   },
   testPathIgnorePatterns: [
     `node_modules`,
