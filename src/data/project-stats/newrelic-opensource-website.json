@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 108,
+  "releases": 109,
   "latestRelease": {
-    "name": "v1.24.2",
-    "date": "2023-03-28T17:02:30Z"
+    "name": "v1.24.3",
+    "date": "2023-03-29T20:04:28Z"
   },
-  "commits": 3861,
-  "lastSixMonthsCommitTotal": 36,
+  "commits": 3867,
+  "lastSixMonthsCommitTotal": 42,
   "contributors": 75,
   "pullRequests": {
     "open": 2
@@ -403,13 +403,6 @@
       "contributions": 6
     },
     {
-      "id": 26727669,
-      "login": "clarkmcadoo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/26727669?v=4",
-      "htmlUrl": "https://github.com/clarkmcadoo",
-      "contributions": 11
-    },
-    {
       "id": 66266496,
       "login": "htroisi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
@@ -436,6 +429,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
       "htmlUrl": "https://github.com/michaelgoin",
       "contributions": 12
+    },
+    {
+      "id": 26727669,
+      "login": "clarkmcadoo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26727669?v=4",
+      "htmlUrl": "https://github.com/clarkmcadoo",
+      "contributions": 13
     },
     {
       "id": 2952843,
@@ -480,18 +480,18 @@
       "contributions": 20
     },
     {
-      "id": 39655074,
-      "login": "LizBaker",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
-      "htmlUrl": "https://github.com/LizBaker",
-      "contributions": 23
-    },
-    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 23
+    },
+    {
+      "id": 39655074,
+      "login": "LizBaker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
+      "htmlUrl": "https://github.com/LizBaker",
+      "contributions": 25
     },
     {
       "id": 32174276,
@@ -540,7 +540,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 2208
+      "contributions": 2209
     }
   ],
   "languages": [
