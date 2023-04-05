@@ -12,7 +12,7 @@ import * as styles from './home-page.module.scss';
 
 export const query = graphql`
   query HomePageQuery($path: String) {
-    topProjects: allProjects(filter: { projectType: { eq: "newrelic" } }) {
+    topProjects: allProjects {
       edges {
         node {
           ...projectFields
@@ -21,7 +21,6 @@ export const query = graphql`
     }
     instrumentation: allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
         projectTags: {
           elemMatch: {
             slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
@@ -98,6 +97,7 @@ function sortByStats(a, b) {
 const HomePage = ({ data, pageContext }) => {
   const instrumentationProjects = get(data, 'instrumentation.edges', [])
     .map((i) => i.node)
+    .filter((node) => node.projectType !== 'external')
     .sort(sortByStats)
     .slice(0, 5);
 
@@ -111,6 +111,7 @@ const HomePage = ({ data, pageContext }) => {
   // temp workaround until the query above is fixed to pull back the correct top 8
   const internalProjects = get(data, 'topProjects.edges', [])
     .map((i) => i.node)
+    .filter((node) => node.projectType !== 'external')
     .sort(sortByStats)
     .slice(0, 8);
 

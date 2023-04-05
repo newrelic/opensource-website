@@ -12,7 +12,6 @@ export const query = graphql`
   query InstrumentationProjects($path: String) {
     allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
         projectTags: {
           elemMatch: {
             slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
@@ -37,12 +36,14 @@ export const query = graphql`
 
 const InstrumentationPage = ({ data, pageContext }) => {
   // console.debug(data);
-  const allProjects = data.allProjects.edges.map((project) => {
-    const p = project.node;
+  const allProjects = data.allProjects.edges
+    .filter((project) => project.node.projectType !== 'external')
+    .map((project) => {
+      const p = project.node;
 
-    p.title = p.title.replace(/New Relic/, '');
-    return p;
-  });
+      p.title = p.title.replace(/New Relic/, '');
+      return p;
+    });
 
   const exporters = allProjects.filter((p) =>
     p.projectTags.find((t) => t.slug === 'exporter')

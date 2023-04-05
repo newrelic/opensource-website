@@ -14,7 +14,6 @@ export const query = graphql`
   query allCollections($path: String) {
     instrumentation: allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
         projectTags: {
           elemMatch: {
             slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
@@ -30,10 +29,7 @@ export const query = graphql`
     }
 
     nerdpacks: allProjects(
-      filter: {
-        projectType: { eq: "newrelic" }
-        projectTags: { elemMatch: { slug: { eq: "nr1-app" } } }
-      } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
+      filter: { projectTags: { elemMatch: { slug: { eq: "nr1-app" } } } } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
     ) {
       edges {
         node {
@@ -80,7 +76,10 @@ const CollectionPage = ({ data, pageContext }) => {
       return {
         name: c[0],
         size: c[1].edges.length,
-        projects: c[1].edges.filter((e, i) => i < 4).map((e) => e.node),
+        projects: c[1].edges
+          .filter((e, i) => i < 4)
+          .map((e) => e.node)
+          .filter((node) => node.projectType !== 'external'),
         description: generateDescription(c[0]),
       };
     });

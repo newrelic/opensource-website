@@ -73,6 +73,7 @@ export const projectFields = graphql`
       title
       slug
     }
+    projectType
     team {
       name
       avatarUrl
@@ -127,6 +128,7 @@ export const exploreProjectsFields = graphql`
     }
     permalink
     primaryLanguage
+    projectType
     shortDescription
     supportUrl
     projectTags {

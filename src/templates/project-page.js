@@ -42,9 +42,7 @@ export const query = graphql`
         branch
       }
     }
-    project: allProjects(
-      filter: { slug: { eq: $slug }, projectType: { eq: "newrelic" } }
-    ) {
+    project: allProjects(filter: { slug: { eq: $slug } }) {
       nodes {
         ...projectFields
       }

@@ -11,10 +11,7 @@ import * as styles from './collection.module.scss';
 export const query = graphql`
   query CollectionProjects {
     allProjects(
-      filter: {
-        projectType: { eq: "newrelic" }
-        projectTags: { elemMatch: { slug: { eq: "agent" } } }
-      }
+      filter: { projectTags: { elemMatch: { slug: { eq: "agent" } } } }
     ) {
       edges {
         node {
@@ -26,7 +23,9 @@ export const query = graphql`
 `;
 
 const CollectionPage = ({ data, pageContext }) => {
-  const allProjects = data.allProjects.edges.map((p) => p.node);
+  const allProjects = data.allProjects.edges
+    .map((p) => p.node)
+    .filter((node) => node.projectType !== 'external');
 
   return (
     <Layout

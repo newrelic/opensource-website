@@ -11,10 +11,7 @@ import * as styles from './collection.module.scss';
 export const query = graphql`
   query NerdpackProjects($path: String) {
     allProjects(
-      filter: {
-        projectType: { eq: "newrelic" }
-        projectTags: { elemMatch: { slug: { eq: "nr1-app" } } }
-      }
+      filter: { projectTags: { elemMatch: { slug: { eq: "nr1-app" } } } }
     ) {
       edges {
         node {
@@ -33,13 +30,15 @@ export const query = graphql`
 
 const NerdpackPage = ({ data, pageContext }) => {
   // console.debug(data);
-  const allProjects = data.allProjects.edges.map((project) => {
-    const p = project.node;
-    p.title = p.title.startsWith('New Relic One')
-      ? p.title.substring('New Relic One'.length)
-      : p.title;
-    return p;
-  });
+  const allProjects = data.allProjects.edges
+    .filter((project) => project.node.projectType !== 'external')
+    .map((project) => {
+      const p = project.node;
+      p.title = p.title.startsWith('New Relic One')
+        ? p.title.substring('New Relic One'.length)
+        : p.title;
+      return p;
+    });
   const catalogProjects = allProjects.filter(
     (p) => p.ossCategory.slug === 'new-relic-one-catalog-project'
   );

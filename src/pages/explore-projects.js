@@ -19,7 +19,7 @@ import * as styles from './explore-projects.module.scss';
 
 export const query = graphql`
   query ExploreProjects($path: String) {
-    allProjects(filter: { projectType: { eq: "newrelic" } }) {
+    allProjects {
       edges {
         node {
           ...exploreProjectsFields
@@ -56,8 +56,9 @@ export const query = graphql`
 const ExploreProjectsPage = (props) => {
   const [projectsToShow, setProjectsToShow] = useState(23);
   const { data, pageContext } = props;
-
-  const allProjects = get(data, 'allProjects.edges', []).map((p) => p.node);
+  const allProjects = get(data, 'allProjects.edges', [])
+    .map((p) => p.node)
+    .filter((node) => node.projectType !== 'external');
   const allLanguages = get(data, 'allLanguages.group', []);
   const allCategories = get(data, 'allCategories.group', []);
   const allProjectTags = get(data, 'allProjectTags.group', []);
