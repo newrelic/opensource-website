@@ -12,7 +12,7 @@ export const query = graphql`
   query NerdpackProjects($path: String) {
     allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
+        projectType: { ne: "external" }
         projectTags: { elemMatch: { slug: { eq: "nr1-app" } } }
       }
     ) {

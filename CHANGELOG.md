@@ -1,3 +1,10 @@
+## [1.24.4](https://github.com/newrelic/opensource-website/compare/v1.24.3...v1.24.4) (2023-04-05)
+
+
+### Bug Fixes
+
+* Filter for newrelic projects differently ([a31f3eb](https://github.com/newrelic/opensource-website/commit/a31f3eb3c7f850f3da4a6da97f0ed71771eea965))
+
 ## [1.24.3](https://github.com/newrelic/opensource-website/compare/v1.24.2...v1.24.3) (2023-03-29)
 
 

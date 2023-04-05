@@ -12,7 +12,7 @@ export const query = graphql`
   query InstrumentationProjects($path: String) {
     allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
+        projectType: { ne: "external" }
         projectTags: {
           elemMatch: {
             slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
