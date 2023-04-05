@@ -43,7 +43,7 @@ export const query = graphql`
       }
     }
     project: allProjects(
-      filter: { slug: { eq: $slug }, projectType: { eq: "newrelic" } }
+      filter: { slug: { eq: $slug }, projectType: { ne: "external" } }
     ) {
       nodes {
         ...projectFields
