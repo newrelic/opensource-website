@@ -12,7 +12,7 @@ export const query = graphql`
   query CollectionProjects {
     allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
+        projectType: { ne: "external" }
         projectTags: { elemMatch: { slug: { eq: "agent" } } }
       }
     ) {
