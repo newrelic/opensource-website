@@ -3,16 +3,16 @@
   "issues": {
     "open": 31
   },
-  "releases": 571,
+  "releases": 573,
   "latestRelease": {
-    "name": "synthetics-minion-1.0.58",
-    "date": "2023-04-04T23:24:35Z"
+    "name": "synthetics-job-manager-1.0.29",
+    "date": "2023-04-06T22:05:12Z"
   },
-  "commits": 651,
-  "lastSixMonthsCommitTotal": 71,
+  "commits": 653,
+  "lastSixMonthsCommitTotal": 73,
   "contributors": 100,
   "pullRequests": {
-    "open": 9
+    "open": 8
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -501,13 +501,6 @@
       "contributions": 5
     },
     {
-      "id": 95299876,
-      "login": "kaschaefer-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/95299876?v=4",
-      "htmlUrl": "https://github.com/kaschaefer-nr",
-      "contributions": 5
-    },
-    {
       "id": 998499,
       "login": "thilinapiy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/998499?v=4",
@@ -527,6 +520,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/2459231?v=4",
       "htmlUrl": "https://github.com/AdrienKuhn",
       "contributions": 5
+    },
+    {
+      "id": 95299876,
+      "login": "kaschaefer-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/95299876?v=4",
+      "htmlUrl": "https://github.com/kaschaefer-nr",
+      "contributions": 6
     },
     {
       "id": 96089042,
@@ -694,7 +694,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 45
+      "contributions": 46
     },
     {
       "id": 53659978,
