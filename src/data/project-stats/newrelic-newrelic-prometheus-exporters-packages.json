@@ -3,20 +3,27 @@
   "issues": {
     "open": 3
   },
-  "releases": 40,
+  "releases": 41,
   "latestRelease": {
-    "name": "nri-mongodb3-0.0.5",
-    "date": "2023-04-03T07:26:31Z"
+    "name": "nri-mongodb3-0.0.6",
+    "date": "2023-04-11T09:55:25Z"
   },
-  "commits": 345,
-  "lastSixMonthsCommitTotal": 127,
-  "contributors": 14,
+  "commits": 347,
+  "lastSixMonthsCommitTotal": 129,
+  "contributors": 15,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 1
+    },
     {
       "id": 99316285,
       "login": "pkosanam",
@@ -78,7 +85,7 @@
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 26
+      "contributions": 27
     },
     {
       "id": 5143130,
