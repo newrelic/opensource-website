@@ -8,14 +8,32 @@
     "name": "v3.21.0",
     "date": "2023-03-30T18:48:29Z"
   },
-  "commits": 2607,
-  "lastSixMonthsCommitTotal": 137,
+  "commits": 2610,
+  "lastSixMonthsCommitTotal": 140,
   "contributors": 53,
   "pullRequests": {
     "open": 15
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOA7XUDM5jSCM4",
+      "title": "Expose integrationsupport and internal",
+      "url": "https://github.com/newrelic/go-agent/issues/672",
+      "createdAt": "2023-04-13T04:10:25Z",
+      "comments": {
+        "totalCount": 0
+      },
+      "author": {
+        "login": "pragmaticivan",
+        "id": "MDQ6VXNlcjMwMTI5MQ==",
+        "email": "",
+        "name": "Ivan Santos"
+      },
+      "number": 672,
+      "createdBy": "Ivan Santos"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 69914680,
@@ -372,7 +390,7 @@
       "login": "iamemilio",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10124680?v=4",
       "htmlUrl": "https://github.com/iamemilio",
-      "contributions": 149
+      "contributions": 150
     },
     {
       "id": 52758187,
