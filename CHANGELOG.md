@@ -1,3 +1,10 @@
+## [1.24.5](https://github.com/newrelic/opensource-website/compare/v1.24.4...v1.24.5) (2023-04-18)
+
+
+### Bug Fixes
+
+* update jest snapshot ([23fd351](https://github.com/newrelic/opensource-website/commit/23fd351834db14691238f15e23850b4914c77f5a))
+
 ## [1.24.4](https://github.com/newrelic/opensource-website/compare/v1.24.3...v1.24.4) (2023-04-05)
 
 
