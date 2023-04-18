@@ -3,13 +3,13 @@
   "issues": {
     "open": 16
   },
-  "releases": 413,
+  "releases": 416,
   "latestRelease": {
-    "name": "v0.67.1",
-    "date": "2023-04-17T17:26:26Z"
+    "name": "v0.67.4",
+    "date": "2023-04-18T15:22:15Z"
   },
-  "commits": 3764,
-  "lastSixMonthsCommitTotal": 178,
+  "commits": 3770,
+  "lastSixMonthsCommitTotal": 184,
   "contributors": 40,
   "pullRequests": {
     "open": 11
@@ -17,13 +17,6 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 127438038,
-      "login": "pranav-new-relic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/127438038?v=4",
-      "htmlUrl": "https://github.com/pranav-new-relic",
-      "contributions": 1
-    },
     {
       "id": 99236372,
       "login": "RavitejaSurampudi",
@@ -79,6 +72,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/11640472?v=4",
       "htmlUrl": "https://github.com/nicolasjhampton",
       "contributions": 1
+    },
+    {
+      "id": 127438038,
+      "login": "pranav-new-relic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127438038?v=4",
+      "htmlUrl": "https://github.com/pranav-new-relic",
+      "contributions": 2
     },
     {
       "id": 13430288,
@@ -295,7 +295,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 573
+      "contributions": 578
     }
   ],
   "languages": [
