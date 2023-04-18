@@ -2647,10 +2647,10 @@
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-react "^7.14.3"
 
-"@newrelic/gatsby-theme-newrelic@^6.18.9":
-  version "6.18.9"
-  resolved "https://registry.yarnpkg.com/@newrelic/gatsby-theme-newrelic/-/gatsby-theme-newrelic-6.18.9.tgz#bfaa7e1b1c6aafad69c5120e9d9b57c73b70a830"
-  integrity sha512-0EblKLhrxD8cpa/4BDtxqJmhIdg86MeDM2/XNjaa3ETYuwDUQudwR9wQ2S+vB6KIeP4dFbg7Qb8KJGp/egR1EA==
+"@newrelic/gatsby-theme-newrelic@^6.19.1":
+  version "6.19.2"
+  resolved "https://registry.yarnpkg.com/@newrelic/gatsby-theme-newrelic/-/gatsby-theme-newrelic-6.19.2.tgz#14e07a23ecbf4ca65a0709895630066232f29e29"
+  integrity sha512-wZvZ28zic/OOkVJwGvA0I7u8lOqMgBju1KagSNN+5T7xATbpfoCeA5n8P2vI5l9G4skJZLiNY3W/CYKwyQWvzA==
   dependencies:
     "@wry/equality" "^0.4.0"
     "@xstate/react" "^1.3.1"
@@ -2660,7 +2660,7 @@
     file-saver "^2.0.5"
     gatsby-plugin-emotion "^6.10.0"
     gatsby-plugin-layout "^2.10.0"
-    gatsby-plugin-newrelic "^2.0.0"
+    gatsby-plugin-newrelic "2.3.0"
     gatsby-plugin-react-helmet "^5.4.0"
     gatsby-plugin-robots-txt "^1.6.8"
     gatsby-plugin-sharp "4.25.0"
@@ -8202,10 +8202,10 @@ gatsby-plugin-mdx@^2.8.0:
     unist-util-remove "^1.0.3"
     unist-util-visit "^1.4.1"
 
-gatsby-plugin-newrelic@^2.0.0:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-newrelic/-/gatsby-plugin-newrelic-2.2.2.tgz#4d540d7fd827d103c3c222e4af8d3b85a1d53e5a"
-  integrity sha512-axMVeUig6PE/RN2qR4hT7/39NtNz+9by5hc4Php25N65zlLWYtuwqTtGpbeJUNyzh2PeqGEchN97nrT0KhEm4g==
+gatsby-plugin-newrelic@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-newrelic/-/gatsby-plugin-newrelic-2.3.0.tgz#6e0f08fc9b7081bab905551d47af2df55909efb2"
+  integrity sha512-Q7IIc6XKCGAr8AeYYNzFl3FjFxeJNaM6S3vBQwDgeCUF0svs4qj2zsWTCwshSZiZdb3wwI12uJYzmB/gqW3O7w==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
