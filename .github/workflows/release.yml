@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop
+      - feat/test-workflows
   repository_dispatch:
     types: [semantic-release]
 
