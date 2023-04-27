@@ -40,7 +40,7 @@ jobs:
       - name: Get Changed Files
         id: getfile
         run: |
-          PROJECT_FILES=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep "src/data/projects" || true)
+          PROJECT_FILES=$(git diff --name-only ${{ github.rest.event.pull_request.base.sha }} ${{ github.rest.event.pull_request.head.sha }} | grep "src/data/projects" || true)
 
           if [ -z "$PROJECT_FILES" ]; then
             echo "No project json files detected."
