@@ -16,6 +16,8 @@ import * as styles from './external-project-page.module.scss';
 import iconGitHubGreen from '../images/icon-github-green.svg';
 import iconGitHub from '../images/icon-github.svg';
 
+// i am a file change
+
 export const query = graphql`
   query ExternalProjects($slug: String, $pagePath: String) {
     project: allProjects(
