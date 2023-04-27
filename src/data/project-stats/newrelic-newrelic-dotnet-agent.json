@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 76
+    "open": 77
   },
-  "releases": 99,
+  "releases": 100,
   "latestRelease": {
-    "name": "v10.9.1",
-    "date": "2023-04-11T14:00:31Z"
+    "name": "v10.10.0",
+    "date": "2023-04-26T20:53:00Z"
   },
-  "commits": 763,
-  "lastSixMonthsCommitTotal": 115,
+  "commits": 766,
+  "lastSixMonthsCommitTotal": 117,
   "contributors": 31,
   "pullRequests": {
-    "open": 6
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 1
-    },
     {
       "id": 1428400,
       "login": "coreyarnold",
@@ -79,6 +72,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/929261?v=4",
       "htmlUrl": "https://github.com/tangollama",
       "contributions": 1
+    },
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 2
     },
     {
       "id": 54716445,
@@ -169,7 +169,7 @@
       "login": "chynesNR",
       "avatarUrl": "https://avatars.githubusercontent.com/u/111462425?v=4",
       "htmlUrl": "https://github.com/chynesNR",
-      "contributions": 16
+      "contributions": 17
     },
     {
       "id": 69914680,
@@ -204,7 +204,7 @@
       "login": "tippmar-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/120425148?v=4",
       "htmlUrl": "https://github.com/tippmar-nr",
-      "contributions": 47
+      "contributions": 48
     },
     {
       "id": 56414817,
@@ -225,7 +225,7 @@
       "login": "nr-ahemsath",
       "avatarUrl": "https://avatars.githubusercontent.com/u/57361211?v=4",
       "htmlUrl": "https://github.com/nr-ahemsath",
-      "contributions": 166
+      "contributions": 168
     },
     {
       "id": 6098021,
