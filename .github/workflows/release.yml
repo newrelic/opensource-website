@@ -70,7 +70,7 @@ jobs:
             git add THIRD_PARTY_NOTICES.md
 
             git commit -m 'chore: update third-party manifest and notices [skip-cd]'
-            echo "::set-output name=commit::true"
+            echo "commit=true" >> $GITHUB_OUTPUT
           else
             echo "No change in package.json, not regenerating third-party notices"
           fi
