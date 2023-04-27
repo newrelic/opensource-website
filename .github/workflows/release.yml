@@ -18,18 +18,18 @@ jobs:
       # Checkout fetch-depth: 2 because there's a check to see if package.json
       # was updated, and need at least 2 commits for the check to function properly
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 2
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
       - name: Download Cached Deps
         id: cache-node-modules
-        uses: actions/cache@v1
+        uses: actions/cache@v3
         env:
           cache-name: node-modules
         with:
@@ -76,7 +76,7 @@ jobs:
           fi
       - name: Temporarily disable branch protection
         id: disable-branch-protection
-        uses: actions/github-script@v1
+        uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.DEVEX_OPENSOURCE_BOT_TOKEN }}
           previews: luke-cage-preview
@@ -102,7 +102,7 @@ jobs:
       - name: Re-enable branch protection
         id: enable-branch-protection
         if: always()
-        uses: actions/github-script@v1
+        uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.DEVEX_OPENSOURCE_BOT_TOKEN }}
           previews: luke-cage-preview
@@ -131,12 +131,12 @@ jobs:
       # Checkout ref: develop because previous job potentially committed third_party_notices and
       # we need to checkout latest to pick up that commit
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: develop
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
@@ -145,7 +145,7 @@ jobs:
 
       - name: Temporarily disable branch protection
         id: disable-branch-protection
-        uses: actions/github-script@v1
+        uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.DEVEX_OPENSOURCE_BOT_TOKEN }}
           previews: luke-cage-preview
@@ -175,7 +175,7 @@ jobs:
       - name: Re-enable branch protection
         id: enable-branch-protection
         if: always()
-        uses: actions/github-script@v1
+        uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.DEVEX_OPENSOURCE_BOT_TOKEN }}
           previews: luke-cage-preview

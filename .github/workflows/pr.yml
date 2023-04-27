@@ -14,18 +14,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
       - name: Cache node_modules
         id: cache-node
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: node-modules
         with:
@@ -52,7 +52,7 @@ jobs:
 
       - name: Run Project Tags Check
         if: env.PROJECT_FILES != ''
-        uses: actions/github-script@v2
+        uses: actions/github-script@v6
         with:
           script: |
             const fs = require('fs');
@@ -105,16 +105,16 @@ jobs:
     needs: [job-check-project-tags]
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
       - name: Cache node_modules
         id: cache-node
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: node-modules
         with:
@@ -151,16 +151,16 @@ jobs:
     needs: [job-check-project-tags]
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: 16
 
       - name: Cache node_modules
         id: cache-node
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         env:
           cache-name: node-modules
         with:
