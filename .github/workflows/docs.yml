@@ -5,7 +5,7 @@ on:
     branches:
       - develop
     paths:
-      - "docs/**"
+      - 'docs/**'
   repository_dispatch:
     types: [docs]
   gollum:
@@ -17,10 +17,10 @@ env:
 jobs:
   job-sync-docs-to-wiki:
     runs-on: ubuntu-latest
-    if: github.event_name != 'gollum'
+    if: github.rest.event_name != 'gollum'
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Sync docs to wiki
         uses: newrelic/wiki-sync-action@master
         with:
@@ -32,10 +32,10 @@ jobs:
 
   job-sync-wiki-to-docs:
     runs-on: ubuntu-latest
-    if: github.event_name == 'gollum'
+    if: github.rest.event_name == 'gollum'
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }} # allows us to push back to repo
           ref: develop
