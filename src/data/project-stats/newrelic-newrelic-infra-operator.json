@@ -3,20 +3,27 @@
   "issues": {
     "open": 21
   },
-  "releases": 25,
+  "releases": 26,
   "latestRelease": {
-    "name": "newrelic-infra-operator-2.1.2",
-    "date": "2023-03-28T17:15:57Z"
+    "name": "v0.10.0",
+    "date": "2023-05-03T17:08:18Z"
   },
-  "commits": 142,
-  "lastSixMonthsCommitTotal": 43,
-  "contributors": 17,
+  "commits": 148,
+  "lastSixMonthsCommitTotal": 49,
+  "contributors": 18,
   "pullRequests": {
-    "open": 7
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 7085372,
+      "login": "juanjjaramillo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
+      "htmlUrl": "https://github.com/juanjjaramillo",
+      "contributions": 1
+    },
     {
       "id": 56414817,
       "login": "vuqtran88",
