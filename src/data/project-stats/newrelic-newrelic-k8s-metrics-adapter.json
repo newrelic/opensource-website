@@ -3,20 +3,27 @@
   "issues": {
     "open": 5
   },
-  "releases": 23,
+  "releases": 24,
   "latestRelease": {
-    "name": "newrelic-k8s-metrics-adapter-1.1.2",
-    "date": "2023-03-22T00:28:49Z"
+    "name": "v0.4.0",
+    "date": "2023-05-04T17:09:43Z"
   },
-  "commits": 153,
-  "lastSixMonthsCommitTotal": 25,
-  "contributors": 18,
+  "commits": 155,
+  "lastSixMonthsCommitTotal": 27,
+  "contributors": 19,
   "pullRequests": {
-    "open": 1
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 7085372,
+      "login": "juanjjaramillo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
+      "htmlUrl": "https://github.com/juanjjaramillo",
+      "contributions": 1
+    },
     {
       "id": 125097052,
       "login": "xqi-nr",
@@ -127,7 +134,7 @@
       "login": "htroisi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
       "htmlUrl": "https://github.com/htroisi",
-      "contributions": 16
+      "contributions": 17
     },
     {
       "id": 43335750,
