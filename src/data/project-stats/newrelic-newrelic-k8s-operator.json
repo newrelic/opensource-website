@@ -3,11 +3,14 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 7,
-  "lastSixMonthsCommitTotal": 7,
-  "contributors": 2,
+  "releases": 2,
+  "latestRelease": {
+    "name": "v0.0.1",
+    "date": "2023-05-08T23:59:09Z"
+  },
+  "commits": 21,
+  "lastSixMonthsCommitTotal": 21,
+  "contributors": 3,
   "pullRequests": {
     "open": 0
   },
@@ -26,7 +29,14 @@
       "login": "aimichelle",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1484035?v=4",
       "htmlUrl": "https://github.com/aimichelle",
-      "contributions": 6
+      "contributions": 10
+    },
+    {
+      "id": 1444638,
+      "login": "vihangm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
+      "htmlUrl": "https://github.com/vihangm",
+      "contributions": 10
     }
   ],
   "languages": [
