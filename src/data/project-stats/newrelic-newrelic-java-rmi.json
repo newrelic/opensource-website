@@ -1,15 +1,15 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-java-cxf-client",
+  "projectFullName": "newrelic/newrelic-java-rmi",
   "issues": {
-    "open": 0
+    "open": 1
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "v1.0",
-    "date": "2023-04-25T11:23:07Z"
+    "name": "1.1",
+    "date": "2023-04-07T17:14:37Z"
   },
-  "commits": 5,
-  "lastSixMonthsCommitTotal": 5,
+  "commits": 17,
+  "lastSixMonthsCommitTotal": 17,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -18,18 +18,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 8822859,
-      "login": "dhilpipre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
-      "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 1
-    },
-    {
       "id": 113113837,
       "login": "gsidhwani-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/113113837?v=4",
       "htmlUrl": "https://github.com/gsidhwani-nr",
-      "contributions": 4
+      "contributions": 5
+    },
+    {
+      "id": 8822859,
+      "login": "dhilpipre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
+      "htmlUrl": "https://github.com/dhilpipre",
+      "contributions": 10
     }
   ],
   "languages": [
