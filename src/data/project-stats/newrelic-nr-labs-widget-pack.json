@@ -3,20 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 25,
+  "releases": 27,
   "latestRelease": {
-    "name": "v1.24.0",
-    "date": "2023-05-02T03:47:32Z"
+    "name": "v1.26.0",
+    "date": "2023-05-11T08:35:15Z"
   },
-  "commits": 80,
-  "lastSixMonthsCommitTotal": 16,
-  "contributors": 3,
+  "commits": 87,
+  "lastSixMonthsCommitTotal": 23,
+  "contributors": 4,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 17122543,
+      "login": "rudouglas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
+      "htmlUrl": "https://github.com/rudouglas",
+      "contributions": 1
+    },
     {
       "id": 26434192,
       "login": "Tirslo",
@@ -29,14 +36,14 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 26
+      "contributions": 28
     },
     {
       "id": 13043208,
       "login": "Kav91",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 39
+      "contributions": 42
     }
   ],
   "languages": [
