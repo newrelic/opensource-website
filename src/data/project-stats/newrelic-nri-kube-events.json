@@ -3,13 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 32,
+  "releases": 34,
   "latestRelease": {
-    "name": "nri-kube-events-2.3.4",
-    "date": "2023-04-13T01:04:52Z"
+    "name": "v2.0.0",
+    "date": "2023-05-15T21:44:01Z"
   },
-  "commits": 154,
-  "lastSixMonthsCommitTotal": 77,
+  "commits": 158,
+  "lastSixMonthsCommitTotal": 81,
   "contributors": 21,
   "pullRequests": {
     "open": 0
@@ -151,18 +151,18 @@
       "contributions": 16
     },
     {
-      "id": 1444638,
-      "login": "vihangm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
-      "htmlUrl": "https://github.com/vihangm",
-      "contributions": 39
-    },
-    {
       "id": 49699333,
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 40
+      "contributions": 41
+    },
+    {
+      "id": 1444638,
+      "login": "vihangm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
+      "htmlUrl": "https://github.com/vihangm",
+      "contributions": 42
     }
   ],
   "languages": [

@@ -3,13 +3,13 @@
   "issues": {
     "open": 32
   },
-  "releases": 586,
+  "releases": 589,
   "latestRelease": {
-    "name": "newrelic-logging-1.14.1",
-    "date": "2023-05-12T16:22:46Z"
+    "name": "synthetics-job-manager-1.0.35",
+    "date": "2023-05-15T22:09:46Z"
   },
-  "commits": 669,
-  "lastSixMonthsCommitTotal": 72,
+  "commits": 672,
+  "lastSixMonthsCommitTotal": 75,
   "contributors": 100,
   "pullRequests": {
     "open": 12
@@ -305,13 +305,6 @@
       "contributions": 2
     },
     {
-      "id": 81389610,
-      "login": "mderemer-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/81389610?v=4",
-      "htmlUrl": "https://github.com/mderemer-nr",
-      "contributions": 2
-    },
-    {
       "id": 59473828,
       "login": "els-ipatel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/59473828?v=4",
@@ -436,6 +429,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 3
+    },
+    {
+      "id": 81389610,
+      "login": "mderemer-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81389610?v=4",
+      "htmlUrl": "https://github.com/mderemer-nr",
+      "contributions": 4
     },
     {
       "id": 123117746,
@@ -694,7 +694,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 48
+      "contributions": 49
     },
     {
       "id": 53659978,
