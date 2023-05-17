@@ -3,16 +3,16 @@
   "issues": {
     "open": 32
   },
-  "releases": 589,
+  "releases": 591,
   "latestRelease": {
-    "name": "synthetics-job-manager-1.0.35",
-    "date": "2023-05-15T22:09:46Z"
+    "name": "nri-bundle-5.0.15",
+    "date": "2023-05-16T18:36:44Z"
   },
-  "commits": 672,
-  "lastSixMonthsCommitTotal": 75,
+  "commits": 674,
+  "lastSixMonthsCommitTotal": 77,
   "contributors": 100,
   "pullRequests": {
-    "open": 12
+    "open": 10
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -298,13 +298,6 @@
       "contributions": 2
     },
     {
-      "id": 125097052,
-      "login": "xqi-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
-      "htmlUrl": "https://github.com/xqi-nr",
-      "contributions": 2
-    },
-    {
       "id": 59473828,
       "login": "els-ipatel",
       "avatarUrl": "https://avatars.githubusercontent.com/u/59473828?v=4",
@@ -380,6 +373,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/45029322?v=4",
       "htmlUrl": "https://github.com/polfliet",
       "contributions": 2
+    },
+    {
+      "id": 125097052,
+      "login": "xqi-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
+      "htmlUrl": "https://github.com/xqi-nr",
+      "contributions": 3
     },
     {
       "id": 85335776,
@@ -694,7 +694,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 49
+      "contributions": 50
     },
     {
       "id": 53659978,
