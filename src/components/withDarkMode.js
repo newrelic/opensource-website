@@ -9,8 +9,16 @@ const withDarkMode = (ComponentToWrap) => (props) => {
   }, []);
   const isDarkDefault = false;
   const checkLocalStorage = isLocalStorageAvailable();
-  const darkModeOptions = checkLocalStorage ? {} : { storageProvider: false };
-  const darkMode = useDarkMode(isDarkDefault, darkModeOptions);
+  const darkMode = () => {
+    if (checkLocalStorage) {
+      const localStorageTheme = localStorage.getItem('darkMode');
+      if (localStorageTheme === 'true' || localStorageTheme === 'false') {
+        return JSON.parse(localStorageTheme);
+      }
+    } else {
+      return useDarkMode(isDarkDefault, { storageProvider: false });
+    }
+  };
 
   if (!isClient) {
     return null;
