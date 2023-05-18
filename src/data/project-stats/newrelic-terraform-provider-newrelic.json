@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 54
+    "open": 52
   },
-  "releases": 197,
+  "releases": 198,
   "latestRelease": {
-    "name": "v3.22.0",
-    "date": "2023-05-08T06:06:11Z"
+    "name": "v3.23.0",
+    "date": "2023-05-17T11:32:39Z"
   },
-  "commits": 3987,
-  "lastSixMonthsCommitTotal": 427,
+  "commits": 3999,
+  "lastSixMonthsCommitTotal": 432,
   "contributors": 100,
   "pullRequests": {
-    "open": 10
+    "open": 9
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -501,13 +501,6 @@
       "contributions": 7
     },
     {
-      "id": 100915954,
-      "login": "Nandu-pns",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/100915954?v=4",
-      "htmlUrl": "https://github.com/Nandu-pns",
-      "contributions": 8
-    },
-    {
       "id": 506296,
       "login": "mikery",
       "avatarUrl": "https://avatars.githubusercontent.com/u/506296?v=4",
@@ -564,11 +557,11 @@
       "contributions": 13
     },
     {
-      "id": 127438038,
-      "login": "pranav-new-relic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/127438038?v=4",
-      "htmlUrl": "https://github.com/pranav-new-relic",
-      "contributions": 16
+      "id": 100915954,
+      "login": "Nandu-pns",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100915954?v=4",
+      "htmlUrl": "https://github.com/Nandu-pns",
+      "contributions": 17
     },
     {
       "id": 13971824,
@@ -583,6 +576,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/3082319?v=4",
       "htmlUrl": "https://github.com/grubernaut",
       "contributions": 17
+    },
+    {
+      "id": 127438038,
+      "login": "pranav-new-relic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127438038?v=4",
+      "htmlUrl": "https://github.com/pranav-new-relic",
+      "contributions": 18
     },
     {
       "id": 17018863,
@@ -652,7 +652,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 84
+      "contributions": 85
     },
     {
       "id": 29264964,
