@@ -1,15 +1,15 @@
 {
-  "projectFullName": "newrelic-experimental/nr-showback",
+  "projectFullName": "newrelic/nr-entity-tag-sync",
   "issues": {
-    "open": 1
+    "open": 2
   },
-  "releases": 14,
+  "releases": 1,
   "latestRelease": {
-    "name": "v1.0.11",
-    "date": "2023-05-18T14:30:12Z"
+    "name": "v0.1.0",
+    "date": "2023-05-10T14:46:46Z"
   },
-  "commits": 34,
-  "lastSixMonthsCommitTotal": 34,
+  "commits": 11,
+  "lastSixMonthsCommitTotal": 11,
   "contributors": 2,
   "pullRequests": {
     "open": 0
@@ -25,23 +25,28 @@
       "contributions": 1
     },
     {
-      "id": 44571906,
-      "login": "crshanks",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/44571906?v=4",
-      "htmlUrl": "https://github.com/crshanks",
-      "contributions": 20
+      "id": 54076100,
+      "login": "sdewitt-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54076100?v=4",
+      "htmlUrl": "https://github.com/sdewitt-newrelic",
+      "contributions": 7
     }
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
-      "name": "HCL",
-      "color": "#844FBA"
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
     },
     {
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
     }
   ],
   "screenshots": [],
