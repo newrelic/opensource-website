@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nri-oracledb",
   "issues": {
-    "open": 3
+    "open": 4
   },
   "releases": 42,
   "latestRelease": {
     "name": "v3.4.0",
     "date": "2022-06-30T07:48:00Z"
   },
-  "commits": 279,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 27,
+  "commits": 281,
+  "lastSixMonthsCommitTotal": 7,
+  "contributors": 28,
   "pullRequests": {
-    "open": 3
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 1
+    },
     {
       "id": 442627,
       "login": "sigilioso",
@@ -36,13 +43,6 @@
       "login": "wildcardlinux",
       "avatarUrl": "https://avatars.githubusercontent.com/u/49290076?v=4",
       "htmlUrl": "https://github.com/wildcardlinux",
-      "contributions": 1
-    },
-    {
-      "id": 53659978,
-      "login": "kang-makes",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
-      "htmlUrl": "https://github.com/kang-makes",
       "contributions": 1
     },
     {
@@ -100,6 +100,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/1703710?v=4",
       "htmlUrl": "https://github.com/cyberious",
       "contributions": 1
+    },
+    {
+      "id": 53659978,
+      "login": "kang-makes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
+      "htmlUrl": "https://github.com/kang-makes",
+      "contributions": 2
     },
     {
       "id": 43335750,
