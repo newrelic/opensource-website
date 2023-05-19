@@ -1,16 +1,13 @@
 {
   "projectFullName": "newrelic-experimental/newrelic-java-kotlin-coroutines",
   "issues": {
-    "open": 3
+    "open": 1
   },
-  "releases": 4,
-  "latestRelease": {
-    "name": "1.3",
-    "date": "2021-03-17T16:01:56Z"
-  },
-  "commits": 39,
+  "releases": 0,
+  "latestRelease": null,
+  "commits": 3,
   "lastSixMonthsCommitTotal": 3,
-  "contributors": 4,
+  "contributors": 1,
   "pullRequests": {
     "open": 0
   },
@@ -18,51 +15,14 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 292463,
-      "login": "meiao",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/292463?v=4",
-      "htmlUrl": "https://github.com/meiao",
-      "contributions": 1
-    },
-    {
-      "id": 3536684,
-      "login": "sschwartzman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
-      "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 1
-    },
-    {
-      "id": 41585091,
-      "login": "hsinghkalsi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/41585091?v=4",
-      "htmlUrl": "https://github.com/hsinghkalsi",
-      "contributions": 2
-    },
-    {
       "id": 8822859,
       "login": "dhilpipre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
       "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 26
+      "contributions": 3
     }
   ],
-  "languages": [
-    {
-      "id": "MDg6TGFuZ3VhZ2UxMzk=",
-      "name": "Shell",
-      "color": "#89e051"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UxNTg=",
-      "name": "Java",
-      "color": "#b07219"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UyNzI=",
-      "name": "Kotlin",
-      "color": "#A97BFF"
-    }
-  ],
+  "languages": [],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
