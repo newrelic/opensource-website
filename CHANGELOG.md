@@ -1,3 +1,10 @@
+## [1.24.6](https://github.com/newrelic/opensource-website/compare/v1.24.5...v1.24.6) (2023-05-22)
+
+
+### Bug Fixes
+
+* Search input no longer sets darkMode to undefined ([56a1a67](https://github.com/newrelic/opensource-website/commit/56a1a676b14b9c60aa75dbda5516392d029f3c04))
+
 ## [1.24.5](https://github.com/newrelic/opensource-website/compare/v1.24.4...v1.24.5) (2023-04-18)
 
 
