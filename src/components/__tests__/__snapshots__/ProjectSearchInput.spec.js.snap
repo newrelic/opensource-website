@@ -258,6 +258,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         >
           <div
             className="emotion-6"
+            href={false}
             onClick={[Function]}
           >
             All Categories
@@ -291,6 +292,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         >
           <div
             className="emotion-6"
+            href={false}
             onClick={[Function]}
           >
             All Project Tags
@@ -324,6 +326,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         >
           <div
             className="emotion-6"
+            href={false}
             onClick={[Function]}
           >
             All Language Types
