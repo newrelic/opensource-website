@@ -24,7 +24,7 @@ async function fetchAllPages(
     const query = createQuery(endCursor);
     // log.json(query)
     // append new results to the collection array
-    apiResponse = await github.query(query);
+    apiResponse = await github.rest.query(query);
     const { nodes, pageInfo } = resultSelector(apiResponse) || {};
 
     if (!nodes || !pageInfo) {
