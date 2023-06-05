@@ -1,3 +1,10 @@
+## [1.24.7](https://github.com/newrelic/opensource-website/compare/v1.24.6...v1.24.7) (2023-06-05)
+
+
+### Bug Fixes
+
+* remove lorem ipsum from collection page ([3ca4340](https://github.com/newrelic/opensource-website/commit/3ca4340abc6ee7551905b54f9e9e9ef21afb0097))
+
 ## [1.24.6](https://github.com/newrelic/opensource-website/compare/v1.24.5...v1.24.6) (2023-05-22)
 
 
