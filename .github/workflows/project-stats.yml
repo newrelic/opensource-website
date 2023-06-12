@@ -1,6 +1,7 @@
 name: Project-Stats CI
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 */4 * * *' # every 4 hours
   repository_dispatch:
