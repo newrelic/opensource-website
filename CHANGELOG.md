@@ -1,3 +1,10 @@
+## [1.24.8](https://github.com/newrelic/opensource-website/compare/v1.24.7...v1.24.8) (2023-06-12)
+
+
+### Bug Fixes
+
+* Update octokit packages ([d1d849d](https://github.com/newrelic/opensource-website/commit/d1d849d91f01a3b06a9aababda83fdd8b1d9af7b))
+
 ## [1.24.7](https://github.com/newrelic/opensource-website/compare/v1.24.6...v1.24.7) (2023-06-05)
 
 
