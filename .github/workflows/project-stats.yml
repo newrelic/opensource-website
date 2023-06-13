@@ -22,9 +22,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.DEVEX_OPENSOURCE_BOT_TOKEN }}
 
-      - name: Install dependencies
-        run: cd .github/actions/sync-data && npm install
-
       - name: Sync Data
         uses: ./.github/actions/sync-data
         with:

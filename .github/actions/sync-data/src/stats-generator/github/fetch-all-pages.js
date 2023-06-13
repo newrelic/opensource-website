@@ -21,9 +21,9 @@ async function fetchAllPages(
 
   // log.json(createQuery.query)
   while (hasNextPage) {
-    log.json("++++createQUERY++++", createQuery)
+    log.json(createQuery)
     const query = createQuery(endCursor);
-    log.json("++++QUERY++++", query)
+    log.json(query)
     // log.json(query)
     // append new results to the collection array
     apiResponse = await github.rest.query(query);
