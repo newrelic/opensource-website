@@ -18,7 +18,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
-          ref: main
+          ref: develop
           fetch-depth: 0
           token: ${{ secrets.DEVEX_OPENSOURCE_BOT_TOKEN }}
 
@@ -35,16 +35,4 @@ jobs:
 
       - name: Commit data files
         run: |
-          git config --local user.email "${{ env.THIRD_PARTY_GIT_AUTHOR_EMAIL }}"
-          git config --local user.name "${{ env.THIRD_PARTY_GIT_AUTHOR_NAME }}"
-
-          # main could have been modified since we checked out, so pull before pushing
-          git pull --ff-only origin main
-
-          echo "Updated project data files -- committing"
-          git add src/data
-          git commit -m "chore(stats): updated project stats files"
-
-          # Push to main here rather than using github-push-action
-          echo "Pushing to main"
-          git push origin main
+          echo "success"
