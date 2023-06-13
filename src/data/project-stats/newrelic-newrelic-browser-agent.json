@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-browser-agent",
   "issues": {
-    "open": 12
+    "open": 13
   },
-  "releases": 24,
+  "releases": 27,
   "latestRelease": {
-    "name": "v1.232.1",
-    "date": "2023-05-17T16:07:32Z"
+    "name": "v1.234.0",
+    "date": "2023-06-06T18:30:58Z"
   },
-  "commits": 432,
-  "lastSixMonthsCommitTotal": 186,
+  "commits": 469,
+  "lastSixMonthsCommitTotal": 198,
   "contributors": 12,
   "pullRequests": {
-    "open": 6
+    "open": 9
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -46,13 +46,6 @@
       "contributions": 1
     },
     {
-      "id": 129139683,
-      "login": "newrelic-browser-agent-team",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/129139683?v=4",
-      "htmlUrl": "https://github.com/newrelic-browser-agent-team",
-      "contributions": 2
-    },
-    {
       "id": 49817386,
       "login": "jeffalder",
       "avatarUrl": "https://avatars.githubusercontent.com/u/49817386?v=4",
@@ -60,11 +53,11 @@
       "contributions": 2
     },
     {
-      "id": 25965987,
-      "login": "bjfield",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/25965987?v=4",
-      "htmlUrl": "https://github.com/bjfield",
-      "contributions": 37
+      "id": 129139683,
+      "login": "newrelic-browser-agent-team",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/129139683?v=4",
+      "htmlUrl": "https://github.com/newrelic-browser-agent-team",
+      "contributions": 5
     },
     {
       "id": 4933147,
@@ -81,25 +74,32 @@
       "contributions": 49
     },
     {
+      "id": 25965987,
+      "login": "bjfield",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25965987?v=4",
+      "htmlUrl": "https://github.com/bjfield",
+      "contributions": 51
+    },
+    {
       "id": 28714891,
       "login": "cwli24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/28714891?v=4",
       "htmlUrl": "https://github.com/cwli24",
-      "contributions": 60
+      "contributions": 61
     },
     {
       "id": 3984979,
       "login": "patrickhousley",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3984979?v=4",
       "htmlUrl": "https://github.com/patrickhousley",
-      "contributions": 82
+      "contributions": 99
     },
     {
       "id": 24296585,
       "login": "metal-messiah",
       "avatarUrl": "https://avatars.githubusercontent.com/u/24296585?v=4",
       "htmlUrl": "https://github.com/metal-messiah",
-      "contributions": 151
+      "contributions": 159
     }
   ],
   "languages": [

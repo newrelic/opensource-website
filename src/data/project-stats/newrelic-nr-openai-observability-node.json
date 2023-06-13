@@ -1,13 +1,13 @@
 {
   "projectFullName": "newrelic/nr-openai-observability-node",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 36,
+  "lastSixMonthsCommitTotal": 36,
+  "contributors": 3,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +20,34 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/97467528?v=4",
       "htmlUrl": "https://github.com/CliftonDobrich",
       "contributions": 1
+    },
+    {
+      "id": 135014719,
+      "login": "amir-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/135014719?v=4",
+      "htmlUrl": "https://github.com/amir-newrelic",
+      "contributions": 11
+    },
+    {
+      "id": 131582992,
+      "login": "vsiomin-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/131582992?v=4",
+      "htmlUrl": "https://github.com/vsiomin-newrelic",
+      "contributions": 19
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyODc=",
+      "name": "TypeScript",
+      "color": "#3178c6"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",

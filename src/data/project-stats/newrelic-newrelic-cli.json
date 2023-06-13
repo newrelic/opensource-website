@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/newrelic-cli",
   "issues": {
-    "open": 10
+    "open": 9
   },
-  "releases": 447,
+  "releases": 455,
   "latestRelease": {
-    "name": "v0.68.7",
-    "date": "2023-05-18T18:47:59Z"
+    "name": "v0.68.15",
+    "date": "2023-06-09T13:11:01Z"
   },
-  "commits": 3839,
-  "lastSixMonthsCommitTotal": 197,
-  "contributors": 40,
+  "commits": 3860,
+  "lastSixMonthsCommitTotal": 204,
+  "contributors": 39,
   "pullRequests": {
     "open": 9
   },
@@ -158,18 +158,18 @@
       "contributions": 6
     },
     {
-      "id": 106628688,
-      "login": "rthorn-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/106628688?v=4",
-      "htmlUrl": "https://github.com/rthorn-nr",
-      "contributions": 7
-    },
-    {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
       "contributions": 7
+    },
+    {
+      "id": 106628688,
+      "login": "rthorn-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106628688?v=4",
+      "htmlUrl": "https://github.com/rthorn-nr",
+      "contributions": 8
     },
     {
       "id": 7757721,
@@ -207,18 +207,18 @@
       "contributions": 15
     },
     {
-      "id": 94071514,
-      "login": "NRhzhao",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/94071514?v=4",
-      "htmlUrl": "https://github.com/NRhzhao",
-      "contributions": 19
-    },
-    {
       "id": 90725916,
       "login": "mbruzina",
       "avatarUrl": "https://avatars.githubusercontent.com/u/90725916?v=4",
       "htmlUrl": "https://github.com/mbruzina",
       "contributions": 20
+    },
+    {
+      "id": 94071514,
+      "login": "NRhzhao",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/94071514?v=4",
+      "htmlUrl": "https://github.com/NRhzhao",
+      "contributions": 22
     },
     {
       "id": 47485486,
@@ -249,13 +249,6 @@
       "contributions": 77
     },
     {
-      "id": 455419,
-      "login": "jthurman42",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
-      "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 180
-    },
-    {
       "id": 29264964,
       "login": "zlesnr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/29264964?v=4",
@@ -274,14 +267,14 @@
       "login": "sanderblue",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2590905?v=4",
       "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 278
+      "contributions": 279
     },
     {
       "id": 38018054,
       "login": "Julien4218",
       "avatarUrl": "https://avatars.githubusercontent.com/u/38018054?v=4",
       "htmlUrl": "https://github.com/Julien4218",
-      "contributions": 324
+      "contributions": 326
     },
     {
       "id": 413389,
@@ -295,7 +288,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 621
+      "contributions": 635
     }
   ],
   "languages": [

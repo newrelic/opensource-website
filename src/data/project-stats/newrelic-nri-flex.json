@@ -3,20 +3,27 @@
   "issues": {
     "open": 10
   },
-  "releases": 52,
+  "releases": 54,
   "latestRelease": {
-    "name": "v1.8.3",
-    "date": "2023-05-05T08:01:29Z"
+    "name": "v1.8.5",
+    "date": "2023-05-30T13:48:49Z"
   },
-  "commits": 715,
-  "lastSixMonthsCommitTotal": 24,
+  "commits": 719,
+  "lastSixMonthsCommitTotal": 23,
   "contributors": 72,
   "pullRequests": {
-    "open": 8
+    "open": 7
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 89452524,
+      "login": "ismahernandez",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89452524?v=4",
+      "htmlUrl": "https://github.com/ismahernandez",
+      "contributions": 1
+    },
     {
       "id": 13682115,
       "login": "zmrfzn",
@@ -396,17 +403,17 @@
       "contributions": 4
     },
     {
+      "id": 3536684,
+      "login": "sschwartzman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
+      "htmlUrl": "https://github.com/sschwartzman",
+      "contributions": 4
+    },
+    {
       "id": 3969485,
       "login": "brushknight",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3969485?v=4",
       "htmlUrl": "https://github.com/brushknight",
-      "contributions": 5
-    },
-    {
-      "id": 455419,
-      "login": "jthurman42",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
-      "htmlUrl": "https://github.com/jthurman42",
       "contributions": 5
     },
     {
@@ -428,13 +435,6 @@
       "login": "lchapman4",
       "avatarUrl": "https://avatars.githubusercontent.com/u/46498444?v=4",
       "htmlUrl": "https://github.com/lchapman4",
-      "contributions": 9
-    },
-    {
-      "id": 3536684,
-      "login": "sschwartzman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
-      "htmlUrl": "https://github.com/sschwartzman",
       "contributions": 9
     },
     {
@@ -498,7 +498,7 @@
       "login": "cristianciutea",
       "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
       "htmlUrl": "https://github.com/cristianciutea",
-      "contributions": 30
+      "contributions": 32
     },
     {
       "id": 41006835,
@@ -519,7 +519,7 @@
       "login": "Kav91",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 194
+      "contributions": 196
     }
   ],
   "languages": [

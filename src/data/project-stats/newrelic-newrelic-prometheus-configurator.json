@@ -3,27 +3,20 @@
   "issues": {
     "open": 3
   },
-  "releases": 25,
+  "releases": 28,
   "latestRelease": {
-    "name": "newrelic-prometheus-agent-1.2.0",
-    "date": "2023-05-12T05:06:05Z"
+    "name": "v1.4.2",
+    "date": "2023-06-08T23:49:50Z"
   },
-  "commits": 221,
-  "lastSixMonthsCommitTotal": 54,
+  "commits": 235,
+  "lastSixMonthsCommitTotal": 58,
   "contributors": 18,
   "pullRequests": {
-    "open": 5
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 125097052,
-      "login": "xqi-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
-      "htmlUrl": "https://github.com/xqi-nr",
-      "contributions": 1
-    },
     {
       "id": 8403155,
       "login": "maxlemieux",
@@ -46,17 +39,10 @@
       "contributions": 1
     },
     {
-      "id": 7085372,
-      "login": "juanjjaramillo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
-      "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 3
-    },
-    {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
+      "id": 125097052,
+      "login": "xqi-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
+      "htmlUrl": "https://github.com/xqi-nr",
       "contributions": 3
     },
     {
@@ -79,6 +65,20 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/13966363?v=4",
       "htmlUrl": "https://github.com/carlossscastro",
       "contributions": 3
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 4
+    },
+    {
+      "id": 7085372,
+      "login": "juanjjaramillo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
+      "htmlUrl": "https://github.com/juanjjaramillo",
+      "contributions": 4
     },
     {
       "id": 66266496,
@@ -113,7 +113,7 @@
       "login": "newrelic-coreint-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
       "htmlUrl": "https://github.com/newrelic-coreint-bot",
-      "contributions": 17
+      "contributions": 20
     },
     {
       "id": 43335750,
@@ -130,18 +130,18 @@
       "contributions": 36
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 37
-    },
-    {
       "id": 5143130,
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
       "contributions": 40
+    },
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 41
     }
   ],
   "languages": [

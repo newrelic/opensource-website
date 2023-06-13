@@ -3,20 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 14,
+  "releases": 2,
   "latestRelease": {
-    "name": "nr-otel-collector-0.0.16",
-    "date": "2023-05-18T14:24:19Z"
+    "name": "nr-otel-collector-0.0.2",
+    "date": "2023-05-31T14:05:10Z"
   },
-  "commits": 45,
-  "lastSixMonthsCommitTotal": 45,
-  "contributors": 8,
+  "commits": 53,
+  "lastSixMonthsCommitTotal": 53,
+  "contributors": 9,
   "pullRequests": {
-    "open": 4
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 442627,
+      "login": "sigilioso",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
+      "htmlUrl": "https://github.com/sigilioso",
+      "contributions": 1
+    },
     {
       "id": 5143130,
       "login": "gsanchezgavier",
@@ -30,13 +37,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/97467528?v=4",
       "htmlUrl": "https://github.com/CliftonDobrich",
       "contributions": 1
-    },
-    {
-      "id": 3969485,
-      "login": "brushknight",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3969485?v=4",
-      "htmlUrl": "https://github.com/brushknight",
-      "contributions": 3
     },
     {
       "id": 11422515,
@@ -65,6 +65,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
       "htmlUrl": "https://github.com/cristianciutea",
       "contributions": 8
+    },
+    {
+      "id": 3969485,
+      "login": "brushknight",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3969485?v=4",
+      "htmlUrl": "https://github.com/brushknight",
+      "contributions": 10
     },
     {
       "id": 33873530,

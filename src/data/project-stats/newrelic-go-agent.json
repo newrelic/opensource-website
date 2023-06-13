@@ -3,16 +3,16 @@
   "issues": {
     "open": 50
   },
-  "releases": 184,
+  "releases": 188,
   "latestRelease": {
-    "name": "v3.21.1",
-    "date": "2023-04-27T20:25:57Z"
+    "name": "v3.22.1",
+    "date": "2023-06-02T17:45:45Z"
   },
-  "commits": 2624,
-  "lastSixMonthsCommitTotal": 110,
+  "commits": 2682,
+  "lastSixMonthsCommitTotal": 159,
   "contributors": 54,
   "pullRequests": {
-    "open": 15
+    "open": 19
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -35,13 +35,6 @@
     }
   ],
   "cachedContributors": [
-    {
-      "id": 130408044,
-      "login": "pliu-newrelic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/130408044?v=4",
-      "htmlUrl": "https://github.com/pliu-newrelic",
-      "contributions": 1
-    },
     {
       "id": 69914680,
       "login": "angelatan2",
@@ -253,10 +246,10 @@
       "contributions": 1
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
+      "id": 130408044,
+      "login": "pliu-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/130408044?v=4",
+      "htmlUrl": "https://github.com/pliu-newrelic",
       "contributions": 2
     },
     {
@@ -351,6 +344,13 @@
       "contributions": 9
     },
     {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 12
+    },
+    {
       "id": 3723686,
       "login": "TylerConlee",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3723686?v=4",
@@ -372,13 +372,6 @@
       "contributions": 17
     },
     {
-      "id": 55501260,
-      "login": "mirackara",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/55501260?v=4",
-      "htmlUrl": "https://github.com/mirackara",
-      "contributions": 25
-    },
-    {
       "id": 13123145,
       "login": "RichVanderwal",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13123145?v=4",
@@ -386,18 +379,18 @@
       "contributions": 31
     },
     {
+      "id": 55501260,
+      "login": "mirackara",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55501260?v=4",
+      "htmlUrl": "https://github.com/mirackara",
+      "contributions": 37
+    },
+    {
       "id": 76975199,
       "login": "nr-swilloughby",
       "avatarUrl": "https://avatars.githubusercontent.com/u/76975199?v=4",
       "htmlUrl": "https://github.com/nr-swilloughby",
-      "contributions": 125
-    },
-    {
-      "id": 10124680,
-      "login": "iamemilio",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/10124680?v=4",
-      "htmlUrl": "https://github.com/iamemilio",
-      "contributions": 155
+      "contributions": 127
     },
     {
       "id": 52758187,
@@ -405,6 +398,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/52758187?v=4",
       "htmlUrl": "https://github.com/newrelic-eheinlein",
       "contributions": 155
+    },
+    {
+      "id": 10124680,
+      "login": "iamemilio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10124680?v=4",
+      "htmlUrl": "https://github.com/iamemilio",
+      "contributions": 165
     },
     {
       "id": 1383216,

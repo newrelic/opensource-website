@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/infrastructure-bundle",
   "issues": {
-    "open": 1
-  },
-  "releases": 100,
-  "latestRelease": {
-    "name": "v3.2.1",
-    "date": "2023-05-22T07:31:15Z"
-  },
-  "commits": 373,
-  "lastSixMonthsCommitTotal": 51,
-  "contributors": 26,
-  "pullRequests": {
     "open": 2
+  },
+  "releases": 106,
+  "latestRelease": {
+    "name": "v3.2.7",
+    "date": "2023-06-09T10:49:20Z"
+  },
+  "commits": 410,
+  "lastSixMonthsCommitTotal": 84,
+  "contributors": 27,
+  "pullRequests": {
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 442627,
+      "login": "sigilioso",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
+      "htmlUrl": "https://github.com/sigilioso",
+      "contributions": 1
+    },
     {
       "id": 13966363,
       "login": "carlossscastro",
@@ -67,13 +74,6 @@
       "contributions": 1
     },
     {
-      "id": 115998732,
-      "login": "newrelic-coreint-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
-      "htmlUrl": "https://github.com/newrelic-coreint-bot",
-      "contributions": 2
-    },
-    {
       "id": 49699333,
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
@@ -102,13 +102,6 @@
       "contributions": 3
     },
     {
-      "id": 3638421,
-      "login": "alvarocabanas",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
-      "htmlUrl": "https://github.com/alvarocabanas",
-      "contributions": 3
-    },
-    {
       "id": 12560219,
       "login": "ivancorrales",
       "avatarUrl": "https://avatars.githubusercontent.com/u/12560219?v=4",
@@ -130,6 +123,13 @@
       "contributions": 4
     },
     {
+      "id": 3638421,
+      "login": "alvarocabanas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
+      "htmlUrl": "https://github.com/alvarocabanas",
+      "contributions": 5
+    },
+    {
       "id": 5297542,
       "login": "alejandrodnm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
@@ -142,6 +142,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
       "contributions": 6
+    },
+    {
+      "id": 115998732,
+      "login": "newrelic-coreint-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
+      "htmlUrl": "https://github.com/newrelic-coreint-bot",
+      "contributions": 7
     },
     {
       "id": 3969485,
@@ -197,7 +204,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 122
+      "contributions": 152
     }
   ],
   "languages": [

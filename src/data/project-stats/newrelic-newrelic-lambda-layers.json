@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-layers",
   "issues": {
-    "open": 11
+    "open": 10
   },
-  "releases": 293,
+  "releases": 296,
   "latestRelease": {
-    "name": "v10.1.1_nodejs",
-    "date": "2023-05-01T23:03:02Z"
+    "name": "v10.2.0_nodejs",
+    "date": "2023-05-30T20:31:08Z"
   },
-  "commits": 295,
-  "lastSixMonthsCommitTotal": 28,
+  "commits": 299,
+  "lastSixMonthsCommitTotal": 20,
   "contributors": 19,
   "pullRequests": {
-    "open": 1
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 5081648,
-      "login": "jtduffy",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5081648?v=4",
-      "htmlUrl": "https://github.com/jtduffy",
-      "contributions": 1
-    },
     {
       "id": 50109,
       "login": "gliptak",
@@ -51,6 +44,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
       "htmlUrl": "https://github.com/jaesius",
       "contributions": 1
+    },
+    {
+      "id": 5081648,
+      "login": "jtduffy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5081648?v=4",
+      "htmlUrl": "https://github.com/jtduffy",
+      "contributions": 2
     },
     {
       "id": 1874937,
@@ -141,7 +141,7 @@
       "login": "mrickard",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
       "htmlUrl": "https://github.com/mrickard",
-      "contributions": 59
+      "contributions": 60
     },
     {
       "id": 17498,

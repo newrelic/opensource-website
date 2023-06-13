@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-ecs",
   "issues": {
-    "open": 3
+    "open": 2
   },
-  "releases": 26,
+  "releases": 27,
   "latestRelease": {
-    "name": "v1.10.1",
-    "date": "2023-05-18T15:02:36Z"
+    "name": "v1.10.2",
+    "date": "2023-05-25T15:02:23Z"
   },
-  "commits": 78,
-  "lastSixMonthsCommitTotal": 25,
+  "commits": 87,
+  "lastSixMonthsCommitTotal": 31,
   "contributors": 17,
   "pullRequests": {
-    "open": 6
+    "open": 7
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -60,18 +60,18 @@
       "contributions": 1
     },
     {
-      "id": 115998732,
-      "login": "newrelic-coreint-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
-      "htmlUrl": "https://github.com/newrelic-coreint-bot",
-      "contributions": 2
-    },
-    {
       "id": 8235696,
       "login": "marcsanmi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8235696?v=4",
       "htmlUrl": "https://github.com/marcsanmi",
       "contributions": 2
+    },
+    {
+      "id": 115998732,
+      "login": "newrelic-coreint-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
+      "htmlUrl": "https://github.com/newrelic-coreint-bot",
+      "contributions": 3
     },
     {
       "id": 53659978,
@@ -88,18 +88,18 @@
       "contributions": 3
     },
     {
-      "id": 79498,
-      "login": "davidgit",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
-      "htmlUrl": "https://github.com/davidgit",
-      "contributions": 4
-    },
-    {
       "id": 969721,
       "login": "roobre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
       "htmlUrl": "https://github.com/roobre",
       "contributions": 4
+    },
+    {
+      "id": 79498,
+      "login": "davidgit",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
+      "htmlUrl": "https://github.com/davidgit",
+      "contributions": 5
     },
     {
       "id": 25180681,
@@ -120,7 +120,7 @@
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 8
+      "contributions": 9
     },
     {
       "id": 5143130,
@@ -134,7 +134,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 23
+      "contributions": 29
     }
   ],
   "languages": [

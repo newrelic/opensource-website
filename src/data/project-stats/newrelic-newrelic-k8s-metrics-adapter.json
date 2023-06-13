@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/newrelic-k8s-metrics-adapter",
   "issues": {
-    "open": 5
+    "open": 6
   },
-  "releases": 27,
+  "releases": 28,
   "latestRelease": {
-    "name": "newrelic-k8s-metrics-adapter-1.2.0",
-    "date": "2023-05-12T21:43:29Z"
+    "name": "v0.4.3",
+    "date": "2023-06-12T23:09:42Z"
   },
-  "commits": 180,
-  "lastSixMonthsCommitTotal": 52,
+  "commits": 185,
+  "lastSixMonthsCommitTotal": 56,
   "contributors": 19,
   "pullRequests": {
-    "open": 6
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 125097052,
-      "login": "xqi-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
-      "htmlUrl": "https://github.com/xqi-nr",
-      "contributions": 1
-    },
     {
       "id": 56414817,
       "login": "vuqtran88",
@@ -72,6 +65,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/82898004?v=4",
       "htmlUrl": "https://github.com/mangulonr",
       "contributions": 2
+    },
+    {
+      "id": 125097052,
+      "login": "xqi-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
+      "htmlUrl": "https://github.com/xqi-nr",
+      "contributions": 3
     },
     {
       "id": 79498,
@@ -127,7 +127,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 21
+      "contributions": 24
     },
     {
       "id": 66266496,

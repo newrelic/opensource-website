@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/k8s-metadata-injection",
   "issues": {
-    "open": 7
+    "open": 9
   },
-  "releases": 42,
+  "releases": 44,
   "latestRelease": {
-    "name": "v1.10.0",
-    "date": "2023-05-03T22:16:03Z"
+    "name": "v1.10.1",
+    "date": "2023-06-03T02:28:22Z"
   },
-  "commits": 191,
-  "lastSixMonthsCommitTotal": 41,
+  "commits": 196,
+  "lastSixMonthsCommitTotal": 43,
   "contributors": 29,
   "pullRequests": {
-    "open": 4
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -116,18 +116,18 @@
       "contributions": 2
     },
     {
-      "id": 7085372,
-      "login": "juanjjaramillo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
-      "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 3
-    },
-    {
       "id": 7886905,
       "login": "fryckbos",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
       "htmlUrl": "https://github.com/fryckbos",
       "contributions": 4
+    },
+    {
+      "id": 7085372,
+      "login": "juanjjaramillo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
+      "htmlUrl": "https://github.com/juanjjaramillo",
+      "contributions": 5
     },
     {
       "id": 29139614,
@@ -218,7 +218,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 36
+      "contributions": 39
     }
   ],
   "languages": [

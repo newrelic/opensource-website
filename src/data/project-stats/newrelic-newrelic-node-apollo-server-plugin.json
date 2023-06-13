@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-node-apollo-server-plugin",
   "issues": {
-    "open": 8
+    "open": 3
   },
-  "releases": 21,
+  "releases": 22,
   "latestRelease": {
-    "name": "v3.0.0",
+    "name": "v3.1.0",
     "date": null
   },
-  "commits": 471,
-  "lastSixMonthsCommitTotal": 32,
+  "commits": 494,
+  "lastSixMonthsCommitTotal": 51,
   "contributors": 18,
   "pullRequests": {
-    "open": 2
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -46,6 +46,13 @@
       "contributions": 1
     },
     {
+      "id": 12049854,
+      "login": "alanhr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12049854?v=4",
+      "htmlUrl": "https://github.com/alanhr",
+      "contributions": 1
+    },
+    {
       "id": 8594759,
       "login": "MightySCollins",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8594759?v=4",
@@ -64,13 +71,6 @@
       "login": "coreyarnold",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1428400?v=4",
       "htmlUrl": "https://github.com/coreyarnold",
-      "contributions": 2
-    },
-    {
-      "id": 12049854,
-      "login": "alanhr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12049854?v=4",
-      "htmlUrl": "https://github.com/alanhr",
       "contributions": 2
     },
     {
@@ -95,13 +95,6 @@
       "contributions": 3
     },
     {
-      "id": 3333180,
-      "login": "jmartin4563",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3333180?v=4",
-      "htmlUrl": "https://github.com/jmartin4563",
-      "contributions": 5
-    },
-    {
       "id": 883103,
       "login": "garbados",
       "avatarUrl": "https://avatars.githubusercontent.com/u/883103?v=4",
@@ -116,6 +109,13 @@
       "contributions": 7
     },
     {
+      "id": 3333180,
+      "login": "jmartin4563",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3333180?v=4",
+      "htmlUrl": "https://github.com/jmartin4563",
+      "contributions": 8
+    },
+    {
       "id": 398399,
       "login": "nijotz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/398399?v=4",
@@ -127,7 +127,7 @@
       "login": "jordigh",
       "avatarUrl": "https://avatars.githubusercontent.com/u/260143?v=4",
       "htmlUrl": "https://github.com/jordigh",
-      "contributions": 14
+      "contributions": 20
     },
     {
       "id": 11223178,
@@ -141,7 +141,7 @@
       "login": "bizob2828",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
       "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 119
+      "contributions": 128
     }
   ],
   "languages": [
