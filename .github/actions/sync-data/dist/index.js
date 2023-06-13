@@ -3680,12 +3680,6 @@ const createOctokit = ({ org, accessToken, tokenType = 'token', cacheKey }) => {
         log.warn(
           `SecondaryRateLimit detected for request ${options.method} ${options.url}`
         );
-      },
-      onAbuseLimit: (retryAfter, options) => {
-        // does not retry, only logs a warning
-        log.warn(`Abuse detected for request ${options.method} ${options.url}`);
-        log.json(options);
-        return true;
       }
     },
     log: {
