@@ -1,3 +1,18 @@
+## [1.24.9](https://github.com/newrelic/opensource-website/compare/v1.24.8...v1.24.9) (2023-06-13)
+
+
+### Bug Fixes
+
+* Revert back to using dist ([2ae024c](https://github.com/newrelic/opensource-website/commit/2ae024cb88fce924667867f3a67f614aca2ba5d1))
+* Revert github query syntax ([e760e0d](https://github.com/newrelic/opensource-website/commit/e760e0dd25495cea58e25bc29464e0780e632614))
+
+## [1.24.8](https://github.com/newrelic/opensource-website/compare/v1.24.7...v1.24.8) (2023-06-12)
+
+
+### Bug Fixes
+
+* Update octokit packages ([d1d849d](https://github.com/newrelic/opensource-website/commit/d1d849d91f01a3b06a9aababda83fdd8b1d9af7b))
+
 ## [1.24.7](https://github.com/newrelic/opensource-website/compare/v1.24.6...v1.24.7) (2023-06-05)
 
 
