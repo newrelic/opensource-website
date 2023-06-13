@@ -1,11 +1,10 @@
 {
   "name": "sync-data",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JavaScript Action Template",
   "main": "src/index.js",
   "scripts": {
     "lint": "eslint index.js",
-    "package": "ncc build src/index.js -o dist",
     "test": "eslint index.js && jest",
     "start": "node src/index.js",
     "eslint-check": "eslint src/",
