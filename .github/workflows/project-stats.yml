@@ -22,6 +22,11 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.DEVEX_OPENSOURCE_BOT_TOKEN }}
 
+      - name: Set up node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
       - name: Install dependencies
         run: cd .github/actions/sync-data && npm install
 
