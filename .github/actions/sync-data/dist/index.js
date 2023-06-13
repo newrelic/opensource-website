@@ -3680,12 +3680,6 @@ const createOctokit = ({ org, accessToken, tokenType = 'token', cacheKey }) => {
         log.warn(
           `SecondaryRateLimit detected for request ${options.method} ${options.url}`
         );
-      },
-      onAbuseLimit: (retryAfter, options) => {
-        // does not retry, only logs a warning
-        log.warn(`Abuse detected for request ${options.method} ${options.url}`);
-        log.json(options);
-        return true;
       }
     },
     log: {
@@ -11280,7 +11274,7 @@ async function fetchAllPages(
     const query = createQuery(endCursor);
     // log.json(query)
     // append new results to the collection array
-    apiResponse = await github.rest.query(query);
+    apiResponse = await github.query(query);
     const { nodes, pageInfo } = resultSelector(apiResponse) || {};
 
     if (!nodes || !pageInfo) {
