@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 76
+    "open": 64
   },
-  "releases": 100,
+  "releases": 101,
   "latestRelease": {
-    "name": "v10.10.0",
-    "date": "2023-04-26T20:53:00Z"
+    "name": "v10.11.0",
+    "date": "2023-06-06T22:42:32Z"
   },
-  "commits": 811,
-  "lastSixMonthsCommitTotal": 154,
+  "commits": 835,
+  "lastSixMonthsCommitTotal": 167,
   "contributors": 33,
   "pullRequests": {
-    "open": 8
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -88,13 +88,6 @@
       "contributions": 1
     },
     {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 2
-    },
-    {
       "id": 54716445,
       "login": "nr-security-github",
       "avatarUrl": "https://avatars.githubusercontent.com/u/54716445?v=4",
@@ -121,6 +114,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/58010132?v=4",
       "htmlUrl": "https://github.com/mmfred",
       "contributions": 2
+    },
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 3
     },
     {
       "id": 19733683,
@@ -158,13 +158,6 @@
       "contributions": 5
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 6
-    },
-    {
       "id": 11223178,
       "login": "michaelgoin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
@@ -172,18 +165,18 @@
       "contributions": 6
     },
     {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 7
+    },
+    {
       "id": 111462425,
       "login": "chynesNR",
       "avatarUrl": "https://avatars.githubusercontent.com/u/111462425?v=4",
       "htmlUrl": "https://github.com/chynesNR",
-      "contributions": 20
-    },
-    {
-      "id": 45495992,
-      "login": "nrcventura",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/45495992?v=4",
-      "htmlUrl": "https://github.com/nrcventura",
-      "contributions": 26
+      "contributions": 23
     },
     {
       "id": 69914680,
@@ -191,6 +184,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/69914680?v=4",
       "htmlUrl": "https://github.com/angelatan2",
       "contributions": 30
+    },
+    {
+      "id": 45495992,
+      "login": "nrcventura",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45495992?v=4",
+      "htmlUrl": "https://github.com/nrcventura",
+      "contributions": 31
     },
     {
       "id": 654808,
@@ -218,7 +218,7 @@
       "login": "tippmar-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/120425148?v=4",
       "htmlUrl": "https://github.com/tippmar-nr",
-      "contributions": 64
+      "contributions": 70
     },
     {
       "id": 56414817,
@@ -235,18 +235,18 @@
       "contributions": 106
     },
     {
-      "id": 57361211,
-      "login": "nr-ahemsath",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/57361211?v=4",
-      "htmlUrl": "https://github.com/nr-ahemsath",
-      "contributions": 176
-    },
-    {
       "id": 6098021,
       "login": "jaffinito",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6098021?v=4",
       "htmlUrl": "https://github.com/jaffinito",
-      "contributions": 178
+      "contributions": 180
+    },
+    {
+      "id": 57361211,
+      "login": "nr-ahemsath",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57361211?v=4",
+      "htmlUrl": "https://github.com/nr-ahemsath",
+      "contributions": 182
     }
   ],
   "languages": [

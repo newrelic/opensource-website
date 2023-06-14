@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 54
+    "open": 46
   },
-  "releases": 198,
+  "releases": 201,
   "latestRelease": {
-    "name": "v3.23.0",
-    "date": "2023-05-17T11:32:39Z"
+    "name": "v3.24.2",
+    "date": "2023-06-12T13:27:40Z"
   },
-  "commits": 3999,
-  "lastSixMonthsCommitTotal": 408,
+  "commits": 4013,
+  "lastSixMonthsCommitTotal": 326,
   "contributors": 100,
   "pullRequests": {
-    "open": 10
+    "open": 11
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -50,6 +50,13 @@
       "login": "chris-broes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7129094?v=4",
       "htmlUrl": "https://github.com/chris-broes",
+      "contributions": 1
+    },
+    {
+      "id": 455419,
+      "login": "jthurman42",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
+      "htmlUrl": "https://github.com/jthurman42",
       "contributions": 1
     },
     {
@@ -298,13 +305,6 @@
       "contributions": 2
     },
     {
-      "id": 105005893,
-      "login": "usfdmiller",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/105005893?v=4",
-      "htmlUrl": "https://github.com/usfdmiller",
-      "contributions": 2
-    },
-    {
       "id": 6666896,
       "login": "silanpa",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6666896?v=4",
@@ -387,6 +387,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/34520049?v=4",
       "htmlUrl": "https://github.com/link-publisher",
       "contributions": 2
+    },
+    {
+      "id": 105005893,
+      "login": "usfdmiller",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/105005893?v=4",
+      "htmlUrl": "https://github.com/usfdmiller",
+      "contributions": 3
     },
     {
       "id": 7753540,
@@ -557,13 +564,6 @@
       "contributions": 13
     },
     {
-      "id": 100915954,
-      "login": "Nandu-pns",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/100915954?v=4",
-      "htmlUrl": "https://github.com/Nandu-pns",
-      "contributions": 17
-    },
-    {
       "id": 13971824,
       "login": "Fallenstedt",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13971824?v=4",
@@ -578,18 +578,18 @@
       "contributions": 17
     },
     {
-      "id": 127438038,
-      "login": "pranav-new-relic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/127438038?v=4",
-      "htmlUrl": "https://github.com/pranav-new-relic",
-      "contributions": 18
-    },
-    {
       "id": 17018863,
       "login": "jaymcgrath",
       "avatarUrl": "https://avatars.githubusercontent.com/u/17018863?v=4",
       "htmlUrl": "https://github.com/jaymcgrath",
       "contributions": 18
+    },
+    {
+      "id": 100915954,
+      "login": "Nandu-pns",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100915954?v=4",
+      "htmlUrl": "https://github.com/Nandu-pns",
+      "contributions": 19
     },
     {
       "id": 63564633,
@@ -604,6 +604,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/99236372?v=4",
       "htmlUrl": "https://github.com/RavitejaSurampudi",
       "contributions": 20
+    },
+    {
+      "id": 127438038,
+      "login": "pranav-new-relic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127438038?v=4",
+      "htmlUrl": "https://github.com/pranav-new-relic",
+      "contributions": 24
     },
     {
       "id": 4684194,
@@ -652,7 +659,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 85
+      "contributions": 88
     },
     {
       "id": 29264964,
@@ -660,13 +667,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/29264964?v=4",
       "htmlUrl": "https://github.com/zlesnr",
       "contributions": 96
-    },
-    {
-      "id": 455419,
-      "login": "jthurman42",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
-      "htmlUrl": "https://github.com/jthurman42",
-      "contributions": 103
     },
     {
       "id": 92143956,
@@ -680,7 +680,7 @@
       "login": "kidk",
       "avatarUrl": "https://avatars.githubusercontent.com/u/184273?v=4",
       "htmlUrl": "https://github.com/kidk",
-      "contributions": 146
+      "contributions": 147
     },
     {
       "id": 93758351,

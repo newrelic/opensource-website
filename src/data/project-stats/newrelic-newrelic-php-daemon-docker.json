@@ -3,20 +3,27 @@
   "issues": {
     "open": 2
   },
-  "releases": 34,
+  "releases": 35,
   "latestRelease": {
-    "name": "v10.9.0",
+    "name": "v10.10.0",
     "date": null
   },
-  "commits": 74,
-  "lastSixMonthsCommitTotal": 12,
-  "contributors": 6,
+  "commits": 77,
+  "lastSixMonthsCommitTotal": 13,
+  "contributors": 7,
   "pullRequests": {
     "open": 18
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 148100,
+      "login": "invalid-email-address",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148100?v=4",
+      "htmlUrl": "https://github.com/invalid-email-address",
+      "contributions": 1
+    },
     {
       "id": 19822038,
       "login": "ZNeumann",
@@ -57,7 +64,7 @@
       "login": "zsistla",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43715151?v=4",
       "htmlUrl": "https://github.com/zsistla",
-      "contributions": 6
+      "contributions": 9
     }
   ],
   "languages": [
