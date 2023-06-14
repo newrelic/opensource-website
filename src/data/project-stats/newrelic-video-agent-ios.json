@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/video-agent-iOS",
   "issues": {
-    "open": 2
+    "open": 1
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "0.99.2",
+    "name": "1.0.0",
     "date": null
   },
-  "commits": 535,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 2,
+  "commits": 545,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 3,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 513491,
+      "login": "Boubalou",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/513491?v=4",
+      "htmlUrl": "https://github.com/Boubalou",
+      "contributions": 1
+    },
     {
       "id": 22030235,
       "login": "alarochelle",
@@ -29,7 +36,7 @@
       "login": "asllop",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6130000?v=4",
       "htmlUrl": "https://github.com/asllop",
-      "contributions": 165
+      "contributions": 172
     }
   ],
   "languages": [
