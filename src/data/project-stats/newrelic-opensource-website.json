@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 112,
+  "releases": 115,
   "latestRelease": {
-    "name": "v1.24.6",
-    "date": "2023-05-22T19:57:51Z"
+    "name": "v1.24.9",
+    "date": "2023-06-13T20:46:30Z"
   },
-  "commits": 3891,
-  "lastSixMonthsCommitTotal": 60,
+  "commits": 3918,
+  "lastSixMonthsCommitTotal": 86,
   "contributors": 75,
   "pullRequests": {
     "open": 1
@@ -17,6 +17,13 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 14365008,
+      "login": "sunnyzanchi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14365008?v=4",
+      "htmlUrl": "https://github.com/sunnyzanchi",
+      "contributions": 1
+    },
     {
       "id": 69914680,
       "login": "angelatan2",
@@ -270,6 +277,13 @@
       "contributions": 2
     },
     {
+      "id": 89222514,
+      "login": "ndesai-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89222514?v=4",
+      "htmlUrl": "https://github.com/ndesai-newrelic",
+      "contributions": 3
+    },
+    {
       "id": 81787716,
       "login": "akristen",
       "avatarUrl": "https://avatars.githubusercontent.com/u/81787716?v=4",
@@ -316,13 +330,6 @@
       "login": "sanderblue",
       "avatarUrl": "https://avatars.githubusercontent.com/u/2590905?v=4",
       "htmlUrl": "https://github.com/sanderblue",
-      "contributions": 3
-    },
-    {
-      "id": 455419,
-      "login": "jthurman42",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/455419?v=4",
-      "htmlUrl": "https://github.com/jthurman42",
       "contributions": 3
     },
     {
@@ -431,25 +438,18 @@
       "contributions": 13
     },
     {
-      "id": 2952843,
-      "login": "roadlittledawn",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2952843?v=4",
-      "htmlUrl": "https://github.com/roadlittledawn",
-      "contributions": 14
-    },
-    {
-      "id": 3536684,
-      "login": "sschwartzman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
-      "htmlUrl": "https://github.com/sschwartzman",
-      "contributions": 14
-    },
-    {
       "id": 19733683,
       "login": "snyk-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
       "contributions": 15
+    },
+    {
+      "id": 2952843,
+      "login": "roadlittledawn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2952843?v=4",
+      "htmlUrl": "https://github.com/roadlittledawn",
+      "contributions": 16
     },
     {
       "id": 47728020,
@@ -487,13 +487,6 @@
       "contributions": 23
     },
     {
-      "id": 39655074,
-      "login": "LizBaker",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
-      "htmlUrl": "https://github.com/LizBaker",
-      "contributions": 26
-    },
-    {
       "id": 32174276,
       "login": "semantic-release-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32174276?v=4",
@@ -506,6 +499,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17122543?v=4",
       "htmlUrl": "https://github.com/rudouglas",
       "contributions": 33
+    },
+    {
+      "id": 39655074,
+      "login": "LizBaker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39655074?v=4",
+      "htmlUrl": "https://github.com/LizBaker",
+      "contributions": 35
     },
     {
       "id": 8813505,
@@ -540,7 +540,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 2212
+      "contributions": 2215
     }
   ],
   "languages": [
