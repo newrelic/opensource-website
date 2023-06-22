@@ -3,16 +3,16 @@
   "issues": {
     "open": 9
   },
-  "releases": 44,
+  "releases": 46,
   "latestRelease": {
-    "name": "v1.10.1",
-    "date": "2023-06-03T02:28:22Z"
+    "name": "v1.10.2",
+    "date": "2023-06-21T21:47:10Z"
   },
-  "commits": 196,
-  "lastSixMonthsCommitTotal": 42,
+  "commits": 203,
+  "lastSixMonthsCommitTotal": 49,
   "contributors": 29,
   "pullRequests": {
-    "open": 4
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -88,13 +88,6 @@
       "contributions": 1
     },
     {
-      "id": 125097052,
-      "login": "xqi-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
-      "htmlUrl": "https://github.com/xqi-nr",
-      "contributions": 2
-    },
-    {
       "id": 5143130,
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
@@ -142,6 +135,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
       "htmlUrl": "https://github.com/davidgit",
       "contributions": 5
+    },
+    {
+      "id": 125097052,
+      "login": "xqi-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
+      "htmlUrl": "https://github.com/xqi-nr",
+      "contributions": 6
     },
     {
       "id": 8235696,
@@ -218,7 +218,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 39
+      "contributions": 43
     }
   ],
   "languages": [
