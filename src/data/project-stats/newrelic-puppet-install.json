@@ -3,27 +3,20 @@
   "issues": {
     "open": 0
   },
-  "releases": 11,
+  "releases": 12,
   "latestRelease": {
-    "name": "v0.4.3",
-    "date": "2023-06-15T16:05:27Z"
+    "name": "v0.5.0",
+    "date": "2023-06-27T15:29:56Z"
   },
-  "commits": 67,
-  "lastSixMonthsCommitTotal": 67,
+  "commits": 69,
+  "lastSixMonthsCommitTotal": 69,
   "contributors": 5,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 107837335,
-      "login": "NSSPKrishna",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/107837335?v=4",
-      "htmlUrl": "https://github.com/NSSPKrishna",
-      "contributions": 1
-    },
     {
       "id": 184273,
       "login": "kidk",
@@ -39,6 +32,13 @@
       "contributions": 1
     },
     {
+      "id": 107837335,
+      "login": "NSSPKrishna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107837335?v=4",
+      "htmlUrl": "https://github.com/NSSPKrishna",
+      "contributions": 2
+    },
+    {
       "id": 15141412,
       "login": "michaelkro",
       "avatarUrl": "https://avatars.githubusercontent.com/u/15141412?v=4",
@@ -50,7 +50,7 @@
       "login": "mbruzina",
       "avatarUrl": "https://avatars.githubusercontent.com/u/90725916?v=4",
       "htmlUrl": "https://github.com/mbruzina",
-      "contributions": 54
+      "contributions": 55
     }
   ],
   "languages": [
@@ -78,6 +78,11 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
     }
   ],
   "screenshots": [],
