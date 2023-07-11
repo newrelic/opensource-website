@@ -3,13 +3,13 @@
   "issues": {
     "open": 4
   },
-  "releases": 32,
+  "releases": 33,
   "latestRelease": {
-    "name": "v1.8.8",
-    "date": "2023-06-27T15:02:44Z"
+    "name": "v1.8.9",
+    "date": "2023-07-11T15:02:35Z"
   },
-  "commits": 328,
-  "lastSixMonthsCommitTotal": 67,
+  "commits": 330,
+  "lastSixMonthsCommitTotal": 69,
   "contributors": 25,
   "pullRequests": {
     "open": 1
@@ -116,18 +116,18 @@
       "contributions": 6
     },
     {
-      "id": 115998732,
-      "login": "newrelic-coreint-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
-      "htmlUrl": "https://github.com/newrelic-coreint-bot",
-      "contributions": 7
-    },
-    {
       "id": 969721,
       "login": "roobre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
       "htmlUrl": "https://github.com/roobre",
       "contributions": 7
+    },
+    {
+      "id": 115998732,
+      "login": "newrelic-coreint-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
+      "htmlUrl": "https://github.com/newrelic-coreint-bot",
+      "contributions": 8
     },
     {
       "id": 43335750,
@@ -190,7 +190,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 46
+      "contributions": 47
     }
   ],
   "languages": [
