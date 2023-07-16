@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic-experimental/newrelic-java-httpservlet-transaction-namer",
   "issues": {
-    "open": 2
+    "open": 1
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "2.1",
-    "date": "2020-10-01T01:13:47Z"
+    "name": "v2.1.1",
+    "date": "2023-07-16T09:46:40Z"
   },
-  "commits": 6,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 2,
+  "commits": 8,
+  "lastSixMonthsCommitTotal": 1,
+  "contributors": 3,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 44571906,
+      "login": "crshanks",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44571906?v=4",
+      "htmlUrl": "https://github.com/crshanks",
+      "contributions": 1
+    },
     {
       "id": 3536684,
       "login": "sschwartzman",
