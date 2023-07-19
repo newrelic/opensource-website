@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-nginx",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 25,
   "latestRelease": {
     "name": "v3.3.0",
     "date": "2023-06-02T13:08:40Z"
   },
-  "commits": 143,
-  "lastSixMonthsCommitTotal": 6,
-  "contributors": 26,
+  "commits": 150,
+  "lastSixMonthsCommitTotal": 13,
+  "contributors": 27,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -151,13 +151,6 @@
       "contributions": 3
     },
     {
-      "id": 43335750,
-      "login": "paologallinaharbur",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
-      "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 4
-    },
-    {
       "id": 7886905,
       "login": "fryckbos",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7886905?v=4",
@@ -165,11 +158,25 @@
       "contributions": 4
     },
     {
+      "id": 43335750,
+      "login": "paologallinaharbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
+      "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 5
+    },
+    {
       "id": 39911991,
       "login": "davidbrota",
       "avatarUrl": "https://avatars.githubusercontent.com/u/39911991?v=4",
       "htmlUrl": "https://github.com/davidbrota",
       "contributions": 5
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 6
     },
     {
       "id": 79498,
