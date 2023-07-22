@@ -3,20 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 20,
+  "releases": 21,
   "latestRelease": {
-    "name": "v0.5.2",
-    "date": "2022-02-22T21:49:46Z"
+    "name": "v0.6.0",
+    "date": "2023-07-21T12:45:07Z"
   },
-  "commits": 111,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 13,
+  "commits": 116,
+  "lastSixMonthsCommitTotal": 4,
+  "contributors": 14,
   "pullRequests": {
-    "open": 5
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 4308353,
+      "login": "turleynerd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4308353?v=4",
+      "htmlUrl": "https://github.com/turleynerd",
+      "contributions": 1
+    },
     {
       "id": 39655074,
       "login": "LizBaker",
@@ -92,7 +99,7 @@
       "login": "Kav91",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13043208?v=4",
       "htmlUrl": "https://github.com/Kav91",
-      "contributions": 9
+      "contributions": 10
     },
     {
       "id": 197140,
@@ -106,7 +113,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 22
+      "contributions": 23
     }
   ],
   "languages": [
