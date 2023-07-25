@@ -112,4 +112,4 @@ PageHeading.propTypes = {
   className: PropTypes.string,
 };
 
-export default withDarkMode(PageHeading);
+export default PageHeading;
