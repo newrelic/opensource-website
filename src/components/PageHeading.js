@@ -4,7 +4,6 @@ import { startCase } from 'lodash';
 import Image from './Image';
 
 import * as styles from './PageHeading.module.scss';
-import withDarkMode from './withDarkMode';
 
 const PageHeading = (props) => {
   const { project } = props;
