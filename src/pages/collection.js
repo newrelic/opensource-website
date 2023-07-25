@@ -12,7 +12,7 @@ export const query = graphql`
   query CollectionProjects {
     allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
+        projectType: { ne: "external" }
         projectTags: { elemMatch: { slug: { eq: "agent" } } }
       }
     ) {
@@ -35,37 +35,7 @@ const CollectionPage = ({ data, pageContext }) => {
       editLink={pageContext.fileRelativePath}
     >
       <SEO title="Open source projects to which New Relic contributes" />
-      <PageHeading
-        title="New Relic Agents"
-        subheader="Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras mattis consectetur purus sit amet fermentum."
-      />
-      <div className={styles.featuredVideoContainer}>
-        <div className="responsive-video">
-          <iframe
-            width="578"
-            height="328.125"
-            src="https://www.youtube.com/embed/g00AeKlECZA?controls=0"
-            frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
-        </div>
-      </div>
-      <section className={styles.primaryBodyCopy}>
-        <h5 className={styles.primaryBodyCopyHeader}>
-          Duis mollis, est non commodo luctus
-        </h5>
-        <p className={styles.primaryBodyCopyDescription}>
-          Etiam porta sem malesuada magna mollis euismod. Praesent commodo
-          cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper
-          ult nulla non metus auctor fringilla. Duis mollis, est non commodo
-          luctus, eu nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-          Lorem ipsum Fusce dapibus, tellus ac cursus commodo, tortor mauris
-          condimentum nibh, ut fermentum massa justo sit amet risus. Integer
-          posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu
-          leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum
-        </p>
-      </section>
+      <PageHeading title="New Relic Agents" />
       <div className={styles.collectionListingContainer}>
         <header className={styles.collectionListingHeaderSection}>
           <h4 className={styles.collectionListingHeaderSectionHeading}>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useDarkMode from 'use-dark-mode';
+import { useDarkMode } from '@newrelic/gatsby-theme-newrelic';
 import isLocalStorageAvailable from '../utils/isLocalStorageAvailable';
 
 const withDarkMode = (ComponentToWrap) => (props) => {

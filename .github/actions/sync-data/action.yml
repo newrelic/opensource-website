@@ -1,13 +1,13 @@
-name: "sync-data"
-description: "Sync project and project-stats data"
+name: 'sync-data'
+description: 'Sync project and project-stats data'
 inputs:
   github-token:
-    description: "Token to use for authentication to GitHub APIs"
+    description: 'Token to use for authentication to GitHub APIs'
     required: true
   projects:
-    description: "true/false - determines whether to fetch and sync the project data"
+    description: 'true/false - determines whether to fetch and sync the project data'
   project-stats:
-    description: "true/false - determines whether to fetch and sync the project-stats data"
+    description: 'true/false - determines whether to fetch and sync the project-stats data'
 runs:
-  using: "node12"
-  main: "dist/index.js"
+  using: 'node16'
+  main: 'dist/index.js'

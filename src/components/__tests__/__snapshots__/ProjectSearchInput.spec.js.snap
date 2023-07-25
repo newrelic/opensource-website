@@ -83,8 +83,9 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -257,6 +258,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         >
           <div
             className="emotion-6"
+            href={false}
             onClick={[Function]}
           >
             All Categories
@@ -290,6 +292,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         >
           <div
             className="emotion-6"
+            href={false}
             onClick={[Function]}
           >
             All Project Tags
@@ -323,6 +326,7 @@ exports[`ProjectSearchInput Renders correctly 1`] = `
         >
           <div
             className="emotion-6"
+            href={false}
             onClick={[Function]}
           >
             All Language Types

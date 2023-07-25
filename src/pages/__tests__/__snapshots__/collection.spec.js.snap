@@ -146,8 +146,9 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -488,8 +489,9 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -592,8 +594,9 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -635,8 +638,9 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
   line-height: 1;
   cursor: pointer;
   border: 1px solid transparent;
-  -webkit-transition: all 0.15s ease-out;
-  transition: all 0.15s ease-out;
+  transition-duration: 0.15s;
+  transition-property: color,background;
+  transition-timing-function: ease-out;
   white-space: nowrap;
   -webkit-text-decoration: none;
   text-decoration: none;
@@ -1330,28 +1334,6 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
     className="emotion-101"
   >
     <div>
-      <div
-        className="responsive-video"
-      >
-        <iframe
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen={true}
-          frameBorder="0"
-          height="328.125"
-          src="https://www.youtube.com/embed/g00AeKlECZA?controls=0"
-          width="578"
-        />
-      </div>
-    </div>
-    <section>
-      <h5>
-        Duis mollis, est non commodo luctus
-      </h5>
-      <p>
-        Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper ult nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, eu nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum
-      </p>
-    </section>
-    <div>
       <header>
         <h4>
           Our Agents
@@ -1404,7 +1386,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
               rel="noopener"
               target="_blank"
             >
-              DCMA Policy
+              DMCA Policy
             </a>
             <a
               href="https://newrelic.com/termsandconditions/services-notices"
@@ -1432,7 +1414,7 @@ exports[`Data Collection Agents Page Renders correctly 1`] = `
             </a>
           </div>
           <div
-            className="emotion-104"
+            className=" emotion-104"
           >
             <p>
               This site is protected by reCAPTCHA and the Google

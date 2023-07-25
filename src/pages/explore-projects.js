@@ -19,7 +19,7 @@ import * as styles from './explore-projects.module.scss';
 
 export const query = graphql`
   query ExploreProjects($path: String) {
-    allProjects(filter: { projectType: { eq: "newrelic" } }) {
+    allProjects(filter: { projectType: { ne: "external" } }) {
       edges {
         node {
           ...exploreProjectsFields

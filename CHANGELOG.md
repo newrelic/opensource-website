@@ -1,3 +1,83 @@
+## [1.24.9](https://github.com/newrelic/opensource-website/compare/v1.24.8...v1.24.9) (2023-06-13)
+
+
+### Bug Fixes
+
+* Revert back to using dist ([2ae024c](https://github.com/newrelic/opensource-website/commit/2ae024cb88fce924667867f3a67f614aca2ba5d1))
+* Revert github query syntax ([e760e0d](https://github.com/newrelic/opensource-website/commit/e760e0dd25495cea58e25bc29464e0780e632614))
+
+## [1.24.8](https://github.com/newrelic/opensource-website/compare/v1.24.7...v1.24.8) (2023-06-12)
+
+
+### Bug Fixes
+
+* Update octokit packages ([d1d849d](https://github.com/newrelic/opensource-website/commit/d1d849d91f01a3b06a9aababda83fdd8b1d9af7b))
+
+## [1.24.7](https://github.com/newrelic/opensource-website/compare/v1.24.6...v1.24.7) (2023-06-05)
+
+
+### Bug Fixes
+
+* remove lorem ipsum from collection page ([3ca4340](https://github.com/newrelic/opensource-website/commit/3ca4340abc6ee7551905b54f9e9e9ef21afb0097))
+
+## [1.24.6](https://github.com/newrelic/opensource-website/compare/v1.24.5...v1.24.6) (2023-05-22)
+
+
+### Bug Fixes
+
+* Search input no longer sets darkMode to undefined ([56a1a67](https://github.com/newrelic/opensource-website/commit/56a1a676b14b9c60aa75dbda5516392d029f3c04))
+
+## [1.24.5](https://github.com/newrelic/opensource-website/compare/v1.24.4...v1.24.5) (2023-04-18)
+
+
+### Bug Fixes
+
+* update jest snapshot ([23fd351](https://github.com/newrelic/opensource-website/commit/23fd351834db14691238f15e23850b4914c77f5a))
+
+## [1.24.4](https://github.com/newrelic/opensource-website/compare/v1.24.3...v1.24.4) (2023-04-05)
+
+
+### Bug Fixes
+
+* Filter for newrelic projects differently ([a31f3eb](https://github.com/newrelic/opensource-website/commit/a31f3eb3c7f850f3da4a6da97f0ed71771eea965))
+
+## [1.24.3](https://github.com/newrelic/opensource-website/compare/v1.24.2...v1.24.3) (2023-03-29)
+
+
+### Bug Fixes
+
+* add work around for jest ([9ace54d](https://github.com/newrelic/opensource-website/commit/9ace54deaf56737ba0b0dc8643b96947524bfe8e))
+* Ignore css prop warnings ([532a760](https://github.com/newrelic/opensource-website/commit/532a760df4e93361815652cbe1ad8afbf03a4a97))
+* linting issue, added key attribute to iterated items ([a88d44d](https://github.com/newrelic/opensource-website/commit/a88d44da105859f9057433f613d2cbc39583fa31))
+
+## [1.24.2](https://github.com/newrelic/opensource-website/compare/v1.24.1...v1.24.2) (2023-03-28)
+
+
+### Bug Fixes
+
+* Update test snapshots ([f205b6f](https://github.com/newrelic/opensource-website/commit/f205b6fecd201e9ae8ee2f133a34df9bac5438c0))
+
+## [1.24.1](https://github.com/newrelic/opensource-website/compare/v1.24.0...v1.24.1) (2023-02-28)
+
+
+### Bug Fixes
+
+* consolidate on using devex token ([a5d04dd](https://github.com/newrelic/opensource-website/commit/a5d04ddc29cdc2634433d4aebc589bb9a2a47ba1))
+* use single token for running GH action ([1e4d066](https://github.com/newrelic/opensource-website/commit/1e4d06602a1f5721df6f37cda87db0f2f24af124))
+* use specific token ([3ff0721](https://github.com/newrelic/opensource-website/commit/3ff0721ae12a0028489c56fc341c3f61f1054aed))
+
+# [1.24.0](https://github.com/newrelic/opensource-website/compare/v1.23.0...v1.24.0) (2023-02-21)
+
+
+### Bug Fixes
+
+* use html code fence ([4fbb5e2](https://github.com/newrelic/opensource-website/commit/4fbb5e297b9d1cf989b8ad247b0f4e6a37217497))
+
+
+### Features
+
+* add light and dark mode repo banner images ([dfb7884](https://github.com/newrelic/opensource-website/commit/dfb7884a19524c405393df24a5286f885b05c2e2))
+
 # [1.23.0](https://github.com/newrelic/opensource-website/compare/v1.22.3...v1.23.0) (2023-01-31)
 
 

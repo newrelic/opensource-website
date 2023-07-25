@@ -14,7 +14,7 @@ export const query = graphql`
   query allCollections($path: String) {
     instrumentation: allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
+        projectType: { ne: "external" }
         projectTags: {
           elemMatch: {
             slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
@@ -31,7 +31,7 @@ export const query = graphql`
 
     nerdpacks: allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
+        projectType: { ne: "external" }
         projectTags: { elemMatch: { slug: { eq: "nr1-app" } } }
       } # sort: { fields: stats___lastSixMonthsCommitTotal, order: DESC }
     ) {

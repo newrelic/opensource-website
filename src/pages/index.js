@@ -12,7 +12,7 @@ import * as styles from './home-page.module.scss';
 
 export const query = graphql`
   query HomePageQuery($path: String) {
-    topProjects: allProjects(filter: { projectType: { eq: "newrelic" } }) {
+    topProjects: allProjects(filter: { projectType: { ne: "external" } }) {
       edges {
         node {
           ...projectFields
@@ -21,7 +21,7 @@ export const query = graphql`
     }
     instrumentation: allProjects(
       filter: {
-        projectType: { eq: "newrelic" }
+        projectType: { ne: "external" }
         projectTags: {
           elemMatch: {
             slug: { in: ["exporter", "nri", "agent", "sdk", "cli"] }
