@@ -1337,6 +1337,18 @@ exports[`OSS Category Page Renders correctly 1`] = `
     className="emotion-102"
   >
     <div
+      className="undefined     
+      "
+    >
+      <h1>
+        New Relic Open Source Categories
+      </h1>
+      <p>
+        Every public repository in the New Relic and New Relic Experimental GitHub organizations leverages one of the following categories
+      </p>
+      
+    </div>
+    <div
       className="primary-content"
     >
       <aside
