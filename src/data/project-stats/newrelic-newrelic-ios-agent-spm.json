@@ -3,16 +3,16 @@
   "issues": {
     "open": 18
   },
-  "releases": 19,
+  "releases": 20,
   "latestRelease": {
-    "name": "7.4.5",
-    "date": "2023-05-31T20:08:28Z"
+    "name": "7.4.6",
+    "date": null
   },
-  "commits": 40,
-  "lastSixMonthsCommitTotal": 9,
+  "commits": 43,
+  "lastSixMonthsCommitTotal": 12,
   "contributors": 6,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -50,7 +50,7 @@
       "login": "cdillard-NewRelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/103527346?v=4",
       "htmlUrl": "https://github.com/cdillard-NewRelic",
-      "contributions": 7
+      "contributions": 9
     },
     {
       "id": 84096330,
@@ -65,6 +65,11 @@
       "id": "MDg6TGFuZ3VhZ2UzNzE=",
       "name": "Swift",
       "color": "#F05138"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
