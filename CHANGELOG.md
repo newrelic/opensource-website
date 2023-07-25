@@ -1,3 +1,12 @@
+## [1.24.10](https://github.com/newrelic/opensource-website/compare/v1.24.9...v1.24.10) (2023-07-25)
+
+
+### Bug Fixes
+
+* remove HOC from PageHeading ([03bf4db](https://github.com/newrelic/opensource-website/commit/03bf4dbc8171fedb66e2eada8560ff76da66bb1d))
+* remove test code ([ffc1c0e](https://github.com/newrelic/opensource-website/commit/ffc1c0e7aae56875c6863e2ca1d6155e15008283))
+* Update jest snapshot, remove withDarkMode import statement ([5395cc8](https://github.com/newrelic/opensource-website/commit/5395cc82fdf792d68aeca1aaf5574309f68209ac))
+
 ## [1.24.9](https://github.com/newrelic/opensource-website/compare/v1.24.8...v1.24.9) (2023-06-13)
 
 
