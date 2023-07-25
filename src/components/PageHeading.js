@@ -58,8 +58,6 @@ const PageHeading = (props) => {
     }
   };
 
-  console.log('hasIcon', hasIcon(), props);
-
   return (
     <div
       className={`${styles.pageHeadingContainer} ${
@@ -78,11 +76,7 @@ const PageHeading = (props) => {
           />
         </div>
       )}
-      {props.title ? (
-        <h1 className={styles.pageTitle}>{props.title} this is a test</h1>
-      ) : (
-        ''
-      )}
+      {props.title ? <h1 className={styles.pageTitle}>{props.title}</h1> : ''}
       {props.subheader ? (
         <p className={styles.pageSubheader}>{props.subheader}</p>
       ) : (
