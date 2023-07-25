@@ -1412,6 +1412,25 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     className="emotion-107"
   >
     <div
+      className="undefined undefined   undefined 
+      "
+    >
+      <div>
+        <img
+          alt="Icon for Adopt OpenJDK"
+          onError={[Function]}
+          src="../images/adopt-open-jdk-icon.jpg"
+        />
+      </div>
+      <h1>
+        Adopt OpenJDK
+      </h1>
+      <p>
+        The Community and code behind the Build Farm which produces high quality, FREE OpenJDK (Java) binaries.
+      </p>
+      
+    </div>
+    <div
       className="primary-content"
     >
       <main
@@ -2993,6 +3012,25 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   <main
     className="emotion-107"
   >
+    <div
+      className="undefined undefined   undefined 
+      "
+    >
+      <div>
+        <img
+          alt="Icon for Adopt OpenJDK"
+          onError={[Function]}
+          src="../images/adopt-open-jdk-icon.jpg"
+        />
+      </div>
+      <h1>
+        Adopt OpenJDK
+      </h1>
+      <p>
+        The Community and code behind the Build Farm which produces high quality, FREE OpenJDK (Java) binaries.
+      </p>
+      
+    </div>
     <div
       className="primary-content"
     >

@@ -13,11 +13,6 @@ const Image = (props) => {
   const [currentSrc, setCurrentSrc] = useState(props.src);
   const [errored, setErrored] = useState(false);
 
-  const [isClient, setIsClient] = useState(false);
-  React.useEffect(() => {
-    setIsClient(true);
-  }, []);
-
   React.useEffect(() => {
     if (errored) {
       setCurrentSrc(props.fallbackSrc);
@@ -32,10 +27,6 @@ const Image = (props) => {
   };
 
   const { src, fallbackSrc, ...remainingProps } = props;
-
-  if (!isClient) {
-    return null;
-  }
 
   return (
     <>
