@@ -1,0 +1,78 @@
+{
+  "projectFullName": "newrelic/newrelic-ndk-agent",
+  "issues": {
+    "open": 5
+  },
+  "releases": 5,
+  "latestRelease": {
+    "name": "1.0.3",
+    "date": null
+  },
+  "commits": 44,
+  "lastSixMonthsCommitTotal": 20,
+  "contributors": 3,
+  "pullRequests": {
+    "open": 1
+  },
+  "searchCategory": "good first issue",
+  "cachedIssues": [],
+  "cachedContributors": [
+    {
+      "id": 82047437,
+      "login": "JustinRush-NR",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82047437?v=4",
+      "htmlUrl": "https://github.com/JustinRush-NR",
+      "contributions": 1
+    },
+    {
+      "id": 84047247,
+      "login": "ywang-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84047247?v=4",
+      "htmlUrl": "https://github.com/ywang-nr",
+      "contributions": 9
+    },
+    {
+      "id": 69995562,
+      "login": "cthomas-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/69995562?v=4",
+      "htmlUrl": "https://github.com/cthomas-newrelic",
+      "contributions": 20
+    }
+  ],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0NDA=",
+      "name": "CMake",
+      "color": "#DA3434"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDI=",
+      "name": "C++",
+      "color": "#f34b7d"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDk=",
+      "name": "C",
+      "color": "#555555"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UyNzI=",
+      "name": "Kotlin",
+      "color": "#A97BFF"
+    }
+  ],
+  "screenshots": [],
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
+}
