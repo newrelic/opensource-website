@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 115,
+  "releases": 116,
   "latestRelease": {
-    "name": "v1.24.9",
-    "date": "2023-06-13T20:46:30Z"
+    "name": "v1.24.10",
+    "date": "2023-07-25T21:59:32Z"
   },
-  "commits": 3918,
-  "lastSixMonthsCommitTotal": 81,
+  "commits": 3924,
+  "lastSixMonthsCommitTotal": 87,
   "contributors": 75,
   "pullRequests": {
     "open": 1
@@ -431,13 +431,6 @@
       "contributions": 12
     },
     {
-      "id": 26727669,
-      "login": "clarkmcadoo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/26727669?v=4",
-      "htmlUrl": "https://github.com/clarkmcadoo",
-      "contributions": 13
-    },
-    {
       "id": 19733683,
       "login": "snyk-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
@@ -457,6 +450,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/47728020?v=4",
       "htmlUrl": "https://github.com/tabathadelane",
       "contributions": 16
+    },
+    {
+      "id": 26727669,
+      "login": "clarkmcadoo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26727669?v=4",
+      "htmlUrl": "https://github.com/clarkmcadoo",
+      "contributions": 17
     },
     {
       "id": 70179215,
@@ -540,7 +540,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 2215
+      "contributions": 2216
     }
   ],
   "languages": [
@@ -558,6 +558,11 @@
       "id": "MDg6TGFuZ3VhZ2U2MDU=",
       "name": "SCSS",
       "color": "#c6538c"
+    },
+    {
+      "id": "LAN_kgDNA4c",
+      "name": "MDX",
+      "color": "#fcb32c"
     }
   ],
   "screenshots": [],
