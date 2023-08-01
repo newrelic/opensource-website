@@ -3,20 +3,27 @@
   "issues": {
     "open": 0
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "1.0",
-    "date": "2022-02-25T19:37:08Z"
+    "name": "v1.0.2",
+    "date": "2023-08-01T09:01:01Z"
   },
-  "commits": 15,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 4,
+  "commits": 24,
+  "lastSixMonthsCommitTotal": 14,
+  "contributors": 5,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 65916846,
+      "login": "actions-user",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65916846?v=4",
+      "htmlUrl": "https://github.com/actions-user",
+      "contributions": 1
+    },
     {
       "id": 41585091,
       "login": "hsinghkalsi",
@@ -32,18 +39,18 @@
       "contributions": 2
     },
     {
-      "id": 113113837,
-      "login": "gsidhwani-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/113113837?v=4",
-      "htmlUrl": "https://github.com/gsidhwani-nr",
-      "contributions": 3
-    },
-    {
       "id": 8822859,
       "login": "dhilpipre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
       "htmlUrl": "https://github.com/dhilpipre",
       "contributions": 7
+    },
+    {
+      "id": 113113837,
+      "login": "gsidhwani-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113113837?v=4",
+      "htmlUrl": "https://github.com/gsidhwani-nr",
+      "contributions": 9
     }
   ],
   "languages": [
