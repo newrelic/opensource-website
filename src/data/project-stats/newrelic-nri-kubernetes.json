@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/nri-kubernetes",
   "issues": {
-    "open": 33
+    "open": 13
   },
   "releases": 132,
   "latestRelease": {
@@ -12,44 +12,10 @@
   "lastSixMonthsCommitTotal": 148,
   "contributors": 38,
   "pullRequests": {
-    "open": 8
+    "open": 11
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
-    {
-      "id": "I_kwDOELKjF84871fO",
-      "title": "Scrape metrics using protobuf when possible",
-      "url": "https://github.com/newrelic/nri-kubernetes/issues/234",
-      "createdAt": "2021-10-11T06:35:59Z",
-      "comments": {
-        "totalCount": 5
-      },
-      "author": {
-        "login": "invidian",
-        "id": "MDQ6VXNlcjE2NTM5ODk2",
-        "email": "",
-        "name": "Mateusz Gozdek"
-      },
-      "number": 234,
-      "createdBy": "Mateusz Gozdek"
-    },
-    {
-      "id": "I_kwDOELKjF85HHBRP",
-      "title": "Integration version",
-      "url": "https://github.com/newrelic/nri-kubernetes/issues/392",
-      "createdAt": "2022-04-05T11:34:13Z",
-      "comments": {
-        "totalCount": 2
-      },
-      "author": {
-        "login": "paologallinaharbur",
-        "id": "MDQ6VXNlcjQzMzM1NzUw",
-        "email": "",
-        "name": "PaoloGallina"
-      },
-      "number": 392,
-      "createdBy": "PaoloGallina"
-    },
     {
       "id": "I_kwDOELKjF85Mz3XU",
       "title": "[chart] Old v3 chart is not marked as deprecated in the old index",
