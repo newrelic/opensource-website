@@ -3,13 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 72,
-  "lastSixMonthsCommitTotal": 72,
+  "releases": 5,
+  "latestRelease": {
+    "name": "v1.0.21",
+    "date": "2023-08-07T09:48:12Z"
+  },
+  "commits": 83,
+  "lastSixMonthsCommitTotal": 83,
   "contributors": 3,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -26,7 +29,7 @@
       "login": "amir-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/135014719?v=4",
       "htmlUrl": "https://github.com/amir-newrelic",
-      "contributions": 14
+      "contributions": 20
     },
     {
       "id": 131582992,
