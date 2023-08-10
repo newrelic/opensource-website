@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-node-nextjs",
   "issues": {
-    "open": 11
+    "open": 9
   },
-  "releases": 9,
+  "releases": 10,
   "latestRelease": {
-    "name": "v0.5.2",
+    "name": "v0.6.0",
     "date": null
   },
-  "commits": 222,
-  "lastSixMonthsCommitTotal": 50,
-  "contributors": 14,
+  "commits": 228,
+  "lastSixMonthsCommitTotal": 56,
+  "contributors": 15,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 2474092,
+      "login": "mkotamies",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2474092?v=4",
+      "htmlUrl": "https://github.com/mkotamies",
+      "contributions": 1
+    },
     {
       "id": 19733683,
       "login": "snyk-bot",
@@ -74,18 +81,18 @@
       "contributions": 3
     },
     {
-      "id": 11327,
-      "login": "mrickard",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
-      "htmlUrl": "https://github.com/mrickard",
-      "contributions": 6
-    },
-    {
       "id": 49699333,
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
       "contributions": 7
+    },
+    {
+      "id": 11327,
+      "login": "mrickard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
+      "htmlUrl": "https://github.com/mrickard",
+      "contributions": 9
     },
     {
       "id": 11223178,
