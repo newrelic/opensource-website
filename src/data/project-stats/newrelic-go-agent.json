@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/go-agent",
   "issues": {
-    "open": 44
+    "open": 43
   },
-  "releases": 207,
+  "releases": 217,
   "latestRelease": {
-    "name": "v3.24.0",
-    "date": "2023-07-31T21:52:18Z"
+    "name": "v3.24.1",
+    "date": "2023-08-10T21:40:13Z"
   },
-  "commits": 2799,
-  "lastSixMonthsCommitTotal": 244,
-  "contributors": 55,
+  "commits": 2809,
+  "lastSixMonthsCommitTotal": 254,
+  "contributors": 56,
   "pullRequests": {
-    "open": 6
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -35,6 +35,13 @@
     }
   ],
   "cachedContributors": [
+    {
+      "id": 120384471,
+      "login": "EugeneBalybin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120384471?v=4",
+      "htmlUrl": "https://github.com/EugeneBalybin",
+      "contributions": 1
+    },
     {
       "id": 69914680,
       "login": "angelatan2",
@@ -404,7 +411,7 @@
       "login": "nr-swilloughby",
       "avatarUrl": "https://avatars.githubusercontent.com/u/76975199?v=4",
       "htmlUrl": "https://github.com/nr-swilloughby",
-      "contributions": 160
+      "contributions": 164
     },
     {
       "id": 10124680,
