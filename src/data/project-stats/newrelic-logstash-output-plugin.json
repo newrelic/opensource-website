@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/logstash-output-plugin",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 23,
-  "lastSixMonthsCommitTotal": 0,
+  "commits": 26,
+  "lastSixMonthsCommitTotal": 3,
   "contributors": 7,
   "pullRequests": {
-    "open": 3
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -61,7 +61,7 @@
       "login": "jsubirat",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6243832?v=4",
       "htmlUrl": "https://github.com/jsubirat",
-      "contributions": 5
+      "contributions": 8
     }
   ],
   "languages": [
@@ -74,6 +74,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDE=",
       "name": "Ruby",
       "color": "#701516"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
