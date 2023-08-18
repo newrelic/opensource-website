@@ -1,12 +1,12 @@
 {
-  "projectFullName": "newrelic-experimental/monitoring-kubernetes-with-opentelemetry",
+  "projectFullName": "newrelic-experimental/nri-bosh-release-jammy",
   "issues": {
-    "open": 3
+    "open": 0
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 24,
-  "lastSixMonthsCommitTotal": 24,
+  "commits": 7,
+  "lastSixMonthsCommitTotal": 7,
   "contributors": 1,
   "pullRequests": {
     "open": 0
@@ -15,28 +15,18 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 52721344,
-      "login": "utr1903",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/52721344?v=4",
-      "htmlUrl": "https://github.com/utr1903",
-      "contributions": 18
+      "id": 31773568,
+      "login": "frank-martens",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31773568?v=4",
+      "htmlUrl": "https://github.com/frank-martens",
+      "contributions": 7
     }
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2U0MzE=",
-      "name": "Smarty",
-      "color": "#f0c040"
-    },
-    {
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
-      "name": "HCL",
-      "color": "#844FBA"
     }
   ],
   "screenshots": [],
