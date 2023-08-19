@@ -1,19 +1,40 @@
 {
   "projectFullName": "newrelic/newrelic-opentelemetry-examples",
   "issues": {
-    "open": 7
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 412,
-  "lastSixMonthsCommitTotal": 99,
-  "contributors": 17,
+  "commits": 427,
+  "lastSixMonthsCommitTotal": 114,
+  "contributors": 20,
   "pullRequests": {
-    "open": 7
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 52721344,
+      "login": "utr1903",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52721344?v=4",
+      "htmlUrl": "https://github.com/utr1903",
+      "contributions": 1
+    },
+    {
+      "id": 6328360,
+      "login": "matewilk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6328360?v=4",
+      "htmlUrl": "https://github.com/matewilk",
+      "contributions": 1
+    },
+    {
+      "id": 87386821,
+      "login": "kaylareopelle",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87386821?v=4",
+      "htmlUrl": "https://github.com/kaylareopelle",
+      "contributions": 1
+    },
     {
       "id": 65086728,
       "login": "pnvnd",
@@ -85,18 +106,18 @@
       "contributions": 3
     },
     {
-      "id": 48657837,
-      "login": "reese-lee",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/48657837?v=4",
-      "htmlUrl": "https://github.com/reese-lee",
-      "contributions": 9
-    },
-    {
       "id": 50715937,
       "login": "svetlanabrennan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
       "htmlUrl": "https://github.com/svetlanabrennan",
       "contributions": 9
+    },
+    {
+      "id": 48657837,
+      "login": "reese-lee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48657837?v=4",
+      "htmlUrl": "https://github.com/reese-lee",
+      "contributions": 10
     },
     {
       "id": 45495992,
@@ -117,7 +138,7 @@
       "login": "alanwest",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3676547?v=4",
       "htmlUrl": "https://github.com/alanwest",
-      "contributions": 33
+      "contributions": 43
     },
     {
       "id": 34418638,
@@ -131,7 +152,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 160
+      "contributions": 162
     }
   ],
   "languages": [
@@ -161,11 +182,6 @@
       "color": "#3572A5"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UxOTA=",
-      "name": "Go",
-      "color": "#00ADD8"
-    },
-    {
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
@@ -174,6 +190,21 @@
       "id": "MDg6TGFuZ3VhZ2UyNjQ=",
       "name": "PowerShell",
       "color": "#012456"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MTc=",
+      "name": "HTML",
+      "color": "#e34c26"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzMDg=",
+      "name": "CSS",
+      "color": "#563d7c"
     }
   ],
   "screenshots": [],
