@@ -3,20 +3,27 @@
   "issues": {
     "open": 0
   },
-  "releases": 49,
+  "releases": 51,
   "latestRelease": {
-    "name": "v1.12.0",
-    "date": "2023-08-23T23:43:13Z"
+    "name": "v1.13.0",
+    "date": "2023-08-24T16:46:58Z"
   },
-  "commits": 233,
-  "lastSixMonthsCommitTotal": 75,
-  "contributors": 35,
+  "commits": 239,
+  "lastSixMonthsCommitTotal": 81,
+  "contributors": 36,
   "pullRequests": {
-    "open": 7
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "contributions": 1
+    },
     {
       "id": 136511778,
       "login": "isaacadeleke-nr",
@@ -172,18 +179,18 @@
       "contributions": 6
     },
     {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 7
-    },
-    {
       "id": 125097052,
       "login": "xqi-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
       "htmlUrl": "https://github.com/xqi-nr",
       "contributions": 7
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 8
     },
     {
       "id": 159076,
@@ -218,7 +225,7 @@
       "login": "svetlanabrennan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
       "htmlUrl": "https://github.com/svetlanabrennan",
-      "contributions": 11
+      "contributions": 12
     },
     {
       "id": 43335750,
