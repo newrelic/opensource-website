@@ -8,15 +8,22 @@
     "name": "1.3.1",
     "date": "2023-08-14T17:23:09Z"
   },
-  "commits": 248,
-  "lastSixMonthsCommitTotal": 54,
-  "contributors": 12,
+  "commits": 252,
+  "lastSixMonthsCommitTotal": 58,
+  "contributors": 13,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 1
+    },
     {
       "id": 103527346,
       "login": "cdillard-NewRelic",
@@ -99,7 +106,7 @@
       "login": "ndesai-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89222514?v=4",
       "htmlUrl": "https://github.com/ndesai-newrelic",
-      "contributions": 75
+      "contributions": 76
     }
   ],
   "languages": [
@@ -137,6 +144,16 @@
       "id": "MDg6TGFuZ3VhZ2UzNDY=",
       "name": "Objective-C++",
       "color": "#6866fb"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDk=",
+      "name": "C",
+      "color": "#555555"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzNzE=",
+      "name": "Swift",
+      "color": "#F05138"
     }
   ],
   "screenshots": [],
