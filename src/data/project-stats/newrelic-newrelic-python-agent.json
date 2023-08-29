@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-python-agent",
   "issues": {
-    "open": 24
+    "open": 23
   },
-  "releases": 315,
+  "releases": 316,
   "latestRelease": {
-    "name": "v8.11.0",
-    "date": "2023-08-23T20:34:13Z"
+    "name": "v9.0.0",
+    "date": "2023-08-28T21:22:59Z"
   },
-  "commits": 526,
-  "lastSixMonthsCommitTotal": 59,
-  "contributors": 46,
+  "commits": 528,
+  "lastSixMonthsCommitTotal": 61,
+  "contributors": 47,
   "pullRequests": {
-    "open": 20
+    "open": 17
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 36710760,
+      "login": "bc291",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36710760?v=4",
+      "htmlUrl": "https://github.com/bc291",
+      "contributions": 1
+    },
     {
       "id": 115181356,
       "login": "admp-fh",
@@ -207,13 +214,6 @@
       "contributions": 2
     },
     {
-      "id": 13255764,
-      "login": "ahmedhr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13255764?v=4",
-      "htmlUrl": "https://github.com/ahmedhr",
-      "contributions": 2
-    },
-    {
       "id": 136425,
       "login": "renanivo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/136425?v=4",
@@ -240,6 +240,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/76922290?v=4",
       "htmlUrl": "https://github.com/hannahramadan",
       "contributions": 2
+    },
+    {
+      "id": 13255764,
+      "login": "ahmedhr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13255764?v=4",
+      "htmlUrl": "https://github.com/ahmedhr",
+      "contributions": 3
     },
     {
       "id": 90657569,
@@ -291,18 +298,18 @@
       "contributions": 9
     },
     {
-      "id": 37929162,
-      "login": "mergify[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/10562?v=4",
-      "htmlUrl": "https://github.com/apps/mergify",
-      "contributions": 30
-    },
-    {
       "id": 67169383,
       "login": "newrelic-opensource",
       "avatarUrl": "https://avatars.githubusercontent.com/u/67169383?v=4",
       "htmlUrl": "https://github.com/newrelic-opensource",
       "contributions": 30
+    },
+    {
+      "id": 37929162,
+      "login": "mergify[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/10562?v=4",
+      "htmlUrl": "https://github.com/apps/mergify",
+      "contributions": 32
     },
     {
       "id": 30059933,
@@ -323,14 +330,14 @@
       "login": "lrafeei",
       "avatarUrl": "https://avatars.githubusercontent.com/u/84813886?v=4",
       "htmlUrl": "https://github.com/lrafeei",
-      "contributions": 95
+      "contributions": 96
     },
     {
       "id": 19895951,
       "login": "umaannamalai",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19895951?v=4",
       "htmlUrl": "https://github.com/umaannamalai",
-      "contributions": 147
+      "contributions": 148
     },
     {
       "id": 11214426,
