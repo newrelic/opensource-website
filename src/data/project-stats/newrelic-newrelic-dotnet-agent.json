@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 61
+    "open": 60
   },
   "releases": 106,
   "latestRelease": {
     "name": "v10.15.0",
     "date": "2023-08-29T16:21:55Z"
   },
-  "commits": 914,
-  "lastSixMonthsCommitTotal": 209,
+  "commits": 916,
+  "lastSixMonthsCommitTotal": 211,
   "contributors": 34,
   "pullRequests": {
-    "open": 4
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -176,7 +176,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 12
+      "contributions": 13
     },
     {
       "id": 111462425,
@@ -239,7 +239,7 @@
       "login": "tippmar-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/120425148?v=4",
       "htmlUrl": "https://github.com/tippmar-nr",
-      "contributions": 110
+      "contributions": 111
     },
     {
       "id": 6098021,
@@ -283,11 +283,6 @@
       "color": "#012456"
     },
     {
-      "id": "MDg6TGFuZ3VhZ2UxNzU=",
-      "name": "Groovy",
-      "color": "#4298b8"
-    },
-    {
       "id": "MDg6TGFuZ3VhZ2UzMDI=",
       "name": "XSLT",
       "color": "#EB8CEB"
@@ -306,6 +301,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDk=",
       "name": "C",
       "color": "#555555"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MTc=",
+      "name": "HTML",
+      "color": "#e34c26"
     }
   ],
   "screenshots": [],
