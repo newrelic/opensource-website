@@ -1,16 +1,16 @@
 {
-  "projectFullName": "newrelic-experimental/newrelic-java-camel",
+  "projectFullName": "newrelic-experimental/nri-softwareag-ums",
   "issues": {
     "open": 0
   },
-  "releases": 4,
+  "releases": 1,
   "latestRelease": {
-    "name": "2.1",
-    "date": "2023-01-03T15:25:36Z"
+    "name": "v1.0.0",
+    "date": "2023-08-22T14:00:26Z"
   },
-  "commits": 49,
-  "lastSixMonthsCommitTotal": 20,
-  "contributors": 4,
+  "commits": 13,
+  "lastSixMonthsCommitTotal": 13,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -18,17 +18,10 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 41585091,
-      "login": "hsinghkalsi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/41585091?v=4",
-      "htmlUrl": "https://github.com/hsinghkalsi",
-      "contributions": 1
-    },
-    {
-      "id": 3536684,
-      "login": "sschwartzman",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
-      "htmlUrl": "https://github.com/sschwartzman",
+      "id": 65916846,
+      "login": "actions-user",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65916846?v=4",
+      "htmlUrl": "https://github.com/actions-user",
       "contributions": 1
     },
     {
@@ -36,14 +29,7 @@
       "login": "gsidhwani-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/113113837?v=4",
       "htmlUrl": "https://github.com/gsidhwani-nr",
-      "contributions": 6
-    },
-    {
-      "id": 8822859,
-      "login": "dhilpipre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8822859?v=4",
-      "htmlUrl": "https://github.com/dhilpipre",
-      "contributions": 27
+      "contributions": 9
     }
   ],
   "languages": [
@@ -56,6 +42,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
       "color": "#b07219"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0NjM=",
+      "name": "Batchfile",
+      "color": "#C1F12E"
     }
   ],
   "screenshots": [],
