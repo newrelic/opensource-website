@@ -1,22 +1,29 @@
 {
-  "projectFullName": "newrelic/newrelic-service-broker-tile",
+  "projectFullName": "newrelic-experimental/nri-bosh-release-xenial",
   "issues": {
     "open": 0
   },
-  "releases": 10,
+  "releases": 4,
   "latestRelease": {
-    "name": "v1.12.33",
-    "date": "2023-08-24T06:10:53Z"
+    "name": "v1.20.7",
+    "date": null
   },
-  "commits": 67,
-  "lastSixMonthsCommitTotal": 5,
-  "contributors": 4,
+  "commits": 20,
+  "lastSixMonthsCommitTotal": 2,
+  "contributors": 3,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 15163278,
+      "login": "miransar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15163278?v=4",
+      "htmlUrl": "https://github.com/miransar",
+      "contributions": 1
+    },
     {
       "id": 97467528,
       "login": "CliftonDobrich",
@@ -25,32 +32,18 @@
       "contributions": 1
     },
     {
-      "id": 1749572,
-      "login": "tmartin14",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1749572?v=4",
-      "htmlUrl": "https://github.com/tmartin14",
-      "contributions": 3
-    },
-    {
-      "id": 15163278,
-      "login": "miransar",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15163278?v=4",
-      "htmlUrl": "https://github.com/miransar",
-      "contributions": 4
-    },
-    {
       "id": 4672940,
       "login": "shahramk",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4672940?v=4",
       "htmlUrl": "https://github.com/shahramk",
-      "contributions": 39
+      "contributions": 17
     }
   ],
   "languages": [
     {
-      "id": "MDg6TGFuZ3VhZ2UxNTg=",
-      "name": "Java",
-      "color": "#b07219"
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
