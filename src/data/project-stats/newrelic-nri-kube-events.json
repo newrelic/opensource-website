@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 45,
+  "releases": 51,
   "latestRelease": {
-    "name": "v2.2.3",
-    "date": "2023-09-20T19:33:02Z"
+    "name": "v2.2.7",
+    "date": "2023-09-21T01:04:48Z"
   },
-  "commits": 211,
-  "lastSixMonthsCommitTotal": 88,
+  "commits": 222,
+  "lastSixMonthsCommitTotal": 98,
   "contributors": 25,
   "pullRequests": {
     "open": 0
@@ -17,13 +17,6 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 1
-    },
     {
       "id": 97467528,
       "login": "CliftonDobrich",
@@ -88,18 +81,18 @@
       "contributions": 1
     },
     {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 3
+    },
+    {
       "id": 50715937,
       "login": "svetlanabrennan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
       "htmlUrl": "https://github.com/svetlanabrennan",
       "contributions": 3
-    },
-    {
-      "id": 142926265,
-      "login": "NewRelic-K8s-Agents-Bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
-      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 4
     },
     {
       "id": 16539896,
@@ -137,6 +130,13 @@
       "contributions": 7
     },
     {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "contributions": 8
+    },
+    {
       "id": 125097052,
       "login": "xqi-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
@@ -158,18 +158,18 @@
       "contributions": 13
     },
     {
-      "id": 7085372,
-      "login": "juanjjaramillo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
-      "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 14
-    },
-    {
       "id": 969721,
       "login": "roobre",
       "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
       "htmlUrl": "https://github.com/roobre",
       "contributions": 16
+    },
+    {
+      "id": 7085372,
+      "login": "juanjjaramillo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
+      "htmlUrl": "https://github.com/juanjjaramillo",
+      "contributions": 21
     },
     {
       "id": 29139614,
