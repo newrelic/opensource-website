@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 62,
+  "releases": 64,
   "latestRelease": {
-    "name": "v1.15.2",
-    "date": "2023-09-20T17:34:07Z"
+    "name": "v1.16.0",
+    "date": "2023-09-21T19:47:16Z"
   },
-  "commits": 326,
-  "lastSixMonthsCommitTotal": 146,
+  "commits": 332,
+  "lastSixMonthsCommitTotal": 152,
   "contributors": 37,
   "pullRequests": {
     "open": 1
@@ -151,13 +151,6 @@
       "contributions": 4
     },
     {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 6
-    },
-    {
       "id": 79498,
       "login": "davidgit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
@@ -177,6 +170,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
       "htmlUrl": "https://github.com/sigilioso",
       "contributions": 6
+    },
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 7
     },
     {
       "id": 125097052,
@@ -260,7 +260,7 @@
       "login": "NewRelic-K8s-Agents-Bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
       "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 25
+      "contributions": 27
     },
     {
       "id": 49699333,
@@ -274,7 +274,7 @@
       "login": "svetlanabrennan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
       "htmlUrl": "https://github.com/svetlanabrennan",
-      "contributions": 57
+      "contributions": 61
     }
   ],
   "languages": [
