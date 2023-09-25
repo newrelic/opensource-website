@@ -3,20 +3,27 @@
   "issues": {
     "open": 0
   },
-  "releases": 4,
+  "releases": 5,
   "latestRelease": {
-    "name": "3.0",
-    "date": "2022-11-21T19:29:09Z"
+    "name": "v4.0.1",
+    "date": "2023-09-25T08:47:11Z"
   },
-  "commits": 29,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 3,
+  "commits": 32,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 4,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 65916846,
+      "login": "actions-user",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65916846?v=4",
+      "htmlUrl": "https://github.com/actions-user",
+      "contributions": 1
+    },
     {
       "id": 3536684,
       "login": "sschwartzman",
