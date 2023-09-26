@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 58
+    "open": 59
   },
-  "releases": 107,
+  "releases": 108,
   "latestRelease": {
-    "name": "v10.16.0",
-    "date": "2023-09-12T18:18:47Z"
+    "name": "v10.17.0",
+    "date": "2023-09-26T14:26:38Z"
   },
-  "commits": 945,
-  "lastSixMonthsCommitTotal": 216,
+  "commits": 947,
+  "lastSixMonthsCommitTotal": 218,
   "contributors": 34,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -88,13 +88,6 @@
       "contributions": 1
     },
     {
-      "id": 141066016,
-      "login": "dotnet-agent-team-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/141066016?v=4",
-      "htmlUrl": "https://github.com/dotnet-agent-team-bot",
-      "contributions": 2
-    },
-    {
       "id": 54716445,
       "login": "nr-security-github",
       "avatarUrl": "https://avatars.githubusercontent.com/u/54716445?v=4",
@@ -121,6 +114,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/58010132?v=4",
       "htmlUrl": "https://github.com/mmfred",
       "contributions": 2
+    },
+    {
+      "id": 141066016,
+      "login": "dotnet-agent-team-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/141066016?v=4",
+      "htmlUrl": "https://github.com/dotnet-agent-team-bot",
+      "contributions": 3
     },
     {
       "id": 19733683,
@@ -176,7 +176,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 18
+      "contributions": 19
     },
     {
       "id": 69914680,
