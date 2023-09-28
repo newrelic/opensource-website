@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 8,
+  "lastSixMonthsCommitTotal": 8,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +20,32 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/1786630?v=4",
       "htmlUrl": "https://github.com/aso1124",
       "contributions": 1
+    },
+    {
+      "id": 6130000,
+      "login": "asllop",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6130000?v=4",
+      "htmlUrl": "https://github.com/asllop",
+      "contributions": 7
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MTc=",
+      "name": "HTML",
+      "color": "#e34c26"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDA=",
+      "name": "JavaScript",
+      "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UzMDg=",
+      "name": "CSS",
+      "color": "#563d7c"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
