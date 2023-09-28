@@ -3,11 +3,14 @@
   "issues": {
     "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 12,
-  "lastSixMonthsCommitTotal": 3,
-  "contributors": 4,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v1.0.0",
+    "date": "2023-09-27T11:42:23Z"
+  },
+  "commits": 17,
+  "lastSixMonthsCommitTotal": 8,
+  "contributors": 5,
   "pullRequests": {
     "open": 0
   },
@@ -15,10 +18,10 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 113113837,
-      "login": "gsidhwani-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/113113837?v=4",
-      "htmlUrl": "https://github.com/gsidhwani-nr",
+      "id": 65916846,
+      "login": "actions-user",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65916846?v=4",
+      "htmlUrl": "https://github.com/actions-user",
       "contributions": 1
     },
     {
@@ -41,6 +44,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/3536684?v=4",
       "htmlUrl": "https://github.com/sschwartzman",
       "contributions": 3
+    },
+    {
+      "id": 113113837,
+      "login": "gsidhwani-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113113837?v=4",
+      "htmlUrl": "https://github.com/gsidhwani-nr",
+      "contributions": 5
     }
   ],
   "languages": [
