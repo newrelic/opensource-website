@@ -3,16 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 51,
+  "releases": 55,
   "latestRelease": {
-    "name": "v2.2.7",
-    "date": "2023-09-21T01:04:48Z"
+    "name": "v2.2.9",
+    "date": "2023-09-30T05:02:24Z"
   },
-  "commits": 225,
-  "lastSixMonthsCommitTotal": 101,
+  "commits": 234,
+  "lastSixMonthsCommitTotal": 110,
   "contributors": 25,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -81,13 +81,6 @@
       "contributions": 1
     },
     {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 3
-    },
-    {
       "id": 50715937,
       "login": "svetlanabrennan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
@@ -100,6 +93,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/16539896?v=4",
       "htmlUrl": "https://github.com/invidian",
       "contributions": 4
+    },
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 5
     },
     {
       "id": 442627,
@@ -130,13 +130,6 @@
       "contributions": 7
     },
     {
-      "id": 142926265,
-      "login": "NewRelic-K8s-Agents-Bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
-      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 8
-    },
-    {
       "id": 125097052,
       "login": "xqi-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
@@ -149,6 +142,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
       "contributions": 9
+    },
+    {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "contributions": 10
     },
     {
       "id": 43335750,
@@ -165,18 +165,18 @@
       "contributions": 16
     },
     {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 23
-    },
-    {
       "id": 7085372,
       "login": "juanjjaramillo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
       "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 24
+      "contributions": 26
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 28
     },
     {
       "id": 1444638,

@@ -3,16 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 34,
+  "releases": 36,
   "latestRelease": {
-    "name": "v0.6.1",
-    "date": "2023-09-28T17:48:30Z"
+    "name": "v0.6.2",
+    "date": "2023-09-30T05:36:03Z"
   },
-  "commits": 235,
-  "lastSixMonthsCommitTotal": 82,
+  "commits": 238,
+  "lastSixMonthsCommitTotal": 85,
   "contributors": 22,
   "pullRequests": {
-    "open": 8
+    "open": 7
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -53,18 +53,18 @@
       "contributions": 1
     },
     {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 2
-    },
-    {
       "id": 82898004,
       "login": "mangulonr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/82898004?v=4",
       "htmlUrl": "https://github.com/mangulonr",
       "contributions": 2
+    },
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 3
     },
     {
       "id": 442627,
@@ -113,13 +113,6 @@
       "login": "NewRelic-K8s-Agents-Bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
       "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 9
-    },
-    {
-      "id": 7085372,
-      "login": "juanjjaramillo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
-      "htmlUrl": "https://github.com/juanjjaramillo",
       "contributions": 10
     },
     {
@@ -128,6 +121,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
       "contributions": 10
+    },
+    {
+      "id": 7085372,
+      "login": "juanjjaramillo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
+      "htmlUrl": "https://github.com/juanjjaramillo",
+      "contributions": 11
     },
     {
       "id": 5143130,
@@ -155,7 +155,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 31
+      "contributions": 32
     },
     {
       "id": 43335750,
