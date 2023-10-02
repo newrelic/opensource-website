@@ -1,29 +1,22 @@
 {
   "projectFullName": "newrelic/java-log-extensions",
   "issues": {
-    "open": 3
+    "open": 2
   },
   "releases": 11,
   "latestRelease": {
     "name": "v3.0.0",
     "date": "2023-06-27T12:37:17Z"
   },
-  "commits": 175,
-  "lastSixMonthsCommitTotal": 37,
+  "commits": 179,
+  "lastSixMonthsCommitTotal": 41,
   "contributors": 21,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 5081648,
-      "login": "jtduffy",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5081648?v=4",
-      "htmlUrl": "https://github.com/jtduffy",
-      "contributions": 1
-    },
     {
       "id": 1426718,
       "login": "derylseale",
@@ -137,6 +130,13 @@
       "contributions": 3
     },
     {
+      "id": 5081648,
+      "login": "jtduffy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5081648?v=4",
+      "htmlUrl": "https://github.com/jtduffy",
+      "contributions": 4
+    },
+    {
       "id": 9247809,
       "login": "gstoupis",
       "avatarUrl": "https://avatars.githubusercontent.com/u/9247809?v=4",
@@ -166,11 +166,6 @@
     }
   ],
   "languages": [
-    {
-      "id": "MDg6TGFuZ3VhZ2UyNzI=",
-      "name": "Kotlin",
-      "color": "#A97BFF"
-    },
     {
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
