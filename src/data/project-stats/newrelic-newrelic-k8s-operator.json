@@ -1,22 +1,36 @@
 {
   "projectFullName": "newrelic/newrelic-k8s-operator",
   "issues": {
-    "open": 4
+    "open": 1
   },
   "releases": 5,
   "latestRelease": {
     "name": "newrelic-k8s-operator-0.1.4",
     "date": "2023-06-22T17:37:04Z"
   },
-  "commits": 46,
-  "lastSixMonthsCommitTotal": 46,
-  "contributors": 8,
+  "commits": 55,
+  "lastSixMonthsCommitTotal": 55,
+  "contributors": 10,
   "pullRequests": {
-    "open": 17
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 25465780,
+      "login": "AmitBenAmi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25465780?v=4",
+      "htmlUrl": "https://github.com/AmitBenAmi",
+      "contributions": 1
+    },
+    {
+      "id": 10321085,
+      "login": "lazyplatypus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10321085?v=4",
+      "htmlUrl": "https://github.com/lazyplatypus",
+      "contributions": 1
+    },
     {
       "id": 125097052,
       "login": "xqi-nr",
@@ -50,14 +64,7 @@
       "login": "juanjjaramillo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
       "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 4
-    },
-    {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 12
+      "contributions": 9
     },
     {
       "id": 1444638,
@@ -65,6 +72,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/1444638?v=4",
       "htmlUrl": "https://github.com/vihangm",
       "contributions": 14
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 16
     },
     {
       "id": 1484035,
