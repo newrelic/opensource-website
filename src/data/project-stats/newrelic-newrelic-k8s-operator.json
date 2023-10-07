@@ -3,20 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 5,
+  "releases": 8,
   "latestRelease": {
-    "name": "newrelic-k8s-operator-0.1.4",
-    "date": "2023-06-22T17:37:04Z"
+    "name": "v0.2.0",
+    "date": "2023-10-07T05:57:53Z"
   },
-  "commits": 55,
-  "lastSixMonthsCommitTotal": 55,
-  "contributors": 10,
+  "commits": 59,
+  "lastSixMonthsCommitTotal": 59,
+  "contributors": 12,
   "pullRequests": {
     "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 1
+    },
     {
       "id": 25465780,
       "login": "AmitBenAmi",
@@ -60,11 +67,18 @@
       "contributions": 1
     },
     {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "contributions": 2
+    },
+    {
       "id": 7085372,
       "login": "juanjjaramillo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
       "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 9
+      "contributions": 11
     },
     {
       "id": 1444638,
