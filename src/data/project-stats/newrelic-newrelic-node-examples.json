@@ -5,14 +5,32 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 292,
-  "lastSixMonthsCommitTotal": 132,
+  "commits": 299,
+  "lastSixMonthsCommitTotal": 134,
   "contributors": 8,
   "pullRequests": {
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOG9nrHM5rmUZp",
+      "title": "Example Prisma app has stopped working",
+      "url": "https://github.com/newrelic/newrelic-node-examples/issues/110",
+      "createdAt": "2023-07-14T17:11:54Z",
+      "comments": {
+        "totalCount": 2
+      },
+      "author": {
+        "login": "mrickard",
+        "id": "MDQ6VXNlcjExMzI3",
+        "email": "",
+        "name": "Maurice Rickard"
+      },
+      "number": 110,
+      "createdBy": "Maurice Rickard"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 883103,
@@ -40,14 +58,7 @@
       "login": "coreyarnold",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1428400?v=4",
       "htmlUrl": "https://github.com/coreyarnold",
-      "contributions": 9
-    },
-    {
-      "id": 1874937,
-      "login": "bizob2828",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
-      "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 31
+      "contributions": 11
     },
     {
       "id": 260143,
@@ -55,6 +66,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/260143?v=4",
       "htmlUrl": "https://github.com/jordigh",
       "contributions": 33
+    },
+    {
+      "id": 1874937,
+      "login": "bizob2828",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
+      "htmlUrl": "https://github.com/bizob2828",
+      "contributions": 35
     },
     {
       "id": 19733683,
