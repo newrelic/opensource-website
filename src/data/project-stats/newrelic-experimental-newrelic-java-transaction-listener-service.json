@@ -3,14 +3,14 @@
   "issues": {
     "open": 0
   },
-  "releases": 2,
+  "releases": 3,
   "latestRelease": {
-    "name": "v1.0.1",
-    "date": "2020-12-02T14:08:27Z"
+    "name": "v1.0.2",
+    "date": "2023-10-09T11:30:09Z"
   },
-  "commits": 11,
-  "lastSixMonthsCommitTotal": 3,
-  "contributors": 3,
+  "commits": 18,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 4,
   "pullRequests": {
     "open": 0
   },
@@ -18,11 +18,11 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 113113837,
-      "login": "gsidhwani-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/113113837?v=4",
-      "htmlUrl": "https://github.com/gsidhwani-nr",
-      "contributions": 2
+      "id": 65916846,
+      "login": "actions-user",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65916846?v=4",
+      "htmlUrl": "https://github.com/actions-user",
+      "contributions": 1
     },
     {
       "id": 3536684,
@@ -37,6 +37,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/20245790?v=4",
       "htmlUrl": "https://github.com/msummers-nr",
       "contributions": 5
+    },
+    {
+      "id": 113113837,
+      "login": "gsidhwani-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113113837?v=4",
+      "htmlUrl": "https://github.com/gsidhwani-nr",
+      "contributions": 8
     }
   ],
   "languages": [
@@ -44,6 +51,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
       "color": "#b07219"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxMzk=",
+      "name": "Shell",
+      "color": "#89e051"
     }
   ],
   "screenshots": [],
