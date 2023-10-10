@@ -166,11 +166,6 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
-    {
-      resolve: 'gatsby-plugin-gatsby-cloud',
-      options: {
-        allPageHeaders: ['Referrer-Policy: no-referrer-when-downgrade'],
-      },
-    },
+    'gatsby-plugin-netlify',
   ],
 };
