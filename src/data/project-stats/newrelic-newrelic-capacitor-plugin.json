@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-capacitor-plugin",
   "issues": {
-    "open": 4
+    "open": 5
   },
   "releases": 7,
   "latestRelease": {
     "name": "1.3.1",
     "date": "2023-08-15T16:49:22Z"
   },
-  "commits": 105,
-  "lastSixMonthsCommitTotal": 18,
-  "contributors": 7,
+  "commits": 107,
+  "lastSixMonthsCommitTotal": 20,
+  "contributors": 8,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 875840,
+      "login": "ztsmith",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/875840?v=4",
+      "htmlUrl": "https://github.com/ztsmith",
+      "contributions": 1
+    },
     {
       "id": 111581,
       "login": "lucasgonze",
@@ -64,7 +71,7 @@
       "login": "ndesai-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89222514?v=4",
       "htmlUrl": "https://github.com/ndesai-newrelic",
-      "contributions": 16
+      "contributions": 17
     }
   ],
   "languages": [
