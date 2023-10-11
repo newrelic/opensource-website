@@ -15,7 +15,25 @@
     "open": 0
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOD8zua85lappv",
+      "title": "could not initialize New Relic client",
+      "url": "https://github.com/newrelic/deployment-marker-action/issues/42",
+      "createdAt": "2023-05-09T07:06:56Z",
+      "comments": {
+        "totalCount": 3
+      },
+      "author": {
+        "login": "juupas",
+        "id": "U_kgDOBvUeIQ",
+        "email": "",
+        "name": "Pasi Juurikas"
+      },
+      "number": 42,
+      "createdBy": "Pasi Juurikas"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 207823,
