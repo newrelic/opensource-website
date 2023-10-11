@@ -1,16 +1,16 @@
 {
   "projectFullName": "newrelic/newrelic-capacitor-plugin",
   "issues": {
-    "open": 5
+    "open": 2
   },
-  "releases": 7,
+  "releases": 8,
   "latestRelease": {
-    "name": "1.3.1",
-    "date": "2023-08-15T16:49:22Z"
+    "name": "1.3.2",
+    "date": "2023-10-10T20:15:30Z"
   },
-  "commits": 107,
-  "lastSixMonthsCommitTotal": 20,
-  "contributors": 8,
+  "commits": 125,
+  "lastSixMonthsCommitTotal": 38,
+  "contributors": 9,
   "pullRequests": {
     "open": 0
   },
@@ -39,17 +39,10 @@
       "contributions": 1
     },
     {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 2
-    },
-    {
-      "id": 104166698,
-      "login": "andychow94",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/104166698?v=4",
-      "htmlUrl": "https://github.com/andychow94",
+      "id": 289104,
+      "login": "ettore",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/289104?v=4",
+      "htmlUrl": "https://github.com/ettore",
       "contributions": 2
     },
     {
@@ -60,18 +53,32 @@
       "contributions": 2
     },
     {
+      "id": 104166698,
+      "login": "andychow94",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104166698?v=4",
+      "htmlUrl": "https://github.com/andychow94",
+      "contributions": 3
+    },
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 3
+    },
+    {
       "id": 105679755,
       "login": "kennyt276",
       "avatarUrl": "https://avatars.githubusercontent.com/u/105679755?v=4",
       "htmlUrl": "https://github.com/kennyt276",
-      "contributions": 13
+      "contributions": 15
     },
     {
       "id": 89222514,
       "login": "ndesai-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89222514?v=4",
       "htmlUrl": "https://github.com/ndesai-newrelic",
-      "contributions": 17
+      "contributions": 25
     }
   ],
   "languages": [
