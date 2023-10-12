@@ -3,25 +3,25 @@
   "issues": {
     "open": 3
   },
-  "releases": 34,
+  "releases": 35,
   "latestRelease": {
     "name": "v1.7.0",
-    "date": "2023-10-10T19:37:11Z"
+    "date": "2023-10-11T19:21:31Z"
   },
-  "commits": 280,
-  "lastSixMonthsCommitTotal": 73,
-  "contributors": 20,
+  "commits": 299,
+  "lastSixMonthsCommitTotal": 92,
+  "contributors": 21,
   "pullRequests": {
-    "open": 9
+    "open": 16
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
-      "id": 142926265,
-      "login": "NewRelic-K8s-Agents-Bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
-      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
       "contributions": 1
     },
     {
@@ -74,11 +74,18 @@
       "contributions": 6
     },
     {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "contributions": 7
+    },
+    {
       "id": 29139614,
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 7
+      "contributions": 8
     },
     {
       "id": 125097052,
@@ -86,13 +93,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
       "htmlUrl": "https://github.com/xqi-nr",
       "contributions": 9
-    },
-    {
-      "id": 50715937,
-      "login": "svetlanabrennan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
-      "htmlUrl": "https://github.com/svetlanabrennan",
-      "contributions": 10
     },
     {
       "id": 79498,
@@ -121,6 +121,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
       "htmlUrl": "https://github.com/sigilioso",
       "contributions": 15
+    },
+    {
+      "id": 50715937,
+      "login": "svetlanabrennan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
+      "htmlUrl": "https://github.com/svetlanabrennan",
+      "contributions": 21
     },
     {
       "id": 115998732,
