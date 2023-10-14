@@ -3,16 +3,16 @@
   "issues": {
     "open": 29
   },
-  "releases": 627,
+  "releases": 631,
   "latestRelease": {
-    "name": "nri-statsd-1.0.9",
-    "date": "2023-10-06T10:29:31Z"
+    "name": "nri-bundle-5.0.32",
+    "date": "2023-10-14T06:27:09Z"
   },
-  "commits": 713,
-  "lastSixMonthsCommitTotal": 54,
+  "commits": 718,
+  "lastSixMonthsCommitTotal": 59,
   "contributors": 100,
   "pullRequests": {
-    "open": 13
+    "open": 11
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -354,13 +354,6 @@
       "contributions": 2
     },
     {
-      "id": 7085372,
-      "login": "juanjjaramillo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
-      "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 3
-    },
-    {
       "id": 87676956,
       "login": "sidnaiknewrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/87676956?v=4",
@@ -513,6 +506,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/72999039?v=4",
       "htmlUrl": "https://github.com/sshah-nr",
       "contributions": 6
+    },
+    {
+      "id": 7085372,
+      "login": "juanjjaramillo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
+      "htmlUrl": "https://github.com/juanjjaramillo",
+      "contributions": 7
     },
     {
       "id": 4919969,
@@ -701,7 +701,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 63
+      "contributions": 64
     },
     {
       "id": 969721,
