@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 70
+    "open": 71
   },
-  "releases": 108,
+  "releases": 109,
   "latestRelease": {
-    "name": "v10.17.0",
-    "date": "2023-09-26T14:26:38Z"
+    "name": "v10.18.0",
+    "date": "2023-10-17T18:14:31Z"
   },
-  "commits": 969,
-  "lastSixMonthsCommitTotal": 218,
+  "commits": 972,
+  "lastSixMonthsCommitTotal": 220,
   "contributors": 34,
   "pullRequests": {
     "open": 4
@@ -116,18 +116,18 @@
       "contributions": 2
     },
     {
-      "id": 141066016,
-      "login": "dotnet-agent-team-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/141066016?v=4",
-      "htmlUrl": "https://github.com/dotnet-agent-team-bot",
-      "contributions": 3
-    },
-    {
       "id": 19733683,
       "login": "snyk-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
       "htmlUrl": "https://github.com/snyk-bot",
       "contributions": 3
+    },
+    {
+      "id": 141066016,
+      "login": "dotnet-agent-team-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/141066016?v=4",
+      "htmlUrl": "https://github.com/dotnet-agent-team-bot",
+      "contributions": 4
     },
     {
       "id": 4761745,
@@ -197,7 +197,7 @@
       "login": "chynesNR",
       "avatarUrl": "https://avatars.githubusercontent.com/u/111462425?v=4",
       "htmlUrl": "https://github.com/chynesNR",
-      "contributions": 34
+      "contributions": 35
     },
     {
       "id": 20267975,
@@ -239,7 +239,7 @@
       "login": "tippmar-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/120425148?v=4",
       "htmlUrl": "https://github.com/tippmar-nr",
-      "contributions": 129
+      "contributions": 130
     },
     {
       "id": 6098021,
