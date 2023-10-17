@@ -3,13 +3,13 @@
   "issues": {
     "open": 3
   },
-  "releases": 37,
+  "releases": 39,
   "latestRelease": {
-    "name": "v1.7.1",
-    "date": "2023-10-12T19:32:13Z"
+    "name": "v1.8.0",
+    "date": "2023-10-16T19:51:08Z"
   },
-  "commits": 307,
-  "lastSixMonthsCommitTotal": 100,
+  "commits": 316,
+  "lastSixMonthsCommitTotal": 109,
   "contributors": 21,
   "pullRequests": {
     "open": 6
@@ -74,18 +74,18 @@
       "contributions": 6
     },
     {
-      "id": 142926265,
-      "login": "NewRelic-K8s-Agents-Bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
-      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 8
-    },
-    {
       "id": 125097052,
       "login": "xqi-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/125097052?v=4",
       "htmlUrl": "https://github.com/xqi-nr",
       "contributions": 9
+    },
+    {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "contributions": 11
     },
     {
       "id": 79498,
@@ -123,18 +123,18 @@
       "contributions": 15
     },
     {
-      "id": 50715937,
-      "login": "svetlanabrennan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
-      "htmlUrl": "https://github.com/svetlanabrennan",
-      "contributions": 24
-    },
-    {
       "id": 115998732,
       "login": "newrelic-coreint-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
       "htmlUrl": "https://github.com/newrelic-coreint-bot",
       "contributions": 26
+    },
+    {
+      "id": 50715937,
+      "login": "svetlanabrennan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
+      "htmlUrl": "https://github.com/svetlanabrennan",
+      "contributions": 28
     },
     {
       "id": 43335750,
@@ -162,7 +162,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 52
+      "contributions": 54
     }
   ],
   "languages": [
