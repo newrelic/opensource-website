@@ -3,16 +3,16 @@
   "issues": {
     "open": 5
   },
-  "releases": 15,
+  "releases": 16,
   "latestRelease": {
-    "name": "v1.9.1",
-    "date": "2023-05-05T14:57:20Z"
+    "name": "v1.10.0",
+    "date": "2023-10-17T18:59:57Z"
   },
-  "commits": 443,
-  "lastSixMonthsCommitTotal": 10,
-  "contributors": 23,
+  "commits": 447,
+  "lastSixMonthsCommitTotal": 14,
+  "contributors": 24,
   "pullRequests": {
-    "open": 0
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -93,6 +93,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/49817386?v=4",
       "htmlUrl": "https://github.com/jeffalder",
       "contributions": 2
+    },
+    {
+      "id": 5081648,
+      "login": "jtduffy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5081648?v=4",
+      "htmlUrl": "https://github.com/jtduffy",
+      "contributions": 3
     },
     {
       "id": 907624,
@@ -184,11 +191,6 @@
       "id": "MDg6TGFuZ3VhZ2UxNTg=",
       "name": "Java",
       "color": "#b07219"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2UyNzI=",
-      "name": "Kotlin",
-      "color": "#A97BFF"
     }
   ],
   "screenshots": [],

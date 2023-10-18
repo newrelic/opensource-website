@@ -3,13 +3,13 @@
   "issues": {
     "open": 29
   },
-  "releases": 640,
+  "releases": 642,
   "latestRelease": {
-    "name": "synthetics-job-manager-1.0.46",
-    "date": "2023-10-16T18:13:04Z"
+    "name": "synthetics-job-manager-1.0.47",
+    "date": "2023-10-17T15:56:37Z"
   },
-  "commits": 727,
-  "lastSixMonthsCommitTotal": 68,
+  "commits": 731,
+  "lastSixMonthsCommitTotal": 72,
   "contributors": 100,
   "pullRequests": {
     "open": 10
@@ -515,13 +515,6 @@
       "contributions": 7
     },
     {
-      "id": 95299876,
-      "login": "kaschaefer-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/95299876?v=4",
-      "htmlUrl": "https://github.com/kaschaefer-nr",
-      "contributions": 8
-    },
-    {
       "id": 9002169,
       "login": "bpschmitt",
       "avatarUrl": "https://avatars.githubusercontent.com/u/9002169?v=4",
@@ -555,6 +548,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/442627?v=4",
       "htmlUrl": "https://github.com/sigilioso",
       "contributions": 8
+    },
+    {
+      "id": 95299876,
+      "login": "kaschaefer-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/95299876?v=4",
+      "htmlUrl": "https://github.com/kaschaefer-nr",
+      "contributions": 9
     },
     {
       "id": 112117836,
@@ -638,7 +638,7 @@
       "login": "juanjjaramillo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
       "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 15
+      "contributions": 17
     },
     {
       "id": 25180681,
@@ -701,7 +701,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 64
+      "contributions": 65
     },
     {
       "id": 969721,
