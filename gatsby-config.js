@@ -92,6 +92,14 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+        ignore: [`**/.*`], // ignore files starting with a dot
+      },
+    },
+    {
       resolve: `gatsby-transformer-json`,
       options: {
         // Override the default behavior that adds `Json` to the end of data types

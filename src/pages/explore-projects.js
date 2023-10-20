@@ -27,20 +27,19 @@ export const query = graphql`
       }
     }
     allCategories: allProjects {
-      group(field: ossCategory___title) {
+      group(field: { ossCategory: { title: SELECT } }) {
         fieldValue
         totalCount
       }
     }
     allLanguages: allProjects {
-      group(field: stats___languages___name) {
+      group(field: { stats: { languages: { name: SELECT } } }) {
         fieldValue
         totalCount
       }
     }
-
     allProjectTags {
-      group(field: title) {
+      group(field: { title: SELECT }) {
         fieldValue
       }
     }

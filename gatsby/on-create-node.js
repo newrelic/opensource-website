@@ -26,15 +26,16 @@ const slugFromAbsoluteFilePath = (rootDir, fileAbsolutePath) => {
 
 const createProjectMainContent = ({ node, actions }) => {
   const { createNode } = actions;
+  const fileAbsolutePath =
+    node.internal.type === 'MarkdownRemark'
+      ? node.fileAbsolutePath
+      : node.internal.contentFilePath;
   const projectMainContentDir = 'src/data/project-main-content/';
-  const isMainContent =
-    node.fileAbsolutePath.indexOf(projectMainContentDir) >= 0;
+  const isMainContent = fileAbsolutePath.indexOf(projectMainContentDir) >= 0;
 
   if (!isMainContent) {
     return;
   }
-
-  const fileAbsolutePath = node.fileAbsolutePath;
   const slug = slugFromAbsoluteFilePath(
     projectMainContentDir,
     fileAbsolutePath
