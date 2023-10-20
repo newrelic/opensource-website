@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState, createElement } from 'react';
 import PropTypes from 'prop-types';
-import { MDXRenderer } from 'gatsby-plugin-mdx';
-import { MDXProvider } from '@mdx-js/react';
+
+import { MDXProvider, useMDXComponents } from '@mdx-js/react';
+import { evaluateSync } from '@mdx-js/mdx';
+import * as runtime from 'react/jsx-runtime';
 
 import CodeBlock from './CodeBlock';
 
@@ -10,13 +12,22 @@ const components = {
 };
 
 const ProjectMainContent = (props) => {
-  const { mdx, project } = props;
+  const [JsxMdx, setJsxMdx] = useState(null);
+  const { mdx } = props;
+
+  useEffect(() => {
+    const MDXContent = evaluateSync(mdx, {
+      ...runtime,
+      useMDXComponents,
+    });
+    setJsxMdx(MDXContent);
+  }, []);
+
   return (
     <>
-      {/* <pre>{JSON.stringify(props, null, 2)}</pre> */}
-      {mdx && (
+      {JsxMdx && (
         <MDXProvider components={components}>
-          <MDXRenderer project={project}>{mdx}</MDXRenderer>
+          {createElement(JsxMdx.default)}
         </MDXProvider>
       )}
     </>
