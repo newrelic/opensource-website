@@ -36,7 +36,6 @@ const ProjectMainContent = (props) => {
 
 ProjectMainContent.propTypes = {
   mdx: PropTypes.string,
-  project: PropTypes.object,
 };
 
 export default ProjectMainContent;

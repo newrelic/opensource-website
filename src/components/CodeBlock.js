@@ -4,7 +4,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Highlight, { defaultProps } from 'prism-react-renderer';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
-import { mdx } from '@mdx-js/react';
 
 const CodeBlock = ({ children, className, live, render }) => {
   const language = className.replace(/language-/, '');
@@ -15,7 +14,6 @@ const CodeBlock = ({ children, className, live, render }) => {
         <LiveProvider
           code={children.trim()}
           transformCode={(code) => `/** @jsx mdx */${code}`}
-          scope={{ mdx }}
         >
           <LivePreview />
           <LiveEditor />
