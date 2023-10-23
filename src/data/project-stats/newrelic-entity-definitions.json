@@ -3,13 +3,13 @@
   "issues": {
     "open": 2
   },
-  "releases": 222,
+  "releases": 224,
   "latestRelease": {
-    "name": "3.55.0",
-    "date": "2023-10-19T11:31:05Z"
+    "name": "3.57.0",
+    "date": "2023-10-23T13:22:29Z"
   },
-  "commits": 1099,
-  "lastSixMonthsCommitTotal": 206,
+  "commits": 1102,
+  "lastSixMonthsCommitTotal": 209,
   "contributors": 100,
   "pullRequests": {
     "open": 7
@@ -17,13 +17,6 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 10809420,
-      "login": "ErikGrijzen",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/10809420?v=4",
-      "htmlUrl": "https://github.com/ErikGrijzen",
-      "contributions": 2
-    },
     {
       "id": 89780904,
       "login": "dgoldfine-newrelic",
@@ -228,6 +221,13 @@
       "contributions": 2
     },
     {
+      "id": 47748673,
+      "login": "eklos2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47748673?v=4",
+      "htmlUrl": "https://github.com/eklos2",
+      "contributions": 3
+    },
+    {
       "id": 3969485,
       "login": "brushknight",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3969485?v=4",
@@ -389,13 +389,6 @@
       "contributions": 5
     },
     {
-      "id": 1737554,
-      "login": "eklos",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1737554?v=4",
-      "htmlUrl": "https://github.com/eklos",
-      "contributions": 5
-    },
-    {
       "id": 107134829,
       "login": "bcomptonNR",
       "avatarUrl": "https://avatars.githubusercontent.com/u/107134829?v=4",
@@ -436,6 +429,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/33281078?v=4",
       "htmlUrl": "https://github.com/neta-signifai",
       "contributions": 5
+    },
+    {
+      "id": 1737554,
+      "login": "eklos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1737554?v=4",
+      "htmlUrl": "https://github.com/eklos",
+      "contributions": 6
     },
     {
       "id": 1410846,
@@ -578,18 +578,18 @@
       "contributions": 17
     },
     {
-      "id": 6708604,
-      "login": "EmiliaRipeanu",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6708604?v=4",
-      "htmlUrl": "https://github.com/EmiliaRipeanu",
-      "contributions": 18
-    },
-    {
       "id": 346110,
       "login": "srvaroa",
       "avatarUrl": "https://avatars.githubusercontent.com/u/346110?v=4",
       "htmlUrl": "https://github.com/srvaroa",
       "contributions": 18
+    },
+    {
+      "id": 6708604,
+      "login": "EmiliaRipeanu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6708604?v=4",
+      "htmlUrl": "https://github.com/EmiliaRipeanu",
+      "contributions": 19
     },
     {
       "id": 113110223,
@@ -687,7 +687,7 @@
       "login": "otaviocarvalho",
       "avatarUrl": "https://avatars.githubusercontent.com/u/611147?v=4",
       "htmlUrl": "https://github.com/otaviocarvalho",
-      "contributions": 51
+      "contributions": 52
     },
     {
       "id": 15843395,
