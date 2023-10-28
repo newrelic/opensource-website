@@ -5,11 +5,11 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 27,
-  "lastSixMonthsCommitTotal": 3,
+  "commits": 30,
+  "lastSixMonthsCommitTotal": 6,
   "contributors": 9,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -75,7 +75,7 @@
       "login": "jasonjkeller",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3496648?v=4",
       "htmlUrl": "https://github.com/jasonjkeller",
-      "contributions": 9
+      "contributions": 11
     }
   ],
   "languages": [
@@ -93,6 +93,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNjk=",
       "name": "Scala",
       "color": "#c22d40"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
     }
   ],
   "screenshots": [],
