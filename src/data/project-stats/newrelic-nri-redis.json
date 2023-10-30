@@ -3,16 +3,16 @@
   "issues": {
     "open": 2
   },
-  "releases": 24,
+  "releases": 25,
   "latestRelease": {
-    "name": "v1.11.1",
-    "date": "2023-08-07T09:33:56Z"
+    "name": "v1.11.2",
+    "date": "2023-10-30T09:34:15Z"
   },
-  "commits": 187,
-  "lastSixMonthsCommitTotal": 18,
+  "commits": 195,
+  "lastSixMonthsCommitTotal": 26,
   "contributors": 32,
   "pullRequests": {
-    "open": 7
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -109,18 +109,18 @@
       "contributions": 1
     },
     {
-      "id": 115998732,
-      "login": "newrelic-coreint-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
-      "htmlUrl": "https://github.com/newrelic-coreint-bot",
-      "contributions": 2
-    },
-    {
       "id": 1408986,
       "login": "TylerLubeck",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1408986?v=4",
       "htmlUrl": "https://github.com/TylerLubeck",
       "contributions": 2
+    },
+    {
+      "id": 115998732,
+      "login": "newrelic-coreint-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
+      "htmlUrl": "https://github.com/newrelic-coreint-bot",
+      "contributions": 3
     },
     {
       "id": 3638421,
@@ -204,7 +204,7 @@
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 7
+      "contributions": 8
     },
     {
       "id": 947112,
@@ -212,13 +212,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/947112?v=4",
       "htmlUrl": "https://github.com/ferranorriols",
       "contributions": 9
-    },
-    {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 10
     },
     {
       "id": 43335750,
@@ -233,6 +226,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
       "htmlUrl": "https://github.com/alejandrodnm",
       "contributions": 11
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 16
     },
     {
       "id": 7555235,
