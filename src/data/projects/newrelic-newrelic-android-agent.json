@@ -1,0 +1,29 @@
+{
+  "name": "newrelic-android-agent",
+  "fullName": "newrelic/newrelic-android-agent",
+  "slug": "newrelic-newrelic-android-agent",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Android Agent",
+  "supportUrl": "https://forum.newrelic.com/s/hubtopic/Topic__c/Default",
+  "githubUrl": "https://github.com/newrelic/newrelic-android-agent",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-android-agent",
+  "contributingGuideUrl": "https://github.com/newrelic/newrelic-android-agent/blob/main/CONTRIBUTING.md#contributing", 
+  "iconUrl": null,
+  "shortDescription": "The New Relic Android Agent",
+  "description": "The official New Relic agent for android applications",
+  "ossCategory": "community-plus",
+  "primaryLanguage": "Java,Groovy",
+  "projectTags": [
+    "agent",
+    "mobile"
+  ],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Android Agent",
+    "url": "https://github.com/newrelic/newrelic-android-agent"
+  },
+  "defaultBranch": "main"
+}
