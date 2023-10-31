@@ -1,0 +1,24 @@
+{
+  "name": "newrelic-maui-plugin",
+  "fullName": "newrelic/newrelic-maui-plugin",
+  "slug": "newrelic-maui-plugin",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic MAUI Plugin",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/newrelic-maui-plugin",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-maui-plugin",
+  "iconUrl": null,
+  "shortDescription": "Instrumentation for MAUI Mobile Applications",
+  "description": "The official New Relic plugin for MAUI",
+  "ossCategory": "community-project",
+  "primaryLanguage": "C#,Objective-C,C++",
+  "projectTags": [ "agent","mobile"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic MAUI Plugin",
+    "url": "https://github.com/newrelic/newrelic-maui-plugin"
+  }
+}
