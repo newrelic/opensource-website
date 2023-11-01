@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 12,
+  "releases": 13,
   "latestRelease": {
-    "name": "v0.4.0",
-    "date": "2023-10-30T12:07:47Z"
+    "name": "newrelic-k8s-operator-0.4.0",
+    "date": "2023-10-31T19:19:48Z"
   },
-  "commits": 70,
-  "lastSixMonthsCommitTotal": 70,
+  "commits": 72,
+  "lastSixMonthsCommitTotal": 72,
   "contributors": 14,
   "pullRequests": {
     "open": 5
@@ -85,14 +85,14 @@
       "login": "NewRelic-K8s-Agents-Bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
       "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 6
+      "contributions": 7
     },
     {
       "id": 7085372,
       "login": "juanjjaramillo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
       "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 11
+      "contributions": 12
     },
     {
       "id": 1444638,
@@ -113,7 +113,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 19
+      "contributions": 20
     }
   ],
   "languages": [
