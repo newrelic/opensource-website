@@ -2388,13 +2388,14 @@
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-react "^7.14.3"
 
-"@newrelic/gatsby-theme-newrelic@7.2.2":
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/@newrelic/gatsby-theme-newrelic/-/gatsby-theme-newrelic-7.2.2.tgz#12b6b5321111c7a42b22f427991a0114dbac7303"
-  integrity sha512-6ywfqa1jigPneboqvJENd5e3UGQOgRvWxPDTH2Lp4VRKbSej1lye+5Uw8Gr92QwZC1aEGgqUoy+MaNHiD0u9PQ==
+"@newrelic/gatsby-theme-newrelic@8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@newrelic/gatsby-theme-newrelic/-/gatsby-theme-newrelic-8.0.0.tgz#1e62956f5141375440319af172e8792f80cf0c9e"
+  integrity sha512-W9joG1xauXR5/RXiVRKBNBDbS8qzkekXv1t3nHDJzoz+u6bxi2aMC9FrOrczqeybdUOFvEtDm9fJzgKWR6NmMw==
   dependencies:
     "@emotion/babel-plugin" "^11.11.0"
     "@mdx-js/react" "^2.3.0"
+    "@testing-library/user-event" "^14.5.1"
     "@wry/equality" "^0.4.0"
     "@xstate/react" "^1.3.1"
     babel-plugin-prismjs "^2.0.1"
@@ -2404,7 +2405,7 @@
     gatsby-plugin-emotion "^8.12.0"
     gatsby-plugin-layout "^4.11.0"
     gatsby-plugin-mdx "^5.11.0"
-    gatsby-plugin-newrelic "2.3.0"
+    gatsby-plugin-newrelic "2.4.0"
     gatsby-plugin-portal "^1.0.7"
     gatsby-plugin-react-helmet "^6.11.0"
     gatsby-plugin-robots-txt "^1.8.0"
@@ -3149,6 +3150,11 @@
     "@babel/runtime" "^7.12.5"
     "@testing-library/dom" "^9.0.0"
     "@types/react-dom" "^18.0.0"
+
+"@testing-library/user-event@^14.5.1":
+  version "14.5.1"
+  resolved "https://registry.yarnpkg.com/@testing-library/user-event/-/user-event-14.5.1.tgz#27337d72046d5236b32fd977edee3f74c71d332f"
+  integrity sha512-UCcUKrUYGj7ClomOo2SpNVvx4/fkd/2BbIHDCle8A0ax+P3bU7yJwDBDrS6ZwdTMARWTGODX1hEsCcO+7beJjg==
 
 "@tokenizer/token@^0.3.0":
   version "0.3.0"
@@ -7727,10 +7733,10 @@ gatsby-plugin-mdx@^5.0.0, gatsby-plugin-mdx@^5.11.0:
     unist-util-visit "^4.1.2"
     vfile "^5.3.7"
 
-gatsby-plugin-newrelic@2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-newrelic/-/gatsby-plugin-newrelic-2.3.0.tgz#6e0f08fc9b7081bab905551d47af2df55909efb2"
-  integrity sha512-Q7IIc6XKCGAr8AeYYNzFl3FjFxeJNaM6S3vBQwDgeCUF0svs4qj2zsWTCwshSZiZdb3wwI12uJYzmB/gqW3O7w==
+gatsby-plugin-newrelic@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-newrelic/-/gatsby-plugin-newrelic-2.4.0.tgz#9361b49db19cbbe4e6f17aa2f81d9c68535f62fe"
+  integrity sha512-BOZko4EHIphlA/fDZaTXtJu2E/7BQFt5kWz1ps2F8QpbcRmO7RpzSU0Mwh/sNWp3nAPcfPsAvFVKesZNNWHpOQ==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
