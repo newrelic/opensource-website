@@ -1,12 +1,12 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render } from '@testing-library/react';
 import { useStaticQuery } from 'gatsby';
 import {
   LocationProvider,
   createHistory,
   createMemorySource,
 } from '@reach/router';
-import LocaleProvider from '@newrelic/gatsby-theme-newrelic/src/components/LocaleProvider';
+import LocaleProvider from '@newrelic/gatsby-theme-newrelic/src/components/LocaleProvider.mjs';
 import themeTranslations from '@newrelic/gatsby-theme-newrelic/src/i18n/translations/en.json';
 import i18n from 'i18next';
 import { I18nextProvider } from 'react-i18next';
@@ -71,19 +71,18 @@ describe('Header', () => {
   it('renders correctly', () => {
     initI18n();
 
-    const tree = renderer
-      .create(
-        <I18nextProvider i18n={i18n}>
-          <LocaleProvider i18n={i18n}>
-            <QueryClientProvider client={queryClient}>
-              <LocationProvider history={history}>
-                <Header />
-              </LocationProvider>
-            </QueryClientProvider>
-          </LocaleProvider>
-        </I18nextProvider>
-      )
-      .toJSON();
-    expect(tree).toMatchSnapshot();
+    const { container } = render(
+      <I18nextProvider i18n={i18n}>
+        <LocaleProvider i18n={i18n}>
+          <QueryClientProvider client={queryClient}>
+            <LocationProvider history={history}>
+              <Header />
+            </LocationProvider>
+          </QueryClientProvider>
+        </LocaleProvider>
+      </I18nextProvider>
+    );
+
+    expect(container).toMatchSnapshot();
   });
 });

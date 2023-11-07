@@ -16,7 +16,10 @@ const HomePageHighlights = ({ data }) => {
           New Relic contributes resources to the development of these projects.
         </p>
       </div>
-      <div className={styles.externalProjectsList}>
+      <div
+        className={styles.externalProjectsList}
+        data-testid="homepageExternalProjects"
+      >
         {projects.map((project) => {
           return <ProjectModule data={project} key={project.title} row />;
         })}

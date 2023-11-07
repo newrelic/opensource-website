@@ -1,13 +1,12 @@
 import React from 'react';
-import TestRenderer from 'react-test-renderer'; // https://reactjs.org/docs/test-renderer.html
-// import { render } from '@testing-library/react'; // https://testing-library.com/docs/react-testing-library/intro
+import { render } from '@testing-library/react'; // https://testing-library.com/docs/react-testing-library/intro
 import { useStaticQuery } from 'gatsby';
 import {
   LocationProvider,
   createHistory,
   createMemorySource,
 } from '@reach/router';
-import LocaleProvider from '@newrelic/gatsby-theme-newrelic/src/components/LocaleProvider';
+import LocaleProvider from '@newrelic/gatsby-theme-newrelic/src/components/LocaleProvider.mjs';
 import themeTranslations from '@newrelic/gatsby-theme-newrelic/src/i18n/translations/en.json';
 import i18n from 'i18next';
 import { I18nextProvider } from 'react-i18next';
@@ -74,7 +73,7 @@ describe('OSS Category Page', () => {
   it('Renders correctly', () => {
     initI18n();
 
-    const tree = TestRenderer.create(
+    const { container } = render(
       <I18nextProvider i18n={i18n}>
         <LocaleProvider i18n={i18n}>
           <QueryClientProvider client={queryClient}>
@@ -84,7 +83,7 @@ describe('OSS Category Page', () => {
           </QueryClientProvider>
         </LocaleProvider>
       </I18nextProvider>
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
+    );
+    expect(container).toMatchSnapshot();
   });
 });

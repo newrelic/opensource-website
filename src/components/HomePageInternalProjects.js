@@ -8,7 +8,10 @@ const HomePageInternalProjects = ({ data }) => {
   const projects = data;
 
   return (
-    <div className={styles.featuredInternalProjects}>
+    <div
+      className={styles.featuredInternalProjects}
+      data-testid="homepageInternalProjects"
+    >
       {projects.map((project) => {
         const link = project.permalink.replace(
           'https://opensource.newrelic.com',

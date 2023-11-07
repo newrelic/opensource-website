@@ -1,6 +1,5 @@
 import React from 'react';
-import TestRenderer from 'react-test-renderer'; // https://reactjs.org/docs/test-renderer.html
-// import { render } from '@testing-library/react'; // https://testing-library.com/docs/react-testing-library/intro
+import { render } from '@testing-library/react'; // https://testing-library.com/docs/react-testing-library/intro
 // import { useStaticQuery } from 'gatsby';
 
 import { get } from 'lodash';
@@ -31,9 +30,7 @@ describe('ProjectSearchInput', () => {
       onSearchQueryChange: () => {},
       onFilterChange: () => {},
     };
-    const tree = TestRenderer.create(
-      <ProjectSearchInput {...props} />
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
+    const { container } = render(<ProjectSearchInput {...props} />);
+    expect(container).toMatchSnapshot();
   });
 });

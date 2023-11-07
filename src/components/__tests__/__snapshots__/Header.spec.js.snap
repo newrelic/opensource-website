@@ -1,8 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders correctly 1`] = `
-Array [
-  .emotion-77 {
+.emotion-0 {
   display: grid;
   background-color: var(--erno-black);
   grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
@@ -17,31 +16,31 @@ Array [
 }
 
 @media screen and (max-width: 1150px) and (min-width: 1070px) {
-  .emotion-77 {
+  .emotion-0 {
     grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+                    0,
+                    1fr
+                  );
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-77 {
+  .emotion-0 {
     grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+                    0,
+                    1fr
+                  );
   }
 }
 
-.dark-mode .emotion-77 {
+.dark-mode .emotion-0 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-54 {
+.emotion-1 {
   grid-area: logo;
   padding: 0 var(--site-content-padding);
   display: -webkit-box;
@@ -56,7 +55,7 @@ Array [
   overflow: hidden;
 }
 
-.emotion-22 {
+.emotion-2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -68,33 +67,31 @@ Array [
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-22 {
+  .emotion-2 {
     display: none;
   }
 }
 
-.emotion-21 {
+.emotion-3 {
   fill: none;
   width: 150px;
 }
 
-.emotion-21 .text-color {
+.emotion-3 .text-color {
   fill: var(--color-white);
 }
 
-
-
 @media screen and (max-width: 460px) {
-  .emotion-18 {
+  .emotion-4 {
     display: none;
   }
 }
 
-.emotion-0 {
+.emotion-5 {
   fill: var(--primary-text-color);
 }
 
-.emotion-53 {
+.emotion-25 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -108,12 +105,12 @@ Array [
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-53 {
+  .emotion-25 {
     display: block;
   }
 }
 
-.emotion-45 {
+.emotion-26 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -149,7 +146,7 @@ Array [
   padding-right: 0;
 }
 
-.emotion-52 {
+.emotion-50 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   position: absolute;
@@ -162,11 +159,11 @@ Array [
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-52 {
+.dark-mode .emotion-50 {
   background-color: var(--primary-hover-color);
 }
 
-.emotion-52::before {
+.emotion-50::before {
   content: '';
   position: absolute;
   display: block;
@@ -186,7 +183,7 @@ Array [
   overflow-y: auto;
 }
 
-.emotion-47 {
+.emotion-52 {
   display: block;
   padding: 0.25rem 0.5rem;
   font-size: 0.75rem;
@@ -197,18 +194,18 @@ Array [
   text-decoration: none;
 }
 
-.emotion-47:hover {
+.emotion-52:hover {
   color: var(--text-color);
   cursor: pointer;
   background: var(--primary-hover-color);
   border-radius: 0.25rem;
 }
 
-.dark-mode .emotion-47:hover {
+.dark-mode .emotion-52:hover {
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-76 {
+.emotion-56 {
   grid-area: nav;
   display: -webkit-box;
   display: -webkit-flex;
@@ -223,7 +220,7 @@ Array [
   margin: auto;
 }
 
-.emotion-59 {
+.emotion-57 {
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -234,25 +231,21 @@ Array [
   padding: 0;
 }
 
-
-
-.emotion-59 li >a {
+.emotion-57 li>a {
   font-size: 18px;
 }
 
-
-
-.emotion-59 li:first-of-type >a {
+.emotion-57 li:first-of-type>a {
   padding-left: 0px;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-59 {
+  .emotion-57 {
     display: none;
   }
 }
 
-.emotion-55 {
+.emotion-58 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -273,11 +266,11 @@ Array [
   text-decoration: none;
 }
 
-.emotion-55:hover {
+.emotion-58:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-75 {
+.emotion-62 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -296,17 +289,17 @@ Array [
   justify-content: flex-end;
 }
 
-.emotion-75 >li {
+.emotion-62>li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-75 >li:not(:first-of-type) .emotion-75 >li:not(:last-of-type) {
+.emotion-62>li:not(:first-of-type) .emotion-62>li:not(:last-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-75 {
+  .emotion-62 {
     width: 100%;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -340,7 +333,7 @@ Array [
   }
 }
 
-.emotion-62 {
+.emotion-64 {
   --horizontal-spacing: 1rem;
   position: relative;
   width: 100%;
@@ -350,17 +343,17 @@ Array [
   max-width: 450px;
 }
 
-.emotion-62 svg {
+.emotion-64 svg {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.emotion-62 input {
+.emotion-64 input {
   border: none;
   height: 40px;
 }
 
-.emotion-60 {
+.emotion-65 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -377,7 +370,7 @@ Array [
   transform: translateY(-50%);
 }
 
-.emotion-61 {
+.emotion-66 {
   width: 100%;
   border: 1px solid var(--primary-text-color);
   border-radius: 4px;
@@ -387,21 +380,21 @@ Array [
   line-height: 1;
   color: var(--primary-text-color);
   padding-left: calc(
-                    var(--horizontal-spacing) + 0.5rem + var(--icon-size)
-                  );
+                      var(--horizontal-spacing) + 0.5rem + var(--icon-size)
+                    );
   padding-right: var(--horizontal-spacing);
   font-size: 0.875rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
 
-.emotion-61:focus {
+.emotion-66:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-69 {
+.emotion-67 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -412,7 +405,7 @@ Array [
 }
 
 @media screen and (max-width: 460px) {
-  .emotion-69 {
+  .emotion-67 {
     width: 100%;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
@@ -421,7 +414,7 @@ Array [
   }
 }
 
-.emotion-65 {
+.emotion-68 {
   color: var(--system-text-primary-dark);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -433,18 +426,18 @@ Array [
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-68 {
     display: block;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-68 {
     padding-right: 0.25rem;
   }
 }
 
-.emotion-64 {
+.emotion-69 {
   width: 1.5rem;
   height: 1.5rem;
   fill: none;
@@ -456,7 +449,7 @@ Array [
   display: block;
 }
 
-.emotion-67 {
+.emotion-70 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -491,12 +484,12 @@ Array [
 }
 
 @media screen and (max-width: 450px) {
-  .emotion-67 {
+  .emotion-70 {
     padding: 0;
   }
 }
 
-.emotion-66 {
+.emotion-72 {
   width: 27px;
   height: 27px;
   stroke: currentColor;
@@ -508,29 +501,29 @@ Array [
   color: var(--system-text-primary-dark);
 }
 
-.emotion-66 path {
+.emotion-72 path {
   fill: currentColor;
 }
 
-.emotion-66 path {
+.emotion-72 path {
   -webkit-transition: -webkit-transform 250ms;
   transition: transform 250ms;
   transform-origin: center;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 {
+.dark-mode .emotion-72 {
   opacity: 0.8;
   -webkit-transition: opacity 250ms;
   transition: opacity 250ms;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 line {
+.dark-mode .emotion-72 line {
   stroke-linecap: butt;
 }
 
-.dark-mode .emotion-66 path {
+.dark-mode .emotion-72 path {
   -webkit-transform: rotate(0.5turn) translate(3%, 3%);
   -moz-transform: rotate(0.5turn) translate(3%, 3%);
   -ms-transform: rotate(0.5turn) translate(3%, 3%);
@@ -542,12 +535,12 @@ Array [
 }
 
 @media screen and (max-width: ) {
-  .emotion-66 {
+  .emotion-72 {
     margin: 0;
   }
 }
 
-.emotion-74 {
+.emotion-73 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -561,7 +554,7 @@ Array [
   flex-direction: row;
 }
 
-.emotion-70 {
+.emotion-74 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -595,17 +588,17 @@ Array [
   font-size: 18px;
 }
 
-.emotion-70 span {
+.emotion-74 span {
   color: var(--system-text-primary-dark);
 }
 
 @media screen and (max-width: ) {
-  .emotion-70 {
+  .emotion-74 {
     display: none;
   }
 }
 
-.emotion-72 {
+.emotion-76 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -640,74 +633,91 @@ Array [
   padding-right: 0;
 }
 
-.emotion-72 span {
+.emotion-76 span {
   color: var(--brand-button-primary-accent);
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-76 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-<div
-    className=" emotion-77"
-    data-swiftype-index={false}
+.emotion-78 {
+  display: block;
+  width: 257px;
+}
+
+@media screen and (max-width: 724px) {
+  .emotion-78 {
+    width: 160px;
+    z-index: 500;
+  }
+}
+
+.emotion-79 {
+  fill: none;
+  width: 100%;
+}
+
+<div>
+  <div
+    class=" emotion-0"
+    data-swiftype-index="false"
   >
     <nav
-      className="emotion-54"
+      class="emotion-1"
     >
       <a
-        className="emotion-22"
+        class="emotion-2"
         href="https://newrelic.com/"
-        onClick={[Function]}
         rel="noopener"
         target="_blank"
       >
         <svg
-          className="emotion-21"
+          class="emotion-3"
           viewBox="0 -3 171 36"
           xmlns="http://www.w3.org/2000/svg"
         >
           <g
-            className="emotion-18"
-            clipPath="url(#clip0_3277_23032)"
+            class="emotion-4"
+            clip-path="url(#clip0_3277_23032)"
           >
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
             />
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
             />
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
             />
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
             />
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
             />
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
             />
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
             />
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
             />
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
             />
           </g>
@@ -720,62 +730,60 @@ Array [
             fill="#1CE783"
           />
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
           />
         </svg>
       </a>
       <div
-        className="emotion-53"
+        class="emotion-25"
       >
         <button
-          className="emotion-45 emotion-46"
-          onClick={[Function]}
-          size="extraSmall"
+          class="emotion-26 emotion-27"
         >
           <svg
-            className="emotion-21"
+            class="emotion-3"
             viewBox="0 -3 171 36"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g
-              className="emotion-18"
-              clipPath="url(#clip0_3277_23032)"
+              class="emotion-4"
+              clip-path="url(#clip0_3277_23032)"
             >
               <path
-                className="text-color emotion-0 emotion-1"
+                class="text-color emotion-5 emotion-6"
                 d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
               />
               <path
-                className="text-color emotion-0 emotion-1"
+                class="text-color emotion-5 emotion-6"
                 d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
               />
               <path
-                className="text-color emotion-0 emotion-1"
+                class="text-color emotion-5 emotion-6"
                 d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
               />
               <path
-                className="text-color emotion-0 emotion-1"
+                class="text-color emotion-5 emotion-6"
                 d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
               />
               <path
-                className="text-color emotion-0 emotion-1"
+                class="text-color emotion-5 emotion-6"
                 d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
               />
               <path
-                className="text-color emotion-0 emotion-1"
+                class="text-color emotion-5 emotion-6"
                 d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
               />
               <path
-                className="text-color emotion-0 emotion-1"
+                class="text-color emotion-5 emotion-6"
                 d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
               />
               <path
-                className="text-color emotion-0 emotion-1"
+                class="text-color emotion-5 emotion-6"
                 d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
               />
               <path
-                className="text-color emotion-0 emotion-1"
+                class="text-color emotion-5 emotion-6"
                 d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
               />
             </g>
@@ -788,48 +796,44 @@ Array [
               fill="#1CE783"
             />
             <path
-              className="text-color emotion-0 emotion-1"
+              class="text-color emotion-5 emotion-6"
               d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
             />
           </svg>
         </button>
         <div
-          className="emotion-52"
+          class="emotion-50"
         >
           <div
-            className="emotion-51"
+            class="emotion-51"
           >
             <a
-              className="emotion-47"
+              class="emotion-52"
               href="https://docs.newrelic.com/"
-              onClick={[Function]}
               rel="noopener"
               target="_blank"
             >
               Docs
             </a>
             <a
-              className="emotion-47"
+              class="emotion-52"
               href="https://developer.newrelic.com/"
-              onClick={[Function]}
               rel="noopener"
               target="_blank"
             >
               Developer
             </a>
             <a
-              className="emotion-47"
+              class="emotion-52"
               href="https://discuss.newrelic.com/"
-              onClick={[Function]}
               rel="noopener"
               target="_blank"
             >
               Community
             </a>
             <a
-              className="emotion-47"
+              class="emotion-52"
               href="https://learn.newrelic.com/"
-              onClick={[Function]}
               rel="noopener"
               target="_blank"
             >
@@ -840,17 +844,16 @@ Array [
       </div>
     </nav>
     <div
-      className="emotion-76"
+      class="emotion-56"
     >
       <nav>
         <ul
-          className="emotion-59"
+          class="emotion-57"
         >
           <li>
             <a
-              className="emotion-55"
+              class="emotion-58"
               href="https://docs.newrelic.com/"
-              onClick={[Function]}
               rel="noopener"
               target="_blank"
             >
@@ -859,9 +862,8 @@ Array [
           </li>
           <li>
             <a
-              className="emotion-55"
+              class="emotion-58"
               href="https://developer.newrelic.com/"
-              onClick={[Function]}
               rel="noopener"
               target="_blank"
             >
@@ -870,9 +872,8 @@ Array [
           </li>
           <li>
             <a
-              className="emotion-55"
+              class="emotion-58"
               href="https://discuss.newrelic.com/"
-              onClick={[Function]}
               rel="noopener"
               target="_blank"
             >
@@ -881,9 +882,8 @@ Array [
           </li>
           <li>
             <a
-              className="emotion-55"
+              class="emotion-58"
               href="https://learn.newrelic.com/"
-              onClick={[Function]}
               rel="noopener"
               target="_blank"
             >
@@ -893,16 +893,16 @@ Array [
         </ul>
       </nav>
       <ul
-        className="emotion-75"
+        class="emotion-62"
       >
         <li
-          className="emotion-63"
+          class="emotion-63"
         >
           <div
-            className="emotion-62"
+            class="emotion-64"
           >
             <svg
-              className="emotion-60"
+              class="emotion-65"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -919,24 +919,22 @@ Array [
               />
             </svg>
             <input
-              className="emotion-61"
-              onBlur={[Function]}
-              onFocus={[Function]}
-              onKeyDown={[Function]}
+              class="emotion-66"
               placeholder="Search docs"
               type="text"
+              value=""
             />
           </div>
         </li>
         <li
-          className="emotion-69"
+          class="emotion-67"
         >
           <a
-            className="emotion-65"
+            class="emotion-68"
             href="?q="
           >
             <svg
-              className="emotion-64"
+              class="emotion-69"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -954,12 +952,10 @@ Array [
             </svg>
           </a>
           <button
-            className="emotion-67 emotion-46"
-            onClick={[Function]}
-            size="extraSmall"
+            class="emotion-70 emotion-27"
           >
             <svg
-              className="emotion-66"
+              class="emotion-72"
               fill="none"
               viewBox="0 0 27 27"
               xmlns="http://www.w3.org/2000/svg"
@@ -976,7 +972,7 @@ Array [
               />
               <line
                 stroke="#F3F4F4"
-                strokeLinecap="round"
+                stroke-linecap="round"
                 x1="13.1826"
                 x2="13.1826"
                 y1="0.5"
@@ -984,7 +980,7 @@ Array [
               />
               <line
                 stroke="#F3F4F4"
-                strokeLinecap="round"
+                stroke-linecap="round"
                 x1="25.6125"
                 x2="23.3485"
                 y1="13.106"
@@ -992,7 +988,7 @@ Array [
               />
               <line
                 stroke="#F3F4F4"
-                strokeLinecap="round"
+                stroke-linecap="round"
                 x1="13.106"
                 x2="13.106"
                 y1="23.3485"
@@ -1000,7 +996,7 @@ Array [
               />
               <line
                 stroke="#F3F4F4"
-                strokeLinecap="round"
+                stroke-linecap="round"
                 x1="22.0242"
                 x2="20.4232"
                 y1="4.26704"
@@ -1008,7 +1004,7 @@ Array [
               />
               <line
                 stroke="#F3F4F4"
-                strokeLinecap="round"
+                stroke-linecap="round"
                 x1="21.8998"
                 x2="20.2989"
                 y1="21.9701"
@@ -1018,14 +1014,12 @@ Array [
           </button>
         </li>
         <li
-          className="emotion-74"
+          class="emotion-73"
         >
           <a
-            className="emotion-70 emotion-46"
+            class="emotion-74 emotion-27"
             href="https://one.newrelic.com"
-            onClick={[Function]}
             rel="noopener"
-            size="small"
             target="_blank"
             variant="link"
           >
@@ -1034,11 +1028,9 @@ Array [
             </span>
           </a>
           <a
-            className=" emotion-72 emotion-46"
+            class=" emotion-76 emotion-27"
             href="https://newrelic.com/signup"
-            onClick={[Function]}
             rel="noopener"
-            size="small"
             target="_blank"
             variant="link"
           >
@@ -1049,87 +1041,58 @@ Array [
         </li>
       </ul>
     </div>
-  </div>,
-  
-
-@media screen and (max-width: 460px) {
-  .emotion-18 {
-    display: none;
-  }
-}
-
-.emotion-0 {
-  fill: var(--primary-text-color);
-}
-
-.emotion-22 {
-  display: block;
-  width: 257px;
-}
-
-@media screen and (max-width: 724px) {
-  .emotion-22 {
-    width: 160px;
-    z-index: 500;
-  }
-}
-
-.emotion-21 {
-  fill: none;
-  width: 100%;
-}
-
-<header
-    className="undefined 
+  </div>
+  <header
+    class="undefined 
         "
   >
     <a
-      className="emotion-22"
+      class="emotion-78"
       href="/"
     >
       <svg
-        className="emotion-21"
+        class="emotion-79"
         viewBox="0 -3 171 36"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g
-          className="emotion-18"
-          clipPath="url(#clip0_3277_23032)"
+          class="emotion-4"
+          clip-path="url(#clip0_3277_23032)"
         >
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M40.104 7.57598H43.7406L44.0649 9.14005H44.223C44.223 9.14005 45.642 7.25391 48.6502 7.25391C52.2868 7.25391 54.9747 9.92309 54.9747 14.0074V23.5931H51.0219V14.3335C51.0219 12.2923 49.6029 10.8792 47.5434 10.8792C45.4839 10.8792 44.0649 12.2883 44.0649 14.3335V23.5931H40.1121L40.104 7.57598Z"
           />
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M73.1498 18.8823C72.8336 20.1384 70.7781 23.9147 65.7185 23.9147C60.9731 23.9147 57.4946 20.4605 57.4946 15.5931C57.4946 10.7258 60.9731 7.26953 65.7185 7.26953C70.1457 7.26953 73.6241 10.7238 73.6241 15.2791C73.6302 15.8067 73.5771 16.3333 73.466 16.8492H61.4474C61.7657 19.0393 63.5049 20.6134 65.7185 20.6134C67.6159 20.6134 68.7226 19.5144 69.0389 18.8863L73.1498 18.8823ZM69.6713 14.172C69.3551 12.1308 67.9321 10.5607 65.7185 10.5607C63.3468 10.5607 61.9238 12.1308 61.4474 14.172H69.6713Z"
           />
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M74.4243 7.57422H78.5271L81.2231 18.0959H81.4502L84.1381 7.57422H88.1598L90.8478 18.0959H91.0748L93.7627 7.57422H97.8736L93.7627 23.5913H88.9504L86.2625 13.2286H86.0273L83.3475 23.5913H78.5271L74.4243 7.57422Z"
           />
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M105.776 7.57422H109.098L109.414 8.98329H109.573C109.904 8.54636 110.332 8.19169 110.825 7.94718C111.317 7.70267 111.86 7.575 112.411 7.57422H115.167V11.3525H112.735C110.677 11.3525 109.729 12.2946 109.729 14.3357V23.5954H105.776V7.57422Z"
           />
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M131.345 18.8823C131.029 20.1384 128.973 23.9147 123.914 23.9147C119.168 23.9147 115.69 20.4604 115.69 15.5931C115.69 10.7258 119.168 7.26953 123.914 7.26953C128.341 7.26953 131.819 10.7238 131.819 15.2791C131.825 15.8067 131.772 16.3333 131.661 16.8492H119.643C119.961 19.0474 121.7 20.6175 123.914 20.6175C125.811 20.6175 126.918 19.5184 127.234 18.8903L131.345 18.8823ZM127.867 14.172C127.55 12.1308 126.127 10.5607 123.914 10.5607C121.542 10.5607 120.119 12.1308 119.643 14.172H127.867Z"
           />
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M142.256 1.60938H146.209V5.09984H142.256V1.60938ZM142.256 7.57579H146.209V23.5929H142.256V7.57579Z"
           />
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M164.71 17.6264C164.236 20.1386 162.18 23.9069 157.121 23.9069C152.375 23.9069 148.897 20.4526 148.897 15.5853C148.897 10.718 152.375 7.26172 157.121 7.26172C162.189 7.26172 164.236 11.032 164.71 13.3871H160.757C160.441 12.4431 159.493 10.875 157.121 10.875C154.749 10.875 152.85 12.7591 152.85 15.5853C152.85 18.4115 154.747 20.2956 157.121 20.2956C159.495 20.2956 160.441 18.7255 160.757 17.6264H164.71Z"
           />
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M132.424 1.61133V5.09978H134.668V23.5928H138.621V1.61133H132.424Z"
           />
           <path
-            className="text-color emotion-0 emotion-1"
+            class="text-color emotion-5 emotion-6"
             d="M165.336 22.1028C165.342 21.7518 165.452 21.4104 165.653 21.1215C165.853 20.8325 166.136 20.6089 166.464 20.4787C166.792 20.3484 167.152 20.3174 167.498 20.3896C167.844 20.4617 168.161 20.6337 168.409 20.884C168.656 21.1343 168.824 21.4517 168.891 21.7964C168.958 22.1412 168.921 22.4978 168.784 22.8216C168.647 23.1453 168.417 23.4218 168.123 23.6162C167.829 23.8107 167.483 23.9145 167.13 23.9145C166.89 23.9193 166.652 23.8755 166.43 23.7858C166.208 23.6961 166.007 23.5623 165.839 23.3927C165.671 23.2231 165.54 23.0212 165.454 22.7994C165.367 22.5776 165.327 22.3406 165.336 22.1028V22.1028ZM168.644 22.1028C168.639 21.806 168.546 21.5173 168.376 21.2728C168.207 21.0283 167.968 20.8391 167.691 20.7289C167.413 20.6187 167.109 20.5924 166.816 20.6534C166.524 20.7144 166.256 20.8598 166.046 21.0715C165.837 21.2832 165.695 21.5517 165.639 21.8433C165.582 22.1348 165.614 22.4363 165.73 22.71C165.846 22.9837 166.04 23.2173 166.289 23.3815C166.538 23.5457 166.831 23.633 167.13 23.6327C167.332 23.6375 167.533 23.6011 167.721 23.5256C167.909 23.4501 168.079 23.3371 168.221 23.1937C168.363 23.0503 168.473 22.8795 168.546 22.6919C168.619 22.5042 168.652 22.3037 168.644 22.1028ZM166.414 21.1487H167.225C167.312 21.1426 167.399 21.1544 167.482 21.1831C167.564 21.2119 167.639 21.2571 167.703 21.3159C167.767 21.3748 167.819 21.446 167.854 21.5253C167.889 21.6045 167.907 21.6901 167.908 21.7767C167.908 21.9369 167.844 22.0905 167.73 22.2037C167.616 22.317 167.461 22.3806 167.3 22.3806L167.957 23.0328H167.602L166.945 22.3806H166.702V23.0308H166.424L166.414 21.1487ZM167.225 22.1028C167.503 22.1028 167.63 21.976 167.63 21.7767C167.63 21.7262 167.619 21.6764 167.597 21.6305C167.576 21.5846 167.545 21.5436 167.507 21.5104C167.469 21.4771 167.424 21.4523 167.375 21.4374C167.327 21.4226 167.275 21.4182 167.225 21.4245H166.702V22.1028H167.225Z"
           />
         </g>
@@ -1142,7 +1105,7 @@ Array [
           fill="#1CE783"
         />
         <path
-          className="text-color emotion-0 emotion-1"
+          class="text-color emotion-5 emotion-6"
           d="M9.25323 19.0793V28.9247L14.6209 32.0005V16.0015L0.666504 8V14.1556L9.25323 19.0793Z"
         />
       </svg>
@@ -1178,11 +1141,9 @@ Array [
       </li>
     </ul>
     <div
-      className="undefined "
+      class="undefined "
     >
-      <button
-        onClick={[Function]}
-      >
+      <button>
         Menu
       </button>
       <ul>
@@ -1216,6 +1177,6 @@ Array [
         </li>
       </ul>
     </div>
-  </header>,
-]
+  </header>
+</div>
 `;
