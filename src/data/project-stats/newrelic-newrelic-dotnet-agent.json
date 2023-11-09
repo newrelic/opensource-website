@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 50
+    "open": 47
   },
-  "releases": 109,
+  "releases": 111,
   "latestRelease": {
-    "name": "v10.18.0",
-    "date": "2023-10-17T18:14:31Z"
+    "name": "v10.19.1",
+    "date": "2023-11-08T23:14:29Z"
   },
-  "commits": 989,
-  "lastSixMonthsCommitTotal": 203,
+  "commits": 996,
+  "lastSixMonthsCommitTotal": 210,
   "contributors": 34,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -123,13 +123,6 @@
       "contributions": 3
     },
     {
-      "id": 141066016,
-      "login": "dotnet-agent-team-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/141066016?v=4",
-      "htmlUrl": "https://github.com/dotnet-agent-team-bot",
-      "contributions": 4
-    },
-    {
       "id": 4761745,
       "login": "elucus",
       "avatarUrl": "https://avatars.githubusercontent.com/u/4761745?v=4",
@@ -158,6 +151,13 @@
       "contributions": 5
     },
     {
+      "id": 141066016,
+      "login": "dotnet-agent-team-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/141066016?v=4",
+      "htmlUrl": "https://github.com/dotnet-agent-team-bot",
+      "contributions": 6
+    },
+    {
       "id": 11223178,
       "login": "michaelgoin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
@@ -176,7 +176,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 25
+      "contributions": 26
     },
     {
       "id": 69914680,
@@ -239,7 +239,7 @@
       "login": "tippmar-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/120425148?v=4",
       "htmlUrl": "https://github.com/tippmar-nr",
-      "contributions": 141
+      "contributions": 143
     },
     {
       "id": 6098021,
@@ -253,7 +253,7 @@
       "login": "nr-ahemsath",
       "avatarUrl": "https://avatars.githubusercontent.com/u/57361211?v=4",
       "htmlUrl": "https://github.com/nr-ahemsath",
-      "contributions": 194
+      "contributions": 196
     }
   ],
   "languages": [
