@@ -3,20 +3,34 @@
   "issues": {
     "open": 1
   },
-  "releases": 14,
+  "releases": 15,
   "latestRelease": {
-    "name": "v0.4.0",
-    "date": "2023-10-27T12:52:25Z"
+    "name": "v0.5.0",
+    "date": "2023-11-17T08:24:29Z"
   },
-  "commits": 96,
-  "lastSixMonthsCommitTotal": 57,
-  "contributors": 6,
+  "commits": 99,
+  "lastSixMonthsCommitTotal": 58,
+  "contributors": 8,
   "pullRequests": {
-    "open": 9
+    "open": 8
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 47458753,
+      "login": "cutler-scott-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47458753?v=4",
+      "htmlUrl": "https://github.com/cutler-scott-newrelic",
+      "contributions": 1
+    },
+    {
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
+      "contributions": 1
+    },
     {
       "id": 1428400,
       "login": "coreyarnold",
@@ -43,7 +57,7 @@
       "login": "github-actions[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
       "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 9
+      "contributions": 10
     },
     {
       "id": 1874937,
@@ -57,7 +71,7 @@
       "login": "sumitsuthar",
       "avatarUrl": "https://avatars.githubusercontent.com/u/21304260?v=4",
       "htmlUrl": "https://github.com/sumitsuthar",
-      "contributions": 62
+      "contributions": 64
     }
   ],
   "languages": [
