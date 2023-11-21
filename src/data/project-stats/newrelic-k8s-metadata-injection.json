@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 85,
+  "releases": 86,
   "latestRelease": {
-    "name": "v1.22.1",
-    "date": "2023-11-16T18:04:08Z"
+    "name": "nri-metadata-injection-4.14.1",
+    "date": "2023-11-21T02:20:53Z"
   },
-  "commits": 443,
-  "lastSixMonthsCommitTotal": 252,
+  "commits": 445,
+  "lastSixMonthsCommitTotal": 254,
   "contributors": 39,
   "pullRequests": {
     "open": 4
@@ -260,7 +260,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 37
+      "contributions": 38
     },
     {
       "id": 7085372,
@@ -270,18 +270,18 @@
       "contributions": 43
     },
     {
-      "id": 142926265,
-      "login": "NewRelic-K8s-Agents-Bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
-      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 47
-    },
-    {
       "id": 49699333,
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
       "contributions": 47
+    },
+    {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "contributions": 48
     },
     {
       "id": 50715937,

@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-pixie-integration",
   "issues": {
-    "open": 4
+    "open": 5
   },
-  "releases": 28,
+  "releases": 30,
   "latestRelease": {
-    "name": "v2.1.4",
-    "date": "2023-06-22T00:14:01Z"
+    "name": "v2.1.5",
+    "date": "2023-11-21T18:55:43Z"
   },
-  "commits": 169,
-  "lastSixMonthsCommitTotal": 18,
-  "contributors": 14,
+  "commits": 171,
+  "lastSixMonthsCommitTotal": 20,
+  "contributors": 15,
   "pullRequests": {
-    "open": 12
+    "open": 11
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 5855593,
+      "login": "ddelnano",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5855593?v=4",
+      "htmlUrl": "https://github.com/ddelnano",
+      "contributions": 1
+    },
     {
       "id": 97467528,
       "login": "CliftonDobrich",
@@ -106,7 +113,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 22
+      "contributions": 23
     },
     {
       "id": 7886905,
