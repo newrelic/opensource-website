@@ -20,7 +20,7 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-          token: ${{ secrets.DEVEX_OPENSOURCE_BOT_TOKEN }}
+          token: ${{ secrets.OPENSOURCE_STATS_TOKEN }}
 
       - name: Install dependencies
         run: cd .github/actions/sync-data && npm install
