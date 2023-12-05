@@ -3,10 +3,13 @@
   "issues": {
     "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 16,
-  "lastSixMonthsCommitTotal": 15,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v0.1.2",
+    "date": null
+  },
+  "commits": 21,
+  "lastSixMonthsCommitTotal": 20,
   "contributors": 4,
   "pullRequests": {
     "open": 13
@@ -40,7 +43,7 @@
       "login": "andrew-lozoya",
       "avatarUrl": "https://avatars.githubusercontent.com/u/40801353?v=4",
       "htmlUrl": "https://github.com/andrew-lozoya",
-      "contributions": 7
+      "contributions": 11
     }
   ],
   "languages": [
