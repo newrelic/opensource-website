@@ -3,16 +3,16 @@
   "issues": {
     "open": 3
   },
-  "releases": 47,
+  "releases": 49,
   "latestRelease": {
-    "name": "v1.11.0",
-    "date": "2023-12-06T01:49:34Z"
+    "name": "newrelic-prometheus-agent-1.8.1",
+    "date": "2023-12-12T00:31:14Z"
   },
-  "commits": 346,
-  "lastSixMonthsCommitTotal": 114,
+  "commits": 353,
+  "lastSixMonthsCommitTotal": 118,
   "contributors": 21,
   "pullRequests": {
-    "open": 10
+    "open": 6
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -113,14 +113,7 @@
       "login": "NewRelic-K8s-Agents-Bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
       "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 19
-    },
-    {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 26
+      "contributions": 21
     },
     {
       "id": 115998732,
@@ -128,6 +121,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
       "htmlUrl": "https://github.com/newrelic-coreint-bot",
       "contributions": 26
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 31
     },
     {
       "id": 50715937,

@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-kubernetes",
   "issues": {
-    "open": 9
+    "open": 8
   },
-  "releases": 156,
+  "releases": 158,
   "latestRelease": {
-    "name": "v3.22.0",
-    "date": "2023-12-06T01:49:06Z"
+    "name": "v3.23.0",
+    "date": "2023-12-09T05:31:23Z"
   },
-  "commits": 715,
-  "lastSixMonthsCommitTotal": 150,
+  "commits": 726,
+  "lastSixMonthsCommitTotal": 158,
   "contributors": 41,
   "pullRequests": {
-    "open": 14
+    "open": 10
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -221,18 +221,18 @@
       "contributions": 16
     },
     {
-      "id": 142926265,
-      "login": "NewRelic-K8s-Agents-Bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
-      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 17
-    },
-    {
       "id": 5297542,
       "login": "alejandrodnm",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
       "htmlUrl": "https://github.com/alejandrodnm",
       "contributions": 17
+    },
+    {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "contributions": 19
     },
     {
       "id": 16539896,
@@ -281,7 +281,7 @@
       "login": "juanjjaramillo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
       "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 77
+      "contributions": 78
     },
     {
       "id": 969721,
@@ -295,7 +295,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 86
+      "contributions": 94
     },
     {
       "id": 43335750,
