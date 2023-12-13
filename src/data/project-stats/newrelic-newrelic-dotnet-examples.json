@@ -5,15 +5,22 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 8,
-  "lastSixMonthsCommitTotal": 8,
-  "contributors": 2,
+  "commits": 10,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 3,
   "pullRequests": {
-    "open": 4
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 1
+    },
     {
       "id": 1428400,
       "login": "coreyarnold",
@@ -26,7 +33,7 @@
       "login": "tippmar-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/120425148?v=4",
       "htmlUrl": "https://github.com/tippmar-nr",
-      "contributions": 6
+      "contributions": 7
     }
   ],
   "languages": [
