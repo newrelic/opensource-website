@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-ruby-agent",
   "issues": {
-    "open": 134
+    "open": 133
   },
-  "releases": 502,
+  "releases": 503,
   "latestRelease": {
-    "name": "dup_fix_hash_iteration_issue",
-    "date": "2023-12-04T21:31:11Z"
+    "name": "9.7.0-pre",
+    "date": "2024-01-08T21:54:35Z"
   },
-  "commits": 18940,
-  "lastSixMonthsCommitTotal": 567,
+  "commits": 18953,
+  "lastSixMonthsCommitTotal": 580,
   "contributors": 100,
   "pullRequests": {
     "open": 2
@@ -518,13 +518,6 @@
       "contributions": 6
     },
     {
-      "id": 129334116,
-      "login": "newrelic-ruby-agent-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/129334116?v=4",
-      "htmlUrl": "https://github.com/newrelic-ruby-agent-bot",
-      "contributions": 7
-    },
-    {
       "id": 15052690,
       "login": "creaturenex",
       "avatarUrl": "https://avatars.githubusercontent.com/u/15052690?v=4",
@@ -537,6 +530,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/172702?v=4",
       "htmlUrl": "https://github.com/andreaseger",
       "contributions": 7
+    },
+    {
+      "id": 129334116,
+      "login": "newrelic-ruby-agent-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/129334116?v=4",
+      "htmlUrl": "https://github.com/newrelic-ruby-agent-bot",
+      "contributions": 8
     },
     {
       "id": 3467,
@@ -718,7 +718,7 @@
       "login": "hannahramadan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/76922290?v=4",
       "htmlUrl": "https://github.com/hannahramadan",
-      "contributions": 763
+      "contributions": 768
     },
     {
       "id": 87386821,
@@ -732,7 +732,7 @@
       "login": "tannalynn",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11799492?v=4",
       "htmlUrl": "https://github.com/tannalynn",
-      "contributions": 1225
+      "contributions": 1228
     },
     {
       "id": 121392,
