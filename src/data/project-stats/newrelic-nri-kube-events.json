@@ -3,16 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 73,
+  "releases": 75,
   "latestRelease": {
-    "name": "v2.7.1",
-    "date": "2024-01-01T12:06:02Z"
+    "name": "v2.7.2",
+    "date": "2024-01-09T00:37:25Z"
   },
-  "commits": 293,
-  "lastSixMonthsCommitTotal": 117,
+  "commits": 298,
+  "lastSixMonthsCommitTotal": 122,
   "contributors": 25,
   "pullRequests": {
-    "open": 3
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -162,14 +162,14 @@
       "login": "NewRelic-K8s-Agents-Bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
       "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 29
+      "contributions": 31
     },
     {
       "id": 7085372,
       "login": "juanjjaramillo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
       "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 39
+      "contributions": 41
     },
     {
       "id": 1444638,
@@ -179,17 +179,17 @@
       "contributions": 46
     },
     {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 47
-    },
-    {
       "id": 49699333,
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 48
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
       "contributions": 48
     }
   ],
