@@ -8,14 +8,32 @@
     "name": "v10.20.1",
     "date": "2023-12-13T15:39:49Z"
   },
-  "commits": 1064,
-  "lastSixMonthsCommitTotal": 207,
+  "commits": 1065,
+  "lastSixMonthsCommitTotal": 205,
   "contributors": 34,
   "pullRequests": {
-    "open": 2
+    "open": 4
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [],
+  "cachedIssues": [
+    {
+      "id": "I_kwDOEGQTkc575UqZ",
+      "title": "Null reference exception in WriteJsonImpl",
+      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/2185",
+      "createdAt": "2024-01-12T11:24:11Z",
+      "comments": {
+        "totalCount": 3
+      },
+      "author": {
+        "login": "david-garcia-garcia",
+        "id": "MDQ6VXNlcjk1OTkzNTI=",
+        "email": "",
+        "name": "Davvid"
+      },
+      "number": 2185,
+      "createdBy": "Davvid"
+    }
+  ],
   "cachedContributors": [
     {
       "id": 929261,
@@ -137,17 +155,17 @@
       "contributions": 5
     },
     {
-      "id": 188129,
-      "login": "bgrainger",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
-      "htmlUrl": "https://github.com/bgrainger",
-      "contributions": 5
-    },
-    {
       "id": 3676547,
       "login": "alanwest",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3676547?v=4",
       "htmlUrl": "https://github.com/alanwest",
+      "contributions": 5
+    },
+    {
+      "id": 188129,
+      "login": "bgrainger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188129?v=4",
+      "htmlUrl": "https://github.com/bgrainger",
       "contributions": 5
     },
     {
@@ -190,7 +208,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 37
+      "contributions": 38
     },
     {
       "id": 111462425,
