@@ -1,39 +1,21 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 46
+    "open": 43
   },
   "releases": 114,
   "latestRelease": {
     "name": "v10.20.1",
     "date": "2023-12-13T15:39:49Z"
   },
-  "commits": 1065,
-  "lastSixMonthsCommitTotal": 205,
+  "commits": 1068,
+  "lastSixMonthsCommitTotal": 208,
   "contributors": 34,
   "pullRequests": {
-    "open": 4
+    "open": 1
   },
   "searchCategory": "good first issue",
-  "cachedIssues": [
-    {
-      "id": "I_kwDOEGQTkc575UqZ",
-      "title": "Null reference exception in WriteJsonImpl",
-      "url": "https://github.com/newrelic/newrelic-dotnet-agent/issues/2185",
-      "createdAt": "2024-01-12T11:24:11Z",
-      "comments": {
-        "totalCount": 3
-      },
-      "author": {
-        "login": "david-garcia-garcia",
-        "id": "MDQ6VXNlcjk1OTkzNTI=",
-        "email": "",
-        "name": "Davvid"
-      },
-      "number": 2185,
-      "createdBy": "Davvid"
-    }
-  ],
+  "cachedIssues": [],
   "cachedContributors": [
     {
       "id": 929261,
@@ -257,7 +239,7 @@
       "login": "tippmar-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/120425148?v=4",
       "htmlUrl": "https://github.com/tippmar-nr",
-      "contributions": 182
+      "contributions": 185
     },
     {
       "id": 6098021,
