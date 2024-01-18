@@ -5,11 +5,11 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
+  "commits": 7,
+  "lastSixMonthsCommitTotal": 7,
   "contributors": 2,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -29,7 +29,20 @@
       "contributions": 6
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
+    }
+  ],
   "screenshots": [],
-  "license": null
+  "license": {
+    "id": "MDc6TGljZW5zZTI=",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "http://choosealicense.com/licenses/apache-2.0/",
+    "featured": true,
+    "key": "apache-2.0"
+  }
 }
