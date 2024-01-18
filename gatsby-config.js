@@ -70,17 +70,6 @@ module.exports = {
             // }
           },
         },
-        tessen: {
-          tessenVersion: '1.14.0',
-          product: 'OSS',
-          subproduct: 'TOSS',
-          segmentWriteKey: 'FoEoyHDGF4dDczR4Vt12vuysG1Rl4n8z',
-          trackPageViews: true,
-          pageView: {
-            eventName: 'pageView',
-            category: 'OssPageView',
-          },
-        },
       },
     },
     {
