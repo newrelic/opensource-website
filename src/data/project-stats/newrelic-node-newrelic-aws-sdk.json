@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/node-newrelic-aws-sdk",
   "issues": {
-    "open": 4
+    "open": 3
   },
-  "releases": 26,
+  "releases": 27,
   "latestRelease": {
-    "name": "v7.0.3",
+    "name": "v7.1.0",
     "date": null
   },
-  "commits": 524,
-  "lastSixMonthsCommitTotal": 53,
-  "contributors": 17,
+  "commits": 528,
+  "lastSixMonthsCommitTotal": 55,
+  "contributors": 18,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 1
+    },
     {
       "id": 7945073,
       "login": "psvet",
@@ -71,7 +78,7 @@
       "login": "jsumners-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/150050532?v=4",
       "htmlUrl": "https://github.com/jsumners-nr",
-      "contributions": 6
+      "contributions": 7
     },
     {
       "id": 398399,
@@ -134,7 +141,7 @@
       "login": "bizob2828",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
       "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 97
+      "contributions": 99
     }
   ],
   "languages": [
