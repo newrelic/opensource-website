@@ -8,15 +8,22 @@
     "name": "v0.66.3",
     "date": null
   },
-  "commits": 2615,
-  "lastSixMonthsCommitTotal": 58,
-  "contributors": 54,
+  "commits": 2616,
+  "lastSixMonthsCommitTotal": 59,
+  "contributors": 55,
   "pullRequests": {
-    "open": 18
+    "open": 20
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 127722176,
+      "login": "pchinthapenta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127722176?v=4",
+      "htmlUrl": "https://github.com/pchinthapenta",
+      "contributions": 1
+    },
     {
       "id": 127721871,
       "login": "pjarugula",
@@ -416,6 +423,11 @@
       "id": "MDg6TGFuZ3VhZ2U1MzU=",
       "name": "Dockerfile",
       "color": "#384d54"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxOTA=",
+      "name": "Go",
+      "color": "#00ADD8"
     }
   ],
   "screenshots": [],
