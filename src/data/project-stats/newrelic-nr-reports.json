@@ -5,14 +5,14 @@
   },
   "releases": 8,
   "latestRelease": {
-    "name": "3.0.0",
-    "date": "2024-01-16T17:38:18Z"
+    "name": "v3.0.0",
+    "date": "2024-01-19T20:24:59Z"
   },
-  "commits": 73,
-  "lastSixMonthsCommitTotal": 4,
+  "commits": 127,
+  "lastSixMonthsCommitTotal": 58,
   "contributors": 3,
   "pullRequests": {
-    "open": 1
+    "open": 4
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -36,7 +36,7 @@
       "login": "sdewitt-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/54076100?v=4",
       "htmlUrl": "https://github.com/sdewitt-newrelic",
-      "contributions": 40
+      "contributions": 93
     }
   ],
   "languages": [
@@ -59,6 +59,11 @@
       "id": "MDg6TGFuZ3VhZ2U0MTc=",
       "name": "HTML",
       "color": "#e34c26"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U2MDU=",
+      "name": "SCSS",
+      "color": "#c6538c"
     }
   ],
   "screenshots": [],
