@@ -3,16 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 50,
+  "releases": 52,
   "latestRelease": {
-    "name": "v0.10.1",
-    "date": "2024-01-09T00:54:37Z"
+    "name": "v0.10.2",
+    "date": "2024-01-22T12:02:42Z"
   },
-  "commits": 296,
-  "lastSixMonthsCommitTotal": 108,
-  "contributors": 22,
+  "commits": 299,
+  "lastSixMonthsCommitTotal": 111,
+  "contributors": 23,
   "pullRequests": {
-    "open": 6
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -22,6 +22,13 @@
       "login": "jbeveland27",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6722433?v=4",
       "htmlUrl": "https://github.com/jbeveland27",
+      "contributions": 1
+    },
+    {
+      "id": 135250101,
+      "login": "dbudziwojskiNR",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/135250101?v=4",
+      "htmlUrl": "https://github.com/dbudziwojskiNR",
       "contributions": 1
     },
     {
@@ -123,13 +130,6 @@
       "contributions": 11
     },
     {
-      "id": 142926265,
-      "login": "NewRelic-K8s-Agents-Bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
-      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 26
-    },
-    {
       "id": 66266496,
       "login": "htroisi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
@@ -141,6 +141,13 @@
       "login": "svetlanabrennan",
       "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
       "htmlUrl": "https://github.com/svetlanabrennan",
+      "contributions": 28
+    },
+    {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
       "contributions": 28
     },
     {
@@ -169,7 +176,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 52
+      "contributions": 53
     }
   ],
   "languages": [
