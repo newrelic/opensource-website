@@ -1,0 +1,26 @@
+{
+  "name": "newrelic-ios-agent",
+  "fullName": "newrelic/newrelic-ios-agent",
+  "slug": "newrelic-newrelic-ios-agent",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic iOS Agent",
+  "supportUrl": "https://discuss.newrelic.com/t/github-nerdpack/82932",
+  "githubUrl": "https://github.com/newrelic/newrelic-ios-agent",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-ios-agent",
+  "defaultBranch": "main",
+  "contributingGuideUrl": null,
+  "iconUrl": "https://github.com/newrelic/newrelic-ios-agent/blob/main/icon.png?raw=true",
+  "shortDescription": "New Relic agent SDK for iOS apps.",
+  "description": "The New Relic iOS agent includes mobile monitoring capabilities to help you gain deeper visibility into how to analyze your iOS application performance and troubleshoot crashes.",
+  "ossCategory": "community-plus",
+  "primaryLanguage": "Objective-C",
+  "projectTags": ["agent", "mobile", "sdk", "instrumentation"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic iOS Agent",
+    "url": "https://github.com/newrelic/newrelic-ios-agent"
+  }
+}

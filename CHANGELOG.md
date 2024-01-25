@@ -1,3 +1,16 @@
+# [1.25.0](https://github.com/newrelic/opensource-website/compare/v1.24.10...v1.25.0) (2024-01-25)
+
+
+### Bug Fixes
+
+* update snapshot ([112582c](https://github.com/newrelic/opensource-website/commit/112582c14ac489cef5ae69fa64f07fd10189d2ac))
+* update theme version to 9.2.8 ([8f16b07](https://github.com/newrelic/opensource-website/commit/8f16b07851549b998c0243caffdc4a6cb8a42c00))
+
+
+### Features
+
+* remove tessen ([2ceba57](https://github.com/newrelic/opensource-website/commit/2ceba5758283aed02f98d03a9027a2865f1d1a4e))
+
 ## [1.24.10](https://github.com/newrelic/opensource-website/compare/v1.24.9...v1.24.10) (2023-07-25)
 
 

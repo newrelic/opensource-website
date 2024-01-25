@@ -1,0 +1,24 @@
+{
+  "name": "newrelic-xamarin-plugin",
+  "fullName": "newrelic/newrelic-xamarin-plugin",
+  "slug": "newrelic-xamarin-plugin",
+  "owner": {
+    "login": "newrelic",
+    "type": "Organization"
+  },
+  "title": "New Relic Xamarin Plugin",
+  "supportUrl": null,
+  "githubUrl": "https://github.com/newrelic/newrelic-xamarin-plugin",
+  "permalink": "https://opensource.newrelic.com/projects/newrelic/newrelic-xamarin-plugin",
+  "iconUrl": null,
+  "shortDescription": "Instrumentation for Xamarin Mobile Applications",
+  "description": "The official New Relic plugin for Xamarin",
+  "ossCategory": "community-project",
+  "primaryLanguage": "C#",
+  "projectTags": [ "agent","mobile"],
+  "acceptsContributions": true,
+  "website": {
+    "title": "New Relic Xamarin Plugin",
+    "url": "https://github.com/newrelic/newrelic-xamarin-plugin"
+  }
+}

@@ -772,11 +772,12 @@ exports[`External Projects Page Renders correctly 1`] = `
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
   grid-area: legal;
+  max-width: 32rem;
 }
 
 .emotion-103 a {
@@ -1358,7 +1359,7 @@ exports[`External Projects Page Renders correctly 1`] = `
         <div
           className="emotion-102"
         >
-          Copyright © 2023 New Relic Inc.
+          Copyright © 2024 New Relic Inc.
         </div>
         <div
           className="emotion-105"
