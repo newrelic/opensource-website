@@ -70,6 +70,11 @@ module.exports = {
             // }
           },
         },
+        segment: {
+          segmentWriteKey: 'noviNOFjASOSPcSEAkwoRxOt0Y1719KD',
+          section: 'opensource',
+          platform: 'opensource_pages',
+        },
       },
     },
     {
