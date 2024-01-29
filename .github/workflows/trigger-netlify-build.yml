@@ -18,5 +18,5 @@ jobs:
             COMMENT_BODY=$(jq -r .comment.body $GITHUB_EVENT_PATH)
 
               if [[ $COMMENT_BODY == *"netlify build"* ]]; then
-                curl -X POST -d {} $NETLIFY_BUILD_HOOK
+                curl -X POST $NETLIFY_BUILD_HOOK
               fi
