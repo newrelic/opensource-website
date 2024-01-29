@@ -1,0 +1,22 @@
+name: Trigger Netlify Build
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  trigger-netlify-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger Netlify Build
+        env:
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: |
+          if [[ $GITHUB_EVENT_NAME == "issue_comment" ]]; then
+            COMMENT_USER=$(jq -r .comment.user.login $GITHUB_EVENT_PATH)
+            COMMENT_BODY=$(jq -r .comment.body $GITHUB_EVENT_PATH)
+
+              if [[ $COMMENT_BODY == *"netlify build"* ]]; then
+                curl -X POST -d {} $NETLIFY_BUILD_HOOK
+              fi
