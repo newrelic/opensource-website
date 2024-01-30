@@ -1,0 +1,22 @@
+name: Trigger Netlify Build
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  deploy-preview:
+    name: 'Deploy Preview'
+    runs-on: ubuntu-latest
+
+    steps:
+        if: contains(github.event.comment.body, 'netlify build')
+      - name: deploy to preview mode
+        uses: thundermiracle/netlify-deploy@v3
+        with:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN}}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID}}
+          deploy-dir: "./public"
+          extra-cache-path: |
+            .cache
+            public
