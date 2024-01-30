@@ -5,13 +5,18 @@ on:
     types: [created]
 
 jobs:
-  trigger-netlify-build:
+  deploy-preview:
+    name: 'Deploy Preview'
     runs-on: ubuntu-latest
 
     steps:
-      - name: Trigger Netlify Build
-        env:
-          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
         if: contains(github.event.comment.body, 'netlify build')
-        run: |
-          curl -X POST $NETLIFY_BUILD_HOOK
+      - name: deploy to preview mode
+        uses: thundermiracle/netlify-deploy@v3
+        with:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN}}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID}}
+          deploy-dir: "./public"
+          extra-cache-path: |
+            .cache
+            public
