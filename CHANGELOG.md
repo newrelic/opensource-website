@@ -1,3 +1,11 @@
+## [1.26.2](https://github.com/newrelic/opensource-website/compare/v1.26.1...v1.26.2) (2024-01-30)
+
+
+### Bug Fixes
+
+* update action yaml formatting ([4dadfa7](https://github.com/newrelic/opensource-website/commit/4dadfa781c132f4be57b43f2d5ca37cb670c9e5c))
+* update yaml formatting again ([4f58389](https://github.com/newrelic/opensource-website/commit/4f58389f412cd8228f4b367126ca966c6e6534e8))
+
 ## [1.26.1](https://github.com/newrelic/opensource-website/compare/v1.26.0...v1.26.1) (2024-01-30)
 
 
