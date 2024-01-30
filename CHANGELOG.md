@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/newrelic/opensource-website/compare/v1.25.0...v1.26.0) (2024-01-30)
+
+
+### Features
+
+* add test workflow ([b0aceaa](https://github.com/newrelic/opensource-website/commit/b0aceaa54004d7fb1559bc9efc9803d0c114e596))
+
 # [1.25.0](https://github.com/newrelic/opensource-website/compare/v1.24.10...v1.25.0) (2024-01-25)
 
 
