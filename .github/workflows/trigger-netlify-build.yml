@@ -7,15 +7,14 @@ on:
 jobs:
   deploy-preview:
     runs-on: ubuntu-latest
-
     steps:
-        if: contains(github.event.comment.body, 'netlify build')
       - name: deploy to preview mode
+        if: contains(github.event.comment.body, 'netlify build')
         uses: thundermiracle/netlify-deploy@v3
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN}}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID}}
-          deploy-dir: "./public"
+          deploy-dir: './public'
           extra-cache-path: |
             .cache
             public
