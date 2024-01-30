@@ -1,3 +1,10 @@
+## [1.26.1](https://github.com/newrelic/opensource-website/compare/v1.26.0...v1.26.1) (2024-01-30)
+
+
+### Bug Fixes
+
+* fix workflow ([29d5617](https://github.com/newrelic/opensource-website/commit/29d56173bc2eb149c0d3b93510057c6722a78094))
+
 # [1.26.0](https://github.com/newrelic/opensource-website/compare/v1.25.0...v1.26.0) (2024-01-30)
 
 
