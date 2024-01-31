@@ -1,3 +1,10 @@
+## [1.26.4](https://github.com/newrelic/opensource-website/compare/v1.26.3...v1.26.4) (2024-01-31)
+
+
+### Bug Fixes
+
+* update node version for workflow to node 16 ([92aa3fa](https://github.com/newrelic/opensource-website/commit/92aa3faad5db900bff40852e38a82c102bb0fcb2))
+
 ## [1.26.3](https://github.com/newrelic/opensource-website/compare/v1.26.2...v1.26.3) (2024-01-31)
 
 
