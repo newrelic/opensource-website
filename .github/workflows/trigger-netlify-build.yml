@@ -12,6 +12,7 @@ jobs:
         if: contains(github.event.comment.body, 'netlify build')
         uses: thundermiracle/netlify-deploy@v3
         with:
+          node-version: 16
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN}}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID}}
           deploy-dir: './public'
