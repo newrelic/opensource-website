@@ -1,3 +1,10 @@
+## [1.26.3](https://github.com/newrelic/opensource-website/compare/v1.26.2...v1.26.3) (2024-01-31)
+
+
+### Bug Fixes
+
+* update theme version ([de86c5a](https://github.com/newrelic/opensource-website/commit/de86c5a660ae8ed9c3eb3e3262974d9ed3ad2425))
+
 ## [1.26.2](https://github.com/newrelic/opensource-website/compare/v1.26.1...v1.26.2) (2024-01-30)
 
 
