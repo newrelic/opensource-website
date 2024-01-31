@@ -1,3 +1,10 @@
+## [1.26.6](https://github.com/newrelic/opensource-website/compare/v1.26.5...v1.26.6) (2024-01-31)
+
+
+### Bug Fixes
+
+* actually it should be node 20 ([6569623](https://github.com/newrelic/opensource-website/commit/65696238a1c7f46e864894403395342419cec3bb))
+
 ## [1.26.5](https://github.com/newrelic/opensource-website/compare/v1.26.4...v1.26.5) (2024-01-31)
 
 
