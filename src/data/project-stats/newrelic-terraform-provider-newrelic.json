@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 49
+    "open": 48
   },
-  "releases": 217,
+  "releases": 218,
   "latestRelease": {
-    "name": "v3.29.0",
-    "date": "2024-01-23T04:29:03Z"
+    "name": "v3.30.0",
+    "date": "2024-02-01T09:17:00Z"
   },
-  "commits": 4109,
-  "lastSixMonthsCommitTotal": 75,
+  "commits": 4113,
+  "lastSixMonthsCommitTotal": 79,
   "contributors": 100,
   "pullRequests": {
-    "open": 24
+    "open": 21
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -137,6 +137,13 @@
       "contributions": 1
     },
     {
+      "id": 127721871,
+      "login": "pjarugula",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127721871?v=4",
+      "htmlUrl": "https://github.com/pjarugula",
+      "contributions": 1
+    },
+    {
       "id": 1994,
       "login": "kavu",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1994?v=4",
@@ -148,13 +155,6 @@
       "login": "gechr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7656560?v=4",
       "htmlUrl": "https://github.com/gechr",
-      "contributions": 1
-    },
-    {
-      "id": 127721871,
-      "login": "pjarugula",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/127721871?v=4",
-      "htmlUrl": "https://github.com/pjarugula",
       "contributions": 1
     },
     {
@@ -515,17 +515,17 @@
       "contributions": 8
     },
     {
-      "id": 35202085,
-      "login": "NilVentosa",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/35202085?v=4",
-      "htmlUrl": "https://github.com/NilVentosa",
-      "contributions": 9
-    },
-    {
       "id": 70852759,
       "login": "nzur-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70852759?v=4",
       "htmlUrl": "https://github.com/nzur-newrelic",
+      "contributions": 10
+    },
+    {
+      "id": 35202085,
+      "login": "NilVentosa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35202085?v=4",
+      "htmlUrl": "https://github.com/NilVentosa",
       "contributions": 10
     },
     {
@@ -645,7 +645,7 @@
       "login": "pranav-new-relic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/127438038?v=4",
       "htmlUrl": "https://github.com/pranav-new-relic",
-      "contributions": 61
+      "contributions": 63
     },
     {
       "id": 69894591,
@@ -666,7 +666,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 104
+      "contributions": 105
     },
     {
       "id": 92143956,
