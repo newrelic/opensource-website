@@ -3,16 +3,16 @@
   "issues": {
     "open": 0
   },
-  "releases": 120,
+  "releases": 124,
   "latestRelease": {
-    "name": "v1.26.2",
-    "date": "2024-01-30T19:02:50Z"
+    "name": "v1.26.6",
+    "date": "2024-01-31T22:37:18Z"
   },
-  "commits": 3958,
-  "lastSixMonthsCommitTotal": 32,
+  "commits": 3970,
+  "lastSixMonthsCommitTotal": 44,
   "contributors": 77,
   "pullRequests": {
-    "open": 2
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -340,13 +340,6 @@
       "contributions": 3
     },
     {
-      "id": 89222514,
-      "login": "ndesai-newrelic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/89222514?v=4",
-      "htmlUrl": "https://github.com/ndesai-newrelic",
-      "contributions": 4
-    },
-    {
       "id": 38332422,
       "login": "caylahamann",
       "avatarUrl": "https://avatars.githubusercontent.com/u/38332422?v=4",
@@ -358,6 +351,13 @@
       "login": "thtmnisamnstr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/57272374?v=4",
       "htmlUrl": "https://github.com/thtmnisamnstr",
+      "contributions": 4
+    },
+    {
+      "id": 89222514,
+      "login": "ndesai-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89222514?v=4",
+      "htmlUrl": "https://github.com/ndesai-newrelic",
       "contributions": 4
     },
     {
@@ -459,13 +459,6 @@
       "contributions": 16
     },
     {
-      "id": 47728020,
-      "login": "tabathadelane",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/47728020?v=4",
-      "htmlUrl": "https://github.com/tabathadelane",
-      "contributions": 17
-    },
-    {
       "id": 812989,
       "login": "danielgolden",
       "avatarUrl": "https://avatars.githubusercontent.com/u/812989?v=4",
@@ -480,6 +473,13 @@
       "contributions": 18
     },
     {
+      "id": 47728020,
+      "login": "tabathadelane",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47728020?v=4",
+      "htmlUrl": "https://github.com/tabathadelane",
+      "contributions": 18
+    },
+    {
       "id": 70179303,
       "login": "aswanson-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70179303?v=4",
@@ -487,18 +487,18 @@
       "contributions": 20
     },
     {
-      "id": 26727669,
-      "login": "clarkmcadoo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/26727669?v=4",
-      "htmlUrl": "https://github.com/clarkmcadoo",
-      "contributions": 23
-    },
-    {
       "id": 43244625,
       "login": "melissaklein24",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
       "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 23
+    },
+    {
+      "id": 26727669,
+      "login": "clarkmcadoo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26727669?v=4",
+      "htmlUrl": "https://github.com/clarkmcadoo",
+      "contributions": 26
     },
     {
       "id": 32174276,
@@ -554,7 +554,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 2220
+      "contributions": 2224
     }
   ],
   "languages": [
