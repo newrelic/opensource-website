@@ -1,3 +1,10 @@
+## [1.26.7](https://github.com/newrelic/opensource-website/compare/v1.26.6...v1.26.7) (2024-02-01)
+
+
+### Bug Fixes
+
+* update workflow to add comment to PR ([99a5dc6](https://github.com/newrelic/opensource-website/commit/99a5dc6ebc4129329eb27536f7153b8edb8a09dc))
+
 ## [1.26.6](https://github.com/newrelic/opensource-website/compare/v1.26.5...v1.26.6) (2024-01-31)
 
 
