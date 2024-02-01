@@ -19,3 +19,11 @@ jobs:
           extra-cache-path: |
             .cache
             public
+
+      - name: Comment for Netlify to update with preview URL
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            > Netlify Preview Deployment Information
+
+            > This comment will auto update when your preview build is ready!
