@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-logs-salesforce-eventlogfile",
   "issues": {
-    "open": 6
+    "open": 5
   },
-  "releases": 1,
+  "releases": 2,
   "latestRelease": {
-    "name": "0.1.0",
+    "name": "1.0.0",
     "date": null
   },
-  "commits": 37,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 4,
+  "commits": 99,
+  "lastSixMonthsCommitTotal": 62,
+  "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -44,6 +44,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17014899?v=4",
       "htmlUrl": "https://github.com/psomareddy",
       "contributions": 27
+    },
+    {
+      "id": 6130000,
+      "login": "asllop",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6130000?v=4",
+      "htmlUrl": "https://github.com/asllop",
+      "contributions": 61
     }
   ],
   "languages": [
@@ -51,6 +58,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDU=",
       "name": "Python",
       "color": "#3572A5"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
     }
   ],
   "screenshots": [],
