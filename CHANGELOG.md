@@ -1,3 +1,67 @@
+# [1.27.0](https://github.com/newrelic/opensource-website/compare/v1.26.7...v1.27.0) (2024-02-02)
+
+
+### Features
+
+* add netlify.toml and `gatsby-plugin-netlify` ([aff629d](https://github.com/newrelic/opensource-website/commit/aff629dc81bdf9af18943e44036d7d8c424295f4))
+
+## [1.26.7](https://github.com/newrelic/opensource-website/compare/v1.26.6...v1.26.7) (2024-02-01)
+
+
+### Bug Fixes
+
+* update workflow to add comment to PR ([99a5dc6](https://github.com/newrelic/opensource-website/commit/99a5dc6ebc4129329eb27536f7153b8edb8a09dc))
+
+## [1.26.6](https://github.com/newrelic/opensource-website/compare/v1.26.5...v1.26.6) (2024-01-31)
+
+
+### Bug Fixes
+
+* actually it should be node 20 ([6569623](https://github.com/newrelic/opensource-website/commit/65696238a1c7f46e864894403395342419cec3bb))
+
+## [1.26.5](https://github.com/newrelic/opensource-website/compare/v1.26.4...v1.26.5) (2024-01-31)
+
+
+### Bug Fixes
+
+* update node version for workflow to node 16 ([1e5e5ae](https://github.com/newrelic/opensource-website/commit/1e5e5aeafce5fffab5f86dfe5b54a3d80383fdd0))
+
+## [1.26.4](https://github.com/newrelic/opensource-website/compare/v1.26.3...v1.26.4) (2024-01-31)
+
+
+### Bug Fixes
+
+* update node version for workflow to node 16 ([92aa3fa](https://github.com/newrelic/opensource-website/commit/92aa3faad5db900bff40852e38a82c102bb0fcb2))
+
+## [1.26.3](https://github.com/newrelic/opensource-website/compare/v1.26.2...v1.26.3) (2024-01-31)
+
+
+### Bug Fixes
+
+* update theme version ([de86c5a](https://github.com/newrelic/opensource-website/commit/de86c5a660ae8ed9c3eb3e3262974d9ed3ad2425))
+
+## [1.26.2](https://github.com/newrelic/opensource-website/compare/v1.26.1...v1.26.2) (2024-01-30)
+
+
+### Bug Fixes
+
+* update action yaml formatting ([4dadfa7](https://github.com/newrelic/opensource-website/commit/4dadfa781c132f4be57b43f2d5ca37cb670c9e5c))
+* update yaml formatting again ([4f58389](https://github.com/newrelic/opensource-website/commit/4f58389f412cd8228f4b367126ca966c6e6534e8))
+
+## [1.26.1](https://github.com/newrelic/opensource-website/compare/v1.26.0...v1.26.1) (2024-01-30)
+
+
+### Bug Fixes
+
+* fix workflow ([29d5617](https://github.com/newrelic/opensource-website/commit/29d56173bc2eb149c0d3b93510057c6722a78094))
+
+# [1.26.0](https://github.com/newrelic/opensource-website/compare/v1.25.0...v1.26.0) (2024-01-30)
+
+
+### Features
+
+* add test workflow ([b0aceaa](https://github.com/newrelic/opensource-website/commit/b0aceaa54004d7fb1559bc9efc9803d0c114e596))
+
 # [1.25.0](https://github.com/newrelic/opensource-website/compare/v1.24.10...v1.25.0) (2024-01-25)
 
 

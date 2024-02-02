@@ -160,6 +160,7 @@ module.exports = {
         extensions: [`.mdx`, `.md`],
       },
     },
+    'gatsby-plugin-netlify',
     {
       resolve: 'gatsby-plugin-gatsby-cloud',
       options: {

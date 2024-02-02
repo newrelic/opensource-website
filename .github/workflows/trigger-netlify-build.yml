@@ -1,0 +1,29 @@
+name: Trigger Netlify Build
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy to preview mode
+        if: contains(github.event.comment.body, 'netlify build')
+        uses: thundermiracle/netlify-deploy@v3
+        with:
+          node: 20
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN}}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID}}
+          deploy-dir: './public'
+          extra-cache-path: |
+            .cache
+            public
+
+      - name: Comment for Netlify to update with preview URL
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            > Netlify Preview Deployment Information
+
+            > This comment will auto update when your preview build is ready!
