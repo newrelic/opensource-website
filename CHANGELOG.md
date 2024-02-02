@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/newrelic/opensource-website/compare/v1.26.7...v1.27.0) (2024-02-02)
+
+
+### Features
+
+* add netlify.toml and `gatsby-plugin-netlify` ([aff629d](https://github.com/newrelic/opensource-website/commit/aff629dc81bdf9af18943e44036d7d8c424295f4))
+
 ## [1.26.7](https://github.com/newrelic/opensource-website/compare/v1.26.6...v1.26.7) (2024-02-01)
 
 
