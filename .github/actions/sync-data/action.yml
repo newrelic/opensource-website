@@ -9,5 +9,5 @@ inputs:
   project-stats:
     description: 'true/false - determines whether to fetch and sync the project-stats data'
 runs:
-  using: 'node18'
+  using: 'node20'
   main: 'dist/index.js'
