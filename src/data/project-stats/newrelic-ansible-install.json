@@ -1,35 +1,35 @@
 {
   "projectFullName": "newrelic/ansible-install",
   "issues": {
-    "open": 4
+    "open": 5
   },
-  "releases": 9,
+  "releases": 10,
   "latestRelease": {
-    "name": "v0.7.0",
-    "date": "2023-12-13T18:10:12Z"
+    "name": "v0.7.1",
+    "date": "2024-02-06T21:26:16Z"
   },
-  "commits": 81,
-  "lastSixMonthsCommitTotal": 3,
-  "contributors": 6,
+  "commits": 86,
+  "lastSixMonthsCommitTotal": 8,
+  "contributors": 7,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 15141412,
-      "login": "michaelkro",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15141412?v=4",
-      "htmlUrl": "https://github.com/michaelkro",
-      "contributions": 1
-    },
     {
       "id": 97467528,
       "login": "CliftonDobrich",
       "avatarUrl": "https://avatars.githubusercontent.com/u/97467528?v=4",
       "htmlUrl": "https://github.com/CliftonDobrich",
       "contributions": 1
+    },
+    {
+      "id": 15141412,
+      "login": "michaelkro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15141412?v=4",
+      "htmlUrl": "https://github.com/michaelkro",
+      "contributions": 2
     },
     {
       "id": 47485486,
@@ -44,6 +44,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/184273?v=4",
       "htmlUrl": "https://github.com/kidk",
       "contributions": 3
+    },
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 4
     },
     {
       "id": 102765645,
