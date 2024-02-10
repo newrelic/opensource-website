@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-browser-agent",
   "issues": {
-    "open": 11
+    "open": 10
   },
   "releases": 49,
   "latestRelease": {
     "name": "v1.251.1",
     "date": "2024-01-29T21:23:51Z"
   },
-  "commits": 713,
-  "lastSixMonthsCommitTotal": 199,
-  "contributors": 13,
+  "commits": 721,
+  "lastSixMonthsCommitTotal": 203,
+  "contributors": 14,
   "pullRequests": {
-    "open": 5
+    "open": 6
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 47605427,
+      "login": "Joe-Degler",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47605427?v=4",
+      "htmlUrl": "https://github.com/Joe-Degler",
+      "contributions": 1
+    },
     {
       "id": 3800010,
       "login": "luisbravoa",
@@ -71,7 +78,7 @@
       "login": "newrelic-browser-agent-team",
       "avatarUrl": "https://avatars.githubusercontent.com/u/129139683?v=4",
       "htmlUrl": "https://github.com/newrelic-browser-agent-team",
-      "contributions": 41
+      "contributions": 42
     },
     {
       "id": 4779220,
@@ -99,14 +106,14 @@
       "login": "patrickhousley",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3984979?v=4",
       "htmlUrl": "https://github.com/patrickhousley",
-      "contributions": 204
+      "contributions": 209
     },
     {
       "id": 24296585,
       "login": "metal-messiah",
       "avatarUrl": "https://avatars.githubusercontent.com/u/24296585?v=4",
       "htmlUrl": "https://github.com/metal-messiah",
-      "contributions": 240
+      "contributions": 242
     }
   ],
   "languages": [
