@@ -25,49 +25,20 @@ module.exports = {
           contentPadding: '28px',
           mobileBreakpoint: '760px',
         },
+        /*
+        ;NREUM.loader_config={accountID:"10175106",trustKey:"1",agentID:"21547964",licenseKey:"23448da482",applicationID:"21547964"}
+        ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"23448da482",applicationID:"21547964",sa:1}
+        */
         newrelic: {
-          // Keyed by process.env.NODE_ENV
-          configs: {
-            /*
-            ;NREUM.loader_config={accountID:"10175106",trustKey:"1",agentID:"21547964",licenseKey:"23448da482",applicationID:"21547964"}
-            ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"23448da482",applicationID:"21547964",sa:1}
-            */
-            production: {
-              instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
-              accountId: '10956800',
-              trustKey: '1',
-              agentID: '30713728',
-              licenseKey: 'NRJS-649173eb1a7b28cd6ab',
-              applicationID: '30713728',
-              beacon: 'staging-bam-cell.nr-data.net',
-              errorBeacon: 'staging-bam-cell.nr-data.net',
-            },
-            // Our "staging" site (on AWS Amplify) named after the branch it comes from "develop"
-
-            /*
-            ;NREUM.loader_config={accountID:"10175106",trustKey:"1",agentID:"21548202",licenseKey:"23448da482",applicationID:"21548202"}
-            ;NREUM.info={beacon:"staging-bam.nr-data.net",errorBeacon:"staging-bam.nr-data.net",licenseKey:"23448da482",applicationID:"21548202",sa:1}
-            */
-            staging: {
-              instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
-              accountId: '10956800',
-              trustKey: '1',
-              agentID: '30713728',
-              licenseKey: 'NRJS-649173eb1a7b28cd6ab',
-              applicationID: '30713728',
-              beacon: 'staging-bam-cell.nr-data.net',
-              errorBeacon: 'staging-bam-cell.nr-data.net',
-            },
-
-            // For local development, uncomment and replace information
-            // development: {
-            //   instrumentationType: 'proAndSPA', // Options are 'lite', 'pro', 'proAndSPA'
-            //   accountId: '',
-            //   trustKey: '',
-            //   agentID: '',
-            //   licenseKey: '',
-            //   applicationID: ''
-            // }
+          config: {
+            instrumentationType: 'proAndSPA',
+            accountId: '10956800',
+            trustKey: '1',
+            agentID: '30713728',
+            licenseKey: 'NRJS-649173eb1a7b28cd6ab',
+            applicationID: '30713728',
+            beacon: 'staging-bam-cell.nr-data.net',
+            errorBeacon: 'staging-bam-cell.nr-data.net',
           },
         },
         segment: {
