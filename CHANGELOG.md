@@ -1,3 +1,10 @@
+## [1.27.1](https://github.com/newrelic/opensource-website/compare/v1.27.0...v1.27.1) (2024-02-12)
+
+
+### Bug Fixes
+
+* update gatsby-plugin-newrelic config ([cd67842](https://github.com/newrelic/opensource-website/commit/cd678424f7b253ff87d72275d05459f226b33276))
+
 # [1.27.0](https://github.com/newrelic/opensource-website/compare/v1.26.7...v1.27.0) (2024-02-02)
 
 
