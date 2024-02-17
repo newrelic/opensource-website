@@ -1,14 +1,14 @@
 {
   "projectFullName": "newrelic/newrelic-dotnet-agent",
   "issues": {
-    "open": 40
+    "open": 35
   },
   "releases": 115,
   "latestRelease": {
     "name": "v10.20.2",
     "date": "2024-01-17T16:11:30Z"
   },
-  "commits": 1105,
+  "commits": 1106,
   "lastSixMonthsCommitTotal": 211,
   "contributors": 34,
   "pullRequests": {
@@ -130,6 +130,13 @@
       "contributions": 4
     },
     {
+      "id": 54554946,
+      "login": "jackdelamotte",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54554946?v=4",
+      "htmlUrl": "https://github.com/jackdelamotte",
+      "contributions": 5
+    },
+    {
       "id": 3676547,
       "login": "alanwest",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3676547?v=4",
@@ -144,13 +151,6 @@
       "contributions": 5
     },
     {
-      "id": 54554946,
-      "login": "jackdelamotte",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/54554946?v=4",
-      "htmlUrl": "https://github.com/jackdelamotte",
-      "contributions": 5
-    },
-    {
       "id": 11223178,
       "login": "michaelgoin",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11223178?v=4",
@@ -158,17 +158,17 @@
       "contributions": 6
     },
     {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 10
-    },
-    {
       "id": 141066016,
       "login": "dotnet-agent-team-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/141066016?v=4",
       "htmlUrl": "https://github.com/dotnet-agent-team-bot",
+      "contributions": 10
+    },
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
       "contributions": 10
     },
     {
@@ -211,7 +211,7 @@
       "login": "nrcventura",
       "avatarUrl": "https://avatars.githubusercontent.com/u/45495992?v=4",
       "htmlUrl": "https://github.com/nrcventura",
-      "contributions": 51
+      "contributions": 52
     },
     {
       "id": 49699333,
