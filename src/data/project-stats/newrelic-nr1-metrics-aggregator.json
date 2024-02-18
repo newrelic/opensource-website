@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nr1-metrics-aggregator",
   "issues": {
-    "open": 6
+    "open": 7
   },
-  "releases": 25,
+  "releases": 26,
   "latestRelease": {
-    "name": "v0.13.1",
-    "date": "2022-07-28T22:55:47Z"
+    "name": "v0.13.2",
+    "date": "2024-02-17T20:10:41Z"
   },
-  "commits": 237,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 15,
+  "commits": 240,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 16,
   "pullRequests": {
-    "open": 4
+    "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 61716964,
+      "login": "ryan-hanchett",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61716964?v=4",
+      "htmlUrl": "https://github.com/ryan-hanchett",
+      "contributions": 1
+    },
     {
       "id": 55961828,
       "login": "DAHarder",
@@ -113,7 +120,7 @@
       "login": "nr-opensource-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66321197?v=4",
       "htmlUrl": "https://github.com/nr-opensource-bot",
-      "contributions": 35
+      "contributions": 36
     },
     {
       "id": 53268450,
