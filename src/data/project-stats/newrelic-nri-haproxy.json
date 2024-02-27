@@ -3,13 +3,13 @@
   "issues": {
     "open": 2
   },
-  "releases": 19,
+  "releases": 20,
   "latestRelease": {
-    "name": "v2.5.1",
-    "date": "2023-10-31T02:13:01Z"
+    "name": "v3.0.0",
+    "date": "2024-02-27T02:06:05Z"
   },
-  "commits": 145,
-  "lastSixMonthsCommitTotal": 13,
+  "commits": 146,
+  "lastSixMonthsCommitTotal": 14,
   "contributors": 28,
   "pullRequests": {
     "open": 1
@@ -25,13 +25,6 @@
       "contributions": 1
     },
     {
-      "id": 2465371,
-      "login": "ping-identity",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2465371?v=4",
-      "htmlUrl": "https://github.com/ping-identity",
-      "contributions": 1
-    },
-    {
       "id": 3969485,
       "login": "brushknight",
       "avatarUrl": "https://avatars.githubusercontent.com/u/3969485?v=4",
@@ -39,24 +32,10 @@
       "contributions": 1
     },
     {
-      "id": 115998732,
-      "login": "newrelic-coreint-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
-      "htmlUrl": "https://github.com/newrelic-coreint-bot",
-      "contributions": 1
-    },
-    {
-      "id": 7229810,
-      "login": "zackkendra",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7229810?v=4",
-      "htmlUrl": "https://github.com/zackkendra",
-      "contributions": 1
-    },
-    {
-      "id": 15685307,
-      "login": "cristianciutea",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
-      "htmlUrl": "https://github.com/cristianciutea",
+      "id": 2465371,
+      "login": "ping-identity",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2465371?v=4",
+      "htmlUrl": "https://github.com/ping-identity",
       "contributions": 1
     },
     {
@@ -67,17 +46,17 @@
       "contributions": 1
     },
     {
-      "id": 27856297,
-      "login": "dependabot-preview[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2141?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot-preview",
+      "id": 969721,
+      "login": "roobre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
+      "htmlUrl": "https://github.com/roobre",
       "contributions": 1
     },
     {
-      "id": 3380451,
-      "login": "rubenruizdegauna",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
-      "htmlUrl": "https://github.com/rubenruizdegauna",
+      "id": 7229810,
+      "login": "zackkendra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7229810?v=4",
+      "htmlUrl": "https://github.com/zackkendra",
       "contributions": 1
     },
     {
@@ -88,10 +67,24 @@
       "contributions": 1
     },
     {
-      "id": 969721,
-      "login": "roobre",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/969721?v=4",
-      "htmlUrl": "https://github.com/roobre",
+      "id": 15685307,
+      "login": "cristianciutea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15685307?v=4",
+      "htmlUrl": "https://github.com/cristianciutea",
+      "contributions": 1
+    },
+    {
+      "id": 3380451,
+      "login": "rubenruizdegauna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3380451?v=4",
+      "htmlUrl": "https://github.com/rubenruizdegauna",
+      "contributions": 1
+    },
+    {
+      "id": 27856297,
+      "login": "dependabot-preview[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2141?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot-preview",
       "contributions": 1
     },
     {
@@ -102,17 +95,10 @@
       "contributions": 2
     },
     {
-      "id": 13438133,
-      "login": "matiasburni",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
-      "htmlUrl": "https://github.com/matiasburni",
-      "contributions": 2
-    },
-    {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
+      "id": 19733683,
+      "login": "snyk-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
+      "htmlUrl": "https://github.com/snyk-bot",
       "contributions": 2
     },
     {
@@ -123,10 +109,24 @@
       "contributions": 2
     },
     {
-      "id": 19733683,
-      "login": "snyk-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19733683?v=4",
-      "htmlUrl": "https://github.com/snyk-bot",
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
+      "contributions": 2
+    },
+    {
+      "id": 13438133,
+      "login": "matiasburni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13438133?v=4",
+      "htmlUrl": "https://github.com/matiasburni",
+      "contributions": 2
+    },
+    {
+      "id": 115998732,
+      "login": "newrelic-coreint-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
+      "htmlUrl": "https://github.com/newrelic-coreint-bot",
       "contributions": 2
     },
     {
