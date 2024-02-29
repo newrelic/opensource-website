@@ -1,3 +1,10 @@
+## [1.27.2](https://github.com/newrelic/opensource-website/compare/v1.27.1...v1.27.2) (2024-02-29)
+
+
+### Bug Fixes
+
+* replace token name used in action workflows ([6afa298](https://github.com/newrelic/opensource-website/commit/6afa29852e0fac6a84c71c545f876c73377ae733))
+
 ## [1.27.1](https://github.com/newrelic/opensource-website/compare/v1.27.0...v1.27.1) (2024-02-12)
 
 
