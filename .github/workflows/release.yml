@@ -8,8 +8,8 @@ on:
     types: [semantic-release]
 
 env:
-  THIRD_PARTY_GIT_AUTHOR_EMAIL: opensource+bot@newrelic.com
-  THIRD_PARTY_GIT_AUTHOR_NAME: nr-opensource-bot
+  THIRD_PARTY_GIT_AUTHOR_EMAIL: svc-docs-eng-opensource-bot@newrelic.com
+  THIRD_PARTY_GIT_AUTHOR_NAME: svc-docs-eng-opensource-bot
 
 jobs:
   job-generate-third-party-notices:
@@ -163,12 +163,12 @@ jobs:
 
       - name: Release
         env:
-          # Use nr-opensource-bot for authoring commits done by
+          # Use svc-docs-eng-opensource-bot for authoring commits done by
           # semantic-release (rather than using @semantic-release-bot)
-          GIT_AUTHOR_NAME: 'nr-opensource-bot'
-          GIT_AUTHOR_EMAIL: 'opensource+bot@newrelic.com'
-          GIT_COMMITTER_NAME: 'nr-opensource-bot'
-          GIT_COMMITTER_EMAIL: 'opensource+bot@newrelic.com'
+          GIT_AUTHOR_NAME: 'svc-docs-eng-opensource-bot'
+          GIT_AUTHOR_EMAIL: 'svc-docs-eng-opensource-bot@newrelic.com'
+          GIT_COMMITTER_NAME: 'svc-docs-eng-opensource-bot'
+          GIT_COMMITTER_EMAIL: 'svc-docs-eng-opensource-bot@newrelic.com'
           GITHUB_TOKEN: ${{ secrets.DOCS_ENG_BOT_TOKEN }}
         run: npx semantic-release@^18.0.0
 
