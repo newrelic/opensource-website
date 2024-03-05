@@ -1,22 +1,57 @@
 {
   "projectFullName": "newrelic/node-native-metrics",
   "issues": {
-    "open": 6
+    "open": 2
   },
   "releases": 41,
   "latestRelease": {
     "name": "v10.0.1",
     "date": null
   },
-  "commits": 492,
-  "lastSixMonthsCommitTotal": 9,
-  "contributors": 28,
+  "commits": 493,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 29,
   "pullRequests": {
-    "open": 2
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 3058150,
+      "login": "robertrossmann",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3058150?v=4",
+      "htmlUrl": "https://github.com/robertrossmann",
+      "contributions": 1
+    },
+    {
+      "id": 181527,
+      "login": "samshull",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181527?v=4",
+      "htmlUrl": "https://github.com/samshull",
+      "contributions": 1
+    },
+    {
+      "id": 3929133,
+      "login": "valeriangalliat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3929133?v=4",
+      "htmlUrl": "https://github.com/valeriangalliat",
+      "contributions": 1
+    },
+    {
+      "id": 145340,
+      "login": "adambrett",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/145340?v=4",
+      "htmlUrl": "https://github.com/adambrett",
+      "contributions": 1
+    },
+    {
+      "id": 1378615,
+      "login": "eboureau",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1378615?v=4",
+      "htmlUrl": "https://github.com/eboureau",
+      "contributions": 1
+    },
     {
       "id": 16082,
       "login": "wesrog",
@@ -53,24 +88,10 @@
       "contributions": 1
     },
     {
-      "id": 75139737,
-      "login": "paulgoertzen-merico",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/75139737?v=4",
-      "htmlUrl": "https://github.com/paulgoertzen-merico",
-      "contributions": 1
-    },
-    {
-      "id": 1378615,
-      "login": "eboureau",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1378615?v=4",
-      "htmlUrl": "https://github.com/eboureau",
-      "contributions": 1
-    },
-    {
-      "id": 145340,
-      "login": "adambrett",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/145340?v=4",
-      "htmlUrl": "https://github.com/adambrett",
+      "id": 150050532,
+      "login": "jsumners-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150050532?v=4",
+      "htmlUrl": "https://github.com/jsumners-nr",
       "contributions": 1
     },
     {
@@ -81,32 +102,11 @@
       "contributions": 1
     },
     {
-      "id": 3929133,
-      "login": "valeriangalliat",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3929133?v=4",
-      "htmlUrl": "https://github.com/valeriangalliat",
+      "id": 75139737,
+      "login": "paulgoertzen-merico",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/75139737?v=4",
+      "htmlUrl": "https://github.com/paulgoertzen-merico",
       "contributions": 1
-    },
-    {
-      "id": 181527,
-      "login": "samshull",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/181527?v=4",
-      "htmlUrl": "https://github.com/samshull",
-      "contributions": 1
-    },
-    {
-      "id": 3058150,
-      "login": "robertrossmann",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3058150?v=4",
-      "htmlUrl": "https://github.com/robertrossmann",
-      "contributions": 1
-    },
-    {
-      "id": 260143,
-      "login": "jordigh",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/260143?v=4",
-      "htmlUrl": "https://github.com/jordigh",
-      "contributions": 2
     },
     {
       "id": 1333608,
@@ -116,11 +116,11 @@
       "contributions": 2
     },
     {
-      "id": 7945073,
-      "login": "psvet",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7945073?v=4",
-      "htmlUrl": "https://github.com/psvet",
-      "contributions": 3
+      "id": 260143,
+      "login": "jordigh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/260143?v=4",
+      "htmlUrl": "https://github.com/jordigh",
+      "contributions": 2
     },
     {
       "id": 398399,
@@ -130,17 +130,24 @@
       "contributions": 3
     },
     {
-      "id": 921579,
-      "login": "elmarburke",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/921579?v=4",
-      "htmlUrl": "https://github.com/elmarburke",
-      "contributions": 4
+      "id": 7945073,
+      "login": "psvet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7945073?v=4",
+      "htmlUrl": "https://github.com/psvet",
+      "contributions": 3
     },
     {
       "id": 846454,
       "login": "abetomo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/846454?v=4",
       "htmlUrl": "https://github.com/abetomo",
+      "contributions": 4
+    },
+    {
+      "id": 921579,
+      "login": "elmarburke",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/921579?v=4",
+      "htmlUrl": "https://github.com/elmarburke",
       "contributions": 4
     },
     {
@@ -234,6 +241,11 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
     }
   ],
   "screenshots": [],
