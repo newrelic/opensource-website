@@ -3,20 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 42,
+  "releases": 43,
   "latestRelease": {
-    "name": "v8.2.0",
+    "name": "v8.3.0",
     "date": null
   },
-  "commits": 470,
-  "lastSixMonthsCommitTotal": 15,
-  "contributors": 15,
+  "commits": 472,
+  "lastSixMonthsCommitTotal": 17,
+  "contributors": 16,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 1
+    },
     {
       "id": 7992384,
       "login": "paperclypse",
@@ -53,18 +60,18 @@
       "contributions": 3
     },
     {
-      "id": 150050532,
-      "login": "jsumners-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/150050532?v=4",
-      "htmlUrl": "https://github.com/jsumners-nr",
-      "contributions": 4
-    },
-    {
       "id": 32520944,
       "login": "astormnewrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32520944?v=4",
       "htmlUrl": "https://github.com/astormnewrelic",
       "contributions": 5
+    },
+    {
+      "id": 150050532,
+      "login": "jsumners-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150050532?v=4",
+      "htmlUrl": "https://github.com/jsumners-nr",
+      "contributions": 6
     },
     {
       "id": 3333180,
