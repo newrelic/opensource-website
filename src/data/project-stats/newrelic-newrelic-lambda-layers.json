@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-layers",
   "issues": {
-    "open": 12
+    "open": 13
   },
   "releases": 371,
   "latestRelease": {
     "name": "v11.13.0_nodejs",
     "date": "2024-02-29T19:06:19Z"
   },
-  "commits": 403,
-  "lastSixMonthsCommitTotal": 56,
+  "commits": 409,
+  "lastSixMonthsCommitTotal": 62,
   "contributors": 25,
   "pullRequests": {
-    "open": 6
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -25,17 +25,17 @@
       "contributions": 1
     },
     {
-      "id": 13562672,
-      "login": "jaesius",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
-      "htmlUrl": "https://github.com/jaesius",
-      "contributions": 1
-    },
-    {
       "id": 1203825,
       "login": "huonw",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1203825?v=4",
       "htmlUrl": "https://github.com/huonw",
+      "contributions": 1
+    },
+    {
+      "id": 13562672,
+      "login": "jaesius",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
+      "htmlUrl": "https://github.com/jaesius",
       "contributions": 1
     },
     {
@@ -46,10 +46,10 @@
       "contributions": 1
     },
     {
-      "id": 73207,
-      "login": "ewindisch",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/73207?v=4",
-      "htmlUrl": "https://github.com/ewindisch",
+      "id": 1874937,
+      "login": "bizob2828",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
+      "htmlUrl": "https://github.com/bizob2828",
       "contributions": 2
     },
     {
@@ -60,17 +60,17 @@
       "contributions": 2
     },
     {
-      "id": 1874937,
-      "login": "bizob2828",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
-      "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 2
-    },
-    {
       "id": 30059933,
       "login": "hmstepanek",
       "avatarUrl": "https://avatars.githubusercontent.com/u/30059933?v=4",
       "htmlUrl": "https://github.com/hmstepanek",
+      "contributions": 2
+    },
+    {
+      "id": 73207,
+      "login": "ewindisch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73207?v=4",
+      "htmlUrl": "https://github.com/ewindisch",
       "contributions": 2
     },
     {
@@ -88,13 +88,6 @@
       "contributions": 3
     },
     {
-      "id": 660405,
-      "login": "musketyr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/660405?v=4",
-      "htmlUrl": "https://github.com/musketyr",
-      "contributions": 3
-    },
-    {
       "id": 1428400,
       "login": "coreyarnold",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1428400?v=4",
@@ -102,17 +95,24 @@
       "contributions": 3
     },
     {
-      "id": 139165156,
-      "login": "greg-swift-yohana",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/139165156?v=4",
-      "htmlUrl": "https://github.com/greg-swift-yohana",
-      "contributions": 4
+      "id": 660405,
+      "login": "musketyr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/660405?v=4",
+      "htmlUrl": "https://github.com/musketyr",
+      "contributions": 3
     },
     {
       "id": 5081648,
       "login": "jtduffy",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5081648?v=4",
       "htmlUrl": "https://github.com/jtduffy",
+      "contributions": 4
+    },
+    {
+      "id": 139165156,
+      "login": "greg-swift-yohana",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/139165156?v=4",
+      "htmlUrl": "https://github.com/greg-swift-yohana",
       "contributions": 4
     },
     {
@@ -137,18 +137,18 @@
       "contributions": 5
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 7
-    },
-    {
       "id": 10124680,
       "login": "iamemilio",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10124680?v=4",
       "htmlUrl": "https://github.com/iamemilio",
       "contributions": 8
+    },
+    {
+      "id": 50109,
+      "login": "gliptak",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50109?v=4",
+      "htmlUrl": "https://github.com/gliptak",
+      "contributions": 9
     },
     {
       "id": 28942544,
@@ -158,11 +158,11 @@
       "contributions": 9
     },
     {
-      "id": 50109,
-      "login": "gliptak",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/50109?v=4",
-      "htmlUrl": "https://github.com/gliptak",
-      "contributions": 9
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 10
     },
     {
       "id": 585473,
