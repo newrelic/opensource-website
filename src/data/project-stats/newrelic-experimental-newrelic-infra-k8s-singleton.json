@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 18,
+  "lastSixMonthsCommitTotal": 18,
+  "contributors": 2,
   "pullRequests": {
     "open": 0
   },
@@ -20,9 +20,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/134067704?v=4",
       "htmlUrl": "https://github.com/nrynog",
       "contributions": 1
+    },
+    {
+      "id": 9002169,
+      "login": "bpschmitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9002169?v=4",
+      "htmlUrl": "https://github.com/bpschmitt",
+      "contributions": 17
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MzE=",
+      "name": "Smarty",
+      "color": "#f0c040"
+    }
+  ],
   "screenshots": [],
   "license": {
     "id": "MDc6TGljZW5zZTI=",
