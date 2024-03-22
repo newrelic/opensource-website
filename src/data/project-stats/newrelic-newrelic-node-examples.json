@@ -5,11 +5,11 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 457,
-  "lastSixMonthsCommitTotal": 160,
+  "commits": 470,
+  "lastSixMonthsCommitTotal": 173,
   "contributors": 10,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -44,13 +44,6 @@
       "login": "jsumners-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/150050532?v=4",
       "htmlUrl": "https://github.com/jsumners-nr",
-      "contributions": 3
-    },
-    {
-      "id": 50715937,
-      "login": "svetlanabrennan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
-      "htmlUrl": "https://github.com/svetlanabrennan",
       "contributions": 7
     },
     {
@@ -73,6 +66,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/260143?v=4",
       "htmlUrl": "https://github.com/jordigh",
       "contributions": 12
+    },
+    {
+      "id": 50715937,
+      "login": "svetlanabrennan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50715937?v=4",
+      "htmlUrl": "https://github.com/svetlanabrennan",
+      "contributions": 17
     },
     {
       "id": 11327,
@@ -100,7 +100,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 92
+      "contributions": 93
     }
   ],
   "languages": [
@@ -123,6 +123,11 @@
       "id": "MDg6TGFuZ3VhZ2UyODc=",
       "name": "TypeScript",
       "color": "#3178c6"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MTc=",
+      "name": "HTML",
+      "color": "#e34c26"
     }
   ],
   "screenshots": [],
