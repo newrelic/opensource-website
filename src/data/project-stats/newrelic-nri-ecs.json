@@ -3,16 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 40,
+  "releases": 41,
   "latestRelease": {
-    "name": "v1.10.15",
-    "date": "2024-03-21T15:02:15Z"
+    "name": "v1.11.0",
+    "date": "2024-03-25T14:42:46Z"
   },
-  "commits": 129,
-  "lastSixMonthsCommitTotal": 24,
+  "commits": 133,
+  "lastSixMonthsCommitTotal": 28,
   "contributors": 18,
   "pullRequests": {
-    "open": 9
+    "open": 2
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -102,13 +102,6 @@
       "contributions": 5
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 6
-    },
-    {
       "id": 79498,
       "login": "davidgit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
@@ -116,32 +109,39 @@
       "contributions": 6
     },
     {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 6
+    },
+    {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 11
+      "contributions": 12
     },
     {
       "id": 5143130,
       "login": "gsanchezgavier",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
       "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 12
+      "contributions": 13
     },
     {
       "id": 115998732,
       "login": "newrelic-coreint-bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
       "htmlUrl": "https://github.com/newrelic-coreint-bot",
-      "contributions": 15
+      "contributions": 16
     },
     {
       "id": 29139614,
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 54
+      "contributions": 56
     }
   ],
   "languages": [
@@ -164,11 +164,6 @@
       "id": "MDg6TGFuZ3VhZ2UxMzk=",
       "name": "Shell",
       "color": "#89e051"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2U0Nzk=",
-      "name": "HCL",
-      "color": "#844FBA"
     }
   ],
   "screenshots": [],

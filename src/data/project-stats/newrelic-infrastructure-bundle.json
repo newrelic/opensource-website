@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 134,
+  "releases": 135,
   "latestRelease": {
-    "name": "v3.2.35",
-    "date": "2024-03-21T10:05:58Z"
+    "name": "v3.2.36",
+    "date": "2024-03-25T14:02:15Z"
   },
-  "commits": 553,
-  "lastSixMonthsCommitTotal": 93,
+  "commits": 555,
+  "lastSixMonthsCommitTotal": 95,
   "contributors": 28,
   "pullRequests": {
     "open": 2
@@ -179,17 +179,17 @@
       "contributions": 34
     },
     {
-      "id": 115998732,
-      "login": "newrelic-coreint-bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
-      "htmlUrl": "https://github.com/newrelic-coreint-bot",
-      "contributions": 35
-    },
-    {
       "id": 717815,
       "login": "carlosroman",
       "avatarUrl": "https://avatars.githubusercontent.com/u/717815?v=4",
       "htmlUrl": "https://github.com/carlosroman",
+      "contributions": 36
+    },
+    {
+      "id": 115998732,
+      "login": "newrelic-coreint-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
+      "htmlUrl": "https://github.com/newrelic-coreint-bot",
       "contributions": 36
     },
     {
@@ -211,7 +211,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 259
+      "contributions": 260
     }
   ],
   "languages": [
