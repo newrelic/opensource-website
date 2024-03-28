@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/go-agent",
   "issues": {
-    "open": 43
+    "open": 42
   },
-  "releases": 241,
+  "releases": 248,
   "latestRelease": {
-    "name": "v3.30.0",
-    "date": "2024-02-15T20:27:12Z"
+    "name": "v3.31.0",
+    "date": "2024-03-27T20:00:07Z"
   },
-  "commits": 2939,
-  "lastSixMonthsCommitTotal": 99,
-  "contributors": 56,
+  "commits": 2988,
+  "lastSixMonthsCommitTotal": 148,
+  "contributors": 57,
   "pullRequests": {
-    "open": 14
+    "open": 8
   },
   "searchCategory": "good first issue",
   "cachedIssues": [
@@ -197,13 +197,6 @@
       "contributions": 1
     },
     {
-      "id": 120384471,
-      "login": "EugeneBalybin",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/120384471?v=4",
-      "htmlUrl": "https://github.com/EugeneBalybin",
-      "contributions": 1
-    },
-    {
       "id": 68368,
       "login": "qbit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/68368?v=4",
@@ -218,10 +211,10 @@
       "contributions": 1
     },
     {
-      "id": 69914680,
-      "login": "angelatan2",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/69914680?v=4",
-      "htmlUrl": "https://github.com/angelatan2",
+      "id": 120384471,
+      "login": "EugeneBalybin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120384471?v=4",
+      "htmlUrl": "https://github.com/EugeneBalybin",
       "contributions": 1
     },
     {
@@ -232,10 +225,10 @@
       "contributions": 1
     },
     {
-      "id": 4705646,
-      "login": "dacohen",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4705646?v=4",
-      "htmlUrl": "https://github.com/dacohen",
+      "id": 69914680,
+      "login": "angelatan2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/69914680?v=4",
+      "htmlUrl": "https://github.com/angelatan2",
       "contributions": 1
     },
     {
@@ -243,6 +236,13 @@
       "login": "gqgs",
       "avatarUrl": "https://avatars.githubusercontent.com/u/32180229?v=4",
       "htmlUrl": "https://github.com/gqgs",
+      "contributions": 1
+    },
+    {
+      "id": 4705646,
+      "login": "dacohen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4705646?v=4",
+      "htmlUrl": "https://github.com/dacohen",
       "contributions": 1
     },
     {
@@ -260,6 +260,13 @@
       "contributions": 2
     },
     {
+      "id": 35334693,
+      "login": "profawxhawk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35334693?v=4",
+      "htmlUrl": "https://github.com/profawxhawk",
+      "contributions": 2
+    },
+    {
       "id": 130408044,
       "login": "pliu-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/130408044?v=4",
@@ -274,10 +281,10 @@
       "contributions": 2
     },
     {
-      "id": 1462042,
-      "login": "rvanderwal-newrelic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1462042?v=4",
-      "htmlUrl": "https://github.com/rvanderwal-newrelic",
+      "id": 585473,
+      "login": "MattWhelan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
+      "htmlUrl": "https://github.com/MattWhelan",
       "contributions": 2
     },
     {
@@ -302,10 +309,10 @@
       "contributions": 2
     },
     {
-      "id": 585473,
-      "login": "MattWhelan",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/585473?v=4",
-      "htmlUrl": "https://github.com/MattWhelan",
+      "id": 1462042,
+      "login": "rvanderwal-newrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1462042?v=4",
+      "htmlUrl": "https://github.com/rvanderwal-newrelic",
       "contributions": 2
     },
     {
@@ -376,7 +383,7 @@
       "login": "dependabot[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
       "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 22
+      "contributions": 26
     },
     {
       "id": 59004877,
@@ -397,7 +404,7 @@
       "login": "mirackara",
       "avatarUrl": "https://avatars.githubusercontent.com/u/55501260?v=4",
       "htmlUrl": "https://github.com/mirackara",
-      "contributions": 133
+      "contributions": 147
     },
     {
       "id": 52758187,
@@ -407,18 +414,18 @@
       "contributions": 155
     },
     {
-      "id": 76975199,
-      "login": "nr-swilloughby",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/76975199?v=4",
-      "htmlUrl": "https://github.com/nr-swilloughby",
-      "contributions": 188
-    },
-    {
       "id": 10124680,
       "login": "iamemilio",
       "avatarUrl": "https://avatars.githubusercontent.com/u/10124680?v=4",
       "htmlUrl": "https://github.com/iamemilio",
-      "contributions": 205
+      "contributions": 211
+    },
+    {
+      "id": 76975199,
+      "login": "nr-swilloughby",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76975199?v=4",
+      "htmlUrl": "https://github.com/nr-swilloughby",
+      "contributions": 211
     },
     {
       "id": 1383216,
