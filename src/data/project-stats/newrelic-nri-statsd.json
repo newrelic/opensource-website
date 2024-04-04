@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/nri-statsd",
   "issues": {
-    "open": 2
+    "open": 3
   },
   "releases": 18,
   "latestRelease": {
     "name": "2.9.1",
     "date": "2024-02-01T08:33:54Z"
   },
-  "commits": 58,
-  "lastSixMonthsCommitTotal": 2,
-  "contributors": 12,
+  "commits": 66,
+  "lastSixMonthsCommitTotal": 10,
+  "contributors": 14,
   "pullRequests": {
-    "open": 7
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 3638421,
+      "login": "alvarocabanas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3638421?v=4",
+      "htmlUrl": "https://github.com/alvarocabanas",
+      "contributions": 1
+    },
     {
       "id": 100632,
       "login": "amasses",
@@ -86,6 +93,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/79498?v=4",
       "htmlUrl": "https://github.com/davidgit",
       "contributions": 4
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 7
     },
     {
       "id": 15685307,
