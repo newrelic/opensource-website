@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/csec-ruby-agent",
   "issues": {
-    "open": 0
+    "open": 1
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 1,
-  "lastSixMonthsCommitTotal": 1,
-  "contributors": 1,
+  "commits": 68,
+  "lastSixMonthsCommitTotal": 6,
+  "contributors": 5,
   "pullRequests": {
-    "open": 0
+    "open": 17
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -20,16 +20,50 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/97467528?v=4",
       "htmlUrl": "https://github.com/CliftonDobrich",
       "contributions": 1
+    },
+    {
+      "id": 64561946,
+      "login": "toobagrrl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64561946?v=4",
+      "htmlUrl": "https://github.com/toobagrrl",
+      "contributions": 4
+    },
+    {
+      "id": 93419948,
+      "login": "manoj-k2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93419948?v=4",
+      "htmlUrl": "https://github.com/manoj-k2",
+      "contributions": 7
+    },
+    {
+      "id": 87386821,
+      "login": "kaylareopelle",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87386821?v=4",
+      "htmlUrl": "https://github.com/kaylareopelle",
+      "contributions": 7
+    },
+    {
+      "id": 33506953,
+      "login": "prateeksen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33506953?v=4",
+      "htmlUrl": "https://github.com/prateeksen",
+      "contributions": 42
     }
   ],
-  "languages": [],
+  "languages": [
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
+    }
+  ],
   "screenshots": [],
   "license": {
-    "id": "MDc6TGljZW5zZTI=",
-    "name": "Apache License 2.0",
-    "spdxId": "Apache-2.0",
-    "url": "http://choosealicense.com/licenses/apache-2.0/",
-    "featured": true,
-    "key": "apache-2.0"
+    "id": "MDc6TGljZW5zZTA=",
+    "name": "Other",
+    "spdxId": "NOASSERTION",
+    "url": "http://choosealicense.com/licenses/other/",
+    "featured": false,
+    "key": "other"
   }
 }
