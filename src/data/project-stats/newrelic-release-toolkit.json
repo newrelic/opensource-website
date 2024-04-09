@@ -3,20 +3,27 @@
   "issues": {
     "open": 16
   },
-  "releases": 1,
+  "releases": 3,
   "latestRelease": {
-    "name": "v1",
-    "date": "2023-11-02T10:22:22Z"
+    "name": "v1.1.0",
+    "date": "2024-04-09T08:32:54Z"
   },
-  "commits": 292,
-  "lastSixMonthsCommitTotal": 9,
-  "contributors": 11,
+  "commits": 294,
+  "lastSixMonthsCommitTotal": 11,
+  "contributors": 12,
   "pullRequests": {
-    "open": 10
+    "open": 9
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 115998732,
+      "login": "newrelic-coreint-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
+      "htmlUrl": "https://github.com/newrelic-coreint-bot",
+      "contributions": 1
+    },
     {
       "id": 97467528,
       "login": "CliftonDobrich",
@@ -64,7 +71,7 @@
       "login": "kang-makes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
-      "contributions": 16
+      "contributions": 17
     },
     {
       "id": 43335750,
