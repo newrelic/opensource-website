@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/nri-vsphere",
   "issues": {
-    "open": 0
+    "open": 1
   },
-  "releases": 16,
+  "releases": 17,
   "latestRelease": {
-    "name": "v1.4.1",
-    "date": "2024-02-28T07:59:51Z"
+    "name": "v1.5.0",
+    "date": "2024-04-09T09:57:25Z"
   },
-  "commits": 142,
+  "commits": 145,
   "lastSixMonthsCommitTotal": 8,
-  "contributors": 18,
+  "contributors": 20,
   "pullRequests": {
-    "open": 5
+    "open": 1
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -57,6 +57,20 @@
       "login": "kang-makes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
       "htmlUrl": "https://github.com/kang-makes",
+      "contributions": 1
+    },
+    {
+      "id": 115998732,
+      "login": "newrelic-coreint-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115998732?v=4",
+      "htmlUrl": "https://github.com/newrelic-coreint-bot",
+      "contributions": 1
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
       "contributions": 1
     },
     {
@@ -141,7 +155,7 @@
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
-      "contributions": 43
+      "contributions": 45
     }
   ],
   "languages": [
