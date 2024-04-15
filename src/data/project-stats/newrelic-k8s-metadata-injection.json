@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 110,
+  "releases": 112,
   "latestRelease": {
-    "name": "v1.26.3",
-    "date": "2024-03-25T12:04:18Z"
+    "name": "v1.26.4",
+    "date": "2024-04-15T12:04:41Z"
   },
-  "commits": 516,
-  "lastSixMonthsCommitTotal": 136,
+  "commits": 518,
+  "lastSixMonthsCommitTotal": 138,
   "contributors": 42,
   "pullRequests": {
     "open": 3
@@ -18,10 +18,24 @@
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 318173,
+      "login": "janario",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/318173?v=4",
+      "htmlUrl": "https://github.com/janario",
+      "contributions": 1
+    },
+    {
       "id": 27856297,
       "login": "dependabot-preview[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2141?v=4",
       "htmlUrl": "https://github.com/apps/dependabot-preview",
+      "contributions": 1
+    },
+    {
+      "id": 488391,
+      "login": "manusa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/488391?v=4",
+      "htmlUrl": "https://github.com/manusa",
       "contributions": 1
     },
     {
@@ -46,10 +60,10 @@
       "contributions": 1
     },
     {
-      "id": 488391,
-      "login": "manusa",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/488391?v=4",
-      "htmlUrl": "https://github.com/manusa",
+      "id": 43244625,
+      "login": "melissaklein24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
+      "htmlUrl": "https://github.com/melissaklein24",
       "contributions": 1
     },
     {
@@ -60,31 +74,10 @@
       "contributions": 1
     },
     {
-      "id": 318173,
-      "login": "janario",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/318173?v=4",
-      "htmlUrl": "https://github.com/janario",
-      "contributions": 1
-    },
-    {
-      "id": 43244625,
-      "login": "melissaklein24",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43244625?v=4",
-      "htmlUrl": "https://github.com/melissaklein24",
-      "contributions": 1
-    },
-    {
       "id": 73652669,
       "login": "arvdias",
       "avatarUrl": "https://avatars.githubusercontent.com/u/73652669?v=4",
       "htmlUrl": "https://github.com/arvdias",
-      "contributions": 1
-    },
-    {
-      "id": 100862257,
-      "login": "dpacheconr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/100862257?v=4",
-      "htmlUrl": "https://github.com/dpacheconr",
       "contributions": 1
     },
     {
@@ -95,10 +88,10 @@
       "contributions": 1
     },
     {
-      "id": 5855593,
-      "login": "ddelnano",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5855593?v=4",
-      "htmlUrl": "https://github.com/ddelnano",
+      "id": 100862257,
+      "login": "dpacheconr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100862257?v=4",
+      "htmlUrl": "https://github.com/dpacheconr",
       "contributions": 1
     },
     {
@@ -109,17 +102,17 @@
       "contributions": 1
     },
     {
+      "id": 5855593,
+      "login": "ddelnano",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5855593?v=4",
+      "htmlUrl": "https://github.com/ddelnano",
+      "contributions": 1
+    },
+    {
       "id": 33835,
       "login": "am",
       "avatarUrl": "https://avatars.githubusercontent.com/u/33835?v=4",
       "htmlUrl": "https://github.com/am",
-      "contributions": 1
-    },
-    {
-      "id": 1684801,
-      "login": "cvpinhe",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1684801?v=4",
-      "htmlUrl": "https://github.com/cvpinhe",
       "contributions": 1
     },
     {
@@ -130,18 +123,18 @@
       "contributions": 1
     },
     {
+      "id": 1684801,
+      "login": "cvpinhe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1684801?v=4",
+      "htmlUrl": "https://github.com/cvpinhe",
+      "contributions": 1
+    },
+    {
       "id": 109796114,
       "login": "mlong-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/109796114?v=4",
       "htmlUrl": "https://github.com/mlong-nr",
       "contributions": 1
-    },
-    {
-      "id": 5143130,
-      "login": "gsanchezgavier",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
-      "htmlUrl": "https://github.com/gsanchezgavier",
-      "contributions": 2
     },
     {
       "id": 16539896,
@@ -155,6 +148,13 @@
       "login": "MagdaPaj",
       "avatarUrl": "https://avatars.githubusercontent.com/u/25376553?v=4",
       "htmlUrl": "https://github.com/MagdaPaj",
+      "contributions": 2
+    },
+    {
+      "id": 5143130,
+      "login": "gsanchezgavier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5143130?v=4",
+      "htmlUrl": "https://github.com/gsanchezgavier",
       "contributions": 2
     },
     {
@@ -214,6 +214,13 @@
       "contributions": 9
     },
     {
+      "id": 41898282,
+      "login": "github-actions[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
+      "htmlUrl": "https://github.com/apps/github-actions",
+      "contributions": 10
+    },
+    {
       "id": 66266496,
       "login": "htroisi",
       "avatarUrl": "https://avatars.githubusercontent.com/u/66266496?v=4",
@@ -228,13 +235,6 @@
       "contributions": 10
     },
     {
-      "id": 41898282,
-      "login": "github-actions[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/15368?v=4",
-      "htmlUrl": "https://github.com/apps/github-actions",
-      "contributions": 10
-    },
-    {
       "id": 53659978,
       "login": "kang-makes",
       "avatarUrl": "https://avatars.githubusercontent.com/u/53659978?v=4",
@@ -242,17 +242,17 @@
       "contributions": 10
     },
     {
-      "id": 5297542,
-      "login": "alejandrodnm",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
-      "htmlUrl": "https://github.com/alejandrodnm",
-      "contributions": 12
-    },
-    {
       "id": 43335750,
       "login": "paologallinaharbur",
       "avatarUrl": "https://avatars.githubusercontent.com/u/43335750?v=4",
       "htmlUrl": "https://github.com/paologallinaharbur",
+      "contributions": 12
+    },
+    {
+      "id": 5297542,
+      "login": "alejandrodnm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5297542?v=4",
+      "htmlUrl": "https://github.com/alejandrodnm",
       "contributions": 12
     },
     {
@@ -302,7 +302,7 @@
       "login": "NewRelic-K8s-Agents-Bot",
       "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
       "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 73
+      "contributions": 75
     },
     {
       "id": 50715937,
