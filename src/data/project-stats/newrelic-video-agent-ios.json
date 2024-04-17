@@ -3,20 +3,27 @@
   "issues": {
     "open": 1
   },
-  "releases": 3,
+  "releases": 4,
   "latestRelease": {
-    "name": "2.0.0",
-    "date": "2023-07-24T01:13:03Z"
+    "name": "2.0.1",
+    "date": null
   },
-  "commits": 552,
-  "lastSixMonthsCommitTotal": 0,
-  "contributors": 4,
+  "commits": 555,
+  "lastSixMonthsCommitTotal": 3,
+  "contributors": 5,
   "pullRequests": {
-    "open": 1
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 109796114,
+      "login": "mlong-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/109796114?v=4",
+      "htmlUrl": "https://github.com/mlong-nr",
+      "contributions": 1
+    },
     {
       "id": 513491,
       "login": "Boubalou",
@@ -43,7 +50,7 @@
       "login": "asllop",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6130000?v=4",
       "htmlUrl": "https://github.com/asllop",
-      "contributions": 172
+      "contributions": 173
     }
   ],
   "languages": [
