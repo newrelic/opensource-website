@@ -1,18 +1,18 @@
 {
   "projectFullName": "newrelic/terraform-provider-newrelic",
   "issues": {
-    "open": 52
+    "open": 51
   },
-  "releases": 223,
+  "releases": 224,
   "latestRelease": {
-    "name": "v3.34.1",
-    "date": "2024-03-28T08:13:48Z"
+    "name": "v3.35.0",
+    "date": "2024-04-22T08:37:55Z"
   },
-  "commits": 4151,
-  "lastSixMonthsCommitTotal": 86,
+  "commits": 4154,
+  "lastSixMonthsCommitTotal": 89,
   "contributors": 100,
   "pullRequests": {
-    "open": 22
+    "open": 20
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -354,10 +354,10 @@
       "contributions": 2
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
+      "id": 6184100,
+      "login": "jdvr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6184100?v=4",
+      "htmlUrl": "https://github.com/jdvr",
       "contributions": 2
     },
     {
@@ -375,11 +375,18 @@
       "contributions": 2
     },
     {
-      "id": 6184100,
-      "login": "jdvr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6184100?v=4",
-      "htmlUrl": "https://github.com/jdvr",
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
       "contributions": 2
+    },
+    {
+      "id": 227823,
+      "login": "stack72",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/227823?v=4",
+      "htmlUrl": "https://github.com/stack72",
+      "contributions": 3
     },
     {
       "id": 105005893,
@@ -403,13 +410,6 @@
       "contributions": 3
     },
     {
-      "id": 227823,
-      "login": "stack72",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/227823?v=4",
-      "htmlUrl": "https://github.com/stack72",
-      "contributions": 3
-    },
-    {
       "id": 102765645,
       "login": "amolero-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/102765645?v=4",
@@ -421,6 +421,13 @@
       "login": "sgsiebers",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6051117?v=4",
       "htmlUrl": "https://github.com/sgsiebers",
+      "contributions": 3
+    },
+    {
+      "id": 2439306,
+      "login": "burck1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2439306?v=4",
+      "htmlUrl": "https://github.com/burck1",
       "contributions": 3
     },
     {
@@ -442,13 +449,6 @@
       "login": "baNROne",
       "avatarUrl": "https://avatars.githubusercontent.com/u/93732247?v=4",
       "htmlUrl": "https://github.com/baNROne",
-      "contributions": 3
-    },
-    {
-      "id": 2439306,
-      "login": "burck1",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2439306?v=4",
-      "htmlUrl": "https://github.com/burck1",
       "contributions": 3
     },
     {
@@ -501,17 +501,17 @@
       "contributions": 7
     },
     {
-      "id": 7072575,
-      "login": "acondrat",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7072575?v=4",
-      "htmlUrl": "https://github.com/acondrat",
-      "contributions": 8
-    },
-    {
       "id": 506296,
       "login": "mikery",
       "avatarUrl": "https://avatars.githubusercontent.com/u/506296?v=4",
       "htmlUrl": "https://github.com/mikery",
+      "contributions": 8
+    },
+    {
+      "id": 7072575,
+      "login": "acondrat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7072575?v=4",
+      "htmlUrl": "https://github.com/acondrat",
       "contributions": 8
     },
     {
@@ -520,13 +520,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/65650?v=4",
       "htmlUrl": "https://github.com/founddrama",
       "contributions": 8
-    },
-    {
-      "id": 35202085,
-      "login": "NilVentosa",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/35202085?v=4",
-      "htmlUrl": "https://github.com/NilVentosa",
-      "contributions": 11
     },
     {
       "id": 28560468,
@@ -543,11 +536,18 @@
       "contributions": 11
     },
     {
+      "id": 35202085,
+      "login": "NilVentosa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35202085?v=4",
+      "htmlUrl": "https://github.com/NilVentosa",
+      "contributions": 11
+    },
+    {
       "id": 70852759,
       "login": "nzur-newrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/70852759?v=4",
       "htmlUrl": "https://github.com/nzur-newrelic",
-      "contributions": 11
+      "contributions": 12
     },
     {
       "id": 287584,
@@ -592,17 +592,17 @@
       "contributions": 19
     },
     {
-      "id": 99236372,
-      "login": "RavitejaSurampudi",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/99236372?v=4",
-      "htmlUrl": "https://github.com/RavitejaSurampudi",
-      "contributions": 21
-    },
-    {
       "id": 100915954,
       "login": "Nandu-pns",
       "avatarUrl": "https://avatars.githubusercontent.com/u/100915954?v=4",
       "htmlUrl": "https://github.com/Nandu-pns",
+      "contributions": 21
+    },
+    {
+      "id": 99236372,
+      "login": "RavitejaSurampudi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99236372?v=4",
+      "htmlUrl": "https://github.com/RavitejaSurampudi",
       "contributions": 21
     },
     {
@@ -652,7 +652,7 @@
       "login": "pranav-new-relic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/127438038?v=4",
       "htmlUrl": "https://github.com/pranav-new-relic",
-      "contributions": 87
+      "contributions": 89
     },
     {
       "id": 29264964,
@@ -673,7 +673,7 @@
       "login": "nr-developer-toolkit",
       "avatarUrl": "https://avatars.githubusercontent.com/u/62031461?v=4",
       "htmlUrl": "https://github.com/nr-developer-toolkit",
-      "contributions": 111
+      "contributions": 112
     },
     {
       "id": 184273,
