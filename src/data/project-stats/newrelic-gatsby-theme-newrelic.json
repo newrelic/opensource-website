@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 301,
+  "releases": 302,
   "latestRelease": {
-    "name": "v9.5.1",
+    "name": "v9.5.2",
     "date": null
   },
-  "commits": 2966,
-  "lastSixMonthsCommitTotal": 161,
+  "commits": 2970,
+  "lastSixMonthsCommitTotal": 165,
   "contributors": 26,
   "pullRequests": {
     "open": 13
@@ -32,13 +32,6 @@
       "contributions": 1
     },
     {
-      "id": 49699333,
-      "login": "dependabot[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
-      "htmlUrl": "https://github.com/apps/dependabot",
-      "contributions": 1
-    },
-    {
       "id": 114055,
       "login": "tbutkiewicz",
       "avatarUrl": "https://avatars.githubusercontent.com/u/114055?v=4",
@@ -51,6 +44,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/1428400?v=4",
       "htmlUrl": "https://github.com/coreyarnold",
       "contributions": 1
+    },
+    {
+      "id": 49699333,
+      "login": "dependabot[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/29110?v=4",
+      "htmlUrl": "https://github.com/apps/dependabot",
+      "contributions": 2
     },
     {
       "id": 19733683,
@@ -169,7 +169,7 @@
       "login": "clarkmcadoo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/26727669?v=4",
       "htmlUrl": "https://github.com/clarkmcadoo",
-      "contributions": 148
+      "contributions": 149
     },
     {
       "id": 1946433,
