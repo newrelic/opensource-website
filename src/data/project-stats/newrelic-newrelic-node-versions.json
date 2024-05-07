@@ -3,10 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 41,
-  "lastSixMonthsCommitTotal": 41,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v0.1.0",
+    "date": "2024-05-06T15:58:42Z"
+  },
+  "commits": 42,
+  "lastSixMonthsCommitTotal": 42,
   "contributors": 2,
   "pullRequests": {
     "open": 1
@@ -26,7 +29,7 @@
       "login": "jsumners-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/150050532?v=4",
       "htmlUrl": "https://github.com/jsumners-nr",
-      "contributions": 23
+      "contributions": 24
     }
   ],
   "languages": [
