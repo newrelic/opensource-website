@@ -3,13 +3,13 @@
   "issues": {
     "open": 26
   },
-  "releases": 734,
+  "releases": 736,
   "latestRelease": {
-    "name": "synthetics-job-manager-2.0.7",
-    "date": "2024-05-01T22:31:07Z"
+    "name": "nri-bundle-5.0.76",
+    "date": "2024-05-07T12:02:09Z"
   },
-  "commits": 861,
-  "lastSixMonthsCommitTotal": 119,
+  "commits": 863,
+  "lastSixMonthsCommitTotal": 120,
   "contributors": 100,
   "pullRequests": {
     "open": 22
@@ -522,13 +522,6 @@
       "contributions": 8
     },
     {
-      "id": 72516550,
-      "login": "cleon-nr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/72516550?v=4",
-      "htmlUrl": "https://github.com/cleon-nr",
-      "contributions": 9
-    },
-    {
       "id": 9002169,
       "login": "bpschmitt",
       "avatarUrl": "https://avatars.githubusercontent.com/u/9002169?v=4",
@@ -536,10 +529,10 @@
       "contributions": 9
     },
     {
-      "id": 2054195,
-      "login": "ardias",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2054195?v=4",
-      "htmlUrl": "https://github.com/ardias",
+      "id": 72516550,
+      "login": "cleon-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72516550?v=4",
+      "htmlUrl": "https://github.com/cleon-nr",
       "contributions": 9
     },
     {
@@ -547,6 +540,13 @@
       "login": "vkasanneni-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/51135822?v=4",
       "htmlUrl": "https://github.com/vkasanneni-nr",
+      "contributions": 9
+    },
+    {
+      "id": 2054195,
+      "login": "ardias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2054195?v=4",
+      "htmlUrl": "https://github.com/ardias",
       "contributions": 9
     },
     {
@@ -645,7 +645,7 @@
       "login": "jsubirat",
       "avatarUrl": "https://avatars.githubusercontent.com/u/6243832?v=4",
       "htmlUrl": "https://github.com/jsubirat",
-      "contributions": 23
+      "contributions": 24
     },
     {
       "id": 5297542,
@@ -715,7 +715,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 108
+      "contributions": 109
     }
   ],
   "languages": [
