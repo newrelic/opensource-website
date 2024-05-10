@@ -1,22 +1,29 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-layers",
   "issues": {
-    "open": 11
+    "open": 9
   },
-  "releases": 377,
+  "releases": 378,
   "latestRelease": {
-    "name": "v2.3.11.1_extension",
-    "date": "2024-05-06T12:31:48Z"
+    "name": "v9.9.0_ruby",
+    "date": "2024-05-09T17:41:06Z"
   },
-  "commits": 413,
-  "lastSixMonthsCommitTotal": 59,
-  "contributors": 25,
+  "commits": 414,
+  "lastSixMonthsCommitTotal": 60,
+  "contributors": 26,
   "pullRequests": {
     "open": 5
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
+    {
+      "id": 121392,
+      "login": "fallwith",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/121392?v=4",
+      "htmlUrl": "https://github.com/fallwith",
+      "contributions": 1
+    },
     {
       "id": 150428529,
       "login": "DasuNewrelic",
@@ -218,6 +225,11 @@
       "id": "MDg6TGFuZ3VhZ2U0MDM=",
       "name": "Makefile",
       "color": "#427819"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2UxNDE=",
+      "name": "Ruby",
+      "color": "#701516"
     }
   ],
   "screenshots": [],
