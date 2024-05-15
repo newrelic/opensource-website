@@ -3,16 +3,16 @@
   "issues": {
     "open": 12
   },
-  "releases": 64,
+  "releases": 65,
   "latestRelease": {
-    "name": "v1.13.0",
-    "date": "2024-05-14T09:27:28Z"
+    "name": "v1.14.0",
+    "date": "2024-05-15T11:18:06Z"
   },
-  "commits": 751,
-  "lastSixMonthsCommitTotal": 19,
+  "commits": 755,
+  "lastSixMonthsCommitTotal": 23,
   "contributors": 76,
   "pullRequests": {
-    "open": 30
+    "open": 28
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -396,17 +396,17 @@
       "contributions": 4
     },
     {
-      "id": 7082471,
-      "login": "GaPeppy",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7082471?v=4",
-      "htmlUrl": "https://github.com/GaPeppy",
-      "contributions": 4
-    },
-    {
       "id": 1300852,
       "login": "varas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
       "htmlUrl": "https://github.com/varas",
+      "contributions": 4
+    },
+    {
+      "id": 7082471,
+      "login": "GaPeppy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7082471?v=4",
+      "htmlUrl": "https://github.com/GaPeppy",
       "contributions": 4
     },
     {
@@ -431,13 +431,6 @@
       "contributions": 6
     },
     {
-      "id": 29139614,
-      "login": "renovate[bot]",
-      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
-      "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 7
-    },
-    {
       "id": 1082112,
       "login": "ericmittelhammer",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1082112?v=4",
@@ -452,10 +445,10 @@
       "contributions": 8
     },
     {
-      "id": 11422515,
-      "login": "DavSanchez",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11422515?v=4",
-      "htmlUrl": "https://github.com/DavSanchez",
+      "id": 4612272,
+      "login": "noly",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
+      "htmlUrl": "https://github.com/noly",
       "contributions": 10
     },
     {
@@ -466,11 +459,18 @@
       "contributions": 10
     },
     {
-      "id": 4612272,
-      "login": "noly",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4612272?v=4",
-      "htmlUrl": "https://github.com/noly",
+      "id": 11422515,
+      "login": "DavSanchez",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11422515?v=4",
+      "htmlUrl": "https://github.com/DavSanchez",
       "contributions": 10
+    },
+    {
+      "id": 29139614,
+      "login": "renovate[bot]",
+      "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
+      "htmlUrl": "https://github.com/apps/renovate",
+      "contributions": 11
     },
     {
       "id": 3380451,
