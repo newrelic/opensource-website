@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-php-agent",
   "issues": {
-    "open": 56
+    "open": 55
   },
   "releases": 36,
   "latestRelease": {
     "name": "v10.20.0.10",
     "date": "2024-04-29T15:50:28Z"
   },
-  "commits": 430,
-  "lastSixMonthsCommitTotal": 95,
+  "commits": 438,
+  "lastSixMonthsCommitTotal": 102,
   "contributors": 26,
   "pullRequests": {
     "open": 6
@@ -144,17 +144,17 @@
       "contributions": 3
     },
     {
-      "id": 108540135,
-      "login": "hahuja2",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/108540135?v=4",
-      "htmlUrl": "https://github.com/hahuja2",
-      "contributions": 18
-    },
-    {
       "id": 5200550,
       "login": "kneitinger",
       "avatarUrl": "https://avatars.githubusercontent.com/u/5200550?v=4",
       "htmlUrl": "https://github.com/kneitinger",
+      "contributions": 19
+    },
+    {
+      "id": 108540135,
+      "login": "hahuja2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108540135?v=4",
+      "htmlUrl": "https://github.com/hahuja2",
       "contributions": 19
     },
     {
@@ -179,13 +179,6 @@
       "contributions": 59
     },
     {
-      "id": 43715151,
-      "login": "zsistla",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43715151?v=4",
-      "htmlUrl": "https://github.com/zsistla",
-      "contributions": 68
-    },
-    {
       "id": 89205663,
       "login": "mfulb",
       "avatarUrl": "https://avatars.githubusercontent.com/u/89205663?v=4",
@@ -193,11 +186,18 @@
       "contributions": 69
     },
     {
+      "id": 43715151,
+      "login": "zsistla",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43715151?v=4",
+      "htmlUrl": "https://github.com/zsistla",
+      "contributions": 69
+    },
+    {
       "id": 98839644,
       "login": "lavarou",
       "avatarUrl": "https://avatars.githubusercontent.com/u/98839644?v=4",
       "htmlUrl": "https://github.com/lavarou",
-      "contributions": 112
+      "contributions": 117
     }
   ],
   "languages": [
