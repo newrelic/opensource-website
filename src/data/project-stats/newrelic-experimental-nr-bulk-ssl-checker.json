@@ -1,26 +1,22 @@
 {
   "projectFullName": "newrelic-experimental/nr-bulk-ssl-checker",
   "issues": {
-    "open": 1
+    "open": 0
   },
-  "releases": 0,
-  "latestRelease": null,
-  "commits": 10,
-  "lastSixMonthsCommitTotal": 2,
+  "releases": 2,
+  "latestRelease": {
+    "name": "v2.0.0",
+    "date": "2024-05-20T16:02:25Z"
+  },
+  "commits": 22,
+  "lastSixMonthsCommitTotal": 14,
   "contributors": 3,
   "pullRequests": {
-    "open": 4
+    "open": 0
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 100862257,
-      "login": "dpacheconr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/100862257?v=4",
-      "htmlUrl": "https://github.com/dpacheconr",
-      "contributions": 2
-    },
     {
       "id": 1090602,
       "login": "phawxby",
@@ -29,11 +25,18 @@
       "contributions": 2
     },
     {
+      "id": 100862257,
+      "login": "dpacheconr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100862257?v=4",
+      "htmlUrl": "https://github.com/dpacheconr",
+      "contributions": 7
+    },
+    {
       "id": 55132258,
       "login": "jsbnr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/55132258?v=4",
       "htmlUrl": "https://github.com/jsbnr",
-      "contributions": 5
+      "contributions": 9
     }
   ],
   "languages": [
