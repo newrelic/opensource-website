@@ -3,16 +3,16 @@
   "issues": {
     "open": 26
   },
-  "releases": 747,
+  "releases": 748,
   "latestRelease": {
-    "name": "synthetics-minion-1.0.65",
-    "date": "2024-05-16T00:11:20Z"
+    "name": "nri-bundle-5.0.78",
+    "date": "2024-05-21T12:02:17Z"
   },
-  "commits": 874,
+  "commits": 875,
   "lastSixMonthsCommitTotal": 129,
   "contributors": 100,
   "pullRequests": {
-    "open": 22
+    "open": 21
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -221,13 +221,6 @@
       "contributions": 1
     },
     {
-      "id": 12255612,
-      "login": "gopisaba",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/12255612?v=4",
-      "htmlUrl": "https://github.com/gopisaba",
-      "contributions": 1
-    },
-    {
       "id": 159076,
       "login": "douglascamata",
       "avatarUrl": "https://avatars.githubusercontent.com/u/159076?v=4",
@@ -242,13 +235,6 @@
       "contributions": 1
     },
     {
-      "id": 18555156,
-      "login": "edward-milkey",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18555156?v=4",
-      "htmlUrl": "https://github.com/edward-milkey",
-      "contributions": 1
-    },
-    {
       "id": 1773616,
       "login": "theletterf",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1773616?v=4",
@@ -256,11 +242,18 @@
       "contributions": 1
     },
     {
-      "id": 11836452,
-      "login": "edmocosta",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11836452?v=4",
-      "htmlUrl": "https://github.com/edmocosta",
-      "contributions": 2
+      "id": 18555156,
+      "login": "edward-milkey",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18555156?v=4",
+      "htmlUrl": "https://github.com/edward-milkey",
+      "contributions": 1
+    },
+    {
+      "id": 12255612,
+      "login": "gopisaba",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12255612?v=4",
+      "htmlUrl": "https://github.com/gopisaba",
+      "contributions": 1
     },
     {
       "id": 8434421,
@@ -277,10 +270,10 @@
       "contributions": 2
     },
     {
-      "id": 82898004,
-      "login": "mangulonr",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/82898004?v=4",
-      "htmlUrl": "https://github.com/mangulonr",
+      "id": 11836452,
+      "login": "edmocosta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11836452?v=4",
+      "htmlUrl": "https://github.com/edmocosta",
       "contributions": 2
     },
     {
@@ -291,10 +284,10 @@
       "contributions": 2
     },
     {
-      "id": 135250101,
-      "login": "dbudziwojskiNR",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/135250101?v=4",
-      "htmlUrl": "https://github.com/dbudziwojskiNR",
+      "id": 82898004,
+      "login": "mangulonr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82898004?v=4",
+      "htmlUrl": "https://github.com/mangulonr",
       "contributions": 2
     },
     {
@@ -319,10 +312,10 @@
       "contributions": 2
     },
     {
-      "id": 18450816,
-      "login": "avenging",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/18450816?v=4",
-      "htmlUrl": "https://github.com/avenging",
+      "id": 135250101,
+      "login": "dbudziwojskiNR",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/135250101?v=4",
+      "htmlUrl": "https://github.com/dbudziwojskiNR",
       "contributions": 2
     },
     {
@@ -340,17 +333,17 @@
       "contributions": 2
     },
     {
+      "id": 18450816,
+      "login": "avenging",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18450816?v=4",
+      "htmlUrl": "https://github.com/avenging",
+      "contributions": 2
+    },
+    {
       "id": 1300852,
       "login": "varas",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1300852?v=4",
       "htmlUrl": "https://github.com/varas",
-      "contributions": 3
-    },
-    {
-      "id": 20191229,
-      "login": "nwsparks",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/20191229?v=4",
-      "htmlUrl": "https://github.com/nwsparks",
       "contributions": 3
     },
     {
@@ -361,10 +354,10 @@
       "contributions": 3
     },
     {
-      "id": 7537725,
-      "login": "tejunior",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7537725?v=4",
-      "htmlUrl": "https://github.com/tejunior",
+      "id": 20191229,
+      "login": "nwsparks",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20191229?v=4",
+      "htmlUrl": "https://github.com/nwsparks",
       "contributions": 3
     },
     {
@@ -372,6 +365,13 @@
       "login": "gonzalobarbitta",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13766937?v=4",
       "htmlUrl": "https://github.com/gonzalobarbitta",
+      "contributions": 3
+    },
+    {
+      "id": 7537725,
+      "login": "tejunior",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7537725?v=4",
+      "htmlUrl": "https://github.com/tejunior",
       "contributions": 3
     },
     {
@@ -715,7 +715,7 @@
       "login": "renovate[bot]",
       "avatarUrl": "https://avatars.githubusercontent.com/in/2740?v=4",
       "htmlUrl": "https://github.com/apps/renovate",
-      "contributions": 110
+      "contributions": 111
     }
   ],
   "languages": [
