@@ -1,34 +1,34 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-layers",
   "issues": {
-    "open": 10
+    "open": 11
   },
   "releases": 382,
   "latestRelease": {
     "name": "v10.24.0_dotnet",
     "date": "2024-05-21T03:04:55Z"
   },
-  "commits": 418,
-  "lastSixMonthsCommitTotal": 54,
-  "contributors": 27,
+  "commits": 421,
+  "lastSixMonthsCommitTotal": 57,
+  "contributors": 28,
   "pullRequests": {
-    "open": 9
+    "open": 7
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
     {
+      "id": 6098021,
+      "login": "jaffinito",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6098021?v=4",
+      "htmlUrl": "https://github.com/jaffinito",
+      "contributions": 1
+    },
+    {
       "id": 13562672,
       "login": "jaesius",
       "avatarUrl": "https://avatars.githubusercontent.com/u/13562672?v=4",
       "htmlUrl": "https://github.com/jaesius",
-      "contributions": 1
-    },
-    {
-      "id": 121392,
-      "login": "fallwith",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/121392?v=4",
-      "htmlUrl": "https://github.com/fallwith",
       "contributions": 1
     },
     {
@@ -39,10 +39,10 @@
       "contributions": 1
     },
     {
-      "id": 118331906,
-      "login": "chaudharysaket",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/118331906?v=4",
-      "htmlUrl": "https://github.com/chaudharysaket",
+      "id": 121392,
+      "login": "fallwith",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/121392?v=4",
+      "htmlUrl": "https://github.com/fallwith",
       "contributions": 1
     },
     {
@@ -78,6 +78,13 @@
       "login": "hmstepanek",
       "avatarUrl": "https://avatars.githubusercontent.com/u/30059933?v=4",
       "htmlUrl": "https://github.com/hmstepanek",
+      "contributions": 2
+    },
+    {
+      "id": 118331906,
+      "login": "chaudharysaket",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/118331906?v=4",
+      "htmlUrl": "https://github.com/chaudharysaket",
       "contributions": 2
     },
     {
@@ -204,7 +211,7 @@
       "login": "mrickard",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
       "htmlUrl": "https://github.com/mrickard",
-      "contributions": 92
+      "contributions": 93
     }
   ],
   "languages": [
