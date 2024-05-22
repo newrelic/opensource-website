@@ -8,11 +8,11 @@
     "name": "v10.24.0_dotnet",
     "date": "2024-05-21T03:04:55Z"
   },
-  "commits": 417,
-  "lastSixMonthsCommitTotal": 53,
+  "commits": 418,
+  "lastSixMonthsCommitTotal": 54,
   "contributors": 27,
   "pullRequests": {
-    "open": 10
+    "open": 9
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -29,13 +29,6 @@
       "login": "fallwith",
       "avatarUrl": "https://avatars.githubusercontent.com/u/121392?v=4",
       "htmlUrl": "https://github.com/fallwith",
-      "contributions": 1
-    },
-    {
-      "id": 150428529,
-      "login": "DasuNewrelic",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/150428529?v=4",
-      "htmlUrl": "https://github.com/DasuNewrelic",
       "contributions": 1
     },
     {
@@ -85,6 +78,13 @@
       "login": "hmstepanek",
       "avatarUrl": "https://avatars.githubusercontent.com/u/30059933?v=4",
       "htmlUrl": "https://github.com/hmstepanek",
+      "contributions": 2
+    },
+    {
+      "id": 150428529,
+      "login": "DasuNewrelic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150428529?v=4",
+      "htmlUrl": "https://github.com/DasuNewrelic",
       "contributions": 2
     },
     {
@@ -237,6 +237,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDE=",
       "name": "Ruby",
       "color": "#701516"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U1MzU=",
+      "name": "Dockerfile",
+      "color": "#384d54"
     }
   ],
   "screenshots": [],
