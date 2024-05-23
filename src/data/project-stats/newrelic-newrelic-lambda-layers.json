@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/newrelic-lambda-layers",
   "issues": {
-    "open": 11
+    "open": 10
   },
   "releases": 382,
   "latestRelease": {
     "name": "v10.24.0_dotnet",
     "date": "2024-05-21T03:04:55Z"
   },
-  "commits": 421,
-  "lastSixMonthsCommitTotal": 57,
+  "commits": 422,
+  "lastSixMonthsCommitTotal": 58,
   "contributors": 28,
   "pullRequests": {
     "open": 7
@@ -81,13 +81,6 @@
       "contributions": 2
     },
     {
-      "id": 118331906,
-      "login": "chaudharysaket",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/118331906?v=4",
-      "htmlUrl": "https://github.com/chaudharysaket",
-      "contributions": 2
-    },
-    {
       "id": 150428529,
       "login": "DasuNewrelic",
       "avatarUrl": "https://avatars.githubusercontent.com/u/150428529?v=4",
@@ -100,6 +93,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/111462425?v=4",
       "htmlUrl": "https://github.com/chynesNR",
       "contributions": 2
+    },
+    {
+      "id": 118331906,
+      "login": "chaudharysaket",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/118331906?v=4",
+      "htmlUrl": "https://github.com/chaudharysaket",
+      "contributions": 3
     },
     {
       "id": 660405,
@@ -244,11 +244,6 @@
       "id": "MDg6TGFuZ3VhZ2UxNDE=",
       "name": "Ruby",
       "color": "#701516"
-    },
-    {
-      "id": "MDg6TGFuZ3VhZ2U1MzU=",
-      "name": "Dockerfile",
-      "color": "#384d54"
     }
   ],
   "screenshots": [],
