@@ -5,9 +5,9 @@
   },
   "releases": 0,
   "latestRelease": null,
-  "commits": 32,
-  "lastSixMonthsCommitTotal": 32,
-  "contributors": 5,
+  "commits": 36,
+  "lastSixMonthsCommitTotal": 36,
+  "contributors": 6,
   "pullRequests": {
     "open": 2
   },
@@ -29,6 +29,13 @@
       "contributions": 1
     },
     {
+      "id": 106178551,
+      "login": "bduranleau-nr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106178551?v=4",
+      "htmlUrl": "https://github.com/bduranleau-nr",
+      "contributions": 2
+    },
+    {
       "id": 11327,
       "login": "mrickard",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11327?v=4",
@@ -47,7 +54,7 @@
       "login": "TimPansino",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
       "htmlUrl": "https://github.com/TimPansino",
-      "contributions": 12
+      "contributions": 15
     }
   ],
   "languages": [
@@ -65,6 +72,11 @@
       "id": "MDg6TGFuZ3VhZ2UxNDA=",
       "name": "JavaScript",
       "color": "#f1e05a"
+    },
+    {
+      "id": "MDg6TGFuZ3VhZ2U0MDM=",
+      "name": "Makefile",
+      "color": "#427819"
     }
   ],
   "screenshots": [],
