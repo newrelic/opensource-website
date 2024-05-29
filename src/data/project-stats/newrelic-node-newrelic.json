@@ -1,15 +1,15 @@
 {
   "projectFullName": "newrelic/node-newrelic",
   "issues": {
-    "open": 59
+    "open": 58
   },
-  "releases": 392,
+  "releases": 393,
   "latestRelease": {
-    "name": "v11.17.0",
+    "name": "v11.18.0",
     "date": null
   },
-  "commits": 10024,
-  "lastSixMonthsCommitTotal": 407,
+  "commits": 10027,
+  "lastSixMonthsCommitTotal": 409,
   "contributors": 98,
   "pullRequests": {
     "open": 3
@@ -17,13 +17,6 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 3443648,
-      "login": "henryjw",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3443648?v=4",
-      "htmlUrl": "https://github.com/henryjw",
-      "contributions": 2
-    },
     {
       "id": 3366767,
       "login": "Crow-EH",
@@ -296,6 +289,13 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/16082?v=4",
       "htmlUrl": "https://github.com/wesrog",
       "contributions": 2
+    },
+    {
+      "id": 97628601,
+      "login": "newrelic-node-agent-team",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97628601?v=4",
+      "htmlUrl": "https://github.com/newrelic-node-agent-team",
+      "contributions": 3
     },
     {
       "id": 96396387,
@@ -603,7 +603,7 @@
       "login": "jsumners-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/150050532?v=4",
       "htmlUrl": "https://github.com/jsumners-nr",
-      "contributions": 182
+      "contributions": 188
     },
     {
       "id": 883103,
@@ -701,7 +701,7 @@
       "login": "bizob2828",
       "avatarUrl": "https://avatars.githubusercontent.com/u/1874937?v=4",
       "htmlUrl": "https://github.com/bizob2828",
-      "contributions": 2808
+      "contributions": 2814
     }
   ],
   "languages": [
