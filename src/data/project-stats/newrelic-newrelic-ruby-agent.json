@@ -1,7 +1,7 @@
 {
   "projectFullName": "newrelic/newrelic-ruby-agent",
   "issues": {
-    "open": 206
+    "open": 207
   },
   "releases": 512,
   "latestRelease": {
@@ -9,7 +9,7 @@
     "date": "2024-05-29T18:51:48Z"
   },
   "commits": 19453,
-  "lastSixMonthsCommitTotal": 564,
+  "lastSixMonthsCommitTotal": 563,
   "contributors": 98,
   "pullRequests": {
     "open": 4
@@ -34,23 +34,6 @@
       "createdBy": "Kayla Reopelle (she/her)"
     },
     {
-      "id": "I_kwDOAAESBM5IfsHe",
-      "title": "Standardize on \"agent\"",
-      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/1118",
-      "createdAt": "2022-04-26T17:29:45Z",
-      "comments": {
-        "totalCount": 5
-      },
-      "author": {
-        "login": "fallwith",
-        "id": "MDQ6VXNlcjEyMTM5Mg==",
-        "email": "",
-        "name": "James Bunch"
-      },
-      "number": 1118,
-      "createdBy": "James Bunch"
-    },
-    {
       "id": "I_kwDOAAESBM5ImEe6",
       "title": "Introduce version comparison helper method(s)",
       "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/1124",
@@ -66,6 +49,23 @@
       },
       "number": 1124,
       "createdBy": "James Bunch"
+    },
+    {
+      "id": "I_kwDOAAESBM5406W4",
+      "title": "Add Elasticsearch version constraint",
+      "url": "https://github.com/newrelic/newrelic-ruby-agent/issues/2346",
+      "createdAt": "2023-12-05T21:16:21Z",
+      "comments": {
+        "totalCount": 1
+      },
+      "author": {
+        "login": "hannahramadan",
+        "id": "MDQ6VXNlcjc2OTIyMjkw",
+        "email": "",
+        "name": "Hannah Ramadan"
+      },
+      "number": 2346,
+      "createdBy": "Hannah Ramadan"
     }
   ],
   "cachedContributors": [
