@@ -3,13 +3,16 @@
   "issues": {
     "open": 1
   },
-  "releases": 0,
-  "latestRelease": null,
+  "releases": 1,
+  "latestRelease": {
+    "name": "v10.25.1_dotnet",
+    "date": "2024-06-02T17:56:37Z"
+  },
   "commits": 53,
   "lastSixMonthsCommitTotal": 53,
   "contributors": 8,
   "pullRequests": {
-    "open": 2
+    "open": 3
   },
   "searchCategory": "good first issue",
   "cachedIssues": [],
@@ -61,7 +64,7 @@
       "login": "tippmar-nr",
       "avatarUrl": "https://avatars.githubusercontent.com/u/120425148?v=4",
       "htmlUrl": "https://github.com/tippmar-nr",
-      "contributions": 14
+      "contributions": 15
     },
     {
       "id": 11214426,
