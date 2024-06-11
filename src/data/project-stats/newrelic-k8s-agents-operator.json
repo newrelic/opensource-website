@@ -3,13 +3,13 @@
   "issues": {
     "open": 1
   },
-  "releases": 8,
+  "releases": 10,
   "latestRelease": {
-    "name": "v0.3.0",
-    "date": "2024-06-04T03:17:20Z"
+    "name": "k8s-agents-operator-0.4.0",
+    "date": "2024-06-10T12:03:23Z"
   },
-  "commits": 38,
-  "lastSixMonthsCommitTotal": 38,
+  "commits": 41,
+  "lastSixMonthsCommitTotal": 41,
   "contributors": 6,
   "pullRequests": {
     "open": 4
@@ -17,13 +17,6 @@
   "searchCategory": "good first issue",
   "cachedIssues": [],
   "cachedContributors": [
-    {
-      "id": 142926265,
-      "login": "NewRelic-K8s-Agents-Bot",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
-      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
-      "contributions": 1
-    },
     {
       "id": 11327,
       "login": "mrickard",
@@ -43,7 +36,14 @@
       "login": "TimPansino",
       "avatarUrl": "https://avatars.githubusercontent.com/u/11214426?v=4",
       "htmlUrl": "https://github.com/TimPansino",
-      "contributions": 1
+      "contributions": 2
+    },
+    {
+      "id": 142926265,
+      "login": "NewRelic-K8s-Agents-Bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142926265?v=4",
+      "htmlUrl": "https://github.com/NewRelic-K8s-Agents-Bot",
+      "contributions": 2
     },
     {
       "id": 76922290,
@@ -57,7 +57,7 @@
       "login": "juanjjaramillo",
       "avatarUrl": "https://avatars.githubusercontent.com/u/7085372?v=4",
       "htmlUrl": "https://github.com/juanjjaramillo",
-      "contributions": 32
+      "contributions": 34
     }
   ],
   "languages": [
