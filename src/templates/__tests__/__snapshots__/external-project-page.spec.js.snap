@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Adopt OpenJDK Renders correctly 1`] = `
-.emotion-114 {
+.emotion-112 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,7 +14,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-77 {
+.emotion-75 {
   display: grid;
   background-color: var(--erno-black);
   grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
@@ -29,33 +29,27 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1150px) and (min-width: 1070px) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
-.dark-mode .emotion-77 {
+.dark-mode .emotion-75 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-54 {
+.emotion-53 {
   grid-area: logo;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -106,7 +100,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   fill: var(--primary-text-color);
 }
 
-.emotion-53 {
+.emotion-52 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -120,7 +114,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-53 {
+  .emotion-52 {
     display: block;
   }
 }
@@ -161,7 +155,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-52 {
+.emotion-51 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   position: absolute;
@@ -174,11 +168,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-52 {
+.dark-mode .emotion-51 {
   background-color: var(--primary-hover-color);
 }
 
-.emotion-52::before {
+.emotion-51::before {
   content: '';
   position: absolute;
   display: block;
@@ -192,7 +186,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-51 {
+.emotion-50 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
@@ -220,7 +214,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-76 {
+.emotion-74 {
   grid-area: nav;
   display: -webkit-box;
   display: -webkit-flex;
@@ -229,13 +223,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   width: 100%;
   max-width: var(--site-max-width);
   margin: auto;
 }
 
-.emotion-59 {
+.emotion-57 {
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -248,23 +242,23 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 
 
 
-.emotion-59 li >a {
+.emotion-57 li >a {
   font-size: 18px;
 }
 
 
 
-.emotion-59 li:first-of-type >a {
+.emotion-57 li:first-of-type >a {
   padding-left: 0px;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-59 {
+  .emotion-57 {
     display: none;
   }
 }
 
-.emotion-55 {
+.emotion-54 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -285,11 +279,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-55:hover {
+.emotion-54:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-75 {
+.emotion-73 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -308,17 +302,17 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   justify-content: flex-end;
 }
 
-.emotion-75 >li {
+.emotion-73 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-75 >li:not(:first-of-type) .emotion-75 >li:not(:last-of-type) {
+.emotion-73 >li:not(:first-of-type) .emotion-73 >li:not(:last-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-75 {
+  .emotion-73 {
     width: 100%;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -328,31 +322,31 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   }
 }
 
-.emotion-63 {
+.emotion-61 {
   margin: 0rem 1rem;
   width: 100%;
   max-width: 320px;
 }
 
 @media screen and (max-width: 930px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-right: 1rem;
   }
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-63 {
+  .emotion-61 {
     display: none;
   }
 }
 
-.emotion-62 {
+.emotion-60 {
   --horizontal-spacing: 1rem;
   position: relative;
   width: 100%;
@@ -362,17 +356,17 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   max-width: 450px;
 }
 
-.emotion-62 svg {
+.emotion-60 svg {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.emotion-62 input {
+.emotion-60 input {
   border: none;
   height: 40px;
 }
 
-.emotion-60 {
+.emotion-58 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -389,7 +383,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-61 {
+.emotion-59 {
   width: 100%;
   border: 1px solid var(--primary-text-color);
   border-radius: 4px;
@@ -407,13 +401,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   padding-bottom: 0.5rem;
 }
 
-.emotion-61:focus {
+.emotion-59:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-69 {
+.emotion-67 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -424,7 +418,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 460px) {
-  .emotion-69 {
+  .emotion-67 {
     width: 100%;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
@@ -433,7 +427,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   }
 }
 
-.emotion-65 {
+.emotion-63 {
   color: var(--system-text-primary-dark);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -445,18 +439,18 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     display: block;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     padding-right: 0.25rem;
   }
 }
 
-.emotion-64 {
+.emotion-62 {
   width: 1.5rem;
   height: 1.5rem;
   fill: none;
@@ -468,7 +462,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   display: block;
 }
 
-.emotion-67 {
+.emotion-65 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -503,12 +497,12 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 450px) {
-  .emotion-67 {
+  .emotion-65 {
     padding: 0;
   }
 }
 
-.emotion-66 {
+.emotion-64 {
   width: 27px;
   height: 27px;
   stroke: currentColor;
@@ -520,29 +514,29 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   color: var(--system-text-primary-dark);
 }
 
-.emotion-66 path {
+.emotion-64 path {
   fill: currentColor;
 }
 
-.emotion-66 path {
+.emotion-64 path {
   -webkit-transition: -webkit-transform 250ms;
   transition: transform 250ms;
   transform-origin: center;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 {
+.dark-mode .emotion-64 {
   opacity: 0.8;
   -webkit-transition: opacity 250ms;
   transition: opacity 250ms;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 line {
+.dark-mode .emotion-64 line {
   stroke-linecap: butt;
 }
 
-.dark-mode .emotion-66 path {
+.dark-mode .emotion-64 path {
   -webkit-transform: rotate(0.5turn) translate(3%, 3%);
   -moz-transform: rotate(0.5turn) translate(3%, 3%);
   -ms-transform: rotate(0.5turn) translate(3%, 3%);
@@ -554,12 +548,12 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 @media screen and (max-width: ) {
-  .emotion-66 {
+  .emotion-64 {
     margin: 0;
   }
 }
 
-.emotion-74 {
+.emotion-72 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -573,7 +567,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   flex-direction: row;
 }
 
-.emotion-70 {
+.emotion-68 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -607,17 +601,17 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   font-size: 18px;
 }
 
-.emotion-70 span {
+.emotion-68 span {
   color: var(--system-text-primary-dark);
 }
 
 @media screen and (max-width: ) {
-  .emotion-70 {
+  .emotion-68 {
     display: none;
   }
 }
 
-.emotion-72 {
+.emotion-70 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -652,35 +646,35 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-72 span {
+.emotion-70 span {
   color: var(--brand-button-primary-accent);
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-70 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-100 {
+.emotion-98 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-100 {
+  .emotion-98 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-99 {
+.emotion-97 {
   fill: none;
   width: 100%;
 }
 
-.emotion-107 {
+.emotion-105 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -693,18 +687,18 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-107>hr {
+.emotion-105>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-106 {
+.emotion-104 {
   margin-bottom: 1rem;
 }
 
-.emotion-101 {
+.emotion-99 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -735,12 +729,12 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background-color: var(--brand-button-primary-accent);
 }
 
-.emotion-101:hover {
+.emotion-99:hover {
   color: var(--color-black);
   background-color: var(--brand-button-primary-accent-hover);
 }
 
-.emotion-104 {
+.emotion-102 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -771,26 +765,26 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   background: transparent;
 }
 
-.dark-mode .emotion-104 {
+.dark-mode .emotion-102 {
   border-color: transparent;
 }
 
-.emotion-103 {
+.emotion-101 {
   margin-right: 0.5rem;
 }
 
-.emotion-113 {
+.emotion-111 {
   color: var(--system-text-primary-dark);
   background-color: var(--system-text-primary-light);
   z-index: 1;
 }
 
-.emotion-113 a {
+.emotion-111 a {
   color: var(--system-text-primary-dark);
   border-color: var(--system-text-primary-dark);
 }
 
-.emotion-112 {
+.emotion-110 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -808,7 +802,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-112 {
+  .emotion-110 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -820,14 +814,14 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   }
 }
 
-.emotion-108 {
+.emotion-106 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-111 {
+.emotion-109 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -841,7 +835,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   align-items: flex-end;
 }
 
-.emotion-109 {
+.emotion-107 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -858,26 +852,26 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
   max-width: 32rem;
 }
 
-.emotion-109 a {
+.emotion-107 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
 
 
-.emotion-110 p {
+.emotion-108 p {
   font-size: 0.625rem;
 }
 
 <div
-  className="emotion-114"
+  className="emotion-112"
 >
   <div
-    className=" emotion-77"
+    className=" emotion-75"
     data-swiftype-index={false}
   >
     <nav
-      className="emotion-54"
+      className="emotion-53"
     >
       <a
         className="emotion-22"
@@ -947,7 +941,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         </svg>
       </a>
       <div
-        className="emotion-53"
+        className="emotion-52"
       >
         <button
           className="emotion-45 emotion-46"
@@ -1015,10 +1009,10 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </svg>
         </button>
         <div
-          className="emotion-52"
+          className="emotion-51"
         >
           <div
-            className="emotion-51"
+            className="emotion-50"
           >
             <a
               className="emotion-47"
@@ -1028,15 +1022,6 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
               target="_blank"
             >
               Docs
-            </a>
-            <a
-              className="emotion-47"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
             </a>
             <a
               className="emotion-47"
@@ -1061,15 +1046,15 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
       </div>
     </nav>
     <div
-      className="emotion-76"
+      className="emotion-74"
     >
       <nav>
         <ul
-          className="emotion-59"
+          className="emotion-57"
         >
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1080,18 +1065,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-55"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
-            </a>
-          </li>
-          <li>
-            <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1102,7 +1076,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1114,16 +1088,16 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-75"
+        className="emotion-73"
       >
         <li
-          className="emotion-63"
+          className="emotion-61"
         >
           <div
-            className="emotion-62"
+            className="emotion-60"
           >
             <svg
-              className="emotion-60"
+              className="emotion-58"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1140,7 +1114,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-61"
+              className="emotion-59"
               onBlur={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
@@ -1150,14 +1124,14 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </div>
         </li>
         <li
-          className="emotion-69"
+          className="emotion-67"
         >
           <a
-            className="emotion-65"
+            className="emotion-63"
             href="?q="
           >
             <svg
-              className="emotion-64"
+              className="emotion-62"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1175,12 +1149,12 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
             </svg>
           </a>
           <button
-            className="emotion-67 emotion-46"
+            className="emotion-65 emotion-46"
             onClick={[Function]}
             size="extraSmall"
           >
             <svg
-              className="emotion-66"
+              className="emotion-64"
               fill="none"
               viewBox="0 0 27 27"
               xmlns="http://www.w3.org/2000/svg"
@@ -1239,10 +1213,10 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
           </button>
         </li>
         <li
-          className="emotion-74"
+          className="emotion-72"
         >
           <a
-            className="emotion-70 emotion-46"
+            className="emotion-68 emotion-46"
             href="https://one.newrelic.com"
             onClick={[Function]}
             rel="noopener"
@@ -1255,7 +1229,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
             </span>
           </a>
           <a
-            className=" emotion-72 emotion-46"
+            className=" emotion-70 emotion-46"
             href="https://newrelic.com/signup"
             onClick={[Function]}
             rel="noopener"
@@ -1276,11 +1250,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
         undefined"
   >
     <a
-      className="emotion-100"
+      className="emotion-98"
       href="/"
     >
       <svg
-        className="emotion-99"
+        className="emotion-97"
         viewBox="0 -3 171 36"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1410,7 +1384,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-107"
+    className="emotion-105"
   >
     <div
       className="undefined undefined   undefined 
@@ -1474,11 +1448,11 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
       >
         <div>
           <div
-            className="emotion-106"
+            className="emotion-104"
           >
             <div>
               <a
-                className="emotion-101 emotion-46"
+                className="emotion-99 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -1486,13 +1460,13 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-104 emotion-46"
+                className="emotion-102 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-103"
+                  className="emotion-101"
                   src="test-file-stub"
                 />
                 GitHub
@@ -1507,23 +1481,23 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-113"
+    className="emotion-111"
     data-swiftype-index={false}
   >
     <div>
       <div
-        className="emotion-112"
+        className="emotion-110"
       >
         <div
-          className="emotion-108"
+          className="emotion-106"
         >
           Copyright © 2024 New Relic Inc.
         </div>
         <div
-          className="emotion-111"
+          className="emotion-109"
         >
           <div
-            className="emotion-109"
+            className="emotion-107"
           >
             <a
               href="https://newrelic.com/about/careers"
@@ -1575,7 +1549,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
             </a>
           </div>
           <div
-            className=" emotion-110"
+            className=" emotion-108"
           >
             <p>
               This site is protected by reCAPTCHA and the Google
@@ -1603,7 +1577,7 @@ exports[`Adopt OpenJDK Renders correctly 1`] = `
 `;
 
 exports[`Open Telemetry Page Renders correctly 1`] = `
-.emotion-114 {
+.emotion-112 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1616,7 +1590,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-77 {
+.emotion-75 {
   display: grid;
   background-color: var(--erno-black);
   grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
@@ -1631,33 +1605,27 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1150px) and (min-width: 1070px) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
-.dark-mode .emotion-77 {
+.dark-mode .emotion-75 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-54 {
+.emotion-53 {
   grid-area: logo;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1708,7 +1676,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   fill: var(--primary-text-color);
 }
 
-.emotion-53 {
+.emotion-52 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1722,7 +1690,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-53 {
+  .emotion-52 {
     display: block;
   }
 }
@@ -1763,7 +1731,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-52 {
+.emotion-51 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   position: absolute;
@@ -1776,11 +1744,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-52 {
+.dark-mode .emotion-51 {
   background-color: var(--primary-hover-color);
 }
 
-.emotion-52::before {
+.emotion-51::before {
   content: '';
   position: absolute;
   display: block;
@@ -1794,7 +1762,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-51 {
+.emotion-50 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
@@ -1822,7 +1790,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-76 {
+.emotion-74 {
   grid-area: nav;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1831,13 +1799,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   width: 100%;
   max-width: var(--site-max-width);
   margin: auto;
 }
 
-.emotion-59 {
+.emotion-57 {
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1850,23 +1818,23 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 
 
 
-.emotion-59 li >a {
+.emotion-57 li >a {
   font-size: 18px;
 }
 
 
 
-.emotion-59 li:first-of-type >a {
+.emotion-57 li:first-of-type >a {
   padding-left: 0px;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-59 {
+  .emotion-57 {
     display: none;
   }
 }
 
-.emotion-55 {
+.emotion-54 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1887,11 +1855,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-55:hover {
+.emotion-54:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-75 {
+.emotion-73 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -1910,17 +1878,17 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   justify-content: flex-end;
 }
 
-.emotion-75 >li {
+.emotion-73 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-75 >li:not(:first-of-type) .emotion-75 >li:not(:last-of-type) {
+.emotion-73 >li:not(:first-of-type) .emotion-73 >li:not(:last-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-75 {
+  .emotion-73 {
     width: 100%;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -1930,31 +1898,31 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   }
 }
 
-.emotion-63 {
+.emotion-61 {
   margin: 0rem 1rem;
   width: 100%;
   max-width: 320px;
 }
 
 @media screen and (max-width: 930px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-right: 1rem;
   }
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-63 {
+  .emotion-61 {
     display: none;
   }
 }
 
-.emotion-62 {
+.emotion-60 {
   --horizontal-spacing: 1rem;
   position: relative;
   width: 100%;
@@ -1964,17 +1932,17 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   max-width: 450px;
 }
 
-.emotion-62 svg {
+.emotion-60 svg {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.emotion-62 input {
+.emotion-60 input {
   border: none;
   height: 40px;
 }
 
-.emotion-60 {
+.emotion-58 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -1991,7 +1959,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-61 {
+.emotion-59 {
   width: 100%;
   border: 1px solid var(--primary-text-color);
   border-radius: 4px;
@@ -2009,13 +1977,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   padding-bottom: 0.5rem;
 }
 
-.emotion-61:focus {
+.emotion-59:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-69 {
+.emotion-67 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2026,7 +1994,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 460px) {
-  .emotion-69 {
+  .emotion-67 {
     width: 100%;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
@@ -2035,7 +2003,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   }
 }
 
-.emotion-65 {
+.emotion-63 {
   color: var(--system-text-primary-dark);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -2047,18 +2015,18 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     display: block;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     padding-right: 0.25rem;
   }
 }
 
-.emotion-64 {
+.emotion-62 {
   width: 1.5rem;
   height: 1.5rem;
   fill: none;
@@ -2070,7 +2038,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   display: block;
 }
 
-.emotion-67 {
+.emotion-65 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2105,12 +2073,12 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 450px) {
-  .emotion-67 {
+  .emotion-65 {
     padding: 0;
   }
 }
 
-.emotion-66 {
+.emotion-64 {
   width: 27px;
   height: 27px;
   stroke: currentColor;
@@ -2122,29 +2090,29 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   color: var(--system-text-primary-dark);
 }
 
-.emotion-66 path {
+.emotion-64 path {
   fill: currentColor;
 }
 
-.emotion-66 path {
+.emotion-64 path {
   -webkit-transition: -webkit-transform 250ms;
   transition: transform 250ms;
   transform-origin: center;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 {
+.dark-mode .emotion-64 {
   opacity: 0.8;
   -webkit-transition: opacity 250ms;
   transition: opacity 250ms;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 line {
+.dark-mode .emotion-64 line {
   stroke-linecap: butt;
 }
 
-.dark-mode .emotion-66 path {
+.dark-mode .emotion-64 path {
   -webkit-transform: rotate(0.5turn) translate(3%, 3%);
   -moz-transform: rotate(0.5turn) translate(3%, 3%);
   -ms-transform: rotate(0.5turn) translate(3%, 3%);
@@ -2156,12 +2124,12 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: ) {
-  .emotion-66 {
+  .emotion-64 {
     margin: 0;
   }
 }
 
-.emotion-74 {
+.emotion-72 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2175,7 +2143,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   flex-direction: row;
 }
 
-.emotion-70 {
+.emotion-68 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2209,17 +2177,17 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   font-size: 18px;
 }
 
-.emotion-70 span {
+.emotion-68 span {
   color: var(--system-text-primary-dark);
 }
 
 @media screen and (max-width: ) {
-  .emotion-70 {
+  .emotion-68 {
     display: none;
   }
 }
 
-.emotion-72 {
+.emotion-70 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2254,35 +2222,35 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-72 span {
+.emotion-70 span {
   color: var(--brand-button-primary-accent);
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-70 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-100 {
+.emotion-98 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-100 {
+  .emotion-98 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-99 {
+.emotion-97 {
   fill: none;
   width: 100%;
 }
 
-.emotion-107 {
+.emotion-105 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -2295,18 +2263,18 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-107>hr {
+.emotion-105>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-106 {
+.emotion-104 {
   margin-bottom: 1rem;
 }
 
-.emotion-101 {
+.emotion-99 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2337,12 +2305,12 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background-color: var(--brand-button-primary-accent);
 }
 
-.emotion-101:hover {
+.emotion-99:hover {
   color: var(--color-black);
   background-color: var(--brand-button-primary-accent-hover);
 }
 
-.emotion-104 {
+.emotion-102 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -2373,26 +2341,26 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   background: transparent;
 }
 
-.dark-mode .emotion-104 {
+.dark-mode .emotion-102 {
   border-color: transparent;
 }
 
-.emotion-103 {
+.emotion-101 {
   margin-right: 0.5rem;
 }
 
-.emotion-113 {
+.emotion-111 {
   color: var(--system-text-primary-dark);
   background-color: var(--system-text-primary-light);
   z-index: 1;
 }
 
-.emotion-113 a {
+.emotion-111 a {
   color: var(--system-text-primary-dark);
   border-color: var(--system-text-primary-dark);
 }
 
-.emotion-112 {
+.emotion-110 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -2410,7 +2378,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-112 {
+  .emotion-110 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -2422,14 +2390,14 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   }
 }
 
-.emotion-108 {
+.emotion-106 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-111 {
+.emotion-109 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2443,7 +2411,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   align-items: flex-end;
 }
 
-.emotion-109 {
+.emotion-107 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2460,26 +2428,26 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
   max-width: 32rem;
 }
 
-.emotion-109 a {
+.emotion-107 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
 
 
-.emotion-110 p {
+.emotion-108 p {
   font-size: 0.625rem;
 }
 
 <div
-  className="emotion-114"
+  className="emotion-112"
 >
   <div
-    className=" emotion-77"
+    className=" emotion-75"
     data-swiftype-index={false}
   >
     <nav
-      className="emotion-54"
+      className="emotion-53"
     >
       <a
         className="emotion-22"
@@ -2549,7 +2517,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         </svg>
       </a>
       <div
-        className="emotion-53"
+        className="emotion-52"
       >
         <button
           className="emotion-45 emotion-46"
@@ -2617,10 +2585,10 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </svg>
         </button>
         <div
-          className="emotion-52"
+          className="emotion-51"
         >
           <div
-            className="emotion-51"
+            className="emotion-50"
           >
             <a
               className="emotion-47"
@@ -2630,15 +2598,6 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
               target="_blank"
             >
               Docs
-            </a>
-            <a
-              className="emotion-47"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
             </a>
             <a
               className="emotion-47"
@@ -2663,15 +2622,15 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
       </div>
     </nav>
     <div
-      className="emotion-76"
+      className="emotion-74"
     >
       <nav>
         <ul
-          className="emotion-59"
+          className="emotion-57"
         >
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -2682,18 +2641,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-55"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
-            </a>
-          </li>
-          <li>
-            <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -2704,7 +2652,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -2716,16 +2664,16 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-75"
+        className="emotion-73"
       >
         <li
-          className="emotion-63"
+          className="emotion-61"
         >
           <div
-            className="emotion-62"
+            className="emotion-60"
           >
             <svg
-              className="emotion-60"
+              className="emotion-58"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2742,7 +2690,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-61"
+              className="emotion-59"
               onBlur={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
@@ -2752,14 +2700,14 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </div>
         </li>
         <li
-          className="emotion-69"
+          className="emotion-67"
         >
           <a
-            className="emotion-65"
+            className="emotion-63"
             href="?q="
           >
             <svg
-              className="emotion-64"
+              className="emotion-62"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -2777,12 +2725,12 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
             </svg>
           </a>
           <button
-            className="emotion-67 emotion-46"
+            className="emotion-65 emotion-46"
             onClick={[Function]}
             size="extraSmall"
           >
             <svg
-              className="emotion-66"
+              className="emotion-64"
               fill="none"
               viewBox="0 0 27 27"
               xmlns="http://www.w3.org/2000/svg"
@@ -2841,10 +2789,10 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
           </button>
         </li>
         <li
-          className="emotion-74"
+          className="emotion-72"
         >
           <a
-            className="emotion-70 emotion-46"
+            className="emotion-68 emotion-46"
             href="https://one.newrelic.com"
             onClick={[Function]}
             rel="noopener"
@@ -2857,7 +2805,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
             </span>
           </a>
           <a
-            className=" emotion-72 emotion-46"
+            className=" emotion-70 emotion-46"
             href="https://newrelic.com/signup"
             onClick={[Function]}
             rel="noopener"
@@ -2878,11 +2826,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
         undefined"
   >
     <a
-      className="emotion-100"
+      className="emotion-98"
       href="/"
     >
       <svg
-        className="emotion-99"
+        className="emotion-97"
         viewBox="0 -3 171 36"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -3012,7 +2960,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-107"
+    className="emotion-105"
   >
     <div
       className="undefined undefined   undefined 
@@ -3076,11 +3024,11 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
       >
         <div>
           <div
-            className="emotion-106"
+            className="emotion-104"
           >
             <div>
               <a
-                className="emotion-101 emotion-46"
+                className="emotion-99 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -3088,13 +3036,13 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-104 emotion-46"
+                className="emotion-102 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-103"
+                  className="emotion-101"
                   src="test-file-stub"
                 />
                 GitHub
@@ -3109,23 +3057,23 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-113"
+    className="emotion-111"
     data-swiftype-index={false}
   >
     <div>
       <div
-        className="emotion-112"
+        className="emotion-110"
       >
         <div
-          className="emotion-108"
+          className="emotion-106"
         >
           Copyright © 2024 New Relic Inc.
         </div>
         <div
-          className="emotion-111"
+          className="emotion-109"
         >
           <div
-            className="emotion-109"
+            className="emotion-107"
           >
             <a
               href="https://newrelic.com/about/careers"
@@ -3177,7 +3125,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
             </a>
           </div>
           <div
-            className=" emotion-110"
+            className=" emotion-108"
           >
             <p>
               This site is protected by reCAPTCHA and the Google
@@ -3205,7 +3153,7 @@ exports[`Open Telemetry Page Renders correctly 1`] = `
 `;
 
 exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
-.emotion-120 {
+.emotion-118 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3218,7 +3166,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-77 {
+.emotion-75 {
   display: grid;
   background-color: var(--erno-black);
   grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
@@ -3233,33 +3181,27 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1150px) and (min-width: 1070px) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
-.dark-mode .emotion-77 {
+.dark-mode .emotion-75 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-54 {
+.emotion-53 {
   grid-area: logo;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3310,7 +3252,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   fill: var(--primary-text-color);
 }
 
-.emotion-53 {
+.emotion-52 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3324,7 +3266,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-53 {
+  .emotion-52 {
     display: block;
   }
 }
@@ -3365,7 +3307,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-52 {
+.emotion-51 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   position: absolute;
@@ -3378,11 +3320,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-52 {
+.dark-mode .emotion-51 {
   background-color: var(--primary-hover-color);
 }
 
-.emotion-52::before {
+.emotion-51::before {
   content: '';
   position: absolute;
   display: block;
@@ -3396,7 +3338,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-51 {
+.emotion-50 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
@@ -3424,7 +3366,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-76 {
+.emotion-74 {
   grid-area: nav;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3433,13 +3375,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   width: 100%;
   max-width: var(--site-max-width);
   margin: auto;
 }
 
-.emotion-59 {
+.emotion-57 {
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3452,23 +3394,23 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 
 
 
-.emotion-59 li >a {
+.emotion-57 li >a {
   font-size: 18px;
 }
 
 
 
-.emotion-59 li:first-of-type >a {
+.emotion-57 li:first-of-type >a {
   padding-left: 0px;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-59 {
+  .emotion-57 {
     display: none;
   }
 }
 
-.emotion-55 {
+.emotion-54 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3489,11 +3431,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-55:hover {
+.emotion-54:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-75 {
+.emotion-73 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -3512,17 +3454,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   justify-content: flex-end;
 }
 
-.emotion-75 >li {
+.emotion-73 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-75 >li:not(:first-of-type) .emotion-75 >li:not(:last-of-type) {
+.emotion-73 >li:not(:first-of-type) .emotion-73 >li:not(:last-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-75 {
+  .emotion-73 {
     width: 100%;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -3532,31 +3474,31 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-63 {
+.emotion-61 {
   margin: 0rem 1rem;
   width: 100%;
   max-width: 320px;
 }
 
 @media screen and (max-width: 930px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-right: 1rem;
   }
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-63 {
+  .emotion-61 {
     display: none;
   }
 }
 
-.emotion-62 {
+.emotion-60 {
   --horizontal-spacing: 1rem;
   position: relative;
   width: 100%;
@@ -3566,17 +3508,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   max-width: 450px;
 }
 
-.emotion-62 svg {
+.emotion-60 svg {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.emotion-62 input {
+.emotion-60 input {
   border: none;
   height: 40px;
 }
 
-.emotion-60 {
+.emotion-58 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -3593,7 +3535,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-61 {
+.emotion-59 {
   width: 100%;
   border: 1px solid var(--primary-text-color);
   border-radius: 4px;
@@ -3611,13 +3553,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding-bottom: 0.5rem;
 }
 
-.emotion-61:focus {
+.emotion-59:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-69 {
+.emotion-67 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3628,7 +3570,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 460px) {
-  .emotion-69 {
+  .emotion-67 {
     width: 100%;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
@@ -3637,7 +3579,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-65 {
+.emotion-63 {
   color: var(--system-text-primary-dark);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -3649,18 +3591,18 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     display: block;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     padding-right: 0.25rem;
   }
 }
 
-.emotion-64 {
+.emotion-62 {
   width: 1.5rem;
   height: 1.5rem;
   fill: none;
@@ -3672,7 +3614,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   display: block;
 }
 
-.emotion-67 {
+.emotion-65 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3707,12 +3649,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 450px) {
-  .emotion-67 {
+  .emotion-65 {
     padding: 0;
   }
 }
 
-.emotion-66 {
+.emotion-64 {
   width: 27px;
   height: 27px;
   stroke: currentColor;
@@ -3724,29 +3666,29 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   color: var(--system-text-primary-dark);
 }
 
-.emotion-66 path {
+.emotion-64 path {
   fill: currentColor;
 }
 
-.emotion-66 path {
+.emotion-64 path {
   -webkit-transition: -webkit-transform 250ms;
   transition: transform 250ms;
   transform-origin: center;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 {
+.dark-mode .emotion-64 {
   opacity: 0.8;
   -webkit-transition: opacity 250ms;
   transition: opacity 250ms;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 line {
+.dark-mode .emotion-64 line {
   stroke-linecap: butt;
 }
 
-.dark-mode .emotion-66 path {
+.dark-mode .emotion-64 path {
   -webkit-transform: rotate(0.5turn) translate(3%, 3%);
   -moz-transform: rotate(0.5turn) translate(3%, 3%);
   -ms-transform: rotate(0.5turn) translate(3%, 3%);
@@ -3758,12 +3700,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width: ) {
-  .emotion-66 {
+  .emotion-64 {
     margin: 0;
   }
 }
 
-.emotion-74 {
+.emotion-72 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3777,7 +3719,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex-direction: row;
 }
 
-.emotion-70 {
+.emotion-68 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3811,17 +3753,17 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   font-size: 18px;
 }
 
-.emotion-70 span {
+.emotion-68 span {
   color: var(--system-text-primary-dark);
 }
 
 @media screen and (max-width: ) {
-  .emotion-70 {
+  .emotion-68 {
     display: none;
   }
 }
 
-.emotion-72 {
+.emotion-70 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3856,35 +3798,35 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-72 span {
+.emotion-70 span {
   color: var(--brand-button-primary-accent);
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-70 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-100 {
+.emotion-98 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-100 {
+  .emotion-98 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-99 {
+.emotion-97 {
   fill: none;
   width: 100%;
 }
 
-.emotion-113 {
+.emotion-111 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -3897,18 +3839,18 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   flex-shrink: 0;
 }
 
-.emotion-113>hr {
+.emotion-111>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-106 {
+.emotion-104 {
   margin-bottom: 1rem;
 }
 
-.emotion-101 {
+.emotion-99 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3939,12 +3881,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background-color: var(--brand-button-primary-accent);
 }
 
-.emotion-101:hover {
+.emotion-99:hover {
   color: var(--color-black);
   background-color: var(--brand-button-primary-accent-hover);
 }
 
-.emotion-104 {
+.emotion-102 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -3975,26 +3917,26 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   background: transparent;
 }
 
-.dark-mode .emotion-104 {
+.dark-mode .emotion-102 {
   border-color: transparent;
 }
 
-.emotion-103 {
+.emotion-101 {
   margin-right: 0.5rem;
 }
 
-.emotion-119 {
+.emotion-117 {
   color: var(--system-text-primary-dark);
   background-color: var(--system-text-primary-light);
   z-index: 1;
 }
 
-.emotion-119 a {
+.emotion-117 a {
   color: var(--system-text-primary-dark);
   border-color: var(--system-text-primary-dark);
 }
 
-.emotion-118 {
+.emotion-116 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -4012,7 +3954,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-118 {
+  .emotion-116 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -4024,14 +3966,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   }
 }
 
-.emotion-114 {
+.emotion-112 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-117 {
+.emotion-115 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4045,7 +3987,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   align-items: flex-end;
 }
 
-.emotion-115 {
+.emotion-113 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4062,31 +4004,31 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
   max-width: 32rem;
 }
 
-.emotion-115 a {
+.emotion-113 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
 
 
-.emotion-116 p {
+.emotion-114 p {
   font-size: 0.625rem;
 }
 
-.emotion-107 {
+.emotion-105 {
   -webkit-text-decoration: none;
   text-decoration: none;
 }
 
 <div
-  className="emotion-120"
+  className="emotion-118"
 >
   <div
-    className=" emotion-77"
+    className=" emotion-75"
     data-swiftype-index={false}
   >
     <nav
-      className="emotion-54"
+      className="emotion-53"
     >
       <a
         className="emotion-22"
@@ -4156,7 +4098,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </svg>
       </a>
       <div
-        className="emotion-53"
+        className="emotion-52"
       >
         <button
           className="emotion-45 emotion-46"
@@ -4224,10 +4166,10 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </svg>
         </button>
         <div
-          className="emotion-52"
+          className="emotion-51"
         >
           <div
-            className="emotion-51"
+            className="emotion-50"
           >
             <a
               className="emotion-47"
@@ -4237,15 +4179,6 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
               target="_blank"
             >
               Docs
-            </a>
-            <a
-              className="emotion-47"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
             </a>
             <a
               className="emotion-47"
@@ -4270,15 +4203,15 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
       </div>
     </nav>
     <div
-      className="emotion-76"
+      className="emotion-74"
     >
       <nav>
         <ul
-          className="emotion-59"
+          className="emotion-57"
         >
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -4289,18 +4222,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-55"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
-            </a>
-          </li>
-          <li>
-            <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -4311,7 +4233,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -4323,16 +4245,16 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-75"
+        className="emotion-73"
       >
         <li
-          className="emotion-63"
+          className="emotion-61"
         >
           <div
-            className="emotion-62"
+            className="emotion-60"
           >
             <svg
-              className="emotion-60"
+              className="emotion-58"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -4349,7 +4271,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-61"
+              className="emotion-59"
               onBlur={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
@@ -4359,14 +4281,14 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </div>
         </li>
         <li
-          className="emotion-69"
+          className="emotion-67"
         >
           <a
-            className="emotion-65"
+            className="emotion-63"
             href="?q="
           >
             <svg
-              className="emotion-64"
+              className="emotion-62"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -4384,12 +4306,12 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
             </svg>
           </a>
           <button
-            className="emotion-67 emotion-46"
+            className="emotion-65 emotion-46"
             onClick={[Function]}
             size="extraSmall"
           >
             <svg
-              className="emotion-66"
+              className="emotion-64"
               fill="none"
               viewBox="0 0 27 27"
               xmlns="http://www.w3.org/2000/svg"
@@ -4448,10 +4370,10 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           </button>
         </li>
         <li
-          className="emotion-74"
+          className="emotion-72"
         >
           <a
-            className="emotion-70 emotion-46"
+            className="emotion-68 emotion-46"
             href="https://one.newrelic.com"
             onClick={[Function]}
             rel="noopener"
@@ -4464,7 +4386,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
             </span>
           </a>
           <a
-            className=" emotion-72 emotion-46"
+            className=" emotion-70 emotion-46"
             href="https://newrelic.com/signup"
             onClick={[Function]}
             rel="noopener"
@@ -4485,11 +4407,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
         undefined"
   >
     <a
-      className="emotion-100"
+      className="emotion-98"
       href="/"
     >
       <svg
-        className="emotion-99"
+        className="emotion-97"
         viewBox="0 -3 171 36"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -4619,7 +4541,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-113"
+    className="emotion-111"
   >
     <div
       className="undefined undefined   undefined 
@@ -4683,11 +4605,11 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
       >
         <div>
           <div
-            className="emotion-106"
+            className="emotion-104"
           >
             <div>
               <a
-                className="emotion-101 emotion-46"
+                className="emotion-99 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
                 target="__blank"
@@ -4695,13 +4617,13 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
                 View Website
               </a>
               <a
-                className="emotion-104 emotion-46"
+                className="emotion-102 emotion-46"
                 href="https://github.com/AdoptOpenJDK"
                 rel="noopener noreferrer"
               >
                 <img
                   alt="GitHub logo"
-                  className="emotion-103"
+                  className="emotion-101"
                   src="test-file-stub"
                 />
                 GitHub
@@ -4713,7 +4635,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           Involved from New Relic
         </h4>
         <a
-          className="undefined  emotion-107"
+          className="undefined  emotion-105"
           href="https://github.com/kittylyst"
           target="__blank"
         >
@@ -4734,7 +4656,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-107"
+          className="undefined  emotion-105"
           href="https://github.com/breedx-nr"
           target="__blank"
         >
@@ -4755,7 +4677,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-107"
+          className="undefined  emotion-105"
           href="https://github.com/jasonrclark"
           target="__blank"
         >
@@ -4776,7 +4698,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-107"
+          className="undefined  emotion-105"
           href="https://github.com/tmancill"
           target="__blank"
         >
@@ -4797,7 +4719,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-107"
+          className="undefined  emotion-105"
           href="https://github.com/cameronhotchkies"
           target="__blank"
         >
@@ -4818,7 +4740,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
           />
         </a>
         <a
-          className="undefined  emotion-107"
+          className="undefined  emotion-105"
           href="https://github.com/rvanderwal-newrelic"
           target="__blank"
         >
@@ -4842,23 +4764,23 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
     </div>
   </main>
   <footer
-    className="emotion-119"
+    className="emotion-117"
     data-swiftype-index={false}
   >
     <div>
       <div
-        className="emotion-118"
+        className="emotion-116"
       >
         <div
-          className="emotion-114"
+          className="emotion-112"
         >
           Copyright © 2024 New Relic Inc.
         </div>
         <div
-          className="emotion-117"
+          className="emotion-115"
         >
           <div
-            className="emotion-115"
+            className="emotion-113"
           >
             <a
               href="https://newrelic.com/about/careers"
@@ -4910,7 +4832,7 @@ exports[`W3C Distributed Tracing Working Group Renders correctly 1`] = `
             </a>
           </div>
           <div
-            className=" emotion-116"
+            className=" emotion-114"
           >
             <p>
               This site is protected by reCAPTCHA and the Google

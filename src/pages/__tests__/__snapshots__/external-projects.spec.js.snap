@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`External Projects Page Renders correctly 1`] = `
-.emotion-108 {
+.emotion-106 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -14,7 +14,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   position: relative;
 }
 
-.emotion-77 {
+.emotion-75 {
   display: grid;
   background-color: var(--erno-black);
   grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
@@ -29,33 +29,27 @@ exports[`External Projects Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1150px) and (min-width: 1070px) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
-.dark-mode .emotion-77 {
+.dark-mode .emotion-75 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-54 {
+.emotion-53 {
   grid-area: logo;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -106,7 +100,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   fill: var(--primary-text-color);
 }
 
-.emotion-53 {
+.emotion-52 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -120,7 +114,7 @@ exports[`External Projects Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-53 {
+  .emotion-52 {
     display: block;
   }
 }
@@ -161,7 +155,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-52 {
+.emotion-51 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   position: absolute;
@@ -174,11 +168,11 @@ exports[`External Projects Page Renders correctly 1`] = `
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-52 {
+.dark-mode .emotion-51 {
   background-color: var(--primary-hover-color);
 }
 
-.emotion-52::before {
+.emotion-51::before {
   content: '';
   position: absolute;
   display: block;
@@ -192,7 +186,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   left: var(--arrow-offset);
 }
 
-.emotion-51 {
+.emotion-50 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
@@ -220,7 +214,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-76 {
+.emotion-74 {
   grid-area: nav;
   display: -webkit-box;
   display: -webkit-flex;
@@ -229,13 +223,13 @@ exports[`External Projects Page Renders correctly 1`] = `
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   width: 100%;
   max-width: var(--site-max-width);
   margin: auto;
 }
 
-.emotion-59 {
+.emotion-57 {
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -248,23 +242,23 @@ exports[`External Projects Page Renders correctly 1`] = `
 
 
 
-.emotion-59 li >a {
+.emotion-57 li >a {
   font-size: 18px;
 }
 
 
 
-.emotion-59 li:first-of-type >a {
+.emotion-57 li:first-of-type >a {
   padding-left: 0px;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-59 {
+  .emotion-57 {
     display: none;
   }
 }
 
-.emotion-55 {
+.emotion-54 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -285,11 +279,11 @@ exports[`External Projects Page Renders correctly 1`] = `
   text-decoration: none;
 }
 
-.emotion-55:hover {
+.emotion-54:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-75 {
+.emotion-73 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -308,17 +302,17 @@ exports[`External Projects Page Renders correctly 1`] = `
   justify-content: flex-end;
 }
 
-.emotion-75 >li {
+.emotion-73 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-75 >li:not(:first-of-type) .emotion-75 >li:not(:last-of-type) {
+.emotion-73 >li:not(:first-of-type) .emotion-73 >li:not(:last-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-75 {
+  .emotion-73 {
     width: 100%;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -328,31 +322,31 @@ exports[`External Projects Page Renders correctly 1`] = `
   }
 }
 
-.emotion-63 {
+.emotion-61 {
   margin: 0rem 1rem;
   width: 100%;
   max-width: 320px;
 }
 
 @media screen and (max-width: 930px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-right: 1rem;
   }
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-63 {
+  .emotion-61 {
     display: none;
   }
 }
 
-.emotion-62 {
+.emotion-60 {
   --horizontal-spacing: 1rem;
   position: relative;
   width: 100%;
@@ -362,17 +356,17 @@ exports[`External Projects Page Renders correctly 1`] = `
   max-width: 450px;
 }
 
-.emotion-62 svg {
+.emotion-60 svg {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.emotion-62 input {
+.emotion-60 input {
   border: none;
   height: 40px;
 }
 
-.emotion-60 {
+.emotion-58 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -389,7 +383,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   transform: translateY(-50%);
 }
 
-.emotion-61 {
+.emotion-59 {
   width: 100%;
   border: 1px solid var(--primary-text-color);
   border-radius: 4px;
@@ -407,13 +401,13 @@ exports[`External Projects Page Renders correctly 1`] = `
   padding-bottom: 0.5rem;
 }
 
-.emotion-61:focus {
+.emotion-59:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-69 {
+.emotion-67 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -424,7 +418,7 @@ exports[`External Projects Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 460px) {
-  .emotion-69 {
+  .emotion-67 {
     width: 100%;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
@@ -433,7 +427,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   }
 }
 
-.emotion-65 {
+.emotion-63 {
   color: var(--system-text-primary-dark);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -445,18 +439,18 @@ exports[`External Projects Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     display: block;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     padding-right: 0.25rem;
   }
 }
 
-.emotion-64 {
+.emotion-62 {
   width: 1.5rem;
   height: 1.5rem;
   fill: none;
@@ -468,7 +462,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   display: block;
 }
 
-.emotion-67 {
+.emotion-65 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -503,12 +497,12 @@ exports[`External Projects Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 450px) {
-  .emotion-67 {
+  .emotion-65 {
     padding: 0;
   }
 }
 
-.emotion-66 {
+.emotion-64 {
   width: 27px;
   height: 27px;
   stroke: currentColor;
@@ -520,29 +514,29 @@ exports[`External Projects Page Renders correctly 1`] = `
   color: var(--system-text-primary-dark);
 }
 
-.emotion-66 path {
+.emotion-64 path {
   fill: currentColor;
 }
 
-.emotion-66 path {
+.emotion-64 path {
   -webkit-transition: -webkit-transform 250ms;
   transition: transform 250ms;
   transform-origin: center;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 {
+.dark-mode .emotion-64 {
   opacity: 0.8;
   -webkit-transition: opacity 250ms;
   transition: opacity 250ms;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 line {
+.dark-mode .emotion-64 line {
   stroke-linecap: butt;
 }
 
-.dark-mode .emotion-66 path {
+.dark-mode .emotion-64 path {
   -webkit-transform: rotate(0.5turn) translate(3%, 3%);
   -moz-transform: rotate(0.5turn) translate(3%, 3%);
   -ms-transform: rotate(0.5turn) translate(3%, 3%);
@@ -554,12 +548,12 @@ exports[`External Projects Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: ) {
-  .emotion-66 {
+  .emotion-64 {
     margin: 0;
   }
 }
 
-.emotion-74 {
+.emotion-72 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -573,7 +567,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   flex-direction: row;
 }
 
-.emotion-70 {
+.emotion-68 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -607,17 +601,17 @@ exports[`External Projects Page Renders correctly 1`] = `
   font-size: 18px;
 }
 
-.emotion-70 span {
+.emotion-68 span {
   color: var(--system-text-primary-dark);
 }
 
 @media screen and (max-width: ) {
-  .emotion-70 {
+  .emotion-68 {
     display: none;
   }
 }
 
-.emotion-72 {
+.emotion-70 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -652,35 +646,35 @@ exports[`External Projects Page Renders correctly 1`] = `
   padding-right: 0;
 }
 
-.emotion-72 span {
+.emotion-70 span {
   color: var(--brand-button-primary-accent);
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-70 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-100 {
+.emotion-98 {
   display: block;
   width: 257px;
 }
 
 @media screen and (max-width: 724px) {
-  .emotion-100 {
+  .emotion-98 {
     width: 160px;
     z-index: 500;
   }
 }
 
-.emotion-99 {
+.emotion-97 {
   fill: none;
   width: 100%;
 }
 
-.emotion-101 {
+.emotion-99 {
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
@@ -694,25 +688,25 @@ exports[`External Projects Page Renders correctly 1`] = `
   max-width: 1180px;
 }
 
-.emotion-101>hr {
+.emotion-99>hr {
   height: 2px;
   margin: 36px 0;
   background-color: var(--color-neutrals-200);
   border: none;
 }
 
-.emotion-107 {
+.emotion-105 {
   color: var(--system-text-primary-dark);
   background-color: var(--system-text-primary-light);
   z-index: 1;
 }
 
-.emotion-107 a {
+.emotion-105 a {
   color: var(--system-text-primary-dark);
   border-color: var(--system-text-primary-dark);
 }
 
-.emotion-106 {
+.emotion-104 {
   font-size: 0.75rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -730,7 +724,7 @@ exports[`External Projects Page Renders correctly 1`] = `
 }
 
 @media screen and (max-width: 760px) {
-  .emotion-106 {
+  .emotion-104 {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -742,14 +736,14 @@ exports[`External Projects Page Renders correctly 1`] = `
   }
 }
 
-.emotion-102 {
+.emotion-100 {
   grid-area: copyright;
   text-transform: uppercase;
   font-size: 0.5rem;
   letter-spacing: 0.1rem;
 }
 
-.emotion-105 {
+.emotion-103 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -763,7 +757,7 @@ exports[`External Projects Page Renders correctly 1`] = `
   align-items: flex-end;
 }
 
-.emotion-103 {
+.emotion-101 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -780,26 +774,26 @@ exports[`External Projects Page Renders correctly 1`] = `
   max-width: 32rem;
 }
 
-.emotion-103 a {
+.emotion-101 a {
   margin-left: 0.75rem;
   white-space: nowrap;
 }
 
 
 
-.emotion-104 p {
+.emotion-102 p {
   font-size: 0.625rem;
 }
 
 <div
-  className="emotion-108"
+  className="emotion-106"
 >
   <div
-    className=" emotion-77"
+    className=" emotion-75"
     data-swiftype-index={false}
   >
     <nav
-      className="emotion-54"
+      className="emotion-53"
     >
       <a
         className="emotion-22"
@@ -869,7 +863,7 @@ exports[`External Projects Page Renders correctly 1`] = `
         </svg>
       </a>
       <div
-        className="emotion-53"
+        className="emotion-52"
       >
         <button
           className="emotion-45 emotion-46"
@@ -937,10 +931,10 @@ exports[`External Projects Page Renders correctly 1`] = `
           </svg>
         </button>
         <div
-          className="emotion-52"
+          className="emotion-51"
         >
           <div
-            className="emotion-51"
+            className="emotion-50"
           >
             <a
               className="emotion-47"
@@ -950,15 +944,6 @@ exports[`External Projects Page Renders correctly 1`] = `
               target="_blank"
             >
               Docs
-            </a>
-            <a
-              className="emotion-47"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
             </a>
             <a
               className="emotion-47"
@@ -983,15 +968,15 @@ exports[`External Projects Page Renders correctly 1`] = `
       </div>
     </nav>
     <div
-      className="emotion-76"
+      className="emotion-74"
     >
       <nav>
         <ul
-          className="emotion-59"
+          className="emotion-57"
         >
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1002,18 +987,7 @@ exports[`External Projects Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-55"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
-            </a>
-          </li>
-          <li>
-            <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1024,7 +998,7 @@ exports[`External Projects Page Renders correctly 1`] = `
           </li>
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -1036,16 +1010,16 @@ exports[`External Projects Page Renders correctly 1`] = `
         </ul>
       </nav>
       <ul
-        className="emotion-75"
+        className="emotion-73"
       >
         <li
-          className="emotion-63"
+          className="emotion-61"
         >
           <div
-            className="emotion-62"
+            className="emotion-60"
           >
             <svg
-              className="emotion-60"
+              className="emotion-58"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1062,7 +1036,7 @@ exports[`External Projects Page Renders correctly 1`] = `
               />
             </svg>
             <input
-              className="emotion-61"
+              className="emotion-59"
               onBlur={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
@@ -1072,14 +1046,14 @@ exports[`External Projects Page Renders correctly 1`] = `
           </div>
         </li>
         <li
-          className="emotion-69"
+          className="emotion-67"
         >
           <a
-            className="emotion-65"
+            className="emotion-63"
             href="?q="
           >
             <svg
-              className="emotion-64"
+              className="emotion-62"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -1097,12 +1071,12 @@ exports[`External Projects Page Renders correctly 1`] = `
             </svg>
           </a>
           <button
-            className="emotion-67 emotion-46"
+            className="emotion-65 emotion-46"
             onClick={[Function]}
             size="extraSmall"
           >
             <svg
-              className="emotion-66"
+              className="emotion-64"
               fill="none"
               viewBox="0 0 27 27"
               xmlns="http://www.w3.org/2000/svg"
@@ -1161,10 +1135,10 @@ exports[`External Projects Page Renders correctly 1`] = `
           </button>
         </li>
         <li
-          className="emotion-74"
+          className="emotion-72"
         >
           <a
-            className="emotion-70 emotion-46"
+            className="emotion-68 emotion-46"
             href="https://one.newrelic.com"
             onClick={[Function]}
             rel="noopener"
@@ -1177,7 +1151,7 @@ exports[`External Projects Page Renders correctly 1`] = `
             </span>
           </a>
           <a
-            className=" emotion-72 emotion-46"
+            className=" emotion-70 emotion-46"
             href="https://newrelic.com/signup"
             onClick={[Function]}
             rel="noopener"
@@ -1198,11 +1172,11 @@ exports[`External Projects Page Renders correctly 1`] = `
         "
   >
     <a
-      className="emotion-100"
+      className="emotion-98"
       href="/"
     >
       <svg
-        className="emotion-99"
+        className="emotion-97"
         viewBox="0 -3 171 36"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -1332,7 +1306,7 @@ exports[`External Projects Page Renders correctly 1`] = `
     </div>
   </header>
   <main
-    className="emotion-101"
+    className="emotion-99"
   >
     <div
       className="undefined     
@@ -1349,23 +1323,23 @@ exports[`External Projects Page Renders correctly 1`] = `
     <div />
   </main>
   <footer
-    className="emotion-107"
+    className="emotion-105"
     data-swiftype-index={false}
   >
     <div>
       <div
-        className="emotion-106"
+        className="emotion-104"
       >
         <div
-          className="emotion-102"
+          className="emotion-100"
         >
           Copyright © 2024 New Relic Inc.
         </div>
         <div
-          className="emotion-105"
+          className="emotion-103"
         >
           <div
-            className="emotion-103"
+            className="emotion-101"
           >
             <a
               href="https://newrelic.com/about/careers"
@@ -1417,7 +1391,7 @@ exports[`External Projects Page Renders correctly 1`] = `
             </a>
           </div>
           <div
-            className=" emotion-104"
+            className=" emotion-102"
           >
             <p>
               This site is protected by reCAPTCHA and the Google

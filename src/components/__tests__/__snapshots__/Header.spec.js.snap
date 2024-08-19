@@ -2,7 +2,7 @@
 
 exports[`Header renders correctly 1`] = `
 Array [
-  .emotion-77 {
+  .emotion-75 {
   display: grid;
   background-color: var(--erno-black);
   grid-template-columns: var(--sidebar-width) minmax(0, 1fr);
@@ -17,33 +17,27 @@ Array [
 }
 
 @media screen and (max-width: 1150px) and (min-width: 1070px) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-77 {
-    grid-template-columns: calc(150px + var(--site-content-padding)) minmax(
-                0,
-                1fr
-              );
+  .emotion-75 {
+    grid-template-columns: calc(150px + 1.5rem) minmax(0, 1fr);
   }
 }
 
-.dark-mode .emotion-77 {
+.dark-mode .emotion-75 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
   --color-neutrals-600: #8e9494;
 }
 
-.emotion-54 {
+.emotion-53 {
   grid-area: logo;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -94,7 +88,7 @@ Array [
   fill: var(--primary-text-color);
 }
 
-.emotion-53 {
+.emotion-52 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -108,7 +102,7 @@ Array [
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-53 {
+  .emotion-52 {
     display: block;
   }
 }
@@ -149,7 +143,7 @@ Array [
   padding-right: 0;
 }
 
-.emotion-52 {
+.emotion-51 {
   --arrow-size: 5px;
   --arrow-offset: 0.5rem;
   position: absolute;
@@ -162,11 +156,11 @@ Array [
   box-shadow: 0 3px 8px 0 rgba(22, 38, 59, 0.2);
 }
 
-.dark-mode .emotion-52 {
+.dark-mode .emotion-51 {
   background-color: var(--primary-hover-color);
 }
 
-.emotion-52::before {
+.emotion-51::before {
   content: '';
   position: absolute;
   display: block;
@@ -180,7 +174,7 @@ Array [
   left: var(--arrow-offset);
 }
 
-.emotion-51 {
+.emotion-50 {
   max-height: 20rem;
   min-width: 100px;
   overflow-y: auto;
@@ -208,7 +202,7 @@ Array [
   background-color: var(--system-border-regular-dark);
 }
 
-.emotion-76 {
+.emotion-74 {
   grid-area: nav;
   display: -webkit-box;
   display: -webkit-flex;
@@ -217,13 +211,13 @@ Array [
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   justify-content: space-between;
-  padding: 0 var(--site-content-padding);
+  padding: 0 1.5rem;
   width: 100%;
   max-width: var(--site-max-width);
   margin: auto;
 }
 
-.emotion-59 {
+.emotion-57 {
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -236,23 +230,23 @@ Array [
 
 
 
-.emotion-59 li >a {
+.emotion-57 li >a {
   font-size: 18px;
 }
 
 
 
-.emotion-59 li:first-of-type >a {
+.emotion-57 li:first-of-type >a {
   padding-left: 0px;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-59 {
+  .emotion-57 {
     display: none;
   }
 }
 
-.emotion-55 {
+.emotion-54 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -273,11 +267,11 @@ Array [
   text-decoration: none;
 }
 
-.emotion-55:hover {
+.emotion-54:hover {
   color: var(--system-text-secondary-dark);
 }
 
-.emotion-75 {
+.emotion-73 {
   margin: 0;
   margin-left: 1rem;
   padding: 0;
@@ -296,17 +290,17 @@ Array [
   justify-content: flex-end;
 }
 
-.emotion-75 >li {
+.emotion-73 >li {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 
-.emotion-75 >li:not(:first-of-type) .emotion-75 >li:not(:last-of-type) {
+.emotion-73 >li:not(:first-of-type) .emotion-73 >li:not(:last-of-type) {
   margin-left: 0.5rem;
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-75 {
+  .emotion-73 {
     width: 100%;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
@@ -316,31 +310,31 @@ Array [
   }
 }
 
-.emotion-63 {
+.emotion-61 {
   margin: 0rem 1rem;
   width: 100%;
   max-width: 320px;
 }
 
 @media screen and (max-width: 930px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-right: 1rem;
   }
 }
 
 @media screen and (max-width: 1070px) {
-  .emotion-63 {
+  .emotion-61 {
     margin-left: 0;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-63 {
+  .emotion-61 {
     display: none;
   }
 }
 
-.emotion-62 {
+.emotion-60 {
   --horizontal-spacing: 1rem;
   position: relative;
   width: 100%;
@@ -350,17 +344,17 @@ Array [
   max-width: 450px;
 }
 
-.emotion-62 svg {
+.emotion-60 svg {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.emotion-62 input {
+.emotion-60 input {
   border: none;
   height: 40px;
 }
 
-.emotion-60 {
+.emotion-58 {
   width: 0.875rem;
   height: 0.875rem;
   fill: none;
@@ -377,7 +371,7 @@ Array [
   transform: translateY(-50%);
 }
 
-.emotion-61 {
+.emotion-59 {
   width: 100%;
   border: 1px solid var(--primary-text-color);
   border-radius: 4px;
@@ -395,13 +389,13 @@ Array [
   padding-bottom: 0.5rem;
 }
 
-.emotion-61:focus {
+.emotion-59:focus {
   outline: none;
   border: 1px solid rgba(0, 126, 138, 0.6);
   box-shadow: 0 0 0 4px rgba(0, 126, 138, 0.1);
 }
 
-.emotion-69 {
+.emotion-67 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -412,7 +406,7 @@ Array [
 }
 
 @media screen and (max-width: 460px) {
-  .emotion-69 {
+  .emotion-67 {
     width: 100%;
     -webkit-box-pack: space-evenly;
     -ms-flex-pack: space-evenly;
@@ -421,7 +415,7 @@ Array [
   }
 }
 
-.emotion-65 {
+.emotion-63 {
   color: var(--system-text-primary-dark);
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -433,18 +427,18 @@ Array [
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     display: block;
   }
 }
 
 @media screen and (max-width: ) {
-  .emotion-65 {
+  .emotion-63 {
     padding-right: 0.25rem;
   }
 }
 
-.emotion-64 {
+.emotion-62 {
   width: 1.5rem;
   height: 1.5rem;
   fill: none;
@@ -456,7 +450,7 @@ Array [
   display: block;
 }
 
-.emotion-67 {
+.emotion-65 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -491,12 +485,12 @@ Array [
 }
 
 @media screen and (max-width: 450px) {
-  .emotion-67 {
+  .emotion-65 {
     padding: 0;
   }
 }
 
-.emotion-66 {
+.emotion-64 {
   width: 27px;
   height: 27px;
   stroke: currentColor;
@@ -508,29 +502,29 @@ Array [
   color: var(--system-text-primary-dark);
 }
 
-.emotion-66 path {
+.emotion-64 path {
   fill: currentColor;
 }
 
-.emotion-66 path {
+.emotion-64 path {
   -webkit-transition: -webkit-transform 250ms;
   transition: transform 250ms;
   transform-origin: center;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 {
+.dark-mode .emotion-64 {
   opacity: 0.8;
   -webkit-transition: opacity 250ms;
   transition: opacity 250ms;
   transition-timing-function: ease-out;
 }
 
-.dark-mode .emotion-66 line {
+.dark-mode .emotion-64 line {
   stroke-linecap: butt;
 }
 
-.dark-mode .emotion-66 path {
+.dark-mode .emotion-64 path {
   -webkit-transform: rotate(0.5turn) translate(3%, 3%);
   -moz-transform: rotate(0.5turn) translate(3%, 3%);
   -ms-transform: rotate(0.5turn) translate(3%, 3%);
@@ -542,12 +536,12 @@ Array [
 }
 
 @media screen and (max-width: ) {
-  .emotion-66 {
+  .emotion-64 {
     margin: 0;
   }
 }
 
-.emotion-74 {
+.emotion-72 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -561,7 +555,7 @@ Array [
   flex-direction: row;
 }
 
-.emotion-70 {
+.emotion-68 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -595,17 +589,17 @@ Array [
   font-size: 18px;
 }
 
-.emotion-70 span {
+.emotion-68 span {
   color: var(--system-text-primary-dark);
 }
 
 @media screen and (max-width: ) {
-  .emotion-70 {
+  .emotion-68 {
     display: none;
   }
 }
 
-.emotion-72 {
+.emotion-70 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -640,11 +634,11 @@ Array [
   padding-right: 0;
 }
 
-.emotion-72 span {
+.emotion-70 span {
   color: var(--brand-button-primary-accent);
 }
 
-.dark-mode .emotion-72 {
+.dark-mode .emotion-70 {
   --color-neutrals-050: #fafbfb;
   --color-neutrals-100: #f4f5f5;
   --color-neutrals-500: #b9bdbd;
@@ -652,11 +646,11 @@ Array [
 }
 
 <div
-    className=" emotion-77"
+    className=" emotion-75"
     data-swiftype-index={false}
   >
     <nav
-      className="emotion-54"
+      className="emotion-53"
     >
       <a
         className="emotion-22"
@@ -726,7 +720,7 @@ Array [
         </svg>
       </a>
       <div
-        className="emotion-53"
+        className="emotion-52"
       >
         <button
           className="emotion-45 emotion-46"
@@ -794,10 +788,10 @@ Array [
           </svg>
         </button>
         <div
-          className="emotion-52"
+          className="emotion-51"
         >
           <div
-            className="emotion-51"
+            className="emotion-50"
           >
             <a
               className="emotion-47"
@@ -807,15 +801,6 @@ Array [
               target="_blank"
             >
               Docs
-            </a>
-            <a
-              className="emotion-47"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
             </a>
             <a
               className="emotion-47"
@@ -840,15 +825,15 @@ Array [
       </div>
     </nav>
     <div
-      className="emotion-76"
+      className="emotion-74"
     >
       <nav>
         <ul
-          className="emotion-59"
+          className="emotion-57"
         >
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://docs.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -859,18 +844,7 @@ Array [
           </li>
           <li>
             <a
-              className="emotion-55"
-              href="https://developer.newrelic.com/"
-              onClick={[Function]}
-              rel="noopener"
-              target="_blank"
-            >
-              Developer
-            </a>
-          </li>
-          <li>
-            <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://discuss.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -881,7 +855,7 @@ Array [
           </li>
           <li>
             <a
-              className="emotion-55"
+              className="emotion-54"
               href="https://learn.newrelic.com/"
               onClick={[Function]}
               rel="noopener"
@@ -893,16 +867,16 @@ Array [
         </ul>
       </nav>
       <ul
-        className="emotion-75"
+        className="emotion-73"
       >
         <li
-          className="emotion-63"
+          className="emotion-61"
         >
           <div
-            className="emotion-62"
+            className="emotion-60"
           >
             <svg
-              className="emotion-60"
+              className="emotion-58"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -919,7 +893,7 @@ Array [
               />
             </svg>
             <input
-              className="emotion-61"
+              className="emotion-59"
               onBlur={[Function]}
               onFocus={[Function]}
               onKeyDown={[Function]}
@@ -929,14 +903,14 @@ Array [
           </div>
         </li>
         <li
-          className="emotion-69"
+          className="emotion-67"
         >
           <a
-            className="emotion-65"
+            className="emotion-63"
             href="?q="
           >
             <svg
-              className="emotion-64"
+              className="emotion-62"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -954,12 +928,12 @@ Array [
             </svg>
           </a>
           <button
-            className="emotion-67 emotion-46"
+            className="emotion-65 emotion-46"
             onClick={[Function]}
             size="extraSmall"
           >
             <svg
-              className="emotion-66"
+              className="emotion-64"
               fill="none"
               viewBox="0 0 27 27"
               xmlns="http://www.w3.org/2000/svg"
@@ -1018,10 +992,10 @@ Array [
           </button>
         </li>
         <li
-          className="emotion-74"
+          className="emotion-72"
         >
           <a
-            className="emotion-70 emotion-46"
+            className="emotion-68 emotion-46"
             href="https://one.newrelic.com"
             onClick={[Function]}
             rel="noopener"
@@ -1034,7 +1008,7 @@ Array [
             </span>
           </a>
           <a
-            className=" emotion-72 emotion-46"
+            className=" emotion-70 emotion-46"
             href="https://newrelic.com/signup"
             onClick={[Function]}
             rel="noopener"
