@@ -2673,10 +2673,10 @@
     eslint-plugin-promise "^4.2.1"
     eslint-plugin-react "^7.14.3"
 
-"@newrelic/gatsby-theme-newrelic@9.7.3":
-  version "9.7.3"
-  resolved "https://registry.yarnpkg.com/@newrelic/gatsby-theme-newrelic/-/gatsby-theme-newrelic-9.7.3.tgz#3b8dfdd52c0e130ea1b1ca95519f8b3e6f6f679c"
-  integrity sha512-t6/h99+BImEkkJpas2R9kW1nf51HST4nN2RxtVbfYwS8E7hrqPMweDYO5xL4pDhLjj7yecgPTwQlGC7LcpPbAA==
+"@newrelic/gatsby-theme-newrelic@9.8.1":
+  version "9.8.1"
+  resolved "https://registry.yarnpkg.com/@newrelic/gatsby-theme-newrelic/-/gatsby-theme-newrelic-9.8.1.tgz#969ff2f9c5f7a9a683279a14372826500c2026f1"
+  integrity sha512-PPf0yjhO5HkvICLNYp1T37g9+yU7kIE828Buhm/pLqYRrusiQFCqoU1Uia1CjVsxnJUyIE3B6c1hn9h70lSszA==
   dependencies:
     "@segment/analytics-next" "1.63.0"
     "@wry/equality" "^0.4.0"
